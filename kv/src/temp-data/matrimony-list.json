@@ -1,0 +1,51 @@
+[{
+        "id":1,
+        "name":"Narendra Modi",
+        "img":"https://i.pinimg.com/280x280_RS/14/c5/25/14c525ed5acff88249193cd22584a6c9.jpg",
+        "height":"5'6''",
+        "dob": "15-10-1991",
+        "living":"Hyderabad, India",
+        "job":{
+            "profession":"Software Professional",
+            "company":"WIPRO",
+            "location":"Benguluru"
+        },
+        "isRequestSent":true
+    },{
+        "id":2,
+        "name":"Salman Khan",
+        "img":"https://wikibio.in/wp-content/uploads/2018/12/Salman-Khan-Image-1.jpg",
+        "height":"5'6''",
+        "dob": "15-10-1991",
+        "living":"Hyderabad, India",
+        "job":{
+            "profession":"Software Professional",
+            "company":"WIPRO",
+            "location":"Benguluru"
+        }
+    },{
+        "id":3,
+        "name":"Prabhas Raju",
+        "img":"https://3.bp.blogspot.com/-i6GzrUTQXaA/W1tT_huT5FI/AAAAAAAAXpM/tZhkEYIfiB0AnEmLVSN5PfmQ1EgYuF5QwCLcBGAs/s1600/prabha.jpg",
+        "height":"5'6''",
+        "dob": "15-10-1991",
+        "living":"Hyderabad, India",
+        "job":{
+            "profession":"Software Professional",
+            "company":"WIPRO",
+            "location":"Benguluru"
+        },
+        "isRequestSent":true
+    },{
+        "id":4,
+        "name":"Naveen Polishetty",
+        "img":"https://upload.wikimedia.org/wikipedia/commons/8/8a/Naveen_Polishetty.png",
+        "height":"5'6''",
+        "dob": "15-10-1991",
+        "living":"Hyderabad, India",
+        "job":{
+            "profession":"Software Professional",
+            "company":"WIPRO",
+            "location":"Benguluru"
+        }
+    }]

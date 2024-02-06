@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<div class="container-fluid">
+<div class="row">
+<div class="col-sm-4">
+<!-- -->
+<h4><b>Find Duplicate Data on Combination of word and pos</b></h4>
+$(document).ready(function(){
+console.log("Test");
+$.ajax({url: "http://localhost/projects/rwm/mai/nexus/dictionary/list" , success: function(result){
+ console.log("data", result);
+ const data = result?.data;
+ const duplicateCombinations = findDuplicateCombinations(data);
+ if(duplicateCombinations.length > 0) {
+  console.log("Duplicate combinations found:");
+  duplicateCombinations.forEach((item) => {
+    console.log(`id: ${item.id}, word: ${item.word}, pos: ${item.pos}`);
+  });
+ } else {
+  console.log("No duplicate combinations found.");
+ }
+}});
+});
+
+function findDuplicateCombinations(data) {
+  const seenCombinations = new Map();
+  const duplicates = [];
+
+  for (const item of data) {
+    const combination = `${item.word}_${item.pos}`;
+    
+    if (seenCombinations.has(combination)) {
+      // Duplicate combination found
+      duplicates.push(item);
+    } else {
+      seenCombinations.set(combination, true);
+    }
+  }
+
+  return duplicates;
+}
+<!-- -->
+</div><!--/.col-sm-4 -->
+</div><!--/.row -->
+</div><!--/.container-fluid -->
+
+</body>
+</html>

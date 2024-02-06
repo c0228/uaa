@@ -1,0 +1,31 @@
+{
+    "studentName":"",
+    "country":"",
+    "preferredLocation":"",
+    "btechDegree":{
+        "gpa5":"",
+        "gpa10":""
+    },
+    "gap":"None",
+    "gre": "0",
+    "ielts":{
+        "reading": "0",
+        "writing":"0",
+        "listening":"0",
+        "speaking":"0"
+    },
+    "toefl":{
+        "reading": "0",
+        "writing":"0",
+        "listening":"0",
+        "speaking":"0"
+    },
+    "pte":{
+        "reading": "0",
+        "writing":"0",
+        "listening":"0",
+        "speaking":"0"
+    },
+    "i20Ddeposit": [{ "id":1, "label":"Yes", "value":"Yes" },
+                    { "id":2, "label":"No", "value":"No" }]
+}

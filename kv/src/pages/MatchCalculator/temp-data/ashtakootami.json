@@ -1,0 +1,1472 @@
+{
+	"raasi": {
+		"list": [
+			"Aries (Mesha Raasi)",
+			"Taurus (Vrushabha Raasi)",
+			"Gemini (Midhuna Raasi)",
+			"Cancer (Karkataka Raasi)",
+			"Leo (Simha Raasi)",
+			"Virgo (Kanya Raasi)",
+			"Libra (Thula Raasi)",
+			"Scorpio (Vruchika Raasi)",
+			"Saggitarius (Dhanur Raasi)",
+			"Capricorn (Makara Raasi)",
+			"Aquarius (Khumbha Raasi)",
+			"Pisces (Meena Raasi)"
+		],
+		"Aries (Mesha Raasi)": {
+			"nakshatras": [
+				"Ashwini Nakshatram 1st Padam",
+				"Ashwini Nakshatram 2nd Padam",
+				"Ashwini Nakshatram 3rd Padam",
+				"Ashwini Nakshatram 4th Padam",
+				"Bharani Nakshatram 1st Padam",
+				"Bharani Nakshatram 2nd Padam",
+				"Bharani Nakshatram 3rd Padam",
+				"Bharani Nakshatram 4th Padam",
+				"Kruthika Nakshatram 1st Padam"
+			],
+			"varanam": {
+				"varna": "Kshattriya",
+				"element": "Fire"
+			},
+			"raasiGraha": "Mangala/Kuja (Mars)"
+		},
+		"Taurus (Vrushabha Raasi)": {
+			"nakshatras": [
+				"Kruthika Nakshatram 2nd Padam",
+				"Kruthika Nakshatram 3rd Padam",
+				"Kruthika Nakshatram 4th Padam",
+				"Rohini Nakshatram 1st Padam",
+				"Rohini Nakshatram 2nd Padam",
+				"Rohini Nakshatram 3rd Padam",
+				"Rohini Nakshatram 4th Padam",
+				"Mrugasira Nakshatram 1st Padam",
+				"Mrugasira Nakshatram 2nd Padam"
+			],
+			"varanam": {
+				"varna": "Shudra",
+				"element": "Earth"
+			},
+			"raasiGraha": "Shukra (Venus)"
+		},
+		"Gemini (Midhuna Raasi)": {
+			"nakshatras": [
+				"Mrugasira Nakshatram 3rd Padam",
+				"Mrugasira Nakshatram 4th Padam",
+				"Aarudhra Nakshatram 1st Padam",
+				"Aarudhra Nakshatram 2nd Padam",
+				"Aarudhra Nakshatram 3rd Padam",
+				"Aarudhra Nakshatram 4th Padam",
+				"Punarvasu Nakshatram 1st Padam",
+				"Punarvasu Nakshatram 2nd Padam",
+				"Punarvasu Nakshatram 3rd Padam"
+			],
+			"varanam": {
+				"varna": "Vaishya",
+				"element": "Air"
+			},
+			"raasiGraha": "Budha (Mercury)"
+		},
+		"Cancer (Karkataka Raasi)": {
+			"nakshatras": [
+				"Punarvasu Nakshatram 4th Padam",
+				"Pushyami Nakshatram 1st Padam",
+				"Pushyami Nakshatram 2nd Padam",
+				"Pushyami Nakshatram 3rd Padam",
+				"Pushyami Nakshatram 4th Padam",
+				"Aslesha Nakshatram 1st Padam",
+				"Aslesha Nakshatram 2nd Padam",
+				"Aslesha Nakshatram 3rd Padam",
+				"Aslesha Nakshatram 4th Padam"
+			],
+			"varanam": {
+				"varna": "Brahmin",
+				"element": "Water"
+			},
+			"raasiGraha": "Chandra (Moon)"
+		},
+		"Leo (Simha Raasi)": {
+			"nakshatras": [
+				"Makha Nakshatram 1st Padam",
+				"Makha Nakshatram 2nd Padam",
+				"Makha Nakshatram 3rd Padam",
+				"Makha Nakshatram 4th Padam",
+				"Pubbha Nakshatram 1st Padam",
+				"Pubbha Nakshatram 2nd Padam",
+				"Pubbha Nakshatram 3rd Padam",
+				"Pubbha Nakshatram 4th Padam",
+				"Uthara Nakshatram 1st Padam"
+			],
+			"varanam": {
+				"varna": "Kshattriya",
+				"element": "Fire"
+			},
+			"raasiGraha": "Ravi (Sun)"
+		},
+		"Virgo (Kanya Raasi)": {
+			"nakshatras": [
+				"Uthara Nakshatram 2nd Padam",
+				"Uthara Nakshatram 3rd Padam",
+				"Uthara Nakshatram 4th Padam",
+				"Hastha Nakshatram 1st Padam",
+				"Hastha Nakshatram 2nd Padam",
+				"Hastha Nakshatram 3rd Padam",
+				"Hastha Nakshatram 4th Padam",
+				"Chitha Nakshatram 1st Padam",
+				"Chitha Nakshatram 2nd Padam"
+			],
+			"varanam": {
+				"varna": "Shudra",
+				"element": "Earth"
+			},
+			"raasiGraha": "Budha (Mercury)"
+		},
+		"Libra (Thula Raasi)": {
+			"nakshatras": [
+				"Chitha Nakshatram 3rd Padam",
+				"Chitha Nakshatram 4th Padam",
+				"Swathi Nakshatram 1st Padam",
+				"Swathi Nakshatram 2nd Padam",
+				"Swathi Nakshatram 3rd Padam",
+				"Swathi Nakshatram 4th Padam",
+				"Vishaka Nakshatram 1st Padam",
+				"Vishaka Nakshatram 2nd Padam",
+				"Vishaka Nakshatram 3rd Padam"
+			],
+			"varanam": {
+				"varna": "Vaishya",
+				"element": "Air"
+			},
+			"raasiGraha": "Shukra (Venus)"
+		},
+		"Scorpio (Vruchika Raasi)": {
+			"nakshatras": [
+				"Vishaka Nakshatram 4th Padam",
+				"Anuradha Nakshatram 1st Padam",
+				"Anuradha Nakshatram 2nd Padam",
+				"Anuradha Nakshatram 3rd Padam",
+				"Anuradha Nakshatram 4th Padam",
+				"Jeshta Nakshatram 1st Padam",
+				"Jeshta Nakshatram 2nd Padam",
+				"Jeshta Nakshatram 3rd Padam",
+				"Jeshta Nakshatram 4th Padam"
+			],
+			"varanam": {
+				"varna": "Brahmin",
+				"element": "Water"
+			},
+			"raasiGraha": "Mangala/Kuja (Mars)"
+		},
+		"Saggitarius (Dhanur Raasi)": {
+			"nakshatras": [
+				"Moola Nakshatram 1st Padam",
+				"Moola Nakshatram 2nd Padam",
+				"Moola Nakshatram 3rd Padam",
+				"Moola Nakshatram 4th Padam",
+				"Purvashada Nakshatram 1st Padam",
+				"Purvashada Nakshatram 2nd Padam",
+				"Purvashada Nakshatram 3rd Padam",
+				"Purvashada Nakshatram 4th Padam",
+				"Utharashada Nakshatram 1st Padam"
+			],
+			"varanam": {
+				"varna": "Kshattriya",
+				"element": "Fire"
+			},
+			"raasiGraha": "Guru (Jupiter)"
+		},
+		"Capricorn (Makara Raasi)": {
+			"nakshatras": [
+				"Utharashada Nakshatram 2nd Padam",
+				"Utharashada Nakshatram 3rd Padam",
+				"Utharashada Nakshatram 4th Padam",
+				"Shravana Nakshatram 1st Padam",
+				"Shravana Nakshatram 2nd Padam",
+				"Shravana Nakshatram 3rd Padam",
+				"Shravana Nakshatram 4th Padam",
+				"Dhanista Nakshatram 1st Padam",
+				"Dhanista Nakshatram 2nd Padam"
+			],
+			"varanam": {
+				"varna": "Shudra",
+				"element": "Earth"
+			},
+			"raasiGraha": "Shani (Saturn)"
+		},
+		"Aquarius (Khumbha Raasi)": {
+			"nakshatras": [
+				"Dhanista Nakshatram 3rd Padam",
+				"Dhanista Nakshatram 4th Padam",
+				"Sathabisham Nakshatram 1st Padam",
+				"Sathabisham Nakshatram 2nd Padam",
+				"Sathabisham Nakshatram 3rd Padam",
+				"Sathabisham Nakshatram 4th Padam",
+				"Purvabhadhra Nakshatram 1st Padam",
+				"Purvabhadhra Nakshatram 2nd Padam",
+				"Purvabhadhra Nakshatram 3rd Padam"
+			],
+			"varanam": {
+				"varna": "Vaishya",
+				"element": "Air"
+			},
+			"raasiGraha": "Shani (Saturn)"
+		},
+		"Pisces (Meena Raasi)": {
+			"nakshatras": [
+				"Purvabhadhra Nakshatram 4th Padam",
+				"Utharabhadra Nakshatram 1st Padam",
+				"Utharabhadra Nakshatram 2nd Padam",
+				"Utharabhadra Nakshatram 3rd Padam",
+				"Utharabhadra Nakshatram 4th Padam",
+				"Revathi Nakshatram 1st Padam",
+				"Revathi Nakshatram 2nd Padam",
+				"Revathi Nakshatram 3rd Padam",
+				"Revathi Nakshatram 4th Padam"
+			],
+			"varanam": {
+				"varna": "Brahmin",
+				"element": "Water"
+			},
+			"raasiGraha": "Guru (Jupiter)"
+		}
+	},
+	"nakshatra": {
+		"list": [
+			"Ashwini",
+			"Bharani",
+			"Kruthika",
+			"Rohini",
+			"Mrugasira",
+			"Aarudhra",
+			"Punarvasu",
+			"Pushyami",
+			"Aslesha",
+			"Makha",
+			"Pubbha",
+			"Uthara",
+			"Hastha",
+			"Chitha",
+			"Swathi",
+			"Vishaka",
+			"Anuradha",
+			"Jeshta",
+			"Moola",
+			"Purvashada",
+			"Utharashada",
+			"Shravana",
+			"Dhanista",
+			"Sathabisham",
+			"Purvabhadhra",
+			"Utharabhadra",
+			"Revathi"
+		],
+		"Ashwini Nakshatram 1st Padam": {
+			"ganam": "Devata",
+			"animal": "Horse (Ashwa)",
+			"vashyaKootami": "Chatushpada (Quadraped)",
+			"nadi": "ADI"
+		},
+		"Ashwini Nakshatram 2nd Padam": {
+			"ganam": "Devata",
+			"animal": "Horse (Ashwa)",
+			"vashyaKootami": "Chatushpada (Quadraped)",
+			"nadi": "ADI"
+		},
+		"Ashwini Nakshatram 3rd Padam": {
+			"ganam": "Devata",
+			"animal": "Horse (Ashwa)",
+			"vashyaKootami": "Chatushpada (Quadraped)",
+			"nadi": "ADI"
+		},
+		"Ashwini Nakshatram 4th Padam": {
+			"ganam": "Devata",
+			"animal": "Horse (Ashwa)",
+			"vashyaKootami": "Chatushpada (Quadraped)",
+			"nadi": "ADI"
+		},
+		"Bharani Nakshatram 1st Padam": {
+			"ganam": "Manusha",
+			"animal": "Elephant (Gaja)",
+			"vashyaKootami": "Chatushpada (Quadraped)",
+			"nadi": "MADHYA"
+		},
+		"Bharani Nakshatram 2nd Padam": {
+			"ganam": "Manusha",
+			"animal": "Elephant (Gaja)",
+			"vashyaKootami": "Chatushpada (Quadraped)",
+			"nadi": "MADHYA"
+		},
+		"Bharani Nakshatram 3rd Padam": {
+			"ganam": "Manusha",
+			"animal": "Elephant (Gaja)",
+			"vashyaKootami": "Chatushpada (Quadraped)",
+			"nadi": "MADHYA"
+		},
+		"Bharani Nakshatram 4th Padam": {
+			"ganam": "Manusha",
+			"animal": "Elephant (Gaja)",
+			"vashyaKootami": "Chatushpada (Quadraped)",
+			"nadi": "MADHYA"
+		},
+		"Kruthika Nakshatram 1st Padam": {
+			"ganam": "Rakshasa",
+			"animal": "Ram (Mesha)",
+			"vashyaKootami": "Chatushpada (Quadraped)",
+			"nadi": "ANTHA"
+		},
+		"Kruthika Nakshatram 2nd Padam": {
+			"ganam": "Rakshasa",
+			"animal": "Ram (Mesha)",
+			"vashyaKootami": "Chatushpada (Quadraped)",
+			"nadi": "ANTHA"
+		},
+		"Kruthika Nakshatram 3rd Padam": {
+			"ganam": "Rakshasa",
+			"animal": "Ram (Mesha)",
+			"vashyaKootami": "Chatushpada (Quadraped)",
+			"nadi": "ANTHA"
+		},
+		"Kruthika Nakshatram 4th Padam": {
+			"ganam": "Rakshasa",
+			"animal": "Ram (Mesha)",
+			"vashyaKootami": "Chatushpada (Quadraped)",
+			"nadi": "ANTHA"
+		},
+		"Rohini Nakshatram 1st Padam": {
+			"ganam": "Manusha",
+			"animal": "Serpent (Sarpa)",
+			"vashyaKootami": "Chatushpada (Quadraped)",
+			"nadi": "ANTHA"
+		},
+		"Rohini Nakshatram 2nd Padam": {
+			"ganam": "Manusha",
+			"animal": "Serpent (Sarpa)",
+			"vashyaKootami": "Chatushpada (Quadraped)",
+			"nadi": "ANTHA"
+		},
+		"Rohini Nakshatram 3rd Padam": {
+			"ganam": "Manusha",
+			"animal": "Serpent (Sarpa)",
+			"vashyaKootami": "Chatushpada (Quadraped)",
+			"nadi": "ANTHA"
+		},
+		"Rohini Nakshatram 4th Padam": {
+			"ganam": "Manusha",
+			"animal": "Serpent (Sarpa)",
+			"vashyaKootami": "Chatushpada (Quadraped)",
+			"nadi": "ANTHA"
+		},
+		"Mrugasira Nakshatram 1st Padam": {
+			"ganam": "Devata",
+			"animal": "Serpent (Sarpa)",
+			"vashyaKootami": "Chatushpada (Quadraped)",
+			"nadi": "MADHYA"
+		},
+		"Mrugasira Nakshatram 2nd Padam": {
+			"ganam": "Devata",
+			"animal": "Serpent (Sarpa)",
+			"vashyaKootami": "Chatushpada (Quadraped)",
+			"nadi": "MADHYA"
+		},
+		"Mrugasira Nakshatram 3rd Padam": {
+			"ganam": "Devata",
+			"animal": "Serpent (Sarpa)",
+			"vashyaKootami": "Manava/Nara (biped)",
+			"nadi": "MADHYA"
+		},
+		"Mrugasira Nakshatram 4th Padam": {
+			"ganam": "Devata",
+			"animal": "Serpent (Sarpa)",
+			"vashyaKootami": "Manava/Nara (biped)",
+			"nadi": "MADHYA"
+		},
+		"Aarudhra Nakshatram 1st Padam": {
+			"ganam": "Manusha",
+			"animal": "Dog (Swah)",
+			"vashyaKootami": "Manava/Nara (biped)",
+			"nadi": "ADI"
+		},
+		"Aarudhra Nakshatram 2nd Padam": {
+			"ganam": "Manusha",
+			"animal": "Dog (Swah)",
+			"vashyaKootami": "Manava/Nara (biped)",
+			"nadi": "ADI"
+		},
+		"Aarudhra Nakshatram 3rd Padam": {
+			"ganam": "Manusha",
+			"animal": "Dog (Swah)",
+			"vashyaKootami": "Manava/Nara (biped)",
+			"nadi": "ADI"
+		},
+		"Aarudhra Nakshatram 4th Padam": {
+			"ganam": "Manusha",
+			"animal": "Dog (Swah)",
+			"vashyaKootami": "Manava/Nara (biped)",
+			"nadi": "ADI"
+		},
+		"Punarvasu Nakshatram 1st Padam": {
+			"ganam": "Devata",
+			"animal": "Cat (Marjarah)",
+			"vashyaKootami": "Manava/Nara (biped)",
+			"nadi": "ADI"
+		},
+		"Punarvasu Nakshatram 2nd Padam": {
+			"ganam": "Devata",
+			"animal": "Cat (Marjarah)",
+			"vashyaKootami": "Manava/Nara (biped)",
+			"nadi": "ADI"
+		},
+		"Punarvasu Nakshatram 3rd Padam": {
+			"ganam": "Devata",
+			"animal": "Cat (Marjarah)",
+			"vashyaKootami": "Manava/Nara (biped)",
+			"nadi": "ADI"
+		},
+		"Punarvasu Nakshatram 4th Padam": {
+			"ganam": "Devata",
+			"animal": "Cat (Marjarah)",
+			"vashyaKootami": "Jalachara (Aquatic)",
+			"nadi": "ADI"
+		},
+		"Pushyami Nakshatram 1st Padam": {
+			"ganam": "Devata",
+			"animal": "Ram (Mesha)",
+			"vashyaKootami": "Jalachara (Aquatic)",
+			"nadi": "MADHYA"
+		},
+		"Pushyami Nakshatram 2nd Padam": {
+			"ganam": "Devata",
+			"animal": "Ram (Mesha)",
+			"vashyaKootami": "Jalachara (Aquatic)",
+			"nadi": "MADHYA"
+		},
+		"Pushyami Nakshatram 3rd Padam": {
+			"ganam": "Devata",
+			"animal": "Ram (Mesha)",
+			"vashyaKootami": "Jalachara (Aquatic)",
+			"nadi": "MADHYA"
+		},
+		"Pushyami Nakshatram 4th Padam": {
+			"ganam": "Devata",
+			"animal": "Ram (Mesha)",
+			"vashyaKootami": "Jalachara (Aquatic)",
+			"nadi": "MADHYA"
+		},
+		"Aslesha Nakshatram 1st Padam": {
+			"ganam": "Rakshasa",
+			"animal": "Cat (Marjarah)",
+			"vashyaKootami": "Jalachara (Aquatic)",
+			"nadi": "ANTHA"
+		},
+		"Aslesha Nakshatram 2nd Padam": {
+			"ganam": "Rakshasa",
+			"animal": "Cat (Marjarah)",
+			"vashyaKootami": "Jalachara (Aquatic)",
+			"nadi": "ANTHA"
+		},
+		"Aslesha Nakshatram 3rd Padam": {
+			"ganam": "Rakshasa",
+			"animal": "Cat (Marjarah)",
+			"vashyaKootami": "Jalachara (Aquatic)",
+			"nadi": "ANTHA"
+		},
+		"Aslesha Nakshatram 4th Padam": {
+			"ganam": "Rakshasa",
+			"animal": "Cat (Marjarah)",
+			"vashyaKootami": "Jalachara (Aquatic)",
+			"nadi": "ANTHA"
+		},
+		"Makha Nakshatram 1st Padam": {
+			"ganam": "Rakshasa",
+			"animal": "Rat (Mushika)",
+			"vashyaKootami": "Vanachara (wild)",
+			"nadi": "ANTHA"
+		},
+		"Makha Nakshatram 2nd Padam": {
+			"ganam": "Rakshasa",
+			"animal": "Rat (Mushika)",
+			"vashyaKootami": "Vanachara (wild)",
+			"nadi": "ANTHA"
+		},
+		"Makha Nakshatram 3rd Padam": {
+			"ganam": "Rakshasa",
+			"animal": "Rat (Mushika)",
+			"vashyaKootami": "Vanachara (wild)",
+			"nadi": "ANTHA"
+		},
+		"Makha Nakshatram 4th Padam": {
+			"ganam": "Rakshasa",
+			"animal": "Rat (Mushika)",
+			"vashyaKootami": "Vanachara (wild)",
+			"nadi": "ANTHA"
+		},
+		"Pubbha Nakshatram 1st Padam": {
+			"ganam": "Manusha",
+			"animal": "Rat (Mushika)",
+			"vashyaKootami": "Vanachara (wild)",
+			"nadi": "MADHYA"
+		},
+		"Pubbha Nakshatram 2nd Padam": {
+			"ganam": "Manusha",
+			"animal": "Rat (Mushika)",
+			"vashyaKootami": "Vanachara (wild)",
+			"nadi": "MADHYA"
+		},
+		"Pubbha Nakshatram 3rd Padam": {
+			"ganam": "Manusha",
+			"animal": "Rat (Mushika)",
+			"vashyaKootami": "Vanachara (wild)",
+			"nadi": "MADHYA"
+		},
+		"Pubbha Nakshatram 4th Padam": {
+			"ganam": "Manusha",
+			"animal": "Rat (Mushika)",
+			"vashyaKootami": "Vanachara (wild)",
+			"nadi": "MADHYA"
+		},
+		"Uthara Nakshatram 1st Padam": {
+			"ganam": "Manusha",
+			"animal": "Cow (Gau)",
+			"vashyaKootami": "Vanachara (wild)",
+			"nadi": "ADI"
+		},
+		"Uthara Nakshatram 2nd Padam": {
+			"ganam": "Manusha",
+			"animal": "Cow (Gau)",
+			"vashyaKootami": "Manava/Nara (biped)",
+			"nadi": "ADI"
+		},
+		"Uthara Nakshatram 3rd Padam": {
+			"ganam": "Manusha",
+			"animal": "Cow (Gau)",
+			"vashyaKootami": "Manava/Nara (biped)",
+			"nadi": "ADI"
+		},
+		"Uthara Nakshatram 4th Padam": {
+			"ganam": "Manusha",
+			"animal": "Cow (Gau)",
+			"vashyaKootami": "Manava/Nara (biped)",
+			"nadi": "ADI"
+		},
+		"Hastha Nakshatram 1st Padam": {
+			"ganam": "Devata",
+			"animal": "Buffalo (Mahisha)",
+			"vashyaKootami": "Manava/Nara (biped)",
+			"nadi": "ADI"
+		},
+		"Hastha Nakshatram 2nd Padam": {
+			"ganam": "Devata",
+			"animal": "Buffalo (Mahisha)",
+			"vashyaKootami": "Manava/Nara (biped)",
+			"nadi": "ADI"
+		},
+		"Hastha Nakshatram 3rd Padam": {
+			"ganam": "Devata",
+			"animal": "Buffalo (Mahisha)",
+			"vashyaKootami": "Manava/Nara (biped)",
+			"nadi": "ADI"
+		},
+		"Hastha Nakshatram 4th Padam": {
+			"ganam": "Devata",
+			"animal": "Buffalo (Mahisha)",
+			"vashyaKootami": "Manava/Nara (biped)",
+			"nadi": "ADI"
+		},
+		"Chitha Nakshatram 1st Padam": {
+			"ganam": "Rakshasa",
+			"animal": "Tiger (Vyagrah)",
+			"vashyaKootami": "Manava/Nara (biped)",
+			"nadi": "MADHYA"
+		},
+		"Chitha Nakshatram 2nd Padam": {
+			"ganam": "Rakshasa",
+			"animal": "Tiger (Vyagrah)",
+			"vashyaKootami": "Manava/Nara (biped)",
+			"nadi": "MADHYA"
+		},
+		"Chitha Nakshatram 3rd Padam": {
+			"ganam": "Rakshasa",
+			"animal": "Tiger (Vyagrah)",
+			"vashyaKootami": "Manava/Nara (biped)",
+			"nadi": "MADHYA"
+		},
+		"Chitha Nakshatram 4th Padam": {
+			"ganam": "Rakshasa",
+			"animal": "Tiger (Vyagrah)",
+			"vashyaKootami": "Manava/Nara (biped)",
+			"nadi": "MADHYA"
+		},
+		"Swathi Nakshatram 1st Padam": {
+			"ganam": "Devata",
+			"animal": "Buffalo (Mahisha)",
+			"vashyaKootami": "Manava/Nara (biped)",
+			"nadi": "ANTHA"
+		},
+		"Swathi Nakshatram 2nd Padam": {
+			"ganam": "Devata",
+			"animal": "Buffalo (Mahisha)",
+			"vashyaKootami": "Manava/Nara (biped)",
+			"nadi": "ANTHA"
+		},
+		"Swathi Nakshatram 3rd Padam": {
+			"ganam": "Devata",
+			"animal": "Buffalo (Mahisha)",
+			"vashyaKootami": "Manava/Nara (biped)",
+			"nadi": "ANTHA"
+		},
+		"Swathi Nakshatram 4th Padam": {
+			"ganam": "Devata",
+			"animal": "Buffalo (Mahisha)",
+			"vashyaKootami": "Manava/Nara (biped)",
+			"nadi": "ANTHA"
+		},
+		"Vishaka Nakshatram 1st Padam": {
+			"ganam": "Rakshasa",
+			"animal": "Tiger (Vyagrah)",
+			"vashyaKootami": "Manava/Nara (biped)",
+			"nadi": "ANTHA"
+		},
+		"Vishaka Nakshatram 2nd Padam": {
+			"ganam": "Rakshasa",
+			"animal": "Tiger (Vyagrah)",
+			"vashyaKootami": "Manava/Nara (biped)",
+			"nadi": "ANTHA"
+		},
+		"Vishaka Nakshatram 3rd Padam": {
+			"ganam": "Rakshasa",
+			"animal": "Tiger (Vyagrah)",
+			"vashyaKootami": "Manava/Nara (biped)",
+			"nadi": "ANTHA"
+		},
+		"Vishaka Nakshatram 4th Padam": {
+			"ganam": "Rakshasa",
+			"animal": "Tiger (Vyagrah)",
+			"vashyaKootami": "Keeta (insect)",
+			"nadi": "ANTHA"
+		},
+		"Anuradha Nakshatram 1st Padam": {
+			"ganam": "Devata",
+			"animal": "Deer (Mriga)",
+			"vashyaKootami": "Keeta (insect)",
+			"nadi": "MADHYA"
+		},
+		"Anuradha Nakshatram 2nd Padam": {
+			"ganam": "Devata",
+			"animal": "Deer (Mriga)",
+			"vashyaKootami": "Keeta (insect)",
+			"nadi": "MADHYA"
+		},
+		"Anuradha Nakshatram 3rd Padam": {
+			"ganam": "Devata",
+			"animal": "Deer (Mriga)",
+			"vashyaKootami": "Keeta (insect)",
+			"nadi": "MADHYA"
+		},
+		"Anuradha Nakshatram 4th Padam": {
+			"ganam": "Devata",
+			"animal": "Deer (Mriga)",
+			"vashyaKootami": "Keeta (insect)",
+			"nadi": "MADHYA"
+		},
+		"Jeshta Nakshatram 1st Padam": {
+			"ganam": "Rakshasa",
+			"animal": "Deer (Mriga)",
+			"vashyaKootami": "Keeta (insect)",
+			"nadi": "ADI"
+		},
+		"Jeshta Nakshatram 2nd Padam": {
+			"ganam": "Rakshasa",
+			"animal": "Deer (Mriga)",
+			"vashyaKootami": "Keeta (insect)",
+			"nadi": "ADI"
+		},
+		"Jeshta Nakshatram 3rd Padam": {
+			"ganam": "Rakshasa",
+			"animal": "Deer (Mriga)",
+			"vashyaKootami": "Keeta (insect)",
+			"nadi": "ADI"
+		},
+		"Jeshta Nakshatram 4th Padam": {
+			"ganam": "Rakshasa",
+			"animal": "Deer (Mriga)",
+			"vashyaKootami": "Keeta (insect)",
+			"nadi": "ADI"
+		},
+		"Moola Nakshatram 1st Padam": {
+			"ganam": "Rakshasa",
+			"animal": "Dog (Swah)",
+			"vashyaKootami": "Manava/Nara (biped)",
+			"nadi": "ADI"
+		},
+		"Moola Nakshatram 2nd Padam": {
+			"ganam": "Rakshasa",
+			"animal": "Dog (Swah)",
+			"vashyaKootami": "Manava/Nara (biped)",
+			"nadi": "ADI"
+		},
+		"Moola Nakshatram 3rd Padam": {
+			"ganam": "Rakshasa",
+			"animal": "Dog (Swah)",
+			"vashyaKootami": "Manava/Nara (biped)",
+			"nadi": "ADI"
+		},
+		"Moola Nakshatram 4th Padam": {
+			"ganam": "Rakshasa",
+			"animal": "Dog (Swah)",
+			"vashyaKootami": "Manava/Nara (biped)",
+			"nadi": "ADI"
+		},
+		"Purvashada Nakshatram 1st Padam": {
+			"ganam": "Manusha",
+			"animal": "Monkey (Vanara)",
+			"vashyaKootami": "Manava/Nara (biped)",
+			"nadi": "MADHYA"
+		},
+		"Purvashada Nakshatram 2nd Padam": {
+			"ganam": "Manusha",
+			"animal": "Monkey (Vanara)",
+			"vashyaKootami": "Manava/Nara (biped)",
+			"nadi": "MADHYA"
+		},
+		"Purvashada Nakshatram 3rd Padam": {
+			"ganam": "Manusha",
+			"animal": "Monkey (Vanara)",
+			"vashyaKootami": "Manava/Nara (biped)",
+			"nadi": "MADHYA"
+		},
+		"Purvashada Nakshatram 4th Padam": {
+			"ganam": "Manusha",
+			"animal": "Monkey (Vanara)",
+			"vashyaKootami": "Manava/Nara (biped)",
+			"nadi": "MADHYA"
+		},
+		"Utharashada Nakshatram 1st Padam": {
+			"ganam": "Manusha",
+			"animal": "Mongoose (Nakula)",
+			"vashyaKootami": "Chatushpada (Quadraped)",
+			"nadi": "ANTHA"
+		},
+		"Utharashada Nakshatram 2nd Padam": {
+			"ganam": "Manusha",
+			"animal": "Mongoose (Nakula)",
+			"vashyaKootami": "Chatushpada (Quadraped)",
+			"nadi": "ANTHA"
+		},
+		"Utharashada Nakshatram 3rd Padam": {
+			"ganam": "Manusha",
+			"animal": "Mongoose (Nakula)",
+			"vashyaKootami": "Chatushpada (Quadraped)",
+			"nadi": "ANTHA"
+		},
+		"Utharashada Nakshatram 4th Padam": {
+			"ganam": "Manusha",
+			"animal": "Mongoose (Nakula)",
+			"vashyaKootami": "Chatushpada (Quadraped)",
+			"nadi": "ANTHA"
+		},
+		"Shravana Nakshatram 1st Padam": {
+			"ganam": "Devata",
+			"animal": "Monkey (Vanara)",
+			"vashyaKootami": "Chatushpada (Quadraped)",
+			"nadi": "ANTHA"
+		},
+		"Shravana Nakshatram 2nd Padam": {
+			"ganam": "Devata",
+			"animal": "Monkey (Vanara)",
+			"vashyaKootami": "Chatushpada (Quadraped)",
+			"nadi": "ANTHA"
+		},
+		"Shravana Nakshatram 3rd Padam": {
+			"ganam": "Devata",
+			"animal": "Monkey (Vanara)",
+			"vashyaKootami": "Chatushpada (Quadraped)",
+			"nadi": "ANTHA"
+		},
+		"Shravana Nakshatram 4th Padam": {
+			"ganam": "Devata",
+			"animal": "Monkey (Vanara)",
+			"vashyaKootami": "Chatushpada (Quadraped)",
+			"nadi": "ANTHA"
+		},
+		"Dhanista Nakshatram 1st Padam": {
+			"ganam": "Rakshasa",
+			"animal": "Lion (Singha)",
+			"vashyaKootami": "Jalachara (Aquatic)",
+			"nadi": "MADHYA"
+		},
+		"Dhanista Nakshatram 2nd Padam": {
+			"ganam": "Rakshasa",
+			"animal": "Lion (Singha)",
+			"vashyaKootami": "Jalachara (Aquatic)",
+			"nadi": "MADHYA"
+		},
+		"Dhanista Nakshatram 3rd Padam": {
+			"ganam": "Rakshasa",
+			"animal": "Lion (Singha)",
+			"vashyaKootami": "Manava/Nara (biped)",
+			"nadi": "MADHYA"
+		},
+		"Dhanista Nakshatram 4th Padam": {
+			"ganam": "Rakshasa",
+			"animal": "Lion (Singha)",
+			"vashyaKootami": "Manava/Nara (biped)",
+			"nadi": "MADHYA"
+		},
+		"Sathabisham Nakshatram 1st Padam": {
+			"ganam": "Rakshasa",
+			"animal": "Horse (Ashwa)",
+			"vashyaKootami": "Manava/Nara (biped)",
+			"nadi": "ADI"
+		},
+		"Sathabisham Nakshatram 2nd Padam": {
+			"ganam": "Rakshasa",
+			"animal": "Horse (Ashwa)",
+			"vashyaKootami": "Manava/Nara (biped)",
+			"nadi": "ADI"
+		},
+		"Sathabisham Nakshatram 3rd Padam": {
+			"ganam": "Rakshasa",
+			"animal": "Horse (Ashwa)",
+			"vashyaKootami": "Manava/Nara (biped)",
+			"nadi": "ADI"
+		},
+		"Sathabisham Nakshatram 4th Padam": {
+			"ganam": "Rakshasa",
+			"animal": "Horse (Ashwa)",
+			"vashyaKootami": "Manava/Nara (biped)",
+			"nadi": "ADI"
+		},
+		"Purvabhadhra Nakshatram 1st Padam": {
+			"ganam": "Manusha",
+			"animal": "Lion (Singha)",
+			"vashyaKootami": "Manava/Nara (biped)",
+			"nadi": "ADI"
+		},
+		"Purvabhadhra Nakshatram 2nd Padam": {
+			"ganam": "Manusha",
+			"animal": "Lion (Singha)",
+			"vashyaKootami": "Manava/Nara (biped)",
+			"nadi": "ADI"
+		},
+		"Purvabhadhra Nakshatram 3rd Padam": {
+			"ganam": "Manusha",
+			"animal": "Lion (Singha)",
+			"vashyaKootami": "Manava/Nara (biped)",
+			"nadi": "ADI"
+		},
+		"Purvabhadhra Nakshatram 4th Padam": {
+			"ganam": "Manusha",
+			"animal": "Lion (Singha)",
+			"vashyaKootami": "Jalachara (Aquatic)",
+			"nadi": "ADI"
+		},
+		"Utharabhadra Nakshatram 1st Padam": {
+			"ganam": "Manusha",
+			"animal": "Cow (Gau)",
+			"vashyaKootami": "Jalachara (Aquatic)",
+			"nadi": "MADHYA"
+		},
+		"Utharabhadra Nakshatram 2nd Padam": {
+			"ganam": "Manusha",
+			"animal": "Cow (Gau)",
+			"vashyaKootami": "Jalachara (Aquatic)",
+			"nadi": "MADHYA"
+		},
+		"Utharabhadra Nakshatram 3rd Padam": {
+			"ganam": "Manusha",
+			"animal": "Cow (Gau)",
+			"vashyaKootami": "Jalachara (Aquatic)",
+			"nadi": "MADHYA"
+		},
+		"Utharabhadra Nakshatram 4th Padam": {
+			"ganam": "Manusha",
+			"animal": "Cow (Gau)",
+			"vashyaKootami": "Jalachara (Aquatic)",
+			"nadi": "MADHYA"
+		},
+		"Revathi Nakshatram 1st Padam": {
+			"ganam": "Devata",
+			"animal": "Elephant (Gaja)",
+			"vashyaKootami": "Jalachara (Aquatic)",
+			"nadi": "ANTHA"
+		},
+		"Revathi Nakshatram 2nd Padam": {
+			"ganam": "Devata",
+			"animal": "Elephant (Gaja)",
+			"vashyaKootami": "Jalachara (Aquatic)",
+			"nadi": "ANTHA"
+		},
+		"Revathi Nakshatram 3rd Padam": {
+			"ganam": "Devata",
+			"animal": "Elephant (Gaja)",
+			"vashyaKootami": "Jalachara (Aquatic)",
+			"nadi": "ANTHA"
+		},
+		"Revathi Nakshatram 4th Padam": {
+			"ganam": "Devata",
+			"animal": "Elephant (Gaja)",
+			"vashyaKootami": "Jalachara (Aquatic)",
+			"nadi": "ANTHA"
+		}
+	},
+	"grahas": {
+		"phalam": {
+			"0.5": "MahaVirodham (Great Enemy)",
+			"0": "Ubhaya",
+			"1": "Shetruthavam (Enemy)",
+			"2": "Tataswathya (Medium)",
+			"3": "UbhyaMitrata (Friends)",
+			"4": "AthiSneham (Close Friends)",
+			"5": "Samajathi (Equal)"
+		},
+		"mythri": {
+			"Ravi (Sun)": {
+				"Ravi (Sun)": 5,
+				"Chandra (Moon)": 5,
+				"Mangala/Kuja (Mars)": 5,
+				"Budha (Mercury)": 4,
+				"Guru (Jupiter)": 5,
+				"Shukra (Venus)": 0,
+				"Shani (Saturn)": 0
+			},
+			"Chandra (Moon)": {
+				"Ravi (Sun)": 5,
+				"Chandra (Moon)": 5,
+				"Mangala/Kuja (Mars)": 4,
+				"Budha (Mercury)": 1,
+				"Guru (Jupiter)": 4,
+				"Shukra (Venus)": 0.5,
+				"Shani (Saturn)": 0.5
+			},
+			"Mangala/Kuja (Mars)": {
+				"Ravi (Sun)": 5,
+				"Chandra (Moon)": 4,
+				"Mangala/Kuja (Mars)": 5,
+				"Budha (Mercury)": 0.5,
+				"Guru (Jupiter)": 5,
+				"Shukra (Venus)": 3,
+				"Shani (Saturn)": 0.5
+			},
+			"Budha (Mercury)": {
+				"Ravi (Sun)": 4,
+				"Chandra (Moon)": 1,
+				"Mangala/Kuja (Mars)": 0.5,
+				"Budha (Mercury)": 5,
+				"Guru (Jupiter)": 0.5,
+				"Shukra (Venus)": 5,
+				"Shani (Saturn)": 4
+			},
+			"Guru (Jupiter)": {
+				"Ravi (Sun)": 5,
+				"Chandra (Moon)": 4,
+				"Mangala/Kuja (Mars)": 5,
+				"Budha (Mercury)": 0.5,
+				"Guru (Jupiter)": 5,
+				"Shukra (Venus)": 0.5,
+				"Shani (Saturn)": 3
+			},
+			"Shukra (Venus)": {
+				"Ravi (Sun)": 0,
+				"Chandra (Moon)": 0.5,
+				"Mangala/Kuja (Mars)": 3,
+				"Budha (Mercury)": 5,
+				"Guru (Jupiter)": 0.5,
+				"Shukra (Venus)": 5,
+				"Shani (Saturn)": 5
+			},
+			"Shani (Saturn)": {
+				"Ravi (Sun)": 0,
+				"Chandra (Moon)": 0.5,
+				"Mangala/Kuja (Mars)": 0.5,
+				"Budha (Mercury)": 4,
+				"Guru (Jupiter)": 3,
+				"Shukra (Venus)": 5,
+				"Shani (Saturn)": 5
+			}
+		}
+	},
+	"vashya": {
+		"phalam": {
+			"0": "Highly Incompatible",
+			"1": "Incompatible",
+			"1.5": "Compatible",
+			"2": "Most Compatible"
+		},
+		"mythri": {
+			"Chatushpada (Quadraped)": {
+				"Chatushpada (Quadraped)": 2,
+				"Manava/Nara (biped)": 1,
+				"Jalachara (Aquatic)": 1,
+				"Vanachara (wild)": 1.5,
+				"Keeta (insect)": 1
+			},
+			"Manava/Nara (biped)": {
+				"Chatushpada (Quadraped)": 1,
+				"Manava/Nara (biped)": 2,
+				"Jalachara (Aquatic)": 1.5,
+				"Vanachara (wild)": 0,
+				"Keeta (insect)": 1
+			},
+			"Jalachara (Aquatic)": {
+				"Chatushpada (Quadraped)": 1,
+				"Manava/Nara (biped)": 1.5,
+				"Jalachara (Aquatic)": 2,
+				"Vanachara (wild)": 1,
+				"Keeta (insect)": 1
+			},
+			"Vanachara (wild)": {
+				"Chatushpada (Quadraped)": 0,
+				"Manava/Nara (biped)": 0,
+				"Jalachara (Aquatic)": 0,
+				"Vanachara (wild)": 2,
+				"Keeta (insect)": 0
+			},
+			"Keeta (insect)": {
+				"Chatushpada (Quadraped)": 1,
+				"Manava/Nara (biped)": 1,
+				"Jalachara (Aquatic)": 1,
+				"Vanachara (wild)": 0,
+				"Keeta (insect)": 2
+			}
+		}
+	},
+	"yoni": {
+		"phalam": {
+			"0": "Sworn Enemy Yoni",
+			"1": "Enemy yoni",
+			"2": "Neutral Yoni",
+			"3": "Friendly Yoni",
+			"4": "Swabhava Yoni"
+		},
+		"mythri": {
+			"Horse (Ashwa)": {
+				"Horse (Ashwa)": 4,
+				"Elephant (Gaja)": 2,
+				"Ram (Mesha)": 2,
+				"Serpent (Sarpa)": 3,
+				"Dog (Swah)": 2,
+				"Cat (Marjarah)": 2,
+				"Rat (Mushika)": 2,
+				"Cow (Gau)": 1,
+				"Buffalo (Mahisha)": 0,
+				"Tiger (Vyagrah)": 1,
+				"Deer (Mriga)": 1,
+				"Monkey (Vanara)": 3,
+				"Mongoose (Nakula)": 2,
+				"Lion (Singha)": 1
+			},
+			"Elephant (Gaja)": {
+				"Horse (Ashwa)": 2,
+				"Elephant (Gaja)": 4,
+				"Ram (Mesha)": 3,
+				"Serpent (Sarpa)": 3,
+				"Dog (Swah)": 2,
+				"Cat (Marjarah)": 2,
+				"Rat (Mushika)": 2,
+				"Cow (Gau)": 2,
+				"Buffalo (Mahisha)": 3,
+				"Tiger (Vyagrah)": 1,
+				"Deer (Mriga)": 2,
+				"Monkey (Vanara)": 3,
+				"Mongoose (Nakula)": 2,
+				"Lion (Singha)": 0
+			},
+			"Ram (Mesha)": {
+				"Horse (Ashwa)": 2,
+				"Elephant (Gaja)": 3,
+				"Ram (Mesha)": 4,
+				"Serpent (Sarpa)": 3,
+				"Dog (Swah)": 2,
+				"Cat (Marjarah)": 2,
+				"Rat (Mushika)": 2,
+				"Cow (Gau)": 2,
+				"Buffalo (Mahisha)": 3,
+				"Tiger (Vyagrah)": 1,
+				"Deer (Mriga)": 2,
+				"Monkey (Vanara)": 3,
+				"Mongoose (Nakula)": 2,
+				"Lion (Singha)": 0
+			},
+			"Serpent (Sarpa)": {
+				"Horse (Ashwa)": 3,
+				"Elephant (Gaja)": 3,
+				"Ram (Mesha)": 2,
+				"Serpent (Sarpa)": 4,
+				"Dog (Swah)": 2,
+				"Cat (Marjarah)": 1,
+				"Rat (Mushika)": 1,
+				"Cow (Gau)": 1,
+				"Buffalo (Mahisha)": 1,
+				"Tiger (Vyagrah)": 2,
+				"Deer (Mriga)": 2,
+				"Monkey (Vanara)": 2,
+				"Mongoose (Nakula)": 0,
+				"Lion (Singha)": 2
+			},
+			"Dog (Swah)": {
+				"Horse (Ashwa)": 2,
+				"Elephant (Gaja)": 2,
+				"Ram (Mesha)": 1,
+				"Serpent (Sarpa)": 2,
+				"Dog (Swah)": 4,
+				"Cat (Marjarah)": 2,
+				"Rat (Mushika)": 1,
+				"Cow (Gau)": 2,
+				"Buffalo (Mahisha)": 2,
+				"Tiger (Vyagrah)": 1,
+				"Deer (Mriga)": 0,
+				"Monkey (Vanara)": 2,
+				"Mongoose (Nakula)": 1,
+				"Lion (Singha)": 1
+			},
+			"Cat (Marjarah)": {
+				"Horse (Ashwa)": 2,
+				"Elephant (Gaja)": 2,
+				"Ram (Mesha)": 2,
+				"Serpent (Sarpa)": 1,
+				"Dog (Swah)": 2,
+				"Cat (Marjarah)": 4,
+				"Rat (Mushika)": 0,
+				"Cow (Gau)": 2,
+				"Buffalo (Mahisha)": 2,
+				"Tiger (Vyagrah)": 1,
+				"Deer (Mriga)": 3,
+				"Monkey (Vanara)": 3,
+				"Mongoose (Nakula)": 2,
+				"Lion (Singha)": 1
+			},
+			"Rat (Mushika)": {
+				"Horse (Ashwa)": 2,
+				"Elephant (Gaja)": 2,
+				"Ram (Mesha)": 1,
+				"Serpent (Sarpa)": 1,
+				"Dog (Swah)": 1,
+				"Cat (Marjarah)": 0,
+				"Rat (Mushika)": 4,
+				"Cow (Gau)": 2,
+				"Buffalo (Mahisha)": 2,
+				"Tiger (Vyagrah)": 2,
+				"Deer (Mriga)": 2,
+				"Monkey (Vanara)": 2,
+				"Mongoose (Nakula)": 1,
+				"Lion (Singha)": 2
+			},
+			"Cow (Gau)": {
+				"Horse (Ashwa)": 1,
+				"Elephant (Gaja)": 2,
+				"Ram (Mesha)": 3,
+				"Serpent (Sarpa)": 1,
+				"Dog (Swah)": 2,
+				"Cat (Marjarah)": 2,
+				"Rat (Mushika)": 2,
+				"Cow (Gau)": 4,
+				"Buffalo (Mahisha)": 3,
+				"Tiger (Vyagrah)": 0,
+				"Deer (Mriga)": 3,
+				"Monkey (Vanara)": 2,
+				"Mongoose (Nakula)": 2,
+				"Lion (Singha)": 1
+			},
+			"Buffalo (Mahisha)": {
+				"Horse (Ashwa)": 0,
+				"Elephant (Gaja)": 3,
+				"Ram (Mesha)": 3,
+				"Serpent (Sarpa)": 1,
+				"Dog (Swah)": 2,
+				"Cat (Marjarah)": 2,
+				"Rat (Mushika)": 2,
+				"Cow (Gau)": 3,
+				"Buffalo (Mahisha)": 4,
+				"Tiger (Vyagrah)": 1,
+				"Deer (Mriga)": 2,
+				"Monkey (Vanara)": 2,
+				"Mongoose (Nakula)": 2,
+				"Lion (Singha)": 2
+			},
+			"Tiger (Vyagrah)": {
+				"Horse (Ashwa)": 1,
+				"Elephant (Gaja)": 1,
+				"Ram (Mesha)": 1,
+				"Serpent (Sarpa)": 2,
+				"Dog (Swah)": 1,
+				"Cat (Marjarah)": 1,
+				"Rat (Mushika)": 2,
+				"Cow (Gau)": 0,
+				"Buffalo (Mahisha)": 1,
+				"Tiger (Vyagrah)": 4,
+				"Deer (Mriga)": 1,
+				"Monkey (Vanara)": 1,
+				"Mongoose (Nakula)": 2,
+				"Lion (Singha)": 1
+			},
+			"Deer (Mriga)": {
+				"Horse (Ashwa)": 1,
+				"Elephant (Gaja)": 2,
+				"Ram (Mesha)": 2,
+				"Serpent (Sarpa)": 2,
+				"Dog (Swah)": 0,
+				"Cat (Marjarah)": 3,
+				"Rat (Mushika)": 2,
+				"Cow (Gau)": 3,
+				"Buffalo (Mahisha)": 2,
+				"Tiger (Vyagrah)": 1,
+				"Deer (Mriga)": 4,
+				"Monkey (Vanara)": 2,
+				"Mongoose (Nakula)": 2,
+				"Lion (Singha)": 1
+			},
+			"Monkey (Vanara)": {
+				"Horse (Ashwa)": 3,
+				"Elephant (Gaja)": 3,
+				"Ram (Mesha)": 0,
+				"Serpent (Sarpa)": 2,
+				"Dog (Swah)": 2,
+				"Cat (Marjarah)": 3,
+				"Rat (Mushika)": 2,
+				"Cow (Gau)": 2,
+				"Buffalo (Mahisha)": 2,
+				"Tiger (Vyagrah)": 1,
+				"Deer (Mriga)": 2,
+				"Monkey (Vanara)": 4,
+				"Mongoose (Nakula)": 3,
+				"Lion (Singha)": 2
+			},
+			"Mongoose (Nakula)": {
+				"Horse (Ashwa)": 2,
+				"Elephant (Gaja)": 2,
+				"Ram (Mesha)": 3,
+				"Serpent (Sarpa)": 0,
+				"Dog (Swah)": 1,
+				"Cat (Marjarah)": 2,
+				"Rat (Mushika)": 1,
+				"Cow (Gau)": 2,
+				"Buffalo (Mahisha)": 2,
+				"Tiger (Vyagrah)": 2,
+				"Deer (Mriga)": 2,
+				"Monkey (Vanara)": 3,
+				"Mongoose (Nakula)": 4,
+				"Lion (Singha)": 2
+			},
+			"Lion (Singha)": {
+				"Horse (Ashwa)": 1,
+				"Elephant (Gaja)": 0,
+				"Ram (Mesha)": 1,
+				"Serpent (Sarpa)": 2,
+				"Dog (Swah)": 1,
+				"Cat (Marjarah)": 1,
+				"Rat (Mushika)": 2,
+				"Cow (Gau)": 1,
+				"Buffalo (Mahisha)": 2,
+				"Tiger (Vyagrah)": 1,
+				"Deer (Mriga)": 1,
+				"Monkey (Vanara)": 2,
+				"Mongoose (Nakula)": 2,
+				"Lion (Singha)": 4
+			}
+		}
+	},
+	"gana": {
+		"phalam": {
+			"1": "Bad",
+			"0": "Very Bad",
+			"3": "Average",
+			"6": "Best"
+		},
+		"mythri": {
+			"Devata": {
+				"Devata": 6,
+				"Manusha": 3,
+				"Rakshasa": 1
+			},
+			"Manusha": {
+				"Devata": 5,
+				"Manusha": 6,
+				"Rakshasa": 3
+			},
+			"Rakshasa": {
+				"Devata": 0,
+				"Manusha": 0,
+				"Rakshasa": 6
+			}
+		}
+	},
+	"bhakoot": {
+		"mythri": {
+			"Aries (Mesha Raasi)": {
+				"Aries (Mesha Raasi)": 7,
+				"Taurus (Vrushabha Raasi)": 0,
+				"Gemini (Midhuna Raasi)": 7,
+				"Cancer (Karkataka Raasi)": 7,
+				"Leo (Simha Raasi)": 0,
+				"Virgo (Kanya Raasi)": 0,
+				"Libra (Thula Raasi)": 7,
+				"Scorpio (Vruchika Raasi)": 0,
+				"Saggitarius (Dhanur Raasi)": 0,
+				"Capricorn (Makara Raasi)": 7,
+				"Aquarius (Khumbha Raasi)": 7,
+				"Pisces (Meena Raasi)": 0
+			},
+			"Taurus (Vrushabha Raasi)": {
+				"Aries (Mesha Raasi)": 0,
+				"Taurus (Vrushabha Raasi)": 7,
+				"Gemini (Midhuna Raasi)": 0,
+				"Cancer (Karkataka Raasi)": 7,
+				"Leo (Simha Raasi)": 7,
+				"Virgo (Kanya Raasi)": 0,
+				"Libra (Thula Raasi)": 0,
+				"Scorpio (Vruchika Raasi)": 7,
+				"Saggitarius (Dhanur Raasi)": 0,
+				"Capricorn (Makara Raasi)": 0,
+				"Aquarius (Khumbha Raasi)": 7,
+				"Pisces (Meena Raasi)": 7
+			},
+			"Gemini (Midhuna Raasi)": {
+				"Aries (Mesha Raasi)": 7,
+				"Taurus (Vrushabha Raasi)": 0,
+				"Gemini (Midhuna Raasi)": 7,
+				"Cancer (Karkataka Raasi)": 0,
+				"Leo (Simha Raasi)": 7,
+				"Virgo (Kanya Raasi)": 7,
+				"Libra (Thula Raasi)": 0,
+				"Scorpio (Vruchika Raasi)": 0,
+				"Saggitarius (Dhanur Raasi)": 7,
+				"Capricorn (Makara Raasi)": 0,
+				"Aquarius (Khumbha Raasi)": 0,
+				"Pisces (Meena Raasi)": 7
+			},
+			"Cancer (Karkataka Raasi)": {
+				"Aries (Mesha Raasi)": 7,
+				"Taurus (Vrushabha Raasi)": 7,
+				"Gemini (Midhuna Raasi)": 0,
+				"Cancer (Karkataka Raasi)": 7,
+				"Leo (Simha Raasi)": 0,
+				"Virgo (Kanya Raasi)": 7,
+				"Libra (Thula Raasi)": 7,
+				"Scorpio (Vruchika Raasi)": 0,
+				"Saggitarius (Dhanur Raasi)": 0,
+				"Capricorn (Makara Raasi)": 7,
+				"Aquarius (Khumbha Raasi)": 0,
+				"Pisces (Meena Raasi)": 0
+			},
+			"Leo (Simha Raasi)": {
+				"Aries (Mesha Raasi)": 0,
+				"Taurus (Vrushabha Raasi)": 7,
+				"Gemini (Midhuna Raasi)": 7,
+				"Cancer (Karkataka Raasi)": 0,
+				"Leo (Simha Raasi)": 7,
+				"Virgo (Kanya Raasi)": 0,
+				"Libra (Thula Raasi)": 7,
+				"Scorpio (Vruchika Raasi)": 7,
+				"Saggitarius (Dhanur Raasi)": 0,
+				"Capricorn (Makara Raasi)": 0,
+				"Aquarius (Khumbha Raasi)": 7,
+				"Pisces (Meena Raasi)": 0
+			},
+			"Virgo (Kanya Raasi)": {
+				"Aries (Mesha Raasi)": 0,
+				"Taurus (Vrushabha Raasi)": 0,
+				"Gemini (Midhuna Raasi)": 7,
+				"Cancer (Karkataka Raasi)": 7,
+				"Leo (Simha Raasi)": 0,
+				"Virgo (Kanya Raasi)": 7,
+				"Libra (Thula Raasi)": 0,
+				"Scorpio (Vruchika Raasi)": 7,
+				"Saggitarius (Dhanur Raasi)": 7,
+				"Capricorn (Makara Raasi)": 0,
+				"Aquarius (Khumbha Raasi)": 0,
+				"Pisces (Meena Raasi)": 7
+			},
+			"Libra (Thula Raasi)": {
+				"Aries (Mesha Raasi)": 7,
+				"Taurus (Vrushabha Raasi)": 0,
+				"Gemini (Midhuna Raasi)": 0,
+				"Cancer (Karkataka Raasi)": 7,
+				"Leo (Simha Raasi)": 7,
+				"Virgo (Kanya Raasi)": 0,
+				"Libra (Thula Raasi)": 7,
+				"Scorpio (Vruchika Raasi)": 0,
+				"Saggitarius (Dhanur Raasi)": 7,
+				"Capricorn (Makara Raasi)": 7,
+				"Aquarius (Khumbha Raasi)": 0,
+				"Pisces (Meena Raasi)": 0
+			},
+			"Scorpio (Vruchika Raasi)": {
+				"Aries (Mesha Raasi)": 0,
+				"Taurus (Vrushabha Raasi)": 7,
+				"Gemini (Midhuna Raasi)": 0,
+				"Cancer (Karkataka Raasi)": 0,
+				"Leo (Simha Raasi)": 7,
+				"Virgo (Kanya Raasi)": 7,
+				"Libra (Thula Raasi)": 0,
+				"Scorpio (Vruchika Raasi)": 7,
+				"Saggitarius (Dhanur Raasi)": 0,
+				"Capricorn (Makara Raasi)": 7,
+				"Aquarius (Khumbha Raasi)": 7,
+				"Pisces (Meena Raasi)": 0
+			},
+			"Saggitarius (Dhanur Raasi)": {
+				"Aries (Mesha Raasi)": 0,
+				"Taurus (Vrushabha Raasi)": 0,
+				"Gemini (Midhuna Raasi)": 7,
+				"Cancer (Karkataka Raasi)": 0,
+				"Leo (Simha Raasi)": 0,
+				"Virgo (Kanya Raasi)": 7,
+				"Libra (Thula Raasi)": 7,
+				"Scorpio (Vruchika Raasi)": 0,
+				"Saggitarius (Dhanur Raasi)": 7,
+				"Capricorn (Makara Raasi)": 0,
+				"Aquarius (Khumbha Raasi)": 7,
+				"Pisces (Meena Raasi)": 7
+			},
+			"Capricorn (Makara Raasi)": {
+				"Aries (Mesha Raasi)": 7,
+				"Taurus (Vrushabha Raasi)": 0,
+				"Gemini (Midhuna Raasi)": 0,
+				"Cancer (Karkataka Raasi)": 7,
+				"Leo (Simha Raasi)": 0,
+				"Virgo (Kanya Raasi)": 0,
+				"Libra (Thula Raasi)": 7,
+				"Scorpio (Vruchika Raasi)": 7,
+				"Saggitarius (Dhanur Raasi)": 0,
+				"Capricorn (Makara Raasi)": 7,
+				"Aquarius (Khumbha Raasi)": 0,
+				"Pisces (Meena Raasi)": 7
+			},
+			"Aquarius (Khumbha Raasi)": {
+				"Aries (Mesha Raasi)": 7,
+				"Taurus (Vrushabha Raasi)": 7,
+				"Gemini (Midhuna Raasi)": 0,
+				"Cancer (Karkataka Raasi)": 7,
+				"Leo (Simha Raasi)": 7,
+				"Virgo (Kanya Raasi)": 0,
+				"Libra (Thula Raasi)": 0,
+				"Scorpio (Vruchika Raasi)": 7,
+				"Saggitarius (Dhanur Raasi)": 7,
+				"Capricorn (Makara Raasi)": 0,
+				"Aquarius (Khumbha Raasi)": 7,
+				"Pisces (Meena Raasi)": 0
+			},
+			"Pisces (Meena Raasi)": {
+				"Aries (Mesha Raasi)": 0,
+				"Taurus (Vrushabha Raasi)": 7,
+				"Gemini (Midhuna Raasi)": 7,
+				"Cancer (Karkataka Raasi)": 0,
+				"Leo (Simha Raasi)": 0,
+				"Virgo (Kanya Raasi)": 7,
+				"Libra (Thula Raasi)": 0,
+				"Scorpio (Vruchika Raasi)": 0,
+				"Saggitarius (Dhanur Raasi)": 7,
+				"Capricorn (Makara Raasi)": 7,
+				"Aquarius (Khumbha Raasi)": 0,
+				"Pisces (Meena Raasi)": 7
+			}
+		}
+	},
+	"varnas": {
+		"Shudra": 0,
+		"Vaishya": 1,
+		"Kshattriya": 2,
+		"Brahmin": 3
+	}
+}

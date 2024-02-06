@@ -1,0 +1,21 @@
+RewriteEngine On
+
+RewriteRule countries/list src/controllers/module.universities.php?action=COUNTRIES_VIEW [QSA]
+RewriteRule university/list/([^/]+)$ src/controllers/module.universities.php?action=UNIVERSITIES_VIEW&country=$1 [QSA]
+RewriteRule university/filter src/controllers/module.universities.php?action=UNIVERSITIES_FILTER_SCORE [QSA]
+
+RewriteRule user/register src/controllers/module.user.account.info.php?action=USER_REGISTER [QSA]
+RewriteRule user/login src/controllers/module.user.account.info.php?action=USER_LOGIN [QSA]
+RewriteRule user/validate/email src/controllers/module.user.account.info.php?action=USER_VALIDATE_EMAIL [QSA]
+RewriteRule user/details/update src/controllers/module.user.account.info.php?action=USER_DETAILS_UPDATE [QSA]
+RewriteRule user/reset/password/link src/controllers/module.user.account.info.php?action=SEND_RESETPASSWORD_EMAIL [QSA]
+
+RewriteRule user/roles/add src/controllers/module.user.account.roles.php?action=USER_ROLES_ADD [QSA]
+RewriteRule user/roles/view src/controllers/module.user.account.roles.php?action=USER_ROLES_VIEW [QSA]
+
+RewriteRule user/address/add src/controllers/module.user.account.addr.php?action=USER_ADDRESS_ADD [QSA]
+RewriteRule user/address/update src/controllers/module.user.account.addr.php?action=USER_ADDRESS_UPDATE [QSA]
+
+RewriteRule user/address/delete src/controllers/module.user.account.addr.php?action=USER_ADDRESS_DELETE [QSA]
+
+RewriteRule user/address/list/([^/]+)$ src/controllers/module.user.account.addr.php?action=USER_ADDRESS_LIST&userId=$1 [QSA]

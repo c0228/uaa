@@ -1,0 +1,22 @@
+
+@media (min-width: 0px) and (max-width:575px) { /* xs */
+
+}
+@media (min-width: 576px) and (max-width:768px) { /* sm */
+
+}
+@media (min-width: 769px) and (max-width:992px) { /* md */
+
+}
+@media (min-width: 993px) and (max-width:1200px) { /* lg */
+
+}
+@media (min-width: 1201px) and (max-width:1400px) { /* xl */
+ .matchCalculator-kundalini-totalScore { padding-top: 15px;padding-right: 6%; }
+}
+@media (min-width: 1401px) { /* xxl */
+ .matchCalculator-kundalini-totalScore { padding-top: 15px;padding-right: 4%; }
+}
+
+.matchCalculator-kundalini-totalScore { margin-bottom:25px; }
+.matchCalculator-kundalini-accordian-header { background-color: #fefedd; }

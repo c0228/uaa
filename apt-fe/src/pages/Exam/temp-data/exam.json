@@ -1,0 +1,41 @@
+{
+    "sections":[{
+        "title": "Multiple Choices with One Answer",
+        "markPerQuestion": 1,
+        "questions":[{
+            "question":"",
+            "choices":[{
+                "id":"",
+                "label":""
+            },{
+                "id":"",
+                "label":""
+            },{
+                "id":"",
+                "label":""
+            },{
+                "id":"",
+                "label":""
+            }]
+        }]
+    },{
+        "title": "Multiple Choices with Multi Answer",
+        "markPerQuestion": 2,
+        "questions":[{
+            "question":"",
+            "choices":[{
+                "id":"",
+                "label":""
+            },{
+                "id":"",
+                "label":""
+            },{
+                "id":"",
+                "label":""
+            },{
+                "id":"",
+                "label":""
+            }]
+        }]
+    }]
+}

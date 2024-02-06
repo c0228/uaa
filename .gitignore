@@ -1,0 +1,27 @@
+#APPS:
+# APT
+apt-fe/node_modules
+apt-fe/dist
+
+#KV
+kv/node_modules
+kv/dist
+kv/nexus/vendor
+kv/nexus/logs
+
+#YP
+yp/node_modules
+yp/nexus/logs
+
+#VKAC
+vkac/node_modules
+vkac/dist
+vkac/nexus/vendor
+vkac/nexus/logs
+
+#VKAC-PT
+vkac-pt/node_modules
+vkac-pt/dist
+vkac-pt/nexus/vendor
+vkac-pt/nexus/logs
+node_modules

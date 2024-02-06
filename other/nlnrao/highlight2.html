@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta charset="utf-8">    
+<meta http-equiv="X-UA-Compatible" content="IE=edge">    
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<style> 
+/* Highlight.js Code */
+.code-badge-language { display:none; }
+.code-badge { background: #555 !important;padding: 8px !important;z-index:2; }
+.code-badge-copy-icon { font-size: 1.3em !important; }
+pre { display: block;padding: 1em;margin: 0.5em 0;overflow-x: auto;border-radius: 5px;background-color:#1E1E1E; }
+code { font-family: 'Consolas', 'Monaco', 'Andale Mono', 'monospace';font-size: 14px; }
+.hljs-fade-in{animation:fading 5s; }@keyframes fading{0%{opacity:0}100%{opacity:100}}
+
+@font-face { font-family: Alegreya-Black;src: url('fonts/Alegreya/Alegreya-Black.ttf'); }
+@font-face { font-family: Alegreya-BlackItalic;src: url('fonts/Alegreya/Alegreya-BlackItalic.ttf'); }
+@font-face { font-family: Alegreya-Bold;src: url('fonts/Alegreya/Alegreya-Bold.ttf'); }
+@font-face { font-family: Alegreya-BoldItalic;src: url('fonts/Alegreya/Alegreya-BoldItalic.ttf'); }
+@font-face { font-family: Alegreya-ExtraBold;src: url('fonts/Alegreya/Alegreya-ExtraBold.ttf'); }
+@font-face { font-family: Alegreya-ExtraBoldItalic;src: url('fonts/Alegreya/Alegreya-ExtraBoldItalic.ttf'); }
+@font-face { font-family: Alegreya-Italic;src: url('fonts/Alegreya/Alegreya-Italic.ttf'); }
+@font-face { font-family: Alegreya-Italic-VariableFont_wght;src: url('fonts/Alegreya/Alegreya-Italic-VariableFont_wght.ttf'); }
+@font-face { font-family: Alegreya-Medium;src: url('fonts/Alegreya/Alegreya-Medium.ttf'); }
+@font-face { font-family: Alegreya-MediumItalic;src: url('fonts/Alegreya/Alegreya-MediumItalic.ttf'); }
+@font-face { font-family: Alegreya-Regular;src: url('fonts/Alegreya/Alegreya-Regular.ttf'); }
+@font-face { font-family: Alegreya-SemiBold;src: url('fonts/Alegreya/Alegreya-SemiBold.ttf'); }
+@font-face { font-family: Alegreya-SemiBoldItalic;src: url('fonts/Alegreya/Alegreya-SemiBoldItalic.ttf'); }
+@font-face { font-family: Alegreya-VariableFont_wght;src: url('fonts/Alegreya/Alegreya-VariableFont_wght.ttf'); }
+
+.game-fonts-blog-title { padding-left:15px;padding-right:15px;font-size:18px; }
+.game-fonts-blog-desc, .game-fonts-blog-img { padding:15px; }
+.game-fonts-blog-bg { padding:15px;background-color:#0193d5; }
+.game-fonts-blog-bg2 { padding:15px;background-color:#056a97; }
+/* Fonts for Game Titles */
+.alegreya-black-title { -webkit-text-stroke-color:brown;color:#ff9800;font-family: Alegreya-Black;font-size:48px;-webkit-text-stroke-width:1.4px;letter-spacing:2px; }
+.alegreya-blackItalic-title { -webkit-text-stroke-color:brown;color:#ff9800;font-family: Alegreya-BlackItalic;font-size:48px;-webkit-text-stroke-width:1.2px;letter-spacing:1.5px; }
+.alegreya-extraBold-title { -webkit-text-stroke-color:brown;color:#ff9800;font-family: Alegreya-ExtraBold;font-size:48px;-webkit-text-stroke-width:1.2px;letter-spacing:1.5px; }
+.alegreya-extraBoldItalic-title { -webkit-text-stroke-color:brown;color:#ff9800;font-family: Alegreya-ExtraBoldItalic;font-size:48px;-webkit-text-stroke-width:0.8px;letter-spacing:1.5px; }
+
+/* Fonts for Text in the Game */
+.alegreya-semiBold-title { -webkit-text-stroke-color:brown;color:#ff9800;font-family: Alegreya-SemiBold;font-size:24px;-webkit-text-stroke-width:0.3px;letter-spacing:1.5px; }
+.alegreya-semiBoldItalic-title { -webkit-text-stroke-color:brown;color:#ff9800;font-family: Alegreya-SemiBoldItalic;font-size:24px;-webkit-text-stroke-width:0.3px;letter-spacing:1.5px; }
+.alegreya-bold-title { -webkit-text-stroke-color:brown;color:#ff9800;font-family: Alegreya-Bold;font-size:24px;-webkit-text-stroke-width:0.3px;letter-spacing:1.5px; }
+.alegreya-boldItalic-title { -webkit-text-stroke-color:brown;color:#ff9800;font-family: Alegreya-BoldItalic;font-size:24px;-webkit-text-stroke-width:0.3px;letter-spacing:1.5px; }
+.alegreya-italic-title { -webkit-text-stroke-color:brown;color:#ff9800;font-family: Alegreya-Italic;font-size:24px;-webkit-text-stroke-width:0.3px;letter-spacing:1.5px; }
+.alegreya-italic-variableFont_wght-title { -webkit-text-stroke-color:brown;color:#ff9800;font-family: Alegreya-Italic-VariableFont_wght;font-size:24px;-webkit-text-stroke-width:0.3px;letter-spacing:1.5px; }
+.alegreya-medium-title { -webkit-text-stroke-color:brown;color:#ff9800;font-family: Alegreya-Medium;font-size:24px;-webkit-text-stroke-width:0.3px;letter-spacing:1.5px; }
+.alegreya-mediumItalic-title { -webkit-text-stroke-color:brown;color:#ff9800;font-family: Alegreya-MediumItalic;font-size:24px;-webkit-text-stroke-width:0.3px;letter-spacing:1.5px; }
+.alegreya-regular-title { -webkit-text-stroke-color:brown;color:#ff9800;font-family: Alegreya-Regular;font-size:24px;-webkit-text-stroke-width:0.3px;letter-spacing:1.5px; }
+.alegreya-variableFont_wght-title { -webkit-text-stroke-color:brown;color:#ff9800;font-family: Alegreya-VariableFont_wght;font-size:24px;-webkit-text-stroke-width:0.3px;letter-spacing:1.5px; }
+</style>
+<script type="text/javascript">
+$(document).ready(function(){
+ /* Fonts for Game Titles */
+ displayGameTitle("game-fonts-blog-bg","alegreya-black","The Prince of Persia");
+ displayGameTitle("game-fonts-blog-bg","alegreya-blackItalic","The Prince of Persia");
+ displayGameTitle("game-fonts-blog-bg","alegreya-extraBold","The Prince of Persia");
+ displayGameTitle("game-fonts-blog-bg","alegreya-extraBoldItalic","The Prince of Persia");
+ 
+ /* Fonts for Text in the Game */
+ displayGameTitle("game-fonts-blog-bg2","alegreya-semiBold","Define your own combat style with the Free-Form Fighting System. Use your environment freely, master 30 different combos and 50 special attacks.");
+ displayGameTitle("game-fonts-blog-bg2","alegreya-semiBoldItalic","Hunted by an immortal creature hellbent on your destruction, your only hope is to reverse the rule of fate. Unleash your warrior within!");
+ displayGameTitle("game-fonts-blog-bg2","alegreya-bold","Enjoy endless action-packed hours travelling back in time to reverse your fate, fighting with over 50 different weapons to finally discover multiple endings.");
+ displayGameTitle("game-fonts-blog-bg2","alegreya-boldItalic","Break free from deadly traps and evil enemies and conquer deathly puzzles using your amazing acrobatic skills.");
+ displayGameTitle("game-fonts-blog-bg2","alegreya-italic","Boost your combat skills using incredible new powers of time manipulation to reverse, fast-forward and slow down time.");
+ displayGameTitle("game-fonts-blog-bg2","alegreya-italic-variableFont_wght","Its amazing! Working from hundreds of movie clips, Jordan Mechner, author of the acclained Karateka, breaks new ground with animation sequences.");
+ displayGameTitle("game-fonts-blog-bg2","alegreya-medium","Define your own combat style with the Free-Form Fighting System. Use your environment freely, master 30 different combos and 50 special attacks.");
+ displayGameTitle("game-fonts-blog-bg2","alegreya-mediumItalic","Hunted by an immortal creature hellbent on your destruction, your only hope is to reverse the rule of fate. Unleash your warrior within!");
+ displayGameTitle("game-fonts-blog-bg2","alegreya-regular","Enjoy endless action-packed hours travelling back in time to reverse your fate, fighting with over 50 different weapons to finally discover multiple endings.");
+ displayGameTitle("game-fonts-blog-bg2","alegreya-variableFont_wght","Break free from deadly traps and evil enemies and conquer deathly puzzles using your amazing acrobatic skills.");
+});
+
+function displayGameTitle(bg, className,title){
+ let content='<div align="center" class="'+bg+'">';
+	content+='<div class="'+className+'-title">'+title+'</div>';
+	content+='</div>';
+ document.getElementById("display-"+className+"-font").innerHTML=content;
+}
+</script>  
+<style>
+
+</style>
+</head>
+<body> 
+
+<div class="container-fluid">
+<div class="row">
+ <div class="col-sm-9">
+ <!-- -->
+ <div class="row">
+    <div class="col-sm-6">
+	  <div align="center"><h4><b>Fonts for Game Titles</b></h4></div>
+      <ol>
+		<li><div class="game-fonts-blog-title"><b>Alegreya-Black</b> <button class=" btn btn-sm btn-danger pull-right"><b>Download Font</b></button></div>
+			<div class="game-fonts-blog-desc">
+				<div style="margin-bottom:15px;">Alegreya-Black, a striking typeface, blends boldness with refinement. 
+				Its powerful and elegant design, characterized by strong strokes, 
+			evokes a timeless sophistication, making it perfect for creating impactful and visually compelling designs across various applications.
+				</div>
+				<div>
+<pre><code class="hljs hljs-fade-in">@font-face { 
+ font-family: Alegreya-Black;
+ src: url('fonts/Alegreya/Alegreya-Black.ttf'); 
+}
+
+.alegreya-black-title { 
+ -webkit-text-stroke-color:brown;
+ color:#ff9800;
+ font-family: Alegreya-Black;
+ font-size:48px;
+ -webkit-text-stroke-width:1.4px;
+ letter-spacing:2px; 
+}</code></pre>
+<div style="margin-bottom:10px;"><b>Output:</b></div>
+<div id="display-alegreya-black-font"></div>
+</div>
+			</div>
+
+
+			
+		</li>
+		<li><div><b>Alegreya-BlackItalic:</b></div>
+			<div id="display-alegreya-blackItalic-font"></div>
+		</li>
+		<li><div><b>Alegreya-ExtraBold:</b></div>
+			<div id="display-alegreya-extraBold-font"></div>
+		</li>
+		<li><div><b>Alegreya-ExtraBoldItalic:</b></div>
+			<div id="display-alegreya-extraBoldItalic-font"></div>
+		</li>
+	  </ol>
+    </div>
+    <div class="col-sm-6">
+      <div align="center"><h4><b>Fonts for Text in the Game</b></h4></div>
+      <ol>
+	  
+		
+		<li><div><b>Alegreya-SemiBold:</b></div>
+			<div id="display-alegreya-semiBold-font"></div>
+		</li>
+		<li><div><b>Alegreya-SemiBoldItalic:</b></div>
+			<div id="display-alegreya-semiBoldItalic-font"></div>
+		</li>
+		<li><div><b>Alegreya-Bold:</b></div>
+			<div id="display-alegreya-bold-font"></div>
+		</li>
+		<li><div><b>Alegreya-BoldItalic:</b></div>
+			<div id="display-alegreya-boldItalic-font"></div>
+		</li>
+		
+		
+		<li><div><b>Alegreya-Italic:</b></div>
+			<div id="display-alegreya-italic-font"></div>
+		</li>
+		<li><div><b>Alegreya-Italic-VariableFont_wght:</b></div>
+			<div id="display-alegreya-italic-variableFont_wght-font"></div>
+		</li>
+		<li><div><b>Alegreya-Medium:</b></div>
+			<div id="display-alegreya-medium-font"></div>
+		</li>
+		<li><div><b>Alegreya-MediumItalic:</b></div>
+			<div id="display-alegreya-mediumItalic-font"></div>
+		</li>
+		<li><div><b>Alegreya-Regular:</b></div>
+			<div id="display-alegreya-regular-font"></div>
+		</li>
+		<li><div><b>Alegreya-VariableFont_wght:</b></div>
+			<div id="display-alegreya-variableFont_wght-font"></div>
+		</li>
+	  </ol>
+    </div>
+  </div>
+ <!-- -->
+ </div>
+ <div class="col-sm-3"></div>
+</div><!--/.row -->
+</div><!--/.container-fluid -->
+
+<link href="https://unpkg.com/highlightjs-badge/highlightjs/styles/vs2015.css" rel="stylesheet">
+<script src="https://unpkg.com/highlightjs-badge/highlightjs/highlight.pack.js"></script>
+<script src="https://unpkg.com/highlightjs-badge/highlightjs-badge.min.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+ triggerHighlightJs();
+});
+function triggerHighlightJs(){
+    setTimeout(function () {
+        var pres = document.querySelectorAll("pre>code");
+        for (var i = 0; i < pres.length; i++) {
+            hljs.highlightBlock(pres[i]);
+        }
+        var options = {
+            contentSelector: ".container-fluid",
+            loadDelay:0,
+            copyIconClass: "fa fa-copy",
+            checkIconClass: "fa fa-check",
+            onBeforeTextCopied: function(text, codeElement) {
+              return text;
+            }
+        };
+        window.highlightJsBadge(options);
+    },1000);
+}
+</script>
+
+</body> 
+</html>

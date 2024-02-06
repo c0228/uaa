@@ -1,0 +1,8 @@
+Options -MultiViews
+RewriteEngine On
+#RewriteCond %{REQUEST_FILENAME} !-f
+DirectoryIndex resume.php
+#RewriteRule ^ resume.php [QSA,L]
+#RewriteRule ^ resume.php [QSA,L]
+
+RewriteRule blog/([^/]+)$ index.php?page=$1 [NC,L]

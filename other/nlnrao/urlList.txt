@@ -1,0 +1,1 @@
+1) http://localhost/projects/rwa/other/nlnrao/blog/how-to-set-eureka-server-and-eureka-client-in-spring-boot-for-a-distributed-system

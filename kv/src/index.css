@@ -1,0 +1,20 @@
+html, body { width: 100%; height:auto; }
+
+.bs-profile-table {
+    padding: 0 5px;
+}
+
+.bs-profile-headers {
+    font-size: 14px;
+    font-family: fantasy;
+    color: black;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #ccc;
+}
+
+.bs-profile-contents {
+    font-size: 12px;
+    color: black;
+    opacity: 0.75;
+    padding: 5px;
+}

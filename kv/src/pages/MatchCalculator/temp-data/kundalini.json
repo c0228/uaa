@@ -1,0 +1,141 @@
+{
+    "bride":{
+        "Name": "TestName",
+        "Zodiac Sign (Raasi)": "TestName",
+        "Star (Nakshatram)": "TestName"
+    },
+    "bridegroom":{
+        "Name": "TestName",
+        "Zodiac Sign (Raasi)": "TestName",
+        "Star (Nakshatram)": "TestName"
+    },
+    "matchScore": {
+        "obtained": 23,
+        "total": 36,
+        "comment":"Good to Proceed"
+    },
+    "matchCompatibility":{
+        "Varna Kutami":{
+            "bride": {
+                "Varna": "Vaishya",
+                "Varna Element": "Air"
+            },
+            "bridegroom":{
+                "Varna": "Shudra",
+                "Varna Element": "Air"
+            },
+            "score":{
+                "obtained": 1,
+                "total": 1
+            },
+            "result":{
+                "Compatibility": "Matches"
+            }
+        },
+        "Vashya Kutami":{
+            "bride": {
+                "Vashya Kutami": "Manava / Nara (biped)"
+            },
+            "bridegroom": {
+                "Vashya Kutami": "Manava / Nara (biped)"
+            },
+            "score":{
+                "obtained": 2,
+                "total": 2
+            },
+            "result":{
+                "Ranking": "Most Compatible"
+            }
+        },
+        "Tarabhalam Kutami":{
+            "bride": {
+                "Tara": "Aarudhra Nakshatram 3rd Padam"
+            },
+            "bridegroom": {
+                "Tara": "Hastha Nakshatram 1st Padam"
+            },
+            "score":{
+                "obtained": 3,
+                "total": 3
+            },
+            "result":{
+                "Ranking": "Most Compatible"
+            }
+        },
+        "Yoni Kutami":{
+            "bride": {
+                "Animal": "Dog (Swah)"
+            },
+            "bridegroom": {
+                "Animal": "Buffalo (Mahisha)"
+            },
+            "score":{
+                "obtained": 2,
+                "total": 4
+            },
+            "result":{
+                "Behaviour": "Neutral Yoni"
+            }
+        },
+        "Graha Kutami":{
+            "bride": {
+                "Graha": "Budha (Mercury)"
+            },
+            "bridegroom": {
+                "Graha": "Budha (Mercury)"
+            },
+            "score":{
+                "obtained": 5,
+                "total": 5
+            },
+            "result":{
+                "Phalam": "Samajathi (Equal)"
+            }
+        },
+        "Gana Kutami":{
+            "bride": {
+                "Gana": "Manusha"
+            },
+            "bridegroom": {
+                "Gana": "Devatha"
+            },
+            "score":{
+                "obtained": 3,
+                "total": 6
+            },
+            "result":{
+                "Compatibility": "Average"
+            }
+        },
+        "Bhakoot Kutami":{
+            "bride": {
+                "Raasi": "Gemini (Midhuna Raasi)"
+            },
+            "bridegroom": {
+                "Raasi": "Virgo (Kanya Raasi)"
+            },
+            "score":{
+                "obtained": 7,
+                "total": 7
+            },
+            "result":{
+                "Compatibility": "Good"
+            }
+        },
+        "Nadi Kutami":{
+            "bride": {
+                "Nadi": "Adi"
+            },
+            "bridegroom": {
+                "Nadi": "Adi"
+            },
+            "score":{
+                "obtained": 0,
+                "total": 8
+            },
+            "result":{
+                "Compatibility": "Not Compatible"
+            }
+        }
+    }
+}

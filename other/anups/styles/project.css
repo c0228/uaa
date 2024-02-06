@@ -1,0 +1,64 @@
+@font-face { font-family:brlnsr;src:url('../fonts/Brlnsr.ttf'); }
+@font-face { font-family:texgyreadventor-regular;src:url('../fonts/texgyreadventor-regular.otf'); }
+@font-face { font-family:texgyreadventor-bold;src:url('../fonts/texgyreadventor-bold.otf'); }
+@font-face { font-family:boogaloo-regular;src: url('../fonts/Boogaloo-Regular.otf'); }
+
+.navbar-default { background-color:#fff;border:0px; }
+.btn-green,.btn-green:hover,.btn-green:focus,.btn-green:active { color: #fff;background-color: #038e09;border-color: #038e09; }
+.btn-green-o,.btn-green-o:hover,.btn-green-o:focus,.btn-green-o:active { color: #038e09;background-color: #fff;border-color: #038e09; }
+.border-green { border:1px solid #038e09; }
+.btn-darkGrey,.btn-darkGrey:hover,.btn-darkGrey:focus,.btn-darkGrey:active { color: #fff;background-color: #607d8b;border-color: #607d8b; }
+.border-darkGrey { border:1px solid #607d8b; }
+.btn-purpleBlue,.btn-purpleBlue:hover,.btn-purpleBlue:focus,.btn-purpleBlue:active { color: #fff;background-color: #511eab;border-color: #511eab; }
+.btn-purpleBlue-o,.btn-purpleBlue-o:hover,.btn-purpleBlue-o:focus,.btn-purpleBlue-o:active { color: #511eab;background-color: #fff;border-color: #511eab; }
+.border-purpleBlue { border:1px solid #511eab; }
+.btn-darkPink,.btn-darkPink:hover,.btn-darkPink:focus,.btn-darkPink:active { color: #fff;background-color: #ee0332;border-color: #ee0332; }
+.btn-darkPink-o,.btn-darkPink-o:hover,.btn-darkPink-o:focus,.btn-darkPink-o:active { color: #ee0332;background-color: #fff;border-color: #ee0332; }
+.border-darkPink { border:1px solid #ee0332; }
+.font-darkPink { color:#ee0332; }
+.font-purpleBlue { color:#511eab; }
+.font-brown { color:#d24314; }
+.font-orange { color:#ff5722; }
+.font-grey { color:#777; }
+.font-green { color:#038e09; }
+.font-white { color:#fff; }
+.btn-grey { background-color:#eee;color: #333; }
+.btn-lgtPink { background-color:#ffedf1;color: #333; }
+.btn-lgtPurpleBlue { background-color:#ede2ff;color: #333; }
+.btn-brown,.btn-brown:hover,.btn-brown:focus,.btn-brown:active { color: #fff;background-color: #d24314;border-color: #d24314; }
+.btn-brown-o,.btn-brown-o:hover,.btn-brown-o:focus,.btn-brown-o:active { color: #d24314;background-color: #fff;border-color: #d24314; }
+.border-brown { border:1px solid #d24314; }
+.btn-orange,.btn-orange:hover,.btn-orange:focus,.btn-orange:active { color: #fff;background-color: #ff5722;border-color: #ff5722; }
+.btn-orange-o,.btn-orange-o:hover,.btn-orange-o:focus,.btn-orange-o:active { color: #ff5722;background-color: #fff;border-color: #ff5722; }
+.border-orange { border:1px solid #ff5722; }
+
+.mtop15p { margin-top:15px; }
+.mbot15p { margin-bottom:15px; }
+.mtopbot15p { margin-top:15px;margin-bottom:15px; }
+.mtop35p { margin-top:35px; }
+.pad0 { padding:0px; }
+
+.box-tag-green { border-bottom: 1px solid #038e09;border-right: 1px solid #038e09;color: #038e09; }
+.box-tag-brown { border-bottom: 1px solid #d24314;border-right: 1px solid #d24314;color: #d24314; }
+.box-tag-purpleBlue { border-bottom: 1px solid #511eab;border-right: 1px solid #511eab;color: #511eab; }
+.box-tag-darkPink { border-bottom: 1px solid #ef0332;border-right: 1px solid #ef0332;color: #ef0332; }
+.box-tag { padding-left: 5px;padding-right: 5px;padding-bottom: 2.5px; }
+
+.label-tag-green { border:1px solid #038e09;color:#038e09; }
+.label-tag-brown { border:1px solid #d24314;color:#d24314; }
+.label-tag-purpleBlue { border:1px solid #511eab;color:#511eab; }
+.label-tag-darkPink { border:1px solid #ee0332;color:#ee0332; }
+.label-tag { letter-spacing:1.2px;font-size:12px;padding-right:3px;padding-left:4px;padding-top:2px;padding-bottom:4px;border-radius:4px; }
+
+.crew-titleBar { margin-bottom:0px;letter-spacing:1.2px;font-family:texgyreadventor-bold;background-color:#2196f3;color:#fff;border-top:1px solid #2196f3;border-bottom:1px solid #2196f3;padding-top:10px;padding-bottom:15px;line-height:22px; }
+.lh24 { line-height:24px; }
+.lh32 { line-height:32px; }
+.ls1 { letter-spacing:1px; }
+.webMobileTech { margin-top:5px;margin-bottom:5px;letter-spacing:1px;border-top:1px solid #333;border-bottom:1px solid #333; }
+.bordRad50 { border-radius:50%; }	
+
+.crew-title { letter-spacing:1.2px; }
+.crew-subTitle { letter-spacing:1.2px;color:#777; }
+.crew-intro { line-height:24px; }
+.font-texgyreadventor-bold { font-family:texgyreadventor-bold; }
+.font-texgyreadventor-regular { font-family:texgyreadventor-regular; }
