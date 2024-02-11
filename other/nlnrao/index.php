@@ -40,6 +40,8 @@ code { font-family: 'Consolas', 'Monaco', 'Andale Mono', 'monospace';font-size: 
 <?php if(isset($_GET["page"])){ 
  if($_GET["page"]=='how-to-set-eureka-server-and-eureka-client-in-spring-boot-for-a-distributed-system'){
 	include_once 'templates/java/springboot/eureka-server-client/index.php';
+ } else if($_GET["page"]=='understanding-different-types-of-machine-learning-techniques') {
+	include_once 'templates/ml/types-of-machine-learning-techniques/index.php'; 
  }
 } ?>
 

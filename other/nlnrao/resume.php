@@ -91,7 +91,7 @@ body::-webkit-scrollbar-thumb { background-color: #000000; }
 
 </style>
 <script>
-let PROJECT_URL='http://localhost/projects/rwa/other/nlnrao/';
+let PROJECT_URL='http://localhost/projects/uaa/other/nlnrao/';
 $(document).ready(function(){
  /* Enable Tooltip ::: START */
  var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
@@ -105,9 +105,9 @@ $(document).ready(function(){
 let list1 = [{
 		url: PROJECT_URL+'blog/how-to-set-eureka-server-and-eureka-client-in-spring-boot-for-a-distributed-system',
 		tags:['Java','Spring Boot', 'Spring Cloud'],
-		title:'How to set Eureka Server and Eureka Client in Spring Boot for a Distributed System',
+		title:'How to set Eureka Server and Eureka Client in Spring Boot for a Distributed System?',
 		desc:'Eureka Server and Eureka Client are components of Netflix Eureka, a service discovery framework designed for microservices architectures.',
-		keywords:["Eureka Server","Eureka Client","Microservices"],
+		keywords:["Distributed Systems","Microservices","Service Discovery Framework","Netflix Eureka Server","Netflix Eureka Client"],
 		createdOn:'03 January 2022',
 		minRead: 5	
 	},{
@@ -122,10 +122,10 @@ let list1 = [{
 
 let list2 = [{
 		url: '#',
-		tags:['Java','Spring Boot', 'Spring Cloud'],
-		title:'Building a Microservices Architecture with Spring Boot and Spring Cloud',
-		desc:'Dive into the world of design patterns with a clear example distinguishing Abstract Factory and Factory Method approaches',
-		keywords:["Abstract Factory","Factory Method","SOLID's Principle - Open/Closed principle"],
+		tags:['Java','Spring Boot','React','NodeJS'],
+		title:'Create a File upload Platform where files stores in local system using Spring Boot and React JS?',
+		desc:'Explore step-by-step instructions and best practices to enhance your Application with robust file upload features, ensuring data security and user satisfaction.',
+		keywords:["Image Dropper","File Progress Upload","Multipart Files","React Axios","Local File Storage System"],
 		createdOn:'03 January 2022',
 		minRead: 5	
 	},{
@@ -225,6 +225,7 @@ function load_blog_list(id,list, pattern){
  for(let i=0;i<list?.length;i++){
 	const url = list[i]?.url;
 	const tags = list[i]?.tags;
+	const desc = list[i]?.desc;
 	content+='<div class="blog-list-item" style="margin-bottom:15px;padding:15px;border-radius:8px;border:1px solid #ccc;background-color:'
 	+pattern?.bgColors[i%4]+';" onClick="javascript:reDirect(\''+url+'\');">';
 	for(let j=0;j<tags?.length;j++){
@@ -234,7 +235,9 @@ function load_blog_list(id,list, pattern){
 	content+='<span style="font-size:16px;"><b>'+list[i]?.title+'</b></span>';
 	content+='</div>';
 	
-	content+='<div class="grey-8" style="margin-top:8px">'+list[i]?.desc+'</div>';
+	content+='<div class="grey-8" style="margin-top:8px">';
+	content+=(desc?.length>145)?(desc?.substring(0, Math.min(145, desc?.length))+'...'):desc;
+	content+='</div>';
 	
 	content+='<div style="margin-top:8px;">';
 	for(let j=0;j<list[i]?.keywords?.length;j++){
@@ -260,9 +263,6 @@ function load_blog_list(id,list, pattern){
 </head>
 <body>
  
- 
- 
- 
 <!-- -->
 <!--<nav class="navbar navbar-expand-sm">
   <div class="container-fluid">
@@ -272,28 +272,84 @@ function load_blog_list(id,list, pattern){
   </div>
 </nav>-->
 <!-- -->
+<script type="text/javascript">
+$(document).ready(function(){
+ const data=[{
+	 "url":"blog/understanding-different-types-of-machine-learning-techniques",
+	 "title":"Understanding different types of Machine Learning Techniques",
+	 "createdOn": "Mar 30, 2023",
+	 "minRead": 5
+ },{
+	 "title":"Organize the content Moderators",
+	 "createdOn": "Mar 30, 2023",
+	 "minRead": 5
+ },{
+	 "title":"Organize the content Moderators",
+	 "createdOn": "Mar 30, 2023",
+	 "minRead": 5
+ },{
+	 "title":"Organize the content Moderators",
+	 "createdOn": "Mar 30, 2023",
+	 "minRead": 5
+ }];
+ list_organize('organizeList',data);
+});
+function list_organize(id,data){
+ let content='';
+ for(let index=0;index<data.length;index++){
+	 let url = data[index]?.url;
+	 let formattedNumber = (index>9)?(index+1):'0'+(index+1);
+	 content+='<div class="row" style="padding-bottom:20px;">';
+	 content+='<div align="center" class="col-2" style="font-size:26px;color:#ddd;padding-top:5px;"><b>'+formattedNumber+'</b></div>';
+	 content+='<div class="col-10">';
+	 content+='<div style="cursor:pointer;" onClick="javascript:reDirect(\''+url+'\');"><span class="f16"><b>'+data[index]?.title+'</b></span></div>';
+	 content+='<div style="color:#aaa;">';
+	 content+='<i class="fa fa-file-text" style="margin-right:3px;" aria-hidden="true"></i> '+data[index]?.createdOn;
+	 content+='<span class="pull-right">';
+	 content+='<i class="fa fa-dot-circle-o" style="margin-right:3px;" aria-hidden="true"></i> '+data[index]?.minRead+' min read';
+	 content+='</span>';
+	 content+='</div>';
+	 content+='</div>';
+	 content+='</div>';
+ }  
+ document.getElementById(id).innerHTML=content;
+}
+</script>
+
+<?php include_once 'templates/header.php'; ?>
 
 <div class="container-fluid">
+
 <div class="row">
-<div class="col-sm-3">
+<div class="col-md-9">
+<!-- -->
+<div class="row">
+<div class="col-md-12 mtop15p"><span class="f18"><b>Featured Technologies</b><hr/></span></div><!--/.col-md-12 -->
+</div><!--/.row -->
+<div class="row">
+<div class="col-md-4 mtop15p"></div>
+<div class="col-md-4 mtop15p"></div>
+<div id="organizeList" class="col-md-4 mtop15p">
+</div>
+</div><!--/.row -->
+
+<div class="row">
+<div class="col-sm-4">
 <!-- -->
 <div style="padding-top:15px;padding-bottom:15px;">
 <div style="border-left:8px solid red;padding-left:8px;">
 <div style="font-size:16px;color:red;padding-top:4px;padding-bottom:4px;"><b>TREND OF DISTRIBUTION SYSTEMS</b></div>
 </div>
 <div style="padding-left:9px;">
-<div style="font-size:15px;padding-top:8px;padding-left:8px;"><b>Driving the creator economy, this startup lets you own a share of your favourite creator</b></div>
+<div style="font-size:15px;padding-top:8px;padding-left:8px;">
+<b>Let's see how to build a RESTFUL API with a Microservice Architecture using Java and Spring Stack Components.</b>
+</div>
 </div>
 </div>
 <!-- -->
-</div><!--/.col-sm-3 -->
+</div><!--/.col-sm-4 -->
 </div><!--/.row -->
-</div><!--/.container-fluid -->
 
-<div class="container-fluid">
-<div class="row">
-<div class="col-md-9">
-<!-- -->
 <div class="row">
  <div class="col-md-12" style="margin-top:15px;">
   <span style="font-size:18px;"><b>Trending Frontend Development Articles</b></span>
@@ -326,7 +382,7 @@ function load_blog_list(id,list, pattern){
 </div>
 <div class="col-md-3">
 <!-- -->
-<?php include_once 'templates/resume/profileCard.php'; ?>
+<?php include_once 'templates/resume/profileCard-lgt.php'; ?>
 <?php include_once 'templates/resume/about-blog.php'; ?>
 
 <!-- -->
