@@ -280,6 +280,30 @@ $(document).ready(function(){
 	 "createdOn": "Mar 30, 2023",
 	 "minRead": 5
  },{
+	 "title":"Let's see the features & updates of Java from version 1.0 to 1.21",
+	 "createdOn": "Mar 30, 2023",
+	 "minRead": 5
+ },{
+	 "title":"Databases Scaling : Horizontally and Vertically to manage the data from One User to Billion Users",
+	 "createdOn": "Mar 30, 2023",
+	 "minRead": 5
+ },{
+	 "title":"Organize the content Moderators",
+	 "createdOn": "Mar 30, 2023",
+	 "minRead": 5
+ },{
+	 "title":"Organize the content Moderators",
+	 "createdOn": "Mar 30, 2023",
+	 "minRead": 5
+ },{
+	 "title":"Organize the content Moderators",
+	 "createdOn": "Mar 30, 2023",
+	 "minRead": 5
+ },{
+	 "title":"Organize the content Moderators",
+	 "createdOn": "Mar 30, 2023",
+	 "minRead": 5
+ },{
 	 "title":"Organize the content Moderators",
 	 "createdOn": "Mar 30, 2023",
 	 "minRead": 5
@@ -298,7 +322,7 @@ function list_organize(id,data){
  let content='';
  for(let index=0;index<data.length;index++){
 	 let url = data[index]?.url;
-	 let formattedNumber = (index>9)?(index+1):'0'+(index+1);
+	 let formattedNumber = (index>8)?(index+1):'0'+(index+1);
 	 content+='<div class="row" style="padding-bottom:20px;">';
 	 content+='<div align="center" class="col-2" style="font-size:26px;color:#ddd;padding-top:5px;"><b>'+formattedNumber+'</b></div>';
 	 content+='<div class="col-10">';
