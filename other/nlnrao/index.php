@@ -9,10 +9,13 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 <style> 
+h3 { line-height:36px; }
 body { font-family: Arial, sans-serif !important;font-size:13px;line-height:22px; }
 body::-webkit-scrollbar-track { -webkit-box-shadow: inset 0 0 2px rgba(0,0,0,0.3);box-shadow: inset 0 0 2px rgba(0,0,0,0.3);background-color: #F5F5F5; }         
 body::-webkit-scrollbar { width:6px;height: 6px;background-color: #F5F5F5; }        
 body::-webkit-scrollbar-thumb { background-color: #000000; }
+.breadcrumb>li { display:inline !important; }
+
 /* Highlight.js Code */
 .code-badge-language { display:none; }
 .code-badge { background: #555 !important;padding: 8px !important;z-index:2; }
@@ -38,10 +41,17 @@ code { font-family: 'Consolas', 'Monaco', 'Andale Mono', 'monospace';font-size: 
 <body> 
 
 <?php if(isset($_GET["page"])){ 
- if($_GET["page"]=='how-to-set-eureka-server-and-eureka-client-in-spring-boot-for-a-distributed-system'){
-	include_once 'templates/java/springboot/eureka-server-client/index.php';
- } else if($_GET["page"]=='understanding-different-types-of-machine-learning-techniques') {
+ if($_GET["page"]=='understanding-different-types-of-machine-learning-techniques') {
 	include_once 'templates/ml/types-of-machine-learning-techniques/index.php'; 
+ } 
+ else if($_GET["page"]=='lets-see-the-features-and-updates-of-java-from-version-1.0-to-1.21') { 
+	include_once 'templates/java/java-versions/index.php'; 
+ }
+ else if($_GET["page"]=='databases-scaling-system-design-horizontally-and-vertically-to-manage-the-data-from-one-user-to-billion-users') { 
+	include_once 'templates/system-design/databases-scaling/index.php'; 
+ }
+ else if($_GET["page"]=='how-to-set-eureka-server-and-eureka-client-in-spring-boot-for-a-distributed-system'){
+	include_once 'templates/java/springboot/eureka-server-client/index.php';
  }
 } ?>
 

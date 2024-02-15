@@ -280,15 +280,17 @@ $(document).ready(function(){
 	 "createdOn": "Mar 30, 2023",
 	 "minRead": 5
  },{
+	 "url":"blog/lets-see-the-features-and-updates-of-java-from-version-1.0-to-1.21",
 	 "title":"Let's see the features & updates of Java from version 1.0 to 1.21",
 	 "createdOn": "Mar 30, 2023",
 	 "minRead": 5
  },{
-	 "title":"Databases Scaling : Horizontally and Vertically to manage the data from One User to Billion Users",
+	 "url":"blog/databases-scaling-system-design-horizontally-and-vertically-to-manage-the-data-from-one-user-to-billion-users",
+	 "title":"Databases Scaling Design: Horizontally and Vertically to manage the data from One User to Billion Users",
 	 "createdOn": "Mar 30, 2023",
 	 "minRead": 5
  },{
-	 "title":"Organize the content Moderators",
+	 "title":"How do ''www.______.com'' gets created, managed and removed over the internet?",
 	 "createdOn": "Mar 30, 2023",
 	 "minRead": 5
  },{
@@ -318,13 +320,34 @@ $(document).ready(function(){
  }];
  list_organize('organizeList',data);
 });
+
+function simpleHeader01(title){
+ return '<div></div>';
+}
+
+function simpleHeader02(title){
+ return '<div></div>';
+}
+
+function simpleHeader03(title){
+ let content='<div class="row">';
+ content+='<div align="center" class="col-12">';
+ content+='<div  style="text-transform:uppercase;font-size:13px;background-color:#333;color:#fff;padding-top:5px;padding-bottom:5px;box-shadow:2px 2px 2px 2px #ccc;">';
+ content+='<b>'+title+'</b>';
+ content+='</div>';
+ content+='</div>';
+ content+='</div>';
+ return content;
+}
+
 function list_organize(id,data){
- let content='';
+ let content='<div style="margin-right:5px;">';
+ content+=simpleHeader03("Developer's Choice");
  for(let index=0;index<data.length;index++){
 	 let url = data[index]?.url;
 	 let formattedNumber = (index>8)?(index+1):'0'+(index+1);
-	 content+='<div class="row" style="padding-bottom:20px;">';
-	 content+='<div align="center" class="col-2" style="font-size:26px;color:#ddd;padding-top:5px;"><b>'+formattedNumber+'</b></div>';
+	 content+='<div class="row mtop15p" style="margin-left:1px;margin-right:2px;">';
+	 content+='<div class="col-2" style="font-size:26px;color:#ddd;padding-top:5px;"><b>'+formattedNumber+'</b></div>';
 	 content+='<div class="col-10">';
 	 content+='<div style="cursor:pointer;" onClick="javascript:reDirect(\''+url+'\');"><span class="f16"><b>'+data[index]?.title+'</b></span></div>';
 	 content+='<div style="color:#aaa;">';
@@ -336,6 +359,7 @@ function list_organize(id,data){
 	 content+='</div>';
 	 content+='</div>';
  }  
+ content+='</div>';
  document.getElementById(id).innerHTML=content;
 }
 </script>
@@ -353,7 +377,7 @@ function list_organize(id,data){
 <div class="row">
 <div class="col-md-4 mtop15p"></div>
 <div class="col-md-4 mtop15p"></div>
-<div id="organizeList" class="col-md-4 mtop15p">
+<div id="organizeList" class="col-md-4">
 </div>
 </div><!--/.row -->
 
