@@ -290,11 +290,11 @@ $(document).ready(function(){
 	 "createdOn": "Mar 30, 2023",
 	 "minRead": 5
  },{
-	 "title":"How do ''www.______.com'' gets created, managed and removed over the internet?",
+	 "title":"Lets see the evolution of the World Wide Web - Web 1.0, Web 2.0 and Web 3.0",
 	 "createdOn": "Mar 30, 2023",
 	 "minRead": 5
  },{
-	 "title":"Organize the content Moderators",
+	 "title":"How do ''www.______.com'' gets created, managed and removed over the internet?",
 	 "createdOn": "Mar 30, 2023",
 	 "minRead": 5
  },{
@@ -319,6 +319,7 @@ $(document).ready(function(){
 	 "minRead": 5
  }];
  list_organize('organizeList',data);
+ document.getElementById('featureTechTitle').innerHTML=simpleHeader03('left','Featured Technologies', 16);
 });
 
 function simpleHeader01(title){
@@ -329,10 +330,10 @@ function simpleHeader02(title){
  return '<div></div>';
 }
 
-function simpleHeader03(title){
+function simpleHeader03(align, title, fontSize){
  let content='<div class="row">';
- content+='<div align="center" class="col-12">';
- content+='<div  style="text-transform:uppercase;font-size:13px;background-color:#333;color:#fff;padding-top:5px;padding-bottom:5px;box-shadow:2px 2px 2px 2px #ccc;">';
+ content+='<div align="'+align+'" class="col-12">';
+ content+='<div style="text-transform:uppercase;font-size:'+fontSize+'px;letter-spacing:1px;background-color:#333;color:#fff;padding-left:15px;padding-right:15px;padding-top:5px;padding-bottom:5px;box-shadow:2px 2px 2px 2px #ccc;">';
  content+='<b>'+title+'</b>';
  content+='</div>';
  content+='</div>';
@@ -341,8 +342,9 @@ function simpleHeader03(title){
 }
 
 function list_organize(id,data){
- let content='<div style="margin-right:5px;">';
- content+=simpleHeader03("Developer's Choice");
+ let content='<div class="mtop15p">';
+ content+=simpleHeader03("center","Developer's Choice", 13);
+ content+='<div style="margin-right:5px;">';
  for(let index=0;index<data.length;index++){
 	 let url = data[index]?.url;
 	 let formattedNumber = (index>8)?(index+1):'0'+(index+1);
@@ -350,7 +352,7 @@ function list_organize(id,data){
 	 content+='<div class="col-2" style="font-size:26px;color:#ddd;padding-top:5px;"><b>'+formattedNumber+'</b></div>';
 	 content+='<div class="col-10">';
 	 content+='<div style="cursor:pointer;" onClick="javascript:reDirect(\''+url+'\');"><span class="f16"><b>'+data[index]?.title+'</b></span></div>';
-	 content+='<div style="color:#aaa;">';
+	 content+='<div style="color:#aaa;margin-top:6px;">';
 	 content+='<i class="fa fa-file-text" style="margin-right:3px;" aria-hidden="true"></i> '+data[index]?.createdOn;
 	 content+='<span class="pull-right">';
 	 content+='<i class="fa fa-dot-circle-o" style="margin-right:3px;" aria-hidden="true"></i> '+data[index]?.minRead+' min read';
@@ -359,6 +361,7 @@ function list_organize(id,data){
 	 content+='</div>';
 	 content+='</div>';
  }  
+ content+='</div>';
  content+='</div>';
  document.getElementById(id).innerHTML=content;
 }
@@ -372,11 +375,78 @@ function list_organize(id,data){
 <div class="col-md-9">
 <!-- -->
 <div class="row">
-<div class="col-md-12 mtop15p"><span class="f18"><b>Featured Technologies</b><hr/></span></div><!--/.col-md-12 -->
+<div id="featureTechTitle" class="col-md-12 mtop15p"><span class="f18"><b>Featured Technologies</b><hr/></span></div><!--/.col-md-12 -->
 </div><!--/.row -->
+
+<script type="text/javascript">
+let blogGroup1 = {
+	title:'Unleashing the techniques in crafting JSON Objects using Javascript',
+	list1:[{
+		url:'#',
+		title: 'Dynamically Create, Retrieve, Update and Delete (CRUD) Operations on JSON Object and JSON Array',
+		createdOn: 'Mar 30, 2023',
+		minRead: '5 min read'
+	}],
+	list2:[{
+		url:'#',
+		title: 'Sorting an Element in JSON Array in Ascending and Descending Order',
+		createdOn: 'Mar 30, 2023',
+		minRead: '5 min read'
+	}],
+};
+function blogGroupDisplay(id){
+ let content='<div>';
+	 content+='<div align="center" style="font-size:18px;line-height:28px;"><hr/><b>'+blogGroup1.title+'</b><hr/></div>';
+	 content+='<div class="row mtop15p mbot15p">';
+	 content+='<div class="col-md-7">';
+	 content+='<ul>';
+	 for(let index=0;index<blogGroup1?.list1?.length;index++){
+	 content+='<li class="">';
+	 content+='<div>';
+	 content+='<div class="f16" style="line-height:28px;">';
+	 content+='<b>'+blogGroup1?.list1[index]?.title+'</b>';
+	 content+='</div>';
+	 content+='<div style="color:#aaa;margin-top:6px;margin-right:15px;">';
+	 content+='<i class="fa fa-file-text" style="margin-right:3px;" aria-hidden="true"></i> '+blogGroup1?.list1[index]?.createdOn;
+	 content+='<span class="pull-right">';
+	 content+='<i class="fa fa-dot-circle-o" style="margin-right:3px;" aria-hidden="true"></i> '+blogGroup1?.list1[index]?.minRead;
+	 content+='</span>';
+	 content+='</div>';
+	 content+='</div>';
+	 content+='</li>';
+	 }
+     content+='</ul>';
+     content+='</div>';
+	 content+='<div class="col-md-5">';
+	 content+='<ul>';
+	 for(let index=0;index<blogGroup1?.list2?.length;index++){
+	 content+='<li class="">';
+	 content+='<div>';
+	 content+='<div class="f16" style="line-height:28px;">';
+	 content+='<b>'+blogGroup1?.list2[index]?.title+'</b>';
+	 content+='</div>';
+	 content+='<div style="color:#aaa;margin-top:6px;margin-right:15px;">';
+	 content+='<i class="fa fa-file-text" style="margin-right:3px;" aria-hidden="true"></i> '+blogGroup1?.list2[index]?.createdOn;
+	 content+='<span class="pull-right">';
+	 content+='<i class="fa fa-dot-circle-o" style="margin-right:3px;" aria-hidden="true"></i> '+blogGroup1?.list2[index]?.minRead;
+	 content+='</span>';
+	 content+='</div>';
+	 content+='</div>';
+	 content+='</li>';
+	 }
+     content+='</ul>';
+     content+='</div>';
+     content+='</div>';
+	 content+='</div>'
+document.getElementById(id).innerHTML=content;
+}
+$(document).ready(function(){
+ blogGroupDisplay('blogGroupList');
+});
+</script>
+
 <div class="row">
-<div class="col-md-4 mtop15p"></div>
-<div class="col-md-4 mtop15p"></div>
+<div id="blogGroupList" class="col-md-8"></div>
 <div id="organizeList" class="col-md-4">
 </div>
 </div><!--/.row -->
