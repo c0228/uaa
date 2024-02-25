@@ -290,7 +290,7 @@ $(document).ready(function(){
 	 "createdOn": "Mar 30, 2023",
 	 "minRead": 5
  },{
-	 "title":"Lets see the evolution of the World Wide Web - Web 1.0, Web 2.0 and Web 3.0",
+	 "title":"Lets see the evolution of the World Wide Web (www) - Web 1.0, Web 2.0 and Web 3.0",
 	 "createdOn": "Mar 30, 2023",
 	 "minRead": 5
  },{
@@ -298,7 +298,7 @@ $(document).ready(function(){
 	 "createdOn": "Mar 30, 2023",
 	 "minRead": 5
  },{
-	 "title":"Organize the content Moderators",
+	 "title":"",
 	 "createdOn": "Mar 30, 2023",
 	 "minRead": 5
  },{
@@ -319,7 +319,7 @@ $(document).ready(function(){
 	 "minRead": 5
  }];
  list_organize('organizeList',data);
- document.getElementById('featureTechTitle').innerHTML=simpleHeader03('left','Featured Technologies', 16);
+ document.getElementById('featureTechTitle').innerHTML=simpleHeader03('left','Featured Technologies', 16, '#333');
 });
 
 function simpleHeader01(title){
@@ -330,10 +330,10 @@ function simpleHeader02(title){
  return '<div></div>';
 }
 
-function simpleHeader03(align, title, fontSize){
+function simpleHeader03(align, title, fontSize, bgColor){
  let content='<div class="row">';
  content+='<div align="'+align+'" class="col-12">';
- content+='<div style="text-transform:uppercase;font-size:'+fontSize+'px;letter-spacing:1px;background-color:#333;color:#fff;padding-left:15px;padding-right:15px;padding-top:5px;padding-bottom:5px;box-shadow:2px 2px 2px 2px #ccc;">';
+ content+='<div style="text-transform:uppercase;font-size:'+fontSize+'px;letter-spacing:1px;background-color:'+bgColor+';color:#fff;padding-left:15px;padding-right:15px;padding-top:5px;padding-bottom:5px;box-shadow:2px 2px 2px 2px #ccc;">';
  content+='<b>'+title+'</b>';
  content+='</div>';
  content+='</div>';
@@ -343,7 +343,7 @@ function simpleHeader03(align, title, fontSize){
 
 function list_organize(id,data){
  let content='<div class="mtop15p">';
- content+=simpleHeader03("center","Developer's Choice", 13);
+ content+=simpleHeader03("center","Developer's Choice", 13, '#333');
  content+='<div style="margin-right:5px;">';
  for(let index=0;index<data.length;index++){
 	 let url = data[index]?.url;

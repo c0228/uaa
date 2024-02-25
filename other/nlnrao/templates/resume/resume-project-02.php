@@ -27,11 +27,11 @@
 	<div class="col-sm-7">Jira, Atlassian Confluence</div>
   </div>
   <div class="row mtop5p mbot5p">
-	<div class="col-sm-5 grey-2"><b>Frontend Stack (Web):</b></div>
+	<div class="col-sm-5 grey-2"><b>Frontend Tech Stack (For Website):</b></div>
 	<div class="col-sm-7">HTML, CSS, Javascript, Bootstrap, JQuery, Ajax, Angular JS</div>
   </div>
   <div class="row mtop5p mbot5p">
-	<div class="col-sm-5 grey-2"><b>Frontend Stack (Desktop):</b></div>
+	<div class="col-sm-5 grey-2"><b>Frontend Tech Stack (For Desktop):</b></div>
 	<div class="col-sm-7">Java FX</div>
   </div>
   <div class="row mtop5p mbot5p">
