@@ -5,44 +5,34 @@ import './index.css';
 
 const Quotations = [
   {
-   "title":"Design is not just what it looks like and<br/> feels like. Design is how it works",
-   "by":"Steve Jobs"
+   "title":"Study abroad <br/> where the classroom extends beyond borders. Let us guide you on this incredible journey - VK Abroad Consultancy",
   },
   {
-    "title":"Simplicity is the ultimate sophistication",
-    "by":"Leonardo da Vinci"
+    "title":"Adventure awaits beyond your comfort zone. Discover it with - VK Abroad Consultancy" ,
   },
   {
-    "title":"Design is intelligence made visible",
-    "by":"Alina Wheeler"
+    "title":"Invest in yourself. Explore the world. We'll handle the details - VK Abroad Consultancy",
   },
   {
     "title":"Good design is making something intelligible and memorable. Great design is making something memorable and meaningful",
-    "by":"Dieter Rams"
   },
   {
-    "title":"Design adds value faster than it adds costs",
-    "by":"Joel Spolsky"
+    "title":"Education knows no boundaries. Explore your potential with our global guidance",
   },
   {
-    "title":"The details are not the details. They make the design",
-    "by":"Charles Eames"
+    "title":"Travel far, learn more. Let us be your compass on this educational voyage",
   },
   {
-    "title":"Design is the intermediary between information and understanding",
-    "by":"Hans Hofmann"
+    "title":"Expand your horizons. We'll take you there",
   },
   {
-    "title":"Design is where science and art break even",
-    "by":"Robin Mathew"
+    "title":"Bridging dreams with destinations. Your success is our mission",
   },
   {
-    "title":"The best design is the one you don't notice",
-    "by":"Dana Chisnell"
+    "title":"Life's greatest lessons are learned beyond the classroom. Let us help you find them.",
   },
   {
-    "title":"Design creates culture. Culture shapes values. Values determine the future",
-    "by":"Robert L. Peters"
+    "title":"Seize the opportunity to study abroad. We'll make it a reality",
   }
 ];
 
@@ -61,10 +51,10 @@ const Welcome = ()=>{
       }
     } else { clearInterval(interval); 
        setTimeout(()=>{
-          navigate('/universities');
+          navigate('/Home');
        }, 120); 
     }
-   }, 50); // Change the interval time as needed
+   }, 60); // Change the interval time as needed
   
    return () => clearInterval(interval);
   }, [progress]);
@@ -72,23 +62,15 @@ const Welcome = ()=>{
   return (<>
    <div class="splash-container">
     <div class="splash-content">
-        <div style={{ color:'#0d6efd' }}>
-          <div style={{ fontSize:'22px' }}>
-            <img src="./assets/logo/logo-flat.png" style={{ width: '200px', height:'auto' }}/>
-          </div>
-          <div style={{ fontSize:'18px' }}>
-            <b></b>
-          </div>
-        </div>
+        <img src="./assets/logo/logo-flat.png" style={{ width: '200px', height:'auto' }}/>
         <div className="mtop15p">
-          <ProgressBar type="primary" progress={progress} height="3" value="" /> 
+          <ProgressBar progress={progress} height="3"/> 
           <div className="mtop15p"><b>Loading... {progress}%</b></div>
         </div>
         <div align="left" className={(showQuotation)?"fade-2s show":"fade-2s"} 
             style={{ marginTop:'25px', color:'#777', fontSize:'16px' }}>
           <blockquote>
             <i>"  {Quotations[quotationIndex]?.title} "</i><br/>
-            <div align="right" style={{ marginTop:'8px', fontWeight:'400', color:'#555' }}>- A Quotation from {Quotations[quotationIndex]?.by}</div>
           </blockquote>
         </div>
     </div>
@@ -97,3 +79,5 @@ const Welcome = ()=>{
 };
 
 export default Welcome;
+
+

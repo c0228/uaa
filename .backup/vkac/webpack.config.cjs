@@ -6,7 +6,7 @@ const CopyWebpackPlugin = require('copy-webpack-plugin');
 const webpackConfigAlias = WebpackUtil.webpackLibraryAliasConfiguration(['e-ui-react']);
 const Path = require('path');
 
-const baseUrl = '/';
+let baseUrl = '/';
 
 module.exports = (env, options)=>{
 const isDevelopment = options.mode === 'development';
@@ -107,6 +107,7 @@ entry: './src/index.js',
         '@Config': Path.resolve(__dirname, 'src/config'),
         '@Pages': Path.resolve(__dirname, 'src/pages'),
         '@Templates': Path.resolve(__dirname, 'src/templates'),
+        '@TempData': Path.resolve(__dirname, 'src/temp-data'),
         // Needed when library is linked via `npm link` to app
         /** This is implemented when the React Hooks are not working under the library */
         react: Path.resolve("./node_modules/react"),
@@ -116,7 +117,7 @@ entry: './src/index.js',
  },
  devServer: { // Needed to make react-router-dom to work
     historyApiFallback: true,
-    port: 7001, // Replace with your desired port number
+    port: 9003, // Replace with your desired port number
  }
 }
 };
