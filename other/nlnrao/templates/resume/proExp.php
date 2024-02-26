@@ -1,5 +1,5 @@
 <div class="resume-header-main"><b>My Professional Experience</b><hr class="green-border-3"/></div>
-<div class="resume-header-sub1 pt-1 pb-1 px-2 mb-3">
+<div class="resume-header-sub1 pt-1 pb-1 px-3 mb-3">
 	<b>SYNERGY NETSOFT PVT. LTD 
 	<span class="pull-right">( 5 years 8 months)</span>
 	</b>

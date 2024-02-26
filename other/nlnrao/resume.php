@@ -517,7 +517,10 @@ $(document).ready(function(){
 	 <?php include_once 'templates/resume/left.php'; ?>
     </div>
     <div class="col-sm-4 col-xxl-5 col-xl-4 px-3">
+	  <?php include_once 'templates/resume/expHighlight.php'; ?>
       <?php include_once 'templates/resume/techStack.php'; ?>
+	  <?php include_once 'templates/resume/academics.php'; ?>
+	  <?php include_once 'templates/resume/workExperience.php'; ?>
     </div>
 	<div class="col-sm-4 col-xxl-5 col-xl-5 px-3">
 	  <?php include_once 'templates/resume/proExp.php'; ?>

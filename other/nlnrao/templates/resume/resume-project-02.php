@@ -1,5 +1,5 @@
 <div id="resumeProject2">
- <div class="resume-project-title toUpperCase">Vocal Flow Simulator Platform<span class="badge bg-primary pull-right">POC</span></div>
+ <div class="resume-project-title toUpperCase">Vocal Flow Simulator<span class="badge bg-primary pull-right">POC</span></div>
 </div>
 <div class="mtop15p mbot15p">
  <div class="mbot12p"><span class="resume-project-subtitle"><b>About Project</b></span></div>

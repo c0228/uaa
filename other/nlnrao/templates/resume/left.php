@@ -76,7 +76,7 @@
 						</li>
 						<li>
 							<a href="#resumeProject2" class="resume-hyperlink">
-								<div class="pt-1 pb-1"><b>Vocal Flow Simulator Platform <span class="badge bg-success pull-right f11">POC</span></b></div>
+								<div class="pt-1 pb-1"><b>Vocal Flow Simulator <span class="badge bg-success pull-right f11">POC</span></b></div>
 							</a>
 						</li>
 					</ul>
