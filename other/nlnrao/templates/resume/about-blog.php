@@ -18,7 +18,9 @@ function load_blogKeywords(id){
  "Android Studio", "Ionic Framework", "React Native", "Expo", "Firebase", "Electron.js", 
  "Microsoft SQL Server", "MySQL Server", "Oracle Database", "Cloud FireStore", 
  "AWS S3", "AWS EC2","AWS Lambda", "AWS Kinesis", "AWS Cloud Watch", "Github", "Bitbucket", "SEO Tools", 
- "Distributed Systems"];
+ "Distributed Systems","Streaming Requests","Eslint","Large Scale Development","Reactive Streams",
+ // Design Pattern
+ "Observer Design Pattern"];
  let content='<div style="margin-top:25px;">';
  for(let index=0;index<keywords.length;index++){
   content+='<span class="badge" style="margin-right:3px;margin-bottom:5px;background-color:#ccc;color:#555;">'+keywords[index]+'</span>';

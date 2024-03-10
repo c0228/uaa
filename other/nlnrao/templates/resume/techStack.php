@@ -31,6 +31,9 @@
 		<span class="grey-3"><b>Unit Testing and Code Coverage :</b></span> Jest Framework, Mocha Framework, Chai Framework, Sinon Framework and 
 		Istanbul Code coverage Tool.
 	  </div>
+	  <div class="pt-3">
+		<span class="grey-3"><b>Integrated Development Environments (IDE):</b></span> Visual Studio Code
+	  </div>
 	</div>
 </div>
 
@@ -56,6 +59,9 @@
 	   <span class="grey-3"><b>Design Patterns :</b> OOP's SOLID Principle</span> 
 	  </div>
 	  <div class="pt-3">
+	   <span class="grey-3"><b>Java Dependencies :</b> lombok (Beans/Pojos Manager), javaFaker (Generating Test Data)</span> 
+	  </div>
+	  <div class="pt-3">
 	   <span class="grey-3"><b>Web Servers :</b> GlassFish Web Server and Apache Tomcat</span> 
 	  </div>
 	  <div class="pt-3">
@@ -63,6 +69,9 @@
 	  </div>
 	  <div class="pt-3">
 		<span class="grey-3"><b>Unit Testing and Code Coverage :</b></span> JUnit Framework, Mockito Framework, FindBugs and Sonarcube Code coverage Tool.
+	  </div>
+	  <div class="pt-3">
+		<span class="grey-3"><b>Integrated Development Environments (IDE):</b></span> Eclipse, Spring Tool Suite, IntelliJ
 	  </div>
 	</div>
 </div>
@@ -88,6 +97,9 @@
 	  <div class="pt-3">
 		<span class="grey-3"><b>Unit Testing and Code Coverage :</b></span> Jest Framework, Mocha Framework, Chai Framework, Sinon Framework and 
 		Istanbul Code coverage Tool.
+	  </div>
+	  <div class="pt-3">
+		<span class="grey-3"><b>Integrated Development Environments (IDE):</b></span> Visual Studio Code
 	  </div>
 	</div>
 </div>
