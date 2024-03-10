@@ -1,0 +1,66 @@
+import React, { useState, useEffect } from "react";
+import './index.css';
+
+export const Carousel = ({ id, items })=>{
+
+  const [slideIndex, setSlideIndex ] = useState(0);
+
+  const increment = ()=>{
+   if(slideIndex>=(items.length-1)){ setSlideIndex(0); } 
+   else { setSlideIndex(slideIndex+1); }
+  };
+ 
+  const decrement = ()=>{
+   if(slideIndex<0){ setSlideIndex(items.length-1); } 
+   else { setSlideIndex(slideIndex-1); }
+  }
+
+ const [btnContent, setBtnContent] = useState([]);
+ const [carouselContent, setCarouselContent] = useState([]);
+
+ useEffect(()=>{
+    let bContent = [];
+    let cContent = [];
+    // carousel-item-start
+    items?.map((item,i)=>{
+        bContent.push(<button type="button" 
+        data-bs-target={"#"+id} 
+        data-bs-slide-to={i} className={(i===slideIndex)?"active":""} 
+        aria-current={i===slideIndex?"true":""} 
+        aria-label={"Slide "+i}></button>);
+        cContent.push(<div id={id+"-"+i} key={i} className={(i===slideIndex)?
+        'carousel-item active':'carousel-item carousel-item-next'}>
+          <img src={item?.image} alt={item?.alt} className="d-block" style={{ width:'100%' }} />
+        {(item?.caption?.title || item?.caption?.desc) && <div className="carousel-caption">
+            <h3>{item?.caption?.title}</h3>
+            <p>{item?.caption?.desc}</p>
+        </div>}
+        </div>);
+    });
+    setBtnContent(bContent);
+    setCarouselContent(cContent);
+ },[slideIndex]);
+
+ const Controls = ()=>{
+  return (<>
+   <button className="carousel-control-prev" type="button" data-bs-target={"#"+id} data-bs-slide="prev" 
+   onClick={()=>decrement()}>
+    <span className="carousel-control-prev-icon"></span>
+   </button>
+   <button className="carousel-control-next" type="button" data-bs-target={"#"+id} data-bs-slide="next" 
+    onClick={()=>increment()}>
+    <span className="carousel-control-next-icon"></span>
+   </button>
+  </>);
+ };
+
+ return (<div id={id} className="carousel slide" data-bs-ride="carousel">
+    <div className="carousel-indicators">
+   {btnContent}
+  </div>
+  <div className="carousel-inner">
+    {carouselContent}
+  </div>
+    <Controls />
+</div>);
+};

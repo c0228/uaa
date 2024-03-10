@@ -3,10 +3,11 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <link rel="icon" type="image/png" href="images/favicon.png">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 <style>
 .toUpperCase { text-transform:uppercase; }
 body { font-family: Arial, sans-serif !important;font-size:13px;line-height:22px; }
@@ -52,7 +53,7 @@ body::-webkit-scrollbar-thumb { background-color: #000000; }
 .resume-title { text-transform:uppercase;color:#ddd; }
 .resume-socialMedia { display:flex; }
 .resume-socialMedia-icon { flex-grow:1;padding:10px; }
-.resume-header-main { text-transform:uppercase;color:#baf9bc; }
+.resume-header-main { text-transform:uppercase;color:#fff; }
 .resume-header-sub1 { text-transform:uppercase;background-color:#aaa;color:#282c34; }
 .resume-card { border-color:#282c34; }
 .resume-cardBody { background-color:#282c34;color:#999; }
@@ -319,7 +320,7 @@ $(document).ready(function(){
 	 "minRead": 5
  }];
  list_organize('organizeList',data);
- document.getElementById('featureTechTitle').innerHTML=simpleHeader03('left','Featured Technologies', 16, '#333');
+ document.getElementById('featureTechTitle').innerHTML=simpleHeader03('left','Featured Technologies', 16, '#0a67b1');
 });
 
 function simpleHeader01(title){
@@ -343,7 +344,7 @@ function simpleHeader03(align, title, fontSize, bgColor){
 
 function list_organize(id,data){
  let content='<div class="mtop15p">';
- content+=simpleHeader03("center","Developer's Choice", 13, '#333');
+ content+=simpleHeader03("center","Developer's Choice", 13, '#0a67b1');
  content+='<div style="margin-right:5px;">';
  for(let index=0;index<data.length;index++){
 	 let url = data[index]?.url;
