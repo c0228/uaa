@@ -40,6 +40,8 @@ code { font-family: 'Consolas', 'Monaco', 'Andale Mono', 'monospace';font-size: 
 </head>
 <body> 
 
+<?php include_once 'templates/header2.php'; ?>
+
 <?php if(isset($_GET["page"])){ 
  if($_GET["page"]=='understanding-different-types-of-machine-learning-techniques') {
 	include_once 'templates/ml/types-of-machine-learning-techniques/index.php'; 
