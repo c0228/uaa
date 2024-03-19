@@ -299,7 +299,7 @@ $(document).ready(function(){
 	 "createdOn": "Mar 30, 2023",
 	 "minRead": 5
  },{
-	 "title":"",
+	 "title":"Generate a PDF File with HTML code and send it as an Attachment to an Email using PHP",
 	 "createdOn": "Mar 30, 2023",
 	 "minRead": 5
  },{

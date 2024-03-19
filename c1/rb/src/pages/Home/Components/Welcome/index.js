@@ -11,62 +11,77 @@ const Welcome = ()=>{
  </div>
 
   <Row>
-   <Col xl={6}>
+   <Col xs={12} sm={12} md={7} lg={7} xl={7} xxl={6}>
     <div style={{ fontFamily:'Metropolis', color:'#555', fontSize:'18px', padding:'25px' }}>
         <div>
-        &emsp;At RollEasyBlinds, we're more than just a blinds business; we're your dedicated partners in transforming 
-        spaces into stunning reflections of your style and comfort. Step into a world where functionality meets 
-        sophistication, and every window tells a unique story.
+        &emsp;RollEasyBlinds doesn't just sell blinds; they craft experiences. Nestled within their ethos is a commitment 
+        to more than mere functionality; they strive to encapsulate the essence of style and comfort, forging partnerships 
+        with clients to mold spaces into stunning reflections of individual taste. Stepping into their domain is like entering 
+        a realm where each window holds the potential to narrate a distinct tale of elegance and sophistication.
         </div>
         <div style={{ paddingTop:'15px' }}>
-        &emsp;Our passion for impeccable design and commitment to quality craftsmanship drive us to deliver blinds that 
-        not only enhance privacy and light control but also add a touch of elegance to your home or office. As you 
-        explore our website, you'll discover a curated collection of blinds designed to elevate your living spaces.
+        &emsp;What sets RollEasyBlinds apart is their unwavering dedication to impeccable design and unwavering quality. They 
+        understand that blinds are not merely accessories but integral components of a living or working environment, providing 
+        both privacy and control over natural light. However, RollEasyBlinds goes beyond mere utility; their blinds are crafted 
+        to infuse spaces with an air of refinement, elevating the ambiance of any room or office.
         </div>
         <div style={{ paddingTop:'15px' }}>
-         We understand that choosing the perfect blinds is a significant decision, and we're here to guide you every step 
-         of the way. Whether you're looking for timeless classics or contemporary styles, RollEasyBlinds has the solution 
-         to match your vision.
+        The RollEasyBlinds website serves as a portal to this world of tasteful design and superior craftsmanship. Here, visitors 
+        are greeted with a carefully curated selection of blinds, each one meticulously designed to enhance living spaces in its 
+        unique way. Whether one seeks the timeless charm of classical designs or the sleek allure of contemporary styles, 
+        RollEasyBlinds promises a solution tailored to match individual visions and preferences.
         </div>
         <div style={{ paddingTop:'15px' }}>
-        Thank you for considering RollEasyBlinds as your go-to destination for premium window treatments. We invite you to 
-        explore our range, discover the possibilities, and embark on a journey to redefine your living spaces.
+        Recognizing that choosing the perfect blinds is a decision not to be taken lightly, RollEasyBlinds extends a guiding hand 
+        to assist customers at every turn. Their expertise and commitment to customer satisfaction ensure that each client receives 
+        personalized attention and support throughout the selection process. This dedication to service underscores RollEasyBlinds' 
+        reputation as a trusted partner in home transformation endeavors.
         </div>
         <div style={{ paddingTop:'15px' }}>
-        Your satisfaction is our priority, and we look forward to being a part of your home transformation.
+        RollEasyBlinds extends gratitude to those considering them as their preferred destination for premium window treatments. 
+        They invite prospective clients to explore their extensive range, encouraging them to delve into the realm of possibilities 
+        awaiting within. Whether one seeks to revitalize a living room, enhance a workspace, or simply refine the ambiance of any 
+        interior space, RollEasyBlinds promises to be the catalyst for a journey towards redefining one's living environment.
+        </div>
+        <div style={{ paddingTop:'15px' }}>
+        Above all else, RollEasyBlinds places customer satisfaction at the forefront of their mission. They eagerly anticipate the 
+        opportunity to play a pivotal role in the transformation of homes and offices, viewing each partnership as a chance to 
+        contribute to the creation of spaces that reflect the unique tastes and preferences of their clientele. With RollEasyBlinds, 
+        it's not just about covering windows; it's about crafting experiences that elevate and enrich the places we inhabit.
+        </div>
+        <div style={{ paddingTop:'15px' }}>
+        
         </div>
     </div>
     </Col>
-    <Col xl={6}>
+    <Col xs={12} sm={12} md={5} lg={5} xl={5} xxl={6}>
         <Row>
-        <Col xl={4}>
+        <Col xs={12} sm={12} md={6} lg={6} xl={6} xxl={4}>
         <div style={{ paddingTop:'25px' }}>
           <img src="assets/images/welcome1.png" style={{ boxShadow:'2px 2px 2px 2px #ccc',borderRadius:'12px', width:'100%', height:'auto' }} />
         </div>  
     </Col>  
-    <Col xl={4}>
+    <Col  xs={12} sm={12} md={6} lg={6} xl={6} xxl={4}>
         <div style={{ paddingTop:'25px' }}>
           <img src="assets/images/welcome2.png" style={{ boxShadow:'2px 2px 2px 2px #ccc',borderRadius:'12px', width:'100%', height:'auto' }} />
         </div>  
     </Col> 
-    <Col xl={4}>
+    <Col xs={12} sm={12} md={6} lg={6} xl={6} xxl={4}>
         <div style={{ paddingTop:'25px' }}>
           <img src="assets/images/welcome3.png" style={{ boxShadow:'2px 2px 2px 2px #ccc',borderRadius:'12px', width:'100%', height:'auto' }} />
         </div>  
     </Col>    
-        </Row>
-        <Row>
-        <Col xl={4}>
+        <Col xs={12} sm={12} md={6} lg={6} xl={6} xxl={4}>
         <div style={{ paddingTop:'25px' }}>
           <img src="assets/images/welcome4.png" style={{ boxShadow:'2px 2px 2px 2px #ccc',borderRadius:'12px', width:'100%', height:'auto' }} />
         </div>  
     </Col>  
-    <Col xl={4}>
+    <Col xs={12} sm={12} md={12} lg={6} xl={6} xxl={4}>
         <div style={{ paddingTop:'25px' }}>
           <img src="assets/images/welcome5.png" style={{ boxShadow:'2px 2px 2px 2px #ccc',borderRadius:'12px', width:'100%', height:'auto' }} />
         </div>  
     </Col> 
-    <Col xl={4}>
+    <Col xs={12} sm={12} md={12} lg={6} xl={6} xxl={4}>
         <div style={{ paddingTop:'25px' }}>
           <img src="assets/images/welcome6.png" style={{ boxShadow:'2px 2px 2px 2px #ccc',borderRadius:'12px', width:'100%', height:'auto' }} />
         </div>  

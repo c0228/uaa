@@ -1,56 +1,88 @@
-import React from "react";
+import React, { useState } from "react";
 import Header from '@Templates/Header/index.js';
 import { HeaderMenu } from '@Config/HeaderMenu.js';
-import { ContainerFluid, Row, Col, TextBox, Button, Select, Card, Switch } from "e-ui-react";
-import ProductData from '@StaticData/products.json';
+import { ContainerFluid, Row, Col, Form, TextBox, Button, Select, Card, Switch, FormToReqBodyFormatter, UrlAsyncFetch } from "e-ui-react";
 
 const Quotation = ()=>{
+ const [success, setSuccess] = useState(false);
  return (<>
  <Header menulinks={HeaderMenu} activeId="GetQuotation" />
+ <div style={{ padding:'25px' }}>
  <ContainerFluid>
     <Row>
-        <Col xs={12} xl={12} xxl={12}>
+        <Col xs={12} xl={10} xxl={10}>
             <div>
                 <h4 style={{ fontFamily:'BebasNeue', letterSpacing:'2px' }}><b>Request a Quotation</b></h4><hr/>
             </div>
-
+            {success && (<>
+            <div style={{ padding:'15px' }}>
+                We would like to inform you that we have successfully received your request for a quotation.<br/><br/> 
+                Thank you for reaching out to us. Our team is currently reviewing the details provided in the form.
+                Rest assured, we will diligently assess your requirements and prepare a comprehensive quotation tailored to your needs.
+                Please expect to hear back from us within 24-48 hours with the requested information. In the meantime, if you have 
+                any additional questions or specifications, feel free to reach out to us directly.
+                Thank you for considering us for your [product/service] needs. We look forward to the opportunity to serve you.
+            </div>
+            </>)}
+            {!success && (<>
             <div style={{ color:'#999', fontSize:'14px', marginTop:'10px' }}>
                 Fill the Required Details below to get Free Quotation:
             </div>
             
+            <Form name="quotationForm" 
+ btnSubmit={{
+    align: 'center',
+    btnType:'primary',
+    label:'Ask for Quotation',
+    size: 11
+}}
+onSubmit={async(form, isValidForm, setFormMode)=>{
+    if(isValidForm){  
+        setSuccess(true);
+        console.log("ForM VALUES");
+        console.log(form);
+        const reqBody = FormToReqBodyFormatter(form.quotationForm);
+        console.log("reqBody", JSON.stringify(reqBody));
+
+        await UrlAsyncFetch( process.env.NEXUS_URL + 'send/quotation', 'POST', reqBody );
+
+    }
+}}
+>
             <Row>
                 <Col xs={12} xl={4} xxl={4}>
                   <div className="mtop15p">
-                    <TextBox name="name" label={<><span className="font-red">*</span>Name</>} placeholder="Enter your Name" />
+                    <TextBox name="quoteBy" label={<><span className="font-red">*</span>Name</>} placeholder="Enter your Name" />
                   </div>
                 </Col>
                 <Col xs={12} xl={4} xxl={4}>
                   <div className="mtop15p">
-                    <TextBox name="email" label={<><span className="font-red">*</span>Email Address</>} placeholder="Enter your Email Address" />
+                    <TextBox name="quoteEmail" label={<><span className="font-red">*</span>Email Address</>} placeholder="Enter your Email Address" />
                   </div>
                 </Col>
                 <Col xs={12} xl={4} xxl={4}>
                   <div className="mtop15p">
-                    <TextBox name="phone" label={<><span className="font-red">*</span>Phone Number</>} placeholder="Enter your Phone Number including (+1)" />
+                    <TextBox name="quotePhone" label={<><span className="font-red">*</span>Phone Number</>} placeholder="Enter your Phone Number including (+1)" />
                   </div>
                 </Col>
             </Row>
             
-            {sessionStorage.getItem("QUOTATION_PRODUCTS")?.length>0 && 
-            (JSON.parse(sessionStorage.getItem("QUOTATION_PRODUCTS"))?.map((quoteId, index)=>{
-                let productDetails = ProductData?.products?.filter((product)=>product.id===quoteId)[0];
-                return (<>
-                  <div style={{ paddingTop:'15px', paddingBottom:'15px' }}>
-                    <div align="center" style={{ fontFamily:'Metropolis', fontSize:'14px' }}><b>QUOTATION ITEM #{index+1}</b></div>
-                  </div>
-                  <Card padding={15}>
+            <div style={{ marginTop:'15px' }}>
+            <Card padding={15}>
                     <Row>
-                        <Col xs={12} xl={3} xxl={3}>
-                            <div style={{ paddingBottom:'15px' }}>
-                                <img src={productDetails?.image} />
+                        <Col xs={12} xl={4} xxl={4}>
+                            <div style={{ fontSize:'12px', marginBottom:'15px' }}>
+                               <TextBox name="detTitle" label={<><span className="font-red">*</span>Title</>} placeholder="Enter Title" />
+                            </div>
+                            <div style={{ fontSize:'12x', marginBottom:'15px' }}>
+                                <TextBox name="detWeight" label={<><span className="font-red">*</span>Weight</>} placeholder="Enter Weight" />
+                            </div>
+                            <div style={{ fontSize:'12px', marginBottom:'15px' }}>
+                                <TextBox name="detThickness" label={<><span className="font-red">*</span>Thickness</>} placeholder="Enter Thickness" />
                             </div>
                             <div style={{ marginBottom:'15px' }}>
-                                <Select label="Control Options"
+                                <Select name="detControlOptions" 
+                                    label="Control Options"
                                     placeholder="Select"
                                     options={[{ id: 'ManualChain', label: 'Manual Chain', value: 'Manual Chain' },
                                             { id: 'Cordless', label: 'Cordless', value: 'Cordless' },
@@ -63,19 +95,7 @@ const Quotation = ()=>{
                                 />
                             </div>
                             <div style={{ marginBottom:'15px' }}>
-                                <Select
-                                    label="Inside / Outside"
-                                    placeholder="Select"
-                                    options={[{ id: 'inside', label: 'Inside', value: 'Inside' },
-                                            { id: 'outside', label: 'Outside', value: 'Outside' }]}
-                                    fontSize="12"
-                                    onChange={(event) => {
-                                        let option = event.target.value;
-                                    }}
-                                />
-                            </div>
-                            <div style={{ marginBottom:'15px' }}>
-                                <Select
+                                <Select name="detMount"
                                 label="Mount"
                                 placeholder="Select"
                                 options={[{ id: 'IM', label: 'IM', value: 'IM' },
@@ -87,7 +107,7 @@ const Quotation = ()=>{
                             />
                             </div>
                             <div style={{ marginBottom:'15px' }}>
-                                <Select
+                                <Select name="detQuantity"
                                 label="Quantity (pc)"
                                 placeholder="Select"
                                 options={[{ id: '1', label: '1', value: '1' },
@@ -106,40 +126,23 @@ const Quotation = ()=>{
                                 }}
                             />
                             </div>
-                        </Col>
-                        <Col xs={12} xl={3} xxl={3}>
-                            <div style={{ fontSize:'12px', marginBottom:'15px' }}>
-                                <label className="form-label"><b>Title :</b></label>
-                                <div>{productDetails?.title}</div>
-                            </div>
-                            <div style={{ fontSize:'12px', marginBottom:'15px' }}>
-                                <label className="form-label"><b>Description :</b></label>
-                                <div style={{ marginLeft:'3px' }}>{productDetails?.desc}</div>
-                            </div>
-                            <div style={{ fontSize:'12x', marginBottom:'15px' }}>
-                                <label className="form-label"><b>Weight :</b></label>
-                                <div style={{ marginLeft:'3px' }}>{productDetails?.weight}</div>
-                            </div>
-                            <div style={{ fontSize:'12px', marginBottom:'15px' }}>
-                                <label className="form-label"><b>Thickness :</b></label>
-                                <div style={{ marginLeft:'3px' }}>{productDetails?.thickness}</div>
+                            <div style={{ marginBottom:'15px' }}>
+                                <TextBox name="detRoom" label="Room Name" placeholder="Enter Room Name" />
                             </div>
                             <div style={{ marginBottom:'15px' }}>
-                                <TextBox name="room" label="Room Name" placeholder="Enter Room Name" />
+                                <TextBox name="detRoomWidth" label="Width (inch)" placeholder="Enter Width (inch)" />
                             </div>
                             <div style={{ marginBottom:'15px' }}>
-                                <TextBox name="width_inch" label="Width (inch)" placeholder="Enter Width (inch)" />
-                            </div>
-                            <div style={{ marginBottom:'15px' }}>
-                                <TextBox name="length_inch" label="Length (inch)" placeholder="Enter Length (inch)" />
+                                <TextBox name="detRoomLength" label="Length (inch)" placeholder="Enter Length (inch)" />
                             </div>
                         </Col>
-                        <Col xs={12} xl={3} xxl={3}>
+                        <Col xs={12} xl={4} xxl={4}>
+                            
                             <div style={{ marginBottom:'15px' }}>
                             <Card padding={15}>
                                 <div align="center" style={{ marginBottom:'15px', fontFamily:'Metropolis', textTransform:'uppercase' }}><b>Chain Control</b></div>
                                 <div style={{ marginBottom:'15px' }}>
-                                    <Select
+                                    <Select name="ccPosition"
                                         label="Position"
                                         placeholder="Select"
                                         options={[{ id: 'L', label: 'L', value: 'L' },
@@ -151,7 +154,7 @@ const Quotation = ()=>{
                                     />
                                 </div>
                                 <div style={{ marginBottom:'15px' }}>
-                                    <Select
+                                    <Select name="ccMaterial"
                                         label="Material"
                                         placeholder="Select"
                                         options={[{ id: 'SS', label: 'SS', value: 'SS' },
@@ -163,60 +166,7 @@ const Quotation = ()=>{
                                     />
                                 </div>
                                 <div>
-                                    <TextBox name="cc_length_inch" label="Length (inch)" placeholder="Enter Length (inch)" />
-                                </div>
-                            </Card>
-                            </div>
-
-                            <Card padding={15}>
-                                <div align="center" style={{ marginBottom:'15px', fontFamily:'Metropolis', textTransform:'uppercase' }}><b>Remote Motorized</b></div>
-                                <div style={{ marginBottom:'15px' }}>
-                                    <Select
-                                        label="Motor Position"
-                                        placeholder="Select"
-                                        options={[{ id: 'L', label: 'L', value: 'L' },
-                                                { id: 'R', label: 'R', value: 'R' }]}
-                                        fontSize="12"
-                                        onChange={(event) => {
-                                            let option = event.target.value;
-                                        }}
-                                    />
-                                </div>
-                                <div style={{ marginBottom:'15px' }}>
-                                    <TextBox name="motorType" label="Motor Type" placeholder="Enter Motor Type" />
-                                </div>
-                                <div>
-                                    <TextBox name="multiChannel" label="Multi-Channel" placeholder="Enter Multi-Channel" />
-                                </div>
-                            </Card>
-                        </Col>
-                        <Col xs={12} xl={3} xxl={3}>
-                            <div style={{ marginBottom:'15px' }}>
-                            <Card padding={15}>
-                                <div align="center" style={{ marginBottom:'15px', fontFamily:'Metropolis', textTransform:'uppercase' }}><b>Cordless</b></div>
-                                <div style={{ marginBottom:'15px' }}>
-                                    <TextBox name="ezLift" label="EZ Lift" placeholder="Enter Value" />
-                                </div>
-                            </Card>
-                            </div>
-                            <div style={{ marginBottom:'15px' }}>
-                            <Card padding={15}>
-                                <div align="center" style={{ marginBottom:'15px', fontFamily:'Metropolis', textTransform:'uppercase' }}><b>Component</b></div>
-                                <div style={{ marginBottom:'15px' }}>
-                                    <Select
-                                        label="Color"
-                                        placeholder="Select Color"
-                                        options={[{ id: 'White', label: 'White', value: 'White' },
-                                                { id: 'Black', label: 'Black', value: 'Black' },
-                                                { id: 'Beige', label: 'Beige', value: 'Beige' },
-                                                { id: 'Brown', label: 'Brown', value: 'Brown' },
-                                                { id: 'Grey', label: 'Grey', value: 'Grey' },
-                                                { id: 'Light Grey', label: 'Light Grey', value: 'Light Grey' }]}
-                                        fontSize="12"
-                                        onChange={(event) => {
-                                            let option = event.target.value;
-                                        }}
-                                    />
+                                    <TextBox name="ccLength" label="Length (inch)" placeholder="Enter Length (inch)" />
                                 </div>
                             </Card>
                             </div>
@@ -235,10 +185,66 @@ const Quotation = ()=>{
                             </div>
                             <div style={{ marginBottom:'15px' }}>
                             <Card padding={15}>
+                                <div align="center" style={{ marginBottom:'15px', fontFamily:'Metropolis', textTransform:'uppercase' }}><b>Component</b></div>
+                                <div style={{ marginBottom:'15px' }}>
+                                    <Select name="compColor"
+                                        label="Color"
+                                        placeholder="Select Color"
+                                        options={[{ id: 'White', label: 'White', value: 'White' },
+                                                { id: 'Black', label: 'Black', value: 'Black' },
+                                                { id: 'Beige', label: 'Beige', value: 'Beige' },
+                                                { id: 'Brown', label: 'Brown', value: 'Brown' },
+                                                { id: 'Grey', label: 'Grey', value: 'Grey' },
+                                                { id: 'Light Grey', label: 'Light Grey', value: 'Light Grey' }]}
+                                        fontSize="12"
+                                        onChange={(event) => {
+                                            let option = event.target.value;
+                                        }}
+                                    />
+                                </div>
+                            </Card>
+                            </div>
+                            
+                        </Col>
+                        <Col xs={12} xl={4} xxl={4}>
+                            <div style={{ marginBottom:'15px' }}>
+                            <Card padding={15}>
+                                <div align="center" style={{ marginBottom:'15px', fontFamily:'Metropolis', textTransform:'uppercase' }}><b>Remote Motorized</b></div>
+                                <div style={{ marginBottom:'15px' }}>
+                                    <Select name="remoteMotorized"
+                                        label="Motor Position"
+                                        placeholder="Select"
+                                        options={[{ id: 'L', label: 'L', value: 'L' },
+                                                { id: 'R', label: 'R', value: 'R' }]}
+                                        fontSize="12"
+                                        onChange={(event) => {
+                                            let option = event.target.value;
+                                        }}
+                                    />
+                                </div>
+                                <div style={{ marginBottom:'15px' }}>
+                                    <TextBox name="motorType" label="Motor Type" placeholder="Enter Motor Type" />
+                                </div>
+                                <div>
+                                    <TextBox name="multiChannel" label="Multi-Channel" placeholder="Enter Multi-Channel" />
+                                </div>
+                            </Card>
+                            </div>
+                            <div style={{ marginBottom:'15px' }}>
+                            <Card padding={15}>
+                                <div align="center" style={{ marginBottom:'15px', fontFamily:'Metropolis', textTransform:'uppercase' }}><b>Cordless</b></div>
+                                <div style={{ marginBottom:'15px' }}>
+                                    <TextBox name="ezLift" label="EZ Lift" placeholder="Enter Value" />
+                                </div>
+                            </Card>
+                            </div>
+                            
+                            <div style={{ marginBottom:'15px' }}>
+                            <Card padding={15}>
                                 <div align="center" style={{ marginBottom:'15px', fontFamily:'Metropolis', textTransform:'uppercase' }}>
                                     <b>Roll Direction</b></div>
                                 <div>
-                                    <Select
+                                    <Select name="rollDirection"
                                         label="Roll Direction"
                                         placeholder="Select Roll Direction"
                                         options={[{ id: 'Standard', label: 'Standard', value: 'Standard' },
@@ -253,47 +259,17 @@ const Quotation = ()=>{
                             </div>
                         </Col>
                     </Row>
-                    <Row>
-                        <Col xs={12} xl={3} xxl={3}>
-                            <div>
-                                <div style={{ fontSize:'14px' }}><b>EXW Price for Blind / piece:</b></div>
-                                <div style={{ fontSize:'18px' }}><b>$ 170.00</b></div>
-                            </div>
-                        </Col>
-                        <Col xs={12} xl={3} xxl={3}>
-                            <div>
-                                <div style={{ fontSize:'14px' }}><b>Total EXW Price for Blind :</b></div>
-                                <div style={{ fontSize:'18px' }}><b>$ 170.00</b></div>
-                            </div>
-                        </Col>
-                        <Col xs={12} xl={3} xxl={3}>
-
-                        </Col>
-                        <Col xs={12} xl={3} xxl={3}>
-                            <div align="right" style={{ marginTop:'15px' }}>
-                                <Button type="outline-primary" label="Remove from Quotation" size={11} />
-                            </div>
-                        </Col>
-                    </Row>
                   </Card>
-                </>);
-            }))}
-
-            <Row>
-                <Col xs={12} xl={12} xxl={12}>
-                    <div align="right" style={{ marginTop:'15px', marginBottom:'55px' }}>
-                        <Button type="primary" label="Ask for Quotation" size={11} />
-                    </div>
-                </Col>
-            </Row>
-            
-                {/*sessionStorage.getItem("QUOTATION_PRODUCTS")*/}
-            
+            </div>
+            </Form>
+            </>)}  
         </Col>
         <Col xs={12} xl={6} xxl={6}>
         </Col>
+            
     </Row>
  </ContainerFluid>
+ </div>
  </>);
 };
 
