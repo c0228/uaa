@@ -4,10 +4,6 @@ import Header from '@Templates/Header/index.js';
 import { HeaderMenu } from '@Config/HeaderMenu.js';
 import { BgHgtTitle } from '@Templates/Titles/index.js';
 import { FeaturedList } from '@Pages/Home/Components/featured/index.js';
-/* import { Highlight1, Highlight2 } from './Components/Highlights/index.js';
-import Welcome from "./Components/Welcome/index.js";
-import Why from './Components/Why/index.js';
-import Starters from './Components/Starters/index.js'; */
 
 const Home = ()=>{
 
@@ -30,7 +26,7 @@ const Home = ()=>{
                 </Col>
                 <Col xxl={4} xl={4}>
                     <div className="mtop15p">
-                        <BgHgtTitle align="center" title="Developer's Choice" bgColor="#f2ba49" color="#000" />
+                        <BgHgtTitle align="center" title="Today's Developer's Choice" bgColor="#f2ba49" color="#000" />
                     </div>
                 </Col>
             </Row>

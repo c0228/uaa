@@ -317,12 +317,12 @@ $(document).ready(function(){
 	 "minRead": 5
  },{
 	 "url":"#",
-	 "title":"Organize the content Moderators",
+	 "title":"Understanding the necessity of Comparable and Comparator Interfaces which were introduced in Java 1.2",
 	 "createdOn": "Mar 30, 2023",
 	 "minRead": 5
  },{
 	 "url":"#",
-	 "title":"Organize the content Moderators",
+	 "title":"Isolation and Propagation in the Context of Transactions in a Database System",
 	 "createdOn": "Mar 30, 2023",
 	 "minRead": 5
  }];
