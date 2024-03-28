@@ -3,6 +3,8 @@
 .bg-yellow1 { background-color:#cddc39; }
 .font-red { color:red; }
 
+.blog-fade:hover { opacity:0.6; }
+
 /* Colors */
 .font-red { color:red; }
 .font-yellow1 { color:#cddc39; }

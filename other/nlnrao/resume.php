@@ -291,30 +291,37 @@ $(document).ready(function(){
 	 "createdOn": "Mar 30, 2023",
 	 "minRead": 5
  },{
+	 "url":"#",
 	 "title":"Lets see the evolution of the World Wide Web (www) - Web 1.0, Web 2.0 and Web 3.0",
 	 "createdOn": "Mar 30, 2023",
 	 "minRead": 5
  },{
+	 "url":"#",
 	 "title":"How do ''www.______.com'' gets created, managed and removed over the internet?",
 	 "createdOn": "Mar 30, 2023",
 	 "minRead": 5
  },{
+	 "url":"#", 
 	 "title":"Generate a PDF File with HTML code and send it as an Attachment to an Email using PHP",
 	 "createdOn": "Mar 30, 2023",
 	 "minRead": 5
  },{
+	 "url":"#",
+	 "title":"Lets understand the Python Variables and their Data types for better Programming.",
+	 "createdOn": "Mar 30, 2023",
+	 "minRead": 5
+ },{
+	 "url":"blog/",
+	 "title":"There are Six ways to make a Javascript Function. Do you know what are they?",
+	 "createdOn": "Mar 30, 2023",
+	 "minRead": 5
+ },{
+	 "url":"#",
 	 "title":"Organize the content Moderators",
 	 "createdOn": "Mar 30, 2023",
 	 "minRead": 5
  },{
-	 "title":"Organize the content Moderators",
-	 "createdOn": "Mar 30, 2023",
-	 "minRead": 5
- },{
-	 "title":"Organize the content Moderators",
-	 "createdOn": "Mar 30, 2023",
-	 "minRead": 5
- },{
+	 "url":"#",
 	 "title":"Organize the content Moderators",
 	 "createdOn": "Mar 30, 2023",
 	 "minRead": 5

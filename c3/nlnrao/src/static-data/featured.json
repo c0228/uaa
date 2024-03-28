@@ -1,0 +1,19 @@
+{
+   "data":[{
+      "title":"Unleashing the techniques in crafting JSON Objects using Javascript",
+      "list1":[{
+         "url":"javascript/dynamically-create-retrieve-update-and-delete-crud-operations-on-json-object-and-json-array",
+         "title": "Dynamically Create, Retrieve, Update and Delete (CRUD) Operations on JSON Object and JSON Array",
+         "desc":" Elevate your JavaScript prowess by mastering the art of crafting dynamic CRUD operations for JSON objects and arrays. Explore innovative techniques for creating, retrieving, updating, and deleting data, empowering you to build robust and efficient applications with ease.",
+         "createdOn": "Jan 26, 2023",
+         "minRead": "5 min read"
+      }],
+      "list2":[{
+         "url":"javascript/sorting-an-element-in-json-array-in-ascending-and-descending-order",
+         "title": "Sorting an Element in JSON Array in Ascending and Descending Order",
+         "desc":"Explore efficient techniques to sort JSON array elements in both ascending and descending orders using JavaScript. Enhance your understanding of sorting algorithms and leverage them to organize JSON data dynamically for optimal presentation and analysis.",
+         "createdOn": "Jan 26, 2023",
+         "minRead": "5 min read"
+      }]
+   }]
+}

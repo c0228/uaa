@@ -2,11 +2,12 @@ import React, { useEffect } from "react";
 import { ContainerFluid, Row, Col, Icon, Button, Carousel } from "e-ui-react";
 import Header from '@Templates/Header/index.js';
 import { HeaderMenu } from '@Config/HeaderMenu.js';
-import Footer from '@Templates/Footer/index.js';
-import { Highlight1, Highlight2 } from './Components/Highlights/index.js';
+import { BgHgtTitle } from '@Templates/Titles/index.js';
+import { FeaturedList } from '@Pages/Home/Components/featured/index.js';
+/* import { Highlight1, Highlight2 } from './Components/Highlights/index.js';
 import Welcome from "./Components/Welcome/index.js";
 import Why from './Components/Why/index.js';
-import Starters from './Components/Starters/index.js';
+import Starters from './Components/Starters/index.js'; */
 
 const Home = ()=>{
 
@@ -16,12 +17,37 @@ const Home = ()=>{
 
  return (<>
  <Header menulinks={HeaderMenu} activeId="Home" />
- <Welcome />
+ <div>
+ <ContainerFluid>
+    <Row>
+        <Col xxl={9} xl={9}>
+            <div className="mtop15p">
+            <BgHgtTitle align="left" title="Featured Technologies" bgColor="#f2ba49" color="#000" />
+            </div>
+            <Row>
+                <Col xxl={8} xl={8}>
+                    <FeaturedList />
+                </Col>
+                <Col xxl={4} xl={4}>
+                    <div className="mtop15p">
+                        <BgHgtTitle align="center" title="Developer's Choice" bgColor="#f2ba49" color="#000" />
+                    </div>
+                </Col>
+            </Row>
+            
+        </Col>
+        <Col xxl={3} xl={3}>
+
+        </Col>
+    </Row>
+ </ContainerFluid>
+ </div>
+ {/*<Welcome />
  <Highlight1 />
  <Why />
  <Highlight2 />
  <Starters />
- <Footer />
+ <Footer />*/}
  </>);
 };
 

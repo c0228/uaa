@@ -2,13 +2,17 @@ import React, { useState } from "react";
 import { Link } from 'react-router-dom';
 import './index.css';
 
+export const LogoTitle = ()=>{
+ return (<span className="logo font-white" style={{ paddingLeft:'5px', fontSize:'22px' }}>nellutlalnrao.com</span>);
+};
+
 const Header = ({ activeId, menulinks })=>{
  const [showCollapse, setShowCollapse] = useState(false);
  return ( <nav className="navbar navbar-expand-sm" style={{ backgroundColor:'#7f1231', boxShadow:'2px 2px 2px 2px #999' }}>
  <div className="container-fluid">
-   <a className="navbar-brand" href="#" style={{ paddingTop:'0px', paddingBottom:'0px' }}>
-     <div className="logo font-white fs26">nellutlalnrao.com</div>
-   </a>
+   <Link className="navbar-brand" to="#" style={{ paddingTop:'0px', paddingBottom:'0px' }}>
+   <LogoTitle />
+   </Link>
    <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar"
    onClick={()=>setShowCollapse(!showCollapse)}
    style={{ border: '2px solid #fff' }}>

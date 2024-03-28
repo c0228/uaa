@@ -2,24 +2,9 @@ import React, { useState, useEffect } from "react";
 import Header from '@Templates/Header/index.js';
 import { HeaderMenu } from '@Config/HeaderMenu.js';
 import { ContainerFluid, Row, Col, Card, Switch, Button, Select, Icon } from "e-ui-react";
-import ProductData from '@StaticData/products.json';
 
 const Products = () =>{
  const [addToCart, setAddToCart] = useState([]);
-
- useEffect(()=>{
-  console.log('Current environment:', process.env.NODE_ENV);
-  console.log('Environment variables:', process.env.PROJECT_URL);
-
-  document.body.style.backgroundColor = '#fff';
-  if(sessionStorage.getItem("QUOTATION_PRODUCTS")?.length>0){
-    setAddToCart(JSON.parse(sessionStorage.getItem("QUOTATION_PRODUCTS")));
-  }
- },[]);
-
- useEffect(()=>{
-  sessionStorage.setItem("QUOTATION_PRODUCTS", JSON.stringify(addToCart));
- },[addToCart]);
 
  return (<>
  <Header menulinks={HeaderMenu} activeId="SystemDesignIntroduction" />
@@ -81,44 +66,7 @@ const Products = () =>{
             </Card>
             </div>
         </Col>
-        <Col xs={12} xl={10} xxl={10}>
-        <Row>
-    {ProductData?.products?.map((product,index)=>{
-        return (
-            <Col key={index} xs={12} xl={4} xxl={3}>
-              <div>
-                <div>
-                    <img src={process.env.PROJECT_URL+product?.image} />
-                </div>
-                <div style={{ fontSize:'16px', paddingTop:'15px' }}>
-                    <b>{product?.title}</b> 
-                    <span className="pull-right" style={{ fontSize:'12px' }}><b>Brand:</b> Levolor</span>
-                </div>
-                <div>{product?.desc}</div>
-                <div >
-                    <span><b>Weight:</b> {product?.weight}</span>
-                    <span className="pull-right">
-                    <Button type={addToCart?.includes(product?.id)?"primary":"outline-primary"} label={<>
-                        {addToCart?.includes(product?.id) && <Icon type="FontAwesome" name="fa-check" size={12} style={{ marginRight:'5px'}} />}
-                        <span>{addToCart?.includes(product?.id)?"Added to Quotation":"Add to Quotation"}</span>
-                    </>} size={11} onClick={()=>{
-                        const productId = product?.id;
-                        if(addToCart?.includes(productId)){
-                            setAddToCart(addToCart.filter(item => item !== productId));
-                        } else {
-                            setAddToCart([...addToCart, productId]);
-                        }
-                    }} />
-                    </span>
-                </div>
-                <div style={{ paddingBottom:'15px' }}>
-                    <div><b>Thickness:</b> {product?.thickness}</div>
-                </div>
-              </div>
-            </Col>);
-    })}
-    </Row>
-    </Col>
+        <Col xs={12} xl={10} xxl={10}></Col>
     </Row>
     
  </ContainerFluid>
