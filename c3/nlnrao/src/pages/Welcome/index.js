@@ -6,11 +6,11 @@ import './index.css';
 
 const Welcome = ()=>{
  const navigate = useNavigate();
- const [loader, setLoader] = useState(false);
+ const [loader, setLoader] = useState(true);
  const [progress, setProgress] = useState(0);
 
  useEffect(()=>{
-  document.body.style.backgroundColor = '#7f1231';
+  // document.body.style.backgroundColor = '#7f1231';
  },[]);
 
  useEffect(() => {

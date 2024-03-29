@@ -3,16 +3,16 @@ import { Link } from 'react-router-dom';
 import './index.css';
 
 export const LogoTitle = ()=>{
- return (<span className="logo font-white" style={{ paddingLeft:'5px', fontSize:'22px' }}>nellutlalnrao.com</span>);
+ return (<Link className="navbar-brand" to={process.env.PROJECT_URL} style={{ paddingTop:'0px', paddingBottom:'0px' }}>
+ <span className="logo font-white" style={{ fontSize:'22px' }}>nellutlalnrao.com</span>
+ </Link>);
 };
 
 const Header = ({ activeId, menulinks })=>{
  const [showCollapse, setShowCollapse] = useState(false);
  return ( <nav className="navbar navbar-expand-sm" style={{ backgroundColor:'#7f1231', boxShadow:'2px 2px 2px 2px #999' }}>
- <div className="container-fluid">
-   <Link className="navbar-brand" to="#" style={{ paddingTop:'0px', paddingBottom:'0px' }}>
+ <div className="container-fluid"> 
    <LogoTitle />
-   </Link>
    <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar"
    onClick={()=>setShowCollapse(!showCollapse)}
    style={{ border: '2px solid #fff' }}>

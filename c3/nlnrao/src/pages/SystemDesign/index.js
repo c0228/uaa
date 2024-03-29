@@ -7,7 +7,7 @@ const Products = () =>{
  const [addToCart, setAddToCart] = useState([]);
 
  return (<>
- <Header menulinks={HeaderMenu} activeId="SystemDesignIntroduction" />
+ <Header menulinks={HeaderMenu} activeId="tech" />
  <div style={{ marginTop:'15px' }}>
  <ContainerFluid>
     <Row>

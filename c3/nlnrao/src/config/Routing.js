@@ -10,8 +10,10 @@ export const AppRouting = ()=>{
     return (<BrowserRouter basename="/">
        <Routes>
          <Route exact path="/" element={<Welcome/>} />
+         <Route exact path="/tech/overview" element={<Products />} />
+
          <Route exact path="/javascript/dynamically-create-retrieve-update-and-delete-crud-operations-on-json-object-and-json-array" element={<JSONCrudOperations/>} />
-         <Route exact path="/system-design/introduction" element={<Products />} />
+         
          <Route exact path="/blockchain/introduction" element={<GetQuotation />} />
        </Routes>
     </BrowserRouter>);
