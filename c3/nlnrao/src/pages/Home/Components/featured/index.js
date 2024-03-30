@@ -8,8 +8,8 @@ const FeaturedItem = ({ data }) =>{
   const descFix = 250;
   return (<>
     {itemList?.map((list,index)=>{
-       return (<div key={index} style={{ paddingLeft:'15px', paddingRight:'15px', paddingBottom:'15px' }}>
-        <Link className="blog-fade" to={process.env.PROJECT_URL+list?.url} style={{ textDecoration:'none' }}>
+       return (<div key={index} className="blog-fade" style={{ paddingLeft:'15px', paddingRight:'15px', paddingBottom:'15px' }}>
+        <Link to={process.env.PROJECT_URL+list?.url} style={{ textDecoration:'none' }}>
           <div style={{ fontFamily:'Metropolis', lineHeight:'24px', fontSize:'14px', color:'#000' }}>
             {list?.title}
           </div>

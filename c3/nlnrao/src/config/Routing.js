@@ -12,8 +12,9 @@ export const AppRouting = ()=>{
          <Route exact path="/" element={<Welcome/>} />
          <Route exact path="/tech/overview" element={<Products />} />
 
-         <Route exact path="/javascript/dynamically-create-retrieve-update-and-delete-crud-operations-on-json-object-and-json-array" element={<JSONCrudOperations/>} />
-         
+         <Route exact path="/tech/javascript/dynamically-create-retrieve-update-and-delete-crud-operations-on-json-object-and-json-array" element={<JSONCrudOperations/>} />
+         <Route exact path="/tech/javascript/sorting-an-element-in-json-array-in-ascending-and-descending-order" element={<JSONCrudOperations/>} />
+
          <Route exact path="/blockchain/introduction" element={<GetQuotation />} />
        </Routes>
     </BrowserRouter>);
