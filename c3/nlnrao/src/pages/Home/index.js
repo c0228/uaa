@@ -37,7 +37,7 @@ const Home = ()=>{
             
         </Col>
         <Col xxl={3} xl={3}>
-
+            <Keywords data={KeywordData} />
         </Col>
     </Row>
  </ContainerFluid>
