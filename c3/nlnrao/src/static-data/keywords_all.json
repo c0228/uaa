@@ -1,0 +1,18 @@
+{
+    "data":["HTML","CSS","TailWindCSS","Javascript","Typescript","ECMAScript","JQuery","Bootstrap", "Ant Design Framework",
+    "Node.js","Express.js","Angular","React","Babel Compiler", "Webpack Build Tool", "Jest Framework","Mocha Framework",
+    "Chai Framework","Sinon Framework","Istanbul Code Coverage Tool","Java","J2SE","J2EE","OOPs", "Collections Framework",
+    "MultiThreading", 
+    "Java Concurrency", "Java AWT", "Java SWINGS", "Java FX", "JSPs","Servlets", "JDBC","Persistence API","Hibernate",
+    "SOLID Principle","Java Design Patterns","Spring Framework",
+    "Spring Core","Spring MVC", "Spring AOP", "Spring JDBC","Spring JPA", "Spring Security", "Spring Batch", "Spring Cloud", 
+    "Monolithic Architecture", "Microservices", 
+    "Apache Ant Build Tool", "Maven Build Tool", "Gradle Build Tool", "Junit Framework", "Mockito Framework", "FindBugs", "Sonarcube", 
+    "Rest API", "H.323/SIP Protocols", "HTTP/HTTPS Protocols", "Server/Socket Programming", "WebSockets (Over TCP Protocols)", 
+    "WebRTC","Streaming Protocols","AMQP Protocol", "Apache Kafka", "RabbitMQ", 
+    "Android Studio", "Ionic Framework", "React Native", "Expo", "Firebase", "Electron.js", 
+    "Microsoft SQL Server", "MySQL Server", "Oracle Database", "Cloud FireStore", 
+    "AWS S3", "AWS EC2","AWS Lambda", "AWS Kinesis", "AWS Cloud Watch", "Github", "Bitbucket", "SEO Tools", 
+    "Distributed Systems","Streaming Requests","Eslint","Large Scale Development","Reactive Streams",
+    "Observer Design Pattern"]
+}

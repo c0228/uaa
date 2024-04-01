@@ -48,6 +48,9 @@ const FeaturedItem = ({ data }) =>{
 
 export const FeaturedList = ()=>{
  return (<>
-  <FeaturedItem data={FeaturedData?.data?.[0]} />
+ {FeaturedData?.data?.map((feature, index)=>{
+  return (<FeaturedItem data={feature} />);
+ })}
+  
  </>);
 };

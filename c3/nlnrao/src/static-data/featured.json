@@ -4,7 +4,7 @@
       "list1":[{
          "url":"tech/javascript/dynamically-create-retrieve-update-and-delete-crud-operations-on-json-object-and-json-array",
          "title": "Dynamically Create, Retrieve, Update and Delete (CRUD) Operations on JSON Object and JSON Array",
-         "desc":" Elevate your JavaScript prowess by mastering the art of crafting dynamic CRUD operations for JSON objects and arrays. Explore innovative techniques for creating, retrieving, updating, and deleting data, empowering you to build robust and efficient applications with ease.",
+         "desc":"Elevate your JavaScript prowess by mastering the art of crafting dynamic CRUD operations for JSON objects and arrays. Explore innovative techniques for creating, retrieving, updating, and deleting data, empowering you to build robust and efficient applications with ease.",
          "createdOn": "Jan 26, 2023",
          "minRead": "5 min read"
       }],
@@ -12,6 +12,28 @@
          "url":"tech/javascript/sorting-an-element-in-json-array-in-ascending-and-descending-order",
          "title": "Sorting an Element in JSON Array in Ascending and Descending Order",
          "desc":"Explore efficient techniques to sort JSON array elements in both ascending and descending orders using JavaScript. Enhance your understanding of sorting algorithms and leverage them to organize JSON data dynamically for optimal presentation and analysis.",
+         "createdOn": "Jan 26, 2023",
+         "minRead": "5 min read"
+      }]
+   },{
+      "title":"Design of Distributed Systems in Java, Spring Boot and Microservices",
+      "list1":[{
+         "url":"tech/java/spring-boot-framework/how-to-set-eureka-server-and-eureka-client-in-spring-boot-framework",
+         "title": "How to set Eureka Server and Eureka Client in Spring Boot Framework?",
+         "desc":"Eureka Server and Eureka Client are components of Netflix Eureka, a service discovery framework designed for microservices architectures.",
+         "createdOn": "Jan 26, 2023",
+         "minRead": "5 min read"
+      },{
+         "url":"tech/java/spring-boot-framework/building-restful-api-with-a-microservice-architecture-using-java-and-spring-stack-components",
+         "title": "Building RESTFUL API with a Microservice Architecture using Java and Spring Stack Components",
+         "desc":"Explore the principles, benefits, and challenges of microservices architecture while learning to design scalable RESTful APIs.",
+         "createdOn": "Jan 26, 2023",
+         "minRead": "5 min read"
+      }],
+      "list2":[{
+         "url":"tech/full-stack-development/create-a-file-upload-platform-where-files-stores-in-local-system-using-spring-boot-and-react-js",
+         "title": "Create a File upload Platform where files stores in local system using Spring Boot and React JS?",
+         "desc":"Explore step-by-step instructions and best practices to enhance your Application with robust file upload features, ensuring data security and user satisfaction.",
          "createdOn": "Jan 26, 2023",
          "minRead": "5 min read"
       }]
