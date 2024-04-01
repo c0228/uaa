@@ -111,6 +111,7 @@ entry: './src/index.js',
     symlinks: false,
     alias: Object.assign( webpackConfigAlias, {
         '@Assets': Path.resolve(__dirname, 'public/assets'),
+        '@Components': Path.resolve(__dirname, 'src/components'),
         '@Config': Path.resolve(__dirname, 'src/config'),
         '@Pages': Path.resolve(__dirname, 'src/pages'),
         '@Templates': Path.resolve(__dirname, 'src/templates'),

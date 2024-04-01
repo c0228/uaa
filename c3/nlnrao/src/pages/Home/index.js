@@ -5,6 +5,8 @@ import { HeaderMenu } from '@Config/HeaderMenu.js';
 import { BgHgtTitle } from '@Templates/Titles/index.js';
 import { FeaturedList } from '@Pages/Home/Components/featured/index.js';
 import DevChoice from '@Pages/Home/Components/dev-choice/index.js';
+import { Keywords } from '@Components/keywords/index.js';
+import KeywordData from '@StaticData/keywords-all.js';
 
 const Home = ()=>{
 
