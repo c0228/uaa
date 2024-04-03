@@ -9,9 +9,9 @@ const BasicInfo = ()=>{
     <div className="resume-profile-card-subtitle"><b>Full Stack Developer Engineer</b></div>
     <div className="resume-profile-card-div-desc">
     Over 11+ years of experience, specializing in 
-    developing applications on Web, Mobile & Desktop Platforms, with a versatile skill set and a deep understanding 
+    developing applications on Web, Mobile & Desktop Platforms, with a versatile skill set & a deep understanding 
     of software development principles, I excel in delivering high-quality solutions that meet the diverse needs of 
-    clients and users alike.   
+    clients & users alike.   
    </div>
    </div>
    </>);
