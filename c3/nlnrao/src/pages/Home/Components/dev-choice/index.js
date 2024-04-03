@@ -11,7 +11,7 @@ const DevChoice = () =>{
         <Link to={d?.url} style={{ textDecoration:'none' }} className="blog-fade">
         <Row>
         <Col all={2}>
-            <span style={{ fontSize:'26px',color:'#bbb' }}>{formattedNumber}</span>
+            <div align="center" style={{ fontSize:'26px',color:'#bbb' }}>{formattedNumber}</div>
         </Col>
         <Col all={10}>
             <div style={{ fontFamily:'Metropolis', paddingTop:'3px', fontSize:'14px', color:'#333' }}>{d?.title}</div>

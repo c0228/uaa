@@ -1,6 +1,5 @@
 <style>
-.about-blog-div { margin-bottom:35px; }
-.about-blog-content { font-size:16px;line-height:26px;color:#555;padding:15px;background-color:#ffffeb;border-radius:5px; }
+
 </style>
 <script type="text/javascript">
 function load_blogKeywords(id){
