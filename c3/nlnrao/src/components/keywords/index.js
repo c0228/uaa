@@ -5,7 +5,7 @@ const Keywords = ({ data }) =>{
  return (<>
   <div style={{ marginTop:'25px' }}>
     {data?.data?.map((keyword, index)=>{
-      return (<Badge type="secondary-lgt" label={keyword} size="11" 
+      return (<Badge key={index} type="secondary-lgt" label={keyword} size="11" 
       style={{ fontFamily:'Metropolis' }} />);
     })}
   </div>

@@ -6,6 +6,7 @@ import { BgHgtTitle } from '@Templates/Titles/index.js';
 import { FeaturedList } from '@Pages/Home/Components/featured/index.js';
 import DevChoice from '@Pages/Home/Components/dev-choice/index.js';
 import AboutBlog from './Components/about-blog/index.js';
+import ProfileCard from '@Components/profile-card/index.js';
 import Keywords from '@Components/keywords/index.js';
 import KeywordData from '@StaticData/keywords-all.json';
 
@@ -22,7 +23,7 @@ const Home = ()=>{
     <Row>
         <Col xxl={9} xl={9}>
             <div className="mtop15p">
-            <BgHgtTitle align="left" title="Featured Technologies" bgColor="#ebd09a" color="#000" />
+            <BgHgtTitle align="left" title="Featured Technologies" bgColor="#f2ba49" color="#000" />
             </div>
             <Row>
                 <Col xxl={8} xl={8}>
@@ -30,7 +31,7 @@ const Home = ()=>{
                 </Col>
                 <Col xxl={4} xl={4}>
                     <div className="mtop15p mbot15p">
-                        <BgHgtTitle align="center" title="Today's Developer's Choice" bgColor="#ebd09a" color="#000" />
+                        <BgHgtTitle align="center" title="Today's Developer's Choice" bgColor="#f2ba49" color="#000" />
                         <DevChoice />
                     </div>
                 </Col>
@@ -38,6 +39,7 @@ const Home = ()=>{
             
         </Col>
         <Col xxl={3} xl={3}>
+            <ProfileCard />
             <AboutBlog />
             <Keywords data={KeywordData} />
         </Col>

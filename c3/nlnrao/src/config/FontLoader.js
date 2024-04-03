@@ -11,7 +11,8 @@ const FontLoader = () => {
                 BebasNeue: process.env.PROJECT_URL+'fonts/bebas-neue/BebasNeue-Regular.ttf', // Heading
                 BloomsFree: process.env.PROJECT_URL+'fonts/blooms/BloomsFree.ttf', // logo
                 Metropolis: process.env.PROJECT_URL+'fonts/metropolis/Metropolis-Medium.otf',
-                OpenSansItalic: process.env.PROJECT_URL+'fonts/open-sans/OpenSans-Italic.ttf'
+                OpenSansItalic: process.env.PROJECT_URL+'fonts/open-sans/OpenSans-Italic.ttf',
+                OpenSansRegular: process.env.PROJECT_URL+'fonts/open-sans/OpenSans-Regular.ttf'
                 // Add more font URLs as needed
             };
 

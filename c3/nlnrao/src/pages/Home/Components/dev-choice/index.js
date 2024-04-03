@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { Row, Col } from "e-ui-react";
+import { Row, Col, Icon } from "e-ui-react";
 import DevChoiceData from "@StaticData/dev-choice.json";
 
 const DevChoice = () =>{
@@ -14,11 +14,11 @@ const DevChoice = () =>{
             <div align="center" style={{ fontSize:'26px',color:'#bbb' }}>{formattedNumber}</div>
         </Col>
         <Col all={10}>
-            <div style={{ fontFamily:'Metropolis', paddingTop:'3px', fontSize:'14px', color:'#333' }}>{d?.title}</div>
+            <div style={{ fontFamily:'Metropolis', lineHeight:'24px', paddingTop:'3px', fontSize:'16px', color:'#333' }}>{d?.title}</div>
             <div style={{ color:'#aaa',marginTop:'6px' }}>
-                <i className="fa fa-file-text" style={{ marginRight:'3px' }} aria-hidden="true"></i> {d?.createdOn}
+                <Icon type="FontAwesome" name="fa-file-text" style={{ marginRight:'3px' }} /> {d?.createdOn}
                 <span className="pull-right">
-                <i className="fa fa-dot-circle-o" style={{ marginRight: '3px' }} aria-hidden="true"></i> {d?.minRead} min read
+                 <Icon type="FontAwesome" name="fa-dot-circle-o" style={{ marginRight:'3px' }} /> {d?.minRead} min read
                 </span>
             </div>
         </Col>
