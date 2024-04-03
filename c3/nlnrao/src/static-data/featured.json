@@ -20,20 +20,38 @@
       "list1":[{
          "url":"tech/java/spring-boot-framework/how-to-set-eureka-server-and-eureka-client-in-spring-boot-framework",
          "title": "How to set Eureka Server and Eureka Client in Spring Boot Framework?",
-         "desc":"Eureka Server and Eureka Client are components of Netflix Eureka, a service discovery framework designed for microservices architectures.",
+         "desc":"Setting up Eureka Server and Eureka Client in Spring Boot framework involves configuring and deploying the Eureka Server for service registration and discovery, while integrating the Eureka Client into microservices to enable seamless communication and dynamic routing within a distributed system.",
          "createdOn": "Jan 26, 2023",
          "minRead": "5 min read"
       },{
          "url":"tech/java/spring-boot-framework/building-restful-api-with-a-microservice-architecture-using-java-and-spring-stack-components",
          "title": "Building RESTFUL API with a Microservice Architecture using Java and Spring Stack Components",
-         "desc":"Explore the principles, benefits, and challenges of microservices architecture while learning to design scalable RESTful APIs.",
+         "desc":"Explore the principles, benefits, and challenges of microservices architecture while learning to design scalable RESTful APIs. Building RESTful APIs with a Microservice Architecture using Java and Spring Stack Components enables the creation of scalable, modular, and maintainable systems by leveraging the flexibility and robustness of the Spring framework.",
+         "createdOn": "Jan 26, 2023",
+         "minRead": "5 min read"
+      },{
+         "url":"tech/java/spring-boot-framework/the-principles-of-event-sourcing-and-command-query-responsibility-segregation-cqrs-in-building-event-driven-microservices-with-java-and-spring-boot-and-how-they-enhance-scalability-and-maintainability",
+         "title": "The principles of Event Sourcing and Command Query Responsibility Segregation (CQRS) in building event-driven microservices with Java and Spring Boot, and how they enhance scalability and maintainability.",
+         "desc":"Event Sourcing captures changes to an application's state as immutable events, while Command Query Responsibility Segregation (CQRS) separates write and read operations, enhancing scalability and maintainability in event-driven microservices with Java and Spring Boot.",
          "createdOn": "Jan 26, 2023",
          "minRead": "5 min read"
       }],
       "list2":[{
          "url":"tech/full-stack-development/create-a-file-upload-platform-where-files-stores-in-local-system-using-spring-boot-and-react-js",
          "title": "Create a File upload Platform where files stores in local system using Spring Boot and React JS?",
-         "desc":"Explore step-by-step instructions and best practices to enhance your Application with robust file upload features, ensuring data security and user satisfaction.",
+         "desc":"Creating a File Upload Platform with Spring Boot and React JS enables users to securely upload and manage files, storing them locally, while leveraging the simplicity of Spring Boot for backend logic and React JS for a dynamic user interface.",
+         "createdOn": "Jan 26, 2023",
+         "minRead": "5 min read"
+      },{
+         "url":"tech/java/spring-boot-framework/what-is-the-difference-between-zipkin-and-sleuth-at-which-purpose-we-use-which-one",
+         "title": "What is the difference between Zipkin and Sleuth. At which purpose, we use which one?",
+         "desc":"Zipkin is an open-source distributed tracing system, while Sleuth is a Spring Cloud-compatible tracing solution designed for seamless integration and simplified configuration.",
+         "createdOn": "Jan 26, 2023",
+         "minRead": "5 min read"
+      },{
+         "url":"tech/java/spring-boot-framework/how-docker-and-kubernetes-can-be-used-to-containerize-java-microservices-and-manage-them-in-a-distributed-environment-including-integration-with-spring-boot-applications",
+         "title": "How Docker and Kubernetes can be used to containerize Java microservices and manage them in a distributed environment, including integration with Spring Boot applications?",
+         "desc":"Docker and Kubernetes provide a comprehensive solution for containerizing Java microservices, including Spring Boot applications, allowing seamless deployment, scaling, and management in a distributed environment through containerization and orchestration capabilities.",
          "createdOn": "Jan 26, 2023",
          "minRead": "5 min read"
       }]

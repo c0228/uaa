@@ -5,7 +5,7 @@ import FeaturedData from '@StaticData/featured.json';
 
 const FeaturedItem = ({ data }) =>{
  const Items = ({ itemList }) =>{
-  const descFix = 250;
+  const descFix = 230;
   return (<>
     {itemList?.map((list,index)=>{
        return (<div key={index} className="blog-fade" style={{ paddingLeft:'15px', paddingRight:'15px', paddingBottom:'15px' }}>

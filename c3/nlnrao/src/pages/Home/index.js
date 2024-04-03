@@ -5,8 +5,8 @@ import { HeaderMenu } from '@Config/HeaderMenu.js';
 import { BgHgtTitle } from '@Templates/Titles/index.js';
 import { FeaturedList } from '@Pages/Home/Components/featured/index.js';
 import DevChoice from '@Pages/Home/Components/dev-choice/index.js';
-import { Keywords } from '@Components/keywords/index.js';
-import KeywordData from '@StaticData/keywords-all.js';
+import Keywords from '@Components/keywords/index.js';
+import KeywordData from '@StaticData/keywords-all.json';
 
 const Home = ()=>{
 
@@ -28,7 +28,7 @@ const Home = ()=>{
                     <FeaturedList />
                 </Col>
                 <Col xxl={4} xl={4}>
-                    <div className="mtop15p">
+                    <div className="mtop15p mbot15p">
                         <BgHgtTitle align="center" title="Today's Developer's Choice" bgColor="#f2ba49" color="#000" />
                         <DevChoice />
                     </div>

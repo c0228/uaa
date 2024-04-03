@@ -1,12 +1,15 @@
 import React from "react";
+import { Badge } from "e-ui-react";
 
-export const Keywords = ({ data }) =>{
+const Keywords = ({ data }) =>{
  return (<>
   <div style={{ marginTop:'25px' }}>
-    {data?.map((keyword, index)=>{
-      return (<span className="badge" style={{ marginRight:'3px',marginBottom:'5px', backgroundColor:'#ccc', color:'#555' }}>
-        {keyword}</span>);
+    {data?.data?.map((keyword, index)=>{
+      return (<Badge type="secondary-lgt" label={keyword} size="11" 
+      style={{ fontFamily:'Metropolis' }} />);
     })}
   </div>
  </>);
 };
+
+export default Keywords;
