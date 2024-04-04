@@ -14,7 +14,7 @@ const ProfileCard = () =>{
         <div className="list-group-item mtop15p">*/}
 
         
- <div className="resume-profile-card mtop15p mbot15p" style={{ backgroundColor:'#ffeff4', 
+ <div className="resume-profile-card mtop15p mbot15p" style={{ backgroundColor:'#f0faff', border:'1px solid #cfecf9',
     paddingTop:'15px', paddingBottom:'15px', paddingLeft:'10px', paddingRight:'10px', borderRadius:'10px' }}>
   <BasicInfo />
   <BasicFooter />
