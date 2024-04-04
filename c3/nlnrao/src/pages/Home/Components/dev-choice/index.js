@@ -4,6 +4,7 @@ import { Row, Col, Icon } from "e-ui-react";
 import DevChoiceData from "@StaticData/dev-choice.json";
 
 const DevChoice = () =>{
+ const descFix = 96;
  return (<div style={{ marginRight: '5px' }}>
     {DevChoiceData?.data?.map((d,i)=>{
         const formattedNumber = (i>8)?(i+1):'0'+(i+1);
@@ -15,6 +16,9 @@ const DevChoice = () =>{
         </Col>
         <Col all={10}>
             <div style={{ fontFamily:'Metropolis', lineHeight:'24px', paddingTop:'3px', fontSize:'16px', color:'#333' }}>{d?.title}</div>
+            <div style={{ fontFamily:'Metropolis', lineHeight:'24px', paddingTop:'3px', fontSize:'14px', color:'#777' }}>
+                {(d?.desc?.length>descFix)?(d?.desc?.substring(0,descFix)+'...') : (d?.desc)}
+            </div>
             <div style={{ color:'#aaa',marginTop:'6px' }}>
                 <Icon type="FontAwesome" name="fa-file-text" style={{ marginRight:'3px' }} /> {d?.createdOn}
                 <span className="pull-right">

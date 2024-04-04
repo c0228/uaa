@@ -13,7 +13,7 @@ const FeaturedItem = ({ data }) =>{
           <div style={{ fontFamily:'Metropolis', lineHeight:'24px', fontSize:'16px', color:'#000' }}>
             {list?.title}
           </div>
-          <div style={{  fontFamily:'Metropolis', fontSize:'14px', marginTop:'5px', marginBottom:'10px', color:'#777' }}>
+          <div style={{  fontFamily:'Metropolis', lineHeight:'24px', fontSize:'14px', marginTop:'5px', marginBottom:'10px', color:'#777' }}>
             {(list?.desc?.length>descFix)?(list?.desc?.substring(0,descFix)+'...') : (list?.desc)}
           </div>
           <div style={{ color:'#aaa',marginTop:'6px',marginRight:'15px'}}>
@@ -31,7 +31,7 @@ const FeaturedItem = ({ data }) =>{
  };
  return (<div>
     <hr/>
-    <div align="center" style={{ fontFamily:'AvenisSemiBold', textTransform:'uppercase', letterSpacing:'2px', fontSize:'18px', lineHeight: '28px', paddingTop:'15px' }}>{data.title}</div>
+    <div align="center" style={{ fontWeight:'bold', textTransform:'uppercase', letterSpacing:'2px', fontSize:'15px', lineHeight: '28px', paddingTop:'15px' }}>{data.title}</div>
     <hr/>
     <div className="mtop15p">
     <Row>

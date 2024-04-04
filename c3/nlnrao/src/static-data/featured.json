@@ -35,6 +35,18 @@
          "desc":"Event Sourcing captures changes to an application's state as immutable events, while Command Query Responsibility Segregation (CQRS) separates write and read operations, enhancing scalability and maintainability in event-driven microservices with Java and Spring Boot.",
          "createdOn": "Jan 26, 2023",
          "minRead": "5 min read"
+      },{
+         "url":"tech/java/spring-boot-framework/how-do-you-handle-errors-with-feign-client",
+         "title": "How do you handle errors with @Feign Client using Spring Cloud Framework?",
+         "desc":"Managing errors seamlessly within a FeignClient interface by utilizing annotations for streamlined error handling.",
+         "createdOn": "Jan 26, 2023",
+         "minRead": "5 min read"
+      },{
+         "url":"tech/java/spring-boot-framework/there-are-three-microservices-associated-with-three-databases-respectively-how-could-you-handle-roll-back-for-first-two-when-last-one-fails",
+         "title": "There are three Microservices M1,M2, M3 associated with three Databases D1, D2, D3 respectively. Now, M1 is calling M2 and M2 is calling M3. If M3 transaction fails, M1 and M2 Database Transactions should roll back. How could you handle this?",
+         "desc":"To ensure transactional integrity across microservices M1, M2, and M3 with associated databases D1, D2, and D3 respectively, implement a distributed transaction management solution, such as using a distributed transaction coordinator or leveraging compensating transactions to rollback changes in M1 and M2 databases upon failure in M3.",
+         "createdOn": "Jan 26, 2023",
+         "minRead": "5 min read"
       }],
       "list2":[{
          "url":"tech/full-stack-development/create-a-file-upload-platform-where-files-stores-in-local-system-using-spring-boot-and-react-js",
@@ -52,6 +64,12 @@
          "url":"tech/java/spring-boot-framework/how-docker-and-kubernetes-can-be-used-to-containerize-java-microservices-and-manage-them-in-a-distributed-environment-including-integration-with-spring-boot-applications",
          "title": "How Docker and Kubernetes can be used to containerize Java microservices and manage them in a distributed environment, including integration with Spring Boot applications?",
          "desc":"Docker and Kubernetes provide a comprehensive solution for containerizing Java microservices, including Spring Boot applications, allowing seamless deployment, scaling, and management in a distributed environment through containerization and orchestration capabilities.",
+         "createdOn": "Jan 26, 2023",
+         "minRead": "5 min read"
+      },{
+         "url":"tech/java/spring-boot-framework/",
+         "title": "",
+         "desc":"",
          "createdOn": "Jan 26, 2023",
          "minRead": "5 min read"
       }]

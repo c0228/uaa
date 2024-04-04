@@ -7,7 +7,7 @@ const Resume = () =>{
  return (<div className="resume-overlay" style={{ width: showResume }}>
  <ContainerFluid style={{ marginTop:'15px', marginBottom:'15px' }}>
      <Row>
-         <Col all={3}>
+         <Col xxl={3} xl={3} lg={3} sm={3}>
              <Button type="outline-light" label={<>
                      <Icon type="FontAwesome" name="fa-arrow-left" size={13} style={{ marginRight:'5px' }} />
                      <b>Go Back</b>

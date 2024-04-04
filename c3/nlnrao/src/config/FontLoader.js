@@ -10,7 +10,9 @@ const FontLoader = () => {
                 AvenisSemiBold: process.env.PROJECT_URL+'fonts/avenis/Avenis-Semibold.ttf',
                 BebasNeue: process.env.PROJECT_URL+'fonts/bebas-neue/BebasNeue-Regular.ttf', // Heading
                 BloomsFree: process.env.PROJECT_URL+'fonts/blooms/BloomsFree.ttf', // logo
+                GoodTimes: process.env.PROJECT_URL+'fonts/good-times/good-times-rg.otf',
                 Metropolis: process.env.PROJECT_URL+'fonts/metropolis/Metropolis-Medium.otf',
+                MetropolisBold: process.env.PROJECT_URL+'fonts/metropolis/Metropolis-Bold.otf',
                 OpenSansItalic: process.env.PROJECT_URL+'fonts/open-sans/OpenSans-Italic.ttf',
                 OpenSansRegular: process.env.PROJECT_URL+'fonts/open-sans/OpenSans-Regular.ttf'
                 // Add more font URLs as needed
