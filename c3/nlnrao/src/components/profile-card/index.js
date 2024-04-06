@@ -7,9 +7,19 @@ import './index.css';
 export const ProfileContext = createContext();
 
 const ProfileCard = () =>{
- const [showResume, setShowResume] = useState('0%');
+ const [resumeVal, setResumeVal] = useState('0%');
+
+ const updateResumeStatus = (status)=>{
+   let pageTitle = 'NellutlaLNRao | My Tech';
+   if(status ==='open'){
+	   pageTitle = "NellutlaLNRao | My Resume";
+   }
+   document.title = pageTitle;
+   setResumeVal( ((status ==='open')?'100%':'0%') );
+   document.body.style.overflow = (status ==='open')?'hidden':'scroll';
+ };
  
- return (<ProfileContext.Provider value={{ showResume, setShowResume }}>
+ return (<ProfileContext.Provider value={{ resumeVal, updateResumeStatus }}>
    {/* <div className="list-group">
         <div className="list-group-item mtop15p">*/}
 

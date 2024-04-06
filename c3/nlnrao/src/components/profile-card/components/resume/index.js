@@ -1,18 +1,16 @@
 import React, { useContext } from "react";
-import { ContainerFluid, Row, Col, Icon, Button } from "e-ui-react";
+import { ContainerFluid, Row, Col } from "e-ui-react";
 import { ProfileContext } from "@Components/profile-card/index.js";
+import LeftContainer from "./components/left-container/index.js";
+import './index.css';
 
 const Resume = () =>{
- const { showResume, setShowResume } = useContext(ProfileContext);
- return (<div className="resume-overlay" style={{ width: showResume }}>
+ const { resumeVal } = useContext(ProfileContext);
+ return (<div className="resume-overlay" style={{ width: resumeVal }}>
  <ContainerFluid style={{ marginTop:'15px', marginBottom:'15px' }}>
      <Row>
          <Col xxl={3} xl={3} lg={3} sm={3}>
-             <Button type="outline-light" label={<>
-                     <Icon type="FontAwesome" name="fa-arrow-left" size={13} style={{ marginRight:'5px' }} />
-                     <b>Go Back</b>
-                     </>} size={12}
-                     onClick={()=>setShowResume('0%')} />
+            <LeftContainer />
          </Col>
      </Row>
  </ContainerFluid>

@@ -3,7 +3,7 @@ import { Row, Col, Icon, Button } from "e-ui-react";
 import { ProfileContext } from "@Components/profile-card/index.js";
 
 const BasicFooter = () =>{
-  const { setShowResume } = useContext(ProfileContext);
+  const { updateResumeStatus } = useContext(ProfileContext);
     return (<>
     <Row>
       <Col all={6}>
@@ -19,7 +19,7 @@ const BasicFooter = () =>{
                   <b>Explore more</b>
                   <Icon type="FontAwesome" name="fa-arrow-right" size={13} style={{ marginLeft:'8px' }} />
                   </>} size={12}
-                  onClick={()=>setShowResume('100%')}/>
+                  onClick={()=>updateResumeStatus('open')}/>
           </div>
       </Col>
   </Row>
