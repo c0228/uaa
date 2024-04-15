@@ -3,7 +3,6 @@ import { Link } from "react-router-dom";
 import { Icon } from "e-ui-react";
 
 const BlogItems = ({ itemList }) =>{
-    const descFix = 245;
     return (<>
       {itemList?.map((list,index)=>{
          return (<div key={index} className="blog-fade" style={{ paddingTop:'15px', paddingBottom: '20px' }}>
@@ -12,7 +11,7 @@ const BlogItems = ({ itemList }) =>{
               {list?.title}
             </div>
             <div style={{  fontFamily:'Metropolis', lineHeight:'24px', fontSize:'14px', marginTop:'5px', marginBottom:'10px', color:'#777' }}>
-              {(list?.desc?.length>descFix)?(list?.desc?.substring(0,descFix)+'...') : (list?.desc)}
+              {(list?.desc?.length>list?.descFix)?(list?.desc?.substring(0,list?.descFix)+'...') : (list?.desc)}
             </div>
             <div style={{ color:'#aaa',marginTop:'6px',marginRight:'15px'}}>
               <Icon type="FontAwesome" name="fa-file-text" style={{ marginLeft:'2px', marginRight:'3px' }} /> 

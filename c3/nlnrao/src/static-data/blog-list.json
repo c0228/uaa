@@ -3,14 +3,16 @@
         "row1":[{
                 "url":"tech/agile-methodology/what-is-L1-L2-L3-tier-system-of-remote-it-support",
                 "title": "What is L1, L2, L3 Tier System of Remote IT Support?",
-                "desc":"The L1, L2, L3 tier system in remote IT support denotes different levels of expertise. L1 handles basic issues like password resets, L2 deals with more complex problems, while L3 resolves intricate technical issues requiring advanced troubleshooting skills.",
+                "desc":"The L1, L2, and L3 tier system of remote IT support categorizes expertise levels. L1 provides basic assistance like password resets. L2 handles more complex issues, offering deeper technical solutions. L3 tackles specialized problems requiring advanced expertise. Each tier escalates to the next for unresolved issues, ensuring efficient problem resolution.",
+                "descFix":305,
                 "createdOn": "Jan 26, 2023",
                 "minRead": "5 min read"
             }],
         "row2":[{
                 "url":"tech/agile-methodology/what-are-architecture-design-principles-and-how-does-agile-methodology-aligns-with-it",
                 "title": "What are Architecture Design principles? How does Agile Methodology aligns with it?",
-                "desc":"Architecture Design principles shape system structure; Agile adapts to change with iterative development, aligning for flexible design.",
+                "desc":"Architecture design principles are fundamental guidelines for creating software systems, ensuring scalability, maintainability, and reliability. Agile aligns with these principles by promoting iterative development, continuous feedback, and adaptability, enabling architecture to evolve alongside changing requirements, thus ensuring alignment with business goals.",
+                "descFix":260,
                 "createdOn": "Jan 26, 2023",
                 "minRead": "5 min read"
             }],
@@ -18,6 +20,7 @@
                 "url":"tech/agile-methodology/what-is-the-role-of-domain-driven-design-ddd-in-agile-architecture-and-how-it-helps-in-defining-bounded-contexts-and-microservices",
                 "title": "What is the role of Domain-driven Design (DDD) in Agile Architecture and how it helps in defining bounded contexts and microservices?",
                 "desc":"Domain-driven Design (DDD) in Agile Architecture defines boundaries (bounded contexts) aligning with business domains, facilitating microservices design for scalable, cohesive systems.",
+                "descFix":245,
                 "createdOn": "Jan 26, 2023",
                 "minRead": "5 min read"
             }]
