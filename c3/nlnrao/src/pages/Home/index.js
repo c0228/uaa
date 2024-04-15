@@ -48,6 +48,7 @@ const Home = ()=>{
             <Row>
                 <Col all={4}><BlogItems itemList={BlogData?.agile?.row1} /></Col>
                 <Col all={4}><BlogItems itemList={BlogData?.agile?.row2} /></Col>
+                <Col all={4}><BlogItems itemList={BlogData?.agile?.row3} /></Col>
             </Row>
             
         </Col>

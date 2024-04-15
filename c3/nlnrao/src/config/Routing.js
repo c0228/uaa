@@ -6,11 +6,12 @@ import GetQuotation from "@Pages/Blockchain/index.js";
 import Products from "@Pages/SystemDesign/index.js";
 import DefineL1L2L3 from "@Pages/Agile/content/L1-L2-L3/index.js";
 import ArchDesignPrinciple from "@Pages/Agile/content/arch-design-principle/index.js";
+import DDDRole from "@Pages/Agile/content/ddd-role/index.js";
 
 export const AppRouting = ()=>{
 
     return (<BrowserRouter basename="/">
-       <Routes>
+      <Routes>
          <Route exact path="/" element={<Welcome/>} />
          <Route exact path="tech/overview" element={<Products />} />
 
@@ -22,6 +23,7 @@ export const AppRouting = ()=>{
          {/* Agile Methodology */}
          <Route exact path="tech/agile-methodology/what-is-L1-L2-L3-tier-system-of-remote-it-support" element={<DefineL1L2L3 />} />
          <Route exact path="tech/agile-methodology/what-are-architecture-design-principles-and-how-does-agile-methodology-aligns-with-it" element={<ArchDesignPrinciple/>} />
-       </Routes>
+         <Route exact path="tech/agile-methodology/what-is-the-role-of-domain-driven-design-ddd-in-agile-architecture-and-how-it-helps-in-defining-bounded-contexts-and-microservices" element={<DDDRole/>} />
+      </Routes>
     </BrowserRouter>);
    };

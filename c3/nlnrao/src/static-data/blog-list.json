@@ -13,6 +13,13 @@
                 "desc":"Architecture Design principles shape system structure; Agile adapts to change with iterative development, aligning for flexible design.",
                 "createdOn": "Jan 26, 2023",
                 "minRead": "5 min read"
+            }],
+        "row3":[{ 
+                "url":"tech/agile-methodology/what-is-the-role-of-domain-driven-design-ddd-in-agile-architecture-and-how-it-helps-in-defining-bounded-contexts-and-microservices",
+                "title": "What is the role of Domain-driven Design (DDD) in Agile Architecture and how it helps in defining bounded contexts and microservices?",
+                "desc":"Domain-driven Design (DDD) in Agile Architecture defines boundaries (bounded contexts) aligning with business domains, facilitating microservices design for scalable, cohesive systems.",
+                "createdOn": "Jan 26, 2023",
+                "minRead": "5 min read"
             }]
     }
 }
