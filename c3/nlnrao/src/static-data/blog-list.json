@@ -24,5 +24,44 @@
                 "createdOn": "Jan 26, 2023",
                 "minRead": "5 min read"
             }]
+    },
+    "node":{
+        "row1":[{ 
+            "url":"tech/node-js/overview-of-node-js-and-v8-engine-how-they-works-together",
+            "title": "Overview of NodeJS and V8 Engine. How they works together?",
+            "desc":"Node.js is a JavaScript runtime built on the V8 JavaScript engine, which powers Google Chrome. V8 compiles JavaScript into machine code, enabling rapid execution. Node.js extends this functionality to the server-side, allowing developers to run JavaScript outside of the browser, facilitating scalable and efficient backend development. Together, Node.js and V8 enable developers to write server-side applications in JavaScript, utilizing a single language across the entire tech stack.",
+            "descFix":245,
+            "createdOn": "Jan 26, 2023",
+            "minRead": "5 min read"
+        }],
+        "row2":[{ 
+            "url":"tech/node-js/understanding-buffer-classes-in-node-js",
+            "title": "Understanding Buffer Classes in NodeJS",
+            "desc":"Buffer classes in Node.js are used to handle binary data directly. They provide a way to work with raw memory allocated outside the V8 heap. Buffer instances can be created in various ways: by providing the length of the buffer, an array of octets, or a string. They offer methods to manipulate and convert data, making them crucial for tasks like reading/writing files, handling network data, and cryptographic operations.",
+            "descFix":305,
+            "createdOn": "Jan 26, 2023",
+            "minRead": "5 min read"
+        }],
+        "row3":[]
+    },
+    "dockub":{
+        "row1":[],
+        "row2":[],
+        "row3":[]
+    },
+    "kafka":{
+        "row1":[],
+        "row2":[],
+        "row3":[]
+    },
+    "sysd":{
+        "row1":[],
+        "row2":[],
+        "row3":[]
+    },
+    "dsAlgo":{
+        "row1":[],
+        "row2":[],
+        "row3":[]
     }
 }

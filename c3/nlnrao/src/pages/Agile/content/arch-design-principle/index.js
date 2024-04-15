@@ -8,7 +8,7 @@ const ArchDesignPrinciple = () =>{
 
  return (<ContainerFluid>
     <Row>
-        <Col all={8}>
+        <Col xxl={8} xl={8}>
             <Breadcrumb data={[{ "label": "Agile Methodology", "url":"#" },
                     { "label": "What are Architecture Design principles? How does Agile Methodology aligns with it?", "url":"#" }]} />
             <div className="mtop35p">
@@ -201,7 +201,7 @@ const ArchDesignPrinciple = () =>{
                     </li>
                 </ol>
             </div>
-            <div class="mtop15p blog-desc">
+            <div class="mtop15p mbot35p blog-desc">
             In conclusion, aligning architecture design principles with Agile methodology enables teams to build software systems that are 
             adaptable, scalable, user-centric, and continuously improving. By embracing Agile principles such as modularity, flexibility, 
             and collaboration, teams can deliver value to customers more effectively while maintaining architectural integrity and alignment 

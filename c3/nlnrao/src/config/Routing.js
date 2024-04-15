@@ -7,6 +7,8 @@ import Products from "@Pages/SystemDesign/index.js";
 import DefineL1L2L3 from "@Pages/Agile/content/L1-L2-L3/index.js";
 import ArchDesignPrinciple from "@Pages/Agile/content/arch-design-principle/index.js";
 import DDDRole from "@Pages/Agile/content/ddd-role/index.js";
+import V8Node from "@Pages/NodeJS/content/v8-node/index.js";
+import BufferClasses from "@Pages/NodeJS/content/buffer-classes/index.js";
 
 export const AppRouting = ()=>{
 
@@ -24,6 +26,10 @@ export const AppRouting = ()=>{
          <Route exact path="tech/agile-methodology/what-is-L1-L2-L3-tier-system-of-remote-it-support" element={<DefineL1L2L3 />} />
          <Route exact path="tech/agile-methodology/what-are-architecture-design-principles-and-how-does-agile-methodology-aligns-with-it" element={<ArchDesignPrinciple/>} />
          <Route exact path="tech/agile-methodology/what-is-the-role-of-domain-driven-design-ddd-in-agile-architecture-and-how-it-helps-in-defining-bounded-contexts-and-microservices" element={<DDDRole/>} />
+      
+         {/* NodeJS */}
+         <Route exact path="tech/node-js/overview-of-node-js-and-v8-engine-how-they-works-together" element={<V8Node />} />
+         <Route exact path="tech/node-js/understanding-buffer-classes-in-node-js" element={<BufferClasses />} />
       </Routes>
     </BrowserRouter>);
    };

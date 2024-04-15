@@ -6,7 +6,7 @@ const DDDRole = () =>{
  useEffect(()=>{ window.scrollTo({ top: 0, behavior: 'smooth' }); },[]); // Smooth scroll to top
  return (<ContainerFluid>
     <Row>
-        <Col all={8}>
+        <Col xxl={8} xl={8}>
             <Breadcrumb data={[{ "label": "Agile Methodology", "url":"#" },
                     { "label": "What is the role of Domain-driven Design (DDD) in Agile Architecture and how it helps in defining bounded contexts and microservices?", "url":"#" }]} />
             <div className="mtop35p">

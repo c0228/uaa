@@ -155,7 +155,7 @@ const DefineL1L2L3 = () =>{
 
  return (<ContainerFluid>
     <Row>
-        <Col all={8}>
+        <Col xxl={8} xl={8}>
             <Breadcrumb data={[{ "label": "Agile Methodology", "url":"#" },
                     { "label": "What is L1, L2, L3 Tier System of Remote IT Support?", "url":"#" }]} />
             <div className="mtop35p">

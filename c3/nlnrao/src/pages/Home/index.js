@@ -18,6 +18,24 @@ const Home = ()=>{
   document.body.style.backgroundColor = '#fff';
  },[]);
 
+ const BlogTitle = ({ label })=>{
+  return (<Row>
+    <Col all={12}>
+        <div className="mtop35p mbot15p">
+          <div className="list-header">{label}</div>
+        </div>
+    </Col>
+</Row>);
+ };
+
+ const BlogContent = ({ label })=>{
+    return (<Row>
+        <Col xxl={4} xl={4}><BlogItems itemList={BlogData?.[label]?.row1} /></Col>
+        <Col xxl={4} xl={4}><BlogItems itemList={BlogData?.[label]?.row2} /></Col>
+        <Col xxl={4} xl={4}><BlogItems itemList={BlogData?.[label]?.row3} /></Col>
+    </Row>);
+ };
+
  return (<>
  <Header menulinks={HeaderMenu} activeId="Home" />
  <div>
@@ -38,19 +56,18 @@ const Home = ()=>{
                     </div>
                 </Col>
             </Row>
-            <Row>
-                <Col all={12}>
-                    <div className="mtop35p mbot15p">
-                      <div className="list-header">Agile Methodology - Technical Leads / Architect's Point of View</div>
-                    </div>
-                </Col>
-            </Row>
-            <Row>
-                <Col all={4}><BlogItems itemList={BlogData?.agile?.row1} /></Col>
-                <Col all={4}><BlogItems itemList={BlogData?.agile?.row2} /></Col>
-                <Col all={4}><BlogItems itemList={BlogData?.agile?.row3} /></Col>
-            </Row>
-            
+            <BlogTitle label="Agile Methodology - Technical Leads / Architect's Point of View" />
+            <BlogContent label="agile" />
+            <BlogTitle label="Mastering Guide to Node JS" />
+            <BlogContent label="node" />
+            <BlogTitle label="Docker and Kubernetes" />
+            <BlogContent label="dockub" />
+            <BlogTitle label="Kafka Messaging Queues" />
+            <BlogContent label="kafka" />
+            <BlogTitle label="System Design in Distributed Systems" />
+            <BlogContent label="sysd" />
+            <BlogTitle label="Data Structures and Algorithms" />
+            <BlogContent label="dsAlgo" />
         </Col>
         <Col xxl={3} xl={3}>
             <ProfileCard />
