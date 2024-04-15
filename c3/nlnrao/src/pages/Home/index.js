@@ -9,6 +9,8 @@ import AboutBlog from './Components/about-blog/index.js';
 import ProfileCard from '@Components/profile-card/index.js';
 import Keywords from '@Components/keywords/index.js';
 import KeywordData from '@StaticData/keywords-all.json';
+import BlogItems from '@Components/blog-items/index.js'; 
+import BlogData from '@StaticData/blog-list.json';
 
 const Home = ()=>{
 
@@ -35,6 +37,17 @@ const Home = ()=>{
                         <DevChoice />
                     </div>
                 </Col>
+            </Row>
+            <Row>
+                <Col all={12}>
+                    <div className="mtop35p mbot15p">
+                      <div className="list-header">Agile Methodology - Technical Leads / Architect's Point of View</div>
+                    </div>
+                </Col>
+            </Row>
+            <Row>
+                <Col all={4}><BlogItems itemList={BlogData?.agile?.row1} /></Col>
+                <Col all={4}><BlogItems itemList={BlogData?.agile?.row2} /></Col>
             </Row>
             
         </Col>
