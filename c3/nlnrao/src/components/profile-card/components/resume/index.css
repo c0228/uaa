@@ -7,8 +7,9 @@
 .resume-overlay::-webkit-scrollbar-thumb { background-color: #000000; }
 .resume-profilepic { width:120px;height:120px;border-radius:50%; }
 .resume-title { text-transform:uppercase;color:#ddd; }
-.resume-socialMedia { display:flex; }
-.resume-socialMedia-icon { flex-grow:1;padding:10px; }
+.resume-flex-container { display:flex; }
+.resume-flex-box { flex-grow:1;padding:10px; }
 .resume-hyperlink { color:#999;text-decoration:none; }
-.resume-header-main { text-transform:uppercase;padding-top:8px;padding-bottom:8px;margin-bottom:15px;color:#7cffc2;
-    border-top:1px solid #7cffc2;border-bottom:1px solid #7cffc2; }
+.resume-header-main { text-transform:uppercase;padding-top:8px;padding-bottom:8px;margin-bottom:20px;color:#fff;
+    border-top:1px solid #fff;border-bottom:1px solid #fff; }
+.uppercase { text-transform: uppercase; }

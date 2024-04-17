@@ -9,7 +9,7 @@ const Resume = () =>{
  return (<div className="resume-overlay" style={{ width: resumeVal }}>
  <ContainerFluid style={{ marginTop:'15px', marginBottom:'15px' }}>
      <Row>
-         <Col xxl={3} xl={3} lg={3} sm={3}>
+         <Col xxl={2} xl={3} lg={3} sm={3}>
             <LeftContainer />
          </Col>
      </Row>
