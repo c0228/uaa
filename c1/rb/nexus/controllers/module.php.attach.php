@@ -228,5 +228,6 @@ try {
  $mail->send();
  echo 'Email sent successfully';
 } catch (Exception $e) {
-    echo "Email could not be sent. Mailer Error: {$mail->ErrorInfo}";
+    print_r($e);
+   // echo "Email could not be sent. Mailer Error: {$mail->ErrorInfo}";
 }
