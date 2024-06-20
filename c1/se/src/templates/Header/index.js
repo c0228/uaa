@@ -1,10 +1,13 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { Icon } from "e-ui-react";
 import { Link } from 'react-router-dom';
 import './index.css';
 
 const Header = ({ activeId, menulinks })=>{
  const [showCollapse, setShowCollapse] = useState(false);
+ useEffect(()=>{
+  document.body.style.backgroundColor = '#fff';
+ },[]);
  return (<>
  <div className="upper-header">
     <div className="upper-header-flex">

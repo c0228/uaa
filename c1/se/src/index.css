@@ -10,3 +10,4 @@
 .font-lgt-purple { color:#5d607f; }
 .btn-border { padding-top:10px;padding-bottom:10px; }
 .btn-border-lgt-purple { border:2px solid #5d607f; }
+.custom-fade-in { opacity: 0;transition: opacity 3000s ease-in-out; }
