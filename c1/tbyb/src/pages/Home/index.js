@@ -17,11 +17,11 @@ const Home = ()=>{
  return (<>
  <Header menulinks={HeaderMenu} activeId="Home" />
  <Welcome />
- <Highlight1 />
+ {/*<Highlight1 />
  <Why />
  <Highlight2 />
  <Starters />
- <Footer />
+ <Footer />*/}
  </>);
 };
 

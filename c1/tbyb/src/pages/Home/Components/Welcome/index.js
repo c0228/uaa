@@ -1,94 +1,64 @@
 import React from "react";
 import { Row, Col } from "e-ui-react";
+import './index.css';
 
 const Welcome = ()=>{
  return (<>
-  <div style={{ paddingTop:'40px', paddingLeft:'10px', paddingRight:'30px' }}>
- <div align="center">
-   <span style={{ fontSize:'40px', fontFamily:'BebasNeue', letterSpacing:'4px', color:'#E91E63' }}>
-        <b>Welcome to RollEasyBlinds – Your Window to Elegance!</b>
-   </span>
- </div>
-
-  <Row>
-   <Col xs={12} sm={12} md={7} lg={7} xl={7} xxl={6}>
-    <div style={{ fontFamily:'Metropolis', color:'#555', fontSize:'18px', padding:'25px' }}>
-        <div>
-        &emsp;RollEasyBlinds doesn't just sell blinds; they craft experiences. Nestled within their ethos is a commitment 
-        to more than mere functionality; they strive to encapsulate the essence of style and comfort, forging partnerships 
-        with clients to mold spaces into stunning reflections of individual taste. Stepping into their domain is like entering 
-        a realm where each window holds the potential to narrate a distinct tale of elegance and sophistication.
-        </div>
-        <div style={{ paddingTop:'15px' }}>
-        &emsp;What sets RollEasyBlinds apart is their unwavering dedication to impeccable design and unwavering quality. They 
-        understand that blinds are not merely accessories but integral components of a living or working environment, providing 
-        both privacy and control over natural light. However, RollEasyBlinds goes beyond mere utility; their blinds are crafted 
-        to infuse spaces with an air of refinement, elevating the ambiance of any room or office.
-        </div>
-        <div style={{ paddingTop:'15px' }}>
-        The RollEasyBlinds website serves as a portal to this world of tasteful design and superior craftsmanship. Here, visitors 
-        are greeted with a carefully curated selection of blinds, each one meticulously designed to enhance living spaces in its 
-        unique way. Whether one seeks the timeless charm of classical designs or the sleek allure of contemporary styles, 
-        RollEasyBlinds promises a solution tailored to match individual visions and preferences.
-        </div>
-        <div style={{ paddingTop:'15px' }}>
-        Recognizing that choosing the perfect blinds is a decision not to be taken lightly, RollEasyBlinds extends a guiding hand 
-        to assist customers at every turn. Their expertise and commitment to customer satisfaction ensure that each client receives 
-        personalized attention and support throughout the selection process. This dedication to service underscores RollEasyBlinds' 
-        reputation as a trusted partner in home transformation endeavors.
-        </div>
-        <div style={{ paddingTop:'15px' }}>
-        RollEasyBlinds extends gratitude to those considering them as their preferred destination for premium window treatments. 
-        They invite prospective clients to explore their extensive range, encouraging them to delve into the realm of possibilities 
-        awaiting within. Whether one seeks to revitalize a living room, enhance a workspace, or simply refine the ambiance of any 
-        interior space, RollEasyBlinds promises to be the catalyst for a journey towards redefining one's living environment.
-        </div>
-        <div style={{ paddingTop:'15px' }}>
-        Above all else, RollEasyBlinds places customer satisfaction at the forefront of their mission. They eagerly anticipate the 
-        opportunity to play a pivotal role in the transformation of homes and offices, viewing each partnership as a chance to 
-        contribute to the creation of spaces that reflect the unique tastes and preferences of their clientele. With RollEasyBlinds, 
-        it's not just about covering windows; it's about crafting experiences that elevate and enrich the places we inhabit.
-        </div>
-        <div style={{ paddingTop:'15px' }}>
-        
-        </div>
+  <div>
+    <div align="center" style={{ paddingLeft:'15px', paddingRight:'15px', paddingBottom:'8px' }}>
+      <span className="welcome-title desktop-view" style={{ paddingLeft:'10px', paddingRight:'30px', fontSize:'40px', fontFamily:'BebasNeue', letterSpacing:'4px', color:'#000' }}>
+        <b>Welcome to the Backyard bar - North Carolina, USA</b>
+      </span>
+      <div className="welcome-title mobile-view" style={{ paddingLeft:'10px', paddingRight:'30px', fontSize:'40px', fontFamily:'BebasNeue', letterSpacing:'4px', color:'#000' }}>
+        <b>Welcome to the Backyard bar - North Carolina, USA</b>
+      </div>
     </div>
-    </Col>
-    <Col xs={12} sm={12} md={5} lg={5} xl={5} xxl={6}>
-        <Row>
-        <Col xs={12} sm={12} md={6} lg={6} xl={6} xxl={4}>
-        <div style={{ paddingTop:'25px' }}>
-          <img src="assets/images/welcome1.png" style={{ boxShadow:'2px 2px 2px 2px #ccc',borderRadius:'12px', width:'100%', height:'auto' }} />
-        </div>  
-    </Col>  
-    <Col  xs={12} sm={12} md={6} lg={6} xl={6} xxl={4}>
-        <div style={{ paddingTop:'25px' }}>
-          <img src="assets/images/welcome2.png" style={{ boxShadow:'2px 2px 2px 2px #ccc',borderRadius:'12px', width:'100%', height:'auto' }} />
-        </div>  
-    </Col> 
-    <Col xs={12} sm={12} md={6} lg={6} xl={6} xxl={4}>
-        <div style={{ paddingTop:'25px' }}>
-          <img src="assets/images/welcome3.png" style={{ boxShadow:'2px 2px 2px 2px #ccc',borderRadius:'12px', width:'100%', height:'auto' }} />
-        </div>  
-    </Col>    
-        <Col xs={12} sm={12} md={6} lg={6} xl={6} xxl={4}>
-        <div style={{ paddingTop:'25px' }}>
-          <img src="assets/images/welcome4.png" style={{ boxShadow:'2px 2px 2px 2px #ccc',borderRadius:'12px', width:'100%', height:'auto' }} />
-        </div>  
-    </Col>  
-    <Col xs={12} sm={12} md={12} lg={6} xl={6} xxl={4}>
-        <div style={{ paddingTop:'25px' }}>
-          <img src="assets/images/welcome5.png" style={{ boxShadow:'2px 2px 2px 2px #ccc',borderRadius:'12px', width:'100%', height:'auto' }} />
-        </div>  
-    </Col> 
-    <Col xs={12} sm={12} md={12} lg={6} xl={6} xxl={4}>
-        <div style={{ paddingTop:'25px' }}>
-          <img src="assets/images/welcome6.png" style={{ boxShadow:'2px 2px 2px 2px #ccc',borderRadius:'12px', width:'100%', height:'auto' }} />
-        </div>  
-    </Col>    
-        </Row>
-    </Col>       
-  </Row>
+
+    <div className="container-fluid" style={{ paddingTop:'15px', paddingBottom:'15px', backgroundColor:'#ddd' }}>
+          <div className="row">
+            <div className="col-xxl-3 col-md-3" >
+              <img src="./assets/site/1.jpg" style={{ width:'100%', height:'auto' }} />
+            </div>
+            <div className="col-xxl-3 col-md-3" >
+              <img src="./assets/site/2.jpg" style={{ width:'100%', height:'auto' }} />
+              <img src="./assets/site/3.png" style={{ marginTop:'24px', width:'100%', height:'auto' }} />
+            </div>
+            <div className="col-xxl-3 col-md-3" >
+              <img src="./assets/site/1.jpg" style={{ width:'100%', height:'auto' }} />
+            </div>
+            <div className="col-xxl-3 col-md-3" >
+              <img src="./assets/site/2.jpg" style={{ width:'100%', height:'auto' }} />
+              <img src="./assets/site/3.png" style={{ marginTop:'24px', width:'100%', height:'auto' }} />
+            </div>
+            
+          </div>
+    </div>
+    <div className="container-fluid" style={{ paddingTop:'15px' }}>
+          <div className="row">
+            <div className="col-xxl-6 col-sm-6" style={{ padding:'15px' }}>
+            </div>
+            <div className="col-xxl-6 col-sm-6" style={{ lineHeight:'34px', padding:'15px', fontSize:'18px', fontFamily:'OpenSansItalic' }}>
+        We're not your average watering hole - we're an extension of your own backyard, a place where friends gather, 
+        good times flow, and the community spirit thrives. Here at The Backyard Bar, North Carolina, we're all about 
+        creating a comfortable, welcoming atmosphere where everyone feels like family.<br/><br/>
+        Our story began with a simple idea: to bring folks together over delicious food, handcrafted drinks, and genuine 
+        Southern hospitality. We opened our doors with a passion for creating a space that reflects the warmth and energy 
+        of North Carolina. Whether you're a local resident or just passing through, we want you to feel right at home.<br/><br/>
+        Our team is at the heart of The Backyard Bar experience. We've got a group of passionate folks behind the bar, in 
+        the kitchen, and on the floor, all dedicated to making your visit unforgettable. Our chefs take pride in using fresh, 
+        locally-sourced ingredients to create dishes that are familiar yet exciting, with a touch of Southern charm. Our 
+        bartenders are experts at crafting classic cocktails and innovative new concoctions, always happy to recommend the 
+        perfect drink to suit your taste.<br/><br/>
+        We're more than just a bar - we're a hub for the community. We host live music nights featuring local musicians, 
+        trivia nights that test your knowledge (and your luck!), and special events throughout the year that bring people 
+        together. Whether you're catching up with old friends, making new ones, or simply unwinding after a long day, The 
+        Backyard Bar is your place.<br/><br/>
+        So come on down, pull up a stool, and experience the Backyard Bar difference. We can't wait to welcome you to our 
+        North Carolina family!
+        </div>
+      </div>
+    </div>
+   
  </div>
  </>);
 };

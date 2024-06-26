@@ -8,8 +8,7 @@ import Products from "@Pages/Products/index.js";
 export const AppRouting = ()=>{
     return (<BrowserRouter basename="/">
        <Routes>
-         <Route exact path="/" element={<Welcome/>} />
-         <Route exact path="/home" element={<Home/>} />
+         <Route exact path="/" element={<Home/>} />
          <Route exact path="/products" element={<Products />} />
          <Route exact path="/get-quotation" element={<GetQuotation />} />
        </Routes>
