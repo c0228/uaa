@@ -1,16 +1,16 @@
 import React from "react";
-import { Row, Col } from "e-ui-react";
+import { Row, Col, Card } from "e-ui-react";
 import './index.css';
 
 const Welcome = ()=>{
  return (<>
   <div>
-    <div align="center" style={{ paddingLeft:'15px', paddingRight:'15px', paddingBottom:'8px' }}>
+    <div align="center" style={{ marginTop:'4.8%', paddingLeft:'15px', paddingRight:'15px', paddingBottom:'8px' }}>
       <span className="welcome-title desktop-view" style={{ paddingLeft:'10px', paddingRight:'30px', fontSize:'40px', fontFamily:'BebasNeue', letterSpacing:'4px', color:'#000' }}>
-        <b>Welcome to the Backyard bar - North Carolina, USA</b>
+        <b>Welcome to the Backyard bar</b>
       </span>
       <div className="welcome-title mobile-view" style={{ paddingLeft:'10px', paddingRight:'30px', fontSize:'40px', fontFamily:'BebasNeue', letterSpacing:'4px', color:'#000' }}>
-        <b>Welcome to the Backyard bar - North Carolina, USA</b>
+        <b>Welcome to the Backyard bar</b>
       </div>
     </div>
 
@@ -35,10 +35,9 @@ const Welcome = ()=>{
     </div>
     <div className="container-fluid" style={{ paddingTop:'15px' }}>
           <div className="row">
-            <div className="col-xxl-6 col-sm-6" style={{ padding:'15px' }}>
-            </div>
             <div className="col-xxl-6 col-sm-6" style={{ lineHeight:'34px', padding:'15px', fontSize:'18px', fontFamily:'OpenSansItalic' }}>
-        We're not your average watering hole - we're an extension of your own backyard, a place where friends gather, 
+            <div className="heading-title"><b>About the Backyard Bar</b></div>
+        <div>We're not your average watering hole - we're an extension of your own backyard, a place where friends gather, 
         good times flow, and the community spirit thrives. Here at The Backyard Bar, North Carolina, we're all about 
         creating a comfortable, welcoming atmosphere where everyone feels like family.<br/><br/>
         Our story began with a simple idea: to bring folks together over delicious food, handcrafted drinks, and genuine 
@@ -56,6 +55,10 @@ const Welcome = ()=>{
         So come on down, pull up a stool, and experience the Backyard Bar difference. We can't wait to welcome you to our 
         North Carolina family!
         </div>
+            </div>
+            <div className="col-xxl-6 col-sm-6" style={{ padding:'15px' }}>
+             
+            </div>
       </div>
     </div>
    

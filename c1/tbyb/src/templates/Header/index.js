@@ -25,7 +25,7 @@ const Header = ({ activeId, menulinks })=>{
       </div>
     </div>
  </div>
- <div style={{ position:'absolute', top:'50px', left:'15px' }}>
+ <div className="logo-header">
     <img src={"./assets/images/logo.png"} className="logo-img" />
  </div>
  

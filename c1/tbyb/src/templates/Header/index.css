@@ -7,15 +7,17 @@
 .separator { padding-left: 15px;border-right: 1px solid #5d607f; }
 .txt-phone-number { padding-left:8px;font-size:12px;min-width:110px;}
 .txt-email { padding-left:8px;font-size:12px; }
-
+.logo-header { position:absolute;top:48px; }
 @media (max-width:992px){
  .desktop-view { display:none; } 
  .mobile-view { display:block; }
  .mobile-view-center { width:100%;display:flex;justify-content: center;align-items:center;text-align: center; }
+ .logo-header { left:35%; }
 }
 @media (min-width:993px){
  .mobile-view { display:none; }
  .desktop-view-right { width:100%;display:flex;justify-content: flex-end;align-items:flex-end;text-align: flex-end; }
+ .logo-header { left:45%; }
 }
 
 @media (max-width: 575px) {
