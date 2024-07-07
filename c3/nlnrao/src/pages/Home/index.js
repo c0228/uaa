@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React, { useState, useEffect } from "react";
 import { ContainerFluid, Row, Col, Icon, Button, Carousel } from "e-ui-react";
 import Header from '@Templates/Header/index.js';
 import { HeaderMenu } from '@Config/HeaderMenu.js';
@@ -13,9 +13,9 @@ import BlogItems from '@Components/blog-items/index.js';
 import BlogData from '@StaticData/blog-list.json';
 
 const Home = ()=>{
-
+ const [openResume, setOpenResume] = useState(false);
  useEffect(()=>{
-  document.body.style.backgroundColor = '#fff';
+  if (window.location.hash === '#resume') { setOpenResume(true); }
  },[]);
 
  const BlogTitle = ({ label })=>{
@@ -70,7 +70,7 @@ const Home = ()=>{
             <BlogContent label="dsAlgo" />
         </Col>
         <Col xxl={3} xl={3}>
-            <ProfileCard />
+            <ProfileCard resumeOpen={openResume} />
             <AboutBlog />
             <Keywords data={KeywordData} />
         </Col>

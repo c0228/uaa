@@ -1,4 +1,4 @@
-import React, { useState, createContext } from "react";
+import React, { useState, useEffect, createContext } from "react";
 import BasicInfo from "./components/basic-info/index.js";
 import BasicFooter from "./components/basic-footer/index.js";
 import Resume from "./components/resume/index.js";
@@ -6,8 +6,14 @@ import './index.css';
 
 export const ProfileContext = createContext();
 
-const ProfileCard = () =>{
+const ProfileCard = ({ resumeOpen }) =>{
  const [resumeVal, setResumeVal] = useState('0%');
+
+ useEffect(()=>{
+  if(resumeOpen){
+    updateResumeStatus('open');
+  }
+ },[resumeOpen]);
 
  const updateResumeStatus = (status)=>{
    let pageTitle = 'NellutlaLNRao | My Tech';
