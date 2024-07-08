@@ -10,6 +10,4 @@
 .resume-flex-container { display:flex; }
 .resume-flex-box { flex-grow:1;padding:10px; }
 .resume-hyperlink { color:#999;text-decoration:none; }
-.resume-header-main { text-transform:uppercase;padding-top:8px;padding-bottom:8px;margin-bottom:20px;color:#fff;
-    border-top:1px solid #fff;border-bottom:1px solid #fff; }
 .uppercase { text-transform: uppercase; }

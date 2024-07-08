@@ -14,7 +14,13 @@
 .font-yellow2 { color:#fff388; }
 .font-white { color:#fff; }
 
+.text-vscode-orange { color:#ff9472; }
+.text-vscode-pink { color:#ff81ab; }
+
 .logo { font-family: BloomsFree;letter-spacing: 2px; }
+.fs11 { font-size:11px; }
+.fs20 { font-size:20px; }
+.fs22 { font-size:22px; }
 .fs26 { font-size:26px; }
 .fs28 { font-size:28px; }
 .fs30 { font-size:30px; }

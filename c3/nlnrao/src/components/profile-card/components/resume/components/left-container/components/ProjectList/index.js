@@ -1,4 +1,5 @@
 import React from "react";
+import ResumeHeader, { ResumeSubHeader } from '@Components/profile-card/components/resume/components/resume-header/index.js';
 
 const ProjectList = () =>{
  const data = {
@@ -81,11 +82,12 @@ const ProjectList = () =>{
     }]
  };
  return (<div className="pt-2">
-	<div className="resume-header-main"><b>My Projects List (Industry-wise)</b></div>
+    <ResumeHeader title="My Projects List (Industry-wise)" />
     <div id="resume-industry-projects" align="left">
     {Object.entries(data).map(([industry, projects], ind) => {
  return (<div key={ind} style={{ marginBottom:'20px', float:'left' }}>
-    <div className="mb-1 white uppercase" style={{ color:'#ccc' }}><b>{industry}</b></div>
+    <ResumeSubHeader title={industry} />
+    {/*<div className="mb-1 uppercase" style={{ color:'#6dbeff', letterSpacing:'1px' }}><b>{industry}</b></div>*/}
     <ol>
     {projects?.map((project,index)=>{
         return (
@@ -93,12 +95,12 @@ const ProjectList = () =>{
             <div style={{ width:'100%', float:'left' }}>
                 <div style={{ width: '75%', height:'auto', float:'left' }}>
                     <a href="#" className="resume-hyperlink">
-                        <b>{project?.title}</b>
+                        <span className="text-grey1"><b>{project?.title}</b></span>
                     </a>
                 </div>
                 <div style={{ width: '25%', height:'auto', float:'left' }}>
-                        {project?.isProject && (<span className="badge bg-warning pull-right text-black fs12">PROJ</span>)}
-                        {project?.isPOC && (<span className="badge bg-success pull-right text-white fs12">POC</span>)}
+                        {project?.isProject && (<span className="badge bg-warning pull-right text-black fs11">PROJ</span>)}
+                        {project?.isPOC && (<span className="badge bg-success pull-right text-white fs11">POC</span>)}
                 </div>
             </div>
             <div style={{ width:'100%', float:'left' }}>
@@ -111,8 +113,8 @@ const ProjectList = () =>{
                         </a>
                     </div>
                     <div style={{ width: '25%', height:'auto', float:'left' }}>
-                        {work?.isProject && (<span className="badge bg-warning pull-right text-black fs12">PROJ</span>)}
-                        {work?.isPOC && (<span className="badge bg-success pull-right text-white fs12">POC</span>)}
+                        {work?.isProject && (<span className="badge bg-warning pull-right text-black fs11">PROJ</span>)}
+                        {work?.isPOC && (<span className="badge bg-success pull-right text-white fs11">POC</span>)}
                     </div>
                 </li>);
             })}

@@ -32,10 +32,10 @@ const ProfileCard = ()=>{
 		   <div className="mt-2 resume-flex-container">
 			   {data?.kpis?.map((kpi,index)=>{
 				return (<div key={index} className="resume-flex-box">
-					<span className="curpoint" data-bs-toggle="tooltip" data-bs-placement="right" title={kpi?.tooltip}>
-				 		<span className="fs12 text-grey1 uppercase"><b>{kpi?.label}</b></span><br/>
-						<span className="mt-2 f18">{kpi?.value}</span>
-					</span>
+					<div className="curpoint" data-bs-toggle="tooltip" data-bs-placement="right" title={kpi?.tooltip}>
+				 		<div className="fs12 uppercase" style={{ color:'#bbff6c', paddingBottom:'4px' }}><b>{kpi?.label}</b></div>
+						<div className="text-grey1 fs20">{kpi?.value}</div>
+					</div>
 				</div>);
 			   })}
 		   </div>
