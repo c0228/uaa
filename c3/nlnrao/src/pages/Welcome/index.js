@@ -27,7 +27,7 @@ const Welcome = ()=>{
   return (<>
    {!loader && (<div className="splash-container" style={{  height: window.innerHeight  }}>
     <div className="splash-content">
-        <div className="logo font-white fs30">nellutlalnrao.com</div>
+        <div className="logo text-white fs30">nellutlalnrao.com</div>
         <div className="mtop15p">
           <ProgressBar type="yellow1" progress={progress} height="3" value="" /> 
           <div className="mtop15p font-yellow2"><b>Loading... {progress}%</b></div>

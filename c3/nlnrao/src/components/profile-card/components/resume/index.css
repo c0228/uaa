@@ -7,7 +7,13 @@
 .resume-overlay::-webkit-scrollbar-thumb { background-color: #000000; }
 .resume-profilepic { width:120px;height:120px;border-radius:50%; }
 .resume-title { text-transform:uppercase;color:#ddd; }
+.resume-header-main { text-transform:uppercase;padding-top:8px;padding-bottom:8px;margin-bottom:20px;color:#fff;
+    border-top:1px solid #777;border-bottom:1px solid #777;letter-spacing:1px; }
+.resume-header-sub1 { color:#282c34;background-color:#aaa;text-transform:uppercase; }
 .resume-flex-container { display:flex; }
 .resume-flex-box { flex-grow:1;padding:10px; }
 .resume-hyperlink { color:#999;text-decoration:none; }
+.resume-card {  border-color: #282c34; }
+.resume-cardBody { background-color: #282c34;color: #999; }
+
 .uppercase { text-transform: uppercase; }

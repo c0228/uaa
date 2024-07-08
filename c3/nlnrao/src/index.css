@@ -2,7 +2,6 @@
 .mtop35p { margin-top:35px; }
 .mbot35p { margin-bottom: 35px; }
 .bg-yellow1 { background-color:#cddc39; }
-.font-red { color:red; }
 
 .mbot60p { margin-bottom:60px; }
 
@@ -12,8 +11,8 @@
 .font-red { color:red; }
 .font-yellow1 { color:#cddc39; }
 .font-yellow2 { color:#fff388; }
-.font-white { color:#fff; }
 
+.text-white { color:#fff; }
 .text-vscode-orange { color:#ff9472; }
 .text-vscode-pink { color:#ff81ab; }
 

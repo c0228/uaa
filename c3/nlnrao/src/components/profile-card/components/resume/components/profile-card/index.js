@@ -1,6 +1,6 @@
 import React from "react";
-import SocialMediaIcons from "./../SocialMediaIcons/index.js";
-import DownloadButton from "./../DownloadButton/index.js";
+import SocialMediaIcons from "./../social-media-icons/index.js";
+import DownloadButton from "./../download-button/index.js";
 
 const ProfileCard = ()=>{
 	const data = {

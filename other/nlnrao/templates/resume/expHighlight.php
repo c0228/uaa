@@ -9,7 +9,7 @@
 	<div>
 		<ul>
 			<li>I excelled in relevant coursework, hands-on projects and showcasing adaptability.</li>
-			 <li>I actively collaborated in team projects and remained committed to continuous learning and professional development.</li>
+			 <li>I actively collaborated in team projects & remained committed to continuous learning and professional development.</li>
 			<li>Demonstrated a strong commitment to quality coding practices and collaborative problem-solving throughout the process.</li>
 		</ul>
 	</div>
