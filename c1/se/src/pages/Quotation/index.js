@@ -39,12 +39,11 @@ const Quotation = ()=>{
 }}
 onSubmit={async(form, isValidForm, setFormMode)=>{
     if(isValidForm){  
-       // setSuccess(true);
+        setSuccess(true);
         console.log("ForM VALUES");
         console.log(form);
         const reqBody = FormToReqBodyFormatter(form.quotationForm);
         console.log("reqBody", JSON.stringify(reqBody));
-
        await UrlAsyncFetch( process.env.NEXUS_URL + 'send/quotation', 'POST', reqBody );
     }
 }}
