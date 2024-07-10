@@ -26,7 +26,9 @@ const Features = ({ data }) =>{
         <div className="col-xxl-10 col-sm-10">
         <div className="row">
             {data?.map((d,i)=>{
-                return (<div className="col-xxl-6 col-sm-6 mbot15p"><Feature icon={d?.icon} title={d?.title} desc={d?.desc} /></div>);
+                return (<div key={i} className="col-xxl-6 col-sm-6 mbot15p">
+                    <Feature icon={d?.icon} title={d?.title} desc={d?.desc} />
+                </div>);
             })}
         </div>
         </div>

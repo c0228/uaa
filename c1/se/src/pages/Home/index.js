@@ -6,6 +6,7 @@ import AboutUs from './Components/AboutUs/index.js';
 import Features from './Components/Features/index.js';
 import Services from './Components/Services/index.js';
 import Process from './Components/Process/index.js';
+import Footer from '@Templates/Footer/index.js';
 import './index.css';
 
 const Home = ()=>{
@@ -43,8 +44,8 @@ const Home = ()=>{
                     title:'Powering Up Your Project: Electrical & Elevator Solutions', 
                     desc:'Welcome to your one-stop shop for all things electrical and elevator! We specialize in building electrical '
                         +'works and elevator installations, ensuring your project runs smoothly and efficiently from the ground floor up. '
-                        +'Explore our website to learn more about our comprehensive services.' },
-                {
+                        +'Explore our website to learn more about our comprehensive services.' 
+                },{
                     icon:'fa-link',
                     title:'Your Building\'s Electrical & Elevator Partner',
                     desc:'Imagine a building where power flows effortlessly and connections are made on every level. That\'s the experience we '
@@ -55,16 +56,14 @@ const Home = ()=>{
  <Services />
  <Process />
 
- <section class="container-fluid mt-5 text-center" style={{ backgroundColor:'#5d607f', padding:'35px', color:'#fff' }}>
- <div align="center"><h4 className="app-heading"><b>Explore Our Expertise - View Our Projects</b></h4></div>
+ <section className="container-fluid mt-5 text-center" style={{ backgroundColor:'#5d607f', padding:'35px', color:'#fff' }}>
+  <div align="center"><h4 className="app-heading"><b>Explore Our Expertise - View Our Projects</b></h4></div>
   <div className="fs14 mtop25p">We take pride in delivering exceptional electrical and elevator solutions. See a glimpse of our work to understand 
     how we can transform your building.</div>
-  <a href="projects.html" class="btn btn-light mt-3"><b>View Our Projects</b></a>
+  <a href="projects.html" className="btn btn-light mt-3"><b>View Our Projects</b></a>
 </section>
+<Footer />
 
- <footer className="container-fluid text-center" style={{ borderTop:'1px solid #ddd' }}>
-  <div style={{ padding:'10px' }}>&copy; 2024 Shudiksha Enterprises. All Rights Reserved.</div>
-</footer>
  </>);
 };
 

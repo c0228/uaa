@@ -8,7 +8,7 @@ export const AppRouting = ()=>{
     return (<BrowserRouter basename="/">
        <Routes>
          <Route exact path="/" element={<Home/>} />
-         <Route exact path="/products" element={<Products />} />
+         <Route exact path="/our-projects" element={<Products />} />
          <Route exact path="/get-quotation" element={<GetQuotation />} />
        </Routes>
     </BrowserRouter>);

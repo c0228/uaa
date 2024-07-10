@@ -20,20 +20,33 @@ const Products = () =>{
  const Images = ({ list })=>{
   return (<Row>
    {list?.map((l,i)=>{
-    return (<Col key={i} xs={12} xl={4} xxl={3}><img src={process.env.PROJECT_URL+"assets/brands/"+l} className="mbot25p" 
-    style={{ borderRadius:'8px', boxShadow:'2px 2px 2px 2px #eee' }} /></Col>);
+    return (<Col key={i} xs={12} xl={4} xxl={4}>
+      <img src={process.env.PROJECT_URL+"assets/products/"+l?.image} className="mbot25p" 
+          style={{ borderRadius:'8px', boxShadow:'2px 2px 2px 2px #eee' }} />
+      <div align="center"><h5 style={{ lineHeight:'24px' }}><b>{l?.title}</b></h5></div>
+    </Col>);
    })}
   </Row>);
  };
 
  return (<>
- <Header menulinks={HeaderMenu} activeId="Products" />
- <div style={{ margin:'15px' }}>
+ <Header menulinks={HeaderMenu} activeId="OurProjects" />
+ <div style={{ marginTop:'35px' }}>
   <ContainerFluid>
-    <Title name="Zebra Shades Blind Systems" />
-    <Images list={["zebra_1.jpg","zebra_2.jpg","zebra_3.jpg","zebra_4.jpg","zebra_5.jpg","zebra_6.jpg","zebra_7.jpg","zebra_8.jpg"]}/>
-    <Title name="Roller Shades Blind Systems" />
-    <Images list={["roller_1.jpg","roller_2.jpg","roller_3.jpg","roller_4.jpg","roller_5.jpg","roller_6.jpg","roller_7.jpg","roller_8.jpg"]}/>
+
+  </ContainerFluid>
+  <ContainerFluid>
+    <div align="center"><h4 className="app-heading" style={{ marginBottom:'35px' }}><b>View Our Projects</b></h4></div>
+    <Title name="Our Elevators" />
+    <Images list={[{ image: "1.png", title:"Malakpet (G+4 MRL Auto Door)" },
+      { image: "2.png", title:"Green Villas (G+2 Hydraulic with Iron Structure Glass Cladding)" },
+      { image: "3.png", title:"Badanget (G+3 Auto Door Gear Lift with Touch LOP Cop)" },
+      { image: "4.png", title:"Hafeezpet (MRL Auto Door G+6 with Semi Touch Buttons)" },
+      { image: "5.png", title:"Kothapet (G+4 Swing Door)" }]}/>
+    <div className="mtop35p mbot35p">
+      <Title name="Our Electrical Installations" />
+      <Images list={[{ image: "6.png", title:"Electrical Balcony Lighting at Incor Lake City Project" }]} />
+    </div>
   </ContainerFluid>
  </div>
  <Footer />
