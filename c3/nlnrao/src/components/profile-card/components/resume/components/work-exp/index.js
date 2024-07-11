@@ -15,7 +15,7 @@ const WorkExperience = () =>{
     <div className="card-body resume-cardBody">
     <ul>
         {data?.map((d,i)=>{
-            return (<li className="mbot15p">{d}</li>);
+            return (<li key={i} className="mbot15p">{d}</li>);
         })}
     </ul>
     </div>

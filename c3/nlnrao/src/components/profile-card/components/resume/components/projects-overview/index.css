@@ -6,7 +6,7 @@
   transform: rotate(-45deg);background-color: #2196F3; }
 .timeline-event:hover .timeline-event-thumbnail { -moz-box-shadow: inset 40em 0 0 0 #a83279;-webkit-box-shadow: inset 40em 0 0 0 #2196F3;
   box-shadow: inset 40em 0 0 0 #2196F3; }
-.timeline-event-copy { padding: 2em;position: relative;top: -1.875em;left: 2em;width: 90%; }
+.timeline-event-copy { padding: 2em;position: relative;top: -1.875em;left: 2em;width: 98%; }
 .timeline-event-copy h3 { font-size: 1.75em; }
 .timeline-event-copy h4 { font-size: 1.4em;margin-bottom: 1.2em; }
 .timeline-event-copy strong { font-weight: 400; }

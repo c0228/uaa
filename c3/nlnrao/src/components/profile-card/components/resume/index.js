@@ -23,7 +23,7 @@ const Resume = () =>{
             <ProfileCard />
             <ProjectList />
          </Col>
-         <Col xxl={4} xl={4} lg={3} sm={3}>
+         <Col xxl={6} xl={4} lg={3} sm={3}>
             <ResumeHeader title="My Technical Experience Summary" />
             <ListedSummary />
             
@@ -35,7 +35,7 @@ const Resume = () =>{
             <ResumeHeader title="My Work Experience" />
             <WorkExperience />
          </Col>
-         <Col xxl={6} xl={5} lg={3} sm={3}>
+         <Col xxl={4} xl={5} lg={3} sm={3}>
             <ResumeHeader title="My Professional Experience" />
             <ProjectOverview />
          </Col>
