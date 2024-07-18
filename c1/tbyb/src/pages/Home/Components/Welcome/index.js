@@ -1,5 +1,6 @@
 import React from "react";
 import { Row, Col, Card } from "e-ui-react";
+import Contact from './../Contact/index.js';
 import './index.css';
 
 const Welcome = ()=>{
@@ -14,33 +15,31 @@ const Welcome = ()=>{
       </div>
     </div>
 
-    <div className="container-fluid" style={{ paddingTop:'15px', paddingBottom:'15px', backgroundColor:'#ddd' }}>
+    <div className="container-fluid" style={{ paddingTop:'15px', paddingBottom:'10px', backgroundColor:'#ddd' }}>
           <div className="row">
-            <div className="col-xxl-3 col-md-3" >
-              <img src="./assets/site/1.jpg" style={{ width:'100%', height:'auto' }} />
+            <div className="col-xxl-2 col-md-2" >
+              <img src="./assets/bar/3.jpg" style={{ width:'100%', height:'53vh', marginBottom:'10px' }} />
             </div>
-            <div className="col-xxl-3 col-md-3" >
-              <img src="./assets/site/2.jpg" style={{ width:'100%', height:'auto' }} />
-              <img src="./assets/site/3.png" style={{ marginTop:'24px', width:'100%', height:'auto' }} />
+            <div className="col-xxl-6 col-md-6" >
+              <img src="./assets/bar/5.jpg" style={{ width:'100%', height:'53vh', marginBottom:'10px' }} />
             </div>
-            <div className="col-xxl-3 col-md-3" >
-              <img src="./assets/site/1.jpg" style={{ width:'100%', height:'auto' }} />
+            <div className="col-xxl-2 col-md-2" >
+              <img src="./assets/bar/8.jpg" style={{ width:'100%', height:'53vh', marginBottom:'10px' }} />
             </div>
-            <div className="col-xxl-3 col-md-3" >
-              <img src="./assets/site/2.jpg" style={{ width:'100%', height:'auto' }} />
-              <img src="./assets/site/3.png" style={{ marginTop:'24px', width:'100%', height:'auto' }} />
+            <div className="col-xxl-2 col-md-2" >
+              <img src="./assets/bar/7.jpg" style={{ width:'100%', height:'53vh', marginBottom:'10px' }} />
             </div>
-            
           </div>
     </div>
-    <div className="container-fluid" style={{ paddingTop:'15px' }}>
+
+    <div className="container-fluid" style={{ padding:'30px' }}>
           <div className="row">
             <div className="col-xxl-6 col-sm-6" style={{ lineHeight:'34px', padding:'15px', fontSize:'18px', fontFamily:'OpenSansItalic' }}>
-            <div className="heading-title"><b>About the Backyard Bar</b></div>
+            <div align="center" className="heading-title"><b>About the Backyard Bar</b></div>
         <div>We're not your average watering hole - we're an extension of your own backyard, a place where friends gather, 
         good times flow, and the community spirit thrives. Here at The Backyard Bar, North Carolina, we're all about 
-        creating a comfortable, welcoming atmosphere where everyone feels like family.<br/><br/>
-        Our story began with a simple idea: to bring folks together over delicious food, handcrafted drinks, and genuine 
+        creating a comfortable, welcoming atmosphere where everyone feels like family.<br/><br/> Our story began with a simple idea: 
+        to bring folks together over delicious food, handcrafted drinks, and genuine 
         Southern hospitality. We opened our doors with a passion for creating a space that reflects the warmth and energy 
         of North Carolina. Whether you're a local resident or just passing through, we want you to feel right at home.<br/><br/>
         Our team is at the heart of The Backyard Bar experience. We've got a group of passionate folks behind the bar, in 
@@ -51,17 +50,47 @@ const Welcome = ()=>{
         We're more than just a bar - we're a hub for the community. We host live music nights featuring local musicians, 
         trivia nights that test your knowledge (and your luck!), and special events throughout the year that bring people 
         together. Whether you're catching up with old friends, making new ones, or simply unwinding after a long day, The 
-        Backyard Bar is your place.<br/><br/>
-        So come on down, pull up a stool, and experience the Backyard Bar difference. We can't wait to welcome you to our 
-        North Carolina family!
+        Backyard Bar is your place.
         </div>
             </div>
-            <div className="col-xxl-6 col-sm-6" style={{ padding:'15px' }}>
-             
+            <div className="col-xxl-6 col-sm-6" style={{  }}>
+               <img src="./assets/bar/4.jpg" style={{ padding:'15px', justifyContent:'center', width:'100%', height:'auto' }} />
+               <img src="./assets/bar/2.jpg" className="abt-img-display" style={{ padding:'15px', justifyContent:'center', width:'100%', height:'auto' }} />
             </div>
-      </div>
+          </div>    
     </div>
-   
+
+    <div className="container-fluid" style={{ padding:'30px' }}>
+      <div className="row">
+        <div className="col-xxl-12 col-sm-12" style={{ lineHeight:'34px', padding:'15px', fontSize:'18px', fontFamily:'OpenSansItalic' }}>
+          <div align="center" className="heading-title"><b>Our Gallery</b></div>
+        </div>
+      </div>
+      <div className="row">
+          <div className="col-xxl-4 col-md-4" >
+            <img src={"./assets/bar/9.jpg"} style={{ width:'100%', height:'45vh', boxShadow:'2px 2px 2px 2px #ccc', marginBottom:'25px' }} />
+          </div>
+          <div className="col-xxl-4 col-md-4" >
+            <img src={"./assets/bar/6.jpg"} style={{ width:'100%', height:'45vh', boxShadow:'2px 2px 2px 2px #ccc', marginBottom:'25px' }} />
+          </div>
+          <div className="col-xxl-4 col-md-4" >
+            <img src={"./assets/bar/10.jpg"} style={{ width:'100%', height:'45vh', boxShadow:'2px 2px 2px 2px #ccc', marginBottom:'25px' }} />
+          </div>
+          <div className="col-xxl-4 col-md-4" >
+            <img src={"./assets/bar/11.jpg"} style={{ width:'100%', height:'45vh', boxShadow:'2px 2px 2px 2px #ccc', marginBottom:'25px' }} />
+          </div>
+          <div className="col-xxl-4 col-md-4" >
+            <img src={"./assets/bar/12.jpg"} style={{ width:'100%', height:'45vh', boxShadow:'2px 2px 2px 2px #ccc', marginBottom:'25px' }} />
+          </div>
+          <div className="col-xxl-4 col-md-4" >
+            <img src={"./assets/bar/13.jpg"} style={{ width:'100%', height:'45vh', boxShadow:'2px 2px 2px 2px #ccc', marginBottom:'25px' }} />
+          </div>
+      </div>     
+    </div>
+
+    <Contact />
+
+
  </div>
  </>);
 };

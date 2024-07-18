@@ -1,3 +1,2 @@
 export const HeaderMenu = [{ id:'Home', url: '', label:'Home' },
-{ id:'Menu', url:'menu', label:'Our Menu' },
-{ id:'Contact', url:'contact', label:'Contact' }];
+{ id:'FoodAndBeverages', url:'food-and-beverages', label:'Food and Beverages' }];

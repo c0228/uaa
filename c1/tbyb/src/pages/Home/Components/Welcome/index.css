@@ -10,4 +10,10 @@
     background-size: cover;position: relative;opacity:0.9; }
 .img-section-text { background-color:#ccc; text-align:center;width:100%;
     position: absolute;bottom:30%;left:0%;opacity: 0.6;padding:15px; }
-.heading-title { font-family:OpenSansItalic;text-transform:uppercase;letter-spacing:1.5px;font-size:22px;margin-bottom:15px; }
+
+@media (min-width: 1400px) {
+ .abt-img-display { display:none; }
+}
+@media (max-width: 1399px) {
+ .abt-img-display { display:block; }
+}

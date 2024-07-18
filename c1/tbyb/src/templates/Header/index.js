@@ -25,9 +25,7 @@ const Header = ({ activeId, menulinks })=>{
       </div>
     </div>
  </div>
- <div className="logo-header">
-    <img src={"./assets/images/logo.png"} className="logo-img" />
- </div>
+
  
  <nav className="navbar navbar-expand-sm">
  <div align="right" style={{ width:'100%' }}>
