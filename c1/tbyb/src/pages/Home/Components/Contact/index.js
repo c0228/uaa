@@ -14,9 +14,9 @@ const Contact = ()=>{
                <Col xs={12} xl={12} xxl={12}>
                    {success && (<>
                    <div style={{ padding:'15px' }}>
-                       We would like to inform you that we have successfully received your request for a quotation.<br/><br/> 
+                       We would like to inform you that we have successfully received your request for an Enquiry.<br/><br/> 
                        Thank you for reaching out to us. Our team is currently reviewing the details provided in the form.
-                       Rest assured, we will diligently assess your requirements and prepare a comprehensive quotation tailored to your needs.
+                       Rest assured, we will diligently assess your requirements and reply to your needs.
                        Please expect to hear back from us within 24-48 hours with the requested information. In the meantime, if you have 
                        any additional questions or specifications, feel free to reach out to us directly.
                        Thank you for considering us for your [product/service] needs. We look forward to the opportunity to serve you.
@@ -95,15 +95,15 @@ const Contact = ()=>{
                 Enquiry and we will contact you as soon as possible.</div>
                 <div className="row" style={{ marginTop:'15px'}}>
                   <div className="col-xxl-3 col-md-4"><b>Write to us:</b></div>
-                  <div className="col-xxl-9 col-md-8">support@thebackyardbarnc.in</div>
+                  <div className="col-xxl-9 col-md-8">contact@thebackyardbarnc.com</div>
                 </div>
                 <div className="row">
                   <div className="col-xxl-3 col-md-4"><b>Talk to us:</b></div>
-                  <div className="col-xxl-9 col-md-8">+91-7014859635</div>
+                  <div className="col-xxl-9 col-md-8">+1-(919)-267-4476</div>
                 </div>
                 <div className="row">
                   <div className="col-xxl-3 col-md-4"><b>Address:</b></div>
-                  <div className="col-xxl-9 col-md-8">4/446, Pradhan Marg, Malviya Nagar, Hyderabad, Telangana 302017, India</div>
+                  <div className="col-xxl-9 col-md-8">2901 US 64 Apex, NC 27523</div>
                 </div>
               </div>
 

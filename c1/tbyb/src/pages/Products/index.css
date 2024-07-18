@@ -1,0 +1,6 @@
+@media (max-width: 767px) {
+ .tbyb-gallery-fb { height:auto;border-radius:8px; }
+}
+@media (min-width: 768px) {
+ .tbyb-gallery-fb { height:40vh;border-radius:8px; }
+}

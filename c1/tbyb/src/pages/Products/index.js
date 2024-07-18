@@ -20,7 +20,7 @@ const Products = () =>{
 
  return (<>
  <Header menulinks={HeaderMenu} activeId="FoodAndBeverages" />
- <div className="container-fluid" style={{ marginBottom:'15px' }}>
+ <div className="container-fluid" style={{ marginTop:'15px', marginBottom:'15px' }}>
   <div className="row">
     <div className="col-xxl-12 col-xl-12">
       <div align="center" className="heading-title"><b>Our Food and Beverages</b></div>
@@ -82,18 +82,18 @@ const Products = () =>{
       <img src="./assets/bar/14.jpg" style={{ borderRadius:'8px' }} />
       <div className="row">
         <div className="col-xxl-6 col-xl-6" style={{ padding:'15px' }}>
-          <img src="./assets/bar/7.jpg"  style={{ height:'40vh', borderRadius:'8px' }} /> 
+          <img src="./assets/bar/7.jpg" className="tbyb-gallery-fb" /> 
         </div>
         <div className="col-xxl-6 col-xl-6" style={{ padding:'15px' }}>
-          <img src="./assets/bar/8.jpg"  style={{ height:'40vh', borderRadius:'8px' }} /> 
+          <img src="./assets/bar/8.jpg" className="tbyb-gallery-fb" /> 
         </div>
       </div>
       <div className="row">
         <div className="col-xxl-6 col-xl-6" style={{ padding:'15px' }}>
-          <img src="./assets/bar/15.jpg"  style={{ height:'40vh', borderRadius:'8px' }} /> 
+          <img src="./assets/bar/15.jpg" className="tbyb-gallery-fb" /> 
         </div>
         <div className="col-xxl-6 col-xl-6" style={{ padding:'15px' }}>
-          <img src="./assets/bar/16.jpg"  style={{ height:'40vh', borderRadius:'8px' }} /> 
+          <img src="./assets/bar/16.jpg" className="tbyb-gallery-fb" /> 
         </div>
       </div>
 

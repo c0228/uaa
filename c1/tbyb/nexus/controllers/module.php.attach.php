@@ -105,7 +105,7 @@ use PHPMailer\PHPMailer\Exception;
 $mail = new PHPMailer(true);
 
 //Recipients
-$mail->setFrom('support@thebackyardbarnc.in', 'The Backyard Bar - Customer Enquiry');
+$mail->setFrom('contact@thebackyardbarnc.com', 'The Backyard Bar - Customer Enquiry');
 $mail->addBCC('contact@thebackyardbarnc.com', $quoteBy); // Add a recipient
 $mail->addAddress($quoteEmail, $quoteBy);
 
@@ -140,9 +140,9 @@ try {
  <body>
      <h1>Dear '.$quoteBy.',</h1>
      
-     <p>We have received your request for a quotation. Thank you for considering our products/services.</p>
+     <p>We have received your request for an Enquiry. Thank you for considering our products/services.</p>
      
-     <p>We are currently processing your request and will provide you with the quotation as soon as possible.</p>
+     <p>We are currently processing your request and will provide you with the reply as soon as possible.</p>
      
      <p>If you have any questions or need further assistance, please feel free to contact us.</p>
      

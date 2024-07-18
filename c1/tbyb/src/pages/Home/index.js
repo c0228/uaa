@@ -14,9 +14,6 @@ const Home = ()=>{
 
  return (<>
  <Header menulinks={HeaderMenu} activeId="Home" />
- <div className="logo-header">
-    <img src={"./assets/images/logo.png"} className="logo-img" />
- </div>
  <Welcome />
  <Footer />
  </>);

@@ -12,16 +12,17 @@ const Header = ({ activeId, menulinks })=>{
  <div className="upper-header">
     <div className="upper-header-flex">
       <Icon type="FontAwesome" name="fa-phone-square" size={20} color="#5d607f" className="desktop-view" />
-      <span className="desktop-view txt-phone-number">+1 (703)-980-6490</span>
+      <span className="desktop-view txt-phone-number">+1 (919)-267-4476</span>
       <span className="desktop-view separator"></span>
       <Icon type="FontAwesome" name="fa-envelope" size={16} color="#5d607f" className="desktop-view padLeft15p" />
-      <span className="desktop-view txt-email">enquiry@thebackyardbarnc.com</span>
+      <span className="desktop-view txt-email">contact@thebackyardbarnc.com</span>
       <div className="mobile-view-center desktop-view-right padRight15p">
-        <Icon type="FontAwesome" name="fa-facebook" size={16} color="#5d607f" className="padLeft5p padRight5p" />
-        <Icon type="FontAwesome" name="fa-twitter" size={16} color="#5d607f" className="padLeft5p padRight5p" />
-        <Icon type="FontAwesome" name="fa-linkedin" size={16} color="#5d607f" className="padLeft5p padRight5p" />
-        <Icon type="FontAwesome" name="fa-instagram" size={16} color="#5d607f" className="padLeft5p padRight5p" />
-        <Icon type="FontAwesome" name="fa-youtube" size={16} color="#5d607f" className="padLeft5p padRight5p" />
+        <a target="_blank" href="https://www.facebook.com/share/KtPEe3kDySeMTcwV/?mibextid=LQQJ4d">
+          <Icon type="FontAwesome" name="fa-facebook" size={16} color="#5d607f" className="padLeft5p padRight5p" />
+        </a>
+        <a target="_blank" href="https://www.instagram.com/thebackyardbarnc?igsh=MWxycHR0bmo2eGoxZw==">
+          <Icon type="FontAwesome" name="fa-instagram" size={16} color="#5d607f" className="padLeft5p padRight5p" />
+        </a>
       </div>
     </div>
  </div>
@@ -49,6 +50,17 @@ const Header = ({ activeId, menulinks })=>{
    </div>
    </div>
 </nav>
+<div className="logo-header">
+    <img src={"./assets/images/logo.png"} className="logo-img" />
+ </div>
+<div align="center" style={{ marginTop:'4.8%', paddingLeft:'15px', paddingRight:'15px', paddingBottom:'8px' }}>
+      <span className="welcome-title desktop-view" style={{ paddingLeft:'10px', paddingRight:'30px', fontSize:'40px', fontFamily:'BebasNeue', letterSpacing:'4px', color:'#000' }}>
+        <b>Welcome to the Backyard bar</b>
+      </span>
+      <div className="welcome-title mobile-view" style={{ paddingLeft:'10px', paddingRight:'30px', fontSize:'40px', fontFamily:'BebasNeue', letterSpacing:'4px', color:'#000' }}>
+        <b>Welcome to the Backyard bar</b>
+      </div>
+    </div>
 </>);
 };
 
