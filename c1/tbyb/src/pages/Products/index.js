@@ -34,19 +34,19 @@ const Products = () =>{
             <div>
               <ul>
                 <li className="mtop15p">
-                  <div>Chocolate Martini <span className="pull-right">12</span></div>
+                  <div>Chocolate Martini <span className="pull-right"></span></div>
                 </li>
                 <li className="mtop15p">
-                  <div>Gin Rickey <span className="pull-right">12</span></div>
+                  <div>Gin Rickey <span className="pull-right"></span></div>
                 </li>
                 <li className="mtop15p">
-                  <div>Rum Runner <span className="pull-right">12</span></div>
+                  <div>Rum Runner <span className="pull-right"></span></div>
                 </li>
                 <li className="mtop15p">
-                  <div>Classic Margarita <span className="pull-right">12</span></div>
+                  <div>Classic Margarita <span className="pull-right"></span></div>
                 </li>
                 <li className="mtop15p">
-                  <div>Old Fashioned <span className="pull-right">12</span></div>
+                  <div>Old Fashioned <span className="pull-right"></span></div>
                 </li>
               </ul>
             </div>
@@ -58,19 +58,19 @@ const Products = () =>{
             <div>
               <ul>
                 <li className="mtop15p">
-                  <div>Sweet Pepper Spritzer <span className="pull-right">10</span></div>
+                  <div>Sweet Pepper Spritzer <span className="pull-right"></span></div>
                 </li>
                 <li className="mtop15p">
-                  <div>Spicy Mint Mango <span className="pull-right">10</span></div>
+                  <div>Spicy Mint Mango <span className="pull-right"></span></div>
                 </li>
                 <li className="mtop15p">
-                  <div>Blueberry Spritzer <span className="pull-right">10</span></div>
+                  <div>Blueberry Spritzer <span className="pull-right"></span></div>
                 </li>
                 <li className="mtop15p">
-                  <div>Fizzy Basil Lemonade <span className="pull-right">10</span></div>
+                  <div>Fizzy Basil Lemonade <span className="pull-right"></span></div>
                 </li>
                 <li className="mtop15p">
-                  <div>The Chasi Devil (House Special) <span className="pull-right">10</span></div>
+                  <div>The Chasi Devil (House Special) <span className="pull-right"></span></div>
                 </li>
               </ul>
             </div>
@@ -105,43 +105,43 @@ const Products = () =>{
             <div>
               <ul>
                 <li className="mtop15p">
-                  <div>Guinness <span className="pull-right">10</span></div>
+                  <div>Guinness <span className="pull-right"></span></div>
                 </li>
                 <li className="mtop15p">
-                  <div>Pernicious <span className="pull-right">10</span></div>
+                  <div>Pernicious <span className="pull-right"></span></div>
                 </li>
                 <li className="mtop15p">
-                  <div>NoDa Drop & Roll <span className="pull-right">10</span></div>
+                  <div>NoDa Drop & Roll <span className="pull-right"></span></div>
                 </li>
                 <li className="mtop15p">
-                  <div>Hoppyum IPA <span className="pull-right">10</span></div>
+                  <div>Hoppyum IPA <span className="pull-right"></span></div>
                 </li>
                 <li className="mtop15p">
-                  <div>Sam Adams Summer Ale <span className="pull-right">10</span></div>
+                  <div>Sam Adams Summer Ale <span className="pull-right"></span></div>
                 </li>
                 <li className="mtop15p">
-                  <div>Bluemoon <span className="pull-right">10</span></div>
+                  <div>Bluemoon <span className="pull-right"></span></div>
                 </li>
                 <li className="mtop15p">
-                  <div>Bud Light <span className="pull-right">10</span></div>
+                  <div>Bud Light <span className="pull-right"></span></div>
                 </li>
                 <li className="mtop15p">
-                  <div>Yuengling <span className="pull-right">10</span></div>
+                  <div>Yuengling <span className="pull-right"></span></div>
                 </li>
                 <li className="mtop15p">
-                  <div>Landshark <span className="pull-right">10</span></div>
+                  <div>Landshark <span className="pull-right"></span></div>
                 </li>
                 <li className="mtop15p">
-                  <div>Red Oak <span className="pull-right">10</span></div>
+                  <div>Red Oak <span className="pull-right"></span></div>
                 </li>
                 <li className="mtop15p">
-                  <div>Carolina Blond Ale <span className="pull-right">10</span></div>
+                  <div>Carolina Blond Ale <span className="pull-right"></span></div>
                 </li>
                 <li className="mtop15p">
-                  <div>Hi Wire Margarita Sour <span className="pull-right">10</span></div>
+                  <div>Hi Wire Margarita Sour <span className="pull-right"></span></div>
                 </li>
                 <li className="mtop15p">
-                  <div>Stem Cider Hibiscus <span className="pull-right">10</span></div>
+                  <div>Stem Cider Hibiscus <span className="pull-right"></span></div>
                 </li>
               </ul>
             </div>

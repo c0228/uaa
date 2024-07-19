@@ -3,6 +3,7 @@ import Header from '@Templates/Header/index.js';
 import { HeaderMenu } from '@Config/HeaderMenu.js';
 import { ContainerFluid, Row, Col, Form, TextBox, TextArea, Button, Select, Card, Switch, FormToReqBodyFormatter, UrlAsyncFetch } from "e-ui-react";
 import axios from 'axios';
+import MyMap from './map.js';
 
 const Contact = ()=>{
  const [success, setSuccess] = useState(false);
@@ -86,25 +87,28 @@ const Contact = ()=>{
      <div className="container-fluid" style={{ backgroundColor:'#eee' }}>
       <div className="row">
         <div className="col-xxl-9 col-md-8" style={{ paddingTop:'30px' }}>
-          <div align="center" className="heading-title"><b>Get In Touch With Us For The Best Quality Barware products -</b></div>
+          <div align="center" className="heading-title"><b>Get In Touch With Us</b></div>
           <div className="row">
             <div className="col-xxl-6 col-md-6">
 
               <div style={{ lineHeight:'34px', padding:'15px', fontSize:'18px', fontFamily:'OpenSansItalic' }}>
-                <div>Require products in bulk quantity for Commercial purposes, then please Contact us or raise an 
-                Enquiry and we will contact you as soon as possible.</div>
+                <div>Please feel free to Contact us or raise an Enquiry and we will contact you as soon as possible.</div>
                 <div className="row" style={{ marginTop:'15px'}}>
                   <div className="col-xxl-3 col-md-4"><b>Write to us:</b></div>
                   <div className="col-xxl-9 col-md-8">contact@thebackyardbarnc.com</div>
                 </div>
                 <div className="row">
                   <div className="col-xxl-3 col-md-4"><b>Talk to us:</b></div>
-                  <div className="col-xxl-9 col-md-8">+1-(919)-267-4476</div>
+                  <div className="col-xxl-9 col-md-8">+1 (919)-267-4476</div>
                 </div>
                 <div className="row">
                   <div className="col-xxl-3 col-md-4"><b>Address:</b></div>
                   <div className="col-xxl-9 col-md-8">2901 US 64 Apex, NC 27523</div>
                 </div>
+              </div>
+
+              <div>
+                <MyMap />
               </div>
 
             </div>

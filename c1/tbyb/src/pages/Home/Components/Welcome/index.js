@@ -30,6 +30,18 @@ const Welcome = ()=>{
             </div>
           </div>
           <div className="row">
+            <div className="col-xxl-2 col-sm-2"></div>
+            <div className="col-xxl-8 col-sm-8" style={{ lineHeight:'34px', padding:'15px', fontSize:'18px', fontFamily:'OpenSansItalic' }}>
+            Escape the ordinary and step into your own backyard oasis at The Backyard Bar. Unlike the crowded scene, we offer an 
+            intimate space to unwind, just steps from the heart of North Carolina. Soak up the sunshine on our expansive patio, furnished 
+            for ultimate relaxation. Challenge your friends to a game of giant Jenga, catch the rising stars of the local music scene, 
+            and savor mouthwatering dishes from our rotating roster of gourmet food trucks. Don't forget to quench your thirst with our 
+            curated selection of craft beers on tap, alongside creative cocktails and a full bar. The Backyard Bar is your haven for 
+            good times, welcoming you and your furry best friend for an unforgettable experience.
+            </div>
+            <div className="col-xxl-2 col-sm-2"></div>
+          </div>
+          {/*<div className="row">
             <div className="col-xxl-6 col-sm-6" style={{ lineHeight:'34px', padding:'15px', fontSize:'18px', fontFamily:'OpenSansItalic' }}>
         <div>We’re an extension of your own backyard—a place where friends gather, good times flow, and the community spirit thrives. 
           Here at The Backyard Bar, we're all about creating a comfortable, welcoming atmosphere where everyone feels like family.
@@ -53,7 +65,8 @@ const Welcome = ()=>{
           test your knowledge (and your luck!), and special events throughout the year that bring people together. Whether you're catching 
           up with old friends, making new ones, or simply unwinding after a long day, The Backyard Bar is your place.
             </div>
-          </div>
+          </div>*/}
+
     </div>
 
     <div className="container-fluid" style={{ padding:'30px' }}>
