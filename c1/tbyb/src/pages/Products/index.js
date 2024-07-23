@@ -23,7 +23,7 @@ const Products = () =>{
  <div className="container-fluid" style={{ marginTop:'15px', marginBottom:'15px' }}>
   <div className="row">
     <div className="col-xxl-12 col-xl-12">
-      <div align="center" className="heading-title"><b>Our Food and Beverages</b></div>
+      <div align="center" className="heading-title"><b>Beverages</b></div>
     </div>
   </div>
   <div className="row">
