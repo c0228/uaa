@@ -36,7 +36,7 @@ const ProjectList = () =>{
             "isProject": true
         },{
             "title": "Personalized Recommendation Engine",
-            "isPOC": true
+            "isProject": true
         },{
             "title": "Visual Search & Augmented Reality",
             "isPOC": true
