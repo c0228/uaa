@@ -10,7 +10,8 @@ const BlogItems = ({ itemList }) =>{
             <div style={{ fontFamily:'Metropolis', lineHeight:'24px', fontSize:'16px', color:'#000' }}>
               {list?.title}
             </div>
-            <div style={{  fontFamily:'Metropolis', lineHeight:'24px', fontSize:'14px', marginTop:'5px', marginBottom:'10px', color:'#777' }}>
+            <div style={{  fontFamily:'Metropolis', lineHeight:'24px', letterSpacing:'0.1px', fontSize:'14px', 
+              marginTop:'5px', marginBottom:'10px', color:'#777' }}>
               {(list?.desc?.length>list?.descFix)?(list?.desc?.substring(0,list?.descFix)+'...') : (list?.desc)}
             </div>
             <div style={{ color:'#aaa',marginTop:'6px',marginRight:'15px'}}>
