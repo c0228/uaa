@@ -25,3 +25,8 @@ vkac/nexus/logs
 .backup/vkac/nexus/vendor
 .backup/vkac/nexus/logs
 
+
+other/vkac/node_modules
+other/vkac/dist
+other/vkac/nexus/vendor
+other/vkac/nexus/logs

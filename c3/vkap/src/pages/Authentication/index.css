@@ -1,0 +1,4 @@
+.userAuth-linkButton { color:#777;cursor:pointer; }
+.userAuth-linkButton-span { padding-bottom:5px; }
+.userAuth-linkButton-span:hover { border-bottom:1px solid #ccc; }
+.vkac-footer { padding:5px;position: fixed;left: 0;bottom: 0;width: 100%;background-color: #fff;text-align: center;border-top:1px solid #ccc; }
