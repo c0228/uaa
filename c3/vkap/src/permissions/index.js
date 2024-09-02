@@ -1,6 +1,6 @@
 const PERMISSIONS = {
     CUSTOMER: "CUSTOMER",
-    ADMIN: "ADMIN"
+    ADMINISTRATOR: "ADMINISTRATOR"
   };
 
 export default PERMISSIONS;

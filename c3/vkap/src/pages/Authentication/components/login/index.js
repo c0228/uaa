@@ -82,7 +82,7 @@ const Login = ({ setShowForgotPwd })=>{
                 'POST', FormToReqBodyFormatter(form.loginForm) );
             console.log("logicResposne", response);
             if(response?.data?.length>0){
-                login(response?.data?.[0], 'Customer/MyDashboard' );
+                login(response?.data?.[0], 'consultancy/my-dashboard' );
             } else {
                 setAlertMessage("We recognized the Account Password was not matched with associated Email Address. Please verify and try again.");
             }
