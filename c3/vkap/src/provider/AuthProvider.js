@@ -11,11 +11,11 @@ export const AuthProvider = ({ children }) => {
     currentDate.setHours(currentDate.getHours() + 1); // Add Hour Expiry Timeout
     const details = { expire: currentDate, data: userAuthDetails };
     localStorage.setItem("USER_AUTH_DETAILS", JSON.stringify(details));
-    window.location.href='http://localhost:7001/'+redirectPath;
+    window.location.href = process.env.PROJECT_URL + redirectPath;
   };
   const logout = () => {
     localStorage.removeItem("USER_AUTH_DETAILS");
-    window.location.href='http://localhost:7001/';
+    window.location.href = process.env.PROJECT_URL;
   };
   
   return (
