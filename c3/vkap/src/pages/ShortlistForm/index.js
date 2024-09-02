@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { ContainerFluid, Row, Col, Card, Form } from "e-ui-react";
 import Header from '@Templates/Header/index.js';
+import Footer from '@Templates/Footer/index.js';
 import { HeaderMenu } from '@Routes/NavbarList.js';
 import PersonalDetails from './components/personal-details/index.js';
 import EduEmpDetails from './components/edu-emp-details/index.js';
@@ -72,6 +73,7 @@ const ShortlistForm = ()=>{
       </Col>
    </Row>
   </ContainerFluid>
+  <Footer />
  </div>);
 };
 

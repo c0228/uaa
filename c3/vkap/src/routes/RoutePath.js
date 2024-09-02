@@ -13,7 +13,7 @@ export const AppRouting = ()=>{
   return (<BrowserRouter basename="/">
     <AuthProvider>
       <Routes>
-         <Route exact path="/" element={isAuthenticated?(<Navigate to="/consultancy/my-dashboard" />):(<Authentication />)} />
+         <Route exact path="/" element={isAuthenticated?(<Navigate to="/consultancy/students-shortlist-form" />):(<Authentication />)} />
          <Route path='/consultancy' element={<Authorization permissions={[PERMISSIONS.CUSTOMER]} />}>
             <Route path='students-shortlist-form' element={<ShortlistForm />} />
           </Route>

@@ -1,12 +1,14 @@
 import React, { useEffect } from "react";
 import { ContainerFluid, Row, Col, Card } from "e-ui-react";
+import Footer from '@Templates/Footer/index.js';
 
 const Unauthorized = () => {
   useEffect(()=>{
     document.title = 'Restricted | VKAbroad';
     document.body.style.backgroundImage = "url('"+process.env.PROJECT_URL+"/assets/logo/bubbles.gif')";
    },[]);
-  return (<ContainerFluid>
+  return (<div>
+  <ContainerFluid>
     <Row>
       <Col md={12}><div align="center">
       <img src={process.env.PROJECT_URL+"assets/logo/logo-flat.png"} 
@@ -56,7 +58,9 @@ const Unauthorized = () => {
       </Col>
       <Col md={1}></Col>
     </Row>
-  </ContainerFluid>)
+  </ContainerFluid>
+  <Footer />
+  </div>)
 };
 
 export default Unauthorized;

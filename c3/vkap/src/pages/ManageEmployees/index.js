@@ -1,6 +1,7 @@
 import React, { useEffect } from "react";
 import { ContainerFluid, Row, Col, Button } from "e-ui-react";
 import Header from '@Templates/Header/index.js';
+import Footer from '@Templates/Footer/index.js';
 import { HeaderMenu } from '@Routes/NavbarList.js';
 
 const ManageEmployees = ()=>{
@@ -53,6 +54,7 @@ const ManageEmployees = ()=>{
       </Col>
     </Row>
  </ContainerFluid>
+ <Footer />
  </>);
 };
 

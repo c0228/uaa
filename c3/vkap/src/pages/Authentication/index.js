@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { ContainerFluid, Row, Col, Card, getSubRoute } from "e-ui-react";
-import Header from '@Templates/Header/index.js';
-import { HeaderMenu } from '@Routes/NavbarList.js';
+import Footer from '@Templates/Footer/index.js';
 import Login from "./components/login/index.js";
 import Register from "./components/register/index.js";
 import ForgotPwd from "./components/forgotPwd/index.js";
@@ -43,25 +42,7 @@ const Authentication = ()=>{
       </ContainerFluid>
       </>
    )}
- <div className="vkac-footer">
-   <Row>
-      <Col md={12}>
-      <div align="center" style={{ fontSize:'11px' }}>
-         Copyright &#169; 2021 - 2024 | All Rights Reserved | VkAbroadConsultancy.com
-      </div>
-      </Col>
-   </Row>
- {/*<Row>
-   <Col md={7}>
-      <div align="left" style={{ fontSize:'11px' }}><b>Address:</b> Flat No:310, Third Floor, M N Reddy Complex, Beside Rajadhani Theater Lane, above Central Bank of India, Dilsukhnagar, Hyderabad - 500060</div>
-   </Col>
-   <Col md={2}><b>Mobile:</b> +91-9948390094 </Col>
-   <Col md={3}>
-      <div align="right" style={{ fontSize:'11px', paddingRight:'15px' }}>&#169; VK Abroad Consultancy, 2021 - 2024</div>
-   </Col>
- </Row> */}
- 
- </div>
+  <Footer />
  </div>);
 };
 
