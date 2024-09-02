@@ -12,7 +12,7 @@ const ShortlistForm = ()=>{
     document.body.style.backgroundImage = "none";
  },[]);
  const HeaderTitle = () =>{
-   return (<div><h4 style={{ paddingBottom:'5px', borderBottom:'1px solid #ccc' }}><b>Shortlist Form</b></h4></div>);
+   return (<div><h4 style={{ paddingBottom:'5px', borderBottom:'1px solid #ccc' }}><b>Student's Shortlist Form</b></h4></div>);
  };
  const SubHeaderTitle = ({ title }) =>{
   return (<div align="center" style={{ marginBottom:'15px', textTransform:'uppercase' }}><b>{title}</b></div>);
@@ -23,6 +23,7 @@ const ShortlistForm = ()=>{
    <Row><Col md={12}><HeaderTitle /></Col></Row>
    <Row>
       <Col md={12}>
+      <div className="mbot25p">
       <Card padding={15}>
       <Form name="ShortlistForm" btnSubmit={{
           align: 'center',
@@ -67,6 +68,7 @@ const ShortlistForm = ()=>{
          <PursuingDetails />
       </Form>
       </Card>
+      </div>
       </Col>
    </Row>
   </ContainerFluid>
