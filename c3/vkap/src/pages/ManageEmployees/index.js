@@ -1,9 +1,13 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { ContainerFluid, Row, Col, Button } from "e-ui-react";
 import Header from '@Templates/Header/index.js';
 import { HeaderMenu } from '@Routes/NavbarList.js';
 
 const ManageEmployees = ()=>{
+ useEffect(()=>{
+  document.title = 'Manage Employees | VKAbroad';
+  document.body.style.backgroundColor = "#fcfcfc";
+ },[]);
  const HeaderTitle = ({ title }) =>{
   return (<div style={{ display:'flex', flexDirection:'row', marginBottom:'5px', borderBottom:'1px solid #ccc' }}>
     <div style={{ width:'60%' }}><h4><b>{title}</b></h4></div>

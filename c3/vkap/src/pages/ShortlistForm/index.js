@@ -8,8 +8,8 @@ import PursuingDetails from './components/pursuing-details/index.js';
 
 const ShortlistForm = ()=>{
  useEffect(()=>{
-    document.title = 'My Dashboard | VKAbroad';
-    document.body.style.backgroundImage = "none";
+    document.title = 'Student\'s Shortlist Form | VKAbroad';
+    document.body.style.backgroundColor = "#fcfcfc";
  },[]);
  const HeaderTitle = () =>{
    return (<div><h4 style={{ paddingBottom:'5px', borderBottom:'1px solid #ccc' }}><b>Student's Shortlist Form</b></h4></div>);
