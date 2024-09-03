@@ -32,6 +32,7 @@ const ManageEmployees = ()=>{
                 <td><b>Employee Name</b></td>
                 <td><b>Account Type</b></td>
                 <td><b>Email Address</b></td>
+                <td><b>Mobile Address</b></td>
                 <td><b>Created On</b></td>
                 <td><b>Last Updated On</b></td>
                 <td align="center"><b>Actions</b></td>
@@ -44,6 +45,7 @@ const ManageEmployees = ()=>{
                 <td>Doe</td>
                 <td>ADMINISTRATOR</td>
                 <td>john@example.com</td>
+                <td>+91-6300193369</td>
                 <td>2024-09-24 10:30:00</td>
                 <td>2024-09-24 10:30:00</td>
                 <td align="center">Doe</td>

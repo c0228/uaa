@@ -1,0 +1,84 @@
+import React, { useEffect } from "react";
+import { ContainerFluid, Row, Col, Card, Button, Icon, FileUpload  } from "e-ui-react";
+import Header from '@Templates/Header/index.js';
+import Footer from '@Templates/Footer/index.js';
+import { HeaderMenu } from '@Routes/NavbarList.js';
+
+const UploadData = () =>{
+ useEffect(()=>{
+  document.title = 'Upload Data | VKAbroad';
+  document.body.style.backgroundColor = "#fcfcfc";
+ },[]);
+ const HeaderTitle = ({ title }) =>{
+  return (<div style={{ display:'flex', flexDirection:'row', marginBottom:'5px', borderBottom:'1px solid #ccc' }}>
+    <div style={{ width:'60%' }}><h4><b>{title}</b></h4></div>
+  </div>);
+ };
+ const SubHeaderTitle = ({ title }) =>{
+    return (<div align="center" style={{ textTransform:'uppercase', paddingBottom:'15px' }}>
+      <b>{title}</b>
+    </div>);
+ };
+ return (<div>
+  <Header menulinks={HeaderMenu()} activeId="UploadData" />
+  <ContainerFluid>
+    <Row>
+      <Col md={12}>
+        <HeaderTitle title="Upload Data" />
+      </Col>
+    </Row>
+    <Row>
+        <Col md={6}>
+         <Card padding={15}>
+          <SubHeaderTitle title="Upload Excel Sheet" />
+          <div style={{ height:'40vh' }}>
+          <FileUpload name="helloWorld" type="fileDropper" height="240" autoSubmit={true} 
+            backend={{
+                "apiUrl":"http://localhost/fileUpload/index.php",
+                "targetDirectory": "uploads/"
+            }} />
+          </div>
+         </Card>
+        </Col>
+        <Col md={6}>
+         <Card padding={15}>
+          <SubHeaderTitle title="Excel Sheet Template" />
+          <div style={{ height:'41.6vh' }}>
+            <div><b>Instructions:</b></div>
+            <div>
+                <ul>
+                    <li style={{ marginTop:'15px', lineHeight:'24px' }}>
+                        This Excel Sheet consists of two sheets - 
+                        <ol>
+                            <li><i>Universities</i> (To upload Universities Data) and </li>
+                            <li><i>Courses</i> (To Upload Course Data)</li>
+                        </ol>
+                    </li>
+                    <li style={{ marginTop:'15px', lineHeight:'24px' }}>
+                        If you adding new University Data, make sure University Id given by you in AlphaNumeric Format 
+                        (Accepted upto 5 characters).</li>
+                    <li style={{ marginTop:'15px', lineHeight:'24px' }}>
+                        If you adding course Data, nake sure Course Id is empty (Backend will generate Course Id).</li>
+                </ul>
+            </div>
+            <div align="center">
+                <Button type="primary" label={<>
+                    <Icon type="FontAwesome" name="fa-cloud-download" size={13} />
+                    <span style={{ marginLeft:'5px' }}>Download Excel Sheet</span>
+                    </>} size={11} />
+            </div>
+          </div>
+         </Card>
+        </Col>
+    </Row>
+    <Row>
+      <Col md={12}>
+        <div className="mtop15p"><HeaderTitle title="File Uploaded Logs" /></div>
+      </Col>
+    </Row>
+  </ContainerFluid>
+  <Footer />
+ </div>);
+};
+
+export default UploadData;

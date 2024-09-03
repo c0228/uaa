@@ -3,5 +3,15 @@ import { UrlParams, Icon } from "e-ui-react";
 
 const url = UrlParams().baseUrl;
 
-export const HeaderMenu = ()=> [{ id:'ManageEmployees', url: url+'consultancy/employees', label:'Manage Employees' },
-    { id:'ShortlistForm', url:url+'consultancy/students-shortlist-form', label:'Student\'s Shortlist Form' }];
+export const HeaderMenu = ()=>{
+  let userAuthDetails = localStorage.getItem("USER_AUTH_DETAILS");
+        userAuthDetails = JSON.parse(userAuthDetails);
+  let userRole = userAuthDetails?.data?.userRole;
+  if(userRole === 'ADMINISTRATOR'){
+    return ([{ id:'ManageEmployees', url: url+'consultancy/employees', label:'Manage Employees' },
+        { id:'ShortlistForm', url:url+'consultancy/students-shortlist-form', label:'Student\'s Shortlist Form' },
+        { id:'UploadData', url:url+'consultancy/upload-data', label:'Upload Data' }]);
+  } else {
+    return ([{ id:'ShortlistForm', url:url+'consultancy/students-shortlist-form', label:'Student\'s Shortlist Form' }]);
+  }
+}; 
