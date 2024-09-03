@@ -74,6 +74,7 @@ const UploadData = () =>{
     <Row>
       <Col md={12}>
         <div className="mtop15p"><HeaderTitle title="File Uploaded Logs" /></div>
+        <div align="center" className="mtop15p" style={{ color:'#555', fontSize:'13px' }}><i>No Files were found to display here</i></div>
       </Col>
     </Row>
   </ContainerFluid>
