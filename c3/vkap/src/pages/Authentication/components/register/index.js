@@ -115,9 +115,8 @@ const Register = ()=>{
             label:'Create your Account',
             size: 11
         }}
-        onSubmit={async(form, isValidForm, setFormMode)=>{
+        onSubmit={async(form, isValidForm, triggerReset)=>{
             // Error Validation check
-             setFormMode(FORM_RESET);
             if(isValidForm){  
                 const reqBody = FormToReqBodyFormatter(form.registerForm);
                 reqBody.userRole = 'CUSTOMER';
@@ -127,6 +126,7 @@ const Register = ()=>{
                     'POST', reqBody );
                setViewScreen('REGISTER_SUCCESS');
               console.log("isValidForm", isValidForm);
+              triggerReset();
             }
         }}>
             <Title />

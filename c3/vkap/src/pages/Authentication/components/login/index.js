@@ -75,7 +75,7 @@ const Login = ({ setShowForgotPwd })=>{
         label:'Login to your Account',
         size: 11
     }} 
-    onSubmit={async(form, isValidForm, setFormMode)=>{
+    onSubmit={async(form, isValidForm, triggerReset)=>{
         if(isValidForm){  
             // Error Validation check
             const response = await UrlAsyncFetch( process.env.NEXUS_URL + 'user/login', 
@@ -83,6 +83,7 @@ const Login = ({ setShowForgotPwd })=>{
             console.log("logicResposne", response);
             if(response?.data?.length>0){
                 login(response?.data?.[0], 'consultancy/students-shortlist-form' );
+                triggerReset();
             } else {
                 setAlertMessage("We recognized the Account Password was not matched with associated Email Address. Please verify and try again.");
             }

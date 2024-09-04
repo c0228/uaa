@@ -28,7 +28,7 @@ const ShortlistForm = ()=>{
       <Card padding={15}>
       <Form name="ShortlistForm" btnSubmit={{
           align: 'center',
-          btnType:'primary',
+          btnType:'success',
           label:(<div><Icon type="FontAwesome" name="fa-cloud-download" size={14} /> Download Eligibility</div>),
           size: 12,
           style:{ fontWeight:'bold' }

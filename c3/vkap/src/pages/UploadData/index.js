@@ -62,7 +62,7 @@ const UploadData = () =>{
                 </ul>
             </div>
             <div align="center">
-                <Button type="primary" size={11}>
+                <Button type="success" size={11}>
                   <Icon type="FontAwesome" name="fa-cloud-download" size={13} />
                   <span style={{ marginLeft:'5px' }}>Download Excel Sheet</span>
                 </Button>

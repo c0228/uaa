@@ -1,10 +1,14 @@
-import React, { useEffect } from "react";
-import { ContainerFluid, Row, Col, Button, Icon } from "e-ui-react";
+import React, { useState, useEffect } from "react";
+import { ContainerFluid, Row, Col, Button, Icon, Modal } from "e-ui-react";
 import Header from '@Templates/Header/index.js';
 import Footer from '@Templates/Footer/index.js';
 import { HeaderMenu } from '@Routes/NavbarList.js';
+import AddEmployeeForm from './components/add-employees/index.js';
+import UpdateEmployeeForm from './components/update-employees/index.js';
+import ViewEmployees from "./components/view-employees/index.js";
 
 const ManageEmployees = ()=>{
+ const [ showAddModal, setShowAddModal ] = useState(false);
  useEffect(()=>{
   document.title = 'Manage Employees | VKAbroad';
   document.body.style.backgroundColor = "#fcfcfc";
@@ -13,7 +17,7 @@ const ManageEmployees = ()=>{
   return (<div style={{ display:'flex', flexDirection:'row', marginBottom:'5px', borderBottom:'1px solid #ccc' }}>
     <div style={{ width:'60%' }}><h4><b>{title}</b></h4></div>
     <div align="right" style={{ width:'40%' }}>
-        <Button type="primary" size={11}>
+        <Button type="primary" size={11} onClick={()=>setShowAddModal(true)}>
           <Icon type="FontAwesome" name="fa-plus-circle" size={13} />
           <span style={{ marginLeft:'5px' }}><b>Add New Employee Account</b></span>
         </Button>
@@ -21,41 +25,15 @@ const ManageEmployees = ()=>{
   </div>);
  };
  return (<>
+ {showAddModal && (<Modal title="Add New Employee" show={showAddModal} onClose={setShowAddModal}>
+  <AddEmployeeForm />
+ </Modal>)}
  <Header menulinks={HeaderMenu()} activeId="ManageEmployees" />
  <ContainerFluid>
     <Row>
       <Col md={12}>
         <HeaderTitle title="Manage Employees" />
-        <div className="table-responsive">
-         <table className="table">
-          <thead>
-            <tr style={{ backgroundColor:'#eee' }}>
-                <td><b>#</b></td>
-                <td><b>Employee ID</b></td>
-                <td><b>Employee Name</b></td>
-                <td><b>Account Type</b></td>
-                <td><b>Email Address</b></td>
-                <td><b>Mobile Address</b></td>
-                <td><b>Created On</b></td>
-                <td><b>Last Updated On</b></td>
-                <td align="center"><b>Actions</b></td>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-                <td>1.</td>
-                <td>John</td>
-                <td>Doe</td>
-                <td>ADMINISTRATOR</td>
-                <td>john@example.com</td>
-                <td>+91-6300193369</td>
-                <td>2024-09-24 10:30:00</td>
-                <td>2024-09-24 10:30:00</td>
-                <td align="center">Doe</td>
-            </tr>
-          </tbody>
-         </table>
-        </div>
+        <ViewEmployees />
       </Col>
     </Row>
  </ContainerFluid>
