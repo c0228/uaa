@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { ContainerFluid, Row, Col, Card, Form } from "e-ui-react";
+import { ContainerFluid, Row, Col, Card, Form, Icon } from "e-ui-react";
 import Header from '@Templates/Header/index.js';
 import Footer from '@Templates/Footer/index.js';
 import { HeaderMenu } from '@Routes/NavbarList.js';
@@ -28,15 +28,15 @@ const ShortlistForm = ()=>{
       <Card padding={15}>
       <Form name="ShortlistForm" btnSubmit={{
           align: 'center',
-          btnType:'success',
-          label:'Download Eligibility',
+          btnType:'primary',
+          label:(<div><Icon type="FontAwesome" name="fa-cloud-download" size={14} /> Download Eligibility</div>),
           size: 12,
           style:{ fontWeight:'bold' }
         }} 
         btnReset={{ 
             align: 'center',
             btnType:'danger',
-            label:'Reset',
+            label:(<div><Icon type="FontAwesome" name="fa-refresh" size={14} /> Reset Form</div>),
             size: 12,
             style:{ fontWeight:'bold' }
         }}
