@@ -131,7 +131,7 @@ const MentionProfile = ()=> {
         </Row>
         </div>
             <div className="mtop15p mbot15p" align="center">
-                <Button type="primary" label="Next" size={11} />
+                <Button type="primary" size={11}><b>Next</b></Button>
             </div>
             </Card>
             </div>

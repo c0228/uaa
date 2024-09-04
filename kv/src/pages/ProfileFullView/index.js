@@ -41,10 +41,10 @@ const ProfileFullView = ()=>{
                   <div className="mtop15p">
                     <Avatar size={120} src="https://i.pinimg.com/280x280_RS/14/c5/25/14c525ed5acff88249193cd22584a6c9.jpg" />
                     <div align="center" className="mtop5p">
-                        <Button type="outline-dark" label={<>
-                            <Icon type="FontAwesome" name="fa-photo" size={13} style={{ marginRight:'5px' }}/> View Photos
-                            </>} size={11} onClick={()=>setShowModal(true)} />
-                            <Modal title="Narendra Modi's Photos" show={showModel} onClose={setShowModal} 
+                        <Button type="outline-dark" size={11} onClick={()=>setShowModal(true)}>
+                          <Icon type="FontAwesome" name="fa-photo" size={13} style={{ marginRight:'5px' }}/> View Photos
+                        </Button>
+                        <Modal title="Narendra Modi's Photos" show={showModel} onClose={setShowModal} 
                             content={<HelloWorld />} />
                     </div>
                   </div>  
@@ -87,7 +87,7 @@ const ProfileFullView = ()=>{
             <Row>
                 <Col xl={5} xxl={5}>
                     <div className="mtop15p">
-                        <Button type="outline-primary" label="Add to your Shortlist" />
+                        <Button type="outline-primary"><b>Add to your Shortlist</b></Button>
                     </div>
                 </Col>
                 <Col xl={7} xxl={7}>
@@ -97,7 +97,7 @@ const ProfileFullView = ()=>{
                          <Icon type="FontAwesome" name="fa-check" size="16" style={{ marginTop:'8px', marginRight:'5px' }} /> 
                       <b>Your Request Sent</b>
                       </>
-                    ):(<Button type="success" label="Send your Request" size={11} />)}
+                    ):(<Button type="success" size={11}><b>Send your Request</b></Button>)}
                   </div>
                 </Col>
             </Row>

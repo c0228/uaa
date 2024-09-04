@@ -46,8 +46,8 @@ const FamilyBackground = ()=>{
         <Row>
             <Col>
             <div className="mtop15p mbot15p input-group" align="center">
-                <Button type="danger" label="Back" size={11} />
-                <Button type="primary" label="Next" size={11} />
+                <Button type="danger" size={11}><b>Back</b></Button>
+                <Button type="primary" size={11}><b>Next</b></Button>
             </div>
             </Col>
         </Row>

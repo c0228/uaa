@@ -129,7 +129,7 @@ const Details = ()=>{
     </>);
   })}
   <div align="right" className="mtop15p">
-      <Button type="primary" label="Get Contact Details" size={11} />
+      <Button type="primary" size={11}><b>Get Contact Details</b></Button>
   </div>
  </>);
 };

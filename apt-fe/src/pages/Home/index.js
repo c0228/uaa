@@ -16,16 +16,14 @@ const Home = ()=>{
         <Col xl={12} xxl={12}xs={12}>
             <div align="right" style={{ padding:'15px' }}>
                     <Link to="/exam"
-                    state={{ data: 'Message from Link' }}
-                    >
-                        <Button label="Attend online Examination" type="primary" />
+                    state={{ data: 'Message from Link' }}>
+                        <Button type="primary"><b>Attend online Examination</b></Button>
                     </Link>
             </div>
             <div align="right" style={{ padding:'15px' }}>
-                <Button label="Attend online Examination" type="danger" 
-                    onClick={()=>{
-                        navigate("/exam", { state: { data: 'Hello' } })
-                    }} />
+                <Button type="danger" onClick={()=>{ navigate("/exam", { state: { data: 'Hello' } }) }}>
+                 <b>Attend online Examination</b>
+                </Button>
             </div>
         </Col>
     </Row>

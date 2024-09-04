@@ -182,7 +182,7 @@ const BlogsExamples = () =>{
                                         </Col>
                                         <Col xl={4} xxl={4}>
                                             <div className="mtop15p mbot15p" align="right">
-                                                <Button type="primary" label="Subscribe to the page" size={11} />
+                                                <Button type="primary" size={11}><b>Subscribe to the page</b></Button>
                                             </div>
                                         </Col>
                                     </Row>
@@ -261,8 +261,8 @@ const BlogsExamples = () =>{
                                             <h3 class="bs-header"><b>Post a Question</b></h3><hr/>
                                         </div>
                                         <div className="mtop15p">
-                                            <Button type="warning" label="Recently Asked Questions" size={11} style={{marginRight:"5px"}} />
-                                            <Button type="light" label="Answered Questions" size={11} style={{marginRight:"5px"}} />
+                                            <Button type="warning" size={11} style={{marginRight:"5px"}}><b>Recently Asked Questions</b></Button>
+                                            <Button type="light" size={11} style={{marginRight:"5px"}}><b>Answered Questions</b></Button>
                                         </div> 
                                         <div className="mtop15p mbot15p">
                                             <Accordian id="AccordianExample" 
@@ -313,12 +313,12 @@ const BlogsTemplates = ()=> {
                         <Col xl={3} xxl={3}>
                             <img src="./assets/logo/img_card.png" style={{height:"150px", width:"180px"}} />
                             <div className="mtop15p">
-                                <Button type="light" label="Subscribe to get more Articles" size={11} style={{opacity:"0.5"}} />
+                                <Button type="light" size={11} style={{opacity:"0.5"}}><b>Subscribe to get more Articles</b></Button>
                             </div>
                         </Col>
                         <Col xl={9} xxl={9}>
                             <div>
-                                    <h3 class="bs-header"><b>Top 10 Best Universities to join for Masters in United Kingdom</b></h3>
+                                <h3 class="bs-header"><b>Top 10 Best Universities to join for Masters in United Kingdom</b></h3>
                             </div><hr/>
                             <div className="mtop15p">
                                 <h5 class="bs-header" style={{color:"black", opacity:".65"}}>Studying for a master's degree in the United Kingdom 
@@ -330,7 +330,7 @@ const BlogsTemplates = ()=> {
                                 </ul>
                                 </h5>
                                 <div align="end">
-                                    <Button type="danger" label="Read More" size={11} />
+                                    <Button type="danger" size={11}><b>Read More</b></Button>
                                 </div>
                             </div>
                         </Col>
@@ -343,7 +343,7 @@ const BlogsTemplates = ()=> {
                         <Col xl={3} xxl={3}>
                             <img src="./assets/logo/img_card.png" style={{height:"150px", width:"180px"}} />
                             <div className="mtop15p">
-                            <Button type="light" label="Subscribe to get more Articles" size={11} style={{opacity:"0.5"}} />
+                            <Button type="light" size={11} style={{opacity:"0.5"}}><b>Subscribe to get more Articles</b></Button>
                             </div>
                         </Col>
                         <Col xl={9} xxl={9}>
@@ -360,7 +360,7 @@ const BlogsTemplates = ()=> {
                                 </ul>
                                 </h5>
                                 <div align="end">
-                                    <Button type="danger" label="Read More" size={11} />
+                                    <Button type="danger" size={11}><b>Read More</b></Button>
                                 </div>
                             </div>
                         </Col>
@@ -373,7 +373,7 @@ const BlogsTemplates = ()=> {
                         <Col xl={3} xxl={3}>
                             <img src="./assets/logo/img_card.png" style={{height:"150px", width:"180px"}} />
                             <div className="mtop15p">
-                            <Button type="light" label="Subscribe to get more Articles" size={11} style={{opacity:"0.5"}} />
+                            <Button type="light" size={11} style={{opacity:"0.5"}}><b>Subscribe to get more Articles</b></Button>
                             </div>
                         </Col>
                         <Col xl={9} xxl={9}>
@@ -390,7 +390,7 @@ const BlogsTemplates = ()=> {
                                 </ul>
                                 </h5>
                                 <div align="end">
-                                    <Button type="danger" label="Read More" size={11} />
+                                    <Button type="danger" size={11}><b>Read More</b></Button>
                                 </div>
                             </div>
                         </Col>
@@ -403,7 +403,7 @@ const BlogsTemplates = ()=> {
                         <Col xl={3} xxl={3}>
                             <img src="./assets/logo/img_card.png" style={{height:"150px", width:"180px"}} />
                             <div className="mtop15p">
-                            <Button type="light" label="Subscribe to get more Articles" size={11} style={{opacity:"0.5"}} />
+                                <Button type="light" size={11} style={{opacity:"0.5"}}><b>Subscribe to get more Articles</b></Button>
                             </div>
                         </Col>
                         <Col xl={9} xxl={9}>
@@ -420,7 +420,7 @@ const BlogsTemplates = ()=> {
                                 </ul>
                                 </h5>
                                 <div align="end">
-                                    <Button type="danger" label="Read More" size={11} />
+                                    <Button type="danger" size={11}><b>Read More</b></Button>
                                 </div>
                             </div>
                         </Col>
@@ -433,12 +433,12 @@ const BlogsTemplates = ()=> {
                         <Col xl={3} xxl={3}>
                             <img src="./assets/logo/img_card.png" style={{height:"150px", width:"180px"}} />
                             <div className="mtop15p">
-                            <Button type="light" label="Subscribe to get more Articles" size={11} style={{opacity:"0.5"}} />
+                                <Button type="light" size={11} style={{opacity:"0.5"}}><b>Subscribe to get more Articles</b></Button>
                             </div>
                         </Col>
                         <Col xl={9} xxl={9}>
                             <div>
-                                    <h3 class="bs-header"><b>How To get Placed in Top Universities of Australia</b></h3>
+                                <h3 class="bs-header"><b>How To get Placed in Top Universities of Australia</b></h3>
                             </div><hr/>
                             <div className="mtop15p">
                                 <h5 class="bs-header" style={{color:"black", opacity:".65"}}>Studying for a master's degree in the United Kingdom 
@@ -450,7 +450,7 @@ const BlogsTemplates = ()=> {
                                 </ul>
                                 </h5>
                                 <div align="end">
-                                    <Button type="danger" label="Read More" size={11} />
+                                    <Button type="danger" size={11}><b>Read More</b></Button>
                                 </div>
                             </div>
                         </Col>
@@ -463,7 +463,7 @@ const BlogsTemplates = ()=> {
                 <Card className="intro" padding={15}>
                     <h4 class="bs-header"><b>Checkout Different Newsletters we host</b></h4>
                         <div className="mtop15p" align="center">
-                            <Button type="outline-primary" label="Search Newsletters" size={11} style={{marginRight:"5px"}} />
+                            <Button type="outline-primary" size={11} style={{marginRight:"5px"}}><b>Search Newsletters</b></Button>
                         </div>
                 </Card>
                 </div>
@@ -514,10 +514,10 @@ const BlogsArticles = ()=>{
                     <TextBox name="surname" placeholder="Search Blogs/Articles, Latest Stories etc.." />
                 </div>  
                 <div className="mtop15p">
-                    <Button type="danger" label="Featured Articles" size={11} style={{marginRight:"5px"}} />
-                    <Button type="light" label="Recently Published" size={11} style={{marginRight:"5px"}} />
-                    <Button type="light" label="Top Rated Blogs" size={11} style={{marginRight:"5px"}} />
-                    <Button type="primary" label="Promotions and Events" size={11} style={{marginRight:"25px"}} />
+                    <Button type="danger" size={11} style={{marginRight:"5px"}}><b>Featured Articles</b></Button>
+                    <Button type="light" size={11} style={{marginRight:"5px"}}><b>Recently Published</b></Button>
+                    <Button type="light" size={11} style={{marginRight:"5px"}}><b>Top Rated Blogs</b></Button>
+                    <Button type="primary" size={11} style={{marginRight:"25px"}}><b>Promotions and Events</b></Button>
                 </div> 
             </Col>
             <Col xl={3} xxl={3}>

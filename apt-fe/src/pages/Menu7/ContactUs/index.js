@@ -62,7 +62,7 @@ return(<>
                                         <TextArea name="surname" placeholder="Enter message" lines={3} />
                                     </div>
                                     <div className="mtop15p mbot15p">
-                                        <Button type="warning" label="Send Message" size={11} />
+                                        <Button type="warning" size={11}><b>Send Message</b></Button>
                                     </div>
                                 </Col>
                             </Row>
@@ -116,7 +116,7 @@ const Component2 = () => {
                 <TextArea name="surname" placeholder="Enter message" lines={4} />
             </div>
             <div className="mtop15p mbot15p">
-                <Button type="warning" label="Send Message" size={11} />
+                <Button type="warning" size={11}><b>Send Message</b></Button>
             </div>
             </Col>
         </Row>

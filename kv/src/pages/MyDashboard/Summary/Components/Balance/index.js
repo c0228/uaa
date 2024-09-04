@@ -20,7 +20,7 @@ const Balance = ()=> {
             But, to get Contact details of it - <b>You need Points</b></span>
         </div>
         <div align="right" style={{marginTop:"12px"}}>
-            <Button type="light" label="Purchase Points" size={11} />
+            <Button type="light" size={11}><b>Purchase Points</b></Button>
         </div>
     </Card>
     </div>

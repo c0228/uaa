@@ -18,7 +18,7 @@ const CardComponent = ()=>{
                     keep you well-informed and empowered, no matter where your international journey takes you.
                     </h5>
                         <div className="mtop15p" align="end">
-                            <Button type="primary" label="View Page" size={11} />
+                            <Button type="primary" size={11}><b>View Page</b></Button>
                         </div>
                 </div>
             </div>
@@ -65,13 +65,13 @@ const Newsletters = ()=>{
             <Col xl={6} xxl={6}>
                 <div className="mtop15p mbot15p input-group" align="center" style={{ position: 'relative' }}>
                     <TextBox name="surname" placeholder="Search Newsletters based on Topics, Authors, Regions etc..." />
-                    <Button type="primary" label="Search" size={13} />
+                    <Button type="primary" size={13}><b>Search</b></Button>
                 </div>
                 <div className="mtop15p">
-                    <Button type="danger" label="Featured" size={11} style={{marginRight:"10px"}} />
-                    <Button type="light" label="Recently Published" size={11} style={{marginRight:"10px"}} />
-                    <Button type="light" label="Top Rated Newsletters" size={11} style={{marginRight:"10px"}} />
-                    <Button type="outline-danger" label="Self-Hosted Newsletters" size={11} style={{marginRight:"10px"}} />
+                    <Button type="danger" size={11} style={{marginRight:"10px"}}><b>Featured</b></Button>
+                    <Button type="light" size={11} style={{marginRight:"10px"}}><b>Recently Published</b></Button>
+                    <Button type="light" size={11} style={{marginRight:"10px"}}><b>Top Rated Newsletters</b></Button>
+                    <Button type="outline-danger" size={11} style={{marginRight:"10px"}}><b>Self-Hosted Newsletters</b></Button>
                 </div> 
             </Col>
             <Col xl={3} xxl={3}>
@@ -109,7 +109,7 @@ const Newsletters = ()=>{
                         <Col xl={6} xxl={6}>
                             <div className="mtop15p input-group">
                                 <TextBox name="surname" placeholder="Search Newsletters with the recommendations we suggest below" />
-                                <Button type="danger" label="Search" size={13} />
+                                <Button type="danger" size={13}><b>Search</b></Button>
                             </div>
                             
                         <div className="mtop15p">

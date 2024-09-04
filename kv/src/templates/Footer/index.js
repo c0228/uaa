@@ -49,7 +49,7 @@ const Footer = () =>{
                                 <TextArea name="message" placeholder="Enter your Queries" lines={2} />
                             </div>
                             <div align="right" className="mtop10p">
-                                <Button type="warning" label="Send Message" size={11} />
+                                <Button type="warning" size={11}><b>Send Message</b></Button>
                             </div>
                         </div>
                     </div> 

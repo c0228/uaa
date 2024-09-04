@@ -14,12 +14,11 @@ const BasicFooter = () =>{
       </Col>
       <Col all={6}>
           <div align="right">
-              <Button type="outline-primary" style={{ marginTop:'6px', marginRight:'5px' }}
-               label={<>
+              <Button type="outline-primary" style={{ marginTop:'6px', marginRight:'5px' }} size={12}
+                onClick={()=>updateResumeStatus('open')}>
                   <b>Explore more</b>
                   <Icon type="FontAwesome" name="fa-arrow-right" size={13} style={{ marginLeft:'8px' }} />
-                  </>} size={12}
-                  onClick={()=>updateResumeStatus('open')}/>
+              </Button>
           </div>
       </Col>
   </Row>

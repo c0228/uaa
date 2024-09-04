@@ -95,17 +95,17 @@ const Products = () =>{
                 <div >
                     <span><b>Weight:</b> {product?.weight}</span>
                     <span className="pull-right">
-                    <Button type={addToCart?.includes(product?.id)?"primary":"outline-primary"} label={<>
-                        {addToCart?.includes(product?.id) && <Icon type="FontAwesome" name="fa-check" size={12} style={{ marginRight:'5px'}} />}
-                        <span>{addToCart?.includes(product?.id)?"Added to Quotation":"Add to Quotation"}</span>
-                    </>} size={11} onClick={()=>{
+                    <Button type={addToCart?.includes(product?.id)?"primary":"outline-primary"} size={11} onClick={()=>{
                         const productId = product?.id;
                         if(addToCart?.includes(productId)){
                             setAddToCart(addToCart.filter(item => item !== productId));
                         } else {
                             setAddToCart([...addToCart, productId]);
                         }
-                    }} />
+                    }}>
+                    {addToCart?.includes(product?.id) && <Icon type="FontAwesome" name="fa-check" size={12} style={{ marginRight:'5px'}} />}
+                        <span>{addToCart?.includes(product?.id)?"Added to Quotation":"Add to Quotation"}</span>
+                    </Button>
                     </span>
                 </div>
                 <div style={{ paddingBottom:'15px' }}>

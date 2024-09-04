@@ -208,8 +208,8 @@ const Menu4 = ()=>{
                         <TextBox name="phoneNo" label="Contact Information" placeholder="Change your Phone Number" />  
                     </div>
                     <div className="mtop15p" align="center">
-                    <Button type="primary" label="Save Changes" size={11} />
-                    <Button type="danger" label="Reset" size={11} />
+                    <Button type="primary" size={11}><b>Save Changes</b></Button>
+                    <Button type="danger" size={11}><b>Reset</b></Button>
                     </div>
                     <div className="mtop15p">
                         <Choice type="checkbox" id="tc" name="t&c" label="Terms and Conditions" 
@@ -243,7 +243,8 @@ const Menu4 = ()=>{
                 <Col xl={10} xxl={10}>
                 </Col>
                 <Col xl={2} xxl={2}>
-                    <div className="mbot15p"><Button type="primary" label="Add new Location" size={11}/>
+                    <div className="mbot15p">
+                     <Button type="primary" size={11}><b>Add new Location</b></Button>
                     </div>
                 </Col>
             </Row>
@@ -314,8 +315,8 @@ const Menu4 = ()=>{
                         <TextBox name="landmark" label="Landmark" placeholder="Add a Landmark" />
                     </div>
                     <div className="mtop15p" align="center">
-                    <Button type="primary" label="Save and Continue" size={11} />
-                    <Button type="danger" label="Reset" size={11} />
+                        <Button type="primary" size={11}><b>Save and Continue</b></Button>
+                        <Button type="danger" size={11}><b>Reset</b></Button>
                     </div>
                     <div className="mtop15p">
                         <Choice type="checkbox" id="tc" name="t&c" label="Terms and Conditions" 

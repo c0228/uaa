@@ -146,7 +146,7 @@ import { ContainerFluid, Col, Row, Card, Colors, Pill, Button, TextBox, Switch, 
           <div className="mtop15p mbot15p">
             <div className="mtop15p input-group">
               <TextBox name="searchbar" placeholder="Search anything here" />
-              <Button type="primary" label="Search" size={11} />
+              <Button type="primary" size={11}><b>Search</b></Button>
             </div>
             <div className="mtop15p">
             <h5 class="bs-header"><b>44 results for "okta" in Azure</b></h5>
@@ -253,11 +253,11 @@ import { ContainerFluid, Col, Row, Card, Colors, Pill, Button, TextBox, Switch, 
             </Card>
           </div>
           <div className="mtop15p mbot15p">
-                    <Button type="outline-secondary" label="All Categories" size={11} style={{marginRight:"5px"}} />
-                    <Button type="outline-secondary" label="All Tags" size={11} style={{marginRight:"5px"}} />
-                    <Button type="primary" label="Home" size={11} style={{marginRight:"5px"}} />
-                    <Button type="light" label="Latest Posts" size={11} style={{marginRight:"5px"}} />
-                    <Button type="light" label="Feedback" size={11} style={{marginRight:"25px"}} />
+                    <Button type="outline-secondary" size={11} style={{marginRight:"5px"}}><b>All Categories</b></Button>
+                    <Button type="outline-secondary" size={11} style={{marginRight:"5px"}}><b>All Tags</b></Button>
+                    <Button type="primary" size={11} style={{marginRight:"5px"}}><b>Home</b></Button>
+                    <Button type="light" size={11} style={{marginRight:"5px"}}><b>Latest Posts</b></Button>
+                    <Button type="light" size={11} style={{marginRight:"25px"}}><b>Feedback</b></Button>
           </div> 
         </Col>
         <Col xl={1} xxl={1}>

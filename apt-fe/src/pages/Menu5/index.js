@@ -18,7 +18,7 @@ const CardComponents1 = () =>{
                         @OntoriaParlUniversity</div>
                         </Col>
                         <Col xl={2} xxl={2}>
-                        <Button type="outline-primary" label="Subscribe" size={11} />
+                          <Button type="outline-primary" size={11}><b>Subscribe</b></Button>
                         </Col>
                     </Row>
                 </div>
@@ -48,7 +48,7 @@ return(<>
                         @OntoriaParlUniversity</div>
                         </Col>
                         <Col xl={2} xxl={2}>
-                        <Button type="primary" label="Subscribed" size={11} />
+                          <Button type="primary" size={11}><b>Subscribed</b></Button>
                         </Col>
                     </Row>
                 </div>
@@ -78,7 +78,7 @@ const CardComponents3 = ()=> {
                             @OntoriaParlUniversity</div>
                             </Col>
                             <Col xl={2} xxl={2}>
-                                <Button type="outline-primary" label="Subscribe" size="11"/>
+                                <Button type="outline-primary" size="11"><b>Subscribe</b></Button>
                             </Col>
                         </Row>
                     </div>
@@ -109,7 +109,7 @@ const CardComponents4 = ()=> {
                             @OntoriaParlUniversity</div>
                             </Col>
                             <Col xl={2} xxl={2}>
-                            <Button type="primary" label="Subscribed" size={11} />
+                            <Button type="primary" size={11}><b>Subscribed</b></Button>
                             </Col>
                         </Row>
                     </div>

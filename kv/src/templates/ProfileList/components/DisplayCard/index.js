@@ -73,15 +73,15 @@ const DisplayCard = ({ data, index })=>{
                          <Icon type="FontAwesome" name="fa-check" size="16" style={{ marginTop:'8px', marginRight:'5px' }} /> 
                       <b>Request Sent</b>
                       </>
-                    ):(<Button type="success" label="Send Request" size={11} />)}
+                    ):(<Button type="success" size={11}><b>Send Request</b></Button>)}
                   </div>
                 </Col>
                 <Col xl={6} xxl={6}>
                   <div align="right" className="mtop10p">
                     <Link to={url+"Profile/"+data?.id} target="_blank">
-                    <Button type="primary" label={<div>
-                      View profile
-                    </div>} size={11} />
+                    <Button type="primary" size={11}>
+                      <div>View profile</div>
+                    </Button>
                     </Link>
                     </div>
                 </Col>

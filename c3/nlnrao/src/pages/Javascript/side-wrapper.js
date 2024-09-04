@@ -39,7 +39,7 @@ const SideWrapper = ({ children }) =>{
             <Col>
                 <div className="mtop15p">
                     <Link to={process.env.PROJECT_URL}>
-                        <Button type="outline-primary" size={11} label={<b>Go Back</b>} />
+                        <Button type="outline-primary" size={11}><b>Go Back</b></Button>
                     </Link>
                 </div>
             </Col>

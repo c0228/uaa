@@ -271,7 +271,7 @@ const Quotation = ()=>{
                         </Col>
                         <Col xs={12} xl={3} xxl={3}>
                             <div align="right" style={{ marginTop:'15px' }}>
-                                <Button type="outline-primary" label="Remove from Quotation" size={11} />
+                             <Button type="outline-primary" size={11}><b>Remove from Quotation</b></Button>
                             </div>
                         </Col>
                     </Row>
@@ -282,7 +282,7 @@ const Quotation = ()=>{
             <Row>
                 <Col xs={12} xl={12} xxl={12}>
                     <div align="right" style={{ marginTop:'15px', marginBottom:'55px' }}>
-                        <Button type="primary" label="Ask for Quotation" size={11} />
+                        <Button type="primary" size={11}><b>Ask for Quotation</b></Button>
                     </div>
                 </Col>
             </Row>

@@ -70,9 +70,12 @@ return(<>
                   <div>
                     <Row>
                       <Col xl={6} xxl={6}>
-                      <Button type="danger" label="Report Question" size={11} />
-                      <Hover type="tooltip" placement="right" component={<Button type="secondary" label="Next Question" size={11} />} 
-                  hoverContent="Click to go to the next question" />
+                      <Button type="danger" size={11}>
+                        <b>Report Question</b>
+                      </Button>
+                      <Hover type="tooltip" placement="right" 
+                        component={<Button type="secondary" size={11}><b>Next Question</b></Button>} 
+                        hoverContent="Click to go to the next question" />
                       </Col>
                     </Row>
                 </div>

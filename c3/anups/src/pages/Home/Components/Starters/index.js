@@ -12,7 +12,7 @@ const Starters = ()=>{
             to elevate the aesthetic appeal of your space, ensuring a blend of sophistication and functionality.</span>
         </div>
         <div style={{ marginTop:'25px' }}>
-            <a href="products"><Button type="primary" label="Explore our Products" size={12} /></a>
+            <a href="products"><Button type="primary" size={12}><b>Explore our Products</b></Button></a>
         </div>
     </div>
  </>);

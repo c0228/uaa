@@ -1,5 +1,5 @@
 import React from "react";
-import { Nav } from "e-ui-react";
+import { Nav, Button, Icon  } from "e-ui-react";
 import { useAuth } from "@Provider/AuthProvider";
 
 const Header = ({ activeId, menulinks })=>{
@@ -19,8 +19,11 @@ const Header = ({ activeId, menulinks })=>{
           </div>
        </div>
        <div  className="d-flex">
-           <button className="btn btn-primary" type="button" 
-           style={{ marginTop:'15px', marginRight:'5px' }} onClick={()=>logout('/')}><b>Logout</b></button>
+        <Button type="primary" size={11} 
+          style={{ marginTop:'15px', marginRight:'5px' }} onClick={()=>logout('/')}>
+          <Icon type="FontAwesome" name="fa-sign-out" size={14} />
+          <span style={{ marginLeft:'5px' }}><b>Logout</b></span>
+        </Button>
        </div>
    </div>
  </div>

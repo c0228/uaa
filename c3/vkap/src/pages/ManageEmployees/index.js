@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import { ContainerFluid, Row, Col, Button } from "e-ui-react";
+import { ContainerFluid, Row, Col, Button, Icon } from "e-ui-react";
 import Header from '@Templates/Header/index.js';
 import Footer from '@Templates/Footer/index.js';
 import { HeaderMenu } from '@Routes/NavbarList.js';
@@ -13,7 +13,10 @@ const ManageEmployees = ()=>{
   return (<div style={{ display:'flex', flexDirection:'row', marginBottom:'5px', borderBottom:'1px solid #ccc' }}>
     <div style={{ width:'60%' }}><h4><b>{title}</b></h4></div>
     <div align="right" style={{ width:'40%' }}>
-        <Button type="primary" label="Add New Employee Account" size={11} />
+        <Button type="primary" size={11}>
+          <Icon type="FontAwesome" name="fa-plus-circle" size={13} />
+          <span style={{ marginLeft:'5px' }}><b>Add New Employee Account</b></span>
+        </Button>
     </div>
   </div>);
  };

@@ -14,7 +14,7 @@ const NewslettersTemplate = ()=>{
             </div>
             <div className="mtop15p mbot15p input-group" align="center">
             <TextBox name="newsletter" placeholder="Search channels, Topics etc." />
-            <Button type="danger" label="Search" size={11} />
+            <Button type="danger" size={11}><b>Search</b></Button>
             </div>
         </div>
             </Col>
