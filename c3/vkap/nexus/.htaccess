@@ -4,6 +4,9 @@ RewriteRule timezones/list src/controllers/config.static.apis.php?action=GetTime
 
 RewriteRule upload/file src/controllers/module.upload.file.php [QSA]
 
+###########################################################################################################################
+###################################### MANAGE ACCOUNT #####################################################################
+###########################################################################################################################
 RewriteRule user/register src/controllers/module.user.account.info.php?action=USER_REGISTER [QSA]
 RewriteRule user/login src/controllers/module.user.account.info.php?action=USER_LOGIN [QSA]
 RewriteRule user/validate/email src/controllers/module.user.account.info.php?action=USER_VALIDATE_EMAIL [QSA]
