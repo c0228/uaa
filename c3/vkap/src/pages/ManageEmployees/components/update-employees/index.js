@@ -34,8 +34,7 @@ const UpdateEmployeeForm = ({ data }) =>{
                 setShowAlert({ type:'success', show: true, message:'Your Employee Details updated Successfully' });
             } else {
                 setShowAlert({ type:'danger', show: true, message:'Failed to update Employee Details.' });
-            }
-            
+            }   
         }
     }}
     onReset={async(triggerReset)=>{

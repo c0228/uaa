@@ -137,3 +137,10 @@ else if($_GET["action"]=='USER_DELETE' && $_SERVER['REQUEST_METHOD']=='POST') {
  $result["message"] = $message;
  echo json_encode( $result );
 }
+// 7. USERS_LIST_EMPLOYEES
+else if($_GET["action"]=='USERS_LIST_EMPLOYEES' && $_SERVER['REQUEST_METHOD']=='GET'){
+ $userRoles = ["ADMINISTRATOR", "EMPLOYEE"];
+ $listQuery = $userAccountModule->query_list_employees($userRoles);	
+ $data = json_decode( $database->getJSONData($listQuery) );
+ echo json_encode( $data );
+}

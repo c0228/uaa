@@ -33,6 +33,14 @@ class UserAccountModule {
   function query_delete_userAccount($userId){
 	return "DELETE FROM user_accounts_info WHERE userId=".$userId;
   }
+  function query_list_employees($userRoles){
+	$sql = "SELECT * FROM user_accounts_info WHERE ";
+	foreach ($userRoles as $userRole) {
+	 $sql.=" userRole='".$userRole."' OR";
+	}
+	$sql=chop($sql,"OR");
+	return $sql;
+  }
 }
 
 $userAccountModule = new UserAccountModule();

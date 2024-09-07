@@ -13,6 +13,7 @@ RewriteRule user/validate/email src/controllers/module.user.account.info.php?act
 RewriteRule user/details/update src/controllers/module.user.account.info.php?action=USER_DETAILS_UPDATE [QSA]
 RewriteRule user/reset/password/link src/controllers/module.user.account.info.php?action=SEND_RESETPASSWORD_EMAIL [QSA]
 RewriteRule user/delete src/controllers/module.user.account.info.php?action=USER_DELETE [QSA]
+RewriteRule user/list/employees src/controllers/module.user.account.info.php?action=USERS_LIST_EMPLOYEES [QSA]
 ###########################################################################################################################
 
 RewriteRule user/roles/add src/controllers/module.user.account.roles.php?action=USER_ROLES_ADD [QSA]

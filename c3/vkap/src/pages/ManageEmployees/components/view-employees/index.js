@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { Icon, Modal, Button } from "e-ui-react";
+import { Icon, Modal, Button, UrlAsyncFetch } from "e-ui-react";
 import UpdateEmployeeForm from './../update-employees/index.js';
 
 const ViewEmployees = () =>{
@@ -8,18 +8,23 @@ const ViewEmployees = () =>{
  const [data, setData] = useState([]);
  const [updateEmployeeData, setUpdateEmployeeData] = useState();
  const [deleteEmployeeData, setDeleteEmployeeData] = useState();
- useEffect(()=>{
-  setData([{ userId:'1', name: 'Nellutla L N Rao', email:'nellutlalnrao@gmail.com', mcountrycode: '+91', mobile: '6300193369', userRole:'ADMINISTRATOR', createdOn: '', lastUpdatedOn: '' },
-    { userId:'2', name: 'Nellutla Venkata Kishore', email:'kishorenellutla524@gmail.com', mcountrycode:'+91', mobile: '9160869337', userRole:'EMPLOYEE', createdOn: '', lastUpdatedOn: '' }]);
- },[]);
+
+ const initialize = async() =>{
+  const response = await UrlAsyncFetch( process.env.NEXUS_URL + 'user/list/employees', 'GET', {} );
+  setData( response );
+ };
+
+ useEffect(()=>{ initialize(); },[]);
  const handleEdit = (editData) =>{
     setUpdateEmployeeData(editData);
     setShowEditModal(true);
  };
+
  const handleDelete = (deleteData) =>{
     setDeleteEmployeeData(deleteData);
     setShowDeleteModal(true);
  };
+
  const handleDeleteAccount = () =>{
 
  };
@@ -36,7 +41,7 @@ const ViewEmployees = () =>{
         </div>
      </div>)}
     </Modal>)}
- <div className="table-responsive">
+ {data?.length>0 && (<div className="table-responsive">
     <table className="table">
      <thead>
        <tr style={{ backgroundColor:'#eee' }}>
@@ -51,8 +56,8 @@ const ViewEmployees = () =>{
        </tr>
      </thead>
      <tbody>
-        {data?.map((d)=>{
-            return (<tr>
+        {data?.map((d, i)=>{
+            return (<tr key={i}>
                 <td>{d?.userId}</td>
                 <td>{d?.name}</td>
                 <td>{d?.userRole}</td>
@@ -72,7 +77,7 @@ const ViewEmployees = () =>{
         })}
      </tbody>
     </table>
-   </div>
+   </div>)}
    </div>);
 };
 
