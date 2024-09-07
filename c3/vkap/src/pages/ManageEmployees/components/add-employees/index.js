@@ -1,7 +1,8 @@
-import React from "react";
-import { Form, Select, TextBox } from "e-ui-react";
+import React, { useState } from "react";
+import { Form, Select, TextBox, Alert } from "e-ui-react";
 
 const AddEmployeeForm = () =>{
+ const [showAlert, setAShowAlert] = useState();
  return (<div>
     <Form name="AddEmployeeForm" btnSubmit={{
         align: 'center',

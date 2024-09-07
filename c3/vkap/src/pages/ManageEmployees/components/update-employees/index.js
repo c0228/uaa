@@ -1,15 +1,18 @@
 import React, { useState, useEffect } from "react";
-import { Form, Select, TextBox, UrlAsyncFetch, FormToReqBodyFormatter } from "e-ui-react";
+import { Form, Select, TextBox, UrlAsyncFetch, FormToReqBodyFormatter, Alert } from "e-ui-react";
 
 const UpdateEmployeeForm = ({ data }) =>{
+ const [showAlert, setShowAlert] = useState();
  const [updateEmployeeData, setUpdateEmployeeData] = useState();
  useEffect(()=>{
+    setShowAlert({ type:'', show: false, message:'' });
     setUpdateEmployeeData(data);
  },[data]);
  useEffect(()=>{
   console.log("updateEmployeeData: "+JSON.stringify(updateEmployeeData));
  },[updateEmployeeData]);
  return (<div>
+    {showAlert?.show && (<Alert type={showAlert?.type} show={showAlert?.show} body={showAlert?.message} />)}
     <Form name="UpdateEmployeeForm" btnSubmit={{
         align: 'center',
         btnType:'success',
@@ -23,15 +26,14 @@ const UpdateEmployeeForm = ({ data }) =>{
         size: 11
     }} 
     onSubmit={async(form, isValidForm, triggerReset)=>{
-        if(isValidForm){  
-            // Error Validation check
-            const response = await UrlAsyncFetch( process.env.NEXUS_URL + 'user/login', 
+        if(isValidForm){ // Error Validation check
+            const response = await UrlAsyncFetch( process.env.NEXUS_URL + 'user/details/update', 
                 'POST', FormToReqBodyFormatter(form.loginForm) );
             console.log("logicResposne", response);
             if(response?.data?.length>0){
-                login(response?.data?.[0], 'consultancy/students-shortlist-form' );
+                setShowAlert({ type:'success', show: true, message:'Your Employee Details updated Successfully' });
             } else {
-                setAlertMessage("We recognized the Account Password was not matched with associated Email Address. Please verify and try again.");
+                setShowAlert({ type:'danger', show: true, message:'Failed to update Employee Details.' });
             }
             
         }
