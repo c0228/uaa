@@ -1,9 +1,10 @@
 import React, { useState } from "react";
-import { Form, Select, TextBox, UrlAsyncFetch, FormToReqBodyFormatter } from "e-ui-react";
+import { Form, Select, TextBox, Password, Alert, UrlAsyncFetch, FormToReqBodyFormatter } from "e-ui-react";
 
 const AddEmployeeForm = () =>{
- const [showAlert, setAShowAlert] = useState();
+ const [showAlert, setShowAlert] = useState({ type:'', show: false, message:'' });
  return (<div>
+    {showAlert?.show && (<Alert type={showAlert?.type} show={showAlert?.show} body={showAlert?.message} />)}
     <Form name="AddEmployeeForm" btnSubmit={{
         align: 'center',
         btnType:'success',
@@ -19,15 +20,15 @@ const AddEmployeeForm = () =>{
     onSubmit={async(form, isValidForm, triggerReset)=>{
         if(isValidForm){  
             // Error Validation check
-            const response = await UrlAsyncFetch( process.env.NEXUS_URL + 'user/login', 
-                'POST', FormToReqBodyFormatter(form.loginForm) );
+            const response = await UrlAsyncFetch( process.env.NEXUS_URL + 'user/register', 
+                'POST', FormToReqBodyFormatter(form.AddEmployeeForm) );
             console.log("logicResposne", response);
-            if(response?.data?.length>0){
-                login(response?.data?.[0], 'consultancy/students-shortlist-form' );
+            if(response?.status?.toLowerCase()==='success'){
+                setShowAlert({ type:'success', show: true, message:'New User Account created Successfully' });
             } else {
-                setAlertMessage("We recognized the Account Password was not matched with associated Email Address. Please verify and try again.");
+                setShowAlert({ type:'danger', show: true, message:'Failed to create New User Account' });
             }
-            
+            triggerReset();
         }
     }}
     onReset={async(triggerReset)=>{
@@ -35,11 +36,11 @@ const AddEmployeeForm = () =>{
     }}
     >
     <div>
-        <TextBox name="employeeName" label="Employee Name" placeholder="Enter Employee Name" />
+        <TextBox name="name" label="Employee Name" placeholder="Enter Employee Name" />
     </div>
     <div className="mtop15p">
         <Select
-            name="accountType"
+            name="userRole"
             label="Account Type"
             placeholder="Select Account Type"
             options={[{ id: 'ADMINISTRATOR', label: 'ADMINISTRATOR', value: 'ADMINISTRATOR' },
@@ -51,10 +52,45 @@ const AddEmployeeForm = () =>{
             }} />
     </div>
     <div className="mtop15p">
-        <TextBox name="emailAddress" label="Email Address" placeholder="Enter Email Address" />
+        <TextBox name="email" label="Email Address" placeholder="Enter Email Address" />
     </div>
     <div className="mtop15p">
-        <TextBox name="mobileNumber" label="Mobile Number (Without +91)" placeholder="Enter Mobile Number" />
+        <TextBox name="mobile" label="Mobile Number (Without +91)" placeholder="Enter Mobile Number" />
+    </div>
+    <div className="mtop15p">
+    <Password type="password" label="Account Password" placeholder="Enter your Password" name="accPwd" value="" validation={{
+            required:{
+                value: true,
+                errorMessage:"This is a Mandatory Field"
+            },
+            minLength:{
+                value: 8,
+                errorMessage:"Password should be greator than 8"
+            },
+            maxLength:{
+                value: 16,
+                errorMessage:"Message should be lessthan 16"
+            },
+            passwordContains:["Lowercase","Uppercase","Number", "Symbol"]
+    }} />
+    </div>
+    <div className="mtop15p">
+    <Password type="confirmPassword" reference="accPwd" placeholder="Enter your Confirm Password" 
+        label="Confirm Account Password" name="confirmPwd" value="" validation={{
+            required:{
+                value: true,
+                errorMessage:"This is a Mandatory Field"
+            },
+            minLength:{
+                value: 8,
+                errorMessage:"Password should be greator than 8"
+            },
+            maxLength:{
+                value: 16,
+                errorMessage:"Message should be lessthan 16"
+            },
+            passwordContains:["Lowercase","Uppercase","Number", "Symbol"]
+    }} />
     </div>
     </Form>
  </div>);

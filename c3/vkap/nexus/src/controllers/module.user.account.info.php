@@ -75,7 +75,7 @@ else if($_GET["action"]=='USER_DETAILS_UPDATE' && $_SERVER['REQUEST_METHOD']=='P
  $mobileVal = 'N'; if( array_key_exists("mobileVal", $htmlData) ){ $mobileVal = $htmlData["mobileVal"]; }
  $dp = ''; if( array_key_exists("dp", $htmlData) ){ $dp = $htmlData["dp"];   }
  $userTz = ''; if( array_key_exists("userTz", $htmlData) ){ $userTz = $htmlData["userTz"];  }
- $accactive = ''; if( array_key_exists("accactive", $htmlData) ){ $accactive = $htmlData["accactive"];  }
+ $accActive = ''; if( array_key_exists("accactive", $htmlData) ){ $accActive = $htmlData["accactive"];  }
  $userRole = ''; if( array_key_exists("userRole", $htmlData) ){ $userRole = $htmlData["userRole"];  }
  $query = $userAccountModule->query_update_userAccount($userId, $name, $email, $emailVal, $accPwd, $mcountrycode, 
  			$mobile, $mobileVal, $dp, $userTz, $accActive, $userRole);

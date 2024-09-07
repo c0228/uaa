@@ -62,7 +62,7 @@ const ViewEmployees = () =>{
                 <td>{d?.name}</td>
                 <td>{d?.userRole}</td>
                 <td>{d?.email}</td>
-                <td>{d?.mcountrycode}-{d?.mobile}</td>
+                <td>{d?.mcountrycode}+91-{d?.mobile}</td>
                 <td>{d?.createdOn}</td>
                 <td>{d?.lastUpdatedOn}</td>
                 <td align="center" style={{ cursor:'pointer' }}>
