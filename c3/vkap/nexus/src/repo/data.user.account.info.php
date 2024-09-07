@@ -30,6 +30,9 @@ class UserAccountModule {
 	$sql=chop($sql,",")." WHERE userId=".$userId.";";
 	return $sql;
   }
+  function query_delete_userAccount($userId){
+	return "DELETE FROM user_accounts_info WHERE userId=".$userId;
+  }
 }
 
 $userAccountModule = new UserAccountModule();

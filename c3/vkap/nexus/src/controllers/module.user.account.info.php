@@ -122,3 +122,18 @@ else if($_GET["action"]=='SEND_RESETPASSWORD_EMAIL' && $_SERVER['REQUEST_METHOD'
    }
    echo json_encode($status);
 }
+// 6. USER_DELETE
+else if($_GET["action"]=='USER_DELETE' && $_SERVER['REQUEST_METHOD']=='POST') {
+ $htmlData = json_decode( file_get_contents('php://input'), true );
+ $userId ='';if( array_key_exists("userId", $htmlData) ){ $userId = $htmlData["userId"];  }
+ 
+ $deleteQuery = $userAccountModule->query_delete_userAccount($userId);
+
+ $result = array();
+ $status = $database->addupdateData($query);
+ $message = "User with userId '".$userId."' deleted Successfully";
+ if($status === 'Error') { $message = 'Query Failed - [userId is Required Field to delete a User Account]'; }
+ $result["status"] = $status;
+ $result["message"] = $message;
+ echo json_encode( $result );
+}
