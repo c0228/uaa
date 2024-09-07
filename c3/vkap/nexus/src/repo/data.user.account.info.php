@@ -3,11 +3,11 @@ class UserAccountModule {
   function query_add_userAccount($name, $email, $emailVal, $accPwd, $mcountrycode, $mobile, $mobileVal, $dp, 
 		$userTz, $accActive, $userRole){
 	 return "INSERT INTO user_accounts_info(name, email, emailVal, accPwd, mcountrycode, mobile, mobileVal, ".
-	 "dp, userTz, accActive, userRole) VALUES ('".$name."','".$email."','".$emailVal."','".md5($accPwd)
+	 "dp, userTz, accActive, userRole) VALUES ('".$name."','".$email."','".$emailVal."','".$accPwd
 	 ."','".$mcountrycode."','".$mobile."','".$mobileVal."','".$dp."','".$userTz."','".$accActive."','".$userRole."')";
   }
   function query_view_userAccount($email,$accPwd){
-	$sql = "SELECT * FROM user_accounts_info WHERE email='".$email."' AND accPwd='".md5($accPwd)."';";  
+	$sql = "SELECT * FROM user_accounts_info WHERE email='".$email."' AND accPwd='".$accPwd."';";  
 	return $sql;
   }
   function query_validate_userEmail($email){
@@ -19,7 +19,7 @@ class UserAccountModule {
 	if(strlen($name)>0){ $sql.=" name='".$name."',"; }
 	if(strlen($email)>0){ $sql.=" email='".$email."',"; }
 	if(strlen($emailVal)>0){ $sql.=" emailVal='".$emailVal."',"; }
-	if(strlen($accPwd)>0){ $sql.=" accPwd='".md5($accPwd)."',"; }
+	if(strlen($accPwd)>0){ $sql.=" accPwd='".$accPwd."',"; }
 	if(strlen($mcountrycode)>0){ $sql.=" mcountrycode='".$mcountrycode."',"; }
 	if(strlen($mobile)>0){ $sql.=" mobile='".$mobile."',"; }
 	if(strlen($mobileVal)>0){ $sql.=" mobileVal='".$mobileVal."',"; }
