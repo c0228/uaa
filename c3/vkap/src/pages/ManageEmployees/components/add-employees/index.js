@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { Form, Select, TextBox, Password, Alert, UrlAsyncFetch, FormToReqBodyFormatter } from "e-ui-react";
+import md5 from 'md5';
 
 const AddEmployeeForm = () =>{
  const [showAlert, setShowAlert] = useState({ type:'', show: false, message:'' });
@@ -20,8 +21,10 @@ const AddEmployeeForm = () =>{
     onSubmit={async(form, isValidForm, triggerReset)=>{
         if(isValidForm){  
             // Error Validation check
+            let postData = FormToReqBodyFormatter(form.AddEmployeeForm); 
+                postData.accPwd = md5( postData.accPwd );
             const response = await UrlAsyncFetch( process.env.NEXUS_URL + 'user/register', 
-                'POST', FormToReqBodyFormatter(form.AddEmployeeForm) );
+                'POST', postData );
             console.log("logicResposne", response);
             if(response?.status?.toLowerCase()==='success'){
                 setShowAlert({ type:'success', show: true, message:'New User Account created Successfully' });

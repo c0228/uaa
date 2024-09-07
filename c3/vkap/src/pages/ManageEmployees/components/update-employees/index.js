@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { Form, Select, TextBox, Password, UrlAsyncFetch, FormToReqBodyFormatter, Alert } from "e-ui-react";
+import md5 from "md5";
 
 const UpdateEmployeeForm = ({ data }) =>{
  const [showAlert, setShowAlert] = useState();
@@ -29,6 +30,7 @@ const UpdateEmployeeForm = ({ data }) =>{
         if(isValidForm){ // Error Validation check
             let postData = FormToReqBodyFormatter(form.UpdateEmployeeForm);
                 postData.userId = updateEmployeeData?.userId;
+                postData.accPwd = md5( postData.accPwd );
             const response = await UrlAsyncFetch( process.env.NEXUS_URL + 'user/details/update', 
                 'POST', postData );
             console.log("logicResposne", response);
