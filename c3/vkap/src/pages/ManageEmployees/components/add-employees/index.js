@@ -1,11 +1,16 @@
 import React, { useState } from "react";
-import { Form, Select, TextBox, Password, Alert, UrlAsyncFetch, FormToReqBodyFormatter } from "e-ui-react";
+import { Form, Select, TextBox, Password, Alert, Icon, UrlAsyncFetch, FormToReqBodyFormatter } from "e-ui-react";
 import md5 from 'md5';
 
-const AddEmployeeForm = () =>{
- const [showAlert, setShowAlert] = useState({ type:'', show: false, message:'' });
+const AddEmployeeForm = ({ initialize }) =>{
+ const [showAlert, setShowAlert] = useState({ type:'', icon:'', show: false, message:'' });
  return (<div>
-    {showAlert?.show && (<Alert type={showAlert?.type} show={showAlert?.show} body={showAlert?.message} />)}
+    {showAlert?.show && (<div className="mbot15p">
+          <Alert type={showAlert?.type} show={showAlert?.show} body={<div>
+              <Icon type="FontAwesome" name={showAlert?.icon} size={16} />
+              <span className="mLeft5p">{showAlert?.message}</span>
+            </div>} />
+        </div>)}
     <Form name="AddEmployeeForm" btnSubmit={{
         align: 'center',
         btnType:'success',
@@ -27,9 +32,10 @@ const AddEmployeeForm = () =>{
                 'POST', postData );
             console.log("logicResposne", response);
             if(response?.status?.toLowerCase()==='success'){
-                setShowAlert({ type:'success', show: true, message:'New User Account created Successfully' });
+                setShowAlert({ type:'success', icon:'fa-check-circle', show: true, message:'New User Account created Successfully' });
+                initialize();
             } else {
-                setShowAlert({ type:'danger', show: true, message:'Failed to create New User Account' });
+                setShowAlert({ type:'danger', icon:'warning', show: true, message:'Failed to create New User Account' });
             }
             triggerReset();
         }

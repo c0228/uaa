@@ -130,7 +130,7 @@ else if($_GET["action"]=='USER_DELETE' && $_SERVER['REQUEST_METHOD']=='POST') {
  $deleteQuery = $userAccountModule->query_delete_userAccount($userId);
 
  $result = array();
- $status = $database->addupdateData($query);
+ $status = $database->addupdateData($deleteQuery);
  $message = "User with userId '".$userId."' deleted Successfully";
  if($status === 'Error') { $message = 'Query Failed - [userId is Required Field to delete a User Account]'; }
  $result["status"] = $status;

@@ -1,19 +1,24 @@
 import React, { useState, useEffect } from "react";
-import { Form, Select, TextBox, Password, UrlAsyncFetch, FormToReqBodyFormatter, Alert } from "e-ui-react";
+import { Form, Select, TextBox, Password, Icon, UrlAsyncFetch, FormToReqBodyFormatter, Alert } from "e-ui-react";
 import md5 from "md5";
 
-const UpdateEmployeeForm = ({ data }) =>{
+const UpdateEmployeeForm = ({ data, initialize }) =>{
  const [showAlert, setShowAlert] = useState();
  const [updateEmployeeData, setUpdateEmployeeData] = useState();
  useEffect(()=>{
-    setShowAlert({ type:'', show: false, message:'' });
+    setShowAlert({ type:'', icon:'', show: false, message:'' });
     setUpdateEmployeeData(data);
  },[data]);
  useEffect(()=>{
   console.log("updateEmployeeData: "+JSON.stringify(updateEmployeeData));
  },[updateEmployeeData]);
  return (<div>
-    {showAlert?.show && (<Alert type={showAlert?.type} show={showAlert?.show} body={showAlert?.message} />)}
+    {showAlert?.show && (<div className="mbot15p">
+          <Alert type={showAlert?.type} show={showAlert?.show} body={<div>
+              <Icon type="FontAwesome" name={showAlert?.icon} size={16} />
+              <span className="mLeft5p">{showAlert?.message}</span>
+            </div>} />
+        </div>)}
     {updateEmployeeData && Object.keys(updateEmployeeData) && (<Form name="UpdateEmployeeForm" btnSubmit={{
         align: 'center',
         btnType:'success',
@@ -36,9 +41,10 @@ const UpdateEmployeeForm = ({ data }) =>{
             console.log("logicResposne", response);
             if(response?.status?.toLowerCase() ==='success'){
                 setUpdateEmployeeData({...updateEmployeeData, postData});
-                setShowAlert({ type:'success', show: true, message:'Your Employee Details updated Successfully' });
+                setShowAlert({ type:'success', icon:'fa-check-circle', show: true, message:'Your Employee Details updated Successfully' });
+                initialize();
             } else {
-                setShowAlert({ type:'danger', show: true, message:'Failed to update Employee Details.' });
+                setShowAlert({ type:'danger', icon:'warning', show: true, message:'Failed to update Employee Details.' });
             }
         }
     }}
