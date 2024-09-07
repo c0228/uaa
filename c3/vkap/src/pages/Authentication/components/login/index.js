@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { Form, Alert, Email, Password, FormToReqBodyFormatter, UrlAsyncFetch, Colors  } from 'e-ui-react';
 import { useAuth } from "@Provider/AuthProvider.js";
+import md5 from "md5";
 
 const Login = ({ setShowForgotPwd })=>{
  const [ alertMessage, setAlertMessage ] = useState('');
@@ -78,8 +79,9 @@ const Login = ({ setShowForgotPwd })=>{
     onSubmit={async(form, isValidForm, triggerReset)=>{
         if(isValidForm){  
             // Error Validation check
-            const response = await UrlAsyncFetch( process.env.NEXUS_URL + 'user/login', 
-                'POST', FormToReqBodyFormatter(form.loginForm) );
+            let postData = FormToReqBodyFormatter(form.loginForm);
+            postData.accPwd = md5( postData.accPwd );
+            const response = await UrlAsyncFetch( process.env.NEXUS_URL + 'user/login', 'POST', postData );
             console.log("logicResposne", response);
             if(response?.data?.length>0){
                 login(response?.data?.[0], 'consultancy/students-shortlist-form' );

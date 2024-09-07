@@ -1,6 +1,7 @@
 import React, { useState } from "react";
-import { Form, Alert, Email, ConfirmPassword, Select, TextBox, Switch, FormToReqBodyFormatter, UrlAsyncFetch, FORM_RESET } from 'e-ui-react';
+import { Form, Alert, Email, Password, Select, TextBox, Switch, FormToReqBodyFormatter, UrlAsyncFetch, FORM_RESET } from 'e-ui-react';
 import StaticProfileForm from "@StaticData/profile-form.json";
+import md5 from 'md5';
 
 const Register = ()=>{
  const [ viewScreen, setViewScreen ] = useState('REGISTER_FORM');
@@ -72,8 +73,9 @@ const Register = ()=>{
  };
 
  const RegPassword = ()=>{
-    return (<div className="mtop15p">
-    <ConfirmPassword name="confirmPwd" validation={{
+    return (<div>
+        <div className="mtop15p">
+    <Password type="password" label="Account Password" placeholder="Enter your Password" name="accPwd" value="" validation={{
             required:{
                 value: true,
                 errorMessage:"This is a Mandatory Field"
@@ -88,6 +90,25 @@ const Register = ()=>{
             },
             passwordContains:["Lowercase","Uppercase","Number", "Symbol"]
     }} />
+    </div>
+    <div className="mtop15p">
+    <Password type="confirmPassword" reference="accPwd" placeholder="Enter your Confirm Password" 
+        label="Confirm Account Password" name="confirmPwd" value="" validation={{
+            required:{
+                value: true,
+                errorMessage:"This is a Mandatory Field"
+            },
+            minLength:{
+                value: 8,
+                errorMessage:"Password should be greator than 8"
+            },
+            maxLength:{
+                value: 16,
+                errorMessage:"Message should be lessthan 16"
+            },
+            passwordContains:["Lowercase","Uppercase","Number", "Symbol"]
+    }} />
+    </div>
     </div>);
  };
 
@@ -120,10 +141,9 @@ const Register = ()=>{
             if(isValidForm){  
                 const reqBody = FormToReqBodyFormatter(form.registerForm);
                 reqBody.userRole = 'CUSTOMER';
-
+                reqBody.accPwd = md5( reqBody.accPwd );
                console.log("reqBody", JSON.stringify(reqBody));
-               await UrlAsyncFetch( process.env.NEXUS_URL + 'user/register', 
-                    'POST', reqBody );
+               await UrlAsyncFetch( process.env.NEXUS_URL + 'user/register', 'POST', reqBody );
                setViewScreen('REGISTER_SUCCESS');
               console.log("isValidForm", isValidForm);
               triggerReset();
