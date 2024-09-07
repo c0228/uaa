@@ -10,6 +10,7 @@ export const HeaderMenu = ()=>{
   if(userRole === 'ADMINISTRATOR'){
     return ([{ id:'ManageEmployees', url: url+'consultancy/employees', label:'Manage Employees' },
         { id:'ShortlistForm', url:url+'consultancy/students-shortlist-form', label:'Student\'s Shortlist Form' },
+        { id:'ShortlistRecords', url:url+'consultancy/students-shortlist-records', label:'Student\'s Shortlist Records' },
         { id:'UploadData', url:url+'consultancy/upload-data', label:'Upload Data' }]);
   } else {
     return ([{ id:'ShortlistForm', url:url+'consultancy/students-shortlist-form', label:'Student\'s Shortlist Form' }]);
