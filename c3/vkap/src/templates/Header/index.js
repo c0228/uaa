@@ -20,16 +20,14 @@ const Header = ({ activeId, menulinks })=>{
   };
 
   const NavLabel = () =>{
-    return (<div><b>Hello <span className="mRight5p">{name}</span></b> 
+    return (<div align="right"><b>Hello <span className="mRight5p">{name}</span></b> 
     <Icon type="FontAwesome" name="fa-caret-down" size={12} /></div>);
   };
 
   const menus = [{ url:'#', title:(<div><NavMenu icon="fa-user" title="My Profile" /></div>) },
     { url:'#', title:(<div onClick={()=>logout('/')}><NavMenu icon="fa-sign-out" title="Logout" /></div>) }];
 
-  return (<DropdownElement width="130px" 
-    label={<NavLabel />} 
-    menus={menus} />);
+  return (<DropdownElement width="160px" label={<NavLabel />} menus={menus} />);
 
  };
 
