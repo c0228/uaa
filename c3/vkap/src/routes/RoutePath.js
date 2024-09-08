@@ -16,7 +16,7 @@ export const AppRouting = ()=>{
     <AuthProvider>
       <Routes>
          <Route exact path="/" element={isAuthenticated?(<Navigate to="/consultancy/students-shortlist-form" />):(<Authentication />)} />
-         <Route path='/consultancy' element={<Authorization permissions={[PERMISSIONS.CUSTOMER, PERMISSIONS.ADMINISTRATOR]} />}>
+         <Route path='/consultancy' element={<Authorization permissions={[PERMISSIONS.CUSTOMER, PERMISSIONS.EMPLOYEE, PERMISSIONS.ADMINISTRATOR]} />}>
             <Route path='students-shortlist-form' element={<ShortlistForm />} />
           </Route>
           <Route path='/consultancy' element={<Authorization permissions={[PERMISSIONS.ADMINISTRATOR]} />}>
