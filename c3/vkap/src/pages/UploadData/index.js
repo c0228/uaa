@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import { ContainerFluid, Row, Col, Card, Button, Icon, FileUpload  } from "e-ui-react";
+import { ContainerFluid, Row, Col, Card, Button, Icon, FileUpload, UrlAsyncFetch  } from "e-ui-react";
 import Header from '@Templates/Header/index.js';
 import Footer from '@Templates/Footer/index.js';
 import { HeaderMenu } from '@Routes/NavbarList.js';
@@ -32,13 +32,22 @@ const UploadData = () =>{
          <Card padding={15}>
           <SubHeaderTitle title="Upload Excel Sheet" />
           <div style={{ minHeight:'40vh' }}>
-            <div align="center">Files upload are renamed into the format of <code style={{ fontSize:'14px', marginLeft:'5px' }}><b>FILENAME_YYYY-MM-DD-H-i-s.xlsx</b></code></div>
-          <FileUpload name="helloWorld" type="fileDropper" height="240" autoSubmit={true} 
-            backend={{
+            <FileUpload name="helloWorld" type="fileDropper" height="240" autoSubmit={true} 
+              backend={{
                 "apiUrl": process.env.NEXUS_URL+"upload/file",
                 "targetDirectory": "/"
-            }} 
-            afterUploadSuccess={(fileUploaderDetails)=>{ console.log("afterUploadSuccess [fileUploaderDetails]: "+fileUploaderDetails); }}
+              }} 
+              afterUploadSuccess={async(fileUploaderDetails)=>{ 
+                console.log("afterUploadSuccess [fileUploaderDetails]: "+fileUploaderDetails);
+                const uploaderDetails = JSON.parse(fileUploaderDetails);
+                const files = uploaderDetails?.map((detail)=>detail?.name);
+                const response = await UrlAsyncFetch( process.env.NEXUS_URL + 'university/bulk/upload', 
+                  'POST', { targetDirectory:'/', fileName:files  } );
+                console.log("response", response);
+                // university/bulk/upload
+                // targetDirectory
+                // fileName
+              }}
             />
           </div>
          </Card>
