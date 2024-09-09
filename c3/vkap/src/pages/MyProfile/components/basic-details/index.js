@@ -61,7 +61,7 @@ const BasicDetails = () =>{
     onReset={async(triggerReset)=>{
         triggerReset();
     }}>
-    {data?.name && (<div>
+    {data?.name && (<div className="mtop15p">
         <TextBox name="name" label="Your Name" placeholder="Enter your Name" value={data?.name} />
     </div>)}
     {data?.email && (<div className="mtop15p">
