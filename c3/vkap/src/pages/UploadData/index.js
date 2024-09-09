@@ -31,12 +31,15 @@ const UploadData = () =>{
         <Col md={6}>
          <Card padding={15}>
           <SubHeaderTitle title="Upload Excel Sheet" />
-          <div style={{ height:'40vh' }}>
+          <div style={{ minHeight:'40vh' }}>
+            <div align="center">Files upload are renamed into the format of <code style={{ fontSize:'14px', marginLeft:'5px' }}><b>FILENAME_YYYY-MM-DD-H-i-s.xlsx</b></code></div>
           <FileUpload name="helloWorld" type="fileDropper" height="240" autoSubmit={true} 
             backend={{
-                "apiUrl":"http://localhost/fileUpload/index.php",
-                "targetDirectory": "uploads/"
-            }} />
+                "apiUrl": process.env.NEXUS_URL+"upload/file",
+                "targetDirectory": "/"
+            }} 
+            afterUploadSuccess={(fileUploaderDetails)=>{ console.log("afterUploadSuccess [fileUploaderDetails]: "+fileUploaderDetails); }}
+            />
           </div>
          </Card>
         </Col>

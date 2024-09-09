@@ -6,10 +6,17 @@
     return $fileList;
   }
   
+  function addTimestampToFileName($file_name) {
+    $file_info = pathinfo($file_name); // Get the file name and extension
+    $timestamp = date('Y-m-d-H-i-s'); // Create the timestamp
+    // Append the timestamp before the file extension
+    return $file_info['filename'] . '_' . $timestamp . '.' . $file_info['extension'];
+  }
+
   header('Content-Type: application/json; charset=utf-8');
   header('Access-Control-Allow-Origin: *');
   $response = array();
-  $target_dir = './../../../uploads/';
+  $target_dir = './../../uploads/';
   if(isset($_POST["TARGET_DIRECTORY"])){
     $target_dir = $target_dir.$_POST["TARGET_DIRECTORY"];
   }
