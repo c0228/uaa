@@ -77,14 +77,16 @@ else if($_GET["action"]=='USER_DETAILS_UPDATE' && $_SERVER['REQUEST_METHOD']=='P
  $userTz = ''; if( array_key_exists("userTz", $htmlData) ){ $userTz = $htmlData["userTz"];  }
  $accActive = ''; if( array_key_exists("accactive", $htmlData) ){ $accActive = $htmlData["accactive"];  }
  $userRole = ''; if( array_key_exists("userRole", $htmlData) ){ $userRole = $htmlData["userRole"];  }
- $query = $userAccountModule->query_update_userAccount($userId, $name, $email, $emailVal, $accPwd, $mcountrycode, 
+ $query1 = $userAccountModule->query_update_userAccount($userId, $name, $email, $emailVal, $accPwd, $mcountrycode, 
  			$mobile, $mobileVal, $dp, $userTz, $accActive, $userRole);
  $result = array();
- $status = $database->addupdateData($query);
+ $status = $database->addupdateData($query1);
+ $query2 = $userAccountModule->query_view_userAccountDetails($userId);
  $message = 'Updated Record Successfully for userId \''.$userId.'\'';
  if($status === 'Error') { $message = 'Query Failed - []'; }
  $result["status"] = $status;
  $result["message"] = $message;
+ $result["data"] = json_decode( $database->getJSONData($query2) );
  echo json_encode( $result );
 }
 // 5. SEND RESET PASSWORD EMAIL

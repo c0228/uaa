@@ -10,6 +10,10 @@ class UserAccountModule {
 	$sql = "SELECT * FROM user_accounts_info WHERE email='".$email."' AND accPwd='".$accPwd."';";  
 	return $sql;
   }
+  function query_view_userAccountDetails($userId){
+	$sql = "SELECT * FROM user_accounts_info WHERE userId='".$userId."';";  
+	return $sql;
+  }
   function query_validate_userEmail($email){
 	return "SELECT userId, name As user, emailVal, userTz FROM user_accounts_info WHERE email='".$email."';"; 
   }
