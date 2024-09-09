@@ -9,6 +9,7 @@ import ShortlistRecords from "@Pages/ShortlistRecords/index.js";
 import Authentication from "@Pages/Authentication/index.js";
 import ManageEmployees from "@Pages/ManageEmployees/index.js";
 import UploadData from "@Pages/UploadData/index.js";
+import MyProfile from "@Pages/MyProfile/index.js";
 
 export const AppRouting = ()=>{
   const isAuthenticated = Authenticated();
@@ -18,6 +19,7 @@ export const AppRouting = ()=>{
          <Route exact path="/" element={isAuthenticated?(<Navigate to="/consultancy/students-shortlist-form" />):(<Authentication />)} />
          <Route path='/consultancy' element={<Authorization permissions={[PERMISSIONS.CUSTOMER, PERMISSIONS.EMPLOYEE, PERMISSIONS.ADMINISTRATOR]} />}>
             <Route path='students-shortlist-form' element={<ShortlistForm />} />
+            <Route path='my-profile' element={<MyProfile />} />
           </Route>
           <Route path='/consultancy' element={<Authorization permissions={[PERMISSIONS.ADMINISTRATOR]} />}>
             <Route path='employees' element={<ManageEmployees />} />

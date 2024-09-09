@@ -24,7 +24,7 @@ const Header = ({ activeId, menulinks })=>{
     <Icon type="FontAwesome" name="fa-caret-down" size={12} /></div>);
   };
 
-  const menus = [{ url:'#', title:(<div><NavMenu icon="fa-user" title="My Profile" /></div>) },
+  const menus = [{ url: process.env.PROJECT_URL+'consultancy/my-profile', title:(<div><NavMenu icon="fa-user" title="My Profile" /></div>) },
     { url:'#', title:(<div onClick={()=>logout('/')}><NavMenu icon="fa-sign-out" title="Logout" /></div>) }];
 
   return (<DropdownElement width="160px" label={<NavLabel />} menus={menus} />);
