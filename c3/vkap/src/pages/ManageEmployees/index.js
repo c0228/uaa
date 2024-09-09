@@ -33,8 +33,15 @@ const ManageEmployees = ()=>{
  };
 
  const handleDelete = (deleteData) =>{
-  setDeleteEmployeeData(deleteData);
-  setShowDeleteModal(true);
+  let userAuthDetails = localStorage.getItem("USER_AUTH_DETAILS");
+      userAuthDetails = JSON.parse(userAuthDetails);
+  if(userAuthDetails?.data?.userId !== deleteData?.userId){
+    setShowAlert({ type:'', icon:'', show: false, message:'' });
+    setDeleteEmployeeData(deleteData);
+    setShowDeleteModal(true);
+  } else {
+     setShowAlert({ type:'danger', icon:'fa-warning', show: true, message:'Deletion of Employee\'s Self Account is prohibited on this web portal. Please Contact your Administrator for Support.' });
+  }
  };
 
  const handleDeleteAccount = async() =>{
