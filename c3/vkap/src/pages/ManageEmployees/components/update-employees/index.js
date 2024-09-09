@@ -43,6 +43,11 @@ const UpdateEmployeeForm = ({ data, initialize }) =>{
                 setUpdateEmployeeData({...updateEmployeeData, postData});
                 setShowAlert({ type:'success', icon:'fa-check-circle', show: true, message:'Your Employee Details updated Successfully' });
                 initialize();
+                // Update USER_AUTH_DETAILS in localStorage
+                let userAuthDetails = localStorage?.getItem("USER_AUTH_DETAILS");
+                    userAuthDetails = JSON.parse(userAuthDetails);
+                    userAuthDetails.data = response?.data?.[0];
+                localStorage?.setItem("USER_AUTH_DETAILS", JSON.stringify(userAuthDetails));
             } else {
                 setShowAlert({ type:'danger', icon:'warning', show: true, message:'Failed to update Employee Details.' });
             }
