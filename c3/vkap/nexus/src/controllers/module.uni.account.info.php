@@ -13,7 +13,7 @@ require './../../vendor/autoload.php';
 $target_dir = './../../uploads';
 
 function uploadUniversityData($fileName, $jsonData, $SheetName){
-  $universities = $jsonData->{$SheetName};
+  $universities = $jsonData->{$SheetName}?? [];
   foreach ($universities as $university) {
    $universityId = $university->{"University Id"} ?? '';
    $universityName = $university->{"University Name"} ?? '';
