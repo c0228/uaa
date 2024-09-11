@@ -1,5 +1,6 @@
 <?php 
 class UniversityAccountModule {
+ // University Account
  function query_add_university($universityId, $university, $location, $country, $toefl_o, $toefl_r, $toefl_l, $toefl_w, $toefl_s, 
     $pte_o, $pte_r, $pte_l, $pte_w, $pte_s, $ielts_o, $ielts_r, $ielts_l, $ielts_w, $ielts_s, $duolingo, $gre, $gpa){
   return "INSERT INTO uni_account_info(universityId, university, location, country, toefl_o, toefl_r, toefl_l, toefl_w, toefl_s, pte_o, pte_r, pte_l, pte_w, pte_s, ielts_o, ".
@@ -38,6 +39,32 @@ class UniversityAccountModule {
   if(strlen($gre)>0){ $sql.=" gre='".$gre."',"; }
   if(strlen($gpa)>0){ $sql.=" gpa='".$gpa."',"; }
   $sql=chop($sql,",")." WHERE universityId='".$universityId."';";
+  return $sql;
+ }
+ // Course Account
+ function query_add_courseInfo($courseId, $universityId, $course, $courseType, $duration, $fees, $leavingExpenses, 
+    $initDeposit, $appFees, $deadline, $courseURL){
+  return "INSERT INTO uni_courses_info(courseId, universityId, course, courseType, duration, fees, leavingExpenses, initDeposit, appFees, ".
+    "deadline, courseURL) VALUES ('".$courseId."', '".$universityId."', '".$course."', '".$courseType."', '".$duration."', '".
+    $fees."', '".$leavingExpenses."', '".$initDeposit."', '".$appFees."', '".$deadline."', '".$courseURL."');";
+ }
+ function query_view_courseInfo($courseId){
+  return "SELECT * FROM uni_courses_info WHERE courseId='".$courseId."';";
+ }
+ function query_update_courseInfo($courseId, $universityId, $course, $courseType, $duration, $fees, $leavingExpenses, 
+    $initDeposit, $appFees, $deadline, $courseURL){
+  $sql="UPDATE uni_courses_info SET";
+  if(strlen($universityId)>0){ $sql.=" universityId='".$universityId."',"; }
+  if(strlen($course)>0){ $sql.=" course='".$course."',"; }
+  if(strlen($courseType)>0){ $sql.=" courseType='".$courseType."',"; }
+  if(strlen($duration)>0){ $sql.=" duration='".$duration."',"; }
+  if(strlen($fees)>0){ $sql.=" fees='".$fees."',"; }
+  if(strlen($leavingExpenses)>0){ $sql.=" leavingExpenses='".$leavingExpenses."',"; }
+  if(strlen($initDeposit)>0){ $sql.=" initDeposit='".$initDeposit."',"; }
+  if(strlen($appFees)>0){ $sql.=" appFees='".$appFees."',"; }
+  if(strlen($deadline)>0){ $sql.=" deadline='".$deadline."',"; }
+  if(strlen($courseURL)>0){ $sql.=" courseURL='".$courseURL."',"; }
+  $sql=chop($sql,",")." WHERE courseId='".$courseId."';";
   return $sql;
  }
 }

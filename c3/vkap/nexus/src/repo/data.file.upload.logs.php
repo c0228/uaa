@@ -8,6 +8,9 @@
     return "SELECT xlsxId, excelFile, sheetName, operation, SUBSTRING(CONVERT(data USING utf8), 1, 1000) AS readable_text, ".
     "status, createdOn FROM log_upload_xlsx WHERE excelFile='".$excelFile."';";
   }
+  function query_delete_uploadLogs($excelFile){
+    return "DELETE FROM log_upload_xlsx WHERE excelFile='".$excelFile."';";
+  }
  }
  $excelLogModule = new ExcelLogModule();
 ?>
