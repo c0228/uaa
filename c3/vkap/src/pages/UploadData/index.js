@@ -1,15 +1,19 @@
 import React, { useState, useEffect } from "react";
-import { ContainerFluid, Row, Col, Card, Button, Icon, FileUpload, UrlAsyncFetch, Colors } from "e-ui-react";
+import { ContainerFluid, Row, Col, Card, Button, Icon, FileUpload, UrlAsyncFetch, Colors, Breadcrumb } from "e-ui-react";
 import Header from '@Templates/Header/index.js';
 import Footer from '@Templates/Footer/index.js';
 import { HeaderMenu } from '@Routes/NavbarList.js';
+import DisplayFiles from './components/display-files/index.js';
 import './index.css';
 
 const UploadData = () =>{
  const [uploadedList, setUploadedList] = useState([]);
+ const [selectedFile, setSelectedList] = useState('');
+ const [breadcrumbData, setBreadcrumbData] = useState();
  useEffect(()=>{
   document.title = 'Upload Data | VKAbroad';
   document.body.style.backgroundColor = "#fcfcfc";
+  resetBreadCrumb();
   displayUploadFilesList();
  },[]);
  const HeaderTitle = ({ title }) =>{
@@ -31,6 +35,18 @@ const UploadData = () =>{
   const response = await UrlAsyncFetch( process.env.NEXUS_URL + 'university/files/list', 'GET', { } );
   console.log("response [displayUploadFilesList]: ", response);
   setUploadedList(response);
+ };
+ const resetBreadCrumb = ()=>{
+  setBreadcrumbData([{ label:'List of Files', url:'#', onClick:()=>resetBreadCrumb() }]);
+  setSelectedList('');
+ };
+ const addToBreadCrumb = (selectedFile) =>{
+  let newBreadCrumb = [...breadcrumbData];
+      newBreadCrumb.push({ label: selectedFile, url:'#' });
+  setBreadcrumbData(newBreadCrumb);
+  setSelectedList(selectedFile);
+
+  // Display Logs
  };
  return (<div>
   <Header menulinks={HeaderMenu()} activeId="UploadData" />
@@ -100,19 +116,14 @@ const UploadData = () =>{
       <Col md={12}>
         <div style={{ marginBottom:'45px' }}>
           <div className="mtop15p"><HeaderTitle title="File Uploaded Logs" /></div>
-          {uploadedList?.length>0?(<Row>
-            {uploadedList?.map((file,index)=>{
-              return (<Col key={index} md={4}>
-                <div align="center" className="ud-file-box">
-                  <div className="ud-file-icon"><Icon type="FontAwesome" name="fa-file-excel-o" size={52} /></div>
-                  <div className="mtop15p ud-file-label"><b>{file}</b></div>
-                </div>
-              </Col>)
-            })}
-          </Row>):(<div align="center" className="mtop15p ud-file-placeholder">
-            <i>No Files were found to display here</i> {uploadedList?.length}
-          </div>)}
-          
+          <Breadcrumb backgroundColor="#ddd" 
+              data={breadcrumbData} />
+          {selectedFile?.length>0?(<div className="mtop5p">
+            
+
+          </div>):(<div className="mtop5p">
+            <DisplayFiles uploadedList={uploadedList} addToBreadCrumb={addToBreadCrumb} />
+            </div>)}
         </div>
       </Col>
     </Row>
