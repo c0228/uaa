@@ -8,6 +8,9 @@ require_once './../core/app.initiator.php';
 require_once './../utils/ExcelManager.php';
 require_once './../repo/data.file.upload.logs.php';
 require_once './../repo/data.university.account.php';
+
+require_once './../utils/FileManager.php';
+
 require './../../vendor/autoload.php';
 
 $target_dir = './../../uploads';
@@ -63,10 +66,6 @@ function uploadUniversityData($fileName, $jsonData, $sheetName){
    }
    $logQuery = $excelLogModule->query_add_uploadLogs($fileName, $sheetName, $operation, json_encode($logData), $queryExecutionStatus);
    $database->addupdateData($logQuery);
-   
-   // Output Display
-   //$viewLogQuery = $excelLogModule->query_view_uploadLogs($fileName);
-   // print_r( $database->getJSONData($viewLogQuery) );
  }
 }
 
@@ -112,9 +111,6 @@ function uploadCourseData($fileName, $jsonData, $sheetName){
    $logQuery = $excelLogModule->query_add_uploadLogs($fileName, $sheetName, $operation, json_encode($logData), $queryExecutionStatus);
    $database->addupdateData($logQuery);
    
-   // Output Display
-  // $viewLogQuery = $excelLogModule->query_view_uploadLogs($fileName);
-  // print_r( $database->getJSONData($viewLogQuery) );
   }
 }
 
@@ -137,5 +133,17 @@ if($_GET["action"]=='UNIVERSITY_BULK_UPLOAD' && $_SERVER['REQUEST_METHOD']=='POS
     uploadUniversityData($fName, $jsonData, 'UNIVERSITIES');
     uploadCourseData($fName, $jsonData, 'COURSES');
   }
+} 
+else if($_GET["action"]=='UNIVERSITY_UPLOAD_FILES' && $_SERVER['REQUEST_METHOD']=='GET'){
+  $filesList = listOfFolders($target_dir);
+  echo json_encode( $filesList );
+} 
+else if($_GET["action"]=='UNIVERSITY_UPLOAD_LOGS' && $_SERVER['REQUEST_METHOD']=='POST'){
+  $htmlData = json_decode( file_get_contents('php://input'), true );
+  $fileName = ''; if( array_key_exists("fileName", $htmlData) ){ $fileName = $htmlData["fileName"]; }
+  
+  // Output Display
+  $viewLogQuery = $excelLogModule->query_view_uploadLogs($fileName);
+  echo $database->getJSONData($viewLogQuery);
 }
 

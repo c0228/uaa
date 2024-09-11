@@ -1,10 +1,6 @@
 <?php
-  function viewList($target_dir){
-    $fileList = scandir($target_dir);
-    $fileList = array_diff($fileList, array('.', '..')); // Remove "." and ".." entries
-    $fileList = array_values($fileList);
-    return $fileList;
-  }
+
+  require_once './../utils/FileManager.php';
   
   function addTimestampToFileName($file_name) {
     $file_info = pathinfo($file_name); // Get the file name and extension
@@ -32,13 +28,13 @@
       $file_tmp_name = $_FILES["TARGET_FILE_".$i]["tmp_name"];
       $target_file = $target_dir . basename($file_name);
       if(move_uploaded_file($file_tmp_name, $target_file)) {
-        array_push($response, array("status" => "FILE_UPLOAD_SUCCESS", "fileName" => $file_name, "listFiles" => viewList($target_dir) ));
+        array_push($response, array("status" => "FILE_UPLOAD_SUCCESS", "fileName" => $file_name, "listFiles" => listOfFolders($target_dir) ));
       } else {
-        array_push($response, array("status" => "FILE_UPLOAD_FAILED", "fileName" => $file_name, "listFiles" => viewList($target_dir) ));
+        array_push($response, array("status" => "FILE_UPLOAD_FAILED", "fileName" => $file_name, "listFiles" => listOfFolders($target_dir) ));
       }
     }
   } else{
-      array_push($response, array("status" => "NO_FILES_FOUND","listFiles" => viewList($target_dir) ));
+      array_push($response, array("status" => "NO_FILES_FOUND","listFiles" => listOfFolders($target_dir) ));
   }
 
   // Output the response as JSON

@@ -20,6 +20,8 @@ RewriteRule user/roles/add src/controllers/module.user.account.roles.php?action=
 RewriteRule user/roles/view src/controllers/module.user.account.roles.php?action=USER_ROLES_VIEW [QSA]
 ###########################################################################################################################
 RewriteRule university/bulk/upload src/controllers/module.uni.account.info.php?action=UNIVERSITY_BULK_UPLOAD [QSA]
+RewriteRule university/files/list src/controllers/module.uni.account.info.php?action=UNIVERSITY_UPLOAD_FILES [QSA]
+RewriteRule university/files/logs src/controllers/module.uni.account.info.php?action=UNIVERSITY_UPLOAD_LOGS [QSA]
 
 RewriteRule user/address/add src/controllers/module.user.account.addr.php?action=USER_ADDRESS_ADD [QSA]
 RewriteRule user/address/update src/controllers/module.user.account.addr.php?action=USER_ADDRESS_UPDATE [QSA]
