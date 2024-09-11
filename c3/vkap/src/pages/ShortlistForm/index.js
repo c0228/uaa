@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { ContainerFluid, Row, Col, Card, Form, Icon } from "e-ui-react";
+import { ContainerFluid, Row, Col, Card, Form, Icon, FormToReqBodyFormatter } from "e-ui-react";
 import Header from '@Templates/Header/index.js';
 import Footer from '@Templates/Footer/index.js';
 import { HeaderMenu } from '@Routes/NavbarList.js';
@@ -43,18 +43,11 @@ const ShortlistForm = ()=>{
         onSubmit={async(form, isValidForm, triggerReset)=>{
           console.log("Form Result:", form);
           if(isValidForm){
-          /*  const subject = form?.['testForm']?.subjectName?.value;
-            const exams = form?.['testForm']?.SelectedExams?.value?.map((exam)=>exam.id).join('|');
-            const response = await UrlAsyncFetch('http://localhost/projects/uma/upn/nexus/add/new/subject', 
-              'POST', { subject: subject, exams: exams });
-            console.log("response: ", response);
-            setShowAlert({ message:response?.message, status:true, type:response?.status?.toLowerCase() });
-            triggerReset();
-            reset();
-          } else {
-            setShowAlert({ message:'Please Enter Valid Details in the Form', status:true, type:'danger' });
-          } */
-         }
+            let postData = FormToReqBodyFormatter(form.ShortlistForm);
+            postData = JSON.stringify(postData);
+            console.log("postDta: ", postData);
+            window.open(process.env.NEXUS_URL+'student/shortlist?data='+btoa(postData),'_blank');
+          }
         }}
         onReset={(triggerReset)=>{
           triggerReset();
