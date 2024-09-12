@@ -21,6 +21,9 @@ class StudentShortlistModule {
   "user_accounts_info.userRole As searchePersonRole ".
   "FROM stud_sl_records, user_accounts_info WHERE stud_sl_records.searchedBy = user_accounts_info.userId LIMIT ".$start.",".$end.";";
  }
+ function query_count_studentDetails(){
+  return "SELECT count(*) As totalCount FROM stud_sl_records;";
+ }
 }
 
 $studentShortlistModule = new StudentShortlistModule();

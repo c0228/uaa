@@ -52,9 +52,12 @@ if($_GET["action"]=='STUDENT_RECORD_ADD' && $_SERVER['REQUEST_METHOD']=='POST'){
     if(isset($_GET["start"]) && isset($_GET["end"])){
        $start = $_GET["start"];
        $end = $_GET["end"];
-       $query = $studentShortlistModule->query_view_studentDetails($start, $end);
-       $data = json_decode( $database->getJSONData($query) );
+       $query1 =  $studentShortlistModule->query_count_studentDetails();
+       $query2 = $studentShortlistModule->query_view_studentDetails($start, $end);
+       $dataCount = json_decode( $database->getJSONData($query1) );
+       $data = json_decode( $database->getJSONData($query2) );
        $result["message"] = "Records Found";
+       $result["totalCount"] = $dataCount[0]->{"totalCount"};
        $result["data"] = $data;
     } else {
         $message='Missing';
