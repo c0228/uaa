@@ -4,3 +4,5 @@
 @media (min-width: 768px) {
  .tbyb-gallery-fb { height:40vh;border-radius:8px; }
 }
+
+.subheading-title { font-family:BebasNeue;text-transform:uppercase;letter-spacing:1.5px;font-size:24px;margin-bottom:15px; }

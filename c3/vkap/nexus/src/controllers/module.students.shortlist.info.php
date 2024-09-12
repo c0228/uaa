@@ -50,10 +50,11 @@ if($_GET["action"]=='STUDENT_RECORD_ADD' && $_SERVER['REQUEST_METHOD']=='POST'){
 } else if($_GET["action"]=='STUDENTS_RECORD_VIEW' && $_SERVER['REQUEST_METHOD']=='GET'){
     $result = array();
     if(isset($_GET["start"]) && isset($_GET["end"])){
+       $search = ''; if(isset($_GET["search"])){ $search=$_GET["search"]; }
        $start = $_GET["start"];
        $end = $_GET["end"];
        $query1 =  $studentShortlistModule->query_count_studentDetails();
-       $query2 = $studentShortlistModule->query_view_studentDetails($start, $end);
+       $query2 = $studentShortlistModule->query_view_studentDetails($start, $end, $search);
        $dataCount = json_decode( $database->getJSONData($query1) );
        $data = json_decode( $database->getJSONData($query2) );
        $result["message"] = "Records Found";
