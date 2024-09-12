@@ -78,14 +78,18 @@ const Specials = () =>{
     content:{  xs:'12', sm:'9', md:'9', lg:'9', xl:'9', xxl:'9' }
  }}
  menulinks={[
-     { id:'v3home', url:'#NFLSpecials', label:'BUCKET BEERS', content:(<div>
+     { id:'v3home', url:'#NFLSpecials', label:'BUCKET BEERS', content:(<div className="mtop15p">
         <div align="center" className="mbot15p" style={{ fontSize:'22px', letterSpacing:'1px' }}><b>DOMESTICS</b></div>
      <ListItem data={data?.["Bucket Beers - Domestics"]} />
      <div align="center" className="mbot15p" style={{ fontSize:'22px', letterSpacing:'1px' }}><b>IMPORTS</b></div>
      <ListItem data={data?.["Bucket Beers - Imports"]} />
      </div>) },
-     { id:'v3menu1', url:'#NFLSpecials', label:'COCKTAILS', content:(<ListItem data={data?.["CockTails"]} />) },
-     { id:'v3menu2', url:'#NFLSpecials', label:'TOUCH DOWN SHOTS', content:(<ListItem data={data?.["Touch Down Shots"]} />) }]} 
+     { id:'v3menu1', url:'#NFLSpecials', label:'COCKTAILS', content:(<div className="mtop15p">
+        <ListItem data={data?.["CockTails"]} />
+        </div>) },
+     { id:'v3menu2', url:'#NFLSpecials', label:'TOUCH DOWN SHOTS', content:(<div className="mtop15p">
+        <ListItem data={data?.["Touch Down Shots"]} />
+        </div>) }]} 
  activeId="v3home" 
  colorConfig={{
     active: { color: Colors.light, backgroundColor: '#000' },
