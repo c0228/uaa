@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import Header from '@Templates/Header/index.js';
 import { HeaderMenu } from '@Config/HeaderMenu.js';
-import { ContainerFluid, Row, Col, Form, TextBox, TextArea, Button, Select, Card, Switch, FormToReqBodyFormatter, UrlAsyncFetch } from "e-ui-react";
+import { ContainerFluid, Row, Col, Form, TextBox, TextArea, FormToReqBodyFormatter, UrlAsyncFetch } from "e-ui-react";
 import axios from 'axios';
 import MyMap from './map.js';
 
