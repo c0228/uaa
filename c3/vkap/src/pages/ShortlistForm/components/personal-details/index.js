@@ -10,14 +10,14 @@ const PersonalDetails = () =>{
           <TextBox name="fullName" label="Full Name" placeholder="Enter your Full Name" />
         </Col>
         <Col md={3}>
-          <TextBox name="emailAddress" label="Email Address" placeholder="Enter your Email Address" />
+          <TextBox name="email" label="Email Address" placeholder="Enter your Email Address" />
         </Col>
         <Col md={2}>
-          <TextBox name="mobileNumber" label="Mobile Number" placeholder="Enter your Mobile Number" />
+          <TextBox name="mobile" label="Mobile Number" placeholder="Enter your Mobile Number" />
         </Col>
         <Col md={2}>
           <Select 
-                name="country"
+                name="moveTo"
                 label="Moving to Country" 
                 placeholder="Select Country"
                 options={[{ id: 'USA', label: 'USA', value: 'USA' },
@@ -31,7 +31,7 @@ const PersonalDetails = () =>{
         </Col>
         <Col md={2}>
           <Select 
-                name="preferredMasterDetails"
+                name="prefMasterCourse"
                 label="Preferred Master Details" 
                 placeholder="Select Course"
                 options={[]}

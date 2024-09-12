@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
-import { ContainerFluid, Row, Col, Card, Form, Icon, FormToReqBodyFormatter } from "e-ui-react";
+import { ContainerFluid, Row, Col, Card, Form, Icon, ModalAlert, UrlAsyncFetch,
+  FormToReqBodyFormatter } from "e-ui-react";
 import Header from '@Templates/Header/index.js';
 import Footer from '@Templates/Footer/index.js';
 import { HeaderMenu } from '@Routes/NavbarList.js';
@@ -8,6 +9,7 @@ import EduEmpDetails from './components/edu-emp-details/index.js';
 import PursuingDetails from './components/pursuing-details/index.js';
 
 const ShortlistForm = ()=>{
+ const [ showModelAlert, setShowModalAlert ] = useState({ show: false, message:'' });
  useEffect(()=>{
     document.title = 'Student\'s Shortlist Form | VKAbroad';
     document.body.style.backgroundColor = "#fcfcfc";
@@ -20,6 +22,10 @@ const ShortlistForm = ()=>{
  };
  return (<div>
   <Header menulinks={HeaderMenu()} activeId="ShortlistForm" />
+  <ModalAlert title={showModelAlert?.message} 
+    show={showModelAlert?.show} onClose={(show)=>{
+      setShowModalAlert({ show: show, message:'' });
+    }} />
   <ContainerFluid>
    <Row><Col md={12}><HeaderTitle /></Col></Row>
    <Row>
@@ -43,10 +49,17 @@ const ShortlistForm = ()=>{
         onSubmit={async(form, isValidForm, triggerReset)=>{
           console.log("Form Result:", form);
           if(isValidForm){
+            let userAuthDetails = localStorage.getItem("USER_AUTH_DETAILS");
+                userAuthDetails = JSON.parse(userAuthDetails);
             let postData = FormToReqBodyFormatter(form.ShortlistForm);
-            postData = JSON.stringify(postData);
-            console.log("postDta: ", postData);
-            window.open(process.env.NEXUS_URL+'student/shortlist?data='+btoa(postData),'_blank');
+                postData.searchedBy = userAuthDetails?.data?.userId;
+            setShowModalAlert({ show: true, 
+              message: (<div>A PDF is generated and displayed in Next Tab and also an 
+              Email is sent to Student's Email Address <b>"{postData?.emailAddress}"</b>. Please check it. </div>) })
+            console.log("postData: ", postData);
+            const response = await UrlAsyncFetch( process.env.NEXUS_URL + 'student/add/records', 'POST', postData );
+            console.log("logicResposne", response);
+            window.open(process.env.NEXUS_URL+'student/shortlist?data='+btoa(JSON.stringify(postData)),'_blank');
           }
         }}
         onReset={(triggerReset)=>{

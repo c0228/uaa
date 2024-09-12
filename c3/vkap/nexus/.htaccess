@@ -22,7 +22,10 @@ RewriteRule university/bulk/upload src/controllers/module.uni.account.info.php?a
 RewriteRule university/files/list src/controllers/module.uni.account.info.php?action=UNIVERSITY_UPLOAD_FILES [QSA]
 RewriteRule university/files/logs src/controllers/module.uni.account.info.php?action=UNIVERSITY_UPLOAD_LOGS [QSA]
 ###########################################################################################################################
-RewriteRule student/shortlist src/controllers/module.students.shortlist.php [QSA]
+RewriteRule student/shortlist src/controllers/module.students.shortlist.generate.php [QSA]
+RewriteRule student/add/records src/controllers/module.students.shortlist.info.php?action=STUDENT_RECORD_ADD [QSA]
+RewriteRule student/view/records src/controllers/module.students.shortlist.info.php?action=STUDENTS_RECORD_VIEW [QSA]
+###########################################################################################################################
 
 RewriteRule user/address/add src/controllers/module.user.account.addr.php?action=USER_ADDRESS_ADD [QSA]
 RewriteRule user/address/update src/controllers/module.user.account.addr.php?action=USER_ADDRESS_UPDATE [QSA]

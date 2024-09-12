@@ -12,19 +12,19 @@ const PursuingDetails = () =>{
     <SubHeaderTitle title="TOEFL Examination Details" />
     <Row>
      <Col md={2}>
-      <TextBox name="TOEFL_Reading" label="Reading" placeholder="0" />
+      <TextBox name="toefl_r" label="Reading" placeholder="0" />
      </Col>
      <Col md={2}>
-      <TextBox name="TOEFL_Writing" label="Writing" placeholder="0" />
+      <TextBox name="toefl_w" label="Writing" placeholder="0" />
      </Col>
      <Col md={2}>
-      <TextBox name="TOEFL_Listening" label="Listening" placeholder="0" />
+      <TextBox name="toefl_l" label="Listening" placeholder="0" />
      </Col>
      <Col md={2}>
-      <TextBox name="TOEFL_Speaking" label="Speaking" placeholder="0" />
+      <TextBox name="toefl_s" label="Speaking" placeholder="0" />
      </Col>
      <Col md={4}>
-      <TextBox name="TOEFL_Overall" label="Overall Score" placeholder="0" />
+      <TextBox name="toefl_o" label="Overall Score" placeholder="0" />
      </Col>
     </Row>
   </div>);
@@ -34,19 +34,19 @@ const PursuingDetails = () =>{
       <SubHeaderTitle title="IELTS Examination Details" />
       <Row>
        <Col md={2}>
-        <TextBox name="IELTS_Reading" label="Reading" placeholder="0" />
+        <TextBox name="ielts_r" label="Reading" placeholder="0" />
        </Col>
        <Col md={2}>
-        <TextBox name="IELTS_Writing" label="Writing" placeholder="0" />
+        <TextBox name="ielts_w" label="Writing" placeholder="0" />
        </Col>
        <Col md={2}>
-        <TextBox name="IELTS_Listening" label="Listening" placeholder="0" />
+        <TextBox name="ielts_l" label="Listening" placeholder="0" />
        </Col>
        <Col md={2}>
-        <TextBox name="IELTS_Speaking" label="Speaking" placeholder="0" />
+        <TextBox name="ielts_s" label="Speaking" placeholder="0" />
        </Col>
        <Col md={4}>
-        <TextBox name="IELTS_Overall" label="Overall Score" placeholder="0" />
+        <TextBox name="ielts_o" label="Overall Score" placeholder="0" />
        </Col>
       </Row>
     </div>);
@@ -56,19 +56,19 @@ const PursuingDetails = () =>{
       <SubHeaderTitle title="PTE Examination Details" />
       <Row>
        <Col md={2}>
-        <TextBox name="PTE_Reading" label="Reading" placeholder="0" />
+        <TextBox name="pte_r" label="Reading" placeholder="0" />
        </Col>
        <Col md={2}>
-        <TextBox name="PTE_Writing" label="Writing" placeholder="0" />
+        <TextBox name="pte_w" label="Writing" placeholder="0" />
        </Col>
        <Col md={2}>
-        <TextBox name="PTE_Listening" label="Listening" placeholder="0" />
+        <TextBox name="pte_l" label="Listening" placeholder="0" />
        </Col>
        <Col md={2}>
-        <TextBox name="PTE_Speaking" label="Speaking" placeholder="0" />
+        <TextBox name="pte_s" label="Speaking" placeholder="0" />
        </Col>
        <Col md={4}>
-        <TextBox name="PTE_Overall" label="Overall Score" placeholder="0" />
+        <TextBox name="pte_o" label="Overall Score" placeholder="0" />
        </Col>
       </Row>
     </div>);
@@ -97,7 +97,7 @@ const PursuingDetails = () =>{
             <SubHeaderTitle title="Duolingo Examination Details" />
             <Row>
              <Col md={12}>
-                <TextBox name="Duolingo_Overall" label="Overall Score" placeholder="0" />
+                <TextBox name="duolingo" label="Overall Score" placeholder="0" />
              </Col>
             </Row>
          </Card>
@@ -107,7 +107,7 @@ const PursuingDetails = () =>{
             <SubHeaderTitle title="GRE Examination Details" />
             <Row>
              <Col md={12}>
-                <TextBox name="GRE_Overall" label="Overall Score" placeholder="0" />
+                <TextBox name="gre" label="Overall Score" placeholder="0" />
              </Col>
             </Row>
          </Card>

@@ -10,7 +10,7 @@ const EduEmpDetails = () =>{
             <TextBox name="ssc" label="SSC (% Marks)" placeholder="00.00%" />
         </Col>
         <Col md={2}>
-            <TextBox name="intermediate" label="Intermediate (% Marks)" placeholder="00.00%" />
+            <TextBox name="inter" label="Intermediate (% Marks)" placeholder="00.00%" />
         </Col>
         <Col md={2}>
             <TextBox name="degree" label="B.Tech/Degree (% Marks)" placeholder="00.00%" />
@@ -30,7 +30,7 @@ const EduEmpDetails = () =>{
         </Col>
         <Col md={2}>
         <Select 
-            name="empYears"
+            name="empExpYears"
             label="Experience (in years)" 
             placeholder="Select Years"
             options={NumRange(1,10)?.map((r)=>{
@@ -44,17 +44,14 @@ const EduEmpDetails = () =>{
         </Col>
         <Col md={2}>
             <Select 
-            name="empField"
+            name="empExpField"
             label="Experience (in Field)" 
             placeholder="Select your Field"
             options={[{ id: 'IT', label: 'IT', value: 'IT' },
             { id: 'Non-IT', label: 'Non-IT', value: 'Non-IT' },
             { id: 'Other', label: 'Other', value: 'Other' }]}
             className="navbar-layout"
-            fontSize="12"
-            onChange={(event) => {
-                let option = event.target.value;
-            }} />
+            fontSize="12" />
         </Col>
     </Row>
   </ContainerFluid>
