@@ -83,18 +83,19 @@ const TablePagination = () => {
     );
   };
 
-  const ScoreTemplate = ({ label, value, colors })=>{
-    return (
-      <div style={{ display: 'flex', flexDirection: 'row' }}>
-        <div style={{ width: '40%', display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
-          <div style={{ width: '20px', height: '20px', color:colors.color, backgroundColor: colors.bg, 
-            borderRadius: '50%', textAlign: 'center', paddingTop:'1px' }}><b>{label}</b></div>
-        </div>
-        <div style={{ width: '60%', display: 'flex', alignItems: 'center' }}> : {value}</div>
-      </div>);
-   };
    const MasterEntrance = () =>{
     
+    const ScoreTemplate = ({ label, value, colors })=>{
+      return (
+        <div style={{ display: 'flex', flexDirection: 'row' }}>
+          <div style={{ width: '40%', display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
+            <div style={{ width: '20px', height: '20px', color:colors.color, backgroundColor: colors.bg, 
+              borderRadius: '50%', textAlign: 'center', paddingTop:'1px' }}><b>{label}</b></div>
+          </div>
+          <div style={{ width: '60%', display: 'flex', alignItems: 'center' }}> : {value}</div>
+        </div>);
+    };
+
     const ExamTemplate = ({ name, r, w, l, s, o}) =>{
       return (<div>
       <Row>

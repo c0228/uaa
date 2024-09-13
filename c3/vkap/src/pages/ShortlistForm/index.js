@@ -55,7 +55,7 @@ const ShortlistForm = ()=>{
                 postData.searchedBy = userAuthDetails?.data?.userId;
             setShowModalAlert({ show: true, 
               message: (<div>A PDF is generated and displayed in Next Tab and also an 
-              Email is sent to Student's Email Address <b>"{postData?.emailAddress}"</b>. Please check it. </div>) })
+              Email is sent to Student's Email Address <b>"{postData?.email}"</b>. Please check it. </div>) })
             console.log("postData: ", postData);
             const response = await UrlAsyncFetch( process.env.NEXUS_URL + 'student/add/records', 'POST', postData );
             console.log("logicResposne", response);

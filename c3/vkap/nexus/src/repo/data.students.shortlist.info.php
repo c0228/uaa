@@ -17,7 +17,7 @@ class StudentShortlistModule {
   "stud_sl_records.toefl_l, stud_sl_records.toefl_s, stud_sl_records.toefl_o, stud_sl_records.ielts_r, stud_sl_records.ielts_w, ".
   "stud_sl_records.ielts_l, stud_sl_records.ielts_s, stud_sl_records.ielts_o, stud_sl_records.pte_r, stud_sl_records.pte_w, ".
   "stud_sl_records.pte_l, stud_sl_records.pte_s, stud_sl_records.pte_o, stud_sl_records.duolingo, stud_sl_records.gre, ".
-  "user_accounts_info.name As searchedPersonName, user_accounts_info.email As searchedPersonEmail, ".
+  "stud_sl_records.createdOn, user_accounts_info.name As searchedPersonName, user_accounts_info.email As searchedPersonEmail, ".
   "user_accounts_info.userRole As searchePersonRole ".
   "FROM stud_sl_records, user_accounts_info WHERE stud_sl_records.searchedBy = user_accounts_info.userId";
   if(strlen($search)>0){
@@ -26,7 +26,7 @@ class StudentShortlistModule {
     "stud_sl_records.prefMasterCourse  LIKE '%".$search."%' OR user_accounts_info.name  LIKE '%".$search."%' OR ".
     "user_accounts_info.email  LIKE '%".$search."%' OR user_accounts_info.userRole LIKE '%".$search."%')";
   }
-  $sql.=" LIMIT ".$start.",".$end.";";
+  $sql.=" ORDER BY stud_sl_records.createdOn DESC LIMIT ".$start.",".$end.";";
   return $sql;
  }
  function query_count_studentDetails(){

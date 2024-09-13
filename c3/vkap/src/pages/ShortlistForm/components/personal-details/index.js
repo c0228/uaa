@@ -32,9 +32,10 @@ const PersonalDetails = () =>{
         <Col md={2}>
           <Select 
                 name="prefMasterCourse"
-                label="Preferred Master Details" 
+                label="Preferred Course Details" 
                 placeholder="Select Course"
-                options={[]}
+                options={[{ id: 'UG', label: 'UG', value: 'UG' },
+                        { id: 'PG', label: 'PG', value: 'PG' }]}
                 className="navbar-layout"
                 fontSize="12"
                 onChange={(event) => {
