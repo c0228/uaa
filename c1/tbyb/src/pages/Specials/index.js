@@ -115,8 +115,8 @@ const Specials = () =>{
         </div>) }]} 
  activeId="v3home" 
  colorConfig={{
-    active: { color: Colors.light, backgroundColor: '#000' },
-    default: { color: Colors.secondary, backgroundColor: '' }
+    active: { color: Colors.light, backgroundColor: '#bb0505' },
+    default: { color: '#000', backgroundColor: '' }
  }} /></div>
  </div>
 
@@ -128,7 +128,6 @@ const Specials = () =>{
 
    
     </div>
- <Contact />
  <Footer />
  </div>);
 };

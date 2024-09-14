@@ -64,7 +64,6 @@ const Events = () =>{
             </div>
     </ContainerFluid>
     </div>
- <Contact />
  <Footer />
  </div>);
 };

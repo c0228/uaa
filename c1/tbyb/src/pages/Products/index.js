@@ -1,12 +1,14 @@
 import React, { useState, useEffect } from "react";
 import Header from '@Templates/Header/index.js';
 import { HeaderMenu } from '@Config/HeaderMenu.js';
-import { ContainerFluid, Row, Col, Card, Switch, Button, Select, Icon, Menu } from "e-ui-react";
+import { ContainerFluid, Row, Col, Card, Pill, Colors, Button, Select, Icon, Menu } from "e-ui-react";
 import Contact from './../Home/Components/Contact/index.js';
 import Footer from '@Templates/Footer/index.js';
+import { BeerData, CocktailData, WineData, DraftData, SodaNJuiceData, SnacksData, ShotsData, CiderData, SpiritData } from './data.js';
 import './index.css';
 
 const Products = () =>{
+  {/*
  const MenuContainer = ({ title, data, bgColor}) =>{
   return (<div style={{ marginBottom:'25px' }}>
   <Card padding={15} backgroundColor={bgColor}>
@@ -37,6 +39,57 @@ const Products = () =>{
   </Card>
   </div>);
  };
+ */}
+ 
+ const AlcoholCard = ({ data }) =>{
+  const label = Object.keys(data);
+  return (<div style={{ }}>
+    {label?.map((label)=>{
+      return (<div>
+       <Row>
+      <Col md={12}>
+      <div  style={{ boxShadow:'2px 2px 2px 2px #aaa', fontFamily:'Metropolis', letterSpacing:'1px', color:'#fff', 
+      marginBottom:'20px', padding:'10px', textTransform:'uppercase', 
+        backgroundColor:'#555' }}>{label}</div>
+      </Col>
+    </Row>
+    <Row>
+    {data?.[label]?.map((dat,index)=>{
+      return (<Col key={index} md={4} xxl={4} xl={4}>
+        <div style={{ marginBottom:'25px' }}>
+        <Card padding={15} backgroundColor={(index%2===0)?"#ffecea":"#e8f5ff"} 
+        border="1px solid #af8009">
+    <div style={{ flexDirection:'row', display: 'flex', alignItems: 'center' }}>
+      <div style={{ width:'25%' }}>
+<div style={{ 
+  display: 'flex', 
+  justifyContent: 'center', 
+  alignItems: 'center', 
+  width: '60px', 
+  height: '60px', 
+  border: '2px solid '+((index%2===0)?"#af8009":"#af8009"), 
+  padding: '5px', 
+  borderRadius: '50%', 
+  marginRight: '10px'  // Adds spacing between the icon and the text
+}}>
+  <Icon type="FontAwesome" name={dat?.icon} color={(index%2===0)?"#af8009":"#af8009"} size={22} />
+</div>
+</div>
+<div style={{ width:'75%' }}>
+  <div><h4 style={{ textTransform: 'uppercase', fontSize: '22px', fontFamily: 'Antipasto', marginBottom: '3px' }}>{dat?.title}</h4></div>
+  <div style={{ fontSize:'16px', fontFamily:'Metropolis' }}>{dat?.desc}</div>
+</div>
+</div>
+    </Card>
+        </div>
+      </Col>);
+    })}
+  </Row> 
+        </div>);
+    })}
+  </div>);
+ };
+
  return (<>
  <div style={{ position:'absolute', top:'40px' }}>
     <img src={"./assets/images/logo.png"} style={{ padding:'5px', width:'100px', height:'auto' }} />
@@ -49,6 +102,35 @@ const Products = () =>{
     <div align="center" className="heading-title"><b>Beverages</b></div>
     </Col>
   </Row>
+  <Row>
+    <Col md={12}>
+    <div style={{ fontFamily:'Metropolis', fontSize:'16px', marginBottom:'25px' }}>
+    <Pill mode="vertical" 
+ layout={{
+    menu:{ xs:'2', sm:'2', md:'2', lg:'2', xl:'2', xxl:'2' },
+    content:{  xs:'10', sm:'10', md:'10', lg:'10', xl:'10', xxl:'10' }
+ }}
+ menulinks={[
+     { id:'Beers', url:'#', label:'BEERS', content:(<AlcoholCard data={BeerData} />) },
+     { id:'CockTails',url:'#', label:'COCKTAILS', content:(<AlcoholCard data={CocktailData} />) },
+     { id:'Wines',url:'#', label:'WINES', content:(<AlcoholCard data={WineData} />) },
+     { id:'Draft', url:'#', label:'DRAFT', content:(<AlcoholCard data={DraftData} />) },
+     { id:'SodaNJuice', url:'#', label:'SODA & JUICE', content:(<AlcoholCard data={SodaNJuiceData} />) },
+     { id:'Snacks', url:'#', label:'SNACKS', content:(<AlcoholCard data={SnacksData} />) },
+     { id:'Shots', url:'#', label:'SHOTS', content:(<AlcoholCard data={ShotsData} />) },
+     { id:'Spirits', url:'#', label:'SPIRITS', content:(<AlcoholCard data={SpiritData} />) },
+     { id:'Cider', url:'#', label:'CIDER', content:(<AlcoholCard data={CiderData} />) }
+    ]} 
+ activeId="Beers" 
+ colorConfig={{
+    active: { color: Colors.light, backgroundColor: '#976e06' },
+    default: { color: '#000', backgroundColor: '' }
+ }} />
+ </div>
+    </Col>
+    
+  </Row>
+  {/*
   <Row>
     <Col xxl={3} xl={3}>
       <MenuContainer bgColor="#f0f6ff" title="Beers" 
@@ -65,7 +147,6 @@ const Products = () =>{
         data={["BOTTLED WATER","COKE","COKE DIET","COKE ZERO","CRANBERRY",
           "GINGER ALE","GINGER BEER","GRAPE FRUIT","LEMONADE","ORANGE","PINEAPPLE","RED BULL","RED BULL SUGAR FREE",
           "SPRITE","TONIC"]} />
-      <MenuContainer  bgColor="#f0f6ff" title="Misc" data={["TBB STICKER","T SHIRT"]} />
     </Col>
     <Col xxl={3} xl={3}>
         <MenuContainer bgColor="#faffc4" title="CockTail" 
@@ -76,7 +157,8 @@ const Products = () =>{
             "MARGARITA","MARTINI GIN","MARTINI VODKA","MOJITO","MOSCOW MULE","OLD FASHIONED","ORANGE CRUSH","ROYAL FLUSH",
             "RUM PUNCH","RUM RUNNER","SALTY DOG","SCREWDRIVER","SEX ON THE BEACH","STRAWBERRY CHEESECAKE","TEQUILA MARGARITA",
             "TEQUILA SUNRISE","WASHINGTON APPLE", "WHISKEY SOUR", "BLUEBERRY LEMONADE", "FIZZZY BASIL LEMONADE"]} />
-        <MenuContainer bgColor="#f0f6ff" title="Shots" 
+        
+            <MenuContainer bgColor="#f0f6ff" title="Shots" 
           data={["CARAMEL CHEESE CAKE","CHOCOLATE CAKE","FROSTED ANIMAL CRACKER","GREEN TEA",
             "JAGER BOMB","JAILLO SHOTS","LEMON DROP","WHITE TEA","JAGER"
         ]} />
@@ -111,7 +193,7 @@ const Products = () =>{
         </Col>
        </Row>
     </Col>
-  </Row>
+  </Row>*/}
  </ContainerFluid>
  </div>
  {/*
@@ -256,7 +338,6 @@ const Products = () =>{
     <Images list={["roller_1.jpg","roller_2.jpg","roller_3.jpg","roller_4.jpg","roller_5.jpg","roller_6.jpg","roller_7.jpg","roller_8.jpg"]}/>
   </ContainerFluid>
  </div>*/}
- <Contact />
  <Footer />
  </>);
 };
