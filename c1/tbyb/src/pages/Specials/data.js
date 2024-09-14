@@ -3,50 +3,50 @@ export const data = {
       {
         "title": "Bud Light",
         "desc": "Brewed using a combination of barley, rice, water, hops, and yeast, Bud Light offers a mild flavor with a slight hop bitterness and a clean finish.",
-        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRfB8f0GSjE69kP1vEcqFiaYDejawNkwiMAOw&s",
+        "img": process.env.PROJECT_URL+"assets/nfl-specials/1.png",
         "alcoholPercentage": 4.2
       },
       {
         "title": "Budweiser",
         "desc": "Budweiser is a full-bodied beer with a distinctive flavor and a rich, malty sweetness. It has a balanced hop bitterness and a smooth finish.",
-        "img": "https://5.imimg.com/data5/YV/MG/AO/SELLER-46055130/budweiser-non-alcoholic-drinks-500x500.jpg",
+        "img":  process.env.PROJECT_URL+"assets/nfl-specials/2.png",
         "alcoholPercentage": 5.0
       },
       {
         "title": "Coors Lite",
         "desc": "Coors Lite is a light beer with a crisp and clean taste, featuring subtle malt sweetness and a refreshing finish. It's brewed with high-quality ingredients.",
-        "img": "https://i.ebayimg.com/images/g/wZAAAOSwhF5lZ682/s-l1200.jpg",
+        "img":  process.env.PROJECT_URL+"assets/nfl-specials/3.png",
         "alcoholPercentage": 4.2
       },
       {
         "title": "Miller Lite",
         "desc": "Miller Lite is a light beer with a clean, crisp taste and a hint of malt sweetness. It's known for its smooth finish and easy drinkability.",
-        "img": "https://www.colonialspirits.com/wp-content/uploads/2016/01/Miller-Lite-Single-Can.jpg",
+        "img":  process.env.PROJECT_URL+"assets/nfl-specials/4.png",
         "alcoholPercentage": 4.2
       },
       {
         "title": "Natural Lite",
         "desc": "Natural Lite is a light lager with a mild flavor and a clean, refreshing finish. It has a smooth taste and is easy to drink. Perfect for casual gatherings.",
-        "img": "https://frostysbottleshop.com/wp-content/uploads/sites/15/2021/03/9147.jpeg",
+        "img":  process.env.PROJECT_URL+"assets/nfl-specials/5.png",
         "alcoholPercentage": 4.2
       },
       {
         "title": "PBR",
         "desc": "PBR (Pabst Blue Ribbon) is a classic American lager with a smooth, easy-drinking profile. It has a slightly malty taste with a clean finish.",
-        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSSQwY4NY55kZ28LqrjZRLg0w3gkaikohgRsQ&s",
+        "img":  process.env.PROJECT_URL+"assets/nfl-specials/6.png",
         "alcoholPercentage": 4.7
       }],
     "Bucket Beers - Imports":[
       {
         "title": "Heineken",
         "desc": "Heineken is a pale lager with a distinctively crisp and refreshing taste. It features a delicate balance of bitterness and a subtle fruity aroma, making it a popular choice worldwide.",
-        "img": "https://thebrandhopper.com/wp-content/uploads/2023/06/heineken-title.jpg",
+        "img":  process.env.PROJECT_URL+"assets/nfl-specials/7.png",
         "alcoholPercentage": 5.0
       },
       {
         "title": "Corona",
         "desc": "Corona is a light and crisp lager with a clean, refreshing taste. It has a subtle malt sweetness and is often enjoyed with a lime wedge for an extra zesty kick.",
-        "img": "https://www.melandrose.com/prodimages/1371-DEFAULT-l.jpg",
+        "img":  process.env.PROJECT_URL+"assets/nfl-specials/8.png",
         "alcoholPercentage": 4.6
       }
     ],
@@ -86,7 +86,7 @@ export const data = {
     {
       "title": "Gin Huddle",
       "desc": "The Gin Huddle is a sharp and invigorating shot featuring a blend of gin and a splash of citrus. It delivers a refreshing burst of flavor.",
-      "img": "https://cocktailsandshots.com/wp-content/uploads/2018/06/Touchdown-cocktail-recipe-vodka-apricot-liqueur-passion-fruit-juice-lemon-juice.jpg",
+      "img": "https://rukminim2.flixcart.com/image/850/1000/kybvo280/glass/q/x/x/designer-glass-vodka-tequila-shot-glass-set-35-ml-for-club-pub-original-imagah2byjdmxuem.jpeg?q=90&crop=false",
       "alcoholPercentage": 20.0
     },
     {
@@ -98,7 +98,7 @@ export const data = {
     {
       "title": "Run Rush",
       "desc": "Run Rush is an exhilarating shot combining vodka with a hint of fruity liqueur. It’s designed to give a burst of energy and a smooth experience.",
-      "img": "https://rukminim2.flixcart.com/image/850/1000/kybvo280/glass/q/x/x/designer-glass-vodka-tequila-shot-glass-set-35-ml-for-club-pub-original-imagah2byjdmxuem.jpeg?q=90&crop=false",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSw65Qg3R1MRliUWDOZPRoGBi4qF7EVIMwQkg&s",
       "alcoholPercentage": 21.0
     },
     {

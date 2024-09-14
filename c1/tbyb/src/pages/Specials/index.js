@@ -29,9 +29,9 @@ const Specials = () =>{
               <Col sm={12} md={12}>
               <div align="center" style={{ display:'flex', flexDirection:'row', marginBottom:'15px' }}>
                   <div align="center" style={{ width:'50%' }}>
-                  <img src={dat?.img} style={{ width:'110px', height:'110px', borderRadius:'50%' }} />
+                  <img src={dat?.img} style={{ width:'110px', height:'auto', borderRadius:'12px' }} />
                   </div>
-                  <div align="center" style={{ width:'50%'  }}>
+                  <div align="center" style={{ width:'50%' }}>
                       <div style={{ fontSize:'12px', color:'#555', paddingBottom:'10px' }}><b>Alcohol Percentage</b></div>
                       <ProgressCircle percentage={dat?.alcoholPercentage} />
                   </div>   
@@ -46,10 +46,33 @@ const Specials = () =>{
             </Card>
             </div>
             </Col>);
-    })}
-        
+    })}    
   </Row>);
  };
+ const ListItem2 = ({ data }) =>{
+    return (<Row>
+      {data?.map((dat,index)=>{
+          return (<Col key={index} md={4}>
+              <div style={{ marginBottom:'15px' }}>
+              <Card padding={15} backgroundColor={(index%2===0)?"#ffecea":"#e8f5ff"} style={{ boxShadow:'1px 1px 1px 1px #ccc' }}>
+              <Row>
+                <Col sm={12} md={12}>
+                <div align="center" style={{ marginBottom:'15px' }}>
+                    <img src={dat?.img} style={{ width:'110px', height:'110px', borderRadius:'50%' }} />
+                </div>
+                </Col>
+             </Row>
+             <Row>
+                <Col md={12}><div align="center"><h5 style={{ textTransform:'uppercase' }}><b>{dat?.title}</b></h5></div>
+                <div style={{ fontSize:'16px', color:'#555' }}>{dat?.desc}</div>
+                </Col>
+              </Row>
+              </Card>
+              </div>
+              </Col>);
+      })}    
+    </Row>);
+   };
  return (<div>
     <div>
     <div style={{ position:'absolute', top:'40px' }}>
@@ -85,10 +108,10 @@ const Specials = () =>{
      <ListItem data={data?.["Bucket Beers - Imports"]} />
      </div>) },
      { id:'v3menu1', url:'#NFLSpecials', label:'COCKTAILS', content:(<div className="mtop15p">
-        <ListItem data={data?.["CockTails"]} />
+        <ListItem2 data={data?.["CockTails"]} />
         </div>) },
      { id:'v3menu2', url:'#NFLSpecials', label:'TOUCH DOWN SHOTS', content:(<div className="mtop15p">
-        <ListItem data={data?.["Touch Down Shots"]} />
+        <ListItem2 data={data?.["Touch Down Shots"]} />
         </div>) }]} 
  activeId="v3home" 
  colorConfig={{
