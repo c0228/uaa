@@ -3,51 +3,51 @@ export const data = {
       {
         "title": "Bud Light",
         "desc": "Brewed using a combination of barley, rice, water, hops, and yeast, Bud Light offers a mild flavor with a slight hop bitterness and a clean finish.",
-        "img": process.env.PROJECT_URL+"assets/nfl-specials/1.png",
+        "img": process.env.PROJECT_URL+"assets/nfl-specials/bud-light.png",
         "alcoholPercentage": 4.2
       },
       {
         "title": "Budweiser",
         "desc": "Budweiser is a full-bodied beer with a distinctive flavor and a rich, malty sweetness. It has a balanced hop bitterness and a smooth finish.",
-        "img":  process.env.PROJECT_URL+"assets/nfl-specials/2.png",
+        "img":  process.env.PROJECT_URL+"assets/nfl-specials/budweiser.png",
         "alcoholPercentage": 5.0
       },
       {
         "title": "Coors Lite",
         "desc": "Coors Lite is a light beer with a crisp and clean taste, featuring subtle malt sweetness and a refreshing finish. It's brewed with high-quality ingredients.",
-        "img":  process.env.PROJECT_URL+"assets/nfl-specials/3.png",
+        "img":  process.env.PROJECT_URL+"assets/nfl-specials/coors-light.png",
         "alcoholPercentage": 4.2
       },
       {
         "title": "Miller Lite",
         "desc": "Miller Lite is a light beer with a clean, crisp taste and a hint of malt sweetness. It's known for its smooth finish and easy drinkability.",
-        "img":  process.env.PROJECT_URL+"assets/nfl-specials/4.png",
+        "img":  process.env.PROJECT_URL+"assets/nfl-specials/miller-lite.png",
         "alcoholPercentage": 4.2
       },
       {
         "title": "Natural Lite",
         "desc": "Natural Lite is a light lager with a mild flavor and a clean, refreshing finish. It has a smooth taste and is easy to drink. Perfect for casual gatherings.",
-        "img":  process.env.PROJECT_URL+"assets/nfl-specials/5.png",
+        "img":  process.env.PROJECT_URL+"assets/nfl-specials/natural-light.png",
         "alcoholPercentage": 4.2
       },
       {
         "title": "PBR",
         "desc": "PBR (Pabst Blue Ribbon) is a classic American lager with a smooth, easy-drinking profile. It has a slightly malty taste with a clean finish.",
-        "img":  process.env.PROJECT_URL+"assets/nfl-specials/6.png",
+        "img":  process.env.PROJECT_URL+"assets/nfl-specials/pbr.png",
         "alcoholPercentage": 4.7
       }],
     "Bucket Beers - Imports":[
       {
-        "title": "Heineken",
-        "desc": "Heineken is a pale lager with a distinctively crisp and refreshing taste. It features a delicate balance of bitterness and a subtle fruity aroma, making it a popular choice worldwide.",
-        "img":  process.env.PROJECT_URL+"assets/nfl-specials/7.png",
-        "alcoholPercentage": 5.0
-      },
-      {
         "title": "Corona",
         "desc": "Corona is a light and crisp lager with a clean, refreshing taste. It has a subtle malt sweetness and is often enjoyed with a lime wedge for an extra zesty kick.",
-        "img":  process.env.PROJECT_URL+"assets/nfl-specials/8.png",
+        "img":  process.env.PROJECT_URL+"assets/nfl-specials/corona-extra.png",
         "alcoholPercentage": 4.6
+      },
+      {
+        "title": "Heineken",
+        "desc": "Heineken is a pale lager with a distinctively crisp and refreshing taste. It features a delicate balance of bitterness and a subtle fruity aroma, making it a popular choice worldwide.",
+        "img":  process.env.PROJECT_URL+"assets/nfl-specials/heineken.png",
+        "alcoholPercentage": 5.0
       }
     ],
     "CockTails": [
