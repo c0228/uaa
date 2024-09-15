@@ -59,6 +59,7 @@ const ShortlistForm = ()=>{
             console.log("postData: ", postData);
             const response = await UrlAsyncFetch( process.env.NEXUS_URL + 'student/add/records', 'POST', postData );
             console.log("logicResposne", response);
+            triggerReset();
             window.open(process.env.NEXUS_URL+'student/shortlist?data='+btoa(JSON.stringify(postData)),'_blank');
           }
         }}

@@ -4,6 +4,7 @@ header('Content-Type: application/json; charset=utf-8');
 //
 require_once './../core/app.database.php';
 require_once './../core/app.initiator.php';
+require_once './../repo/data.university.account.php';
 
 function BrandTitle() {
  $content = '<div style="float:left;border-bottom:1px solid #ccc;">
@@ -88,13 +89,17 @@ $pteScore = htmlspecialchars($jsonObject['pte_o']);
 $duolingoScore = htmlspecialchars($jsonObject['duolingo']); 
 $greScore = htmlspecialchars($jsonObject['gre']); 
 
+$scoreQuery = $universityAccountModule->query_view_universityListByScore($toeflScore, $toefl_r, $toefl_l, $toefl_w, $toefl_s, 
+    $pteScore, $pte_r, $pte_l, $pte_w, $pte_s, $ieltScore, $ielts_r, $ielts_l, $ielts_w, $ielts_s, $duolingoScore, $greScore, $degree);
 
+$data = json_decode( $database->getJSONData($scoreQuery) );
 // Define your HTML content
 $htmlContent = '
 <style>
 @page { margin: 25px; }
 </style>'.BrandTitle().
   '<div style="">
+  <div align="center" style="margin-top:15px;font-size:16px;"><b>STUDENT DETAILS</b></div>
   <div style="width: 100%;margin-top:15px;float:left;">
     <!-- Row #1 -->
     <div style="width:100%;background-color:#ddefff;float:left;">'.
@@ -122,6 +127,7 @@ $htmlContent = '
     '</div>
     
     <!-- Table -->
+    <div align="center" style="margin-top:15px;font-size:18px;"><b>UNIVERSITIES SHORTLIST</b></div>
     <div style="margin-top:15px;width:100%;background-color:#eee;float:left;">'.
     TblHeaderCell('5%', 'S.NO').
     TblHeaderCell('20%', 'University Name').
@@ -132,20 +138,22 @@ $htmlContent = '
     TblHeaderCell('10%', 'Intake').
     TblHeaderCell('8.5%', 'Link').
     '</div>';
-for($i=0;$i<10;$i++){
-$htmlContent.='<div style="width:100%;background-color:#fff;float:left;">'.
-    TblBodyCell('5%', ($i+1).'.').
-    TblBodyCell('20%', 'University Name<br/>University Name<br/>University Name').
-    TblBodyCell('14%', 'Campus').
-    TblBodyCell('25%', 'Course').
-    TblBodyCell('8%', 'Duration').
-    TblBodyCell('8%', 'Fees').
-    TblBodyCell('10%', 'Intake').
-    TblBodyCell('8.5%', '<a href="https://www.google.co.in/">Link</a>').
-    '</div>';
-}
+  if(count($data)>0){
+    for($i=0;$i<count($data);$i++){
+      $htmlContent.='<div style="width:100%;background-color:#fff;float:left;">'.
+          TblBodyCell('5%', ($i+1).'.').
+          TblBodyCell('20%', $data[$i]->{"university"}).
+          TblBodyCell('14%', $data[$i]->{"location"}.",".$data[$i]->{"country"}).
+          TblBodyCell('25%',  $data[$i]->{"course"}).
+          TblBodyCell('8%',  $data[$i]->{"duration"}).
+          TblBodyCell('8%', $data[$i]->{"fees"}).
+          TblBodyCell('10%', 'Intake').
+          TblBodyCell('8.5%', '<a href="'.$data[$i]->{"courseURL"}.'">Link</a>').
+          '</div>';
+      }
+  }
    
-$htmlContent.='</div></div>';
+$htmlContent.= '</div></div>';
 
 $mpdf->SetWatermarkText('V K ABROAD CONSULTANCY');
 $mpdf->showWatermarkText = true;
@@ -153,24 +161,96 @@ $mpdf->watermarkTextAlpha = 0.1; // Set watermark transparency
 
 // Write the HTML content to the PDF
 $mpdf->WriteHTML($htmlContent);
-/*
-$watermarkText = 'VK ABROAD CONSULTANCY';
-// Add a lighter diagonal watermark manually
-$mpdf->SetFont('Arial', 'B', 67); // Font size 50
 
-// Set a light gray color for the watermark
-$mpdf->SetTextColor(200, 200, 200); // Light gray color
+// Define the directory path for the output PDF file
+$pdfDirectory = __DIR__ . '/../../data/quotations/';
+$pdfFileName =  date('YmdHis').'-'.$studentFullName.'.pdf';
+$pdfFilePath = $pdfDirectory.$pdfFileName;
 
-// Add transparency (alpha value ranges from 0 (fully transparent) to 1 (fully opaque))
-$mpdf->SetAlpha(0.2); // 20% opacity
+// Create the directory if it does not exist
+if (!is_dir($pdfDirectory)) {
+    mkdir($pdfDirectory, 0777, true); // Recursive directory creation
+}
 
-$mpdf->StartTransform();
-$mpdf->Rotate(30, 100, 0); // Rotate the watermark 45 degrees (adjust pivot point as needed)
-$mpdf->Text(-70, 120, $watermarkText, 'C'); // Center the text (adjust position as needed)
-$mpdf->StopTransform();
-*/
+// Save the PDF to the local file system
+$mpdf->Output($pdfFilePath, 'F');
+$mpdf->Output($pdfFilePath, \Mpdf\Output\Destination::INLINE); // Display in the browser
+// F - To save the File into Directory
+// I - Inline View in the browser
 
-// Output the generated PDF to the browser
-$mpdf->Output('document.pdf', \Mpdf\Output\Destination::INLINE); // Display in the browser
-// You can also use \Mpdf\Output\Destination::DOWNLOAD to force download
+use PHPMailer\PHPMailer\PHPMailer;
+use PHPMailer\PHPMailer\Exception;
+// Mail it as Attachment
+// Create a new PHPMailer instance
+$mail = new PHPMailer(true);
+
+//Recipients
+$mail->setFrom('nellutlalnrao@gmail.com', 'VK Abroad Consultancy');
+$mail->addCC('kishorenellutla524@gmail.com', 'Kishore Nellutla'); // Add a recipient
+$mail->addCC('nellutlalnrao@gmail.com', 'Nellutla L N Rao'); // Add a recipient
+$mail->addAddress($emailAddress, $studentFullName);
+
+try {
+ $mail->addAttachment($pdfFilePath);
+
+ // Content
+ $mail->isHTML(true);
+ $mail->Subject = $studentFullName.' - [VK Abroad Consultancy] University Shortlist';
+ $mail->Body    = '
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Acknowledgement: Request for Quotation</title>
+     <style>
+         body {
+             font-family: Arial, sans-serif;
+             font-size: 14px;
+             line-height: 1.6;
+             color: #333;
+         }
+         h1 {
+             color: #333;
+         }
+         p {
+             color: #666;
+         }
+     </style>
+ </head>
+ <body>
+    <div align="center" style="margin-bottom:15px;">
+      <img src="http://vkabroadconsultancy.com/assets/img/logo.png" style="width:180px;height:auto;"/>
+    </div>
+    <h4>Dear '.$studentFullName.',</h4>
+     
+     <div>I hope this email finds you well! We&#39;re thrilled to share your shortlisted study abroad options based on
+your interests and preferences.</div><br/><br/>
+
+    <div><b>Next Steps:</b></div>
+    <div>
+      <ol>
+        <li>Review the shortlisted options carefully.</li>
+        <li>Let us know your preferred university and program.</li>
+        <li>We&#39;ll guide you through the application process.</li>
+      </ol>
+    </div><br/><br/>
+
+    <div>Please reply to this email or schedule a call with us to discuss further.</div><br/><br/>
+
+    <div style="margin-bottom:5px;">Thanks and Regards,</div>
+    <div><b>Kishore Nellutla</b></div>
+    <div><i>Managing Director</i></div>
+    <div><b>Mobile:</b> +91-9948390094</div>
+ </body>
+ </html>';
+
+ // Send the email
+ $mail->send();
+ echo 'Email sent successfully';
+} catch (Exception $e) {
+    print_r($e);
+   // echo "Email could not be sent. Mailer Error: {$mail->ErrorInfo}";
+}
+
 ?>

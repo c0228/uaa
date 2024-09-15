@@ -8,11 +8,21 @@ export const HeaderMenu = ()=>{
         userAuthDetails = JSON.parse(userAuthDetails);
   let userRole = userAuthDetails?.data?.userRole;
   if(userRole === 'ADMINISTRATOR'){
-    return ([{ id:'ManageEmployees', url: url+'consultancy/employees', label:'Manage Employees' },
+    return ([{ id:'Universities', url:url+'consultancy/view-universities', label:'Universities' },
+        { id:'ManageEmployees', url: url+'consultancy/employees', label:'Manage Employees' },
         { id:'ShortlistForm', url:url+'consultancy/students-shortlist-form', label:'Student\'s Shortlist Form' },
         { id:'ShortlistRecords', url:url+'consultancy/students-shortlist-records', label:'Student\'s Shortlist Records' },
         { id:'UploadData', url:url+'consultancy/upload-data', label:'Upload Data' }]);
+  } else if(userRole === 'EMPLOYEE') {
+    return ([{ id:'Universities', url:url+'consultancy/view-universities', label:'Universities' },
+      { id:'ShortlistForm', url:url+'consultancy/students-shortlist-form', label:'Student\'s Shortlist Form' },
+      { id:'ShortlistRecords', url:url+'consultancy/students-shortlist-records', label:'Student\'s Shortlist Records' },
+    ]);
   } else {
-    return ([{ id:'ShortlistForm', url:url+'consultancy/students-shortlist-form', label:'Student\'s Shortlist Form' }]);
+    return ([{ id:'Universities', url:url+'consultancy/view-universities', label:'Universities' },
+      { id:'ShortlistForm', url:url+'consultancy/students-shortlist-form', label:'Student\'s Shortlist Form' },
+      
+    ]);
   }
+    
 }; 

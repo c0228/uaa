@@ -4,6 +4,7 @@ import { AuthProvider } from "@Provider/AuthProvider.js";
 import PERMISSIONS from "@Permissions/index.js";
 import { Authenticated, Authorization } from "./Security.js";
 import Welcome from "@Pages/Welcome/index.js";
+import Universities from "@Pages/Universities/index.js";
 import ShortlistForm from "@Pages/ShortlistForm/index.js";
 import ShortlistRecords from "@Pages/ShortlistRecords/index.js";
 import Authentication from "@Pages/Authentication/index.js";
@@ -18,13 +19,16 @@ export const AppRouting = ()=>{
       <Routes>
          <Route exact path="/" element={isAuthenticated?(<Navigate to="/consultancy/students-shortlist-form" />):(<Authentication />)} />
          <Route path='/consultancy' element={<Authorization permissions={[PERMISSIONS.CUSTOMER, PERMISSIONS.EMPLOYEE, PERMISSIONS.ADMINISTRATOR]} />}>
+            <Route path='view-universities' element={<Universities />} />
             <Route path='students-shortlist-form' element={<ShortlistForm />} />
             <Route path='my-profile' element={<MyProfile />} />
+          </Route>
+          <Route path='/consultancy' element={<Authorization permissions={[PERMISSIONS.EMPLOYEE, PERMISSIONS.ADMINISTRATOR]} />}>
+            <Route path='students-shortlist-records' element={<ShortlistRecords />} />
           </Route>
           <Route path='/consultancy' element={<Authorization permissions={[PERMISSIONS.ADMINISTRATOR]} />}>
             <Route path='employees' element={<ManageEmployees />} />
             <Route path='upload-data' element={<UploadData />} />
-            <Route path='students-shortlist-records' element={<ShortlistRecords />} />
           </Route>
        </Routes>
       </AuthProvider>
