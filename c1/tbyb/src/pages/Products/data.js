@@ -28,7 +28,7 @@ export const BeerData = {
     {
       "icon": "fa-beer fa-flip-horizontal",
       "title": "Dos Equis Lager",
-      "desc": "Dos Equis Lager is a crisp, golden pilsner-style beer with a subtle blend of flavors."
+      "desc": "Dos Equis Lager is a crisp, refreshing golden pilsner-style beer with a subtle blend of flavors."
     },
     {
       "icon": "fa-beer fa-flip-horizontal",
@@ -73,7 +73,7 @@ export const BeerData = {
     {
       "icon": "fa-beer fa-flip-horizontal",
       "title": "Natural Light",
-      "desc": "Natural Light is a light, easy-drinking lager known for its affordability and refreshing taste."
+      "desc": "Natural Light is a light, easy-drinking lager known for its affordability and tasty."
     },
     {
       "icon": "fa-beer fa-flip-horizontal",
@@ -169,7 +169,7 @@ export const CocktailData = {
     {
       "icon": "fa-glass",
       "title": "Blue Motorcycle",
-      "desc": "A vibrant blue cocktail made with multiple liquors, including blue curaçao and citrus flavors."
+      "desc": "A vibrant blue cocktail made with multiple liquors, including blue curaçao & citrus flavors."
     },
     {
       "icon": "fa-glass",
@@ -189,12 +189,12 @@ export const CocktailData = {
     {
       "icon": "fa-coffee",
       "title": "Espresso Martini",
-      "desc": "A rich cocktail combining vodka, coffee liqueur, and a shot of espresso for an energetic kick."
+      "desc": "A rich cocktail combining vodka, coffee liqueur, and a shot of an energetic kick."
     },
     {
       "icon": "fa-glass",
       "title": "Gin Rickey",
-      "desc": "A refreshing gin-based cocktail with lime juice and soda water."
+      "desc": "A refreshing, zesty gin-based cocktail with lime juice and sparkling soda water."
     },
     {
       "icon": "fa-glass",
@@ -244,7 +244,7 @@ export const CocktailData = {
     {
       "icon": "fa-glass",
       "title": "Margarita",
-      "desc": "A popular Mexican cocktail made with tequila, lime juice, and triple sec, often served with salt on the rim."
+      "desc": "A popular Mexican cocktail made with tequila, lime juice, and triple sec."
     },
     {
       "icon": "fa-glass",
@@ -274,7 +274,7 @@ export const CocktailData = {
     {
       "icon": "fa-glass",
       "title": "Orange Crush",
-      "desc": "A refreshing citrus cocktail made with vodka, triple sec, and freshly squeezed orange juice."
+      "desc": "A refreshing citrus cocktail made with vodka, triple sec, and freshly squeezed juice."
     },
     {
       "icon": "fa-glass",
@@ -294,7 +294,7 @@ export const CocktailData = {
     {
       "icon": "fa-glass",
       "title": "Salty Dog",
-      "desc": "A refreshing cocktail made with gin or vodka and grapefruit juice, served with a salted rim."
+      "desc": "A refreshing cocktail made with gin or vodka and grapefruit juice."
     },
     {
       "icon": "fa-glass",
@@ -309,7 +309,7 @@ export const CocktailData = {
     {
       "icon": "fa-glass",
       "title": "Strawberry Cheesecake",
-      "desc": "A sweet cocktail with a creamy base, featuring strawberry liqueur and a hint of graham cracker flavor."
+      "desc": "A sweet cocktail featuring strawberry liqueur flavor."
     },
     {
       "icon": "fa-glass",
@@ -334,7 +334,7 @@ export const CocktailData = {
     {
       "icon": "fa-glass",
       "title": "Blueberry Lemonade",
-      "desc": "A refreshing cocktail made with fresh blueberries, lemonade, and a splash of vodka."
+      "desc": "A refreshing cocktail made with fresh blueberries, lemonade, and a vodka."
     },
     {
       "icon": "fa-glass",
@@ -390,7 +390,7 @@ export const WineData = {
     {
       "icon": "fa-glass",
       "title": "Rose",
-      "desc": "A pink-hued wine with a refreshing blend of red and white wine flavors, often fruity and floral."
+      "desc": "A pink-hued wine with a refreshing blend of red and white wine flavors and floral."
     },
     {
       "icon": "fa-glass",
@@ -410,7 +410,7 @@ export const WineData = {
     {
       "icon": "fa-beer",
       "title": "Bud Light",
-      "desc": "A light American lager known for its refreshing taste and clean finish."
+      "desc": "A light, golden American lager known for its refreshing, crisp taste, mild aroma, and clean, smooth finish."
     },
     {
       "icon": "fa-beer",
@@ -430,12 +430,12 @@ export const WineData = {
     {
       "icon": "fa-beer",
       "title": "HW Margarita Sour",
-      "desc": "A sour beer with a refreshing margarita twist, offering a tangy and citrusy flavor profile."
+      "desc": "A sour beer with a refreshing margarita twist, offering a tangy and citrusy profile."
     },
     {
       "icon": "fa-beer",
       "title": "Landshark",
-      "desc": "A tropical island-style lager with a light and refreshing flavor, perfect for beachside sipping."
+      "desc": "A tropical island-style lager with a light and refreshing flavor, perfect for beachside."
     },
     {
       "icon": "fa-beer",
@@ -450,7 +450,7 @@ export const WineData = {
     {
       "icon": "fa-beer",
       "title": "NoDa Drop & Roll IPA",
-      "desc": "An award-winning West Coast-style IPA with notes of citrus and pine, backed by a crisp malt body."
+      "desc": "An award-winning West Coast-style IPA with notes of citrus and pine."
     },
     {
       "icon": "fa-beer",
@@ -470,7 +470,7 @@ export const WineData = {
     {
       "icon": "fa-beer",
       "title": "Sam Adams Oct",
-      "desc": "A classic Oktoberfest beer with a full-bodied malt character and a hint of caramel sweetness."
+      "desc": "A classic Oktoberfest beer with a full-bodied malt character."
     },
     {
       "icon": "fa-beer",
@@ -490,7 +490,7 @@ export const WineData = {
     {
       "icon": "fa-beer",
       "title": "Yuengling",
-      "desc": "An iconic American lager with a well-balanced taste of roasted caramel malt and a hint of hops."
+      "desc": "An iconic American lager with a well-balanced taste of roasted caramel malt."
     }
   ]
 };
@@ -614,7 +614,7 @@ export const WineData = {
     {
       "icon": "fa-glass",
       "title": "Frosted Animal Cracker",
-      "desc": "A fun and sweet shot with flavors inspired by frosted animal crackers."
+      "desc": "A shot with flavors inspired by animal crackers."
     },
     {
       "icon": "fa-glass",
@@ -668,7 +668,7 @@ export const WineData = {
       {
         "icon": "fa-glass",
         "title": "Aristocrat",
-        "desc": "A budget-friendly bourbon known for its smoothness and mild flavor, ideal for cocktails."
+        "desc": "A budget-friendly bourbon known for its smoothness and mild flavor, perfect for cocktails and mixers."
       },
       {
         "icon": "fa-glass",
@@ -762,7 +762,7 @@ export const WineData = {
       {
         "icon": "fa-glass",
         "title": "Aristocrat",
-        "desc": "A cost-effective gin with a clean, crisp flavor and subtle hints of juniper and botanicals."
+        "desc": "A cost-effective gin with a clean, crisp flavor and subtle hints of juniper and aromatic botanicals."
       },
       {
         "icon": "fa-glass",
@@ -789,7 +789,7 @@ export const WineData = {
       {
         "icon": "fa-glass",
         "title": "Arrow Raspberry",
-        "desc": "A fruity liqueur with a sweet raspberry flavor, great for adding a berry twist to cocktails."
+        "desc": "A fruity liqueur with a sweet raspberry flavor, great for adding a berry twist."
       },
       {
         "icon": "fa-glass",
@@ -804,12 +804,12 @@ export const WineData = {
       {
         "icon": "fa-glass",
         "title": "Butterscotch Schnapps",
-        "desc": "A sweet and smooth liqueur with a rich butterscotch flavor, ideal for desserts and cocktails."
+        "desc": "A sweet and smooth liqueur with a rich butterscotch flavor, ideal for desserts."
       },
       {
         "icon": "fa-glass",
         "title": "Chambord Royale",
-        "desc": "A raspberry liqueur with hints of vanilla and herbs, perfect for adding a touch of elegance to cocktails."
+        "desc": "A raspberry liqueur with hints of vanilla and herbs, perfect for adding a touch."
       },
       {
         "icon": "fa-glass",
@@ -819,12 +819,12 @@ export const WineData = {
       {
         "icon": "fa-glass",
         "title": "Frangelico",
-        "desc": "A hazelnut liqueur with a distinctive nutty flavor and subtle hints of vanilla and herbs."
+        "desc": "A hazelnut liqueur with a distinctive nutty flavor and subtle hints of vanilla."
       },
       {
         "icon": "fa-glass",
         "title": "Grand Marnier Cordon Rouge",
-        "desc": "A premium orange liqueur with a rich, complex flavor of orange and cognac, perfect for cocktails."
+        "desc": "A premium orange liqueur with a rich, complex flavor of orange and cognac."
       },
       {
         "icon": "fa-glass",
@@ -834,12 +834,12 @@ export const WineData = {
       {
         "icon": "fa-glass",
         "title": "Midori",
-        "desc": "A vibrant green melon liqueur with a sweet and fruity flavor, perfect for colorful cocktails."
+        "desc": "A beautiful vibrant green melon liqueur with a sweet and fruity flavor, perfect for colorful cocktails."
       },
       {
         "icon": "fa-glass",
         "title": "Mozart White Chocolate",
-        "desc": "A smooth and creamy liqueur with rich white chocolate flavor, ideal for adding sweetness to cocktails."
+        "desc": "A smooth and creamy liqueur with rich white chocolate flavor."
       },
       {
         "icon": "fa-glass",
@@ -892,37 +892,27 @@ export const WineData = {
       },
       {
         "icon": "fa-glass",
-        "title": "Glenfiddich 12Y",
+        "title": "Glenfiddich",
         "desc": "A classic single malt Scotch with a smooth, fruity flavor and notes of pear and oak."
       },
       {
         "icon": "fa-glass",
-        "title": "Glenfiddich 14Y",
-        "desc": "A rich single malt Scotch with complex flavors of vanilla, oak, and dried fruit."
-      },
-      {
-        "icon": "fa-glass",
-        "title": "Glenlivet 12Y",
+        "title": "Glenlivet",
         "desc": "A smooth and elegant single malt Scotch with hints of fruit and honey, ideal for sipping."
       },
       {
         "icon": "fa-glass",
-        "title": "Glenlivet 14Y",
-        "desc": "A sophisticated single malt Scotch with rich flavors of spices, fruit, and oak."
-      },
-      {
-        "icon": "fa-glass",
-        "title": "Laphroaig 10Y",
+        "title": "Laphroaig",
         "desc": "A peaty and smoky single malt Scotch with robust flavors and a long, warming finish."
       },
       {
         "icon": "fa-glass",
-        "title": "Macallan 12",
+        "title": "Macallan",
         "desc": "A rich and full-bodied single malt Scotch with notes of dried fruit, spices, and oak."
       },
       {
         "icon": "fa-glass",
-        "title": "Oban 14Y",
+        "title": "Oban",
         "desc": "A well-rounded single malt Scotch with flavors of fruit, sea salt, and a touch of smoke."
       }
     ],
@@ -965,7 +955,7 @@ export const WineData = {
       {
         "icon": "fa-glass",
         "title": "Patron XO Cafe",
-        "desc": "A coffee liqueur tequila with rich flavors of coffee and agave, perfect for cocktails and desserts."
+        "desc": "A coffee liqueur tequila with rich flavors of coffee and agave."
       }
     ],
     "Vodka": [
@@ -997,7 +987,7 @@ export const WineData = {
       {
         "icon": "fa-glass",
         "title": "Smirnoff Whip",
-        "desc": "A flavored vodka with a smooth, creamy taste of vanilla and whipped cream, perfect for cocktails."
+        "desc": "A flavored vodka with a smooth, creamy taste of vanilla and whipped cream."
       },
       {
         "icon": "fa-glass",

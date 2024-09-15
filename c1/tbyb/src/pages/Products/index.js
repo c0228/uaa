@@ -44,8 +44,8 @@ const Products = () =>{
  const AlcoholCard = ({ data }) =>{
   const label = Object.keys(data);
   return (<div style={{ }}>
-    {label?.map((label)=>{
-      return (<div>
+    {label?.map((label,i)=>{
+      return (<div key={i}>
        <Row>
       <Col md={12}>
       <div  style={{ boxShadow:'2px 2px 2px 2px #aaa', fontFamily:'Metropolis', letterSpacing:'1px', color:'#fff', 
@@ -55,10 +55,11 @@ const Products = () =>{
     </Row>
     <Row>
     {data?.[label]?.map((dat,index)=>{
+      const descLimiter = dat?.desc.trim()?.length > 115 ? dat?.desc?.substring(0, 115) + "..." : dat?.desc;
       return (<Col key={index} md={4} xxl={4} xl={4}>
         <div style={{ marginBottom:'25px' }}>
         <Card padding={15} backgroundColor={(index%2===0)?"#ffecea":"#e8f5ff"} 
-        border="1px solid #af8009">
+        border="1px solid #bb0505">
     <div style={{ flexDirection:'row', display: 'flex', alignItems: 'center' }}>
       <div style={{ width:'25%' }}>
 <div style={{ 
@@ -67,17 +68,17 @@ const Products = () =>{
   alignItems: 'center', 
   width: '60px', 
   height: '60px', 
-  border: '2px solid '+((index%2===0)?"#af8009":"#af8009"), 
+  border: '2px solid #bb0505', 
   padding: '5px', 
   borderRadius: '50%', 
   marginRight: '10px'  // Adds spacing between the icon and the text
 }}>
-  <Icon type="FontAwesome" name={dat?.icon} color={(index%2===0)?"#af8009":"#af8009"} size={22} />
+  <Icon type="FontAwesome" name={dat?.icon} color="#bb0505" size={22} />
 </div>
 </div>
 <div style={{ width:'75%' }}>
   <div><h4 style={{ textTransform: 'uppercase', fontSize: '22px', fontFamily: 'Antipasto', marginBottom: '3px' }}>{dat?.title}</h4></div>
-  <div style={{ fontSize:'16px', fontFamily:'Metropolis' }}>{dat?.desc}</div>
+  <div style={{ fontSize:'16px', fontFamily:'Metropolis' }}>{descLimiter}</div>
 </div>
 </div>
     </Card>
@@ -107,8 +108,8 @@ const Products = () =>{
     <div style={{ fontFamily:'Metropolis', fontSize:'16px', marginBottom:'25px' }}>
     <Pill mode="vertical" 
  layout={{
-    menu:{ xs:'2', sm:'2', md:'2', lg:'2', xl:'2', xxl:'2' },
-    content:{  xs:'10', sm:'10', md:'10', lg:'10', xl:'10', xxl:'10' }
+    menu:{ xs:'12', sm:'4', md:'2', lg:'2', xl:'2', xxl:'2' },
+    content:{  xs:'12', sm:'8', md:'10', lg:'10', xl:'10', xxl:'10' }
  }}
  menulinks={[
      { id:'Beers', url:'#', label:'BEERS', content:(<AlcoholCard data={BeerData} />) },
@@ -123,7 +124,7 @@ const Products = () =>{
     ]} 
  activeId="Beers" 
  colorConfig={{
-    active: { color: Colors.light, backgroundColor: '#976e06' },
+    active: { color: Colors.light, backgroundColor: '#bb0505' },
     default: { color: '#000', backgroundColor: '' }
  }} />
  </div>

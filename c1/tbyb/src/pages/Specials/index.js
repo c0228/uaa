@@ -97,8 +97,8 @@ const Specials = () =>{
                 <div style={{ fontSize:'16px', marginTop:'25px' }}>
                 <Pill mode="vertical" 
  layout={{
-    menu:{ xs:'12', sm:'3', md:'3', lg:'3', xl:'3', xxl:'3' },
-    content:{  xs:'12', sm:'9', md:'9', lg:'9', xl:'9', xxl:'9' }
+    menu:{ xs:'12', sm:'4', md:'3', lg:'3', xl:'3', xxl:'3' },
+    content:{  xs:'12', sm:'8', md:'9', lg:'9', xl:'9', xxl:'9' }
  }}
  menulinks={[
      { id:'v3home', url:'#NFLSpecials', label:'BUCKET BEERS', content:(<div className="mtop15p">
