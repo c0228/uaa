@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { ContainerFluid, Row, Col, Select, TablePagination } from "e-ui-react";
+import { ContainerFluid, Row, Col, Select, TablePagination, UrlAsyncFetch } from "e-ui-react";
 import Header from '@Templates/Header/index.js';
 import Footer from '@Templates/Footer/index.js';
 import { HeaderMenu } from '@Routes/NavbarList.js';
@@ -7,10 +7,13 @@ import { HeaderMenu } from '@Routes/NavbarList.js';
 const Universities = () =>{
  const [listOfCountries, setListOfCountries] = useState([]);
  const [ selectCountry, setSelectCountry] = useState('');
+ const initialize = async() =>{
+   // Get Distinct Countries List from Universities Table
+   const response = await UrlAsyncFetch( process.env.NEXUS_URL + 'countries/list', 'GET', {} );
+   setListOfCountries( response );
+ };
  useEffect(()=>{
-    // Get Distinct Countries List from Universities Table
-    setListOfCountries([{ id: 'USA', label: 'USA', value: 'USA' },
-        { id: 'UK', label: 'UK', value: 'UK' }]);
+    initialize();
  },[]);
  const HeaderTitle = () =>{
    return (<div>
@@ -23,9 +26,7 @@ const Universities = () =>{
          className="navbar-layout"
          width="130"
          fontSize="12"
-         onChange={(event) => {
-            let option = event.target.value;
-         }}
+         onChange={(event)=>setSelectCountry(event.target.value)}
       />    
     </div> 
     </h4>

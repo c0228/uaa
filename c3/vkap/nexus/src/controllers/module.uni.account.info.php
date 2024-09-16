@@ -146,4 +146,16 @@ else if($_GET["action"]=='UNIVERSITY_UPLOAD_LOGS' && $_SERVER['REQUEST_METHOD']=
   $viewLogQuery = $excelLogModule->query_view_uploadLogs($fileName);
   echo $database->getJSONData($viewLogQuery);
 }
+else  if($_GET["action"]=='UNIVERSITY_COUNTRIES' && $_SERVER['REQUEST_METHOD']=='GET'){
+  $listCountriesQuery = $universityAccountModule->query_view_countries();
+  $listCountries = json_decode($database->getJSONData($listCountriesQuery));
+  // Initialize the output array
+  $output = [];
+  // Loop through each item in the input array
+  foreach ($listCountries as $item) {
+    $country = $item->{'country'};
+    $output[] = ['id' => $country, 'label' => $country, 'value' => $country];
+  }
+  echo json_encode($output);
+}
 

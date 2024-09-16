@@ -11,6 +11,9 @@ class UniversityAccountModule {
  function query_view_university($universityId){
   return "SELECT * FROM uni_account_info WHERE universityId='".$universityId."';";
  }
+ function query_view_countries(){
+  return "SELECT DISTINCT(country) FROM uni_account_info ORDER BY country ASC;";
+ }
  function query_view_universityListByScore($toefl_o, $toefl_r, $toefl_l, $toefl_w, $toefl_s, 
     $pte_o, $pte_r, $pte_l, $pte_w, $pte_s, $ielts_o, $ielts_r, $ielts_l, $ielts_w, $ielts_s, $duolingo, $gre, $gpa){
   return "SELECT uni_account_info.university, uni_account_info.location, uni_account_info.country, ".
