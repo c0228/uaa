@@ -43,6 +43,7 @@ function uploadUniversityData($fileName, $jsonData, $sheetName){
    $duolingo = $university->{"Duolingo"} ?? '0';
    $gre = $university->{"GRE"} ?? '0';
    $gpa = $university->{"GPA"} ?? '0';
+   $intake = $university->{"Intake"} ?? '';
   
    $logData = array();
    $logData["CURRENT_DATA"] =  $university;
@@ -56,12 +57,12 @@ function uploadUniversityData($fileName, $jsonData, $sheetName){
     $logData["PREVIOUS_DATA"] =  $universityData;
     $universityUpdateQuery = $universityAccountModule->query_update_university($universityId, $universityName, $location, 
               $country, $toefl_OS, $toefl_r, $toefl_l, $toefl_w, $toefl_s, $pte_OS, $pte_r, $pte_l, $pte_w, $pte_s, 
-              $ielts_OS, $ielts_r, $ielts_l, $ielts_w, $ielts_s, $duolingo, $gre, $gpa);
+              $ielts_OS, $ielts_r, $ielts_l, $ielts_w, $ielts_s, $duolingo, $gre, $gpa, $intake);
     $queryExecutionStatus = $database->addupdateData($universityUpdateQuery);
    } else { // NOT EXIST - ADD
     $universityInsertionQuery = $universityAccountModule->query_add_university($universityId, $universityName, $location, 
       $country, $toefl_OS, $toefl_r, $toefl_l, $toefl_w, $toefl_s, $pte_OS, $pte_r, $pte_l, $pte_w, $pte_s, $ielts_OS, 
-      $ielts_r, $ielts_l, $ielts_w, $ielts_s, $duolingo, $gre, $gpa);
+      $ielts_r, $ielts_l, $ielts_w, $ielts_s, $duolingo, $gre, $gpa, $intake);
     $queryExecutionStatus = $database->addupdateData($universityInsertionQuery);
    }
    $logQuery = $excelLogModule->query_add_uploadLogs($fileName, $sheetName, $operation, json_encode($logData), $queryExecutionStatus);

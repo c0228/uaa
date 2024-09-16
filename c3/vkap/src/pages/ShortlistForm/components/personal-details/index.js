@@ -1,7 +1,15 @@
-import React from "react";
-import { ContainerFluid, Row, Col, Card, TextBox, Select } from "e-ui-react";
+import React, { useState, useEffect } from "react";
+import { Breadcrumb, ContainerFluid, Row, Col, Card, TextBox, Select, UrlAsyncFetch, Colors } from "e-ui-react";
 
 const PersonalDetails = () =>{
+  const [listOfCountries, setListOfCountries] = useState([]);
+ const initialize = async() =>{ // Get Distinct Countries List from Universities Table
+    const response = await UrlAsyncFetch( process.env.NEXUS_URL + 'countries/list', 'GET', {} );
+    setListOfCountries( response );
+ };
+ useEffect(()=>{
+  initialize();
+ },[]);
  return (<div style={{ marginBottom:'15px' }}>
  <Card padding={15} backgroundColor="#f1f1f1">
   <ContainerFluid>
@@ -20,9 +28,7 @@ const PersonalDetails = () =>{
                 name="moveTo"
                 label="Moving to Country" 
                 placeholder="Select Country"
-                options={[{ id: 'USA', label: 'USA', value: 'USA' },
-                { id: 'UK', label: 'UK', value: 'UK' },
-                { id: 'Australia', label: 'Australia', value: 'Australia' }]}
+                options={listOfCountries}
                 className="navbar-layout"
                 fontSize="12"
                 onChange={(event) => {

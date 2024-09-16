@@ -28,7 +28,7 @@ const UploadData = () =>{
       <b>{title}</b>
     </div>);
  };
- const bulkUploadExecution = async() =>{
+ const bulkUploadExecution = async(files) =>{
   const response = await UrlAsyncFetch( process.env.NEXUS_URL + 'university/bulk/upload', 
     'POST', { targetDirectory:'/', fileName:files  } );
   console.log("response", response);
@@ -108,10 +108,12 @@ const UploadData = () =>{
                 </ul>
             </div>
             <div align="center">
+                <a href={process.env.NEXUS_URL+'assets/doc/universities_upload_sheets.xlsx'} download>
                 <Button type="success" size={11}>
                   <Icon type="FontAwesome" name="fa-cloud-download" size={13} />
                   <span style={{ marginLeft:'5px' }}>Download Excel Sheet</span>
                 </Button>
+                </a>
             </div>
           </div>
          </Card>

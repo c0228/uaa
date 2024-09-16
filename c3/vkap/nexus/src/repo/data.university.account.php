@@ -2,11 +2,11 @@
 class UniversityAccountModule {
  // University Account
  function query_add_university($universityId, $university, $location, $country, $toefl_o, $toefl_r, $toefl_l, $toefl_w, $toefl_s, 
-    $pte_o, $pte_r, $pte_l, $pte_w, $pte_s, $ielts_o, $ielts_r, $ielts_l, $ielts_w, $ielts_s, $duolingo, $gre, $gpa){
+    $pte_o, $pte_r, $pte_l, $pte_w, $pte_s, $ielts_o, $ielts_r, $ielts_l, $ielts_w, $ielts_s, $duolingo, $gre, $gpa, $intake){
   return "INSERT INTO uni_account_info(universityId, university, location, country, toefl_o, toefl_r, toefl_l, toefl_w, toefl_s, pte_o, pte_r, pte_l, pte_w, pte_s, ielts_o, ".
-    "ielts_r, ielts_l, ielts_w, ielts_s, duolingo, gre, gpa) VALUES ('".$universityId."','".$university."','".$location."','".$country."','".$toefl_o."','".$toefl_r."',".
+    "ielts_r, ielts_l, ielts_w, ielts_s, duolingo, gre, gpa, intake) VALUES ('".$universityId."','".$university."','".$location."','".$country."','".$toefl_o."','".$toefl_r."',".
     "'".$toefl_l."','".$toefl_w."','".$toefl_s."','".$pte_o."','".$pte_r."','".$pte_l."','".$pte_w."','".$pte_s."','".$ielts_o."','".$ielts_r."','".$ielts_l."','".$ielts_w.
-    "','".$ielts_s."','".$duolingo."','".$gre."','".$gpa."');";
+    "','".$ielts_s."','".$duolingo."','".$gre."','".$gpa."','".$intake."');";
  }
  function query_view_university($universityId){
   return "SELECT * FROM uni_account_info WHERE universityId='".$universityId."';";
@@ -17,8 +17,8 @@ class UniversityAccountModule {
  function query_view_universityListByScore($toefl_o, $toefl_r, $toefl_l, $toefl_w, $toefl_s, 
     $pte_o, $pte_r, $pte_l, $pte_w, $pte_s, $ielts_o, $ielts_r, $ielts_l, $ielts_w, $ielts_s, $duolingo, $gre, $gpa){
   return "SELECT uni_account_info.university, uni_account_info.location, uni_account_info.country, ".
-      " uni_courses_info.course, uni_courses_info.duration, uni_courses_info.fees, uni_courses_info.courseURL ".
-      "FROM uni_account_info, uni_courses_info WHERE uni_account_info.toefl_o<=".$toefl_o.
+      " uni_courses_info.course, uni_courses_info.duration, uni_courses_info.fees, uni_courses_info.intake, ".
+      "uni_courses_info.courseURL FROM uni_account_info, uni_courses_info WHERE uni_account_info.toefl_o<=".$toefl_o.
       " AND uni_account_info.toefl_r<=".$toefl_r." AND uni_account_info.toefl_l<=".$toefl_l." AND ".
       " uni_account_info.toefl_w<=".$toefl_w." AND uni_account_info.toefl_s<=".$toefl_s." AND uni_account_info.pte_o<=".
       $pte_o." AND uni_account_info.pte_r<=".$pte_r." AND uni_account_info.pte_l<=".$pte_l." AND ".
@@ -29,7 +29,7 @@ class UniversityAccountModule {
       " AND uni_account_info.universityId = uni_courses_info.universityId;";
  }
  function query_update_university($universityId, $university, $location, $country, $toefl_o, $toefl_r, $toefl_l, $toefl_w, $toefl_s, 
-    $pte_o, $pte_r, $pte_l, $pte_w, $pte_s, $ielts_o, $ielts_r, $ielts_l, $ielts_w, $ielts_s, $duolingo, $gre, $gpa){
+    $pte_o, $pte_r, $pte_l, $pte_w, $pte_s, $ielts_o, $ielts_r, $ielts_l, $ielts_w, $ielts_s, $duolingo, $gre, $gpa, $intake){
   $sql="UPDATE uni_account_info SET";
   if(strlen($university)>0){ $sql.=" university='".$university."',"; }
   if(strlen($location)>0){ $sql.=" location='".$location."',"; }
@@ -52,6 +52,7 @@ class UniversityAccountModule {
   if(strlen($duolingo)>0){ $sql.=" duolingo='".$duolingo."',"; }
   if(strlen($gre)>0){ $sql.=" gre='".$gre."',"; }
   if(strlen($gpa)>0){ $sql.=" gpa='".$gpa."',"; }
+  if(strlen($intake)>0){ $sql.=" intake='".$intake."',"; }
   $sql=chop($sql,",")." WHERE universityId='".$universityId."';";
   return $sql;
  }
