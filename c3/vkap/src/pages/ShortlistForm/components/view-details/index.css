@@ -1,8 +1,2 @@
 .shortlist-view-subTitle { margin-bottom:5px;font-size:14px; }
-.shortlist-view-box { padding:15px;background-color: #ffe7e6; }
-.shortlist-view-top-left { border-top-left-radius:8px;border-top:1px solid #000;border-left:1px solid #000; }
-.shortlist-view-top-right { border-top-right-radius:8px;border-top:1px solid #000;border-right:1px solid #000; }
-.shortlist-view-bottom-left { border-bottom-left-radius:8px;border-bottom:1px solid #000;border-left:1px solid #000; }
-.shortlist-view-bottom-right { border-bottom-right-radius:8px;border-bottom:1px solid #000;border-right:1px solid #000; }
-.shortlist-view-top { border-top:1px solid #000; }
-.shortlist-view-bottom { border-bottom:1px solid #000; }
+.shortlist-view-box { padding:15px;background-color: #ffe7e6;border-radius:8px;border:1px solid #000; }

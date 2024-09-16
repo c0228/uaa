@@ -17,7 +17,8 @@ class UniversityAccountModule {
  function query_view_universityListByScore($toefl_o, $toefl_r, $toefl_l, $toefl_w, $toefl_s, 
     $pte_o, $pte_r, $pte_l, $pte_w, $pte_s, $ielts_o, $ielts_r, $ielts_l, $ielts_w, $ielts_s, $duolingo, $gre, $gpa){
   return "SELECT uni_account_info.university, uni_account_info.location, uni_account_info.country, ".
-      " uni_courses_info.course, uni_courses_info.duration, uni_courses_info.fees, uni_courses_info.intake, ".
+      " uni_courses_info.course, uni_courses_info.duration, uni_courses_info.fees, uni_courses_info.appFees, ".
+      "uni_courses_info.leavingExpenses, uni_courses_info.initDeposit, uni_account_info.intake, uni_courses_info.deadline, ".
       "uni_courses_info.courseURL FROM uni_account_info, uni_courses_info WHERE uni_account_info.toefl_o<=".$toefl_o.
       " AND uni_account_info.toefl_r<=".$toefl_r." AND uni_account_info.toefl_l<=".$toefl_l." AND ".
       " uni_account_info.toefl_w<=".$toefl_w." AND uni_account_info.toefl_s<=".$toefl_s." AND uni_account_info.pte_o<=".
