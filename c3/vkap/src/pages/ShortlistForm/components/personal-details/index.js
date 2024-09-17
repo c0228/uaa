@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { Breadcrumb, ContainerFluid, Row, Col, Card, TextBox, Select, UrlAsyncFetch, Colors } from "e-ui-react";
+import { Breadcrumb, ContainerFluid, Row, Col, Card, TextBox, Email, Select, UrlAsyncFetch, Colors } from "e-ui-react";
 
 const PersonalDetails = () =>{
   const [listOfCountries, setListOfCountries] = useState([]);
@@ -15,13 +15,30 @@ const PersonalDetails = () =>{
   <ContainerFluid>
     <Row>
         <Col md={3}>
-          <TextBox name="fullName" label="Full Name" placeholder="Enter your Full Name" />
+          <TextBox name="fullName" label="Full Name" placeholder="Enter your Full Name" value="Nellutla L N Rao"
+            validation={{
+              required:{
+                value: true,
+                errorMessage:"This is a Mandatory Field"
+              }
+            }} />
         </Col>
         <Col md={3}>
-          <TextBox name="email" label="Email Address" placeholder="Enter your Email Address" />
+          <Email name="email" label="Email Address" placeholder="Enter your Email Address" value="nellutlalnrao@gmail.com"
+              validation={{
+                email:{
+                  formatCheck: true
+                }
+              }} />
         </Col>
         <Col md={2}>
-          <TextBox name="mobile" label="Mobile Number" placeholder="Enter your Mobile Number" />
+          <TextBox name="mobile" label="Mobile Number (Without +91)" placeholder="Enter your Mobile Number" value="6300193369"
+            validation={{
+              required:{
+                value: true,
+                errorMessage:"This is a Mandatory Field"
+              }
+            }} />
         </Col>
         <Col md={2}>
           <Select 
@@ -33,6 +50,13 @@ const PersonalDetails = () =>{
                 fontSize="12"
                 onChange={(event) => {
                     let option = event.target.value;
+                }}
+                value="USA"
+                validation={{
+                  required:{
+                    value: true,
+                    errorMessage:"This is a Mandatory Field"
+                  }
                 }} />
         </Col>
         <Col md={2}>
@@ -46,6 +70,13 @@ const PersonalDetails = () =>{
                 fontSize="12"
                 onChange={(event) => {
                     let option = event.target.value;
+                }}
+                value="UG"
+                validation={{
+                  required:{
+                    value: true,
+                    errorMessage:"This is a Mandatory Field"
+                  }
                 }} />
         </Col>
     </Row>

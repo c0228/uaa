@@ -7,13 +7,31 @@ const EduEmpDetails = () =>{
   <ContainerFluid>
     <Row>
         <Col md={2}>
-            <TextBox name="ssc" label="SSC (% Marks)" placeholder="00.00%" />
+            <TextBox name="ssc" label="SSC (% Marks)" placeholder="00.00%" value="71"
+                validation={{
+                    required:{
+                      value: true,
+                      errorMessage:"This is a Mandatory Field"
+                    }
+                }} />
         </Col>
         <Col md={2}>
-            <TextBox name="inter" label="Intermediate (% Marks)" placeholder="00.00%" />
+            <TextBox name="inter" label="Intermediate (% Marks)" placeholder="00.00%" value="71"
+                validation={{
+                    required:{
+                      value: true,
+                      errorMessage:"This is a Mandatory Field"
+                    }
+                }} />
         </Col>
         <Col md={2}>
-            <TextBox name="degree" label="B.Tech/Degree (% Marks)" placeholder="00.00%" />
+            <TextBox name="degree" label="B.Tech/Degree (% Marks)" placeholder="00.00%" value="71"
+                validation={{
+                    required:{
+                      value: true,
+                      errorMessage:"This is a Mandatory Field"
+                    }
+                }} />
         </Col>
         <Col md={2}>
             <Select 
@@ -22,10 +40,17 @@ const EduEmpDetails = () =>{
             placeholder="Do you have Experience?"
             options={[{ id: 'Yes', label: 'Yes', value: 'Yes' },
             { id: 'No', label: 'No', value: 'No' }]}
+            value="Yes"
             className="navbar-layout"
             fontSize="12"
             onChange={(event) => {
                 let option = event.target.value;
+            }} 
+            validation={{
+                required:{
+                  value: true,
+                  errorMessage:"This is a Mandatory Field"
+                }
             }} />
         </Col>
         <Col md={2}>
@@ -36,10 +61,17 @@ const EduEmpDetails = () =>{
             options={NumRange(1,10)?.map((r)=>{
                 return  { id: r, label: r, value: r };
             })}
+            value="3"
             className="navbar-layout"
             fontSize="12"
             onChange={(event) => {
                 let option = event.target.value;
+            }} 
+            validation={{
+                required:{
+                  value: true,
+                  errorMessage:"This is a Mandatory Field"
+                }
             }} />
         </Col>
         <Col md={2}>
@@ -51,7 +83,14 @@ const EduEmpDetails = () =>{
             { id: 'Non-IT', label: 'Non-IT', value: 'Non-IT' },
             { id: 'Other', label: 'Other', value: 'Other' }]}
             className="navbar-layout"
-            fontSize="12" />
+            fontSize="12" 
+            value="IT"
+            validation={{
+                required:{
+                  value: true,
+                  errorMessage:"This is a Mandatory Field"
+                }
+            }} />
         </Col>
     </Row>
   </ContainerFluid>

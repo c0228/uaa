@@ -133,7 +133,7 @@ const ShortlistRecords = () =>{
     <Row>
         <Col md={12}>
           <div style={{ marginBottom:'45px' }}>
-            <TablePagination columns={columns} pageSize={10} 
+            <TablePagination header={{ backgroundColor:'blue', color:'#fff', columns: columns }} pageSize={10} 
                 apiUrl="http://localhost/projects/uaa/c3/vkap/nexus/student/view/records" />
           </div>
         </Col>

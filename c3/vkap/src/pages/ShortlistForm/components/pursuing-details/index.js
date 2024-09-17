@@ -12,19 +12,49 @@ const PursuingDetails = () =>{
     <SubHeaderTitle title="TOEFL Examination Details" />
     <Row>
      <Col md={2}>
-      <TextBox name="toefl_r" label="Reading" placeholder="0" />
+      <TextBox name="toefl_r" label="Reading" placeholder="0" value="10"
+         validation={{
+            required:{
+              value: true,
+              errorMessage:"This is a Mandatory Field"
+            }
+          }} />
      </Col>
      <Col md={2}>
-      <TextBox name="toefl_w" label="Writing" placeholder="0" />
+      <TextBox name="toefl_w" label="Writing" placeholder="0" value="10"
+         validation={{
+            required:{
+              value: true,
+              errorMessage:"This is a Mandatory Field"
+            }
+          }} />
      </Col>
      <Col md={2}>
-      <TextBox name="toefl_l" label="Listening" placeholder="0" />
+      <TextBox name="toefl_l" label="Listening" placeholder="0" value="10"
+         validation={{
+            required:{
+              value: true,
+              errorMessage:"This is a Mandatory Field"
+            }
+          }} />
      </Col>
      <Col md={2}>
-      <TextBox name="toefl_s" label="Speaking" placeholder="0" />
+      <TextBox name="toefl_s" label="Speaking" placeholder="0" value="10"
+         validation={{
+            required:{
+              value: true,
+              errorMessage:"This is a Mandatory Field"
+            }
+          }} />
      </Col>
      <Col md={4}>
-      <TextBox name="toefl_o" label="Overall Score" placeholder="0" />
+      <TextBox name="toefl_o" label="Overall Score" placeholder="0" value="10"
+         validation={{
+            required:{
+              value: true,
+              errorMessage:"This is a Mandatory Field"
+            }
+          }} />
      </Col>
     </Row>
   </div>);
@@ -34,19 +64,49 @@ const PursuingDetails = () =>{
       <SubHeaderTitle title="IELTS Examination Details" />
       <Row>
        <Col md={2}>
-        <TextBox name="ielts_r" label="Reading" placeholder="0" />
+        <TextBox name="ielts_r" label="Reading" placeholder="0" value="10"
+         validation={{
+            required:{
+              value: true,
+              errorMessage:"This is a Mandatory Field"
+            }
+          }} />
        </Col>
        <Col md={2}>
-        <TextBox name="ielts_w" label="Writing" placeholder="0" />
+        <TextBox name="ielts_w" label="Writing" placeholder="0" value="10"
+            validation={{
+               required:{
+               value: true,
+               errorMessage:"This is a Mandatory Field"
+               }
+            }} />
        </Col>
        <Col md={2}>
-        <TextBox name="ielts_l" label="Listening" placeholder="0" />
+        <TextBox name="ielts_l" label="Listening" placeholder="0" value="10"
+            validation={{
+               required:{
+               value: true,
+               errorMessage:"This is a Mandatory Field"
+               }
+            }} />
        </Col>
        <Col md={2}>
-        <TextBox name="ielts_s" label="Speaking" placeholder="0" />
+        <TextBox name="ielts_s" label="Speaking" placeholder="0" value="10"
+            validation={{
+               required:{
+               value: true,
+               errorMessage:"This is a Mandatory Field"
+               }
+            }} />
        </Col>
        <Col md={4}>
-        <TextBox name="ielts_o" label="Overall Score" placeholder="0" />
+        <TextBox name="ielts_o" label="Overall Score" placeholder="0" value="10"
+            validation={{
+               required:{
+               value: true,
+               errorMessage:"This is a Mandatory Field"
+               }
+            }} />
        </Col>
       </Row>
     </div>);
@@ -56,19 +116,49 @@ const PursuingDetails = () =>{
       <SubHeaderTitle title="PTE Examination Details" />
       <Row>
        <Col md={2}>
-        <TextBox name="pte_r" label="Reading" placeholder="0" />
+        <TextBox name="pte_r" label="Reading" placeholder="0" value="10"
+            validation={{
+               required:{
+               value: true,
+               errorMessage:"This is a Mandatory Field"
+               }
+            }} />
        </Col>
        <Col md={2}>
-        <TextBox name="pte_w" label="Writing" placeholder="0" />
+        <TextBox name="pte_w" label="Writing" placeholder="0" value="10"
+            validation={{
+               required:{
+               value: true,
+               errorMessage:"This is a Mandatory Field"
+               }
+            }} />
        </Col>
        <Col md={2}>
-        <TextBox name="pte_l" label="Listening" placeholder="0" />
+        <TextBox name="pte_l" label="Listening" placeholder="0" value="10"
+            validation={{
+               required:{
+               value: true,
+               errorMessage:"This is a Mandatory Field"
+               }
+            }}/>
        </Col>
        <Col md={2}>
-        <TextBox name="pte_s" label="Speaking" placeholder="0" />
+        <TextBox name="pte_s" label="Speaking" placeholder="0" value="10"
+            validation={{
+               required:{
+               value: true,
+               errorMessage:"This is a Mandatory Field"
+               }
+            }} />
        </Col>
        <Col md={4}>
-        <TextBox name="pte_o" label="Overall Score" placeholder="0" />
+        <TextBox name="pte_o" label="Overall Score" placeholder="0" value="10"
+            validation={{
+               required:{
+               value: true,
+               errorMessage:"This is a Mandatory Field"
+               }
+            }} />
        </Col>
       </Row>
     </div>);
@@ -97,7 +187,13 @@ const PursuingDetails = () =>{
             <SubHeaderTitle title="Duolingo Examination Details" />
             <Row>
              <Col md={12}>
-                <TextBox name="duolingo" label="Overall Score" placeholder="0" />
+                <TextBox name="duolingo" label="Overall Score" placeholder="0" value="10"
+                     validation={{
+                        required:{
+                        value: true,
+                        errorMessage:"This is a Mandatory Field"
+                      }
+                     }} />
              </Col>
             </Row>
          </Card>
@@ -107,7 +203,13 @@ const PursuingDetails = () =>{
             <SubHeaderTitle title="GRE Examination Details" />
             <Row>
              <Col md={12}>
-                <TextBox name="gre" label="Overall Score" placeholder="0" />
+                <TextBox name="gre" label="Overall Score" placeholder="0" value="10"
+                     validation={{
+                           required:{
+                           value: true,
+                           errorMessage:"This is a Mandatory Field"
+                        }
+                     }} />
              </Col>
             </Row>
          </Card>

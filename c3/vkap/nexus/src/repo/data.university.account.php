@@ -14,8 +14,28 @@ class UniversityAccountModule {
  function query_view_countries(){
   return "SELECT DISTINCT(country) FROM uni_account_info ORDER BY country ASC;";
  }
+ function query_count_universityListByScore($toefl_o, $toefl_r, $toefl_l, $toefl_w, $toefl_s, 
+    $pte_o, $pte_r, $pte_l, $pte_w, $pte_s, $ielts_o, $ielts_r, $ielts_l, $ielts_w, $ielts_s, $duolingo, $gre, $gpa,
+    $search){
+  return "SELECT count(*) As totalCount FROM uni_account_info, uni_courses_info WHERE uni_account_info.toefl_o<=".$toefl_o.
+      " AND uni_account_info.toefl_r<=".$toefl_r." AND uni_account_info.toefl_l<=".$toefl_l." AND ".
+      " uni_account_info.toefl_w<=".$toefl_w." AND uni_account_info.toefl_s<=".$toefl_s." AND uni_account_info.pte_o<=".
+      $pte_o." AND uni_account_info.pte_r<=".$pte_r." AND uni_account_info.pte_l<=".$pte_l." AND ".
+      " uni_account_info.pte_w<=".$pte_w." AND uni_account_info.pte_s<=".$pte_s." AND uni_account_info.ielts_o<=".
+      $ielts_o." AND uni_account_info.ielts_r<=".$ielts_r." AND uni_account_info.ielts_l<=".$ielts_l." AND ".
+      " uni_account_info.ielts_w<=".$ielts_w." AND uni_account_info.ielts_s<=".$ielts_s." AND uni_account_info.duolingo<=".
+      $duolingo." AND uni_account_info.gre<=".$gre." AND uni_account_info.gpa<=".$gpa.
+      " AND (uni_account_info.university LIKE '%".$search."%' OR uni_account_info.location LIKE '%".$search."%' OR ".
+      " uni_account_info.country LIKE '%".$search."%' OR uni_courses_info.course LIKE '%".$search."%' OR ".
+      " uni_courses_info.duration LIKE '%".$search."%' OR uni_courses_info.fees LIKE '%".$search."%' OR ".
+      " uni_courses_info.appFees LIKE '%".$search."%' OR uni_courses_info.leavingExpenses LIKE '%".$search."%' OR ".
+      " uni_courses_info.initDeposit LIKE '%".$search."%' OR uni_account_info.intake LIKE '%".$search."%' OR ".
+      " uni_courses_info.deadline LIKE '%".$search."%')".
+      " AND uni_account_info.universityId = uni_courses_info.universityId;";
+ }
  function query_view_universityListByScore($toefl_o, $toefl_r, $toefl_l, $toefl_w, $toefl_s, 
-    $pte_o, $pte_r, $pte_l, $pte_w, $pte_s, $ielts_o, $ielts_r, $ielts_l, $ielts_w, $ielts_s, $duolingo, $gre, $gpa){
+    $pte_o, $pte_r, $pte_l, $pte_w, $pte_s, $ielts_o, $ielts_r, $ielts_l, $ielts_w, $ielts_s, $duolingo, $gre, $gpa,
+    $search, $start, $end){
   return "SELECT uni_account_info.university, uni_account_info.location, uni_account_info.country, ".
       " uni_courses_info.course, uni_courses_info.duration, uni_courses_info.fees, uni_courses_info.appFees, ".
       "uni_courses_info.leavingExpenses, uni_courses_info.initDeposit, uni_account_info.intake, uni_courses_info.deadline, ".
@@ -27,7 +47,13 @@ class UniversityAccountModule {
       $ielts_o." AND uni_account_info.ielts_r<=".$ielts_r." AND uni_account_info.ielts_l<=".$ielts_l." AND ".
       " uni_account_info.ielts_w<=".$ielts_w." AND uni_account_info.ielts_s<=".$ielts_s." AND uni_account_info.duolingo<=".
       $duolingo." AND uni_account_info.gre<=".$gre." AND uni_account_info.gpa<=".$gpa.
-      " AND uni_account_info.universityId = uni_courses_info.universityId;";
+      " AND (uni_account_info.university LIKE '%".$search."%' OR uni_account_info.location LIKE '%".$search."%' OR ".
+      " uni_account_info.country LIKE '%".$search."%' OR uni_courses_info.course LIKE '%".$search."%' OR ".
+      " uni_courses_info.duration LIKE '%".$search."%' OR uni_courses_info.fees LIKE '%".$search."%' OR ".
+      " uni_courses_info.appFees LIKE '%".$search."%' OR uni_courses_info.leavingExpenses LIKE '%".$search."%' OR ".
+      " uni_courses_info.initDeposit LIKE '%".$search."%' OR uni_account_info.intake LIKE '%".$search."%' OR ".
+      " uni_courses_info.deadline LIKE '%".$search."%')".
+      " AND uni_account_info.universityId = uni_courses_info.universityId LIMIT ".$start.",".$end.";";
  }
  function query_update_university($universityId, $university, $location, $country, $toefl_o, $toefl_r, $toefl_l, $toefl_w, $toefl_s, 
     $pte_o, $pte_r, $pte_l, $pte_w, $pte_s, $ielts_o, $ielts_r, $ielts_l, $ielts_w, $ielts_s, $duolingo, $gre, $gpa, $intake){

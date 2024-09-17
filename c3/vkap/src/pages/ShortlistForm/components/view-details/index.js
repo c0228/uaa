@@ -1,10 +1,10 @@
 import React, { useState, useEffect } from "react";
-import { ContainerFluid, Row, Col, Colors, Button, Icon, UrlAsyncFetch } from "e-ui-react";
+import { ContainerFluid, Row, Col, Colors, Button, Icon, UrlAsyncFetch, TablePagination, searchTableTerm } from "e-ui-react";
 import './index.css';
 
 const ViewDetails = ({ data }) =>{
- const[studentDetails, setStudentDetails] = useState();
- const[universityList, setUniversityList] = useState();
+ const[studentDetails, setStudentDetails] = useState({ });
+ const[universityList, setUniversityList] = useState([]);
   
  const initialize = async(data) =>{
     const response = await UrlAsyncFetch(process.env.NEXUS_URL+'university/filter','POST',{ 
@@ -16,11 +16,13 @@ const ViewDetails = ({ data }) =>{
     console.log("response: ", response);
     setUniversityList(response);
  };
+
  useEffect(()=>{
   console.log("data: ", data);
   initialize(data);
   setStudentDetails( data );
  },[data]);
+
  const ScoreTemplate = ({ label, value, colors })=>{
     return (
       <div style={{ display: 'flex', flexDirection: 'row' }}>
@@ -31,6 +33,82 @@ const ViewDetails = ({ data }) =>{
         <div style={{ width: '60%', display: 'flex', alignItems: 'center' }}> : {value}</div>
       </div>);
   };
+
+   const columns = [{
+    header: 'S.No.',
+    align:'center',
+    key: 'id',
+    width:'4%',
+    render: (_row, _searchTerm, rowIndex) => (<strong>{rowIndex+1}</strong>)
+  },
+  {
+    header: 'University Name',
+    key: 'university',
+    width:'26%',
+    render: (row, searchTerm) =>(<strong>{searchTableTerm(row?.university, searchTerm)}</strong>)
+  },
+  { 
+    header: 'Campus', 
+    key: 'campus', 
+    width:'8%',
+    render: (row, searchTerm) =>(<strong>{searchTableTerm(row?.location+','+row?.country, searchTerm)}</strong>)
+  },
+  { 
+    header: 'Course Name', 
+    key: 'course', 
+    width:'12%',
+    render: (row, searchTerm) =>(<strong>{searchTableTerm(row?.course, searchTerm)}</strong>)
+  },
+   { 
+    header: 'Duration', 
+    key: 'duration', 
+    width:'8%',
+    render: (row, searchTerm) =>(<strong>{searchTableTerm(row?.duration, searchTerm)}</strong>)
+  },
+  { 
+    header: 'Fees', 
+    key: 'fees', 
+    width:'5%',
+    render: (row, searchTerm) =>(<strong>{searchTableTerm(row?.fees, searchTerm)}</strong>)
+  },
+  { 
+    header: 'App Fees', 
+    key: 'appFees', 
+    width:'6%',
+    render: (row, searchTerm) =>(<strong>{searchTableTerm(row?.appFees, searchTerm)}</strong>)
+  },
+  { 
+    header: 'Expenses', 
+    key: 'leavingExpenses', 
+    width:'8%',
+    render: (row, searchTerm) =>(<strong>{searchTableTerm(row?.leavingExpenses, searchTerm)}</strong>)
+  },
+  { 
+    header: 'Init Deposit', 
+    key: 'initDeposit', 
+    width:'8%',
+    render: (row, searchTerm) =>(<strong>{searchTableTerm(row?.initDeposit, searchTerm)}</strong>)
+  },
+  { 
+    header: 'Intake', 
+    key: 'intake', 
+    width:'10%',
+    render: (row, searchTerm) =>(<strong>{searchTableTerm(row?.intake, searchTerm)}</strong>)
+  },
+  { 
+    header: 'Deadline', 
+    key: 'deadline', 
+    width:'10%',
+    render: (row, searchTerm) =>(<strong>{searchTableTerm(row?.deadline, searchTerm)}</strong>)
+  },
+  { 
+    header: 'Link', 
+    key: 'courseURL', 
+    width:'5%',
+    render: (row) =>(<a target="_blank" href={row?.courseURL}><strong>Visit</strong></a>)
+  }
+];
+
  return (<div>
     <div align="right">
      <Button type="outline-primary" size={11}><b>Send <Icon type="FontAwesome" name="fa-envelope-o" size={14} /> Mail</b></Button>
@@ -189,43 +267,11 @@ const ViewDetails = ({ data }) =>{
     </ContainerFluid>
     </div>
     <div align="center" className="shortlist-view-subTitle" style={{ marginTop:'15px' }}><b>UNIVERSITIES SHORTLIST</b></div>
-    <div className="table-responsive">
-        <table className="table" style={{ border:'1px solid #000' }}>
-        <thead>
-            <tr style={{ backgroundColor:'#ccc' }}>
-                <td><b>S No.</b></td>
-                <td><b>University Name</b></td>
-                <td><b>Campus</b></td>
-                <td><b>Course Name</b></td>
-                <td><b>Duration</b></td>
-                <td><b>Fees</b></td>
-                <td><b>App Fees</b></td>
-                <td><b>Leaving Expenses</b></td>
-                <td><b>Init Deposit</b></td>
-                <td><b>Intake</b></td>
-                <td><b>Deadline</b></td>
-                <td><b>Link</b></td>
-            </tr>
-        </thead>
-        <tbody>
-        {universityList?.map((item,index)=>{
-            return (<tr>
-                <td>{index+1}.</td>
-                <td>{item?.university}</td>
-                <td>{item?.location+','+item?.country}</td>
-                <td>{item?.course}</td>
-                <td>{item?.duration}</td>
-                <td>{item?.fees}</td>
-                <td>{item?.appFees}</td>
-                <td>{item?.leavingExpenses}</td>
-                <td>{item?.initDeposit}</td>
-                <td>{item?.intake}</td>
-                <td>{item?.deadline}</td>
-                <td><a target="_blank" href={item?.courseURL}>Visit Website</a></td>
-            </tr>);
-        })} 
-        </tbody>
-        </table>
+    <div style={{ marginBottom:'45px' }}>
+    {Object.keys(studentDetails)?.length>0 && <TablePagination header={{ backgroundColor:'blue', color:'#fff', columns: columns }} 
+    pageSize={10} api={{ url:process.env.NEXUS_URL+'university/filter',
+        method:'POST', params: studentDetails
+    }} />}
     </div>
  </div>);
 };

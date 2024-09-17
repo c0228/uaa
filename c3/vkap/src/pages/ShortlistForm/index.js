@@ -40,7 +40,7 @@ const ShortlistForm = ()=>{
     <Form name="ShortlistForm" btnSubmit={{
         align: 'center',
         btnType:'success',
-        label:(<div><Icon type="FontAwesome" name="fa-cloud-download" size={14} /> Download Eligibility</div>),
+        label:(<div><Icon type="FontAwesome" name="fa-eye" size={14} /> View Eligibility</div>),
         size: 12,
         style:{ fontWeight:'bold' }
       }} 
@@ -59,6 +59,7 @@ const ShortlistForm = ()=>{
           let postData = FormToReqBodyFormatter(form.ShortlistForm);
               postData.searchedBy = userAuthDetails?.data?.userId;
           setShortlistFormDetails(postData);
+          setDisplayPage('VIEW');
         /*  setShowModalAlert({ show: true, 
             message: (<div>A PDF is generated and displayed in Next Tab and also an 
             Email is sent to Student's Email Address <b>"{postData?.email}"</b>. Please check it. </div>) })
@@ -68,7 +69,7 @@ const ShortlistForm = ()=>{
           triggerReset();
           window.open(process.env.NEXUS_URL+'student/shortlist?data='+btoa(JSON.stringify(postData)),'_blank'); */
         }
-          setDisplayPage('VIEW');
+         
       }}
       onReset={(triggerReset)=>{
         triggerReset();

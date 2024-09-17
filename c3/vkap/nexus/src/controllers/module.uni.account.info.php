@@ -161,6 +161,9 @@ else if($_GET["action"]=='UNIVERSITY_COUNTRIES' && $_SERVER['REQUEST_METHOD']=='
 }
 else if($_GET["action"]=='UNIVERSITY_FILTER_LIST' && $_SERVER['REQUEST_METHOD']=='POST'){
   $htmlData = json_decode( file_get_contents('php://input'), true );
+  $search  = ''; if( array_key_exists("search", $htmlData) ){ $search = $htmlData["search"]; }
+  $start  = ''; if( array_key_exists("start", $htmlData) ){ $start = $htmlData["start"]; }
+  $end  = ''; if( array_key_exists("end", $htmlData) ){ $end = $htmlData["end"]; }
   $degree  = ''; if( array_key_exists("degree", $htmlData) ){ $degree = $htmlData["degree"]; }
   $gre  = ''; if( array_key_exists("gre", $htmlData) ){ $gre = $htmlData["gre"]; }
   $duolingo  = ''; if( array_key_exists("duolingo", $htmlData) ){ $duolingo = $htmlData["duolingo"]; }
@@ -180,9 +183,17 @@ else if($_GET["action"]=='UNIVERSITY_FILTER_LIST' && $_SERVER['REQUEST_METHOD']=
   $toefl_s  = ''; if( array_key_exists("toefl_s", $htmlData) ){ $toefl_s = $htmlData["toefl_s"]; }
   $toefl_w  = ''; if( array_key_exists("toefl_w", $htmlData) ){ $toefl_w = $htmlData["toefl_w"]; }
 
-  $query = $universityAccountModule->query_view_universityListByScore($toefl_o, $toefl_r, $toefl_l, $toefl_w, $toefl_s, 
-    $pte_o, $pte_r, $pte_l, $pte_w, $pte_s, $ielts_o, $ielts_r, $ielts_l, $ielts_w, $ielts_s, $duolingo, $gre, $degree);
-  echo $database->getJSONData($query);
+  $result = array();
+  $queryCount = $universityAccountModule->query_count_universityListByScore($toefl_o, $toefl_r, $toefl_l, $toefl_w, $toefl_s, 
+    $pte_o, $pte_r, $pte_l, $pte_w, $pte_s, $ielts_o, $ielts_r, $ielts_l, $ielts_w, $ielts_s, $duolingo, $gre, $degree,
+    $search);
+  $countData = json_decode($database->getJSONData($queryCount));
+  $result["totalCount"] = $countData[0]->{"totalCount"};
 
+  $queryData = $universityAccountModule->query_view_universityListByScore($toefl_o, $toefl_r, $toefl_l, $toefl_w, $toefl_s, 
+    $pte_o, $pte_r, $pte_l, $pte_w, $pte_s, $ielts_o, $ielts_r, $ielts_l, $ielts_w, $ielts_s, $duolingo, $gre, $degree,
+    $search, $start, $end);
+  $result["data"] = json_decode($database->getJSONData($queryData));
+  echo json_encode($result);
 }
 
