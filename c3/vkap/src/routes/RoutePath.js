@@ -6,6 +6,7 @@ import { Authenticated, Authorization } from "./Security.js";
 import Welcome from "@Pages/Welcome/index.js";
 import Universities from "@Pages/Universities/index.js";
 import ShortlistForm from "@Pages/ShortlistForm/index.js";
+import ShortlistView from "@Pages/ShortlistView/index.js";
 import ShortlistRecords from "@Pages/ShortlistRecords/index.js";
 import Authentication from "@Pages/Authentication/index.js";
 import ManageEmployees from "@Pages/ManageEmployees/index.js";
@@ -21,6 +22,7 @@ export const AppRouting = ()=>{
          <Route path='/consultancy' element={<Authorization permissions={[PERMISSIONS.CUSTOMER, PERMISSIONS.EMPLOYEE, PERMISSIONS.ADMINISTRATOR]} />}>
             <Route path='view-universities' element={<Universities />} />
             <Route path='students-shortlist-form' element={<ShortlistForm />} />
+            <Route path='students-shortlist-view/:id' element={<ShortlistView />} />
             <Route path='my-profile' element={<MyProfile />} />
           </Route>
           <Route path='/consultancy' element={<Authorization permissions={[PERMISSIONS.EMPLOYEE, PERMISSIONS.ADMINISTRATOR]} />}>

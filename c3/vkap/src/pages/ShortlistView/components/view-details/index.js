@@ -23,6 +23,11 @@ const ViewDetails = ({ data }) =>{
   setStudentDetails( data );
  },[data]);
 
+ const sendMail = async() =>{
+    const response = await UrlAsyncFetch(process.env.NEXUS_URL+'student/shortlist','POST', studentDetails);
+    console.log("response: ", response);
+ };
+
  const ScoreTemplate = ({ label, value, colors })=>{
     return (
       <div style={{ display: 'flex', flexDirection: 'row' }}>
@@ -111,7 +116,9 @@ const ViewDetails = ({ data }) =>{
 
  return (<div>
     <div align="right">
-     <Button type="outline-primary" size={11}><b>Send <Icon type="FontAwesome" name="fa-envelope-o" size={14} /> Mail</b></Button>
+     <Button type="outline-primary" size={11} onClick={()=>sendMail()}>
+        <b>Send <Icon type="FontAwesome" name="fa-envelope-o" size={14} /> Mail</b>
+     </Button>
     </div>
   <div align="center" className="shortlist-view-subTitle">
     <b>STUDENT DETAILS</b>
@@ -141,37 +148,37 @@ const ViewDetails = ({ data }) =>{
         </Col>
     </Row>
     <Row>
-        <Col md={3}>
+        <Col md={3} style={{ marginTop:'8px' }}>
             <div><b>SSC (% Marks):</b></div>
             <div>{(studentDetails?.ssc) && (studentDetails?.ssc+'%')}</div>
         </Col>
-        <Col md={3}>
+        <Col md={3} style={{ marginTop:'8px' }}>
             <div><b>Intermediate (% Marks):</b></div>
             <div>{(studentDetails?.inter) && (studentDetails?.inter+'%')}</div>
         </Col>
-        <Col md={2}>
+        <Col md={2} style={{ marginTop:'8px' }}>
             <div><b>B.Tech/Degree (% Marks):</b></div>
             <div>{(studentDetails?.degree) && (studentDetails?.degree+'%')}</div>
         </Col>
-        <Col md={2}>
+        <Col md={2} style={{ marginTop:'8px' }}>
             <div><b>Experience (in years):</b></div>
             <div>{(studentDetails?.empExpYears) && 
                 (parseInt(studentDetails?.empExpYears)>0)?studentDetails?.empExpYears+' years':
                     studentDetails?.empExpYears+' year' }</div>
         </Col>
-        <Col md={2}>
+        <Col md={2} style={{ marginTop:'8px' }}>
             <div><b>Experience (in Field):</b></div>
             <div>{studentDetails?.empExpField}</div>
         </Col>
     </Row>
   </ContainerFluid>
   </div>
-    <div style={{ border:'1px solid #000', borderRadius:'8px', marginTop:'15px', backgroundColor:'#ffe7e6' }}>
+    <div style={{ border:'1px solid #000', borderRadius:'8px', marginTop:'15px', backgroundColor:'#f1f1f1' }}>
     <ContainerFluid>
     <Row>
         <Col md={3} style={{ borderRight:'1px solid #000', paddingTop:'10px', paddingBottom:'10px' }}>
           <Row>
-            <Col md={3}><div style={{ marginTop:'15px' }}><b>TOEFL</b></div></Col>
+            <Col md={3}><div className="shortlist-exam-title"><b>TOEFL</b></div></Col>
             <Col md={3}>
                 <div style={{ margin:'5px' }}>
                     <ScoreTemplate label="R" value={studentDetails?.toefl_r} colors={{ bg:Colors.primary, color:'#fff' }} />
@@ -197,7 +204,7 @@ const ViewDetails = ({ data }) =>{
         </Col>
         <Col md={3} style={{ borderRight:'1px solid #000', paddingTop:'10px', paddingBottom:'10px' }}>
           <Row>
-            <Col md={3}><div style={{ marginTop:'15px' }}><b>IELTS</b></div></Col>
+            <Col md={3}><div  className="shortlist-exam-title"><b>IELTS</b></div></Col>
             <Col md={3}>
                 <div style={{ margin:'5px' }}>
                     <ScoreTemplate label="R" value={studentDetails?.ielts_r} colors={{ bg:Colors.primary, color:'#fff' }} />
@@ -223,7 +230,7 @@ const ViewDetails = ({ data }) =>{
         </Col>
         <Col md={3} style={{ borderRight:'1px solid #000', paddingTop:'10px', paddingBottom:'10px' }}>
           <Row>
-            <Col md={3}><div style={{ marginTop:'15px' }}><b>PTE</b></div></Col>
+            <Col md={3}><div className="shortlist-exam-title"><b>PTE</b></div></Col>
             <Col md={3}>
                 <div style={{ margin:'5px' }}>
                     <ScoreTemplate label="R" value={studentDetails?.pte_r} colors={{ bg:Colors.primary, color:'#fff' }} />
@@ -249,13 +256,13 @@ const ViewDetails = ({ data }) =>{
         </Col>
         <Col md={3} style={{ paddingTop:'10px', paddingBottom:'10px' }}>
             <Row>
-                <Col md={3}><div style={{ marginTop:'15px' }}><b>Duolingo</b></div></Col>
+                <Col md={3}><div className="shortlist-exam-title"><b>Duolingo</b></div></Col>
                 <Col md={3}>
                     <div style={{ marginTop:'15px' }}>
                         <ScoreTemplate label="O" value={studentDetails?.duolingo} colors={{ bg:Colors.success, color:'#fff' }} />
                     </div>
                 </Col>
-                <Col md={3}><div style={{ marginTop:'15px' }}><b>GRE</b></div></Col>
+                <Col md={3}><div className="shortlist-exam-title"><b>GRE</b></div></Col>
                 <Col md={3}>
                     <div style={{ marginTop:'15px' }}>
                         <ScoreTemplate label="O" value={studentDetails?.gre} colors={{ bg:Colors.success, color:'#fff' }} />

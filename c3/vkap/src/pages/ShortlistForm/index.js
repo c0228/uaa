@@ -7,27 +7,14 @@ import { HeaderMenu } from '@Routes/NavbarList.js';
 import PersonalDetails from './components/personal-details/index.js';
 import EduEmpDetails from './components/edu-emp-details/index.js';
 import PursuingDetails from './components/pursuing-details/index.js';
-import ViewDetails from './components/view-details/index.js';
 import './index.css';
 
 const ShortlistForm = ()=>{
- const [displayPage, setDisplayPage] = useState('FORM'); // FORM/VIEW
- const [breadcrumbItems, setBreadcrumbItems] = useState([]);
  const [showModelAlert, setShowModalAlert] = useState({ show: false, message:'' });
- const [shortlistFormDetails, setShortlistFormDetails] = useState();
  useEffect(()=>{
     document.title = 'Student\'s Shortlist Form | VKAbroad';
     document.body.style.backgroundColor = "#fcfcfc";
  },[]);
- useEffect(()=>{ buildBreadcrumb(); },[displayPage]);
- const buildBreadcrumb = ()=>{
-   if(displayPage==='FORM'){
-    setBreadcrumbItems([{ label:'Shortlist Form', url:'#', onClick:()=>alert('Shortlist') }]);
-   } else {
-    setBreadcrumbItems([{ label:'Shortlist Form', url:'#', onClick:()=>setDisplayPage('FORM') },
-        { label:'Student Details', url:'#' }]);
-   }
- };
  const HeaderTitle = () =>{
    return (<div><h4 className="shortlist-title"><b>Student's Shortlist Form</b></h4></div>);
  };
@@ -58,22 +45,12 @@ const ShortlistForm = ()=>{
               userAuthDetails = JSON.parse(userAuthDetails);
           let postData = FormToReqBodyFormatter(form.ShortlistForm);
               postData.searchedBy = userAuthDetails?.data?.userId;
-          setShortlistFormDetails(postData);
-          setDisplayPage('VIEW');
-        /*  setShowModalAlert({ show: true, 
-            message: (<div>A PDF is generated and displayed in Next Tab and also an 
-            Email is sent to Student's Email Address <b>"{postData?.email}"</b>. Please check it. </div>) })
-          console.log("postData: ", postData);
-          const response = await UrlAsyncFetch( process.env.NEXUS_URL + 'student/add/records', 'POST', postData );
-          console.log("logicResposne", response);
-          triggerReset();
-          window.open(process.env.NEXUS_URL+'student/shortlist?data='+btoa(JSON.stringify(postData)),'_blank'); */
+          window.open( process.env.PROJECT_URL+'consultancy/students-shortlist-view/'+btoa(JSON.stringify(postData)), '_self' );
         }
          
       }}
       onReset={(triggerReset)=>{
         triggerReset();
-       // setShowAlert({ status:false, type:'', message:'' });
       }}
       >
        <SubHeaderTitle title="Personal Details" />
@@ -97,11 +74,14 @@ const ShortlistForm = ()=>{
    <Row>
       <Col md={12}>
       <div className="mbot5p">
-        <Breadcrumb backgroundColor="#e5e5e5" data={breadcrumbItems} />
+        <Breadcrumb backgroundColor="#e5e5e5" data={[{ label:'Shortlist Form', url:'#' }]} />
       </div>
-      {displayPage==='FORM' && (<FormDetails />)}
-      {displayPage==='VIEW' && (<ViewDetails data={shortlistFormDetails} />)}
       </Col>
+   </Row>
+   <Row>
+    <Col md={12}>
+      <FormDetails />
+    </Col>
    </Row>
   </ContainerFluid>
   <Footer />

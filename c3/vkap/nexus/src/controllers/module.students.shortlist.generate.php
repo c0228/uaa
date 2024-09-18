@@ -55,9 +55,39 @@ require './../../vendor/autoload.php';
 // Create an instance of the mPDF class with landscape orientation and fullpage mode
 $mpdf = new \Mpdf\Mpdf(['mode' => 'utf-8', 'format' => 'A4', 'orientation' => 'L',]);
 
-$encodedData = $_GET['data'];
+$htmlData = json_decode( file_get_contents('php://input'), true );
+$studentFullName = ''; if( array_key_exists("fullName", $htmlData) ){ $studentFullName = $htmlData["fullName"];   }
+$emailAddress = ''; if( array_key_exists("email", $htmlData) ){ $emailAddress = $htmlData["email"];   }
+$mobileNumber = ''; if( array_key_exists("mobile", $htmlData) ){ $mobileNumber = $htmlData["mobile"];   }
+$studentPreferredCountry = ''; if( array_key_exists("moveTo", $htmlData) ){ $studentPreferredCountry = $htmlData["moveTo"];   }
+$preferredMasterDetails = ''; if( array_key_exists("prefMasterCourse", $htmlData) ){ $preferredMasterDetails = $htmlData["prefMasterCourse"];   }
+$ssc = ''; if( array_key_exists("ssc", $htmlData) ){ $ssc = $htmlData["ssc"];   }
+$inter = ''; if( array_key_exists("inter", $htmlData) ){ $inter = $htmlData["inter"];   }
+$degree = ''; if( array_key_exists("degree", $htmlData) ){ $degree = $htmlData["degree"];   }
+$empExp = ''; if( array_key_exists("empExpYears", $htmlData) ){ $empExp = $htmlData["empExpYears"];   }
 
-$decodedData = base64_decode($encodedData);
+$empExpField = ''; if( array_key_exists("empExpField", $htmlData) ){ $empExpField = $htmlData["empExpField"];   }
+
+$toefl_r = ''; if( array_key_exists("toefl_r", $htmlData) ){ $toefl_r = $htmlData["toefl_r"];   }
+$toefl_w = ''; if( array_key_exists("toefl_w", $htmlData) ){ $toefl_w = $htmlData["toefl_w"];   }
+$toefl_l = ''; if( array_key_exists("toefl_l", $htmlData) ){ $toefl_l = $htmlData["toefl_l"];   }
+$toefl_s =  ''; if( array_key_exists("toefl_s", $htmlData) ){ $toefl_s = $htmlData["toefl_s"];   }
+$toeflScore =  ''; if( array_key_exists("toefl_o", $htmlData) ){ $toeflScore = $htmlData["toefl_o"];   }
+$ielts_r =  ''; if( array_key_exists("ielts_r", $htmlData) ){ $ielts_r = $htmlData["ielts_r"];   }
+$ielts_w =  ''; if( array_key_exists("ielts_w", $htmlData) ){ $ielts_w = $htmlData["ielts_w"];   }
+$ielts_l =  ''; if( array_key_exists("ielts_l", $htmlData) ){ $ielts_l = $htmlData["ielts_l"];   }
+$ielts_s =  ''; if( array_key_exists("ielts_s", $htmlData) ){ $ielts_s = $htmlData["ielts_s"];   }
+$ieltScore =  ''; if( array_key_exists("ielts_o", $htmlData) ){ $ieltScore = $htmlData["ielts_o"];   }
+$pte_r =  ''; if( array_key_exists("pte_r", $htmlData) ){ $pte_r = $htmlData["pte_r"];   }
+$pte_w =  ''; if( array_key_exists("pte_w", $htmlData) ){ $pte_w = $htmlData["pte_w"];   }
+$pte_l =  ''; if( array_key_exists("pte_l", $htmlData) ){ $pte_l = $htmlData["pte_l"];   }
+$pte_s =  ''; if( array_key_exists("pte_s", $htmlData) ){ $pte_s = $htmlData["pte_s"];   }
+$pteScore =  ''; if( array_key_exists("pte_o", $htmlData) ){ $pteScore = $htmlData["pte_o"];   }
+
+$duolingoScore =  ''; if( array_key_exists("duolingo", $htmlData) ){ $duolingoScore = $htmlData["duolingo"];   }
+$greScore =  ''; if( array_key_exists("gre", $htmlData) ){ $greScore = $htmlData["gre"];   }
+
+/* $decodedData = base64_decode($encodedData);
 
 $jsonObject = json_decode($decodedData, true);
 
@@ -88,9 +118,11 @@ $pte_s = htmlspecialchars($jsonObject['pte_s']);
 $pteScore = htmlspecialchars($jsonObject['pte_o']); 
 $duolingoScore = htmlspecialchars($jsonObject['duolingo']); 
 $greScore = htmlspecialchars($jsonObject['gre']); 
+*/
 
 $scoreQuery = $universityAccountModule->query_view_universityListByScore($toeflScore, $toefl_r, $toefl_l, $toefl_w, $toefl_s, 
-    $pteScore, $pte_r, $pte_l, $pte_w, $pte_s, $ieltScore, $ielts_r, $ielts_l, $ielts_w, $ielts_s, $duolingoScore, $greScore, $degree);
+    $pteScore, $pte_r, $pte_l, $pte_w, $pte_s, $ieltScore, $ielts_r, $ielts_l, $ielts_w, $ielts_s, $duolingoScore, $greScore, $degree,
+  '','','');
 
 $data = json_decode( $database->getJSONData($scoreQuery) );
 // Define your HTML content
@@ -174,7 +206,7 @@ if (!is_dir($pdfDirectory)) {
 
 // Save the PDF to the local file system
 $mpdf->Output($pdfFilePath, 'F');
-$mpdf->Output($pdfFilePath, \Mpdf\Output\Destination::INLINE); // Display in the browser
+// $mpdf->Output($pdfFilePath, \Mpdf\Output\Destination::INLINE); // Display in the browser
 // F - To save the File into Directory
 // I - Inline View in the browser
 
@@ -252,5 +284,4 @@ your interests and preferences.</div><br/><br/>
     print_r($e);
    // echo "Email could not be sent. Mailer Error: {$mail->ErrorInfo}";
 }
-
 ?>
