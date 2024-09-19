@@ -196,83 +196,43 @@ else if($_GET["action"]=='UNIVERSITY_FILTER_LIST' && $_SERVER['REQUEST_METHOD']=
   $result["data"] = json_decode($database->getJSONData($queryData));
   echo json_encode($result);
 }
-else if($_GET["action"]=='UNIVERSITY_CREATE' && $_SERVER['REQUEST_METHOD']=='POST'){
-  $htmlData = json_decode( file_get_contents('php://input'), true );
-  $universityId  = ''; if( array_key_exists("universityId", $htmlData) ){ $universityId = $htmlData["universityId"]; }
-  $university = ''; if( array_key_exists("university", $htmlData) ){ $university = $htmlData["university"]; }
-  $location = ''; if( array_key_exists("location", $htmlData) ){ $location = $htmlData["location"]; }
-  $country = ''; if( array_key_exists("country", $htmlData) ){ $country = $htmlData["country"]; }
-  $toefl_o = ''; if( array_key_exists("toefl_o", $htmlData) ){ $toefl_o = $htmlData["toefl_o"]; }
-  $toefl_r = ''; if( array_key_exists("toefl_r", $htmlData) ){ $toefl_r = $htmlData["toefl_r"]; }
-  $toefl_l = ''; if( array_key_exists("toefl_l", $htmlData) ){ $toefl_l = $htmlData["toefl_l"]; }
-  $toefl_w = ''; if( array_key_exists("toefl_w", $htmlData) ){ $toefl_w = $htmlData["toefl_w"]; }
-  $toefl_s = ''; if( array_key_exists("toefl_s", $htmlData) ){ $toefl_s = $htmlData["toefl_s"]; }
-  $pte_o = ''; if( array_key_exists("pte_o", $htmlData) ){ $pte_o = $htmlData["pte_o"]; }
-  $pte_r = ''; if( array_key_exists("pte_r", $htmlData) ){ $pte_r = $htmlData["pte_r"]; }
-  $pte_l = ''; if( array_key_exists("pte_l", $htmlData) ){ $pte_l = $htmlData["pte_l"]; }
-  $pte_w = ''; if( array_key_exists("pte_w", $htmlData) ){ $pte_w = $htmlData["pte_w"]; }
-  $pte_s = ''; if( array_key_exists("pte_s", $htmlData) ){ $pte_s = $htmlData["pte_s"]; }
-  $ielts_o = ''; if( array_key_exists("ielts_o", $htmlData) ){ $ielts_o = $htmlData["ielts_o"]; }
-  $ielts_r = ''; if( array_key_exists("ielts_r", $htmlData) ){ $ielts_r = $htmlData["ielts_r"]; }
-  $ielts_l = ''; if( array_key_exists("ielts_l", $htmlData) ){ $ielts_l = $htmlData["ielts_l"]; }
-  $ielts_w = ''; if( array_key_exists("ielts_w", $htmlData) ){ $ielts_w = $htmlData["ielts_w"]; }
-  $ielts_s = ''; if( array_key_exists("ielts_s", $htmlData) ){ $ielts_s = $htmlData["ielts_s"]; }
-  $duolingo = ''; if( array_key_exists("duolingo", $htmlData) ){ $duolingo = $htmlData["duolingo"]; }
-  $gre = ''; if( array_key_exists("gre", $htmlData) ){ $gre = $htmlData["gre"]; }
-  $gpa = ''; if( array_key_exists("gpa", $htmlData) ){ $gpa = $htmlData["gpa"]; }
-  $intake = ''; if( array_key_exists("intake", $htmlData) ){ $intake = $htmlData["intake"]; }
-  $query = $universityAccountModule->query_add_university($universityId, $university, $location, $country, $toefl_o, $toefl_r, $toefl_l, $toefl_w, $toefl_s, 
-  $pte_o, $pte_r, $pte_l, $pte_w, $pte_s, $ielts_o, $ielts_r, $ielts_l, $ielts_w, $ielts_s, $duolingo, $gre, $gpa, $intake);
-  $result = array();
-  $result["status"] = $database->addupdateData($query);
-  echo json_encode($result);
-}
-else if($_GET["action"]=='UNIVERSITY_UPDATE' && $_SERVER['REQUEST_METHOD']=='POST'){
-  $htmlData = json_decode( file_get_contents('php://input'), true );
-  $universityId  = ''; if( array_key_exists("universityId", $htmlData) ){ $universityId = $htmlData["universityId"]; }
-  $university = ''; if( array_key_exists("university", $htmlData) ){ $university = $htmlData["university"]; }
-  $location = ''; if( array_key_exists("location", $htmlData) ){ $location = $htmlData["location"]; }
-  $country = ''; if( array_key_exists("country", $htmlData) ){ $country = $htmlData["country"]; }
-  $toefl_o = ''; if( array_key_exists("toefl_o", $htmlData) ){ $toefl_o = $htmlData["toefl_o"]; }
-  $toefl_r = ''; if( array_key_exists("toefl_r", $htmlData) ){ $toefl_r = $htmlData["toefl_r"]; }
-  $toefl_l = ''; if( array_key_exists("toefl_l", $htmlData) ){ $toefl_l = $htmlData["toefl_l"]; }
-  $toefl_w = ''; if( array_key_exists("toefl_w", $htmlData) ){ $toefl_w = $htmlData["toefl_w"]; }
-  $toefl_s = ''; if( array_key_exists("toefl_s", $htmlData) ){ $toefl_s = $htmlData["toefl_s"]; }
-  $pte_o = ''; if( array_key_exists("pte_o", $htmlData) ){ $pte_o = $htmlData["pte_o"]; }
-  $pte_r = ''; if( array_key_exists("pte_r", $htmlData) ){ $pte_r = $htmlData["pte_r"]; }
-  $pte_l = ''; if( array_key_exists("pte_l", $htmlData) ){ $pte_l = $htmlData["pte_l"]; }
-  $pte_w = ''; if( array_key_exists("pte_w", $htmlData) ){ $pte_w = $htmlData["pte_w"]; }
-  $pte_s = ''; if( array_key_exists("pte_s", $htmlData) ){ $pte_s = $htmlData["pte_s"]; }
-  $ielts_o = ''; if( array_key_exists("ielts_o", $htmlData) ){ $ielts_o = $htmlData["ielts_o"]; }
-  $ielts_r = ''; if( array_key_exists("ielts_r", $htmlData) ){ $ielts_r = $htmlData["ielts_r"]; }
-  $ielts_l = ''; if( array_key_exists("ielts_l", $htmlData) ){ $ielts_l = $htmlData["ielts_l"]; }
-  $ielts_w = ''; if( array_key_exists("ielts_w", $htmlData) ){ $ielts_w = $htmlData["ielts_w"]; }
-  $ielts_s = ''; if( array_key_exists("ielts_s", $htmlData) ){ $ielts_s = $htmlData["ielts_s"]; }
-  $duolingo = ''; if( array_key_exists("duolingo", $htmlData) ){ $duolingo = $htmlData["duolingo"]; }
-  $gre = ''; if( array_key_exists("gre", $htmlData) ){ $gre = $htmlData["gre"]; }
-  $gpa = ''; if( array_key_exists("gpa", $htmlData) ){ $gpa = $htmlData["gpa"]; }
-  $intake = ''; if( array_key_exists("intake", $htmlData) ){ $intake = $htmlData["intake"]; }
-  $query = $universityAccountModule->query_update_university($universityId, $university, $location, $country, $toefl_o, $toefl_r, $toefl_l, $toefl_w, $toefl_s, 
-    $pte_o, $pte_r, $pte_l, $pte_w, $pte_s, $ielts_o, $ielts_r, $ielts_l, $ielts_w, $ielts_s, $duolingo, $gre, $gpa, $intake);
-  $result = array();
-  $result["status"] = $database->addupdateData($query);
-  echo json_encode($result);
-}
 else if($_GET["action"]=='UNIVERSITY_VIEW' && $_SERVER['REQUEST_METHOD']=='GET'){
-  if(isset($_GET["search"]) && isset($_GET["start"]) && isset($_GET["end"]) ){
+  if(isset($_GET["country"]) && isset($_GET["search"]) && isset($_GET["start"]) && isset($_GET["end"]) ){
+     $country=''; if(isset($_GET["country"])){ $country=$_GET["country"]; }
      $search=''; if(isset($_GET["search"])){ $search=$_GET["search"]; }
      $start=''; if(isset($_GET["start"])){ $start=$_GET["start"]; }
      $end=''; if(isset($_GET["end"])){ $end=$_GET["end"]; }
      $result = array();
      $result["status"]='SUCCESS';
-     $query1 = $universityAccountModule->query_count_universities($search);
-     $data = json_decode($database->getJSONData($query1));
-     $result["totalCount"]=$data[0]->{"totalCount"};
-     $query2 = $universityAccountModule->query_view_universities($search,$start,$end);
-     $result["data"]=json_decode($database->getJSONData($query2));
+     //
+     $query1 = $universityAccountModule->query_count_universities($country,$search);
+     $query1Data = json_decode($database->getJSONData($query1));
+     $result["totalCount"]=$query1Data[0]->{"totalCount"};
+     // 
+     $query2 = $universityAccountModule->query_view_universities($country,$search,$start,$end);
+     $query2Data = json_decode($database->getJSONData($query2));
+     if(count($query2Data)>0){
+      for($i=0;$i<count($query2Data);$i++){
+        $universityId = $query2Data[$i]->{'universityId'};
+        //
+        $query3 = $universityAccountModule->query_count_courses($universityId,$search);
+        $query3Data = json_decode($database->getJSONData($query3));
+        //
+        $query4 = $universityAccountModule->query_view_courses($universityId,$search,$start,$end);
+        $query4Data = json_decode($database->getJSONData($query4));
+        //
+        $courses=array();
+        $courses["totalCount"]=$query3Data[0]->{"totalCount"};
+        $courses["data"]=$query4Data;
+        $query2Data[$i]->{'courses'} = $courses;
+      }
+     }
+     $result["data"] = $query2Data;
      echo json_encode($result);
+    // 
   } else {
      $message = 'Missing ';
+     if(!isset($_GET["country"])){ $message.="country, "; }
      if(!isset($_GET["search"])){ $message.="search, "; }
      if(!isset($_GET["start"])){ $message.="start, "; }
      if(!isset($_GET["end"])){ $message.="end, "; }

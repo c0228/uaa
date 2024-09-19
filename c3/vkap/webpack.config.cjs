@@ -105,6 +105,7 @@ entry: './src/index.js',
     alias: Object.assign( webpackConfigAlias, {
         '@Assets': Path.resolve(__dirname, 'public/assets'),
         '@Config': Path.resolve(__dirname, 'src/config'),
+        '@Components': Path.resolve(__dirname, 'src/components'),
         '@Pages': Path.resolve(__dirname, 'src/pages'),
         '@Permissions': Path.resolve(__dirname, 'src/permissions'),
         '@Provider': Path.resolve(__dirname, 'src/provider'),

@@ -11,31 +11,38 @@ class UniversityAccountModule {
  function query_view_university($universityId){
   return "SELECT * FROM uni_account_info WHERE universityId='".$universityId."';";
  }
- function query_count_universities($search){
-  $sql="SELECT count(*) As totalCount FROM uni_account_info, uni_courses_info ".
-      " WHERE uni_account_info.universityId = uni_courses_info.universityId";
+ function query_count_universities($country,$search){
+  $sql="SELECT count(*) As totalCount FROM uni_account_info ".
+      " WHERE uni_account_info.country='".$country."'";
   if(strlen($search)>0){
     $sql.=" AND (uni_account_info.university LIKE '%".$search."%' OR uni_account_info.location LIKE '%".$search."%' OR ".
-    " uni_account_info.country LIKE '%".$search."%' OR uni_courses_info.course LIKE '%".$search."%' OR ".
-    " uni_courses_info.duration LIKE '%".$search."%' OR uni_courses_info.fees LIKE '%".$search."%' OR ".
-    " uni_courses_info.appFees LIKE '%".$search."%' OR uni_courses_info.leavingExpenses LIKE '%".$search."%' OR ".
-    " uni_courses_info.initDeposit LIKE '%".$search."%' OR uni_account_info.intake LIKE '%".$search."%' OR ".
-    " uni_courses_info.deadline LIKE '%".$search."%') ";
+    " uni_account_info.country LIKE '%".$search."%' OR uni_account_info.intake LIKE '%".$search."%') ";
   }
   return $sql;
  }
- function query_view_universities($search,$start,$end){
-  $sql="SELECT * FROM uni_account_info, uni_courses_info ".
-      " WHERE uni_account_info.universityId = uni_courses_info.universityId";
+ function query_view_universities($country,$search,$start,$end){
+  $sql="SELECT * FROM uni_account_info WHERE uni_account_info.country='".$country."'";
   if(strlen($search)>0){
     $sql.=" AND (uni_account_info.university LIKE '%".$search."%' OR uni_account_info.location LIKE '%".$search."%' OR ".
-    " uni_account_info.country LIKE '%".$search."%' OR uni_courses_info.course LIKE '%".$search."%' OR ".
-    " uni_courses_info.duration LIKE '%".$search."%' OR uni_courses_info.fees LIKE '%".$search."%' OR ".
-    " uni_courses_info.appFees LIKE '%".$search."%' OR uni_courses_info.leavingExpenses LIKE '%".$search."%' OR ".
-    " uni_courses_info.initDeposit LIKE '%".$search."%' OR uni_account_info.intake LIKE '%".$search."%' OR ".
-    " uni_courses_info.deadline LIKE '%".$search."%') ";
+    " uni_account_info.country LIKE '%".$search."%' OR uni_account_info.intake LIKE '%".$search."%') ";
   }
   $sql.=" LIMIT ".$start.",".$end.";";
+  return $sql;
+ }
+ function query_count_courses($universityId,$search){
+  $sql="SELECT count(*) As totalCount FROM uni_courses_info WHERE uni_courses_info.universityId='".$universityId."'";
+  if(strlen($search)>0){
+    $sql.=" AND (uni_courses_info.course LIKE '%".$search."%' OR uni_courses_info.courseType LIKE '%".$search."%' OR ".
+    " uni_courses_info.duration LIKE '%".$search."%' OR uni_courses_info.deadline LIKE '%".$search."%') ";
+  }
+  return $sql;
+ }
+ function query_view_courses($universityId,$search,$start,$end){
+  $sql="SELECT * FROM uni_courses_info WHERE uni_courses_info.universityId='".$universityId."'";
+  if(strlen($search)>0){
+    $sql.=" AND (uni_courses_info.course LIKE '%".$search."%' OR uni_courses_info.courseType LIKE '%".$search."%' OR ".
+    " uni_courses_info.duration LIKE '%".$search."%' OR uni_courses_info.deadline LIKE '%".$search."%') ";
+  }
   return $sql;
  }
  function query_view_countries(){

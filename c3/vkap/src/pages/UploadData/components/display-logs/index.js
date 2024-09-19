@@ -16,7 +16,7 @@ const DisplayLogs = ({ selectedFileLogs }) =>{
   <div className="table-responsive log-table-display">
    <table className="table log-table">
    <thead>
-      <tr>
+      <tr style={{ backgroundColor:'#f1f1f1' }}>
         <td className="col-2pc"><b>#</b></td>
         <td className="col-3pc"><b>Sheet Name</b></td>
         <td className="col-5pc"><b>Operation</b></td>

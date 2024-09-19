@@ -1,12 +1,13 @@
 import React, { useState, useEffect } from "react";
-import { ContainerFluid, Row, Col, Select, TablePagination, UrlAsyncFetch } from "e-ui-react";
+import { ContainerFluid, Row, Col, Select, UrlAsyncFetch } from "e-ui-react";
 import Header from '@Templates/Header/index.js';
 import Footer from '@Templates/Footer/index.js';
 import { HeaderMenu } from '@Routes/NavbarList.js';
+import ViewUniversityDetails from "./components/view-details/index.js";
 
 const Universities = () =>{
  const [listOfCountries, setListOfCountries] = useState([]);
- const [ selectCountry, setSelectCountry] = useState('');
+ const [ selectCountry, setSelectCountry] = useState('USA');
  const initialize = async() =>{
    // Get Distinct Countries List from Universities Table
    const response = await UrlAsyncFetch( process.env.NEXUS_URL + 'countries/list', 'GET', {} );
@@ -32,10 +33,17 @@ const Universities = () =>{
     </h4>
     </div>);
  };
+
+ 
  return (<div>
 <Header menulinks={HeaderMenu()} activeId="Universities" />
 <ContainerFluid>
    <Row><Col md={12}><HeaderTitle /></Col></Row>
+   <Row>
+      <Col md={12}>
+         <ViewUniversityDetails country={selectCountry} />
+      </Col>
+   </Row>
 </ContainerFluid>
 <Footer />
  </div>);
