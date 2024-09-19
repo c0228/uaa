@@ -11,6 +11,33 @@ class UniversityAccountModule {
  function query_view_university($universityId){
   return "SELECT * FROM uni_account_info WHERE universityId='".$universityId."';";
  }
+ function query_count_universities($search){
+  $sql="SELECT count(*) As totalCount FROM uni_account_info, uni_courses_info ".
+      " WHERE uni_account_info.universityId = uni_courses_info.universityId";
+  if(strlen($search)>0){
+    $sql.=" AND (uni_account_info.university LIKE '%".$search."%' OR uni_account_info.location LIKE '%".$search."%' OR ".
+    " uni_account_info.country LIKE '%".$search."%' OR uni_courses_info.course LIKE '%".$search."%' OR ".
+    " uni_courses_info.duration LIKE '%".$search."%' OR uni_courses_info.fees LIKE '%".$search."%' OR ".
+    " uni_courses_info.appFees LIKE '%".$search."%' OR uni_courses_info.leavingExpenses LIKE '%".$search."%' OR ".
+    " uni_courses_info.initDeposit LIKE '%".$search."%' OR uni_account_info.intake LIKE '%".$search."%' OR ".
+    " uni_courses_info.deadline LIKE '%".$search."%') ";
+  }
+  return $sql;
+ }
+ function query_view_universities($search,$start,$end){
+  $sql="SELECT * FROM uni_account_info, uni_courses_info ".
+      " WHERE uni_account_info.universityId = uni_courses_info.universityId";
+  if(strlen($search)>0){
+    $sql.=" AND (uni_account_info.university LIKE '%".$search."%' OR uni_account_info.location LIKE '%".$search."%' OR ".
+    " uni_account_info.country LIKE '%".$search."%' OR uni_courses_info.course LIKE '%".$search."%' OR ".
+    " uni_courses_info.duration LIKE '%".$search."%' OR uni_courses_info.fees LIKE '%".$search."%' OR ".
+    " uni_courses_info.appFees LIKE '%".$search."%' OR uni_courses_info.leavingExpenses LIKE '%".$search."%' OR ".
+    " uni_courses_info.initDeposit LIKE '%".$search."%' OR uni_account_info.intake LIKE '%".$search."%' OR ".
+    " uni_courses_info.deadline LIKE '%".$search."%') ";
+  }
+  $sql.=" LIMIT ".$start.",".$end.";";
+  return $sql;
+ }
  function query_view_countries(){
   return "SELECT DISTINCT(country) FROM uni_account_info ORDER BY country ASC;";
  }
