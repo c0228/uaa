@@ -65,12 +65,12 @@ const ViewUniversityDetails = ({ country }) =>{
         header: 'Course Details',
         align:'center',
         key: 'id',
-        width:'55%',
+        width:'54%',
         render: (row, searchTerm) => (<CourseDetails row={row} searchTerm={searchTerm} />)
       },
      ];
 
-    return  (<div>
+    return  (<div style={{ marginBottom:'35px' }}>
         {country && (<TablePagination header={{ backgroundColor:'#f1f1f1', color:'#000', columns: columns }} pageSize={10} api={{
             url: process.env.NEXUS_URL+"university/view", params:{ country:country },
             method:"GET" }} />)}
