@@ -1,30 +1,57 @@
 import React, { useState, useEffect } from "react";
-import { ContainerFluid, Row, Col, Colors, Button, Icon, UrlAsyncFetch, TablePagination, searchTableTerm } from "e-ui-react";
+import { ContainerFluid, Row, Col, Colors, Button, Icon, UrlAsyncFetch, TablePagination, searchTableTerm, 
+  ModalAlert } from "e-ui-react";
 import './index.css';
 
 const ViewDetails = ({ data }) =>{
- const[studentDetails, setStudentDetails] = useState({ });
- const[universityList, setUniversityList] = useState([]);
-  
- const initialize = async(data) =>{
-    const response = await UrlAsyncFetch(process.env.NEXUS_URL+'university/filter','POST',{ 
-        degree: data?.degree, gre: data?.gre, duolingo: data?.duolingo, 
-        ielts_l: data?.ielts_l, ielts_o: data?.ielts_o, ielts_r: data?.ielts_r, ielts_s: data?.ielts_s, ielts_w: data?.ielts_w, 
-        pte_l: data?.pte_l, pte_o: data?.pte_o, pte_r: data?.pte_r, pte_s: data?.pte_s, pte_w: data?.pte_w,
-        toefl_l: data?.toefl_l, toefl_o: data?.toefl_o, toefl_r: data?.toefl_r, toefl_s: data?.toefl_s, toefl_w: data?.toefl_w 
-    });
-    console.log("response: ", response);
-    setUniversityList(response);
- };
+ const [studentDetails, setStudentDetails] = useState({ });
+ const [showAlert, setShowAlert] = useState({ type:'', status:'', message:'' });
+ const [ mailMessage, setMailMessage ] = useState();
 
  useEffect(()=>{
   console.log("data: ", data);
-  initialize(data);
   setStudentDetails( data );
  },[data]);
 
  const sendMail = async() =>{
+    setShowAlert({ type:'warning', 
+      status: true, 
+      message: (<div>
+          <div>We are have received a Request to send <b>UNIVERSITIES SHORTLIST</b> to an Email Address 
+            <b>"{studentDetails?.email}"</b>.</div>
+          <div>
+            <Icon type="FontAwesome" name="fa-spinner  fa-pulse" size={18} style={{ marginRight:'5px' }}/> 
+            Generating <b>Universities Shortlist</b> in PDF Format ...
+          </div>
+        </div>) });
     const response = await UrlAsyncFetch(process.env.NEXUS_URL+'student/shortlist','POST', studentDetails);
+    if(response==='EMAIL_SUCCESS'){
+      setShowAlert({ type:'success', 
+        status: true, 
+        message: (<div>
+            <div>We are have received a Request to send <b>UNIVERSITIES SHORTLIST</b> to an Email Address 
+              <b>"{studentDetails?.email}"</b>.</div>
+            <div>
+              <Icon type="FontAwesome" name="fa-check" size={18} style={{ marginRight:'5px' }}/> 
+              Generated <b>Universities Shortlist</b> in PDF Format
+            </div>
+            <div>
+              <Icon type="FontAwesome" name="fa-check" size={18} style={{ marginRight:'5px' }}/> 
+              Email sent Successfully
+            </div>
+          </div>) });
+    } else {
+      setShowAlert({ type:'danger', 
+        status: true, 
+        message: (<div>
+            <div>We are have received a Request to send <b>UNIVERSITIES SHORTLIST</b> to an Email Address 
+              <b>"{studentDetails?.email}"</b>.</div>
+            <div>
+              <Icon type="FontAwesome" name="fa-close" size={18} style={{ marginRight:'5px' }}/> 
+              Failed to generate <b>Universities Shortlist</b> in PDF Format and send Email
+            </div>
+          </div>) });
+    }
     console.log("response: ", response);
  };
 
@@ -115,9 +142,11 @@ const ViewDetails = ({ data }) =>{
 ];
 
  return (<div>
-    <div align="right">
-     <Button type="outline-primary" size={11} onClick={()=>sendMail()}>
-        <b>Send <Icon type="FontAwesome" name="fa-envelope-o" size={14} /> Mail</b>
+    <ModalAlert title={showAlert?.message} type={showAlert?.type} show={showAlert?.status} 
+      onClose={(show)=>{ setShowAlert({ type:'', message:'', status: show }); }} />
+    <div style={{ position:'absolute', right:'15px' }}>
+     <Button type="outline-dark" className="shortlist-view-emailBtn" size={11} onClick={()=>sendMail()}>
+        <Icon type="FontAwesome" name="fa-envelope-o" size={14} /> <b>Send Email</b>
      </Button>
     </div>
   <div align="center" className="shortlist-view-subTitle">
@@ -173,10 +202,10 @@ const ViewDetails = ({ data }) =>{
     </Row>
   </ContainerFluid>
   </div>
-    <div style={{ border:'1px solid #000', borderRadius:'8px', marginTop:'15px', backgroundColor:'#f1f1f1' }}>
+    <div style={{ border:'1px solid #ccc', borderRadius:'8px', marginTop:'15px', backgroundColor:'#f1f1f1' }}>
     <ContainerFluid>
     <Row>
-        <Col md={3} style={{ borderRight:'1px solid #000', paddingTop:'10px', paddingBottom:'10px' }}>
+        <Col md={3} style={{ borderRight:'1px solid #ccc', paddingTop:'10px', paddingBottom:'10px' }}>
           <Row>
             <Col md={3}><div className="shortlist-exam-title"><b>TOEFL</b></div></Col>
             <Col md={3}>
@@ -202,7 +231,7 @@ const ViewDetails = ({ data }) =>{
             </Col>
           </Row>
         </Col>
-        <Col md={3} style={{ borderRight:'1px solid #000', paddingTop:'10px', paddingBottom:'10px' }}>
+        <Col md={3} style={{ borderRight:'1px solid #ccc', paddingTop:'10px', paddingBottom:'10px' }}>
           <Row>
             <Col md={3}><div  className="shortlist-exam-title"><b>IELTS</b></div></Col>
             <Col md={3}>
@@ -228,7 +257,7 @@ const ViewDetails = ({ data }) =>{
             </Col>
           </Row>
         </Col>
-        <Col md={3} style={{ borderRight:'1px solid #000', paddingTop:'10px', paddingBottom:'10px' }}>
+        <Col md={3} style={{ borderRight:'1px solid #ccc', paddingTop:'10px', paddingBottom:'10px' }}>
           <Row>
             <Col md={3}><div className="shortlist-exam-title"><b>PTE</b></div></Col>
             <Col md={3}>
@@ -275,7 +304,7 @@ const ViewDetails = ({ data }) =>{
     </div>
     <div align="center" className="shortlist-view-subTitle" style={{ marginTop:'15px' }}><b>UNIVERSITIES SHORTLIST</b></div>
     <div style={{ marginBottom:'45px' }}>
-    {Object.keys(studentDetails)?.length>0 && <TablePagination header={{ backgroundColor:'blue', color:'#fff', columns: columns }} 
+    {Object.keys(studentDetails)?.length>0 && <TablePagination header={{ backgroundColor:'#f1f1f1', color:'#000', columns: columns }} 
     pageSize={10} api={{ url:process.env.NEXUS_URL+'university/filter',
         method:'POST', params: studentDetails
     }} />}

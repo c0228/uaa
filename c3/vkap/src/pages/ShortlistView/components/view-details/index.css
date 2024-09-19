@@ -1,3 +1,4 @@
-.shortlist-view-subTitle { margin-bottom:5px;font-size:14px; }
-.shortlist-view-box { padding:15px;background-color: #f1f1f1;border-radius:8px;border:1px solid #000; }
+.shortlist-view-subTitle { padding-top:8px;margin-bottom:8px;font-size:14px; }
+.shortlist-view-box { padding:15px;background-color: #f1f1f1;border-radius:8px;border:1px solid #ccc; }
 .shortlist-exam-title { display:flex;flex:1;justify-content:center;align-items:center;height:50px; }
+.shortlist-view-emailBtn { border:1px solid #ccc !important;background-color:#f1f1f1 !important; }

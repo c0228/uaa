@@ -14,7 +14,7 @@ function BrandTitle() {
     <div style="width: 85%;float:left;">
     <div style="padding-top:28px;line-height:22px;"><b>Our Office Address:</b>
     Flat No: 310, Third Floor, M N Reddy Complex, Beside Rajadhani Theater Lane, Above Central Bank of India, 
-    Dilsukhnagar, Hyderabad - 500060 | Mobile: +91-9948390094 | kishorenellutla@vkabroadconsultancy.com</div>
+    Dilsukhnagar, Hyderabad - 500060 | <b>Mobile:</b> +91-9948390094 | <b>Email:</b> kishorenellutla@vkabroadconsultancy.com</div>
     </div>
     </div>';
  return $content;
@@ -31,7 +31,7 @@ function StudentDetailCell($width, $label, $value){
 }
 
 function TblHeaderCell($width, $label){
- $content = '<div style="width:'.$width.';border:1px solid #ccc;float:left;">
+ $content = '<div style="width:'.$width.';background-color:#eee;border:1px solid #ccc;float:left;">
         <div style="padding:5px;">
             <div style="font-size:12px;padding-bottom:2px;"><b>'.$label.'</b></div>
         </div>
@@ -87,39 +87,6 @@ $pteScore =  ''; if( array_key_exists("pte_o", $htmlData) ){ $pteScore = $htmlDa
 $duolingoScore =  ''; if( array_key_exists("duolingo", $htmlData) ){ $duolingoScore = $htmlData["duolingo"];   }
 $greScore =  ''; if( array_key_exists("gre", $htmlData) ){ $greScore = $htmlData["gre"];   }
 
-/* $decodedData = base64_decode($encodedData);
-
-$jsonObject = json_decode($decodedData, true);
-
-$studentFullName = htmlspecialchars($jsonObject['fullName']);
-$emailAddress = htmlspecialchars($jsonObject['email']);
-$mobileNumber = htmlspecialchars($jsonObject['mobile']);
-$studentPreferredCountry = htmlspecialchars($jsonObject['moveTo']);
-$preferredMasterDetails = htmlspecialchars($jsonObject['prefMasterCourse']); 
-$ssc = htmlspecialchars($jsonObject['ssc']); 
-$inter = htmlspecialchars($jsonObject['inter']); 
-$degree = htmlspecialchars($jsonObject['degree']); 
-$empExp = htmlspecialchars($jsonObject['empExpYears']);
-$empExpField = htmlspecialchars($jsonObject['empExpField']); 
-$toefl_r = htmlspecialchars($jsonObject['toefl_r']);
-$toefl_w = htmlspecialchars($jsonObject['toefl_w']); 
-$toefl_l = htmlspecialchars($jsonObject['toefl_l']); 
-$toefl_s = htmlspecialchars($jsonObject['toefl_s']);
-$toeflScore = htmlspecialchars($jsonObject['toefl_o']); 
-$ielts_r = htmlspecialchars($jsonObject['ielts_r']); 
-$ielts_w = htmlspecialchars($jsonObject['ielts_w']);
-$ielts_l = htmlspecialchars($jsonObject['ielts_l']); 
-$ielts_s = htmlspecialchars($jsonObject['ielts_s']);
-$ieltScore = htmlspecialchars($jsonObject['ielts_o']); 
-$pte_r = htmlspecialchars($jsonObject['pte_r']);
-$pte_w = htmlspecialchars($jsonObject['pte_w']);
-$pte_l = htmlspecialchars($jsonObject['pte_l']);
-$pte_s = htmlspecialchars($jsonObject['pte_s']);
-$pteScore = htmlspecialchars($jsonObject['pte_o']); 
-$duolingoScore = htmlspecialchars($jsonObject['duolingo']); 
-$greScore = htmlspecialchars($jsonObject['gre']); 
-*/
-
 $scoreQuery = $universityAccountModule->query_view_universityListByScore($toeflScore, $toefl_r, $toefl_l, $toefl_w, $toefl_s, 
     $pteScore, $pte_r, $pte_l, $pte_w, $pte_s, $ieltScore, $ielts_r, $ielts_l, $ielts_w, $ielts_s, $duolingoScore, $greScore, $degree,
   '','','');
@@ -160,27 +127,35 @@ $htmlContent = '
     
     <!-- Table -->
     <div align="center" style="margin-top:15px;font-size:18px;"><b>UNIVERSITIES SHORTLIST</b></div>
-    <div style="margin-top:15px;width:100%;background-color:#eee;float:left;">'.
+    <div style="margin-top:15px;width:100%;float:left;">'.
     TblHeaderCell('5%', 'S.NO').
-    TblHeaderCell('20%', 'University Name').
-    TblHeaderCell('14%', 'Campus').
-    TblHeaderCell('25%', 'Course').
+    TblHeaderCell('10%', 'University').
+    TblHeaderCell('9%', 'Campus').
+    TblHeaderCell('12%', 'Course').
     TblHeaderCell('8%', 'Duration').
     TblHeaderCell('8%', 'Fees').
-    TblHeaderCell('10%', 'Intake').
-    TblHeaderCell('8.5%', 'Link').
+    TblHeaderCell('8%', 'App Fees').
+    TblHeaderCell('8%', 'Expenses').
+    TblHeaderCell('8%', 'Init Deposit').
+    TblHeaderCell('8%', 'Intake').
+    TblHeaderCell('8%', 'Deadline').
+    TblHeaderCell('5%', 'Link').
     '</div>';
   if(count($data)>0){
     for($i=0;$i<count($data);$i++){
       $htmlContent.='<div style="width:100%;background-color:#fff;float:left;">'.
           TblBodyCell('5%', ($i+1).'.').
-          TblBodyCell('20%', $data[$i]->{"university"}).
-          TblBodyCell('14%', $data[$i]->{"location"}.",".$data[$i]->{"country"}).
-          TblBodyCell('25%',  $data[$i]->{"course"}).
+          TblBodyCell('10%', $data[$i]->{"university"}).
+          TblBodyCell('9%', $data[$i]->{"location"}.",".$data[$i]->{"country"}).
+          TblBodyCell('12%',  $data[$i]->{"course"}).
           TblBodyCell('8%',  $data[$i]->{"duration"}).
           TblBodyCell('8%', $data[$i]->{"fees"}).
-          TblBodyCell('10%', 'Intake').
-          TblBodyCell('8.5%', '<a href="'.$data[$i]->{"courseURL"}.'">Link</a>').
+          TblBodyCell('8%', $data[$i]->{"appFees"}).
+          TblBodyCell('8%', $data[$i]->{"leavingExpenses"}).
+          TblBodyCell('8%', $data[$i]->{"initDeposit"}).
+          TblBodyCell('8%', $data[$i]->{"intake"}).
+          TblBodyCell('8%', $data[$i]->{"deadline"}).
+          TblBodyCell('5%', '<a href="'.$data[$i]->{"courseURL"}.'">Visit</a>').
           '</div>';
       }
   }
@@ -279,9 +254,8 @@ your interests and preferences.</div><br/><br/>
 
  // Send the email
  $mail->send();
- echo 'Email sent successfully';
+ echo 'EMAIL_SUCCESS';
 } catch (Exception $e) {
-    print_r($e);
-   // echo "Email could not be sent. Mailer Error: {$mail->ErrorInfo}";
+    echo 'EMAIL_FAILED';
 }
 ?>

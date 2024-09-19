@@ -25,7 +25,7 @@ const ShortlistView = () =>{
    <Row>
       <Col md={12}>
             <div className="mbot5p">
-                <Breadcrumb backgroundColor="#e5e5e5" 
+                <Breadcrumb backgroundColor="#f1f1f1" 
                     data={[{ label:'Shortlist Form', url:process.env.PROJECT_URL+'consultancy/students-shortlist-form' },
                             { label:'Student Details', url:'#' }]} />
             </div>
