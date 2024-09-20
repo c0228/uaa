@@ -37,12 +37,23 @@ class UserAccountModule {
   function query_delete_userAccount($userId){
 	return "DELETE FROM user_accounts_info WHERE userId=".$userId;
   }
-  function query_list_employees($userRoles){
+  function query_count_employees($userRoles){
+	$sql = "SELECT count(*) As totalCount FROM user_accounts_info WHERE ";
+	foreach ($userRoles as $userRole) {
+	 $sql.=" userRole='".$userRole."' OR";
+	}
+	$sql=chop($sql,"OR");
+	return $sql;
+  }
+  function query_list_employees($search,$start,$end,$userRoles){
 	$sql = "SELECT * FROM user_accounts_info WHERE ";
 	foreach ($userRoles as $userRole) {
 	 $sql.=" userRole='".$userRole."' OR";
 	}
 	$sql=chop($sql,"OR");
+	$sql.=" AND (name LIKE '%".$search."%' OR email LIKE '%".$search."%' OR mobile LIKE '%".$search."%' ".
+			"OR createdOn LIKE '%".$search."%' OR lastUpdatedOn LIKE '%".$search."%')";
+	$sql.=" LIMIT ".$start.",".$end;
 	return $sql;
   }
 }

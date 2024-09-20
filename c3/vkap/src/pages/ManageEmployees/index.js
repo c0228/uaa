@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { ContainerFluid, Row, Col, Button, Icon, Modal, Alert, UrlAsyncFetch } from "e-ui-react";
+import { ContainerFluid, Row, Col, Button, Icon, Modal, Alert, TablePagination, searchTableTerm, UrlAsyncFetch } from "e-ui-react";
 import Header from '@Templates/Header/index.js';
 import Footer from '@Templates/Footer/index.js';
 import { HeaderMenu } from '@Routes/NavbarList.js';
@@ -68,6 +68,67 @@ const ManageEmployees = ()=>{
     </div>
   </div>);
  };
+
+ const columns = [{
+    header: 'Employee ID',
+    align:'center',
+    key: 'employeeId',
+    width:'10%',
+    render: (row) => (<div>{row?.userId}</div>)
+  },
+  {
+    header: 'Employee Name',
+    key: 'employeeName',
+    width:'20%',
+    render: (row, searchTerm) =>(<div>{searchTableTerm(row?.name, searchTerm)}</div>)
+  },
+  { 
+    header: 'Account Type', 
+    key: 'accountType', 
+    width:'10%',
+    render: (row, searchTerm) =>(<div>{searchTableTerm(row?.userRole, searchTerm)}</div>)
+  },
+  { 
+    header: 'Email Address', 
+    key: 'email', 
+    width:'15%',
+    render: (row, searchTerm) =>(<div>{searchTableTerm(row?.email, searchTerm)}</div>)
+  },
+  { 
+    header: 'Mobile Address', 
+    key: 'mobile', 
+    width:'10%',
+    render: (row, searchTerm) =>(<div>{searchTableTerm(row?.mcountrycode+"-"+row?.mobile, searchTerm)}</div>)
+  },
+  { 
+    header: 'Created On', 
+    key: 'createdOn', 
+    width:'10%',
+    render: (row, searchTerm) =>(<div>{searchTableTerm(row?.createdOn, searchTerm)}</div>)
+  },
+  { 
+    header: 'Last Updated On', 
+    key: 'lastUpdatedOn', 
+    width:'10%',
+    render: (row, searchTerm) =>(<div>{searchTableTerm(row?.lastUpdatedOn, searchTerm)}</div>)
+  },
+  { 
+    header: 'Actions', 
+    key: 'actions', 
+    width:'10%',
+    render: (row, searchTerm) =>(<div>
+        <span onClick={()=>handleEdit(row)}>
+        <Icon type="FontAwesome" name="fa-edit" size={16} />
+    </span>
+    <span onClick={()=>handleDelete(row)} style={{ marginLeft:'5px' }}>
+        <Icon type="FontAwesome" name="fa-trash" size={16} />
+    </span>
+    </div>)
+  },
+];
+
+
+
  return (<>
  {showAddModal && (<Modal title="Add New Employee" show={showAddModal} onClose={setShowAddModal}>
   <AddEmployeeForm initialize={initialize} />
@@ -98,44 +159,11 @@ const ManageEmployees = ()=>{
               <span className="mLeft5p">{showAlert?.message}</span>
             </div>} />
         </div>)}
-        
-        {viewEmployeedata?.length>0 && (<div className="table-responsive">
-    <table className="table">
-     <thead>
-       <tr style={{ backgroundColor:'#eee' }}>
-           <td><b>Employee ID</b></td>
-           <td><b>Employee Name</b></td>
-           <td><b>Account Type</b></td>
-           <td><b>Email Address</b></td>
-           <td><b>Mobile Address</b></td>
-           <td><b>Created On</b></td>
-           <td><b>Last Updated On</b></td>
-           <td align="center"><b>Actions</b></td>
-       </tr>
-     </thead>
-     <tbody>
-        {viewEmployeedata?.map((d, i)=>{
-            return (<tr key={i}>
-                <td>{d?.userId}</td>
-                <td>{d?.name}</td>
-                <td>{d?.userRole}</td>
-                <td>{d?.email}</td>
-                <td>{d?.mcountrycode}+91-{d?.mobile}</td>
-                <td>{d?.createdOn}</td>
-                <td>{d?.lastUpdatedOn}</td>
-                <td align="center" style={{ cursor:'pointer' }}>
-                    <span onClick={()=>handleEdit(d)}>
-                        <Icon type="FontAwesome" name="fa-edit" size={16} />
-                    </span>
-                    <span onClick={()=>handleDelete(d)} style={{ marginLeft:'5px' }}>
-                        <Icon type="FontAwesome" name="fa-trash" size={16} />
-                    </span>
-                </td>
-            </tr>);
-        })}
-     </tbody>
-    </table>
-   </div>)}
+        <div className="mtop15p">
+        <TablePagination header={{ backgroundColor:'#f1f1f1', color:'#000', columns: columns }} pageSize={10} api={{
+    url:process.env.NEXUS_URL + 'user/list/employees',
+    method:"GET" }} />
+        </div>
       </Col>
     </Row>
  </ContainerFluid>

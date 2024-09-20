@@ -141,8 +141,27 @@ else if($_GET["action"]=='USER_DELETE' && $_SERVER['REQUEST_METHOD']=='POST') {
 }
 // 7. USERS_LIST_EMPLOYEES
 else if($_GET["action"]=='USERS_LIST_EMPLOYEES' && $_SERVER['REQUEST_METHOD']=='GET'){
- $userRoles = ["ADMINISTRATOR", "EMPLOYEE"];
- $listQuery = $userAccountModule->query_list_employees($userRoles);	
- $data = json_decode( $database->getJSONData($listQuery) );
- echo json_encode( $data );
+ if(isset($_GET["search"]) && isset($_GET["start"]) && isset($_GET["end"])){
+	$search=''; if(isset($_GET["search"])){ $search = $_GET["search"]; }
+	$start=''; if(isset($_GET["start"])){ $start = $_GET["start"]; }
+	$end=''; if(isset($_GET["end"])){ $end = $_GET["end"]; }
+	$userRoles = ["ADMINISTRATOR", "EMPLOYEE"];
+	$result = array();
+	$query1 = $userAccountModule->query_count_employees($userRoles);
+	$data1 = json_decode( $database->getJSONData($query1) );
+	$result["totalCount"] = $data1[0]->{"totalCount"};
+ 	$query2 = $userAccountModule->query_list_employees($search,$start,$end,$userRoles);	
+ 	$result["data"] = json_decode( $database->getJSONData($query2) );
+ 	echo json_encode( $result );
+ } else {
+	$message = "Missing ";
+	if(!isset($_GET["search"])){ $message.=" search,"; }
+	if(!isset($_GET["start"])){ $message.=" start,"; }
+	if(!isset($_GET["end"])){ $message.=" end,"; }
+	$message = chop($message,",");
+	$result = array();
+	$result["status"] = 'FAILED';
+	$result["message"] =$message;
+	echo json_encode($result);
+ }
 }
