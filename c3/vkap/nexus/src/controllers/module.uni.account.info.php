@@ -139,13 +139,30 @@ else if($_GET["action"]=='UNIVERSITY_UPLOAD_FILES' && $_SERVER['REQUEST_METHOD']
   $filesList = listOfFolders($target_dir);
   echo json_encode( $filesList );
 } 
-else if($_GET["action"]=='UNIVERSITY_UPLOAD_LOGS' && $_SERVER['REQUEST_METHOD']=='POST'){
-  $htmlData = json_decode( file_get_contents('php://input'), true );
-  $fileName = ''; if( array_key_exists("fileName", $htmlData) ){ $fileName = $htmlData["fileName"]; }
+else if($_GET["action"]=='UNIVERSITY_UPLOAD_LOGS' && $_SERVER['REQUEST_METHOD']=='GET'){
+  if(isset($_GET["fileName"])){
+    $fileName = ''; if(isset($_GET["fileName"])){ $fileName=$_GET["fileName"]; }
+    // Output Display
+    $result = array();
+
+    $query1 = $excelLogModule->query_count_uploadLogs($fileName);
+    $data1 = json_decode( $database->getJSONData($query1) );
+    $result["totalCount"] = $data1[0]->{"totalCount"};
+
+    $query2 = $excelLogModule->query_view_uploadLogs($fileName);
+    $result["data"] = json_decode ( $database->getJSONData($query2) );
+
+    echo json_encode( $result );
+  } else {
+      $message = 'Missing';
+      if(!isset($_GET["fileName"])){ $message.=' fileName,'; }
+      $result = array();
+      $result["status"] = "FAILED";
+      $result["message"] = $message;
+      echo json_encode($result);
+  }
   
-  // Output Display
-  $viewLogQuery = $excelLogModule->query_view_uploadLogs($fileName);
-  echo $database->getJSONData($viewLogQuery);
+  
 }
 else if($_GET["action"]=='UNIVERSITY_COUNTRIES' && $_SERVER['REQUEST_METHOD']=='GET'){
   $listCountriesQuery = $universityAccountModule->query_view_countries();
