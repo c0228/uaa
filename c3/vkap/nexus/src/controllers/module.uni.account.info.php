@@ -202,34 +202,17 @@ else if($_GET["action"]=='UNIVERSITY_VIEW' && $_SERVER['REQUEST_METHOD']=='GET')
      $search=''; if(isset($_GET["search"])){ $search=$_GET["search"]; }
      $start=''; if(isset($_GET["start"])){ $start=$_GET["start"]; }
      $end=''; if(isset($_GET["end"])){ $end=$_GET["end"]; }
-     $result = array();
-     $result["status"]='SUCCESS';
-     //
-     $query1 = $universityAccountModule->query_count_universities($country,$search);
-     $query1Data = json_decode($database->getJSONData($query1));
-     $result["totalCount"]=$query1Data[0]->{"totalCount"};
-     // 
-     $query2 = $universityAccountModule->query_view_universities($country,$search,$start,$end);
-     $query2Data = json_decode($database->getJSONData($query2));
-     if(count($query2Data)>0){
-      for($i=0;$i<count($query2Data);$i++){
-        $universityId = $query2Data[$i]->{'universityId'};
-        //
-        $query3 = $universityAccountModule->query_count_courses($universityId,$search);
-        $query3Data = json_decode($database->getJSONData($query3));
-        //
-        $query4 = $universityAccountModule->query_view_courses($universityId,$search,$start,$end);
-        $query4Data = json_decode($database->getJSONData($query4));
-        //
-        $courses=array();
-        $courses["totalCount"]=$query3Data[0]->{"totalCount"};
-        $courses["data"]=$query4Data;
-        $query2Data[$i]->{'courses'} = $courses;
-      }
+     $universities= '';
+     if(strlen($search)>0){
+        // Check the Search exists in uni_course_info
+        // IF exist, collect the universityId and Display.
+        $query = $universityAccountModule->query_search_courses($search);
+        $data = json_decode($database->getJSONData($query));
+        $universities = '"' . implode('","', array_column($data, 'universityId')) . '"';
      }
-     $result["data"] = $query2Data;
-     echo json_encode($result);
-    // 
+     $query = $universityAccountModule->query_viewAll_universities($universities,$country,$search,$start,$end);
+     $data = json_decode($database->getJSONData($query));
+     echo $data[0]->{"universityDetails"};
   } else {
      $message = 'Missing ';
      if(!isset($_GET["country"])){ $message.="country, "; }
