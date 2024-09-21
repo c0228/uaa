@@ -64,7 +64,7 @@ const PursuingDetails = () =>{
       <SubHeaderTitle title="IELTS Examination Details" />
       <Row>
        <Col md={2}>
-        <TextBox name="ielts_r" label="Reading" placeholder="0" value="10"
+        <TextBox name="ielts_r" label="Reading" placeholder="0"
          validation={{
             required:{
               value: true,
@@ -73,7 +73,7 @@ const PursuingDetails = () =>{
           }} />
        </Col>
        <Col md={2}>
-        <TextBox name="ielts_w" label="Writing" placeholder="0" value="10"
+        <TextBox name="ielts_w" label="Writing" placeholder="0"
             validation={{
                required:{
                value: true,
@@ -82,7 +82,7 @@ const PursuingDetails = () =>{
             }} />
        </Col>
        <Col md={2}>
-        <TextBox name="ielts_l" label="Listening" placeholder="0" value="10"
+        <TextBox name="ielts_l" label="Listening" placeholder="0"
             validation={{
                required:{
                value: true,
@@ -91,7 +91,7 @@ const PursuingDetails = () =>{
             }} />
        </Col>
        <Col md={2}>
-        <TextBox name="ielts_s" label="Speaking" placeholder="0" value="10"
+        <TextBox name="ielts_s" label="Speaking" placeholder="0"
             validation={{
                required:{
                value: true,
@@ -100,7 +100,7 @@ const PursuingDetails = () =>{
             }} />
        </Col>
        <Col md={4}>
-        <TextBox name="ielts_o" label="Overall Score" placeholder="0" value="10"
+        <TextBox name="ielts_o" label="Overall Score" placeholder="0"
             validation={{
                required:{
                value: true,
@@ -116,7 +116,7 @@ const PursuingDetails = () =>{
       <SubHeaderTitle title="PTE Examination Details" />
       <Row>
        <Col md={2}>
-        <TextBox name="pte_r" label="Reading" placeholder="0" value="10"
+        <TextBox name="pte_r" label="Reading" placeholder="0"
             validation={{
                required:{
                value: true,
@@ -125,7 +125,7 @@ const PursuingDetails = () =>{
             }} />
        </Col>
        <Col md={2}>
-        <TextBox name="pte_w" label="Writing" placeholder="0" value="10"
+        <TextBox name="pte_w" label="Writing" placeholder="0"
             validation={{
                required:{
                value: true,
@@ -134,7 +134,7 @@ const PursuingDetails = () =>{
             }} />
        </Col>
        <Col md={2}>
-        <TextBox name="pte_l" label="Listening" placeholder="0" value="10"
+        <TextBox name="pte_l" label="Listening" placeholder="0"
             validation={{
                required:{
                value: true,
@@ -143,7 +143,7 @@ const PursuingDetails = () =>{
             }}/>
        </Col>
        <Col md={2}>
-        <TextBox name="pte_s" label="Speaking" placeholder="0" value="10"
+        <TextBox name="pte_s" label="Speaking" placeholder="0"
             validation={{
                required:{
                value: true,
@@ -152,7 +152,7 @@ const PursuingDetails = () =>{
             }} />
        </Col>
        <Col md={4}>
-        <TextBox name="pte_o" label="Overall Score" placeholder="0" value="10"
+        <TextBox name="pte_o" label="Overall Score" placeholder="0"
             validation={{
                required:{
                value: true,
@@ -187,7 +187,7 @@ const PursuingDetails = () =>{
             <SubHeaderTitle title="Duolingo Examination Details" />
             <Row>
              <Col md={12}>
-                <TextBox name="duolingo" label="Overall Score" placeholder="0" value="10"
+                <TextBox name="duolingo" label="Overall Score" placeholder="0"
                      validation={{
                         required:{
                         value: true,
@@ -203,7 +203,7 @@ const PursuingDetails = () =>{
             <SubHeaderTitle title="GRE Examination Details" />
             <Row>
              <Col md={12}>
-                <TextBox name="gre" label="Overall Score" placeholder="0" value="10"
+                <TextBox name="gre" label="Overall Score" placeholder="0"
                      validation={{
                            required:{
                            value: true,

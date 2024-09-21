@@ -15,7 +15,7 @@ const PersonalDetails = () =>{
   <ContainerFluid>
     <Row>
         <Col md={3}>
-          <TextBox name="fullName" label="Full Name" placeholder="Enter your Full Name" value="Nellutla L N Rao"
+          <TextBox name="fullName" label="Full Name" placeholder="Enter your Full Name"
             validation={{
               required:{
                 value: true,
@@ -24,7 +24,7 @@ const PersonalDetails = () =>{
             }} />
         </Col>
         <Col md={3}>
-          <Email name="email" label="Email Address" placeholder="Enter your Email Address" value="nellutlalnrao@gmail.com"
+          <Email name="email" label="Email Address" placeholder="Enter your Email Address"
               validation={{
                 email:{
                   formatCheck: true
@@ -32,7 +32,7 @@ const PersonalDetails = () =>{
               }} />
         </Col>
         <Col md={2}>
-          <TextBox name="mobile" label="Mobile Number (Without +91)" placeholder="Enter your Mobile Number" value="6300193369"
+          <TextBox name="mobile" label="Mobile Number (Without +91)" placeholder="Enter your Mobile Number"
             validation={{
               required:{
                 value: true,
@@ -51,7 +51,6 @@ const PersonalDetails = () =>{
                 onChange={(event) => {
                     let option = event.target.value;
                 }}
-                value="USA"
                 validation={{
                   required:{
                     value: true,
@@ -71,7 +70,6 @@ const PersonalDetails = () =>{
                 onChange={(event) => {
                     let option = event.target.value;
                 }}
-                value="UG"
                 validation={{
                   required:{
                     value: true,
