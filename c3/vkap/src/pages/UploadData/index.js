@@ -11,7 +11,7 @@ const UploadData = () =>{
  const [uploadedList, setUploadedList] = useState([]);
  const [selectedFile, setSelectedList] = useState('');
  const [breadcrumbData, setBreadcrumbData] = useState();
- const [selectedFileLogs, setSelectedFileLogs] = useState();
+ // const [selectedFileLogs, setSelectedFileLogs] = useState();
  useEffect(()=>{
   document.title = 'Upload Data | VKAbroad';
   document.body.style.backgroundColor = "#fcfcfc";
@@ -47,11 +47,6 @@ const UploadData = () =>{
       newBreadCrumb.push({ label: selectedFile, url:'#' });
   setBreadcrumbData(newBreadCrumb);
   setSelectedList(selectedFile);
-
-  // Display Logs
-  const response = await UrlAsyncFetch( process.env.NEXUS_URL + 'university/files/logs', 'POST', { fileName: selectedFile } );
-  setSelectedFileLogs( response );
-  console.log("response [addToBreadCrumb]: ", response);
  };
  return (<div>
   <Header menulinks={HeaderMenu()} activeId="UploadData" />
@@ -126,7 +121,7 @@ const UploadData = () =>{
           <Breadcrumb backgroundColor="#ddd" 
               data={breadcrumbData} />
           {selectedFile?.length>0?(<div className="mtop5p">
-            <DisplayLogs selectedFileLogs={selectedFileLogs} />
+            <DisplayLogs selectedFile={selectedFile} />
           </div>):(<div className="mtop5p">
             <DisplayFiles uploadedList={uploadedList} addToBreadCrumb={addToBreadCrumb} />
             </div>)}
