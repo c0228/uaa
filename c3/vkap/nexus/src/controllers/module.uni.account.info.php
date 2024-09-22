@@ -118,7 +118,7 @@ function uploadCourseData($fileName, $jsonData, $sheetName){
 if($_GET["action"]=='UNIVERSITY_BULK_UPLOAD' && $_SERVER['REQUEST_METHOD']=='POST'){
   $htmlData = json_decode( file_get_contents('php://input'), true );
   $targetDirectory = ''; if( array_key_exists("targetDirectory", $htmlData) ){ $targetDirectory = $htmlData["targetDirectory"]; }
-  $fileName  = ''; if( array_key_exists("fileName", $htmlData) ){ $fileName = $htmlData["fileName"]; }
+  $fileName  = []; if( array_key_exists("fileName", $htmlData) ){ $fileName = $htmlData["fileName"]; }
 
   // Upload Execution of UNIVERSITIES Sheet
   foreach($fileName as $fName){

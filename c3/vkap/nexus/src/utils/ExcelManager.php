@@ -1,6 +1,7 @@
 <?php
 require './../../vendor/autoload.php';
 use PhpOffice\PhpSpreadsheet\IOFactory;
+/* PROD: ZIP Extension at PHP should be enabled to make this workout */
 
 class ExcelManager {
 
