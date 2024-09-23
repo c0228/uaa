@@ -44,7 +44,12 @@ const ShortlistForm = ()=>{
           let userAuthDetails = localStorage.getItem("USER_AUTH_DETAILS");
               userAuthDetails = JSON.parse(userAuthDetails);
           let postData = FormToReqBodyFormatter(form.ShortlistForm);
-              postData.searchedBy = userAuthDetails?.data?.userId;
+          if(postData?.email!==userAuthDetails?.data?.email){
+            postData.searchedBy = userAuthDetails?.data?.userId;
+            postData.senderName = userAuthDetails?.data?.name;
+            postData.senderEmail = userAuthDetails?.data?.email;
+          }
+          await UrlAsyncFetch(process.env.NEXUS_URL+'student/add/records','POST', postData);
           window.open( process.env.PROJECT_URL+'consultancy/students-shortlist-view/'+btoa(JSON.stringify(postData)), '_self' );
         }
          

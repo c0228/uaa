@@ -30,11 +30,14 @@ const ExamTemplate = ({ name, r, w, l, s, o}) =>{
   return (<div>
   <Row>
     <Col md={2}><div align="left"><b>{name}</b></div></Col>
-    {r && (<Col md={2}><ScoreTemplate label="R" value={r} colors={{ bg:Colors.primary, color:'#fff' }} /></Col>)}
-    {w && (<Col md={2}><ScoreTemplate label="W" value={w} colors={{ bg:Colors.warning, color:'#000' }} /></Col>)}
-    {l && (<Col md={2}><ScoreTemplate label="L" value={l} colors={{ bg:Colors.danger, color:'#fff' }} /></Col>)}
-    {s && (<Col md={2}><ScoreTemplate label="S" value={s} colors={{ bg:Colors.secondary, color:'#fff' }} /></Col>)}
-    {o && (<Col md={2}><ScoreTemplate label="O" value={o} colors={{ bg:Colors.success, color:'#fff' }} /></Col>)}
+    {(!["Duolingo","GRE"].includes(name)) && 
+    (<>
+    <Col md={2}><ScoreTemplate label="R" value={r} colors={{ bg:Colors.primary, color:'#fff' }} /></Col>
+    <Col md={2}><ScoreTemplate label="W" value={w} colors={{ bg:Colors.warning, color:'#000' }} /></Col>
+    <Col md={2}><ScoreTemplate label="L" value={l} colors={{ bg:Colors.danger, color:'#fff' }} /></Col>
+    <Col md={2}><ScoreTemplate label="S" value={s} colors={{ bg:Colors.secondary, color:'#fff' }} /></Col>
+    </>)}
+    <Col md={2}><ScoreTemplate label="O" value={o} colors={{ bg:Colors.success, color:'#fff' }} /></Col>
   </Row>
   </div>);
 };

@@ -56,6 +56,8 @@ require './../../vendor/autoload.php';
 $mpdf = new \Mpdf\Mpdf(['mode' => 'utf-8', 'format' => 'A4', 'orientation' => 'L',]);
 
 $htmlData = json_decode( file_get_contents('php://input'), true );
+$senderName = ''; if( array_key_exists("senderName", $htmlData) ){ $senderName = $htmlData["senderName"];   }
+$senderEmail = ''; if( array_key_exists("senderEmail", $htmlData) ){ $senderEmail = $htmlData["senderEmail"];   }
 $studentFullName = ''; if( array_key_exists("fullName", $htmlData) ){ $studentFullName = $htmlData["fullName"];   }
 $emailAddress = ''; if( array_key_exists("email", $htmlData) ){ $emailAddress = $htmlData["email"];   }
 $mobileNumber = ''; if( array_key_exists("mobile", $htmlData) ){ $mobileNumber = $htmlData["mobile"];   }
@@ -192,9 +194,11 @@ use PHPMailer\PHPMailer\Exception;
 $mail = new PHPMailer(true);
 
 //Recipients
-$mail->setFrom('nellutlalnrao@gmail.com', 'VK Abroad Consultancy');
+$mail->setFrom('admissions@vkabroadconsultancy.com', 'VK Abroad Consultancy');
 $mail->addCC('kishorenellutla524@gmail.com', 'Kishore Nellutla'); // Add a recipient
-$mail->addCC('nellutlalnrao@gmail.com', 'Nellutla L N Rao'); // Add a recipient
+if(strlen($senderName)>0 && strlen($senderEmail)>0){
+ $mail->addCC($senderEmail, $senderName); // Add a recipient
+}
 $mail->addAddress($emailAddress, $studentFullName);
 
 try {

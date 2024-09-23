@@ -12,7 +12,7 @@ const PursuingDetails = () =>{
     <SubHeaderTitle title="TOEFL Examination Details" />
     <Row>
      <Col md={2}>
-      <TextBox name="toefl_r" label="Reading" placeholder="0" value="10"
+      <TextBox name="toefl_r" label="Reading" placeholder="0"
          validation={{
             required:{
               value: true,
@@ -21,7 +21,7 @@ const PursuingDetails = () =>{
           }} />
      </Col>
      <Col md={2}>
-      <TextBox name="toefl_w" label="Writing" placeholder="0" value="10"
+      <TextBox name="toefl_w" label="Writing" placeholder="0"
          validation={{
             required:{
               value: true,
@@ -30,7 +30,7 @@ const PursuingDetails = () =>{
           }} />
      </Col>
      <Col md={2}>
-      <TextBox name="toefl_l" label="Listening" placeholder="0" value="10"
+      <TextBox name="toefl_l" label="Listening" placeholder="0"
          validation={{
             required:{
               value: true,
@@ -39,7 +39,7 @@ const PursuingDetails = () =>{
           }} />
      </Col>
      <Col md={2}>
-      <TextBox name="toefl_s" label="Speaking" placeholder="0" value="10"
+      <TextBox name="toefl_s" label="Speaking" placeholder="0"
          validation={{
             required:{
               value: true,
@@ -48,7 +48,7 @@ const PursuingDetails = () =>{
           }} />
      </Col>
      <Col md={4}>
-      <TextBox name="toefl_o" label="Overall Score" placeholder="0" value="10"
+      <TextBox name="toefl_o" label="Overall Score" placeholder="0"
          validation={{
             required:{
               value: true,

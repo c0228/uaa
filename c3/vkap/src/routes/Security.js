@@ -11,6 +11,7 @@ export const Authenticated = () =>{
  const expiryDate = ( user?.expire && getDiffTimeFromNow(user.expire, TIMESTAMP_TZ_FORMAT2) );
  console.log("expireDate [Authenticated]: ", expiryDate);
  if(expiryDate?.remainingHours<0 && expiryDate?.remainingMinutes<-30){
+  localStorage.removeItem("USER_AUTH_DETAILS"); // Delete when it exceeds 30 minutes of timeout
   return false;
  } else {
   return (user?.data && Object.keys(user?.data)?.length>0);

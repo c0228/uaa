@@ -179,15 +179,15 @@ const ViewDetails = ({ data }) =>{
     <Row>
         <Col md={3} style={{ marginTop:'8px' }}>
             <div><b>SSC (% Marks):</b></div>
-            <div>{(studentDetails?.ssc) && (studentDetails?.ssc+'%')}</div>
+            <div>{(studentDetails?.ssc) && (parseFloat(studentDetails?.ssc)+'%')}</div>
         </Col>
         <Col md={3} style={{ marginTop:'8px' }}>
             <div><b>Intermediate (% Marks):</b></div>
-            <div>{(studentDetails?.inter) && (studentDetails?.inter+'%')}</div>
+            <div>{(studentDetails?.inter) && (parseFloat(studentDetails?.inter)+'%')}</div>
         </Col>
         <Col md={2} style={{ marginTop:'8px' }}>
             <div><b>B.Tech/Degree (% Marks):</b></div>
-            <div>{(studentDetails?.degree) && (studentDetails?.degree+'%')}</div>
+            <div>{(studentDetails?.degree) && (parseFloat(studentDetails?.degree)+'%')}</div>
         </Col>
         <Col md={2} style={{ marginTop:'8px' }}>
             <div><b>Experience (in years):</b></div>
@@ -210,23 +210,23 @@ const ViewDetails = ({ data }) =>{
             <Col md={3}><div className="shortlist-exam-title"><b>TOEFL</b></div></Col>
             <Col md={3}>
                 <div style={{ margin:'5px' }}>
-                    <ScoreTemplate label="R" value={studentDetails?.toefl_r} colors={{ bg:Colors.primary, color:'#fff' }} />
+                    <ScoreTemplate label="R" value={parseFloat(studentDetails?.toefl_r)} colors={{ bg:Colors.primary, color:'#fff' }} />
                 </div>
                 <div style={{ margin:'5px' }}>
-                    <ScoreTemplate label="W" value={studentDetails?.toefl_w} colors={{ bg:Colors.warning, color:'#000' }} />
+                    <ScoreTemplate label="W" value={parseFloat(studentDetails?.toefl_w)} colors={{ bg:Colors.warning, color:'#000' }} />
                 </div>
             </Col>
             <Col md={3}>
                 <div style={{ margin:'5px' }}>
-                    <ScoreTemplate label="L" value={studentDetails?.toefl_l} colors={{ bg:Colors.danger, color:'#fff' }} />
+                    <ScoreTemplate label="L" value={parseFloat(studentDetails?.toefl_l)} colors={{ bg:Colors.danger, color:'#fff' }} />
                 </div>
                 <div style={{ margin:'5px' }}>
-                    <ScoreTemplate label="S" value={studentDetails?.toefl_s} colors={{ bg:Colors.secondary, color:'#fff' }} />
+                    <ScoreTemplate label="S" value={parseFloat(studentDetails?.toefl_s)} colors={{ bg:Colors.secondary, color:'#fff' }} />
                 </div>
             </Col>
             <Col md={3}>
                 <div style={{ marginTop:'15px' }}>
-                    <ScoreTemplate label="O" value={studentDetails?.toefl_o} colors={{ bg:Colors.success, color:'#fff' }} />
+                    <ScoreTemplate label="O" value={parseFloat(studentDetails?.toefl_o)} colors={{ bg:Colors.success, color:'#fff' }} />
                 </div>
             </Col>
           </Row>
@@ -236,23 +236,23 @@ const ViewDetails = ({ data }) =>{
             <Col md={3}><div  className="shortlist-exam-title"><b>IELTS</b></div></Col>
             <Col md={3}>
                 <div style={{ margin:'5px' }}>
-                    <ScoreTemplate label="R" value={studentDetails?.ielts_r} colors={{ bg:Colors.primary, color:'#fff' }} />
+                    <ScoreTemplate label="R" value={parseFloat(studentDetails?.ielts_r)} colors={{ bg:Colors.primary, color:'#fff' }} />
                 </div>
                 <div style={{ margin:'5px' }}>
-                    <ScoreTemplate label="W" value={studentDetails?.ielts_w} colors={{ bg:Colors.warning, color:'#000' }} />
+                    <ScoreTemplate label="W" value={parseFloat(studentDetails?.ielts_w)} colors={{ bg:Colors.warning, color:'#000' }} />
                 </div>
             </Col>
             <Col md={3}>
                 <div style={{ margin:'5px'}}>
-                    <ScoreTemplate label="L" value={studentDetails?.ielts_l} colors={{ bg:Colors.danger, color:'#fff' }} />
+                    <ScoreTemplate label="L" value={parseFloat(studentDetails?.ielts_l)} colors={{ bg:Colors.danger, color:'#fff' }} />
                 </div>
                 <div style={{ margin:'5px' }}>
-                    <ScoreTemplate label="S" value={studentDetails?.ielts_s} colors={{ bg:Colors.secondary, color:'#fff' }} />
+                    <ScoreTemplate label="S" value={parseFloat(studentDetails?.ielts_s)} colors={{ bg:Colors.secondary, color:'#fff' }} />
                 </div>
             </Col>
             <Col md={3}>
                 <div style={{ marginTop:'15px' }}>
-                    <ScoreTemplate label="O" value={studentDetails?.ielts_o} colors={{ bg:Colors.success, color:'#fff' }} />
+                    <ScoreTemplate label="O" value={parseFloat(studentDetails?.ielts_o)} colors={{ bg:Colors.success, color:'#fff' }} />
                 </div>
             </Col>
           </Row>
@@ -262,23 +262,23 @@ const ViewDetails = ({ data }) =>{
             <Col md={3}><div className="shortlist-exam-title"><b>PTE</b></div></Col>
             <Col md={3}>
                 <div style={{ margin:'5px' }}>
-                    <ScoreTemplate label="R" value={studentDetails?.pte_r} colors={{ bg:Colors.primary, color:'#fff' }} />
+                    <ScoreTemplate label="R" value={parseFloat(studentDetails?.pte_r)} colors={{ bg:Colors.primary, color:'#fff' }} />
                 </div>
                 <div style={{ margin:'5px' }}>
-                    <ScoreTemplate label="W" value={studentDetails?.pte_w} colors={{ bg:Colors.warning, color:'#000' }} />
+                    <ScoreTemplate label="W" value={parseFloat(studentDetails?.pte_w)} colors={{ bg:Colors.warning, color:'#000' }} />
                 </div>
             </Col>
             <Col md={3}>
                 <div style={{ margin:'5px' }}>
-                    <ScoreTemplate label="L" value={studentDetails?.pte_l} colors={{ bg:Colors.danger, color:'#fff' }} />
+                    <ScoreTemplate label="L" value={parseFloat(studentDetails?.pte_l)} colors={{ bg:Colors.danger, color:'#fff' }} />
                 </div>
                 <div style={{ margin:'5px' }}>
-                    <ScoreTemplate label="S" value={studentDetails?.pte_s} colors={{ bg:Colors.secondary, color:'#fff' }} />
+                    <ScoreTemplate label="S" value={parseFloat(studentDetails?.pte_s)} colors={{ bg:Colors.secondary, color:'#fff' }} />
                 </div>
             </Col>
             <Col md={3}>
                 <div style={{ marginTop:'15px' }}>
-                    <ScoreTemplate label="O" value={studentDetails?.pte_o} colors={{ bg:Colors.success, color:'#fff' }} />
+                    <ScoreTemplate label="O" value={parseFloat(studentDetails?.pte_o)} colors={{ bg:Colors.success, color:'#fff' }} />
                 </div>
             </Col>
           </Row>
@@ -288,13 +288,13 @@ const ViewDetails = ({ data }) =>{
                 <Col md={3}><div className="shortlist-exam-title"><b>Duolingo</b></div></Col>
                 <Col md={3}>
                     <div style={{ marginTop:'15px' }}>
-                        <ScoreTemplate label="O" value={studentDetails?.duolingo} colors={{ bg:Colors.success, color:'#fff' }} />
+                        <ScoreTemplate label="O" value={parseFloat(studentDetails?.duolingo)} colors={{ bg:Colors.success, color:'#fff' }} />
                     </div>
                 </Col>
                 <Col md={3}><div className="shortlist-exam-title"><b>GRE</b></div></Col>
                 <Col md={3}>
                     <div style={{ marginTop:'15px' }}>
-                        <ScoreTemplate label="O" value={studentDetails?.gre} colors={{ bg:Colors.success, color:'#fff' }} />
+                        <ScoreTemplate label="O" value={parseFloat(studentDetails?.gre)} colors={{ bg:Colors.success, color:'#fff' }} />
                     </div>
                 </Col>
             </Row>
