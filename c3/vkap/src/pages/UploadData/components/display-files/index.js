@@ -2,7 +2,7 @@ import React from "react";
 import { Icon, Row, Col } from "e-ui-react";
 
 const DisplayFiles = ({ uploadedList, addToBreadCrumb }) =>{
- return (<div>
+ return (<div className="mtop15p">
   {uploadedList?.length>0?(<Row>
     {uploadedList?.map((file,index)=>{
       return (<Col key={index} md={4}>

@@ -6,6 +6,7 @@ const BasicDetails = () =>{
  const [data, setData] = useState({
     userId: '',
     name: '',
+    userRole:'',
     email: '',
     mobile: ''
  });
@@ -13,6 +14,7 @@ const BasicDetails = () =>{
     let userAuthDetails = localStorage.getItem("USER_AUTH_DETAILS");
         userAuthDetails = JSON.parse(userAuthDetails);
     setData({ userId: userAuthDetails?.data?.userId, name: userAuthDetails?.data?.name, 
+        userRole: userAuthDetails?.data?.userRole,
         email: userAuthDetails?.data?.email, mobile: userAuthDetails?.data?.mobile
      });
  };
@@ -63,6 +65,9 @@ const BasicDetails = () =>{
     }}>
     {data?.name && (<div className="mtop15p">
         <TextBox name="name" label="Your Name" placeholder="Enter your Name" value={data?.name} />
+    </div>)}
+    {data?.userRole && (<div className="mtop15p">
+        <TextBox name="userRole" label="Account Type" placeholder="Enter User Role" value={data?.userRole} disabled />
     </div>)}
     {data?.email && (<div className="mtop15p">
         <TextBox name="email" label="Email Address" placeholder="Enter Email Address" value={data?.email} />
