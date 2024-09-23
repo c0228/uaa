@@ -112,19 +112,19 @@ $htmlContent = '
     '</div>
     <!-- Row #2 -->
     <div style="width:100%;background-color:#ddefff;float:left;">'.
-    StudentDetailCell('20%', 'SSC (%)', $ssc).
-    StudentDetailCell('20%', 'Intermediate (%)', $inter).
-    StudentDetailCell('19%', 'B.tech/Degree (%)', $degree).
+    StudentDetailCell('20%', 'SSC (%)', floatval($ssc)).
+    StudentDetailCell('20%', 'Intermediate (%)', floatval($inter)).
+    StudentDetailCell('19%', 'B.tech/Degree (%)', floatval($degree)).
     StudentDetailCell('16%', 'Employee Experience', $empExp.' years').
     StudentDetailCell('24%', 'Employee Experience (in Field)', $empExpField).
     '</div>
     <!-- Row #3 -->
     <div style="width:100%;background-color:#ddefff;float:left;">'.
-    StudentDetailCell('20%', 'TOEFL Score', $toeflScore).
-    StudentDetailCell('20%', 'IELTS Score', $ieltScore).
-    StudentDetailCell('19%', 'IELTS Score', $pteScore).
-    StudentDetailCell('16%', 'Duolingo Score', $duolingoScore).
-    StudentDetailCell('24%', 'GRE Score', $greScore).
+    StudentDetailCell('20%', 'TOEFL Score', floatval($toeflScore)).
+    StudentDetailCell('20%', 'IELTS Score', floatval($ieltScore)).
+    StudentDetailCell('19%', 'IELTS Score', floatval($pteScore)).
+    StudentDetailCell('16%', 'Duolingo Score', floatval($duolingoScore)).
+    StudentDetailCell('24%', 'GRE Score', floatval($greScore)).
     '</div>
     
     <!-- Table -->
@@ -160,6 +160,12 @@ $htmlContent = '
           TblBodyCell('5%', '<a href="'.$data[$i]->{"courseURL"}.'">Visit</a>').
           '</div>';
       }
+  } else {
+    $htmlContent.='<div style="width:99.1%;height:62px;border:1px solid #ccc;float:left;">
+           <div style="padding-top:15px;">
+               <div align="center" style="font-size:12px;padding-bottom:2px;"><b>No Data Available</b></div>
+           </div>
+         </div>';
   }
    
 $htmlContent.= '</div></div>';
