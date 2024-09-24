@@ -6,7 +6,7 @@ import Contact from './../Home/Components/Contact/index.js';
 import Footer from '@Templates/Footer/index.js';
 
 const Events = () =>{
- useEffect(()=>{ document.body.style.backgroundColor='#dbf3de'; },[]);
+ useEffect(()=>{ document.body.style.backgroundColor='#fffbd5'; },[]);
  const data = [
     /*{
     "title": (<div>Friday, Sep 13<sup>th</sup></div>),
@@ -32,7 +32,7 @@ const Events = () =>{
     "data":['5.png']
  },{
     "title": (<div>Sunday, Sep 29<sup>th</sup></div>),
-    "data":['13.png']
+    "data":['14.png','13.png']
  },{
     "title": (<div>Monday, Sep 30<sup>th</sup></div>),
     "data":['13.png']
