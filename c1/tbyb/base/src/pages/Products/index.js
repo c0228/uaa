@@ -8,6 +8,7 @@ import { BeerData, CocktailData, WineData, DraftData, SodaNJuiceData, SnacksData
 import './index.css';
 
 const Products = () =>{
+  useEffect(()=>{ document.body.style.backgroundColor='#fffacb'; },[]);
   {/*
  const MenuContainer = ({ title, data, bgColor}) =>{
   return (<div style={{ marginBottom:'25px' }}>
@@ -48,9 +49,9 @@ const Products = () =>{
       return (<div key={i}>
        <Row>
       <Col md={12}>
-      <div  style={{ boxShadow:'2px 2px 2px 2px #aaa', fontFamily:'Metropolis', letterSpacing:'1px', color:'#fff', 
+      <div  style={{ fontFamily:'Metropolis', letterSpacing:'1px', color:'#fff', 
       marginBottom:'20px', padding:'10px', textTransform:'uppercase', 
-        backgroundColor:'#555' }}>{label}</div>
+        backgroundColor:'#333' }}>{label}</div>
       </Col>
     </Row>
     <Row>

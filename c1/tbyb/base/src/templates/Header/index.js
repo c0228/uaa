@@ -11,17 +11,17 @@ const Header = ({ activeId, menulinks })=>{
  return (<>
  <div className="upper-header">
     <div className="upper-header-flex">
-      <Icon type="FontAwesome" name="fa-phone-square" size={20} color="#5d607f" className="desktop-view" />
+      <Icon type="FontAwesome" name="fa-phone-square" size={20} color="#fff" className="desktop-view" />
       <span className="desktop-view txt-phone-number">+1 (919)-267-4476</span>
       <span className="desktop-view separator"></span>
-      <Icon type="FontAwesome" name="fa-envelope" size={16} color="#5d607f" className="desktop-view padLeft15p" />
+      <Icon type="FontAwesome" name="fa-envelope" size={16} color="#fff" className="desktop-view padLeft15p" />
       <span className="desktop-view txt-email">contact@thebackyardbarnc.com</span>
       <div className="mobile-view-center desktop-view-right padRight15p">
         <a target="_blank" href="https://www.facebook.com/share/KtPEe3kDySeMTcwV/?mibextid=LQQJ4d">
-          <Icon type="FontAwesome" name="fa-facebook" size={16} color="#5d607f" className="padLeft5p padRight5p" />
+          <Icon type="FontAwesome" name="fa-facebook" size={16} color="#fff" className="padLeft5p padRight5p" />
         </a>
         <a target="_blank" href="https://www.instagram.com/thebackyardbarnc?igsh=MWxycHR0bmo2eGoxZw==">
-          <Icon type="FontAwesome" name="fa-instagram" size={16} color="#5d607f" className="padLeft5p padRight5p" />
+          <Icon type="FontAwesome" name="fa-instagram" size={16} color="#fff" className="padLeft5p padRight5p" />
         </a>
       </div>
     </div>

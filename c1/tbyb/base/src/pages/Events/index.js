@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { ContainerFluid, Row, Col } from "e-ui-react";
 import Header from '@Templates/Header/index.js';
 import { HeaderMenu } from '@Config/HeaderMenu.js';
@@ -6,27 +6,36 @@ import Contact from './../Home/Components/Contact/index.js';
 import Footer from '@Templates/Footer/index.js';
 
 const Events = () =>{
- const data = [{
+ useEffect(()=>{ document.body.style.backgroundColor='#dbf3de'; },[]);
+ const data = [
+    /*{
     "title": (<div>Friday, Sep 13<sup>th</sup></div>),
     "data":['9.png']
  },{
     "title": (<div>Saturday, Sep 14<sup>th</sup></div>),
     "data":['12.png','8.png']
  },{
-    "title": (<div>Saturday, Sep 20<sup>th</sup></div>),
+    "title": (<div>Friday, Sep 20<sup>th</sup></div>),
     "data":['7.png']
  },{
     "title": (<div>Saturday, Sep 21<sup>st</sup></div>),
     "data":['10.png']
- },{
-    "title": (<div>Saturday, Sep 27<sup>th</sup></div>),
+ }, */
+ {
+    "title": (<div>Thursday, Sep 26<sup>th</sup></div>),
+    "data":['11.png','13.png']
+ },,{
+    "title": (<div>Friday, Sep 27<sup>th</sup></div>),
     "data":['6.png']
  },{
     "title": (<div>Saturday, Sep 28<sup>th</sup></div>),
     "data":['5.png']
  },{
-    "title": (<div>Saturday, Sep 29<sup>th</sup></div>),
-    "data":['11.png']
+    "title": (<div>Sunday, Sep 29<sup>th</sup></div>),
+    "data":['13.png']
+ },{
+    "title": (<div>Monday, Sep 30<sup>th</sup></div>),
+    "data":['13.png']
  }];
  return (<div>
     <div style={{ position:'absolute', top:'40px' }}>
@@ -46,15 +55,18 @@ const Events = () =>{
                     return (<div key={index} style={{ marginBottom:'35px' }}>
                         <Row>
                             <Col md={12}>
-                            <div><h4 style={{ paddingBottom:'15px', borderBottom:'1px solid #000'}}><b>{dat?.title}</b>
-                                </h4></div>
+                            <div  style={{ letterSpacing:'1px', color:'#fff', 
+       padding:'10px', textTransform:'uppercase', 
+        backgroundColor:'#333' }}><b>{dat?.title}</b></div>
+                            {/*<div><h4 style={{ paddingBottom:'15px', borderBottom:'1px solid #000'}}><b>{dat?.title}</b>
+                                </h4></div>*/}
                             </Col>
                         </Row>
                         <Row>
                             {dat?.data?.map((d,i)=>{
                               return (<Col key={i} md={3}>
                                 <img src={process.env.PROJECT_URL+'assets/specials/'+d} 
-                  style={{ height:'500px', marginTop:'25px', borderRadius:'8px', boxShadow:'2px 2px 2px 2px #808080'}} />
+                  style={{ height:'500px', marginTop:'25px', borderRadius:'8px', border:'3px solid #333' }} />
                               </Col>);
                             })}
                         </Row>

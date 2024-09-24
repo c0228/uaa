@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { ContainerFluid, Row, Col, Card, Pill, ProgressCircle, Colors } from "e-ui-react";
 import Header from '@Templates/Header/index.js';
 import { HeaderMenu } from '@Config/HeaderMenu.js';
@@ -7,6 +7,7 @@ import Footer from '@Templates/Footer/index.js';
 import { data } from './data.js';
 
 const Specials = () =>{
+ useEffect(()=>{ document.body.style.backgroundColor='#f0dff3'; },[]);
  const Items = ({ data })=>{
   return (<div style={{ marginBottom:'45px', paddingLeft:'12px', paddingRight:'15px' }}>
     <Row>
