@@ -18,39 +18,39 @@ class UniversityAccountModule {
   "%' OR c.initDeposit LIKE '%".$search."%' OR c.appFees LIKE '%".$search."%' OR c.deadline LIKE '%".$search."%');";
  }
  function query_viewAll_universities($universities,$country,$search,$start,$end){
-  $sql="SELECT JSON_OBJECT(".
-        "'totalCount', (SELECT count(*) FROM uni_account_info), 'start', ".$start.", 'end', ".$end.",".
-        "'data', (SELECT JSON_ARRAYAGG( JSON_OBJECT(".
-            "'universityId', u.universityId, 'university', u.university, 'location', u.location, 'country', u.country,".
-            "'toefl_o', u.toefl_o, 'toefl_r', u.toefl_r, 'toefl_l', u.toefl_l, 'toefl_w', u.toefl_w,'toefl_s', u.toefl_s,".
-            "'pte_o', u.pte_o, 'pte_r', u.pte_r, 'pte_l', u.pte_l, 'pte_w', u.pte_w, 'pte_s', u.pte_s, 'ielts_o', u.ielts_o,".
-            "'ielts_r', u.ielts_r, 'ielts_l', u.ielts_l, 'ielts_w', u.ielts_w, 'ielts_s', u.ielts_s, 'duolingo', u.duolingo,".
-            "'gre', u.gre, 'gpa', u.gpa, 'intake', u.intake,".
-            "'courses', (SELECT JSON_OBJECT(".
-                  "'totalCount', (SELECT count(*) FROM uni_courses_info c WHERE c.universityId=u.universityId),".
-                  "'data', (SELECT JSON_ARRAYAGG(JSON_OBJECT(".
-                          "'courseId', c.courseId, 'course', c.course, 'courseType', c.courseType, 'duration', c.duration,".
-                          "'fees', c.fees,'leavingExpenses', c.leavingExpenses, 'initDeposit', c.initDeposit, 'appFees', c.appFees,".
-                          "'deadline', c.deadline, 'courseURL', c.courseURL".
-                  ")) FROM uni_courses_info c WHERE c.universityId=u.universityId )".
-            ")))".
-        ") FROM uni_account_info u WHERE u.country='".$country."' AND ".
-        "(u.universityId LIKE '%".$search."%'  OR u.university LIKE '%".$search."%'  OR u.location LIKE '%".$search.
-        "%' OR u.country LIKE '%".$search."%' OR u.toefl_o LIKE '%".$search."%' OR u.toefl_r LIKE '%".$search.
-        "%' OR u.toefl_l LIKE '%".$search."%' OR u.toefl_w LIKE '%".$search."%' OR u.toefl_s LIKE '%".$search.
-        "%' OR u.pte_o LIKE '%".$search."%' OR u.pte_r LIKE '%".$search."%' OR u.pte_l LIKE '%".$search.
-        "%' OR u.pte_w LIKE '%".$search."%' OR u.pte_s LIKE '%".$search."%' OR u.ielts_o LIKE '%".$search.
-        "%' OR u.ielts_r LIKE '%".$search."%' OR u.ielts_l LIKE '%".$search."%' OR u.ielts_w LIKE '%".$search.
-        "%' OR u.ielts_s LIKE '%".$search."%' OR u.duolingo LIKE '%".$search."%' OR u.gre LIKE '%".$search.
-        "%' OR u.gpa LIKE '%".$search."%' OR u.intake LIKE '%".$search."%' ";
+  $sql="SELECT JSON_OBJECT('totalCount', (SELECT count(*) FROM uni_account_info), ".
+      "'start', ".$start.", 'end', ".$end.",".
+      "'data', (SELECT JSON_ARRAYAGG(ud) FROM (".
+                  "SELECT JSON_OBJECT('universityId', u.universityId, 'university', u.university, 'location', u.location, ".
+                  "'country', u.country, 'toefl_o', u.toefl_o, 'toefl_r', u.toefl_r, 'toefl_l', u.toefl_l, 'toefl_w', u.toefl_w, ".
+                  "'toefl_s', u.toefl_s, 'pte_o', u.pte_o, 'pte_r', u.pte_r, 'pte_l', u.pte_l, 'pte_w', u.pte_w, 'pte_s', u.pte_s, ".
+                  "'ielts_o', u.ielts_o, 'ielts_r', u.ielts_r, 'ielts_l', u.ielts_l, 'ielts_w', u.ielts_w, 'ielts_s', u.ielts_s, ".
+                  "'duolingo', u.duolingo, 'gre', u.gre, 'gpa', u.gpa, 'intake', u.intake, ".
+                  "'courses', (SELECT JSON_OBJECT(".
+                                    "'totalCount', (SELECT count(*) FROM uni_courses_info c WHERE c.universityId=u.universityId),".
+                                    "'data', (SELECT JSON_ARRAYAGG(".
+                                              "JSON_OBJECT('courseId', c.courseId, 'course', c.course, 'courseType', c.courseType,".
+                                                  "'duration', c.duration, 'fees', c.fees, 'leavingExpenses', c.leavingExpenses, ".
+                                                  "'initDeposit', c.initDeposit, 'appFees', c.appFees, 'deadline', c.deadline, ".
+                                                  "'courseURL', c.courseURL)".
+                                            ") FROM uni_courses_info c WHERE c.universityId = u.universityId".
+                ")))) AS ud FROM uni_account_info u WHERE u.country = '".$country."' ";
+  if(strlen($search)>0){
+    $sql.="AND (u.universityId LIKE '%".$search."%'  OR u.university LIKE '%".$search."%'  OR u.location LIKE '%".$search.
+          "%' OR u.country LIKE '%".$search."%' OR u.toefl_o LIKE '%".$search."%' OR u.toefl_r LIKE '%".$search.
+          "%' OR u.toefl_l LIKE '%".$search."%' OR u.toefl_w LIKE '%".$search."%' OR u.toefl_s LIKE '%".$search.
+          "%' OR u.pte_o LIKE '%".$search."%' OR u.pte_r LIKE '%".$search."%' OR u.pte_l LIKE '%".$search.
+          "%' OR u.pte_w LIKE '%".$search."%' OR u.pte_s LIKE '%".$search."%' OR u.ielts_o LIKE '%".$search.
+          "%' OR u.ielts_r LIKE '%".$search."%' OR u.ielts_l LIKE '%".$search."%' OR u.ielts_w LIKE '%".$search.
+          "%' OR u.ielts_s LIKE '%".$search."%' OR u.duolingo LIKE '%".$search."%' OR u.gre LIKE '%".$search.
+          "%' OR u.gpa LIKE '%".$search."%' OR u.intake LIKE '%".$search."%')";
+  }
   if(strlen($universities)>0){
     $sql.=" OR u.universityId IN (".$universities.") ";
   }
-  $sql.=") LIMIT ".$start.",".$end.")";
-  $sql.=") As universityDetails;";
+  $sql.=" LIMIT ".$start.",".$end.") AS result) ) As universityDetails";
   return $sql;
  }
-
  function query_view_countries(){
   return "SELECT DISTINCT(country) FROM uni_account_info ORDER BY country ASC;";
  }
