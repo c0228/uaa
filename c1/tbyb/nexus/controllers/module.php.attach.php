@@ -84,7 +84,7 @@ $mpdf->WriteHTML($html);
 // $mpdf->Output('output.pdf', 'I');
 
 // Define the directory path for the output PDF file
-$pdfDirectory = __DIR__ . '/../data/quotations/';
+$pdfDirectory = __DIR__ . '/../../uploads/quotations/';
 $pdfFilePath = $pdfDirectory . date('YmdHis').'-'.$quoteBy.'.pdf';
 
 // Create the directory if it does not exist
