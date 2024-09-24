@@ -1,6 +1,6 @@
 node_modules
 dist
+uploads
 nexus/vendor
 nexus/logs
-uploads
 #
