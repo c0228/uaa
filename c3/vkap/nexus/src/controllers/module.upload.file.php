@@ -12,7 +12,7 @@
   header('Content-Type: application/json; charset=utf-8');
   header('Access-Control-Allow-Origin: *');
   $response = array();
-  $target_dir = './../../uploads/';
+  $target_dir = './../../../uploads/excels/';
   if(isset($_POST["TARGET_DIRECTORY"])){
     $target_dir = $target_dir.$_POST["TARGET_DIRECTORY"];
   }

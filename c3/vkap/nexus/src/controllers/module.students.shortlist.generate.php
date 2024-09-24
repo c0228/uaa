@@ -178,7 +178,7 @@ $mpdf->watermarkTextAlpha = 0.1; // Set watermark transparency
 $mpdf->WriteHTML($htmlContent);
 
 // Define the directory path for the output PDF file
-$pdfDirectory = __DIR__ . '/../../data/quotations/';
+$pdfDirectory = __DIR__ . '/../../../uploads/quotations/';
 $pdfFileName =  date('YmdHis').'-'.$studentFullName.'.pdf';
 $pdfFilePath = $pdfDirectory.$pdfFileName;
 

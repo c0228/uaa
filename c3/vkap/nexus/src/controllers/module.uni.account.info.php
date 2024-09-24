@@ -13,7 +13,7 @@ require_once './../utils/FileManager.php';
 
 require './../../vendor/autoload.php';
 
-$target_dir = './../../uploads';
+$target_dir = './../../../uploads/excels/';
 
 function uploadUniversityData($fileName, $jsonData, $sheetName){
   global $universityAccountModule;
@@ -142,6 +142,8 @@ else if($_GET["action"]=='UNIVERSITY_UPLOAD_FILES' && $_SERVER['REQUEST_METHOD']
 else if($_GET["action"]=='UNIVERSITY_UPLOAD_LOGS' && $_SERVER['REQUEST_METHOD']=='GET'){
   if(isset($_GET["fileName"])){
     $fileName = ''; if(isset($_GET["fileName"])){ $fileName=$_GET["fileName"]; }
+    $start = ''; if(isset($_GET["start"])){ $start=$_GET["start"]; }
+    $end = ''; if(isset($_GET["end"])){ $end=$_GET["end"]; }
     // Output Display
     $result = array();
 
@@ -149,7 +151,7 @@ else if($_GET["action"]=='UNIVERSITY_UPLOAD_LOGS' && $_SERVER['REQUEST_METHOD']=
     $data1 = json_decode( $database->getJSONData($query1) );
     $result["totalCount"] = $data1[0]->{"totalCount"};
 
-    $query2 = $excelLogModule->query_view_uploadLogs($fileName);
+    $query2 = $excelLogModule->query_view_uploadLogs($fileName,$start,$end);
     $result["data"] = json_decode ( $database->getJSONData($query2) );
 
     echo json_encode( $result );
