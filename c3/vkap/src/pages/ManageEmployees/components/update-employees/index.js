@@ -58,7 +58,9 @@ const UpdateEmployeeForm = ({ data, initialize }) =>{
     }}
     >
     <div>
-        <TextBox name="name" label="Employee Name" placeholder="Enter Employee Name" value={updateEmployeeData?.name} />
+        <TextBox name="name" label="Employee Name" placeholder="Enter Employee Name" 
+            validation={{ onSubmit:{ textTransform: 'SENTENCE_CASE' } }}  
+            value={updateEmployeeData?.name} />
     </div>
     
     <div className="mtop15p">
@@ -77,7 +79,22 @@ const UpdateEmployeeForm = ({ data, initialize }) =>{
     </div>
 
     <div className="mtop15p">
-        <TextBox name="email" label="Email Address" placeholder="Enter Email Address" value={updateEmployeeData?.email} />
+        <TextBox name="email" label="Email Address" placeholder="Enter Email Address" 
+        validation={{
+            onSubmit:{ textTransform: 'LOWER_CASE' },
+            email:{
+                formatCheck: true,
+                isEmailExist:{ 
+                    // If Email Already Exists, Returns 'EXIST'
+                    // If Email not exists, Returns 'NOT_EXIST'
+                    url: process.env.NEXUS_URL + "user/validate/email",
+                    method:"POST",
+                    value:"NOT_EXIST", // When Value not matches - throws Error Message
+                    errorMessage:"This Email was already registered. Please try to login into the Account"
+                }
+            }
+        }} 
+        value={updateEmployeeData?.email} />
     </div>
     <div className="mtop15p">
         <TextBox name="mobile" label="Mobile Number (Without +91)" placeholder="Enter Mobile Number" value={updateEmployeeData?.mobile} />

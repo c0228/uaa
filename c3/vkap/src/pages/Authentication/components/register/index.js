@@ -38,6 +38,7 @@ const Register = ()=>{
   return (<div className="mtop15p">
   <TextBox name="name" label="Name" placeholder="Enter your Name" 
       validation={{
+          onSubmit:{ textTransform: 'SENTENCE_CASE' },
           required:{
               value: true,
               errorMessage:"This is a Mandatory Field"
@@ -53,9 +54,9 @@ const Register = ()=>{
  
  const RegEmail = ()=>{
     return (<div className="mtop15p">
-    <Email name="email"
-      validation={
-         {
+    <Email name="email" label="Email Address" placeholder="Enter Email Address" 
+      validation={{
+        onSubmit:{ textTransform: 'LOWER_CASE' },
         email:{
             formatCheck: true,
             isEmailExist:{ 
@@ -67,8 +68,7 @@ const Register = ()=>{
                 errorMessage:"This Email was already registered. Please try to login into the Account"
             }
         }
-    }
-    } />
+      }} />
     </div>);
  };
 

@@ -24,6 +24,7 @@ const Login = ({ setShowForgotPwd })=>{
  const LoginEmail = ()=>{
   console.log("process.env.NEXUS_URL", process.env.NEXUS_URL);
   return (<Email name="email" validation={{
+    onSubmit:{ textTransform: 'LOWER_CASE' },
     email:{
         formatCheck: true,
         isEmailExist:{ 

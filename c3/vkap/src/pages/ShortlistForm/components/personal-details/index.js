@@ -17,6 +17,7 @@ const PersonalDetails = () =>{
         <Col md={3}>
           <TextBox name="fullName" label="Full Name" placeholder="Enter your Full Name"
             validation={{
+              onSubmit:{ textTransform: 'SENTENCE_CASE' },
               required:{
                 value: true,
                 errorMessage:"This is a Mandatory Field"
@@ -26,6 +27,7 @@ const PersonalDetails = () =>{
         <Col md={3}>
           <Email name="email" label="Email Address" placeholder="Enter your Email Address"
               validation={{
+                onSubmit:{ textTransform: 'LOWER_CASE' },
                 email:{
                   formatCheck: true
                 }

@@ -64,13 +64,15 @@ const BasicDetails = () =>{
         triggerReset();
     }}>
     {data?.name && (<div className="mtop15p">
-        <TextBox name="name" label="Your Name" placeholder="Enter your Name" value={data?.name} />
+        <TextBox name="name" label="Your Name" placeholder="Enter your Name" value={data?.name} 
+            validation={{ onSubmit:{ textTransform: 'SENTENCE_CASE' } }} />
     </div>)}
     {data?.userRole && (<div className="mtop15p">
         <TextBox name="userRole" label="Account Type" placeholder="Enter User Role" value={data?.userRole} disabled />
     </div>)}
     {data?.email && (<div className="mtop15p">
-        <TextBox name="email" label="Email Address" placeholder="Enter Email Address" value={data?.email} />
+        <TextBox name="email" label="Email Address" placeholder="Enter Email Address" value={data?.email} 
+            validation={{ onSubmit:{ textTransform: 'LOWER_CASE' } }} />
     </div>)}
     {data?.mobile && (<div className="mtop15p">
         <TextBox name="mobile" label="Mobile Number (Without +91)" placeholder="Enter Mobile Number" value={data?.mobile} />
