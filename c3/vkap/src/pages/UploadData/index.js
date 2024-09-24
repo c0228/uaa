@@ -83,7 +83,7 @@ const UploadData = () =>{
         <Col md={6}>
          <Card padding={15}>
           <SubHeaderTitle title="Excel Sheet Template" />
-          <div style={{ height:'45vh' }}>
+          <div style={{ minHeight:'45vh' }}>
             <div><b>Instructions:</b></div>
             <div>
                 <ul>

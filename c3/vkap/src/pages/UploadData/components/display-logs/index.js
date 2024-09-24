@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { Card, Row, Col, TablePagination, searchTableTerm  } from "e-ui-react";
+import { Card, Row, Col, TablePagination, searchTableTerm, cleanJSONString  } from "e-ui-react";
 import UniCurrentDataDisplayer from "./components/UniCurrentDataDisplayer/index.js";
 import UniPreviousDataDisplayer from "./components/UniPreviousDataDisplayer/index.js";
 import CourseCurrentDataDisplayer from "./components/CourseCurrentDataDisplayer/index.js";
@@ -34,7 +34,9 @@ const DisplayLogs = ({ selectedFile }) =>{
     key: 'currentData', 
     width:'38%',
     render: (row, searchTerm) =>{
-      const data = row?.readable_text && JSON.parse(row?.readable_text);
+      console.log("currentData [pages]: ", row?.readable_text);
+      let data = (row?.readable_text) && cleanJSONString( row?.readable_text );
+          data = JSON.parse(data);
       return (<div>
       {row?.sheetName === 'UNIVERSITIES' && (<UniCurrentDataDisplayer data={data?.["CURRENT_DATA"]} searchTerm={searchTerm} />)}
       {row?.sheetName === 'COURSES' && (<CourseCurrentDataDisplayer data={data?.["CURRENT_DATA"]} searchTerm={searchTerm} />)}
@@ -46,7 +48,8 @@ const DisplayLogs = ({ selectedFile }) =>{
     key: 'previousData', 
     width:'38%',
     render: (row, searchTerm) =>{
-      const data = row?.readable_text && JSON.parse(row?.readable_text);
+      let data = (row?.readable_text) && cleanJSONString( row?.readable_text );
+          data = JSON.parse(data);
       return (<div>
       {row?.sheetName === 'UNIVERSITIES' && 
             row?.operation==='U' && 
@@ -61,45 +64,6 @@ const DisplayLogs = ({ selectedFile }) =>{
   <TablePagination header={{ backgroundColor:'#f1f1f1', color:'#000', columns: columns }} pageSize={10} api={{
     url: process.env.NEXUS_URL+"university/files/logs",
     method:"GET", params:{ fileName:selectedFile } }} />
-    {/*
-  <div className="table-responsive log-table-display">
-   <table className="table log-table">
-   <thead>
-      <tr style={{ backgroundColor:'#f1f1f1' }}>
-        <td className="col-2pc"><b>#</b></td>
-        <td className="col-3pc"><b>Sheet Name</b></td>
-        <td className="col-5pc"><b>Operation</b></td>
-        <td className="col-35pc"><b>Current Data</b></td>
-        <td className="col-35pc"><b>Previous Data</b></td>
-      </tr>
-    </thead>
-    <tbody>
-        {fileLogs?.map((fileLog, index)=>{
-         const data = fileLog?.readable_text && JSON.parse(fileLog?.readable_text);
-         console.log("data: ", data);
-         return (<tr key={index}>
-            <td className="col-2pc">{index+1}</td>
-            <td className="col-3pc">{fileLog?.sheetName}</td>
-            <td className="col-5pc">
-                {fileLog?.operation==='C'&& 'CREATE'}
-                {fileLog?.operation==='U'&& 'UPDATE'}
-            </td>
-            <td className="col-35pc text-wrap">
-            {fileLog?.sheetName === 'UNIVERSITIES' && (<UniCurrentDataDisplayer data={data?.["CURRENT_DATA"]} />)}
-            {fileLog?.sheetName === 'COURSES' && (<CourseCurrentDataDisplayer data={data?.["CURRENT_DATA"]} />)}
-            </td>
-            <td className="col-35pc text-wrap">
-            {fileLog?.sheetName === 'UNIVERSITIES' && 
-            fileLog?.operation==='U' && 
-            (<UniPreviousDataDisplayer data={data?.["PREVIOUS_DATA"]?.[0]} />)}
-            {fileLog?.sheetName === 'COURSES' && fileLog?.operation==='U' && 
-            (<CoursePreviousDataDisplayer data={data?.["PREVIOUS_DATA"]?.[0]} />)}
-            </td>
-          </tr>);
-        })}
-    </tbody>
-   </table>
-  </div> */}
  </div>);
 };
 
