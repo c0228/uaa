@@ -56,7 +56,9 @@ const FoodTrucks = () =>{
     <div style={{ marginBottom:'35px' }}>
     <ContainerFluid>
         <Row>
-            <Col md={4}></Col>
+            <Col md={4}>
+               <img src={process.env.PROJECT_URL+"assets/food-truck/1.png"} style={{ width:'90%', height:'auto' }} />
+            </Col>
             <Col md={4}>
             <table style={{ width:'100%' }}>
                 <tbody>
@@ -74,7 +76,9 @@ const FoodTrucks = () =>{
                 </tbody>
             </table>
             </Col>
-            <Col md={4}></Col>
+            <Col md={4}>
+               <img src={process.env.PROJECT_URL+"assets/food-truck/2.png"} style={{ width:'90%', height:'auto' }} />
+            </Col>
         </Row>
     </ContainerFluid>
     </div>
