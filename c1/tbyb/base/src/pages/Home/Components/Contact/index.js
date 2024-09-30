@@ -20,7 +20,7 @@ const Contact = ()=>{
                        Rest assured, we will diligently assess your requirements and reply to your needs.
                        Please expect to hear back from us within 24-48 hours with the requested information. In the meantime, if you have 
                        any additional questions or specifications, feel free to reach out to us directly.
-                       Thank you for considering us for your [product/service] needs. We look forward to the opportunity to serve you.
+                       We look forward to the opportunity to serve you.
                    </div>
                    </>)}
                    {!success && (<>

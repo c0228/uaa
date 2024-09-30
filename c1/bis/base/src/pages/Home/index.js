@@ -1,13 +1,10 @@
 import React, { useState } from "react";
-import { ContainerFluid, Row, Col, Form, TextBox, TextArea, Button, HorizontalStaticMenu, Pill, Colors  } from "e-ui-react";
+import { ContainerFluid, Row, Col, Icon, Button, HorizontalStaticMenu, Pill, Colors  } from "e-ui-react";
 import Header from '@Templates/Header/index.js';
 import { HeaderMenu } from '@Config/HeaderMenu.js';
 import Employees from './components/Employees/index.js';
 import Employers from './components/Employers/index.js';
 import FeaturedServices from './components/FeaturedServices/index.js';
-import SplitContent from './components/SplitContent/index.js';
-import ContactUs from './components/ContactUs/index.js';
-import Footer from '@Templates/Footer/index.js';
 
 const Home = ()=>{
  const TagLine = () =>{
@@ -60,15 +57,6 @@ const Home = ()=>{
     <FeaturedServices />
  </div>
 
- <div className="p-5">
-    <SplitContent />   
- </div>
-
- <div className="pt-5 pb-2" style={{ backgroundColor:'#000040', color:'#fff' }}>
-    <ContactUs />     
- </div>
-    
- <Footer />
  </>);
 };
 

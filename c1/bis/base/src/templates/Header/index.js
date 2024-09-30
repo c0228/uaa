@@ -13,14 +13,13 @@ const Header = ({ activeId, menulinks })=>{
     <div style={{ width:'80%' }}>
     <a href="#" style={{ textDecoration:'none' }}>
       <div style={{ display:'flex', }}>
-        <img src="./assets/images/icon.png" style={{ width: '34px', height:'32px', marginTop:'5px' }}/>
+        <img src="./assets/images/icon.png" style={{ backgroundColor:'#000040', borderRadius:'50%', border:'2px solid #333', 
+          padding:'3px', width: '40px', height:'40px', marginTop:'5px', boxShadow:'2px 2px 2px 2px #808080' }}/>
       
-        <div style={{ marginLeft:'8px', width:'120px' }}>
-          <div style={{ color:'#a60018',fontSize:'15px',fontFamily: 'NewtonExtraBold',letterSpacing:'0.8px' }}>
-            <b>W<span style={{ color:'#000' }}>ORK</span> D<span style={{ color:'#000' }}>AY</span></b>
-          </div>
-          <div style={{ marginLeft:'2px',color:'#a60018',fontFamily:'MetropolisBold',fontSize:'12px',letterSpacing:'0.8px' }}>
-            <b>C<span style={{ color:'#000' }}>ONSULTING</span></b></div>
+        <div style={{ marginLeft:'8px' }}>
+          <div style={{ letterSpacing:'1px', marginTop:'10px', marginLeft:'2px',color:'#000040',fontFamily:'BloomsFree', 
+            fontSize:'24px',letterSpacing:'0.8px' }}>
+            Broadway Info Services</div>
         </div>
       </div>
     </a>
