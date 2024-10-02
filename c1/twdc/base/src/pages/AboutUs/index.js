@@ -5,13 +5,16 @@ import { HeaderMenu } from '@Config/HeaderMenu.js';
 import Footer from '@Templates/Footer/index.js';
 
 const AboutUs = ()=>{
- return (<>
- <Header menulinks={HeaderMenu} activeId="AboutUs" />
- <div align="center" style={{ backgroundColor:'#eee', padding:'15px' }}>
+ const Title = () =>{
+  return (<div align="center" style={{ backgroundColor:'#000040', color:'#fff', padding:'15px' }}>
     <h4 style={{ textTransform:'uppercase', marginTop:'6px', fontSize:'23px', fontFamily:'MetropolisBold' }}>
         <b>About Work day Consultancy</b>
     </h4>
- </div>
+ </div>);
+ };
+ return (<>
+ <Header menulinks={HeaderMenu} activeId="AboutUs" />
+ <Title />
  <div style={{ fontSize:'16px', lineHeight:'32px' }}>
  <div style={{ marginTop:'25px', paddingBottom:'55px' }}>
 
