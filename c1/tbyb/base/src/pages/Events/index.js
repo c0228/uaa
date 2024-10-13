@@ -1,42 +1,85 @@
-import React, { useEffect } from "react";
-import { ContainerFluid, Row, Col } from "e-ui-react";
+import React, { useState, useEffect } from "react";
+import { ContainerFluid, Row, Col, getDaysOfWeekInMonth, formatDate } from "e-ui-react";
 import Header from '@Templates/Header/index.js';
 import { HeaderMenu } from '@Config/HeaderMenu.js';
 import Contact from './../Home/Components/Contact/index.js';
 import Footer from '@Templates/Footer/index.js';
 
+const fixedEvents = {
+"SUNDAY":["fixed/1.png"],
+"MONDAY":["fixed/1.png"],
+"TUESDAY":["fixed/3.png"],
+"WEDNESDAY":["fixed/6.png"],
+"THURSDAY":["fixed/1.png","fixed/2.png"],
+"FRIDAY":["fixed/5.png"],
+"SATURDAY":["fixed/4.png"]
+};
+
+const movableEvents = {
+ "2024-10-12":["movable/oct-12-1.png"],
+ "2024-10-13":["movable/oct-13-1.png"],
+ "2024-10-17":["movable/oct-17-1.png"],
+ "2024-10-18":["movable/oct-18-1.png"],
+ "2024-10-19":["movable/oct-19-1.png"],
+ "2024-10-25":["movable/oct-25-1.png"],
+ "2024-10-26":["movable/oct-26-1.png","movable/oct-26-2.png"]
+};
+
+// Function to remove previous dates from movableEvents
+const removePreviousDates = (events) => {
+    const today = new Date(); // Get today's date
+    const todayString = today.toISOString().split('T')[0]; // Convert to YYYY-MM-DD format
+
+    // Create a new object with filtered dates
+    const filteredEvents = Object.fromEntries(
+        Object.entries(events).filter(([date]) => date >= todayString)
+    );
+
+    return filteredEvents;
+};
+
+function mergeEvents(year, month, fixedEvents, movableEvents) {
+ const dayOfWeeks = Object.keys(fixedEvents);
+ console.log(dayOfWeeks);
+ const events = {};
+ dayOfWeeks.map((dayOfWeek,index)=>{
+    const eventDates = getDaysOfWeekInMonth(year, month, dayOfWeek,'AFTER');
+    eventDates?.map((eventDate,index)=>{
+        events[eventDate] = fixedEvents?.[dayOfWeek];
+    });
+ });
+ console.log(events);
+ const latestMovableEvents = removePreviousDates(movableEvents);
+ for (const date in latestMovableEvents) {
+    if (events[date]) {
+        // If the date exists in both, concatenate the arrays
+        events[date] = [...events[date], ...movableEvents[date]];
+    } else {
+        // If the date only exists in movableEvents, add it
+        events[date] = movableEvents[date];
+    }
+ }
+ console.log(events);
+  // Convert the object into an array of [key, value] pairs
+  const entries = Object.entries(events);
+
+  // Sort the array by the date (key)
+  entries.sort((a, b) => new Date(a[0]) - new Date(b[0]));
+
+  // Convert the sorted array back into an object
+  return Object.fromEntries(entries);
+}
+
+
 const Events = () =>{
- useEffect(()=>{ document.body.style.backgroundColor='#fffbd5'; },[]);
- const data = [
-    /*{
-    "title": (<div>Friday, Sep 13<sup>th</sup></div>),
-    "data":['9.png']
- },{
-    "title": (<div>Saturday, Sep 14<sup>th</sup></div>),
-    "data":['12.png','8.png']
- },{
-    "title": (<div>Friday, Sep 20<sup>th</sup></div>),
-    "data":['7.png']
- },{
-    "title": (<div>Saturday, Sep 21<sup>st</sup></div>),
-    "data":['10.png']
- }, */
- {
-    "title": (<div>Thursday, Sep 26<sup>th</sup></div>),
-    "data":['11.png','13.png']
- },,{
-    "title": (<div>Friday, Sep 27<sup>th</sup></div>),
-    "data":['6.png']
- },{
-    "title": (<div>Saturday, Sep 28<sup>th</sup></div>),
-    "data":['5.png']
- },{
-    "title": (<div>Sunday, Sep 29<sup>th</sup></div>),
-    "data":['14.png','13.png']
- },{
-    "title": (<div>Monday, Sep 30<sup>th</sup></div>),
-    "data":['13.png']
- }];
+ const [eventList, setEventList] = useState({});
+ useEffect(()=>{ 
+    document.body.style.backgroundColor='#fffbd5';
+    const finalEvents = mergeEvents('2024', '10', fixedEvents, movableEvents);
+    console.log("finalEvents", finalEvents);
+    setEventList(finalEvents);
+ },[]);
+
  return (<div>
     <div style={{ position:'absolute', top:'40px' }}>
         <img src={"./assets/images/logo.png"} style={{ padding:'5px', width:'100px', height:'auto' }} />
@@ -51,27 +94,26 @@ const Events = () =>{
         </Row>
             <div style={{  paddingLeft:'12px', paddingRight:'15px' }}>
             <Row>
-                {data?.map((dat,index)=>{
-                    return (<div key={index} style={{ marginBottom:'35px' }}>
-                        <Row>
-                            <Col md={12}>
-                            <div  style={{ letterSpacing:'1px', color:'#fff', 
-       padding:'10px', textTransform:'uppercase', 
-        backgroundColor:'#333' }}><b>{dat?.title}</b></div>
-                            {/*<div><h4 style={{ paddingBottom:'15px', borderBottom:'1px solid #000'}}><b>{dat?.title}</b>
-                                </h4></div>*/}
-                            </Col>
-                        </Row>
-                        <Row>
-                            {dat?.data?.map((d,i)=>{
-                              return (<Col key={i} md={3}>
-                                <img src={process.env.PROJECT_URL+'assets/specials/'+d} 
-                  style={{ height:'500px', marginTop:'25px', borderRadius:'8px', border:'3px solid #333' }} />
-                              </Col>);
-                            })}
-                        </Row>
-                    </div>);
-                })}
+            {eventList && Object.keys(eventList)?.map((eventDate,index)=>{
+                return (<div key={index} style={{ marginBottom:'35px' }}>
+                    <Row>
+                        <Col md={12}>
+                            <div style={{ letterSpacing:'1px', color:'#fff', padding:'10px', textTransform:'uppercase', 
+                                backgroundColor:'#333' }}><b>{formatDate(eventDate, { weekday: 'long' })},{" "}
+                                {formatDate(eventDate, { day: '2-digit', month: 'long', year: 'numeric' })}</b></div>
+                        </Col>
+                    </Row>
+                    <Row>
+                        {eventList?.[eventDate]?.map((d,i)=>{
+                            return (<Col key={i} md={3}>
+                                <img src={process.env.PROJECT_URL+'assets/events/'+d} 
+                          style={{ height:'500px', marginTop:'25px', borderRadius:'8px', border:'3px solid #333' }} />
+                                </Col>);
+                        })}
+                    </Row>
+                </div>);
+            })}
+            
             </Row>
             </div>
     </ContainerFluid>
