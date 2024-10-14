@@ -1,0 +1,20 @@
+{
+    "fixed":{
+        "SUNDAY":["fixed/1.png"],
+        "MONDAY":["fixed/1.png"],
+        "TUESDAY":["fixed/3.png"],
+        "WEDNESDAY":["fixed/6.png"],
+        "THURSDAY":["fixed/1.png","fixed/2.png"],
+        "FRIDAY":["fixed/5.png"],
+        "SATURDAY":["fixed/4.png"]
+    },
+    "movable":{
+        "2024-10-12":["movable/oct-12-1.png"],
+        "2024-10-13":["movable/oct-13-1.png"],
+        "2024-10-17":["movable/oct-17-1.png"],
+        "2024-10-18":["movable/oct-18-1.png"],
+        "2024-10-19":["movable/oct-19-1.png"],
+        "2024-10-25":["movable/oct-25-1.png"],
+        "2024-10-26":["movable/oct-26-1.png","movable/oct-26-2.png"]
+    }
+}

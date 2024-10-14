@@ -4,26 +4,7 @@ import Header from '@Templates/Header/index.js';
 import { HeaderMenu } from '@Config/HeaderMenu.js';
 import Contact from './../Home/Components/Contact/index.js';
 import Footer from '@Templates/Footer/index.js';
-
-const fixedEvents = {
-"SUNDAY":["fixed/1.png"],
-"MONDAY":["fixed/1.png"],
-"TUESDAY":["fixed/3.png"],
-"WEDNESDAY":["fixed/6.png"],
-"THURSDAY":["fixed/1.png","fixed/2.png"],
-"FRIDAY":["fixed/5.png"],
-"SATURDAY":["fixed/4.png"]
-};
-
-const movableEvents = {
- "2024-10-12":["movable/oct-12-1.png"],
- "2024-10-13":["movable/oct-13-1.png"],
- "2024-10-17":["movable/oct-17-1.png"],
- "2024-10-18":["movable/oct-18-1.png"],
- "2024-10-19":["movable/oct-19-1.png"],
- "2024-10-25":["movable/oct-25-1.png"],
- "2024-10-26":["movable/oct-26-1.png","movable/oct-26-2.png"]
-};
+import BarEventData from '@Assets/static-data/events.json';
 
 // Function to remove previous dates from movableEvents
 const removePreviousDates = (events) => {
@@ -75,7 +56,7 @@ const Events = () =>{
  const [eventList, setEventList] = useState({});
  useEffect(()=>{ 
     document.body.style.backgroundColor='#fffbd5';
-    const finalEvents = mergeEvents('2024', '10', fixedEvents, movableEvents);
+    const finalEvents = mergeEvents('2024', '10', BarEventData?.["fixed"], BarEventData?.["movable"]);
     console.log("finalEvents", finalEvents);
     setEventList(finalEvents);
  },[]);
@@ -95,12 +76,13 @@ const Events = () =>{
             <div style={{  paddingLeft:'12px', paddingRight:'15px' }}>
             <Row>
             {eventList && Object.keys(eventList)?.map((eventDate,index)=>{
+                const todayEventDate = eventDate+'T00:00:00';
                 return (<div key={index} style={{ marginBottom:'35px' }}>
                     <Row>
                         <Col md={12}>
                             <div style={{ letterSpacing:'1px', color:'#fff', padding:'10px', textTransform:'uppercase', 
-                                backgroundColor:'#333' }}><b>{formatDate(eventDate, { weekday: 'long' })},{" "}
-                                {formatDate(eventDate, { day: '2-digit', month: 'long', year: 'numeric' })}</b></div>
+                                backgroundColor:'#333' }}><b>{formatDate(todayEventDate, { weekday: 'long' })},{" "}
+                                {formatDate(todayEventDate, { day: '2-digit', month: 'long', year: 'numeric' })}</b></div>
                         </Col>
                     </Row>
                     <Row>
