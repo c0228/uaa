@@ -56,7 +56,7 @@ const Home = ()=>{
         config={{ active:{ color:'#0c9712' }, inactive:{ color:'#000' } }} />
  </div>
 
- <div className="p-5" style={{ backgroundColor:'#000040', color:'#fff' }}>
+ <div className="p-5" style={{ backgroundColor:'#043d37', color:'#fff' }}>
     <FeaturedServices />
  </div>
 
@@ -64,7 +64,7 @@ const Home = ()=>{
     <SplitContent />   
  </div>
 
- <div className="pt-5 pb-2" style={{ backgroundColor:'#000040', color:'#fff' }}>
+ <div className="pt-5 pb-2" style={{ backgroundColor:'#1c313b', color:'#fff' }}>
     <ContactUs />     
  </div>
     
