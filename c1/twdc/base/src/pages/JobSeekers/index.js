@@ -1,5 +1,6 @@
 import React from "react";
 import { ContainerFluid, Row, Col, Card, Icon, Button } from "e-ui-react";
+import JobFilter from './components/JobFilter/index.js';
 import Header from '@Templates/Header/index.js';
 import { HeaderMenu } from '@Config/HeaderMenu.js';
 
@@ -51,7 +52,9 @@ const JobSeekers = ()=>{
  <div className="mtop15p">
  <ContainerFluid>
     <Row>
-        <Col md={3}></Col>
+        <Col md={3}>
+          <JobFilter />
+        </Col>
         <Col md={9}>
             {/* */}
             <ContainerFluid>

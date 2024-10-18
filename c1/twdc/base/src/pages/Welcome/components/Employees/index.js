@@ -46,7 +46,7 @@ const Employees = () =>{
           {data?.map((d,i)=>{
             return (<Col key={i} md={6}>
               <FeatureTile icon={d?.icon} size={d?.size} 
-                title={d?.title} desc={d?.desc} config={{ color:{ icon:'#0c9712', title:'#0b7b10' } }} />
+                title={d?.title} desc={d?.desc} config={{ color:{ icon:'#ef0b17', title:'#ef0b17' } }} />
             </Col>);
           })}
        </Row>

@@ -8,19 +8,47 @@ const Header = ({ activeId, menulinks })=>{
  useEffect(()=>{
   document.body.style.backgroundColor = '#fff';
  },[]);
+
+ const HeaderTop = () =>{
+  return (<div className="container-fluid ps-5 pe-0 d-none d-lg-block" style={{ backgroundColor:'#F6F6F6' }}>
+    <div className="row gx-0">
+        <div className="col-md-6 text-center text-lg-start mb-2 mb-lg-0">
+            <div className="d-inline-flex align-items-center">
+                <span className="text-body py-2 pe-3 border-end" href="">FAQs</span>
+                <span className="text-body py-2 px-3 border-end" href="">Support</span>
+                <span className="text-body py-2 px-3 border-end" href="">Privacy</span>
+                <span className="text-body py-2 px-3 border-end" href="">Policy</span>
+                <span className="text-body py-2 ps-3" href="">Career</span>
+            </div>
+        </div>
+        <div className="col-md-6 text-center text-lg-end">
+            <div className="position-relative d-inline-flex align-items-center text-white top-shape px-5" style={{ backgroundColor:'#06156c' }}>
+                <div className="me-3 pe-3 border-end py-2">
+                    <p className="m-0"><i className="fa fa-envelope-open me-2"></i>support@theworkdayconsulting.com</p>
+                </div>
+                <div className="py-2">
+                    <p className="m-0"><i className="fa fa-phone-square me-2"></i> +1 (716) 429-5842</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>);
+ };
+
  const HeaderTitle = () =>{
   return (<div style={{ display:'flex', flexDirection:'row', width:'100%', marginLeft:'5px', marginRight:'5px' }}>
     <div style={{ width:'80%' }}>
     <a href="#" style={{ textDecoration:'none' }}>
       <div style={{ display:'flex', }}>
-        <img src="./assets/images/icon.png" style={{ width: '34px', height:'32px', marginTop:'5px' }}/>
+        <i className="fa fa-smile-o" style={{ fontSize:'46px', padding:'8px', color:'#ef0b17' }}></i>
+       {/* <img src="./assets/images/icon.png" style={{ width: '34px', height:'32px', marginTop:'5px' }}/> */}
       
-        <div style={{ marginLeft:'8px', width:'120px' }}>
-          <div style={{ color:'#a60018',fontSize:'15px',fontFamily: 'NewtonExtraBold',letterSpacing:'0.8px' }}>
-            <b>W<span style={{ color:'#000' }}>ORK</span> D<span style={{ color:'#000' }}>AY</span></b>
+        <div style={{ marginLeft:'8px' }}>
+          <div style={{ color:'#ef0b17',fontSize:'22px',fontFamily: 'NewtonExtraBold',letterSpacing:'0.8px' }}>
+            <b>W<span style={{ color:'#ef0b17' }}>ORK</span> D<span style={{ color:'#ef0b17' }}>AY</span></b>
           </div>
-          <div style={{ marginLeft:'2px',color:'#a60018',fontFamily:'MetropolisBold',fontSize:'12px',letterSpacing:'0.8px' }}>
-            <b>C<span style={{ color:'#000' }}>ONSULTING</span></b></div>
+          <div style={{ marginLeft:'2px',color:'#ef0b17',fontFamily:'MetropolisBold',fontSize:'18px',letterSpacing:'0.8px' }}>
+            <b>C<span style={{ color:'#ef0b17' }}>ONSULTING</span></b></div>
         </div>
       </div>
     </a>
@@ -48,10 +76,13 @@ const Header = ({ activeId, menulinks })=>{
     </div>
     </div>);
  };
- return ( <nav className="navbar navbar-expand-sm">
+ return (<>
+ <HeaderTop />
+ <nav className="navbar navbar-expand-sm">
   <HeaderTitle />
   <HeaderMenus />
-</nav>);
+</nav>
+</>);
 };
 
 export default Header;

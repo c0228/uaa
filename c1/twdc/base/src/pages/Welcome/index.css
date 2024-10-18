@@ -1,0 +1,9 @@
+
+.btn-navy { background-color: #06156c;color:#fff; }
+.btn-navy:hover { background-color:#06156c !important;color:#fff !important; }
+.btn-outline-navy { border: 1px solid #06156c;color:#06156c; }
+.btn-outline-navy:hover { border: 1px solid #06156c !important;color:#06156c !important; }
+.btn-wdc { background-color: #ef0b17;color:#fff; }
+.btn-wdc:hover { background-color:#06156c !important;color:#fff !important; }
+.btn-outline-wdc { border: 1px solid #ef0b17;color:#ef0b17; }
+.btn-outline-wdc:hover { border: 1px solid #06156c !important;color:#06156c !important; }
