@@ -22,6 +22,9 @@ const Welcome = () =>{
 
     <Poster setActiveMenu={setActiveMenu} />
 
+    <div className="p-5" style={{ backgroundColor:'#06156c', color:'#fff' }}>
+        <FeaturedServices />
+    </div>
     <Introduction />
 
     <div className="p-5">
@@ -29,13 +32,11 @@ const Welcome = () =>{
             config={{ active:{ color:'#ef0b17' }, inactive:{ color:'#000' } }} />
     </div>
 
-    <div className="p-5" style={{ backgroundColor:'#06156c', color:'#fff' }}>
-        <FeaturedServices />
-    </div>
+    
 
-    <div className="p-5">
+    {/*<div className="p-5">
         <SplitContent />   
-    </div>
+    </div>*/}
 
     {/*<div className="pt-5 pb-2" style={{ backgroundColor:'#06156c', color:'#fff' }}>
         <ContactUs />     

@@ -3,7 +3,7 @@ import { ContainerFluid, Row, Col, Card, Button } from "e-ui-react";
 
 const Poster = ({ setActiveMenu }) =>{
  return (<div style={{ position:'relative', minHeight:'550px' }}>
-    <img src={process.env.PROJECT_URL+"assets/images/welcome2.png"} style={{ opacity:0.4, position:'absolute', width:'100%', height:'auto' }} />
+    <img src={process.env.PROJECT_URL+"assets/images/welcome2.png"} style={{ position:'absolute', width:'100%', height:'auto' }} />
     <ContainerFluid>
       <Row>
           <Col md={6}></Col>
