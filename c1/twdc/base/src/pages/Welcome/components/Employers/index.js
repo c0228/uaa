@@ -29,9 +29,9 @@ const Employers = () =>{
     }];
     return (<div className="pt-3 pb-3">
       <div align="center" className="pt-3 pb-3">
-          <h4 style={{ fontSize:'23px', fontFamily:'MetropolisBold' }}><b>Find the Right Talent, Faster</b></h4>
+          <h2 style={{ fontSize:'23px', fontFamily:'MetropolisBold' }}><b>Find the Right Talent, Faster</b></h2>
       </div>
-      <div style={{ fontSize:'16px', lineHeight:'32px' }}>
+      <div style={{ fontSize:'18px', lineHeight:'32px' }}>
       At Work Day Consultancy, we help you overcome recruitment challenges by connecting you with highly skilled IT 
       professionals who are the perfect fit for your company. Our specialized IT recruitment process ensures that you 
       only meet candidates who meet your technical and cultural needs.
@@ -51,7 +51,7 @@ const Employers = () =>{
        </Row>
       </ContainerFluid>
       </div>
-      <div className="pt-3" style={{ fontSize:'16px', lineHeight:'32px' }}>
+      <div className="pt-3" style={{ fontSize:'18px', lineHeight:'32px' }}>
       <b>Our Promise:</b> We deliver top talent, reduce your time-to-hire, and ensure a smooth recruitment process 
       that leads to long-term success.
       </div>

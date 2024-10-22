@@ -7,8 +7,8 @@ const FeatureTile = ({ icon, size, title, desc, config }) =>{
             <Icon type="FontAwesome" name={icon} size={size} color={config?.color?.icon} />
         </div>
         <div style={{ margin:'15px' }}>
-            <h4 style={{ lineHeight:'28px', fontSize:'18px', fontFamily:'MetropolisBold', color:config?.color?.title }}><b>{title}</b></h4>
-            <div style={{ fontSize:'16px', lineHeight:'30px' }}>{desc}</div>
+            <h4 style={{ lineHeight:'28px', fontFamily:'MetropolisBold', color:config?.color?.title }}><b>{title}</b></h4>
+            <div style={{ fontSize:'18px', lineHeight:'30px' }}>{desc}</div>
         </div>
      </div>);
  };

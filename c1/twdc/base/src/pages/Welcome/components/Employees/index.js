@@ -30,7 +30,7 @@ const Employees = () =>{
     }];
     return (<div className="pt-3 pb-3">
       <div align="center" className="pt-3 pb-3">
-        <h4 style={{ fontSize:'23px', fontFamily:'MetropolisBold' }}><b>Shape Your IT Career with Us</b></h4>
+        <h2 style={{ fontSize:'23px', fontFamily:'MetropolisBold' }}><b>Shape Your IT Career with Us</b></h2>
       </div>
       <div style={{ fontSize:'16px', lineHeight:'32px' }}>
       At Work Day Consultancy, we connect IT professionals like you with opportunities that match your skills, experience, 

@@ -32,6 +32,31 @@ const Welcome = () =>{
             config={{ active:{ color:'#ef0b17' }, inactive:{ color:'#000' } }} />
     </div>
 
+    <div className="p-5" style={{ backgroundColor:'#ededed' }}>
+        <Row>
+            <Col md={8}>
+            <span style={{ fontSize:'18px', color:'#ef0b17' }}><b>The Workday Consulting : Industries</b></span>
+            <h2 style={{ marginTop:'15px', marginBottom:'15px', lineHeight:'44px' }}>
+                <b>"We specialize in connecting exceptional talent with thriving organizations across various industries."</b></h2>
+            <span style={{ fontSize:'18px', lineHeight:'36px' }}>With years of industry experience and a deep understanding of diverse sectors, we are 
+                committed to delivering tailored recruitment solutions that meet your unique business objectives.
+                <div style={{ marginTop:'15px' }}>Our expertise spans across a wide range of industries, including 
+                    <ul style={{ marginTop:'15px' }}>
+                        {["Communications","Financial Services","Healthcare", "Hospitality", "Insurance",
+                            "Retail", "Technology and many more"
+                        ]?.map((d,i)=><li key={i}><b>{d}</b></li>)}
+                    </ul>
+                </div> 
+            </span>
+            <div></div>
+            
+            </Col>
+            <Col md={4}>
+            
+            </Col>
+        </Row>
+    </div>
+
     
 
     {/*<div className="p-5">

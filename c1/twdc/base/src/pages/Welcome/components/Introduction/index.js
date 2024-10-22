@@ -10,19 +10,19 @@ const Introduction = () =>{
             style={{ border:'3px solid #06156c', marginTop:'5px', width:'150px', height:'150px', borderRadius:'50%' }} />
     </div>
     <div style={{ width:'60%' }}>
-        <div><h4 style={{ color:'#06156c' }}><b>{title}</b></h4></div>
-        <div>{desc}</div>
+        <div><span style={{ color:'#06156c', fontSize:'18px' }}><b>{title}</b></span></div>
+        <div style={{  fontSize:'18px', lineHeight:'32px' }}>{desc}</div>
     </div>
 </div>);   
  };
 
- return (<div style={{ minHeight:'500px', backgroundColor:'#f6f6f6' }}>
+ return (<div style={{ minHeight:'500px', backgroundColor:'#e7e7e7' }}>
   <div style={{ paddingTop:'65px', paddingBottom:'65px', padding:'5%'  }}>
   <Row>
     <Col md={12}>
         <div align="center" style={{ color:'#06156c' }}>
             <div style={{ }}><h1><b>Welcome to <span style={{ color:'#ef0b17', textTransform:'uppercase' }}>Workday Consulting</span></b></h1></div>
-            <div style={{ lineHeight:'30px', marginTop:'15px', fontSize:'16px', color:'#777' }}><b><i>"Your trusted partner for optimizing human capital management. We specialize in implementing and supporting Workday solutions, helping businesses 
+            <div style={{ lineHeight:'30px', marginTop:'15px', fontSize:'20px', color:'#777' }}><b><i>"Your trusted partner for optimizing human capital management. We specialize in implementing and supporting Workday solutions, helping businesses 
                 streamline HR processes and drive employee engagement."</i></b></div>
             <div style={{ lineHeight:'32px', marginTop:'15px', fontSize:'18px', color:'#000' }}>
                 Workday Consultancy is your trusted advisor for optimizing your human capital management (HCM) processes. 

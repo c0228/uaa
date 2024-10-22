@@ -3,7 +3,7 @@ import { ContainerFluid, Row, Col, Icon } from "e-ui-react";
 import FeatureTile from "./../../utils.js";
 
 const FeaturedServices = () =>{
- const data = [{ icon:'fa-database', size:60, title:'AI-Powered Recruitment', desc:'Leverage advanced AI algorithms to streamline recruitment processes and find the perfect candidates.' },
+ const data = [{ icon:'fa-database', size:60, title:(<div>AI-Powered <br/>Recruitment</div>), desc:'Leverage advanced AI algorithms to streamline recruitment processes and find the perfect candidates.' },
     { icon:'fa-cogs', size:60, title:'Talent Acquisition Automation', desc:'Automate repetitive tasks to save time and focus on strategic talent acquisition.' },
     { icon:'fa-users', size:60, title:'Employee Engagement Platform', desc:'Foster a positive and engaging workplace culture with our employee engagement platform.' }];
  return (<div>
