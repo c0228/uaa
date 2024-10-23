@@ -14,11 +14,18 @@ const Header = ({ activeId, menulinks })=>{
     <div className="row gx-0">
         <div className="col-md-6 text-center text-lg-start mb-2 mb-lg-0">
             <div className="d-inline-flex align-items-center">
-                <span className="text-body py-2 pe-3 border-end" href="">FAQs</span>
-                <span className="text-body py-2 px-3 border-end" href="">Support</span>
-                <span className="text-body py-2 px-3 border-end" href="">Privacy</span>
-                <span className="text-body py-2 px-3 border-end" href="">Policy</span>
-                <span className="text-body py-2 ps-3" href="">Career</span>
+                <span className="text-body py-2 pe-3" href="">
+                  <Icon type="FontAwesome" name="fa-facebook" size={22} color="#3c65f5" style={{ cursor:'pointer' }} />
+                </span>
+                <span className="text-body py-2 px-3" href="">
+                  <Icon type="FontAwesome" name="fa-twitter" size={22} color="#1da1f2" style={{ cursor:'pointer' }} />
+                </span>
+                <span className="text-body py-2 px-3" href="">
+                  <Icon type="FontAwesome" name="fa-whatsapp" size={24} color="#42bd70" style={{ cursor:'pointer' }} />
+                </span>
+                <span className="text-body py-2 px-3" href="">
+                  <Icon type="FontAwesome" name="fa-linkedin-square" size={24} color="#3c65f5" style={{ cursor:'pointer' }} />
+                </span>
             </div>
         </div>
         <div className="col-md-6 text-center text-lg-end">

@@ -48,7 +48,9 @@ const Welcome = () =>{
                     </ul>
                 </div> 
             </span>
-            <div></div>
+            <div>
+              <Button type="danger" size={11}><b>Request a Workday Consultant</b></Button>
+            </div>
             
             </Col>
             <Col md={4}>
