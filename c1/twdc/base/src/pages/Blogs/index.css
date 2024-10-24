@@ -1,0 +1,3 @@
+.blogImgZoom { border-radius:8px;overflow: hidden; }
+.blogImgZoom  img { width: 100%;transition: all .3s ease-in-out; }
+.blogImgZoom img:hover { transform: scale(1.2); }
