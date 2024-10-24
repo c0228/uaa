@@ -7,6 +7,7 @@ import Services from "@Pages/Services/index.js";
 import JobSeekers from "@Pages/JobSeekers/index.js";
 import JobDetails from "@Pages/JobDetails/index.js";
 import Blogs from "@Pages/Blogs/index.js";
+import ContactUs from "@Pages/ContactUs/index.js";
 
 export const AppRouting = ()=>{
   return (<BrowserRouter basename="/">
@@ -18,6 +19,7 @@ export const AppRouting = ()=>{
       <Route exact path="/job-seekers" element={<JobSeekers />} />
       <Route exact path="/job-details" element={<JobDetails />} />
       <Route exact path="/blogs" element={<Blogs />} />
+      <Route exact path="/contact-us" element={<ContactUs />} />
     </Routes>
   </BrowserRouter>);
 };
