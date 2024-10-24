@@ -1,0 +1,7 @@
+.log-table-display { width:100%;overflow-x:hidden; }
+.log-table { border-collapse:collapse; }
+.col-2pc { width:2%; }
+.col-3pc { width:3%; }
+.col-5pc { width:5%; }
+.col-35pc { width:35%; }
+.text-wrap { overflow-wrap:wrap;word-break:break-word; }

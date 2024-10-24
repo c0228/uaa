@@ -1,0 +1,6 @@
+.mLeft15p { margin-left:15px; }
+.mRight5p { margin-right:5px; }
+
+.navbar-bg { background-color:#fff;margin-bottom:20px;box-shadow:1px 1px 1px 1px #808080;border-bottom:1px solid #ccc; }
+.navbar-logo { margin-top:-10px;width:150px;height:auto; }
+.navbar-div-right { cursor:pointer;display:flex;height:auto;align-items:center;justify-content:center;margin-right:5px; }

@@ -1,0 +1,43 @@
+RewriteEngine On
+
+RewriteRule timezones/list src/controllers/config.static.apis.php?action=GetTimezones [QSA]
+
+RewriteRule upload/file src/controllers/module.upload.file.php [QSA]
+
+###########################################################################################################################
+###################################### MANAGE ACCOUNT #####################################################################
+###########################################################################################################################
+RewriteRule user/register src/controllers/module.user.account.info.php?action=USER_REGISTER [QSA]
+RewriteRule user/login src/controllers/module.user.account.info.php?action=USER_LOGIN [QSA]
+RewriteRule user/validate/email src/controllers/module.user.account.info.php?action=USER_VALIDATE_EMAIL [QSA]
+RewriteRule user/details/update src/controllers/module.user.account.info.php?action=USER_DETAILS_UPDATE [QSA]
+RewriteRule user/reset/password/link src/controllers/module.user.account.info.php?action=SEND_RESETPASSWORD_EMAIL [QSA]
+RewriteRule user/delete src/controllers/module.user.account.info.php?action=USER_DELETE [QSA]
+RewriteRule user/list/employees src/controllers/module.user.account.info.php?action=USERS_LIST_EMPLOYEES [QSA]
+###########################################################################################################################
+RewriteRule user/roles/add src/controllers/module.user.account.roles.php?action=USER_ROLES_ADD [QSA]
+RewriteRule user/roles/view src/controllers/module.user.account.roles.php?action=USER_ROLES_VIEW [QSA]
+###########################################################################################################################
+RewriteRule university/view src/controllers/module.uni.account.info.php?action=UNIVERSITY_VIEW [QSA]
+RewriteRule university/bulk/upload src/controllers/module.uni.account.info.php?action=UNIVERSITY_BULK_UPLOAD [QSA]
+RewriteRule university/files/list src/controllers/module.uni.account.info.php?action=UNIVERSITY_UPLOAD_FILES [QSA]
+RewriteRule university/files/logs src/controllers/module.uni.account.info.php?action=UNIVERSITY_UPLOAD_LOGS [QSA]
+RewriteRule countries/list src/controllers/module.uni.account.info.php?action=UNIVERSITY_COUNTRIES [QSA]
+RewriteRule university/filter src/controllers/module.uni.account.info.php?action=UNIVERSITY_FILTER_LIST [QSA]
+###########################################################################################################################
+RewriteRule student/shortlist src/controllers/module.students.shortlist.generate.php [QSA]
+RewriteRule student/add/records src/controllers/module.students.shortlist.info.php?action=STUDENT_RECORD_ADD [QSA]
+RewriteRule student/view/records src/controllers/module.students.shortlist.info.php?action=STUDENTS_RECORD_VIEW [QSA]
+###########################################################################################################################
+
+RewriteRule user/address/add src/controllers/module.user.account.addr.php?action=USER_ADDRESS_ADD [QSA]
+RewriteRule user/address/update src/controllers/module.user.account.addr.php?action=USER_ADDRESS_UPDATE [QSA]
+
+RewriteRule user/feedback/add src/controllers/module.user.account.feedback.php?action=SEND_USER_FEEDBACK [QSA]
+RewriteRule user/feedback/view/([^/]+)$ src/controllers/module.user.account.feedback.php?action=VIEW_MY_FEEDBACK&userId=$1 [QSA]
+RewriteRule user/feedback/list src/controllers/module.user.account.feedback.php?action=VIEW_ALL_FEEDBACK [QSA]
+RewriteRule user/feedback/delete src/controllers/module.user.account.feedback.php?action=DELETE_FEEDBACK [QSA]
+
+RewriteRule user/address/delete src/controllers/module.user.account.addr.php?action=USER_ADDRESS_DELETE [QSA]
+
+RewriteRule user/address/list/([^/]+)$ src/controllers/module.user.account.addr.php?action=USER_ADDRESS_LIST&userId=$1 [QSA]

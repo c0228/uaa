@@ -71,7 +71,7 @@ const BasicDetails = () =>{
             validation={{ onSubmit:{ textTransform: 'SENTENCE_CASE' } }} />
     </div>)}
     {data?.name && (<div className="mtop15p">
-        <TextBox name="name" label="Your Name" placeholder="Enter your Name" value={data?.name} 
+        <TextBox name="name" label="Name" placeholder="Enter your Name" value={data?.name} 
             validation={{ onSubmit:{ textTransform: 'SENTENCE_CASE' } }} />
     </div>)}
     {data?.userRole && (<div className="mtop15p">
