@@ -1,9 +1,10 @@
 import React from "react";
-import { ContainerFluid, Row, Col, Breadcrumb, Colors, Icon, Button, Card  } from "e-ui-react";
+import { ContainerFluid, Row, Col, Breadcrumb, Colors, Icon, Button, Card, Modal  } from "e-ui-react";
 import Header from '@Templates/Header/index.js';
 import { HeaderMenu } from '@Config/HeaderMenu.js';
 import EmpInfo from "./components/EmpInfo/index.js";
 import CompanyInfo from "./components/CompanyInfo/index.js";
+import ApplyJob from "@Pages/ApplyJob/index.js";
 
 const empInfoData = {
  "Industry":{ label: "Mechanical / Auto / Automotive, Civil / Construction", icon:"fa-building-o" },
@@ -167,14 +168,18 @@ const JobDetails = () =>{
           </div>
         </Col>
         <Col md={4}>
-          <div align="right">
+          <div className="pull-right">
             
-            <div>
+            <div style={{ display:'flex', flex:1 }}>
+             <div>
              <Icon type="FontAwesome" name="fa-facebook" size={22} color="#3c65f5" style={{ paddingTop:'15px', cursor:'pointer', }} />
              <Icon type="FontAwesome" name="fa-twitter" size={22} color="#1da1f2" style={{ paddingTop:'15px', cursor:'pointer', marginLeft:'18px' }} />
              <Icon type="FontAwesome" name="fa-whatsapp" size={24} color="#42bd70" style={{ paddingTop:'15px', cursor:'pointer', marginLeft:'18px' }} />
              <Icon type="FontAwesome" name="fa-linkedin-square" size={24} color="#3c65f5" style={{ paddingTop:'15px', cursor:'pointer', marginLeft:'18px', marginRight:'15px' }} />
-             <Button type="primary" style={{ marginTop:'-12px' }}><b>Apply Now</b></Button>
+             </div>
+             <div style={{ marginTop:'10px' }}>
+             <ApplyJob />
+             </div>
             </div>
           </div>
         </Col>

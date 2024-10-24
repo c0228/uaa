@@ -4,6 +4,7 @@ import JobFilter from './components/JobFilter/index.js';
 import Header from '@Templates/Header/index.js';
 import { HeaderMenu } from '@Config/HeaderMenu.js';
 import JobSeekersData from '@StaticData/job-seekers.json';
+import ApplyJob from "@Pages/ApplyJob/index.js";
 
 const JobSeekers = ()=>{
   const [advancedFilters, setAdvancedFilters] = useState({});
@@ -110,12 +111,12 @@ const JobSeekers = ()=>{
         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae architecto eveniet, dolor quo repellendus pariatur.
         </div>
         <div style={{ marginTop:'8px', width:'100%', float:'left' }}>
-          <div style={{ width:'50%', float:'left' }}>
+          <div style={{ width:'90%', float:'left' }}>
             <span style={{ fontSize:'22px', color:'#000' }}><b>$.250</b></span> 
             <span style={{ marginLeft:'5px', fontSize:'16px' }}>/ hour</span>
           </div>
-          <div align="right" style={{ width:'50%', float:'left' }}>
-            <Button type="primary" size={12}><b>Apply Now</b></Button>
+          <div style={{ width:'10%', float:'left' }}>
+            <ApplyJob />
           </div>
         </div>
       </Card>
