@@ -1,10 +1,12 @@
 import React, { useState } from "react";
-import { ContainerFluid, Row, Col, Icon, Button, HorizontalStaticMenu, Pill, Colors  } from "e-ui-react";
+import { ContainerFluid, Row, Col, Icon, Button, VerticalStaticMenu, Pill, Colors  } from "e-ui-react";
 import Header from '@Templates/Header/index.js';
 import { HeaderMenu } from '@Config/HeaderMenu.js';
 import Employees from './components/Employees/index.js';
 import Employers from './components/Employers/index.js';
 import FeaturedServices from './components/FeaturedServices/index.js';
+import Carousel from "./../Carousel/index.js";
+import './index.css';
 
 const Home = ()=>{
  const TagLine = () =>{
@@ -40,22 +42,75 @@ const Home = ()=>{
  };
 
  const [activeMenu, setActiveMenu] = useState('for-employer');
- const data = [{ id:'for-employer', label:'FOR EMPLOYER', component:(<Employers />) },
-    { id:'for-consultant', label:'FOR CONSULTANT', component:(<Employees />) }];
+ const data = [{ id:'for-employer', label:'Eligibility & Benefits', component:(<Employers />) },
+    { id:'for-consultant', label:'Contract Negotiations', component:(<Employees />) },
+    { id:'for-consultant', label:'Practice Management', component:(<Employees />) }];
 
+    const slides = [
+      {
+        img: 'https://preview.colorlib.com/theme/bootstrap/carousel-01/images/slider-1.jpg',
+        content: (
+          <div>
+            <h2>Slide 1</h2>
+            <p>This is the first slide.</p>
+          </div>
+        ),
+      },
+      {
+        img: 'https://www.josephfiler.com/images/xl/Arizona-Desert-Mountains-2518-Edit.jpg',
+        content: (
+          <div>
+            <h2>Slide 2</h2>
+            <p>This is the second slide.</p>
+          </div>
+        ),
+      },
+      {
+        img: 'https://wallpapers.com/images/hd/beautiful-ocean-pictures-1920-x-1200-6r2ljotdu3o25cio.jpg',
+        content: (
+          <div>
+            <h2>Slide 3</h2>
+            <p>This is the third slide.</p>
+          </div>
+        ),
+      },
+    ];
  return (<>
  <Header menulinks={HeaderMenu} activeId="Home" />
- <TagLine />
- <Jumbotron />
+  <div style={{ backgroundColor:'#ddd' }}>
+  <Carousel slides={slides} />
+  <Row>
+    <Col md={7}>
+    <img src="http://192.168.1.5/BIS/1.png" />
+    </Col>
+    <Col md={5}>
+    <div className="bis-carousel-jumbotron" style={{ padding:'15px', lineHeight:'34px', fontSize:'18px', color:'#000'  }}>
+      <div>
+      "<b>Broadway Info Services</b> is a leading provider of medical billing and revenue cycle management solutions 
+      for healthcare providers and medical practices. We are dedicated to simplifying the complex world of 
+      medical billing, allowing healthcare providers to focus on what they do best - patient care.
+      <br/><br/>
+      With a team of experienced professionals and advanced technology, we offer a comprehensive range 
+      of services to streamline your revenue cycle and maximize your financial performance."
+      </div>
+    </div>
+    
+    </Col>
+  </Row>
+  </div>
+  <div style={{ paddingTop:'45px', paddingLeft:'15px', paddingRight:'15px', backgroundColor:'#000040', color:'#fff' }}>
+    <FeaturedServices />
+  </div>
+ 
+ {/*<TagLine />
+ <Jumbotron /> */}
 
  <div className="p-5">
-    <HorizontalStaticMenu data={data} activeId={activeMenu}
+    <VerticalStaticMenu data={data} activeId={activeMenu}
         config={{ active:{ color:'#0c9712' }, inactive:{ color:'#000' } }} />
  </div>
 
- <div className="p-5" style={{ backgroundColor:'#000040', color:'#fff' }}>
-    <FeaturedServices />
- </div>
+ 
 
  </>);
 };

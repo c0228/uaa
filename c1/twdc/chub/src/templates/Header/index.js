@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { Nav, Button, Icon, DropdownElement } from "e-ui-react";
+import { Nav, Button, Icon, DropdownElement, Colors } from "e-ui-react";
 import { useAuth } from "@Provider/AuthProvider";
 import './index.css';
 
@@ -33,7 +33,7 @@ const Header = ({ activeId, menulinks })=>{
     <Icon type="FontAwesome" name="fa-caret-down" size={12} /></div>);
   };
 
-  const menus = [{ url: process.env.PROJECT_URL+'consultancy/my-profile', 
+  const menus = [{ url: process.env.PROJECT_URL+'portal/my-profile', 
             title:(<div><NavMenu icon="fa-user" title="My Profile" /></div>) },
     { url:'#', title:(<div onClick={()=>logout('/')}><NavMenu icon="fa-sign-out" title="Logout" /></div>) }];
 
@@ -52,7 +52,11 @@ const Header = ({ activeId, menulinks })=>{
    <div className="collapse navbar-collapse" id="collapsibleNavbar">
        <div className="me-auto">
           <div className="mtop15p">
-           <Nav menulinks={menulinks} activeId={activeId} />
+           <Nav menulinks={menulinks} activeId={activeId} 
+           colorConfig={{
+            active: { color: '#dc3545', backgroundColor:'' },
+            default: { color: Colors.secondary, backgroundColor:'' }
+        }} />
           </div>
        </div>
        <div  className="d-flex">

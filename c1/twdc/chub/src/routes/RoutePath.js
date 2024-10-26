@@ -11,7 +11,11 @@ import ShortlistRecords from "@Pages/ShortlistRecords/index.js";
 import Authentication from "@Pages/Authentication/index.js";
 import ManageEmployees from "@Pages/ManageEmployees/index.js";
 import UploadData from "@Pages/UploadData/index.js";
+
 import MyProfile from "@Pages/MyProfile/index.js";
+import ManageCompany from "@Pages/ManageCompany/index.js";
+import ManageJobs from "@Pages/ManageJobs/index.js";
+import ManageBlogs from "@Pages/ManageBlogs/index.js";
 
 export const AppRouting = ()=>{
   const isAuthenticated = Authenticated();
@@ -19,17 +23,11 @@ export const AppRouting = ()=>{
     <AuthProvider>
       <Routes>
          <Route exact path="/" element={isAuthenticated?(<Navigate to="/consultancy/students-shortlist-form" />):(<Authentication />)} />
-         <Route path='/consultancy' element={<Authorization permissions={[PERMISSIONS.CUSTOMER, PERMISSIONS.EMPLOYEE, PERMISSIONS.ADMINISTRATOR]} />}>
-            <Route path='view-universities' element={<Universities />} />
-            <Route path='students-shortlist-form' element={<ShortlistForm />} />
-            <Route path='students-shortlist-view/:id' element={<ShortlistView />} />
-            <Route path='my-profile' element={<MyProfile />} />
-          </Route>
-          <Route path='/consultancy' element={<Authorization permissions={[PERMISSIONS.EMPLOYEE, PERMISSIONS.ADMINISTRATOR]} />}>
-            <Route path='students-shortlist-records' element={<ShortlistRecords />} />
-          </Route>
-          <Route path='/consultancy' element={<Authorization permissions={[PERMISSIONS.ADMINISTRATOR]} />}>
-            <Route path='employees' element={<ManageEmployees />} />
+          <Route path='/portal' element={<Authorization permissions={[PERMISSIONS.ADMINISTRATOR]} />}>
+            <Route path='manage-companies' element={<ManageCompany />} />
+            <Route path='manage-jobs' element={<ManageJobs />} />
+            <Route path='manage-blogs' element={<ManageBlogs />} />
+            <Route path='my-profile' element={<MyProfile />}  />
             <Route path='upload-data' element={<UploadData />} />
           </Route>
        </Routes>

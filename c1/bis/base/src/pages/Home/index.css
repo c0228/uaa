@@ -1,0 +1,6 @@
+@media(min-width:993px){
+  .bis-carousel-jumbotron { margin-top:45px;margin-bottom:45px; }
+}
+@media(max-width:993px){
+    .bis-carousel-jumbotron { margin-top:15px;margin-bottom:15px; }
+  }
