@@ -1,11 +1,10 @@
 import React, { useState } from "react";
-import { ContainerFluid, Row, Col, Icon, Button, VerticalStaticMenu, Pill, Colors  } from "e-ui-react";
+import { ContainerFluid, Row, Col, Icon, Button, VerticalStaticMenu, Pill, Colors, Carousel  } from "e-ui-react";
 import Header from '@Templates/Header/index.js';
 import { HeaderMenu } from '@Config/HeaderMenu.js';
 import Employees from './components/Employees/index.js';
 import Employers from './components/Employers/index.js';
 import FeaturedServices from './components/FeaturedServices/index.js';
-import Carousel from "./../Carousel/index.js";
 import './index.css';
 
 const Home = ()=>{
@@ -46,39 +45,29 @@ const Home = ()=>{
     { id:'for-consultant', label:'Contract Negotiations', component:(<Employees />) },
     { id:'for-consultant', label:'Practice Management', component:(<Employees />) }];
 
-    const slides = [
-      {
-        img: 'https://preview.colorlib.com/theme/bootstrap/carousel-01/images/slider-1.jpg',
-        content: (
-          <div>
-            <h2>Slide 1</h2>
-            <p>This is the first slide.</p>
-          </div>
-        ),
-      },
-      {
-        img: 'https://www.josephfiler.com/images/xl/Arizona-Desert-Mountains-2518-Edit.jpg',
-        content: (
-          <div>
-            <h2>Slide 2</h2>
-            <p>This is the second slide.</p>
-          </div>
-        ),
-      },
-      {
-        img: 'https://wallpapers.com/images/hd/beautiful-ocean-pictures-1920-x-1200-6r2ljotdu3o25cio.jpg',
-        content: (
-          <div>
-            <h2>Slide 3</h2>
-            <p>This is the third slide.</p>
-          </div>
-        ),
-      },
-    ];
  return (<>
  <Header menulinks={HeaderMenu} activeId="Home" />
-  <div style={{ backgroundColor:'#ddd' }}>
-  <Carousel slides={slides} />
+  <Carousel 
+    id="listing" 
+    data={[{
+          img: { src:'https://preview.colorlib.com/theme/bootstrap/carousel-01/images/slider-1.jpg', alt:'Los Angeles' },
+          content:(<div style={{ color:'#fff' }}>
+                      <h2>Slide 1</h2>
+                      <p>This is the One slide.</p>
+                  </div>)
+     },{
+         img:{ src:'https://www.josephfiler.com/images/xl/Arizona-Desert-Mountains-2518-Edit.jpg', alt:'Chicago' },
+         content:(<div style={{ color:'#fff' }}>
+                    <h2>Slide 2</h2>
+                    <p>This is the Two slide.</p>
+                  </div>)
+     },{
+         img:{ src:'https://wallpapers.com/images/hd/beautiful-ocean-pictures-1920-x-1200-6r2ljotdu3o25cio.jpg', alt:'New York' },
+         content:(<div style={{ color:'#fff' }}>
+                    <h2>Slide 3</h2>
+                    <p>This is the Third slide.</p>
+                  </div>)
+     }]} />
   <Row>
     <Col md={7}>
     <img src="http://192.168.1.5/BIS/1.png" />
@@ -97,7 +86,6 @@ const Home = ()=>{
     
     </Col>
   </Row>
-  </div>
   <div style={{ paddingTop:'45px', paddingLeft:'15px', paddingRight:'15px', backgroundColor:'#000040', color:'#fff' }}>
     <FeaturedServices />
   </div>
