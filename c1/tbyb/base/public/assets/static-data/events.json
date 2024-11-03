@@ -6,15 +6,18 @@
         "WEDNESDAY":["fixed/6.png"],
         "THURSDAY":["fixed/1.png","fixed/2.png"],
         "FRIDAY":["fixed/5.png"],
-        "SATURDAY":["fixed/4.png"]
+        "SATURDAY":["fixed/7.png"]
     },
     "movable":{
-        "2024-10-12":["movable/oct-12-1.png"],
-        "2024-10-13":["movable/oct-13-1.png"],
-        "2024-10-17":["movable/oct-17-1.png"],
-        "2024-10-18":["movable/oct-18-1.png"],
-        "2024-10-19":["movable/oct-19-1.png"],
-        "2024-10-25":["movable/oct-25-1.png"],
-        "2024-10-26":["movable/oct-26-1.png","movable/oct-26-2.png"]
+        "2024-11-01":["movable/nov-01-1.png"],
+        "2024-11-08":["movable/nov-08-1.png"],
+        "2024-11-09":["movable/nov-09-1.png"],
+        "2024-11-14":["movable/nov-14-1.png"],
+        "2024-11-15":["movable/nov-15-1.png"],
+        "2024-11-16":["movable/nov-16-1.png"],
+        "2024-11-22":["movable/nov-22-1.png"],
+        "2024-11-23":["movable/nov-23-1.png"],
+        "2024-11-29":["movable/nov-29-1.png"],
+        "2024-11-30":["movable/nov-30-1.png"]
     }
 }

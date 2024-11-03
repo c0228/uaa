@@ -6,6 +6,7 @@ import Employees from './components/Employees/index.js';
 import Employers from './components/Employers/index.js';
 import FeaturedServices from './components/FeaturedServices/index.js';
 import SlimImageTitles from './SlimImageTitles/index.js';
+import Footer from '@Templates/Footer/index.js';
 import './index.css';
 
 const Home = ()=>{
@@ -342,10 +343,10 @@ const Home = ()=>{
  {/*
  <Jumbotron /> */}
 
- 
+ <Footer />
 
  
-
+ 
  </>);
 };
 
