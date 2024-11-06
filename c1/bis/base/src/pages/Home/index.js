@@ -6,6 +6,7 @@ import Employees from './components/Employees/index.js';
 import Employers from './components/Employers/index.js';
 import FeaturedServices from './components/FeaturedServices/index.js';
 import SlimImageTitles from './SlimImageTitles/index.js';
+import SocialLinks from './components/SocialLinks/index.js';
 import Footer from '@Templates/Footer/index.js';
 import './index.css';
 
@@ -366,6 +367,7 @@ const Home = ()=>{
         </div>
       </Col>
       <Col md={5}>
+
         <Row>
           <Col md={12}>
             <div align="center" style={{ marginTop:'35px' }}>
@@ -392,31 +394,14 @@ const Home = ()=>{
             <div className="mtop5p"><b>Credentialing Services</b></div>
           </Col>
         </Row>
+
         </div>
+        
       </Col>
       <Col md={3}>
         <Row>
           <Col md={12}>
-            <div align="center" style={{ marginTop:'35px' }}>
-              <span style={{ fontSize:'14px' }}><b>SOCIAL LINKS</b></span>
-            </div>
-            <div style={{ marginTop:'15px' }}>
-              <Icon type="FontAwesome" name="fa-facebook" size={28} 
-                style={{ textAlign:'center', width:'60px', height:'60px', cursor: 'pointer',
-                  border:'1px solid #000', padding:'15px', borderRadius:'50%' }} />
-
-              <Icon type="FontAwesome" name="fa-twitter" size={28} 
-                style={{ marginLeft:'15px', textAlign:'center', width:'60px', height:'60px', 
-                  cursor: 'pointer', border:'1px solid #000', padding:'15px', borderRadius:'50%' }} />
-
-              <Icon type="FontAwesome" name="fa-instagram" size={28} 
-                style={{ marginLeft:'15px', textAlign:'center', width:'60px', height:'60px', 
-                  cursor: 'pointer', border:'1px solid #000', padding:'15px', borderRadius:'50%' }} />
-
-              <Icon type="FontAwesome" name="fa-whatsapp" size={28} 
-                style={{ marginLeft:'15px', textAlign:'center', width:'60px', height:'60px', 
-                  cursor: 'pointer', border:'1px solid #000', padding:'15px', borderRadius:'50%' }} />
-            </div>
+            <SocialLinks list={["facebook","twitter","instagram","whatsapp"]} />
           </Col>
         </Row>
         <Row>
