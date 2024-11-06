@@ -22,12 +22,12 @@ const FeaturedServices = () =>{
   }];
  
  return (<div>
-    <div align="center"><h4 style={{ fontFamily:'MetropolisBold' }}><b>FEATURED SERVICES</b></h4></div>
+    <div align="center"><h4 style={{ fontFamily:'MetropolisBold', color:'#fff' }}><b>FEATURED SERVICES</b></h4></div>
     <div className="pt-3">
        <Row>
           {data?.map((d,i)=>{
             return (<Col key={i} md={4} style={{ paddingBottom:'45px' }}>
-              <FeatureTile icon={d?.icon} size={d?.size} title={d?.title} desc={d?.desc} />
+              <FeatureTile icon={d?.icon} size={d?.size} title={d?.title} desc={d?.desc} config={{ color: { title: '#fff' }}} />
             </Col>);
           })}
        </Row>

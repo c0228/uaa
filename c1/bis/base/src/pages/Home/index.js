@@ -16,7 +16,9 @@ const Home = ()=>{
  </div>);
  };
  const LandingTemp1 = () =>{
-  return ( <div style={{ marginTop:'65px', backgroundColor:'#efefef', paddingTop:'55px', paddingBottom:'35px' }}>
+  return ( <div style={{ marginTop:'65px', backgroundColor:'#efefef', paddingTop:'55px', paddingBottom:'35px',
+    borderTop:'2px solid #aaa', borderBottom:'2px solid #aaa'
+   }}>
     <Row>
       <Col md={12}>
         <div align="center"><h1><b>Broadway Info Services: Your Partner in Healthcare Revenue Cycle Management</b></h1></div>
@@ -69,46 +71,48 @@ const Home = ()=>{
  };
 
  const LandingTemp3 = () =>{
-  return (<div style={{ marginTop:'65px', backgroundColor:'#efefef', paddingTop:'55px', paddingBottom:'35px' }}>
+  return (<div style={{ marginTop:'65px', backgroundColor:'#000040', color:'#ddd', paddingTop:'55px', paddingBottom:'35px',
+    boxShadow:'2px 2px 2px 2px #808080'
+   }}>
     <Row>
       <Col md={12}>
       <div align="center">
-        <h1 style={{ lineHeight:'46px' }}>
+        <h1 style={{ lineHeight:'46px', color:'#fff' }}>
         <b>How We Simplify Your Healthcare Billing Process?</b></h1>
       </div>
       </Col>
     </Row>
     <Row>
       <Col md={7}>
-        <div style={{ padding:'15px', lineHeight:'34px', fontSize:'18px', color:'#000'  }}>
+        <div style={{ padding:'15px', lineHeight:'34px', fontSize:'18px'  }}>
         We employ a proven approach to streamline your medical billing process:
         </div>
-        <div style={{ padding:'15px', lineHeight:'34px', fontSize:'18px', color:'#000'  }}>
+        <div style={{ padding:'15px', lineHeight:'34px', fontSize:'18px'  }}>
           <ul>
             <li>
-              <div><b>Comprehensive Assessment:</b></div>
+              <div style={{ color:'#fff' }}><b>Comprehensive Assessment:</b></div>
               <div>We conduct a thorough assessment of your current billing practices to 
                 identify areas for improvement.</div>
             </li>
-            <li>
-              <div><b>Customized Solutions:</b></div>
+            <li className="mtop15p">
+              <div style={{ color:'#fff' }}><b>Customized Solutions:</b></div>
               <div>We tailor our services to meet your specific needs, ensuring optimal results.</div>
             </li>
-            <li>
-              <div><b>Advanced Technology:</b></div>
+            <li className="mtop15p">
+              <div style={{ color:'#fff' }}><b>Advanced Technology:</b></div>
               <div>We leverage cutting-edge technology to automate tasks and improve efficiency.</div>
             </li>
-            <li>
-              <div><b>Expert Team:</b></div>
+            <li className="mtop15p">
+              <div style={{ color:'#fff' }}><b>Expert Team:</b></div>
               <div>Our experienced professionals handle every aspect of your medical billing, from coding to collections.</div>
             </li>
-            <li>
-              <div><b>Transparent Communication:</b></div>
+            <li className="mtop15p">
+              <div style={{ color:'#fff' }}><b>Transparent Communication:</b></div>
               <div>We maintain open communication with you throughout the process, keeping you informed and involved.</div>
             </li>
           </ul>
         </div>
-        <div style={{ padding:'15px', lineHeight:'34px', fontSize:'18px', color:'#000'  }}>
+        <div style={{ padding:'15px', lineHeight:'34px', fontSize:'18px' }}>
         By partnering with Broadway Info Services, you can simplify your healthcare billing, maximize your revenue, and 
         focus on delivering exceptional patient care. 
         </div>
@@ -298,8 +302,12 @@ const Home = ()=>{
  {/*} <div className="p-5">
     <VerticalStaticMenu data={data} activeId={activeMenu}
         config={{ active:{ color:'#0c9712' }, inactive:{ color:'#000' } }} />
-  </div>*/}
-  <div style={{ paddingTop:'45px', paddingLeft:'15px', paddingRight:'15px', backgroundColor:'#000040', color:'#fff' }}>
+  </div>
+  backgroundColor:'#000040'
+  */}
+  <div style={{ paddingTop:'45px', paddingLeft:'15px', paddingRight:'15px', backgroundColor:'#000040', color:'#eee',
+      boxShadow:'2px 2px 2px 2px #808080'
+   }}>
     <FeaturedServices />
   </div>
 
@@ -342,6 +350,87 @@ const Home = ()=>{
  
  {/*
  <Jumbotron /> */}
+
+ <div style={{ backgroundColor:'#eee', borderTop:'1px solid #ccc' }}>
+  <ContainerFluid>
+    <Row>
+      <Col md={4}>
+        <div style={{ marginTop:'35px', marginBottom:'45px' }}>
+        <div style={{ marginBottom:'15px' }}><h4><b>Broadway Info Services</b></h4></div>
+        <div style={{ lineHeight:'26px', fontSize:'14px', color:'#555' }}>
+          Broadway Info Services is a leading healthcare revenue cycle management company. They specialize in medical 
+          coding, billing, and other administrative services. Their advanced technology and skilled team ensure accurate 
+          and efficient processing of claims, maximizing revenue for healthcare providers. With a focus on client satisfaction, 
+          Broadway Info Services has a proven track record of delivering exceptional results and improving overall 
+          practice performance.</div>
+        </div>
+      </Col>
+      <Col md={5}>
+        <Row>
+          <Col md={12}>
+            <div align="center" style={{ marginTop:'35px' }}>
+              <span style={{ fontSize:'14px' }}><b>USEFUL MENU LINKS</b></span>
+            </div>
+          </Col>
+        </Row>
+        <div style={{ marginTop:'15px', fontSize:'14px', color:'#555' }}>
+        <Row>
+          <Col md={3}>
+            <div className="mtop5p"><b>Home</b></div>
+            <div className="mtop5p"><b>About Us</b></div>
+            <div className="mtop5p"><b>Services</b></div>
+            <div className="mtop5p"><b>Contact Us</b></div>
+          </Col>
+          <Col md={4}>
+            <div className="mtop5p"><b>Medical Billing</b></div>
+            <div className="mtop5p"><b>Medical Transcription</b></div>
+            <div className="mtop5p"><b>Medical Coding</b></div>
+          </Col>
+          <Col md={5}>
+            <div className="mtop5p"><b>Compliance Audits</b></div>
+            <div className="mtop5p"><b>Practice Consulting</b></div>
+            <div className="mtop5p"><b>Credentialing Services</b></div>
+          </Col>
+        </Row>
+        </div>
+      </Col>
+      <Col md={3}>
+        <Row>
+          <Col md={12}>
+            <div align="center" style={{ marginTop:'35px' }}>
+              <span style={{ fontSize:'14px' }}><b>SOCIAL LINKS</b></span>
+            </div>
+            <div style={{ marginTop:'15px' }}>
+              <Icon type="FontAwesome" name="fa-facebook" size={28} 
+                style={{ textAlign:'center', width:'60px', height:'60px', cursor: 'pointer',
+                  border:'1px solid #000', padding:'15px', borderRadius:'50%' }} />
+
+              <Icon type="FontAwesome" name="fa-twitter" size={28} 
+                style={{ marginLeft:'15px', textAlign:'center', width:'60px', height:'60px', 
+                  cursor: 'pointer', border:'1px solid #000', padding:'15px', borderRadius:'50%' }} />
+
+              <Icon type="FontAwesome" name="fa-instagram" size={28} 
+                style={{ marginLeft:'15px', textAlign:'center', width:'60px', height:'60px', 
+                  cursor: 'pointer', border:'1px solid #000', padding:'15px', borderRadius:'50%' }} />
+
+              <Icon type="FontAwesome" name="fa-whatsapp" size={28} 
+                style={{ marginLeft:'15px', textAlign:'center', width:'60px', height:'60px', 
+                  cursor: 'pointer', border:'1px solid #000', padding:'15px', borderRadius:'50%' }} />
+            </div>
+          </Col>
+        </Row>
+        <Row>
+          <Col md={6}>
+          
+          </Col>
+          <Col md={6}>
+          
+          </Col>
+        </Row>
+      </Col>
+    </Row>
+  </ContainerFluid>
+ </div>
 
  <Footer />
 
