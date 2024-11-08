@@ -12,7 +12,8 @@ const ProjectList = () =>{
             "title":"Vocal Flow Simulator",
             "isPOC": true
         }]
-    },{
+    },
+    {
         "title": "Roger's IVR Solutions",
         "isProject": true
     }],
