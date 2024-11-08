@@ -3,15 +3,18 @@ import { data } from './data.js';
 import './index.css';
 
 const ProjectOverview = () =>{
+  
  const Company = ({ title, duration})=>{
   return (<div className="resume-header-sub1 pt-1 pb-1 px-3 mb-3">
 	<span className="uppercase"><b>{title}</b></span>
 	<span className="pull-right"><b>({duration})</b></span>
   </div>);
  };
+
  const Header = ({ title })=>{
   return (<div className="mbot15p"><span className="resume-project-subtitle "><b>{title}</b></span></div> );
  };
+
  const ProfileTech = ({ title, data }) =>{
   const stackKeys = data? Object.keys(data):[];
   return (<div>
