@@ -1,8 +1,8 @@
 import React from "react";
 
 export const data = [{
-    "companyName":"Synergy Netsoft pvt. ltd",
-    "workDuration":"5 years 8 months",
+    "companyName":"Spinsci Technologies",
+    "workDuration":"3 years 6 months",
     "timelines":[{
        "timeline":"June 2012 ~ August 2014",
        "workTitle":"Cisco - Voice Developers Platform",
