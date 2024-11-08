@@ -17,7 +17,7 @@ export const data = [{
              "Client Name":"Cisco Systems, Inc",
              "Team Size": 8,
              "My Roles": "Web Application Developer"
-           },
+           }, 
            "projectTechStack":{
                "Software Life Cycle": "Agile Methodology",
                "Project Architecture": "Microservice Architecture",

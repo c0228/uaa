@@ -11,8 +11,7 @@ const data = [(<div>Worked as <span className="text-grey2"><b>Software Engineer<
  (<div>Worked as <span className="text-grey2"><b>Technical Lead</b></span> in <span className="text-grey2"><b>Quadratics Software Systems</b></span> from June 2021 to April 2022.</div>),
  (<div>Working as <span className="text-grey2"><b>Technical Lead</b></span> in <span className="text-grey2"><b>Tescra Software Systems</b></span> from May 2022 to Sep 2023.</div>),
  (<div>Since Sep 2023, I have been focusing on <span className="text-grey2"><b>Professional Development (Skill Upgradation)</b></span> through online courses and 
-    certifications to enhance my expertise in the latest technologies, software development practices, and leadership skills.
-  </div>),
+    certifications to enhance my expertise in the latest technologies, software development practices, and leadership skills.</div>),
 ];
 
 const WorkExperience = () =>{
