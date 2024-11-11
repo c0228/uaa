@@ -8,6 +8,7 @@ import DefineL1L2L3 from "@Pages/Agile/content/L1-L2-L3/index.js";
 import ArchDesignPrinciple from "@Pages/Agile/content/arch-design-principle/index.js";
 import DDDRole from "@Pages/Agile/content/ddd-role/index.js";
 import V8Node from "@Pages/NodeJS/content/v8-node/index.js";
+import ReactScroll01 from "@Pages/React/content/react-scroll-01/index.js";
 import BufferClasses from "@Pages/NodeJS/content/buffer-classes/index.js";
 
 export const AppRouting = ()=>{
@@ -30,6 +31,9 @@ export const AppRouting = ()=>{
          {/* NodeJS */}
          <Route exact path="tech/node-js/overview-of-node-js-and-v8-engine-how-they-works-together" element={<V8Node />} />
          <Route exact path="tech/node-js/understanding-buffer-classes-in-node-js" element={<BufferClasses />} />
+
+         {/* React */}
+         <Route exact path="tech/react/scroll-to-respective-section-on-a-page-when-a-link-is-clicked-from-other-page" element={<ReactScroll01 />} />
       </Routes>
     </BrowserRouter>);
    };
