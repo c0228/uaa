@@ -9,7 +9,7 @@ const SocialLinks = ({ list }) =>{
     </div>
     <div style={{ marginTop:'15px' }}>
         {list?.map((l,i)=>{
-            return (<Icon type="FontAwesome" name={"fa-"+l} size={28} className="social-link" />);
+            return (<Icon key={i} type="FontAwesome" name={"fa-"+l} size={28} className="social-link" />);
         })}
     </div>
  </div>);

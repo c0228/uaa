@@ -5,8 +5,9 @@ import { HeaderMenu } from '@Config/HeaderMenu.js';
 import Employees from './components/Employees/index.js';
 import Employers from './components/Employers/index.js';
 import FeaturedServices from './components/FeaturedServices/index.js';
-import SlimImageTitles from './SlimImageTitles/index.js';
-import SocialLinks from './components/SocialLinks/index.js';
+import SlimImageTitles from '@Components/SlimImageTitles/index.js';
+import FeatureCard from '@Components/FeatureCard/index.js';
+import Bottom from '@Templates/Bottom/index.js';
 import Footer from '@Templates/Footer/index.js';
 import './index.css';
 
@@ -53,11 +54,18 @@ const Home = ()=>{
  };
 
  const LandingTemp2 = ()=>{
-  return (<div style={{ marginTop:'65px', padding:'15px' }}>
+  return (<div style={{ marginTop:'65px', marginBottom:'65px', padding:'15px' }}>
     <Row>
-      <Col md={8}>
-        <div><h1 style={{ lineHeight:'46px' }}><b>Streamline Your Revenue Cycle, Maximize Your Practice's Potential.</b></h1></div>
-        <div style={{ lineHeight:'34px', fontSize:'18px', color:'#000'  }}>
+      <Col md={12}>
+        <div align="center">
+          <h1 style={{ lineHeight:'46px' }}><b>Streamline Your Revenue Cycle, Maximize Your Practice's Potential.</b></h1>
+        </div>
+      </Col>
+    </Row>
+    <Row>
+      <Col md={1}></Col>
+      <Col md={7}>
+        <div style={{ marginTop:'25px', lineHeight:'34px', fontSize:'18px', color:'#000'  }}>
         Navigating the intricate landscape of medical billing can be a daunting task for healthcare providers. From 
         accurate coding and timely claims submission to efficient payment collection, the process demands meticulous 
         attention and expertise. However, with the right partner, you can streamline your revenue cycle and focus on 
@@ -67,6 +75,10 @@ const Home = ()=>{
         you to maximize your revenue and minimize administrative burdens.
         </div>
       </Col>
+      <Col md={3}>
+        <img src="http://localhost/BIS/12.png" style={{ marginTop:'25px', borderRadius:'12px', boxShadow:'2px 2px 2px 2px #808080' }} />
+      </Col>
+      <Col md={1}></Col>
     </Row>
   </div>);
  };
@@ -75,6 +87,7 @@ const Home = ()=>{
   return (<div style={{ marginTop:'65px', backgroundColor:'#000040', color:'#ddd', paddingTop:'55px', paddingBottom:'35px',
     boxShadow:'2px 2px 2px 2px #808080'
    }}>
+    <ContainerFluid>
     <Row>
       <Col md={12}>
       <div align="center">
@@ -83,6 +96,7 @@ const Home = ()=>{
       </div>
       </Col>
     </Row>
+    <div style={{ marginTop:'25px', marginBottom:'25px' }}>
     <Row>
       <Col md={7}>
         <div style={{ padding:'15px', lineHeight:'34px', fontSize:'18px'  }}>
@@ -119,9 +133,11 @@ const Home = ()=>{
         </div>
       </Col>
       <Col md={5}>
-      
+        <img src="http://localhost/BIS/11.png" style={{ marginTop:'15px', borderRadius:'12px' }} />
       </Col>
     </Row>
+    </div>
+    </ContainerFluid>
   </div>);
  };
 
@@ -152,24 +168,9 @@ const Home = ()=>{
       title:'Improved Efficiency',
       content:'Our solutions enhance your overall operational efficiency, saving you time and resources.'
     }];
-    const Item = ({ data })=>{
-      return (<div style={{ display:'flex', padding:'15px' }}>
-        <div style={{ width:'25%', paddingTop:'18px' }}>
-          <Icon type="FontAwesome" name={data?.icon} size={100} />
-        </div>
-        <div style={{ width:'75%', padding:'15px' }}>
-          <div><h4><b>{data?.title}</b></h4></div>
-          <div style={{ lineHeight:'34px', fontSize:'18px', color:'#000'  }}>{data?.content}</div>
-        </div>
-      </div>);
-    };
-    return (<Row>
-      {data?.map((d,i)=>{
-        return (<Col md={4}><Item key={i} data={d} /></Col>); 
-      })}
-    </Row>);
+    return (<FeatureCard data={data} />);
   };
-  return (<div style={{ marginTop:'65px' }}>
+  return (<div style={{ marginTop:'65px', marginBottom:'65px' }}>
         <Row>
       <Col md={12}>
         <div align="center">
@@ -323,7 +324,10 @@ const Home = ()=>{
   </Row>
   <SlimImageTitles data={[{
       img:"http://192.168.1.5/BIS/5.png",
-      content: (<SlimImageContent title={<div>Medical<br/> Billing</div>} />)
+      content: (<SlimImageContent title={
+        <a href={process.env.PROJECT_URL+'services#medical-billing'} style={{ color:'#fff', textDecoration:'none' }}>
+        Medical<br/> Billing
+      </a>} />)
     },{
       img:"http://192.168.1.5/BIS/6.png",
       content: (<SlimImageContent title={<div>Medical<br/> Transcription</div>} />)
@@ -352,71 +356,8 @@ const Home = ()=>{
  {/*
  <Jumbotron /> */}
 
- <div style={{ backgroundColor:'#eee', borderTop:'1px solid #ccc' }}>
-  <ContainerFluid>
-    <Row>
-      <Col md={4}>
-        <div style={{ marginTop:'35px', marginBottom:'45px' }}>
-        <div style={{ marginBottom:'15px' }}><h4><b>Broadway Info Services</b></h4></div>
-        <div style={{ lineHeight:'26px', fontSize:'14px', color:'#555' }}>
-          Broadway Info Services is a leading healthcare revenue cycle management company. They specialize in medical 
-          coding, billing, and other administrative services. Their advanced technology and skilled team ensure accurate 
-          and efficient processing of claims, maximizing revenue for healthcare providers. With a focus on client satisfaction, 
-          Broadway Info Services has a proven track record of delivering exceptional results and improving overall 
-          practice performance.</div>
-        </div>
-      </Col>
-      <Col md={5}>
 
-        <Row>
-          <Col md={12}>
-            <div align="center" style={{ marginTop:'35px' }}>
-              <span style={{ fontSize:'14px' }}><b>USEFUL MENU LINKS</b></span>
-            </div>
-          </Col>
-        </Row>
-        <div style={{ marginTop:'15px', fontSize:'14px', color:'#555' }}>
-        <Row>
-          <Col md={3}>
-            <div className="mtop5p"><b>Home</b></div>
-            <div className="mtop5p"><b>About Us</b></div>
-            <div className="mtop5p"><b>Services</b></div>
-            <div className="mtop5p"><b>Contact Us</b></div>
-          </Col>
-          <Col md={4}>
-            <div className="mtop5p"><b>Medical Billing</b></div>
-            <div className="mtop5p"><b>Medical Transcription</b></div>
-            <div className="mtop5p"><b>Medical Coding</b></div>
-          </Col>
-          <Col md={5}>
-            <div className="mtop5p"><b>Compliance Audits</b></div>
-            <div className="mtop5p"><b>Practice Consulting</b></div>
-            <div className="mtop5p"><b>Credentialing Services</b></div>
-          </Col>
-        </Row>
-
-        </div>
-        
-      </Col>
-      <Col md={3}>
-        <Row>
-          <Col md={12}>
-            <SocialLinks list={["facebook","twitter","instagram","whatsapp"]} />
-          </Col>
-        </Row>
-        <Row>
-          <Col md={6}>
-          
-          </Col>
-          <Col md={6}>
-          
-          </Col>
-        </Row>
-      </Col>
-    </Row>
-  </ContainerFluid>
- </div>
-
+ <Bottom />
  <Footer />
 
  
