@@ -13,9 +13,12 @@ import './index.css';
 
 const Home = ()=>{
  const TagLine = () =>{
-   return (<div align="center" style={{ fontSize:'16px', width:'100%', backgroundColor:'#ddd', padding:'8px' }}>
+   return (<div align="center" style={{ fontSize:'16px', width:'100%', color:'#fff', backgroundColor:'#000040', padding:'8px' }}>
     <b>"Your Trusted Partner for empowering Healthcare Providers for providing Healthcare Financial Success."</b>
  </div>);
+ };
+ const HyperLinkScroll = ({ id, label}) =>{
+  return (<a href={process.env.PROJECT_URL+'services#'+id} style={{ color:'#fff', textDecoration:'none' }}>{label}</a>);
  };
  const LandingTemp1 = () =>{
   return ( <div style={{ marginTop:'65px', backgroundColor:'#efefef', paddingTop:'55px', paddingBottom:'35px',
@@ -227,86 +230,27 @@ const Home = ()=>{
  return (<>
  <Header menulinks={HeaderMenu} activeId="Home" />
  <TagLine />
- <Carousel 
-    id="listing" 
-    data={[{
-          img: { src:'http://192.168.1.5/BIS/4.png', style:{  maxHeight:'600px' }, alt:'Los Angeles' },
-          content:(<div>
-              <div className="bis-onlyDesktopView">
-                <CarouselContent title="Elevate Your Healthcare Practice with Broadway Info Services" 
-                  desc={<div style={{ marginTop:'25px', color:'#ddd' }}>
-                    &emsp;Broadway Info Services is your partner in optimizing healthcare operations. 
-                    Our dedicated team of experts specializes in ensuring accurate medical coding, timely claims 
-                    submission, and efficient payment collection. By streamlining these critical administrative tasks, 
-                    we empower healthcare providers to focus on what truly matters: delivering exceptional patient care.<br/><br/> 
-                    &emsp;Our comprehensive services are designed to enhance revenue cycle management, minimize claim denials, 
-                    and maximize reimbursement. Trust Broadway Info Services to provide the support you need to thrive 
-                    in today's complex healthcare landscape.</div>} />
-              </div>
-              <div className="bis-onlyMobileView">
-                <CarouselContent title="Elevate Your Healthcare Practice with Broadway Info Services" 
-                  desc={<div>Our expert team ensures accurate coding, timely claims submission & efficient payment 
-                    collection, allowing you to focus on patient care.</div>} />
-              </div>
-            </div>)
-
-            
-     },{
-         img:{ src:'http://192.168.1.5/BIS/3.png', style:{  maxHeight:'600px' }, alt:'Chicago' },
-         content:(<div>
-          <div className="bis-onlyDesktopView">
-            <CarouselContent title="Streamline Your Revenue Cycle with Broadway Info Services" 
-              desc={<div style={{ marginTop:'25px', color:'#ddd' }}>
-                Broadway Info Services is committed to optimizing your revenue cycle. 
-                Our cutting-edge technology, coupled with the expertise of our seasoned professionals, 
-                ensures accelerated payment cycles and maximized revenue. By leveraging our advanced solutions, 
-                you can streamline your administrative processes, reduce claim denials, and improve overall 
-                financial performance.<br/><br/>
-                Our advanced technology and experienced professionals work in tandem to revolutionize your revenue 
-                cycle management. By automating tedious tasks and optimizing workflows, we accelerate payment cycles, 
-                minimize claim denials, and maximize your revenue.Our comprehensive approach empowers you to focus on 
-                delivering quality patient care, while we handle the complexities of revenue cycle management.</div>} />
-          </div>
-          <div className="bis-onlyMobileView">
-            <CarouselContent title="Streamline Your Revenue Cycle with Broadway Info Services" 
-            desc={<div>Our advanced technology and 
-              experienced professionals work together to accelerate payment cycles, and 
-              maximize your revenue.</div>} />
-          </div>
-         </div>)
-     },{
-         img:{ src:'http://192.168.1.5/BIS/2.png', style:{  maxHeight:'600px' }, alt:'New York' },
-         content:(<div>
-          <div className="bis-onlyDesktopView">
-            <CarouselContent title="Partner with the Best in Healthcare Billing" 
-            desc={
-            <div>Elevate your healthcare practice with Broadway Info Services. 
-              Our dedicated team of experts is committed to providing top-notch healthcare billing solutions. 
-              By leveraging advanced technology and industry best practices, we streamline your revenue cycle, 
-              maximize reimbursement, and minimize administrative burdens.<br/><br/>
-              Our comprehensive services include:<br/><br/>
-              <ol>
-                <li>Accurate Coding: Ensuring precise coding for optimal reimbursement.</li>
-                <li>Timely Claims Submission: Expediting the claims process for faster payments.</li>
-                <li>Efficient Payment Collection: Streamlining the collection process to improve cash flow.</li>
-              </ol>
-              Trust Broadway Info Services to deliver exceptional results and help you focus on what matters 
-              most: patient care.</div>} />
-          </div>
-          <div className="bis-onlyMobileView">
-            <CarouselContent title="Partner with the Best in Healthcare Billing" 
-            desc={
-            <div>Experience the Broadway Info Services difference. Our commitment to excellence, 
-              combined with our expertise and cutting-edge technology, ensures your financial success.</div>} />
-          </div>
-          </div>)
-     }]} />
- {/*} <div className="p-5">
-    <VerticalStaticMenu data={data} activeId={activeMenu}
-        config={{ active:{ color:'#0c9712' }, inactive:{ color:'#000' } }} />
-  </div>
-  backgroundColor:'#000040'
-  */}
+ <div style={{ backgroundColor:'#ccc', color:'#000' }}>
+  <Row>
+    <Col md={6}>
+      <img src="http://localhost/BIS/24.png" />
+    </Col>
+    <Col md={6}>
+      <h2 style={{ marginTop:'25px', lineHeight:'46px', paddingTop:'15px' }}>
+        <b>Elevate Your Healthcare Practice,<br/> Streamline Your Revenue Cycle and<br /> Partner with Broadway Info Services</b>
+      </h2>
+      <div className="bis-hgl-text">
+      Broadway Info Services is your partner in optimizing healthcare operations. 
+      Our dedicated team of experts specializes in ensuring accurate medical coding, timely claims 
+      submission, and efficient payment collection.<br/><br/> 
+      By streamlining these critical administrative tasks, 
+      we empower healthcare providers to focus on what truly matters: delivering exceptional patient care.<br/><br/>
+      Our cutting-edge technology, coupled with the expertise of our seasoned professionals, ensures accelerated 
+      payment cycles and maximized revenue. 
+      </div>
+    </Col>
+  </Row>
+ </div>
   <div style={{ paddingTop:'45px', paddingLeft:'15px', paddingRight:'15px', backgroundColor:'#000040', color:'#eee',
       boxShadow:'2px 2px 2px 2px #808080'
    }}>
@@ -324,25 +268,22 @@ const Home = ()=>{
   </Row>
   <SlimImageTitles data={[{
       img:"http://192.168.1.5/BIS/5.png",
-      content: (<SlimImageContent title={
-        <a href={process.env.PROJECT_URL+'services#medical-billing'} style={{ color:'#fff', textDecoration:'none' }}>
-        Medical<br/> Billing
-      </a>} />)
-    },{
+      content: (<SlimImageContent title={<HyperLinkScroll id="medical-billing" label={<div>Medical<br/> Billing</div>} />} />)
+    },{ // medical-transcription
       img:"http://192.168.1.5/BIS/6.png",
-      content: (<SlimImageContent title={<div>Medical<br/> Transcription</div>} />)
-    },{
+      content: (<SlimImageContent  title={<HyperLinkScroll id="medical-transcription" label={<div>Medical<br/> Transcription</div>} />} />)
+    },{ // medical-coding
       img:"http://192.168.1.5/BIS/7.png",
-      content: (<SlimImageContent title={<div>Medical<br/> Coding</div>} />)
+      content: (<SlimImageContent title={<HyperLinkScroll id="medical-coding" label={<div>Medical<br/> Coding</div>} />} />)
     },{
       img:"http://192.168.1.5/BIS/8.png",
-      content: (<SlimImageContent title={<div>Compliance<br/> Audits</div>} />)
+      content: (<SlimImageContent title={<HyperLinkScroll id="compliance-audits" label={<div>Compliance<br/> Audits</div>} />} />)
     },{
       img:"http://192.168.1.5/BIS/9.png",
-      content: (<SlimImageContent title={<div>Practice<br/> Consulting</div>} />)
+      content: (<SlimImageContent title={<HyperLinkScroll id="practice-consulting" label={<div>Practice<br/> Consulting</div>} />} />)
     },{
       img:"http://192.168.1.5/BIS/10.png",
-      content: (<SlimImageContent title={<div>Credentialing<br/> Services</div>} />)
+      content: (<SlimImageContent title={<HyperLinkScroll id="credentialing-services" label={<div>Credentialing<br/> Services</div>} />} />)
     }]} />
   </ContainerFluid>
 

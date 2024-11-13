@@ -1,1 +1,4 @@
 .bis-hgl-text { margin-top:25px;line-height:34px;font-size:18px;color:#000; }
+img {   object-fit: cover; /* or contain, depending on your preference */
+    height: 100%; /* Adjust the height as needed */
+    width: 100%; }

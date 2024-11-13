@@ -7,6 +7,9 @@ import { HeaderMenu } from '@Config/HeaderMenu.js';
 const ContactUs = () =>{
  return (<div>
     <Header menulinks={HeaderMenu} activeId="ContactUs" />
+    <div style={{ backgroundColor:'#ccc', }}>
+
+    </div>
     <div>
       <Row>
          <Col md={12}>
