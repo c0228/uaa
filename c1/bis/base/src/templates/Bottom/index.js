@@ -31,20 +31,20 @@ const Bottom = () =>{
         <div className="bis-bottom-container-center-content">
         <Row>
           <Col md={3}>
-            <div className="mtop5p bis-bottom-container-center-url">Home</div>
-            <div className="mtop5p bis-bottom-container-center-url">About Us</div>
-            <div className="mtop5p bis-bottom-container-center-url">Services</div>
-            <div className="mtop5p bis-bottom-container-center-url">Contact Us</div>
+            <div className="mtop5p"><a href={process.env.PROJECT_URL} className="bis-bottom-container-center-url">Home</a></div>
+            <div className="mtop5p"><a href={process.env.PROJECT_URL+"about-us"} className="bis-bottom-container-center-url">About Us</a></div>
+            <div className="mtop5p"><a href={process.env.PROJECT_URL+"services"} className="bis-bottom-container-center-url">Services</a></div>
+            <div className="mtop5p"><a href={process.env.PROJECT_URL+"contact-us"}  className="bis-bottom-container-center-url">Contact Us</a></div>
           </Col>
           <Col md={4}>
-            <div className="mtop5p bis-bottom-container-center-url">Medical Billing</div>
-            <div className="mtop5p bis-bottom-container-center-url">Medical Transcription</div>
-            <div className="mtop5p bis-bottom-container-center-url">Medical Coding</div>
+            <div className="mtop5p"><a href={process.env.PROJECT_URL+"services#medical-billing"} className="bis-bottom-container-center-url">Medical Billing</a></div>
+            <div className="mtop5p"><a href={process.env.PROJECT_URL+"services#medical-transcription"} className="bis-bottom-container-center-url">Medical Transcription</a></div>
+            <div className="mtop5p"><a href={process.env.PROJECT_URL+"services#medical-coding"} className="bis-bottom-container-center-url">Medical Coding</a></div>
           </Col>
           <Col md={5}>
-            <div className="mtop5p bis-bottom-container-center-url">Compliance Audits</div>
-            <div className="mtop5p bis-bottom-container-center-url">Practice Consulting</div>
-            <div className="mtop5p bis-bottom-container-center-url">Credentialing Services</div>
+            <div className="mtop5p"><a href={process.env.PROJECT_URL+"services#compliance-audits"} className="bis-bottom-container-center-url">Compliance Audits</a></div>
+            <div className="mtop5p"><a href={process.env.PROJECT_URL+"services#practice-consulting"} className="bis-bottom-container-center-url">Practice Consulting</a></div>
+            <div className="mtop5p"><a href={process.env.PROJECT_URL+"services#credentialing-services"} className="bis-bottom-container-center-url">Credentialing Services</a></div>
           </Col>
         </Row>
 

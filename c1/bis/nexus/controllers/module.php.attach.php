@@ -36,7 +36,6 @@ $html = '
 <!DOCTYPE html>
 <html>
 <head>
-    <title>RollEasyBlinds Customer Quotation</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -105,8 +104,8 @@ use PHPMailer\PHPMailer\Exception;
 $mail = new PHPMailer(true);
 
 //Recipients
-$mail->setFrom('nellutlalnrao@gmail.com', 'Broadway Info Services');
-$mail->addBCC('nellutlalnrao@gmail.com', $name); // Add a Personal Recipient
+$mail->setFrom('support@broadwayinfoservice.com', 'Broadway Info Services');
+$mail->addBCC('support@broadwayinfoservice.com', $name); // Add a Personal Recipient
 $mail->addAddress($email, $name);
 
 try {

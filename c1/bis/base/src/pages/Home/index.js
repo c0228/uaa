@@ -33,7 +33,7 @@ const Home = ()=>{
       <Col md={1}></Col>
       <Col md={4}>
       <div>
-      <img src="http://192.168.1.5/BIS/1.png" style={{ marginTop:'35px', width:'100%', borderRadius:'50%' }} />
+      <img src={process.env.PROJECT_URL+"assets/images/1.png"} style={{ marginTop:'35px', width:'100%', borderRadius:'50%' }} />
       </div>
       </Col>
       <Col md={6}>
@@ -270,22 +270,22 @@ const Home = ()=>{
     </Col>
   </Row>
   <SlimImageTitles data={[{
-      img:"http://192.168.1.5/BIS/5.png",
+      img: process.env.PROJECT_URL+"assets/images/5.png",
       content: (<SlimImageContent title={<HyperLinkScroll id="medical-billing" label={<div>Medical<br/> Billing</div>} />} />)
     },{ // medical-transcription
-      img:"http://192.168.1.5/BIS/6.png",
+      img: process.env.PROJECT_URL+"assets/images/6.png",
       content: (<SlimImageContent  title={<HyperLinkScroll id="medical-transcription" label={<div>Medical<br/> Transcription</div>} />} />)
     },{ // medical-coding
-      img:"http://192.168.1.5/BIS/7.png",
+      img: process.env.PROJECT_URL+"assets/images/7.png",
       content: (<SlimImageContent title={<HyperLinkScroll id="medical-coding" label={<div>Medical<br/> Coding</div>} />} />)
     },{
-      img:"http://192.168.1.5/BIS/8.png",
+      img: process.env.PROJECT_URL+"assets/images/8.png",
       content: (<SlimImageContent title={<HyperLinkScroll id="compliance-audits" label={<div>Compliance<br/> Audits</div>} />} />)
     },{
-      img:"http://192.168.1.5/BIS/9.png",
+      img: process.env.PROJECT_URL+"assets/images/9.png",
       content: (<SlimImageContent title={<HyperLinkScroll id="practice-consulting" label={<div>Practice<br/> Consulting</div>} />} />)
     },{
-      img:"http://192.168.1.5/BIS/10.png",
+      img: process.env.PROJECT_URL+"assets/images/10.png",
       content: (<SlimImageContent title={<HyperLinkScroll id="credentialing-services" label={<div>Credentialing<br/> Services</div>} />} />)
     }]} />
   </ContainerFluid>
