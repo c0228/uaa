@@ -87,13 +87,13 @@ entry: './src/index.js',
             dot: true
         }
       },
-      {
+     /* {
         from:  Path.join(__dirname, 'nexus'),
         to: Path.join(__dirname, 'dist/nexus'),
         globOptions: {
             dot: true
         }
-      }
+      } */
     ]
   })
  ],
