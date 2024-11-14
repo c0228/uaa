@@ -5,7 +5,7 @@ import './index.css';
 const SocialLinks = ({ list }) =>{
  return (<div>
     <div align="center" style={{ marginTop:'35px' }}>
-        <span style={{ fontSize:'14px' }}><b>SOCIAL LINKS</b></span>
+        <span style={{ fontSize:'14px' }}><b>FOLLOW US ON</b></span>
     </div>
     <div style={{ marginTop:'15px' }}>
         {list?.map((l,i)=>{

@@ -49,17 +49,17 @@ const ContactUs = () =>{
       <Form name="testForm"
          btnSubmit={{
             align:'center',
-            btnType:'primary',
+            btnType:'light',
             label:'Submit',
             size: 11,
-            style:{ fontWeight:'bold' }
+            style:{ fontWeight:'bold', backgroundColor:'#000040', color:'#fff' }
          }}
          btnReset={{
             align:'center',
-            btnType:'danger',
+            btnType:'light',
             label:'Reset',
             size: 14,
-            style:{ fontWeight:'bold' }
+            style:{ fontWeight:'bold', border:'1px solid #000040' }
          }}
          onSubmit={(form, isValidForm)=>{
 
