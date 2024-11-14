@@ -4,7 +4,7 @@ import { Row, Col, Button } from "e-ui-react";
 const Landing = () =>{
  return (<div style={{ backgroundColor:'#000040', }}>
   <Row>
-    <Col md={6}><img src="http://localhost/BIS/25.png" style={{ }} /></Col>
+    <Col md={6}><img src={process.env.PROJECT_URL+"assets/images/25.png"} style={{ }} /></Col>
     <Col md={6}>
      <div style={{ marginTop:'15%', color:'#fff', padding:'15px' }}>
         <div align="center"><h3 style={{ textTransform:'uppercase', letterSpacing:'2px' }}>

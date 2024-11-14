@@ -125,7 +125,7 @@ const Services = () =>{
                </div>
             </Col>
             <Col md={6}>
-               <img src="http://localhost/BIS/18.png"  style={{ marginTop:'15px', borderRadius:'12px', boxShadow:'2px 2px 2px 2px #ccc' }}   />
+               <img src={process.env.PROJECT_URL+"assets/images/18.png"}  style={{ marginTop:'15px', borderRadius:'12px', boxShadow:'2px 2px 2px 2px #ccc' }}   />
             </Col>
          </Row>
       </ContainerFluid>
@@ -145,7 +145,7 @@ const Services = () =>{
          </Row>
          <Row>
             <Col md={6}>
-               <img src="http://localhost/BIS/19.png" style={{ marginTop:'30px', borderRadius:'12px', boxShadow:'2px 2px 2px 2px #ccc' }} />
+               <img src={process.env.PROJECT_URL+"assets/images/19.png"} style={{ marginTop:'30px', borderRadius:'12px', boxShadow:'2px 2px 2px 2px #ccc' }} />
             </Col>
             <Col md={6}>
                <div className="mtop15p bis-hgl-text">
@@ -200,7 +200,7 @@ const Services = () =>{
                By partnering with Broadway Info Services, you can rest assured that your medical coding is in expert hands.</div>
             </Col>
             <Col md={6}>
-               <img src="http://localhost/BIS/20.png" style={{ marginTop:'35px', borderRadius:'12px', boxShadow:'2px 2px 2px 2px #ccc' }} />
+               <img src={process.env.PROJECT_URL+"assets/images/20.png"} style={{ marginTop:'35px', borderRadius:'12px', boxShadow:'2px 2px 2px 2px #ccc' }} />
             </Col>
          </Row>
       </ContainerFluid>
@@ -220,7 +220,7 @@ const Services = () =>{
          </Row>
          <Row>
             <Col md={6}>
-               <img src="http://localhost/BIS/21.png" style={{  marginTop:'35px', borderRadius:'12px', boxShadow:'2px 2px 2px 2px #ccc' }} />
+               <img src={process.env.PROJECT_URL+"assets/images/21.png"} style={{  marginTop:'35px', borderRadius:'12px', boxShadow:'2px 2px 2px 2px #ccc' }} />
             </Col>
             <Col md={6}>
                <div className="mtop15p bis-hgl-text">
@@ -281,7 +281,7 @@ const Services = () =>{
                </div>
             </Col>
             <Col md={6}>
-               <img src="http://localhost/BIS/22.png" style={{ marginTop:'35px', borderRadius:'12px', boxShadow:'2px 2px 2px 2px #ccc' }} />
+               <img src={process.env.PROJECT_URL+"assets/images/22.png"} style={{ marginTop:'35px', borderRadius:'12px', boxShadow:'2px 2px 2px 2px #ccc' }} />
             </Col>
          </Row>
       </ContainerFluid>
@@ -302,7 +302,7 @@ const Services = () =>{
          </Row>
          <Row>
             <Col md={6}>
-               <img src="http://localhost/BIS/23.png" style={{ marginTop:'25px', borderRadius:'12px', boxShadow:'2px 2px 2px 2px #ccc' }} />
+               <img src={process.env.PROJECT_URL+"assets/images/23.png"} style={{ marginTop:'25px', borderRadius:'12px', boxShadow:'2px 2px 2px 2px #ccc' }} />
             </Col>
             <Col md={6}>
                <div className="mtop15p bis-hgl-text">

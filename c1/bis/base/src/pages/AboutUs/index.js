@@ -34,7 +34,7 @@ const AboutUs = () =>{
          </Col>
          <Col md={6}>
             <div style={{ margin:'15px' }}>
-            <img src="http://localhost/BIS/15.png" 
+            <img src={process.env.PROJECT_URL+"assets/images/15.png"}
                style={{ boxShadow:'2px 2px 2px 2px #ccc', borderRadius:'12px', marginTop:'15px', width:'100%', height:'auto' }} />
             </div>
          </Col>
@@ -71,7 +71,7 @@ const Template2 = () =>{
             </div>
          </Col>
          <Col md={4}>
-            <img src="http://localhost/BIS/14.png" />
+            <img src={process.env.PROJECT_URL+"assets/images/14.png"} />
          </Col>
       </Row>
       </ContainerFluid>
@@ -93,7 +93,7 @@ const Template3 = () =>{
          </Row>
          <Row>
             <Col md={4}>
-               <img src="http://localhost/BIS/13.png" />
+               <img src={process.env.PROJECT_URL+"assets/images/13.png"} />
             </Col>
             <Col md={8}>
                <div className="bis-hgl-text">
@@ -145,7 +145,7 @@ const Template4 = () =>{
                </div>
             </Col>
             <Col md={6}>
-               <img src="http://localhost/BIS/16.png" style={{ marginTop:'25px', borderRadius:'12px', boxShadow:'2px 2px 2px 2px #ccc' }} />
+               <img src={process.env.PROJECT_URL+"assets/images/16.png"} style={{ marginTop:'25px', borderRadius:'12px', boxShadow:'2px 2px 2px 2px #ccc' }} />
             </Col>
          </Row>
       </ContainerFluid>
@@ -160,7 +160,7 @@ const Template5 = () =>{
          <Row>
             <Col md={5}>
                <div style={{ marginTop:'35px' }}>
-                  <img src="http://localhost/BIS/17.png" style={{ borderRadius:'12px', boxShadow:'2px 2px 2px 2px #ccc' }} />
+                  <img src={process.env.PROJECT_URL+"assets/images/17.png"} style={{ borderRadius:'12px', boxShadow:'2px 2px 2px 2px #ccc' }} />
                </div>
             </Col>
             <Col md={7}>

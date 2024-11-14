@@ -79,7 +79,7 @@ const Home = ()=>{
         </div>
       </Col>
       <Col md={3}>
-        <img src="http://localhost/BIS/12.png" style={{ marginTop:'25px', borderRadius:'12px', boxShadow:'2px 2px 2px 2px #808080' }} />
+        <img src={process.env.PROJECT_URL+"assets/images/12.png"} style={{ marginTop:'25px', borderRadius:'12px', boxShadow:'2px 2px 2px 2px #808080' }} />
       </Col>
       <Col md={1}></Col>
     </Row>
@@ -136,7 +136,7 @@ const Home = ()=>{
         </div>
       </Col>
       <Col md={5}>
-        <img src="http://localhost/BIS/11.png" style={{ marginTop:'15px', borderRadius:'12px' }} />
+        <img src={process.env.PROJECT_URL+"assets/images/11.png"} style={{ marginTop:'15px', borderRadius:'12px' }} />
       </Col>
     </Row>
     </div>
@@ -233,11 +233,13 @@ const Home = ()=>{
  <div style={{ backgroundColor:'#ccc', color:'#000' }}>
   <Row>
     <Col md={6}>
-      <img src="http://localhost/BIS/24.png" />
+      <img src={process.env.PROJECT_URL+"assets/images/24.png"} />
     </Col>
     <Col md={6}>
+      <div>
       <h2 style={{ marginTop:'25px', lineHeight:'46px', paddingTop:'15px' }}>
-        <b>Elevate Your Healthcare Practice,<br/> Streamline Your Revenue Cycle and<br /> Partner with Broadway Info Services</b>
+        <b>Elevate Your Healthcare Practice,<br/> Streamline Your Revenue Cycle and<br /> 
+        Partner with Broadway Info Services</b>
       </h2>
       <div className="bis-hgl-text">
       Broadway Info Services is your partner in optimizing healthcare operations. 
@@ -247,6 +249,7 @@ const Home = ()=>{
       we empower healthcare providers to focus on what truly matters: delivering exceptional patient care.<br/><br/>
       Our cutting-edge technology, coupled with the expertise of our seasoned professionals, ensures accelerated 
       payment cycles and maximized revenue. 
+      </div>
       </div>
     </Col>
   </Row>
