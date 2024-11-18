@@ -12,21 +12,20 @@ const Header = ({ activeId, menulinks })=>{
   return (<div style={{ display:'flex', flexDirection:'row', width:'100%', marginLeft:'5px', marginRight:'5px' }}>
     <div style={{ width:'80%' }}>
     <a href="#" style={{ textDecoration:'none' }}>
-      <div style={{ display:'flex', }}>
-        <img src="./assets/images/icon.png" style={{ backgroundColor:'#000040', borderRadius:'50%', border:'2px solid #333', 
-          padding:'3px', width: '40px', height:'40px', marginTop:'5px', boxShadow:'2px 2px 2px 2px #808080' }}/>
+      <div style={{ display:'flex' }}>
+        <img src="./assets/images/icon.png"  className="wApp-logo-icon" />
       
         <div style={{ marginLeft:'8px' }}>
-          <div style={{ letterSpacing:'1px', marginTop:'10px', marginLeft:'2px',color:'#000040',fontFamily:'BloomsFree', 
-            fontSize:'24px',letterSpacing:'0.8px' }}>
+          <div className="wApp-logo-text">
             Broadway Info Services</div>
         </div>
       </div>
     </a>
     </div>
-     <div align="right" style={{ width:'20%' }}>
-      <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar" onClick={()=>setShowCollapse(!showCollapse)}>
-        <i className="fa fa-bars"></i>
+     <div align="right" style={{ width:'20%', marginTop:'4px', marginRight:'5px' }}>
+      <button className="navbar-toggler" type="button" data-bs-toggle="collapse" 
+        data-bs-target="#collapsibleNavbar" onClick={()=>setShowCollapse(!showCollapse)}>
+        <i className="fa fa-bars" style={{ paddingTop:'5px', marginBottom:'5px' }}></i>
       </button>
      </div>
   </div>);

@@ -4,7 +4,7 @@ import Header from '@Templates/Header/index.js';
 import { HeaderMenu } from '@Config/HeaderMenu.js';
 import Employees from './components/Employees/index.js';
 import Employers from './components/Employers/index.js';
-import FeaturedServices from './components/FeaturedServices/index.js';
+import FeaturedServices from '@Components/FeaturedServices/index.js';
 import SlimImageTitles from '@Components/SlimImageTitles/index.js';
 import FeatureCard from '@Components/FeatureCard/index.js';
 import Bottom from '@Templates/Bottom/index.js';
@@ -13,7 +13,7 @@ import './index.css';
 
 const Home = ()=>{
  const TagLine = () =>{
-   return (<div align="center" style={{ fontSize:'16px', width:'100%', color:'#fff', backgroundColor:'#000040', padding:'8px' }}>
+   return (<div align="center" className="bis-regular-text bis-home-tagline">
     <b>"Your Trusted Partner for empowering Healthcare Providers for providing Healthcare Financial Success."</b>
  </div>);
  };
@@ -33,7 +33,8 @@ const Home = ()=>{
       <Col md={1}></Col>
       <Col md={4}>
       <div>
-      <img src={process.env.PROJECT_URL+"assets/images/1.png"} style={{ marginTop:'35px', width:'100%', borderRadius:'50%' }} />
+      <img src={process.env.PROJECT_URL+"assets/images/1.png"}
+      style={{ marginTop:'35px', width:'100%', borderRadius:'50%' }} />
       </div>
       </Col>
       <Col md={6}>
@@ -231,16 +232,20 @@ const Home = ()=>{
  <Header menulinks={HeaderMenu} activeId="Home" />
  <TagLine />
  <div style={{ backgroundColor:'#ccc', color:'#000' }}>
-  <Row>
+  <Row className="row-flex-container">
     <Col md={6}>
-      <img src={process.env.PROJECT_URL+"assets/images/24.png"} />
+      <div className="col-flex-container">
+        <img src={process.env.PROJECT_URL+"assets/images/24.png"} />
+      </div>
     </Col>
     <Col md={6}>
-      <div>
-      <h2 style={{ marginTop:'25px', lineHeight:'46px', paddingTop:'15px' }}>
-        <b>Elevate Your Healthcare Practice,<br/> Streamline Your Revenue Cycle and<br /> 
+      <div className="col-flex-container wApp-hgl-textView pad15p">
+     {/* <h2 style={{ marginTop:'25px', lineHeight:'46px', paddingTop:'15px' }}> */}
+      <div className="bis-hgl-header">
+        <b>Elevate Your Healthcare Practice, Streamline Your Revenue Cycle and
         Partner with Broadway Info Services</b>
-      </h2>
+      </div>
+      {/* </h2> */}
       <div className="bis-hgl-text">
       Broadway Info Services is your partner in optimizing healthcare operations. 
       Our dedicated team of experts specializes in ensuring accurate medical coding, timely claims 
@@ -260,12 +265,12 @@ const Home = ()=>{
     <FeaturedServices />
   </div>
 
-  <div>
+  <div className="wApp-home-services-section">
   <ContainerFluid>
   <Row>
     <Col md={12}>
-      <div align="center" style={{  marginTop:'35px', marginBottom:'35px', fontFamily:'MetropolisBold' }}>
-        <h2 style={{  lineHeight:'42px' }}>Broadway Info Services - One Stop Solution</h2>  
+      <div align="center" className="wApp-hgl-headerDiv">
+        <div className="bis-hgl-header metropolisBoldFont">Broadway Info Services - One Stop Solution</div>  
       </div>
     </Col>
   </Row>

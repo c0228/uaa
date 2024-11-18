@@ -1,15 +1,23 @@
-@media(min-width:993px){ /* Desktop and Above */
+@media(min-width:1200px) { 
+ .wApp-home-services-section { margin-top:5vh;margin-bottom:5vh; }
+}
+
+@media(max-width:1199px) { 
+ .wApp-home-services-section { margin-top:35px;margin-bottom:35px; }
+}
+
+/* @media(min-width:993px){ // Desktop
   .bis-carousel-jumbotron { margin-top:45px;margin-bottom:45px; }
   .bis-carouselContent { margin-top:6%; }
   .bis-onlyDesktopView { display:block; }
   .bis-onlyMobileView { display:none; }
 }
-@media(max-width:992px){ /* Mobile */
+@media(max-width:992px){ // Mobile
   .bis-carousel-jumbotron { margin-top:15px;margin-bottom:15px; }
   .bis-carouselContent { margin-top:15px; }
   .bis-onlyDesktopView { display:none; }
   .bis-onlyMobileView { display:block; }
-}
+} */
 
 .zoom-img { position: relative;border-radius: 16px;overflow: hidden;box-shadow: 2px 2px 2px 2px #ccc; }
 .zoom-img img { z-index: -1;width: 100%;transition: all .3s ease-in-out; }
