@@ -20,7 +20,7 @@ const ContactUs = () =>{
 
  const Template2 = () =>{
    const MeetDetailsTemplate = ({ icon, label }) =>{
-      return (<div style={{ display:'flex', flex:1, marginTop:'35px' }}>
+      return (<div style={{ display:'flex', flex:1, marginTop:'15px' }}>
          <div style={{ width:'20%', backgroundColor:'#ccc',  borderTopLeftRadius:'50%',  borderBottomLeftRadius:'50%'  }}>
             <div align="center" style={{ color:'#fff', borderRadius:'50%', padding:'15px', 
                width:'50px', height:'50px', backgroundColor:'#000040' }}>
@@ -55,10 +55,18 @@ const ContactUs = () =>{
                <Col md={4}>
                   <div style={{ padding:'15px' }}>
                      <SubTitle label="Meet us" subDesc="We will love to hear from you!" />
-                     <MeetDetailsTemplate icon="fa-map-marker" 
-                        label={<div>132 My Street, Kingston, New York 12401, USA</div>} />
-                     <MeetDetailsTemplate icon="fa-phone" label="+1 -(404) 4040404" />
-                     <MeetDetailsTemplate icon="fa-envelope" label="support@broadwayinfoservices.com" />
+                     <div style={{ marginTop:'35px' }}>
+                        <div><b>United States (US):</b></div>
+                        <MeetDetailsTemplate icon="fa-map-marker" 
+                           label={<div>4123 Highland Cliff Ln, Katy, Houston, TX 77493</div>} />
+                        <MeetDetailsTemplate icon="fa-phone" label="+1 (973) 922-1277, +1 (551) 229-6119" />
+                     </div>
+                     <div style={{ marginTop:'35px' }}>
+                        <div><b>India:</b></div>
+                        <MeetDetailsTemplate icon="fa-map-marker" 
+                           label={<div style={{ lineHeight:'24px' }}>Plot 50 Broadway Venture, Atvelly - Medchal,<br/> Hyderabad 501401</div>} />
+                        <MeetDetailsTemplate icon="fa-phone" label="+91 - 96421 80000" />
+                     </div>
                   </div>
                </Col>
                <Col md={4}>

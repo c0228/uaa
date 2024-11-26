@@ -54,7 +54,9 @@ const Bottom = () =>{
       <Col md={3}>
         <Row>
           <Col md={12}>
-            <SocialLinks list={["facebook","twitter","instagram","whatsapp"]} />
+            <SocialLinks list={[{ label:"facebook", url:"https://www.facebook.com/profile.php?id=61569414627158&mibextid=ZbWKwL" },
+                { label:"linkedin", url:"https://www.linkedin.com/company/broadway-info-services/" },
+                { label:"whatsapp", url:"https://chat.whatsapp.com/DHZl6YhtGow2ILGa558pIz" }]} />
           </Col>
         </Row>
         <Row>

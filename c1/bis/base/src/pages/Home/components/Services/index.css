@@ -1,0 +1,9 @@
+.wApp-services-image-hover { text-transform:uppercase;color:#fff;cursor:pointer }
+
+@media(min-width:1200px) { 
+ .wApp-services-image-hover { padding:1vw;font-size:1.4vw; }
+}
+   
+@media(max-width:1199px) { 
+ .wApp-services-image-hover { padding:15px;font-size:18px; }
+}

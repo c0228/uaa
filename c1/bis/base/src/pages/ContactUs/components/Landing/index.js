@@ -20,7 +20,7 @@ const Landing = () =>{
            <a href="#get-in-touch"><Button type="info" size={11}><b>GET IN TOUCH</b></Button></a>
          </div>
          <div align="center" style={{ marginTop:'15px', lineHeight:'26px', fontSize:'16px', color:'#ccc' }}>
-           (or)<br/> write to us at<br/> <span style={{ color:'#40cbff' }}><u>support@broadwayservices.com</u></span>
+           (or)<br/> write to us at<br/> <span style={{ color:'#40cbff' }}><u>support@broadwayinfoservices.com</u></span>
          </div>
        </div>
       </Col>
