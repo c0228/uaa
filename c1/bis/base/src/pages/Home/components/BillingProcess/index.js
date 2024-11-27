@@ -9,13 +9,15 @@ const BillingProcess = () =>{
           <div align="center" className="bis-hgl-header"><b>How We Simplify Your Healthcare Billing Process?</b></div>
           </Col>
         </Row>
-        <div style={{ marginTop:'3vh', marginBottom:'3vh' }}>
+        <div style={{ marginTop:'1.5vh', marginBottom:'3vh' }}>
         <Row className="row-flex-container">
-          <Col md={7}>
-            <div style={{ padding:'15px', lineHeight:'34px', fontSize:'18px'  }}>
+          <Col md={1}></Col>
+          <Col md={6}>
+            <div className="bis-hgl-text" style={{ padding:'2vw', color:'#fff' }}>
+            <div style={{ paddingBottom:'2.5vh' }}>
             We employ a proven approach to streamline your medical billing process:
             </div>
-            <div style={{ padding:'15px', lineHeight:'34px', fontSize:'18px'  }}>
+            <div style={{ paddingBottom:'2.5vh' }}>
               <ul>
                 <li>
                   <div style={{ color:'#fff' }}><b>Comprehensive Assessment:</b></div>
@@ -31,26 +33,23 @@ const BillingProcess = () =>{
                   <div>We leverage cutting-edge technology to automate tasks and improve efficiency.</div>
                 </li>
                 <li className="mtop15p">
-                  <div style={{ color:'#fff' }}><b>Expert Team:</b></div>
-                  <div>Our experienced professionals handle every aspect of your medical billing, from coding to collections.</div>
-                </li>
-                <li className="mtop15p">
                   <div style={{ color:'#fff' }}><b>Transparent Communication:</b></div>
                   <div>We maintain open communication with you throughout the process, keeping you informed and involved.</div>
                 </li>
               </ul>
             </div>
-            <div style={{ padding:'15px', lineHeight:'34px', fontSize:'18px' }}>
+            <div style={{ paddingBottom:'2.5vh' }}>
             By partnering with Broadway Info Services, you can simplify your healthcare billing, maximize your revenue, and 
             focus on delivering exceptional patient care. 
             </div>
-          </Col>
-          <Col md={5}>
-            <div className="col-flex-container">
-                <img src={process.env.PROJECT_URL+"assets/images/11.png"} style={{ marginTop:'15px', borderRadius:'12px' }} />
             </div>
-            
           </Col>
+          <Col md={4}>
+            <div className="col-flex-container">
+                <img src={process.env.PROJECT_URL+"assets/images/11.png"} style={{ borderRadius:'0.6vw' }} />
+            </div>
+          </Col>
+          <Col md={1}></Col>
         </Row>
         </div>
         </ContainerFluid>
