@@ -55,7 +55,7 @@ const data = [{
         (<div>Demonstrated success in deploying smart contracts, optimizing gas costs, and contributing to blockchain networks' 
             growth and stability.</div>)]
     },{
-        "header":(<div><span className="text-grey2"><b>Reactive Programming and Reactive Streams Specification:</b></span></div>),
+        "header":(<div><span className="text-grey2"><b>Experienced in Reactive Programming and worked with Reactive Streams:</b></span></div>),
         "list":[(<div>Worked over <span className="text-grey2">9+ years</span> with Reactive Programming and Reactive Streams 
         Specification on 8 Projects in 4 industries over different technologies -
         <div><span className="text-grey2"><b>Java Platform:</b></span> Reactor Streams Framework (introduced in Java 9) and Project 

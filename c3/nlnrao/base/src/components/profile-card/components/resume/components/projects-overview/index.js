@@ -100,7 +100,6 @@ const ProjectOverview = () =>{
  return (<div>
  {data?.map((dat,i1)=>{
     return (<div key={i1}>
-     <Company title={dat?.companyName} duration={dat?.workDuration} />
      <ul className="timeline-ui">
      {dat?.timelines?.map((t,i2)=>{
       return (<li key={i2} className="timeline-event">
