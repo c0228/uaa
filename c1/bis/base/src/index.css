@@ -35,7 +35,7 @@ img { object-fit: cover;height: 100%;width: 100%; }
  .wApp-hgl-headerDiv { margin-bottom:5vh; }
  .bis-hgl-header { font-size:2vw;line-height:6vh; } 
  .bis-hgl-text { font-size:1.4vw;line-height:5vh; }
- .bis-regular-text { font-size:1.2vw;line-height:2vh; }
+ .bis-regular-text { font-size:1.2vw;line-height:1.9vw; }
  .bis-home-tagline { padding:2.5vh; }
 }
 @media(max-width:1200px) { 
