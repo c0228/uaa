@@ -1,15 +1,19 @@
 import React from "react";
 import { Row, Col, Icon } from "e-ui-react";
+import './index.css';
 
-const FeatureCard = ({ data, rowSize }) =>{
+const FeatureCard = ({ data, rowSize, colorConfig }) =>{
+ const titleColor = colorConfig?.color?.title || "#000040" ;
+ const contentColor = colorConfig?.color?.content || "#555";
+ const iconColor = colorConfig?.color?.icon || "#000040";
  const Item = ({ data })=>{
-  return (<div style={{ display:'flex', padding:'15px' }}>
-    <div style={{ width:'25%', paddingTop:'18px' }}>
-        <Icon type="FontAwesome" name={data?.icon} size={80} color="#000040" />
+  return (<div className="d-flex pad15p">
+    <div align="center" style={{ width:'25%' }}>
+        <Icon type="FontAwesome" name={data?.icon} className="wApp-featureCard-icon" color={iconColor} />
     </div>
-    <div style={{ width:'75%', padding:'15px' }}>
-        <div><h4 style={{ color:"#000040" }}><b>{data?.title}</b></h4></div>
-        <div style={{ lineHeight:'34px', fontSize:'18px', color:'#555'  }}>{data?.content}</div>
+    <div className="pad15p" style={{ width:'75%' }}>
+        <div className="bis-hgl-text"  style={{ color: titleColor }}><b>{data?.title}</b></div>
+        <div className="bis-hgl-text"  style={{ color: contentColor  }}>{data?.content}</div>
     </div>
   </div>);
  };

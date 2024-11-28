@@ -57,16 +57,18 @@ const Services = () =>{
       content:'We prioritize your needs and provide personalized solutions to meet your specific requirements.'
     }];
    
-    return (<div style={{ marginTop:'25px', marginBottom:'65px' }}>
+    return (<div className="wApp-template-navy wApp-template-grid">
       <ContainerFluid>
          <Row>
             <Col md={12}>
-               <div align="center"><h2><b>Broadway Info Services: Your Trusted Partner in Healthcare RCM</b></h2></div>
+               <div align="center" className="bis-hgl-header mbot15p" style={{ color:'#fff' }}>
+                  <b>Broadway Info Services: Your Trusted Partner in Healthcare RCM</b>
+               </div>
             </Col>
          </Row>
          <Row>
             <Col md={12}>
-               <div className="bis-hgl-text">
+               <div className="bis-hgl-text pad15p" style={{ color:'#ddd' }}>
                Broadway Info Services is a leading healthcare revenue cycle management (RCM) company dedicated to optimizing your 
                financial operations. With a focus on efficiency, accuracy, and compliance, we provide a comprehensive range of 
                services to streamline your revenue cycle and maximize reimbursement.<br/> Our Key Services are
@@ -76,11 +78,7 @@ const Services = () =>{
          <Row>
             <Col md={12}>
             <div className="bis-hgl-text">
-               <FeatureCard data={data} />
-               <div className="mtop15p">
-                  By partnering with Broadway Info Services, you can improve your financial performance, 
-                  reduce administrative burdens, and focus on delivering quality patient care.
-               </div>
+               <FeatureCard data={data} colorConfig={{ color:{ title:"#fff", content:"#ddd", icon:"#fff" } }} />
             </div>
             </Col>
          </Row>
@@ -90,17 +88,16 @@ const Services = () =>{
  
  const Template2 = () =>{
    return (<section id="medical-billing">
-      <div style={{ marginTop:'15px', backgroundColor:'#e1e1e1', padding:'15px'  }}>
-      <div style={{ marginTop:'65px', marginBottom:'65px' }}>
+      <div className="wApp-template-odd wApp-template-grid">
       <ContainerFluid>
          <Row>
             <Col md={12}>
-               <div align="center" style={{ marginBottom:'35px' }}><h2><b>Medical Billing Services</b></h2></div>
+               <div align="center" className="bis-hgl-header mbot15p"><b>Medical Billing Services</b></div>
             </Col>
          </Row>
-         <Row>
+         <Row className="row-flex-container">
             <Col md={6}>
-               <div className="bis-hgl-text">
+               <div className="bis-hgl-text pad15p">
                Our expert billing team ensures accurate and timely claim submission, follow-up, and 
                payment posting.<br/> We streamline your revenue cycle by:
                <ul>
@@ -125,30 +122,37 @@ const Services = () =>{
                </div>
             </Col>
             <Col md={6}>
-               <img src={process.env.PROJECT_URL+"assets/images/18.png"}  style={{ marginTop:'15px', borderRadius:'12px', boxShadow:'2px 2px 2px 2px #ccc' }}   />
+               <div className="col-flex-container">
+               <img src={process.env.PROJECT_URL+"assets/images/18.png"}  
+                  style={{ marginTop:'15px', borderRadius:'12px', boxShadow:'2px 2px 2px 2px #ccc' }}   />
+               </div>
             </Col>
          </Row>
       </ContainerFluid>
-     </div>
    </div>
    </section>);
  };
 
  const Template3 = () =>{
    return (<section id="medical-transcription">
-      <div style={{ marginTop:'65px', marginBottom:'65px' }}>
+      <div className="wApp-template-grid">
       <ContainerFluid>
          <Row>
             <Col md={12}>
-               <div align="center"><h2><b>Medical Transcription Services : Unlock the Power of Precision</b></h2></div>
+               <div align="center" className="bis-hgl-header mbot15p">
+                  <b>Medical Transcription Services : Unlock the Power of Precision</b>
+               </div>
             </Col>
          </Row>
-         <Row>
+         <Row className="row-flex-container">
             <Col md={6}>
-               <img src={process.env.PROJECT_URL+"assets/images/19.png"} style={{ marginTop:'30px', borderRadius:'12px', boxShadow:'2px 2px 2px 2px #ccc' }} />
+               <div className="col-flex-container">
+                  <img src={process.env.PROJECT_URL+"assets/images/19.png"} 
+                     style={{ borderRadius:'12px', boxShadow:'2px 2px 2px 2px #ccc' }} />
+               </div>
             </Col>
             <Col md={6}>
-               <div className="mtop15p bis-hgl-text">
+               <div className="pad15p bis-hgl-text">
                In today's fast-paced healthcare environment, accurate and timely documentation is crucial. Our medical transcription 
                services are designed to streamline your workflow and enhance the quality of patient care. Our team of highly skilled 
                medical transcriptionists possesses a deep understanding of medical terminology and clinical documentation standards. 
@@ -161,8 +165,7 @@ const Services = () =>{
                By outsourcing your medical transcription needs to us, you can free up valuable time for your physicians and staff, 
                minimize errors and ensure the integrity of your medical records, improve efficient billing and reimbursement, contribute 
                to better patient outcomes, and reduce administrative burdens.<br/><br/>
-               Partner with Broadway Info Services to elevate your practice. Our commitment to quality, accuracy, and confidentiality 
-               ensures that your medical records are always in good hands.
+               Our commitment to quality, accuracy, and confidentiality ensures that your medical records are always in good hands.
                </div>
             </Col>
          </Row>

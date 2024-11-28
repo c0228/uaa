@@ -9,9 +9,9 @@ const Bottom = () =>{
   <ContainerFluid>
     <Row>
       <Col md={4}>
-        <div className="bis-bottom-container-left">
-        <div className="bis-bottom-container-left-title"><h4><b>Broadway Info Services</b></h4></div>
-        <div className="bis-bottom-container-left-content">
+        <div className="pad15p">
+        <div className="bis-hgl-text uppercase mbot15p"><b>About Broadway Info Services</b></div>
+        <div className="bis-hgl-text">
           Broadway Info Services is a leading healthcare revenue cycle management company. They specialize in medical 
           coding, billing, and other administrative services. Their advanced technology and skilled team ensure accurate 
           and efficient processing of claims, maximizing revenue for healthcare providers. With a focus on client satisfaction, 
@@ -20,15 +20,15 @@ const Bottom = () =>{
         </div>
       </Col>
       <Col md={5}>
-
+        <div className="pad15p">
         <Row>
           <Col md={12}>
-            <div align="center" className="bis-bottom-container-center">
-              <span className="bis-bottom-container-center-title"><b>USEFUL MENU LINKS</b></span>
+            <div align="center" className="mbot15p">
+              <span className="bis-hgl-text uppercase"><b>Useful Menu Links</b></span>
             </div>
           </Col>
         </Row>
-        <div className="bis-bottom-container-center-content">
+        <div className="bis-hgl-text">
         <Row>
           <Col md={3}>
             <div className="mtop5p"><a href={process.env.PROJECT_URL} className="bis-bottom-container-center-url">Home</a></div>
@@ -49,7 +49,7 @@ const Bottom = () =>{
         </Row>
 
         </div>
-        
+        </div>
       </Col>
       <Col md={3}>
         <Row>

@@ -1,4 +1,5 @@
 
+.uppercase { text-transform: uppercase; ;}
 .metropolisBoldFont { font-family:MetropolisBold; }
 
 .wApp-template-odd { background-color:#ddd;color:#000; }
@@ -25,7 +26,7 @@
 
 img { object-fit: cover;height: 100%;width: 100%; }
 
-@media(min-width:1200px) { 
+@media(min-width:1201px) { 
  .wApp-hgl-textView { padding-left:1.2vw;padding-right:1vw; }
  .wApp-logo-icon { width:3vw;height:3vw;border:0.3vw solid #333;margin-top:1vh;margin-bottom:1vh;
     box-shadow:0.1vw 0.1vw 0.1vw 0.1vw #808080; }
@@ -33,11 +34,11 @@ img { object-fit: cover;height: 100%;width: 100%; }
 
  .wApp-hgl-headerDiv { margin-bottom:5vh; }
  .bis-hgl-header { font-size:2vw;line-height:6vh; } 
- .bis-hgl-text { margin-top:3vh;font-size:1.4vw;line-height:5vh; }
+ .bis-hgl-text { font-size:1.4vw;line-height:5vh; }
  .bis-regular-text { font-size:1.2vw;line-height:2vh; }
  .bis-home-tagline { padding:2.5vh; }
 }
-@media(max-width:1199px) { 
+@media(max-width:1200px) { 
  .wApp-hgl-headerDiv { margin-bottom:35px; }
  .wApp-logo-icon { width:40px;height:40px;border:2px solid #333;padding:3px;margin-top:5px;box-shadow:2px 2px 2px 2px #808080; }
  .wApp-logo-text { letter-spacing:1px;margin-top:8px;margin-left:2px;font-size:24px;letter-spacing:0.8px; }

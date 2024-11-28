@@ -8,34 +8,37 @@ import Footer from '@Templates/Footer/index.js';
 
 const AboutUs = () =>{
  const Template1 = () =>{
-   return ( <div style={{ marginTop:'25px', marginBottom:'65px' }}>
+   return ( <div className="wApp-template-navy  wApp-template-grid">
       <ContainerFluid>
       <Row>
          <Col md={12}>
-         <div align="center"><h2><b>About Broadway Info Services: Elevating Healthcare Revenue Cycle Management</b></h2></div></Col>
+         <div align="center" className="bis-hgl-header mbot15p">
+            <b>About Broadway Info Services: Elevating Healthcare Revenue Cycle Management</b>
+         </div>
+         </Col>
       </Row>
-      <Row>
+      <Row className="row-flex-container">
          <Col md={6}>
-         <div className="bis-hgl-text">
+         <div className="bis-hgl-text pad15p" style={{ color:'#eee' }}>
          We're Broadway Info Services, your trusted partner in optimizing healthcare revenue cycle management. Our comprehensive 
          suite of services, including medical coding, billing, and practice management, is designed to streamline operations, reduce 
          errors, and maximize revenue. By leveraging advanced technology and industry expertise, we empower healthcare providers to 
-         focus on patient care while we handle the complexities of the administrative side.<br/><br/>
-         Our experienced team leverages advanced technology to streamline operations, reduce errors, and maximize revenue. 
+         focus on patient care while we handle the complexities of the administrative side.<br/><br/> Our experienced team leverages advanced 
+         technology to streamline operations, reduce errors, and maximize revenue. 
          By partnering with us, you can:
-         <ul>
+         <ul className="padLeft15p">
             <li>Enhance your financial performance</li>
             <li>Focus on delivering exceptional patient care</li>
             <li>Reduce administrative burdens</li>
             <li>Improve overall practice efficiency</li>
-         </ul>
+         </ul><br/>
          With Broadway Info Services, you can rest assured that your revenue cycle is in good hands.
          </div>
          </Col>
          <Col md={6}>
-            <div style={{ margin:'15px' }}>
+            <div className="col-flex-container pad15p">
             <img src={process.env.PROJECT_URL+"assets/images/15.png"}
-               style={{ boxShadow:'2px 2px 2px 2px #ccc', borderRadius:'12px', marginTop:'15px', width:'100%', height:'auto' }} />
+               style={{ borderRadius:'12px', width:'100%', height:'auto' }} />
             </div>
          </Col>
       </Row>
@@ -44,17 +47,16 @@ const AboutUs = () =>{
  };
 
 const Template2 = () =>{
-   return (<div style={{marginTop:'15px', backgroundColor:'#e1e1e1', padding:'15px'  }}>
-      <div style={{ marginTop:'65px', marginBottom:'65px' }}>
+   return (<div className="wApp-template-odd wApp-template-grid">
       <ContainerFluid>
       <Row>
          <Col md={12}>
-            <div><h2><b>Your Roadmap to Financial Success in Healthcare</b></h2></div>
+            <div className="bis-hgl-header mtop15p padLeft15p"><b>Your Roadmap to Financial Success in Healthcare</b></div>
          </Col>
       </Row>
-      <Row>
+      <Row className="row-flex-container">
          <Col md={8}>
-            <div className="bis-hgl-text">
+            <div className="bis-hgl-text pad15p">
             At Broadway Info Services, we're committed to simplifying the complex world of healthcare revenue cycle
             management (RCM). Our team of experienced professionals is dedicated to providing top-notch services 
             that streamline your operations, maximize reimbursements, and enhance patient satisfaction.<br/><br/>
@@ -71,29 +73,31 @@ const Template2 = () =>{
             </div>
          </Col>
          <Col md={4}>
-            <img src={process.env.PROJECT_URL+"assets/images/14.png"} />
+            <div className="col-flex-container">
+               <img src={process.env.PROJECT_URL+"assets/images/14.png"} />
+            </div>
          </Col>
       </Row>
       </ContainerFluid>
-      </div>
       </div>);
 };
 
 const Template3 = () =>{
-   return (<div style={{marginTop:'15px', padding:'15px'  }}>
-      <div style={{ marginTop:'25px', marginBottom:'25px' }}>
+   return (<div className="wApp-template-grid">
          <Row>
             <Col md={12}>
-               <div><h2><b>Our Mission</b></h2></div>
-               <div className="bis-hgl-text">
+               <div className="bis-hgl-header mtop15p padLeft15p"><b>Our Mission</b></div>
+               <div className="bis-hgl-text pad15p">
                At Broadway Info Services, we are dedicated to revolutionizing healthcare revenue cycle management (RCM) 
                by providing innovative solutions that empower healthcare providers to thrive.
                </div>
             </Col>
          </Row>
-         <Row>
+         <Row className="row-flex-container mbot15p">
             <Col md={4}>
-               <img src={process.env.PROJECT_URL+"assets/images/13.png"} />
+               <div className="col-flex-container">
+                  <img src={process.env.PROJECT_URL+"assets/images/13.png"} />
+               </div>
             </Col>
             <Col md={8}>
                <div className="bis-hgl-text">
@@ -116,16 +120,20 @@ const Template3 = () =>{
                </div>
             </Col>
          </Row>
-      </div>
       </div>);
 };
 
 const Template4 = () =>{
-   return (<div style={{marginTop:'15px', backgroundColor:'#e1e1e1', padding:'15px'  }}>
-      <div style={{ marginTop:'65px', marginBottom:'65px' }}>
+   return (<div className="wApp-template-odd wApp-template-grid">
       <ContainerFluid>
-         <Row><Col md={12}><div align="center"><h2><b>Technology Driving Healthcare Efficiency</b></h2></div></Col></Row>
          <Row>
+            <Col md={12}>
+               <div align="center" className="bis-hgl-header mbot15p">
+                  <b>Technology Driving Healthcare Efficiency</b>
+               </div>
+            </Col>
+         </Row>
+         <Row className="row-flex-container">
             <Col md={6}>
                <div className="bis-hgl-text">
                At Broadway Info Services, we're committed to revolutionizing healthcare revenue cycle management (RCM) 
@@ -145,28 +153,35 @@ const Template4 = () =>{
                </div>
             </Col>
             <Col md={6}>
+               <div className="col-flex-container">
                <img src={process.env.PROJECT_URL+"assets/images/16.png"} style={{ marginTop:'25px', borderRadius:'12px', boxShadow:'2px 2px 2px 2px #ccc' }} />
+               </div>
             </Col>
          </Row>
       </ContainerFluid>
-   </div>
    </div>);
 };
 
 const Template5 = () =>{
-   return (<div style={{ marginTop:'65px', marginBottom:'65px' }}>
+   return (<div className="wApp-template-grid">
       <ContainerFluid>
-         <Row><Col md={12}><div align="center"><h2><b>Benefits of Our Technology-Driven Approach</b></h2></div></Col></Row>
          <Row>
+            <Col md={12}>
+               <div align="center" className="bis-hgl-header mbot15p">
+                  <b>Benefits of Our Technology-Driven Approach</b>
+               </div>
+            </Col>
+         </Row>
+         <Row className="row-flex-container">
             <Col md={5}>
-               <div style={{ marginTop:'35px' }}>
+               <div className="col-flex-container pad15p">
                   <img src={process.env.PROJECT_URL+"assets/images/17.png"} style={{ borderRadius:'12px', boxShadow:'2px 2px 2px 2px #ccc' }} />
                </div>
             </Col>
             <Col md={7}>
-               <div className="bis-hgl-text">
-               <ul>
-                  <li className="mtop15p"><b>Increased Efficiency:</b> Automated workflows and streamlined processes lead 
+               <div className="bis-hgl-text pad15p">
+               <ul className="padLeft15p">
+                  <li><b>Increased Efficiency:</b> Automated workflows and streamlined processes lead 
                   to significant time savings and improved productivity.</li>
                   <li className="mtop15p"><b>Enhanced Accuracy:</b> Advanced analytics and data validation tools minimize 
                   errors and ensure accurate coding and billing.</li>
@@ -177,10 +192,6 @@ const Template5 = () =>{
                   <li className="mtop15p"><b>Data-Driven Decision Making:</b> Real-time insights and actionable analytics 
                   empower you to make informed decisions that drive growth.</li>
                </ul>
-               <div className="mtop15p pad15p">
-               By embracing technology, Broadway Info Services empowers healthcare providers to focus on what truly 
-               matters: delivering exceptional patient care.
-               </div>
                </div>
             </Col>
          </Row>
@@ -220,13 +231,16 @@ const Template6 = () =>{
       title:'Regular Security Audits',
       content:'We conduct regular security audits and vulnerability assessments to identify and address potential security weaknesses.'
     }];
-   return (<div style={{marginTop:'15px', backgroundColor:'#e1e1e1', padding:'15px'  }}>
-      <div style={{ marginTop:'65px', marginBottom:'45px' }}>
+   return (<div className="wApp-template-odd wApp-template-grid">
       <ContainerFluid>
-         <Row><Col md={12}><div align="center"><h2><b>Our Commitment to Data Security</b></h2></div></Col></Row>
          <Row>
             <Col md={12}>
-               <div className="bis-hgl-text">
+               <div align="center" className="bis-hgl-header"><b>Our Commitment to Data Security</b></div>
+            </Col>
+         </Row>
+         <Row>
+            <Col md={12}>
+               <div className="bis-hgl-text pad15p">
                At Broadway Info Services, we understand the critical importance of safeguarding your sensitive health 
                information. We are committed to maintaining the highest standards of data security and privacy.
                We employ a multi-layered approach to protect your data, including:
@@ -234,17 +248,12 @@ const Template6 = () =>{
             </Col>
          </Row>
          <FeatureCard data={data} rowSize={2} />
-      </ContainerFluid> 
-      </div>
+      </ContainerFluid>
    </div>);
 };
 
 const Template7 = () =>{
    const data = [{
-      icon:'fa-money',
-      title:'Increased Revenue',
-      content:'Our comprehensive RCM services ensure you capture all eligible reimbursements.'
-    },{
       icon:'fa-calendar-check-o',
       title:'Reduced Administrative Burden',
       content:'We handle the day-to-day tasks of your revenue cycle, freeing you to focus on patient care.'
@@ -270,21 +279,25 @@ const Template7 = () =>{
       content:'We provide you with real-time insights into your RCM performance.'
    }];
 
-   return (<div style={{marginTop:'15px', padding:'15px'  }}>
-      <div style={{ marginTop:'65px', marginBottom:'45px' }}>
+   return (<div className="wApp-template-grid">
       <ContainerFluid>
-         <Row><Col md={12}><div align="center"><h2><b>Why Choose Broadway Info Services?</b></h2></div></Col></Row>
          <Row>
             <Col md={12}>
-            <div className="bis-hgl-text">
-            We are committed to providing our clients with the highest quality RCM services possible. Partner with Broadway 
+               <div align="center" className="bis-hgl-header">
+                  <b>Why Choose Broadway Info Services?</b>
+               </div>
+            </Col>
+         </Row>
+         <Row>
+            <Col md={12}>
+            <div align="center" className="bis-hgl-text pad15p">
+            We are committed to providing our clients with the highest quality RCM services possible.<br/> Partner with Broadway 
             Info Services and experience the benefits of:
             </div>
             </Col>
          </Row>
          <FeatureCard data={data} rowSize={2} />
       </ContainerFluid>
-      </div>
       </div>);
 };
 
