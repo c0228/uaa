@@ -12,7 +12,7 @@ const data = [{
         "Web Development Frameworks": "Angular, React",
         "Javascript Compilers": "Babel",
         "Node Package Managers": "npm, yarn, pnpm",
-        "CSS Managers":"PurgeCSS (removes unused CSS from the project)",
+        "CSS Managers":"PurgeCSS (removes unused CSS)",
         "Windows Package Managers": "chocolatey",
         "Build Tools": "Webpack Bundler (used in React Project), Metro Bundler (used in React Native)",
         "Unit Testing and Code Coverage": "Jest Framework, Mocha Framework, Chai Framework, Sinon Framework and Istanbul Code coverage Tool.",
