@@ -176,18 +176,18 @@ const Services = () =>{
 
  const Template4 = () =>{
    return (<section id="medical-coding">
-      <div style={{ marginTop:'15px', backgroundColor:'#e1e1e1', padding:'15px'  }}>
-      <div style={{ marginTop:'65px', marginBottom:'65px' }}>
+      <div className="wApp-template-odd wApp-template-grid">
       <ContainerFluid>
          <Row>
             <Col md={12}>
-               <div className="mbot15p" align="center"><h2><b>Medical Coding Services : Our Expert's Precision in Every Code</b></h2></div>
-               <div className="mtop15p mbot15p"><h4><b>Elevate Your Revenue Cycle with Accurate Medical Coding</b></h4></div>
+               <div align="center" className="bis-hgl-header mbot15p">
+                  <b>Medical Coding Services : Our Expert's Precision in Every Code</b>
+               </div>
             </Col>
          </Row>
-         <Row>
+         <Row className="row-flex-container">
             <Col md={6}>
-               <div className="bis-hgl-text">
+               <div className="pad15p bis-hgl-text">
                At Broadway Info Services, we understand the critical role medical coding plays in healthcare revenue 
                cycle management. Our team of certified medical coders is dedicated to ensuring accurate and timely coding, 
                maximizing reimbursement, and minimizing claim denials.<br/><br/>
@@ -203,30 +203,35 @@ const Services = () =>{
                By partnering with Broadway Info Services, you can rest assured that your medical coding is in expert hands.</div>
             </Col>
             <Col md={6}>
-               <img src={process.env.PROJECT_URL+"assets/images/20.png"} style={{ marginTop:'35px', borderRadius:'12px', boxShadow:'2px 2px 2px 2px #ccc' }} />
+               <div className="col-flex-container">
+                  <img src={process.env.PROJECT_URL+"assets/images/20.png"} 
+                     style={{ marginTop:'35px', borderRadius:'12px', boxShadow:'2px 2px 2px 2px #ccc' }} />
+               </div>
             </Col>
          </Row>
       </ContainerFluid>
-      </div>
       </div>
    </section>);
  };
 
  const Template5 = () =>{
    return (<section id="compliance-audits">
-      <div style={{ marginTop:'65px', marginBottom:'65px' }}>
+      <div className="wApp-template-grid">
       <ContainerFluid>
          <Row>
             <Col md={12}>
-               <div align="center"><h2><b>Compliance Audits</b></h2></div>
+               <div align="center" className="bis-hgl-header mbot15p"><b>Compliance Audits</b></div>
             </Col>
          </Row>
-         <Row>
+         <Row className="row-flex-container">
             <Col md={6}>
-               <img src={process.env.PROJECT_URL+"assets/images/21.png"} style={{  marginTop:'35px', borderRadius:'12px', boxShadow:'2px 2px 2px 2px #ccc' }} />
+               <div className="col-flex-container">
+                  <img src={process.env.PROJECT_URL+"assets/images/21.png"} 
+                     style={{  marginTop:'35px', borderRadius:'12px', boxShadow:'2px 2px 2px 2px #ccc' }} />
+               </div>
             </Col>
             <Col md={6}>
-               <div className="mtop15p bis-hgl-text">
+               <div className="pad15p bis-hgl-text">
                At Broadway Info Services, we understand the importance of compliance in today's complex healthcare landscape. 
                Our comprehensive compliance audit services are designed to identify potential risks, ensure regulatory adherence, 
                and protect your practice from costly penalties.<br/><br/>
@@ -252,18 +257,16 @@ const Services = () =>{
 
  const Template6 = () =>{
    return (<section id="practice-consulting">
-      <div style={{ marginTop:'15px', backgroundColor:'#e1e1e1', padding:'15px'  }}>
-      <div style={{ marginTop:'65px', marginBottom:'65px' }}>
+      <div className="wApp-template-odd wApp-template-grid">
       <ContainerFluid>
          <Row>
             <Col md={12}>
-               <div className="mbot15p" align="center"><h2><b>Practice Consulting</b></h2></div>
-               <div className="mtop15p"><h4><b>Optimize Your Practice with Expert Consulting</b></h4></div>
+               <div className="bis-hgl-header" align="center"><b>Practice Consulting</b></div>
             </Col>
          </Row>
-         <Row>
+         <Row className="row-flex-container">
             <Col md={6}>
-               <div className="mtop15p bis-hgl-text">
+               <div className="pad15p bis-hgl-text">
                Our practice consulting services are designed to help healthcare providers improve their operational 
                efficiency, financial performance, and patient care. Our experienced consultants offer a wide range 
                of services, including:
@@ -277,38 +280,41 @@ const Services = () =>{
                   <li><b>Regulatory Compliance:</b> We help you stay up-to-date with the latest regulatory changes and ensure 
                   compliance with HIPAA, Stark Law, and other relevant regulations.</li>
                </ul>
-               </div>
                <div className="mtop15p bis-hgl-text">
                By partnering with us, you can gain valuable insights and strategies to enhance your practice's performance and 
                achieve your long-term goals.
                </div>
+               </div>
             </Col>
             <Col md={6}>
+               <div className="col-flex-container">
                <img src={process.env.PROJECT_URL+"assets/images/22.png"} style={{ marginTop:'35px', borderRadius:'12px', boxShadow:'2px 2px 2px 2px #ccc' }} />
+               </div>
             </Col>
          </Row>
       </ContainerFluid>
-      </div>
       </div>
    </section>);
  };
 
  const Template7 = () =>{
    return (<section id="credentialing-services">
-      <div style={{ marginTop:'65px', marginBottom:'65px' }}>
+      <div className="wApp-template-grid">
       <ContainerFluid>
          <Row>
             <Col md={12}>
-               <div align="center"><h2><b>Credentialing Services</b></h2></div>
-               <div className="mtop15p mbot15p"><h4><b>Streamline Your Credentialing Process with Expert Support</b></h4></div>
+               <div align="center" className="bis-hgl-header"><b>Credentialing Services: Streamline Your Credentialing Process with Expert Support</b></div>
             </Col>
          </Row>
-         <Row>
+         <Row className="row-flex-container">
             <Col md={6}>
-               <img src={process.env.PROJECT_URL+"assets/images/23.png"} style={{ marginTop:'25px', borderRadius:'12px', boxShadow:'2px 2px 2px 2px #ccc' }} />
+               <div className="col-flex-container">
+                  <img src={process.env.PROJECT_URL+"assets/images/23.png"} 
+                     style={{ marginTop:'25px', borderRadius:'12px', boxShadow:'2px 2px 2px 2px #ccc' }} />
+               </div>
             </Col>
             <Col md={6}>
-               <div className="mtop15p bis-hgl-text">
+               <div className="pad15p bis-hgl-text">
                Credentialing is a complex and time-consuming process that is essential for healthcare providers. Our credentialing 
                services are designed to simplify this process and ensure that your providers are able to practice efficiently and 
                effectively.<br/><br/> 
@@ -320,10 +326,10 @@ const Services = () =>{
                   <li>Following up with payers and licensing boards</li>
                   <li>Monitoring credentialing expiration dates and re-credentialing deadlines</li>
                </ul>
-               </div>
                <div className="mtop15p bis-hgl-text">
                By outsourcing your credentialing needs to us, you can save time and resources while ensuring that your providers 
                are able to focus on what they do best: providing quality patient care.
+               </div>
                </div>
             </Col>
          </Row>

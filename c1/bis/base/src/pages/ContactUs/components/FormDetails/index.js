@@ -22,7 +22,7 @@ const FormDetails = () =>{
               align:'center',
               btnType:'light',
               label:'Reset',
-              size: 14,
+              size: 11,
               style:{ fontWeight:'bold', border:'1px solid #000040' }
            }}
            onSubmit={async(form, isValidForm)=>{
