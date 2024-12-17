@@ -48,10 +48,3 @@ img { object-fit: cover;height: 100%;width: 100%; }
  .bis-regular-text { font-size:18px;line-height:32px; }
  .bis-home-tagline { padding:8px; }
 }
-
-/* Library */
-@media(min-width:1200px) { 
-/* NavMenu */
-.nav-link { letter-spacing:0.05vw;font-size:1vw;padding: 0.6vw !important; }
-.nav-link.active { border-bottom-width: 0.15vw !important; }
-}
