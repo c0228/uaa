@@ -12,17 +12,10 @@ const Header = ({ activeId, menulinks })=>{
   return (<div style={{ display:'flex', flexDirection:'row', width:'100%', marginLeft:'5px', marginRight:'5px' }}>
     <div style={{ width:'80%' }}>
     <a href="#" style={{ textDecoration:'none' }}>
-      <div style={{ display:'flex' }}>
-        <img src="./assets/images/icon.png"  className="wApp-logo-icon" />
-      
-        <div style={{ marginLeft:'8px' }}>
-          <div className="wApp-logo-text">
-            Broadway Info Services</div>
-        </div>
-      </div>
+      <div><img src="./assets/images/logo.png"  className="wApp-logo-icon" /></div>
     </a>
     </div>
-     <div align="right" style={{ width:'20%', marginTop:'4px', marginRight:'5px' }}>
+     <div style={{ width:'20%', marginTop:'4px', marginRight:'5px', textAlign:'right' }}>
       <button className="navbar-toggler" type="button" data-bs-toggle="collapse" 
         data-bs-target="#collapsibleNavbar" onClick={()=>setShowCollapse(!showCollapse)}>
         <i className="fa fa-bars" style={{ paddingTop:'5px', marginBottom:'5px' }}></i>
@@ -32,7 +25,7 @@ const Header = ({ activeId, menulinks })=>{
  };
 
  const HeaderMenus = ()=>{
-  return (<div align="right"  className="container-fluid">
+  return (<div className="container-fluid textAlignRight">
     <div className={showCollapse?"collapse navbar-collapse show":"collapse navbar-collapse justify-content-end"} 
     id="collapsibleNavbar">
      <ul className="navbar-nav">

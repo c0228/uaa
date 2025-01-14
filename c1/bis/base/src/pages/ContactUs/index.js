@@ -1,6 +1,6 @@
-import React, { useState } from "react";
-import { ContainerFluid, Row, Col, TextBox, TextArea, Email, Form, 
-   Button, Icon, FormToReqBodyFormatter, UrlAsyncFetch  } from "e-ui-react";
+import React from "react";
+import { ContainerFluid, Row, Col, Icon } from "e-ui-react";
+import PropTypes from "prop-types";
 import Header from '@Templates/Header/index.js';
 import Bottom from '@Templates/Bottom/index.js';
 import Footer from '@Templates/Footer/index.js';
@@ -9,21 +9,27 @@ import Landing from './components/Landing/index.js';
 import FormDetails from './components/FormDetails/index.js';
 import Map from './components/Map/index.js';
 import './index.css';
-
+ 
 const ContactUs = () =>{
 
  const SubTitle = ({ label, subDesc })=>{
-   return (<div align="center">
+   return (<div className="textAligncenter">
       <div className="bis-regular-text"><b>{label}</b></div>
       <div className="bis-regular-text">{subDesc}</div>
    </div>);
+ };
+
+ // Define PropTypes for SubTitle
+ SubTitle.propTypes = {
+   label: PropTypes.string.isRequired, // `label` must be a string and is required
+   subDesc: PropTypes.string,          // `subDesc` must be a string and is optional
  };
 
  const Template2 = () =>{
    const MeetDetailsTemplate = ({ icon, label }) =>{
       return (<div className="bis-contact-details-section">
          <div className="bis-contact-icon-section">
-            <div align="center" className="bis-contact-icon">
+            <div className="textAlignCenter bis-contact-icon">
                <Icon type="FontAwesome" name={icon} size="22" />
             </div>
          </div>
@@ -31,12 +37,21 @@ const ContactUs = () =>{
       </div>);
    };
 
+   // Define PropTypes for MeetDetailsTemplate
+   MeetDetailsTemplate.propTypes = {
+      icon: PropTypes.string.isRequired, // `icon` must be a string and is required
+      label: PropTypes.oneOfType([
+         PropTypes.string,
+         PropTypes.element,
+      ]).isRequired, // `label` can be a string or a React element and is required
+   };
+
    return (<section id="get-in-touch">
       <div className="wApp-template-grid">
-      <div align="center" className="mtop15p bis-hgl-header"><b>GET IN TOUCH</b></div>
+      <div className="mtop15p textAlignCenter bis-hgl-header"><b>GET IN TOUCH</b></div>
       <div>
-         <div align="center" className="bis-hgl-text">
-                     <i>Have questions or need more information? We're here to help.
+         <div className="textAlignCenter bis-hgl-text">
+                     <i>Have questions or need more information? We are here to help.
                      Reach out to our team of experts today and let us simplify your medical billing process.</i>
          </div>
          <div className="mtop15p">
@@ -54,8 +69,8 @@ const ContactUs = () =>{
                      <div style={{ marginTop:'35px' }}>
                         <div><b>United States (US):</b></div>
                         <MeetDetailsTemplate icon="fa-map-marker" 
-                           label={<div>4123 Highland Cliff Ln, Katy, Houston, TX 77493</div>} />
-                        <MeetDetailsTemplate icon="fa-phone" label="+1 (973) 922-1277, +1 (551) 229-6119" />
+                           label={<div>437 Penelope Dr San Marcos, CA 92069</div>} />
+                        <MeetDetailsTemplate icon="fa-phone" label="+1 (518) 662 0266" />
                      </div>
                      <div style={{ marginTop:'35px' }}>
                         <div><b>India:</b></div>
