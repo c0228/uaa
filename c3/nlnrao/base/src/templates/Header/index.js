@@ -4,13 +4,13 @@ import './index.css';
 
 export const LogoTitle = ()=>{
  return (<Link className="navbar-brand" to={process.env.PROJECT_URL} style={{ paddingTop:'0px', paddingBottom:'0px' }}>
- <span className="logo text-white" style={{ fontSize:'22px' }}>nellutlalnrao.com</span>
+ <span className="logo" style={{ fontSize:'22px' }}>nellutlalnrao.com</span>
  </Link>);
 };
 
 const Header = ({ activeId, menulinks })=>{
  const [showCollapse, setShowCollapse] = useState(false);
- return ( <nav className="navbar navbar-expand-sm" style={{ backgroundColor:'#7f1231', boxShadow:'2px 2px 2px 2px #999' }}>
+ return ( <nav className="navbar navbar-expand-sm">
  <div className="container-fluid"> 
    <LogoTitle />
    <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar"

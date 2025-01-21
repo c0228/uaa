@@ -15,14 +15,14 @@ const DevChoice = () =>{
             <div align="center" style={{ fontSize:'26px',color:'#bbb' }}>{formattedNumber}</div>
         </Col>
         <Col all={10}>
-            <div style={{ fontFamily:'Metropolis', lineHeight:'24px', paddingTop:'3px', fontSize:'16px', color:'#333' }}>{d?.title}</div>
-            <div style={{ fontFamily:'Metropolis', lineHeight:'24px', paddingTop:'3px', fontSize:'14px', color:'#777' }}>
+            <div style={{ fontFamily:'Metropolis', lineHeight:'24px', paddingTop:'3px', fontSize:'16px', color:'#000' }}>{d?.title}</div>
+            <div style={{ fontFamily:'Metropolis', lineHeight:'24px', paddingTop:'3px', fontSize:'14px', color:'#555' }}>
                 {(d?.desc?.length>descFix)?(d?.desc?.substring(0,descFix)+'...') : (d?.desc)}
             </div>
-            <div style={{ color:'#aaa',marginTop:'6px' }}>
-                <Icon type="FontAwesome" name="fa-file-text" style={{ marginRight:'3px' }} /> {d?.createdOn}
+            <div style={{ color:'#777',marginTop:'6px' }}>
+                <Icon type="FontAwesome" name="fa-file-text" style={{ marginRight:'3px' }} /> <i>{d?.createdOn}</i>
                 <span className="pull-right">
-                 <Icon type="FontAwesome" name="fa-dot-circle-o" style={{ marginRight:'3px' }} /> {d?.minRead} min read
+                 <Icon type="FontAwesome" name="fa-dot-circle-o" style={{ marginRight:'3px' }} /> <i>{d?.minRead} min read</i>
                 </span>
             </div>
         </Col>

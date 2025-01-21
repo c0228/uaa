@@ -18,7 +18,39 @@ const data = [{
         "Unit Testing and Code Coverage": "Jest Framework, Mocha Framework, Chai Framework, Sinon Framework and Istanbul Code coverage Tool.",
         "Integrated Development Environments (IDE)": "Visual Studio Code"
     }
-    }]
+    },{
+        "title":"ReactJS Framework",
+        "kpis":{
+            "State Management":"Context API, Flux, Redux, Recoil and Zustand",
+            "Routing & Navigation":"React Router, Dynamic Routing and Nested Routes",
+            "Forms & Validations":"Controlled/UnControlled Components, Formik, Yup Validation",
+            "API Integration":"RESTFul API, GraphQL (using Axios, Fetch)",
+            "UI Styling":"CSS, SASS, SCSS, Styled-Components and Material UI",
+            "Build & Deployment":"Webpack, CI/CD Pipelines, Docker for React Apps",
+            "Web Performance Optimization":"Memoization, Lazy-loading, Caching, Code splitting and tree-shaking",
+            "Testing":"Unit Testing with Jest, React Testing Library, Cypress for E2E Testing",
+            "Ecosystem Tools":"Storybook, ESLint, Prettier, Husky for pre-commit Hooks",
+            "Extended Frameworks":"Create React App (CRA), Next.Js Framework, Remix Framework",
+            "SEO Optimization":"Server-side Rendering(SSR) with Next.Js, Static-Site Generation (SSG), Dynamic Meta-tags Management (with React Helmet), Schema Markup (to enhance Search Engine Visibility), Core Web Vitals Optimization (CLS, LCP, FID)."
+        }
+    },
+    {
+        "title":"Angular Framework",
+        "kpis":{
+            "State Management": "NgRx, Services with RxJS, Akita",
+            "Routing & Navigation": "Angular Router, Lazy Loading, Nested Routes, Route Guards",
+            "Forms & Validations": "Template-driven Forms, Reactive Forms, Angular Validators, Custom Validators",
+            "API Integration": "HTTPClient Module (RESTful API, GraphQL using Apollo Client)",
+            "UI Styling": "CSS, SASS, SCSS, Angular Material, PrimeNG, ng-zorro",
+            "Build & Deployment": "Angular CLI, Webpack, CI/CD Pipelines, Docker for Angular Apps",
+            "Web Performance Optimization": "Lazy-loading, AOT (Ahead-of-Time) Compilation, Tree-shaking, Caching, Code Splitting",
+            "Testing": "Unit Testing with Jasmine, Karma, Angular Testing Library, Cypress for E2E Testing",
+            "Ecosystem Tools": "ESLint, Prettier, Husky for Pre-commit Hooks, TSLint (deprecated, replaced by ESLint)",
+            "Extended Frameworks": "Angular Universal (SSR), Ionic Framework, Nx Workspace",
+            "SEO Optimization": "Angular Universal (SSR), Static-Site Generation (SSG) with Angular, Dynamic Meta-tags Management (using Angular Meta), Schema Markup, Core Web Vitals Optimization (CLS, LCP, FID)"
+        }
+    }
+    ]
  },{
     "header":"Backend (Server-side Development)",
     "data":[{
@@ -34,7 +66,8 @@ const data = [{
             "Web Servers": "GlassFish Web Server and Apache Tomcat",
             "Build Tools": "Apache Ant, Apache Maven and Gradle Build Tool",
             "Unit Testing and Code Coverage": "JUnit Framework, Mockito Framework, FindBugs and Sonarcube Code coverage Tool",
-            "Integrated Development Environments (IDE)": "Eclipse, Spring Tool Suite, IntelliJ"
+            "Integrated Development Environments (IDE)": "Eclipse, Spring Tool Suite, IntelliJ",
+            "Performance Tuning & Profiling":"JMeter"
     }
     },{
         "title":"Node JS Platform",

@@ -11,15 +11,15 @@ const BlogItems = ({ itemList }) =>{
               {list?.title}
             </div>
             <div style={{  fontFamily:'Metropolis', lineHeight:'24px', letterSpacing:'0.1px', fontSize:'14px', 
-              marginTop:'5px', marginBottom:'10px', color:'#777' }}>
+              marginTop:'5px', marginBottom:'10px', color:'#555' }}>
               {(list?.desc?.length>list?.descFix)?(list?.desc?.substring(0,list?.descFix)+'...') : (list?.desc)}
             </div>
-            <div style={{ color:'#aaa',marginTop:'6px',marginRight:'15px'}}>
-              <Icon type="FontAwesome" name="fa-file-text" style={{ marginLeft:'2px', marginRight:'3px' }} /> 
-              {list?.createdOn}
+            <div style={{ color:'#777',marginTop:'6px',marginRight:'15px'}}>
+              <Icon type="FontAwesome" name="fa-file-text" style={{ marginLeft:'2px', marginRight:'5px' }} /> 
+              <i>{list?.createdOn}</i>
               <span className="pull-right">
-                <Icon type="FontAwesome" name="fa-dot-circle-o" style={{ marginRight:'3px' }} />
-                  {list?.minRead}
+                <Icon type="FontAwesome" name="fa-dot-circle-o" style={{ marginRight:'5px' }} />
+                <i>{list?.minRead}</i>
               </span>
             </div>
           </Link>

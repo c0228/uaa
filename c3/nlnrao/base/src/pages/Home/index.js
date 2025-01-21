@@ -43,7 +43,7 @@ const Home = ()=>{
     <Row>
         <Col xxl={9} xl={9}>
             <div className="mtop15p">
-            <BgHgtTitle align="left" title="Featured Technologies" bgColor="#f2ba49" color="#000" />
+            <BgHgtTitle align="left" title="Featured Technologies" bgColor="#555" color="#fff" />
             </div>
             <Row>
                 <Col xxl={8} xl={8}>
@@ -51,7 +51,7 @@ const Home = ()=>{
                 </Col>
                 <Col xxl={4} xl={4}>
                     <div className="mtop15p mbot15p">
-                        <BgHgtTitle align="center" title="Today's Developer's Choice" bgColor="#f2ba49" color="#000" />
+                        <BgHgtTitle align="center" title="Today's Developer's Choice" bgColor="#c5c5c5" color="#000" />
                         <DevChoice />
                     </div>
                 </Col>
