@@ -6,11 +6,12 @@ import { BgHgtTitle } from '@Templates/Titles/index.js';
 import { FeaturedList } from '@Pages/Home/Components/featured/index.js';
 import DevChoice from '@Pages/Home/Components/dev-choice/index.js';
 import AboutBlog from './Components/about-blog/index.js';
-import ProfileCard from '@Components/profile-card/index.js';
+import ProfileBasic from '@Components/profile-basic/index.js';
+import Resume from '@Components/resume/index.js';
 import Keywords from '@Components/keywords/index.js';
 import KeywordData from '@StaticData/keywords-all.json';
 import BlogItems from '@Components/blog-items/index.js'; 
-import BlogData from '@StaticData/blog-list.json';
+import BlogData from '@StaticData/home-blog-list.json';
 
 const Home = ()=>{
  const [openResume, setOpenResume] = useState(false);
@@ -37,6 +38,7 @@ const Home = ()=>{
  };
 
  return (<>
+ <Resume />
  <Header menulinks={HeaderMenu} activeId="Home" />
  <div>
  <ContainerFluid>
@@ -70,7 +72,7 @@ const Home = ()=>{
             <BlogContent label="dsAlgo" />
         </Col>
         <Col xxl={3} xl={3}>
-            <ProfileCard resumeOpen={openResume} />
+            <ProfileBasic />
             <AboutBlog />
             <Keywords data={KeywordData} />
         </Col>

@@ -7,7 +7,7 @@ import './index.css';
 import("react-dom/client").then((ReactDOM)=>{
   ReactDOM.createRoot(document.getElementById("root"))
    .render(
-    <ContextProvider variables={{ "test":"Hello" }}>
+    <ContextProvider variables={{ "resumeStatus":"closed" }}>
       <FontLoader />
       <AppRouting />
    </ContextProvider>);

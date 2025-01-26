@@ -33,7 +33,7 @@ const ProfileCard = ()=>{
 			   {data?.kpis?.map((kpi,index)=>{
 				return (<div key={index} className="resume-flex-box">
 					<div className="curpoint" data-bs-toggle="tooltip" data-bs-placement="right" title={kpi?.tooltip}>
-				 		<div className="fs12 uppercase" style={{ color:'#bbff6c', paddingBottom:'4px' }}><b>{kpi?.label}</b></div>
+				 		<div className="fs12 uppercase" style={{ color:'#fff', paddingBottom:'4px' }}><b>{kpi?.label}</b></div>
 						<div className="text-grey1 fs20">{kpi?.value}</div>
 					</div>
 				</div>);

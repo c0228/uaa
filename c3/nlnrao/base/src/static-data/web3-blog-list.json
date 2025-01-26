@@ -1,0 +1,20 @@
+{
+    "zkp":{
+        "row1":[{
+                "url":"tech/web3.0/zero-knowledge-proof(zkp)/understanding_zk-SNARKs_and_zk-STARKs",
+                "title": "Understanding zk-SNARKs and zk-STARKs: A Developer’s Perspective",
+                "desc":"Zero-knowledge proofs (ZKPs) are a cornerstone of modern cryptography, enabling one party to prove knowledge of specific information without revealing the information itself. zk-SNARKs and zk-STARKs are tools for achieving privacy and scalability in blockchain and other systems.",
+                "descFix":305,
+                "createdOn": "Jan 26, 2023",
+                "minRead": "5 min read"
+            }],
+        "row2":[{
+                "url":"tech/agile-methodology/what-are-architecture-design-principles-and-how-does-agile-methodology-aligns-with-it",
+                "title": "What are Architecture Design principles? How does Agile Methodology aligns with it?",
+                "desc":"Architecture design principles are fundamental guidelines for creating software systems, ensuring scalability, maintainability, and reliability. Agile aligns with these principles by promoting iterative development, continuous feedback, and adaptability, enabling architecture to evolve alongside changing requirements, thus ensuring alignment with business goals.",
+                "descFix":260,
+                "createdOn": "Jan 26, 2023",
+                "minRead": "5 min read"
+            }]
+    }
+}
