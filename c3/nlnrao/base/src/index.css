@@ -1,4 +1,6 @@
 .lh25p { line-height:25px; }
+.lh36p { line-height:36px; }
+.lh42p { line-height:42px; }
 
 .mtop35p { margin-top:35px; }
 .mbot35p { margin-bottom: 35px; }
@@ -6,6 +8,8 @@
 .bg-yellow1 { background-color:#cddc39; }
 
 .mbot60p { margin-bottom:60px; }
+
+.padBot35p { padding-bottom:35px; }
 
 .blog-fade:hover { opacity:0.9; }
 
@@ -36,3 +40,6 @@
 .blog-head { font-family: Metropolis;line-height:36px;color:#333; }
 .blog-desc { font-family: Metropolis;font-size:16px;color:#555;line-height:26px; }
 .lh-26 { line-height:26px; }
+
+
+.blog-hgl-title { background-color:#ddd;padding-left:8px;padding-top:5px;padding-bottom:1px; }

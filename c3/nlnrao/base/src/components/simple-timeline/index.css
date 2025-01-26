@@ -1,0 +1,5 @@
+.simple-timeline { margin-left:15px;margin-top:0px;position: relative; }
+.simple-timeline-hgl { position:absolute;width:15px;height:6px;margin-top:20px;background-color:#aaa; }
+.simple-timeline-section { margin-left:6px;border-left:2px dashed #aaa;padding-left:15px; }
+.simple-timeline-title { margin-top:5px;background-color:#ccc;padding:15px;
+	box-shadow:2px 2px 2px 2px #ddd;border-top-right-radius:55px;border-bottom-right-radius:55px; }

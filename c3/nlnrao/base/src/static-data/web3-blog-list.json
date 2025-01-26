@@ -8,13 +8,6 @@
                 "createdOn": "Jan 26, 2023",
                 "minRead": "5 min read"
             }],
-        "row2":[{
-                "url":"tech/agile-methodology/what-are-architecture-design-principles-and-how-does-agile-methodology-aligns-with-it",
-                "title": "What are Architecture Design principles? How does Agile Methodology aligns with it?",
-                "desc":"Architecture design principles are fundamental guidelines for creating software systems, ensuring scalability, maintainability, and reliability. Agile aligns with these principles by promoting iterative development, continuous feedback, and adaptability, enabling architecture to evolve alongside changing requirements, thus ensuring alignment with business goals.",
-                "descFix":260,
-                "createdOn": "Jan 26, 2023",
-                "minRead": "5 min read"
-            }]
+        "row2":[]
     }
 }
