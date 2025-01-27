@@ -21,7 +21,7 @@ const ZKP01 = ()=>{
  const BreadcrumbPage = () =>{
     return (<div className="mtop15p mbot15p">
         <Breadcrumb backgroundColor={Colors.light} 
-            data={[{ label:'Web 3.0', url:'#' },
+            data={[{ label:'Web 3.0', url:process.env.PROJECT_URL+'tech/web3.0/overview' },
                 { label:'Understanding zk-SNARKs and zk-STARKs: A Developer’s Perspective', url:'#' }
             ]} />
         </div>)
