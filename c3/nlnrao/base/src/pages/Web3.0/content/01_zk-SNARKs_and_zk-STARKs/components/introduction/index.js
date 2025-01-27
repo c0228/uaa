@@ -3,7 +3,7 @@ import OrderList from '@Components/order-list/index.js';
 
 const Introduction = () =>{
  return (<div id="introduction">
-    <div className="mtop15p"><i>Blockchain technology has transformed the way we think about data security, privacy, and scalability.</i></div>
+    <div className="mtop15p lh36p" style={{ fontSize:'16px' }}><i>Blockchain technology has transformed the way we think about data security, privacy, and scalability.</i></div>
     <div align="center" className="mtop15p"><h3><b>Zero-Knowledge Proofs in Blockchain: An Introduction</b></h3></div>
 	  <div className="mtop15p lh25p">
 	  <u>Zero-knowledge proofs (ZKPs)</u> are a cryptographic technique that allows one party (the prover) to prove to another party (the verifier)

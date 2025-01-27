@@ -4,6 +4,7 @@ import Home from "@Pages/Home/index.js";
 import JSONCrudOperations from "@Pages/Javascript/content/json/crud-operations/index.js";
 import Web3 from "@Pages/Web3.0/index.js";
 import ZKP01 from "@Pages/Web3.0/content/01_zk-SNARKs_and_zk-STARKs/index.js";
+import ZKP02 from "@Pages/Web3.0/content/03_i_ni_zkp/index.js";
 import Products from "@Pages/SystemDesign/index.js";
 import DefineL1L2L3 from "@Pages/Agile/content/L1-L2-L3/index.js";
 import ArchDesignPrinciple from "@Pages/Agile/content/arch-design-principle/index.js";
@@ -25,6 +26,9 @@ export const AppRouting = ()=>{
          {/* Blockchain */}
          <Route exact path="tech/web3.0/overview" element={<Web3 />} />
          <Route exact path="tech/web3.0/zero-knowledge-proof(zkp)/understanding_zk-SNARKs_and_zk-STARKs" element={<ZKP01 />} />
+         <Route exact path="tech/web3.0/zero-knowledge-proof(zkp)/interactive_non-interactive_zkps" element={<ZKP02 />} />
+
+         
 
          {/* Agile Methodology */}
          <Route exact path="tech/agile-methodology/what-is-L1-L2-L3-tier-system-of-remote-it-support" element={<DefineL1L2L3 />} />

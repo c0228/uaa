@@ -5,7 +5,7 @@ const ZkSnarkIntroduction = () =>{
  return (<div id="zkSnarkIntroduction">
 
   <div align="center" className="mtop35p">
-    <h3 className="lh36p">
+    <h3 className="lh42p">
         <b>Unlocking zk-SNARKs: The Power of Zero-Knowledge Proofs Simplified</b>
     </h3>
   </div>

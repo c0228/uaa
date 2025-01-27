@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-scroll";
 import { ContainerFluid, Row, Col, Breadcrumb, Colors, Button, Select, Card, Switch } from "e-ui-react";
 import Header from '@Templates/Header/index.js';
 import { HeaderMenu } from '@Config/HeaderMenu.js';
@@ -9,7 +8,7 @@ import Timeline from './components/timeline/index.js';
 import ZkSnarkIntroduction from './components/zk-snark-introduction/index.js';
 import ZkSnarkImpLang from './components/zk-snark-impl-lang/index.js';
 import ZkSnarkImpProj from './components/zk-snark-impl-proj/index.js';
-import TopicSummary from './components/topic-summary/index.js';
+import TopicSummary from '@Components/topic-summary/index.js';
 import ZkStarkIntroduction from './components/zk-stark-introduction/index.js';
 import ZkSnarksAndZkStarksDiffer from './components/zk-snarks-and-zk-starks-differ/index.js';
 import ZkStarkImplLang from './components/zk-stark-impl-lang/index.js';

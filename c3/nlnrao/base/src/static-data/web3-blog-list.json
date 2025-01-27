@@ -8,6 +8,13 @@
                 "createdOn": "Jan 26, 2023",
                 "minRead": "5 min read"
             }],
-        "row2":[]
+        "row2":[{
+            "url":"tech/web3.0/zero-knowledge-proof(zkp)/interactive_non-interactive_zkps",
+            "title": "Interactive vs. Non-interactive ZKPs",
+            "desc":"Interactive ZKPs are like a conversation, while non-interactive ZKPs are like a one-way message. Interactive ZKPs are suitable when you need a dynamic exchange to establish trust or prove knowledge without revealing specific details. Non-interactive ZKPs are ideal when you want to provide a reusable proof that can be verified by anyone independently.",
+            "descFix":345,
+            "createdOn": "Jan 26, 2023",
+            "minRead": "5 min read"
+        }]
     }
 }
