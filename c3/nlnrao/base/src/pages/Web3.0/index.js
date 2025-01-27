@@ -8,7 +8,6 @@ import BlogItems from '@Components/blog-items/index.js';
 import BlogData from '@StaticData/web3-blog-list.json';
 import Terminologies from '@Components/terminologies-list/index.js';
 import TerminologiesData from "@StaticData/web3.0/terminologies.json";
-
 import './index.css';
 
 const Web3 = ()=>{
