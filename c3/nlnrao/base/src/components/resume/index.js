@@ -32,10 +32,10 @@ const Resume = () =>{
      <Row>
          <Col xxl={2} xl={3} lg={3} sm={3}>
             {/* Left Container */}
-            <Button type="outline-light" size={11} onClick={()=>setContextData({ resumeStatus: 'closed' })}>
-               <Icon type="FontAwesome" name="fa-arrow-left" size={12} style={{ marginRight:'5px' }} />
-                  <b>Go Back</b>
-            </Button>
+               <Button type="outline-light" size={11} onClick={()=>setContextData({ resumeStatus: 'closed' })}>
+                  <Icon type="FontAwesome" name="fa-arrow-left" size={12} style={{ marginRight:'5px' }} />
+                     <b>Go Back</b>
+               </Button>
             <ProfileCard />
             <ProjectList />
          </Col>
