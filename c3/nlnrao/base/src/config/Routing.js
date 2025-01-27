@@ -5,6 +5,7 @@ import JSONCrudOperations from "@Pages/Javascript/content/json/crud-operations/i
 import Web3 from "@Pages/Web3.0/index.js";
 import ZKP01 from "@Pages/Web3.0/content/01_zk-SNARKs_and_zk-STARKs/index.js";
 import ZKP02 from "@Pages/Web3.0/content/03_i_ni_zkp/index.js";
+import ModBcArch from "@Pages/Web3.0/content/04_mod-bc-arch/index.js"
 import Products from "@Pages/SystemDesign/index.js";
 import DefineL1L2L3 from "@Pages/Agile/content/L1-L2-L3/index.js";
 import ArchDesignPrinciple from "@Pages/Agile/content/arch-design-principle/index.js";
@@ -12,6 +13,7 @@ import DDDRole from "@Pages/Agile/content/ddd-role/index.js";
 import V8Node from "@Pages/NodeJS/content/v8-node/index.js";
 import ReactScroll01 from "@Pages/React/content/react-scroll-01/index.js";
 import BufferClasses from "@Pages/NodeJS/content/buffer-classes/index.js";
+import Web3Terminologies from "@Pages/Web3.0/content/05_terminologies/index.js";
 
 export const AppRouting = ()=>{
 
@@ -27,7 +29,8 @@ export const AppRouting = ()=>{
          <Route exact path="tech/web3.0/overview" element={<Web3 />} />
          <Route exact path="tech/web3.0/zero-knowledge-proof(zkp)/understanding_zk-SNARKs_and_zk-STARKs" element={<ZKP01 />} />
          <Route exact path="tech/web3.0/zero-knowledge-proof(zkp)/interactive_non-interactive_zkps" element={<ZKP02 />} />
-
+         <Route exact path="tech/web3.0/architecture-infrastructure/design-a-modular-blockchain-architecture" element={<ModBcArch />} />
+         <Route exact path="tech/web3.0/terminologies/:input" element={<Web3Terminologies />} />
          
 
          {/* Agile Methodology */}

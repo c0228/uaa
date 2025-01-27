@@ -6,6 +6,9 @@ import OrderList from "@Components/order-list/index.js";
 import BlogListHeader from '@Components/blog-list-header/index.js'; 
 import BlogItems from '@Components/blog-items/index.js'; 
 import BlogData from '@StaticData/web3-blog-list.json';
+import Terminologies from '@Components/terminologies-list/index.js';
+import TerminologiesData from "@StaticData/web3.0/terminologies.json";
+
 import './index.css';
 
 const Web3 = ()=>{
@@ -20,32 +23,27 @@ const Web3 = ()=>{
     </Row>);
  };
 
- const terminologies = ["Understanding Web 1.0, Web 2.0 and Web 3.0","Layer 1 vs. Layer 2 Blockchains",
-    "DeFi (Decentralized Finance)","NFTs and Digital Ownership","Tokenomics", "Metaverse: VR, AR, XR and MR",
-    "Private vs. Public Blockchains","Automated Market Maker (AMM)","Stablecoins","Crypto bridge",
-    "Decentralized Autonomous Organization (DAO)","Application Binary Interface (ABI)","Initial DEX Offering (IDO)",
-    "Ethereum Request for Comment (ERC)","Traditional Finance (TradFi)","Algorithmic Stablecoin",
-    "What is Staking?","Metaverse-as-a-Service (MaaS)"]
-
  return (<>
  <Header menulinks={HeaderMenu} activeId="Blockchain" />
  <div>
  <ContainerFluid>
     <Row>
+      <Col xs={12} xl={12} xxl={12}>
+      
+        <BlogListHeader label="Decentralized System - Architecture and Infrastructure" />
+        <BlogContent label="ds-ai" rows={3} />
+
+      </Col>
+    </Row>
+    <Row>
         <Col xs={12} xl={8} xxl={8}>
+
           <BlogListHeader label="Zero Knowledge Proofs (ZKPs)" />
           <BlogContent label="zkp" rows={2} />
             
         </Col>
         <Col xs={12} xl={4} xxl={4}>
-          <BlogListHeader label="Terminologies" />
-          <div style={{ paddingLeft:'5px', marginBottom:'60px' }}>
-             {terminologies?.map((t,i)=>{
-              return (<div className={(i>0 && "mtop15p")}>
-                <span className="terminologies-hgl-link"><b>{t}</b></span>
-               </div>);
-             })}
-          </div>
+          <Terminologies data={TerminologiesData} />
         </Col>
     </Row>
  </ContainerFluid>

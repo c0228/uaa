@@ -16,5 +16,17 @@
             "createdOn": "Jan 26, 2023",
             "minRead": "5 min read"
         }]
+    },
+    "ds-ai":{
+        "row1":[{
+            "url":"tech/web3.0/architecture-infrastructure/design-a-modular-blockchain-architecture",
+            "title":"Design a modular blockchain architecture that separates the execution, consensus, and data layers",
+            "desc":"Designing a modular blockchain involves separating the execution, consensus, and data layers to enhance scalability and flexibility. The execution layer processes transactions, the consensus layer ensures agreement on block ordering, and the data layer manages storage. Clear interfaces, decentralization, scalability (e.g., rollups), and security (e.g., zk-proofs) are key to implementation.",
+            "descFix":345,
+            "createdOn": "Jan 26, 2023",
+            "minRead": "5 min read"
+        }],
+        "row2":[],
+        "row3":[]
     }
 }
