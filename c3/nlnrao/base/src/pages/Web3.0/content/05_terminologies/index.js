@@ -24,7 +24,7 @@ const Web3Terminologies = () =>{
             <Col xl={8} xxl={8}>
 
                 {input==='understanding-web1.0-web2.0-web3.0' && (<div>
-                    <BlogTopHeader title="Life Cycle of Smart Contracts" date="October 26, 2024" />
+                    <BlogTopHeader title="Understanding Web 1.0, Web 2.0 and Web 3.0" date="October 26, 2024" />
                     <SmartContractsLifecycle />
                 </div>)}
 
