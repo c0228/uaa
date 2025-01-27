@@ -21,11 +21,11 @@ const Web3 = ()=>{
  };
 
  const terminologies = ["Understanding Web 1.0, Web 2.0 and Web 3.0","Layer 1 vs. Layer 2 Blockchains",
-    "DeFi (Decentralized Finance)","NFTs and Digital Ownership","Tokenomics",
+    "DeFi (Decentralized Finance)","NFTs and Digital Ownership","Tokenomics", "Metaverse: VR, AR, XR and MR",
     "Private vs. Public Blockchains","Automated Market Maker (AMM)","Stablecoins","Crypto bridge",
     "Decentralized Autonomous Organization (DAO)","Application Binary Interface (ABI)","Initial DEX Offering (IDO)",
     "Ethereum Request for Comment (ERC)","Traditional Finance (TradFi)","Algorithmic Stablecoin",
-    "What is Staking?"]
+    "What is Staking?","Metaverse-as-a-Service (MaaS)"]
 
  return (<>
  <Header menulinks={HeaderMenu} activeId="Blockchain" />
