@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { ContainerFluid, Row, Col, Icon, Button, Carousel } from "e-ui-react";
+import { ContainerFluid, Row, Col, getAppContext, Button, Carousel } from "e-ui-react";
 import Header from '@Templates/Header/index.js';
 import { HeaderMenu } from '@Config/HeaderMenu.js';
 import { BgHgtTitle } from '@Templates/Titles/index.js';
@@ -14,9 +14,9 @@ import BlogItems from '@Components/blog-items/index.js';
 import BlogData from '@StaticData/home-blog-list.json';
 
 const Home = ()=>{
- const [openResume, setOpenResume] = useState(false);
+ const { setContextData } = getAppContext();
  useEffect(()=>{
-  if (window.location.hash === '#resume') { setOpenResume(true); }
+  if (window.location.hash === '#resume') { setContextData({ resumeStatus: 'open' }) }
  },[]);
 
  const BlogTitle = ({ label })=>{
