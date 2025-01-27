@@ -25,8 +25,8 @@ const TopicSummary = ({ data }) =>{
      <div className="list-group-item" style={{ backgroundColor:'#f8f9fa' }}>
      {/* */}
       {data?.map((d,i1)=>{
-        return (<div>
-         <SummaryTitle index={i1} title={d?.title} />
+        return (<div key={i1}>
+         <SummaryTitle title={d?.title} index={i1} />
          <OrderList data={d?.topics?.map((s,i2)=>{
            return (<div key={i2} className="topic-summary-hgl-link" 
              onClick={()=>scrollToSection(s?.scrollTo)}>{s?.label}</div>);

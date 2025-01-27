@@ -14,9 +14,8 @@ const Header = ({ activeId, menulinks })=>{
  <div className="container-fluid"> 
    <LogoTitle />
    <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar"
-   onClick={()=>setShowCollapse(!showCollapse)}
-   style={{ border: '2px solid #fff' }}>
-     <i className="fa fa-bars" style={{ color:'#fff' }}></i>
+   onClick={()=>setShowCollapse(!showCollapse)}>
+     <i className="fa fa-bars" style={{ paddingTop:'5px', paddingBottom:'5px' }}></i>
    </button>
    <div className={showCollapse?"collapse navbar-collapse show":"collapse navbar-collapse"} id="collapsibleNavbar">
     <ul className="navbar-nav">
