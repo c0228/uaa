@@ -5,6 +5,9 @@ import Header from '@Templates/Header/index.js';
 import { HeaderMenu } from '@Config/HeaderMenu.js';
 import BlogArticleHeader from '@Components/blog-article-header/index.js';
 import SmartContractsLifecycle from "./modules/lifecycle-of-smartcontracts/index.js";
+import Terminologies from '@Components/terminologies-list/index.js';
+import TerminologiesData from "@StaticData/web3.0/terminologies.json";
+
 
 const Web3Terminologies = () =>{
  const { input } = useParams();
@@ -23,7 +26,7 @@ const Web3Terminologies = () =>{
         <Row>
             <Col xl={8} xxl={8}>
 
-                {input==='understanding-web1.0-web2.0-web3.0' && (<div>
+                {input==='understanding-web1-web2-web3' && (<div>
                     <BlogTopHeader title="Understanding Web 1.0, Web 2.0 and Web 3.0" date="October 26, 2024" />
                     <SmartContractsLifecycle />
                 </div>)}
@@ -121,7 +124,9 @@ const Web3Terminologies = () =>{
                 </div>)}
                 
             </Col>
-            <Col xl={4} xxl={4}></Col>
+            <Col xl={4} xxl={4}>
+                <Terminologies data={TerminologiesData} />
+            </Col>
         </Row>
      </ContainerFluid>
  </div>);

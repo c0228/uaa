@@ -30,7 +30,7 @@ export const AppRouting = ()=>{
          <Route exact path="tech/web3.0/zero-knowledge-proof(zkp)/understanding_zk-SNARKs_and_zk-STARKs" element={<ZKP01 />} />
          <Route exact path="tech/web3.0/zero-knowledge-proof(zkp)/interactive_non-interactive_zkps" element={<ZKP02 />} />
          <Route exact path="tech/web3.0/architecture-infrastructure/design-a-modular-blockchain-architecture" element={<ModBcArch />} />
-         <Route exact path="tech/web3.0/terminologies/:input" element={<Web3Terminologies />} />
+         <Route path="tech/web3.0/terminologies/:input" element={<Web3Terminologies />} />
          
 
          {/* Agile Methodology */}

@@ -1,5 +1,5 @@
 {
-    "list":[{ "url":"tech/web3.0/terminologies/understanding-web1.0-web2.0-web3.0", "label":"Understanding Web 1.0, Web 2.0 and Web 3.0" }, 
+    "list":[{ "url":"tech/web3.0/terminologies/understanding-web1-web2-web3", "label":"Understanding Web 1.0, Web 2.0 and Web 3.0" }, 
                     { "url":"tech/web3.0/terminologies/lifecycle-of-smart-contracts", "label":"Lifecycle of Smart Contracts" }, 
                     { "url":"tech/web3.0/terminologies/layer1-vs-layer2-blockchains", "label":"Layer 1 vs. Layer 2 Blockchains" },
                     { "url":"tech/web3.0/terminologies/defi-decentralized-finance", "label":"DeFi (Decentralized Finance)" },
