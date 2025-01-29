@@ -14,6 +14,7 @@ import V8Node from "@Pages/NodeJS/content/v8-node/index.js";
 import ReactScroll01 from "@Pages/React/content/react-scroll-01/index.js";
 import BufferClasses from "@Pages/NodeJS/content/buffer-classes/index.js";
 import Web3Terminologies from "@Pages/Web3.0/content/05_terminologies/index.js";
+import Frontend from "@Pages/Frontend/index.js";
 
 export const AppRouting = ()=>{
 
@@ -24,6 +25,9 @@ export const AppRouting = ()=>{
 
          <Route exact path="tech/javascript/dynamically-create-retrieve-update-and-delete-crud-operations-on-json-object-and-json-array" element={<JSONCrudOperations/>} />
          <Route exact path="tech/javascript/sorting-an-element-in-json-array-in-ascending-and-descending-order" element={<JSONCrudOperations/>} />
+
+         {/* Frontend */}
+         <Route exact path="tech/frontend/overview" element={<Frontend />} />
 
          {/* Blockchain */}
          <Route exact path="tech/web3.0/overview" element={<Web3 />} />
