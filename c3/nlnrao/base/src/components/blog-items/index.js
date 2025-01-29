@@ -7,10 +7,10 @@ const BlogItems = ({ itemList }) =>{
       {itemList?.map((list,index)=>{
          return (<div key={index} className="blog-fade" style={{ paddingTop:'15px', paddingBottom: '20px' }}>
           <Link to={process.env.PROJECT_URL+list?.url} style={{ textDecoration:'none' }}>
-            <div style={{ fontFamily:'Metropolis', lineHeight:'24px', fontSize:'16px', color:'#000' }}>
-              {list?.title}
+            <div style={{ lineHeight:'30px', fontSize:'16px', color:'#222' }}>
+              <b>{list?.title}</b>
             </div>
-            <div style={{  fontFamily:'Metropolis', lineHeight:'24px', letterSpacing:'0.1px', fontSize:'14px', 
+            <div style={{  fontFamily:'Metropolis', lineHeight:'28px', letterSpacing:'0.1px', fontSize:'14px', 
               marginTop:'5px', marginBottom:'10px', color:'#555' }}>
               {(list?.desc?.length>list?.descFix)?(list?.desc?.substring(0,list?.descFix)+'...') : (list?.desc)}
             </div>

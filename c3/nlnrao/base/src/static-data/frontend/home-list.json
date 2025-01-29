@@ -1,0 +1,20 @@
+{
+    "evolve":{
+        "row1":[{
+                "url":"tech/frontend/how-frontend-frameworks-changed-web-development-and-why-react-angular-and-vue-are-the-most-dominant-choices-today",
+                "title": "How Frontend Frameworks changed web development and why React, Angular, and Vue are the most dominant choices today?",
+                "desc":"The introduction of frontend frameworks like React, Angular, and Vue significantly streamlined this process. They brought component-based architectures that allowed developers to break down complex user interfaces into manageable, reusable components. This not only simplified development but also made it easier to maintain and scale applications over time.",
+                "descFix":276,
+                "createdOn": "Jan 26, 2023",
+                "minRead": "5 min read"
+            }],
+        "row2":[{
+            "url":"tech/frontend/building-revolutionizing-web-apps-for-the-future-merging-single-page-applications-spa-and-progressive-web-app-pwa-technologies",
+            "title": "Building Revolutionizing Web Apps for the Future: Merging Single-Page Applications (SPA) and Progressive Web App (PWA) Technologies",
+            "desc":"When SPAs and PWAs are combined, the result is a powerful web application that benefits from the best of both worlds: the dynamic content rendering of SPAs and the offline-first functionality of PWAs. This combination offers a superior user experience, enhanced performance, and broader accessibility across devices and network conditions. ",
+            "descFix":283,
+            "createdOn": "Jan 26, 2023",
+            "minRead": "5 min read"
+        }]
+    }
+}
