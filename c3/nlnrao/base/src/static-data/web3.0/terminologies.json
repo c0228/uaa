@@ -8,14 +8,14 @@
                     { "url":"tech/web3.0/terminologies/metaverse-vr-ar-xr-and-mr", "label":"Metaverse: VR, AR, XR and MR" },
                     { "url":"tech/web3.0/terminologies/private-vs-public-blockchains", "label":"Private vs. Public Blockchains" },
                     { "url":"tech/web3.0/terminologies/automated-market-maker-(amm)", "label":"Automated Market Maker (AMM)" },
-                    { "url":"tech/web3.0/terminologies/stable-coins", "label":"Stablecoins" },
+                    { "url":"tech/web3.0/terminologies/stable-coins", "label":"Stablecoins and Algorithmic Stablecoin" },
                     { "url":"tech/web3.0/terminologies/crypto-bridge", "label":"Crypto bridge" },
                     { "url":"tech/web3.0/terminologies/decentralized-autonomous-organization-(dao)", "label":"Decentralized Autonomous Organization (DAO)" },
                     { "url":"tech/web3.0/terminologies/application-binary-interface-(abi)", "label":"Application Binary Interface (ABI)" },
                     { "url":"tech/web3.0/terminologies/initial-dex-offering-(ido)", "label":"Initial DEX Offering (IDO)" },
                     { "url":"tech/web3.0/terminologies/ethereum-request-for-comment-(erc)", "label":"Ethereum Request for Comment (ERC)" },
                     { "url":"tech/web3.0/terminologies/traditional-finance-(tradfi)", "label":"Traditional Finance (TradFi)" },
-                    { "url":"tech/web3.0/terminologies/algorithmic-stablecoin", "label":"Algorithmic Stablecoin" },
                     { "url":"tech/web3.0/terminologies/what-is-staking", "label":"What is Staking?" },
-                    { "url":"tech/web3.0/terminologies/metaverse-as-a-service-(maas)", "label":"Metaverse-as-a-Service (MaaS)" }]
+                    { "url":"tech/web3.0/terminologies/metaverse-as-a-service-(maas)", "label":"Metaverse-as-a-Service (MaaS)" },
+                    { "url":"tech/web3.0/terminologies/solidity-vs-vyper", "label":"Solidity Vs Vyper" }]
 }
