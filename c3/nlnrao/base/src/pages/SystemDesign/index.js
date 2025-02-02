@@ -1,77 +1,55 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
+import { ContainerFluid, Row, Col } from "e-ui-react";
 import Header from '@Templates/Header/index.js';
 import { HeaderMenu } from '@Config/HeaderMenu.js';
-import { ContainerFluid, Row, Col, Card, Switch, Button, Select, Icon } from "e-ui-react";
+import BlogListHeader from '@Components/blog-list-header/index.js';
+import BlogItems from '@Components/blog-items/index.js';
+import BlogData from '@StaticData/system-design/overview.json';
+import Terminologies from '@Components/terminologies-list/index.js';
+import LLDData from "@StaticData/system-design/lld-data.json";
+import HLDData from "@StaticData/system-design/hld-data.json";
+import SDKeyGoals from "./components/sd-key-goals/index.js";
+import SDComponents from './content/01-sd-components/index.js';
 
-const Products = () =>{
- const [addToCart, setAddToCart] = useState([]);
+const SystemDesign = () =>{
 
- return (<>
- <Header menulinks={HeaderMenu} activeId="tech" />
- <div style={{ marginTop:'15px' }}>
- <ContainerFluid>
+ const BlogContent = ({ label, rows })=>{
+     return (<Row>
+         {Array.from({ length: rows }).map((_, index) => (
+           <Col key={index} xxl={12/rows} xl={12/rows}>
+             <BlogItems itemList={BlogData?.[label]?.["row"+(index+1)]} />
+           </Col>
+         ))}
+     </Row>);
+ };
+
+ return (<div>
+  <Header menulinks={HeaderMenu} activeId="SystemDesign" />
+  <ContainerFluid>
     <Row>
-        <Col xs={12} xl={2} xxl={2}>
-            <div style={{ marginBottom:'15px' }}>
-            <Card backgroundColor="#eee" border="0" borderRadius={6} padding={15}>
-                <div>
-                    <div style={{ paddingBottom:'15px' }}>
-                        <Switch type="checkbox" id="brands" name="brands" label="Brands" 
-                        value={[{ id:1, label:"Bali", value:"Bali"},
-                                { id:2, label:"Levolor", value:"Levolor" },
-                                { id:3, label:"SouthSeas", value:"SouthSeas" }]} />
-                    </div>
-                    <div style={{ paddingBottom:'15px' }}>
-                        <Switch type="checkbox" id="control" name="control" label="Control" 
-                            value={[{ id:1, label:"CordLoop", value:"CordLoop"},
-                                    { id:2, label:"Cordless", value:"Cordless" },
-                                    { id:3, label:"Motorized", value:"Motorized" }]} />
-                    </div>
-                    <div style={{ paddingBottom:'15px' }}>
-                        <Switch type="checkbox" id="material" name="material" label="Material" 
-                            value={[{ id:1, label:"Wood", value:"Wood"}]} />
-                    </div>
-                    <div style={{ paddingBottom:'15px' }}>
-                        <Switch type="checkbox" id="motorization" name="motorization" label="Motorization" 
-                            value={[{ id:1, label:"Remote", value:"Remote"},
-                                    { id:2, label:"Smart Home Automation", value:"Smart Home Automation"}]} />
-                    </div>
-                    <div style={{ paddingBottom:'15px' }}>
-                        <Switch type="checkbox" id="slatSize" name="slatSize" label="Slat Size" 
-                            value={[{ id:1, label:"1 3/8''", value:"1 3/8''"},
-                                    { id:2, label:"1'' or less", value:"1'' or less"},
-                                    { id:3, label:"2''", value:"2''"},
-                                    { id:4, label:"2.5''", value:"2.5''"}]} />
-                    </div>
-                    <div style={{ paddingBottom:'15px' }}>
-                        <Switch type="checkbox" id="upgrade" name="upgrade" label="Upgrade" 
-                            value={[{ id:1, label:"Cloth Tapes", value:"Cloth Tapes"},
-                                    { id:2, label:"Privacy Slats", value:"Privacy Slats"},
-                                    { id:3, label:"Routeless", value:"Routeless"}]} />  
-                    </div>
-                    <div style={{ paddingBottom:'15px' }}>
-                        <Switch type="checkbox" id="windowType" name="windowType" label="Window Type" 
-                            value={[{ id:1, label:"French Doors", value:"French Doors"},
-                                    { id:2, label:"Xlarge", value:"Xlarge"}]} />
-                    </div>
-                    <div>
-                        <Switch type="checkbox" id="additionalFeatures" name="additionalFeatures" label="Additional Features" 
-                            value={[{ id:1, label:"2/1 Headrail", value:"2/1 Headrail"},
-                                    { id:2, label:"3/1 Headrail", value:"3/1 Headrail"},
-                                    { id:3, label:"Durable", value:"Durable"},
-                                    { id:4, label:"Kid Safe Options", value:"Kid Safe Options"},
-                                    { id:5, label:"Light Control", value:"Light Control" }]} />
-                    </div>
-                </div>
-            </Card>
-            </div>
+        <Col md={12} xl={12} xxl={12}>
+            <BlogListHeader label="Distributing System - Scalability and Performance" />
         </Col>
-        <Col xs={12} xl={10} xxl={10}></Col>
     </Row>
-    
- </ContainerFluid>
- </div>
- </>);
+    <Row>
+        <Col md={8} xl={8} xxl={8}>
+            <BlogContent label="system-design" rows={3} />
+
+            <BlogListHeader label="System Design - Architectural Patterns" />
+            <BlogContent label="sd-ap" rows={2} />
+
+        </Col>
+        <Col md={4} xl={4} xxl={4}>
+            <SDKeyGoals />
+            <div className="mtop15p">
+                <Terminologies title="L L D ( Low - Level Design ) Topics" data={LLDData} />
+                <Terminologies title="H L D ( High - Level Design ) Topics" data={HLDData} />
+            </div>
+            
+        </Col>
+    </Row>
+  </ContainerFluid>
+ </div>);
 };
 
-export default Products;
+export default SystemDesign;

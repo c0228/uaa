@@ -1,0 +1,81 @@
+{
+    "system-design":{
+        "row1":[{
+                "url":"tech/system-design/the-architect-toolkit-exploring-essential-components-of-system-design",
+                "title": "The Architect's Toolkit: Exploring Essential Components of System Design in the Distributed system",
+                "desc":"In the world of software development, system design serves as the foundation for building scalable, reliable, and efficient applications. Whether you're designing a high-performance web service, a distributed system, or a cloud-native application, having the right set of architectural tools is essential.",
+                "descFix":292,
+                "createdOn": "Jan 26, 2023",
+                "minRead": "5 min read"
+            },{
+                "url":"tech/system-design/",
+                "title": "Design a distributed cache system, including the architecture, caching strategies and mechanisms for handling cache invalidation and consistency.",
+                "desc":"A well-designed distributed cache system enhances performance and scalability by reducing database load and latency. We covers architecture design, popular caching strategies like LRU, LFU, and techniques for cache invalidation and consistency using write-through, write-back, and TTL-based approaches. Learn how to balance speed, consistency, and fault tolerance in large-scale systems.",
+                "descFix":305,
+                "createdOn": "Jan 26, 2023",
+                "minRead": "5 min read"
+            }],
+        "row2":[{
+            "url":"tech/system-design/",
+            "title": "Design a system to handle 10x traffic spikes, eventual consistency and real-time analytics.",
+            "desc":"Designing a scalable system that can handle 10x traffic spikes, ensure eventual consistency, and provide real-time analytics is crucial for modern applications. We explores key architectural patterns, such as auto-scaling, CQRS, event-driven design, and stream processing, to build a resilient, high-performance system that balances scalability, availability, and consistency.",
+            "descFix":282,
+            "createdOn": "Jan 26, 2023",
+            "minRead": "5 min read"
+        },{
+            "url":"tech/system-design/",
+            "title": "Design a system for handling time-series data, specifying the database choice and outlining optimizations for high write throughput and efficient querying.",
+            "desc":"Handling time-series data requires a database optimized for high write throughput and efficient querying. We explores the best database choices like InfluxDB, TimescaleDB, and Apache Druid, indexing techniques, data partitioning, and compression strategies to ensure scalability and fast retrieval. Let we design a high-performance time-series system for real-time analytics and long-term storage.",
+            "descFix":315,
+            "createdOn": "Jan 26, 2023",
+            "minRead": "5 min read"
+        }],
+        "row3":[{
+            "url":"tech/system-design/",
+            "title": "Design a system to handle leader election and distributed locking mechanism in a distributed system",
+            "desc":"In a distributed system, leader election and distributed locking are essential for ensuring coordination, consistency, and fault tolerance. We explores consensus algorithms like Raft and Paxos, distributed locking mechanisms using Zookeeper, etcd, and Redis, and best practices for achieving high availability, fairness, and reliability in a multi-node environment.",
+            "descFix":282,
+            "createdOn": "Jan 26, 2023",
+            "minRead": "5 min read"
+        },{
+            "url":"tech/system-design/",
+            "title": "Design a globally distributed Content Delivery Network (CDN), addressing data replication across multiple regions and the handling of distributed transactions.",
+            "desc":"A globally distributed Content Delivery Network (CDN) ensures low-latency content delivery by replicating data across multiple regions. We explores data replication strategies, edge caching, and techniques for handling distributed transactions while maintaining consistency, availability, and fault tolerance.",
+            "descFix":315,
+            "createdOn": "Jan 26, 2023",
+            "minRead": "5 min read"
+        }]
+    },
+    "sd-ap":{
+        "row1":[{
+            "url":"tech/system-design/",
+            "title":"Understanding Event-Driven Architecture",
+            "desc":"Event-Driven Architecture (EDA) is a design pattern where systems communicate through events rather than direct requests, enabling scalability, decoupling, and real-time processing. We explores event producers, consumers, event brokers (Kafka, RabbitMQ, AWS SNS/SQS), and patterns like pub-sub and event sourcing, helping you build responsive and resilient applications.",
+            "descFix":325,
+            "createdOn": "Jan 26, 2023",
+            "minRead": "5 min read"
+        },{
+            "url":"tech/system-design/",
+            "title":"Understanding Serverless Architecture",
+            "desc":"Serverless Architecture enables developers to build and deploy applications without managing servers, leveraging cloud providers like AWS Lambda, Azure Functions, and Google Cloud Functions. We explores its event-driven nature, auto-scaling, cost efficiency, and best practices for designing highly scalable and resilient applications with serverless computing.",
+            "descFix":325,
+            "createdOn": "Jan 26, 2023",
+            "minRead": "5 min read"
+        }],
+        "row2":[{
+            "url":"tech/system-design/",
+            "title":"Understanding Client-Server Architecture",
+            "desc":"Client-Server Architecture is a fundamental computing model where clients request services and servers process and respond over a network. We explores its components, communication protocols (HTTP, WebSockets, gRPC), advantages like scalability and centralized management, and common design patterns used in web applications, databases, and cloud computing.",
+            "descFix":315,
+            "createdOn": "Jan 26, 2023",
+            "minRead": "5 min read"
+        },{
+            "url":"tech/system-design/",
+            "title":"Understanding Microservices Architecture",
+            "desc":"Microservices Architecture is a design approach where applications are built as a collection of loosely coupled, independently deployable services. We explores its benefits, including scalability, flexibility, and fault isolation, key components like API gateways, service discovery, and distributed data management, and best practices for building resilient and efficient microservices-based systems.",
+            "descFix":315,
+            "createdOn": "Jan 26, 2023",
+            "minRead": "5 min read"
+        }]
+    }
+}

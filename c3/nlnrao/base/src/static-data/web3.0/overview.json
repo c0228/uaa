@@ -1,4 +1,15 @@
 {
+    "smart-contracts":{
+        "row1":[{
+                "url":"tech/web3.0/smart-contracts/",
+                "title": "The Dark Side of Blockchain: Security Risks in Smart Contracts",
+                "desc":"",
+                "descFix":305,
+                "createdOn": "Jan 26, 2023",
+                "minRead": "5 min read"
+            }],
+        "row2":[]
+    },
     "zkp":{
         "row1":[{
                 "url":"tech/web3.0/zero-knowledge-proof(zkp)/understanding_zk-SNARKs_and_zk-STARKs",

@@ -15,6 +15,9 @@ import ReactScroll01 from "@Pages/React/content/react-scroll-01/index.js";
 import BufferClasses from "@Pages/NodeJS/content/buffer-classes/index.js";
 import Web3Terminologies from "@Pages/Web3.0/content/05_terminologies/index.js";
 import Frontend from "@Pages/Frontend/index.js";
+import DSA from "@Pages/DSA/index.js";
+import SystemDesign from "@Pages/SystemDesign/index.js";
+import SDComponents from "@Pages/SystemDesign/content/01-sd-components";
 
 export const AppRouting = ()=>{
 
@@ -35,6 +38,13 @@ export const AppRouting = ()=>{
          <Route exact path="tech/web3.0/zero-knowledge-proof(zkp)/interactive_non-interactive_zkps" element={<ZKP02 />} />
          <Route exact path="tech/web3.0/architecture-infrastructure/design-a-modular-blockchain-architecture" element={<ModBcArch />} />
          <Route path="tech/web3.0/terminologies/:input" element={<Web3Terminologies />} />
+         
+         {/* DSA */}
+         <Route path="tech/dsa/overview" element={<DSA />} />
+
+         {/* System Design */}
+         <Route path="tech/system-design/overview" element={<SystemDesign />} />
+         <Route path="tech/system-design/the-architect-toolkit-exploring-essential-components-of-system-design" element={<SDComponents />} />
          
 
          {/* Agile Methodology */}

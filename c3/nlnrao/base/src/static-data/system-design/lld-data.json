@@ -1,0 +1,23 @@
+{
+    "list":[{ "url":"tech/system-design/", "label":"Solid Principles" },
+            { "url":"tech/system-design/", "label":"Strategy Design Pattern" },
+            { "url":"tech/system-design/", "label":"Design Notify Me, Observer Pattern" },
+            { "url":"tech/system-design/", "label":"Decorator Pattern" },
+            { "url":"tech/system-design/", "label":"Factory Pattern" },
+            { "url":"tech/system-design/", "label":"Abstract Factory Pattern" },
+            { "url":"tech/system-design/", "label":"Proxy Design Pattern" },
+            { "url":"tech/system-design/", "label":"Null Object Pattern" },
+            { "url":"tech/system-design/", "label":"Adapter Design Pattern" },
+            { "url":"tech/system-design/", "label":"Splitwise Simplification Algorithm" },
+            { "url":"tech/system-design/", "label":"Builder Design Pattern" },
+            { "url":"tech/system-design/", "label":"Fascade Design Pattern" },
+            { "url":"tech/system-design/", "label":"Bridge Design Pattern" },
+            { "url":"tech/system-design/", "label":"Flyweight Design Pattern" },
+            { "url":"tech/system-design/", "label":"Command Design Pattern" },
+            { "url":"tech/system-design/", "label":"Iterative Design Pattern" },
+            { "url":"tech/system-design/", "label":"Mediator Design Pattern" },
+            { "url":"tech/system-design/", "label":"Visitor Design Pattern" },
+            { "url":"tech/system-design/", "label":"Memento Design Pattern" },
+            { "url":"tech/system-design/", "label":"MVC Design Pattern" },
+            { "url":"tech/system-design/", "label":"Object Pool Design Pattern" }]
+}

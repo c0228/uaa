@@ -5,7 +5,7 @@ import { HeaderMenu } from '@Config/HeaderMenu.js';
 import OrderList from "@Components/order-list/index.js";
 import BlogListHeader from '@Components/blog-list-header/index.js'; 
 import BlogItems from '@Components/blog-items/index.js'; 
-import BlogData from '@StaticData/web3-blog-list.json';
+import BlogData from '@StaticData/web3.0/overview.json';
 import Terminologies from '@Components/terminologies-list/index.js';
 import TerminologiesData from "@StaticData/web3.0/terminologies.json";
 import './index.css';
@@ -36,6 +36,9 @@ const Web3 = ()=>{
     </Row>
     <Row>
         <Col xs={12} xl={8} xxl={8}>
+
+          <BlogListHeader label="Smart Contracts" />
+          <BlogContent label="smart-contracts" rows={2} />
 
           <BlogListHeader label="Zero Knowledge Proofs (ZKPs)" />
           <BlogContent label="zkp" rows={2} />
