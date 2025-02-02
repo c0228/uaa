@@ -28,15 +28,19 @@ const SystemDesign = () =>{
   <ContainerFluid>
     <Row>
         <Col md={12} xl={12} xxl={12}>
-            <BlogListHeader label="Distributing System - Scalability and Performance" />
+            <BlogListHeader label="System Design - Architectural Patterns" />
+            
         </Col>
     </Row>
     <Row>
         <Col md={8} xl={8} xxl={8}>
-            <BlogContent label="system-design" rows={3} />
-
-            <BlogListHeader label="System Design - Architectural Patterns" />
             <BlogContent label="sd-ap" rows={2} />
+
+            <BlogListHeader label="Distributing System - Scalability and Performance" />
+            <BlogContent label="ds-sp" rows={2} />
+
+            
+            
 
         </Col>
         <Col md={4} xl={4} xxl={4}>
