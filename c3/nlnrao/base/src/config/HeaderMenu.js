@@ -7,5 +7,10 @@
    { id:'Blockchain', url: 'tech/web3.0/overview', label:'Web 3.0 & Blockchain' },
    { id:'SystemDesign', url: 'tech/system-design/overview', label:'System Design' },
    { id:'DSA', url: 'tech/dsa/overview', label:'DSA' },
-    
- ];
+   /*
+   { id:'Backend', url: 'tech/backend/overview', label:'Backend' },
+   { id:'CloudInfrastructure', url:'tech/cloud-infrastructure/overview', label:'Cloud Infrastructure' },
+   { id:'AIML', url:'tech/ai-ml/overview', label:'AIML' },
+   { id:'CyberSecurity', url:'text/cyber-security/overview', label:'Cyber Security' },
+   { id:'EthicalHacking', url:'text/ethical-hacking/overview', label:'Ethical Hacking' }*/
+  ];

@@ -11,13 +11,14 @@ export const LogoTitle = ()=>{
 const Header = ({ activeId, menulinks })=>{
  const [showCollapse, setShowCollapse] = useState(false);
  return ( <nav className="navbar navbar-expand-sm">
- <div className="container-fluid"> 
+ <div className="container-fluid nav-menu-container-fluid"> 
    <LogoTitle />
    <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar"
    onClick={()=>setShowCollapse(!showCollapse)}>
      <i className="fa fa-bars" style={{ paddingTop:'5px', paddingBottom:'5px' }}></i>
    </button>
    <div className={showCollapse?"collapse navbar-collapse show":"collapse navbar-collapse"} id="collapsibleNavbar">
+   <div className="nav-menu-scroll-wrapper">
     <ul className="navbar-nav">
       {menulinks?.map((menu,index)=>{
         return (<li key={index} className="nav-item">
@@ -26,6 +27,7 @@ const Header = ({ activeId, menulinks })=>{
         </li>);
       })}
       </ul>
+      </div>
    </div>
    </div>
 </nav>);

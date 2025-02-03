@@ -2,3 +2,29 @@
 .navbar-nav .nav-link.active span { color: #000;padding-bottom:5px;border-bottom:3px solid #000; }
 .navbar-nav .nav-link { color:#2c2e3e;padding:6px 10px;margin-right:5px; }
 #collapsibleNavbar.show { padding-top:15px; }
+.nav-menu-scroll-wrapper {
+    display: flex;
+    overflow-x: auto;
+    white-space: nowrap;
+    -webkit-overflow-scrolling: touch;
+  }
+  
+  .navbar-nav {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 10px; /* Adds spacing between menu items */
+    padding-bottom: 5px; /* Prevents items from cutting off */
+    overflow-x: auto;
+  }
+  
+  .nav-menu-scroll-wrapper::-webkit-scrollbar {
+   /* display: none; /* Hides scrollbar for cleaner look */
+  }
+  
+  .nav-menu-container-fluid {
+    overflow: hidden; /* Ensures no extra width */
+  }
+  .nav-item {
+    flex-shrink: 0; /* Prevents items from squishing */
+  }
+  

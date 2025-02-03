@@ -15,8 +15,8 @@ const DevChoice = () =>{
             <div align="center" style={{ fontSize:'26px',color:'#bbb' }}>{formattedNumber}</div>
         </Col>
         <Col all={10}>
-            <div style={{ fontFamily:'Metropolis', lineHeight:'24px', paddingTop:'3px', fontSize:'16px', color:'#000' }}>{d?.title}</div>
-            <div style={{ fontFamily:'Metropolis', lineHeight:'24px', paddingTop:'3px', fontSize:'14px', color:'#555' }}>
+            <div style={{ marginBottom:'5px', lineHeight:'26px', paddingTop:'3px', fontSize:'16px', color:'#000' }}><b>{d?.title}</b></div>
+            <div style={{ fontFamily:'Metropolis', lineHeight:'28px', paddingTop:'3px', fontSize:'14px', color:'#555' }}>
                 {(d?.desc?.length>descFix)?(d?.desc?.substring(0,descFix)+'...') : (d?.desc)}
             </div>
             <div style={{ color:'#777',marginTop:'6px' }}>
