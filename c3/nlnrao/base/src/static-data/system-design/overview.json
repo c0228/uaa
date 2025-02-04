@@ -48,31 +48,80 @@
     "sd-ap":{
         "row1":[{
             "url":"tech/system-design/",
-            "title":"Understanding Event-Driven Architecture",
+            "title":"Event-Driven Architecture",
             "desc":"Event-Driven Architecture (EDA) is a design pattern where systems communicate through events rather than direct requests, enabling scalability, decoupling, and real-time processing. We explores event producers, consumers, event brokers (Kafka, RabbitMQ, AWS SNS/SQS), and patterns like pub-sub and event sourcing, helping you build responsive and resilient applications.",
             "descFix":325,
             "createdOn": "Jan 26, 2023",
             "minRead": "5 min read"
         },{
             "url":"tech/system-design/",
-            "title":"Understanding Serverless Architecture",
+            "title":"Serverless Architecture",
             "desc":"Serverless Architecture enables developers to build and deploy applications without managing servers, leveraging cloud providers like AWS Lambda, Azure Functions, and Google Cloud Functions. We explores its event-driven nature, auto-scaling, cost efficiency, and best practices for designing highly scalable and resilient applications with serverless computing.",
+            "descFix":325,
+            "createdOn": "Jan 26, 2023",
+            "minRead": "5 min read"
+        },{
+            "url":"tech/system-design/",
+            "title":"Layered Architecture (N-Tier)",
+            "desc":"",
+            "descFix":325,
+            "createdOn": "Jan 26, 2023",
+            "minRead": "5 min read"
+        },{
+            "url":"tech/system-design/",
+            "title":"Micro-kernel Architecture (Plugin-based)",
+            "desc":"",
+            "descFix":325,
+            "createdOn": "Jan 26, 2023",
+            "minRead": "5 min read"
+        },{
+            "url":"tech/system-design/",
+            "title":"CQRS (Command Query Responsibility Segregation)",
+            "desc":"",
+            "descFix":325,
+            "createdOn": "Jan 26, 2023",
+            "minRead": "5 min read"
+        },{
+            "url":"tech/system-design/",
+            "title":"Peer-to-Peer (P2P) Architecture",
+            "desc":"",
             "descFix":325,
             "createdOn": "Jan 26, 2023",
             "minRead": "5 min read"
         }],
         "row2":[{
             "url":"tech/system-design/",
-            "title":"Understanding Client-Server Architecture",
+            "title":"Client-Server Architecture",
             "desc":"Client-Server Architecture is a fundamental computing model where clients request services and servers process and respond over a network. We explores its components, communication protocols (HTTP, WebSockets, gRPC), advantages like scalability and centralized management, and common design patterns used in web applications, databases, and cloud computing.",
             "descFix":315,
             "createdOn": "Jan 26, 2023",
             "minRead": "5 min read"
         },{
             "url":"tech/system-design/",
-            "title":"Understanding Microservices Architecture",
+            "title":"Microservices Architecture",
             "desc":"Microservices Architecture is a design approach where applications are built as a collection of loosely coupled, independently deployable services. We explores its benefits, including scalability, flexibility, and fault isolation, key components like API gateways, service discovery, and distributed data management, and best practices for building resilient and efficient microservices-based systems.",
             "descFix":315,
+            "createdOn": "Jan 26, 2023",
+            "minRead": "5 min read"
+        },{
+            "url":"tech/system-design/",
+            "title":"Monolithic Architecture",
+            "desc":"",
+            "descFix":325,
+            "createdOn": "Jan 26, 2023",
+            "minRead": "5 min read"
+        },{
+            "url":"tech/system-design/",
+            "title":"Hexagonal (Port & Adapters) Architecture",
+            "desc":"",
+            "descFix":325,
+            "createdOn": "Jan 26, 2023",
+            "minRead": "5 min read"
+        },{
+            "url":"tech/system-design/",
+            "title":"Pipeline (Data Flow) Architecture",
+            "desc":"",
+            "descFix":325,
             "createdOn": "Jan 26, 2023",
             "minRead": "5 min read"
         }]

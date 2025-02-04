@@ -1,5 +1,6 @@
 import React from "react";
-import { ContainerFluid, Row, Col, TextBox, Button, Select, Card, Switch } from "e-ui-react";
+import { ContainerFluid, Row, Col, TextBox, Button, Select, Card, Switch, UrlParams } from "e-ui-react";
+import { Pill, Colors } from 'e-ui-react';
 import Header from '@Templates/Header/index.js';
 import { HeaderMenu } from '@Config/HeaderMenu.js';
 import OrderList from "@Components/order-list/index.js";
@@ -8,9 +9,13 @@ import BlogItems from '@Components/blog-items/index.js';
 import BlogData from '@StaticData/web3.0/overview.json';
 import Terminologies from '@Components/terminologies-list/index.js';
 import TerminologiesData from "@StaticData/web3.0/terminologies.json";
+import ScLSolidity from "./components/sc-l-solidity/index.js";
+import ScLVyper from "./components/sc-l-vyper/index.js";
+import ScLRust from "./components/sc-l-rust/index.js";
 import './index.css';
 
 const Web3 = ()=>{
+ const url = UrlParams().baseUrl;
 
  const BlogContent = ({ label, rows })=>{
     return (<Row>
@@ -39,6 +44,22 @@ const Web3 = ()=>{
 
           <BlogListHeader label="Smart Contracts" />
           <BlogContent label="smart-contracts" rows={2} />
+
+          <BlogListHeader label="Smart Contracts - Languages" />
+          <Pill mode="vertical" 
+              layout={{
+                  menu:{ xs:'2', sm:'2', md:'2', lg:'2', xl:'2', xxl:'2' },
+                  content:{  xs:'10', sm:'10', md:'10', lg:'10', xl:'10', xxl:'10' }
+              }}
+              menulinks={[
+                  { id:'solidity', url:'#solidity', label:'Solidity', content:(<ScLSolidity />) },
+                  { id:'vyper', url:'#vyper', label:'Vyper', content:(<ScLVyper />) },
+                  { id:'rust', url:'#rust', label:'Rust', content:(<ScLRust />) }]} 
+              activeId="solidity" 
+              colorConfig={{
+                  active: { color: '#000', backgroundColor: '#ccc' },
+                  default: { color: '#666', backgroundColor: '' }
+              }} />
 
           <BlogListHeader label="Zero Knowledge Proofs (ZKPs)" />
           <BlogContent label="zkp" rows={2} />
