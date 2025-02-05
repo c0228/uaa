@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Home from "@Pages/Home/index.js";
-import JSONCrudOperations from "@Pages/Javascript/content/json/crud-operations/index.js";
+// import JSONCrudOperations from "@Pages/Javascript/content/json/crud-operations/index.js";
 import Web3 from "@Pages/Web3.0/index.js";
 import ZKP01 from "@Pages/Web3.0/content/01_zk-SNARKs_and_zk-STARKs/index.js";
 import ZKP02 from "@Pages/Web3.0/content/03_i_ni_zkp/index.js";
@@ -18,16 +18,23 @@ import Frontend from "@Pages/Frontend/index.js";
 import DSA from "@Pages/DSA/index.js";
 import SystemDesign from "@Pages/SystemDesign/index.js";
 import SDComponents from "@Pages/SystemDesign/content/01-sd-components";
+import JSONArrayCrud from "@Pages/Javascript/content/01-json-array-crud/index.js";
+import SortJSONArrayAD from "@Pages/Javascript/content/02-sort-json-array-ad/index.js";
+
+import Java from "@Pages/Java/index.js";
+
 
 export const AppRouting = ()=>{
 
     return (<BrowserRouter basename="/">
       <Routes>
+
          <Route exact path="/" element={<Home/>} />
          <Route exact path="tech/overview" element={<Products />} />
 
-         <Route exact path="tech/javascript/dynamically-create-retrieve-update-and-delete-crud-operations-on-json-object-and-json-array" element={<JSONCrudOperations/>} />
-         <Route exact path="tech/javascript/sorting-an-element-in-json-array-in-ascending-and-descending-order" element={<JSONCrudOperations/>} />
+         {/* Home */}
+         <Route exact path="tech/javascript/dynamically-create-retrieve-update-and-delete-crud-operations-on-json-object-and-json-array" element={<JSONArrayCrud />} />
+         <Route exact path="tech/javascript/sorting-an-element-in-json-array-in-ascending-and-descending-order" element={<SortJSONArrayAD/>} />
 
          {/* Frontend */}
          <Route exact path="tech/frontend/overview" element={<Frontend />} />
@@ -39,6 +46,9 @@ export const AppRouting = ()=>{
          <Route exact path="tech/web3.0/architecture-infrastructure/design-a-modular-blockchain-architecture" element={<ModBcArch />} />
          <Route path="tech/web3.0/terminologies/:input" element={<Web3Terminologies />} />
          
+         {/* Java */}
+         <Route path="tech/java/:input1/:input2" element={<Java />} />
+         
          {/* DSA */}
          <Route path="tech/dsa/overview" element={<DSA />} />
 
@@ -46,7 +56,6 @@ export const AppRouting = ()=>{
          <Route path="tech/system-design/overview" element={<SystemDesign />} />
          <Route path="tech/system-design/the-architect-toolkit-exploring-essential-components-of-system-design" element={<SDComponents />} />
          
-
          {/* Agile Methodology */}
          <Route exact path="tech/agile-methodology/what-is-L1-L2-L3-tier-system-of-remote-it-support" element={<DefineL1L2L3 />} />
          <Route exact path="tech/agile-methodology/what-are-architecture-design-principles-and-how-does-agile-methodology-aligns-with-it" element={<ArchDesignPrinciple/>} />
@@ -58,6 +67,7 @@ export const AppRouting = ()=>{
 
          {/* React */}
          <Route exact path="tech/react/scroll-to-respective-section-on-a-page-when-a-link-is-clicked-from-other-page" element={<ReactScroll01 />} />
+      
       </Routes>
     </BrowserRouter>);
    };

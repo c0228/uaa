@@ -5,7 +5,7 @@
          "url":"tech/javascript/dynamically-create-retrieve-update-and-delete-crud-operations-on-json-object-and-json-array",
          "title": "Dynamically Create, Retrieve, Update and Delete (CRUD) Operations on JSON Object and JSON Array",
          "desc":"Elevate your JavaScript prowess by mastering the art of crafting dynamic CRUD operations for JSON objects and arrays. Explore innovative techniques for creating, retrieving, updating, and deleting data, empowering you to build robust and efficient applications with ease.",
-         "descFix":245,
+         "descFix":198,
          "createdOn": "Jan 26, 2023",
          "minRead": "5 min read"
       }],
@@ -30,33 +30,40 @@
          "url":"tech/java/spring-boot-framework/building-restful-api-with-a-microservice-architecture-using-java-and-spring-stack-components",
          "title": "Building RESTFUL API with a Microservice Architecture using Java and Spring Stack Components",
          "desc":"Explore the principles, benefits, and challenges of microservices architecture while learning to design scalable RESTful APIs. Building RESTful APIs with a Microservice Architecture using Java and Spring Stack Components enables the creation of scalable, modular, and maintainable systems by leveraging the flexibility and robustness of the Spring framework.",
-         "descFix":245,
+         "descFix":255,
          "createdOn": "Jan 26, 2023",
          "minRead": "5 min read"
       },{
          "url":"tech/java/spring-boot-framework/the-principles-of-event-sourcing-and-command-query-responsibility-segregation-cqrs-in-building-event-driven-microservices-with-java-and-spring-boot-and-how-they-enhance-scalability-and-maintainability",
          "title": "The principles of Event Sourcing and Command Query Responsibility Segregation (CQRS) in building event-driven microservices with Java and Spring Boot, and how they enhance scalability and maintainability.",
          "desc":"Event Sourcing captures changes to an application's state as immutable events, while Command Query Responsibility Segregation (CQRS) separates write and read operations, enhancing scalability and maintainability in event-driven microservices with Java and Spring Boot.",
-         "descFix":245,
+         "descFix":265,
          "createdOn": "Jan 26, 2023",
          "minRead": "5 min read"
       },{
-         "url":"tech/java/spring-boot-framework/how-do-you-handle-errors-with-feign-client",
+         "url":"tech/java/spring-boot-framework/how-do-you-handle-errors-with-feign-client-using-spring-cloud-framework",
          "title": "How do you handle errors with @Feign Client using Spring Cloud Framework?",
          "desc":"Managing errors seamlessly within a FeignClient interface by utilizing annotations for streamlined error handling.",
          "descFix":245,
          "createdOn": "Jan 26, 2023",
          "minRead": "5 min read"
       },{
-         "url":"tech/java/spring-boot-framework/there-are-three-microservices-associated-with-three-databases-respectively-how-could-you-handle-roll-back-for-first-two-when-last-one-fails",
+         "url":"tech/java/spring-boot-framework/there-are-three-microservices-m1-m2-m3-associated-with-three-databases-d1-d2-d3-respectively-now-m1-is-calling-m2-and-m2-is-calling-m3-if-m3-transaction-fails-m1-and-m2-database-transactions-should-roll-back-how-could-you-handle-this",
          "title": "There are three Microservices M1,M2, M3 associated with three Databases D1, D2, D3 respectively. Now, M1 is calling M2 and M2 is calling M3. If M3 transaction fails, M1 and M2 Database Transactions should roll back. How could you handle this?",
          "desc":"To ensure transactional integrity across microservices M1, M2, and M3 with associated databases D1, D2, and D3 respectively, implement a distributed transaction management solution, such as using a distributed transaction coordinator or leveraging compensating transactions to rollback changes in M1 and M2 databases upon failure in M3.",
          "descFix":245,
          "createdOn": "Jan 26, 2023",
          "minRead": "5 min read"
+      },{
+         "url":"tech/java/spring-boot-framework/how-do-you-handle-secrets-management-in-a-cloud-based-microservices-system",
+         "title": "How do you handle secrets management in a cloud-based microservices system?",
+         "desc":"Managing secrets like API keys, database credentials, and encryption keys securely is crucial in a cloud-based microservices architecture. Best practices include using HashiCorp Vault, AWS Secrets Manager, or Azure Key Vault for centralized secret storage, encrypting secrets at rest and in transit, leveraging Kubernetes Secrets for containerized deployments, and implementing role-based access control (RBAC) to restrict access.",
+         "descFix":275,
+         "createdOn": "Jan 26, 2023",
+         "minRead": "5 min read"
       }],
       "list2":[{
-         "url":"tech/full-stack-development/create-a-file-upload-platform-where-files-stores-in-local-system-using-spring-boot-and-react-js",
+         "url":"tech/java/spring-boot-framework/create-a-file-upload-platform-where-files-stores-in-local-system-using-spring-boot-and-react-js",
          "title": "Create a File upload Platform where files stores in local system using Spring Boot and React JS?",
          "desc":"Creating a File Upload Platform with Spring Boot and React JS enables users to securely upload and manage files, storing them locally, while leveraging the simplicity of Spring Boot for backend logic and React JS for a dynamic user interface.",
          "descFix":245,
@@ -73,16 +80,32 @@
          "url":"tech/java/spring-boot-framework/how-docker-and-kubernetes-can-be-used-to-containerize-java-microservices-and-manage-them-in-a-distributed-environment-including-integration-with-spring-boot-applications",
          "title": "How Docker and Kubernetes can be used to containerize Java microservices and manage them in a distributed environment, including integration with Spring Boot applications?",
          "desc":"Docker and Kubernetes provide a comprehensive solution for containerizing Java microservices, including Spring Boot applications, allowing seamless deployment, scaling, and management in a distributed environment through containerization and orchestration capabilities.",
-         "descFix":245,
+         "descFix":268,
          "createdOn": "Jan 26, 2023",
          "minRead": "5 min read"
       },{
-         "url":"tech/java/spring-boot-framework/",
-         "title": "",
-         "desc":"",
+         "url":"tech/java/spring-boot-framework/design-multi-tenant-microservices-using-spring-boot-framework",
+         "title": "Design multi-tenant microservices using Spring Boot Framework",
+         "desc":"In a multi-tenant architecture, a single application instance serves multiple customers (tenants) while ensuring data isolation and security. This design leverages Spring Boot, Spring Security, and Spring Data to implement various multi-tenancy strategies such as database-per-tenant, schema-per-tenant, and shared-database with tenant-specific columns.",
          "descFix":245,
          "createdOn": "Jan 26, 2023",
          "minRead": "5 min read"
-      }]
+      },
+      {
+         "url":"tech/java/spring-boot-framework/explain-spring-cloud-gateway-vs-zuul-which-one-would-you-use-for-api-gateway-in-a-modern-microservices-ecosystem",
+         "title": "Explain Spring Cloud Gateway vs. Zuul. Which one would you use for API Gateway in a modern microservices ecosystem?",
+         "desc":"Spring Cloud Gateway and Zuul are popular API gateway solutions in microservices architecture. Zuul 1, developed by Netflix, is built on blocking I/O and lacks advanced features, while Spring Cloud Gateway, built on Reactor and Netty, supports non-blocking, reactive processing, making it more suitable for scalable, high-performance microservices.",
+         "descFix":275,
+         "createdOn": "Jan 26, 2023",
+         "minRead": "5 min read"
+      },{
+         "url":"tech/java/spring-boot-framework/what-strategies-do-you-follow-to-deploy-spring-boot-microservices-on-kubernetes",
+         "title": "What strategies do you follow to deploy Spring Boot microservices on Kubernetes?",
+         "desc":"Deploying Spring Boot microservices on Kubernetes (K8s) requires a well-architected approach for scalability, resilience, and automation. Key strategies include containerizing microservices with Docker, defining Kubernetes manifests (Deployments, Services, ConfigMaps, and Secrets), enabling auto-scaling with Horizontal Pod Autoscaler (HPA), managing service discovery with Kubernetes DNS, and securing communication with Istio or Linkerd.",
+         "descFix":295,
+         "createdOn": "Jan 26, 2023",
+         "minRead": "5 min read"
+      }
+   ]
    }]
 }
