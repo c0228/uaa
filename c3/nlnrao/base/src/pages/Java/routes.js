@@ -1,6 +1,5 @@
 import React from "react";
 import { useParams } from 'react-router-dom';
-
 import EurekaClient from "./content/01-eureka-client/index.js";
 import FileUploadReactSprintBoot from "./content/02-file-upload-react-spring-boot/index.js";
 import RestApiMsArch from "./content/03-rest-api-ms-arch/index.js";
@@ -14,7 +13,7 @@ import ScgVsZuul from "./content/10-scg-vs-zuul/index.js";
 import SecretManagerMs from "./content/11-secrets-management-ms/index.js";
 import StrategiesMsKubernetes from "./content/12-strategies-ms-kubernetes/index.js";
 
-const Java = () =>{
+const JavaRoutes = () =>{
  const { input1, input2 } = useParams();
  const SprintBootFramework = ()=>{
   return (<div>
@@ -37,4 +36,4 @@ const Java = () =>{
  </div>);
 };
 
-export default Java;
+export default JavaRoutes;

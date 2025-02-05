@@ -7,8 +7,8 @@ const Terminologies = ({ title, data }) =>{
   <BlogListHeader label={title?title:"Terminologies"} />
   <div style={{ paddingLeft:'5px', marginBottom:'60px' }}>
    {data?.list?.map((t,i)=>{
-     return (<div className={(i>0 && "mtop15p")}>
-      <Link to={process.env.PROJECT_URL+t?.url} style={{ textDecoration:'none' }}>
+     return (<div key={i} className={(i>0?"mtop15p":"")}>
+      <Link to={process.env.PROJECT_URL+data?.baseUrl+t?.url} style={{ textDecoration:'none' }}>
         <span className="terminologies-hgl-link"><b>{t?.label}</b></span>
       </Link>
      </div>);

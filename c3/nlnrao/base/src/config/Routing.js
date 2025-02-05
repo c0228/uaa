@@ -2,26 +2,21 @@ import React, { useEffect } from "react";
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Home from "@Pages/Home/index.js";
 // import JSONCrudOperations from "@Pages/Javascript/content/json/crud-operations/index.js";
-import Web3 from "@Pages/Web3.0/index.js";
-import ZKP01 from "@Pages/Web3.0/content/01_zk-SNARKs_and_zk-STARKs/index.js";
-import ZKP02 from "@Pages/Web3.0/content/03_i_ni_zkp/index.js";
-import ModBcArch from "@Pages/Web3.0/content/04_mod-bc-arch/index.js"
-import Products from "@Pages/SystemDesign/index.js";
 import DefineL1L2L3 from "@Pages/Agile/content/L1-L2-L3/index.js";
 import ArchDesignPrinciple from "@Pages/Agile/content/arch-design-principle/index.js";
 import DDDRole from "@Pages/Agile/content/ddd-role/index.js";
 import V8Node from "@Pages/NodeJS/content/v8-node/index.js";
 import ReactScroll01 from "@Pages/React/content/react-scroll-01/index.js";
 import BufferClasses from "@Pages/NodeJS/content/buffer-classes/index.js";
-import Web3Terminologies from "@Pages/Web3.0/content/05_terminologies/index.js";
 import Frontend from "@Pages/Frontend/index.js";
+
 import DSA from "@Pages/DSA/index.js";
 import SystemDesign from "@Pages/SystemDesign/index.js";
 import SDComponents from "@Pages/SystemDesign/content/01-sd-components";
-import JSONArrayCrud from "@Pages/Javascript/content/01-json-array-crud/index.js";
-import SortJSONArrayAD from "@Pages/Javascript/content/02-sort-json-array-ad/index.js";
 
-import Java from "@Pages/Java/index.js";
+import JSRoutes from "@Pages/Javascript/routes.js";
+import JavaRoutes from "@Pages/Java/routes.js";
+import Web3Routes from "@Pages/Web3.0/routes.js";
 
 
 export const AppRouting = ()=>{
@@ -30,24 +25,22 @@ export const AppRouting = ()=>{
       <Routes>
 
          <Route exact path="/" element={<Home/>} />
-         <Route exact path="tech/overview" element={<Products />} />
 
-         {/* Home */}
-         <Route exact path="tech/javascript/dynamically-create-retrieve-update-and-delete-crud-operations-on-json-object-and-json-array" element={<JSONArrayCrud />} />
-         <Route exact path="tech/javascript/sorting-an-element-in-json-array-in-ascending-and-descending-order" element={<SortJSONArrayAD/>} />
-
+         {/* Javascript */}
+         <Route path="tech/javascript/:input1" element={<JSRoutes />} />
+         <Route path="tech/javascript/:input1/:input2" element={<JSRoutes />} />
+         
          {/* Frontend */}
          <Route exact path="tech/frontend/overview" element={<Frontend />} />
 
          {/* Blockchain */}
-         <Route exact path="tech/web3.0/overview" element={<Web3 />} />
-         <Route exact path="tech/web3.0/zero-knowledge-proof(zkp)/understanding_zk-SNARKs_and_zk-STARKs" element={<ZKP01 />} />
-         <Route exact path="tech/web3.0/zero-knowledge-proof(zkp)/interactive_non-interactive_zkps" element={<ZKP02 />} />
-         <Route exact path="tech/web3.0/architecture-infrastructure/design-a-modular-blockchain-architecture" element={<ModBcArch />} />
-         <Route path="tech/web3.0/terminologies/:input" element={<Web3Terminologies />} />
+         <Route path="tech/web3.0/:input1" element={<Web3Routes />} />
+         <Route path="tech/web3.0/:input1/:input2" element={<Web3Routes />} />
+
+        
          
          {/* Java */}
-         <Route path="tech/java/:input1/:input2" element={<Java />} />
+         <Route path="tech/java/:input1/:input2" element={<JavaRoutes />} />
          
          {/* DSA */}
          <Route path="tech/dsa/overview" element={<DSA />} />
