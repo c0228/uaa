@@ -4,11 +4,11 @@ import { Row, Col, Icon } from "e-ui-react";
 import DevChoiceData from "@StaticData/dev-choice.json";
 
 const DevChoice = () =>{
- const descFix = 96;
  return (<div style={{ marginRight: '5px' }}>
     {DevChoiceData?.data?.map((d,i)=>{
         const formattedNumber = (i>8)?(i+1):'0'+(i+1);
-        return (<div key={i} style={{ marginTop:'15px' }}>
+        const descFix = d?.descFix;
+        return (<div key={i} style={{ marginTop:'16px' }}>
         <Link to={d?.url} style={{ textDecoration:'none' }} className="blog-fade">
         <Row>
         <Col all={2}>

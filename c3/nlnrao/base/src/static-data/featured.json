@@ -61,6 +61,20 @@
          "descFix":275,
          "createdOn": "Jan 26, 2023",
          "minRead": "5 min read"
+      },{
+         "url":"tech/mq/",
+         "title": "What are In-Sync Replicas (ISRs) in Kafka, and how do they impact fault tolerance, data consistency, and handling ISR shrinkage or unavailability for producers and consumers?",
+         "desc":"In-Sync Replicas (ISRs) in Kafka ensure fault tolerance and data consistency by maintaining a set of replicas that are fully caught up with the leader. Explores how ISRs impact reliability, what happens when they shrink or become unavailable, and the implications for producers and consumers in maintaining data integrity and availability.",
+         "descFix":315,
+         "createdOn": "Jan 26, 2023",
+         "minRead": "5 min read"   
+      },{
+         "url":"tech/mq/",
+         "title": "How does Kafka's message format evolve, and how do serialization formats (Avro, Protobuf, JSON) impact compatibility and schema evolution in a distributed environment?",
+         "desc":"Kafka's message format evolves to support backward and forward compatibility, crucial for seamless data flow in distributed systems. Explores how serialization formats like Avro, Protobuf, and JSON handle schema evolution, their trade-offs, and best practices for managing compatibility between producers and consumers.",
+         "descFix":315,
+         "createdOn": "Jan 26, 2023",
+         "minRead": "5 min read"   
       }],
       "list2":[{
          "url":"tech/java/spring-boot-framework/create-a-file-upload-platform-where-files-stores-in-local-system-using-spring-boot-and-react-js",
@@ -102,6 +116,20 @@
          "url":"tech/java/spring-boot-framework/what-strategies-do-you-follow-to-deploy-spring-boot-microservices-on-kubernetes",
          "title": "What strategies do you follow to deploy Spring Boot microservices on Kubernetes?",
          "desc":"Deploying Spring Boot microservices on Kubernetes (K8s) requires a well-architected approach for scalability, resilience, and automation. Key strategies include containerizing microservices with Docker, defining Kubernetes manifests (Deployments, Services, ConfigMaps, and Secrets), enabling auto-scaling with Horizontal Pod Autoscaler (HPA), managing service discovery with Kubernetes DNS, and securing communication with Istio or Linkerd.",
+         "descFix":295,
+         "createdOn": "Jan 26, 2023",
+         "minRead": "5 min read"
+      },{
+         "url":"",
+         "title":"How do you integrate security testing (e.g., penetration testing, static code analysis) into the Spring Boot lifecycle, and what tools and practices help monitor and respond to security incidents in real-time?",
+         "desc":"Explores how to integrate security testing, such as penetration testing and static code analysis, into the Spring Boot development lifecycle. It also covers tools and practices for real-time monitoring and responding to security incidents, ensuring robust protection throughout the application’s lifecycle.",
+         "descFix":295,
+         "createdOn": "Jan 26, 2023",
+         "minRead": "5 min read"
+      },{
+         "url":"",
+         "title":"How do you implement security in a decentralized Spring Boot architecture, addressing authentication, authorization, access control, and service communication protection?",
+         "desc":"Explores how to implement security in a decentralized Spring Boot architecture, focusing on challenges related to authentication, authorization, and access control. It also explores strategies to ensure proper service security and protect communication between services, enhancing overall system integrity.",
          "descFix":295,
          "createdOn": "Jan 26, 2023",
          "minRead": "5 min read"

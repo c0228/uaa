@@ -19,8 +19,8 @@
         "row3":[{ 
                 "url":"tech/agile-methodology/what-is-the-role-of-domain-driven-design-ddd-in-agile-architecture-and-how-it-helps-in-defining-bounded-contexts-and-microservices",
                 "title": "What is the role of Domain-driven Design (DDD) in Agile Architecture and how it helps in defining bounded contexts and microservices?",
-                "desc":"Domain-driven Design (DDD) in Agile Architecture defines boundaries (bounded contexts) aligning with business domains, facilitating microservices design for scalable, cohesive systems.",
-                "descFix":245,
+                "desc":"Explores the role of Domain-Driven Design (DDD) in Agile Architecture, focusing on how it helps define bounded contexts and design microservices. It highlights DDD's impact on organizing complex systems and ensuring alignment between business needs and technical solutions.",
+                "descFix":230,
                 "createdOn": "Jan 26, 2023",
                 "minRead": "5 min read"
             }]
@@ -30,7 +30,7 @@
             "url":"tech/node-js/overview-of-node-js-and-v8-engine-how-they-works-together",
             "title": "Overview of NodeJS and V8 Engine. How they works together?",
             "desc":"Node.js is a JavaScript runtime built on the V8 JavaScript engine, which powers Google Chrome. V8 compiles JavaScript into machine code, enabling rapid execution. Node.js extends this functionality to the server-side, allowing developers to run JavaScript outside of the browser, facilitating scalable and efficient backend development. Together, Node.js and V8 enable developers to write server-side applications in JavaScript, utilizing a single language across the entire tech stack.",
-            "descFix":245,
+            "descFix":275,
             "createdOn": "Jan 26, 2023",
             "minRead": "5 min read"
         }],
@@ -42,26 +42,201 @@
             "createdOn": "Jan 26, 2023",
             "minRead": "5 min read"
         }],
-        "row3":[]
+        "row3":[{
+            "url":"",
+            "title":"How do you detect and prevent memory leaks in Node.js, and what strategies or tools do you use for garbage collection tuning in a production environment?",
+            "desc":"Explores techniques for detecting and preventing memory leaks in Node.js, using tools like heap snapshots and monitoring. It also discusses strategies for tuning garbage collection in production environments for optimal performance.",
+            "descFix":190,
+            "createdOn": "Jan 26, 2023",
+            "minRead": "5 min read"
+        }]
     },
     "dockub":{
-        "row1":[],
-        "row2":[],
-        "row3":[]
+        "row1":[{
+            "url":"",
+            "title":"What is the Open Container Initiative (OCI), and how do runtimes like runc, containerd, and CRI-O relate to Docker and OCI specifications? Why choose one runtime over another?",
+            "desc":"",
+            "descFix":190,
+            "createdOn": "Jan 26, 2023",
+            "minRead": "5 min read"
+        },{
+            "url":"",
+            "title":"How can Kubernetes be used in edge computing, and what challenges arise in deploying and managing it (e.g., resource constraints, network connectivity)? Discuss solutions like KubeEdge and MicroK8s.",
+            "desc":"",
+            "descFix":190,
+            "createdOn": "Jan 26, 2023",
+            "minRead": "5 min read"
+        }],
+        "row2":[{
+            "url":"",
+            "title":"What are advanced techniques for optimizing Docker image size, beyond multi-stage builds, including build caching, squashing layers, and using distroless images in CI/CD pipelines?",
+            "desc":"",
+            "descFix":190,
+            "createdOn": "Jan 26, 2023",
+            "minRead": "5 min read"
+        },{
+            "url":"",
+            "title":"How can serverless computing be applied to Docker containers, and what are the benefits and challenges? Explore technologies like Firecracker and Kata Containers in this context.",
+            "desc":"",
+            "descFix":190,
+            "createdOn": "Jan 26, 2023",
+            "minRead": "5 min read"
+        }],
+        "row3":[{
+            "url":"",
+            "title":"How can Kubernetes manage stateful applications (e.g., databases, message queues), and what are the challenges and best practices for running stateful workloads?",
+            "desc":"",
+            "descFix":190,
+            "createdOn": "Jan 26, 2023",
+            "minRead": "5 min read"
+        },{
+            "url":"",
+            "title":"How can Kubernetes support serverless computing, and what are the advantages and disadvantages of using projects like Knative and OpenFaaS for serverless workloads?",
+            "desc":"",
+            "descFix":190,
+            "createdOn": "Jan 26, 2023",
+            "minRead": "5 min read"
+        }]
     },
     "kafka":{
-        "row1":[],
-        "row2":[],
-        "row3":[]
+        "row1":[{
+            "url":"",
+            "title":"How does Kafka's architecture (topics, partitions, brokers) compare to traditional message queues (e.g., RabbitMQ, ActiveMQ) in scalability, fault tolerance, and message ordering, and when would you choose one over the other?",
+            "desc":"",
+            "descFix":190,
+            "createdOn": "Jan 26, 2023",
+            "minRead": "5 min read"
+        },{
+            "url":"",
+            "title":"What are the challenges and opportunities of integrating Kafka with serverless platforms like AWS Lambda or Google Cloud Functions, and how can you trigger serverless functions based on Kafka messages?",
+            "desc":"",
+            "descFix":190,
+            "createdOn": "Jan 26, 2023",
+            "minRead": "5 min read"
+        }],
+        "row2":[{
+            "url":"",
+            "title":"Zookeeper is a critical component of Kafka. Let's exploring alternative consensus algorithms (e.g., Raft) that could potentially improve Kafka's performance, fault tolerance, or scalability?   ",
+            "desc":"",
+            "descFix":190,
+            "createdOn": "Jan 26, 2023",
+            "minRead": "5 min read"
+        },{
+            "url":"",
+            "title":"What are the best practices for encrypting data at rest and in transit in a Kafka cluster, including encryption algorithms, key management systems, and performance implications?",
+            "desc":"",
+            "descFix":190,
+            "createdOn": "Jan 26, 2023",
+            "minRead": "5 min read"
+        }],
+        "row3":[{
+            "url":"",
+            "title":"How can you implement auditing and logging in Kafka to track message access, modifications, and ensure compliance with regulations like GDPR, HIPAA, or PCI DSS?",
+            "desc":"",
+            "descFix":190,
+            "createdOn": "Jan 26, 2023",
+            "minRead": "5 min read"
+        },{
+            "url":"",
+            "title":"What are the best practices for hardening a Kafka cluster against security threats, including vulnerability scanning, penetration testing, and security patching?",
+            "desc":"",
+            "descFix":190,
+            "createdOn": "Jan 26, 2023",
+            "minRead": "5 min read"
+        }]
     },
     "sysd":{
-        "row1":[],
-        "row2":[],
-        "row3":[]
+        "row1":[{
+            "url":"",
+            "title":"What are the key consensus algorithms (e.g., Paxos, Raft) and their implications for distributed systems? When should you choose one over another, and what are the challenges in large-scale deployments?",
+            "desc":"",
+            "descFix":190,
+            "createdOn": "Jan 26, 2023",
+            "minRead": "5 min read"
+        },{
+            "url":"",
+            "title":"What are the key differences between centralized and decentralized data management in distributed systems, and when is each approach (e.g., database vs. distributed ledger) more suitable?",
+            "desc":"",
+            "descFix":190,
+            "createdOn": "Jan 26, 2023",
+            "minRead": "5 min read"
+        }],
+        "row2":[{
+            "url":"",
+            "title":"How do distributed transactions in microservices work, and what are the trade-offs between two-phase commit, Saga pattern, consistency, and performance? When is eventual consistency a better choice?",
+            "desc":"",
+            "descFix":190,
+            "createdOn": "Jan 26, 2023",
+            "minRead": "5 min read"
+        },{
+            "url":"",
+            "title":"What is polyglot persistence? When should you use SQL, NoSQL, or NewSQL in a distributed system? Explore its impact on consistency, performance, and complexity.",
+            "desc":"",
+            "descFix":190,
+            "createdOn": "Jan 26, 2023",
+            "minRead": "5 min read"
+        }],
+        "row3":[{
+            "url":"",
+            "title":"How can Quantum-Inspired Distributed Algorithms and Principles like superposition and entanglement inspire new algorithms for distributed consensus, communication, and optimization?",
+            "desc":"",
+            "descFix":190,
+            "createdOn": "Jan 26, 2023",
+            "minRead": "5 min read"
+        },{
+            "url":"",
+            "title":"How do you manage data versioning and schema evolution in distributed systems while ensuring compatibility between services?",
+            "desc":"",
+            "descFix":190,
+            "createdOn": "Jan 26, 2023",
+            "minRead": "5 min read"
+        }]
     },
     "dsAlgo":{
-        "row1":[],
-        "row2":[],
-        "row3":[]
+        "row1":[{
+            "url":"",
+            "title":"What are cache-oblivious algorithms, and how do they optimize performance in modern architectures? Provide examples of related data structures and algorithms.",
+            "desc":"",
+            "descFix":190,
+            "createdOn": "Jan 26, 2023",
+            "minRead": "5 min read"
+        },{
+            "url":"",
+            "title":"What are advanced geometric algorithms, and how are they applied in computer graphics, robotics, and Geographic Information Systems (GIS)?",
+            "desc":"",
+            "descFix":190,
+            "createdOn": "Jan 26, 2023",
+            "minRead": "5 min read"
+        }],
+        "row2":[{
+            "url":"",
+            "title":"How do you test and verify algorithm and data structure correctness, especially in complex or concurrent scenarios?",
+            "desc":"",
+            "descFix":190,
+            "createdOn": "Jan 26, 2023",
+            "minRead": "5 min read"
+        },{
+            "url":"",
+            "title":"How do you design algorithms and data structures for handling datasets larger than memory? Explore external memory, streaming, and distributed processing techniques.",
+            "desc":"",
+            "descFix":190,
+            "createdOn": "Jan 26, 2023",
+            "minRead": "5 min read"
+        }],
+        "row3":[{
+            "url":"",
+            "title":"How can self-tuning algorithms adjust parameters based on input data and hardware, simplifying development and improving performance?",
+            "desc":"",
+            "descFix":190,
+            "createdOn": "Jan 26, 2023",
+            "minRead": "5 min read"
+        },{
+            "url":"",
+            "title":"What is the Byzantine Generals' Problem, and how do Byzantine Fault Tolerance (BFT) algorithms like Practical Byzantine Fault Tolerance (PBFT) and Tendermint address it in blockchain? What are their scalability and complexity limitations?",
+            "desc":"",
+            "descFix":190,
+            "createdOn": "Jan 26, 2023",
+            "minRead": "5 min read"
+        }]
     }
 }
