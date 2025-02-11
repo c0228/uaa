@@ -58,12 +58,12 @@ const Puzzle = () => {
         style={{
           width: "40px",
           height: "40px",
-          backgroundColor: isHighlighted ? "#009d8a" : "#0f3645",
+          backgroundColor: isHighlighted ? "#3a3e40" : "#979797",
           display: "flex",
           justifyContent: "center",
           alignItems: "center",
-          border: "1px solid #085564",
-          color: isHighlighted ? "#fff" : "#aaa",
+          border: "1px solid #ccc",
+          color: isHighlighted ? "#fff" : "#000",
           fontWeight: isHighlighted ? "bold" : "normal",
           transition: "background-color 0.5s",
         }}
