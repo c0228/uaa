@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { ContainerFluid, Row, Col, TextBox, Button, Select, Card, Switch, UrlParams } from "e-ui-react";
 import { Pill, Colors } from 'e-ui-react';
 import Header from '@Templates/Header/index.js';
@@ -15,6 +15,11 @@ import ScLRust from "./components/sc-l-rust/index.js";
 import './index.css';
 
 const Web3 = ()=>{
+
+ useEffect(()=>{
+   document.body.style.backgroundColor='#fff';
+ },[]);
+ 
  const url = UrlParams().baseUrl;
 
  const BlogContent = ({ label, rows })=>{

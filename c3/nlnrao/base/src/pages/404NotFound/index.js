@@ -6,7 +6,6 @@ import Puzzle from './components/puzzle/index.js';
 
 const NotFound = () =>{
  useEffect(()=>{
-  console.log("#000");
   document.body.style.backgroundColor='#2c3032';
  },[]);
  return (<div>

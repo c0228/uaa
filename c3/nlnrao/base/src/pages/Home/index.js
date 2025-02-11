@@ -15,7 +15,9 @@ import BlogData from '@StaticData/home-blog-list.json';
 
 const Home = ()=>{
  const { setContextData } = getAppContext();
+ 
  useEffect(()=>{
+  document.body.style.backgroundColor='#fff';
   if (window.location.hash === '#resume') { setContextData({ resumeStatus: 'open' }) }
  },[]);
 
