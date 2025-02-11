@@ -16,23 +16,14 @@ import ZkStarkImplProj from './components/zk-stark-impl-proj/index.js';
 import ZkStarkImplDrawback from './components/zk-stark-impl-drawback/index.js';
 import AdditionalInfo from './components/additional-info/index.js';
 
-const ZKP01 = ()=>{
- const BreadcrumbPage = () =>{
-    return (<div className="mtop15p mbot15p">
-        <Breadcrumb backgroundColor={Colors.light} 
-            data={[{ label:'Web 3.0', url:process.env.PROJECT_URL+'tech/web3.0/overview' },
-                { label:'Understanding zk-SNARKs and zk-STARKs: A Developer’s Perspective', url:'#' }
-            ]} />
-        </div>)
- };
+const ZKP01 = ({ meta })=>{
  return (<>
  <Header menulinks={HeaderMenu} activeId="Blockchain" />
  <ContainerFluid>
     <Row>
         <Col xs={12} xl={8} xxl={8}>
           <div className="mbot60p">
-            <BreadcrumbPage />
-            <BlogArticleHeader title="Understanding zk-SNARKs and zk-STARKs: A Developer’s Perspective" date="October 26, 2024" />
+            <BlogArticleHeader metaData={meta} />
             <Introduction />
             <Timeline />
             <ZkSnarkIntroduction />

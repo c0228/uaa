@@ -5,23 +5,14 @@ import { HeaderMenu } from '@Config/HeaderMenu.js';
 import BlogArticleHeader from '@Components/blog-article-header/index.js';
 import Introduction from "./components/introduction/index.js";
 
-const ZKP02 = () =>{
- const BreadcrumbPage = () =>{
-     return (<div className="mtop15p mbot15p">
-         <Breadcrumb backgroundColor={Colors.light} 
-             data={[{ label:'Web 3.0', url:process.env.PROJECT_URL+'tech/web3.0/overview' },
-                 { label:'Interactive ZKPs vs. Non-interactive ZKPs', url:'#' }
-             ]} />
-         </div>)
-  };
+const ZKP02 = ({ meta }) =>{
   return (<div>
   <Header menulinks={HeaderMenu} activeId="Blockchain" />
   <ContainerFluid>
     <Row>
      <Col xs={12} xl={8} xxl={8}>
       <div className="mbot60p">
-        <BreadcrumbPage />
-        <BlogArticleHeader title="Interactive ZKPs vs. Non-interactive ZKPs" date="October 26, 2024" />
+        <BlogArticleHeader metaData={meta} />
         <Introduction />
       </div>
      </Col>

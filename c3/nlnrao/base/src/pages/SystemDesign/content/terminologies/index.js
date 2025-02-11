@@ -4,8 +4,8 @@ import { Breadcrumb, Colors, ContainerFluid, Row, Col } from 'e-ui-react';
 import Header from '@Templates/Header/index.js';
 import { HeaderMenu } from '@Config/HeaderMenu.js';
 import BlogArticleHeader from '@Components/blog-article-header/index.js';
-import Terminologies from '@Components/terminologies-list/index.js';
-import TerminologiesData from "@StaticData/system-design/terminologies.json";
+// import Terminologies from '@Components/terminologies-list/index.js';
+// import TerminologiesData from "@StaticData/system-design/terminologies.json";
 
 const SDTerminologies = () =>{
  const { input } = useParams();
@@ -26,7 +26,7 @@ const SDTerminologies = () =>{
     <Col xl={8} xxl={8}>
     </Col>
     <Col xl={4} xxl={4}>
-      <Terminologies data={TerminologiesData} />
+      {/* <Terminologies data={TerminologiesData} /> */}
     </Col>
    </Row>
   </ContainerFluid>

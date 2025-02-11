@@ -5,16 +5,16 @@ import Header from '@Templates/Header/index.js';
 import { HeaderMenu } from '@Config/HeaderMenu.js';
 import BlogArticleHeader from '@Components/blog-article-header/index.js';
 import Terminologies from '@Components/terminologies-list/index.js';
-import Routes from "./routes.js";
+// import Routes from "./routes.js";
 
 const Web3Terminologies = ({ id }) =>{
  const [route, setRoute] = useState();
  const getDataById = (url) => {
-    return Routes?.list.find(item => item.url === url);
+   // return Routes?.list.find(item => item.url === url);
  };
  useEffect(()=>{
   console.log("id", id);
-  setRoute(getDataById(id));
+ // setRoute(getDataById(id));
  },[id]);
  const BlogTopHeader = ({ title, date }) =>{
    return (<div className="mtop15p mbot15p">
