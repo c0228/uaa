@@ -1,6 +1,7 @@
 import React, { useEffect } from "react";
 import { useParams } from 'react-router-dom';
-import WebRoutes from "@Pages/Web3.0/routes.js"; 
+import WebRoutes from "@Pages/Web3.0/routes.js";
+import NotFound from "@Pages/404NotFound/index.js";
 
 const RouteLoader = () => {
   const Routes = {...WebRoutes };
@@ -14,7 +15,7 @@ const RouteLoader = () => {
     const RouteComponent = Routes[routeKey]?.component; // || <div>Page Not Found</div>
   
     if (!RouteComponent) {
-        return <div>Page Not Found</div>;
+        return <NotFound />;
     }
 
     return <><RouteComponent meta={Routes[routeKey]} /></>;
