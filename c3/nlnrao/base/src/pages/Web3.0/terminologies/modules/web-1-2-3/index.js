@@ -1,21 +1,14 @@
 import React from "react";
-import { Breadcrumb, Colors, ContainerFluid, Row, Col } from 'e-ui-react';
-import Header from '@Templates/Header/index.js';
-import { HeaderMenu } from '@Config/HeaderMenu.js';
+import { Blog, Content, RightSide } from '@Pages/Web3.0/components/blog-templates/index.js';
+import Terminologies from '@Components/terminologies-list/index.js';
+import Routes from "@Pages/Web3.0/routes.js";
 import HglBgHeader5 from "@Components/hgl-bg-header5/index.js";
-import BlogArticleHeader from '@Components/blog-article-header/index.js';
 
-const Web123 = ({ route }) =>{
- const BlogTopHeader = ({ title, date }) =>{
-   return (<div className="mtop15p mbot15p">
-     <Breadcrumb backgroundColor={Colors.light} 
-         data={[{ label:'Web 3.0', url:process.env.PROJECT_URL+'tech/web3.0/overview' },
-             { label: title, url:'#' }]} />
-     <BlogArticleHeader title={title} date={date} />
-   </div>)
- };
-const Blog = () =>{
+const Web123 = ({ meta }) =>{
  return (<div>
+  <Blog metaData={meta}>
+    <Content>
+    <div>
   <div className="mtop15p lh36p" style={{ fontSize:'16px' }}>
     <i>The evolution of the web is often categorized into three distinct phases: <u>Web 1.0</u>, <u>Web 2.0</u>, and <u>Web 3.0</u>. 
     Each phase represents a significant shift in how the internet is used, the technologies involved, and the user 
@@ -171,23 +164,13 @@ const Blog = () =>{
     </div>
   </div>
 
+ </div>
+    </Content>
+    <RightSide>
+        <Terminologies prefix="tech/web3.0/terminologies/" data={Routes} />
+    </RightSide>
+  </Blog>
  </div>);
-};
- return (<div>
-      <Header menulinks={HeaderMenu} activeId="Blockchain" />
-      <ContainerFluid>
-         <Row>
-             <Col xl={8} xxl={8}>
-                 {route?.label && (<div>
-                      <BlogTopHeader title={route?.label} date={route?.date} />
-                      {route?.component}
-                   </div>)}
-             </Col>
-             <Col xl={4} xxl={4}>
-             </Col>
-         </Row>
-      </ContainerFluid>
-  </div>);
 };
 
 export default Web123;

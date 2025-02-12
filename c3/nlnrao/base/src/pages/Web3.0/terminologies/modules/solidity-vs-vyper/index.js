@@ -1,10 +1,15 @@
 import React from "react";
+import { Blog, Content, RightSide } from '@Pages/Web3.0/components/blog-templates/index.js';
+import Terminologies from '@Components/terminologies-list/index.js';
+import Routes from "@Pages/Web3.0/routes.js";
 import { Highlight } from "e-ui-react"; 
 import SimpleTimeline from '@Components/simple-timeline/index.js';
 
-const SolidityVsVyper = () =>{
-
+const SolidityVsVyper = ({ meta }) =>{
  return (<div>
+  <Blog metaData={meta}>
+    <Content>
+    <div>
     <div className="mtop15p lh36p" style={{ fontSize:'16px' }}><i><u>Solidity</u> and <u>Vyper</u> are both popular 
     programming languages used for developing smart contracts on the Ethereum blockchain.</i></div>
 
@@ -22,6 +27,12 @@ const SolidityVsVyper = () =>{
     <div className="mtop15p"><h3><b>Why two languages?</b></h3></div>
     
 
+ </div>
+    </Content>
+    <RightSide>
+        <Terminologies prefix="tech/web3.0/terminologies/" data={Routes} />
+    </RightSide>
+  </Blog>
  </div>);
 };
 

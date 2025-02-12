@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import { ContainerFluid, Row, Col, TextBox, Button, Select, Card, Switch, UrlParams } from "e-ui-react";
+import { ContainerFluid, Row, Col } from "e-ui-react";
 import { Pill, Colors } from 'e-ui-react';
 import Header from '@Templates/Header/index.js';
 import { HeaderMenu } from '@Config/HeaderMenu.js';
@@ -8,7 +8,7 @@ import BlogListHeader from '@Components/blog-list-header/index.js';
 import BlogItems from '@Components/blog-items/index.js'; 
 import BlogData from '@StaticData/web3.0/overview.json';
 import Terminologies from '@Components/terminologies-list/index.js';
-// import TerminologiesData from "./terminologies/routes.js";
+import Routes from "./routes.js";
 import ScLSolidity from "./components/sc-l-solidity/index.js";
 import ScLVyper from "./components/sc-l-vyper/index.js";
 import ScLRust from "./components/sc-l-rust/index.js";
@@ -19,8 +19,6 @@ const Web3 = ()=>{
  useEffect(()=>{
    document.body.style.backgroundColor='#fff';
  },[]);
- 
- const url = UrlParams().baseUrl;
 
  const BlogContent = ({ label, rows })=>{
     return (<Row>
@@ -71,7 +69,7 @@ const Web3 = ()=>{
             
         </Col>
         <Col xs={12} xl={4} xxl={4}>
-          {/*<Terminologies data={TerminologiesData} />*/}
+          <Terminologies prefix="tech/web3.0/terminologies/" data={Routes} />
         </Col>
     </Row>
  </ContainerFluid>
