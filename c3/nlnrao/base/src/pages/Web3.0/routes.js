@@ -1,4 +1,3 @@
-import React from 'react';
 import Web3 from "./index.js";
 import ZKP01 from "./content/01_zk-SNARKs_and_zk-STARKs/index.js";
 import ZKP02 from "./content/03_i_ni_zkp/index.js";

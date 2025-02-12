@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { ContainerFluid, Row, Col } from "e-ui-react";
 import Header from '@Templates/Header/index.js';
 import { HeaderMenu } from '@Config/HeaderMenu.js';
@@ -12,7 +12,9 @@ import SDKeyGoals from "./components/sd-key-goals/index.js";
 import SDComponents from './content/01-sd-components/index.js';
 
 const SystemDesign = () =>{
-
+ useEffect(()=>{
+    document.body.style.backgroundColor='#fff';
+ },[]);
  const BlogContent = ({ label, rows })=>{
      return (<Row>
          {Array.from({ length: rows }).map((_, index) => (
