@@ -9,9 +9,9 @@ import BlogItems from '@Components/blog-items/index.js';
 import BlogData from '@StaticData/web3.0/overview.json';
 import Terminologies from '@Components/terminologies-list/index.js';
 import Routes from "./routes.js";
-import ScLSolidity from "./components/sc-l-solidity/index.js";
-import ScLVyper from "./components/sc-l-vyper/index.js";
-import ScLRust from "./components/sc-l-rust/index.js";
+import ScLSolidity from "./smart-contracts/sc-l-solidity/index.js";
+import ScLVyper from "./smart-contracts/sc-l-vyper/index.js";
+import ScLRust from "./smart-contracts/sc-l-rust/index.js";
 import './index.css';
 
 const Web3 = ()=>{
