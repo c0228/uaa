@@ -4,12 +4,12 @@ import './index.css';
 
 const AlgoOverviewList = ({ header, desc, data }) =>{
  return (<div className="mbot15p">
-       <Card>
+       <Card backgroundColor="#f4f4f4">
          <div align="center" className="mtop15p"><h4><b>{header}</b></h4></div>
          <div className="pad15p" style={{ lineHeight:'26px' }}>
          {desc && (<div>{desc}</div>)}
        {data?.map((d,i)=>{
-         return (<div key={i} style={{ cursor:'pointer', backgroundColor:'#f5f5f5', padding:'15px', marginTop:'8px', 
+         return (<div key={i} style={{ cursor:'pointer', backgroundColor:'#f9f9f9', padding:'15px', marginTop:'8px', 
            borderRadius:'12px', border:'1px dashed #aaa'}}>
             <span style={{ fontSize:'16px' }}><b>{d?.[0]}</b></span>
            {d?.[1] && (<span style={{ marginLeft:'5px' }}><b>–</b><br/> 

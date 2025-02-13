@@ -3,11 +3,10 @@ import { Card } from "e-ui-react";
 import Terminologies from '@Components/terminologies-list/index.js';
 import DSARoutes from "@Pages/DSA/routes.js";
 
-const SystemDesignAlgo = () =>{
- return (<Terminologies title="System design Algorithms" 
-    isIndex={true}
-    prefix="tech/dsa/system-design-algorithms/"
+const DSATerminologies = () =>{
+ return (<Terminologies title="Terminologies" 
+    prefix="tech/dsa/terminologies/"
     data={DSARoutes} />);
 };
 
-export default SystemDesignAlgo;
+export default DSATerminologies;

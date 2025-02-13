@@ -30,6 +30,31 @@ const DSAIntroduction = () =>{
           ['Rod Cutting Problem', 'Finds the maximum value from cutting a rod.'],
           ['Edit Distance','Measures similarity between two strings.'],
         ]} />
+
+      <AlgoOverviewList header="Stack & Queue"
+        data={[
+          ['Stack', 'A LIFO (Last In, First Out) data structure (Example: Undo operation).'],
+          ['Queue', 'A FIFO (First In, First Out) data structure (Example: Print queue).'],
+          ['Deque (Double-Ended Queue)', 'Supports insertion and deletion at both ends.'],
+          ['Priority Queue', 'A queue where elements are removed based on priority (implemented using Heap)']
+        ]} />
+
+      <AlgoOverviewList header="Hashing"
+        data={[
+          ['Hash Table', 'A data structure that stores key-value pairs using a hash function for efficient lookup, insertion, and deletion.'],
+          ['Hash Function', 'A mathematical function that converts input data (keys) into a fixed-size numerical value (hash code) for indexing in a hash table.'],
+          ['Hash Collision', 'Occurs when two different keys produce the same hash value. Collision resolution techniques like chaining and open addressing handle this issue.'],
+          ['HashMaps', 'A key-value pair-based data structure that allows fast lookups and updates.'],
+          ['HashSet', 'A collection that stores unique elements using hashing for quick access.'],
+          ['Perfect Hashing Algorithms', 'A technique that creates a collision-free hash function, ensuring O(1) lookup time by using two-level or minimal perfect hashing methods.'],
+          ['Robin Hood Hashing Algorithms', 'A collision resolution strategy where elements with longer probe sequences "steal" slots from elements with shorter sequences to balance distribution.'],
+          ['Hopscotch Hashing Algorithms', 'A method improving open addressing by allowing displaced elements to "hop" to nearby empty slots, reducing clustering.'],
+          ['Cuckoo Hashing Algorithms', 'Uses two or more hash functions and moves elements to alternative positions (like a cuckoo bird replacing eggs) to resolve collisions.'],
+          ['Two-level Hashing (Dynamic Perfect Hashing) Algorithms', 'A technique using multiple hash tables where the first level maps keys to buckets, and the second level ensures no collisions inside each bucket.'],
+          ['String Hashing', 'Polynomial Hashing, Rolling Hashing, Karp-Rabin Algorithms']
+        ]} />
+
+
       <AlgoOverviewList header="Backtracking"
         desc="Backtracking is used to generate all possible solutions and discard invalid ones."
         data={[
@@ -64,16 +89,6 @@ const DSAIntroduction = () =>{
           ['Exponential Histogram','Estimates count of elements within a sliding window.'],
           ['SuRF (Succinct Range Filter)','Probabilistic range query filtering.']
         ]} />
-      <AlgoOverviewList header="Heap Algorithms"
-        desc="Heap-based problems use a priority queue approach."
-        data={[
-          ['Max Heap & Min Heap Implementation'],
-          ['Heap Sort',' Sort an array using a heap data structure.'],
-          ['Priority Queue (Using Heap)','Efficiently manage tasks with different priorities.'],
-          ['Kth Largest or Smallest Elements (or Element) in an Array'],
-          ['Merge K Sorted Lists using Heap'],
-          ['Median in a Stream of Integers']
-        ]} />
     </Col>
     <Col xl={6} xxl={6}>
       <AlgoOverviewList header="Searching Algorithms"
@@ -87,9 +102,19 @@ const DSAIntroduction = () =>{
               ['Exponential Search', 'Used for unbounded or infinite arrays.'],
               ['Hashing-Based Search', 'Efficient for unordered data, uses a hash function to map keys to array indices.'],
               ['Trie (Prefix Tree)', 'Used for searching words in dictionaries, autocomplete, and search engines.'],
-              ['B-Trees', 'Balanced tree structure used in databases for indexing large datasets (Efficient for disk-based storage).']
-              
+              ['B-Trees', 'Balanced tree structure used in databases for indexing large datasets (Efficient for disk-based storage).'] 
         ]} />
+
+      <AlgoOverviewList header="Array & Linked List"
+        data={[
+          ['Array', 'A contiguous memory data structure that stores elements of the same type.'],
+          ['Dynamic Array', 'An array that resizes itself dynamically.'],
+          ['Linked List', 'A linear data structure where elements (nodes) point to the next node.'],
+          ['Singly Linked List (SLL)', 'Each node has data and a pointer to the next node.'],
+          ['Doubly Linked List (DLL)', 'Each node has data, a next pointer, and a previous pointer.'],
+          ['Circular Linked List (CLL)', 'Last node points back to the first node']
+        ]} />
+
       <AlgoOverviewList header="Graph Algorithms"
         desc="Graph algorithms work on graph-based structures such as trees, social networks, and maps."
         data={[
@@ -102,7 +127,8 @@ const DSAIntroduction = () =>{
           ['Prim’s Algorithm','Finds a Minimum Spanning Tree (MST) using edge selection.'],
           ['Kruskal’s Algorithm', 'Finds MST using sorted edges.'],
           ['Topological Sorting','Orders nodes in a Directed Acyclic Graph (DAG).'],
-          ['A Algorithm*', 'Finds the shortest path using heuristics.']
+          ['A Algorithm*', 'Finds the shortest path using heuristics.'],
+          ['Disjoint Set (Union-Find)', ' Used for cycle detection in graphs.']
         ]} />
       <AlgoOverviewList header="Greedy Algorithms"
         desc="Greedy algorithms make locally optimal choices at each step."
@@ -116,6 +142,7 @@ const DSAIntroduction = () =>{
           ['Egyptian Fraction Representation',' Represent a fraction as a sum of distinct unit fractions (fractions with numerator = 1).'],
           ['Interval Scheduling Maximization','Given intervals (start, end), find the maximum number of non-overlapping intervals.']
         ]} />
+
       <AlgoOverviewList header="Tree and Binary Search Tree (BST) Algorithms"
         desc="Tree algorithms work with hierarchical structures."
         data={[
@@ -125,8 +152,10 @@ const DSAIntroduction = () =>{
           ['Diameter of a Tree','Finds the longest path between any two nodes.'],
           ['Balanced Binary Tree Check', 'Determines if a tree is balanced.'],
           ['Binary Search Tree (BST) Operations','Insertion, Deletion, and Search.'],
-          ['Trie Data Structure', 'Used for prefix-based searching.']
+          ['Trie Data Structure', 'Used for prefix-based searching.'],
+          ['Segment Tree & Fenwick Tree', 'Data structures for range queries.']
         ]} />
+
       <AlgoOverviewList header="Bit Manipulation"
         desc={<div>Bit manipulation optimizes computations using binary operations / 
           bitwise operations (<code><b>AND</b></code>, <code><b>OR</b></code>, 
@@ -142,6 +171,7 @@ const DSAIntroduction = () =>{
           ['Count the Number of Bits Needed to Flip to Convert A to B'],
           ['Find the Position of the Only Set Bit']
         ]} />
+
       <AlgoOverviewList header="String Algorithms"
         desc="String algorithms process text data efficiently."
         data={[
@@ -154,6 +184,18 @@ const DSAIntroduction = () =>{
           ['Longest Common Prefix (LCP) using Binary Search','Find the longest common prefix of multiple strings.'],
           ['Aho-Corasick Algorithm (Multi-Pattern Matching using Trie + BFS)', ' Search multiple patterns in a text simultaneously.']
         ]} />
+
+      <AlgoOverviewList header="Heap Algorithms"
+        desc="Heap-based problems use a priority queue approach."
+        data={[
+          ['Max Heap & Min Heap Implementation'],
+          ['Heap Sort',' Sort an array using a heap data structure.'],
+          ['Priority Queue (Using Heap)','Efficiently manage tasks with different priorities.'],
+          ['Kth Largest or Smallest Elements (or Element) in an Array'],
+          ['Merge K Sorted Lists using Heap'],
+          ['Median in a Stream of Integers']
+        ]} />
+
     </Col>
   </Row>
   

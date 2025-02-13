@@ -12,7 +12,7 @@ const Terminologies = ({ title, desc, prefix, data, isIndex }) =>{
 
  return (<div>
 
- <BlogListHeader label={title?title:"Terminologies"} />
+ {title && (<BlogListHeader label={title} />)}
 
  <div style={{ paddingLeft:'5px', marginBottom:'60px' }}>
   {desc && (<div style={{ marginBottom:'15px', lineHeight:'26px', fontSize:'13px' }}>{desc}</div>)}
