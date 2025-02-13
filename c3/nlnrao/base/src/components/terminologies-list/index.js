@@ -2,7 +2,7 @@ import React, { useMemo } from "react";
 import { Link } from "react-router-dom";
 import BlogListHeader from '@Components/blog-list-header/index.js';
 
-const Terminologies = ({ title, prefix, data }) =>{
+const Terminologies = ({ title, desc, prefix, data, isIndex }) =>{
    // Memoizing sortedTerminologies to avoid unnecessary recalculations
    const sortedTerminologies = useMemo(() => {
     return Object.entries(data)
@@ -15,10 +15,12 @@ const Terminologies = ({ title, prefix, data }) =>{
  <BlogListHeader label={title?title:"Terminologies"} />
 
  <div style={{ paddingLeft:'5px', marginBottom:'60px' }}>
+  {desc && (<div style={{ marginBottom:'15px', lineHeight:'26px', fontSize:'13px' }}>{desc}</div>)}
    {sortedTerminologies?.map((t,i)=>{
      return (<div key={i} className={(i>0?"mtop15p":"")}>
       <Link to={process.env.PROJECT_URL+t[0]} style={{ textDecoration:'none' }}>
-        <span className="terminologies-hgl-link"><b>{t[1]?.label}</b></span>
+      {isIndex && <span style={{ color:'#666', marginRight:'5px' }}><b>{i+1}.</b></span>} 
+      <span className="terminologies-hgl-link"><b>{t[1]?.label}</b></span>
       </Link>
      </div>);
    })}

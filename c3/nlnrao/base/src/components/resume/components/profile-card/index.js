@@ -4,7 +4,7 @@ import DownloadButton from "./../download-button/index.js";
 
 const ProfileCard = ()=>{
 	const data = {
-		img:"https://storage.googleapis.com/turing_developers/avatar/1696419094281_WhatsApp%20Image%202023-10-04%20at%2017.00.51.jpeg",
+		img:process.env.PROJECT_URL+'assets/profile.png',
 		name:"Nellutla L N Rao",
 		title:"Full Stack Development Engineer",
 		desc:(<>

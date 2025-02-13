@@ -9,7 +9,7 @@ const ProfileBasic = () =>{
     paddingTop:'15px', paddingBottom:'15px', paddingLeft:'10px', paddingRight:'10px', borderRadius:'10px' }}>
   {/* Basic Profile ::: START */}
   <div align="center">
-    <img src="https://storage.googleapis.com/turing_developers/avatar/1696419094281_WhatsApp%20Image%202023-10-04%20at%2017.00.51.jpeg" 
+    <img src={process.env.PROJECT_URL+'assets/profile.png'} 
         className="resume-profile-card-pic" />
     <div className="resume-profile-card-title"><b>NELLUTLA L N RAO</b></div>
     <div className="resume-profile-card-subtitle"><b>Full Stack Developer Engineer</b></div>
