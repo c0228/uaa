@@ -6,7 +6,7 @@ import { HeaderMenu } from '@Config/HeaderMenu.js';
 import OrderList from "@Components/order-list/index.js";
 import BlogListHeader from '@Components/blog-list-header/index.js'; 
 import BlogItems from '@Components/blog-items/index.js'; 
-import BlogData from '@StaticData/web3.0/overview.json';
+import BlogData from '@StaticData/web3/overview.json';
 import Terminologies from '@Components/terminologies-list/index.js';
 import Routes from "./routes.js";
 import ScLSolidity from "./smart-contracts/sc-l-solidity/index.js";

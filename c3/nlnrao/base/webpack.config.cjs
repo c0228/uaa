@@ -95,6 +95,20 @@ entry: './src/index.js',
         }
       },
       {
+        from:  Path.join(__dirname, 'public/robots.txt'),
+        to: Path.join(__dirname, 'dist'),
+        globOptions: {
+            dot: true
+        }
+      },
+      {
+        from:  Path.join(__dirname, 'public/sitemap.xml'),
+        to: Path.join(__dirname, 'dist'),
+        globOptions: {
+            dot: true
+        }
+      },
+      {
         from:  Path.join(__dirname, 'nexus'),
         to: Path.join(__dirname, 'dist/nexus'),
         globOptions: {
