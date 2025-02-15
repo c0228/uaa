@@ -102,8 +102,8 @@ entry: './src/index.js',
         }
       },
       {
-        from:  Path.join(__dirname, 'public/sitemap.xml'),
-        to: Path.join(__dirname, 'dist'),
+        from:  Path.join(__dirname, 'public/sitemaps'),
+        to: Path.join(__dirname, 'dist/sitemaps'),
         globOptions: {
             dot: true
         }
