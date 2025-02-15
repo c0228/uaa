@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import RouteLoader from "@Pages/route-loader.js";
+import RouteLoader from "@Pages/route.loader.js";
 import Home from "@Pages/Home/index.js";
 /*
 // import JSONCrudOperations from "@Pages/Javascript/content/json/crud-operations/index.js";

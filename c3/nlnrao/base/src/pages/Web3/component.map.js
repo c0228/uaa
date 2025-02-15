@@ -24,7 +24,7 @@ import MaaS from "@Pages/Web3/terminologies/modules/m-a-a-s/index.js";
 import SolidityVsVyper from "@Pages/Web3/terminologies/modules/solidity-vs-vyper/index.js";
 import MintingVsMining from "@Pages/Web3/terminologies/modules/minting-vs-mining/index.js";
 
-export const ComponentMap = {
+export const Web3ComponentMap = {
  "Web3": Web3,
  "ZKP01": ZKP01,
  "ZKP02": ZKP02,
