@@ -143,6 +143,12 @@
             "label":"Solidity Vs Vyper",
             "date":"October 26, 2024",
             "component": "./terminologies/modules/solidity-vs-vyper/index.js" 
+        },
+        "tech/web3.0/terminologies/minting-vs-mining":{
+            "breadcrumbRoute": "terminologies",
+            "label":"Minting Vs Mining",
+            "date":"October 26, 2024",
+            "component": "./terminologies/modules/minting-vs-mining/index.js" 
         }
     }
 }
