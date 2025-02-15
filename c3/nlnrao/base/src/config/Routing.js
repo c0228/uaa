@@ -1,5 +1,6 @@
 import React, { useEffect } from "react";
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import ScrollToTop from "@Components/scroll-to-top/index.js"; 
 import RouteLoader from "@Pages/route.loader.js";
 import Home from "@Pages/Home/index.js";
 /*
@@ -26,6 +27,7 @@ import RouteLoader from "@Pages/route-loader.js";
 export const AppRouting = ()=>{
 
     return (<BrowserRouter basename="/">
+      <ScrollToTop />
       <Routes>
         <Route exact path="/" element={<Home/>} />
         <Route path=":industry" element={<RouteLoader />} />
