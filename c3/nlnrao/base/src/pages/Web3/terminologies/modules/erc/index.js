@@ -1,7 +1,7 @@
 import React from "react";
-import { Blog, Content, RightSide } from '@Pages/Web3.0/components/blog-templates/index.js';
+import { Blog, Content, RightSide } from '@Pages/Web3/components/blog-templates/index.js';
 import Terminologies from '@Components/terminologies-list/index.js';
-import Routes from "@Pages/Web3.0/routes.js";
+import Routes from "@Pages/Web3/component.routes.json";
 
 const ERC = ({ meta }) =>{
  return (<div>

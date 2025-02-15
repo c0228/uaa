@@ -8,7 +8,7 @@ import BlogListHeader from '@Components/blog-list-header/index.js';
 import BlogItems from '@Components/blog-items/index.js'; 
 import BlogData from '@StaticData/web3/overview.json';
 import Terminologies from '@Components/terminologies-list/index.js';
-import Routes from "./routes.js";
+import Routes from "./component.routes.json";
 import ScLSolidity from "./smart-contracts/sc-l-solidity/index.js";
 import ScLVyper from "./smart-contracts/sc-l-vyper/index.js";
 import ScLRust from "./smart-contracts/sc-l-rust/index.js";
@@ -69,7 +69,7 @@ const Web3 = ()=>{
             
         </Col>
         <Col xs={12} xl={4} xxl={4}>
-          <Terminologies prefix="tech/web3.0/terminologies/" data={Routes} />
+          <Terminologies title="Terminologies" prefix="tech/web3.0/terminologies/" data={Routes?.urls} />
         </Col>
     </Row>
  </ContainerFluid>

@@ -9,13 +9,13 @@ const BlogArticleHeader = ({ metaData }) => {
   const memoizedComponent = useMemo(() => {
     if (!metaData) return null;
     
-    const { route = [], label, date } = metaData;
-    const breadCrumbRoute = [...route, { label, url: "#" }];
-
+    const { breadCrumbRoute = [], label, date } = metaData;
+    const breadCrumbData = [...breadCrumbRoute, { label, url: "#" }];
+    console.log("breadCrumbData: ", breadCrumbData);
     return (
       <div>
         <div className="mtop15p mbot15p">
-          <Breadcrumb backgroundColor={Colors.light} data={breadCrumbRoute} />
+          <Breadcrumb backgroundColor={Colors.light} data={breadCrumbData} />
         </div>
         <Resume />
         <div align="center">

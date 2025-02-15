@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { ContainerFluid, Row, Col, getAppContext, Button, Carousel } from "e-ui-react";
 import Header from '@Templates/Header/index.js';
+import Footer from '@Templates/Footer/index.js';
 import { HeaderMenu } from '@Config/HeaderMenu.js';
 import { BgHgtTitle } from '@Templates/Titles/index.js';
 import { FeaturedList } from '@Pages/Home/Components/featured/index.js';
@@ -80,6 +81,7 @@ const Home = ()=>{
         </Col>
     </Row>
  </ContainerFluid>
+ <Footer />
  </div>
  {/*<Welcome />
  <Highlight1 />
@@ -87,6 +89,7 @@ const Home = ()=>{
  <Highlight2 />
  <Starters />
  <Footer />*/}
+ 
  </>);
 };
 
