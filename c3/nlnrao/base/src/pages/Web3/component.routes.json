@@ -2,6 +2,8 @@
     "breadcrumbs":{
         "zkp":[{ "label":"Web 3.0", "url":"tech/web3.0/overview" },
                 { "label":"Zero Knowledge Proof (ZKP)", "url":"#" }],
+        "smart-contracts":[{ "label":"Web 3.0", "url":"tech/web3.0/overview" },
+        { "label":"Smart Contracts", "url":"#" }],
         "arch-infra":[{ "label":"Web 3.0", "url": "tech/web3.0/overview" },
                 { "label":"Architecture & Infrastructure", "url":"#" }],
         "terminologies":[{ "label":"Web 3.0", "url":"tech/web3.0/overview" },
@@ -23,6 +25,12 @@
             "label":"Interactive ZKPs vs. Non-interactive ZKPs",
             "date":"October 26, 2024",
             "component": "ZKP02"
+        },
+        "tech/web3.0/smart-contracts/the-dark-side-of-blockchain-security-risks-in-smart-contracts":{
+            "breadcrumbIndex": "smart-contracts",
+            "label":"The Dark Side of Blockchain : Security Risks in Smart Contracts",
+            "date":"October 26, 2024",
+            "component": "DarkSideSmartContracts"
         },
         "tech/web3.0/architecture-infrastructure/design-a-modular-blockchain-architecture":{
             "breadcrumbIndex": "arch-infra",

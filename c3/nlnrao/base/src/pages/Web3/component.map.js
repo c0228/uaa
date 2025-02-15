@@ -1,6 +1,7 @@
 import Web3 from "@Pages/Web3/index.js";
 import ZKP01 from "@Pages/Web3/content/01_zk-SNARKs_and_zk-STARKs/index.js";
-import ZKP02 from "@Pages/Web3/content/03_i_ni_zkp/index.js";
+import ZKP02 from "@Pages/Web3/content/02_i_ni_zkp/index.js";
+import DarkSideSmartContracts from "@Pages/Web3/content/03_darkside_smartcontracts/index.js";
 import ModBcArch from "@Pages/Web3/content/04_mod-bc-arch/index.js";
 import Web123 from "@Pages/Web3/terminologies/modules/web-1-2-3/index.js";
 import SmartContractsLifecycle from "@Pages/Web3/terminologies/modules/lifecycle-of-smartcontracts/index.js";
@@ -27,6 +28,7 @@ export const ComponentMap = {
  "Web3": Web3,
  "ZKP01": ZKP01,
  "ZKP02": ZKP02,
+ "DarkSideSmartContracts": DarkSideSmartContracts,
  "ModBcArch": ModBcArch,
  "Web123": Web123,
  "SmartContractsLifecycle": SmartContractsLifecycle,

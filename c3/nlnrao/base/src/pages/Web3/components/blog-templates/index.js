@@ -3,6 +3,8 @@ import { ContainerFluid, Row, Col } from "e-ui-react";
 import Header from "@Templates/Header/index.js";
 import { HeaderMenu } from "@Config/HeaderMenu.js";
 import BlogArticleHeader from "@Components/blog-article-header/index.js";
+import Terminologies from '@Components/terminologies-list/index.js';
+import Routes from "@Pages/Web3/component.routes.json";
 
 const Blog = ({ metaData, children }) => {
   const contentChildren = React.Children.toArray(children);
@@ -20,7 +22,10 @@ const Blog = ({ metaData, children }) => {
               {content}
             </div>
           </Col>
-          <Col xs={12} xl={4} xxl={4}>{rightSide}</Col>
+          <Col xs={12} xl={4} xxl={4}>
+          {rightSide}
+          <Terminologies title="Terminologies" prefix="tech/web3.0/terminologies/" data={Routes?.urls} />
+          </Col>
         </Row>
       </ContainerFluid>
     </div>
