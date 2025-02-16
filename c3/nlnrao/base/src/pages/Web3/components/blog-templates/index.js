@@ -1,5 +1,5 @@
 import React from "react";
-import { ContainerFluid, Row, Col } from "e-ui-react";
+import { ContainerFluid, Row, Col, Badge } from "e-ui-react";
 import Header from "@Templates/Header/index.js";
 import { HeaderMenu } from "@Config/HeaderMenu.js";
 import BlogArticleHeader from "@Components/blog-article-header/index.js";
@@ -25,6 +25,11 @@ const Blog = ({ metaData, children }) => {
           <Col xs={12} xl={4} xxl={4}>
           {rightSide}
           <Terminologies title="Terminologies" prefix="tech/web3.0/terminologies/" data={Routes?.urls} />
+          {metaData?.keywords?.map((keyword)=>{
+            return <Badge type="secondary-lgt" label={keyword} size="12" 
+              style={{ fontFamily: 'Metropolis', marginRight:'5px', paddingTop: '6px', paddingBottom: '6px', 
+                marginBottom: '5px'  }} />
+          })}
           </Col>
         </Row>
       </ContainerFluid>

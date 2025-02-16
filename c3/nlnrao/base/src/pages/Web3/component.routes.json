@@ -12,151 +12,176 @@
     "urls":{
         "tech/web3.0/overview":{
             "date":"October 26, 2024",
-            "component": "Web3"
+            "component": "Web3",
+            "keywords":[]
         }, 
         "tech/web3.0/zero-knowledge-proof(zkp)/understanding_zk-SNARKs_and_zk-STARKs":{
             "breadcrumbIndex": "zkp",
             "label":"Understanding zk-SNARKs and zk-STARKs: A Developer’s Perspective",
             "date":"October 26, 2024",
-            "component": "ZKP01"
+            "component": "ZKP01",
+            "keywords":[]
         },
         "tech/web3.0/zero-knowledge-proof(zkp)/interactive_non-interactive_zkps":{
             "breadcrumbIndex": "zkp",
             "label":"Interactive ZKPs vs. Non-interactive ZKPs",
             "date":"October 26, 2024",
-            "component": "ZKP02"
+            "component": "ZKP02",
+            "keywords":[]
         },
         "tech/web3.0/smart-contracts/the-dark-side-of-blockchain-security-risks-in-smart-contracts":{
             "breadcrumbIndex": "smart-contracts",
             "label":"The Dark Side of Blockchain : Security Risks in Smart Contracts",
             "date":"October 26, 2024",
-            "component": "DarkSideSmartContracts"
+            "component": "DarkSideSmartContracts",
+            "keywords":[]
         },
         "tech/web3.0/architecture-infrastructure/design-a-modular-blockchain-architecture":{
             "breadcrumbIndex": "arch-infra",
             "label":"Design a modular blockchain architecture that separates the execution, consensus, and data layers",
             "date":"October 26, 2024",
-            "component": "ModBcArch"
+            "component": "ModBcArch",
+            "keywords":[]
         },
         "tech/web3.0/terminologies/understanding-web1-web2-web3":{ 
             "breadcrumbIndex": "terminologies",
             "label":"Understanding Web 1.0, Web 2.0 and Web 3.0",
             "date":"October 26, 2024",
-            "component": "Web123"
+            "component": "Web123",
+            "keywords":[]
         }, 
         "tech/web3.0/terminologies/lifecycle-of-smart-contracts":{
             "breadcrumbIndex": "terminologies",
             "label":"Lifecycle of Smart Contracts",
             "date":"October 26, 2024",
-            "component": "SmartContractsLifecycle"
+            "component": "SmartContractsLifecycle",
+            "keywords":[]
         }, 
         "tech/web3.0/terminologies/layer1-vs-layer2-blockchains":{
             "breadcrumbIndex": "terminologies",
             "label":"Layer 1 vs. Layer 2 Blockchains",
             "date":"October 26, 2024",
-            "component": "Layer1N2"
+            "component": "Layer1N2",
+            "keywords":[]
         },
         "tech/web3.0/terminologies/defi-decentralized-finance":{
             "breadcrumbIndex": "terminologies",
             "label":"DeFi (Decentralized Finance)",
             "date":"October 26, 2024",
-            "component": "DeFi"
+            "component": "DeFi",
+            "keywords":[]
         },
         "tech/web3.0/terminologies/nfts-and-digital-ownership":{
             "breadcrumbIndex": "terminologies",
             "label":"NFTs and Digital Ownership",
             "date":"October 26, 2024",
-            "component": "NFTDigitalOwnership"
+            "component": "NFTDigitalOwnership",
+            "keywords":[]
         },
         "tech/web3.0/terminologies/tokenomics":{
             "breadcrumbIndex": "terminologies",
             "label":"Tokenomics",
             "date":"October 26, 2024",
-            "component": "Tokenomics"
+            "component": "Tokenomics",
+            "keywords":[]
         }, 
         "tech/web3.0/terminologies/metaverse-vr-ar-xr-and-mr":{
             "breadcrumbIndex": "terminologies",
             "label":"Metaverse: VR, AR, XR and MR",
             "date":"October 26, 2024",
-            "component": "MetaverseReality"
+            "component": "MetaverseReality",
+            "keywords":[]
         },
         "tech/web3.0/terminologies/private-vs-public-blockchains":{
             "breadcrumbIndex": "terminologies",
             "label":"Private vs. Public Blockchains",
             "date":"October 26, 2024",
-            "component": "PublicPrivateBlockchain" 
+            "component": "PublicPrivateBlockchain",
+            "keywords":["Public Blockchains", "Private Blockchains"]
         },
         "tech/web3.0/terminologies/automated-market-maker-(amm)":{
             "breadcrumbIndex": "terminologies",
             "label":"Automated Market Maker (AMM)",
             "date":"October 26, 2024",
-            "component": "AMM" 
+            "component": "AMM",
+            "keywords":[]
         },
         "tech/web3.0/terminologies/stable-coins":{
             "breadcrumbIndex": "terminologies",
             "label":"Stablecoins and Algorithmic Stablecoin",
             "date":"October 26, 2024",
-            "component": "StableCoins" 
+            "component": "StableCoins",
+            "keywords":[]
         },
         "tech/web3.0/terminologies/crypto-bridge":{
             "breadcrumbIndex": "terminologies",
             "label":"Crypto bridge",
             "date":"October 26, 2024",
-            "component": "CryptoBridge"
+            "component": "CryptoBridge",
+            "keywords":[]
         },
         "tech/web3.0/terminologies/decentralized-autonomous-organization-(dao)":{
             "breadcrumbIndex": "terminologies",
             "label":"Decentralized Autonomous Organization (DAO)",
             "date":"October 26, 2024",
-            "component": "DAO" 
+            "component": "DAO",
+            "keywords":[]
         },
         "tech/web3.0/terminologies/application-binary-interface-(abi)":{
             "breadcrumbIndex": "terminologies",
             "label":"Application Binary Interface (ABI)",
             "date":"October 26, 2024",
-            "component": "ABI" 
+            "component": "ABI",
+            "keywords":[]
         },
         "tech/web3.0/terminologies/initial-dex-offering-(ido)":{
             "breadcrumbIndex": "terminologies",
             "label":"Initial DEX Offering (IDO)",
             "date":"October 26, 2024",
-            "component": "IDO"
+            "component": "IDO",
+            "keywords":[]
         },
         "tech/web3.0/terminologies/ethereum-request-for-comment-(erc)":{
             "breadcrumbIndex": "terminologies",
             "label":"Ethereum Request for Comment (ERC)",
             "date":"October 26, 2024",
-            "component": "ERC" 
+            "component": "ERC",
+            "keywords":[]
         },
         "tech/web3.0/terminologies/traditional-finance-(tradfi)":{
             "breadcrumbIndex": "terminologies",
             "label":"Traditional Finance (TradFi)",
             "date":"October 26, 2024",
-            "component": "TradeFi" 
+            "component": "TradeFi",
+            "keywords":[]
         },
         "tech/web3.0/terminologies/what-is-staking":{
             "breadcrumbIndex": "terminologies",
             "label":"What is Staking?",
             "date":"October 26, 2024",
-            "component": "Staking" 
+            "component": "Staking",
+            "keywords":[]
         },
         "tech/web3.0/terminologies/metaverse-as-a-service-(maas)":{
             "breadcrumbIndex": "terminologies",
             "label":"Metaverse-as-a-Service (MaaS)",
             "date":"October 26, 2024",
-            "component": "MaaS"
+            "component": "MaaS",
+            "keywords":[]
         },
         "tech/web3.0/terminologies/solidity-vs-vyper":{
             "breadcrumbIndex": "terminologies",
             "label":"Solidity Vs Vyper",
             "date":"October 26, 2024",
-            "component": "SolidityVsVyper" 
+            "component": "SolidityVsVyper",
+            "keywords":[]
         },
         "tech/web3.0/terminologies/minting-vs-mining":{
             "breadcrumbIndex": "terminologies",
             "label":"Minting Vs Mining",
             "date":"October 26, 2024",
-            "component": "MintingVsMining" 
+            "component": "MintingVsMining",
+            "keywords":[]
         }
     }
 }
