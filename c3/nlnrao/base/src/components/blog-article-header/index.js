@@ -1,5 +1,6 @@
 import React, { useMemo } from "react";
 import { Avatar, Breadcrumb, getAppContext, Colors } from "e-ui-react";
+import { Header1 } from "@Components/headers-h15/index.js";
 import Resume from "@Components/resume/index.js";
 import "./index.css";
 
@@ -19,7 +20,7 @@ const BlogArticleHeader = ({ metaData }) => {
         </div>
         <Resume />
         <div align="center">
-          <h1 className="blog-title"><b>{label}</b></h1>
+          <Header1><b>{label}</b></Header1>
         </div>
         <div 
           className="blog-details" 
