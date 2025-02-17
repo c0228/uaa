@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import { Highlight } from 'e-ui-react';
 import { Header2 } from "@Components/headers-h15/index.js";
 
@@ -15,7 +16,7 @@ const UseCases = () =>{
             </thead>
             <tbody>
                 <tr>
-                    <td><b>DEX Aggregators</b></td>
+                    <td><Link to={process.env.PROJECT_URL+'tech/web3.0/terminologies/dex-aggregators'}><b>DEX Aggregators</b></Link></td>
                     <td>ABIs help protocols like 1inch, Matcha interact with multiple DEXs (Uniswap, SushiSwap).</td>
                 </tr>
                 <tr>

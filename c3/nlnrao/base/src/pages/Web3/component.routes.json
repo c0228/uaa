@@ -71,6 +71,13 @@
             "component": "DeFi",
             "keywords":[]
         },
+        "tech/web3.0/terminologies/dex-aggregators":{
+            "breadcrumbIndex": "terminologies",
+            "label":"DEX Aggregators",
+            "date":"October 26, 2024",
+            "component": "DEXAggregators",
+            "keywords":[]
+        },
         "tech/web3.0/terminologies/nfts-and-digital-ownership":{
             "breadcrumbIndex": "terminologies",
             "label":"NFTs and Digital Ownership",

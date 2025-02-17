@@ -7,6 +7,7 @@ import Web123 from "@Pages/Web3/terminologies/modules/web-1-2-3/index.js";
 import SmartContractsLifecycle from "@Pages/Web3/terminologies/modules/lifecycle-of-smartcontracts/index.js";
 import Layer1N2 from "@Pages/Web3/terminologies/modules/layer-1-2/index.js";
 import DeFi from "@Pages/Web3/terminologies/modules/de-fi/index.js";
+import DEXAggregators from "@Pages/Web3/terminologies/modules/dex-aggregators/index.js";
 import NFTDigitalOwnership from "@Pages/Web3/terminologies/modules/nft-digital-ownership/index.js";
 import Tokenomics from "@Pages/Web3/terminologies/modules/tokenomics/index.js";
 import MetaverseReality from "@Pages/Web3/terminologies/modules/metaverse-vr-ar-xr-mr/index.js";
@@ -34,6 +35,7 @@ export const Web3ComponentMap = {
  "SmartContractsLifecycle": SmartContractsLifecycle,
  "Layer1N2": Layer1N2,
  "DeFi": DeFi,
+ "DEXAggregators": DEXAggregators,
  "NFTDigitalOwnership": NFTDigitalOwnership,
  "Tokenomics": Tokenomics,
  "MetaverseReality": MetaverseReality,
