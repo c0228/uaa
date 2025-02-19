@@ -39,8 +39,8 @@
 
 .list-header { font-family:'BebasNeue';font-size:18px;letter-spacing:1.5px;padding-bottom:8px;border-bottom:1px solid #ccc; }
 
-.blog-head { font-family: Metropolis;line-height:36px;color:#333; }
-.blog-desc { font-family: Metropolis;font-size:16px;color:#555;line-height:26px; }
+.blog-head { font-family: Metropolis;line-height:36px;color:#000; }
+.blog-desc { font-family: Metropolis;font-size:16px;color:#333;line-height:26px; }
 .lh-26 { line-height:26px; }
 
 

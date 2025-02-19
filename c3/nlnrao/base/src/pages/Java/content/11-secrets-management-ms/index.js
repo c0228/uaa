@@ -4,22 +4,13 @@ import Header from '@Templates/Header/index.js';
 import { HeaderMenu } from '@Config/HeaderMenu.js';
 import BlogArticleHeader from '@Components/blog-article-header/index.js';
 
-const SecretManagerMs = () =>{
- const BreadcrumbPage = () =>{
-     return (<div className="mtop15p mbot15p">
-         <Breadcrumb backgroundColor={Colors.light} 
-             data={[{ label:'Home', url:process.env.PROJECT_URL },
-                 { label:'How do you handle secrets management in a cloud-based microservices system?', url:'#' }
-             ]} />
-         </div>)
- };
+const SecretManagerMs = ({ meta }) =>{
  return (<div>
   <Header menulinks={HeaderMenu} activeId="Home" />
    <ContainerFluid>
       <Row>
         <Col md={8}>
-          <BreadcrumbPage />
-          <BlogArticleHeader title="How do you handle secrets management in a cloud-based microservices system?" date="October 26, 2024" />
+          <BlogArticleHeader metaData={meta} />
         </Col>
        </Row>
     </ContainerFluid>

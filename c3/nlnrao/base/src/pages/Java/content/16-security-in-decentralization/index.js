@@ -4,7 +4,7 @@ import Header from '@Templates/Header/index.js';
 import { HeaderMenu } from '@Config/HeaderMenu.js';
 import BlogArticleHeader from '@Components/blog-article-header/index.js';
 
-const RestApiMsArch = ({ meta }) =>{
+const SecurityDecentralization = ({ meta }) =>{
  return (<div>
   <Header menulinks={HeaderMenu} activeId="Home" />
    <ContainerFluid>
@@ -17,4 +17,4 @@ const RestApiMsArch = ({ meta }) =>{
  </div>);
 };
 
-export default RestApiMsArch;
+export default SecurityDecentralization;

@@ -62,14 +62,14 @@
          "createdOn": "Jan 26, 2023",
          "minRead": "5 min read"
       },{
-         "url":"tech/mq/",
+         "url":"tech/java/spring-boot-framework/what-are-in-Sync-replicas-in-kafka-and-how-do-they-impact-fault-tolerance-data-consistency-and-handling-isr-shrinkage-or-unavailability-for-producers-and-consumers",
          "title": "What are In-Sync Replicas (ISRs) in Kafka, and how do they impact fault tolerance, data consistency, and handling ISR shrinkage or unavailability for producers and consumers?",
          "desc":"In-Sync Replicas (ISRs) in Kafka ensure fault tolerance and data consistency by maintaining a set of replicas that are fully caught up with the leader. Explores how ISRs impact reliability, what happens when they shrink or become unavailable, and the implications for producers and consumers in maintaining data integrity and availability.",
          "descFix":315,
          "createdOn": "Jan 26, 2023",
          "minRead": "5 min read"   
       },{
-         "url":"tech/mq/",
+         "url":"tech/java/spring-boot-framework/how-does-kafka-message-format-evolve-and-how-do-serialization-formats-impact-compatibility-and-schema-evolution-in-a-distributed-environment",
          "title": "How does Kafka's message format evolve, and how do serialization formats (Avro, Protobuf, JSON) impact compatibility and schema evolution in a distributed environment?",
          "desc":"Kafka's message format evolves to support backward and forward compatibility, crucial for seamless data flow in distributed systems. Explores how serialization formats like Avro, Protobuf, and JSON handle schema evolution, their trade-offs, and best practices for managing compatibility between producers and consumers.",
          "descFix":315,
@@ -120,14 +120,14 @@
          "createdOn": "Jan 26, 2023",
          "minRead": "5 min read"
       },{
-         "url":"",
+         "url":"tech/java/spring-boot-framework/how-do-you-integrate-security-testing-into-the-spring-boot-lifecycle-and-what-tools-and-practices-help-monitor-and-respond-to-security-incidents-in-real-time",
          "title":"How do you integrate security testing (e.g., penetration testing, static code analysis) into the Spring Boot lifecycle, and what tools and practices help monitor and respond to security incidents in real-time?",
          "desc":"Explores how to integrate security testing, such as penetration testing and static code analysis, into the Spring Boot development lifecycle. It also covers tools and practices for real-time monitoring and responding to security incidents, ensuring robust protection throughout the application’s lifecycle.",
          "descFix":295,
          "createdOn": "Jan 26, 2023",
          "minRead": "5 min read"
       },{
-         "url":"",
+         "url":"tech/java/spring-boot-framework/how-do-you-implement-security-in-a-decentralized-spring-boot-architecture-addressing-authentication-authorization-access-control-and-service-communication-protection",
          "title":"How do you implement security in a decentralized Spring Boot architecture, addressing authentication, authorization, access control, and service communication protection?",
          "desc":"Explores how to implement security in a decentralized Spring Boot architecture, focusing on challenges related to authentication, authorization, and access control. It also explores strategies to ensure proper service security and protect communication between services, enhancing overall system integrity.",
          "descFix":295,

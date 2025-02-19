@@ -1,8 +1,10 @@
 import React, { useEffect } from "react";
 import { ContainerFluid, Row, Col } from "e-ui-react";
-import Breadcrumb from '@Components/breadcrumb/index.js';
+import Header from '@Templates/Header/index.js';
+import { HeaderMenu } from '@Config/HeaderMenu.js';
+import BlogArticleHeader from '@Components/blog-article-header/index.js';
 
-const DefineL1L2L3 = () =>{
+const DefineL1L2L3 = ({ meta }) =>{
 
  useEffect(()=>{ window.scrollTo({ top: 0, behavior: 'smooth' }); },[]); // Smooth scroll to top
 
@@ -153,14 +155,12 @@ const DefineL1L2L3 = () =>{
     </>);
  };
 
- return (<ContainerFluid>
+ return (<div>
+    <Header menulinks={HeaderMenu} activeId="Home" />
+ <ContainerFluid>
     <Row>
         <Col xxl={8} xl={8}>
-            <Breadcrumb data={[{ "label": "Agile Methodology", "url":"#" },
-                    { "label": "What is L1, L2, L3 Tier System of Remote IT Support?", "url":"#" }]} />
-            <div className="mtop35p">
-                <h3 className="blog-head"><b>What is L1, L2, L3 Tier System of Remote IT Support?</b></h3>
-            </div>
+            <BlogArticleHeader metaData={meta} />
             <div className="mtop15p blog-desc">
             In the context of Agile methodology, the terms <b>L1</b>, <b>L2</b> and <b>L3</b> typically refer to different tiers or levels 
             of support provided to the Client by IT Team for an Application in the Production.  These tiers are commonly 
@@ -186,7 +186,8 @@ const DefineL1L2L3 = () =>{
         <Col all={4}>
         </Col>
     </Row>
- </ContainerFluid>);
+ </ContainerFluid>
+ </div>);
 };
 
 export default DefineL1L2L3;

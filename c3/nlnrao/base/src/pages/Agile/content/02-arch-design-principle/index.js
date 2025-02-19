@@ -1,19 +1,19 @@
 import React, { useEffect } from "react";
 import { ContainerFluid, Row, Col } from "e-ui-react";
-import Breadcrumb from '@Components/breadcrumb/index.js';
+import Header from '@Templates/Header/index.js';
+import { HeaderMenu } from '@Config/HeaderMenu.js';
+import BlogArticleHeader from '@Components/blog-article-header/index.js';
 
-const ArchDesignPrinciple = () =>{
+const ArchDesignPrinciple = ({ meta }) =>{
 
  useEffect(()=>{ window.scrollTo({ top: 0, behavior: 'smooth' }); },[]); // Smooth scroll to top
 
- return (<ContainerFluid>
+ return (<div>
+    <Header menulinks={HeaderMenu} activeId="Home" />
+ <ContainerFluid>
     <Row>
         <Col xxl={8} xl={8}>
-            <Breadcrumb data={[{ "label": "Agile Methodology", "url":"#" },
-                    { "label": "What are Architecture Design principles? How does Agile Methodology aligns with it?", "url":"#" }]} />
-            <div className="mtop35p">
-                <h3 className="blog-head"><b>What are Architecture Design principles? How does Agile Methodology aligns with it?</b></h3>
-            </div>
+            <BlogArticleHeader metaData={meta} />
             <div className="mtop15p blog-desc">
             Architecture design principles are fundamental guidelines that govern the way software systems are designed and constructed. 
             These principles provide a framework for making decisions about the structure, behavior, and interaction of various components 
@@ -209,7 +209,8 @@ const ArchDesignPrinciple = () =>{
             </div>
         </Col>
     </Row>
-</ContainerFluid>);
+</ContainerFluid>
+</div>);
 };
 
 export default ArchDesignPrinciple;

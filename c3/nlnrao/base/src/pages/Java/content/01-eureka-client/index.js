@@ -4,22 +4,13 @@ import Header from '@Templates/Header/index.js';
 import { HeaderMenu } from '@Config/HeaderMenu.js';
 import BlogArticleHeader from '@Components/blog-article-header/index.js';
 
-const EurekaClient = () =>{
- const BreadcrumbPage = () =>{
-     return (<div className="mtop15p mbot15p">
-         <Breadcrumb backgroundColor={Colors.light} 
-             data={[{ label:'Home', url:process.env.PROJECT_URL },
-                 { label:'How to set Eureka Server and Eureka Client in Spring Boot Framework?', url:'#' }
-             ]} />
-         </div>)
- };
+const EurekaClient = ({ meta }) =>{
  return (<div>
   <Header menulinks={HeaderMenu} activeId="Home" />
    <ContainerFluid>
       <Row>
         <Col md={8}>
-          <BreadcrumbPage />
-          <BlogArticleHeader title="How to set Eureka Server and Eureka Client in Spring Boot Framework?" date="October 26, 2024" />
+          <BlogArticleHeader metaData={meta} />
         </Col>
        </Row>
     </ContainerFluid>

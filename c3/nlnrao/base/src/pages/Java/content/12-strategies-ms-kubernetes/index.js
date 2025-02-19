@@ -4,22 +4,13 @@ import Header from '@Templates/Header/index.js';
 import { HeaderMenu } from '@Config/HeaderMenu.js';
 import BlogArticleHeader from '@Components/blog-article-header/index.js';
 
-const StrategiesMsKubernetes = () =>{
- const BreadcrumbPage = () =>{
-     return (<div className="mtop15p mbot15p">
-         <Breadcrumb backgroundColor={Colors.light} 
-             data={[{ label:'Home', url:process.env.PROJECT_URL },
-                 { label:'What strategies do you follow to deploy Spring Boot microservices on Kubernetes?', url:'#' }
-             ]} />
-         </div>)
- };
+const StrategiesMsKubernetes = ({ meta }) =>{
  return (<div>
   <Header menulinks={HeaderMenu} activeId="Home" />
    <ContainerFluid>
       <Row>
         <Col md={8}>
-          <BreadcrumbPage />
-          <BlogArticleHeader title="What strategies do you follow to deploy Spring Boot microservices on Kubernetes?" date="October 26, 2024" />
+          <BlogArticleHeader metaData={meta} />
         </Col>
        </Row>
     </ContainerFluid>

@@ -4,22 +4,13 @@ import Header from '@Templates/Header/index.js';
 import { HeaderMenu } from '@Config/HeaderMenu.js';
 import BlogArticleHeader from '@Components/blog-article-header/index.js';
 
-const FeignClientHandleErrors = () =>{
- const BreadcrumbPage = () =>{
-     return (<div className="mtop15p mbot15p">
-         <Breadcrumb backgroundColor={Colors.light} 
-             data={[{ label:'Home', url:process.env.PROJECT_URL },
-                 { label:'How do you handle errors with @Feign Client using Spring Cloud Framework?', url:'#' }
-             ]} />
-         </div>)
- };
+const FeignClientHandleErrors = ({ meta }) =>{
  return (<div>
   <Header menulinks={HeaderMenu} activeId="Home" />
    <ContainerFluid>
       <Row>
         <Col md={8}>
-          <BreadcrumbPage />
-          <BlogArticleHeader title="How do you handle errors with @Feign Client using Spring Cloud Framework?" date="October 26, 2024" />
+          <BlogArticleHeader metaData={meta} />
         </Col>
        </Row>
     </ContainerFluid>

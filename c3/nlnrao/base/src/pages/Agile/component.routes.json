@@ -1,0 +1,28 @@
+{
+    "breadcrumbs":{
+        "agile":[{ "label":"Agile Methodology", "url":"#" }]
+    },
+    "urls":{
+        "tech/agile-methodology/what-is-L1-L2-L3-tier-system-of-remote-it-support":{
+            "date":"October 26, 2024",
+            "label":"What is L1, L2, L3 Tier System of Remote IT Support?",
+            "component": "DefineL1L2L3",
+            "breadcrumbIndex": "agile",
+            "keywords":[]
+        },
+        "tech/agile-methodology/what-are-architecture-design-principles-and-how-does-agile-methodology-aligns-with-it":{
+            "date":"October 26, 2024",
+            "label":"What are Architecture Design principles? How does Agile Methodology aligns with it?",
+            "component": "ArchDesignPrinciple",
+            "breadcrumbIndex": "agile",
+            "keywords":[]
+        },
+        "tech/agile-methodology/what-is-the-role-of-domain-driven-design-ddd-in-agile-architecture-and-how-it-helps-in-defining-bounded-contexts-and-microservices":{
+            "date":"October 26, 2024",
+            "label":"What is the role of Domain-driven Design (DDD) in Agile Architecture and how it helps in defining bounded contexts and microservices?",
+            "component": "DDDRole",
+            "breadcrumbIndex": "agile",
+            "keywords":[]
+        }
+    }
+}

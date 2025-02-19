@@ -1,0 +1,120 @@
+{
+    "breadcrumbs":{
+        "springFramework":[{ "label":"Java", "url":"/" },
+                { "label":"Spring Framework", "url":"#" }]
+    },
+    "urls":{
+        "tech/java/spring-boot-framework/how-to-set-eureka-server-and-eureka-client-in-spring-boot-framework":{
+            "date":"October 26, 2024",
+            "label":"How to set Eureka Server and Eureka Client in Spring Boot Framework?",
+            "component": "EurekaClient",
+            "breadcrumbIndex": "springFramework",
+            "keywords":[]
+        },
+        "tech/java/spring-boot-framework/create-a-file-upload-platform-where-files-stores-in-local-system-using-spring-boot-and-react-js":{
+            "date":"October 26, 2024",
+            "label":"Create a File upload Platform where files stores in local system using Spring Boot and React JS?",
+            "component": "FileUploadReactSprintBoot",
+            "breadcrumbIndex": "springFramework",
+            "keywords":[]
+        },
+        "tech/java/spring-boot-framework/building-restful-api-with-a-microservice-architecture-using-java-and-spring-stack-components":{
+            "date":"October 26, 2024",
+            "label":"Building RESTFUL API with a Microservice Architecture using Java and Spring Stack Components",
+            "component": "RestApiMsArch",
+            "breadcrumbIndex": "springFramework",
+            "keywords":[]
+        },
+        "tech/java/spring-boot-framework/what-is-the-difference-between-zipkin-and-sleuth-at-which-purpose-we-use-which-one":{
+            "date":"October 26, 2024",
+            "label":"What is the difference between Zipkin and Sleuth. At which purpose, we use which one?",
+            "component": "ZipkinSleuth",
+            "breadcrumbIndex": "springFramework",
+            "keywords":[]
+        },
+        "tech/java/spring-boot-framework/the-principles-of-event-sourcing-and-command-query-responsibility-segregation-cqrs-in-building-event-driven-microservices-with-java-and-spring-boot-and-how-they-enhance-scalability-and-maintainability":{
+            "date":"October 26, 2024",
+            "label":"The principles of Event Sourcing and Command Query Responsibility Segregation (CQRS) in building event-driven microservices with Java and Spring Boot, and how they enhance scalability and maintainability.",
+            "component": "EsCqrs",
+            "breadcrumbIndex": "springFramework",
+            "keywords":[]
+        },
+        "tech/java/spring-boot-framework/how-docker-and-kubernetes-can-be-used-to-containerize-java-microservices-and-manage-them-in-a-distributed-environment-including-integration-with-spring-boot-applications":{
+            "date":"October 26, 2024",
+            "label":"How Docker and Kubernetes can be used to containerize Java microservices and manage them in a distributed environment, including integration with Spring Boot applications?",
+            "component": "ContainerizeMs",
+            "breadcrumbIndex": "springFramework",
+            "keywords":[]
+        },
+        "tech/java/spring-boot-framework/how-do-you-handle-errors-with-feign-client-using-spring-cloud-framework":{
+            "date":"October 26, 2024",
+            "label":"How do you handle errors with @Feign Client using Spring Cloud Framework?",
+            "component": "FeignClientHandleErrors",
+            "breadcrumbIndex": "springFramework",
+            "keywords":[]
+        },
+        "tech/java/spring-boot-framework/there-are-three-microservices-m1-m2-m3-associated-with-three-databases-d1-d2-d3-respectively-now-m1-is-calling-m2-and-m2-is-calling-m3-if-m3-transaction-fails-m1-and-m2-database-transactions-should-roll-back-how-could-you-handle-this":{
+            "date":"October 26, 2024",
+            "label":"There are three Microservices M1,M2, M3 associated with three Databases D1, D2, D3 respectively. Now, M1 is calling M2 and M2 is calling M3. If M3 transaction fails, M1 and M2 Database Transactions should roll back. How could you handle this?",
+            "component": "M1M2M3D",
+            "breadcrumbIndex": "springFramework",
+            "keywords":[]
+        },
+        "tech/java/spring-boot-framework/design-multi-tenant-microservices-using-spring-boot-framework":{
+            "date":"October 26, 2024",
+            "label":"Design multi-tenant microservices using Spring Boot Framework",
+            "component": "DesignMultiTenantMs",
+            "breadcrumbIndex": "springFramework",
+            "keywords":[]
+        },
+        "tech/java/spring-boot-framework/explain-spring-cloud-gateway-vs-zuul-which-one-would-you-use-for-api-gateway-in-a-modern-microservices-ecosystem":{
+            "date":"October 26, 2024",
+            "label":"Explain Spring Cloud Gateway vs. Zuul. Which one would you use for API Gateway in a modern microservices ecosystem?",
+            "component": "ScgVsZuul",
+            "breadcrumbIndex": "springFramework",
+            "keywords":[]
+        },
+        "tech/java/spring-boot-framework/how-do-you-handle-secrets-management-in-a-cloud-based-microservices-system":{
+            "date":"October 26, 2024",
+            "label":"How do you handle secrets management in a cloud-based microservices system?",
+            "component": "SecretManagerMs",
+            "breadcrumbIndex": "springFramework",
+            "keywords":[]
+        },
+        "tech/java/spring-boot-framework/what-strategies-do-you-follow-to-deploy-spring-boot-microservices-on-kubernetes":{
+            "date":"October 26, 2024",
+            "label":"What strategies do you follow to deploy Spring Boot microservices on Kubernetes?",
+            "component": "StrategiesMsKubernetes",
+            "breadcrumbIndex": "springFramework",
+            "keywords":[]
+        },
+        "tech/java/spring-boot-framework/what-are-in-Sync-replicas-in-kafka-and-how-do-they-impact-fault-tolerance-data-consistency-and-handling-isr-shrinkage-or-unavailability-for-producers-and-consumers":{
+            "date":"",
+            "label":"What are In-Sync Replicas (ISRs) in Kafka, and how do they impact fault tolerance, data consistency, and handling ISR shrinkage or unavailability for producers and consumers?",
+            "component":"InSyncReplicas",
+            "breadcrumbIndex":"springFramework",
+            "keywords":[]
+        },
+        "tech/java/spring-boot-framework/how-do-you-integrate-security-testing-into-the-spring-boot-lifecycle-and-what-tools-and-practices-help-monitor-and-respond-to-security-incidents-in-real-time":{
+            "date":"October 26, 2024",
+            "label":"How do you integrate security testing (e.g., penetration testing, static code analysis) into the Spring Boot lifecycle, and what tools and practices help monitor and respond to security incidents in real-time?",
+            "component":"IntegrateSecurityTesting",
+            "breadcrumbIndex":"springFramework",
+            "keywords":[]
+        },
+        "tech/java/spring-boot-framework/how-does-kafka-message-format-evolve-and-how-do-serialization-formats-impact-compatibility-and-schema-evolution-in-a-distributed-environment":{
+            "date":"October 26, 2024",
+            "label":"How does Kafka's message format evolve, and how do serialization formats (Avro, Protobuf, JSON) impact compatibility and schema evolution in a distributed environment?",
+            "component":"KafkaMessageFormat",
+            "breadcrumbIndex":"springFramework",
+            "keywords":[]
+        },
+        "tech/java/spring-boot-framework/how-do-you-implement-security-in-a-decentralized-spring-boot-architecture-addressing-authentication-authorization-access-control-and-service-communication-protection":{
+            "date":"October 26, 2024",
+            "label":"How do you implement security in a decentralized Spring Boot architecture, addressing authentication, authorization, access control, and service communication protection?",
+            "component":"SecurityDecentralization",
+            "breadcrumbIndex":"springFramework",
+            "keywords":[]
+        }
+    }
+}
