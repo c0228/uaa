@@ -1,0 +1,28 @@
+{
+    "breadcrumbs":{
+        "nodeJs":[{ "label":"NodeJs", "url":"/" }]
+    },
+    "urls":{
+        "tech/node-js/overview-of-node-js-and-v8-engine-how-they-works-together":{
+            "date":"October 26, 2024",
+            "label":"Overview of NodeJS and V8 Engine. How they works together?",
+            "component": "V8Node",
+            "breadcrumbIndex": "nodeJs",
+            "keywords":[]
+        },
+        "tech/node-js/understanding-buffer-classes-in-node-js":{
+            "date":"October 26, 2024",
+            "label":"Understanding Buffer Classes in NodeJS",
+            "component": "BufferClasses",
+            "breadcrumbIndex": "nodeJs",
+            "keywords":[]
+        },
+        "tech/node-js/how-do-you-detect-and-prevent-memory-leaks-in-node-js-and-what-strategies-or-tools-do-you-use-for-garbage-collection-tuning-in-a-production-environment":{
+            "date":"October 26, 2024",
+            "label":"How do you detect and prevent memory leaks in Node.js, and what strategies or tools do you use for garbage collection tuning in a production environment?",
+            "component": "MemoryLeakPrevent",
+            "breadcrumbIndex": "nodeJs",
+            "keywords":[]
+        }
+    }
+}

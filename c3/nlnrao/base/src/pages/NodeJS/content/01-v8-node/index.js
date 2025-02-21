@@ -1,17 +1,16 @@
 import React, { useEffect } from "react";
 import { ContainerFluid, Row, Col } from "e-ui-react";
-import Breadcrumb from '@Components/breadcrumb/index.js';
+import Header from '@Templates/Header/index.js';
+import { HeaderMenu } from '@Config/HeaderMenu.js';
+import BlogArticleHeader from '@Components/blog-article-header/index.js';
 
-const V8Node = () =>{
- useEffect(()=>{ window.scrollTo({ top: 0, behavior: 'smooth' }); },[]); // Smooth scroll to top
- return (<ContainerFluid>
+const V8Node = ({ meta }) =>{
+ return (<div>
+ <Header menulinks={HeaderMenu} activeId="Home" />
+ <ContainerFluid>
     <Row>
         <Col xxl={8} xl={8}>
-            <Breadcrumb data={[{ "label": "NodeJS", "url":"#" },
-                    { "label": "Overview of NodeJS and V8 Engine. How they works together?", "url":"#" }]} />
-            <div className="mtop15p">
-                <h3 className="blog-head"><b>Overview of NodeJS and V8 Engine. How they works together?</b></h3>
-            </div>
+            <BlogArticleHeader metaData={meta} />
             <div className="mtop15p blog-desc">
             Node.js is a JavaScript runtime built on the V8 JavaScript engine, which powers Google Chrome. V8 compiles JavaScript into 
             machine code, enabling rapid execution. Node.js extends this functionality to the server-side, allowing developers to run 
@@ -149,7 +148,8 @@ const V8Node = () =>{
             </div>
         </Col>
     </Row>
-    </ContainerFluid>);
+    </ContainerFluid>
+ </div>);
 };
 
 export default V8Node;

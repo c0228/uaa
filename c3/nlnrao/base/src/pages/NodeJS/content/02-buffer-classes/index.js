@@ -1,19 +1,18 @@
-import React, { useEffect } from "react";
+import React from "react";
 import { ContainerFluid, Row, Col, Highlight } from "e-ui-react";
-import Breadcrumb from '@Components/breadcrumb/index.js';
+import Header from '@Templates/Header/index.js';
+import { HeaderMenu } from '@Config/HeaderMenu.js';
+import BlogArticleHeader from '@Components/blog-article-header/index.js';
 
-const BufferClasses = () =>{
- useEffect(()=>{ window.scrollTo({ top: 0, behavior: 'smooth' }); },[]); // Smooth scroll to top
- return (<ContainerFluid>
+const BufferClasses = ({ meta }) =>{
+ return (<div>
+ <Header menulinks={HeaderMenu} activeId="Home" />
+ <ContainerFluid>
     <Row>
         <Col xxl={8} xl={8}>
-            <Breadcrumb data={[{ "label": "NodeJS", "url":"#" },
-                    { "label": "Understanding Buffer Classes in NodeJS", "url":"#" }]} />
-            <div className="mtop15p">
-                <h3 className="blog-head"><b>Understanding Buffer Classes in NodeJS</b></h3>
-            </div>
+            <BlogArticleHeader metaData={meta} />
             <div className="mtop15p blog-desc">
-            n Node.js, a buffer is a temporary storage space for binary data that is being moved from one place to another. 
+            In Node.js, a buffer is a temporary storage space for binary data that is being moved from one place to another. 
             It's particularly useful when dealing with binary data such as images, audio files, network packets, or when 
             interfacing with binary-heavy protocols like TCP sockets.<br/><br/>
             Buffer classes in Node.js are used to handle binary data directly. They are a way to work with arrays of integers 
@@ -187,7 +186,8 @@ console.log(uninitializedBuffer); // Output: <Buffer 80 f3 5f 0b 00 00 00 00 00 
             </div>
         </Col>
     </Row>
-</ContainerFluid>);
+</ContainerFluid>
+</div>);
 };
 
 export default BufferClasses;
