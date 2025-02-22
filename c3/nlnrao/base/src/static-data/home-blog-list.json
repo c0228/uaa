@@ -55,29 +55,29 @@
         "row1":[{
             "url":"",
             "title":"What is the Open Container Initiative (OCI), and how do runtimes like runc, containerd, and CRI-O relate to Docker and OCI specifications? Why choose one runtime over another?",
-            "desc":"",
-            "descFix":190,
+            "desc":"The Open Container Initiative (OCI) sets open standards for container formats and runtimes. Runtimes like runc, containerd, and CRI-O follow OCI specs. runc is a low-level runtime, containerd manages containers for Docker, and CRI-O is Kubernetes-native. Choice depends on use case.",
+            "descFix":210,
             "createdOn": "Jan 26, 2023",
             "minRead": "5 min read"
         },{
             "url":"",
             "title":"How can Kubernetes be used in edge computing, and what challenges arise in deploying and managing it (e.g., resource constraints, network connectivity)? Discuss solutions like KubeEdge and MicroK8s.",
-            "desc":"",
-            "descFix":190,
+            "desc":"Kubernetes enables edge computing via lightweight distros like MicroK8s and KubeEdge, extending workloads to edge nodes. Challenges include resource limits, unreliable networks, and security risks. Solutions: autoscaling, offline mode, efficient scheduling, and secure device management.",
+            "descFix":140,
             "createdOn": "Jan 26, 2023",
             "minRead": "5 min read"
         }],
         "row2":[{
             "url":"",
             "title":"What are advanced techniques for optimizing Docker image size, beyond multi-stage builds, including build caching, squashing layers, and using distroless images in CI/CD pipelines?",
-            "desc":"",
+            "desc":"Optimize Docker images with build caching, layer squashing, distroless images, and minimizing dependencies. Use .dockerignore, efficient RUN commands, and --no-install-recommends. CI/CD pipelines benefit from smaller, secure images, reducing attack surface and build time.",
             "descFix":190,
             "createdOn": "Jan 26, 2023",
             "minRead": "5 min read"
         },{
             "url":"",
             "title":"How can serverless computing be applied to Docker containers, and what are the benefits and challenges? Explore technologies like Firecracker and Kata Containers in this context.",
-            "desc":"",
+            "desc":"Serverless computing runs Docker containers on-demand via FaaS platforms like Knative and OpenFaaS. Firecracker and Kata Containers enhance security and performance with microVMs. Benefits: cost-efficiency, scalability. Challenges: cold starts, networking, and state management.",
             "descFix":190,
             "createdOn": "Jan 26, 2023",
             "minRead": "5 min read"
@@ -85,14 +85,14 @@
         "row3":[{
             "url":"",
             "title":"How can Kubernetes manage stateful applications (e.g., databases, message queues), and what are the challenges and best practices for running stateful workloads?",
-            "desc":"",
+            "desc":"Kubernetes manages stateful apps via StatefulSets, PersistentVolumes, and Operators. Challenges include data consistency, scaling, and recovery. Best practices: use PVCs, Readiness Probes, and backup strategies.",
             "descFix":190,
             "createdOn": "Jan 26, 2023",
             "minRead": "5 min read"
         },{
             "url":"",
             "title":"How can Kubernetes support serverless computing, and what are the advantages and disadvantages of using projects like Knative and OpenFaaS for serverless workloads?",
-            "desc":"",
+            "desc":"Kubernetes supports serverless via Knative and OpenFaaS, enabling auto-scaling and event-driven execution. Advantages: portability, scalability, and cost efficiency. Disadvantages: complexity, cold starts, and overhead. Solutions: optimized scaling, caching, and lightweight runtimes.",
             "descFix":190,
             "createdOn": "Jan 26, 2023",
             "minRead": "5 min read"
@@ -102,14 +102,14 @@
         "row1":[{
             "url":"",
             "title":"How does Kafka's architecture (topics, partitions, brokers) compare to traditional message queues (e.g., RabbitMQ, ActiveMQ) in scalability, fault tolerance, and message ordering, and when would you choose one over the other?",
-            "desc":"",
+            "desc":"Kafka uses topics, partitions, and brokers for high throughput, scalability, and fault tolerance. Traditional MQs (RabbitMQ, ActiveMQ) offer strong ordering, priority queues, and reliability. Choose Kafka for event streaming, large-scale data, and logs; MQs for request-response and low-latency tasks.",
             "descFix":190,
             "createdOn": "Jan 26, 2023",
             "minRead": "5 min read"
         },{
             "url":"",
             "title":"What are the challenges and opportunities of integrating Kafka with serverless platforms like AWS Lambda or Google Cloud Functions, and how can you trigger serverless functions based on Kafka messages?",
-            "desc":"",
+            "desc":"Integrating Kafka with serverless platforms faces challenges like event consumption, scalability, and at-least-once processing. Solutions: AWS Lambda with MSK, Google Cloud Functions with Pub/Sub. Opportunities: real-time processing, cost efficiency, and event-driven workflows.",
             "descFix":190,
             "createdOn": "Jan 26, 2023",
             "minRead": "5 min read"
@@ -117,30 +117,30 @@
         "row2":[{
             "url":"",
             "title":"Zookeeper is a critical component of Kafka. Let's exploring alternative consensus algorithms (e.g., Raft) that could potentially improve Kafka's performance, fault tolerance, or scalability?   ",
-            "desc":"",
-            "descFix":190,
+            "desc":"ZooKeeper ensures Kafka's coordination, but Raft-based alternatives like KRaft (Kafka Raft) simplify management, improve fault tolerance, and enhance scalability by removing external dependencies. Raft offers leader election and log replication, reducing overhead and streamlining operations.",
+            "descFix":240,
             "createdOn": "Jan 26, 2023",
             "minRead": "5 min read"
         },{
             "url":"",
             "title":"What are the best practices for encrypting data at rest and in transit in a Kafka cluster, including encryption algorithms, key management systems, and performance implications?",
-            "desc":"",
-            "descFix":190,
+            "desc":"Kafka secures data with TLS for encryption in transit and AES for data at rest. Use Kafka ACLs, SASL, and KMS for key management. Best practices: enable TLS, encrypt disks (AES-256), rotate keys, and balance security with performance to minimize latency overhead.",
+            "descFix":240,
             "createdOn": "Jan 26, 2023",
             "minRead": "5 min read"
         }],
         "row3":[{
             "url":"",
             "title":"How can you implement auditing and logging in Kafka to track message access, modifications, and ensure compliance with regulations like GDPR, HIPAA, or PCI DSS?",
-            "desc":"",
-            "descFix":190,
+            "desc":"Implement Kafka auditing via Broker logs, ACLs, and log compaction. Use tools like Kafka Connect with SIEM, Schema Registry, and Audit Logs. Ensure GDPR/HIPAA compliance with encryption, access controls, and retention policies while balancing performance and storage costs.",
+            "descFix":250,
             "createdOn": "Jan 26, 2023",
             "minRead": "5 min read"
         },{
             "url":"",
             "title":"What are the best practices for hardening a Kafka cluster against security threats, including vulnerability scanning, penetration testing, and security patching?",
-            "desc":"",
-            "descFix":190,
+            "desc":"Harden Kafka with TLS, SASL, ACLs, and auditing. Conduct vulnerability scans, penetration tests, and apply security patches regularly. Restrict network access, use KMS for encryption, enable log monitoring, and follow least privilege principles for secure operations.",
+            "descFix":240,
             "createdOn": "Jan 26, 2023",
             "minRead": "5 min read"
         }]
