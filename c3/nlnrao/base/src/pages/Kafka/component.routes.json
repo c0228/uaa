@@ -1,0 +1,49 @@
+{
+    "breadcrumbs":{
+        "kafka":[{ "label":"Kafka", "url":"/" }]
+    },
+    "urls":{
+        "tech/kafka/how-does-kafka-architecture-compare-to-traditional-message-queues-in-scalability-fault-tolerance-and-message-ordering-and-when-would-you-choose-one-over-the-other":{
+            "date":"October 26, 2024",
+            "label":"How does Kafka's architecture (topics, partitions, brokers) compare to traditional message queues (e.g., RabbitMQ, ActiveMQ) in scalability, fault tolerance, and message ordering, and when would you choose one over the other?",
+            "component": "TraditionalMQVsKafkaArchitecture",
+            "breadcrumbIndex": "kafka",
+            "keywords":[]
+        },
+        "tech/kafka/zookeeper-is-a-critical-component-of-kafka-let-exploring-alternative-consensus-algorithms-that-could-potentially-improve-kafka-performance-fault-tolerance-or-scalability":{
+            "date":"October 26, 2024",
+            "label":"Zookeeper is a critical component of Kafka. Let's exploring alternative consensus algorithms (e.g., Raft) that could potentially improve Kafka's performance, fault tolerance, or scalability?",
+            "component": "KafkaZookeeperAlternative",
+            "breadcrumbIndex": "kafka",
+            "keywords":[]
+        },
+        "tech/kafka/how-can-you-implement-auditing-and-logging-in-kafka-to-track-message-access-modifications-and-ensure-compliance-with-regulations-like-gdpr-hipaa-or-pci-dss":{
+            "date":"October 26, 2024",
+            "label":"How can you implement auditing and logging in Kafka to track message access, modifications, and ensure compliance with regulations like GDPR, HIPAA, or PCI DSS?",
+            "component": "KafkaAuditingAndLogging",
+            "breadcrumbIndex": "kafka",
+            "keywords":[]
+        },
+        "tech/kafka/what-are-the-challenges-and-opportunities-of-integrating-kafka-with-serverless-platforms-like-aws-lambda-or-google-cloud-functions-and-how-can-you-trigger-serverless-functions-based-on-kafka-messages":{
+            "date":"October 26, 2024",
+            "label":"What are the challenges and opportunities of integrating Kafka with serverless platforms like AWS Lambda or Google Cloud Functions, and how can you trigger serverless functions based on Kafka messages?",
+            "component": "KafkaIntegratingServerlessPlatformChallenges",
+            "breadcrumbIndex": "kafka",
+            "keywords":[]
+        },
+        "tech/kafka/what-are-the-best-practices-for-encrypting-data-at-rest-and-in-transit-in-a-kafka-cluster-including-encryption-algorithms-key-management-systems-and-performance-implications":{
+            "date":"October 26, 2024",
+            "label":"What are the best practices for encrypting data at rest and in transit in a Kafka cluster, including encryption algorithms, key management systems, and performance implications?",
+            "component": "EncryptingDataAtRestTransitKafkaCluster",
+            "breadcrumbIndex": "kafka",
+            "keywords":[]
+        },
+        "tech/kafka/what-are-the-best-practices-for-hardening-a-kafka-cluster-against-security-threats-including-vulnerability-scanning-penetration-testing-and-security-patching":{
+            "date":"October 26, 2024",
+            "label":"What are the best practices for hardening a Kafka cluster against security threats, including vulnerability scanning, penetration testing, and security patching?",
+            "component": "KafkaClusterAgainstSecurityThreats",
+            "breadcrumbIndex": "kafka",
+            "keywords":[]
+        }
+    }
+}
