@@ -1,0 +1,49 @@
+{
+    "breadcrumbs":{
+        "dockub":[{ "label":"Docker and Kubernetes", "url":"/" }]
+    },
+    "urls":{
+        "tech/docker-and-kubernetes/what-is-the-open-container-initiative-oci-and-how-do-runtimes-like-runc-containerd-and-cri-o-relate-to-docker-and-oci-specifications-why-choose-one-runtime-over-another":{
+            "date":"October 26, 2024",
+            "label":"What is the Open Container Initiative (OCI), and how do runtimes like runc, containerd, and CRI-O relate to Docker and OCI specifications? Why choose one runtime over another?",
+            "component": "OCI",
+            "breadcrumbIndex": "dockub",
+            "keywords":[]
+        },
+        "tech/docker-and-kubernetes/what-are-advanced-techniques-for-optimizing-docker-image-size-beyond-multi-stage-builds-including-build-caching-squashing-layers-and-using-distroless-images-in-ci-cd-pipelines":{
+            "date":"October 26, 2024",
+            "label":"What are advanced techniques for optimizing Docker image size, beyond multi-stage builds, including build caching, squashing layers, and using distroless images in CI/CD pipelines?",
+            "component": "DockerImgSizeOptimize",
+            "breadcrumbIndex": "dockub",
+            "keywords":[]
+        },
+        "tech/docker-and-kubernetes/how-can-Kubernetes-manage-stateful-applications-and-what-are-the-challenges-and-best-practices-for-running-stateful-workloads":{
+            "date":"October 26, 2024",
+            "label":"How can Kubernetes manage stateful applications (e.g., databases, message queues), and what are the challenges and best practices for running stateful workloads?",
+            "component": "KubernetesManageStatefulApp",
+            "breadcrumbIndex": "dockub",
+            "keywords":[]
+        },
+        "tech/docker-and-kubernetes/how-can-kubernetes-be-used-in-edge-computing-and-what-challenges-arise-in-deploying-and-managing-it-discuss-solutions-like-kubeedge-and-microk8s":{
+            "date":"October 26, 2024",
+            "label":"How can Kubernetes be used in edge computing, and what challenges arise in deploying and managing it (e.g., resource constraints, network connectivity)? Discuss solutions like KubeEdge and MicroK8s.",
+            "component": "KubernetesDeployChallenges",
+            "breadcrumbIndex": "dockub",
+            "keywords":[]
+        },
+        "tech/docker-and-kubernetes/how-can-serverless-computing-be-applied-to-docker-containers-and-what-are-the-benefits-and-challenges-explore-technologies-like-firecracker-and-kata-containers-in-this-context":{
+            "date":"October 26, 2024",
+            "label":"How can serverless computing be applied to Docker containers, and what are the benefits and challenges? Explore technologies like Firecracker and Kata Containers in this context.",
+            "component": "DockerContainersServerlessComputing",
+            "breadcrumbIndex": "dockub",
+            "keywords":[]
+        },
+        "tech/docker-and-kubernetes/how-can-kubernetes-support-serverless-computing-and-what-are-the-advantages-and-disadvantages-of-using-projects-like-knative-and-openfaas-for-serverless-workloads":{
+            "date":"October 26, 2024",
+            "label":"How can Kubernetes support serverless computing, and what are the advantages and disadvantages of using projects like Knative and OpenFaaS for serverless workloads?",
+            "component": "DockerServerlessComputingSupport",
+            "breadcrumbIndex": "dockub",
+            "keywords":[]
+        }
+    }
+}

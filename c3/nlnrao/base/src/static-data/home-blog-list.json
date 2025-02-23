@@ -53,14 +53,14 @@
     },
     "dockub":{
         "row1":[{
-            "url":"",
+            "url":"tech/docker-and-kubernetes/what-is-the-open-container-initiative-oci-and-how-do-runtimes-like-runc-containerd-and-cri-o-relate-to-docker-and-oci-specifications-why-choose-one-runtime-over-another",
             "title":"What is the Open Container Initiative (OCI), and how do runtimes like runc, containerd, and CRI-O relate to Docker and OCI specifications? Why choose one runtime over another?",
             "desc":"The Open Container Initiative (OCI) sets open standards for container formats and runtimes. Runtimes like runc, containerd, and CRI-O follow OCI specs. runc is a low-level runtime, containerd manages containers for Docker, and CRI-O is Kubernetes-native. Choice depends on use case.",
             "descFix":210,
             "createdOn": "Jan 26, 2023",
             "minRead": "5 min read"
         },{
-            "url":"",
+            "url":"tech/docker-and-kubernetes/how-can-kubernetes-be-used-in-edge-computing-and-what-challenges-arise-in-deploying-and-managing-it-discuss-solutions-like-kubeedge-and-microk8s",
             "title":"How can Kubernetes be used in edge computing, and what challenges arise in deploying and managing it (e.g., resource constraints, network connectivity)? Discuss solutions like KubeEdge and MicroK8s.",
             "desc":"Kubernetes enables edge computing via lightweight distros like MicroK8s and KubeEdge, extending workloads to edge nodes. Challenges include resource limits, unreliable networks, and security risks. Solutions: autoscaling, offline mode, efficient scheduling, and secure device management.",
             "descFix":140,
@@ -68,14 +68,14 @@
             "minRead": "5 min read"
         }],
         "row2":[{
-            "url":"",
+            "url":"tech/docker-and-kubernetes/what-are-advanced-techniques-for-optimizing-docker-image-size-beyond-multi-stage-builds-including-build-caching-squashing-layers-and-using-distroless-images-in-ci-cd-pipelines",
             "title":"What are advanced techniques for optimizing Docker image size, beyond multi-stage builds, including build caching, squashing layers, and using distroless images in CI/CD pipelines?",
             "desc":"Optimize Docker images with build caching, layer squashing, distroless images, and minimizing dependencies. Use .dockerignore, efficient RUN commands, and --no-install-recommends. CI/CD pipelines benefit from smaller, secure images, reducing attack surface and build time.",
             "descFix":190,
             "createdOn": "Jan 26, 2023",
             "minRead": "5 min read"
         },{
-            "url":"",
+            "url":"tech/docker-and-kubernetes/how-can-serverless-computing-be-applied-to-docker-containers-and-what-are-the-benefits-and-challenges-explore-technologies-like-firecracker-and-kata-containers-in-this-context",
             "title":"How can serverless computing be applied to Docker containers, and what are the benefits and challenges? Explore technologies like Firecracker and Kata Containers in this context.",
             "desc":"Serverless computing runs Docker containers on-demand via FaaS platforms like Knative and OpenFaaS. Firecracker and Kata Containers enhance security and performance with microVMs. Benefits: cost-efficiency, scalability. Challenges: cold starts, networking, and state management.",
             "descFix":190,
@@ -83,14 +83,14 @@
             "minRead": "5 min read"
         }],
         "row3":[{
-            "url":"",
+            "url":"tech/docker-and-kubernetes/how-can-Kubernetes-manage-stateful-applications-and-what-are-the-challenges-and-best-practices-for-running-stateful-workloads",
             "title":"How can Kubernetes manage stateful applications (e.g., databases, message queues), and what are the challenges and best practices for running stateful workloads?",
             "desc":"Kubernetes manages stateful apps via StatefulSets, PersistentVolumes, and Operators. Challenges include data consistency, scaling, and recovery. Best practices: use PVCs, Readiness Probes, and backup strategies.",
             "descFix":190,
             "createdOn": "Jan 26, 2023",
             "minRead": "5 min read"
         },{
-            "url":"",
+            "url":"tech/docker-and-kubernetes/how-can-kubernetes-support-serverless-computing-and-what-are-the-advantages-and-disadvantages-of-using-projects-like-knative-and-openfaas-for-serverless-workloads",
             "title":"How can Kubernetes support serverless computing, and what are the advantages and disadvantages of using projects like Knative and OpenFaaS for serverless workloads?",
             "desc":"Kubernetes supports serverless via Knative and OpenFaaS, enabling auto-scaling and event-driven execution. Advantages: portability, scalability, and cost efficiency. Disadvantages: complexity, cold starts, and overhead. Solutions: optimized scaling, caching, and lightweight runtimes.",
             "descFix":190,
@@ -149,14 +149,14 @@
         "row1":[{
             "url":"",
             "title":"What are the key consensus algorithms (e.g., Paxos, Raft) and their implications for distributed systems? When should you choose one over another, and what are the challenges in large-scale deployments?",
-            "desc":"",
+            "desc":"Key consensus algorithms include Paxos (robust but complex), Raft (simpler leader-based consensus), and PBFT (Byzantine fault tolerance). Paxos suits high-reliability systems, Raft is easier to implement, and PBFT is ideal for adversarial settings. Scalability is a challenge.",
             "descFix":190,
             "createdOn": "Jan 26, 2023",
             "minRead": "5 min read"
         },{
             "url":"",
             "title":"What are the key differences between centralized and decentralized data management in distributed systems, and when is each approach (e.g., database vs. distributed ledger) more suitable?",
-            "desc":"",
+            "desc":"Centralized data management (e.g., databases) offers control, consistency, and efficiency but risks single points of failure. Decentralized systems (e.g., distributed ledgers) enhance security and fault tolerance but face scalability and performance trade-offs. Choose based on trust, scale, and control needs.",
             "descFix":190,
             "createdOn": "Jan 26, 2023",
             "minRead": "5 min read"
@@ -164,14 +164,14 @@
         "row2":[{
             "url":"",
             "title":"How do distributed transactions in microservices work, and what are the trade-offs between two-phase commit, Saga pattern, consistency, and performance? When is eventual consistency a better choice?",
-            "desc":"",
+            "desc":"Distributed transactions use 2PC (strong consistency, slow, blocking) or Saga (event-driven, compensable, scalable). 2PC ensures ACID but hurts performance. Saga favors eventual consistency, improving resilience. Use eventual consistency when speed and availability outweigh strict ACID.",
             "descFix":190,
             "createdOn": "Jan 26, 2023",
             "minRead": "5 min read"
         },{
             "url":"",
             "title":"What is polyglot persistence? When should you use SQL, NoSQL, or NewSQL in a distributed system? Explore its impact on consistency, performance, and complexity.",
-            "desc":"",
+            "desc":"Polyglot persistence uses multiple databases for different needs. Use SQL for ACID and structured data, NoSQL for scalability and flexibility, and NewSQL for strong consistency with scale. Balancing consistency, performance, and complexity is key in distributed systems.",
             "descFix":190,
             "createdOn": "Jan 26, 2023",
             "minRead": "5 min read"
@@ -179,15 +179,15 @@
         "row3":[{
             "url":"",
             "title":"How can Quantum-Inspired Distributed Algorithms and Principles like superposition and entanglement inspire new algorithms for distributed consensus, communication, and optimization?",
-            "desc":"",
+            "desc":"Quantum-inspired superposition enables parallel state exploration, improving search and optimization in distributed systems. Entanglement can enhance secure communication and coordination. These principles inspire faster consensus (e.g., QKD-based Byzantine Agreement) and efficient resource allocation.",
             "descFix":190,
             "createdOn": "Jan 26, 2023",
             "minRead": "5 min read"
         },{
             "url":"",
             "title":"How do you manage data versioning and schema evolution in distributed systems while ensuring compatibility between services?",
-            "desc":"",
-            "descFix":190,
+            "desc":"Use schema evolution tools (e.g., Avro, Protobuf) with backward/forward compatibility. Versioned APIs, feature flags, and rolling updates ensure smooth transitions. Event-driven architectures decouple services, reducing migration risks while maintaining consistency.",
+            "descFix":225,
             "createdOn": "Jan 26, 2023",
             "minRead": "5 min read"
         }]
@@ -196,29 +196,29 @@
         "row1":[{
             "url":"",
             "title":"What are cache-oblivious algorithms, and how do they optimize performance in modern architectures? Provide examples of related data structures and algorithms.",
-            "desc":"",
+            "desc":"Cache-oblivious algorithms optimize memory hierarchy use without hardware-specific tuning. They leverage recursive divide-and-conquer strategies, e.g., van Emde Boas trees (fast lookups) and cache-oblivious matrix multiplication (better locality), improving performance across architectures.",
             "descFix":190,
             "createdOn": "Jan 26, 2023",
             "minRead": "5 min read"
         },{
             "url":"",
             "title":"What are advanced geometric algorithms, and how are they applied in computer graphics, robotics, and Geographic Information Systems (GIS)?",
-            "desc":"",
-            "descFix":190,
+            "desc":"Advanced geometric algorithms (e.g., Voronoi diagrams, convex hulls, R-trees) optimize collision detection (graphics), path planning (robotics), and spatial indexing (GIS). They enhance efficiency, accuracy, and scalability in complex computational environments.",
+            "descFix":230,
             "createdOn": "Jan 26, 2023",
             "minRead": "5 min read"
         }],
         "row2":[{
             "url":"",
             "title":"How do you test and verify algorithm and data structure correctness, especially in complex or concurrent scenarios?",
-            "desc":"",
-            "descFix":190,
+            "desc":"Use unit tests, property-based testing, and formal verification (e.g., TLA+). For concurrency, apply stress tests, race condition detection (e.g., ThreadSanitizer), and linearizability checks. Fuzz testing helps uncover edge cases, ensuring robustness.",
+            "descFix":230,
             "createdOn": "Jan 26, 2023",
             "minRead": "5 min read"
         },{
             "url":"",
             "title":"How do you design algorithms and data structures for handling datasets larger than memory? Explore external memory, streaming, and distributed processing techniques.",
-            "desc":"",
+            "desc":"Use external memory algorithms (e.g., B-trees) for disk-efficient access, streaming algorithms (e.g., Count-Min Sketch) for real-time processing, and distributed frameworks (e.g., MapReduce, Spark) for parallel computation. Balance I/O, memory, and computation for scalability.",
             "descFix":190,
             "createdOn": "Jan 26, 2023",
             "minRead": "5 min read"
@@ -226,15 +226,15 @@
         "row3":[{
             "url":"",
             "title":"How can self-tuning algorithms adjust parameters based on input data and hardware, simplifying development and improving performance?",
-            "desc":"",
+            "desc":"Self-tuning algorithms adapt parameters using feedback loops, ML models, or heuristics. Examples include adaptive sorting, auto-indexing (databases), and JIT compilation. They optimize performance across varying data and hardware, reducing manual tuning and improving efficiency.",
             "descFix":190,
             "createdOn": "Jan 26, 2023",
             "minRead": "5 min read"
         },{
             "url":"",
             "title":"What is the Byzantine Generals' Problem, and how do Byzantine Fault Tolerance (BFT) algorithms like Practical Byzantine Fault Tolerance (PBFT) and Tendermint address it in blockchain? What are their scalability and complexity limitations?",
-            "desc":"",
-            "descFix":190,
+            "desc":"The Byzantine Generals' Problem models trust issues in faulty networks. PBFT ensures consensus with replica voting, but it's O(n²) costly. Tendermint streamlines BFT for blockchain, reducing overhead but limiting decentralization. Scalability remains a challenge.",
+            "descFix":150,
             "createdOn": "Jan 26, 2023",
             "minRead": "5 min read"
         }]
