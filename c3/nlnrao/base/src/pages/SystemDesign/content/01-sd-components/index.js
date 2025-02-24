@@ -5,22 +5,13 @@ import { HeaderMenu } from '@Config/HeaderMenu.js';
 import BlogArticleHeader from '@Components/blog-article-header/index.js';
 import OrderList from '@Components/order-list/index.js';
 
-const SDComponents = () =>{
-  const BreadcrumbPage = () =>{
-     return (<div className="mtop15p mbot15p">
-         <Breadcrumb backgroundColor={Colors.light} 
-             data={[{ label:'System Design', url:process.env.PROJECT_URL+'tech/system-design/overview' },
-                 { label:'The Architect\'s Toolkit: Exploring Essential Components of System Design', url:'#' }
-             ]} />
-         </div>)
-  };
+const SDComponents = ({ meta }) =>{
   return (<div>
   <Header menulinks={HeaderMenu} activeId="SystemDesign" />
   <ContainerFluid>
     <Row>
       <Col md={8}>
-        <BreadcrumbPage />
-        <BlogArticleHeader title="The Architect's Toolkit: Exploring Essential Components of System Design" date="October 26, 2024" />
+        <BlogArticleHeader metaData={meta} />
         
         <div className="mtop15p lh36p" style={{ fontSize:'16px' }}>
             <i>System Design is the process of defining the architecture, components, modules, interfaces, and data flow 

@@ -147,14 +147,14 @@
     },
     "sysd":{
         "row1":[{
-            "url":"",
+            "url":"tech/system-design/what-are-the-key-consensus-algorithms-and-their-implications-for-distributed-systems-when-should-you-choose-one-over-another-and-what-are-the-challenges-in-large-scale-deployments",
             "title":"What are the key consensus algorithms (e.g., Paxos, Raft) and their implications for distributed systems? When should you choose one over another, and what are the challenges in large-scale deployments?",
             "desc":"Key consensus algorithms include Paxos (robust but complex), Raft (simpler leader-based consensus), and PBFT (Byzantine fault tolerance). Paxos suits high-reliability systems, Raft is easier to implement, and PBFT is ideal for adversarial settings. Scalability is a challenge.",
             "descFix":190,
             "createdOn": "Jan 26, 2023",
             "minRead": "5 min read"
         },{
-            "url":"",
+            "url":"tech/system-design/what-are-the-key-differences-between-centralized-and-decentralized-data-management-in-distributed-systems-and-when-is-each-approach-more-suitable",
             "title":"What are the key differences between centralized and decentralized data management in distributed systems, and when is each approach (e.g., database vs. distributed ledger) more suitable?",
             "desc":"Centralized data management (e.g., databases) offers control, consistency, and efficiency but risks single points of failure. Decentralized systems (e.g., distributed ledgers) enhance security and fault tolerance but face scalability and performance trade-offs. Choose based on trust, scale, and control needs.",
             "descFix":190,
@@ -162,14 +162,14 @@
             "minRead": "5 min read"
         }],
         "row2":[{
-            "url":"",
+            "url":"tech/system-design/how-do-distributed-transactions-in-microservices-work-and-what-are-the-trade-offs-between-two-phase-commit-saga-pattern-consistency-and-performance-when-is-eventual-consistency-a-better-choice",
             "title":"How do distributed transactions in microservices work, and what are the trade-offs between two-phase commit, Saga pattern, consistency, and performance? When is eventual consistency a better choice?",
             "desc":"Distributed transactions use 2PC (strong consistency, slow, blocking) or Saga (event-driven, compensable, scalable). 2PC ensures ACID but hurts performance. Saga favors eventual consistency, improving resilience. Use eventual consistency when speed and availability outweigh strict ACID.",
             "descFix":190,
             "createdOn": "Jan 26, 2023",
             "minRead": "5 min read"
         },{
-            "url":"",
+            "url":"tech/system-design/what-is-polyglot-persistence-when-should-you-use-SQL-NoSQL-or-NewSQL-in-a-distributed-system-explore-its-impact-on-consistency-performance-and-complexity",
             "title":"What is polyglot persistence? When should you use SQL, NoSQL, or NewSQL in a distributed system? Explore its impact on consistency, performance, and complexity.",
             "desc":"Polyglot persistence uses multiple databases for different needs. Use SQL for ACID and structured data, NoSQL for scalability and flexibility, and NewSQL for strong consistency with scale. Balancing consistency, performance, and complexity is key in distributed systems.",
             "descFix":190,
@@ -177,14 +177,14 @@
             "minRead": "5 min read"
         }],
         "row3":[{
-            "url":"",
+            "url":"tech/system-design/how-can-quantum-inspired-distributed-algorithms-and-principles-like-superposition-and-entanglement-inspire-new-algorithms-for-distributed-consensus-communication-and-optimization",
             "title":"How can Quantum-Inspired Distributed Algorithms and Principles like superposition and entanglement inspire new algorithms for distributed consensus, communication, and optimization?",
             "desc":"Quantum-inspired superposition enables parallel state exploration, improving search and optimization in distributed systems. Entanglement can enhance secure communication and coordination. These principles inspire faster consensus (e.g., QKD-based Byzantine Agreement) and efficient resource allocation.",
             "descFix":190,
             "createdOn": "Jan 26, 2023",
             "minRead": "5 min read"
         },{
-            "url":"",
+            "url":"tech/system-design/how-do-you-manage-data-versioning-and-schema-evolution-in-distributed-systems-while-ensuring-compatibility-between-services",
             "title":"How do you manage data versioning and schema evolution in distributed systems while ensuring compatibility between services?",
             "desc":"Use schema evolution tools (e.g., Avro, Protobuf) with backward/forward compatibility. Versioned APIs, feature flags, and rolling updates ensure smooth transitions. Event-driven architectures decouple services, reducing migration risks while maintaining consistency.",
             "descFix":225,

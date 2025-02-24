@@ -1,0 +1,62 @@
+{
+    "breadcrumbs":{
+        "sysDesign":[{ "label":"SystemDesign", "url":"/" }]
+    },
+    "urls":{
+        "tech/system-design/overview":{
+            "date":"October 26, 2024",
+            "component": "SystemDesign",
+            "breadcrumbIndex": "sysDesign",
+            "keywords":[]
+        },
+        "tech/system-design/the-architect-toolkit-exploring-essential-components-of-system-design":{
+            "date":"October 26, 2024",
+            "label": "The Architect's Toolkit: Exploring Essential Components of System Design",
+            "component": "SDComponents",
+            "breadcrumbIndex": "sysDesign",
+            "keywords":[]
+        },
+        "tech/system-design/what-are-the-key-consensus-algorithms-and-their-implications-for-distributed-systems-when-should-you-choose-one-over-another-and-what-are-the-challenges-in-large-scale-deployments":{
+            "date":"October 26, 2024",
+            "label":"What are the key consensus algorithms (e.g., Paxos, Raft) and their implications for distributed systems? When should you choose one over another, and what are the challenges in large-scale deployments?",
+            "component": "KeyConsensusAlgorithms",
+            "breadcrumbIndex": "sysDesign",
+            "keywords":[]
+        },
+        "tech/system-design/how-do-distributed-transactions-in-microservices-work-and-what-are-the-trade-offs-between-two-phase-commit-saga-pattern-consistency-and-performance-when-is-eventual-consistency-a-better-choice":{
+            "date":"October 26, 2024",
+            "label":"How do distributed transactions in microservices work, and what are the trade-offs between two-phase commit, Saga pattern, consistency, and performance? When is eventual consistency a better choice?",
+            "component": "MsDistributedTransactionWorkMode",
+            "breadcrumbIndex": "sysDesign",
+            "keywords":[]
+        },
+        "tech/system-design/how-can-quantum-inspired-distributed-algorithms-and-principles-like-superposition-and-entanglement-inspire-new-algorithms-for-distributed-consensus-communication-and-optimization":{
+            "date":"October 26, 2024",
+            "label":"How can Quantum-Inspired Distributed Algorithms and Principles like superposition and entanglement inspire new algorithms for distributed consensus, communication, and optimization?",
+            "component": "QuantumInspiredDistributedAlgorithms",
+            "breadcrumbIndex": "sysDesign",
+            "keywords":[]
+        },
+        "tech/system-design/what-are-the-key-differences-between-centralized-and-decentralized-data-management-in-distributed-systems-and-when-is-each-approach-more-suitable":{
+            "date":"October 26, 2024",
+            "label":"What are the key differences between centralized and decentralized data management in distributed systems, and when is each approach (e.g., database vs. distributed ledger) more suitable?",
+            "component": "DistributedSystemCentralDeCentralDataManagement",
+            "breadcrumbIndex": "sysDesign",
+            "keywords":[]
+        },
+        "tech/system-design/what-is-polyglot-persistence-when-should-you-use-SQL-NoSQL-or-NewSQL-in-a-distributed-system-explore-its-impact-on-consistency-performance-and-complexity":{
+            "date":"October 26, 2024",
+            "label":"What is polyglot persistence? When should you use SQL, NoSQL, or NewSQL in a distributed system? Explore its impact on consistency, performance, and complexity.",
+            "component": "PolyglotPersistence",
+            "breadcrumbIndex": "sysDesign",
+            "keywords":[]
+        },
+        "tech/system-design/how-do-you-manage-data-versioning-and-schema-evolution-in-distributed-systems-while-ensuring-compatibility-between-services":{
+            "date":"October 26, 2024",
+            "label":"How do you manage data versioning and schema evolution in distributed systems while ensuring compatibility between services?",
+            "component": "DistributedSystemDataVersioningSchemaEvolution",
+            "breadcrumbIndex": "sysDesign",
+            "keywords":[]
+        }
+    }
+}

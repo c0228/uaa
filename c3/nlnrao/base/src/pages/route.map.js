@@ -6,6 +6,7 @@ import JavaRoutes from "@Pages/Java/component.routes.json";
 import AgileRoutes from "@Pages/Agile/component.routes.json";
 import DocKubRoutes from "@Pages/DocKub/component.routes.json";
 import KafkaRoutes from "@Pages/Kafka/component.routes.json";
+import SystemDesignRoutes from "@Pages/SystemDesign/component.routes.json";
 import { Web3ComponentMap } from "@Pages/Web3/component.map.js";
 import { JSComponentMap } from "@Pages/Javascript/component.map.js";
 import { NodeJSComponentMap } from "@Pages/NodeJS/component.map.js";
@@ -13,6 +14,7 @@ import { JavaComponentMap } from "@Pages/Java/component.map.js";
 import { AgileComponentMap } from "@Pages/Agile/component.map.js";
 import { DocKubComponentMap } from "@Pages/DocKub/component.map.js";
 import { KafkaComponentMap } from "@Pages/Kafka/component.map.js";
+import { SystemDesignComponentMap } from "@Pages/SystemDesign/component.map.js";
 
 export const AllRoutes = {
     "breadcrumbs": { ...Web3Routes.breadcrumbs, 
@@ -21,7 +23,8 @@ export const AllRoutes = {
                     ...JavaRoutes.breadcrumbs, 
                     ...AgileRoutes.breadcrumbs,
                     ...DocKubRoutes.breadcrumbs,
-                    ...KafkaRoutes.breadcrumbs
+                    ...KafkaRoutes.breadcrumbs,
+                    ...SystemDesignRoutes.breadcrumbs
                 },
     "urls": { ...Web3Routes.urls, 
             ...JSRoutes.urls, 
@@ -29,7 +32,8 @@ export const AllRoutes = {
             ...JavaRoutes.urls,  
             ...AgileRoutes.urls,
             ...DocKubRoutes.urls,
-            ...KafkaRoutes.urls
+            ...KafkaRoutes.urls,
+            ...SystemDesignRoutes.urls
         }
 };
 
@@ -40,6 +44,7 @@ export const AllComponentMap = {
     ...JavaComponentMap, 
     ...AgileComponentMap,
     ...DocKubComponentMap,
-    ...KafkaComponentMap
+    ...KafkaComponentMap,
+    ...SystemDesignComponentMap
 };
 
