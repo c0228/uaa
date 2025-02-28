@@ -1,0 +1,9 @@
+.wApp-home-features-section { background-color:#611e06;color:#eee;box-shadow:2px 2px 2px 2px #808080; }
+
+@media(min-width:1200px) { 
+ .wApp-home-features-section { padding-top:5vh; }
+}
+
+@media(max-width:1199px) { 
+ .wApp-home-features-section { padding-top:45px; }
+}

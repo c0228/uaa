@@ -1,0 +1,269 @@
+{
+    "breadcrumbs":{
+        "dsa":[{ "label":"Data Structures & Algorithms", "url":"/" }],
+        "cache-eviction-strategies":[{ "label":"Data Structures & Algorithms", "url":"tech/dsa/overview" },
+                    { "label":"Cache Eviction Strategies", "url":"#" }],
+        "terminologies":[{ "label":"Data Structures & Algorithms", "url":"tech/dsa/overview" },
+                    { "label":"Terminologies", "url":"#" }],
+        "system-design-algorithms":[{ "label":"DSA", "url":"tech/dsa/overview" },
+                    { "label":"System Design Algorithms", "url":"#" }],
+        "load-balancing-algorithms":[{ "label":"DSA", "url":"tech/dsa/overview" },
+                    { "label":"Load Balancing Algorithms", "url":"#" }],
+        "distributed-systems-consensus-algorithms":[{ "label":"DSA", "url":"tech/dsa/overview" },
+                    { "label":"Distributed Systems & Consensus Algorithms", "url":"#" }]
+    },
+    "urls":{
+        "tech/dsa/overview":{
+            "date":"October 26, 2024",
+            "component": "DSA"
+        },
+
+        "tech/dsa/cache-eviction-strategies/least-recently-used":{
+            "label":"Least Recently Used (LRU)",
+            "date":"October 26, 2024",
+            "component": "LRUCache",
+            "breadcrumbIndex": "cache-eviction-strategies"
+        },
+        "tech/dsa/cache-eviction-strategies/least-frequently-used":{
+            "label":"Least Frequently Used (LFU)",
+            "date":"October 26, 2024",
+            "component": "LFUCache",
+            "breadcrumbIndex": "cache-eviction-strategies"
+        },
+        "tech/dsa/cache-eviction-strategies/first-in-first-out":{
+            "label":"First-In-First-Out (FIFO)",
+            "date":"October 26, 2024",
+            "component": "FIFOCache",
+            "breadcrumbIndex": "cache-eviction-strategies"
+        },
+        "tech/dsa/cache-eviction-strategies/random-replacement":{
+            "label":"Random Replacement (RR)",
+            "date":"October 26, 2024",
+            "component": "RRCache",
+            "breadcrumbIndex": "cache-eviction-strategies"
+        },
+        "tech/dsa/cache-eviction-strategies/most-recently-used":{
+            "label":"Most Recently Used (MRU)",
+            "date":"October 26, 2024",
+            "component": "MRUCache",
+            "breadcrumbIndex": "cache-eviction-strategies"
+        },
+        "tech/dsa/cache-eviction-strategies/time-to-live":{
+            "label":"Time to Live (TTL)",
+            "date":"October 26, 2024",
+            "component": "TTLCache",
+            "breadcrumbIndex": "cache-eviction-strategies"
+        },
+        "tech/dsa/cache-eviction-strategies/two-tiered-caching":{
+            "label":"Two-Tiered Caching",
+            "date":"October 26, 2024",
+            "component": "TTCache",
+            "breadcrumbIndex": "cache-eviction-strategies"
+        },
+
+        "tech/dsa/system-design-algorithms/bloom-filter":{
+            "label": "Bloom Filter",
+            "date": "October 26, 2024",
+            "breadcrumbIndex": "system-design-algorithms"
+        },
+        "tech/dsa/system-design-algorithms/geohash":{
+            "label": "Geohash",
+            "date": "October 26, 2024",
+            "breadcrumbIndex": "system-design-algorithms"
+        },
+        "tech/dsa/system-design-algorithms/hyperloglog":{
+            "label": "HyperLogLog",
+            "date": "October 26, 2024",
+            "breadcrumbIndex": "system-design-algorithms"
+        },
+        "tech/dsa/system-design-algorithms/consistent-hashing":{
+            "label": "Consistent Hashing",
+            "date": "October 26, 2024",
+            "breadcrumbIndex": "system-design-algorithms"
+        },
+        "tech/dsa/system-design-algorithms/merkle-tree":{
+            "label": "Merkle Tree",
+            "date": "October 26, 2024",
+            "breadcrumbIndex": "system-design-algorithms"
+        },
+        "tech/dsa/system-design-algorithms/raft-algorithm":{
+            "label": "Raft Algorithm",
+            "date": "October 26, 2024",
+            "breadcrumbIndex": "system-design-algorithms"
+        },
+        "tech/dsa/system-design-algorithms/lossy-count":{
+            "label": "Lossy Count",
+            "date": "October 26, 2024",
+            "breadcrumbIndex": "system-design-algorithms"
+        },
+        "tech/dsa/system-design-algorithms/quadTree":{
+            "label": "QuadTree",
+            "date": "October 26, 2024",
+            "breadcrumbIndex": "system-design-algorithms"
+        },
+        "tech/dsa/system-design-algorithms/operational-transformation":{
+            "label": "Operational Transformation",
+            "date": "October 26, 2024",
+            "breadcrumbIndex": "system-design-algorithms"
+        },
+        "tech/dsa/system-design-algorithms/leaky-bucket":{
+            "label": "Leaky Bucket",
+            "date": "October 26, 2024",
+            "breadcrumbIndex": "system-design-algorithms"
+        },
+        "tech/dsa/system-design-algorithms/rsync":{
+            "label": "Rsync",
+            "date": "October 26, 2024",
+            "breadcrumbIndex": "system-design-algorithms"
+        },
+        "tech/dsa/system-design-algorithms/ray-casting":{
+            "label": "Ray Casting",
+            "date": "October 26, 2024",
+            "breadcrumbIndex": "system-design-algorithms"
+        },
+
+
+        "tech/dsa/terminologies/time-and-space-complexity-analysis":{
+            "label": "Time and Space Complexity Analysis",
+            "date": "October 26, 2024",
+            "breadcrumbIndex": "terminologies"
+        },
+        "tech/dsa/terminologies/big-o-mega-and-Theta-notations":{
+            "label": "Big-O, Omega (Ω), and Theta (Θ) Notations",
+            "date": "October 26, 2024",
+            "breadcrumbIndex": "terminologies"
+        },
+
+
+        "tech/dsa/static-load-balancing-algorithms/round-robin-technique":{
+            "label": "Round Robin Technique",
+            "date": "October 26, 2024",
+            "breadcrumbIndex": "load-balancing-algorithms"
+        },
+        "tech/dsa/static-load-balancing-algorithms/weighted-round-robin-technique":{
+            "label": "Weighted Round Robin Technique",
+            "date": "October 26, 2024",
+            "breadcrumbIndex": "load-balancing-algorithms"
+        },
+        "tech/dsa/static-load-balancing-algorithms/ip-hashing-technique":{
+            "label": "IP Hashing Technique",
+            "date": "October 26, 2024",
+            "breadcrumbIndex": "load-balancing-algorithms"
+        },
+        "tech/dsa/static-load-balancing-algorithms/least-connections-technique":{
+            "label": "Least Connections Technique",
+            "date": "October 26, 2024",
+            "breadcrumbIndex": "load-balancing-algorithms"
+        },
+        "tech/dsa/static-load-balancing-algorithms/weighted-least-connections-technique":{
+            "label": "Weighted Least Connections Technique",
+            "date": "October 26, 2024",
+            "breadcrumbIndex": "load-balancing-algorithms"
+        },
+        "tech/dsa/dynamic-load-balancing-algorithms/least-response-time-technique":{
+            "label": "Least Response Time Technique",
+            "date": "October 26, 2024",
+            "breadcrumbIndex": "load-balancing-algorithms"
+        },
+        "tech/dsa/dynamic-load-balancing-algorithms/adaptive-load-balancing-technique":{
+            "label": "Adaptive Load Balancing Technique",
+            "date": "October 26, 2024",
+            "breadcrumbIndex": "load-balancing-algorithms"
+        },
+        "tech/dsa/dynamic-load-balancing-algorithms/resource-based-boad-balancing-technique":{
+            "label": "Resource-Based Load Balancing Technique",
+            "date": "October 26, 2024",
+            "breadcrumbIndex": "load-balancing-algorithms"
+        },
+        "tech/dsa/dynamic-load-balancing-algorithms/consistent-hashing-technique":{
+            "label": "Consistent Hashing Technique",
+            "date": "October 26, 2024",
+            "breadcrumbIndex": "load-balancing-algorithms"
+        },
+        "tech/dsa/dynamic-load-balancing-algorithms/ai-ml-based-load-balancing-technique":{
+            "label": "AI/ML-Based Load Balancing Technique",
+            "date": "October 26, 2024",
+            "breadcrumbIndex": "load-balancing-algorithms"
+        },
+        "tech/dsa/dynamic-load-balancing-algorithms/chandy-lamport-snapshot-algorithm":{
+            "label": "Chandy-Lamport Snapshot Algorithm",
+            "date": "October 26, 2024",
+            "breadcrumbIndex": "load-balancing-algorithms"
+        },
+        "tech/dsa/dynamic-load-balancing-algorithms/tanenbaums-token-ring-algorithm":{
+            "label": "Tanenbaum’s Token Ring Algorithm",
+            "date": "October 26, 2024",
+            "breadcrumbIndex": "load-balancing-algorithms"
+        },
+    
+
+        "tech/dsa/distributed-systems-consensus-algorithms/paxos-algorithm":{
+            "label": "Paxos Algorithm",
+            "date": "October 26, 2024",
+            "breadcrumbIndex": "distributed-systems-consensus-algorithms"
+        },
+        "tech/dsa/distributed-systems-consensus-algorithms/raft-algorithm":{
+            "label":"Raft Algorithm",
+            "date":"October 26, 2024",
+            "breadcrumbIndex": "distributed-systems-consensus-algorithms"
+        },
+        "tech/dsa/distributed-systems-consensus-algorithms/byzantine-fault-tolerance":{
+            "label":"Byzantine Fault Tolerance (PBFT)",
+            "date":"October 26, 2024",
+            "breadcrumbIndex": "distributed-systems-consensus-algorithms"
+        },
+        "tech/dsa/distributed-systems-consensus-algorithms/gossip-protocol":{
+            "label":"Gossip Protocol",
+            "date":"October 26, 2024",
+            "breadcrumbIndex": "distributed-systems-consensus-algorithms"
+        },
+        "tech/dsa/distributed-systems-consensus-algorithms/vector-clocks-and-lamport-timestamps":{
+            "label":"Vector Clocks & Lamport Timestamps",
+            "date":"October 26, 2024",
+            "breadcrumbIndex": "distributed-systems-consensus-algorithms"
+        },
+
+        "tech/dsa/what-are-cache-oblivious-algorithms-and-how-do-they-optimize-performance-in-modern-architectures-provide-examples-of-related-data-structures-and-algorithms":{
+            "date":"October 26, 2024",
+            "label":"What are cache-oblivious algorithms, and how do they optimize performance in modern architectures? Provide examples of related data structures and algorithms.",
+            "component": "",
+            "breadcrumbIndex": "dsa",
+            "keywords":[]
+        },
+        "tech/dsa/how-do-you-test-and-verify-algorithm-and-data-structure-correctness-especially-in-complex-or-concurrent-scenarios":{
+            "date":"October 26, 2024",
+            "label":"How do you test and verify algorithm and data structure correctness, especially in complex or concurrent scenarios?",
+            "component": "",
+            "breadcrumbIndex": "dsa",
+            "keywords":[]
+        },
+        "tech/dsa/how-can-self-tuning-algorithms-adjust-parameters-based-on-input-data-and-hardware-simplifying-development-and-improving-performance":{
+            "date":"October 26, 2024",
+            "label":"How can self-tuning algorithms adjust parameters based on input data and hardware, simplifying development and improving performance?",
+            "component": "",
+            "breadcrumbIndex": "dsa",
+            "keywords":[]
+        },
+        "tech/dsa/what-are-advanced-geometric-algorithms-and-how-are-they-applied-in-computer-graphics-robotics-and-geographic-information-systems":{
+            "date":"October 26, 2024",
+            "label":"What are advanced geometric algorithms, and how are they applied in computer graphics, robotics, and Geographic Information Systems (GIS)?",
+            "component": "",
+            "breadcrumbIndex": "dsa",
+            "keywords":[]
+        },
+        "tech/dsa/how-do-you-design-algorithms-and-data-structures-for-handling-datasets-larger-than-memory-explore-external-memory-streaming-and-distributed-processing-techniques":{
+            "date":"October 26, 2024",
+            "label":"How do you design algorithms and data structures for handling datasets larger than memory? Explore external memory, streaming, and distributed processing techniques.",
+            "component": "",
+            "breadcrumbIndex": "dsa",
+            "keywords":[]
+        },
+        "tech/dsa/what-is-the-byzantine-generals-problem-and-how-do-byzantine-fault-tolerance-algorithms-like-practical-byzantine-fault-tolerance-and-tendermint-address-it-in-blockchain-what-are-their-scalability-and-complexity-limitations":{
+            "date":"October 26, 2024",
+            "label":"What is the Byzantine Generals' Problem, and how do Byzantine Fault Tolerance (BFT) algorithms like Practical Byzantine Fault Tolerance (PBFT) and Tendermint address it in blockchain? What are their scalability and complexity limitations?",
+            "component": "",
+            "breadcrumbIndex": "dsa",
+            "keywords":[]
+        }
+    }
+}
