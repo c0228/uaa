@@ -8,6 +8,7 @@ const HotelReady = () =>{
     <div align="center">
         <img src={process.env.PROJECT_URL+'assets/images/01.jpg'} style={{ borderRadius:'50%', width:'12vw', height:'12vw'}} />
         <div className="bis-hgl-text mtop15p"><b>{title}</b></div>
+        <div className="bis-hgl-text">{desc}</div>
     </div>
 </div>);
  };
@@ -35,13 +36,21 @@ const HotelReady = () =>{
             <Col md={9}>
                 <Row>
                     <Col md={4}>
-                        <Feature bgColor='#c3e5ff' title="Day Care" />
+                        <Feature bgColor='#c3e5ff' title="Day Care" 
+                            desc={<div>It provides daytime supervision and care for dogs in a structured and social environment. 
+                                It's a service designed for pet owners who need to leave their dogs for extended periods during the 
+                                day, such as while at work.</div>} />
                     </Col>
                     <Col md={4}>
-                        <Feature bgColor='#ffe3da' title="Pet Boarding" />
+                        <Feature bgColor='#ffe3da' title="Pet Boarding" 
+                            desc={<div>Pet boarding provides temporary housing and care for pets when their owners are away 
+                                during vacations. These facilities offer a range of services, including feeding, 
+                                watering & often exercise and interaction with staff.</div>} />
                     </Col>
                     <Col md={4}>
-                        <Feature bgColor='#dcffdd' title="Private Suites" />
+                        <Feature bgColor='#dcffdd' title="Private Suites" 
+                            desc={<div>Private suites, in the context of hospitality or pet care, are typically larger, more luxurious accommodations compared to standard 
+                                rooms or kennels, designed to provide a more secluded and premium experience.</div>} />
                     </Col>
                 </Row>
                 
