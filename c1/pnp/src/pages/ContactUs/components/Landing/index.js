@@ -22,7 +22,7 @@ const Landing = () =>{
          </div>
          <div align="center" className="bis-hgl-text" style={{ marginTop:'25px' }}>
            <a href="#get-in-touch" style={{ color:'#000' }}>
-            <Button size={11} style={{ backgroundColor:'#ffcb31',border:'0.1vw solid #ffc004' }}><b>GET IN TOUCH</b></Button>
+            <Button size={11} type="saffron"><b>Get in Touch!</b></Button>
            </a>
          </div>
          <div align="center" className="bis-hgl-text" style={{ marginTop:'15px', color:'#ccc' }}>

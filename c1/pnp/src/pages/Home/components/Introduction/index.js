@@ -31,8 +31,9 @@ const Introduction = () =>{
             can thrive while you're away.
             </div>
             <div className="mtop15p">
-              <Button type="saffron">
-                Book Your Pet's Vacation Today!</Button>
+              <a href={process.env.PROJECT_URL+'contact-us'}>
+                <Button type="saffron">Book Your Pet's Vacation Today!</Button>
+              </a>
             </div>
           </div>
           </div>
