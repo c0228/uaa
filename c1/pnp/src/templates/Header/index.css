@@ -8,3 +8,7 @@
  .nav-link { letter-spacing:0.05vw;font-size:1vw;padding: 0.6vw !important; }
  .nav-link.active { border-bottom-width: 0.25vw !important; }
 }
+
+@media(max-width:1199px) { 
+ .navbar-collapse { margin-top:15px; }
+}

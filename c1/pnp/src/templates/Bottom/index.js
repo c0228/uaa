@@ -29,15 +29,15 @@ const Bottom = () =>{
         <div style={{ lineHeight:'1.9vw' }}>
         <Row>
           <Col md={3}>
-            <div><a href={process.env.PROJECT_URL} className="bis-bottom-container-center-url">Home</a></div>
-            <div><a href={process.env.PROJECT_URL+"services"} className="bis-bottom-container-center-url">Future Projects</a></div>
+            <div className="bis-bottom-div"><a href={process.env.PROJECT_URL} className="bis-bottom-container-center-url">Home</a></div>
+            <div className="bis-bottom-div"><a href={process.env.PROJECT_URL+"services"} className="bis-bottom-container-center-url">Future Projects</a></div>
           </Col>
           <Col md={4}>
-            <div><a href={process.env.PROJECT_URL+"about-us"} className="bis-bottom-container-center-url">About Us</a></div>
-            <div><a href={process.env.PROJECT_URL+"contact-us"}  className="bis-bottom-container-center-url">Contact Us</a></div>
+            <div className="bis-bottom-div"><a href={process.env.PROJECT_URL+"about-us"} className="bis-bottom-container-center-url">About Us</a></div>
+            <div className="bis-bottom-div"><a href={process.env.PROJECT_URL+"contact-us"}  className="bis-bottom-container-center-url">Contact Us</a></div>
           </Col>
           <Col md={5}>
-            <div><a href={process.env.PROJECT_URL+"services"} className="bis-bottom-container-center-url">Services</a></div>
+            <div className="bis-bottom-div"><a href={process.env.PROJECT_URL+"services"} className="bis-bottom-container-center-url">Services</a></div>
           </Col>
         </Row>
 
@@ -47,9 +47,9 @@ const Bottom = () =>{
       <Col md={3}>
         <Row>
           <Col md={12}>
-            <SocialLinks list={[{ label:"facebook", url:"https://www.facebook.com/profile.php?id=61569414627158&mibextid=ZbWKwL" },
-                { label:"linkedin", url:"https://www.linkedin.com/company/broadway-info-services/" },
-                { label:"whatsapp", url:"https://chat.whatsapp.com/DHZl6YhtGow2ILGa558pIz" }]} />
+            <SocialLinks list={[{ label:"facebook", url:"#" },
+                { label:"linkedin", url:"#" },
+                { label:"whatsapp", url:"#" }]} />
           </Col>
         </Row>
         <Row>
