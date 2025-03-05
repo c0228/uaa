@@ -12,16 +12,16 @@ const Upper = () =>{
        <span className="desktop-view txt-email">support@petsandpawskennels.com</span>
        <div className="mobile-view-center desktop-view-right padRight15p">
         <a target="_blank" href="#">
-           <Icon type="FontAwesome" name="fa-facebook" size={16} color="#fff" className="padLeft5p padRight5p" />
+           <Icon type="FontAwesome" name="fa-facebook" size={22} color="#fff" className="padLeft5p padRight5p" />
          </a>
          <a target="_blank" href="#">
-           <Icon type="FontAwesome" name="fa-twitter" size={16} color="#fff" className="padLeft5p padRight5p" />
+           <Icon type="FontAwesome" name="fa-twitter" size={22} color="#fff" className="padLeft5p padRight5p" />
          </a>
          <a target="_blank" href="#">
-           <Icon type="FontAwesome" name="fa-instagram" size={16} color="#fff" className="padLeft5p padRight5p" />
+           <Icon type="FontAwesome" name="fa-instagram" size={22} color="#fff" className="padLeft5p padRight5p" />
          </a>
          <a target="_blank" href="#">
-           <Icon type="FontAwesome" name="fa-whatsapp" size={16} color="#fff" className="padLeft5p padRight5p" />
+           <Icon type="FontAwesome" name="fa-whatsapp" size={22} color="#fff" className="padLeft5p padRight5p" />
          </a>
        </div>
      </div>
