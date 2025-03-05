@@ -1,0 +1,9 @@
+@media(min-width:1200px) { 
+ .hotel-ready-feature { height:76vh;padding:1.2vw;border-radius:0.64vw;border-width: 0.1vw;border-style: solid;margin-bottom:1vw; }
+ .hotel-ready-img { width:12vw;height:12vw;border-radius:0.6vw;border-style: solid; }
+}
+   
+@media(max-width:1199px) {
+ .hotel-ready-feature { padding:15px;border-radius:8px;border-width:1px;border-style: solid;margin-bottom:15px; }
+ .hotel-ready-img { width:150px;height:150px;border-radius:6px;border-style: solid; }
+}

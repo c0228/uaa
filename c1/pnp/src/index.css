@@ -11,7 +11,7 @@
 }
 
 @media(max-width:1199px) { 
- .wApp-template-grid {  margin-top:65px;padding-top:55px;padding-bottom:35px;
+ .wApp-template-grid { padding-top:55px;padding-bottom:35px;
    border-top:2px solid #611e06; }
 }
 

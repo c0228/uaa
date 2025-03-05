@@ -1,0 +1,11 @@
+@media(min-width:1200px) { 
+ .kennel-partner-img1 { width:100%;border-radius:1vw;border:0.5vw solid #000; }
+ .kennel-partner-img2 { width:100%;border-radius:1vw;margin-bottom:1%;border:0.5vw solid #000; }
+ .kennel-partner-img3 { width:100%;border-radius:1vw;margin-top:1%;border:0.5vw solid #000; }
+}
+   
+@media(max-width:1199px) {
+ .kennel-partner-img1 { margin:20px;width:90%;border-radius:8px;border:6px solid #000; }
+ .kennel-partner-img2 { margin-left:20px;margin-top:20px;margin-right:20px;width:90%;border-radius:8px;border:6px solid #000; }
+ .kennel-partner-img3 { margin-left:20px;margin-top:10px;margin-right:20px;width:90%;border-radius:8px;border:6px solid #000; }
+}

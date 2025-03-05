@@ -1,5 +1,6 @@
 import React from "react";
 import { Row, Col } from "e-ui-react";
+import './index.css';
 
 const PartnerInfo = () =>{
  return (<div className="wApp-template-odd wApp-template-grid">
@@ -10,19 +11,19 @@ const PartnerInfo = () =>{
         </div>
       </Col>
     </Row>
-    <Row className="row-flex-container  mtop15p">
+    <Row className="row-flex-container mtop15p">
       <Col md={1}></Col>
       <Col md={5}>
         <Row>
           <Col md={6} style={{ padding:'1%' }}>
-            <img src={process.env.PROJECT_URL+"assets/images/04.jpg"} style={{ width:'100%', borderRadius:'1vw', border:'0.5vw solid #000' }} />
+            <img className="kennel-partner-img1" src={process.env.PROJECT_URL+"assets/images/04.jpg"} />
           </Col>
           <Col md={6} style={{ padding:'1%' }}>
             <div>
-              <img src={process.env.PROJECT_URL+"assets/images/02.jpg"} style={{ width:'100%',  borderRadius:'1vw', marginBottom:'1%', border:'0.5vw solid #000' }} />
+              <img className="kennel-partner-img2" src={process.env.PROJECT_URL+"assets/images/02.jpg"} />
             </div>
             <div>
-            <img src={process.env.PROJECT_URL+"assets/images/03.jpg"} style={{ width:'100%', borderRadius:'1vw', marginTop:'1%', border:'0.5vw solid #000' }} />
+            <img className="kennel-partner-img3" src={process.env.PROJECT_URL+"assets/images/03.jpg"} />
             </div>
             
           </Col>

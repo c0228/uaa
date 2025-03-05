@@ -1,12 +1,14 @@
 import React from "react";
 import { ContainerFluid, Row, Col } from "e-ui-react";
 import SlimImageTitles from '@Components/SlimImageTitles/index.js';
+import './index.css';
 
 const HotelReady = () =>{ 
  const Feature = ({ bgColor, borderColor, title, desc, img }) =>{
-  return (<div style={{ height:'76vh', border:'1px solid '+borderColor, padding:'15px', backgroundColor: bgColor, borderRadius:'8px' }}>
+  return (<div className="hotel-ready-feature" style={{ borderColor:borderColor, backgroundColor: bgColor }}>
     <div align="center">
-        <img src={process.env.PROJECT_URL+'assets/images/'+img} style={{ border:'0.4vw solid '+borderColor, borderRadius:'50%', width:'12vw', height:'12vw'}} />
+        <img className="hotel-ready-img" src={process.env.PROJECT_URL+'assets/images/'+img} 
+            style={{ borderColor: borderColor, borderRadius:'50%' }} />
         <div className="bis-hgl-text mtop15p"><b>{title}</b></div>
         <div className="bis-hgl-text">{desc}</div>
     </div>
