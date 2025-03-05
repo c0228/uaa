@@ -7,7 +7,7 @@ const Footer = () =>{
     <Row>
        <Col md={12}>
         <div align="center" className="fs11">
-          Copyright &#169; 2024 | All Rights Reserved | www.broadwayinfoservices.com
+          Copyright &#169; 2024 | All Rights Reserved | www.petsandpawskennels.com
         </div>
        </Col>
     </Row>

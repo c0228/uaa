@@ -10,13 +10,11 @@ const Bottom = () =>{
     <Row>
       <Col md={4}>
         <div className="pad15p">
-        <div className="bis-hgl-text uppercase mbot15p"><b>About Broadway Info Services</b></div>
+        <div className="bis-hgl-text uppercase mbot15p"><b>About Pets & Paws Kennels</b></div>
         <div className="bis-regular-text">
-          Broadway Info Services is a leading healthcare revenue cycle management company. They specialize in medical 
-          coding, billing, and other administrative services. Their advanced technology and skilled team ensure accurate 
-          and efficient processing of claims, maximizing revenue for healthcare providers. With a focus on client satisfaction, 
-          Broadway Info Services has a proven track record of delivering exceptional results and improving overall 
-          practice performance.</div>
+        At Pets & Paws Kennel Services, we are passionate about providing top-quality care, comfort, and companionship for your beloved 
+        pets. With a team of experienced caregivers, a safe and hygienic environment, and tailored services like boarding, daycare, 
+        grooming, and training, we ensure that every pet feels at home.</div>
         </div>
       </Col>
       <Col md={5}>

@@ -1,8 +1,8 @@
 
 @media(min-width:1200px) { 
- .wApp-featureCard-icon { font-size: 6vw;padding-top: 2.5vh; }
+ .wApp-featureCard-icon { font-size: 6vw !important;padding-top: 2.5vh; }
 }
 
 @media(max-width:1199px) { 
- .wApp-featureCard-icon { font-size: 80px;padding-top: 18px; }
+ .wApp-featureCard-icon { font-size: 80px !important;padding-top: 18px; }
 }

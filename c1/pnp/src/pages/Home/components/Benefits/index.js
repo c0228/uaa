@@ -5,29 +5,29 @@ import FeatureCard from '@Components/FeatureCard/index.js';
 const Benefits = () =>{
  const Items = () =>{
     const data = [{
-          icon:'fa-window-maximize',
-          title:'Maximized Reimbursement',
-          content:'Our medical coding and claims submission expertise boosts your reimbursement rates.'
+          icon:'fa-home',
+          title:'Luxury Accommodations',
+          content:'Your pet enjoys cozy suites, soft bedding, and a home-like atmosphere with personalized care and attention.'
         },{
-          icon:'fa-money',
-          title:'Optimized Cash Flow',
-          content:'Efficient claims processing and timely payment collection streamline your financial operations.'
+          icon:'fa-paw',
+          title:'Fun & Fitness Sessions',
+          content:'Daily play sessions, agility training, and interactive toys ensure your pet stays active and engaged.'
         },{
-          icon:'fa-cog',
-          title:'Minimized Administrative Overhead',
-          content:'Our streamlined processes and automation tools reduce your administrative burden.'
+          icon:'fa-calendar-check-o',
+          title:'Special Themed Days & Events',
+          content:'From birthday parties to costume contests, we make every moment fun and memorable for your pet.'
         },{
-          icon:'fa-shield',
-          title:'Assured Compliance',
-          content:'We stay updated on the latest industry regulations to ensure compliance and mitigate risks.'
+          icon:'fa-heart',
+          title:'Customized Care for Every Pet',
+          content:'Whether your pet is shy, energetic, or a senior, we tailor care to meet their unique needs.'
         },{
-          icon:'fa-database',
-          title:'Prioritized Data Security',
-          content:'We safeguard your sensitive patient information with robust security measures.'
+          icon:'fa-users',
+          title:'Safe & Supervised Socialization',
+          content:'Your pets enjoy controlled and friendly interactions with other pets under expert supervision.'
         },{
-          icon:'fa-tachometer',
-          title:'Improved Efficiency',
-          content:'Our solutions enhance your overall operational efficiency, saving you time and resources.'
+          icon:'fa-gift',
+          title:'Exclusive Membership & Loyalty Rewards',
+          content:'Join our VIP Pet Club for discounts, priority bookings, and free services!'
         }];
         return (<FeatureCard data={data} />);
       };
@@ -35,10 +35,11 @@ const Benefits = () =>{
             <Row>
                 <Col md={12}>
                     <div className="pad15p">
-                    <div align="center" className="bis-hgl-header"><b>The Benefits of Partnering with Broadway Info Services</b></div>
+                    <div align="center" className="bis-hgl-header" style={{ color:'#611e06' }}><b>What Makes Us Special?</b></div>
                     <div align="center" className="bis-hgl-text mtop15p">
-                    By choosing Broadway Info Services as your healthcare billing partner, you can enjoy the 
-                    following benefits:</div>
+                      At Pets & Paws Kennel Services, we provide a loving, safe, and fun-filled environment <br/>
+                      where every pet receives personalized care, comfort, and attention like family!
+                    </div>
                     <div className="mtop15p"><Items /></div>
                     </div>
                 </Col>

@@ -3,10 +3,10 @@ import { ContainerFluid, Row, Col } from "e-ui-react";
 import SlimImageTitles from '@Components/SlimImageTitles/index.js';
 
 const HotelReady = () =>{ 
- const Feature = ({ bgColor, title, desc }) =>{
-  return (<div style={{ height:'76vh', border:'1px solid #ccc', padding:'15px', backgroundColor: bgColor, borderRadius:'8px' }}>
+ const Feature = ({ bgColor, borderColor, title, desc, img }) =>{
+  return (<div style={{ height:'76vh', border:'1px solid '+borderColor, padding:'15px', backgroundColor: bgColor, borderRadius:'8px' }}>
     <div align="center">
-        <img src={process.env.PROJECT_URL+'assets/images/01.jpg'} style={{ borderRadius:'50%', width:'12vw', height:'12vw'}} />
+        <img src={process.env.PROJECT_URL+'assets/images/'+img} style={{ border:'0.4vw solid '+borderColor, borderRadius:'50%', width:'12vw', height:'12vw'}} />
         <div className="bis-hgl-text mtop15p"><b>{title}</b></div>
         <div className="bis-hgl-text">{desc}</div>
     </div>
@@ -36,19 +36,19 @@ const HotelReady = () =>{
             <Col md={9}>
                 <Row>
                     <Col md={4}>
-                        <Feature bgColor='#c3e5ff' title="Day Care" 
+                        <Feature bgColor='#c3e5ff' title="Day Care" borderColor="#5ea8e1" img="hr-01.jpg"
                             desc={<div>It provides daytime supervision and care for dogs in a structured and social environment. 
                                 It's a service designed for pet owners who need to leave their dogs for extended periods during the 
                                 day, such as while at work.</div>} />
                     </Col>
                     <Col md={4}>
-                        <Feature bgColor='#ffe3da' title="Pet Boarding" 
+                        <Feature bgColor='#ffe3da' title="Pet Boarding" borderColor="#ffac91" img="hr-02.jpg"
                             desc={<div>Pet boarding provides temporary housing and care for pets when their owners are away 
                                 during vacations. These facilities offer a range of services, including feeding, 
                                 watering & often exercise and interaction with staff.</div>} />
                     </Col>
                     <Col md={4}>
-                        <Feature bgColor='#dcffdd' title="Private Suites" 
+                        <Feature bgColor='#dcffdd' title="Private Suites" borderColor="#8dcdff" img="hr-03.jpg"
                             desc={<div>Private suites, in the context of hospitality or pet care, are typically larger, more luxurious accommodations compared to standard 
                                 rooms or kennels, designed to provide a more secluded and premium experience.</div>} />
                     </Col>

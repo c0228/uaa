@@ -5,31 +5,38 @@ const PartnerInfo = () =>{
  return (<div className="wApp-template-odd wApp-template-grid">
     <Row>
       <Col md={12}>
-        <div align="center" className="bis-hgl-header">
-          <b>Broadway Info Services: Your Partner in Healthcare Revenue Cycle Management</b>
+        <div align="center" className="bis-hgl-header mbot15p">
+          <b>Pets & Paws Kennel Services: A Loving Home Away From Home for Your Pets!</b>
         </div>
       </Col>
     </Row>
-    <Row className="row-flex-container">
+    <Row className="row-flex-container  mtop15p">
       <Col md={1}></Col>
-      <Col md={4}>
-      <div className="col-flex-container">
-      <img src={process.env.PROJECT_URL+"assets/images/1.png"}
-        style={{ marginTop:'1vh', padding:'2vw', width:'100%', borderRadius:'50%' }} />
-      </div>
+      <Col md={5}>
+        <Row>
+          <Col md={6} style={{ padding:'1%' }}>
+            <img src={process.env.PROJECT_URL+"assets/images/04.jpg"} style={{ width:'100%', borderRadius:'1vw', border:'0.5vw solid #000' }} />
+          </Col>
+          <Col md={6} style={{ padding:'1%' }}>
+            <div>
+              <img src={process.env.PROJECT_URL+"assets/images/02.jpg"} style={{ width:'100%',  borderRadius:'1vw', marginBottom:'1%', border:'0.5vw solid #000' }} />
+            </div>
+            <div>
+            <img src={process.env.PROJECT_URL+"assets/images/03.jpg"} style={{ width:'100%', borderRadius:'1vw', marginTop:'1%', border:'0.5vw solid #000' }} />
+            </div>
+            
+          </Col>
+        </Row>
       </Col>
-      <Col md={6}>
+      <Col md={5}>
       <div>
-        <div className="bis-hgl-text">
-        "<b>Broadway Info Services</b> is a leading provider of medical billing and revenue cycle management solutions 
-        for healthcare providers and medical practices. We are dedicated to simplifying the complex world of 
-        medical billing, allowing healthcare providers to focus on what they do best - patient care.
-        <br/><br/>
-        With a team of experienced professionals and advanced technology, we offer a comprehensive range 
-        of services to streamline your revenue cycle and maximize your financial performance."
-        <br/><br/>
-        At Broadway Info Services, we are dedicated to building long-term partnerships with our clients. 
-        We are committed to providing exceptional service, transparency, and a focus on your financial success.
+        <div className="bis-hgl-text pad15p">
+        At Pets & Paws Kennel Services, we understand that your pets are family. That’s why we provide a safe, clean, and 
+        nurturing environment where your furry companions receive the love, care, and attention they deserve. Whether you're 
+        looking for boarding, daycare, grooming, or training, we ensure your pet is happy, comfortable, and well-cared for.<br/><br/>
+        With years of experience in pet care and animal welfare, Pets & Paws Kennel Services was founded with one mission: 
+        to offer a home-like experience for pets while their owners are away. Our professional & compassionate team is dedicated 
+        to creating a stress-free environment where your pets feel love & secure.
         </div>
       </div>
       </Col>

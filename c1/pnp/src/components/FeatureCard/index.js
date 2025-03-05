@@ -3,9 +3,9 @@ import { Row, Col, Icon } from "e-ui-react";
 import './index.css';
 
 const FeatureCard = ({ data, rowSize, colorConfig }) =>{
- const titleColor = colorConfig?.color?.title || "#000040" ;
+ const titleColor = colorConfig?.color?.title || "#611e06" ;
  const contentColor = colorConfig?.color?.content || "#555";
- const iconColor = colorConfig?.color?.icon || "#000040";
+ const iconColor = colorConfig?.color?.icon || "#611e06";
  const Item = ({ data })=>{
   return (<div className="d-flex pad15p">
     <div align="center" style={{ width:'25%' }}>

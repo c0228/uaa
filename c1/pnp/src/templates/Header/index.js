@@ -12,7 +12,7 @@ const Header = ({ activeId, menulinks })=>{
   return (<div style={{ display:'flex', flexDirection:'row', width:'100%', marginLeft:'5px', marginRight:'5px' }}>
     <div style={{ width:'80%' }}>
     <a href="#" style={{ textDecoration:'none', color:'#000' }}>
-      <div><span style={{ fontSize:'18px', marginLeft:'8px', fontWeight:600, fontFamily:'Poppins' }}>Pets & Paws Kennel Services</span>
+      <div><span style={{ fontSize:'18px', marginLeft:'8px', fontWeight:600, fontFamily:'Poppins' }}>Pets & Paws Kennels</span>
       </div>
     </a>
     </div>

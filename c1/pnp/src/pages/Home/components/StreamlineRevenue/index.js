@@ -6,7 +6,7 @@ const StreamlineRevenue = () =>{
         <Row>
           <Col md={12}>
             <div align="center" className="bis-hgl-header">
-              <b>Streamline Your Revenue Cycle, Maximize Your Practice's Potential.</b>
+              <b>Where Every Paw is Treated with Love!</b>
             </div>
           </Col>
         </Row>
@@ -15,19 +15,18 @@ const StreamlineRevenue = () =>{
           <Col md={1}></Col>
           <Col md={6}>
             <div className="bis-hgl-text col-flex-container">
-            Navigating the intricate landscape of medical billing can be a daunting task for healthcare providers. From 
-            accurate coding and timely claims submission to efficient payment collection, the process demands meticulous 
-            attention and expertise. However, with the right partner, you can streamline your revenue cycle and focus on 
-            what truly matters: delivering quality patient care.<br/><br/>
-            At Broadway Info Services, we understand the challenges healthcare providers face in managing their financial 
-            operations. Our dedicated team of experts is committed to simplifying your medical billing process, allowing 
-            you to maximize your revenue and minimize administrative burdens.
+              <b>We are more than just a kennel – we are your pet’s second home with Pet’s Comfort, Care & Happiness as Our Priority!</b><br/>
+              At Pets & Paws Kennel Services, we are more than just a pet boarding facility—we are a second home for your 
+              beloved furry companions. Whether you need boarding, daycare, grooming, training, or specialized pet care, our 
+              experienced and compassionate team ensures your pets receive the love, comfort, and attention they deserve.<br/><br/>
+              With our state-of-the-art facilities, fun activities, and expert caregivers, we provide an unparalleled pet care experience 
+              that keeps tails wagging and whiskers twitching with joy!
             </div>
           </Col>
           <Col md={4}>
             <div className="col-flex-container" style={{ padding:'2vw' }}>
-                <img src={process.env.PROJECT_URL+"assets/images/12.png"} 
-                style={{ borderRadius:'0.6vw', boxShadow:'0.1vw 0.1vw 0.1vw 0.1vw #808080' }} />
+                <img src={process.env.PROJECT_URL+"assets/images/01.jpg"} 
+                style={{ borderRadius:'0.6vw', border:'0.5vw solid #000' }} />
             </div>
           </Col>
           <Col md={1}></Col>
