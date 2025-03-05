@@ -1,6 +1,7 @@
 import React from "react";
 import { ContainerFluid, Row, Col, Icon } from "e-ui-react";
 import PropTypes from "prop-types";
+import Upper from '@Templates/Upper/index.js';
 import Header from '@Templates/Header/index.js';
 import Bottom from '@Templates/Bottom/index.js';
 import Footer from '@Templates/Footer/index.js';
@@ -67,22 +68,16 @@ const ContactUs = () =>{
                   <div className="pad15p">
                      <SubTitle label="Meet us" subDesc="We will love to hear from you!" />
                      <div style={{ marginTop:'35px' }}>
-                        <div><b>United States (US):</b></div>
+                        <div><b>Telangana:</b></div>
                         <MeetDetailsTemplate icon="fa-map-marker" 
-                           label={<div>437 Penelope Dr San Marcos, CA 92069</div>} />
-                        <MeetDetailsTemplate icon="fa-phone" label="+1 (518) 662 0266" />
-                     </div>
-                     <div style={{ marginTop:'35px' }}>
-                        <div><b>India:</b></div>
-                        <MeetDetailsTemplate icon="fa-map-marker" 
-                           label={<div>Plot 50 Broadway Venture, Atvelly - Medchal,<br/> Hyderabad 501401</div>} />
-                        <MeetDetailsTemplate icon="fa-phone" label="+91 - 96421 80000" />
+                           label={<div>Plot No. 242 spl, Suprithanagar, M.M kunta, Turkyamjal, Hyderabad 501510</div>} />
+                        <MeetDetailsTemplate icon="fa-phone" label="+91 97033 03888" />
                      </div>
                   </div>
                </Col>
                <Col md={4}>
                   <div style={{ padding:'15px' }}>
-                     <SubTitle label="We are here" subDesc="Mon - Fri | 8:30 AM - 5:30 PM" />
+                     <SubTitle label="We are here" subDesc="Mon - Fri | Available for 24 hours / 7 days" />
                      <div style={{ marginTop:'15px' }}><Map /></div>
                   </div>
                </Col>
@@ -95,6 +90,7 @@ const ContactUs = () =>{
  };
 
  return (<div>
+    <Upper />
     <Header menulinks={HeaderMenu} activeId="ContactUs" />
     <Landing />
     <Template2 />

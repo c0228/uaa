@@ -1,5 +1,6 @@
 import React from "react";
 import { ContainerFluid, Row, Col } from "e-ui-react";
+import Upper from '@Templates/Upper/index.js';
 import { HeaderMenu } from '@Config/HeaderMenu.js';
 import FeatureCard from '@Components/FeatureCard/index.js';
 import Header from '@Templates/Header/index.js';
@@ -13,32 +14,29 @@ const AboutUs = () =>{
       <Row>
          <Col md={12}>
          <div align="center" className="bis-hgl-header mbot15p">
-            <b>About Broadway Info Services: Elevating Healthcare Revenue Cycle Management</b>
+            <b>About Pets & Paws Kennel Services: A Home Away from Home for Your Beloved Pets!</b>
          </div>
          </Col>
       </Row>
       <Row className="row-flex-container">
          <Col md={6}>
          <div className="bis-hgl-text pad15p" style={{ color:'#eee' }}>
-         We're Broadway Info Services, your trusted partner in optimizing healthcare revenue cycle management. Our comprehensive 
-         suite of services, including medical coding, billing, and practice management, is designed to streamline operations, reduce 
-         errors, and maximize revenue. By leveraging advanced technology and industry expertise, we empower healthcare providers to 
-         focus on patient care while we handle the complexities of the administrative side.<br/><br/> Our experienced team leverages advanced 
-         technology to streamline operations, reduce errors, and maximize revenue. 
-         By partnering with us, you can:
+         At Pets & Paws Kennel Services, we are passionate about providing top-quality care, comfort, and companionship 
+         for your beloved pets.<br/>
+         Our state-of-the-art facility is designed to provide a stress-free and enjoyable experience for pets of all sizes 
+         and breeds. We offer:
          <ul className="padLeft15p">
-            <li>Enhance your financial performance</li>
-            <li>Focus on delivering exceptional patient care</li>
-            <li>Reduce administrative burdens</li>
-            <li>Improve overall practice efficiency</li>
-         </ul><br/>
-         With Broadway Info Services, you can rest assured that your revenue cycle is in good hands.
+            <li>Spacious, cozy accommodations with soft bedding and climate control</li>
+            <li>Secure play areas for interactive activities and socialization</li>
+            <li>24/7 supervision by trained professionals to ensure safety and well-being</li>
+            <li>A clean and hygienic space with sanitization for a healthy stay</li>
+         </ul>
          </div>
          </Col>
          <Col md={6}>
-            <div className="col-flex-container pad15p">
-            <img src={process.env.PROJECT_URL+"assets/images/15.png"}
-               style={{ borderRadius:'12px', width:'100%', height:'auto' }} />
+            <div className="col-flex-container">
+            <img src={process.env.PROJECT_URL+"assets/images/02.gif"}
+               style={{ borderRadius:'12px', width:'100%', height:'auto', border:'0.5vw solid #000' }} />
             </div>
          </Col>
       </Row>
@@ -51,30 +49,41 @@ const Template2 = () =>{
       <ContainerFluid>
       <Row>
          <Col md={12}>
-            <div className="bis-hgl-header mtop15p padLeft15p"><b>Your Roadmap to Financial Success in Healthcare</b></div>
+            <div className="bis-hgl-header mtop15p padLeft15p"><b>Comfortable & Spacious Kennels</b></div>
+         </Col>
+      </Row>
+      <Row>
+         <Col md={12}>
+            <div className="bis-hgl-text pad15p">
+            At Pets & Paws Kennel Services, we provide 15 well-ventilated, secure, and cozy kennels, ensuring a comfortable 
+            stay for your furry friends. Each cell is equipped with a fan to maintain a cool and refreshing environment, 
+            especially during warm days.
+            </div>
          </Col>
       </Row>
       <Row className="row-flex-container">
-         <Col md={8}>
+         <Col md={6}>
             <div className="bis-hgl-text pad15p">
-            At Broadway Info Services, we're committed to simplifying the complex world of healthcare revenue cycle
-            management (RCM). Our team of experienced professionals is dedicated to providing top-notch services 
-            that streamline your operations, maximize reimbursements, and enhance patient satisfaction.<br/><br/>
-            Our team of experienced professionals is committed to delivering exceptional service and results. We 
-            leverage advanced technology and industry best practices to streamline processes, reduce errors, and 
-            improve efficiency. Our services include medical coding, billing, claims processing, and revenue cycle 
-            analytics.<br/><br/>
-            We understand the unique challenges faced by healthcare providers, and we are committed to providing 
-            customized solutions to meet their specific needs. Our goal is to help our clients improve their financial 
-            performance, increase operational efficiency, and ensure compliance with regulatory requirements.<br/><br/>
-            With a focus on transparency, accountability, and client satisfaction, Broadway Info Services is your trusted 
-            partner in healthcare RCM. We are dedicated to building long-lasting relationships with our clients, based on 
-            trust, integrity, and mutual success.
+            <ul>
+               <li><b>Spacious Individual Cells –</b> Designed to provide enough room for pets to relax and move comfortably. Secluded areas for pets who prefer a calm and peaceful environment.</li>
+               <li className="mtop15p"><b>Proper Ventilation & Cooling –</b> Each kennel is fitted with fan facilities to ensure a fresh airflow.</li>
+               <li className="mtop15p"><b>Clean & Hygienic Spaces –</b> Regularly sanitized to maintain a safe and healthy environment.</li>
+               <li className="mtop15p"><b>Soft Bedding & Cozy Atmosphere –</b> Your pet enjoys a warm, home-like experience during their stay.</li>
+            </ul>
             </div>
          </Col>
-         <Col md={4}>
+         <Col md={6}>
             <div className="col-flex-container">
-               <img src={process.env.PROJECT_URL+"assets/images/14.png"} />
+               <img src={process.env.PROJECT_URL+"assets/images/03.gif"} 
+               style={{ borderRadius:'12px', width:'100%', height:'auto', border:'0.5vw solid #000' }}  />
+            </div>
+         </Col>
+      </Row>
+      <Row>
+         <Col md={12}>
+            <div className="bis-hgl-text pad15p">
+               Whether your pet is staying for a short visit or an extended period, our 15 well-maintained kennel cells provide 
+               the perfect balance of comfort, safety, and care!
             </div>
          </Col>
       </Row>
@@ -86,37 +95,25 @@ const Template3 = () =>{
    return (<div className="wApp-template-grid">
          <Row>
             <Col md={12}>
-               <div className="bis-hgl-header mtop15p padLeft15p"><b>Our Mission</b></div>
-               <div className="bis-hgl-text pad15p">
-               At Broadway Info Services, we are dedicated to revolutionizing healthcare revenue cycle management (RCM) 
-               by providing innovative solutions that empower healthcare providers to thrive.
+               <div align="center" className="bis-hgl-header mtop15p mbot15p padLeft15p">
+                  <b>Pet's House Location MapView: Your Pet's Cozy Corner</b>
                </div>
             </Col>
          </Row>
          <Row className="row-flex-container mbot15p">
-            <Col md={4}>
-               <div className="col-flex-container">
-                  <img src={process.env.PROJECT_URL+"assets/images/13.png"} />
+            <Col md={6}>
+               <div className="col-flex-container padLeft15p">
+                  <img src={process.env.PROJECT_URL+"assets/images/arch.png"} />
                </div>
             </Col>
-            <Col md={8}>
-               <div className="bis-hgl-text">
-               Our mission is to:<br/>
-               <ul>
-                  <li className="mtop15p"><b>Simplify Complexity:</b> We strive to simplify the intricate processes of RCM, reducing 
-                  administrative burdens and freeing up valuable time for healthcare providers to focus on 
-                  patient care.</li>
-                  <li className="mtop15p"><b>Optimize Revenue:</b> We leverage cutting-edge technology and industry expertise to maximize 
-                  revenue and minimize claim denials, ensuring healthcare providers receive the reimbursement they 
-                  deserve.</li>
-                  <li className="mtop15p"><b>Enhance Efficiency:</b> We implement streamlined workflows and automation tools to improve 
-                  operational efficiency and reduce turnaround times, ultimately leading to faster payments and 
-                  increased cash flow.</li>
-                  <li className="mtop15p"><b>Ensure Compliance:</b> We stay abreast of the ever-evolving regulatory landscape to ensure that 
-                     our clients adhere to all compliance standards, mitigating risks and avoiding penalties.</li>
-                  <li className="mtop15p"><b>Foster Partnerships:</b> We build strong, collaborative relationships with our clients, acting as 
-                     trusted advisors and partners in their journey to financial success.</li>
-               </ul>
+            <Col md={6}>
+               <div className="bis-hgl-text pad15p">
+               Our care center offers 13 cozy and comfortable cells, each designed to provide a safe and stimulating environment for 
+		         your pet. These cells are thoughtfully arranged to ensure minimal disturbance and maximum comfort.<br/><br/>
+		         <b>Standard Cells:</b> These individual cells are perfect for single pets who enjoy their own space. They are equipped 
+               with everything your pet needs to stay happy and healthy, including cozy bedding, stimulating toys, and fresh water.<br/><br/>
+		         <b>Double Cell:</b> This larger cell is ideal for multiple pets from the same household who can share a space. It provides 
+               ample room for them to play, rest, and bond with each other.
                </div>
             </Col>
          </Row>
@@ -128,33 +125,28 @@ const Template4 = () =>{
       <ContainerFluid>
          <Row>
             <Col md={12}>
-               <div align="center" className="bis-hgl-header mbot15p">
-                  <b>Technology Driving Healthcare Efficiency</b>
+               <div align="center" className="bis-hgl-header">
+                  <b>Our Story & Commitment</b>
                </div>
             </Col>
          </Row>
          <Row className="row-flex-container">
             <Col md={6}>
-               <div className="bis-hgl-text">
-               At Broadway Info Services, we're committed to revolutionizing healthcare revenue cycle management (RCM) 
-               through the power of technology. Our advanced solutions streamline processes, boost accuracy, and enhance 
-               overall efficiency.                 
+               <div className="bis-hgl-text pad15p mtop15p">
+               Founded by passionate pet lovers, Pets & Paws Kennel Services was established with a simple mission:               
                <ul>
-                  <li className="mtop15p"><b>Automated Workflows:</b> Our intelligent systems automate routine tasks such as claim submission, 
-                  eligibility verification, and payment posting. This reduces manual effort, minimizes errors, and accelerates 
-                  the entire revenue cycle.</li>
-                  <li className="mtop15p"><b>Advanced Analytics:</b> We harness the power of data analytics to gain valuable insights into your RCM 
-                  performance. By analyzing trends, identifying bottlenecks, and pinpointing areas for improvement, we optimize 
-                  your operations and maximize revenue.</li>
-                  <li className="mtop15p"><b>Secure Cloud-Based Platforms:</b> Our robust cloud infrastructure ensures secure and accessible data 
-                  storage. This enables remote access, real-time collaboration, and seamless data sharing, empowering your team 
-                  to work efficiently from anywhere.</li>
+                  <li className="mtop15p">To create a home-like environment where pets feel happy and stress-free.</li>
+                  <li className="mtop15p">To provide personalized care that meets each pet’s unique needs.</li>
+                  <li className="mtop15p">To ensure safety, hygiene, and professional supervision at all times.</li>
                </ul>
+               <div>We understand that every pet is special, which is why we offer customized services, ranging from 
+               boarding and daycare.</div>
                </div>
             </Col>
             <Col md={6}>
                <div className="col-flex-container">
-               <img src={process.env.PROJECT_URL+"assets/images/16.png"} style={{ marginTop:'25px', borderRadius:'12px', boxShadow:'2px 2px 2px 2px #ccc' }} />
+               <img src={process.env.PROJECT_URL+"assets/images/05.gif"} 
+                  style={{ marginTop:'25px', borderRadius:'12px', border:'0.5vw solid #000' }} />
                </div>
             </Col>
          </Row>
@@ -168,29 +160,23 @@ const Template5 = () =>{
          <Row>
             <Col md={12}>
                <div align="center" className="bis-hgl-header mbot15p">
-                  <b>Benefits of Our Technology-Driven Approach</b>
+                  <b>Why Choose Pets & Paws Kennel Services?</b>
                </div>
             </Col>
          </Row>
          <Row className="row-flex-container">
             <Col md={5}>
                <div className="col-flex-container pad15p">
-                  <img src={process.env.PROJECT_URL+"assets/images/17.png"} style={{ borderRadius:'12px', boxShadow:'2px 2px 2px 2px #ccc' }} />
+                  <img src={process.env.PROJECT_URL+"assets/images/06.gif"} style={{ borderRadius:'12px', border:'0.5vw solid #000' }} />
                </div>
             </Col>
             <Col md={7}>
                <div className="bis-hgl-text pad15p">
                <ul className="padLeft15p">
-                  <li><b>Increased Efficiency:</b> Automated workflows and streamlined processes lead 
-                  to significant time savings and improved productivity.</li>
-                  <li className="mtop15p"><b>Enhanced Accuracy:</b> Advanced analytics and data validation tools minimize 
-                  errors and ensure accurate coding and billing.</li>
-                  <li className="mtop15p"><b>Improved Cash Flow:</b> Faster claim processing, reduced denials, and timely 
-                  payments contribute to a healthier cash flow.</li>
-                  <li className="mtop15p"><b>Enhanced Compliance:</b> Our technology solutions help you stay up-to-date with 
-                  industry regulations and avoid costly penalties.</li>
-                  <li className="mtop15p"><b>Data-Driven Decision Making:</b> Real-time insights and actionable analytics 
-                  empower you to make informed decisions that drive growth.</li>
+                  <li><b>Experienced & Caring Staff –</b> Passionate pet caregivers trained in handling various breeds.</li>
+                  <li className="mtop15p"><b>Fun & Social Atmosphere –</b> Supervised interactions with other pets to encourage play and bonding</li>
+                  <li className="mtop15p"><b>Photo & Video Updates –</b> Stay connected with your pet through daily updates</li>
+                  <li className="mtop15p"><b>Affordable & Flexible Packages –</b> Quality services at competitive prices</li>
                </ul>
                </div>
             </Col>
@@ -302,14 +288,13 @@ const Template7 = () =>{
 };
 
  return (<div>
+    <Upper />
     <Header menulinks={HeaderMenu} activeId="AboutUs" />
       <Template1 />
       <Template2 />
       <Template3 />
       <Template4 />
       <Template5 />
-      <Template6 />
-      <Template7 />
       <Bottom />
     <Footer />
  </div>);

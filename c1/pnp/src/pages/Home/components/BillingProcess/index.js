@@ -18,15 +18,15 @@ const BillingProcess = () =>{
               <ol>
                 <li>
                   <div style={{ color:'#fff' }}><b>A Loving & Homely Environment:</b></div>
-                  <div style={{ color:'#fff7b1' }}>Our facilities are designed to make pets feel comfortable, safe, and stress-free.</div>
+                  <div style={{ color:'#e5e5e3' }}>Our facilities are designed to make pets feel comfortable, safe, and stress-free.</div>
                 </li>
                 <li className="mtop15p">
                   <div style={{ color:'#fff' }}><b>Tailored Care & Attention:</b></div>
-                  <div style={{ color:'#fff7b1' }}>Whether your pet needs a play buddy or extra cuddles, we customize our services to fit their needs.</div>
+                  <div style={{ color:'#e5e5e3' }}>Whether your pet needs a play buddy or extra cuddles, we customize our services to fit their needs.</div>
                 </li>
                 <li className="mtop15p">
                   <div style={{ color:'#fff' }}><b>Regular Exercise & Activities:</b></div>
-                  <div style={{ color:'#fff7b1' }}>Fun playtimes, interactive toys, socialization, and outdoor walks keep your pets happy and active.</div>
+                  <div style={{ color:'#e5e5e3' }}>Fun playtimes, interactive toys, socialization, and outdoor walks keep your pets happy and active.</div>
                 </li>
               </ol>
             </div>
@@ -37,15 +37,15 @@ const BillingProcess = () =>{
                <ol start="4">
                 <li>
                   <div style={{ color:'#fff' }}><b>Veterinary Care Available 24/7:</b></div>
-                  <div style={{ color:'#fff7b1' }}>Because your pet’s health and safety are our top priorities.</div>
+                  <div style={{ color:'#e5e5e3' }}>Because your pet’s health and safety are our top priorities.</div>
                 </li>
                 <li className="mtop15p">
                   <div style={{ color:'#fff' }}><b>A Clean & Hygienic Space:</b></div>
-                  <div style={{ color:'#fff7b1' }}>We maintain strict hygiene standards to keep all pets healthy and safe.</div>
+                  <div style={{ color:'#e5e5e3' }}>We maintain strict hygiene standards to keep all pets healthy and safe.</div>
                 </li>
                 <li className="mtop15p">
                   <div style={{ color:'#fff' }}><b>Live Updates & Pet Reports:</b></div>
-                  <div style={{ color:'#fff7b1' }}>Get photos, videos, and detailed reports about your pet’s activities and well-being while they are with us.</div>
+                  <div style={{ color:'#e5e5e3' }}>Get photos, videos, and detailed reports about your pet’s activities and well-being while they are with us.</div>
                 </li>
                </ol>
             </div>
@@ -54,7 +54,7 @@ const BillingProcess = () =>{
         </Row>
         <Row>
           <Col md={12}>
-            <div align="center" className="bis-hgl-text" style={{ paddingBottom:'2.5vh', color:'#fff7b1' }}>
+            <div align="center" className="bis-hgl-text" style={{ paddingBottom:'2.5vh', color:'#e5e5e3' }}>
               No matter the breed, age, or personality – every pet receives VIP treatment at Pets & Paws Kennel Services! 
             </div>
           </Col>

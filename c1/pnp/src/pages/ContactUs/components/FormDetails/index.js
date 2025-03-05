@@ -16,14 +16,14 @@ const FormDetails = () =>{
               btnType:'light',
               label:'Submit',
               size: 11,
-              style:{ fontWeight:'bold', backgroundColor:'#000040', color:'#fff' }
+              style:{ fontWeight:'bold', backgroundColor:'#611e06', color:'#fff' }
            }}
            btnReset={{
               align:'center',
               btnType:'light',
               label:'Reset',
               size: 11,
-              style:{ fontWeight:'bold', border:'1px solid #000040' }
+              style:{ color:'#611e06', fontWeight:'bold', border:'1px solid #611e06' }
            }}
            onSubmit={async(form, isValidForm)=>{
               if(isValidForm){  

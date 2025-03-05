@@ -1,6 +1,7 @@
 import React, { useEffect } from "react";
 import { ContainerFluid, Row, Col } from "e-ui-react";
 import { scroller } from 'react-scroll';
+import Upper from '@Templates/Upper/index.js';
 import Header from '@Templates/Header/index.js';
 import Bottom from '@Templates/Bottom/index.js';
 import Footer from '@Templates/Footer/index.js';
@@ -62,24 +63,29 @@ const FutureProjects = () =>{
          <Row>
             <Col md={12}>
                <div align="center" className="bis-hgl-header mbot15p" style={{ color:'#fff' }}>
-                  <b>Broadway Info Services: Your Trusted Partner in Healthcare RCM</b>
+                  <b>Online Pet Cell Bookings: Convenient & Hassle-Free Reservations for Your Pet’s Stay</b>
                </div>
             </Col>
          </Row>
          <Row>
-            <Col md={12}>
+            <Col md={6}>
                <div className="bis-hgl-text pad15p" style={{ color:'#ddd' }}>
-               Broadway Info Services is a leading healthcare revenue cycle management (RCM) company dedicated to optimizing your 
-               financial operations. With a focus on efficiency, accuracy, and compliance, we provide a comprehensive range of 
-               services to streamline your revenue cycle and maximize reimbursement.<br/> Our Key Services are
+               At Pets & Paws Kennel Services, we are working on introducing an online pet cell booking system to make your 
+               experience seamless and stress-free.<br/><br/> With just a few clicks, pet owners will be able to reserve a cozy and 
+               secure space for their furry friends from the comfort of their homes. Our user-friendly platform will allow you 
+               to check availability, select preferred dates, choose cell types, and customize services according to your 
+               pet’s needs.<br/><br/>
+               The online booking system will offer real-time updates, instant confirmations, and secure payment options, ensuring 
+               convenience and transparency. Whether you're planning a short-term stay or an extended boarding period, this feature 
+               will make the process quick, easy, and reliable.<br/><br/>
+               Our goal is to provide a smooth, hassle-free experience for pet owners while ensuring their pets enjoy a comfortable 
+               and well-managed stay. Stay tuned for this exciting upgrade at Pets & Paws Kennel Services!
                </div>
             </Col>
-         </Row>
-         <Row>
-            <Col md={12}>
-            <div className="bis-hgl-text">
-               <FeatureCard data={data} colorConfig={{ color:{ title:"#fff", content:"#ddd", icon:"#fff" } }} />
-            </div>
+            <Col md={6}>
+               <div className="col-flex-container">
+                  <img src={process.env.PROJECT_URL+"assets/images/08.jpg"} style={{ border:'0.5vw solid #000', borderRadius:'0.8vw' }} />    
+               </div>
             </Col>
          </Row>
       </ContainerFluid> 
@@ -92,39 +98,30 @@ const FutureProjects = () =>{
       <ContainerFluid>
          <Row>
             <Col md={12}>
-               <div align="center" className="bis-hgl-header mbot15p"><b>Medical Billing Services</b></div>
+               <div align="center" className="bis-hgl-header mbot15p">
+                  <b>E-Commerce Pet Store: One-Stop Destination for All Your Pet’s Needs</b>
+               </div>
             </Col>
          </Row>
          <Row className="row-flex-container">
             <Col md={6}>
                <div className="bis-hgl-text pad15p">
-               Our expert billing team ensures accurate and timely claim submission, follow-up, and 
-               payment posting.<br/> We streamline your revenue cycle by:
-               <ul>
-                  <li className="mtop15p">
-                     <b>Clean Claims Submission:</b> We minimize claim denials by ensuring accurate 
-                     coding and complete documentation.
-                  </li>
-                  <li className="mtop15p">
-                     <b>Efficient Follow-Up:</b> We proactively follow up on claims to accelerate reimbursement.
-                  </li>
-                  <li className="mtop15p">
-                     <b>Accurate Charge Entry:</b> We accurately capture and bill for all services rendered.
-                  </li>
-                  <li className="mtop15p">
-                     <b>Patient Financial Counseling:</b> We provide clear explanations of billing statements and 
-                     assist with payment plans.
-                  </li>
-               </ul>
-               <div className="mtop15p">
-               By optimizing your billing processes, we help you improve cash flow and reduce administrative burdens.
-               </div>
+               At Pets & Paws Kennel Services, we are excited to introduce our upcoming E-Commerce Pet Store, where pet owners 
+               can conveniently shop for premium pet essentials from the comfort of their homes.<br/><br/> 
+               Our online store will offer a wide range of high-quality pet products, including nutritious food, comfortable 
+               bedding, grooming essentials, toys, accessories, and healthcare products.<br/><br/>
+               We aim to provide top-rated, vet-approved products to ensure your pet’s health, happiness, and well-being. With 
+               secure online payments, doorstep delivery, and easy returns, shopping for your furry friend will be more convenient 
+               and stress-free than ever before. Our store will also feature special discounts, seasonal offers, and exclusive 
+               bundles to give you the best value for your money.<br/><br/>
+               Stay tuned as we work towards launching this exciting new platform, making pet care simpler, smarter, and more 
+               accessible for every pet parent!
                </div>
             </Col>
             <Col md={6}>
                <div className="col-flex-container">
-               <img src={process.env.PROJECT_URL+"assets/images/18.png"}  
-                  style={{ marginTop:'15px', borderRadius:'12px', boxShadow:'2px 2px 2px 2px #ccc' }}   />
+               <img src={process.env.PROJECT_URL+"assets/images/09.jpg"}  
+                  style={{ marginTop:'15px', borderRadius:'12px', border:'0.5vw solid #000' }}   />
                </div>
             </Col>
          </Row>
@@ -140,32 +137,29 @@ const FutureProjects = () =>{
          <Row>
             <Col md={12}>
                <div align="center" className="bis-hgl-header mbot15p">
-                  <b>Medical Transcription Services : Unlock the Power of Precision</b>
+                  <b>Individual Cell Access - 360° Camera : Real-Time Monitoring for Your Peace of Mind</b>
                </div>
             </Col>
          </Row>
          <Row className="row-flex-container">
             <Col md={6}>
                <div className="col-flex-container">
-                  <img src={process.env.PROJECT_URL+"assets/images/19.png"} 
-                     style={{ borderRadius:'12px', boxShadow:'2px 2px 2px 2px #ccc' }} />
+                  <img src={process.env.PROJECT_URL+"assets/images/10.jpg"} 
+                     style={{ borderRadius:'12px', border:'0.5vw solid #000' }} />
                </div>
             </Col>
             <Col md={6}>
                <div className="pad15p bis-hgl-text">
-               In today's fast-paced healthcare environment, accurate and timely documentation is crucial. Our medical transcription 
-               services are designed to streamline your workflow and enhance the quality of patient care. Our team of highly skilled 
-               medical transcriptionists possesses a deep understanding of medical terminology and clinical documentation standards. 
-               We deliver precise transcriptions within strict deadlines, ensuring that your reports are available when you need them. 
-               We handle a wide range of medical specialties, including but not limited to cardiology, orthopedics, neurology, 
-               gastroenterology, dermatology, oncology, radiology, psychiatry, and general medicine.<br/><br/>
-               We prioritize patient confidentiality and adhere to strict HIPAA regulations to safeguard sensitive health information. 
-               Our state-of-the-art technology and efficient processes ensure accuracy and speed. Our services integrate seamlessly with 
-               your existing workflow, minimizing disruptions and maximizing productivity.<br/><br/>
-               By outsourcing your medical transcription needs to us, you can free up valuable time for your physicians and staff, 
-               minimize errors and ensure the integrity of your medical records, improve efficient billing and reimbursement, contribute 
-               to better patient outcomes, and reduce administrative burdens.<br/><br/>
-               Our commitment to quality, accuracy, and confidentiality ensures that your medical records are always in good hands.
+               At Pets & Paws Kennel Services, we understand how much you care about your pet’s safety and well-being, even when 
+               they are away from home. That’s why we are developing an advanced 360° camera monitoring system that will allow pet 
+               owners to check on their pets anytime, from anywhere.<br/><br/> 
+               Each pet cell will be equipped with a high-definition 360-degree camera, providing a complete view of your pet’s 
+               space in real time.<br/><br/>
+               Through our secure mobile app or web portal, you’ll be able to watch live footage, receive activity updates, and 
+               ensure your pet is comfortable and happy. This innovative feature will give you peace of mind, knowing that your 
+               beloved pet is safe, well-cared for, and in a secure environment.<br/><br/>
+               With our cutting-edge technology, we are committed to making pet boarding more transparent, reliable, and reassuring 
+               for every pet parent!
                </div>
             </Col>
          </Row>
@@ -181,31 +175,28 @@ const FutureProjects = () =>{
          <Row>
             <Col md={12}>
                <div align="center" className="bis-hgl-header mbot15p">
-                  <b>Medical Coding Services : Our Expert's Precision in Every Code</b>
+                  <b>Pet Adoption : Give a Loving Home to a Furry Friend</b>
                </div>
             </Col>
          </Row>
          <Row className="row-flex-container">
             <Col md={6}>
                <div className="pad15p bis-hgl-text">
-               At Broadway Info Services, we understand the critical role medical coding plays in healthcare revenue 
-               cycle management. Our team of certified medical coders is dedicated to ensuring accurate and timely coding, 
-               maximizing reimbursement, and minimizing claim denials.<br/><br/>
-               Our team of certified medical coders is dedicated to providing accurate and timely coding services for a wide 
-               range of medical specialties. We specialize in ICD-10-CM and CPT coding, ensuring that your claims are coded 
-               correctly and submitted promptly. Our commitment to quality and compliance guarantees that your practice 
-               receives optimal reimbursement while adhering to industry regulations.<br/><br/>
-               We understand the complexities of medical coding and the impact it has on your revenue cycle. Our experienced coders 
-               stay up-to-date with the latest coding guidelines and regulatory changes, ensuring that your claims are processed 
-               efficiently and accurately.<br/><br/>
-               We utilize advanced coding software and technology to streamline the coding process and improve productivity. 
-               Our rigorous quality assurance processes, including regular audits and reviews, guarantee the accuracy of every code.<br/><br/>
-               By partnering with Broadway Info Services, you can rest assured that your medical coding is in expert hands.</div>
+               At Pets & Paws Kennel Services, we believe that every pet deserves a loving home.<br/><br/> 
+               Our upcoming Pet Adoption Program aims to connect abandoned, rescued, and homeless pets with caring and responsible 
+               pet owners. Whether you are looking for a playful puppy, a gentle cat, or a loyal companion, our adoption program will 
+               help you find the perfect match for your family.<br/><br/>
+               We ensure that all our adoptable pets receive proper vaccinations, health check-ups, and basic training before finding 
+               their forever homes. Our team will guide you through the adoption process, pet care tips, and responsibilities to ensure 
+               a smooth transition for both you and your new furry friend.<br/><br/>
+               By adopting a pet, you are not just gaining a companion—you are saving a life and giving them a second chance at 
+               happiness. Join us in creating a better future for animals in need!
+               </div>
             </Col>
             <Col md={6}>
                <div className="col-flex-container">
-                  <img src={process.env.PROJECT_URL+"assets/images/20.png"} 
-                     style={{ marginTop:'35px', borderRadius:'12px', boxShadow:'2px 2px 2px 2px #ccc' }} />
+                  <img src={process.env.PROJECT_URL+"assets/images/11.jpg"} 
+                     style={{ marginTop:'35px', borderRadius:'12px', border:'0.5vw solid #000' }} />
                </div>
             </Col>
          </Row>
@@ -220,33 +211,28 @@ const FutureProjects = () =>{
       <ContainerFluid>
          <Row>
             <Col md={12}>
-               <div align="center" className="bis-hgl-header mbot15p"><b>Compliance Audits</b></div>
+               <div align="center" className="bis-hgl-header mbot15p"><b>Pet Mating Services: Responsible Breeding for Healthy and Happy Pets</b></div>
             </Col>
          </Row>
          <Row className="row-flex-container">
             <Col md={6}>
                <div className="col-flex-container">
-                  <img src={process.env.PROJECT_URL+"assets/images/21.png"} 
-                     style={{  marginTop:'35px', borderRadius:'12px', boxShadow:'2px 2px 2px 2px #ccc' }} />
+                  <img src={process.env.PROJECT_URL+"assets/images/12.jpg"} 
+                     style={{  borderRadius:'12px', border:'0.5vw solid #000' }} />
                </div>
             </Col>
             <Col md={6}>
                <div className="pad15p bis-hgl-text">
-               At Broadway Info Services, we understand the importance of compliance in today's complex healthcare landscape. 
-               Our comprehensive compliance audit services are designed to identify potential risks, ensure regulatory adherence, 
-               and protect your practice from costly penalties.<br/><br/>
-               Our expert auditors conduct thorough reviews of your practice's operations, focusing on areas such as coding and 
-               billing practices, documentation, HIPAA compliance, and Stark Law and Anti-Kickback Statute adherence. We leverage 
-               industry best practices and advanced auditing techniques to identify areas for improvement and potential 
-               vulnerabilities.<br/><br/>
-               By partnering with us, you can gain peace of mind knowing that your practice is operating in compliance with all 
-               relevant regulations. Our compliance audits can help you:<br/><br/>
-               <ul>
-                  <li>Minimize financial risk</li>
-                  <li>Improve operational efficiency</li>
-                  <li>Enhance patient care & Protect your reputation</li>
-               </ul>
-               Let us help you safeguard your practice's future. Contact us today to learn more about our compliance audit services.
+               At Pets & Paws Kennel Services, we are dedicated to providing safe, ethical, and well-managed pet mating services 
+               for responsible pet owners.<br/><br/> Our expert-guided program ensures that pets are paired based on breed compatibility, 
+               health conditions, and genetic well-being to promote healthy offspring.<br/><br/>
+               We prioritize comprehensive health screenings, vaccination checks, and temperament assessments before introducing 
+               pets for mating. Our facility offers a comfortable and stress-free environment where pets can interact naturally 
+               under professional supervision. Additionally, we provide guidance on post-mating care, pregnancy monitoring, and 
+               newborn pet care to support pet owners throughout the process.<br/><br/>
+               Our goal is to ensure healthy breeding practices while maintaining the highest ethical standards. Whether you're 
+               looking to expand your pet family or seeking a suitable mate for your furry companion, our Pet Mating Services 
+               provide a trusted, responsible, and well-regulated solution for all pet lovers.
                </div>
             </Col>
          </Row>
@@ -339,14 +325,13 @@ const FutureProjects = () =>{
  };
 
  return (<div>
-   <Header menulinks={HeaderMenu} activeId="Services" />
+   <Upper />
+   <Header menulinks={HeaderMenu} activeId="FutureProjects" />
    <Template1 />
    <Template2 />
    <Template3 />
    <Template4 />
    <Template5 />
-   <Template6 />
-   <Template7 />
    <Bottom />
    <Footer />
  </div>);

@@ -6,7 +6,7 @@
         padding-right:calc((15/1200)*100vw);padding-bottom:calc((5/1200)*100vw);font-size: calc((12/1200)*100vw);
         line-height:calc((22/1200)*100vw);  }
  .bis-contact-icon { color:#fff;border-radius:50%;padding:calc((15/1200)*100vw);width:calc((50/1200)*100vw);
-    height:calc((50/1200)*100vw);background-color:#000040; }
+    height:calc((50/1200)*100vw);background-color:#611e06; }
 }
 
 @media(max-width:1200px) { 
@@ -14,5 +14,5 @@
  .bis-contact-icon-section { width:20%;background-color:#ccc;border-top-left-radius:50%;border-bottom-left-radius:50%; }
  .bis-contact-label-section { width:80%;background-color:#ccc;border-top-right-radius:12px;border-bottom-right-radius:12px;
         display:flex;align-items:center;padding-top:5px;padding-right:15px;padding-bottom:5px;font-size:12px;line-height:22px; }
- .bis-contact-icon { color:#fff;border-radius:50%;padding:15px;width:50px;height:50px;background-color:#000040; }
+ .bis-contact-icon { color:#fff;border-radius:50%;padding:15px;width:50px;height:50px;background-color:#611e06; }
 }

@@ -6,7 +6,7 @@ import iconShadow from 'leaflet/dist/images/marker-shadow.png';
 import './index.css';
 
 const Map = () => {
-  const position = [29.8343523, -95.7927368]; // Replace with your desired coordinates
+  const position = [17.2476124,78.5626268]; // Replace with your desired coordinates
   let defaultIcon = L.icon({
     iconUrl: icon,
     shadowUrl: iconShadow,
@@ -14,7 +14,7 @@ const Map = () => {
     iconAnchor: [-48, 38]
   });
   return (<div style={{ marginLeft:'15px', marginRight:'15px', border:'1px solid #ccc' }}>
-    <MapContainer center={position} zoom={19} style={{ height:'56vh' }}>
+    <MapContainer center={position} zoom={13} style={{ height:'56vh' }}>
       <TileLayer
         attribution='&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
         url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"

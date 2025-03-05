@@ -30,19 +30,14 @@ const Bottom = () =>{
         <Row>
           <Col md={3}>
             <div><a href={process.env.PROJECT_URL} className="bis-bottom-container-center-url">Home</a></div>
-            <div><a href={process.env.PROJECT_URL+"about-us"} className="bis-bottom-container-center-url">About Us</a></div>
-            <div><a href={process.env.PROJECT_URL+"services"} className="bis-bottom-container-center-url">Services</a></div>
-            <div><a href={process.env.PROJECT_URL+"contact-us"}  className="bis-bottom-container-center-url">Contact Us</a></div>
+            <div><a href={process.env.PROJECT_URL+"services"} className="bis-bottom-container-center-url">Future Projects</a></div>
           </Col>
           <Col md={4}>
-            <div><a href={process.env.PROJECT_URL+"services#medical-billing"} className="fs13 bis-bottom-container-center-url">Medical Billing</a></div>
-            <div><a href={process.env.PROJECT_URL+"services#medical-transcription"} className="fs13 bis-bottom-container-center-url">Medical Transcription</a></div>
-            <div><a href={process.env.PROJECT_URL+"services#medical-coding"} className="fs13 bis-bottom-container-center-url">Medical Coding</a></div>
+            <div><a href={process.env.PROJECT_URL+"about-us"} className="bis-bottom-container-center-url">About Us</a></div>
+            <div><a href={process.env.PROJECT_URL+"contact-us"}  className="bis-bottom-container-center-url">Contact Us</a></div>
           </Col>
           <Col md={5}>
-            <div><a href={process.env.PROJECT_URL+"services#compliance-audits"} className="fs13 bis-bottom-container-center-url">Compliance Audits</a></div>
-            <div><a href={process.env.PROJECT_URL+"services#practice-consulting"} className="fs13 bis-bottom-container-center-url">Practice Consulting</a></div>
-            <div><a href={process.env.PROJECT_URL+"services#credentialing-services"} className="fs13 bis-bottom-container-center-url">Credentialing Services</a></div>
+            <div><a href={process.env.PROJECT_URL+"services"} className="bis-bottom-container-center-url">Services</a></div>
           </Col>
         </Row>
 
