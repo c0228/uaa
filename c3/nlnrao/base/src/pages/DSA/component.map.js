@@ -1,4 +1,7 @@
 import DSA from "@Pages/DSA/index.js";
+
+import BubbleSort from "@Pages/DSA/algorithms/sort-algorithms/BubbleSort/index.js";
+
 import CacheObliviousAlgorithms from "@Pages/DSA/content/01-cache-oblivious-algorithms/index.js";
 import TestAndVerifyAlgorithms from "@Pages/DSA/content/02-test-and-verify-algorithms/index.js";
 import SelfTuningAlgorithms from "@Pages/DSA/content/03-self-tuning-algorithms/index.js";
@@ -8,6 +11,9 @@ import ByzantineFaultTolerance from "@Pages/DSA/content/06-byzantine-fault-toler
 
 export const DSAComponentMap = {
  "DSA": DSA,
+
+ "BubbleSort": BubbleSort,
+
  "CacheObliviousAlgorithms": CacheObliviousAlgorithms,
  "TestAndVerifyAlgorithms": TestAndVerifyAlgorithms,
  "SelfTuningAlgorithms": SelfTuningAlgorithms,

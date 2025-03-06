@@ -1,6 +1,8 @@
 {
     "breadcrumbs":{
         "dsa":[{ "label":"Data Structures & Algorithms", "url":"/" }],
+        "sort-algorithms":[{ "label":"Data Structures & Algorithms", "url":"/" },
+                    { "label":"Sorting Algorithms", "url": "/" }],
         "cache-eviction-strategies":[{ "label":"Data Structures & Algorithms", "url":"tech/dsa/overview" },
                     { "label":"Cache Eviction Strategies", "url":"#" }],
         "terminologies":[{ "label":"Data Structures & Algorithms", "url":"tech/dsa/overview" },
@@ -16,6 +18,13 @@
         "tech/dsa/overview":{
             "date":"October 26, 2024",
             "component": "DSA"
+        },
+
+        "tech/dsa/sorting-algorithms/bubble-sort":{
+            "label": "Bubble Sort",
+            "date":"October 26, 2024",
+            "component": "BubbleSort",
+            "breadcrumbIndex": "sort-algorithms"
         },
 
         "tech/dsa/cache-eviction-strategies/least-recently-used":{

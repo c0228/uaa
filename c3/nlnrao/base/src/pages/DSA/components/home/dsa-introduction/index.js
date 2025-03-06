@@ -9,7 +9,7 @@ const DSAIntroduction = () =>{
       <AlgoOverviewList header="Sorting Algorithms"
         desc="Sorting algorithms arrange elements in a particular order, usually ascending or descending."
         data={[
-              ['Bubble Sort', 'Repeatedly swaps adjacent elements if they are in the wrong order.'],
+              ['Bubble Sort', 'Repeatedly swaps adjacent elements if they are in the wrong order.', 'tech/dsa/sorting-algorithms/bubble-sort'],
               ['Selection Sort', 'Finds the minimum element and places it at the correct position.'],
               ['Insertion Sort', 'Picks an element and places it in its correct position among sorted elements.'],
               ['Merge Sort','Uses a divide-and-conquer approach to merge sorted subarrays.'],
