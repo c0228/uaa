@@ -6,7 +6,7 @@ const Upper = () =>{
  return (<div className="upper-header">
      <div className="upper-header-flex">
        <Icon type="FontAwesome" name="fa-phone-square" size={20} color="#fff" className="desktop-view" />
-       <span className="desktop-view txt-phone-number">+91 97033 03888</span>
+       <span className="desktop-view txt-phone-number">+91 80199 31181</span>
        <span className="desktop-view separator"></span>
        <Icon type="FontAwesome" name="fa-envelope" size={16} color="#fff" className="desktop-view padLeft15p" />
        <span className="desktop-view txt-email">support@petsandpawskennels.com</span>

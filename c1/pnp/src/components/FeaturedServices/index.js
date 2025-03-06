@@ -12,13 +12,13 @@ const FeaturedServices = () =>{
     icon:'fa-paw',
     size:60, 
     title:'Daycare & Playtime', 
-    desc:'Give your dog the gift of socialization and fun! Our daycare program offers supervised playtime in spacious play areas, allowing your dog to interact with other dogs and burn off energy.' 
+    desc:'Give your pet the gift of socialization and fun! Our daycare program offers supervised playtime in spacious play areas, allowing your pet to interact with other pets and burn off energy.' 
   },
   { 
     icon:'fa-scissors', 
     size:60, 
     title:'Grooming & Pampering', 
-    desc:'From baths and haircuts to nail trims and pawdicures, our professional groomers will have your dog looking and feeling their best. We use high-quality products and cater to all breeds and coat types.' 
+    desc:'From baths and haircuts to nail trims and pawdicures, our professional groomers will have your pet looking and feeling their best. We use high-quality products and cater to all breeds and coat types.' 
   }];
  
   const FeatureTile = ({ icon, size, title, desc, config }) =>{

@@ -71,7 +71,7 @@ const ContactUs = () =>{
                         <div><b>Telangana:</b></div>
                         <MeetDetailsTemplate icon="fa-map-marker" 
                            label={<div>Plot No. 242 spl, Suprithanagar, M.M kunta, Turkyamjal, Hyderabad 501510</div>} />
-                        <MeetDetailsTemplate icon="fa-phone" label="+91 97033 03888" />
+                        <MeetDetailsTemplate icon="fa-phone" label="+91 80199 31181" />
                      </div>
                   </div>
                </Col>
