@@ -1,0 +1,12 @@
+{
+    "breadcrumbs":{
+        "frontend":[{ "label":"Frontend", "url":"/" }]
+    },
+    "urls":{
+        "tech/frontend/overview":{
+            "date":"October 26, 2024",
+            "component": "Frontend",
+            "keywords":[]
+        }
+    }
+}
