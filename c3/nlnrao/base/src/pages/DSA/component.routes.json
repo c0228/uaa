@@ -21,7 +21,7 @@
         },
 
         "tech/dsa/sorting-algorithms/bubble-sort":{
-            "label": "Bubble Sort",
+            "label": "Bubble Sort: An In-Depth Analysis with Notations & JavaScript Implementation",
             "date":"October 26, 2024",
             "component": "BubbleSort",
             "breadcrumbIndex": "sort-algorithms"

@@ -47,7 +47,7 @@ const DSANotations = () =>{
     return (<div>
         <div className="list-header">DSA Notations</div>
         {data?.map((d,i)=>{
-            return (<div style={{ paddingTop:'15px' }}>
+            return (<div key={i} style={{ paddingTop:'15px' }}>
                 <div><b>{i+1}. {d?.title}</b></div>
                 <div style={{ paddingLeft:'15px', paddingTop:'5px', lineHeight:'26px' }}>
                  {d?.desc}
