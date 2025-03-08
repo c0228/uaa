@@ -17,7 +17,7 @@ const Others = () =>{
         </div>
     </div>
 
-    <div className="mbot15p">
+    <div className="mtop15p mbot15p">
     <Card padding={15} backgroundColor="#f5f5f5">
         <div className="mbot15p"><h4><b>Summary:</b></h4></div>
         <OrderList data={[(<div><b>Worst Case:</b> O(n<sup>2</sup>),<br/>

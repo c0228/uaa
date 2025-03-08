@@ -11,7 +11,7 @@ const DSAIntroduction = () =>{
         data={[
               ['Bubble Sort', 'Repeatedly swaps adjacent elements if they are in the wrong order.', 'tech/dsa/sorting-algorithms/bubble-sort'],
               ['Selection Sort', 'Finds the minimum element and places it at the correct position.', 'tech/dsa/sorting-algorithms/selection-sort'],
-              ['Insertion Sort', 'Picks an element and places it in its correct position among sorted elements.'],
+              ['Insertion Sort', 'Picks an element and places it in its correct position among sorted elements.', 'tech/dsa/sorting-algorithms/insertion-sort'],
               ['Merge Sort','Uses a divide-and-conquer approach to merge sorted subarrays.'],
               ['Quick Sort', 'Selects a pivot and partitions the array around it.'],
               ['Heap Sort', 'Uses a binary heap structure to sort elements efficiently.'],
