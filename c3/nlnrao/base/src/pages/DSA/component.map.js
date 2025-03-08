@@ -1,6 +1,7 @@
 import DSA from "@Pages/DSA/index.js";
 
 import BubbleSort from "@Pages/DSA/algorithms/sort-algorithms/BubbleSort/index.js";
+import SelectionSort from "@Pages/DSA/algorithms/sort-algorithms/SelectionSort/index.js";
 
 import CacheObliviousAlgorithms from "@Pages/DSA/content/01-cache-oblivious-algorithms/index.js";
 import TestAndVerifyAlgorithms from "@Pages/DSA/content/02-test-and-verify-algorithms/index.js";
@@ -13,6 +14,7 @@ export const DSAComponentMap = {
  "DSA": DSA,
 
  "BubbleSort": BubbleSort,
+ "SelectionSort": SelectionSort,
 
  "CacheObliviousAlgorithms": CacheObliviousAlgorithms,
  "TestAndVerifyAlgorithms": TestAndVerifyAlgorithms,

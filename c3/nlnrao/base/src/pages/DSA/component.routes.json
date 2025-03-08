@@ -2,7 +2,7 @@
     "breadcrumbs":{
         "dsa":[{ "label":"Data Structures & Algorithms", "url":"/" }],
         "sort-algorithms":[{ "label":"Data Structures & Algorithms", "url":"/" },
-                    { "label":"Sorting Algorithms", "url": "/" }],
+                    { "label":"Sorting Algorithms", "url": "tech/dsa/overview" }],
         "cache-eviction-strategies":[{ "label":"Data Structures & Algorithms", "url":"tech/dsa/overview" },
                     { "label":"Cache Eviction Strategies", "url":"#" }],
         "terminologies":[{ "label":"Data Structures & Algorithms", "url":"tech/dsa/overview" },
@@ -24,6 +24,12 @@
             "label": "Bubble Sort: An In-Depth Analysis with Notations & JavaScript Implementation",
             "date":"October 26, 2024",
             "component": "BubbleSort",
+            "breadcrumbIndex": "sort-algorithms"
+        },
+        "tech/dsa/sorting-algorithms/selection-sort":{
+            "label": "Selection Sort: An In-Depth Analysis with Notations & JavaScript Implementation",
+            "date":"October 26, 2024",
+            "component": "SelectionSort",
             "breadcrumbIndex": "sort-algorithms"
         },
 

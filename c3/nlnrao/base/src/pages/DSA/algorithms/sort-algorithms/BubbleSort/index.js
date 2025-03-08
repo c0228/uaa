@@ -11,7 +11,7 @@ import Others from "./components/Others/index.js";
 
 const BubbleSort = ({ meta }) =>{
   return (<div>
-  <Header menulinks={HeaderMenu} activeId="SystemDesign" />
+  <Header menulinks={HeaderMenu} activeId="DSA" />
   <ContainerFluid>
     <Row>
       <Col md={8}>

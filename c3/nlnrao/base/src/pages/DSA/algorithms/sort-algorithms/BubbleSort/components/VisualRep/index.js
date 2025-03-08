@@ -71,8 +71,8 @@ const VisualRep = () => {
       <div><h4><b>VISUAL REPRESENTATION</b></h4></div>
       <canvas ref={canvasRef} width={500} height={300} style={{ display: "block", margin: "auto" }}></canvas>
       <div className="btn-group mt-3" role="group">
-        <Button type={active==='asc'?"primary":"outline-primary"} onClick={() => { setData([...initialData]); bubbleSort("asc"); }}><b>Ascending Order</b></Button>
-        <Button type={active==='desc'?"primary":"outline-primary"} onClick={() => { setData([...initialData]); bubbleSort("desc"); }}><b>Descending Order</b></Button>
+        <Button type={active==='asc'?"dark":"outline-dark"} onClick={() => { setData([...initialData]); bubbleSort("asc"); }}><b>Ascending Order</b></Button>
+        <Button type={active==='desc'?"dark":"outline-dark"} onClick={() => { setData([...initialData]); bubbleSort("desc"); }}><b>Descending Order</b></Button>
       </div>
     </div>
     </Card>

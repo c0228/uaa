@@ -12,7 +12,7 @@ const Introduction = () =>{
       if they are in the wrong order. It continues until the list is sorted.
     </div>
     <div><h4 className="mtop15p"><b>How It Works (Step-by-Step):</b></h4></div>
-    <div>
+    <div className="fs16p">
       <OrderList data={[(<div>Compare adjacent elements.</div>),
                     (<div>Swap them if they are in the wrong order.</div>),
                     (<div>Move to the next pair and repeat until the entire array is sorted.</div>),

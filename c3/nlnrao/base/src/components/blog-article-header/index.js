@@ -11,7 +11,13 @@ const BlogArticleHeader = ({ metaData }) => {
     if (!metaData) return null;
     
     const { breadCrumbRoute = [], label, date } = metaData;
-    const breadCrumbData = [...breadCrumbRoute, { label, url: "#" }];
+    const breadCrumbData = [
+      ...breadCrumbRoute.map(({ label, url }) => ({
+        label,
+        url: url !== "#" && url !== "/" ? `${process.env.PROJECT_URL}${url}` : url,
+      })),
+      { label, url: "#" },
+    ];
     console.log("breadCrumbData: ", breadCrumbData);
     return (
       <div>
