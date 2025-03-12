@@ -3,6 +3,11 @@ import { ContainerFluid, Row, Col, Breadcrumb, Colors, Button, Select, Card, Swi
 import Header from '@Templates/Header/index.js';
 import { HeaderMenu } from '@Config/HeaderMenu.js';
 import BlogArticleHeader from '@Components/blog-article-header/index.js';
+import Introduction from './components/introduction/index.js';
+import Implementation from './components/implementation/index.js';
+import ServiceDiscovery from './components/service-discovery/index.js';
+import APIGateway from './components/api-gateway/index.js';
+import SecureMonitorMS from './components/secure-monitor-ms/index.js';
 
 const RestApiMsArch = ({ meta }) =>{
  return (<div>
@@ -11,6 +16,11 @@ const RestApiMsArch = ({ meta }) =>{
       <Row>
         <Col md={8}>
           <BlogArticleHeader metaData={meta} />
+          <Introduction />
+          <Implementation />
+          <ServiceDiscovery />
+          <APIGateway />
+          <SecureMonitorMS />
         </Col>
        </Row>
     </ContainerFluid>
