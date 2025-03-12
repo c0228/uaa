@@ -55,7 +55,7 @@
         },
         "tech/java/spring-boot-framework/there-are-three-microservices-m1-m2-m3-associated-with-three-databases-d1-d2-d3-respectively-now-m1-is-calling-m2-and-m2-is-calling-m3-if-m3-transaction-fails-m1-and-m2-database-transactions-should-roll-back-how-could-you-handle-this":{
             "date":"October 26, 2024",
-            "label":"There are three Microservices M1,M2, M3 associated with three Databases D1, D2, D3 respectively. Now, M1 is calling M2 and M2 is calling M3. If M3 transaction fails, M1 and M2 Database Transactions should roll back. How could you handle this?",
+            "label":"There are three Microservices M1, M2, M3 associated with three Databases D1, D2, D3 respectively. Now, M1 is calling M2 and M2 is calling M3. If M3 transaction fails, M1 and M2 Database Transactions should roll back. How could you handle this?",
             "component": "M1M2M3D",
             "breadcrumbIndex": "springFramework",
             "keywords":[]
