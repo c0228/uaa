@@ -3,6 +3,8 @@ import { ContainerFluid, Row, Col, Breadcrumb, Colors, Button, Select, Card, Swi
 import Header from '@Templates/Header/index.js';
 import { HeaderMenu } from '@Config/HeaderMenu.js';
 import BlogArticleHeader from '@Components/blog-article-header/index.js';
+import Introduction from "./components/introduction/index.js";
+import CustomErrorHandle from "./components/custom-error-handle/index.js";
 
 const FeignClientHandleErrors = ({ meta }) =>{
  return (<div>
@@ -11,6 +13,8 @@ const FeignClientHandleErrors = ({ meta }) =>{
       <Row>
         <Col md={8}>
           <BlogArticleHeader metaData={meta} />
+          <Introduction />
+          <CustomErrorHandle />
         </Col>
        </Row>
     </ContainerFluid>
