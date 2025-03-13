@@ -38,7 +38,7 @@ const Zuul2 = () =>{
         <div class="table-responsive">
             <table class="table">
                 <thead>
-                    <tr>
+                    <tr style={{ backgroundColor:'#eee' }}>
                         <td><b>Feature</b></td>
                         <td><b>Spring Cloud Gateway</b></td>
                         <td><b>Zuul (Netflix OSS)</b></td>
