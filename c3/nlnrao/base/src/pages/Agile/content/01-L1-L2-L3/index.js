@@ -11,12 +11,12 @@ const DefineL1L2L3 = ({ meta }) =>{
  const L1Support = ()=>{
   return (<>
     <div className="mtop35p"><h4 align="center" className="blog-head"><b>Level-1 (L1) Tier Support</b></h4></div>
-    <div className="mtop15p blog-desc">
+    <div className="mtop15p">
         <u><i>Level-1 (L1) Tier Support</i></u> serves as the frontline assistance for users encountering technical issues. These support 
         agents are often the initial point of contact, handling basic inquiries and routine tasks of the Application. 
     </div>
     <div class="mtop15p"><h5 className="blog-head"><b>Roles and Responsibilities</b></h5></div>
-    <div class="mtop15p blog-desc">
+    <div class="mtop15p">
         <ul>
             <li><b>Initial Point of Contact:</b> L1 support serves as the first line of contact for users encountering 
             technical issues, providing a friendly and responsive interface for issue resolution.</li>
@@ -31,7 +31,7 @@ const DefineL1L2L3 = ({ meta }) =>{
         </ul>
     </div>
     <div className="mtop15p"><h5 className="blog-head"><b>Support Timeline</b></h5></div>
-    <div className="mtop15p blog-desc">
+    <div className="mtop15p">
         <ul>
             <li>
                 <div><b>Initial Response Time (0-2 hours) :</b></div>
@@ -56,13 +56,13 @@ const DefineL1L2L3 = ({ meta }) =>{
  const L2Support = ()=>{
   return (<>
     <div className="mtop35p"><h4 align="center" className="blog-head"><b>Level-2 (L2) Tier Support</b></h4></div>
-    <div className="mtop15p blog-desc">
+    <div className="mtop15p">
     <u><i>Level-2 (L2) Tier Support</i></u> comprises specialized technicians who handle escalated issues from Level 1 support. These agents possess 
     deeper technical knowledge and expertise to tackle complex problems that require advanced troubleshooting. They maintain open 
     communication channels with both users and Level 1 support to ensure seamless issue resolution and knowledge transfer.
     </div>
     <div class="mtop15p"><h5 className="blog-head"><b>Roles and Responsibilities</b></h5></div>
-    <div class="mtop15p blog-desc">
+    <div class="mtop15p">
         <ul>
             <li><b>Advanced Troubleshooting:</b> L2 support agents possess deeper technical expertise and undertake complex 
             troubleshooting tasks beyond the scope of L1 support, including system configuration, software conflicts, and 
@@ -78,7 +78,7 @@ const DefineL1L2L3 = ({ meta }) =>{
         </ul>
     </div>
     <div className="mtop15p"><h5 className="blog-head"><b>Support Timeline</b></h5></div>
-    <div className="mtop15p blog-desc">
+    <div className="mtop15p">
         <ul>
             <li>
                 <div><b>Escalation Time (Within 2-4 hours)</b></div>
@@ -103,7 +103,7 @@ const DefineL1L2L3 = ({ meta }) =>{
  const L3Support = ()=>{
     return (<>
       <div className="mtop35p"><h4 align="center" className="blog-head"><b>Level-3 (L3) Tier Support</b></h4></div>
-      <div className="mtop15p blog-desc">
+      <div className="mtop15p">
         <u><i>Level-3 (L3) Tier Support</i></u> represents the highest tier of expertise, comprising specialized engineers or 
         subject matter experts. These individuals possess extensive technical knowledge and experience in specific domains or 
         technologies. L3 support handles the most challenging and critical issues that require advanced diagnostics, code-level 
@@ -112,7 +112,7 @@ const DefineL1L2L3 = ({ meta }) =>{
         system optimization, and proactive maintenance to enhance overall system reliability and performance.
       </div>
       <div class="mtop15p"><h5 className="blog-head"><b>Roles and Responsibilities</b></h5></div>
-      <div class="mtop15p blog-desc">
+      <div class="mtop15p">
         <ul>
             <li><b>Specialized Expertise:</b> L3 support comprises highly skilled specialists or subject matter experts with in-depth 
             knowledge of specific technologies, systems, or domains.</li>
@@ -127,9 +127,9 @@ const DefineL1L2L3 = ({ meta }) =>{
         </ul>
       </div>
       <div className="mtop15p"><h5 className="blog-head"><b>Support Timeline</b></h5></div>
-    <div className="mtop15p blog-desc">
+    <div>
         <ul>
-            <li>
+            <li className="mtop15p">
                 <div><b>Escalation Time: Within 1-2 business days</b></div>
                 <div>Issues that require escalation to L3 support are usually identified by L2 support based on their complexity, 
                 impact, or specialized expertise needed for resolution. Escalation to L3 support typically occurs within a shorter 
@@ -161,15 +161,16 @@ const DefineL1L2L3 = ({ meta }) =>{
     <Row>
         <Col xxl={8} xl={8}>
             <BlogArticleHeader metaData={meta} />
-            <div className="mtop15p blog-desc">
-            In the context of Agile methodology, the terms <b>L1</b>, <b>L2</b> and <b>L3</b> typically refer to different tiers or levels 
-            of support provided to the Client by IT Team for an Application in the Production.  These tiers are commonly 
-            associated with remote IT support, but they can apply to various support structures.
+            <div className="lh28p fs16p mtop15p">
+            <div><i>
+            In the context of Agile methodology, the terms <b>L1</b>, <b>L2</b> and <b>L3</b> typically refer to different 
+            tiers or levels of support provided to the Client by IT Team for an Application in the Production.  These tiers are 
+            commonly associated with remote IT support, but they can apply to various support structures.</i>
             </div>
             <L1Support />
             <L2Support />
             <L3Support />
-            <div className="mtop35p mbot60p blog-desc">
+            <div className="mtop35p mbot60p">
             In terms of developers' involvement:
             <ul>
                 <li className="mtop15p">L1 support may involve junior developers or support staff who handle basic troubleshooting and triage.</li>
@@ -181,6 +182,7 @@ const DefineL1L2L3 = ({ meta }) =>{
             Each level collaborates closely with the others, with issues escalating from L1 to L2 and potentially to L3 if necessary. 
             Effective communication and collaboration between these support tiers are essential for quickly and efficiently resolving 
             production issues and maintaining system reliability.
+            </div>
             </div>
         </Col>
         <Col all={4}>
