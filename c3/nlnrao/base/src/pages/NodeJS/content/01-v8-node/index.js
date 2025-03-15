@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import { ContainerFluid, Row, Col } from "e-ui-react";
+import { ContainerFluid, Row, Col, Card } from "e-ui-react";
 import Header from '@Templates/Header/index.js';
 import { HeaderMenu } from '@Config/HeaderMenu.js';
 import BlogArticleHeader from '@Components/blog-article-header/index.js';
@@ -54,10 +54,13 @@ const V8Node = ({ meta }) =>{
             dynamic content updates, and client-side interactions. While each engine had its own unique features and optimizations, they all 
             aimed to provide fast and efficient JavaScript execution within the context of a web browser.
             </div>
-            <div className="mtop15p cardBox blog-desc">
+            
+            <div className="mtop15p">
+            <Card padding={15} backgroundColor="#eee">
             The <u><b>V8 JavaScript Engine</b></u> was introduced into the market in 2008 alongside the initial release of Google Chrome. 
             The introduction of the V8 engine was one of the key innovations of Chrome, aimed at providing a fast and efficient browsing 
             experience by improving JavaScript performance.
+            </Card>
             </div>
             <div className="mtop35p blog-desc">
                 <div align="center"><h4 className="blog-head"><b>How Node JS works with V8 JS Engine?</b></h4></div>

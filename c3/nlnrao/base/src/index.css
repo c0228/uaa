@@ -39,8 +39,6 @@ a.href-simple { text-decoration:none; }
 
 .hljs { font-size: 14px !important; }
 
-.cardBox { background-color:#eee;border:1px solid #ccc;border-radius:8px;padding:15px;margin-top:15px;margin-bottom:15px; }
-
 .list-header { font-family:'BebasNeue';font-size:18px;letter-spacing:1.5px;padding-bottom:8px;border-bottom:1px solid #ccc; }
 
 .blog-head { font-family: Metropolis;line-height:36px;color:#000; }
