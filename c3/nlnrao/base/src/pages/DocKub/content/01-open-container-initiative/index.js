@@ -3,6 +3,10 @@ import { ContainerFluid, Row, Col, Breadcrumb, Colors, Button, Select, Card, Swi
 import Header from '@Templates/Header/index.js';
 import { HeaderMenu } from '@Config/HeaderMenu.js';
 import BlogArticleHeader from '@Components/blog-article-header/index.js';
+import Introduction from './components/introduction/index.js';
+import Relationship from "./components/relationship/index.js";
+import OneRunTimeAnother from "./components/one-runtime-another/index.js";
+import Conclusion from './components/conclusion/index.js';
 
 const OCI = ({ meta }) =>{
  return (<div>
@@ -11,6 +15,10 @@ const OCI = ({ meta }) =>{
       <Row>
         <Col md={8}>
           <BlogArticleHeader metaData={meta} />
+          <Introduction />
+          <Relationship />
+          <OneRunTimeAnother />
+          <Conclusion />
         </Col>
        </Row>
     </ContainerFluid>
