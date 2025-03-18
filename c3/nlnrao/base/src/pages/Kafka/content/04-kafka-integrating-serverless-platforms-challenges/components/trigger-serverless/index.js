@@ -1,5 +1,5 @@
 import React from "react";
-import BlogIndexHeader from "@Components/blog-index-header/index.js";
+import { BlogIndexHeader } from "@Components/blog-index-header/index.js";
 
 const TriggerServerless = () =>{
  return (<div className="lh28p fs16p mtop15p">
@@ -22,7 +22,8 @@ const TriggerServerless = () =>{
         </div>
         <div>Alternatively, a dedicated Kafka consumer (running on AWS Fargate 
             or an EC2 instance) can invoke Lambda functions when messages arrive.</div>
-
+    </div>
+    <div className="mtop15p">
         <BlogIndexHeader type="h4" index="2" title="Using Google Cloud Functions with Apache Kafka" />
         <div className="padLeft5p">
         Google Cloud Functions does not provide native Kafka triggers. However, you can achieve integration 
@@ -37,7 +38,8 @@ const TriggerServerless = () =>{
                 <li>Process and store the events as needed.</li>
             </ol>
         </div>
-
+    </div>
+    <div className="mtop15p">
         <BlogIndexHeader type="h4" index="3" title="Using Kafka Connect and Serverless Endpoints" />
         <div className="padLeft5p">Kafka Connect can be configured to push events to serverless endpoints such as 
             AWS API Gateway, Google Cloud Endpoints, or HTTP-triggered serverless functions.</div>
