@@ -3,6 +3,10 @@ import { ContainerFluid, Row, Col, Breadcrumb, Colors, Button, Select, Card, Swi
 import Header from '@Templates/Header/index.js';
 import { HeaderMenu } from '@Config/HeaderMenu.js';
 import BlogArticleHeader from '@Components/blog-article-header/index.js';
+import Introduction from "./components/introduction/index.js";
+import SQLNoSQLCompare from "./components/sql-nosql-compare/index.js";
+import ChooseRight from "./components/choose-right/index.js";
+import Conclusion from "./components/conclusion/index.js";
 
 const PolyglotPersistence = ({ meta }) =>{
  return (<div>
@@ -11,6 +15,10 @@ const PolyglotPersistence = ({ meta }) =>{
       <Row>
         <Col md={8}>
           <BlogArticleHeader metaData={meta} />
+          <Introduction />
+          <SQLNoSQLCompare />
+          <ChooseRight />
+          <Conclusion />
         </Col>
        </Row>
     </ContainerFluid>
