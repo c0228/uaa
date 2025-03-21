@@ -8,7 +8,7 @@ import SagaPattern from "./components/saga-pattern/index.js";
 import Conclusion from "./components/conclusion/index.js";
 
 const MsDistributedTransactionWorkMode = ({ meta }) =>{
- return (<div>
+ return (<div className="mbot15p">
   <Header menulinks={HeaderMenu} activeId="Home" />
    <ContainerFluid>
       <Row>
