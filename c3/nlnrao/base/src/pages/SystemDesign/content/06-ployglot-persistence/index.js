@@ -9,7 +9,7 @@ import ChooseRight from "./components/choose-right/index.js";
 import Conclusion from "./components/conclusion/index.js";
 
 const PolyglotPersistence = ({ meta }) =>{
- return (<div>
+ return (<div className="mbot15p">
   <Header menulinks={HeaderMenu} activeId="Home" />
    <ContainerFluid>
       <Row>
