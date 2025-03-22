@@ -1,24 +1,96 @@
 {
     "breadcrumbs":{
         "dsa":[{ "label":"Data Structures & Algorithms", "url":"/" }],
+
+        "memory-optimization-cache-aware-algorithms":[{ "label":"Data Structures & Algorithms", "url":"/" },
+                    { "label":"Memory Optimization and Cache Aware Algorithms", "url":"tech/dsa/overview" }],
+
+        "testing-and-debugging-algorithms":[{ "label":"Data Structures & Algorithms", "url":"/" },
+        { "label":"Testing and Debugging Algorithms", "url":"tech/dsa/overview" }],
+
+        "performance-tuning-and-profiling":[{ "label":"Data Structures & Algorithms", "url":"/" },
+        { "label":"Performance Tuning & Profiling", "url":"tech/dsa/overview" }],
+
+        "computational-geometry":[{ "label":"Data Structures & Algorithms", "url":"/" },
+        { "label":"Computational Geometry", "url":"tech/dsa/overview" }],
+
+        "advanced-algorithm-design-and-system-optimization":[{ "label":"Data Structures & Algorithms", "url":"/" },
+        { "label":"Advanced Algorithm Design & System Optimization", "url":"tech/dsa/overview" }],
+
+        "advanced-distributed-computing-and-blockchain":[{ "label":"Data Structures & Algorithms", "url":"/" },
+        { "label":"Advanced Distributed Computing and Blockchain", "url":"tech/dsa/overview" }],
+
+
+
         "sort-algorithms":[{ "label":"Data Structures & Algorithms", "url":"/" },
                     { "label":"Sorting Algorithms", "url": "tech/dsa/overview" }],
+
         "cache-eviction-strategies":[{ "label":"Data Structures & Algorithms", "url":"tech/dsa/overview" },
                     { "label":"Cache Eviction Strategies", "url":"#" }],
+
         "terminologies":[{ "label":"Data Structures & Algorithms", "url":"tech/dsa/overview" },
                     { "label":"Terminologies", "url":"#" }],
+
         "system-design-algorithms":[{ "label":"DSA", "url":"tech/dsa/overview" },
                     { "label":"System Design Algorithms", "url":"#" }],
+
         "load-balancing-algorithms":[{ "label":"DSA", "url":"tech/dsa/overview" },
                     { "label":"Load Balancing Algorithms", "url":"#" }],
+
         "distributed-systems-consensus-algorithms":[{ "label":"DSA", "url":"tech/dsa/overview" },
                     { "label":"Distributed Systems & Consensus Algorithms", "url":"#" }]
     },
     "urls":{
         "tech/dsa/overview":{
             "date":"October 26, 2024",
-            "component": "DSA"
+            "component": "DSA",
+            "keywords":[]
         },
+
+        "tech/dsa/memory-optimization-cache-aware-algorithms/what-are-cache-oblivious-algorithms-and-how-do-they-optimize-performance-in-modern-architectures-provide-examples-of-related-data-structures-and-algorithms":{
+            "label": "What are cache-oblivious algorithms, and how do they optimize performance in modern architectures? Provide examples of related data structures and algorithms.",
+            "date":"October 26, 2024",
+            "component": "CacheObliviousAlgorithms",
+            "breadcrumbIndex": "memory-optimization-cache-aware-algorithms",
+            "keywords":[]
+        },
+        "tech/dsa/testing-and-debugging-algorithms/how-do-you-test-and-verify-algorithm-and-data-structure-correctness-especially-in-complex-or-concurrent-scenarios":{
+            "label": "How do you test and verify algorithm and data structure correctness, especially in complex or concurrent scenarios?",
+            "date": "October 26, 2024",
+            "component": "TestAndVerifyAlgorithms",
+            "breadcrumbIndex": "testing-and-debugging-algorithms",
+            "keywords":[]
+        },
+        "tech/dsa/performance-tuning-and-profiling/how-can-self-tuning-algorithms-adjust-parameters-based-on-input-data-and-hardware-simplifying-development-and-improving-performance":{
+            "label": "How can self-tuning algorithms adjust parameters based on input data and hardware, simplifying development and improving performance?",
+            "date": "October 26, 2024",
+            "component": "SelfTuningAlgorithms",
+            "breadcrumbIndex": "performance-tuning-and-profiling",
+            "keywords":[]
+        },
+        "tech/dsa/computational-geometry/what-are-advanced-geometric-algorithms-and-how-are-they-applied-in-computer-graphics-robotics-and-geographic-information-systems":{
+            "label": "What are advanced geometric algorithms, and how are they applied in computer graphics, robotics, and Geographic Information Systems (GIS)?",
+            "date":"October 26, 2024",
+            "component": "AdvancedGeometricAlgorithms",
+            "breadcrumbIndex": "computational-geometry",
+            "keywords":[]
+        },
+        "tech/dsa/advanced-algorithm-design-and-system-optimization/how-do-you-design-algorithms-and-data-structures-for-handling-datasets-larger-than-memory-explore-external-memory-streaming-and-distributed-processing-techniques":{
+            "label": "How do you design algorithms and data structures for handling datasets larger than memory? Explore external memory, streaming, and distributed processing techniques.",
+            "date":"October 26, 2024",
+            "component": "HandlingDataSetsLargerThanMemory",
+            "breadcrumbIndex": "advanced-algorithm-design-and-system-optimization",
+            "keywords":[]
+        },
+        "tech/dsa/advanced-distributed-computing-and-blockchain/what-is-the-byzantine-generals-problem-and-how-do-byzantine-fault-tolerance-algorithms-like-practical-byzantine-fault-tolerance-and-tendermint-address-it-in-blockchain-what-are-their-scalability-and-complexity-limitations":{
+            "date":"October 26, 2024",
+            "label":"What is the Byzantine Generals' Problem, and how do Byzantine Fault Tolerance (BFT) algorithms like Practical Byzantine Fault Tolerance (PBFT) and Tendermint address it in blockchain? What are their scalability and complexity limitations?",
+            "component": "ByzantineFaultTolerance",
+            "breadcrumbIndex": "advanced-distributed-computing-and-blockchain",
+            "keywords":[]
+        },
+
+
 
         "tech/dsa/sorting-algorithms/bubble-sort":{
             "label": "Bubble Sort: An In-Depth Analysis with Notations & JavaScript Implementation",
@@ -242,49 +314,6 @@
             "label":"Vector Clocks & Lamport Timestamps",
             "date":"October 26, 2024",
             "breadcrumbIndex": "distributed-systems-consensus-algorithms"
-        },
-
-        "tech/dsa/what-are-cache-oblivious-algorithms-and-how-do-they-optimize-performance-in-modern-architectures-provide-examples-of-related-data-structures-and-algorithms":{
-            "date":"October 26, 2024",
-            "label":"What are cache-oblivious algorithms, and how do they optimize performance in modern architectures? Provide examples of related data structures and algorithms.",
-            "component": "",
-            "breadcrumbIndex": "dsa",
-            "keywords":[]
-        },
-        "tech/dsa/how-do-you-test-and-verify-algorithm-and-data-structure-correctness-especially-in-complex-or-concurrent-scenarios":{
-            "date":"October 26, 2024",
-            "label":"How do you test and verify algorithm and data structure correctness, especially in complex or concurrent scenarios?",
-            "component": "",
-            "breadcrumbIndex": "dsa",
-            "keywords":[]
-        },
-        "tech/dsa/how-can-self-tuning-algorithms-adjust-parameters-based-on-input-data-and-hardware-simplifying-development-and-improving-performance":{
-            "date":"October 26, 2024",
-            "label":"How can self-tuning algorithms adjust parameters based on input data and hardware, simplifying development and improving performance?",
-            "component": "",
-            "breadcrumbIndex": "dsa",
-            "keywords":[]
-        },
-        "tech/dsa/what-are-advanced-geometric-algorithms-and-how-are-they-applied-in-computer-graphics-robotics-and-geographic-information-systems":{
-            "date":"October 26, 2024",
-            "label":"What are advanced geometric algorithms, and how are they applied in computer graphics, robotics, and Geographic Information Systems (GIS)?",
-            "component": "",
-            "breadcrumbIndex": "dsa",
-            "keywords":[]
-        },
-        "tech/dsa/how-do-you-design-algorithms-and-data-structures-for-handling-datasets-larger-than-memory-explore-external-memory-streaming-and-distributed-processing-techniques":{
-            "date":"October 26, 2024",
-            "label":"How do you design algorithms and data structures for handling datasets larger than memory? Explore external memory, streaming, and distributed processing techniques.",
-            "component": "",
-            "breadcrumbIndex": "dsa",
-            "keywords":[]
-        },
-        "tech/dsa/what-is-the-byzantine-generals-problem-and-how-do-byzantine-fault-tolerance-algorithms-like-practical-byzantine-fault-tolerance-and-tendermint-address-it-in-blockchain-what-are-their-scalability-and-complexity-limitations":{
-            "date":"October 26, 2024",
-            "label":"What is the Byzantine Generals' Problem, and how do Byzantine Fault Tolerance (BFT) algorithms like Practical Byzantine Fault Tolerance (PBFT) and Tendermint address it in blockchain? What are their scalability and complexity limitations?",
-            "component": "",
-            "breadcrumbIndex": "dsa",
-            "keywords":[]
         }
     }
 }

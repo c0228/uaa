@@ -194,14 +194,14 @@
     },
     "dsAlgo":{
         "row1":[{
-            "url":"",
+            "url":"tech/dsa/memory-optimization-cache-aware-algorithms/what-are-cache-oblivious-algorithms-and-how-do-they-optimize-performance-in-modern-architectures-provide-examples-of-related-data-structures-and-algorithms",
             "title":"What are cache-oblivious algorithms, and how do they optimize performance in modern architectures? Provide examples of related data structures and algorithms.",
             "desc":"Cache-oblivious algorithms optimize memory hierarchy use without hardware-specific tuning. They leverage recursive divide-and-conquer strategies, e.g., van Emde Boas trees (fast lookups) and cache-oblivious matrix multiplication (better locality), improving performance across architectures.",
             "descFix":190,
             "createdOn": "Jan 26, 2023",
             "minRead": "5 min read"
         },{
-            "url":"",
+            "url":"tech/dsa/computational-geometry/what-are-advanced-geometric-algorithms-and-how-are-they-applied-in-computer-graphics-robotics-and-geographic-information-systems",
             "title":"What are advanced geometric algorithms, and how are they applied in computer graphics, robotics, and Geographic Information Systems (GIS)?",
             "desc":"Advanced geometric algorithms (e.g., Voronoi diagrams, convex hulls, R-trees) optimize collision detection (graphics), path planning (robotics), and spatial indexing (GIS). They enhance efficiency, accuracy, and scalability in complex computational environments.",
             "descFix":230,
@@ -209,14 +209,14 @@
             "minRead": "5 min read"
         }],
         "row2":[{
-            "url":"",
+            "url":"tech/dsa/testing-and-debugging-algorithms/how-do-you-test-and-verify-algorithm-and-data-structure-correctness-especially-in-complex-or-concurrent-scenarios",
             "title":"How do you test and verify algorithm and data structure correctness, especially in complex or concurrent scenarios?",
             "desc":"Use unit tests, property-based testing, and formal verification (e.g., TLA+). For concurrency, apply stress tests, race condition detection (e.g., ThreadSanitizer), and linearizability checks. Fuzz testing helps uncover edge cases, ensuring robustness.",
             "descFix":230,
             "createdOn": "Jan 26, 2023",
             "minRead": "5 min read"
         },{
-            "url":"",
+            "url":"tech/dsa/advanced-algorithm-design-and-system-optimization/how-do-you-design-algorithms-and-data-structures-for-handling-datasets-larger-than-memory-explore-external-memory-streaming-and-distributed-processing-techniques",
             "title":"How do you design algorithms and data structures for handling datasets larger than memory? Explore external memory, streaming, and distributed processing techniques.",
             "desc":"Use external memory algorithms (e.g., B-trees) for disk-efficient access, streaming algorithms (e.g., Count-Min Sketch) for real-time processing, and distributed frameworks (e.g., MapReduce, Spark) for parallel computation. Balance I/O, memory, and computation for scalability.",
             "descFix":190,
@@ -224,14 +224,14 @@
             "minRead": "5 min read"
         }],
         "row3":[{
-            "url":"",
+            "url":"tech/dsa/performance-tuning-and-profiling/how-can-self-tuning-algorithms-adjust-parameters-based-on-input-data-and-hardware-simplifying-development-and-improving-performance",
             "title":"How can self-tuning algorithms adjust parameters based on input data and hardware, simplifying development and improving performance?",
             "desc":"Self-tuning algorithms adapt parameters using feedback loops, ML models, or heuristics. Examples include adaptive sorting, auto-indexing (databases), and JIT compilation. They optimize performance across varying data and hardware, reducing manual tuning and improving efficiency.",
             "descFix":190,
             "createdOn": "Jan 26, 2023",
             "minRead": "5 min read"
         },{
-            "url":"",
+            "url":"tech/dsa/advanced-distributed-computing-and-blockchain/what-is-the-byzantine-generals-problem-and-how-do-byzantine-fault-tolerance-algorithms-like-practical-byzantine-fault-tolerance-and-tendermint-address-it-in-blockchain-what-are-their-scalability-and-complexity-limitations",
             "title":"What is the Byzantine Generals' Problem, and how do Byzantine Fault Tolerance (BFT) algorithms like Practical Byzantine Fault Tolerance (PBFT) and Tendermint address it in blockchain? What are their scalability and complexity limitations?",
             "desc":"The Byzantine Generals' Problem models trust issues in faulty networks. PBFT ensures consensus with replica voting, but it's O(n²) costly. Tendermint streamlines BFT for blockchain, reducing overhead but limiting decentralization. Scalability remains a challenge.",
             "descFix":150,
