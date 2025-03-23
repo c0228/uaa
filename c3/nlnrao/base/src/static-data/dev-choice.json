@@ -14,7 +14,7 @@
         "createdOn": "Mar 30, 2023",
         "minRead": 5
     },{
-        "url":"blog/databases-scaling-system-design-horizontally-and-vertically-to-manage-the-data-from-one-user-to-billion-users",
+        "url":"tech/databases/databases-scaling-system-design-horizontally-and-vertically-to-manage-the-data-from-one-user-to-billion-users",
         "title":"Databases Scaling Design: Horizontally and Vertically to manage the data from One User to Billion Users",
         "desc":"Strategizing database scaling techniques, horizontally and vertically, to accommodate data management needs ranging from single user environments to those serving billions of users.",
         "descFix":120,
@@ -63,7 +63,7 @@
         "createdOn": "Mar 30, 2023",
         "minRead": 5
     },{
-        "url":"#",
+        "url":"tech/databases/isolation-and-propagation-in-the-context-of-transactions-in-a-database-system",
         "title":"Isolation and Propagation in the Context of Transactions in a Database System",
         "desc":"Examining the concepts of isolation and propagation within database transactions, crucial for ensuring data integrity and consistency in a multi-user environment.",
         "descFix":160,

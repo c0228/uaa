@@ -1,0 +1,21 @@
+{
+    "breadcrumbs":{
+        "databases":[{ "label":"Databases", "url":"/" }]
+    },
+    "urls":{
+        "tech/databases/databases-scaling-system-design-horizontally-and-vertically-to-manage-the-data-from-one-user-to-billion-users":{
+            "date": "October 26, 2024",
+            "label": "Databases Scaling Design: Horizontally and vertically to manage the data from one user to billion users",
+            "component": "HorizontalVerticalScale",
+            "breadcrumbIndex": "databases",
+            "keywords":[]
+        },
+        "tech/databases/isolation-and-propagation-in-the-context-of-transactions-in-a-database-system":{
+            "date": "October 26, 2024",
+            "label": "Isolation and Propagation in the Context of Transactions in a Database System",
+            "component": "TransactionIsloationPropagation",
+            "breadcrumbIndex": "databases",
+            "keywords":[]
+        }
+    }
+}
