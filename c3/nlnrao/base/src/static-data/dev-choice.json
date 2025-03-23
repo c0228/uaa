@@ -7,7 +7,7 @@
         "createdOn": "Mar 30, 2023",
         "minRead": 5
     },{
-        "url":"tech/java/core/lets-see-the-features-and-updates-of-java-from-version-1.0-to-1.21",
+        "url":"tech/java/core/lets-see-the-features-and-updates-of-java-from-version-1-to-21",
         "title":"Let's see the features & updates of Java from version 1.0 to 1.21",
         "desc":"Exploring the evolution of Java programming language, from its initial version 1.0 to the latest updates in version 1.21, including notable features and enhancements along the way.",
         "descFix":120,
@@ -21,42 +21,42 @@
         "createdOn": "Mar 30, 2023",
         "minRead": 5
     },{
-        "url":"#",
+        "url":"tech/networking/web-hosting/lets-see-the-evolution-of-the-world-wide-web-1-web-2-and-web-3",
         "title":"Lets see the evolution of the World Wide Web (www) - Web 1.0, Web 2.0 and Web 3.0",
         "desc":"Exploring the evolution of the World Wide Web (WWW) through its stages - Web 1.0, characterized by static content; Web 2.0, marked by user-generated content and interactivity; and the emerging Web 3.0, emphasizing decentralization, semantic web, and advanced technologies.",
         "descFix":120,
         "createdOn": "Mar 30, 2023",
         "minRead": 5
     },{
-        "url":"#",
+        "url":"tech/networking/web-hosting/how-do-www-example-com-gets-created-managed-and-removed-over-the-internet",
         "title":"How do ''www.example.com'' gets created, managed and removed over the internet?",
         "desc":"Creating, managing, and removing ''www.example.com'' involves registering the domain, hosting the website's files, maintaining its content and security, and ultimately either letting the domain registration expire or actively removing the website and associated resources.",
         "descFix":155,
         "createdOn": "Mar 30, 2023",
         "minRead": 5
     },{
-        "url":"#", 
+        "url":"tech/php/emails/generate-a-pdf-file-with-html-code-and-send-it-as-an-attachment-to-an-email-using-php", 
         "title":"Generate a PDF File with HTML code and send it as an Attachment to an Email using PHP",
-        "desc":"It  shows how to generate a PDF from HTML code and send it as an email attachment using PHP. It covers the necessary steps to create the PDF and integrate it with email functionality for seamless document sharing.",
+        "desc":"It shows how to generate a PDF from HTML code and send it as an email attachment using PHP. It covers the necessary steps to create the PDF and integrate it with email functionality for seamless document sharing.",
         "descFix":160,
         "createdOn": "Mar 30, 2023",
         "minRead": 5
     },{
-        "url":"#",
+        "url":"tech/python/lets-understand-the-python-variables-and-their-data-types-for-better-programming",
         "title":"Lets understand the Python Variables and their Data types for better Programming.",
         "desc":"explains Python variables and their data types, covering key concepts like integers, strings, lists, tuples, and dictionaries. It helps beginners understand how to work with different types of data, improving their programming skills and ability to write efficient Python code.",
         "descFix":130,
         "createdOn": "Mar 30, 2023",
         "minRead": 5
     },{
-        "url":"blog/",
+        "url":"tech/javascript/javascript-functions/there-are-six-ways-to-make-a-javascript-function-do-you-know-what-are-they",
         "title":"There are Six ways to make a Javascript Function. Do you know what are they?",
         "desc":"Discovering the diverse techniques available for creating JavaScript functions, each offering unique advantages and use cases. Exploring these six methods provides a comprehensive understanding of JavaScript function creation.",
         "descFix":120,
         "createdOn": "Mar 30, 2023",
         "minRead": 5
     },{
-        "url":"tech/java/java-util-package/understanding-the-necessity-of-comparable-and-comparator-interfaces-which-were-introduced-in-java-1.2",
+        "url":"tech/java/java-util-package/understanding-the-necessity-of-comparable-and-comparator-interfaces-which-were-introduced-in-java-2",
         "title":"Understanding the necessity of Comparable and Comparator Interfaces which were introduced in Java 1.2",
         "desc":"Exploring the significance of Comparable and Comparator interfaces, pivotal additions introduced in Java 1.2, for facilitating object comparison and sorting operations in Java programming.",
         "descFix":160,

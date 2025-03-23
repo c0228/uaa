@@ -1,0 +1,23 @@
+{
+    "breadcrumbs":{
+        "networking":[{ "label":"Networking", "url":"/" }],
+        "web-hosting":[{ "label":"Networking", "url":"/" },
+            { "label":"Web Hosting", "url":"/" }]
+    },
+    "urls":{
+        "tech/networking/web-hosting/lets-see-the-evolution-of-the-world-wide-web-1-web-2-and-web-3":{
+            "date":"October 26, 2024",
+            "label":"Lets see the evolution of the World Wide Web (www) - Web 1.0, Web 2.0 and Web 3.0",
+            "component": "WWWEvolution",
+            "breadcrumbIndex": "web-hosting",
+            "keywords":[]
+        },
+        "tech/networking/web-hosting/how-do-www-example-com-gets-created-managed-and-removed-over-the-internet":{
+            "date":"October 26, 2024",
+            "label":"How do ''www.example.com'' gets created, managed and removed over the internet",
+            "component": "WWWDomainLifecycle",
+            "breadcrumbIndex": "web-hosting",
+            "keywords":[]
+        }
+    }
+}

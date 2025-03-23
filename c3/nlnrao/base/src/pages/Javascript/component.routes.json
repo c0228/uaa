@@ -1,21 +1,30 @@
 {
     "breadcrumbs":{
         "json":[{ "label":"Javascript", "url":"/" },
-                { "label":"Working with JSONs", "url":"#" }]
+                { "label":"Working with JSONs", "url":"#" }],
+        "js-functions":[{ "label":"Javascript", "url":"/" },
+                { "label":"Javascript Functions", "url":"#" }]
     },
     "urls":{
         "tech/javascript/working-with-jsons/dynamically-create-retrieve-update-and-delete-crud-operations-on-json-object-and-json-array":{
-            "date":"October 26, 2024",
-            "label":"Dynamically Create, Retrieve, Update and Delete (CRUD) Operations on JSON Object and JSON Array",
+            "date": "October 26, 2024",
+            "label": "Dynamically Create, Retrieve, Update and Delete (CRUD) Operations on JSON Object and JSON Array",
             "component": "JSONArrayCrud",
             "breadcrumbIndex": "json",
             "keywords":[]
         },
         "tech/javascript/working-with-jsons/sorting-an-element-in-json-array-in-ascending-and-descending-order":{
-            "date":"October 26, 2024",
-            "label":"Sorting an Element in JSON Array in Ascending and Descending Order",
+            "date": "October 26, 2024",
+            "label": "Sorting an Element in JSON Array in Ascending and Descending Order",
             "component": "SortJSONArrayAD",
             "breadcrumbIndex": "json",
+            "keywords":[]
+        },
+        "tech/javascript/javascript-functions/there-are-six-ways-to-make-a-javascript-function-do-you-know-what-are-they":{
+            "date": "October 26, 2024",
+            "label": "There are Six ways to make a Javascript Function. Do you know what are they?",
+            "component": "JSFunctionWritingWays",
+            "breadcrumbIndex": "js-functions",
             "keywords":[]
         }
     }

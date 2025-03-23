@@ -1,0 +1,14 @@
+{
+    "breadcrumbs":{
+        "python":[{ "label":"Python", "url":"/" }]
+    },
+    "urls":{
+        "tech/python/lets-understand-the-python-variables-and-their-data-types-for-better-programming":{
+            "date":"October 26, 2024",
+            "label":"Lets understand the Python Variables and their Data types for better Programming.",
+            "component": "PythonVariables",
+            "breadcrumbIndex": "python",
+            "keywords":[]
+        }
+    }
+}

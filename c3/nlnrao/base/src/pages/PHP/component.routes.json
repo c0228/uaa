@@ -1,0 +1,15 @@
+{
+    "breadcrumbs":{
+        "emails":[{ "label":"PHP", "url":"/" },
+                { "label":"Emails", "url":"#" }]
+    },
+    "urls":{
+        "tech/php/emails/generate-a-pdf-file-with-html-code-and-send-it-as-an-attachment-to-an-email-using-php":{
+            "date": "October 26, 2024",
+            "label": "Generate a PDF File with HTML code and send it as an Attachment to an Email using PHP",
+            "component": "GeneratePDFAttachSendEmail",
+            "breadcrumbIndex": "emails",
+            "keywords":[]
+        }
+    }
+}
