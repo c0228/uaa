@@ -147,7 +147,7 @@ const Practical = () =>{
     <div className="table-responsive-sm">
         <table className="table">
             <thead>
-                <tr>
+                <tr style={{ backgroundColor:'#eee' }}>
                     <td><b>Feature</b></td>
                     <td><b>PBFT</b></td>
                     <td><b>Tendermint</b></td>
