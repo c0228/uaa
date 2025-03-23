@@ -1,9 +1,27 @@
 {
     "breadcrumbs":{
+        "java-core":[{"label":"Java", "url":"/" },
+                { "label":"Core", "url":"#" }],
+        "java-util-package":[{"label":"Java", "url":"/" },
+                { "label":"Java Util Package", "url":"#" }],
         "springFramework":[{ "label":"Java", "url":"/" },
                 { "label":"Spring Framework", "url":"#" }]
     },
     "urls":{
+        "tech/java/core/lets-see-the-features-and-updates-of-java-from-version-1.0-to-1.21":{
+            "date":"October 26, 2024",
+            "label":"Lets see the features and updates of java from version 1.0 to 1.21",
+            "component": "JavaVersionsFeatureUpdates",
+            "breadcrumbIndex": "java-core",
+            "keywords":[]
+        },
+        "tech/java/java-util-package/understanding-the-necessity-of-comparable-and-comparator-interfaces-which-were-introduced-in-java-1.2":{
+            "date":"October 26, 2024",
+            "label": "Understanding the necessity of Comparable and Comparator Interfaces which were introduced in Java 1.2",
+            "component": "ComparableComparator",
+            "breadcrumbIndex": "java-util-package",
+            "keywords":[]
+        },
         "tech/java/spring-boot-framework/how-to-set-eureka-server-and-eureka-client-in-spring-boot-framework":{
             "date":"October 26, 2024",
             "label":"How to set Eureka Server and Eureka Client in Spring Boot Framework?",

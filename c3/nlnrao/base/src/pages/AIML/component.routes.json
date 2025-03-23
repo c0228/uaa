@@ -1,0 +1,14 @@
+{
+    "breadcrumbs":{
+        "aiml":[{ "label":"Artificial Intelligence & Machine Learning", "url":"/" }]
+    },
+    "urls":{
+        "tech/aiml/understanding-different-types-of-machine-learning-techniques":{
+            "date":"October 26, 2024",
+            "label":"Understanding different types of machine learning techniques",
+            "component": "MLTechniques",
+            "breadcrumbIndex": "aiml",
+            "keywords":[]
+        }
+    }
+}

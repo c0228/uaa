@@ -1,4 +1,5 @@
 // Web3
+import AIMLRoutes from "@Pages/AIML/component.routes.json";
 import Web3Routes from "@Pages/Web3/component.routes.json";
 import JSRoutes from "@Pages/Javascript/component.routes.json";
 import NodeJSRoutes from "@Pages/NodeJS/component.routes.json";
@@ -9,6 +10,7 @@ import KafkaRoutes from "@Pages/Kafka/component.routes.json";
 import SystemDesignRoutes from "@Pages/SystemDesign/component.routes.json";
 import DSARoutes from "@Pages/DSA/component.routes.json";
 import FrontendRoutes from "@Pages/Frontend/component.routes.json";
+import { AIMLComponentMap } from "@Pages/AIML/component.map.js";
 import { Web3ComponentMap } from "@Pages/Web3/component.map.js";
 import { JSComponentMap } from "@Pages/Javascript/component.map.js";
 import { NodeJSComponentMap } from "@Pages/NodeJS/component.map.js";
@@ -21,7 +23,8 @@ import { DSAComponentMap } from "@Pages/DSA/component.map.js";
 import { FrontendComponentMap } from "@Pages/Frontend/component.map.js";
 
 export const AllRoutes = {
-    "breadcrumbs": { ...Web3Routes.breadcrumbs, 
+    "breadcrumbs": { ...AIMLRoutes.breadcrumbs,
+                    ...Web3Routes.breadcrumbs, 
                     ...JSRoutes.breadcrumbs, 
                     ...NodeJSRoutes.breadcrumbs, 
                     ...JavaRoutes.breadcrumbs, 
@@ -32,7 +35,8 @@ export const AllRoutes = {
                     ...DSARoutes.breadcrumbs,
                     ...FrontendRoutes.breadcrumbs
                 },
-    "urls": { ...Web3Routes.urls, 
+    "urls": { ...AIMLRoutes.urls, 
+            ...Web3Routes.urls, 
             ...JSRoutes.urls, 
             ...NodeJSRoutes.urls, 
             ...JavaRoutes.urls,  
@@ -46,6 +50,7 @@ export const AllRoutes = {
 };
 
 export const AllComponentMap = {
+    ...AIMLComponentMap,
     ...Web3ComponentMap, 
     ...JSComponentMap, 
     ...NodeJSComponentMap, 
