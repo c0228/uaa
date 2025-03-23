@@ -70,14 +70,14 @@
         "createdOn": "Mar 30, 2023",
         "minRead": 5
     },{
-        "url":"#",
+        "url":"tech/aiml/tensor-flow/what-are-the-key-challenges-of-3D-object-detection-compared-to-2D-and-how-would-you-implement-a-3D-object-detection-pipeline-in-tensor-flow-including-data-representations-and-model-architectures",
         "title":"What are the key challenges of 3D object detection compared to 2D & how would you implement a 3D object detection pipeline in TensorFlow, including data representations and model architectures?",
         "desc":"Challenges and details how to implement a 3D object detection pipeline in TensorFlow, covering key data representations (point clouds, voxels, depth maps) and model architectures (PointNet, VoxelNet, 3D CNNs).",
         "descFix":140,
         "createdOn": "Mar 30, 2023",
         "minRead": 5
     },{
-        "url":"#",
+        "url":"tech/aiml/tensor-flow/you-need-to-train-an-object-detector-for-a-new-category-with-very-few-labeled-examples-how-would-you-approach-few-shot-object-detection-in-tensorflow-using-techniques-like-meta-learning-or-transfer-learning-and-what-are-the-key-challenges-and-limitations",
         "title":"You need to train an object detector for a new category with very few labeled examples. How would you approach few-shot object detection in TensorFlow using techniques like meta-learning or transfer learning, and what are the key challenges and limitations?",
         "desc":"Explores few-shot object detection in TensorFlow using techniques like meta-learning, which enables models to learn from few examples, and transfer learning, which leverages pre-trained models to adapt to new categories",
         "descFix":160,
