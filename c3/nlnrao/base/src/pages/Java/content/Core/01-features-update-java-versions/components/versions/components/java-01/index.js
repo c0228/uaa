@@ -59,10 +59,10 @@ const Java01 = () =>{
             (<div>
                 <div><b>New classes:</b></div> 
                 <ul>
-                    <li><code><b>Class</b></code> (To get metadata about a class)</li>
-                    <li><code><b>Method</b></code> (To invoke methods dynamically)</li>
-                    <li><code><b>Field</b></code>  (To access class fields dynamically)</li>
-                    <li><code><b>Constructor</b></code> (To create new instances dynamically)</li>
+                    <li className="mtop5p"><code><b>Class</b></code> (To get metadata about a class)</li>
+                    <li className="mtop5p"><code><b>Method</b></code> (To invoke methods dynamically)</li>
+                    <li className="mtop5p"><code><b>Field</b></code>  (To access class fields dynamically)</li>
+                    <li className="mtop5p"><code><b>Constructor</b></code> (To create new instances dynamically)</li>
                 </ul>
             </div>)]} />
     </div>
