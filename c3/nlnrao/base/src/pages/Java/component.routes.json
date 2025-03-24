@@ -8,9 +8,9 @@
                 { "label":"Spring Framework", "url":"#" }]
     },
     "urls":{
-        "tech/java/core/lets-see-the-features-and-updates-of-java-from-version-1-to-21":{
-            "date":"October 26, 2024",
-            "label":"Lets see the features and updates of java from version 1.0 to 1.21",
+        "tech/java/core/lets-see-the-features-and-updates-of-java-from-version-1-to-current-version":{
+            "date":"March 22, 2025",
+            "label":"Lets see the features and updates of java from version 1.0 to Current Version",
             "component": "JavaVersionsFeatureUpdates",
             "breadcrumbIndex": "java-core",
             "keywords":[]
