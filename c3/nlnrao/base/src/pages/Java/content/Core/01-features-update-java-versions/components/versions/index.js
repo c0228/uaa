@@ -1,5 +1,9 @@
 import React from "react";
+import { BlogIndexHeader } from "@Components/blog-index-header/index.js";
 import OrderList from "@Components/order-list/index.js";
+import Java00 from "./components/java-00/index.js";
+import Java01 from "./components/java-01/index.js";
+import Java07 from "./components/java-07/index.js";
 
 const Versions = () =>{
  return (<div className="lh28p mtop15p mbot15p fs16p">
@@ -8,128 +12,473 @@ const Versions = () =>{
    <div className="mtop15p">Java has undergone significant evolution since its inception, introducing numerous features 
       across its versions. Here's a detailed overview of the features introduced from Java 1.0 to the latest release:​</div>
    
-   <div className="mtop15p">
-      <div className="mtop15p"><h4><b>Java SE 1.0 (January 23, 1996):</b></h4></div>
-      <div className="mtop15p">
-         <OrderList data={[(<div><b>Initial Release:</b> Introduced core language features, basic libraries, and the 
-         Abstract Window Toolkit (AWT) for GUI development</div>)]} />
-      </div>
-   </div>
+   <div align="center" className="mtop15p"><b>JAVA PROGRAMMING LANGUAGE (RELEASED BY SUN MICROSYSTEMS)</b></div>
 
-   <div className="mtop15p">
-      <div className="mtop15p"><h4><b>Java SE 1.1 (1997):</b></h4></div>
-      <div className="mtop15p">
-         <OrderList data={[(<div><b>Event Delegation Model:</b> Improved event handling in AWT.</div>),
-            (<div><b>Inner Classes:</b> Allowed classes to be defined within other classes.</div>),
-            (<div><b>JavaBeans:</b> Component architecture for reusable software components.</div>),
-            (<div><b>JDBC:</b> Java Database Connectivity for database interactions.</div>)]} />
-      </div>
-   </div>
+   <Java00 />
+
+   <Java01 />
 
    <div className="mtop15p">
       <div className="mtop15p"><h4><b>Java SE 1.2 (1998):</b></h4></div>
       <div className="mtop15p">
-         <OrderList data={[(<div><b>Swing:</b> Introduced a new set of GUI components.</div>),
-            (<div><b>Collections Framework:</b> Unified architecture for representing and manipulating collections.</div>),
-            (<div><b>JIT Compiler:</b> Enhanced performance by compiling bytecode to native code at runtime.</div>)]} />
+         <OrderList data={[(<div>
+            <div><b>Java Foundation Classes (JFC)</b></div>
+            <div>
+               <ul>
+                  <li className="mtop5p"><b>Swing API</b> (<code><b>javax.swing</b></code>) introduced <b>lightweight GUI components</b>, replacing AWT components.</li>
+                  <li className="mtop5p"><b>Pluggable Look-and-Feel (PLAF)</b> support, allowing applications to change their UI themes dynamically.</li>
+                  <li className="mtop5p">Enhanced event handling and support for <b>drag-and-drop functionality</b>.</li>
+                  <li className="mtop5p"><b>Java 2D API</b> for advanced graphics and imaging.</li>
+               </ul>
+            </div>
+         </div>),
+         (<div className="mtop15p">
+            <div><b>Collections Framework (java.util)</b></div>
+            <div>
+               <ul>
+                  <li className="mtop5p">Introduced <b>new data structures</b> for better memory management and performance.</li>
+                  <li className="mtop5p">Replaced older classes like <code><b>Vector</b></code> and <code><b>Hashtable</b></code> with modern alternatives.</li>
+                  <li className="mtop5p">Added new interfaces: <code><b>Collection</b></code>, <code><b>List</b></code>, <code><b>Set</b></code>, <code><b>Map</b></code>
+                     and <code><b>Iterator</b></code>.</li>
+                  <li className="mtop5p">New concrete implementations: <code><b>ArrayList</b></code> and <code><b>LinkedList</b></code> (for lists), 
+                     <code><b>HashSet</b></code> and <code><b>TreeSet</b></code> (for sets) and <code><b>HashMap</b></code> and <code><b>TreeMap</b></code> (for maps).</li>
+               </ul>
+            </div>
+         </div>),
+         (<div className="mtop15p">
+            <div><b>Just-In-Time (JIT) Compiler for Performance Optimization</b></div>
+            <div>
+               <ul>
+                  <li className="mtop5p">Improved <b>JVM performance</b> by compiling bytecode into native machine code at runtime.</li>
+                  <li className="mtop5p">Reduced execution time and improved overall <b>application efficiency</b>.</li>
+               </ul>
+            </div>
+         </div>),
+         (<div className="mtop15p">
+            <div><b>Java Plug-in for Web Browsers</b></div>
+            <div>
+               <ul>
+                  <li className="mtop5p">Allowed <b>Java Applets</b> to run on any web browser using the Java Runtime Environment (JRE).</li>
+                  <li className="mtop5p">Provided <b>better integration</b> between Java and browser environments.</li>
+               </ul>
+            </div>
+         </div>),
+         (<div className="mtop15p">
+            <div><b>Security Enhancements</b></div>
+            <div>
+               <ul>
+                  <li className="mtop5p"><b>Code Signing:</b> Allowed developers to sign their Java applications for authentication.</li>
+                  <li className="mtop5p"><b>Java Authentication and Authorization Service (JAAS)</b> introduced for advanced security management.</li>
+                  <li className="mtop5p">Enhanced <b>Access Control Mechanism</b> with fine-grained permission settings.</li>
+               </ul>
+            </div>
+         </div>),
+         (<div className="mtop15p">
+            <div><b>Internationalization and Unicode Support</b></div>
+            <div>
+               <ul>
+                  <li className="mtop5p">Expanded support for <b>more languages and character sets</b>.</li>
+                  <li className="mtop5p">Improved <b>text rendering</b> and <b>font handling</b>.</li>
+               </ul>
+            </div>
+         </div>),
+         (<div className="mtop15p">
+            <div><b>RMI (Remote Method Invocation) Over IIOP</b></div>
+            <div>
+               <ul>
+                  <li>Enabled <b>Java applications to communicate</b> over the Internet using <b>CORBA (Common Object Request Broker Architecture)</b>.</li>
+                  <li>Improved <b>distributed computing</b> capabilities.</li>
+               </ul>
+            </div>
+         </div>),
+         (<div className="mtop15p">
+            <div><b>Performance and Memory Improvements</b></div>
+            <div>
+               <ul>
+                  <li>Enhanced <b>Garbage Collection</b> for better memory management.</li>
+                  <li>Introduced <b>Weak References</b> to optimize memory handling.</li>
+               </ul>
+            </div>
+         </div>)]} />
       </div>
    </div>
 
    <div className="mtop15p">
       <div className="mtop15p"><h4><b>Java SE 1.3 (2000):</b></h4></div>
       <div className="mtop15p">
-         <OrderList data={[(<div><b>HotSpot JVM:</b> Introduced for improved performance.</div>),
-            (<div><b>JavaSound API:</b> For audio capabilities.</div>),
-            (<div><b>RMI over IIOP:</b> Enhanced Remote Method Invocation.</div>)]} />
+         <OrderList data={[(<div>
+            <div><b>HotSpot JVM (Performance Boost)</b></div>
+            <div>
+               <ul>
+                  <li><b>Default JVM replaced with HotSpot JVM</b> for better performance and efficiency.</li>
+                  <li>Provided <b>Faster Just-In-Time (JIT) compilation for quicker execution</b>, <b>Optimized memory management and garbage collection</b> and 
+                     <b>Better thread synchronization and execution speed</b>.
+                  </li>
+               </ul>
+            </div>
+         </div>),
+         (<div className="mtop15p">
+            <div><b>Java Naming and Directory Interface (JNDI) – Now Part of Core Java</b></div>
+            <div>
+               <ul>
+                  <li>JNDI, previously an extension, was <b>integrated into core Java</b>.</li>
+                  <li>Used for accessing naming and directory services such as: <b>LDAP (Lightweight Directory Access Protocol)</b>, 
+                     <b>DNS (Domain Name System)</b> and <b>RMI Registry</b></li>
+               </ul>
+            </div>
+         </div>),
+         (<div className="mtop15p">
+            <div><b>Java Sound API</b></div>
+            <div>
+               <ul>
+                  <li className="mtop5p">Introduced <b>better support for audio playback</b>, <b>MIDI sequencing</b>, and <b>sound synthesis</b>.</li>
+                  <li className="mtop5p">Features includes: <b>Playback of audio files</b> (<code><b>.wav</b></code>, <code><b>.aiff</b></code>, <code><b>.au</b></code>), 
+                     Support for <b>MIDI and sampled audio</b> and <b>Mixing and control over sound data</b>.</li>
+               </ul>
+            </div>
+         </div>),
+         (<div className="mtop15p">
+            <div><b>RMI (Remote Method Invocation) Enhancements</b></div>
+            <div>
+               <ul>
+                  <li className="mtop5p"><b>RMI over IIOP (Internet Inter-ORB Protocol)</b> introduced.</li>
+                  <li className="mtop5p">Improved <b>communication between Java</b> and <b>CORBA-based applications</b>.</li>
+               </ul>
+            </div>
+         </div>),
+         (<div className="mtop15p">
+            <div><b>Performance and Memory Optimization</b></div>
+            <div>
+               <ul>
+                  <li className="mtop5p"><b>Reduced startup time</b> for applications.</li>
+                  <li className="mtop5p"><b>Faster class loading</b> using <b>Lazy Class Loading</b> (loads classes only when required).</li>
+                  <li className="mtop5p">Improved <b>garbage collection</b> efficiency.</li>
+               </ul>
+            </div>
+         </div>),
+         (<div className="mtop15p">
+            <div><b>Networking Enhancements</b></div>
+            <div>
+               <ul>
+                  <li><b>Java Platform Debugger Architecture (JPDA)</b> introduced for better debugging tools.</li>
+                  <li><b>Socket and I/O improvements</b> for better networking performance.</li>
+                  <li>Support for <b>non-blocking I/O operations</b> (preparing for NIO in Java 1.4).</li>
+               </ul>
+            </div>
+         </div>)]} />
       </div>
    </div>
+
+
 
    <div className="mtop15p">
       <div className="mtop15p"><h4><b>Java SE 1.4 (2002):</b></h4></div>
       <div className="mtop15p">
-         <OrderList data={[(<div><b>Assertions:</b> Introduced for debugging purposes.</div>),
-            (<div><b>Regular Expressions:</b> Integrated regex support.</div>),
-            (<div><b>Exception Chaining:</b> Allowed exceptions to reference causes.</div>),
-            (<div><b>NIO:</b> New Input/Output for high-performance I/O operations.</div>)]} />
+         <OrderList data={[(<div>
+            <div><b>New Input/Output (NIO) – High-Performance I/O</b></div>
+            <div>
+               <ul>
+                  <li className="mtop5p">Introduced <code><b>java.nio</b></code> package, improving <b>file and network I/O operations</b>.</li>
+                  <li className="mtop5p">Key Features: <b>Buffer-based I/O</b> (instead of traditional stream-based), <b>Memory-mapped files</b> for faster file access, 
+                     <b>Non-blocking I/O (Selectable Channels)</b> for scalable network programming and <b>Improved File and Socket operations</b>.</li>
+               </ul>
+            </div>
+         </div>),(<div className="mtop15p">
+            <div><b>Regular Expressions (java.util.regex)</b></div>
+            <div>
+               <ul>
+                  <li className="mtop5p">Added <b>built-in support for Regular Expressions (Regex)</b> in Java.</li>
+                  <li className="mtop5p">New Classes: <code><b>Pattern</b></code> (Defines a Regex Pattern), <code><b>Matcher</b></code> (Performs Match Operations).</li>
+               </ul>
+            </div>
+         </div>),(<div className="mtop15p">
+            <div><b>Exception Chaining</b></div>
+            <div>
+               <ul>
+                  <li className="mtop5p">Allowed <b>one exception to be linked to another</b>, helping <b>debug nested exceptions</b>.</li>
+                  <li className="mtop5p">Introduced <b>new constructors</b> in <code><b>Throwable</b></code>, <code><b>Exception</b></code>, and 
+                     <code><b>RuntimeException</b></code> classes.</li>
+               </ul>
+            </div>
+         </div>),
+         (<div className="mtop15p">
+            <div><b>Logging API (java.util.logging)</b></div>
+            <div>
+               <ul>
+                  <li className="mtop5p">Introduced a <b>built-in logging framework</b> (<code><b>java.util.logging</b></code>).</li>
+                  <li className="mtop5p">Eliminated dependency on third-party logging tools.</li>
+                  <li className="mtop5p">Provided <b>log levels</b> like <code><b>INFO</b></code>, <code><b>WARNING</b></code>, <code><b>SEVERE</b></code>, etc.</li>
+               </ul>
+            </div>
+         </div>),
+         (<div className="mtop15p">
+            <div><b>IPv6 Support</b></div>
+            <div>
+               <ul>
+                  <li className="mtop5p"><b>Full support for IPv6 networking.</b></li>
+                  <li className="mtop5p">Enhanced <code><b>java.net</b></code> package for IPv6 sockets, DNS lookups, and addresses.</li>
+               </ul>
+            </div>
+         </div>),
+         (<div className="mtop15p">
+            <div><b>Image I/O API (javax.imageio)</b></div>
+            <div>
+               <ul>
+                  <li className="mtop5p"><b>Faster and better image processing</b>.</li>
+                  <li className="mtop5p">Supported <b>reading/writing JPEG</b>, <b>PNG</b>, <b>GIF</b> and <b>BMP formats</b>.</li>
+               </ul>
+            </div>
+         </div>),
+         (<div className="mtop15p">
+            <div><b>Assertions (assert keyword)</b></div>
+            <div>
+               <ul>
+                  <li className="mtop5p">Introduced <code><b>assert</b></code> keyword for debugging.</li>
+               </ul>
+            </div>
+         </div>),
+         (<div className="mtop15p">
+            <div><b>Preferences API (java.util.prefs)</b></div>
+            <div>
+               <ul>
+                  <li className="mtop5p">New <b>Preferences API</b> for storing user and system configuration settings.</li>
+               </ul>
+            </div>
+         </div>),
+         (<div className="mtop15p">
+            <div><b>Performance Improvements</b></div>
+            <div>
+               <ul>
+                  <li className="mtop5p"><b>Garbage Collection (GC) Enhancements:</b> New GC algorithms for better memory management.</li>
+                  <li className="mtop5p"><b>HotSpot JVM Optimization:</b> Improved <b>runtime performance</b> and <b>startup time</b>.</li>
+               </ul>
+            </div>
+         </div>)]} />
       </div>
    </div>
 
    <div className="mtop15p">
       <div className="mtop15p"><h4><b>Java SE 1.5 (2004):</b></h4></div>
       <div className="mtop15p">
-         <OrderList data={[(<div><b>Generics:</b> Enabled stronger type checks at compile time.</div>),
-            (<div><b>Enhanced for Loop:</b> Simplified iteration over collections.</div>),
-            (<div><b>Autoboxing/Unboxing:</b> Automatic conversion between primitives and their wrapper classes.​</div>),
-            (<div><b>Enums:</b> Defined a fixed set of constants.</div>),
-            (<div><b>Varargs:</b> Allowed methods to accept variable-length arguments.</div>)]} />
+         <OrderList data={[(<div>
+            <div><b>Generics (Type Safety for Collections)</b></div>
+            <div>
+               <ul>
+                  <li className="mtop5p">Allowed defining <b>data type constraints</b> at compile-time.</li>
+                  <li className="mtop5p">Eliminated the need for <b>explicit casting</b>.</li>
+               </ul>
+            </div>
+         </div>),
+         (<div className="mtop15p">
+            <div><b>Enhanced for-loop (for-each loop)</b></div>
+            <div>
+               <ul>
+                  <li><b>Simplified iteration</b> over arrays and collections.</li>
+               </ul>
+            </div>
+         </div>),
+         (<div className="mtop15p">
+            <div><b>Autoboxing and Unboxing</b></div>
+            <div>
+               <ul>
+                  <li className="mtop5p">Automatic conversion between <b>primitive types</b> and <b>wrapper classes</b>.</li>
+                  <li className="mtop5p">Eliminated manual conversion.</li>
+               </ul>
+            </div>
+         </div>),
+         (<div className="mtop15p">
+            <div><b>Varargs (Variable Arguments)</b></div>
+            <div>
+               <ul>
+                  <li className="mtop5p">Allowed <b>passing multiple arguments</b> of the same type without creating an array.</li>
+               </ul>
+            </div>
+         </div>),
+         (<div className="mtop15p">
+            <div><b>Enumerations (enum)</b></div>
+            <div>
+               <ul>
+                  <li className="mtop5p">Introduced <code><b>enum</b></code> type for <b>defining constants</b>.</li>
+                  <li className="mtop5p">More powerful than traditional <code><b>final static</b></code> constants.</li>
+               </ul>
+            </div>
+         </div>),
+         (<div className="mtop15p">
+            <div><b>Concurrency Utilities (java.util.concurrent)</b></div>
+            <div>
+               <ul>
+                  <li className="mtop5p">Added <code><b>Executor Framework</b></code>, <code><b>ThreadPool</b></code>, <code><b>Locks</b></code>, 
+                     <code><b>Atomic Variables</b></code>.</li>
+                  <li className="mtop5p">Improved <b>multithreading performance and reliability</b>.</li>
+               </ul>
+            </div>
+         </div>),
+         (<div className="mtop15p">
+            <div><b>Static Imports</b></div>
+            <div>
+               <ul>
+                  <li>Allowed <b>direct access to static members</b> without qualifying the class name.</li>
+               </ul>
+            </div>
+         </div>),
+         (<div className="mtop15p">
+            <div><b>Annotations (Metadata for Classes and Methods)</b></div>
+            <div>
+               <ul>
+                  <li className="mtop5p">Introduced <b>built-in annotations</b> like: <code><b>@Override</b></code> (Ensures method overrides a superclass 
+                  method), <code><b>@Deprecated</b></code> (Marks a method as deprecated), <code><b>@SuppressWarnings</b></code> (Suppresses compiler 
+                  warnings)</li>
+               </ul>
+            </div>
+         </div>),
+         (<div className="mtop15p">
+            <div><b>Improved Garbage Collection (GC)</b></div>
+            <div>
+               <ul>
+                  <li><b>New GC algorithms</b> for <b>improved performance and memory management</b>.</li>
+               </ul>
+            </div>
+         </div>)]} />
       </div>
    </div>
 
    <div className="mtop15p">
       <div className="mtop15p"><h4><b>Java SE 6 (2006):</b></h4></div>
       <div className="mtop15p">
-         <OrderList data={[(<div><b>Scripting Language Support:</b> Integration with scripting languages like JavaScript.</div>),
-            (<div><b>Compiler API:</b> Access to the compiler from programs.</div>),
-            (<div><b>Pluggable Annotations:</b> Enhanced annotation processing.</div>)]} />
+         <OrderList data={[(<div>
+               <div><b>Performance Improvements</b></div>
+               <div>
+                  <ul>
+                     <li className="mtop5p">Better Memory Management & Faster JVM Execution.</li>
+                     <li className="mtop5p">Improved <b>Just-In-Time (JIT) Compilation</b> for optimized performance.</li>
+                     <li className="mtop5p">Reduced startup time for applications.</li>
+                     <li className="mtop5p"><b>Garbage Collection (GC) Enhancements</b> for better memory handling.</li>
+                  </ul>
+               </div>
+            </div>),
+            (<div className="mtop5p">
+               <div><b>Scripting Support (JavaScript & Other Languages)</b></div>
+               <div>
+                  <ul>
+                     <li className="mtop5p">Introduced <code><b>javax.script</b></code> API for integrating <b>JavaScript</b> and 
+                        <b>other scripting languages</b> inside Java applications.</li>
+                     <li className="mtop5p"><b>Nashorn JavaScript Engine</b> was included by default.</li>
+                  </ul>
+               </div>
+            </div>),
+            (<div className="mtop5p">
+               <div><b>JDBC 4.0 Enhancements</b></div>
+               <div>
+                  <ul>
+                     <li className="mtop5p">Added <b>automatic database driver loading</b>.</li>
+                     <li className="mtop5p">Improved <b>exception handling</b> with <code><b>SQLException</b></code> subclasses.</li>
+                     <li className="mtop5p">Connection management improvements.</li>
+                  </ul>
+               </div>
+            </div>),
+            (<div className="mtop5p">
+               <div><b>Web Services Enhancements (JAX-WS)</b></div>
+               <div>
+                  <ul>
+                     <li className="mtop5p">Built-in support for Web Services via JAX-WS 2.0 API.</li>
+                     <li className="mtop5p">Simplified development of SOAP-based web services.</li>
+                  </ul>
+               </div>
+            </div>),
+            (<div className="mtop5p">
+               <div><b>Compiler API</b></div>
+               <div>
+                  <ul>
+                     <li className="mtop5p">Allowed <b>Java programs to compile Java code at runtime</b>.</li>
+                  </ul>
+               </div>
+            </div>),
+            (<div className="mtop5p">
+               <div><b>Pluggable Annotations Processing</b></div>
+               <div>
+                  <ul>
+                     <li className="mtop5p">Provided <b>annotation processing support</b> at compile time.</li>
+                  </ul>
+               </div>
+            </div>),
+            (<div className="mtop5p">
+               <div><b>GUI Improvements (Swing & AWT Enhancements)</b></div>
+               <div>
+                  <ul>
+                     <li className="mtop5p">Improved <b>native look-and-feel for Swing applications</b>.</li>
+                     <li className="mtop5p">Support for Splash Screens</li>
+                  </ul>
+               </div>
+            </div>),
+            (<div className="mtop5p">
+               <div><b>Console Class for User Input</b></div>
+               <div>
+                  <ul>
+                     <li className="mtop5p">New <code><b>java.io.Console</b></code> class for reading password input securely.</li>
+                  </ul>
+               </div>
+            </div>),
+            (<div className="mtop5p">
+               <div><b>Desktop API (java.awt.Desktop)</b></div>
+               <div>
+                  <ul>
+                     <li className="mtop5p">Enabled Java applications to open files, launch browsers, and send emails.</li>
+                  </ul>
+               </div>
+            </div>),
+            (<div className="mtop5p">
+               <div><b>Monitoring and Management Enhancements</b></div>
+               <div>
+                  <ul>
+                     <li className="mtop5p">Improved JMX (Java Management Extensions).</li>
+                     <li className="mtop5p">Enhanced troubleshooting tools (<code><b>jmap</b></code>, <code><b>jconsole</b></code>).</li>
+                  </ul>
+               </div>
+            </div>)]} />
       </div>
    </div>
 
-   <div className="mtop15p">
-      <div className="mtop15p"><h4><b>Java SE 7 (2011):</b></h4></div>
-      <div className="mtop15p">
-         <OrderList data={[(<div><b>Diamond Operator:</b> Simplified instantiation of generic classes.</div>),
-            (<div><b>Try-with-Resources:</b> Automatic resource management.</div>),
-            (<div><b>Strings in Switch:</b> Allowed switch statements to operate on strings.</div>),
-            (<div><b>Fork/Join Framework:</b> Facilitated parallel processing.</div>)]} />
-      </div>
-   </div>
+   <Java07 />
 
    <div className="mtop15p">
       <div className="mtop15p"><h4><b>Java SE 8 (2014):</b></h4></div>
       <div className="mtop15p">
-         <OrderList data={[(<div><b>Lambda Expressions:</b> Introduced functional programming constructs.</div>),
-            (<div><b>Stream API:</b> For processing sequences of elements.​</div>),
-            (<div><b>Optional Class:</b> To handle null values gracefully.</div>),
-            (<div><b>Date and Time API:</b> New date and time library.</div>)]} />
+         <OrderList data={[(<div></div>)]} />
       </div>
    </div>
 
    <div className="mtop15p">
       <div className="mtop15p"><h4><b>Java SE 9 (2017):</b></h4></div>
       <div className="mtop15p">
-         <OrderList data={[(<div><b>Module System (Project Jigsaw):</b> Introduced modularity to the JDK.</div>),
-            (<div><b>JShell:</b> Interactive tool for evaluating code snippets.​</div>),
-            (<div><b>Reactive Streams:</b> Introduced for asynchronous programming.</div>)]} />
+         <OrderList data={[(<div></div>)]} />
       </div>
    </div>
 
    <div className="mtop15p">
       <div className="mtop15p"><h4><b>Java SE 10 (March, 2018):</b></h4></div>
       <div className="mtop15p">
-         <OrderList data={[(<div><b>Local-Variable Type Inference:</b> Introduced the <code><b>var</b></code> keyword.</div>)]} />
+         <OrderList data={[(<div></div>)]} />
       </div>
    </div>
 
    <div className="mtop15p">
       <div className="mtop15p"><h4><b>Java SE 11 (September, 2018):</b></h4></div>
       <div className="mtop15p">
-         <OrderList data={[(<div><b>HTTP Client API:</b> Standardized HTTP client.​</div>),
-            (<div><b>Local-Variable Syntax for Lambda Parameters:</b> Allowed <code><b>var</b></code> in lambda expressions.</div>),
-            (<div><b>Removed JavaFX from JDK:</b> JavaFX became a separate module.</div>)]} />
+         <OrderList data={[(<div></div>)]} />
       </div>
    </div>
 
    <div className="mtop15p">
       <div className="mtop15p"><h4><b>Java SE 12 (March, 2019):</b></h4></div>
       <div className="mtop15p">
-         <OrderList data={[(<div><b>Switch Expressions (Preview):</b> Enhanced switch statements.</div>)]} />
+         <OrderList data={[(<div></div>)]} />
       </div>
    </div>
 
    <div className="mtop15p">
       <div className="mtop15p"><h4><b>Java SE 13 (September, 2019):</b></h4></div>
       <div className="mtop15p">
-         <OrderList data={[(<div><b>Text Blocks (Preview):</b> Simplified multi-line string literals.</div>)]} />
+         <OrderList data={[(<div></div>)]} />
       </div>
    </div>
 
