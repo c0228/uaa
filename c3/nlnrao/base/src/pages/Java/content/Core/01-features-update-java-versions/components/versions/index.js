@@ -3,6 +3,7 @@ import { BlogIndexHeader } from "@Components/blog-index-header/index.js";
 import OrderList from "@Components/order-list/index.js";
 import Java00 from "./components/java-00/index.js";
 import Java01 from "./components/java-01/index.js";
+import Java02 from "./components/java-02/index.js";
 import Java07 from "./components/java-07/index.js";
 
 const Versions = () =>{
@@ -18,90 +19,9 @@ const Versions = () =>{
 
    <Java01 />
 
-   <div className="mtop15p">
-      <div className="mtop15p"><h4><b>Java SE 1.2 (1998):</b></h4></div>
-      <div className="mtop15p">
-         <OrderList data={[(<div>
-            <div><b>Java Foundation Classes (JFC)</b></div>
-            <div>
-               <ul>
-                  <li className="mtop5p"><b>Swing API</b> (<code><b>javax.swing</b></code>) introduced <b>lightweight GUI components</b>, replacing AWT components.</li>
-                  <li className="mtop5p"><b>Pluggable Look-and-Feel (PLAF)</b> support, allowing applications to change their UI themes dynamically.</li>
-                  <li className="mtop5p">Enhanced event handling and support for <b>drag-and-drop functionality</b>.</li>
-                  <li className="mtop5p"><b>Java 2D API</b> for advanced graphics and imaging.</li>
-               </ul>
-            </div>
-         </div>),
-         (<div className="mtop15p">
-            <div><b>Collections Framework (java.util)</b></div>
-            <div>
-               <ul>
-                  <li className="mtop5p">Introduced <b>new data structures</b> for better memory management and performance.</li>
-                  <li className="mtop5p">Replaced older classes like <code><b>Vector</b></code> and <code><b>Hashtable</b></code> with modern alternatives.</li>
-                  <li className="mtop5p">Added new interfaces: <code><b>Collection</b></code>, <code><b>List</b></code>, <code><b>Set</b></code>, <code><b>Map</b></code>
-                     and <code><b>Iterator</b></code>.</li>
-                  <li className="mtop5p">New concrete implementations: <code><b>ArrayList</b></code> and <code><b>LinkedList</b></code> (for lists), 
-                     <code><b>HashSet</b></code> and <code><b>TreeSet</b></code> (for sets) and <code><b>HashMap</b></code> and <code><b>TreeMap</b></code> (for maps).</li>
-               </ul>
-            </div>
-         </div>),
-         (<div className="mtop15p">
-            <div><b>Just-In-Time (JIT) Compiler for Performance Optimization</b></div>
-            <div>
-               <ul>
-                  <li className="mtop5p">Improved <b>JVM performance</b> by compiling bytecode into native machine code at runtime.</li>
-                  <li className="mtop5p">Reduced execution time and improved overall <b>application efficiency</b>.</li>
-               </ul>
-            </div>
-         </div>),
-         (<div className="mtop15p">
-            <div><b>Java Plug-in for Web Browsers</b></div>
-            <div>
-               <ul>
-                  <li className="mtop5p">Allowed <b>Java Applets</b> to run on any web browser using the Java Runtime Environment (JRE).</li>
-                  <li className="mtop5p">Provided <b>better integration</b> between Java and browser environments.</li>
-               </ul>
-            </div>
-         </div>),
-         (<div className="mtop15p">
-            <div><b>Security Enhancements</b></div>
-            <div>
-               <ul>
-                  <li className="mtop5p"><b>Code Signing:</b> Allowed developers to sign their Java applications for authentication.</li>
-                  <li className="mtop5p"><b>Java Authentication and Authorization Service (JAAS)</b> introduced for advanced security management.</li>
-                  <li className="mtop5p">Enhanced <b>Access Control Mechanism</b> with fine-grained permission settings.</li>
-               </ul>
-            </div>
-         </div>),
-         (<div className="mtop15p">
-            <div><b>Internationalization and Unicode Support</b></div>
-            <div>
-               <ul>
-                  <li className="mtop5p">Expanded support for <b>more languages and character sets</b>.</li>
-                  <li className="mtop5p">Improved <b>text rendering</b> and <b>font handling</b>.</li>
-               </ul>
-            </div>
-         </div>),
-         (<div className="mtop15p">
-            <div><b>RMI (Remote Method Invocation) Over IIOP</b></div>
-            <div>
-               <ul>
-                  <li>Enabled <b>Java applications to communicate</b> over the Internet using <b>CORBA (Common Object Request Broker Architecture)</b>.</li>
-                  <li>Improved <b>distributed computing</b> capabilities.</li>
-               </ul>
-            </div>
-         </div>),
-         (<div className="mtop15p">
-            <div><b>Performance and Memory Improvements</b></div>
-            <div>
-               <ul>
-                  <li>Enhanced <b>Garbage Collection</b> for better memory management.</li>
-                  <li>Introduced <b>Weak References</b> to optimize memory handling.</li>
-               </ul>
-            </div>
-         </div>)]} />
-      </div>
-   </div>
+   <Java02 />
+
+   
 
    <div className="mtop15p">
       <div className="mtop15p"><h4><b>Java SE 1.3 (2000):</b></h4></div>
