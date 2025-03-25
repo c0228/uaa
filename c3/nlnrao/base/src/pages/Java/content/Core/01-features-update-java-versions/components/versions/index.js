@@ -5,6 +5,7 @@ import Java00 from "./components/java-00/index.js";
 import Java01 from "./components/java-01/index.js";
 import Java02 from "./components/java-02/index.js";
 import Java03 from "./components/java-03/index.js";
+import Java04 from "./components/java-04/index.js";
 import Java07 from "./components/java-07/index.js";
 
 const Versions = () =>{
@@ -24,93 +25,11 @@ const Versions = () =>{
 
    <Java03 />
 
+   <Java04 />
 
 
-   <div className="mtop15p">
-      <div className="mtop15p"><h4><b>Java SE 1.4 (2002):</b></h4></div>
-      <div className="mtop15p">
-         <OrderList data={[(<div>
-            <div><b>New Input/Output (NIO) – High-Performance I/O</b></div>
-            <div>
-               <ul>
-                  <li className="mtop5p">Introduced <code><b>java.nio</b></code> package, improving <b>file and network I/O operations</b>.</li>
-                  <li className="mtop5p">Key Features: <b>Buffer-based I/O</b> (instead of traditional stream-based), <b>Memory-mapped files</b> for faster file access, 
-                     <b>Non-blocking I/O (Selectable Channels)</b> for scalable network programming and <b>Improved File and Socket operations</b>.</li>
-               </ul>
-            </div>
-         </div>),(<div className="mtop15p">
-            <div><b>Regular Expressions (java.util.regex)</b></div>
-            <div>
-               <ul>
-                  <li className="mtop5p">Added <b>built-in support for Regular Expressions (Regex)</b> in Java.</li>
-                  <li className="mtop5p">New Classes: <code><b>Pattern</b></code> (Defines a Regex Pattern), <code><b>Matcher</b></code> (Performs Match Operations).</li>
-               </ul>
-            </div>
-         </div>),(<div className="mtop15p">
-            <div><b>Exception Chaining</b></div>
-            <div>
-               <ul>
-                  <li className="mtop5p">Allowed <b>one exception to be linked to another</b>, helping <b>debug nested exceptions</b>.</li>
-                  <li className="mtop5p">Introduced <b>new constructors</b> in <code><b>Throwable</b></code>, <code><b>Exception</b></code>, and 
-                     <code><b>RuntimeException</b></code> classes.</li>
-               </ul>
-            </div>
-         </div>),
-         (<div className="mtop15p">
-            <div><b>Logging API (java.util.logging)</b></div>
-            <div>
-               <ul>
-                  <li className="mtop5p">Introduced a <b>built-in logging framework</b> (<code><b>java.util.logging</b></code>).</li>
-                  <li className="mtop5p">Eliminated dependency on third-party logging tools.</li>
-                  <li className="mtop5p">Provided <b>log levels</b> like <code><b>INFO</b></code>, <code><b>WARNING</b></code>, <code><b>SEVERE</b></code>, etc.</li>
-               </ul>
-            </div>
-         </div>),
-         (<div className="mtop15p">
-            <div><b>IPv6 Support</b></div>
-            <div>
-               <ul>
-                  <li className="mtop5p"><b>Full support for IPv6 networking.</b></li>
-                  <li className="mtop5p">Enhanced <code><b>java.net</b></code> package for IPv6 sockets, DNS lookups, and addresses.</li>
-               </ul>
-            </div>
-         </div>),
-         (<div className="mtop15p">
-            <div><b>Image I/O API (javax.imageio)</b></div>
-            <div>
-               <ul>
-                  <li className="mtop5p"><b>Faster and better image processing</b>.</li>
-                  <li className="mtop5p">Supported <b>reading/writing JPEG</b>, <b>PNG</b>, <b>GIF</b> and <b>BMP formats</b>.</li>
-               </ul>
-            </div>
-         </div>),
-         (<div className="mtop15p">
-            <div><b>Assertions (assert keyword)</b></div>
-            <div>
-               <ul>
-                  <li className="mtop5p">Introduced <code><b>assert</b></code> keyword for debugging.</li>
-               </ul>
-            </div>
-         </div>),
-         (<div className="mtop15p">
-            <div><b>Preferences API (java.util.prefs)</b></div>
-            <div>
-               <ul>
-                  <li className="mtop5p">New <b>Preferences API</b> for storing user and system configuration settings.</li>
-               </ul>
-            </div>
-         </div>),
-         (<div className="mtop15p">
-            <div><b>Performance Improvements</b></div>
-            <div>
-               <ul>
-                  <li className="mtop5p"><b>Garbage Collection (GC) Enhancements:</b> New GC algorithms for better memory management.</li>
-                  <li className="mtop5p"><b>HotSpot JVM Optimization:</b> Improved <b>runtime performance</b> and <b>startup time</b>.</li>
-               </ul>
-            </div>
-         </div>)]} />
-      </div>
-   </div>
+
+   
 
    <div className="mtop15p">
       <div className="mtop15p"><h4><b>Java SE 1.5 (2004):</b></h4></div>
