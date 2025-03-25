@@ -4,6 +4,7 @@ import OrderList from "@Components/order-list/index.js";
 import Java00 from "./components/java-00/index.js";
 import Java01 from "./components/java-01/index.js";
 import Java02 from "./components/java-02/index.js";
+import Java03 from "./components/java-03/index.js";
 import Java07 from "./components/java-07/index.js";
 
 const Versions = () =>{
@@ -21,73 +22,7 @@ const Versions = () =>{
 
    <Java02 />
 
-   
-
-   <div className="mtop15p">
-      <div className="mtop15p"><h4><b>Java SE 1.3 (2000):</b></h4></div>
-      <div className="mtop15p">
-         <OrderList data={[(<div>
-            <div><b>HotSpot JVM (Performance Boost)</b></div>
-            <div>
-               <ul>
-                  <li><b>Default JVM replaced with HotSpot JVM</b> for better performance and efficiency.</li>
-                  <li>Provided <b>Faster Just-In-Time (JIT) compilation for quicker execution</b>, <b>Optimized memory management and garbage collection</b> and 
-                     <b>Better thread synchronization and execution speed</b>.
-                  </li>
-               </ul>
-            </div>
-         </div>),
-         (<div className="mtop15p">
-            <div><b>Java Naming and Directory Interface (JNDI) – Now Part of Core Java</b></div>
-            <div>
-               <ul>
-                  <li>JNDI, previously an extension, was <b>integrated into core Java</b>.</li>
-                  <li>Used for accessing naming and directory services such as: <b>LDAP (Lightweight Directory Access Protocol)</b>, 
-                     <b>DNS (Domain Name System)</b> and <b>RMI Registry</b></li>
-               </ul>
-            </div>
-         </div>),
-         (<div className="mtop15p">
-            <div><b>Java Sound API</b></div>
-            <div>
-               <ul>
-                  <li className="mtop5p">Introduced <b>better support for audio playback</b>, <b>MIDI sequencing</b>, and <b>sound synthesis</b>.</li>
-                  <li className="mtop5p">Features includes: <b>Playback of audio files</b> (<code><b>.wav</b></code>, <code><b>.aiff</b></code>, <code><b>.au</b></code>), 
-                     Support for <b>MIDI and sampled audio</b> and <b>Mixing and control over sound data</b>.</li>
-               </ul>
-            </div>
-         </div>),
-         (<div className="mtop15p">
-            <div><b>RMI (Remote Method Invocation) Enhancements</b></div>
-            <div>
-               <ul>
-                  <li className="mtop5p"><b>RMI over IIOP (Internet Inter-ORB Protocol)</b> introduced.</li>
-                  <li className="mtop5p">Improved <b>communication between Java</b> and <b>CORBA-based applications</b>.</li>
-               </ul>
-            </div>
-         </div>),
-         (<div className="mtop15p">
-            <div><b>Performance and Memory Optimization</b></div>
-            <div>
-               <ul>
-                  <li className="mtop5p"><b>Reduced startup time</b> for applications.</li>
-                  <li className="mtop5p"><b>Faster class loading</b> using <b>Lazy Class Loading</b> (loads classes only when required).</li>
-                  <li className="mtop5p">Improved <b>garbage collection</b> efficiency.</li>
-               </ul>
-            </div>
-         </div>),
-         (<div className="mtop15p">
-            <div><b>Networking Enhancements</b></div>
-            <div>
-               <ul>
-                  <li><b>Java Platform Debugger Architecture (JPDA)</b> introduced for better debugging tools.</li>
-                  <li><b>Socket and I/O improvements</b> for better networking performance.</li>
-                  <li>Support for <b>non-blocking I/O operations</b> (preparing for NIO in Java 1.4).</li>
-               </ul>
-            </div>
-         </div>)]} />
-      </div>
-   </div>
+   <Java03 />
 
 
 
