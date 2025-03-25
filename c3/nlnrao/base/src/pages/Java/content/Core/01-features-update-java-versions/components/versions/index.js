@@ -6,6 +6,7 @@ import Java01 from "./components/java-01/index.js";
 import Java02 from "./components/java-02/index.js";
 import Java03 from "./components/java-03/index.js";
 import Java04 from "./components/java-04/index.js";
+import Java05 from "./components/java-05/index.js";
 import Java07 from "./components/java-07/index.js";
 
 const Versions = () =>{
@@ -27,94 +28,11 @@ const Versions = () =>{
 
    <Java04 />
 
-
+   <Java05 />
 
    
 
-   <div className="mtop15p">
-      <div className="mtop15p"><h4><b>Java SE 1.5 (2004):</b></h4></div>
-      <div className="mtop15p">
-         <OrderList data={[(<div>
-            <div><b>Generics (Type Safety for Collections)</b></div>
-            <div>
-               <ul>
-                  <li className="mtop5p">Allowed defining <b>data type constraints</b> at compile-time.</li>
-                  <li className="mtop5p">Eliminated the need for <b>explicit casting</b>.</li>
-               </ul>
-            </div>
-         </div>),
-         (<div className="mtop15p">
-            <div><b>Enhanced for-loop (for-each loop)</b></div>
-            <div>
-               <ul>
-                  <li><b>Simplified iteration</b> over arrays and collections.</li>
-               </ul>
-            </div>
-         </div>),
-         (<div className="mtop15p">
-            <div><b>Autoboxing and Unboxing</b></div>
-            <div>
-               <ul>
-                  <li className="mtop5p">Automatic conversion between <b>primitive types</b> and <b>wrapper classes</b>.</li>
-                  <li className="mtop5p">Eliminated manual conversion.</li>
-               </ul>
-            </div>
-         </div>),
-         (<div className="mtop15p">
-            <div><b>Varargs (Variable Arguments)</b></div>
-            <div>
-               <ul>
-                  <li className="mtop5p">Allowed <b>passing multiple arguments</b> of the same type without creating an array.</li>
-               </ul>
-            </div>
-         </div>),
-         (<div className="mtop15p">
-            <div><b>Enumerations (enum)</b></div>
-            <div>
-               <ul>
-                  <li className="mtop5p">Introduced <code><b>enum</b></code> type for <b>defining constants</b>.</li>
-                  <li className="mtop5p">More powerful than traditional <code><b>final static</b></code> constants.</li>
-               </ul>
-            </div>
-         </div>),
-         (<div className="mtop15p">
-            <div><b>Concurrency Utilities (java.util.concurrent)</b></div>
-            <div>
-               <ul>
-                  <li className="mtop5p">Added <code><b>Executor Framework</b></code>, <code><b>ThreadPool</b></code>, <code><b>Locks</b></code>, 
-                     <code><b>Atomic Variables</b></code>.</li>
-                  <li className="mtop5p">Improved <b>multithreading performance and reliability</b>.</li>
-               </ul>
-            </div>
-         </div>),
-         (<div className="mtop15p">
-            <div><b>Static Imports</b></div>
-            <div>
-               <ul>
-                  <li>Allowed <b>direct access to static members</b> without qualifying the class name.</li>
-               </ul>
-            </div>
-         </div>),
-         (<div className="mtop15p">
-            <div><b>Annotations (Metadata for Classes and Methods)</b></div>
-            <div>
-               <ul>
-                  <li className="mtop5p">Introduced <b>built-in annotations</b> like: <code><b>@Override</b></code> (Ensures method overrides a superclass 
-                  method), <code><b>@Deprecated</b></code> (Marks a method as deprecated), <code><b>@SuppressWarnings</b></code> (Suppresses compiler 
-                  warnings)</li>
-               </ul>
-            </div>
-         </div>),
-         (<div className="mtop15p">
-            <div><b>Improved Garbage Collection (GC)</b></div>
-            <div>
-               <ul>
-                  <li><b>New GC algorithms</b> for <b>improved performance and memory management</b>.</li>
-               </ul>
-            </div>
-         </div>)]} />
-      </div>
-   </div>
+   
 
    <div className="mtop15p">
       <div className="mtop15p"><h4><b>Java SE 6 (2006):</b></h4></div>
