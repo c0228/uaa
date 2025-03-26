@@ -1,5 +1,5 @@
 import React from "react";
-import { Highlight } from "e-ui-react";
+import { Highlight, Accordian } from "e-ui-react";
 import { BlogIndexHeader } from "@Components/blog-index-header/index.js";
 import OrderList from "@Components/order-list/index.js";
 
@@ -20,10 +20,10 @@ String result = switch (number) {
 System.out.println(result);`;
 
 const Java12 = () =>{
- return (<div className="mtop15p">
-    <div className="mtop15p"><h4><b>Java SE 12 (March, 2019):</b></h4></div>
 
-    <div className="mtop15p padLeft5p">
+ const Features = () =>{
+    return (<div>
+        <div className="mtop10p padLeft5p">
         <BlogIndexHeader type="simple" index="1" title="Switch Expressions (Preview)" />
         <OrderList data={[(<div className="mtop5p">
                 <div>Switch statements can now return values, making them more concise and readable.</div>
@@ -84,6 +84,22 @@ const Java12 = () =>{
             (<div className="mtop5p">Now returns unused heap memory back to the operating system.</div>)]} />
     </div>
 
+    </div>);
+ };
+
+ return (<div className="mtop15p">
+    <div className="mtop15p"><h4><b>Java SE 12 (March, 2019):</b></h4><hr/></div>
+    <div className="mtop15p"><b>Java 12</b> continued the <b>6-month release cycle</b>, introducing <b>new preview features</b>, 
+        <b>performance improvements</b>, and <b>garbage collection enhancements</b>. This version <b>focused on internal 
+        optimizations</b> rather than major language changes.
+    </div>
+    <div className="mtop15p">
+        <Accordian id="Java12" data={[{
+            id:"java12-features", 
+            title: (<div><b>FEATURES:</b></div>),
+            component:(<Features />)
+        }]} />
+    </div>
  </div>);
 };
 

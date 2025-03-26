@@ -1,12 +1,12 @@
 import React from "react";
+import { Accordian } from "e-ui-react";
 import { BlogIndexHeader } from "@Components/blog-index-header/index.js";
 import OrderList from "@Components/order-list/index.js";
 
 const Java03 = () =>{
- return (<div className="mtop15p">
-       <div className="mtop15p"><h4><b>Java SE 1.3 (2000):</b></h4></div>
-
-       <div className="mtop15p padLeft5p">
+ const Features = () =>{
+  return (<div>
+     <div className="mtop10p padLeft5p">
             <BlogIndexHeader type="simple" index="1" title="HotSpot JVM (Performance Boost)" />
             <OrderList data={[(<div className="mtop5p"><b>Default JVM replaced with HotSpot JVM</b> 
                 for better performance and efficiency.</div>),
@@ -50,8 +50,22 @@ const Java03 = () =>{
                 (<div className="mtop5p"><b>Socket and I/O improvements</b> for better networking performance.</div>),
                 (<div className="mtop5p">Support for <b>non-blocking I/O operations</b> (preparing for NIO in Java 1.4).</div>)]} />
         </div>
+  </div>);
+ };
+ return (<div className="mtop15p">
+    <div className="mtop15p"><h4><b>Java SE 1.3 (2000):</b></h4><hr/></div>
+    <div className="mtop15p">Java 1.3 focused on <b>performance improvements</b>, <b>better JVM support</b>, and 
+        <b>enhancements to Java APIs</b>. It introduced <b>HotSpot JVM</b>, improved networking, and refined existing 
+        APIs for better efficiency.</div>
+    <div className="mtop15p">
+        <Accordian id="Java03" data={[{
+            id:"java03-features", 
+            title: (<div><b>FEATURES:</b></div>),
+            component:(<Features />)
+         }]} />
+    </div>
         
-    </div>);
+ </div>);
 };
 
 export default Java03;

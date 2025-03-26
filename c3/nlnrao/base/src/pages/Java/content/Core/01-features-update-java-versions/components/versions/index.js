@@ -39,6 +39,8 @@ const Versions = () =>{
 
    <Java06 />
 
+   <div align="center" className="mtop15p"><b>IN 2010, SUN MICROSYSTEMS WAS OWNED BY ORACLE CORPORATION</b></div>
+
    <Java07 />
 
    <Java08/>

@@ -1,5 +1,5 @@
 import React from "react";
-import { Highlight } from "e-ui-react";
+import { Highlight, Accordian } from "e-ui-react";
 import { BlogIndexHeader } from "@Components/blog-index-header/index.js";
 import OrderList from "@Components/order-list/index.js";
 
@@ -26,10 +26,10 @@ const TEXTBLOCK_JAVA13_AFTER = `String json = """
     """;`;
 
 const Java13 = () =>{
- return (<div className="mtop15p">
-    <div className="mtop15p"><h4><b>Java SE 13 (September, 2019):</b></h4></div>
-    
-    <div className="mtop15p padLeft5p">
+
+ const Features = () =>{
+    return (<div>
+        <div className="mtop10p padLeft5p">
         <BlogIndexHeader type="simple" index="1" title="Switch Expressions (Second Preview)" />
         <OrderList data={[(<div className="mtop5p">Refinement of the switch expression introduced in Java 12.</div>),
             (<div className="mtop5p">
@@ -83,12 +83,25 @@ const Java13 = () =>{
             (<div className="mtop5p">Reduces memory footprint for applications running on cloud environments.</div>)]} />
     </div>
 
-
     <div className="mtop15p padLeft5p">
         <BlogIndexHeader type="simple" index="5" title="Reimplemented Legacy Socket API" />
         <OrderList data={[(<div className="mtop5p">The old socket implementation has been replaced with a modern, 
             maintainable version.</div>),
             (<div className="mtop5p">Results in better performance and maintainability.</div>)]} />
+    </div>
+    </div>);
+ };
+
+ return (<div className="mtop15p">
+    <div className="mtop15p"><h4><b>Java SE 13 (September, 2019):</b></h4><hr/></div>
+    <div className="mtop15p"><b>Java 13</b> was a short-term release that focused on <b>preview language enhancements</b>, 
+        <b>garbage collection improvements</b>, and <b>better memory management</b>.</div>
+    <div className="mtop15p">
+            <Accordian id="Java13" data={[{
+                id:"java13-features", 
+                title: (<div><b>FEATURES:</b></div>),
+                component:(<Features />)
+            }]} />
     </div>
  </div>);
 };

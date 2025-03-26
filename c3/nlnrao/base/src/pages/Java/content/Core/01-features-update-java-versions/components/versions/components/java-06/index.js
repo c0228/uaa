@@ -1,12 +1,12 @@
 import React from "react";
+import { Accordian } from "e-ui-react";
 import { BlogIndexHeader } from "@Components/blog-index-header/index.js";
 import OrderList from "@Components/order-list/index.js";
 
 const Java06 = () =>{
- return (<div className="mtop15p">
-    <div className="mtop15p"><h4><b>Java SE 6 (2006):</b></h4></div>
-
-    <div className="mtop15p padLeft5p">
+ const Features = () =>{
+    return (<div>
+        <div className="mtop10p padLeft5p">
         <BlogIndexHeader type="simple" index="1" title="Performance Improvements" />
         <OrderList data={[(<div className="mtop5p">Better Memory Management & Faster JVM Execution.</div>),
             (<div className="mtop5p">Improved <b>Just-In-Time (JIT) Compilation</b> for optimized performance.</div>),
@@ -67,6 +67,20 @@ const Java06 = () =>{
         <OrderList data={[(<div className="mtop5p">Improved JMX (Java Management Extensions).</div>),
                 (<div className="mtop5p">Enhanced troubleshooting tools (<code><b>jmap</b></code>, 
                         <code><b>jconsole</b></code>).</div>)]} />
+    </div>
+    </div>);
+ };
+ return (<div className="mtop15p">
+    <div className="mtop15p"><h4><b>Java SE 6 (2006):</b></h4><hr/></div>
+    <div className="mtop15p"><b>Java 1.6</b>, officially called <b>Java SE 6</b>, focused on <b>performance improvements</b>, 
+    <b>scripting support</b>, <b>JDBC 4.0 enhancements</b>, <b>Web Services</b>, and <b>improved GUI features</b>. This release 
+    was primarily aimed at <b>stability</b>, <b>security</b>, and <b>platform scalability</b>.</div>
+    <div className="mtop15p">
+            <Accordian id="Java06" data={[{
+                    id:"java06-features", 
+                    title: (<div><b>FEATURES:</b></div>),
+                    component:(<Features />)
+                }]} />
     </div>
 
  </div>);

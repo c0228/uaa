@@ -1,12 +1,12 @@
 import React from "react";
+import { Accordian } from "e-ui-react";
 import { BlogIndexHeader } from "@Components/blog-index-header/index.js";
 import OrderList from "@Components/order-list/index.js";
 
 const Java08 = () =>{
- return (<div className="mtop15p">
-    <div className="mtop15p"><h4><b>Java SE 8 (2014):</b></h4></div>
-
-    <div className="mtop15p padLeft5p">
+ const Features = () =>{
+   return (<div>
+    <div className="mtop10p padLeft5p">
         <BlogIndexHeader type="simple" index="1" title="Lambda Expressions (Functional Programming)" />
         <OrderList data={[(<div className="mtop5p">Introduced functional programming in Java.</div>),
             (<div className="mtop5p">Allows writing more concise and readable code.</div>)]} />
@@ -68,7 +68,21 @@ const Java08 = () =>{
             (<div className="mtop5p">Faster JVM execution with Compact Profiles.</div>),
             (<div className="mtop5p">Better handling of Parallel Streams.</div>)]} />
     </div>
-
+</div>);
+ };
+ return (<div className="mtop15p">
+    <div className="mtop15p"><h4><b>Java SE 8 (2014):</b></h4><hr/></div>
+    <div className="mtop15p"><b>Java 8</b> was a <b>game-changing release</b>, introducing 
+        <b>functional programming features</b>, <b>improved API usability</b>, <b>better performance</b>, and 
+        <b>enhanced security</b>. This version marked a major shift in Java programming by introducing 
+        <b>Lambda Expressions</b>, <b>Stream API</b>, and <b>Default Methods</b>.</div>
+    <div className="mtop15p">
+          <Accordian id="Java08" data={[{
+             id:"java08-features", 
+             title: (<div><b>FEATURES:</b></div>),
+             component:(<Features />)
+          }]} />
+    </div>
  </div>);
 };
 

@@ -1,5 +1,5 @@
 import React from "react";
-import { Highlight } from "e-ui-react";
+import { Highlight, Accordian } from "e-ui-react";
 import { BlogIndexHeader } from "@Components/blog-index-header/index.js";
 import OrderList from "@Components/order-list/index.js";
 
@@ -12,11 +12,10 @@ const VAR_LAMBDA_EXPRESSIONS = `List<String> list = List.of("Java", "Python", "C
 list.forEach((var item) -> System.out.println(item));`;
 
 const Java11 = () =>{
- 
- return (<div className="mtop15p">
-    <div className="mtop15p"><h4><b>Java SE 11 (September, 2018):</b></h4></div>
-    
-    <div className="mtop15p padLeft5p">
+
+ const Features = () =>{
+   return (<div>
+    <div className="mtop10p padLeft5p">
         <BlogIndexHeader type="simple" index="1" title="Running Java Files with java file.java (No Compilation Required)" />
         <OrderList data={[(<div className="mtop5p">
                 <div>You can now run single-file Java programs without compiling them separately.</div>
@@ -154,6 +153,22 @@ const Java11 = () =>{
             (<div className="mtop5p"><b>Java Mission Control (JMC):</b> Analyzes JFR recordings to diagnose 
             performance issues.</div>)]} />
     </div>
+   </div>);
+ };
+ 
+ return (<div className="mtop15p">
+    <div className="mtop15p"><h4><b>Java SE 11 (September, 2018):</b></h4><hr/></div>
+    <div className="mtop15p"><b>Java 11</b> is a <b>Long-Term Support (LTS) release</b>, meaning it receives extended 
+    support and security updates. It introduced several <b>important enhancements</b>, including <b>removal of deprecated APIs</b>, 
+    <b>performance improvements</b>, and <b>new features</b>.</div>
+    <div className="mtop15p">
+            <Accordian id="Java11" data={[{
+                    id:"java11-features", 
+                    title: (<div><b>FEATURES:</b></div>),
+                    component:(<Features />)
+                }]} />
+    </div>
+    
 
  </div>);
 };

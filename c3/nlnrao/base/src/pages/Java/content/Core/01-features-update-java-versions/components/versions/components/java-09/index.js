@@ -1,12 +1,12 @@
 import React from "react";
+import { Accordian } from "e-ui-react";
 import { BlogIndexHeader } from "@Components/blog-index-header/index.js";
 import OrderList from "@Components/order-list/index.js";
 
 const Java09 = () =>{
- return (<div className="mtop15p">
-    <div className="mtop15p"><h4><b>Java SE 9 (2017):</b></h4></div>
-    
-    <div className="mtop15p padLeft5p">
+ const Features = () =>{
+   return (<div>
+    <div className="mtop10p padLeft5p">
         <BlogIndexHeader type="simple" index="1" title="Java Platform Module System (JPMS) – Project Jigsaw" />
         <OrderList data={[(<div className="mtop5p">Introduced <b>Modularity</b> to Java applications by breaking the JDK into modules.</div>),
             (<div className="mtop5p">Improves performance, security, and maintainability.</div>)]} />
@@ -57,6 +57,20 @@ const Java09 = () =>{
     <div className="mtop15p padLeft5p">
         <BlogIndexHeader type="simple" index="10" title="Multi-Resolution Image API (java.awt.image)" />
         <OrderList data={[(<div className="mtop5p">Allows handling multiple resolutions of an image dynamically.</div>)]} />
+    </div>
+   </div>);
+ };
+ return (<div className="mtop15p">
+    <div className="mtop15p"><h4><b>Java SE 9 (2017):</b></h4><hr/></div>
+    <div className="mtop15p"><b>Java 9</b> introduced <b>major architectural changes</b> and several <b>enhancements</b> to 
+    improve performance, scalability, and modularity. The most significant change was <b>Project Jigsaw</b>, which introduced 
+    the <b>Java Module System</b>.</div>
+    <div className="mtop15p">
+        <Accordian id="Java09" data={[{
+                id:"java09-features", 
+                title: (<div><b>FEATURES:</b></div>),
+                component:(<Features />)
+            }]} />
     </div>
 
  </div>);

@@ -1,11 +1,12 @@
 import React from "react";
+import { Accordian } from "e-ui-react";
 import { BlogIndexHeader } from "@Components/blog-index-header/index.js";
 import OrderList from "@Components/order-list/index.js";
 
 const Java02 = () =>{
- return (<div className="mtop15p">
-    <div className="mtop15p"><h4><b>Java SE 1.2 (1998):</b></h4></div>
-    <div className="mtop15p padLeft5p">
+ const Features = () =>{
+  return (<div>
+    <div className="mtop10p padLeft5p">
         <BlogIndexHeader type="simple" index="1" title="Java Foundation Classes (JFC)" />
         <OrderList data={[(<div className="mtop5p"><b>Swing API</b> (<code><b>javax.swing</b></code>) 
                 introduced <b>lightweight GUI components</b>, replacing AWT components.</div>),
@@ -68,6 +69,22 @@ const Java02 = () =>{
         <BlogIndexHeader type="simple" index="8" title="Performance and Memory Improvements" />
         <OrderList data={[(<div className="mtop5p">Enhanced <b>Garbage Collection</b> for better memory management.</div>),
             (<div className="mtop5p">Introduced <b>Weak References</b> to optimize memory handling.</div>)]} />
+    </div>
+  </div>);
+ };
+
+ return (<div className="mtop15p">
+    <div className="mtop15p"><h4><b>Java SE 1.2 (1998):</b></h4><hr/></div>
+    <div className="mtop15p">Java 1.2, also known as Java 2 (J2SE 1.2), was a major release that introduced 
+        significant enhancements to the Java platform. It marked the beginning of the 
+        <b>Java 2 Platform, Standard Edition (J2SE)</b> and introduced various improvements in <b>performance</b>, 
+        <b>security</b>, <b>GUI</b>, <b>collections framework</b>, and <b>Java Virtual Machine (JVM)</b>.</div>
+    <div className="mtop15p">
+        <Accordian id="Java02" data={[{
+            id:"java02-features", 
+            title: (<div><b>FEATURES:</b></div>),
+            component:(<Features />)
+        }]} />
     </div>
  </div>);
 };

@@ -1,9 +1,9 @@
 import React from "react";
+import { Accordian } from "e-ui-react";
 import { BlogIndexHeader } from "@Components/blog-index-header/index.js";
 import OrderList from "@Components/order-list/index.js";
 
 const Java07 = () =>{
-
  const ProjectCoinDetails = () =>{
     return (<div className="mtop5p">
         <div className="padLeft15p">Java 7 introduced several minor language enhancements under <b>Project Coin</b>, 
@@ -55,9 +55,9 @@ const Java07 = () =>{
      </div>);
  };
 
- return (<div className="mtop15p">
-  <div className="mtop15p"><h4><b>Java SE 7 (2011):</b></h4></div>
-    <div className="mtop15p padLeft5p">
+ const Features = () =>{
+   return (<div>
+      <div className="mtop10p padLeft5p">
        <BlogIndexHeader type="simple" index="1" title="Project Coin (Small Language Enhancements)" />
        <ProjectCoinDetails />
     </div>
@@ -86,6 +86,22 @@ const Java07 = () =>{
     <div className="mtop15p padLeft5p">
        <BlogIndexHeader type="simple" index="7" title="Java Networking Enhancements" />
        <OrderList data={[(<div>Better support for secure communication (TLS 1.2, SNI support).</div>)]} />
+    </div>
+   </div>);
+ };
+
+ return (<div className="mtop15p">
+  <div className="mtop15p"><h4><b>Java SE 7 (2011):</b></h4><hr/></div>
+  <div className="mtop15p"><b>Java 1.7</b>, officially called <b>Java SE 7</b>, was a significant update that introduced 
+  <b>improvements in exception handling</b>, <b>new language syntax</b>, <b>concurrency updates</b>, and <b>enhancements in I/O</b> 
+  and <b>networking</b>. This version aimed to <b>improve developer productivity</b>, <b>enhance security</b>, and 
+  <b>increase the performance of Java applications</b>.</div>
+    <div className="mtop15p">
+      <Accordian id="Java07" data={[{
+         id:"java07-features", 
+         title: (<div><b>FEATURES:</b></div>),
+         component:(<Features />)
+      }]} />
     </div>
   </div>);
 };
