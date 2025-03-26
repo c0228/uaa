@@ -16,6 +16,7 @@ import Java11 from "./components/java-11/index.js";
 import Java12 from "./components/java-12/index.js";
 import Java13 from "./components/java-13/index.js";
 import Java14 from "./components/java-14/index.js";
+import Java15 from "./components/java-15/index.js";
 
 const Versions = () =>{
  return (<div className="lh28p mtop15p mbot15p fs16p">
@@ -58,15 +59,7 @@ const Versions = () =>{
 
    <Java14 />
 
-   <div className="mtop15p">
-      <div className="mtop15p"><h4><b>Java SE  ():</b></h4></div>
-      <div className="mtop15p">
-         <OrderList data={[(<div></div>),
-            (<div></div>),
-            (<div></div>),
-            (<div></div>)]} />
-      </div>
-   </div>
+   <Java15 />
 
    <div className="mtop15p">
       <div className="mtop15p"><h4><b>Java SE  ():</b></h4></div>

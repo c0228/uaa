@@ -207,7 +207,7 @@ const Java14 = () =>{
   </div>);
  };
  return (<div className="mtop15p">
-    <div className="mtop15p"><h4><b>Java SE 14 (March, 2020):</b></h4></div>
+    <div className="mtop15p"><h4><b>Java SE 14 (March, 2020):</b></h4><hr/></div>
     <div className="mtop15p"><b>Java 14</b> introduced <b>several preview language features</b>, <b>performance improvements</b>, 
         and <b>new APIs</b>, enhancing <b>developer productivity</b>, <b>code readability</b>, and <b>memory management</b>.</div>
     <div className="mtop15p">
