@@ -39,8 +39,8 @@ const Java11 = () =>{
         <BlogIndexHeader type="simple" index="3" title="New String Methods" />
         <OrderList data={[(<div className="mtop5p">
             <div>Several useful methods were added to <code><b>String</b></code> class:</div>
-            <div class="table-responsive mtop15p">
-                <table class="table">
+            <div className="table-responsive mtop15p">
+                <table className="table">
                     <thead>
                         <tr style={{ backgroundColor:'#eee' }}>
                             <td><b>Method</b></td>
@@ -80,8 +80,8 @@ const Java11 = () =>{
         <BlogIndexHeader type="simple" index="4" title="New Files Methods (for File Handling)" />
         <OrderList data={[(<div className="mtop5p">
             <div>New methods in <code><b>java.nio.file.Files</b></code> simplify file operations.</div>
-            <div class="table-responsive mtop15p">
-                <table class="table">
+            <div className="table-responsive mtop15p">
+                <table className="table">
                     <thead>
                         <tr>
                             <td><b>Method</b></td>

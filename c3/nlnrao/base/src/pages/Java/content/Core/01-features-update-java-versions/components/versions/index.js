@@ -18,6 +18,7 @@ import Java13 from "./components/java-13/index.js";
 import Java14 from "./components/java-14/index.js";
 import Java15 from "./components/java-15/index.js";
 import Java16 from "./components/java-16/index.js";
+import Java17 from "./components/java-17/index.js";
 
 const Versions = () =>{
  return (<div className="lh28p mtop15p mbot15p fs16p">
@@ -63,6 +64,8 @@ const Versions = () =>{
    <Java15 />
 
    <Java16 />
+
+   <Java17 />
 
    <div className="mtop15p">
       <div className="mtop15p"><h4><b>Java SE  ():</b></h4></div>
