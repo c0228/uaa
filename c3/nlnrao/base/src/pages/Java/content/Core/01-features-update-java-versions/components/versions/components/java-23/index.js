@@ -22,8 +22,12 @@ const Java23 = () =>{
   </div>);
  };
  return (<div className="mtop15p">
-     <div className="mtop15p"><h4><b>Java SE 23 (, ):</b></h4></div>
-     <div className="mtop15p">
+     <div className="mtop15p"><h4><b>Java SE 23 (September, 2024):</b></h4></div>
+     <div className="mtop15p">Java 23 brings a host of new features and improvements aimed at enhancing developer 
+        productivity, code clarity, and application performance. From advanced pattern matching with primitive types to 
+        flexible constructor bodies and improved concurrency models, this release continues to evolve the Java language 
+        to meet modern development needs. Developers are encouraged to explore these features and consider adopting them to 
+        leverage the full potential of Java 23.
      </div>
      <div className="mtop15p">
          <Accordian id="Java23" data={[{
