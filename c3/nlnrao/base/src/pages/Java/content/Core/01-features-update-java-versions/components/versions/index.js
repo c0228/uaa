@@ -19,6 +19,13 @@ import Java14 from "./components/java-14/index.js";
 import Java15 from "./components/java-15/index.js";
 import Java16 from "./components/java-16/index.js";
 import Java17 from "./components/java-17/index.js";
+import Java18 from "./components/java-18/index.js";
+import Java19 from "./components/java-19/index.js";
+import Java20 from "./components/java-20/index.js";
+import Java21 from "./components/java-21/index.js";
+import Java22 from "./components/java-22/index.js";
+import Java23 from "./components/java-23/index.js";
+import Java24 from "./components/java-24/index.js";
 
 const Versions = () =>{
  return (<div className="lh28p mtop15p mbot15p fs16p">
@@ -67,15 +74,19 @@ const Versions = () =>{
 
    <Java17 />
 
-   <div className="mtop15p">
-      <div className="mtop15p"><h4><b>Java SE  ():</b></h4></div>
-      <div className="mtop15p">
-         <OrderList data={[(<div></div>),
-            (<div></div>),
-            (<div></div>),
-            (<div></div>)]} />
-      </div>
-   </div>
+   <Java18 />
+
+   <Java19 />
+
+   <Java20 />
+
+   <Java21 />
+
+   <Java22 />
+
+   <Java23 />
+
+   <Java24 />
 
  </div>);
 };
