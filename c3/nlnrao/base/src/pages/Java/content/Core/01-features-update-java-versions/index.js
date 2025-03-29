@@ -8,7 +8,7 @@ import Versions from "./components/versions/index.js";
 import Conclusion from "./components/conclusion/index.js";
 
 const JavaVersionsFeatureUpdates = ({ meta }) =>{
- return (<div>
+ return (<div className="mbot15p">
   <Header menulinks={HeaderMenu} activeId="Home" />
    <ContainerFluid>
       <Row>

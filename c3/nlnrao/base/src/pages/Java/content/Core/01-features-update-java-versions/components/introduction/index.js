@@ -155,7 +155,30 @@ const Introduction = () =>{
  };
 
  const DeprecatedFeatures = () =>{
-    return (<div></div>);
+    return (<div>
+        <div><b>Definition:</b></div>
+        <div>
+            <ul>
+                <li>These are features that are still available but discouraged for use.</li>
+                <li>They will likely be removed in a future Java version.</li>
+            </ul>
+        </div>
+        <div className="mtop15p"><b>Key Characteristics:</b></div>
+        <div>
+            <ul>
+                <li>Marked with the <code><b>@Deprecated</b></code> annotation.</li>
+                <li>Still functional but might cause warnings in newer versions.</li>
+                <li>Some deprecated features remain for many releases before removal.</li>
+            </ul>
+        </div>
+        <div className="mtop15p"><b>Example:</b></div>
+        <div>
+            <ul>
+                <li><code><b>Thread.stop()</b></code> (Deprecated in Java 1.2, Removed in Java 11)</li>
+                <li>The <code><b>java.security.acl</b></code> package (Deprecated in Java 9, Removed in Java 11)</li>
+            </ul>
+        </div>
+    </div>);
  };
 
  const RemovedFeatures = () =>{

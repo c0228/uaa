@@ -25,7 +25,6 @@ import Java20 from "./components/java-20/index.js";
 import Java21 from "./components/java-21/index.js";
 import Java22 from "./components/java-22/index.js";
 import Java23 from "./components/java-23/index.js";
-import Java24 from "./components/java-24/index.js";
 
 const Versions = () =>{
  return (<div className="lh28p mtop15p mbot15p fs16p">
@@ -85,8 +84,6 @@ const Versions = () =>{
    <Java22 />
 
    <Java23 />
-
-   <Java24 />
 
  </div>);
 };
