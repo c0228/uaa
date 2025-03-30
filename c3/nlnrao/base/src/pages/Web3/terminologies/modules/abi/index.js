@@ -1,7 +1,5 @@
 import React from "react";
-import Terminologies from '@Components/terminologies-list/index.js';
-import { Blog, Content, RightSide } from '@Pages/Web3/components/blog-templates/index.js';
-import Routes from "@Pages/Web3/component.routes.json";
+import { BlogTerminologies, Content, RightSide } from '@Components/blog-tmpl-terminologies/index.js';
 import Definition from "./components/Definition/index.js";
 import Importance from "./components/Importance/index.js";
 import ABIStructure from "./components/Structure/index.js";
@@ -15,7 +13,7 @@ import Conclusion from "./components/Conclusion/index.js";
 const ABI = ({ meta }) =>{
 
  return (<div>
-  <Blog metaData={meta}>
+  <BlogTerminologies active="Blockchain" prefix="tech/web3.0/terminologies/"  metaData={meta}>
     <Content>
         <Definition />
         <Importance />
@@ -28,9 +26,8 @@ const ABI = ({ meta }) =>{
         <Conclusion />
     </Content>
     <RightSide>
-        <Terminologies prefix="tech/web3.0/terminologies/" data={Routes} />
     </RightSide>
-  </Blog>
+  </BlogTerminologies>
  </div>);
 };
 

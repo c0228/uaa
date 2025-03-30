@@ -1,13 +1,10 @@
 import React from "react";
-import { Blog, Content, RightSide } from '@Pages/Web3/components/blog-templates/index.js';
-import Terminologies from '@Components/terminologies-list/index.js';
-import Routes from "@Pages/Web3/component.routes.json";
-import { Highlight } from "e-ui-react"; 
+import { BlogTerminologies, Content, RightSide } from '@Components/blog-tmpl-terminologies/index.js';
 import SimpleTimeline from '@Components/simple-timeline/index.js';
 
 const SolidityVsVyper = ({ meta }) =>{
  return (<div>
-  <Blog metaData={meta}>
+  <BlogTerminologies active="Blockchain" prefix="tech/web3.0/terminologies/"  metaData={meta}>
     <Content>
     <div>
     <div className="mtop15p lh36p" style={{ fontSize:'16px' }}><i><u>Solidity</u> and <u>Vyper</u> are both popular 
@@ -30,9 +27,8 @@ const SolidityVsVyper = ({ meta }) =>{
  </div>
     </Content>
     <RightSide>
-        <Terminologies prefix="tech/web3.0/terminologies/" data={Routes} />
     </RightSide>
-  </Blog>
+  </BlogTerminologies>
  </div>);
 };
 
