@@ -2,7 +2,7 @@ import React from "react";
 import { BlogTerminologies, Content, RightSide } from '@Components/blog-tmpl-terminologies/index.js';
 import Introduction from "./components/introduction/index.js";
 import Timeline from "./components/timeline/index.js";
-import Conclusion from "../web-1-2-3/components/conclusion/index.js";
+import Conclusion from "./components/conclusion/index.js";
 
 const SolidityVsVyper = ({ meta }) =>{
  return (<div>
