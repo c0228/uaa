@@ -1,15 +1,14 @@
 import React from "react";
 import { Highlight } from 'e-ui-react';
-import { Header2, Header3 } from "@Components/headers-h15/index.js";
 import OrderList from "@Components/order-list/index.js";
 
 const HowItWorks = () =>{
- return (<div className="mtop15p">
-   <Header2><b>ABI Structure</b></Header2>
+ return (<div className="mtop15p mbot15p lh28p fs16p">
+   <div className="mtop15p"><h2 className="blog-head"><b>ABI Structure</b></h2></div>
 
    <div style={{ border:'1px dashed #ccc', paddingLeft:'15px', paddingBottom:'15px' }}>
         <div className="mtop15p">
-            <Header3><b>Step 1: Fetching the ABI</b></Header3>
+            <div><h4><b>Step 1: Fetching the ABI</b></h4></div>
         </div>
         <div className="mtop15p">
             To interact with a DeFi smart contract, users or developers first retrieve its ABI. This is usually found in:
@@ -21,7 +20,7 @@ const HowItWorks = () =>{
 
    <div style={{ border:'1px dashed #ccc', paddingLeft:'15px', paddingBottom:'15px' }}>
         <div className="mtop15p">
-            <Header3><b>Step 2: Encoding Function Calls</b></Header3>
+            <div><h4><b>Step 2: Encoding Function Calls</b></h4></div>
         </div>
         <div className="mtop15p lh25p">
             When calling a smart contract function, the ABI encodes the request into a format the Ethereum Virtual Machine 
@@ -40,7 +39,7 @@ const HowItWorks = () =>{
 
     <div style={{ border:'1px dashed #ccc', paddingLeft:'15px', paddingBottom:'15px' }}>
         <div className="mtop15p">
-            <Header3><b>Step 3: Decoding the Response</b></Header3>
+            <div><h4><b>Step 3: Decoding the Response</b></h4></div>
         </div>
         <div className="mtop15p lh25p">
             When a contract returns a value, the ABI decodes the raw EVM output into a readable format.

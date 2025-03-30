@@ -1,10 +1,9 @@
 import React from "react";
-import { Header2 } from "@Components/headers-h15/index.js";
 
 const Conclusion = () =>{
- return (<div className="mtop15p">
-    <Header2><b>Conclusion</b></Header2>
-    <div className="mtop15p lh25p">
+ return (<div className="mtop15p mbot15p lh28p fs16p">
+    <div className="mtop15p"><h2 className="blog-head"><b>Conclusion</b></h2></div>
+    <div className="mtop15p">
         The ABI is an essential component in DeFi, enabling interaction with smart contracts in a structured way. 
         Whether accessing token balances, swapping assets on a DEX, or taking flash loans, ABIs define how external 
         applications communicate with blockchain protocols. Understanding ABI structures, encoding, and security is 

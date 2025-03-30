@@ -1,11 +1,9 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { Highlight } from 'e-ui-react';
-import { Header2 } from "@Components/headers-h15/index.js";
 
 const UseCases = () =>{
- return (<div className="mtop15p">
-    <Header2><b>ABI Use Cases in DeFi</b></Header2>
+ return (<div className="mtop15p mbot15p fs16p lh28p">
+    <div className="mtop15p"><h2 className="blog-head"><b>ABI Use Cases in DeFi</b></h2></div>
     <div class="table-responsive">
         <table class="table">
             <thead>
