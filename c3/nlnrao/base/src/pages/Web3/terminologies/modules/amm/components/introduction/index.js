@@ -2,6 +2,13 @@ import React from "react";
 
 const Introduction = () =>{
  return (<div className="mtop15p mbot15p lh28p fs16p">
+    <div><i>Traditional financial markets rely on order books and intermediaries to facilitate trading, but in the 
+        decentralized world of cryptocurrency, a new innovation has emerged—<b>Automated Market Makers (AMMs)</b>. 
+        These decentralized protocols replace traditional market-making mechanisms with algorithmic formulas, allowing 
+        users to trade digital assets directly from their wallets without the need for a centralized exchange. AMMs 
+        play a crucial role in the growth of Decentralized Finance (DeFi) by providing liquidity, enabling permissionless 
+        trading, and eliminating intermediaries. Understanding AMMs is essential for anyone looking to explore DeFi and 
+        decentralized trading.</i></div>
     <div align="center" className="mtop15p"><h2 className="blog-head"><b>Introduction</b></h2></div>
     <div className="mtop15p">The cryptocurrency industry has revolutionized financial markets by introducing 
         decentralized trading mechanisms. Among these innovations, <b>Automated Market Makers (AMMs)</b> play a crucial 
