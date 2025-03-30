@@ -12,7 +12,7 @@ import Conclusion from "./components/Conclusion/index.js";
 
 const ABI = ({ meta }) =>{
 
- return (<div>
+ return (<div className="mbot15p">
   <BlogTerminologies active="Blockchain" prefix="tech/web3.0/terminologies/"  metaData={meta}>
     <Content>
         <Definition />
