@@ -27,6 +27,8 @@ import MaaS from "@Pages/Web3/terminologies/modules/m-a-a-s/index.js";
 import SolidityVsVyper from "@Pages/Web3/terminologies/modules/solidity-vs-vyper/index.js";
 import MintingVsMining from "@Pages/Web3/terminologies/modules/minting-vs-mining/index.js";
 
+import SolidityVariables from "./languages/solidity/01-variables/index.js";
+
 export const Web3ComponentMap = {
  "BlockchainDeploymentLifecycle": BlockchainDeploymentLifecycle,
  "Web3": Web3,
@@ -55,5 +57,7 @@ export const Web3ComponentMap = {
  "TestnetFaucet": TestnetFaucet,
  "MaaS": MaaS,
  "SolidityVsVyper": SolidityVsVyper,
- "MintingVsMining": MintingVsMining
+ "MintingVsMining": MintingVsMining,
+
+ "SolidityVariables": SolidityVariables
 };

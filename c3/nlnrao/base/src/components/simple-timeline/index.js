@@ -7,7 +7,7 @@ const SimpleTimeline = ({ data }) =>{
      <div className="simple-timeline-hgl"></div>
      <div className="simple-timeline-section">
         <h4 className="simple-timeline-title"><b>{title}</b></h4>
-        <div className="mtop15p padBot35p lh25p" style={{ paddingLeft:'15px' }}>{desc}</div>
+        <div className="mtop15p padBot35p fs16p lh28p" style={{ paddingLeft:'15px' }}>{desc}</div>
      </div>
     </div>);
  };

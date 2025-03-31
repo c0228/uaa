@@ -203,6 +203,13 @@
             "date":"October 26, 2024",
             "component": "MintingVsMining",
             "keywords":[]
+        },
+        "tech/web3.0/solidity-programming-language/variables-and-data-types":{
+            "breadcrumbIndex": "web3-terminologies",
+            "label":"Variables and Data Types (Solidity vs Javascript)",
+            "date":"October 26, 2024",
+            "component": "SolidityVariables",
+            "keywords":[]
         }
     }
 }
