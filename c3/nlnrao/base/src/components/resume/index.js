@@ -30,7 +30,7 @@ const Resume = () =>{
  return (<div className="resume-overlay" style={{ width: ((contextData?.resumeStatus ==='open')?'100%':'0%') }}>
  <ContainerFluid style={{ marginTop:'15px', marginBottom:'15px' }}>
      <Row>
-         <Col xxl={2} xl={3} lg={3} sm={3}>
+         <Col xxl={3} xl={3} lg={3} sm={3}>
             {/* Left Container */}
                <Button type="outline-light" size={11} onClick={()=>setContextData({ resumeStatus: 'closed' })}>
                   <Icon type="FontAwesome" name="fa-arrow-left" size={12} style={{ marginRight:'5px' }} />
@@ -39,7 +39,7 @@ const Resume = () =>{
             <ProfileCard />
             <ProjectList />
          </Col>
-         <Col xxl={6} xl={4} lg={3} sm={3}>
+         <Col xxl={5} xl={4} lg={3} sm={3}>
             <ResumeHeader title="My Technical Experience Summary" />
             <ListedSummary />
             
