@@ -7,9 +7,6 @@ const Introduction = () =>{
     browsers or Node.js.</i></div>
    <div align="center" className="mtop15p"><h2 className="blog-head"><b>Variable Declarations</b></h2></div>
     
-   <div className="mtop15p"><h2 className="blog-head"><b>1. Integer</b></h2></div>
-   <div className="mtop15p">
-   </div>
  </div>);
 };
 

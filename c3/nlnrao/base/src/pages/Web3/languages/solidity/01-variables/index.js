@@ -4,6 +4,7 @@ import Header from '@Templates/Header/index.js';
 import { HeaderMenu } from '@Config/HeaderMenu.js';
 import BlogArticleHeader from '@Components/blog-article-header/index.js';
 import Introduction from './components/introduction/index.js';
+import Integer from './components/01-integers/index.js';
 
 const SolidityVariables = ({ meta }) =>{
  return (<div>
@@ -13,6 +14,7 @@ const SolidityVariables = ({ meta }) =>{
         <Col md={8}>
           <BlogArticleHeader metaData={meta} />
           <Introduction />
+          <Integer />
         </Col>
        </Row>
     </ContainerFluid>
