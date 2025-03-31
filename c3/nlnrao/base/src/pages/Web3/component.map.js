@@ -1,3 +1,4 @@
+import BlockchainDeploymentLifecycle from "./terminologies/modules/blockchain-deploy-lifecycle/index.js";
 import Web3 from "@Pages/Web3/index.js";
 import ZKP01 from "@Pages/Web3/content/01_zk-SNARKs_and_zk-STARKs/index.js";
 import ZKP02 from "@Pages/Web3/content/02_i_ni_zkp/index.js";
@@ -27,6 +28,7 @@ import SolidityVsVyper from "@Pages/Web3/terminologies/modules/solidity-vs-vyper
 import MintingVsMining from "@Pages/Web3/terminologies/modules/minting-vs-mining/index.js";
 
 export const Web3ComponentMap = {
+ "BlockchainDeploymentLifecycle": BlockchainDeploymentLifecycle,
  "Web3": Web3,
  "ZKP01": ZKP01,
  "ZKP02": ZKP02,

@@ -43,6 +43,13 @@
             "component": "ModBcArch",
             "keywords":[]
         },
+        "tech/web3.0/terminologies/blockchain-deployment-lifecycle":{
+            "breadcrumbIndex": "terminologies",
+            "label":"Blockchain Deployment Lifecycle",
+            "date":"October 26, 2024",
+            "component": "BlockchainDeploymentLifecycle",
+            "keywords":[]
+        },
         "tech/web3.0/terminologies/understanding-web1-web2-web3":{ 
             "breadcrumbIndex": "terminologies",
             "label":"Understanding Web 1.0, Web 2.0 and Web 3.0",
