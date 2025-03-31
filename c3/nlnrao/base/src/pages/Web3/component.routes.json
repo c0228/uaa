@@ -169,6 +169,13 @@
             "component": "Staking",
             "keywords":[]
         },
+        "tech/web3.0/terminologies/testnet-faucet":{
+            "breadcrumbIndex": "terminologies",
+            "label":"Testnet Faucet",
+            "date":"October 26, 2024",
+            "component": "TestnetFaucet",
+            "keywords":[]
+        },
         "tech/web3.0/terminologies/metaverse-as-a-service-(maas)":{
             "breadcrumbIndex": "terminologies",
             "label":"Metaverse-as-a-Service (MaaS)",

@@ -21,6 +21,7 @@ import IDO from "@Pages/Web3/terminologies/modules/ido/index.js";
 import ERC from "@Pages/Web3/terminologies/modules/erc/index.js";
 import TradeFi from "@Pages/Web3/terminologies/modules/trad-fi/index.js";
 import Staking from "@Pages/Web3/terminologies/modules/staking/index.js";
+import TestnetFaucet from "@Pages/Web3/terminologies/modules/testnet-faucet/index.js";
 import MaaS from "@Pages/Web3/terminologies/modules/m-a-a-s/index.js";
 import SolidityVsVyper from "@Pages/Web3/terminologies/modules/solidity-vs-vyper/index.js";
 import MintingVsMining from "@Pages/Web3/terminologies/modules/minting-vs-mining/index.js";
@@ -49,6 +50,7 @@ export const Web3ComponentMap = {
  "ERC": ERC,
  "TradeFi": TradeFi,
  "Staking": Staking,
+ "TestnetFaucet": TestnetFaucet,
  "MaaS": MaaS,
  "SolidityVsVyper": SolidityVsVyper,
  "MintingVsMining": MintingVsMining
