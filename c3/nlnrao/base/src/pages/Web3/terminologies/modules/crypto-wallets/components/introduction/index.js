@@ -1,4 +1,5 @@
 import React from "react";
+import { Card } from "e-ui-react";
 
 const Introduction = () =>{
  return (<div className="mtop15p mbot15p lh28p fs16p">
@@ -33,7 +34,10 @@ const Introduction = () =>{
       <div className="mtop15p"><h4><b>Hot Wallets (Connected to the Internet)</b></h4></div>
       <div className="mtop15p">Hot wallets are convenient and widely used for daily transactions but are more susceptible to hacks 
       due to their internet connectivity.</div>
-      <div className="mtop15p"><b>Web Wallets</b></div>
+
+      <div className="mtop5p">
+      <Card padding={15} backgroundColor="#eee">
+      <div><b>Web Wallets</b></div>
       <div className="mtop15p">Web wallets run on browsers and do not require installations. They are offered by exchanges and 
          third-party providers, providing easy access but posing higher security risks. Examples include MetaMask and 
          MyEtherWallet.</div>
@@ -43,17 +47,23 @@ const Introduction = () =>{
       <div className="mtop15p"><b>Desktop Wallets</b></div>
       <div className="mtop15p">Desktop wallets are installed on a computer and provide a higher level of security than web wallets. 
          They store private keys locally but are still vulnerable to malware. Examples include Electrum and Atomic Wallet.</div>
+      </Card>
+      </div>
 
       <div className="mtop15p"><h4><b>Cold Wallets (Offline Storage)</b></h4></div>
       <div className="mtop15p">Cold wallets are highly secure because they store private keys offline, making them immune to 
          online threats.</div>
-      <div className="mtop15p"><b>Hardware Wallets</b></div>
+      <div className="mtop5p">
+      <Card padding={15} backgroundColor="#eee">
+      <div><b>Hardware Wallets</b></div>
       <div className="mtop15p">Hardware wallets are physical devices that store private keys securely offline. They require a 
          connection to a computer or mobile device for transactions. Popular hardware wallets include Ledger Nano X and Trezor 
          Model T.</div>
       <div className="mtop15p"><b>Paper Wallets</b></div>
       <div className="mtop15p">A paper wallet involves printing the private and public keys on a piece of paper. This method is 
          highly secure if stored correctly but can be lost or damaged easily</div>
+      </Card>
+      </div>
    </div>
  </div>);
 };
