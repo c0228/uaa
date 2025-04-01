@@ -1,5 +1,5 @@
 import React from "react";
-import ResumeHeader, { ResumeSubHeader } from '@Components/resume/components/resume-header/index.js';
+import ResumeHeader, { ResumeSubHeader } from '@MainComponents/resume/components/resume-header/index.js';
 
 const ProjectList = () =>{
  const data = {

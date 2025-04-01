@@ -1,6 +1,6 @@
 import React from "react";
 import { Row, Col } from "e-ui-react";
-import AlgoOverviewList from "@Pages/DSA/components/algo-overview-list/index.js";
+import AlgoOverviewList from "@MainPages/DSA/components/algo-overview-list/index.js";
 
 const ADcbn = () =>{
  return (<div>

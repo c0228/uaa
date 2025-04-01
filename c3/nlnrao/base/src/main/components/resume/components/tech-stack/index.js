@@ -1,5 +1,5 @@
 import React from "react";
-import { ResumeSubHeader } from '@Components/resume/components/resume-header/index.js';
+import { ResumeSubHeader } from '@MainComponents/resume/components/resume-header/index.js';
 
 const data = [{
  "title":"Web Application Development",

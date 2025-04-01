@@ -1,6 +1,6 @@
 import React from "react";
-import { BlogTerminologies, Content, RightSide } from '@Components/blog-tmpl-terminologies/index.js';
-import HglBgHeader5 from "@Components/hgl-bg-header5/index.js";
+import { BlogTerminologies, Content, RightSide } from '@MainComponents/blog-tmpl-terminologies/index.js';
+import HglBgHeader5 from "@MainComponents/hgl-bg-header5/index.js";
 import Introduction from "./components/introduction/index.js";
 import Compare from "./components/compare/index.js";
 import Conclusion from "./components/conclusion/index.js";

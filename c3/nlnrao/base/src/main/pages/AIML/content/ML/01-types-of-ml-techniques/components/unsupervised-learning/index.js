@@ -1,6 +1,6 @@
 import React from "react";
 import { Highlight } from "e-ui-react";
-import { BlogIndexHeader } from "@Components/blog-index-header/index.js";
+import { BlogIndexHeader } from "@MainComponents/blog-index-header/index.js";
 
 const CUSTOMER_SEG_PYTHON = `from sklearn.cluster import KMeans
 import numpy as np

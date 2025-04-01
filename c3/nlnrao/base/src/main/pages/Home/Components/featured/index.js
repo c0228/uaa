@@ -1,8 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { Row, Col, Icon } from "e-ui-react";
-import BlogItems from '@Components/blog-items/index.js';
-import FeaturedData from '@StaticData/featured.json';
+import BlogItems from '@MainComponents/blog-items/index.js';
+import FeaturedData from '@MainStaticData/featured.json';
 
 const FeaturedItem = ({ data }) =>{
 

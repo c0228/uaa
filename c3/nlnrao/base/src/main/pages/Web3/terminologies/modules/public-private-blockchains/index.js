@@ -1,5 +1,5 @@
 import React from "react";
-import { BlogTerminologies, Content, RightSide } from '@Components/blog-tmpl-terminologies/index.js';
+import { BlogTerminologies, Content, RightSide } from '@MainComponents/blog-tmpl-terminologies/index.js';
 
 const PublicPrivateBlockchain = ({ meta }) =>{
  return (<div className="mbot15p">

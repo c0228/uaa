@@ -1,6 +1,6 @@
 import React from "react";
-import BlogListHeader from '@Components/blog-list-header/index.js';
-import OrderList from '@Components/order-list/index.js';
+import BlogListHeader from '@MainComponents/blog-list-header/index.js';
+import OrderList from '@MainComponents/order-list/index.js';
 import './index.css';
 
 const TopicSummary = ({ data }) =>{

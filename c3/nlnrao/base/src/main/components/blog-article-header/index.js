@@ -1,7 +1,7 @@
 import React, { useMemo } from "react";
 import { Avatar, Breadcrumb, getAppContext, Colors } from "e-ui-react";
-import { Header1 } from "@Components/headers-h15/index.js";
-import Resume from "@Components/resume/index.js";
+import { Header1 } from "@MainComponents/headers-h15/index.js";
+import Resume from "@MainComponents/resume/index.js";
 import "./index.css";
 
 const BlogArticleHeader = ({ metaData }) => {

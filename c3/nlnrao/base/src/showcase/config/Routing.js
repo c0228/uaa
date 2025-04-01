@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import ScrollToTop from "@Components/scroll-to-top/index.js"; 
+import ScrollToTop from "@MainComponents/scroll-to-top/index.js"; 
 // import RouteLoader from "@ShowcasePages/route.loader.js";
 
 export const AppRouting = ()=>{

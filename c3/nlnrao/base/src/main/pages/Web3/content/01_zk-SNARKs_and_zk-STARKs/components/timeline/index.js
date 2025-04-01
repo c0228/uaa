@@ -1,6 +1,6 @@
 import React from "react";
-import SimpleTimeline from '@Components/simple-timeline/index.js';
-import OrderList from '@Components/order-list/index.js';
+import SimpleTimeline from '@MainComponents/simple-timeline/index.js';
+import OrderList from '@MainComponents/order-list/index.js';
 
 const Timeline = () =>{
  const data=[{

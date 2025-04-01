@@ -1,6 +1,6 @@
 import React from "react";
 import { Highlight } from "e-ui-react";
-import { BlogIndexHeader } from "@Components/blog-index-header/index.js";
+import { BlogIndexHeader } from "@MainComponents/blog-index-header/index.js";
 
 const EXTERNAL_MERGE_SORT_NODEJS = `const fs = require('fs');
 const readline = require('readline');

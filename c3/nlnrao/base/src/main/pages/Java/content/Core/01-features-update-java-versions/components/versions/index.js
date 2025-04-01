@@ -1,6 +1,6 @@
 import React from "react";
-import { BlogIndexHeader } from "@Components/blog-index-header/index.js";
-import OrderList from "@Components/order-list/index.js";
+import { BlogIndexHeader } from "@MainComponents/blog-index-header/index.js";
+import OrderList from "@MainComponents/order-list/index.js";
 import Java00 from "./components/java-00/index.js";
 import Java01 from "./components/java-01/index.js";
 import Java02 from "./components/java-02/index.js";

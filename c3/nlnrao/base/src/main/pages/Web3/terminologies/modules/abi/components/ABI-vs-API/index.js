@@ -1,6 +1,6 @@
 import React from "react";
 import { Highlight } from 'e-ui-react';
-import { Header2 } from "@Components/headers-h15/index.js";
+import { Header2 } from "@MainComponents/headers-h15/index.js";
 
 const ABIvsAPI = () =>{
  return (<div className="mtop15p">

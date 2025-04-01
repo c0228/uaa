@@ -1,5 +1,5 @@
 import React from "react";
-import { BlogIndexHeader } from "@Components/blog-index-header/index.js";
+import { BlogIndexHeader } from "@MainComponents/blog-index-header/index.js";
 
 const TriggerServerless = () =>{
  return (<div className="lh28p fs16p mtop15p">

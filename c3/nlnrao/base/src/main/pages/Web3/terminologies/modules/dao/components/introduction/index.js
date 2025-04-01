@@ -1,5 +1,5 @@
 import React from "react";
-import SimpleTimeline from '@Components/simple-timeline/index.js';
+import SimpleTimeline from '@MainComponents/simple-timeline/index.js';
 
 const Introduction = () =>{
 

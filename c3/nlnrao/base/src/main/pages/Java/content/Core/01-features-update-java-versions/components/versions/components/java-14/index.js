@@ -1,7 +1,7 @@
 import React from "react";
 import { Highlight, Accordian } from "e-ui-react";
-import { BlogIndexHeader } from "@Components/blog-index-header/index.js";
-import OrderList from "@Components/order-list/index.js";
+import { BlogIndexHeader } from "@MainComponents/blog-index-header/index.js";
+import OrderList from "@MainComponents/order-list/index.js";
 
 const REGULARCLASS_BEFORE_JAVA14 = `class Person {
     private final String name;

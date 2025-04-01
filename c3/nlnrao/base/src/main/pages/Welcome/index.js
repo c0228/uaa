@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import { ProgressBar } from "e-ui-react";
-import Home from "@Pages/Home/index.js";
+import Home from "@MainPages/Home/index.js";
 import './index.css';
 
 const Welcome = ()=>{

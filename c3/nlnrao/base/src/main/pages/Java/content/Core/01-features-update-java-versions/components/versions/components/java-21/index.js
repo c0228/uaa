@@ -1,7 +1,7 @@
 import React from "react";
 import { Highlight, Accordian } from "e-ui-react";
-import { BlogIndexHeader } from "@Components/blog-index-header/index.js";
-import OrderList from "@Components/order-list/index.js";
+import { BlogIndexHeader } from "@MainComponents/blog-index-header/index.js";
+import OrderList from "@MainComponents/order-list/index.js";
 
 const VIRTUAL_THREADS_JAVA = `ExecutorService executor = Executors.newVirtualThreadPerTaskExecutor();
 executor.submit(() -> System.out.println("Running in a virtual thread!"));

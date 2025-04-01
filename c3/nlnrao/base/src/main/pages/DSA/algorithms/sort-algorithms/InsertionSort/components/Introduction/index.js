@@ -1,6 +1,6 @@
 import React from "react";
 import { Row, Col, Card } from "e-ui-react";
-import OrderList from "@Components/order-list/index.js";
+import OrderList from "@MainComponents/order-list/index.js";
 
 const Introduction = () =>{
  return (<div className="lh28p fs16p">

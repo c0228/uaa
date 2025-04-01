@@ -1,18 +1,18 @@
 import React, { useState, useEffect } from "react";
 import { ContainerFluid, Row, Col, getAppContext, Button, Carousel } from "e-ui-react";
-import Header from '@Templates/Header/index.js';
-import Footer from '@Templates/Footer/index.js';
-import { HeaderMenu } from '@Config/HeaderMenu.js';
-import { BgHgtTitle } from '@Templates/Titles/index.js';
-import { FeaturedList } from '@Pages/Home/Components/featured/index.js';
-import DevChoice from '@Pages/Home/Components/dev-choice/index.js';
+import Header from '@MainTemplates/Header/index.js';
+import Footer from '@MainTemplates/Footer/index.js';
+import { HeaderMenu } from '@MainConfig/HeaderMenu.js';
+import { BgHgtTitle } from '@MainTemplates/Titles/index.js';
+import { FeaturedList } from '@MainPages/Home/Components/featured/index.js';
+import DevChoice from '@MainPages/Home/Components/dev-choice/index.js';
 import AboutBlog from './Components/about-blog/index.js';
-import ProfileBasic from '@Components/profile-basic/index.js';
-import Resume from '@Components/resume/index.js';
-import Keywords from '@Components/keywords/index.js';
-import KeywordData from '@StaticData/keywords-all.json';
-import BlogItems from '@Components/blog-items/index.js'; 
-import BlogData from '@StaticData/home-blog-list.json';
+import ProfileBasic from '@MainComponents/profile-basic/index.js';
+import Resume from '@MainComponents/resume/index.js';
+import Keywords from '@MainComponents/keywords/index.js';
+import KeywordData from '@MainStaticData/keywords-all.json';
+import BlogItems from '@MainComponents/blog-items/index.js'; 
+import BlogData from '@MainStaticData/home-blog-list.json';
 
 const Home = ()=>{
  const { setContextData } = getAppContext();

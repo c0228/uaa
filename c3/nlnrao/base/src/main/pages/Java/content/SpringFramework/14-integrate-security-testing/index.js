@@ -1,8 +1,8 @@
 import React from "react";
 import { ContainerFluid, Row, Col, Breadcrumb, Colors, Button, Select, Card, Switch } from "e-ui-react";
-import Header from '@Templates/Header/index.js';
-import { HeaderMenu } from '@Config/HeaderMenu.js';
-import BlogArticleHeader from '@Components/blog-article-header/index.js';
+import Header from '@MainTemplates/Header/index.js';
+import { HeaderMenu } from '@MainConfig/HeaderMenu.js';
+import BlogArticleHeader from '@MainComponents/blog-article-header/index.js';
 import Introduction from './components/introduction/index.js';
 import Security from './components/01-security/index.js';
 import Integration from './components/02-integration/index.js';

@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import { ContainerFluid, Row, Col } from "e-ui-react";
-import Header from '@Templates/Header/index.js';
-import { HeaderMenu } from '@Config/HeaderMenu.js';
+import Header from '@MainTemplates/Header/index.js';
+import { HeaderMenu } from '@MainConfig/HeaderMenu.js';
 import Puzzle from './components/puzzle/index.js';
 
 const NotFound = () =>{

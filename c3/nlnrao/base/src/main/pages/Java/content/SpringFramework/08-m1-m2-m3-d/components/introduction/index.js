@@ -1,6 +1,6 @@
 import React from "react";
-import OrderList from '@Components/order-list/index.js';
-import { BlogIndexHeader } from "@Components/blog-index-header/index.js";
+import OrderList from '@MainComponents/order-list/index.js';
+import { BlogIndexHeader } from "@MainComponents/blog-index-header/index.js";
 
 const Introduction = () =>{
  return (<div className="lh28p fs16p mtop15p">

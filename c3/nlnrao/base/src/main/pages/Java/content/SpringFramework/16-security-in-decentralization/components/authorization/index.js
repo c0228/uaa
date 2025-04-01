@@ -1,6 +1,6 @@
 import React from "react";
 import { Highlight } from "e-ui-react";
-import OrderList from "@Components/order-list/index.js";
+import OrderList from "@MainComponents/order-list/index.js";
 
 const APP_RESPONSE_ENTITY = `@PreAuthorize("hasRole('ADMIN')")
 @GetMapping("/admin")

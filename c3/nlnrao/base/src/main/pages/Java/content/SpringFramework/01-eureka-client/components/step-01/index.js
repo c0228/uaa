@@ -1,6 +1,6 @@
 import React from "react";
-import OrderList from "@Components/order-list/index.js";
 import { Highlight } from "e-ui-react";
+import OrderList from "@MainComponents/order-list/index.js";
 
 const EurekaServer_Maven_Dependency = `<dependency>
     <groupId>org.springframework.cloud</groupId>

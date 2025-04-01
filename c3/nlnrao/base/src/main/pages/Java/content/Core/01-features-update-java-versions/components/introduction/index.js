@@ -1,6 +1,6 @@
 import React from "react";
 import { Highlight, Accordian } from "e-ui-react";
-import { BlogIndexHeader } from "@Components/blog-index-header/index.js";
+import { BlogIndexHeader } from "@MainComponents/blog-index-header/index.js";
 
 const Introduction = () =>{
  const IncubatingJEP = () =>{

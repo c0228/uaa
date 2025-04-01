@@ -1,5 +1,5 @@
 import React from "react";
-import { BlogTerminologies, Content, RightSide } from '@Components/blog-tmpl-terminologies/index.js';
+import { BlogTerminologies, Content, RightSide } from '@MainComponents/blog-tmpl-terminologies/index.js';
 import Definition from "./components/Definition/index.js";
 import Importance from "./components/Importance/index.js";
 import ABIStructure from "./components/Structure/index.js";

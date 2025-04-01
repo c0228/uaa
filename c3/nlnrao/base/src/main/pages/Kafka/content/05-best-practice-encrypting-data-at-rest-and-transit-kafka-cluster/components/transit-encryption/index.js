@@ -1,6 +1,6 @@
 import React from "react";
 import { Highlight } from "e-ui-react";
-import OrderList from "@Components/order-list/index.js"; 
+import OrderList from "@MainComponents/order-list/index.js"; 
 
 const GEN_SSL_CERTIFICATE = `openssl req -new -x509 -keyout ca-key -out ca-cert -days 365
 openssl req -new -keyout broker-key -out broker-req

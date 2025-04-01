@@ -1,4 +1,4 @@
-import Frontend from "@Pages/Frontend/index.js";
+import Frontend from "@MainPages/Frontend/index.js";
 
 export const FrontendComponentMap = {
  "Frontend": Frontend

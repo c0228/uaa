@@ -1,6 +1,6 @@
 import React from "react";
-import OrderList from "@Components/order-list/index.js";
 import { Order } from "e-ui-react";
+import OrderList from "@MainComponents/order-list/index.js";
 
 const ZkStarkImplProj = () =>{
  return (<div id="zkStarkImplProj">

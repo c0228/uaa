@@ -1,8 +1,8 @@
 import React, { useEffect } from "react";
 import { ContainerFluid, Row, Col } from "e-ui-react";
-import Header from '@Templates/Header/index.js';
-import { HeaderMenu } from '@Config/HeaderMenu.js';
-import BlogArticleHeader from '@Components/blog-article-header/index.js';
+import Header from '@MainTemplates/Header/index.js';
+import { HeaderMenu } from '@MainConfig/HeaderMenu.js';
+import BlogArticleHeader from '@MainComponents/blog-article-header/index.js';
 import Introduction from './components/introduction/index.js';
 import L1Support from './components/l1-support/index.js';
 import L2Support from './components/l2-support/index.js';

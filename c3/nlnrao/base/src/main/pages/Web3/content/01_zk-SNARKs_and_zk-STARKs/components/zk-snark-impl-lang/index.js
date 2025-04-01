@@ -1,5 +1,5 @@
 import React from "react";
-import OrderList from "@Components/order-list/index.js";
+import OrderList from "@MainComponents/order-list/index.js";
 
 const ZkSnarkImpLang = () =>{
  return (<div id="zkSnarkImplLang">

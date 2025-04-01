@@ -1,10 +1,10 @@
 import React, { useState } from "react";
 import { ContainerFluid, Row, Col, Modal } from "e-ui-react";
-import Header from '@Templates/Header/index.js';
-import { HeaderMenu } from '@Config/HeaderMenu.js';
-import BlogListHeader from '@Components/blog-list-header/index.js';
-import BlogItems from '@Components/blog-items/index.js'; 
-import BlogData from '@StaticData/frontend/home-list.json';
+import Header from '@MainTemplates/Header/index.js';
+import { HeaderMenu } from '@MainConfig/HeaderMenu.js';
+import BlogListHeader from '@MainComponents/blog-list-header/index.js';
+import BlogItems from '@MainComponents/blog-items/index.js'; 
+import BlogData from '@MainStaticData/frontend/home-list.json';
 import FeHeader from "./components/fe-header/index.js";
 
 const Frontend = () =>{

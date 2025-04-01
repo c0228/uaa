@@ -1,7 +1,7 @@
 import React from "react";
 import { Highlight } from "e-ui-react";
-import { BlogIndexHeader } from '@Components/blog-index-header/index.js';
-import OrderList from "@Components/order-list/index.js";
+import { BlogIndexHeader } from '@MainComponents/blog-index-header/index.js';
+import OrderList from "@MainComponents/order-list/index.js";
 
 const ORDER_INST_CODE = `# Bad practice
 COPY . /app

@@ -1,9 +1,9 @@
 import Raect from "react";
 import { useParams } from 'react-router-dom';
 import { Breadcrumb, Colors, ContainerFluid, Row, Col } from 'e-ui-react';
-import Header from '@Templates/Header/index.js';
-import { HeaderMenu } from '@Config/HeaderMenu.js';
-import BlogArticleHeader from '@Components/blog-article-header/index.js';
+import Header from '@MainTemplates/Header/index.js';
+import { HeaderMenu } from '@MainConfig/HeaderMenu.js';
+import BlogArticleHeader from '@MainComponents/blog-article-header/index.js';
 // import Terminologies from '@Components/terminologies-list/index.js';
 // import TerminologiesData from "@StaticData/system-design/terminologies.json";
 

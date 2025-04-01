@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { Row, Col, Icon } from "e-ui-react";
-import DevChoiceData from "@StaticData/dev-choice.json";
+import DevChoiceData from "@MainStaticData/dev-choice.json";
 
 const DevChoice = () =>{
  return (<div style={{ marginRight: '5px' }}>

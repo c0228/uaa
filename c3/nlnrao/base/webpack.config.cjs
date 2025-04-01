@@ -7,6 +7,7 @@ const WebpackUtil = require( './config/webpack.utils.cjs' );
 const webpackConfigAlias = WebpackUtil.webpackLibraryAliasConfiguration(['e-ui-react']);
 const webpackAliasInfo = {
   '@Assets': Path.resolve(__dirname, 'public/assets'),
+  
    // Main Module
   '@MainComponents': Path.resolve(__dirname, 'src/main/components'),
   '@MainConfig': Path.resolve(__dirname, 'src/main/config'),

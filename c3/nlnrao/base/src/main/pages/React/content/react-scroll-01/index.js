@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import { ContainerFluid, Row, Col } from "e-ui-react";
-import Breadcrumb from '@Components/breadcrumb/index.js';
+import Breadcrumb from '@MainComponents/breadcrumb/index.js';
 
 const ReactScroll01 = () =>{
  useEffect(()=>{ window.scrollTo({ top: 0, behavior: 'smooth' }); },[]); // Smooth scroll to top

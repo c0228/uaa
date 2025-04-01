@@ -1,8 +1,8 @@
 import React from "react";
 import { ContainerFluid, Row, Col, Highlight } from "e-ui-react";
-import Header from '@Templates/Header/index.js';
-import { HeaderMenu } from '@Config/HeaderMenu.js';
-import BlogArticleHeader from '@Components/blog-article-header/index.js';
+import Header from '@MainTemplates/Header/index.js';
+import { HeaderMenu } from '@MainConfig/HeaderMenu.js';
+import BlogArticleHeader from '@MainComponents/blog-article-header/index.js';
 import Introduction from './components/introduction/index.js';
 import Buffers from "./components/buffers/index.js";
 import Roles from "./components/roles/index.js";

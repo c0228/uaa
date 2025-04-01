@@ -1,7 +1,7 @@
 import React from "react";
 import { Card } from "e-ui-react";
-import Terminologies from '@Components/terminologies-list/index.js';
-import DSARoutes from "@Pages/DSA/routes.js";
+import Terminologies from '@MainComponents/terminologies-list/index.js';
+import DSARoutes from "@MainPages/DSA/routes.js";
 
 const SystemDesignAlgo = () =>{
  return (<Terminologies title="System design Algorithms" 

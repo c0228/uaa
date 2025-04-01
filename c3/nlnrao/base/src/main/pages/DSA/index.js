@@ -1,8 +1,8 @@
 import React, { useEffect } from "react";
-import Header from '@Templates/Header/index.js';
-import { HeaderMenu } from '@Config/HeaderMenu.js';
 import { ContainerFluid, Row, Col } from "e-ui-react";
-import BlogListHeader from '@Components/blog-list-header/index.js';
+import Header from '@MainTemplates/Header/index.js';
+import { HeaderMenu } from '@MainConfig/HeaderMenu.js';
+import BlogListHeader from '@MainComponents/blog-list-header/index.js';
 import DSAIntroduction from "./components/home/dsa-introduction/index.js";
 import DsDcbn from "./components/home/ds-dcbn/index.js";
 import ADcbn from "./components/home/a-dcbn/index.js";

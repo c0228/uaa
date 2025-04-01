@@ -1,7 +1,7 @@
 import React from "react";
 import { Icon } from "e-ui-react";
-import OrderList from "@Components/order-list/index.js";
-import SimpleTimeline from '@Components/simple-timeline/index.js';
+import OrderList from "@MainComponents/order-list/index.js";
+import SimpleTimeline from '@MainComponents/simple-timeline/index.js';
 
 const Timeline = () =>{
  const Checklist = ({ status, children }) =>{

@@ -1,13 +1,13 @@
 import React, { useEffect } from "react";
 import { ContainerFluid, Row, Col } from "e-ui-react";
-import Header from '@Templates/Header/index.js';
-import { HeaderMenu } from '@Config/HeaderMenu.js';
-import BlogListHeader from '@Components/blog-list-header/index.js';
-import BlogItems from '@Components/blog-items/index.js';
-import BlogData from '@StaticData/system-design/overview.json';
-import Terminologies from '@Components/terminologies-list/index.js';
-import LLDData from "@StaticData/system-design/lld-data.json";
-import HLDData from "@StaticData/system-design/hld-data.json";
+import Header from '@MainTemplates/Header/index.js';
+import { HeaderMenu } from '@MainConfig/HeaderMenu.js';
+import BlogListHeader from '@MainComponents/blog-list-header/index.js';
+import BlogItems from '@MainComponents/blog-items/index.js';
+import BlogData from '@MainStaticData/system-design/overview.json';
+import Terminologies from '@MainComponents/terminologies-list/index.js';
+import LLDData from "@MainStaticData/system-design/lld-data.json";
+import HLDData from "@MainStaticData/system-design/hld-data.json";
 import SDKeyGoals from "./components/sd-key-goals/index.js";
 import SDComponents from './content/01-sd-components/index.js';
 

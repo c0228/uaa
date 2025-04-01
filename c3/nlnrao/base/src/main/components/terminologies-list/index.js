@@ -1,6 +1,6 @@
 import React, { useMemo } from "react";
 import { Link } from "react-router-dom";
-import BlogListHeader from '@Components/blog-list-header/index.js';
+import BlogListHeader from '@MainComponents/blog-list-header/index.js';
 
 const Terminologies = ({ title, desc, prefix, data, isIndex }) =>{
    // Memoizing sortedTerminologies to avoid unnecessary recalculations

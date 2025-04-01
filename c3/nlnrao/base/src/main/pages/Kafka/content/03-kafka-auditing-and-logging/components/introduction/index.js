@@ -1,7 +1,7 @@
 import React from "react";
 import { Highlight } from "e-ui-react";
-import OrderList from "@Components/order-list/index.js";
-import { BlogIndexHeader } from "@Components/blog-index-header/index.js";
+import OrderList from "@MainComponents/order-list/index.js";
+import { BlogIndexHeader } from "@MainComponents/blog-index-header/index.js";
 
 const APP_LOG4J_PROPERTIES = `log4j.logger.kafka=INFO, kafkaAppender
 log4j.logger.org.apache.kafka=DEBUG`;

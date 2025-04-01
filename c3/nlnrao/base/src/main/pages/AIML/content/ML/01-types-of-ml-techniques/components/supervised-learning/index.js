@@ -1,6 +1,6 @@
 import React from "react";
 import { Highlight } from "e-ui-react";
-import { BlogIndexHeader } from "@Components/blog-index-header/index.js";
+import { BlogIndexHeader } from "@MainComponents/blog-index-header/index.js";
 
 const SPAM_DETECTION_PYTHON = `from sklearn.model_selection import train_test_split
 from sklearn.ensemble import RandomForestClassifier

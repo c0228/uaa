@@ -1,7 +1,7 @@
 import React from "react";
 import { Highlight } from "e-ui-react";
-import { BlogIndexHeader } from "@Components/blog-index-header/index.js";
-import OrderList from "@Components/order-list/index.js";
+import { BlogIndexHeader } from "@MainComponents/blog-index-header/index.js";
+import OrderList from "@MainComponents/order-list/index.js";
 
 const RESTRICT_ACCESS_FIREWALLS = `iptables -A INPUT -p tcp --dport 9093 -s 192.168.1.100 -j ACCEPT
 iptables -A INPUT -p tcp --dport 9093 -j DROP`;

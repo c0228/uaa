@@ -1,8 +1,8 @@
 import React, { useEffect } from "react";
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import ScrollToTop from "@Components/scroll-to-top/index.js"; 
-import RouteLoader from "@Pages/route.loader.js";
-import Home from "@Pages/Home/index.js";
+import ScrollToTop from "@MainComponents/scroll-to-top/index.js"; 
+import RouteLoader from "@MainPages/route.loader.js";
+import Home from "@MainPages/Home/index.js";
 /*
 // import JSONCrudOperations from "@Pages/Javascript/content/json/crud-operations/index.js";
 import DefineL1L2L3 from "@Pages/Agile/content/L1-L2-L3/index.js";

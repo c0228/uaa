@@ -1,6 +1,6 @@
 import React from "react";
 import { Highlight } from "e-ui-react";
-import OrderList from "@Components/order-list/index.js";
+import OrderList from "@MainComponents/order-list/index.js";
 
 const REQ_DEPENDENCY_FILE = `<dependency>
     <groupId>org.springframework.cloud</groupId>

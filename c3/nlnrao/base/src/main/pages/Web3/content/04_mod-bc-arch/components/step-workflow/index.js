@@ -1,6 +1,6 @@
 import React from "react";
-import OrderList from "@Components/order-list/index.js";
-import HglBgHeader5 from "@Components/hgl-bg-header5/index.js";
+import OrderList from "@MainComponents/order-list/index.js";
+import HglBgHeader5 from "@MainComponents/hgl-bg-header5/index.js";
 
 const StepWorkflow = () =>{
  const HeaderTitle = ({ index, title, desc}) =>{
