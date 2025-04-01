@@ -57,6 +57,13 @@
             "component": "CryptoWallets",
             "keywords":[]
         },
+        "tech/web3.0/terminologies/metamask-wallet":{
+            "breadcrumbIndex": "web3-terminologies",
+            "label":"Metamask Wallet",
+            "date":"October 26, 2024",
+            "component": "MetamaskWallet",
+            "keywords":[]
+        },
         "tech/web3.0/terminologies/understanding-web1-web2-web3":{ 
             "breadcrumbIndex": "web3-terminologies",
             "label":"Understanding Web 1.0, Web 2.0 and Web 3.0",
