@@ -4,8 +4,8 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "dev:main": "webpack serve --config webpack.main.config.cjs --open --mode development",
-    "dev:showcase": "webpack serve --config webpack.showcase.config.cjs --open --mode development",
+    "dev:main": "webpack serve --config webpack.config.cjs --env target=main --open --mode development",
+    "dev:showcase": "webpack serve --config webpack.config.cjs --env target=showcase --open --mode development",
     "dev:all": "concurrently \"npm run dev:main\" \"npm run dev:showcase\"",
 
     "start": "npm run prebuild && npm run dev:all",
@@ -14,8 +14,8 @@
 
     "clean:showcase": "rmdir /s /q dist || echo 'No such directory'",
 
-    "build:main": "webpack --config webpack.main.config.cjs --mode production",
-    "build:showcase": "webpack --config webpack.showcase.config.cjs --mode production",
+    "build:main": "webpack --config webpack.config.cjs --env target=main --mode production",
+    "build:showcase": "webpack --config webpack.config.cjs --env target=showcase --mode production",
     "build:all": "concurrently \"npm run build:main\" \"npm run build:showcase\"",
     "build": "npm run clean:showcase && npm run prebuild && npm run build:all",
 
