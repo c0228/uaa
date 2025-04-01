@@ -1,9 +1,11 @@
 const HTMLWebpackPlugin = require('html-webpack-plugin');
 const WebpackObfuscator = require('webpack-obfuscator');
 const WebpackUtil = require( './config/webpack.utils.cjs' );
+const WebpackAlias = require('./config/webpack.alias.cjs');
 const Dotenv = require('dotenv-webpack');
 const CopyWebpackPlugin = require('copy-webpack-plugin');
 const webpackConfigAlias = WebpackUtil.webpackLibraryAliasConfiguration(['e-ui-react']);
+const webpackAliasInfo = WebpackAlias.webpackAliasInfo();
 const Path = require('path');
 
 const baseUrl = '/';
@@ -124,19 +126,7 @@ entry: './src/main/index.js',
  },
  resolve: {
     symlinks: false,
-    alias: Object.assign( webpackConfigAlias, {
-        '@Assets': Path.resolve(__dirname, 'public/assets'),
-        '@Components': Path.resolve(__dirname, 'src/main/components'),
-        '@Config': Path.resolve(__dirname, 'src/main/config'),
-        '@Pages': Path.resolve(__dirname, 'src/main/pages'),
-        '@Templates': Path.resolve(__dirname, 'src/main/templates'),
-        '@StaticData': Path.resolve(__dirname, 'src/main/static-data'),
-        // Needed when library is linked via `npm link` to app
-        /** This is implemented when the React Hooks are not working under the library */
-        react: Path.resolve("./node_modules/react"),
-       // filename:'main.js',
-       // publicPath: '/'
-    })
+    alias: Object.assign( webpackConfigAlias, webpackAliasInfo)
  },
  devServer: { // Needed to make react-router-dom to work
     historyApiFallback: true,
