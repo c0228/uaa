@@ -8,7 +8,7 @@ dotenv.config({ path: ".env.production" });
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
-const pagesDir = path.join(__dirname, './../src/pages');
+const pagesDir = path.join(__dirname, './../src/main/pages');
 const publicDir = path.join(__dirname, './../public/sitemaps');
 const robotsFilePath = path.join(__dirname, './../public/robots.txt');
 

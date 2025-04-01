@@ -18,9 +18,10 @@ return {
    // maxEntrypointSize: 512000,
     maxAssetSize: 512000
 },
-entry: './src/index.js',
+entry: './src/showcase/index.js',
  output: {
-    path: Path.resolve(__dirname, 'dist/'),
+    path: Path.resolve(__dirname, 'dist/showcase/'),
+    filename: '[name].bundle.js',  // Ensure Webpack generates an actual JS file
     publicPath: baseUrl, 
     /* When we have URL Routes (react-router-dom), the  build is loading the scripts in Relative path -
      * To resolve it we used publicPath
@@ -74,43 +75,22 @@ entry: './src/index.js',
   new CopyWebpackPlugin({
     patterns: [
       {
-        from:  Path.join(__dirname, 'public/assets'),
-        to: Path.join(__dirname, 'dist/assets'),
-        globOptions: {
-            dot: true
-        }
-      },
-      {
-        from:  Path.join(__dirname, 'public/fonts'),
-        to: Path.join(__dirname, 'dist/fonts'),
-        globOptions: {
-            dot: true
-        }
-      },
-      {
         from:  Path.join(__dirname, 'public/.htaccess'),
-        to: Path.join(__dirname, 'dist'),
+        to: Path.join(__dirname, 'dist/showcase'),
         globOptions: {
             dot: true
         }
       },
       {
         from:  Path.join(__dirname, 'public/robots.txt'),
-        to: Path.join(__dirname, 'dist'),
-        globOptions: {
-            dot: true
-        }
-      },
-      {
-        from:  Path.join(__dirname, 'public/sitemaps'),
-        to: Path.join(__dirname, 'dist/sitemaps'),
+        to: Path.join(__dirname, 'dist/showcase'),
         globOptions: {
             dot: true
         }
       },
       {
         from:  Path.join(__dirname, 'nexus'),
-        to: Path.join(__dirname, 'dist/nexus'),
+        to: Path.join(__dirname, 'dist/showcase/nexus'),
         globOptions: {
             dot: true
         }
@@ -125,21 +105,22 @@ entry: './src/index.js',
     symlinks: false,
     alias: Object.assign( webpackConfigAlias, {
         '@Assets': Path.resolve(__dirname, 'public/assets'),
-        '@Components': Path.resolve(__dirname, 'src/components'),
-        '@Config': Path.resolve(__dirname, 'src/config'),
-        '@Pages': Path.resolve(__dirname, 'src/pages'),
-        '@Templates': Path.resolve(__dirname, 'src/templates'),
-        '@StaticData': Path.resolve(__dirname, 'src/static-data'),
+        '@Components': Path.resolve(__dirname, 'src/main/components'),
+        '@MainConfig': Path.resolve(__dirname, 'src/main/config'),
+        '@ShowcaseConfig': Path.resolve(__dirname, 'src/showcase/config'),
+        '@Pages': Path.resolve(__dirname, 'src/main/pages'),
+        '@Templates': Path.resolve(__dirname, 'src/main/templates'),
+        '@StaticData': Path.resolve(__dirname, 'src/main/static-data'),
         // Needed when library is linked via `npm link` to app
         /** This is implemented when the React Hooks are not working under the library */
         react: Path.resolve("./node_modules/react"),
-        filename:'main.js',
-        publicPath: '/'
+        // filename:'showcase/main.js',
+        // publicPath: '/'
     })
  },
  devServer: { // Needed to make react-router-dom to work
     historyApiFallback: true,
-    port: 9228, // Replace with your desired port number
+    port: 9229, // Replace with your desired port number
  }
 }
 };

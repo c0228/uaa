@@ -4,10 +4,21 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "dev": "webpack --mode development",
-    "start": "webpack serve --open --mode development",
+    "dev:main": "webpack serve --config webpack.main.config.cjs --open --mode development",
+    "dev:showcase": "webpack serve --config webpack.showcase.config.cjs --open --mode development",
+    "dev:all": "concurrently \"npm run dev:main\" \"npm run dev:showcase\"",
+
+    "start": "npm run prebuild && npm run dev:all",
+
     "prebuild": "node ./config/generate-sitemap.js",
-    "build": "webpack --mode production",
+
+    "clean:showcase": "rmdir /s /q dist || echo 'No such directory'",
+
+    "build:main": "webpack --config webpack.main.config.cjs --mode production",
+    "build:showcase": "webpack --config webpack.showcase.config.cjs --mode production",
+    "build:all": "concurrently \"npm run build:main\" \"npm run build:showcase\"",
+    "build": "npm run clean:showcase && npm run prebuild && npm run build:all",
+
     "deploy": "cd .. && deploy.bat e-r-t1"
   },
   "author": "",
@@ -18,6 +29,8 @@
     "@babel/preset-env": "^7.18.6",
     "@babel/preset-react": "^7.18.6",
     "babel-loader": "^8.2.5",
+    "clean-webpack-plugin": "^4.0.0",
+    "concurrently": "^9.1.2",
     "copy-webpack-plugin": "^11.0.0",
     "css-loader": "^6.7.1",
     "dotenv-webpack": "^8.0.1",
@@ -59,6 +72,7 @@
     "react-router-dom": "^6.3.0",
     "react-scroll": "^1.9.0",
     "recharts": "^2.1.13",
-    "redux": "4.2.0"
+    "redux": "4.2.0",
+    "webpack-merge": "^6.0.1"
   }
 }
