@@ -1,6 +1,7 @@
 import React, { useEffect } from "react";
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import ScrollToTop from "@MainComponents/scroll-to-top/index.js"; 
+import ScrollToTop from "@MainComponents/scroll-to-top/index.js";
+import Home from "@ShowcasePages/Home/index.js";
 // import RouteLoader from "@ShowcasePages/route.loader.js";
 
 export const AppRouting = ()=>{
@@ -8,7 +9,7 @@ export const AppRouting = ()=>{
     return (<BrowserRouter basename="/">
       <ScrollToTop />
       <Routes>
-        <Route exact path="/" element={<div>Showcase</div>} />
+        <Route exact path="/" element={<Home />} />
        {/* <Route path=":industry" element={<RouteLoader />} />
         <Route path=":industry/:module" element={<RouteLoader />} />
         <Route path=":industry/:module/:input1" element={<RouteLoader />} />

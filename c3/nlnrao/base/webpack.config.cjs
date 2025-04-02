@@ -33,6 +33,7 @@ const baseUrl = '/';
 const mainConfig = (env, options) =>{
   console.log("env", env);
   const isDevelopment = options.mode === 'development';
+  const buildType = env.buildType || 'main';  // Get build type (default is 'main')
   console.log("isDevelopment", isDevelopment);
   return {
   mode: 'development',
@@ -89,7 +90,7 @@ const mainConfig = (env, options) =>{
   },
   plugins:[
     new Dotenv({
-      path: isDevelopment ? './.env.development' : './.env.production',
+      path: Path.resolve(__dirname, `env/${buildType}/.env.${isDevelopment ? 'development' : 'production'}`),
     }),
     new HTMLWebpackPlugin({
       template: Path.resolve(__dirname, "public","index.html")
@@ -159,6 +160,7 @@ const mainConfig = (env, options) =>{
 const showcaseConfig = (env, options) =>{
   console.log("env", env);
   const isDevelopment = options.mode === 'development';
+  const buildType = env.buildType || 'showcase';  // Get build type (default is 'main')
   console.log("isDevelopment", isDevelopment);
   return {
    mode: 'development',
@@ -215,7 +217,7 @@ const showcaseConfig = (env, options) =>{
    },
    plugins:[
     new Dotenv({
-      path: isDevelopment ? './.env.development' : './.env.production',
+      path: Path.resolve(__dirname, `env/${buildType}/.env.${isDevelopment ? 'development' : 'production'}`),
     }),
     new HTMLWebpackPlugin({
       template: Path.resolve(__dirname, "public","index.html")
