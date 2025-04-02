@@ -65,8 +65,9 @@ const Home = ({ meta }) =>{
    <ContainerFluid>
       <Row>
          <Col md={12}>
-            <div align="center"><hr/><h3 style={{ marginTop:'15px', color:'#fff' }}>
-               <b>BLOCKCHAIN / DeFi / DECENTRALIZED PROJECTS : LIVE DEMO</b></h3><hr/>
+            <div align="center"><h3 style={{ borderTop:'1px solid #ccc', borderBottom:'1px solid #ccc', marginTop:'15px', 
+               paddingTop:'15px', paddingBottom:'15px', color:'#fff', lineHeight:'32px' }}>
+               <b>BLOCKCHAIN / DeFi / DECENTRALIZED PROJECTS : LIVE DEMO</b></h3>
             </div>
          </Col>
       </Row>
