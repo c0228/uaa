@@ -5,8 +5,8 @@ import './index.css';
 export const LogoTitle = ()=>{
  return (<Link className="navbar-brand" to={process.env.PROJECT_MAIN_URL} style={{ paddingTop:'0px', paddingBottom:'0px' }}>
  <span className="logo" style={{ fontSize:'22px' }}>nellutlalnrao.com</span>
- <span style={{ marginLeft:'5px', borderRadius:'8px', border:'1.8px solid #0d6efd', padding:'5px', fontSize:'11px', 
-    letterSpacing:'0.4px', color:'#0d6efd' }}><b>SHOWCASE</b></span>
+ <span style={{ marginLeft:'5px', borderRadius:'8px', border:'1.8px solid #d84e55', padding:'5px', fontSize:'11px', 
+    letterSpacing:'0.4px', color:'#d84e55' }}><b>SHOWCASE</b></span>
  </Link>);
 };
 
