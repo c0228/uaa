@@ -5,7 +5,7 @@
   "description": "",
   "scripts": {
     "dev:main": "webpack serve --config webpack.config.cjs --env target=main --open --mode development",
-    "dev:showcase": "webpack serve --config webpack.config.cjs --env target=showcase --open --mode development",
+    "dev:showcase": "webpack serve --config webpack.config.cjs --env target=showcase --mode development",
     "dev:all": "concurrently \"npm run dev:main\" \"npm run dev:showcase\"",
 
     "start": "npm run prebuild && npm run dev:all",
