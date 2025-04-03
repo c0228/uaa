@@ -1,12 +1,12 @@
 import React from "react";
 import { ContainerFluid, Row, Col, Button, Icon } from "e-ui-react";
-import SlimImageTitles from "./components/SlimImageTitles/index.js";
+import ShowcaseTile from "./components/Showcase/index.js";
 import Header from '@ShowcaseTemplates/Header/index.js';
 import './index.css';
 
 const Home = ({ meta }) =>{
-   const demoData = [{ id:'medical-billing', label:(<div>Medical<br/> Billing</div>), img:'5.png' },
-      { id:'medical-transcription', label:(<div>Medical<br/> Transcription</div>), img:'6.png' },
+   const demoData = [{ id:'medical-billing', label:(<div>Medical<br/> Billing</div>), img:'blockchain-did-system.png' },
+      { id:'medical-transcription', label:(<div>Medical<br/> Transcription</div>), img:'zkp-voting-system.png' },
       { id:'medical-coding', label:(<div>Medical<br/> Coding</div>), img:'7.png' },
       { id:'compliance-audits', label:(<div>Compliance<br/> Audits</div>), img:'8.png' },
       { id:'practice-consulting', label:(<div>Practice<br/> Consulting</div>), img:'9.png' },
@@ -83,14 +83,7 @@ const Home = ({ meta }) =>{
       </div>
    </div>
 
-   <SlimImageTitles  data={demoData?.map((d,i)=>{
-    return ({
-     img: process.env.PROJECT_SHOWCASE_URL+"assets/images/"+d?.img,
-     content: (<div align="center" className="wApp-services-image-hover">
-        <a href={process.env.PROJECT_URL+'services#'+d?.id} style={{ color:'#fff', textDecoration:'none' }}>{d?.label}</a>
-        </div>)
-    }); 
- })}  />
+   <ShowcaseTile />
 
   <div style={{ marginTop:'15px' }}>
    <ContainerFluid>
@@ -100,11 +93,7 @@ const Home = ({ meta }) =>{
          return (<Col key={i1} md={6}>
             <div style={{ position:'relative', minHeight:'60vh', lineHeight:'28px', marginTop:'15px', marginBottom:'15px', padding:'15px', 
                   border:'1px dashed #d84e55', borderRadius:'8px', color:'#333', backgroundColor:'#fae9ea' }}>
-               <div align="right">
-                  <Button type="outline-danger" size={11}><b>View Demo
-                     <Icon type="FontAwesome" name="fa-external-link" size={12} style={{ marginLeft:'5px'}} /> 
-                     </b></Button>
-               </div>
+               
                <div align="center"><h4 style={{ color:'#d5830a', lineHeight:'32px' }}><b>{d?.title}</b></h4></div>
                {d?.details?.map((detail,i2)=>{
                   return (<div key={i2} className="mtop5p">

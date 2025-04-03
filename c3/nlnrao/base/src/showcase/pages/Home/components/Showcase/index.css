@@ -1,0 +1,5 @@
+.showcase-img-zoom { overflow:hidden; }
+.showcase-img-zoom img { transition: transform 0.5s ease-in-out; }
+.showcase-img-zoom img:hover { transform: scale(1.2); }
+
+.showcase-section:hover { background-color:#fff7f5; ;}
