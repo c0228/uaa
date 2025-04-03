@@ -1,9 +1,16 @@
 import React from "react";
 import { ContainerFluid, Row, Col, Button, Icon } from "e-ui-react";
+import SlimImageTitles from "./components/SlimImageTitles/index.js";
 import Header from '@ShowcaseTemplates/Header/index.js';
 import './index.css';
 
 const Home = ({ meta }) =>{
+   const demoData = [{ id:'medical-billing', label:(<div>Medical<br/> Billing</div>), img:'5.png' },
+      { id:'medical-transcription', label:(<div>Medical<br/> Transcription</div>), img:'6.png' },
+      { id:'medical-coding', label:(<div>Medical<br/> Coding</div>), img:'7.png' },
+      { id:'compliance-audits', label:(<div>Compliance<br/> Audits</div>), img:'8.png' },
+      { id:'practice-consulting', label:(<div>Practice<br/> Consulting</div>), img:'9.png' },
+      { id:'credentialing-services', label:(<div>Credentialing<br/> Services</div>), img:'10.png' }];
  const data = [{
    title: 'DECENTRALIZED IDENTITY (DID) SYSTEM',
    details:[{
@@ -63,12 +70,27 @@ const Home = ({ meta }) =>{
   <Header menulinks={[]} activeId="Home" />
 
   <div>
-      <div align="center" style={{ backgroundColor:'#f9f6f6', padding:'15px' }}>
+      <div align="center" style={{ backgroundColor:'#f9f6f6', padding:'60px' }}>
          <h3 style={{ lineHeight:'32px' }}>
          <b><span style={{ color:'#000' }}>
          Welcome to <span style={{ color:'#d84e55' }}>Blockchain / DeFi / Decentralized Systems</span> – A Live Showcase of Innovation</span></b></h3>
+         <div className="mtop15p" style={{ lineHeight:'28px', fontSize:'16px', color:'#777' }}>
+         Explore the cutting-edge world of Blockchain, DeFi, and Decentralized Systems in this live showcase of innovation. From 
+         trustless financial transactions to self-sovereign identity and smart contracts, witness groundbreaking solutions shaping 
+         the future of digital economies. Dive into real-world applications, emerging trends, and the transformative power of 
+         decentralization!
+         </div>
       </div>
    </div>
+
+   <SlimImageTitles  data={demoData?.map((d,i)=>{
+    return ({
+     img: process.env.PROJECT_SHOWCASE_URL+"assets/images/"+d?.img,
+     content: (<div align="center" className="wApp-services-image-hover">
+        <a href={process.env.PROJECT_URL+'services#'+d?.id} style={{ color:'#fff', textDecoration:'none' }}>{d?.label}</a>
+        </div>)
+    }); 
+ })}  />
 
   <div style={{ marginTop:'15px' }}>
    <ContainerFluid>

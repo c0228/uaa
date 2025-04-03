@@ -1,0 +1,24 @@
+
+.wApp-featureService-title { font-family:MetropolisBold;color:#fff; }
+.wApp-featureService-section { padding-top:3vh;padding-bottom:3vh; }
+.wApp-featureTile-section { display:flex;flex-direction:row; }
+.wApp-featureTile-iconDiv { align-items:center;justify-content:center; }
+.wApp-featureTile-title { font-family:MetropolisBold; }
+
+@media(min-width:1200px) { 
+ .wApp-featureService-title { font-size:1.6vw;margin-bottom:1vw; }
+ .wApp-featureService-col { padding-bottom:1vw; }
+ .wApp-featureTile-iconDiv, .wApp-featureTile-titleDiv { margin:1vw; }
+ .wApp-featureTile-icon { font-size:4vw !important; }
+ .wApp-featureTile-title { line-height:5vh;font-size:1.4vw; }
+ .wApp-featureTile-desc { font-size:1.2vw;line-height:5vh; }
+}
+
+@media(max-width:1199px) { 
+ .wApp-featureService-title { font-size:22px;margin-bottom:35px; }
+ .wApp-featureService-col { padding-bottom:45px; }
+ .wApp-featureTile-iconDiv, .wApp-featureTile-titleDiv { margin:15px; }
+ .wApp-featureTile-icon { font-size:72px !important; }
+ .wApp-featureTile-title { line-height:32px;font-size:18px; }
+ .wApp-featureTile-desc {  font-size:16px;line-height:32px; }
+}
