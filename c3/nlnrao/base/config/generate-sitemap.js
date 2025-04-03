@@ -43,7 +43,7 @@ fs.readdir(pagesDir, async (err, folders) => {
 
                         siteData.forEach(url => {
                             xmlContent += `  <url>\n`;
-                            xmlContent += `     <loc>${process.env.PROJECT_URL + url}</loc>\n`;
+                            xmlContent += `     <loc>${process.env.PROJECT_MAIN_URL + url}</loc>\n`;
                             xmlContent += `     <lastmod>${today}</lastmod>\n`;
                             xmlContent += `     <changefreq>daily</changefreq>\n`;
                             xmlContent += `     <priority>1.0</priority>\n`;
@@ -55,7 +55,7 @@ fs.readdir(pagesDir, async (err, folders) => {
                         return fs.promises.writeFile(sitemapFilePath, xmlContent)
                             .then(() => {
                                 console.log(`Sitemap generated: sm-${folder?.toLowerCase()}.xml`);
-                                robotsContent += `Sitemap: ${process.env.PROJECT_URL}sitemaps/sm-${folder?.toLowerCase()}.xml\n`;
+                                robotsContent += `Sitemap: ${process.env.PROJECT_MAIN_URL}sitemaps/sm-${folder?.toLowerCase()}.xml\n`;
                             });
                     } catch (parseError) {
                         console.error(`Error parsing JSON file in ${folder}:`, parseError);

@@ -2,11 +2,11 @@
 
 
 /* const BreadcrumbRoutes = {
-    "zkp":[{ label:"Web 3.0", url:process.env.PROJECT_URL+"tech/web3.0/overview" },
+    "zkp":[{ label:"Web 3.0", url:process.env.PROJECT_MAIN_URL+"tech/web3.0/overview" },
             { label:"Zero Knowledge Proof (ZKP)", url:"#" }],
-    "arch-infra":[{ label:"Web 3.0", url:process.env.PROJECT_URL+"tech/web3.0/overview" },
+    "arch-infra":[{ label:"Web 3.0", url:process.env.PROJECT_MAIN_URL+"tech/web3.0/overview" },
             { label:"Architecture & Infrastructure", url:"#" }],
-    "terminologies":[{ label:"Web 3.0", url:process.env.PROJECT_URL+"tech/web3.0/overview" },
+    "terminologies":[{ label:"Web 3.0", url:process.env.PROJECT_MAIN_URL+"tech/web3.0/overview" },
             { label:"Terminologies", url:"#" }],
 
 }; */

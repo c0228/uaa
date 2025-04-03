@@ -9,7 +9,7 @@ const ProfileBasic = () =>{
     paddingTop:'15px', paddingBottom:'15px', paddingLeft:'10px', paddingRight:'10px', borderRadius:'10px' }}>
   {/* Basic Profile ::: START */}
   <div align="center">
-    <img src={process.env.PROJECT_URL+'assets/profile.png'} 
+    <img src={process.env.PROJECT_MAIN_URL+'assets/profile.png'} 
         className="resume-profile-card-pic" />
     <div className="resume-profile-card-title"><b>NELLUTLA L N RAO</b></div>
     <div className="resume-profile-card-subtitle"><b>Full Stack Developer Engineer</b></div>

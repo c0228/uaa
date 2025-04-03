@@ -14,7 +14,7 @@ const UseCases = () =>{
             </thead>
             <tbody>
                 <tr>
-                    <td><Link to={process.env.PROJECT_URL+'tech/web3.0/terminologies/dex-aggregators'}><b>DEX Aggregators</b></Link></td>
+                    <td><Link to={process.env.PROJECT_MAIN_URL+'tech/web3.0/terminologies/dex-aggregators'}><b>DEX Aggregators</b></Link></td>
                     <td>ABIs help protocols like 1inch, Matcha interact with multiple DEXs (Uniswap, SushiSwap).</td>
                 </tr>
                 <tr>

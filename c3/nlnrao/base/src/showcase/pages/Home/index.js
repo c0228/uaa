@@ -61,23 +61,24 @@ const Home = ({ meta }) =>{
  },];
  return (<div className="mbot15p"> 
   <Header menulinks={[]} activeId="Home" />
-  <div style={{ marginTop:'15px', color:'#ccc'}}>
+  <div style={{ marginTop:'15px' }}>
    <ContainerFluid>
       <Row>
          <Col md={12}>
-            <div align="center"><h3 style={{ borderTop:'1px solid #ccc', borderBottom:'1px solid #ccc', marginTop:'15px', 
-               paddingTop:'15px', paddingBottom:'15px', color:'#fff', lineHeight:'32px' }}>
-               <b>BLOCKCHAIN / DeFi / DECENTRALIZED PROJECTS : LIVE DEMO</b></h3>
+            <div align="center"><h3 style={{
+                lineHeight:'32px' }}>
+               <b><span style={{ color:'#000' }}>BLOCKCHAIN / DeFi / DECENTRALIZED PROJECTS</span> : LIVE DEMO</b></h3>
             </div>
          </Col>
       </Row>
       <Row>
-      {data?.map((d,i)=>{
-         return (<Col md={6}>
-            <div style={{ minHeight:'70vh', lineHeight:'28px', marginTop:'15px', marginBottom:'15px', padding:'15px', border:'1px dashed #ccc', borderRadius:'8px', color:'#ccc' }}>
-               <div align="center" className="mtop15p"><h3 style={{ color:'#fff', lineHeight:'32px' }}><b>{d?.title}</b></h3></div>
-               {d?.details?.map((detail)=>{
-                  return (<div className="mtop15p">
+      {data?.map((d,i1)=>{
+         return (<Col key={i1} md={6}>
+            <div style={{ minHeight:'70vh', lineHeight:'28px', marginTop:'15px', marginBottom:'15px', padding:'15px', 
+                  border:'1px dashed #d5830a', borderRadius:'8px', color:'#333', backgroundColor:'#f9f9f9' }}>
+               <div align="center"><h4 style={{ color:'#d5830a', lineHeight:'32px' }}><b>{d?.title}</b></h4></div>
+               {d?.details?.map((detail,i2)=>{
+                  return (<div key={i2} className="mtop15p">
                      <Row>
                         <Col md={2}><b>{detail?.label}</b></Col>
                         <Col md={1}><b>:</b></Col>

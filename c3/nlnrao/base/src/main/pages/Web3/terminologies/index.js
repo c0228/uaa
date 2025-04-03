@@ -19,7 +19,7 @@ const Web3Terminologies = ({ id }) =>{
  const BlogTopHeader = ({ title, date }) =>{
    return (<div className="mtop15p mbot15p">
      <Breadcrumb backgroundColor={Colors.light} 
-         data={[{ label:'Web 3.0', url:process.env.PROJECT_URL+'tech/web3.0/overview' },
+         data={[{ label:'Web 3.0', url:process.env.PROJECT_MAIN_URL+'tech/web3.0/overview' },
              { label: title, url:'#' }]} />
      <BlogArticleHeader title={title} date={date} />
    </div>)

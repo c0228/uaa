@@ -18,7 +18,7 @@ const Terminologies = ({ title, desc, prefix, data, isIndex }) =>{
   {desc && (<div style={{ marginBottom:'15px', lineHeight:'26px', fontSize:'13px' }}>{desc}</div>)}
    {sortedTerminologies?.map((t,i)=>{
      return (<div key={i} className={(i>0?"mtop15p":"")}>
-      <Link to={process.env.PROJECT_URL+t[0]} style={{ textDecoration:'none' }}>
+      <Link to={process.env.PROJECT_MAIN_URL+t[0]} style={{ textDecoration:'none' }}>
       {isIndex && <span style={{ color:'#666', marginRight:'5px' }}><b>{i+1}.</b></span>} 
       <span className="terminologies-hgl-link"><b>{t[1]?.label}</b></span>
       </Link>

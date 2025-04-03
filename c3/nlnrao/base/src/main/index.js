@@ -9,7 +9,7 @@ import("react-dom/client").then((ReactDOM)=>{
   ReactDOM.createRoot(document.getElementById("root"))
    .render(
     <ContextProvider variables={{ "resumeStatus":"closed" }}>
-      <FontLoader />
+      <FontLoader prefix={process.env.PROJECT_MAIN_URL} />
       {/*<DisableRightClickNCopy />*/}
       <AppRouting />
    </ContextProvider>);

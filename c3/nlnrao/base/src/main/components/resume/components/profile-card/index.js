@@ -1,10 +1,11 @@
 import React from "react";
+import { Icon } from "e-ui-react";
 import SocialMediaIcons from "./../social-media-icons/index.js";
 import DownloadButton from "./../download-button/index.js";
 
 const ProfileCard = ()=>{
 	const data = {
-		img:process.env.PROJECT_URL+'assets/profile.png',
+		img:process.env.PROJECT_MAIN_URL+'assets/profile.png',
 		name:"Nellutla L N Rao",
 		title:"Full Stack Development Engineer",
 		desc:(<>
@@ -38,6 +39,14 @@ const ProfileCard = ()=>{
 					</div>
 				</div>);
 			   })}
+		   </div>
+		   <div align="center" className="resume-showcase-container">
+			<a target="_blank" href={process.env.PROJECT_SHOWCASE_URL} style={{ textDecoration:'none' }}>
+			<span className="resume-showcase-button">
+				<b>Watch My Live Demo Showcase</b>
+				<Icon type="FontAwesome" name="fa-external-link" size={12} style={{ marginLeft:'8px' }} />
+			</span>
+			</a>
 		   </div>
 	   </div>);
  };

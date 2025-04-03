@@ -6,7 +6,7 @@ const BlogItems = ({ itemList }) =>{
     return (<>
       {itemList?.map((list,index)=>{
          return (<div key={index} className="blog-fade" style={{ paddingBottom: '35px' }}>
-          <Link to={process.env.PROJECT_URL+list?.url} style={{ textDecoration:'none' }}>
+          <Link to={process.env.PROJECT_MAIN_URL+list?.url} style={{ textDecoration:'none' }}>
             <div style={{ lineHeight:'30px', fontSize:'16px', color:'#222' }}>
               <b>{list?.title}</b>
             </div>

@@ -9,7 +9,7 @@ const AlgoOverviewList = ({ header, desc, data }) =>{
          <div className="pad15p" style={{ lineHeight:'26px' }}>
          {desc && (<div>{desc}</div>)}
        {data?.map((d,i)=>{
-         return (<a href={process.env.PROJECT_URL+d?.[2]} style={{ textDecoration:'none' }}>
+         return (<a href={process.env.PROJECT_MAIN_URL+d?.[2]} style={{ textDecoration:'none' }}>
           <div key={i} style={{ cursor:'pointer', backgroundColor:'#f9f9f9', padding:'15px', marginTop:'8px', 
            borderRadius:'12px', border:'1px dashed #aaa'}}>
             <span style={{ fontSize:'16px' }}><b>{d?.[0]}</b></span>

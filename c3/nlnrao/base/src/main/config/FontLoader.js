@@ -1,20 +1,20 @@
 // FontLoader.js
 import React, { useEffect } from 'react';
 
-const FontLoader = () => {
+const FontLoader = ({ prefix }) => {
     useEffect(() => {
         const loadAndApplyFonts = async () => {
             const fontUrls = {
-                Antipasto: process.env.PROJECT_URL+'fonts/antipasto/AntipastoPro-Bold.ttf',
-                AntoniaRetro: process.env.PROJECT_URL+'fonts/antonia-retro/AntoniaRetro.ttf',
-                AvenisSemiBold: process.env.PROJECT_URL+'fonts/avenis/Avenis-Semibold.ttf',
-                BebasNeue: process.env.PROJECT_URL+'fonts/bebas-neue/BebasNeue-Regular.ttf', // Heading
-                BloomsFree: process.env.PROJECT_URL+'fonts/blooms/BloomsFree.ttf', // logo
-                GoodTimes: process.env.PROJECT_URL+'fonts/good-times/good-times-rg.otf',
-                Metropolis: process.env.PROJECT_URL+'fonts/metropolis/Metropolis-Medium.otf',
-                MetropolisBold: process.env.PROJECT_URL+'fonts/metropolis/Metropolis-Bold.otf',
-                OpenSansItalic: process.env.PROJECT_URL+'fonts/open-sans/OpenSans-Italic.ttf',
-                OpenSansRegular: process.env.PROJECT_URL+'fonts/open-sans/OpenSans-Regular.ttf'
+                Antipasto: prefix+'fonts/antipasto/AntipastoPro-Bold.ttf',
+                AntoniaRetro: prefix+'fonts/antonia-retro/AntoniaRetro.ttf',
+                AvenisSemiBold: prefix+'fonts/avenis/Avenis-Semibold.ttf',
+                BebasNeue: prefix+'fonts/bebas-neue/BebasNeue-Regular.ttf', // Heading
+                BloomsFree: prefix+'fonts/blooms/BloomsFree.ttf', // logo
+                GoodTimes: prefix+'fonts/good-times/good-times-rg.otf',
+                Metropolis: prefix+'fonts/metropolis/Metropolis-Medium.otf',
+                MetropolisBold: prefix+'fonts/metropolis/Metropolis-Bold.otf',
+                OpenSansItalic: prefix+'fonts/open-sans/OpenSans-Italic.ttf',
+                OpenSansRegular: prefix+'fonts/open-sans/OpenSans-Regular.ttf'
                 // Add more font URLs as needed
             };
 

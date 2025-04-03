@@ -14,7 +14,7 @@ const BlogArticleHeader = ({ metaData }) => {
     const breadCrumbData = [
       ...breadCrumbRoute.map(({ label, url }) => ({
         label,
-        url: url !== "#" && url !== "/" ? `${process.env.PROJECT_URL}${url}` : url,
+        url: url !== "#" && url !== "/" ? `${process.env.PROJECT_MAIN_URL}${url}` : url,
       })),
       { label, url: "#" },
     ];

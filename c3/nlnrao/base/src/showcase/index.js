@@ -8,7 +8,7 @@ import("react-dom/client").then((ReactDOM)=>{
   ReactDOM.createRoot(document.getElementById("root"))
    .render(
     <ContextProvider variables={{ }}>
-      <FontLoader />
+      <FontLoader prefix={process.env.PROJECT_SHOWCASE_URL} />
       {/*<DisableRightClickNCopy />*/}
       <AppRouting />
    </ContextProvider>);
