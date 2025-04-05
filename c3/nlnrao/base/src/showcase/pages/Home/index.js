@@ -1,13 +1,16 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { ContainerFluid, Row, Col, Button, Icon } from "e-ui-react";
+import { HeaderMenu } from '@ShowcaseConfig/HeaderMenu.js';
 import ShowcaseTile from "./components/Showcase/index.js";
 import Header from '@ShowcaseTemplates/Header/index.js';
 import './index.css';
 
 const Home = ({ meta }) =>{
-
+ useEffect(()=>{
+   document.title = 'Nellutla L N Rao | Showcase';
+ },[]);
  return (<div className="mbot15p"> 
-  <Header menulinks={[]} activeId="Home" />
+  <Header menulinks={HeaderMenu} activeId="Blockchain" />
 
   <div>
       <div align="center" style={{ backgroundColor:'#f9f6f6', padding:'60px' }}>
