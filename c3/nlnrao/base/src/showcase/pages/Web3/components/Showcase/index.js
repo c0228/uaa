@@ -67,18 +67,25 @@ const ShowcaseTile = () =>{
         and manage funds collaboratively and securely.`,
     freeze: 230
  },{
-    image: 'web3/zkp-voting-system.png',
-    title:'',
-    desc:``,
+    image: 'web3/crypto-price-tracker.png',
+    title:'Crypto Price Tracker: API Fetching Real-time crypto prices',
+    desc:`Track real-time cryptocurrency prices with the Crypto Price Tracker. This tool fetches live data from APIs, keeping you 
+        updated on the latest market trends and coin values. Perfect for traders, developers, and crypto enthusiasts.`,
     freeze: 250
  },{
-    image: 'web3/zkp-voting-system.png',
-    title:'',
-    desc:``,
-    freeze: 250
+    image: 'web3/cross-chain-bridge.png',
+    title:'Cross-Chain Bridge: Asset Swapping between varies Blockchains',
+    desc:`Cross-Chain Bridge enables seamless asset swapping between various blockchains. It allows users to transfer tokens across 
+        networks like Ethereum, BNB, and Polygon, enhancing interoperability and liquidity in the decentralized ecosystem.`,
+    freeze: 220
  }];
  return (<div style={{ marginTop:'15px', paddingBottom:'65px' }}>
     <ContainerFluid>
+        <Row>
+            <Col md={12}>
+                <div align="center" className="mtop15p"><h3><b>DEMO PROJECTS</b></h3></div>
+            </Col>
+        </Row>
         <Row>
             {data?.map((d,i)=>{
                 return ( <Col key={i} md={4}>
