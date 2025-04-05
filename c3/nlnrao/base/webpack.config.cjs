@@ -233,6 +233,13 @@ const showcaseConfig = (env, options) =>{
           }
         },
         {
+          from:  Path.join(__dirname, 'public/fonts'),
+          to: Path.join(__dirname, 'dist/showcase/fonts'),
+          globOptions: {
+              dot: true
+          }
+        },
+        {
           from:  Path.join(__dirname, 'public/robots.txt'),
           to: Path.join(__dirname, 'dist/showcase'),
           globOptions: {

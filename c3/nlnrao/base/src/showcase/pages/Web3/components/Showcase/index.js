@@ -92,7 +92,7 @@ const ShowcaseTile = () =>{
                     <div className="showcase-section" style={{ marginTop:'25px', boxShadow:'2px 2px 2px 2px #ddd2d2',  border:'1px solid #ccc', 
                             borderRadius:'12px', overflow: 'hidden' }}>
                         <div className="showcase-img-zoom">
-                        <img src={process.env.PROJECT_SHOWCASE_URL+'assets/images/showcase/'+d?.image} />
+                        <img src={process.env.PROJECT_MAIN_URL+'assets/images/showcase/'+d?.image} />
                         </div>
                         <div style={{ padding:'15px' }}>
                             <div align="center"><h4 style={{ lineHeight:'32px' }}><b>{d?.title}</b></h4></div>
