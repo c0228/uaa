@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import { useParams } from 'react-router-dom';
-import NotFound from "@Pages/404NotFound/index.js";
+import NotFound from "@MainPages/404NotFound/index.js";
 import { AllRoutes, AllComponentMap } from './route.map.js';
 
 const RouteLoader = () => {

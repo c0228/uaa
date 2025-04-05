@@ -4,6 +4,7 @@ import './index.css';
 
 const ShowcaseTile = () =>{
  const data = [{
+   link: 'showcase/web3-blockchain/self-sovereign-identity-decentralised-identity-system',
    image: 'web3/blockchain-did-system.png',
    title:'Self-Sovereign Identity: Decentralised Identity (DID) System',
    desc:`This project focuses on creating a self-sovereign identity (SSI) platform 
@@ -14,6 +15,7 @@ const ShowcaseTile = () =>{
     blockchain-backed backend for identity management.`,
    freeze: 250
  },{
+    link: 'showcase/web3-blockchain/a-secure-and-anonymous-zero-knowledge-proof-zkp-voting-system',
     image: 'web3/zkp-voting-system.png',
     title:'A Secure & Anonymous "Zero-Knowledge Proof (ZKP) Voting System"',
     desc:`A Zero-Knowledge Proof (ZKP) Voting System is a secure and privacy-focused online voting platform that ensures 
@@ -23,6 +25,7 @@ const ShowcaseTile = () =>{
         making it an innovative solution for secure digital elections.`,
     freeze: 250
  },{
+    link: 'showcase/web3-blockchain/timeLock-nft-rental-marketplace-without-ownership-loss',
     image: 'web3/nft-rental.png',
     title:'TimeLock NFT Rental Marketplace without Ownership Loss',
     desc:`A decentralized platform where users can rent NFTs for a fixed period without transferring ownership. Instead of 
@@ -32,6 +35,7 @@ const ShowcaseTile = () =>{
         all without risking permanent loss of ownership.`,
     freeze: 250
  },{
+    link: 'showcase/web3-blockchain/decentralized-cloud-storage-using-ipfs-and-smart-contracts',
     image: 'web3/cloud-storage.png',
     title:'Decentralized Cloud Storage using IPFS and Smart Contracts',
     desc:`This project allows users to securely upload and access files through a decentralized network. Files are stored on IPFS, 
@@ -39,6 +43,7 @@ const ShowcaseTile = () =>{
     is hosted on Hostinger, providing a simple interface to interact with blockchain and decentralized storage.`,
     freeze: 230
  },{
+    link: 'showcase/web3-blockchain/decentralized-escrow-service-for-secure-peer-to-peer-payments',
     image: 'web3/escrow.png',
     title:'Decentralized Escrow Service for Secure Peer-to-Peer Payments',
     desc:`A Decentralized Escrow Service uses smart contracts to securely hold funds or assets during a transaction. It ensures 
@@ -46,6 +51,7 @@ const ShowcaseTile = () =>{
         third party.`,
     freeze: 250
  },{
+    link: 'showcase/web3-blockchain/tamper-proof-credentials-secure-certificate-verification-system',
     image: 'web3/tamper-proof-cvs.png',
     title:'Tamper-Proof Credentials: Secure Certificate Verification System',
     desc:`Tamper-Proof Credentials is a blockchain-based certificate verification system that ensures authenticity, transparency, 
@@ -53,6 +59,7 @@ const ShowcaseTile = () =>{
         by employers or institutions.`,
     freeze: 250
  },{
+    link: 'showcase/web3-blockchain/dao-decentralized-autonomous-organization',
     image: 'web3/dao.png',
     title:'DAO (Decentralized Autonomous Organization)',
     desc:`A Decentralized Autonomous Organization (DAO) is a blockchain-based entity governed by smart contracts and community 
