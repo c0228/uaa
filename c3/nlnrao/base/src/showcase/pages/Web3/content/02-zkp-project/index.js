@@ -9,10 +9,9 @@ const ZkpProject = ({ meta }) =>{
   <Header menulinks={HeaderMenu} activeId="Blockchain" />
   <ContainerFluid>
              <Row>
-                 <Col md={8}>
+                 <Col md={12}>
                      <BlogArticleHeader metaData={meta} />
                  </Col>
-                 <Col md={4}></Col>
              </Row>
    </ContainerFluid>
  </div>);
