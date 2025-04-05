@@ -23,30 +23,42 @@ const ShowcaseTile = () =>{
         making it an innovative solution for secure digital elections.`,
     freeze: 250
  },{
-    image: 'web3/zkp-voting-system.png',
-    title:'',
-    desc:``,
+    image: 'web3/nft-rental.png',
+    title:'TimeLock NFT Rental Marketplace without Ownership Loss',
+    desc:`A decentralized platform where users can rent NFTs for a fixed period without transferring ownership. Instead of 
+        handing over full control of the NFT, access is controlled through TimeLock smart contracts, ensuring the NFT owner 
+        stays in full control while temporarily granting usage rights. Once the rental period ends, all access automatically 
+        reverts to the original owner. This ensures secure NFT lending for games, metaverses, collectibles, and other utilities, 
+        all without risking permanent loss of ownership.`,
     freeze: 250
  },{
-    image: 'web3/zkp-voting-system.png',
-    title:'',
-    desc:``,
+    image: 'web3/cloud-storage.png',
+    title:'Decentralized Cloud Storage using IPFS and Smart Contracts',
+    desc:`This project allows users to securely upload and access files through a decentralized network. Files are stored on IPFS, 
+    and their metadata is managed with Ethereum smart contracts to ensure transparency, ownership, and immutability. The frontend 
+    is hosted on Hostinger, providing a simple interface to interact with blockchain and decentralized storage.`,
+    freeze: 230
+ },{
+    image: 'web3/escrow.png',
+    title:'Decentralized Escrow Service for Secure Peer-to-Peer Payments',
+    desc:`A Decentralized Escrow Service uses smart contracts to securely hold funds or assets during a transaction. It ensures 
+        trust between parties by releasing payments only when conditions are met, without relying on a central authority or 
+        third party.`,
     freeze: 250
  },{
-    image: 'web3/zkp-voting-system.png',
-    title:'',
-    desc:``,
+    image: 'web3/tamper-proof-cvs.png',
+    title:'Tamper-Proof Credentials: Secure Certificate Verification System',
+    desc:`Tamper-Proof Credentials is a blockchain-based certificate verification system that ensures authenticity, transparency, 
+        and security. It prevents forgery by storing certificates on an immutable ledger, allowing instant, trustless validation 
+        by employers or institutions.`,
     freeze: 250
  },{
-    image: 'web3/zkp-voting-system.png',
-    title:'',
-    desc:``,
-    freeze: 250
- },{
-    image: 'web3/zkp-voting-system.png',
-    title:'',
-    desc:``,
-    freeze: 250
+    image: 'web3/dao.png',
+    title:'DAO (Decentralized Autonomous Organization)',
+    desc:`A Decentralized Autonomous Organization (DAO) is a blockchain-based entity governed by smart contracts and community 
+        consensus. It enables transparent, trustless decision-making without central authority, allowing members to propose, vote, 
+        and manage funds collaboratively and securely.`,
+    freeze: 230
  },{
     image: 'web3/zkp-voting-system.png',
     title:'',
@@ -58,7 +70,7 @@ const ShowcaseTile = () =>{
     desc:``,
     freeze: 250
  }];
- return (<div style={{ marginTop:'15px', marginBottom:'15px' }}>
+ return (<div style={{ marginTop:'15px', paddingBottom:'65px' }}>
     <ContainerFluid>
         <Row>
             {data?.map((d,i)=>{
