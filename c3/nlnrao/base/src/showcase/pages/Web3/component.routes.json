@@ -5,49 +5,49 @@
     "urls":{
         "showcase/web3-blockchain/self-sovereign-identity-decentralised-identity-system":{
             "date": "October 26, 2024",
-            "label": "",
+            "label": "Self-Sovereign Identity: Decentralised Identity (DID) System",
             "component": "DIDProject",
             "breadcrumbIndex": "web3",
             "keywords":[]
         },
         "showcase/web3-blockchain/a-secure-and-anonymous-zero-knowledge-proof-zkp-voting-system":{
             "date": "October 26, 2024",
-            "label": "",
+            "label": "A Secure & Anonymous \"Zero-Knowledge Proof (ZKP) Voting System\"",
             "component": "ZkpProject",
             "breadcrumbIndex": "web3",
             "keywords":[]
         },
         "showcase/web3-blockchain/timeLock-nft-rental-marketplace-without-ownership-loss":{
             "date": "October 26, 2024",
-            "label": "",
+            "label": "TimeLock NFT Rental Marketplace without Ownership Loss",
             "component": "NFTRentalProject",
             "breadcrumbIndex": "web3",
             "keywords":[]
         },
         "showcase/web3-blockchain/decentralized-cloud-storage-using-ipfs-and-smart-contracts":{
             "date": "October 26, 2024",
-            "label": "",
+            "label": "Decentralized Cloud Storage using IPFS and Smart Contracts",
             "component": "CloudStorageProject",
             "breadcrumbIndex": "web3",
             "keywords":[]
         },
         "showcase/web3-blockchain/decentralized-escrow-service-for-secure-peer-to-peer-payments":{
             "date": "October 26, 2024",
-            "label": "",
+            "label": "Decentralized Escrow Service for Secure Peer-to-Peer Payments",
             "component": "EscrowServiceProject",
             "breadcrumbIndex": "web3",
             "keywords":[]
         },
         "showcase/web3-blockchain/tamper-proof-credentials-secure-certificate-verification-system":{
             "date": "October 26, 2024",
-            "label": "",
+            "label": "Tamper-Proof Credentials: Secure Certificate Verification System",
             "component": "TamperProofCVSProject",
             "breadcrumbIndex": "web3",
             "keywords":[]
         },
         "showcase/web3-blockchain/dao-decentralized-autonomous-organization":{
             "date": "October 26, 2024",
-            "label": "",
+            "label": "DAO (Decentralized Autonomous Organization)",
             "component": "DAOProject",
             "breadcrumbIndex": "web3",
             "keywords":[]

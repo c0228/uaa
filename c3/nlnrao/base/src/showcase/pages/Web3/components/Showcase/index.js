@@ -93,10 +93,12 @@ const ShowcaseTile = () =>{
                                 {d?.desc?.slice(0, d?.freeze)+'...'}
                             </div>
                             <div align="right">
+                                <a href={process.env.PROJECT_SHOWCASE_URL+d?.link}>
                                 <Button type="outline-danger" size={11}>
                                     <b>Explore Project</b>
                                     <Icon type="FontAwesome" name="fa-external-link" size={12} style={{ marginLeft:'5px'}} />
                                 </Button>
+                                </a>
                             </div>
                         </div>
                     </div>

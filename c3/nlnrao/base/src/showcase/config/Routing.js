@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import ScrollToTop from "@MainComponents/scroll-to-top/index.js";
-import Web3 from "@ShowcasePages/Web3/index.js";
+import Web3Blockchain from "@ShowcasePages/Web3/index.js";
 import RouteLoader from "@ShowcasePages/route.loader.js";
 
 export const AppRouting = ()=>{
@@ -9,6 +9,7 @@ export const AppRouting = ()=>{
     return (<BrowserRouter basename="/">
       <ScrollToTop />
       <Routes>
+        <Route path="/" element={<Web3Blockchain />} />
         <Route path=":industry" element={<RouteLoader />} />
         <Route path=":industry/:module" element={<RouteLoader />} />
         <Route path=":industry/:module/:input1" element={<RouteLoader />} />

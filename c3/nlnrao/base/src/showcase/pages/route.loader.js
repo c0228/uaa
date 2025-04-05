@@ -11,7 +11,6 @@ const RouteLoader = () => {
   
     const RouteComponent = AllComponentMap[AllRoutes?.urls?.[routeKey]?.component]; // || <div>Page Not Found</div>
   
-    console.log(AllRoutes, routeKey, RouteComponent);
     if (!RouteComponent) {
         return <NotFound />;
     }

@@ -5,7 +5,7 @@ import ShowcaseTile from "./components/Showcase/index.js";
 import Header from '@ShowcaseTemplates/Header/index.js';
 import './index.css';
 
-const Home = ({ meta }) =>{
+const Web3Blockchain = ({ meta }) =>{
  useEffect(()=>{
    document.title = 'Nellutla L N Rao | Showcase';
  },[]);
@@ -31,4 +31,4 @@ const Home = ({ meta }) =>{
  </div>);
 };
 
-export default Home;
+export default Web3Blockchain;

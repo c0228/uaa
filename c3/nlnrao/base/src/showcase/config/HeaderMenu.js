@@ -3,7 +3,7 @@
 { id:'interviewQuestions', url:'interview-questions/overview', label:'Interview Questions' }]; */
 
  export const HeaderMenu =[
-   { id:'Blockchain', url: 'tech/web3.0/overview', label:'Web 3.0 & Blockchain' }
+   { id:'Blockchain', url: '', label:'Web 3.0 & Blockchain' }
    /*
    { id:'Backend', url: 'tech/backend/overview', label:'Backend' },
    { id:'CloudInfrastructure', url:'tech/cloud-infrastructure/overview', label:'Cloud Infrastructure' },

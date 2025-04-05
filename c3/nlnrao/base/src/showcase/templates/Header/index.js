@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import './index.css';
 
 export const LogoTitle = ()=>{
- return (<Link className="navbar-brand" to={process.env.PROJECT_MAIN_URL} style={{ paddingTop:'0px', paddingBottom:'0px' }}>
+ return (<Link className="navbar-brand" to={process.env.PROJECT_SHOWCASE_URL} style={{ paddingTop:'0px', paddingBottom:'0px' }}>
  <span className="logo" style={{ fontSize:'22px' }}>nellutlalnrao.com</span>
  <span style={{ marginLeft:'5px', borderRadius:'8px', border:'1.8px solid #d84e55', padding:'5px', fontSize:'11px', 
     letterSpacing:'0.4px', color:'#d84e55' }}><b>SHOWCASE</b></span>
@@ -25,7 +25,7 @@ const Header = ({ activeId, menulinks })=>{
       {menulinks?.map((menu,index)=>{
         return (<li key={index} className="nav-item">
           <Link className={(activeId===menu?.id)?"nav-link active":"nav-link"} 
-            to={process.env.PROJECT_MAIN_URL+menu?.url}><span><b>{menu?.label}</b></span></Link>
+            to={process.env.PROJECT_SHOWCASE_URL+menu?.url}><span><b>{menu?.label}</b></span></Link>
         </li>);
       })}
       </ul>
