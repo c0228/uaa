@@ -89,7 +89,7 @@ const ShowcaseTile = () =>{
         <Row>
             {data?.map((d,i)=>{
                 return ( <Col key={i} md={4}>
-                    <div className="showcase-section" style={{ marginTop:'25px', boxShadow:'2px 2px 2px 2px #ddd2d2',  border:'1px solid #ccc', 
+                    <div className="showcase-section" style={{ marginTop:'25px', border:'1px solid #ccc', 
                             borderRadius:'12px', overflow: 'hidden' }}>
                         <div className="showcase-img-zoom">
                         <img src={process.env.PROJECT_MAIN_URL+'assets/images/showcase/'+d?.image} />
@@ -101,7 +101,7 @@ const ShowcaseTile = () =>{
                             </div>
                             <div align="right">
                                 <a href={process.env.PROJECT_SHOWCASE_URL+d?.link}>
-                                <Button type="outline-danger" size={11}>
+                                <Button type="outline-dark" size={11}>
                                     <b>Explore Project</b>
                                     <Icon type="FontAwesome" name="fa-external-link" size={12} style={{ marginLeft:'5px'}} />
                                 </Button>
