@@ -12,11 +12,11 @@ const DSAIntroduction = () =>{
               ['Bubble Sort', 'Repeatedly swaps adjacent elements if they are in the wrong order.', 'tech/dsa/sorting-algorithms/bubble-sort'],
               ['Selection Sort', 'Finds the minimum element and places it at the correct position.', 'tech/dsa/sorting-algorithms/selection-sort'],
               ['Insertion Sort', 'Picks an element and places it in its correct position among sorted elements.', 'tech/dsa/sorting-algorithms/insertion-sort'],
-              ['Merge Sort','Uses a divide-and-conquer approach to merge sorted subarrays.'],
-              ['Quick Sort', 'Selects a pivot and partitions the array around it.'],
-              ['Heap Sort', 'Uses a binary heap structure to sort elements efficiently.'],
-              ['Counting Sort', 'Works efficiently for integers within a known range.'],
-              ['Radix Sort', 'Sorts numbers digit by digit using counting sort as a subroutine.']
+              ['Merge Sort','Uses a divide-and-conquer approach to merge sorted subarrays.','tech/dsa/sorting-algorithms/merge-sort'],
+              ['Quick Sort', 'Selects a pivot and partitions the array around it.','tech/dsa/sorting-algorithms/quick-sort'],
+              ['Heap Sort', 'Uses a binary heap structure to sort elements efficiently.','tech/dsa/sorting-algorithms/heap-sort'],
+              ['Counting Sort', 'Works efficiently for integers within a known range.','tech/dsa/sorting-algorithms/counting-sort'],
+              ['Radix Sort', 'Sorts numbers digit by digit using counting sort as a subroutine.','tech/dsa/sorting-algorithms/radix-sort']
             ]} />   
       <AlgoOverviewList header="Dynamic Programming (DP)"
         desc="DP solves problems by breaking them into overlapping subproblems."

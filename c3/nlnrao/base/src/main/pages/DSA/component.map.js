@@ -3,6 +3,11 @@ import DSA from "@MainPages/DSA/index.js";
 import BubbleSort from "@MainPages/DSA/algorithms/sort-algorithms/BubbleSort/index.js";
 import SelectionSort from "@MainPages/DSA/algorithms/sort-algorithms/SelectionSort/index.js";
 import InsertionSort from "@MainPages/DSA/algorithms/sort-algorithms/InsertionSort/index.js";
+import MergeSort from "@MainPages/DSA/algorithms/sort-algorithms/MergeSort/index.js";
+import QuickSort from "@MainPages/DSA/algorithms/sort-algorithms/QuickSort/index.js";
+import HeapSort from "@MainPages/DSA/algorithms/sort-algorithms/HeapSort/index.js";
+import CountingSort from "@MainPages/DSA/algorithms/sort-algorithms/CountingSort/index.js";
+import RadixSort from "@MainPages/DSA/algorithms/sort-algorithms/RadixSort/index.js";
 
 import CacheObliviousAlgorithms from "@MainPages/DSA/content/01-cache-oblivious-algorithms/index.js";
 import TestAndVerifyAlgorithms from "@MainPages/DSA/content/02-test-and-verify-algorithms/index.js";
@@ -17,6 +22,11 @@ export const DSAComponentMap = {
  "BubbleSort": BubbleSort,
  "SelectionSort": SelectionSort,
  "InsertionSort": InsertionSort,
+ "MergeSort": MergeSort,
+ "QuickSort": QuickSort,
+ "HeapSort": HeapSort,
+ "CountingSort": CountingSort,
+ "RadixSort": RadixSort,
 
  "CacheObliviousAlgorithms": CacheObliviousAlgorithms,
  "TestAndVerifyAlgorithms": TestAndVerifyAlgorithms,
