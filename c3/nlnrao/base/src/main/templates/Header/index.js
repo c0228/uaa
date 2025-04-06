@@ -23,7 +23,7 @@ const Header = ({ activeId, menulinks })=>{
       {menulinks?.map((menu,index)=>{
         return (<li key={index} className="nav-item">
           <Link className={(activeId===menu?.id)?"nav-link active":"nav-link"} 
-            to={process.env.PROJECT_SHOWCASE_URL+menu?.url}><span><b>{menu?.label}</b></span></Link>
+            to={process.env.PROJECT_MAIN_URL+menu?.url}><span><b>{menu?.label}</b></span></Link>
         </li>);
       })}
       </ul>
