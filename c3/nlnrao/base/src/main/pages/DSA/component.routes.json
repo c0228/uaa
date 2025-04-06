@@ -21,9 +21,73 @@
         { "label":"Advanced Distributed Computing and Blockchain", "url":"tech/dsa/overview" }],
 
 
-
         "sort-algorithms":[{ "label":"Data Structures & Algorithms", "url":"/" },
                     { "label":"Sorting Algorithms", "url": "tech/dsa/overview" }],
+
+        "search-algorithms":[{ "label":"Data Structures & Algorithms", "url":"/" },
+                    { "label":"Searching Algorithms", "url": "tech/dsa/overview" }],
+
+        "dynamic-programming":[{ "label":"Data Structures & Algorithms", "url":"/" },
+                    { "label":"Dynamic Programming (DP)", "url": "tech/dsa/overview" }],
+
+        "array-linked-list":[{ "label":"Data Structures & Algorithms", "url":"/" },
+                    { "label":"Array & Linked List", "url": "tech/dsa/overview" }],
+
+        "stack-queue":[{ "label":"Data Structures & Algorithms", "url":"/" },
+                    { "label":"Stack & Queue", "url": "tech/dsa/overview" }],
+        
+        "graph-algorithms":[{ "label":"Data Structures & Algorithms", "url":"/" },
+                    { "label":"Graph Algorithms", "url": "tech/dsa/overview" }],
+
+        "hashing":[{ "label":"Data Structures & Algorithms", "url":"/" },
+                    { "label":"Hashing", "url": "tech/dsa/overview" }],
+
+        "greedy-algorithms":[{ "label":"Data Structures & Algorithms", "url":"/" },
+                    { "label":"Greedy Algorithms", "url": "tech/dsa/overview" }],
+
+        "backtracking":[{ "label":"Data Structures & Algorithms", "url":"/" },
+                    { "label":"Backtracking", "url": "tech/dsa/overview" }],
+
+        "tree-bst-algorithms":[{ "label":"Data Structures & Algorithms", "url":"/" },
+                    { "label":"Tree & Binary Search Tree (BST) Algorithms", "url": "tech/dsa/overview" }],
+
+        "probability-dsa":[{ "label":"Data Structures & Algorithms", "url":"/" },
+                    { "label":"Probabilistics Data Structures Algorithms", "url": "tech/dsa/overview" }],
+
+        "bit-manipulation":[{ "label":"Data Structures & Algorithms", "url":"/" },
+                    { "label":"Bit Manipulation", "url": "tech/dsa/overview" }],
+
+        "string-algorithms":[{ "label":"Data Structures & Algorithms", "url":"/" },
+                    { "label":"String Algorithms", "url": "tech/dsa/overview" }],
+
+        "heap-algorithms":[{ "label":"Data Structures & Algorithms", "url":"/" },
+                    { "label":"Heap Algorithms", "url": "tech/dsa/overview" }],
+
+        "blockchain-dsa":[{ "label":"Data Structures & Algorithms", "url":"/" },
+                    { "label":"Blockchain DSA", "url": "tech/dsa/overview" }],
+            
+        "cryptography-dsa":[{ "label":"Data Structures & Algorithms", "url":"/" },
+                    { "label":"Cryptography DSA", "url": "tech/dsa/overview" }],
+
+        "nft-dsa":[{ "label":"Data Structures & Algorithms", "url":"/" },
+                    { "label":"NFTs DSA", "url": "tech/dsa/overview" }],
+                
+        "defi-smart-contracts":[{ "label":"Data Structures & Algorithms", "url":"/" },
+                    { "label":"DeFi & SMart Contracts", "url": "tech/dsa/overview" }],
+
+        "consensus-algorithms":[{ "label":"Data Structures & Algorithms", "url":"/" },
+                    { "label":"Consensus Algorithms", "url": "tech/dsa/overview" }],
+
+        "defi-algorithms":[{ "label":"Data Structures & Algorithms", "url":"/" },
+                    { "label":"DeFi Algorithms", "url": "tech/dsa/overview" }],
+
+        "nft-specific-algorithms":[{ "label":"Data Structures & Algorithms", "url":"/" },
+                    { "label":"NFT Specific Algorithms", "url": "tech/dsa/overview" }],
+
+        "cryptographic-algorithms":[{ "label":"Data Structures & Algorithms", "url":"/" },
+                    { "label":"Cryptographic Algorithms", "url": "tech/dsa/overview" }],
+
+
 
         "cache-eviction-strategies":[{ "label":"Data Structures & Algorithms", "url":"tech/dsa/overview" },
                     { "label":"Cache Eviction Strategies", "url":"#" }],
