@@ -260,6 +260,56 @@
             "breadcrumbIndex": "search-algorithms"
         },
 
+        "tech/dsa/dynamic-programming/fibonacci-series":{
+            "label": "Fibonacci Series (Top-down & Bottom-up): An In-Depth Analysis with Notations & JavaScript Implementation",
+            "date":"October 26, 2024",
+            "component": "FibonacciSeries",
+            "breadcrumbIndex": "dynamic-programming"
+        },
+        "tech/dsa/dynamic-programming/knapsack-problem":{
+            "label": "0/1 Knapsack Problem: An In-Depth Analysis with Notations & JavaScript Implementation",
+            "date":"October 26, 2024",
+            "component": "KnapsackProblem",
+            "breadcrumbIndex": "dynamic-programming"
+        },
+        "tech/dsa/dynamic-programming/longest-common-subsequences":{
+            "label": "Longest Common Subsequences (LCS): An In-Depth Analysis with Notations & JavaScript Implementation",
+            "date":"October 26, 2024",
+            "component": "LongestCommonSubsequences",
+            "breadcrumbIndex": "dynamic-programming"
+        },
+        "tech/dsa/dynamic-programming/longest-increasing-subsequences":{
+            "label": "Longest IncreasingSubsequences (LIS): An In-Depth Analysis with Notations & JavaScript Implementation",
+            "date":"October 26, 2024",
+            "component": "LongestIncreasingSubsequences",
+            "breadcrumbIndex": "dynamic-programming"
+        },
+        "tech/dsa/dynamic-programming/matrix-chain-multiplication":{
+            "label": "Matrix Chain Multiplication : An In-Depth Analysis with Notations & JavaScript Implementation",
+            "date":"October 26, 2024",
+            "component": "MatrixChainMultiplication",
+            "breadcrumbIndex": "dynamic-programming"
+        },
+        "tech/dsa/dynamic-programming/coin-change-problem":{
+            "label": "Coin Change Problem: An In-Depth Analysis with Notations & JavaScript Implementation",
+            "date":"October 26, 2024",
+            "component": "CoinChangeProblem",
+            "breadcrumbIndex": "dynamic-programming"
+        },
+        "tech/dsa/dynamic-programming/rod-cutting-problem":{
+            "label": "Rod Cutting Problem: An In-Depth Analysis with Notations & JavaScript Implementation",
+            "date":"October 26, 2024",
+            "component": "RodCuttingProblem",
+            "breadcrumbIndex": "dynamic-programming"
+        },
+        "tech/dsa/dynamic-programming/edit-distance":{
+            "label": "Edit Distance: An In-Depth Analysis with Notations & JavaScript Implementation",
+            "date":"October 26, 2024",
+            "component": "EditDistance",
+            "breadcrumbIndex": "dynamic-programming"
+        },
+
+
         "tech/dsa/cache-eviction-strategies/least-recently-used":{
             "label":"Least Recently Used (LRU)",
             "date":"October 26, 2024",

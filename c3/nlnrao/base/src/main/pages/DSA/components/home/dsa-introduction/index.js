@@ -21,14 +21,14 @@ const DSAIntroduction = () =>{
       <AlgoOverviewList header="Dynamic Programming (DP)"
         desc="DP solves problems by breaking them into overlapping subproblems."
         data={[
-          ['Fibonacci Series (Top-down & Bottom-up)', 'Computes Fibonacci numbers efficiently.'],
-          ['0/1 Knapsack Problem','Selects items with maximum value without exceeding capacity.'],
-          ['Longest Common Subsequence (LCS)', 'Finds the longest subsequence present in two sequences.'],
-          ['Longest Increasing Subsequence (LIS)','Finds the longest increasing subsequence.'],
-          ['Matrix Chain Multiplication', 'Finds optimal order to multiply matrices.'],
-          ['Coin Change Problem','Finds the minimum number of coins needed to make change.'],
-          ['Rod Cutting Problem', 'Finds the maximum value from cutting a rod.'],
-          ['Edit Distance','Measures similarity between two strings.'],
+          ['Fibonacci Series (Top-down & Bottom-up)', 'Computes Fibonacci numbers efficiently.','tech/dsa/dynamic-programming/fibonacci-series'],
+          ['0/1 Knapsack Problem','Selects items with maximum value without exceeding capacity.','tech/dsa/dynamic-programming/knapsack-problem'],
+          ['Longest Common Subsequence (LCS)', 'Finds the longest subsequence present in two sequences.','tech/dsa/dynamic-programming/longest-common-subsequences'],
+          ['Longest Increasing Subsequence (LIS)','Finds the longest increasing subsequence.','tech/dsa/dynamic-programming/longest-increasing-subsequences'],
+          ['Matrix Chain Multiplication', 'Finds optimal order to multiply matrices.','tech/dsa/dynamic-programming/matrix-chain-multiplication'],
+          ['Coin Change Problem','Finds the minimum number of coins needed to make change.','tech/dsa/dynamic-programming/coin-change-problem'],
+          ['Rod Cutting Problem', 'Finds the maximum value from cutting a rod.','tech/dsa/dynamic-programming/rod-cutting-problem'],
+          ['Edit Distance','Measures similarity between two strings.','tech/dsa/dynamic-programming/edit-distance'],
         ]} />
 
       <AlgoOverviewList header="Stack & Queue"

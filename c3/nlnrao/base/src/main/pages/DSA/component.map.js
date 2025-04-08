@@ -20,6 +20,16 @@ import HashingBasedSearch from "./algorithms/search-algorithms/HashingBasedSearc
 import TriePrefixTree from "./algorithms/search-algorithms/TriePrefixTree/index.js";
 import BTrees from "./algorithms/search-algorithms/BTrees/index.js";
 
+// Dynamic Programming
+import FibonacciSeries from "./algorithms/dynamic-programming/FibonacciSeries/index.js";
+import KnapsackProblem from "./algorithms/dynamic-programming/KnapsackProblem/index.js";
+import LongestCommonSubsequences from "./algorithms/dynamic-programming/LongestCommonSubsequences/index.js";
+import LongestIncreasingSubsequences from "./algorithms/dynamic-programming/LongestIncreasingSubsequences/index.js";
+import MatrixChainMultiplication from "./algorithms/dynamic-programming/MatrixChainMultiplication/index.js";
+import CoinChangeProblem from "./algorithms/dynamic-programming/CoinChangeProblem/index.js";
+import RodCuttingProblem from "./algorithms/dynamic-programming/RodCuttingProblem/index.js";
+import EditDistance from "./algorithms/dynamic-programming/EditDistance/index.js";
+
 import CacheObliviousAlgorithms from "@MainPages/DSA/content/01-cache-oblivious-algorithms/index.js";
 import TestAndVerifyAlgorithms from "@MainPages/DSA/content/02-test-and-verify-algorithms/index.js";
 import SelfTuningAlgorithms from "@MainPages/DSA/content/03-self-tuning-algorithms/index.js";
@@ -29,7 +39,7 @@ import ByzantineFaultTolerance from "@MainPages/DSA/content/06-byzantine-fault-t
 
 export const DSAComponentMap = {
  "DSA": DSA,
-
+ // Sorting Algorithms
  "BubbleSort": BubbleSort,
  "SelectionSort": SelectionSort,
  "InsertionSort": InsertionSort,
@@ -38,7 +48,7 @@ export const DSAComponentMap = {
  "HeapSort": HeapSort,
  "CountingSort": CountingSort,
  "RadixSort": RadixSort,
- 
+ // Searching Algorithms
  "LinearSearch": LinearSearch,
  "BinarySearch": BinarySearch,
  "TernarySearch": TernarySearch,
@@ -48,6 +58,15 @@ export const DSAComponentMap = {
  "HashingBasedSearch": HashingBasedSearch,
  "TriePrefixTree": TriePrefixTree,
  "BTrees": BTrees,
+ // Dynamic Programming
+ "FibonacciSeries": FibonacciSeries,
+ "KnapsackProblem": KnapsackProblem,
+ "LongestCommonSubsequences": LongestCommonSubsequences,
+ "LongestIncreasingSubsequences": LongestIncreasingSubsequences,
+ "MatrixChainMultiplication": MatrixChainMultiplication,
+ "CoinChangeProblem": CoinChangeProblem,
+ "RodCuttingProblem": RodCuttingProblem,
+ "EditDistance": EditDistance,
  
  "CacheObliviousAlgorithms": CacheObliviousAlgorithms,
  "TestAndVerifyAlgorithms": TestAndVerifyAlgorithms,
