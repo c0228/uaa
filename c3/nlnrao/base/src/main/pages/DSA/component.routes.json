@@ -205,8 +205,60 @@
             "breadcrumbIndex": "sort-algorithms"
         },
 
-
-
+        "tech/dsa/searching-algorithms/linear-search":{
+            "label": "Linear Search: An In-Depth Analysis with Notations & JavaScript Implementation",
+            "date":"October 26, 2024",
+            "component": "LinearSearch",
+            "breadcrumbIndex": "search-algorithms"
+        },
+        "tech/dsa/searching-algorithms/binary-search":{
+            "label": "Binary Search: An In-Depth Analysis with Notations & JavaScript Implementation",
+            "date":"October 26, 2024",
+            "component": "BinarySearch",
+            "breadcrumbIndex": "search-algorithms"
+        },
+        "tech/dsa/searching-algorithm/ternary-search":{
+            "label": "Ternary Search: An In-Depth Analysis with Notations & JavaScript Implementation",
+            "date":"October 26, 2024",
+            "component": "TernarySearch",
+            "breadcrumbIndex": "search-algorithms"
+        },
+        "tech/dsa/searching-algorithms/jump-search":{
+            "label": "Jump Search: An In-Depth Analysis with Notations & JavaScript Implementation",
+            "date":"October 26, 2024",
+            "component": "JumpSearch",
+            "breadcrumbIndex": "search-algorithms"
+        },
+        "tech/dsa/searching-algorithms/interpolation-search":{
+            "label": "Interpolation Search: An In-Depth Analysis with Notations & JavaScript Implementation",
+            "date":"October 26, 2024",
+            "component": "InterpolationSearch",
+            "breadcrumbIndex": "search-algorithms"
+        },
+        "tech/dsa/searching-algorithms/exponential-search":{
+            "label": "Exponential Search: An In-Depth Analysis with Notations & JavaScript Implementation",
+            "date":"October 26, 2024",
+            "component": "ExponentialSearch",
+            "breadcrumbIndex": "search-algorithms"
+        },
+        "tech/dsa/searching-algorithms/hashing-based-search":{
+            "label": "Hashing Based Search: An In-Depth Analysis with Notations & JavaScript Implementation",
+            "date":"October 26, 2024",
+            "component": "HashingBasedSearch",
+            "breadcrumbIndex": "search-algorithms"
+        },
+        "tech/dsa/searching-algorithms/trie-prefix-tree":{
+            "label": "Trie (PrefixTree): An In-Depth Analysis with Notations & JavaScript Implementation",
+            "date":"October 26, 2024",
+            "component": "TriePrefixTree",
+            "breadcrumbIndex": "search-algorithms"
+        },
+        "tech/dsa/searching-algorithms/b-trees":{
+            "label": "B-Trees: An In-Depth Analysis with Notations & JavaScript Implementation",
+            "date":"October 26, 2024",
+            "component": "BTrees",
+            "breadcrumbIndex": "search-algorithms"
+        },
 
         "tech/dsa/cache-eviction-strategies/least-recently-used":{
             "label":"Least Recently Used (LRU)",

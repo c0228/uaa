@@ -94,15 +94,15 @@ const DSAIntroduction = () =>{
       <AlgoOverviewList header="Searching Algorithms"
         desc="Searching algorithms find an element in a given data structure."
         data={[
-              ['Linear Search', 'Iterates through the array to find the element.'],
-              ['Binary Search', 'Searches in a sorted array by dividing it into halves.'],
-              ['Ternary Search', 'Searches in a sorted array by dividing it into three parts.'],
-              ['Jump Search', 'Jumps ahead by fixed steps and then performs linear search.'],
-              ['Interpolation Search','Similar to binary search but estimates position dynamically.'],
-              ['Exponential Search', 'Used for unbounded or infinite arrays.'],
-              ['Hashing-Based Search', 'Efficient for unordered data, uses a hash function to map keys to array indices.'],
-              ['Trie (Prefix Tree)', 'Used for searching words in dictionaries, autocomplete, and search engines.'],
-              ['B-Trees', 'Balanced tree structure used in databases for indexing large datasets (Efficient for disk-based storage).'] 
+              ['Linear Search', 'Iterates through the array to find the element.','tech/dsa/searching-algorithms/linear-search'],
+              ['Binary Search', 'Searches in a sorted array by dividing it into halves.','tech/dsa/searching-algorithms/binary-search'],
+              ['Ternary Search', 'Searches in a sorted array by dividing it into three parts.','tech/dsa/searching-algorithm/ternary-search'],
+              ['Jump Search', 'Jumps ahead by fixed steps and then performs linear search.','tech/dsa/searching-algorithms/jump-search'],
+              ['Interpolation Search','Similar to binary search but estimates position dynamically.','tech/dsa/searching-algorithms/interpolation-search'],
+              ['Exponential Search', 'Used for unbounded or infinite arrays.','tech/dsa/searching-algorithms/exponential-search'],
+              ['Hashing-Based Search', 'Efficient for unordered data, uses a hash function to map keys to array indices.','tech/dsa/searching-algorithms/hashing-based-search'],
+              ['Trie (Prefix Tree)', 'Used for searching words in dictionaries, autocomplete, and search engines.','tech/dsa/searching-algorithms/trie-prefix-tree'],
+              ['B-Trees', 'Balanced tree structure used in databases for indexing large datasets (Efficient for disk-based storage).','tech/dsa/searching-algorithms/b-trees'], 
         ]} />
 
       <AlgoOverviewList header="Array & Linked List"
