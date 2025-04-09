@@ -107,12 +107,12 @@ const DSAIntroduction = () =>{
 
       <AlgoOverviewList header="Array & Linked List"
         data={[
-          ['Array', 'A contiguous memory data structure that stores elements of the same type.'],
-          ['Dynamic Array', 'An array that resizes itself dynamically.'],
-          ['Linked List', 'A linear data structure where elements (nodes) point to the next node.'],
-          ['Singly Linked List (SLL)', 'Each node has data and a pointer to the next node.'],
-          ['Doubly Linked List (DLL)', 'Each node has data, a next pointer, and a previous pointer.'],
-          ['Circular Linked List (CLL)', 'Last node points back to the first node']
+          ['Arrays', 'A contiguous memory data structure that stores elements of the same type.','tech/dsa/arrays-linked-list/Arrays'],
+          ['Dynamic Array', 'An array that resizes itself dynamically.','tech/dsa/arrays-linked-list/dynamic-array'],
+          ['Linked List', 'A linear data structure where elements (nodes) point to the next node.','tech/dsa/arrays-linked-list/linked-list'],
+          ['Singly Linked List (SLL)', 'Each node has data and a pointer to the next node.','tech/dsa/arrays-linked-list/singly-linked-list'],
+          ['Doubly Linked List (DLL)', 'Each node has data, a next pointer, and a previous pointer.','tech/dsa/arrays-linked-list/doubly-link-list'],
+          ['Circular Linked List (CLL)', 'Last node points back to the first node','tech/dsa/arrays-linked-list/circular-linked-list']
         ]} />
 
       <AlgoOverviewList header="Graph Algorithms"

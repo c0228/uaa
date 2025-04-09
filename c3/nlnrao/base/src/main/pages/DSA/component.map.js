@@ -30,6 +30,14 @@ import CoinChangeProblem from "./algorithms/dynamic-programming/CoinChangeProble
 import RodCuttingProblem from "./algorithms/dynamic-programming/RodCuttingProblem/index.js";
 import EditDistance from "./algorithms/dynamic-programming/EditDistance/index.js";
 
+// Array & Linked List
+import Arrays from "./algorithms/array-linked-list/Arrays/index.js";
+import DynamicArray from "./algorithms/array-linked-list/DynamicArray/index.js";
+import LinkedList from "./algorithms/array-linked-list/LinkedList/index.js";
+import SinglyLinkedList from "./algorithms/array-linked-list/SinglyLinkedList/index.js";
+import DoublyLinkedList from "./algorithms/array-linked-list/DoublyLinkedList/index.js";
+import CircularLinkedList from "./algorithms/array-linked-list/CircularLinkedList/index.js";
+
 import CacheObliviousAlgorithms from "@MainPages/DSA/content/01-cache-oblivious-algorithms/index.js";
 import TestAndVerifyAlgorithms from "@MainPages/DSA/content/02-test-and-verify-algorithms/index.js";
 import SelfTuningAlgorithms from "@MainPages/DSA/content/03-self-tuning-algorithms/index.js";
@@ -67,6 +75,13 @@ export const DSAComponentMap = {
  "CoinChangeProblem": CoinChangeProblem,
  "RodCuttingProblem": RodCuttingProblem,
  "EditDistance": EditDistance,
+ // Array & Linked List
+ "Arrays": Arrays,
+ "DynamicArray": DynamicArray,
+ "LinkedList": LinkedList,
+ "SinglyLinkedList": SinglyLinkedList,
+ "DoublyLinkedList": DoublyLinkedList,
+ "CircularLinkedList": CircularLinkedList,
  
  "CacheObliviousAlgorithms": CacheObliviousAlgorithms,
  "TestAndVerifyAlgorithms": TestAndVerifyAlgorithms,

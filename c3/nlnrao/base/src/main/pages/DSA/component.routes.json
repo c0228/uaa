@@ -30,8 +30,8 @@
         "dynamic-programming":[{ "label":"Data Structures & Algorithms", "url":"/" },
                     { "label":"Dynamic Programming (DP)", "url": "tech/dsa/overview" }],
 
-        "array-linked-list":[{ "label":"Data Structures & Algorithms", "url":"/" },
-                    { "label":"Array & Linked List", "url": "tech/dsa/overview" }],
+        "arrays-linked-list":[{ "label":"Data Structures & Algorithms", "url":"/" },
+                    { "label":"Arrays & Linked List", "url": "tech/dsa/overview" }],
 
         "stack-queue":[{ "label":"Data Structures & Algorithms", "url":"/" },
                     { "label":"Stack & Queue", "url": "tech/dsa/overview" }],
@@ -308,6 +308,44 @@
             "component": "EditDistance",
             "breadcrumbIndex": "dynamic-programming"
         },
+
+        "tech/dsa/arrays-linked-list/Arrays":{
+            "label": "Arrays : An In-Depth Analysis with Notations & JavaScript Implementation",
+            "date":"October 26, 2024",
+            "component": "Arrays",
+            "breadcrumbIndex": "arrays-linked-list"
+        },
+        "tech/dsa/arrays-linked-list/dynamic-array":{
+            "label": "Dynamic Array: An In-Depth Analysis with Notations & JavaScript Implementation",
+            "date":"October 26, 2024",
+            "component": "DynamicArray",
+            "breadcrumbIndex": "arrays-linked-list"
+        },
+        "tech/dsa/arrays-linked-list/linked-list":{
+            "label": "LinkedList: An In-Depth Analysis with Notations & JavaScript Implementation",
+            "date":"October 26, 2024",
+            "component": "LinkedList",
+            "breadcrumbIndex": "arrays-linked-list"
+        },
+        "tech/dsa/arrays-linked-list/singly-linked-list":{
+            "label": "Singly Linked List: An In-Depth Analysis with Notations & JavaScript Implementation",
+            "date":"October 26, 2024",
+            "component": "SinglyLinkedList",
+            "breadcrumbIndex": "arrays-linked-list"
+        },
+        "tech/dsa/arrays-linked-list/doubly-link-list":{
+            "label": "Doubly Linked List: An In-Depth Analysis with Notations & JavaScript Implementation",
+            "date":"October 26, 2024",
+            "component": "DoublyLinkedList",
+            "breadcrumbIndex": "arrays-linked-list"
+        },
+        "tech/dsa/arrays-linked-list/circular-linked-list":{
+            "label": "Circular Linked List: An In-Depth Analysis with Notations & JavaScript Implementation",
+            "date":"October 26, 2024",
+            "component": "CircularLinkedList",
+            "breadcrumbIndex": "arrays-linked-list"
+        },
+        
 
 
         "tech/dsa/cache-eviction-strategies/least-recently-used":{
