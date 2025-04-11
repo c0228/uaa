@@ -70,6 +70,15 @@ import CuckooHashingAlgorithms from "./algorithms/hashing/CuckooHashingAlgorithm
 import TwoLevelHashing from "./algorithms/hashing/TwoLevelHashing/index.js";
 import StringHashing from "./algorithms/hashing/StringHashing/index.js";
 
+// Greedy Algorithms
+import ActivitySelectionProblem from "./algorithms/greedy-algorithms/ActivitySelectionProblem/index.js";
+import HuffmanEncoding from "./algorithms/greedy-algorithms/HuffmanEncoding/index.js";
+import FractionalKnapsackProblem from "./algorithms/greedy-algorithms/FractionalKnapsackProblem/index.js";
+import JobSequencingProblem from "./algorithms/greedy-algorithms/JobSequencingProblem/index.js";
+import PrimsAndKruskalsAlgorithm from "./algorithms/greedy-algorithms/PrimsAndKruskalsAlgorithm/index.js";
+import EgyptianFractionRepresentation from "./algorithms/greedy-algorithms/EqyptianFractionRepresentation/index.js";
+import IntervalSchedulingMaximization from "./algorithms/greedy-algorithms/IntervalSchedulingMaximization/index.js";
+
 import CacheObliviousAlgorithms from "@MainPages/DSA/content/01-cache-oblivious-algorithms/index.js";
 import TestAndVerifyAlgorithms from "@MainPages/DSA/content/02-test-and-verify-algorithms/index.js";
 import SelfTuningAlgorithms from "@MainPages/DSA/content/03-self-tuning-algorithms/index.js";
@@ -143,6 +152,14 @@ export const DSAComponentMap = {
  "CuckooHashingAlgorithms": CuckooHashingAlgorithms,
  "TwoLevelHashing": TwoLevelHashing,
  "StringHashing": StringHashing,
+ // Greedy Algorithms
+ "ActivitySelectionProblem": ActivitySelectionProblem,
+ "HuffmanEncoding": HuffmanEncoding,
+ "FractionalKnapsackProblem": FractionalKnapsackProblem,
+ "JobSequencingProblem": JobSequencingProblem,
+ "PrimsAndKruskalsAlgorithm": PrimsAndKruskalsAlgorithm, 
+ "EgyptianFractionRepresentation": EgyptianFractionRepresentation, 
+ "IntervalSchedulingMaximization": IntervalSchedulingMaximization,
 
  "CacheObliviousAlgorithms": CacheObliviousAlgorithms,
  "TestAndVerifyAlgorithms": TestAndVerifyAlgorithms,

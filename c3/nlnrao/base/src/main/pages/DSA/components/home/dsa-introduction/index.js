@@ -133,13 +133,13 @@ const DSAIntroduction = () =>{
       <AlgoOverviewList header="Greedy Algorithms"
         desc="Greedy algorithms make locally optimal choices at each step."
         data={[
-          ['Activity Selection Problem', 'Selects maximum number of non-overlapping activities.'],
-          ['Huffman Encoding','Generates an optimal prefix code.'],
-          ['Fractional Knapsack Problem', 'Selects items with maximum value-to-weight ratio.'],
-          ['Job Sequencing Problem','Schedules jobs to maximize profit.'],
-          ['Prim’s and Kruskal’s Algorithm', 'Used for Minimum Spanning Tree (MST).'],
-          ['Egyptian Fraction Representation',' Represent a fraction as a sum of distinct unit fractions (fractions with numerator = 1).'],
-          ['Interval Scheduling Maximization','Given intervals (start, end), find the maximum number of non-overlapping intervals.']
+          ['Activity Selection Problem', 'Selects maximum number of non-overlapping activities.','tech/dsa/greedy-algorithms/activity-selection-problem'],
+          ['Huffman Encoding','Generates an optimal prefix code.','tech/dsa/greedy-algorithms/huffman-encoding'],
+          ['Fractional Knapsack Problem', 'Selects items with maximum value-to-weight ratio.','tech/dsa/greedy-algorithms/fractional-knapsack-problem'],
+          ['Job Sequencing Problem','Schedules jobs to maximize profit.','tech/dsa/greedy-algorithms/job-sequencing-problem'],
+          ['Prim’s and Kruskal’s Algorithm', 'Used for Minimum Spanning Tree (MST).','tech/dsa/greedy-algorithms/prims-and-kruskals-algorithm'],
+          ['Egyptian Fraction Representation',' Represent a fraction as a sum of distinct unit fractions (fractions with numerator = 1).','tech/dsa/greedy-algorithms/egyptian-fraction-representation'],
+          ['Interval Scheduling Maximization','Given intervals (start, end), find the maximum number of non-overlapping intervals.','tech/dsa/greedy-algorithms/interval-scheduling-maximization']
         ]} />
 
       <AlgoOverviewList header="Tree and Binary Search Tree (BST) Algorithms"

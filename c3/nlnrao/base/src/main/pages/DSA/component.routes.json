@@ -505,9 +505,48 @@
             "breadcrumbIndex": "hashing"
         },
 
-        
-        
-
+        "tech/dsa/greedy-algorithms/activity-selection-problem":{
+            "label": "Activity Selection Problem: An In-Depth Analysis with Notations & JavaScript Implementation",
+            "date":"October 26, 2024",
+            "component": "ActivitySelectionProblem",
+            "breadcrumbIndex": "greedy-algorithms"
+        },
+        "tech/dsa/greedy-algorithms/huffman-encoding":{
+            "label": "Huffman Encoding: An In-Depth Analysis with Notations & JavaScript Implementation",
+            "date":"October 26, 2024",
+            "component": "HuffmanEncoding",
+            "breadcrumbIndex": "greedy-algorithms"
+        },
+        "tech/dsa/greedy-algorithms/fractional-knapsack-problem":{
+            "label": "Fractional Knapsack Problem: An In-Depth Analysis with Notations & JavaScript Implementation",
+            "date":"October 26, 2024",
+            "component": "FractionalKnapsackProblem",
+            "breadcrumbIndex": "greedy-algorithms"
+        },
+        "tech/dsa/greedy-algorithms/job-sequencing-problem":{
+            "label": "Job Sequencing Problem: An In-Depth Analysis with Notations & JavaScript Implementation",
+            "date":"October 26, 2024",
+            "component": "JobSequencingProblem",
+            "breadcrumbIndex": "greedy-algorithms"
+        },
+        "tech/dsa/greedy-algorithms/prims-and-kruskals-algorithm":{
+            "label": "Prims and Kruskals Algorithm: An In-Depth Analysis with Notations & JavaScript Implementation",
+            "date":"October 26, 2024",
+            "component": "PrimsAndKruskalsAlgorithm",
+            "breadcrumbIndex": "greedy-algorithms"
+        },
+        "tech/dsa/greedy-algorithms/egyptian-fraction-representation":{
+            "label": "Egyptian Fraction Representation: An In-Depth Analysis with Notations & JavaScript Implementation",
+            "date":"October 26, 2024",
+            "component": "EgyptianFractionRepresentation",
+            "breadcrumbIndex": "greedy-algorithms"
+        },
+        "tech/dsa/greedy-algorithms/interval-scheduling-maximization":{
+            "label": "Interval Scheduling Maximization: An In-Depth Analysis with Notations & JavaScript Implementation",
+            "date":"October 26, 2024",
+            "component": "IntervalSchedulingMaximization",
+            "breadcrumbIndex": "greedy-algorithms"
+        },
 
         "tech/dsa/cache-eviction-strategies/least-recently-used":{
             "label":"Least Recently Used (LRU)",
