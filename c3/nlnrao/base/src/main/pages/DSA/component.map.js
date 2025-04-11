@@ -79,6 +79,14 @@ import PrimsAndKruskalsAlgorithm from "./algorithms/greedy-algorithms/PrimsAndKr
 import EgyptianFractionRepresentation from "./algorithms/greedy-algorithms/EqyptianFractionRepresentation/index.js";
 import IntervalSchedulingMaximization from "./algorithms/greedy-algorithms/IntervalSchedulingMaximization/index.js";
 
+// BackTracking
+import NQueensProblem from "./algorithms/back-tracking/NQueensProblem/index.js";
+import SudokuSolver from "./algorithms/back-tracking/SudokuSolver/index.js";
+import RatInMaze from "./algorithms/back-tracking/RatInMaze/index.js";
+import WordSearch from "./algorithms/back-tracking/WordSearch/index.js";
+import HamiltonianCycle from "./algorithms/back-tracking/HamiltonianCycle/index.js";
+
+
 import CacheObliviousAlgorithms from "@MainPages/DSA/content/01-cache-oblivious-algorithms/index.js";
 import TestAndVerifyAlgorithms from "@MainPages/DSA/content/02-test-and-verify-algorithms/index.js";
 import SelfTuningAlgorithms from "@MainPages/DSA/content/03-self-tuning-algorithms/index.js";
@@ -97,6 +105,7 @@ export const DSAComponentMap = {
  "HeapSort": HeapSort,
  "CountingSort": CountingSort,
  "RadixSort": RadixSort,
+ 
  // Searching Algorithms
  "LinearSearch": LinearSearch,
  "BinarySearch": BinarySearch,
@@ -107,6 +116,7 @@ export const DSAComponentMap = {
  "HashingBasedSearch": HashingBasedSearch,
  "TriePrefixTree": TriePrefixTree,
  "BTrees": BTrees,
+
  // Dynamic Programming
  "FibonacciSeries": FibonacciSeries,
  "KnapsackProblem": KnapsackProblem,
@@ -116,6 +126,7 @@ export const DSAComponentMap = {
  "CoinChangeProblem": CoinChangeProblem,
  "RodCuttingProblem": RodCuttingProblem,
  "EditDistance": EditDistance,
+
  // Array & Linked List
  "Arrays": Arrays,
  "DynamicArray": DynamicArray,
@@ -123,11 +134,13 @@ export const DSAComponentMap = {
  "SinglyLinkedList": SinglyLinkedList,
  "DoublyLinkedList": DoublyLinkedList,
  "CircularLinkedList": CircularLinkedList,
+
  // Stacks & Queues
  "Stack": Stack,
  "Queue": Queue,
  "Deque": Deque,
  "PriorityQueue": PriorityQueue,
+
  // Graph Algorithms
  "BreadthFirstSearch": BreadthFirstSearch,
  "DepthFirstSearch": DepthFirstSearch,
@@ -140,6 +153,7 @@ export const DSAComponentMap = {
  "TopologicalSorting": TopologicalSorting,
  "AAlgorithm": AAlgorithm,
  "DisjointSet": DisjointSet,
+
  // Hashing
  "HashTable": HashTable,
  "HashFunction": HashFunction,
@@ -152,14 +166,22 @@ export const DSAComponentMap = {
  "CuckooHashingAlgorithms": CuckooHashingAlgorithms,
  "TwoLevelHashing": TwoLevelHashing,
  "StringHashing": StringHashing,
+
  // Greedy Algorithms
  "ActivitySelectionProblem": ActivitySelectionProblem,
  "HuffmanEncoding": HuffmanEncoding,
  "FractionalKnapsackProblem": FractionalKnapsackProblem,
  "JobSequencingProblem": JobSequencingProblem,
- "PrimsAndKruskalsAlgorithm": PrimsAndKruskalsAlgorithm, 
- "EgyptianFractionRepresentation": EgyptianFractionRepresentation, 
+ "PrimsAndKruskalsAlgorithm": PrimsAndKruskalsAlgorithm,
+ "EgyptianFractionRepresentation": EgyptianFractionRepresentation,
  "IntervalSchedulingMaximization": IntervalSchedulingMaximization,
+
+ // BackTracking
+ "NQueensProblem": NQueensProblem,
+ "SudokuSolver": SudokuSolver,
+ "RatInMaze": RatInMaze,
+ "WordSearch": WordSearch,
+ "HamiltonianCycle": HamiltonianCycle,
 
  "CacheObliviousAlgorithms": CacheObliviousAlgorithms,
  "TestAndVerifyAlgorithms": TestAndVerifyAlgorithms,

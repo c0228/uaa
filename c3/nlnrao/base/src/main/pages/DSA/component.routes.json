@@ -548,6 +548,37 @@
             "breadcrumbIndex": "greedy-algorithms"
         },
 
+        "tech/dsa/backtracking/n-queens-problem":{
+            "label": "N-Queens Problem: An In-Depth Analysis with Notations & JavaScript Implementation",
+            "date":"October 26, 2024",
+            "component": "NQueensProblem",
+            "breadcrumbIndex": "backtracking"
+        },
+        "tech/dsa/backtracking/suduko-solver":{
+            "label": "Sudoku Solver: An In-Depth Analysis with Notations & JavaScript Implementation",
+            "date":"October 26, 2024",
+            "component": "SudokuSolver",
+            "breadcrumbIndex": "backtracking"
+        },
+        "tech/dsa/backtracking/rats-in-a-maze":{
+            "label": "Rat in a Maze: An In-Depth Analysis with Notations & JavaScript Implementation",
+            "date":"October 26, 2024",
+            "component": "RatInMaze",
+            "breadcrumbIndex": "backtracking"
+        },
+        "tech/dsa/backtracking/word-search":{
+            "label": "Word Search: An In-Depth Analysis with Notations & JavaScript Implementation",
+            "date":"October 26, 2024",
+            "component": "WordSearch",
+            "breadcrumbIndex": "backtracking"
+        },
+        "tech/dsa/backtracking/hamiltonian-cycle":{
+            "label": "Hamiltonian Cycle: An In-Depth Analysis with Notations & JavaScript Implementation",
+            "date":"October 26, 2024",
+            "component": "HamiltonianCycle",
+            "breadcrumbIndex": "backtracking"
+        },
+
         "tech/dsa/cache-eviction-strategies/least-recently-used":{
             "label":"Least Recently Used (LRU)",
             "date":"October 26, 2024",

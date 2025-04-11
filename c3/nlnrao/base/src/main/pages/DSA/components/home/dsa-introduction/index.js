@@ -58,11 +58,11 @@ const DSAIntroduction = () =>{
       <AlgoOverviewList header="Backtracking"
         desc="Backtracking is used to generate all possible solutions and discard invalid ones."
         data={[
-          ['N-Queens Problem', 'Places N queens on an NxN chessboard.'],
-          ['Sudoku Solver','Solves Sudoku puzzles by trying all possibilities.'],
-          ['Rat in a Maze', 'Finds a path in a maze.'],
-          ['Word Search','Searches for a word in a 2D grid.'],
-          ['Hamiltonian Cycle', 'Finds a cycle visiting all vertices exactly once.']
+          ['N-Queens Problem', 'Places N queens on an NxN chessboard.','tech/dsa/backtracking/n-queens-problem'],
+          ['Sudoku Solver','Solves Sudoku puzzles by trying all possibilities.','tech/dsa/backtracking/suduko-solver'],
+          ['Rat in a Maze', 'Finds a path in a maze.','tech/dsa/backtracking/rats-in-a-maze'],
+          ['Word Search','Searches for a word in a 2D grid.','tech/dsa/backtracking/word-search'],
+          ['Hamiltonian Cycle', 'Finds a cycle visiting all vertices exactly once.','tech/dsa/backtracking/hamiltonian-cycle']
         ]} />
       <AlgoOverviewList header="Probabilistics Data Structures Algorithms"
         desc="Probabilistic data structures are data structures that use probabilistic techniques to provide approximate solutions with reduced memory and computational requirements."
