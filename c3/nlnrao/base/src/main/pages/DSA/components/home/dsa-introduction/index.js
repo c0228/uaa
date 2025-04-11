@@ -145,14 +145,14 @@ const DSAIntroduction = () =>{
       <AlgoOverviewList header="Tree and Binary Search Tree (BST) Algorithms"
         desc="Tree algorithms work with hierarchical structures."
         data={[
-          ['Inorder, Preorder, Postorder Traversal', 'Ways to traverse a tree.'],
-          ['Level Order Traversal (BFS on Trees)','Traverses a tree level by level.'],
-          ['Lowest Common Ancestor (LCA)', 'Finds the common ancestor of two nodes.'],
-          ['Diameter of a Tree','Finds the longest path between any two nodes.'],
-          ['Balanced Binary Tree Check', 'Determines if a tree is balanced.'],
-          ['Binary Search Tree (BST) Operations','Insertion, Deletion, and Search.'],
-          ['Trie Data Structure', 'Used for prefix-based searching.'],
-          ['Segment Tree & Fenwick Tree', 'Data structures for range queries.']
+          ['Inorder, Preorder, Postorder Traversal', 'Ways to traverse a tree.','tech/dsa/tree-bst-algorithms/inorder-preorder-postorder-traversal'],
+          ['Level Order Traversal (BFS on Trees)','Traverses a tree level by level.','tech/dsa/tree-bst-algorithms/level-order-traversal'],
+          ['Lowest Common Ancestor (LCA)', 'Finds the common ancestor of two nodes.','tech/dsa/tree-bst-algorithms/lowest-common-ancestor'],
+          ['Diameter of a Tree','Finds the longest path between any two nodes.','tech/dsa/tree-bst-algorithms/diameter-of-a-tree'],
+          ['Balanced Binary Tree Check', 'Determines if a tree is balanced.','tech/dsa/tree-bst-algorithms/balanced-binary-tree-check'],
+          ['Binary Search Tree (BST) Operations','Insertion, Deletion, and Search.','tech/dsa/tree-bst-algorithms/binary-search-tree-bst-operations'],
+          ['Trie Data Structure', 'Used for prefix-based searching.','tech/dsa/tree-bst-algorithms/trie-data-structure'],
+          ['Segment Tree & Fenwick Tree', 'Data structures for range queries.','tech/dsa/tree-bst-algorithms/segment-and-fenwick-tree']
         ]} />
 
       <AlgoOverviewList header="Bit Manipulation"

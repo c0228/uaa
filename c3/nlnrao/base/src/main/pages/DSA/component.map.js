@@ -86,6 +86,15 @@ import RatInMaze from "./algorithms/back-tracking/RatInMaze/index.js";
 import WordSearch from "./algorithms/back-tracking/WordSearch/index.js";
 import HamiltonianCycle from "./algorithms/back-tracking/HamiltonianCycle/index.js";
 
+// BST Algorithms
+import InPrePostOrderTraversal from "./algorithms/bst-algorithms/InPrePostOrderTraversal/index.js";
+import LevelOrderTraversal from "./algorithms/bst-algorithms/LevelOrderTraversal/index.js";
+import LowestCommonAncestor from "./algorithms/bst-algorithms/LowestCommonAncestor/index.js";
+import DiameterOfTree from "./algorithms/bst-algorithms/DiameterOfTree/index.js";
+import BalancedBinaryTreeCheck from "./algorithms/bst-algorithms/BalancedBinaryTreeCheck/index.js";
+import BSTOperations from "./algorithms/bst-algorithms/BSTOperations/index.js";
+import TrieDataStructure from "./algorithms/bst-algorithms/TrieDataStructure/index.js";
+import SegmentAndFenwickTree from "./algorithms/bst-algorithms/SegmentAndFenwickTree/index.js";
 
 import CacheObliviousAlgorithms from "@MainPages/DSA/content/01-cache-oblivious-algorithms/index.js";
 import TestAndVerifyAlgorithms from "@MainPages/DSA/content/02-test-and-verify-algorithms/index.js";
@@ -182,6 +191,16 @@ export const DSAComponentMap = {
  "RatInMaze": RatInMaze,
  "WordSearch": WordSearch,
  "HamiltonianCycle": HamiltonianCycle,
+
+ // BST Operations
+ "InPrePostOrderTraversal": InPrePostOrderTraversal,
+ "LevelOrderTraversal": LevelOrderTraversal,
+ "LowestCommonAncestor": LowestCommonAncestor,
+ "DiameterOfTree": DiameterOfTree,
+ "BalancedBinaryTreeCheck": BalancedBinaryTreeCheck,
+ "BSTOperations": BSTOperations,
+ "TrieDataStructure": TrieDataStructure,
+ "SegmentAndFenwickTree": SegmentAndFenwickTree,
 
  "CacheObliviousAlgorithms": CacheObliviousAlgorithms,
  "TestAndVerifyAlgorithms": TestAndVerifyAlgorithms,
