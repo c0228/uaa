@@ -438,6 +438,74 @@
             "breadcrumbIndex": "graph-algorithms"
         },
         
+        "tech/dsa/hashing/hash-table":{
+            "label": "Hash Table: An In-Depth Analysis with Notations & JavaScript Implementation",
+            "date":"October 26, 2024",
+            "component": "HashTable",
+            "breadcrumbIndex": "hashing"
+        },
+        "tech/dsa/hashing/hash-function":{
+            "label": "Hash Function: An In-Depth Analysis with Notations & JavaScript Implementation",
+            "date":"October 26, 2024",
+            "component": "HashFunction",
+            "breadcrumbIndex": "hashing"
+        },
+        "tech/dsa/hashing/hash-collision":{
+            "label": "Hash Collision: An In-Depth Analysis with Notations & JavaScript Implementation",
+            "date":"October 26, 2024",
+            "component": "HashCollision",
+            "breadcrumbIndex": "hashing"
+        },
+        "tech/dsa/hashing/hash-maps":{
+            "label": "Hash Maps: An In-Depth Analysis with Notations & JavaScript Implementation",
+            "date":"October 26, 2024",
+            "component": "HashMaps",
+            "breadcrumbIndex": "hashing"
+        },
+        "tech/dsa/hashing/hash-set":{
+            "label": "Hash Set: An In-Depth Analysis with Notations & JavaScript Implementation",
+            "date":"October 26, 2024",
+            "component": "HashSet",
+            "breadcrumbIndex": "hashing"
+        },
+        "tech/dsa/hashing/perfect-hashing-algorithms":{
+            "label": "Perfect Hashing Algorithms: An In-Depth Analysis with Notations & JavaScript Implementation",
+            "date":"October 26, 2024",
+            "component": "PerfectHashingAlgorithms",
+            "breadcrumbIndex": "hashing"
+        },
+        "tech/dsa/hashing/robinhood-hashing-algorithms":{
+            "label": "Robinhood Hashing Algorithms: An In-Depth Analysis with Notations & JavaScript Implementation",
+            "date":"October 26, 2024",
+            "component": "RobinhoodHashingAlgorithms",
+            "breadcrumbIndex": "hashing"
+        },
+        "tech/dsa/hashing/hopscotch-hashing-algorithms":{
+            "label": "Hopscotch Hashing Algorithms: An In-Depth Analysis with Notations & JavaScript Implementation",
+            "date":"October 26, 2024",
+            "component": "HopscotchHashingAlgorithms",
+            "breadcrumbIndex": "hashing"
+        },
+        "tech/dsa/hashing/cuckoo-hashing-algorithms":{
+            "label": "Cuckoo Hashing Algorithms: An In-Depth Analysis with Notations & JavaScript Implementation",
+            "date":"October 26, 2024",
+            "component": "CuckooHashingAlgorithms",
+            "breadcrumbIndex": "hashing"
+        },
+        "tech/dsa/hashing/two-level-hashing":{
+            "label": "Two-Level Hashing: An In-Depth Analysis with Notations & JavaScript Implementation",
+            "date":"October 26, 2024",
+            "component": "TwoLevelHashing",
+            "breadcrumbIndex": "hashing"
+        },
+        "tech/dsa/hashing/string-hashing":{
+            "label": "String Hashing: An In-Depth Analysis with Notations & JavaScript Implementation",
+            "date":"October 26, 2024",
+            "component": "StringHashing",
+            "breadcrumbIndex": "hashing"
+        },
+
+        
         
 
 

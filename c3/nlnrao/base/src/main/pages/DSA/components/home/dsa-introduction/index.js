@@ -41,17 +41,17 @@ const DSAIntroduction = () =>{
 
       <AlgoOverviewList header="Hashing"
         data={[
-          ['Hash Table', 'A data structure that stores key-value pairs using a hash function for efficient lookup, insertion, and deletion.'],
-          ['Hash Function', 'A mathematical function that converts input data (keys) into a fixed-size numerical value (hash code) for indexing in a hash table.'],
-          ['Hash Collision', 'Occurs when two different keys produce the same hash value. Collision resolution techniques like chaining and open addressing handle this issue.'],
-          ['HashMaps', 'A key-value pair-based data structure that allows fast lookups and updates.'],
-          ['HashSet', 'A collection that stores unique elements using hashing for quick access.'],
-          ['Perfect Hashing Algorithms', 'A technique that creates a collision-free hash function, ensuring O(1) lookup time by using two-level or minimal perfect hashing methods.'],
-          ['Robin Hood Hashing Algorithms', 'A collision resolution strategy where elements with longer probe sequences "steal" slots from elements with shorter sequences to balance distribution.'],
-          ['Hopscotch Hashing Algorithms', 'A method improving open addressing by allowing displaced elements to "hop" to nearby empty slots, reducing clustering.'],
-          ['Cuckoo Hashing Algorithms', 'Uses two or more hash functions and moves elements to alternative positions (like a cuckoo bird replacing eggs) to resolve collisions.'],
-          ['Two-level Hashing (Dynamic Perfect Hashing) Algorithms', 'A technique using multiple hash tables where the first level maps keys to buckets, and the second level ensures no collisions inside each bucket.'],
-          ['String Hashing', 'Polynomial Hashing, Rolling Hashing, Karp-Rabin Algorithms']
+          ['Hash Table', 'A data structure that stores key-value pairs using a hash function for efficient lookup, insertion, and deletion.','tech/dsa/hashing/hash-table'],
+          ['Hash Function', 'A mathematical function that converts input data (keys) into a fixed-size numerical value (hash code) for indexing in a hash table.','tech/dsa/hashing/hash-function'],
+          ['Hash Collision', 'Occurs when two different keys produce the same hash value. Collision resolution techniques like chaining and open addressing handle this issue.','tech/dsa/hashing/hash-collision'],
+          ['HashMaps', 'A key-value pair-based data structure that allows fast lookups and updates.','tech/dsa/hashing/hash-maps'],
+          ['HashSet', 'A collection that stores unique elements using hashing for quick access.','tech/dsa/hashing/hash-set'],
+          ['Perfect Hashing Algorithms', 'A technique that creates a collision-free hash function, ensuring O(1) lookup time by using two-level or minimal perfect hashing methods.','tech/dsa/hashing/perfect-hashing-algorithms'],
+          ['Robin Hood Hashing Algorithms', 'A collision resolution strategy where elements with longer probe sequences "steal" slots from elements with shorter sequences to balance distribution.','tech/dsa/hashing/robinhood-hashing-algorithms'],
+          ['Hopscotch Hashing Algorithms', 'A method improving open addressing by allowing displaced elements to "hop" to nearby empty slots, reducing clustering.','tech/dsa/hashing/hopscotch-hashing-algorithms'],
+          ['Cuckoo Hashing Algorithms', 'Uses two or more hash functions and moves elements to alternative positions (like a cuckoo bird replacing eggs) to resolve collisions.','tech/dsa/hashing/cuckoo-hashing-algorithms'],
+          ['Two-level Hashing (Dynamic Perfect Hashing) Algorithms', 'A technique using multiple hash tables where the first level maps keys to buckets, and the second level ensures no collisions inside each bucket.','tech/dsa/hashing/two-level-hashing'],
+          ['String Hashing', 'Polynomial Hashing, Rolling Hashing, Karp-Rabin Algorithms','tech/dsa/hashing/string-hashing']
         ]} />
 
 

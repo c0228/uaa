@@ -57,7 +57,18 @@ import TopologicalSorting from "./algorithms/graph-algorithms/TopologicalSorting
 import AAlgorithm from "./algorithms/graph-algorithms/AAlgorithm/index.js";
 import DisjointSet from "./algorithms/graph-algorithms/DisjointSet/index.js";
 
-
+// Hashing
+import HashTable from "./algorithms/hashing/HashTable/index.js";
+import HashFunction from "./algorithms/hashing/HashFunction/index.js";
+import HashCollision from "./algorithms/hashing/HashCollision/index.js";
+import HashMaps from "./algorithms/hashing/HashMaps/index.js";
+import HashSet from "./algorithms/hashing/HashSet/index.js";
+import PerfectHashingAlgorithms from "./algorithms/hashing/PerfectHashingAlgorithms/index.js";
+import RobinhoodHashingAlgorithms from "./algorithms/hashing/RobinhoodHashingAlgorithms/index.js";
+import HopscotchHashingAlgorithms from "./algorithms/hashing/HopscotchHashingAlgorithms/index.js";
+import CuckooHashingAlgorithms from "./algorithms/hashing/CuckooHashingAlgorithms/index.js";
+import TwoLevelHashing from "./algorithms/hashing/TwoLevelHashing/index.js";
+import StringHashing from "./algorithms/hashing/StringHashing/index.js";
 
 import CacheObliviousAlgorithms from "@MainPages/DSA/content/01-cache-oblivious-algorithms/index.js";
 import TestAndVerifyAlgorithms from "@MainPages/DSA/content/02-test-and-verify-algorithms/index.js";
@@ -120,7 +131,18 @@ export const DSAComponentMap = {
  "TopologicalSorting": TopologicalSorting,
  "AAlgorithm": AAlgorithm,
  "DisjointSet": DisjointSet,
-
+ // Hashing
+ "HashTable": HashTable,
+ "HashFunction": HashFunction,
+ "HashCollision": HashCollision,
+ "HashMaps": HashMaps,
+ "HashSet": HashSet,
+ "PerfectHashingAlgorithms": PerfectHashingAlgorithms,
+ "RobinhoodHashingAlgorithms": RobinhoodHashingAlgorithms,
+ "HopscotchHashingAlgorithms": HopscotchHashingAlgorithms,
+ "CuckooHashingAlgorithms": CuckooHashingAlgorithms,
+ "TwoLevelHashing": TwoLevelHashing,
+ "StringHashing": StringHashing,
 
  "CacheObliviousAlgorithms": CacheObliviousAlgorithms,
  "TestAndVerifyAlgorithms": TestAndVerifyAlgorithms,
