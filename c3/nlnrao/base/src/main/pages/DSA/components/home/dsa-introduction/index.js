@@ -33,10 +33,10 @@ const DSAIntroduction = () =>{
 
       <AlgoOverviewList header="Stack & Queue"
         data={[
-          ['Stack', 'A LIFO (Last In, First Out) data structure (Example: Undo operation).'],
-          ['Queue', 'A FIFO (First In, First Out) data structure (Example: Print queue).'],
-          ['Deque (Double-Ended Queue)', 'Supports insertion and deletion at both ends.'],
-          ['Priority Queue', 'A queue where elements are removed based on priority (implemented using Heap)']
+          ['Stack', 'A LIFO (Last In, First Out) data structure (Example: Undo operation).','tech/dsa/stacks-and-queues/stack'],
+          ['Queue', 'A FIFO (First In, First Out) data structure (Example: Print queue).','tech/dsa/stacks-and-queues/queue'],
+          ['Deque (Double-Ended Queue)', 'Supports insertion and deletion at both ends.','tech/dsa/stacks-and-queues/deque'],
+          ['Priority Queue', 'A queue where elements are removed based on priority (implemented using Heap)','tech/dsa/stacks-and-queues/priority-queue']
         ]} />
 
       <AlgoOverviewList header="Hashing"

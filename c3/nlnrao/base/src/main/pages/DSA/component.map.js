@@ -38,6 +38,12 @@ import SinglyLinkedList from "./algorithms/array-linked-list/SinglyLinkedList/in
 import DoublyLinkedList from "./algorithms/array-linked-list/DoublyLinkedList/index.js";
 import CircularLinkedList from "./algorithms/array-linked-list/CircularLinkedList/index.js";
 
+// Stacks and Queues
+import Deque from "./algorithms/stacks-and-queues/Deque/index.js";
+import PriorityQueue from "./algorithms/stacks-and-queues/PriorityQueue/index.js";
+import Queue from "./algorithms/stacks-and-queues/Queue/index.js";
+import Stack from "./algorithms/stacks-and-queues/Stack/index.js";
+
 import CacheObliviousAlgorithms from "@MainPages/DSA/content/01-cache-oblivious-algorithms/index.js";
 import TestAndVerifyAlgorithms from "@MainPages/DSA/content/02-test-and-verify-algorithms/index.js";
 import SelfTuningAlgorithms from "@MainPages/DSA/content/03-self-tuning-algorithms/index.js";
@@ -82,7 +88,14 @@ export const DSAComponentMap = {
  "SinglyLinkedList": SinglyLinkedList,
  "DoublyLinkedList": DoublyLinkedList,
  "CircularLinkedList": CircularLinkedList,
+ // Stacks & Queues
+ "Stack": Stack,
+ "Queue": Queue,
+ "Deque": Deque,
+ "PriorityQueue": PriorityQueue,
  
+
+
  "CacheObliviousAlgorithms": CacheObliviousAlgorithms,
  "TestAndVerifyAlgorithms": TestAndVerifyAlgorithms,
  "SelfTuningAlgorithms": SelfTuningAlgorithms,

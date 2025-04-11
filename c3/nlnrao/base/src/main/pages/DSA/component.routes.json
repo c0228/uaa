@@ -33,8 +33,8 @@
         "arrays-linked-list":[{ "label":"Data Structures & Algorithms", "url":"/" },
                     { "label":"Arrays & Linked List", "url": "tech/dsa/overview" }],
 
-        "stack-queue":[{ "label":"Data Structures & Algorithms", "url":"/" },
-                    { "label":"Stack & Queue", "url": "tech/dsa/overview" }],
+        "stacks-and-queues":[{ "label":"Data Structures & Algorithms", "url":"/" },
+                    { "label":"Stacks & Queues", "url": "tech/dsa/overview" }],
         
         "graph-algorithms":[{ "label":"Data Structures & Algorithms", "url":"/" },
                     { "label":"Graph Algorithms", "url": "tech/dsa/overview" }],
@@ -345,6 +345,32 @@
             "component": "CircularLinkedList",
             "breadcrumbIndex": "arrays-linked-list"
         },
+
+        "tech/dsa/stacks-and-queues/stack":{
+            "label": "Stack: An In-Depth Analysis with Notations & JavaScript Implementation",
+            "date":"October 26, 2024",
+            "component": "Stack",
+            "breadcrumbIndex": "stacks-and-queues"
+        },
+        "tech/dsa/stacks-and-queues/queue":{
+            "label": "Queue: An In-Depth Analysis with Notations & JavaScript Implementation",
+            "date":"October 26, 2024",
+            "component": "Queue",
+            "breadcrumbIndex": "stacks-and-queues"
+        },
+        "tech/dsa/stacks-and-queues/deque":{
+            "label": "Deque: An In-Depth Analysis with Notations & JavaScript Implementation",
+            "date":"October 26, 2024",
+            "component": "Deque",
+            "breadcrumbIndex": "stacks-and-queues"
+        },
+        "tech/dsa/stacks-and-queues/priority-queue":{
+            "label": "Priority Queue: An In-Depth Analysis with Notations & JavaScript Implementation",
+            "date":"October 26, 2024",
+            "component": "PriorityQueue",
+            "breadcrumbIndex": "stacks-and-queues"
+        },
+
         
 
 
