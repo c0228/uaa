@@ -137,7 +137,6 @@ const DSAIntroduction = () =>{
           ['Huffman Encoding','Generates an optimal prefix code.'],
           ['Fractional Knapsack Problem', 'Selects items with maximum value-to-weight ratio.'],
           ['Job Sequencing Problem','Schedules jobs to maximize profit.'],
-          ['Coin Change Problem','Minimum Coins to Make Value'],
           ['Prim’s and Kruskal’s Algorithm', 'Used for Minimum Spanning Tree (MST).'],
           ['Egyptian Fraction Representation',' Represent a fraction as a sum of distinct unit fractions (fractions with numerator = 1).'],
           ['Interval Scheduling Maximization','Given intervals (start, end), find the maximum number of non-overlapping intervals.']
