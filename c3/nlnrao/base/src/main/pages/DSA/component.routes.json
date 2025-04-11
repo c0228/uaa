@@ -371,6 +371,73 @@
             "breadcrumbIndex": "stacks-and-queues"
         },
 
+        "tech/dsa/graph-algorithms/breadth-first-search-bfs":{
+            "label": "Breadth-First Search (BFS): An In-Depth Analysis with Notations & JavaScript Implementation",
+            "date":"October 26, 2024",
+            "component": "BreadthFirstSearch",
+            "breadcrumbIndex": "graph-algorithms"
+        },
+        "tech/dsa/graph-algorithms/depth-first-search-dfs":{
+            "label": "DepthFirstSearch (DFS): An In-Depth Analysis with Notations & JavaScript Implementation",
+            "date":"October 26, 2024",
+            "component": "DepthFirstSearch",
+            "breadcrumbIndex": "graph-algorithms"
+        },
+        "tech/dsa/graph-algorithms/dijkstras-algorithm":{
+            "label": "Dijkstras Algorithm: An In-Depth Analysis with Notations & JavaScript Implementation",
+            "date":"October 26, 2024",
+            "component": "DijkstrasAlgorithm",
+            "breadcrumbIndex": "graph-algorithms"
+        },
+        "tech/dsa/graph-algorithms/page-rank-algorithm":{
+            "label": "Page Rank Algorithm: An In-Depth Analysis with Notations & JavaScript Implementation",
+            "date":"October 26, 2024",
+            "component": "PageRankAlgorithm",
+            "breadcrumbIndex": "graph-algorithms"
+        },
+        "tech/dsa/graph-algorithms/floydWarshall-algorithm":{
+            "label": "FloydWarshall Algorithm: An In-Depth Analysis with Notations & JavaScript Implementation",
+            "date":"October 26, 2024",
+            "component": "FloydWarshallAlgorithm",
+            "breadcrumbIndex": "graph-algorithms"
+        },
+        "tech/dsa/graph-algorithms/bellman-ford-algorithm":{
+            "label": "Bellman-Ford Algorithm: An In-Depth Analysis with Notations & JavaScript Implementation",
+            "date":"October 26, 2024",
+            "component": "BellmanFordAlgorithm",
+            "breadcrumbIndex": "graph-algorithms"
+        },
+        "tech/dsa/graph-algorithms/prims-algorithm":{
+            "label": "Prims Algorithm: An In-Depth Analysis with Notations & JavaScript Implementation",
+            "date":"October 26, 2024",
+            "component": "PrimsAlgorithm",
+            "breadcrumbIndex": "graph-algorithms"
+        },
+        "tech/dsa/graph-algorithms/kruskals-algorithm":{
+            "label": "Kruskals Algorithm: An In-Depth Analysis with Notations & JavaScript Implementation",
+            "date":"October 26, 2024",
+            "component": "KruskalsAlgorithm",
+            "breadcrumbIndex": "graph-algorithms"
+        },
+        "tech/dsa/graph-algorithms/topological-sorting":{
+            "label": "Topological Sorting: An In-Depth Analysis with Notations & JavaScript Implementation",
+            "date":"October 26, 2024",
+            "component": "TopologicalSorting",
+            "breadcrumbIndex": "graph-algorithms"
+        },
+        "tech/dsa/graph-algorithms/a-algorithm":{
+            "label": "A Algorithm*: An In-Depth Analysis with Notations & JavaScript Implementation",
+            "date":"October 26, 2024",
+            "component": "AAlgorithm",
+            "breadcrumbIndex": "graph-algorithms"
+        },
+        "tech/dsa/graph-algorithms/disjoint-set":{
+            "label": "Disjoint Set: An In-Depth Analysis with Notations & JavaScript Implementation",
+            "date":"October 26, 2024",
+            "component": "DisjointSet",
+            "breadcrumbIndex": "graph-algorithms"
+        },
+        
         
 
 

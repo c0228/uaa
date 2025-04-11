@@ -39,10 +39,25 @@ import DoublyLinkedList from "./algorithms/array-linked-list/DoublyLinkedList/in
 import CircularLinkedList from "./algorithms/array-linked-list/CircularLinkedList/index.js";
 
 // Stacks and Queues
+import Stack from "./algorithms/stacks-and-queues/Stack/index.js";
+import Queue from "./algorithms/stacks-and-queues/Queue/index.js";
 import Deque from "./algorithms/stacks-and-queues/Deque/index.js";
 import PriorityQueue from "./algorithms/stacks-and-queues/PriorityQueue/index.js";
-import Queue from "./algorithms/stacks-and-queues/Queue/index.js";
-import Stack from "./algorithms/stacks-and-queues/Stack/index.js";
+
+// Graph Algorithms
+import BreadthFirstSearch from "./algorithms/graph-algorithms/BreadthFirstSearch/index.js";
+import DepthFirstSearch from "./algorithms/graph-algorithms/DepthFirstSearch/index.js";
+import DijkstrasAlgorithm from "./algorithms/graph-algorithms/DijkstrasAlgorithm/index.js";
+import PageRankAlgorithm from "./algorithms/graph-algorithms/PageRankAlgorithm/index.js";
+import FloydWarshallAlgorithm from "./algorithms/graph-algorithms/FloydWarshallAlgorithm/index.js";
+import BellmanFordAlgorithm from "./algorithms/graph-algorithms/BellmanFordAlgorithm/index.js";
+import PrimsAlgorithm from "./algorithms/graph-algorithms/PrimsAlgorithm/index.js";
+import KruskalsAlgorithm from "./algorithms/graph-algorithms/KruskalsAlgorithm/index.js";
+import TopologicalSorting from "./algorithms/graph-algorithms/TopologicalSorting/index.js";
+import AAlgorithm from "./algorithms/graph-algorithms/AAlgorithm/index.js";
+import DisjointSet from "./algorithms/graph-algorithms/DisjointSet/index.js";
+
+
 
 import CacheObliviousAlgorithms from "@MainPages/DSA/content/01-cache-oblivious-algorithms/index.js";
 import TestAndVerifyAlgorithms from "@MainPages/DSA/content/02-test-and-verify-algorithms/index.js";
@@ -93,7 +108,18 @@ export const DSAComponentMap = {
  "Queue": Queue,
  "Deque": Deque,
  "PriorityQueue": PriorityQueue,
- 
+ // Graph Algorithms
+ "BreadthFirstSearch": BreadthFirstSearch,
+ "DepthFirstSearch": DepthFirstSearch,
+ "DijkstrasAlgorithm": DijkstrasAlgorithm,
+ "PageRankAlgorithm": PageRankAlgorithm,
+ "FloydWarshallAlgorithm": FloydWarshallAlgorithm,
+ "BellmanFordAlgorithm": BellmanFordAlgorithm,
+ "PrimsAlgorithm": PrimsAlgorithm,
+ "KruskalsAlgorithm": KruskalsAlgorithm,
+ "TopologicalSorting": TopologicalSorting,
+ "AAlgorithm": AAlgorithm,
+ "DisjointSet": DisjointSet,
 
 
  "CacheObliviousAlgorithms": CacheObliviousAlgorithms,

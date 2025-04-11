@@ -118,17 +118,17 @@ const DSAIntroduction = () =>{
       <AlgoOverviewList header="Graph Algorithms"
         desc="Graph algorithms work on graph-based structures such as trees, social networks, and maps."
         data={[
-          ['Breadth-First Search (BFS)', 'Explores the nearest neighbors first.'],
-          ['Depth-First Search (DFS)','Explores as deep as possible before backtracking.'],
-          ['Dijkstra’s Algorithm', 'Finds the shortest path in a weighted graph.'],
-          ['PageRank Algorithm', 'Detects phishing and malicious websites.'],
-          ['Floyd-Warshall Algorithm','Finds shortest paths between all pairs of nodes.'],
-          ['Bellman-Ford Algorithm', 'Finds the shortest path in graphs with negative weights.'],
-          ['Prim’s Algorithm','Finds a Minimum Spanning Tree (MST) using edge selection.'],
-          ['Kruskal’s Algorithm', 'Finds MST using sorted edges.'],
-          ['Topological Sorting','Orders nodes in a Directed Acyclic Graph (DAG).'],
-          ['A Algorithm*', 'Finds the shortest path using heuristics.'],
-          ['Disjoint Set (Union-Find)', ' Used for cycle detection in graphs.']
+          ['Breadth-First Search (BFS)', 'Explores the nearest neighbors first.','tech/dsa/graph-algorithms/breadth-first-search-bfs'],
+          ['Depth-First Search (DFS)','Explores as deep as possible before backtracking.','tech/dsa/graph-algorithms/depth-first-search-dfs'],
+          ['Dijkstra’s Algorithm', 'Finds the shortest path in a weighted graph.','tech/dsa/graph-algorithms/dijkstras-algorithm'],
+          ['PageRank Algorithm', 'Detects phishing and malicious websites.','tech/dsa/graph-algorithms/page-rank-algorithm'],
+          ['Floyd-Warshall Algorithm','Finds shortest paths between all pairs of nodes.','tech/dsa/graph-algorithms/floydWarshall-algorithm'],
+          ['Bellman-Ford Algorithm', 'Finds the shortest path in graphs with negative weights.','tech/dsa/graph-algorithms/bellman-ford-algorithm'],
+          ['Prim’s Algorithm','Finds a Minimum Spanning Tree (MST) using edge selection.','tech/dsa/graph-algorithms/prims-algorithm'],
+          ['Kruskal’s Algorithm', 'Finds MST using sorted edges.','tech/dsa/graph-algorithms/kruskals-algorithm'],
+          ['Topological Sorting','Orders nodes in a Directed Acyclic Graph (DAG).','tech/dsa/graph-algorithms/topological-sorting'],
+          ['A Algorithm*', 'Finds the shortest path using heuristics.','tech/dsa/graph-algorithms/a-algorithm'],
+          ['Disjoint Set (Union-Find)', ' Used for cycle detection in graphs.','tech/dsa/graph-algorithms/disjoint-set']
         ]} />
       <AlgoOverviewList header="Greedy Algorithms"
         desc="Greedy algorithms make locally optimal choices at each step."
