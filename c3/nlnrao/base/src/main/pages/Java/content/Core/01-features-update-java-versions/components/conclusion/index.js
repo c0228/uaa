@@ -10,10 +10,10 @@ const Conclusion = () =>{
    <div className="mtop15p"><h4><b>Key Takeaways:</b></h4></div>
    <div className="mtop15p">
       <ul>
-         <li>Early Java (1.0 - 1.4): Focused on core language features, AWT, Swing, and JVM enhancements.</li>
-         <li>Java 5 - 8: Introduced major programming advancements like Generics, Lambdas, Streams, and the functional paradigm.</li>
-         <li>Java 9 - 17: Shifted to a six-month release cycle, bringing modularization, pattern matching, and record classes.</li>
-         <li>Java 18 - Present: Continued innovation with AI-driven optimizations, incubator/preview features, and improved security.</li>
+         <li><b>Early Java (1.0 - 1.4):</b> Focused on core language features, AWT, Swing, and JVM enhancements.</li>
+         <li><b>Java 5 - 8:</b> Introduced major programming advancements like Generics, Lambdas, Streams, and the functional paradigm.</li>
+         <li><b>Java 9 - 17:</b> Shifted to a six-month release cycle, bringing modularization, pattern matching, and record classes.</li>
+         <li><b>Java 18 -</b> Present: Continued innovation with AI-driven optimizations, incubator/preview features, and improved security.</li>
       </ul>
    </div>
    <div className="mtop15p mbot15p">Java remains one of the most widely used and actively developed programming languages. With each release, 
