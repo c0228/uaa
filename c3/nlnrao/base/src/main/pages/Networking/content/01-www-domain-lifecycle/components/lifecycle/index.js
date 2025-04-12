@@ -2,13 +2,14 @@ import React from "react";
 import { Card } from "e-ui-react";
 
 const Lifecycle = () =>{
+ const Title = ({ name }) =><div style={{ backgroundColor:'#ddd', padding:'8px', borderTopRightRadius:'15px', borderBottomRightRadius:'15px'  }}><b>{name}</b></div>
  return (<div className="mtop15p mbot15p fs16p lh28p">
     <div align="center" className="mtop15p"><h2 className="blog-head"><b>The Lifecycle of a Domain: From Creation to Deletion</b></h2></div>
     <div className="mtop15p">Let’s walk through the full domain lifecycle of <code><b>www.example.com</b></code> -</div>
     <div>
         <ol>
             <li className="mtop15p">
-                <div><b>Creation: Registering a Domain</b></div>
+                <Title name="Creation: Registering a Domain" />
                 <div className="mtop5p">The journey begins when someone decides to <b>purchase a domain</b>. Here’s how it works:</div>
                 <div>
                     <ul>
@@ -27,7 +28,7 @@ const Lifecycle = () =>{
                 the <b>WHOIS database</b> maintained by <b>ICANN</b> (Internet Corporation for Assigned Names and Numbers).</div>
             </li>
             <li className="mtop15p">
-                <div><b>DNS Configuration: Making It Work</b></div>
+                <Title name="DNS Configuration: Making It Work" />
                 <div className="mtop5p">Once registered, you set up <b>DNS records</b> to connect your domain to a web server:</div>
                 <div>
                     <ul>
@@ -40,7 +41,7 @@ const Lifecycle = () =>{
                 <div className="mtop15p">Now <code><b>www.example.com</b></code> can host a website, send emails, and serve online content.</div>
             </li>
             <li className="mtop15p">
-                <div><b>Management: Keeping the Domain Alive</b></div>
+                <Title name="Management: Keeping the Domain Alive" />
                 <div className="mtop5p">Managing a domain involves:</div>
                 <div>
                     <ul>
@@ -58,9 +59,9 @@ const Lifecycle = () =>{
                 </div>
             </li>
             <li className="mtop15p">
-                <div><b>Expiration: What If You Forget to Renew?</b></div>
+                <Title name="Expiration: What If You Forget to Renew?" />
                 <div className="mtop5p">If the domain owner doesn't renew:</div>
-                <div className="padleft5p">
+                <div className="padLeft5p">
                     <div className="mtop5p"><b>Grace Period (0–45 days)</b></div>
                     <div>
                         <ul>
@@ -90,6 +91,19 @@ const Lifecycle = () =>{
             </li>
         </ol>
     </div>
+    <div style={{ padding:'15px', border:'1px dashed #ccc' }}>
+        <div align="center"><h4><b>Digital Death: What Happens After Removal?</b></h4></div>
+        <div>When <code><b>www.example.com</b></code> is not renewed or intentionally deleted:
+            <ul>
+                <li className="mtop5p">Its DNS records are removed.</li>
+                <li className="mtop5p">Web and email services tied to it stop functioning.</li>
+                <li className="mtop5p">It becomes available again after deletion.</li>
+                <li className="mtop5p">Hackers and squatters often try to snatch expired domains with high traffic 
+                    history—making expired domains valuable assets.</li>
+            </ul>
+        </div>
+    </div>
+    <div className="mtop15p">
     <Card padding={15}>
         <div align="center" className="mtop10p"><h4><b>Who Controls All This?</b></h4></div>
         <div className="mtop15p">The domain ecosystem is governed by multiple entities:</div>
@@ -103,6 +117,48 @@ const Lifecycle = () =>{
             </ul>
         </div>
     </Card>
+    </div>
+    <div align="center" className="mtop15p"><h4><b>Timeline Summary: Lifecycle Stages</b></h4></div>
+    <div className="mtop15p">
+        <div className="table-responsive">
+            <table className="table">
+                <thead>
+                    <tr>
+                        <td><b>Stage</b></td>
+                        <td><b>Duration (Approx.)</b></td>
+                        <td><b>Description</b></td>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><b>Active</b></td>
+                        <td>1 - 10 years (renewable)</td>
+                        <td>Domain is live and working</td>
+                    </tr>
+                    <tr>
+                        <td><b>Expired</b></td>
+                        <td>0 - 45 days</td>
+                        <td>Owner can renew it normally</td>
+                    </tr>
+                    <tr>
+                        <td><b>Redemption</b></td>
+                        <td>~ 30 days</td>
+                        <td>Can still recover, with additional fees</td>
+                    </tr>
+                    <tr>
+                        <td><b>Pending Deletion</b></td>
+                        <td>5 days</td>
+                        <td>Cannot be recovered, set for removal</td>
+                    </tr>
+                    <tr>
+                        <td><b>Deleted</b></td>
+                        <td>Immediate</td>
+                        <td>Available for anyone to register</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
  </div>);
 };
 
