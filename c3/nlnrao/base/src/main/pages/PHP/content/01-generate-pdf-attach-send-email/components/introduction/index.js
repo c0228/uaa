@@ -104,7 +104,7 @@ const Introduction = () =>{
     </Card>
 
     <div className="mtop15p"><h2 className="blog-head"><b>Step 1: Install Libraries via Composer</b></h2></div>
-    <div className="mtop5p padLeft5p">If you don’t have Composer installed yet, <a href="https://getcomposer.org/download/">download it here</a>.</div>
+    <div className="mtop5p padLeft5p">If you don’t have Composer installed yet, <a target="_blank" href="https://getcomposer.org/download/">download it here</a>.</div>
     <div className="mtop5p padLeft5p">Now run this in your project directory:</div>
     <Highlight content={COMPOSER_INSTALL_LIBS} lang="text" />
 
