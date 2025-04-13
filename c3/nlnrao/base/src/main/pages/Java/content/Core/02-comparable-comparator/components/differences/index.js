@@ -15,7 +15,7 @@ const Differences = () =>{
     <div className="table-responsive">
         <table className="table">
             <thead>
-                <tr>
+                <tr style={{ backgroundColor:'#ddd' }}>
                     <td><b>Feature</b></td>
                     <td><b>Comparable</b></td>
                     <td><b>Comparator</b></td>
