@@ -67,27 +67,27 @@ const DSAIntroduction = () =>{
       <AlgoOverviewList header="Probabilistics Data Structures Algorithms"
         desc="Probabilistic data structures are data structures that use probabilistic techniques to provide approximate solutions with reduced memory and computational requirements."
         data={[
-          ['Bloom Filter', 'Membership testing (Is an element in a set?)'],
-          ['Bloomier Filter','Stores key-value mappings instead of just membership.'],
-          ['Counting Bloom Filter', 'Membership testing with deletions.'],
-          ['Stable Bloom Filter','A variation of Bloom Filters that works well with continuously changing data (e.g., streaming applications).'],
-          ['Skip Bloom Filter', 'Combines Bloom Filter with a hierarchical structure to improve query efficiency.'],
-          ['BloomClock','Hybrid of Vector Clocks and Bloom Filters for tracking causality in distributed systems.'],
-          ['Xor Filter','An alternative to Bloom Filters with better space efficiency.'],
-          ['Quotient Filter', 'Alternative to Bloom Filters with lower memory overhead and deletions.'],
-          ['Cuckoo Filter', 'Membership testing with better space efficiency and deletions.'],
-          ['HyperLogLog', 'Approximate cardinality estimation (Counting unique elements).'],
-          ['BJKST Algorithm','Approximate distinct element counting in a stream.'],
-          ['Count-Min Sketch', 'Approximate frequency counting of elements in a stream.'],
-          ['Skip List', 'Efficient ordered set with probabilistic balancing.'],
-          ['Graph Sketching (MinHash)', 'Estimate Jaccard similarity between sets.'],
-          ['GraphSketch (Spanning Tree Sketching)', 'Approximate similarity between large graphs.'],
-          ['Space-Saving Algorithm', 'Finds the most frequently occurring elements in a data stream (Top-K elements).'],
-          ['T-Digest', 'Approximate quantile estimation (percentiles, median).'],
-          ['Count Sketch','Estimates frequency of elements, like Count-Min Sketch, but reduces bias.'],
-          ['Wavelet Tree','Compressed representation of sequences for rank/select queries.'],
-          ['Exponential Histogram','Estimates count of elements within a sliding window.'],
-          ['SuRF (Succinct Range Filter)','Probabilistic range query filtering.']
+          ['Bloom Filter', 'Membership testing (Is an element in a set?)','tech/dsa/probabilistics-data-structures-algorithms/bloom-filter'],
+          ['Bloomier Filter','Stores key-value mappings instead of just membership.','tech/dsa/probabilistics-data-structures-algorithms/bloomier-filter'],
+          ['Counting Bloom Filter', 'Membership testing with deletions.','tech/dsa/probabilistics-data-structures-algorithms/counting-bloom-filter'],
+          ['Stable Bloom Filter','A variation of Bloom Filters that works well with continuously changing data (e.g., streaming applications).','tech/dsa/probabilistics-data-structures-algorithms/stable-bloom-filter'],
+          ['Skip Bloom Filter', 'Combines Bloom Filter with a hierarchical structure to improve query efficiency.','tech/dsa/probabilistics-data-structures-algorithms/skip-bloom-filter'],
+          ['BloomClock','Hybrid of Vector Clocks and Bloom Filters for tracking causality in distributed systems.','tech/dsa/probabilistics-data-structures-algorithms/bloom-clock'],
+          ['Xor Filter','An alternative to Bloom Filters with better space efficiency.','tech/dsa/probabilistics-data-structures-algorithms/xor-filter'],
+          ['Quotient Filter', 'Alternative to Bloom Filters with lower memory overhead and deletions.','tech/dsa/probabilistics-data-structures-algorithms/quotient-filter'],
+          ['Cuckoo Filter', 'Membership testing with better space efficiency and deletions.','tech/dsa/probabilistics-data-structures-algorithms/cuckoo-filter'],
+          ['HyperLogLog', 'Approximate cardinality estimation (Counting unique elements).','tech/dsa/probabilistics-data-structures-algorithms/hyper-log-log'],
+          ['BJKST Algorithm','Approximate distinct element counting in a stream.','tech/dsa/probabilistics-data-structures-algorithms/bjkst-algorithm'],
+          ['Count-Min Sketch', 'Approximate frequency counting of elements in a stream.','tech/dsa/probabilistics-data-structures-algorithms/count-min-sketch'],
+          ['Skip List', 'Efficient ordered set with probabilistic balancing.','tech/dsa/probabilistics-data-structures-algorithms/skip-list'],
+          ['Graph Sketching (MinHash)', 'Estimate Jaccard similarity between sets.','tech/dsa/probabilistics-data-structures-algorithms/graph-sketching'],
+          ['GraphSketch (Spanning Tree Sketching)', 'Approximate similarity between large graphs.','tech/dsa/probabilistics-data-structures-algorithms/graph-sketch'],
+          ['Space-Saving Algorithm', 'Finds the most frequently occurring elements in a data stream (Top-K elements).','tech/dsa/probabilistics-data-structures-algorithms/space-saving-algorithm'],
+          ['T-Digest', 'Approximate quantile estimation (percentiles, median).','tech/dsa/probabilistics-data-structures-algorithms/t-digest'],
+          ['Count Sketch','Estimates frequency of elements, like Count-Min Sketch, but reduces bias.','tech/dsa/probabilistics-data-structures-algorithms/count-sketch'],
+          ['Wavelet Tree','Compressed representation of sequences for rank/select queries.','tech/dsa/probabilistics-data-structures-algorithms/wavelet-tree'],
+          ['Exponential Histogram','Estimates count of elements within a sliding window.','tech/dsa/probabilistics-data-structures-algorithms/exponential-histogram'],
+          ['SuRF (Succinct Range Filter)','Probabilistic range query filtering.','tech/dsa/probabilistics-data-structures-algorithms/succinct-range-filter']
         ]} />
     </Col>
     <Col xl={6} xxl={6}>

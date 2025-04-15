@@ -628,6 +628,135 @@
             "breadcrumbIndex": "tree-bst-algorithms"
         },
 
+
+        "tech/dsa/probabilistics-data-structures-algorithms/bloom-filter":{
+            "label": "Bloom Filter: An In-Depth Analysis with Notations & JavaScript Implementation",
+            "date":"October 26, 2024",
+            "component": "BloomFilter",
+            "breadcrumbIndex": "probability-dsa"
+        },
+        "tech/dsa/probabilistics-data-structures-algorithms/bloomier-filter":{
+            "label": "Bloomier Filter: An In-Depth Analysis with Notations & JavaScript Implementation",
+            "date":"October 26, 2024",
+            "component": "BloomierFilter",
+            "breadcrumbIndex": "probability-dsa"
+        },
+        "tech/dsa/probabilistics-data-structures-algorithms/counting-bloom-filter":{
+            "label": "Counting Bloom Filter: An In-Depth Analysis with Notations & JavaScript Implementation",
+            "date":"October 26, 2024",
+            "component": "CountingBloomFilter",
+            "breadcrumbIndex": "probability-dsa"
+        },
+        "tech/dsa/probabilistics-data-structures-algorithms/stable-bloom-filter":{
+            "label": "Stable Bloom Filter: An In-Depth Analysis with Notations & JavaScript Implementation",
+            "date":"October 26, 2024",
+            "component": "StableBloomFilter",
+            "breadcrumbIndex": "probability-dsa"
+        },
+        "tech/dsa/probabilistics-data-structures-algorithms/skip-bloom-filter":{
+            "label": "Skip Bloom Filter: An In-Depth Analysis with Notations & JavaScript Implementation",
+            "date":"October 26, 2024",
+            "component": "SkipBloomFilter",
+            "breadcrumbIndex": "probability-dsa"
+        },
+        "tech/dsa/probabilistics-data-structures-algorithms/bloom-clock":{
+            "label": "Bloom Clock: An In-Depth Analysis with Notations & JavaScript Implementation",
+            "date":"October 26, 2024",
+            "component": "BloomClock",
+            "breadcrumbIndex": "probability-dsa"
+        },
+        "tech/dsa/probabilistics-data-structures-algorithms/xor-filter":{
+            "label": "Xor Filter: An In-Depth Analysis with Notations & JavaScript Implementation",
+            "date":"October 26, 2024",
+            "component": "XorFilter",
+            "breadcrumbIndex": "probability-dsa"
+        },
+        "tech/dsa/probabilistics-data-structures-algorithms/quotient-filter":{
+            "label": "Quotient Filter: An In-Depth Analysis with Notations & JavaScript Implementation",
+            "date":"October 26, 2024",
+            "component": "QuotientFilter",
+            "breadcrumbIndex": "probability-dsa"
+        },
+        "tech/dsa/probabilistics-data-structures-algorithms/cuckoo-filter":{
+            "label": "Cuckoo Filter: An In-Depth Analysis with Notations & JavaScript Implementation",
+            "date":"October 26, 2024",
+            "component": "CuckooFilter",
+            "breadcrumbIndex": "probability-dsa"
+        },
+        "tech/dsa/probabilistics-data-structures-algorithms/hyper-log-log":{
+            "label": "Hyper Log Log: An In-Depth Analysis with Notations & JavaScript Implementation",
+            "date":"October 26, 2024",
+            "component": "HyperLogLog",
+            "breadcrumbIndex": "probability-dsa"
+        },
+        "tech/dsa/probabilistics-data-structures-algorithms/bjkst-algorithm":{
+            "label": "BJKST Algorithm: An In-Depth Analysis with Notations & JavaScript Implementation",
+            "date":"October 26, 2024",
+            "component": "BJKSTAlgorithm",
+            "breadcrumbIndex": "probability-dsa"
+        },
+
+        "tech/dsa/probabilistics-data-structures-algorithms/count-min-sketch":{
+            "label": "Count Min Sketch: An In-Depth Analysis with Notations & JavaScript Implementation",
+            "date":"October 26, 2024",
+            "component": "CountMinSketch",
+            "breadcrumbIndex": "probability-dsa"
+        },
+        "tech/dsa/probabilistics-data-structures-algorithms/skip-list":{
+            "label": "Skip List: An In-Depth Analysis with Notations & JavaScript Implementation",
+            "date":"October 26, 2024",
+            "component": "SkipList",
+            "breadcrumbIndex": "probability-dsa"
+        },
+        "tech/dsa/probabilistics-data-structures-algorithms/graph-sketching":{
+            "label": "Graph Sketching: An In-Depth Analysis with Notations & JavaScript Implementation",
+            "date":"October 26, 2024",
+            "component": "GraphSketching",
+            "breadcrumbIndex": "probability-dsa"
+        },
+        "tech/dsa/probabilistics-data-structures-algorithms/graph-sketch":{
+            "label": "Graph Sketch: An In-Depth Analysis with Notations & JavaScript Implementation",
+            "date":"October 26, 2024",
+            "component": "GraphSketch",
+            "breadcrumbIndex": "probability-dsa"
+        },
+        "tech/dsa/probabilistics-data-structures-algorithms/space-saving-algorithm":{
+            "label": "Space Saving Algorithm: An In-Depth Analysis with Notations & JavaScript Implementation",
+            "date":"October 26, 2024",
+            "component": "SpaceSavingAlgorithm",
+            "breadcrumbIndex": "probability-dsa"
+        },
+        "tech/dsa/probabilistics-data-structures-algorithms/t-digest":{
+            "label": "T Digest: An In-Depth Analysis with Notations & JavaScript Implementation",
+            "date":"October 26, 2024",
+            "component": "TDigest",
+            "breadcrumbIndex": "probability-dsa"
+        },
+        "tech/dsa/probabilistics-data-structures-algorithms/count-sketch":{
+            "label": "Count Sketch: An In-Depth Analysis with Notations & JavaScript Implementation",
+            "date":"October 26, 2024",
+            "component": "CountSketch",
+            "breadcrumbIndex": "probability-dsa"
+        },
+        "tech/dsa/probabilistics-data-structures-algorithms/wavelet-tree":{
+            "label": "WaveletTree: An In-Depth Analysis with Notations & JavaScript Implementation",
+            "date":"October 26, 2024",
+            "component": "WaveletTree",
+            "breadcrumbIndex": "probability-dsa"
+        },
+        "tech/dsa/probabilistics-data-structures-algorithms/exponential-histogram":{
+            "label": "Exponential Histogram: An In-Depth Analysis with Notations & JavaScript Implementation",
+            "date":"October 26, 2024",
+            "component": "ExponentialHistogram",
+            "breadcrumbIndex": "probability-dsa"
+        },
+        "tech/dsa/probabilistics-data-structures-algorithms/succinct-range-filter":{
+            "label": "Succinct Range Filter: An In-Depth Analysis with Notations & JavaScript Implementation",
+            "date":"October 26, 2024",
+            "component": "SuccinctRangeFilter",
+            "breadcrumbIndex": "probability-dsa"
+        },
+
         "tech/dsa/cache-eviction-strategies/least-recently-used":{
             "label":"Least Recently Used (LRU)",
             "date":"October 26, 2024",

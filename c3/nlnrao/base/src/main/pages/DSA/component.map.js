@@ -96,6 +96,29 @@ import BSTOperations from "./algorithms/bst-algorithms/BSTOperations/index.js";
 import TrieDataStructure from "./algorithms/bst-algorithms/TrieDataStructure/index.js";
 import SegmentAndFenwickTree from "./algorithms/bst-algorithms/SegmentAndFenwickTree/index.js";
 
+// Probabilistics Data Structures Algorithms
+import BloomFilter from "./algorithms/pds-algorithms/BloomFilter/index.js";
+import BloomierFilter from "./algorithms/pds-algorithms/BloomierFilter/index.js";
+import CountingBloomFilter from "./algorithms/pds-algorithms/CountingBloomFilter/index.js";
+import StableBloomFilter from "./algorithms/pds-algorithms/StableBloomFilter/index.js";
+import SkipBloomFilter from "./algorithms/pds-algorithms/SkipBloomFilter/index.js";
+import BloomClock from "./algorithms/pds-algorithms/BloomClock/index.js";
+import XorFilter from "./algorithms/pds-algorithms/XorFilter/index.js";
+import QuotientFilter from "./algorithms/pds-algorithms/QuotientFilter/index.js";
+import CuckooFilter from "./algorithms/pds-algorithms/CuckooFilter/index.js";
+import HyperLogLog from "./algorithms/pds-algorithms/HyperLogLog/index.js";
+import BJKSTAlgorithm from "./algorithms/pds-algorithms/BJKSTAlgorithm/index.js";
+import CountMinSketch from "./algorithms/pds-algorithms/CountMinSketch/index.js";
+import SkipList from "./algorithms/pds-algorithms/SkipList/index.js";
+import GraphSketching from "./algorithms/pds-algorithms/GraphSketching/index.js";
+import GraphSketch from "./algorithms/pds-algorithms/GraphSketch/index.js";
+import SpaceSavingAlgorithm from "./algorithms/pds-algorithms/SpaceSavingAlgorithm/index.js";
+import TDigest from "./algorithms/pds-algorithms/TDigest/index.js";
+import CountSketch from "./algorithms/pds-algorithms/CountSketch/index.js";
+import WaveletTree from "./algorithms/pds-algorithms/WaveletTree/index.js";
+import ExponentialHistogram from "./algorithms/pds-algorithms/ExponentialHistogram/index.js";
+import SuccinctRangeFilter from "./algorithms/pds-algorithms/SuccinctRangeFilter/index.js";
+
 import CacheObliviousAlgorithms from "@MainPages/DSA/content/01-cache-oblivious-algorithms/index.js";
 import TestAndVerifyAlgorithms from "@MainPages/DSA/content/02-test-and-verify-algorithms/index.js";
 import SelfTuningAlgorithms from "@MainPages/DSA/content/03-self-tuning-algorithms/index.js";
@@ -201,6 +224,29 @@ export const DSAComponentMap = {
  "BSTOperations": BSTOperations,
  "TrieDataStructure": TrieDataStructure,
  "SegmentAndFenwickTree": SegmentAndFenwickTree,
+
+ // Probabilistics Data Structures Algorithms
+ "BloomFilter": BloomFilter,
+ "BloomierFilter": BloomierFilter,
+ "CountingBloomFilter": CountingBloomFilter,
+ "StableBloomFilter": StableBloomFilter,
+ "SkipBloomFilter": SkipBloomFilter,
+ "BloomClock": BloomClock,
+ "XorFilter": XorFilter,
+ "QuotientFilter": QuotientFilter,
+ "CuckooFilter": CuckooFilter,
+ "HyperLogLog": HyperLogLog,
+ "BJKSTAlgorithm": BJKSTAlgorithm,
+ "CountMinSketch": CountMinSketch,
+ "SkipList": SkipList,
+ "GraphSketching": GraphSketching,
+ "GraphSketch": GraphSketch,
+ "SpaceSavingAlgorithm": SpaceSavingAlgorithm,
+ "TDigest": TDigest,
+ "CountSketch": CountSketch,
+ "WaveletTree": WaveletTree,
+ "ExponentialHistogram": ExponentialHistogram,
+ "SuccinctRangeFilter": SuccinctRangeFilter,
 
  "CacheObliviousAlgorithms": CacheObliviousAlgorithms,
  "TestAndVerifyAlgorithms": TestAndVerifyAlgorithms,
