@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { ContainerFluid, Row, Col, getAppContext, Button, Carousel } from "e-ui-react";
 import Header from '@MainTemplates/Header/index.js';
+import Bottom from '@MainTemplates/Bottom/index.js';
 import Footer from '@MainTemplates/Footer/index.js';
 import { HeaderMenu } from '@MainConfig/HeaderMenu.js';
 import { BgHgtTitle } from '@MainTemplates/Titles/index.js';
@@ -81,6 +82,7 @@ const Home = ()=>{
         </Col>
     </Row>
  </ContainerFluid>
+ <Bottom />
  <Footer />
  </div>
  {/*<Welcome />
