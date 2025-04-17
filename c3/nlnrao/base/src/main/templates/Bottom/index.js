@@ -5,7 +5,10 @@ import './index.css';
 
 const Bottom = () =>{
  const [quickLinks, setQuickLinks] = useState(["SEO Optimization Techniques", "HTTP Status Codes",
-    "Tech Ecosystem Timelines","Ultimate Java CheatSheet", "Classification of Databases", "Top 200 Linux Commands"]);
+    "Tech Ecosystem Timelines","Ultimate Java CheatSheet", "Classification of Databases", "Top 200 Linux Commands",
+    "Web3 & Blockchain Roadmap", "Frontend Performance Optimization Techniques", "Ultimate Git CheatSheet for Teams", 
+    "Top 100 Docker Commands for DevOps & Developers", "Kubernetes for Developers: Cheatsheet & Concepts",
+    "Cloud Cost Optimization Guide (AWS, Azure, GCP)"]);
  useEffect(()=>{
   setQuickLinks([...quickLinks].sort());
  },[]);
