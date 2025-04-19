@@ -7,15 +7,7 @@ const Bottom = () =>{
  const MainTitle = ({ label }) =><div align="center" style={{ color:'#ccc' }}><h4><b>{label}</b></h4></div>
  const Heading = ({ label }) =><div style={{ color:'#999' }}><h5><b>{label}</b></h5></div>
  const Item = ({ label }) =><div className="mtop5p">{label}</div>
- const webDev = [''];
- const [quickLinks, setQuickLinks] = useState(["SEO Optimization Techniques", "HTTP Status Codes",
-    "Tech Ecosystem Timelines","Ultimate Java CheatSheet", "Classification of Databases", "Top 200 Linux Commands",
-    "Web3 & Blockchain Roadmap", "Frontend Performance Optimization Techniques", "Ultimate Git CheatSheet for Teams", 
-    "Top 100 Docker Commands for DevOps & Developers", "Kubernetes for Developers: Cheatsheet & Concepts",
-    "Cloud Cost Optimization Guide (AWS, Azure, GCP)"]);
- useEffect(()=>{
-  setQuickLinks([...quickLinks].sort());
- },[]);
+ const webDev = {};
  return (<div>
      <div className="bis-bottom-container" style={{ paddingTop:'45px', paddingBottom:'75px' }}>
   <ContainerFluid>
