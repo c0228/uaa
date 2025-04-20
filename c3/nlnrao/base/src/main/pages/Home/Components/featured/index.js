@@ -7,9 +7,8 @@ import FeaturedData from '@MainStaticData/featured.json';
 const FeaturedItem = ({ data }) =>{
 
  return (<div>
-    <hr/>
-    <div align="center" style={{ fontWeight:'bold', textTransform:'uppercase', letterSpacing:'2px', fontSize:'15px', lineHeight: '28px', paddingTop:'15px' }}>{data.title}</div>
-    <hr/>
+    <div align="center" style={{ borderTop:'1px solid #ccc', borderBottom:'1px solid #ccc', backgroundColor:'#ffffcf', fontWeight:'bold', textTransform:'uppercase', 
+        letterSpacing:'2px', fontSize:'15px', lineHeight: '28px', marginTop:'15px', padding:'15px' }}>{data.title}</div>
     <div className="mtop15p">
     <Row>
         <Col xxl={6} xl={6}>
