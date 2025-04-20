@@ -13,8 +13,8 @@
 .resume-flex-container { display:flex;flex-wrap: wrap; }
 .resume-flex-box { flex-grow:1;padding:10px; }
 .resume-hyperlink { color:#999;text-decoration:none; }
-.resume-card {  border-color: #282c34; }
-.resume-cardBody { background-color: #282c34;color: #999; }
+.resume-card {  border-color: #1e293b; }
+.resume-cardBody { background-color: #1e293b;color: #999; }
 
 .uppercase { text-transform: uppercase; }
 
