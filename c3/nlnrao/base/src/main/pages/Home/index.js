@@ -49,16 +49,19 @@ const Home = ()=>{
     <Row>
         <Col xxl={9} xl={9}>
             <div className="mtop15p">
-            <BgHgtTitle align="left" title="Featured Technologies" bgColor="#555" color="#fff" />
+            <BgHgtTitle align="left" title="Featured Technologies" bgColor="#c32014" color="#fff" />
             </div>
             <Row>
                 <Col xxl={8} xl={8}>
                     <FeaturedList />
                 </Col>
                 <Col xxl={4} xl={4}>
-                    <div className="mtop15p mbot15p">
-                        <BgHgtTitle align="center" title="Today's Developer's Choice" bgColor="#c5c5c5" color="#000" />
-                        <DevChoice />
+                    <div className="mtop15p mbot15p" style={{ backgroundColor:'#ffffcf', 
+                        borderBottomLeftRadius:'15px', borderBottomRightRadius:'15px' }}>
+                        <BgHgtTitle align="center" title="Today's Developer's Choice" bgColor="#ffc107" color="#000" />
+                        <div style={{ paddingLeft:'15px', paddingRight:'15px', paddingBottom:'25px' }}>
+                            <DevChoice />
+                        </div>
                     </div>
                 </Col>
             </Row>

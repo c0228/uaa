@@ -4,7 +4,8 @@ import './index.css';
 
 export const LogoTitle = ()=>{
  return (<Link className="navbar-brand" to={process.env.PROJECT_MAIN_URL} style={{ paddingTop:'0px', paddingBottom:'0px' }}>
- <span className="logo" style={{ fontSize:'22px' }}>nellutlalnrao.com</span>
+ <span className="logo" style={{ fontSize:'22px', color:'#000' }}>nellutlalnrao</span>
+ <span className="logo" style={{ fontSize:'22px', color:'#000' }}>.com</span>
  </Link>);
 };
 
