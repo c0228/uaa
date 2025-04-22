@@ -1,0 +1,52 @@
+{
+    "urls":{
+        "privacy-policy":{
+            "date": "October 26, 2024",
+            "label": "Privacy policy",
+            "component": "PrivacyPolicy",
+            "keywords":[]
+        },
+        "user-agreement":{
+            "date": "October 26, 2024",
+            "label": "",
+            "component": "UserAgreement",
+            "keywords":[]
+        },
+        "terms-and-conditions":{
+            "date": "October 26, 2024",
+            "label": "",
+            "component": "TermsAndConditions",
+            "keywords":[]
+        },
+        "cookies-policy":{
+            "date": "October 26, 2024",
+            "label": "",
+            "component": "CookiesPolicy",
+            "keywords":[]
+        },
+        "disclaimer":{
+            "date": "October 26, 2024",
+            "label": "",
+            "component": "Disclaimer",
+            "keywords":[]
+        },
+        "accessibility":{
+            "date": "October 26, 2024",
+            "label": "",
+            "component": "Accessibility",
+            "keywords":[]
+        },
+        "legal-notice":{
+            "date": "October 26, 2024",
+            "label": "",
+            "component": "LegalNotice",
+            "keywords":[]
+        },
+        "terms-of-use":{
+            "date": "October 26, 2024",
+            "label": "",
+            "component": "TermsOfUse",
+            "keywords":[]
+        }
+    }
+}
