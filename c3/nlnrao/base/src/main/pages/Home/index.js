@@ -56,9 +56,9 @@ const Home = ()=>{
                     <FeaturedList />
                 </Col>
                 <Col xxl={4} xl={4}>
-                    <div className="mtop15p mbot15p" style={{ backgroundColor:'#ffffcf', 
+                    <div className="mtop15p mbot15p" style={{ backgroundColor:'#eee', 
                         borderBottomLeftRadius:'15px', borderBottomRightRadius:'15px' }}>
-                        <BgHgtTitle align="center" title="Today's Developer's Choice" bgColor="#ffc107" color="#000" />
+                        <BgHgtTitle align="center" title="Today's Developer's Choice" bgColor="#c3c3c3" color="#000" />
                         <div style={{ paddingLeft:'15px', paddingRight:'15px', paddingBottom:'25px' }}>
                             <DevChoice />
                         </div>
