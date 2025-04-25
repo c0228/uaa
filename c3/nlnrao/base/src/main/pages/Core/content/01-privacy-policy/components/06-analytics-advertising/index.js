@@ -9,7 +9,7 @@ const AnalyticsAdvertising = () =>{
             ad efficiency. Below is a detailed explanation:</div>
         <div>
             <ol>
-                <li className="mtop5p">
+                <li className="mtop15p">
                     <div><b>Analytics Tools We Use</b></div>
                     <div className="mtop5p">We use third-party analytics services to collect and analyze data regarding how visitors 
                         interact with our Site. These tools may collect information such as:
@@ -53,7 +53,7 @@ const AnalyticsAdvertising = () =>{
                         </ul>
                     </div>
                 </li>
-                <li className="mtop5p">
+                <li className="mtop15p">
                     <div><b>Advertising Networks</b></div>
                     <div className="mtop5p">We may partner with third-party advertising companies to display ads on our Site. These networks may use cookies, web beacons 
                         and other tracking technologies to collect information about your visits over time and across websites, including:</div>
@@ -76,7 +76,7 @@ const AnalyticsAdvertising = () =>{
                     </div>
                     <div>This data allows them to serve you with interest-based ads (also known as personalized or targeted ads).</div>
                 </li>
-                <li className="mtop5p">
+                <li className="mtop15p">
                     <div><b>Affiliate Disclosure</b></div>
                     <div className="mtop5p">Some of our blog posts may contain affiliate links. If you click on a link and make a purchase, 
                         we may receive a small commission at no additional cost to you. This helps support the content we create and maintain 
@@ -84,7 +84,7 @@ const AnalyticsAdvertising = () =>{
                         We disclose affiliate relationships within the content and in accordance with FTC guidelines.
                     </div>
                 </li>
-                <li className="mtop5p">
+                <li className="mtop15p">
                     <div><b>Opting Out of Targeted Advertising</b></div>
                     <div className="mtop5p">You can opt out of targeted advertising through the following resources:</div>
                     <div>

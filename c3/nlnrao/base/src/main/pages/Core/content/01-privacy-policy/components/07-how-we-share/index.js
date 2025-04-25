@@ -9,7 +9,7 @@ const HowWeShare = () =>{
             standards.</div>
         <div>
             <ol>
-                <li className="mtop5p">
+                <li className="mtop15p">
                     <div><b>With Service Providers and Vendors</b></div>
                     <div className="mtop5p">We may share your information with third-party service providers who assist us in operating, 
                         maintaining, and improving our Site. These providers perform tasks such as:
@@ -23,7 +23,7 @@ const HowWeShare = () =>{
                     <div>These providers are contractually obligated to keep your data secure and use it only for the purpose of providing 
                         the agreed-upon services.</div>
                 </li>
-                <li className="mtop5p">
+                <li className="mtop15p">
                     <div><b>With Advertising and Affiliate Partners</b></div>
                     <div className="mtop5p">
                     As mentioned in the <b>Analytics and Advertising</b> section, we may share certain usage data (not personally 
@@ -37,7 +37,7 @@ const HowWeShare = () =>{
                             own privacy policies and data handling practices.</div>
                     </div>
                 </li>
-                <li className="mtop5p">
+                <li className="mtop15p">
                     <div><b>With Legal Authorities When Required</b></div>
                     <div className="mtop5p">
                     We may disclose your information if required to:
@@ -51,18 +51,18 @@ const HowWeShare = () =>{
                     We will only disclose the minimum amount of information necessary in such cases.
                     </div>
                 </li>
-                <li className="mtop5p">
+                <li className="mtop15p">
                     <div><b>In the Event of a Business Transfer</b></div>
                     <div className="mtop5p">If our Site or business is involved in a merger, acquisition, restructuring, sale of assets, or 
                         bankruptcy, your information may be transferred to the new owner or successor entity. In such cases, we will provide 
                         notice via the Site or email (if available) to inform you of any change in data ownership or use.</div>
                 </li>
-                <li className="mtop5p">
+                <li className="mtop15p">
                     <div><b>With Your Consent</b></div>
                     <div className="mtop5p">In specific situations, we may request your explicit consent to share your information with third 
                         parties for purposes not covered by this policy. You will always have the right to decline or withdraw your consent.</div>
                 </li>
-                <li className="mtop5p">
+                <li className="mtop15p">
                     <div><b>Publicly Shared Information</b></div>
                     <div className="mtop5p">Any personal information you voluntarily disclose on public parts of our Site (e.g., blog comments, 
                         forums) can be viewed, collected, and used by others. We are not responsible for the use of such information by third 

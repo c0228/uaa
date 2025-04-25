@@ -41,12 +41,12 @@ const DataRetention = () =>{
                         </ul>
                     </div>
                 </li>
-                <li className="mtop5p">
+                <li className="mtop15p">
                     <div><b>Anonymization and Aggregation</b></div>
                     <div className="mtop5p">Where possible, we anonymize or aggregate data so it is no longer personally identifiable. We may 
                         retain this anonymized data indefinitely to help improve our services.</div>
                 </li>
-                <li className="mtop5p">
+                <li className="mtop15p">
                     <div><b>User-Initiated Deletion</b></div>
                     <div className="mtop5p">If you request deletion of your personal information, we will honor your request subject to:</div>
                     <div>

@@ -9,17 +9,17 @@ const DataProtectionRights = () =>{
             and other relevant data protection laws. Depending on your location, you may have the following rights:</div>
         <div>
             <ol>
-                <li className="mtop5p">
+                <li className="mtop15p">
                     <div><b>The Right to Access</b></div>
                     <div className="mtop5p">You have the right to request a copy of the personal data we hold about you. Upon verification 
                         of your identity, we will provide this information in a commonly used electronic format.</div>
                 </li>
-                <li className="mtop5p">
+                <li className="mtop15p">
                     <div><b>The Right to Rectification</b></div>
                     <div className="mtop5p">You have the right to request that we correct any information you believe is inaccurate or 
                         incomplete. If you maintain an account with us, you can often update your data directly.</div>
                 </li>
-                <li className="mtop5p">
+                <li className="mtop15p">
                     <div><b>The Right to Erasure (Right to Be Forgotten)</b></div>
                     <div className="mtop5p">You may request that we delete your personal data under certain circumstances, such as:</div>
                     <div>
@@ -32,7 +32,7 @@ const DataProtectionRights = () =>{
                     <div>Please note that we may retain some information where legally required or for legitimate business purposes 
                         (e.g., record-keeping or fraud prevention).</div>
                 </li>
-                <li className="mtop5p">
+                <li className="mtop15p">
                     <div><b>The Right to Restrict Processing</b></div>
                     <div className="mtop5p">You have the right to request that we restrict the processing of your data:</div>
                     <div>
@@ -43,18 +43,18 @@ const DataProtectionRights = () =>{
                         </ul>
                     </div>
                 </li>
-                <li className="mtop5p">
+                <li className="mtop15p">
                     <div><b>The Right to Object</b></div>
                     <div className="mtop5p">You may object to our processing of your personal data for direct marketing purposes, profiling, 
                         or other legitimate interests. If you object, we will stop processing your data unless we can demonstrate compelling 
                         legitimate grounds to continue.</div>
                 </li>
-                <li className="mtop5p">
+                <li className="mtop15p">
                     <div><b>The Right to Data Portability</b></div>
                     <div className="mtop5p">You can request a copy of the data you provided to us in a structured, commonly used, machine-readable 
                         format and, where possible, request that it be transferred directly to another controller.</div>
                 </li>
-                <li className="mtop5p">
+                <li className="mtop15p">
                     <div><b>The Right to Withdraw Consent</b></div>
                     <div className="mtop5p">Where processing is based on your consent (e.g., newsletter subscriptions or marketing emails), you may 
                         withdraw your consent at any time by:</div>
@@ -66,7 +66,7 @@ const DataProtectionRights = () =>{
                         </ul>
                     </div>
                 </li>
-                <li className="mtop5p">
+                <li className="mtop15p">
                     <div><b>Rights Under CCPA (California Residents)</b></div>
                     <div className="mtop5p">If you are a California resident, you may also:
                         <ul>
@@ -77,7 +77,7 @@ const DataProtectionRights = () =>{
                         We will not discriminate against you for exercising any of your CCPA rights.
                     </div>
                 </li>
-                <li className="mtop5p">
+                <li className="mtop15p">
                     <div><b>How to Exercise Your Rights</b></div>
                     <div className="mtop5p">To make a request regarding any of your rights, please contact us via:
                         <ul>

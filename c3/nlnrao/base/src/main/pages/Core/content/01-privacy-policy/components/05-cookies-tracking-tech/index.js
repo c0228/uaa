@@ -9,7 +9,7 @@ const CookiesTrackingTech = () =>{
             efforts. Below, we explain what cookies are, how we use them, and how you can manage your preferences.</div>
         <div>
             <ol>
-                <li className="mtop5p">
+                <li className="mtop15p">
                     <div><b>What Are Cookies?</b></div>
                     <div className="mtop5p">Cookies are small text files placed on your device when you visit a website. These files 
                         help the website remember your actions and preferences (such as login, language, font size) over a period of 
@@ -24,7 +24,7 @@ const CookiesTrackingTech = () =>{
                         </ul>
                     </div>
                 </li>
-                <li className="mtop5p">
+                <li className="mtop15p">
                     <div><b>Types of Cookies We Use</b></div>
                     <div className="mtop5p">We use the following categories of cookies on our Site:</div>
                     <div>
@@ -71,7 +71,7 @@ const CookiesTrackingTech = () =>{
                         </ol>
                     </div>
                 </li>
-                <li className="mtop5p">
+                <li className="mtop15p">
                     <div><b>Third-Party Tracking Technologies</b></div>
                     <div className="mtop5p">Our Site may include content and scripts from third parties that use tracking technologies, such as:</div>
                     <div>
@@ -83,7 +83,7 @@ const CookiesTrackingTech = () =>{
                     </div>
                     <div>These third parties may collect data independently. We do not control their cookie settings.</div>
                 </li>
-                <li className="mtop5p">
+                <li className="mtop15p">
                     <div><b>How to Manage Cookies</b></div>
                     <div className="mtop5p">Most web browsers allow you to control cookie settings through their preferences menu. You can:</div>
                     <div>
@@ -107,7 +107,7 @@ const CookiesTrackingTech = () =>{
                         </ul>
                     </div>
                 </li>
-                <li className="mtop5p">
+                <li className="mtop15p">
                     <div><b>Consent for Cookies</b></div>
                     <div className="mtop5p">By using our Site, you consent to the use of cookies as described above. When required by law (such as GDPR), we will 
                         display a cookie consent banner asking for your permission before placing non-essential cookies.</div>

@@ -8,7 +8,7 @@ const HowWeUseInfo = () =>{
             These uses may include, but are not limited to, the following:</div>
         <div>
             <ul>
-                <li className="mtop5p">
+                <li className="mtop15p">
                     <div><b>To Operate and Maintain the Website</b></div>
                     <div>
                         <ul>
@@ -18,7 +18,7 @@ const HowWeUseInfo = () =>{
                         </ul>
                     </div>
                 </li>
-                <li className="mtop5p">
+                <li className="mtop15p">
                     <div><b>To Communicate With You</b></div>
                     <div>
                         <ul>
@@ -28,7 +28,7 @@ const HowWeUseInfo = () =>{
                         </ul>
                     </div>
                 </li>
-                <li className="mtop5p">
+                <li className="mtop15p">
                     <div><b>To Personalize User Experience</b></div>
                     <div>
                         <ul>
@@ -38,7 +38,7 @@ const HowWeUseInfo = () =>{
                         </ul>
                     </div>
                 </li>
-                <li className="mtop5p">
+                <li className="mtop15p">
                     <div><b>For Analytics and Performance Monitoring</b></div>
                     <div>
                         <ul>
@@ -48,7 +48,7 @@ const HowWeUseInfo = () =>{
                         </ul>
                     </div>
                 </li>
-                <li className="mtop5p">
+                <li className="mtop15p">
                     <div><b>To Enforce Our Terms and Policies</b></div>
                     <div>
                         <ul>
@@ -58,7 +58,7 @@ const HowWeUseInfo = () =>{
                         </ul>
                     </div>
                 </li>
-                <li className="mtop5p">
+                <li className="mtop15p">
                     <div><b>For Marketing and Promotional Purposes</b></div>
                     <div>
                         <ul>
@@ -68,7 +68,7 @@ const HowWeUseInfo = () =>{
                         </ul>
                     </div>
                 </li>
-                <li className="mtop5p">
+                <li className="mtop15p">
                     <div><b>To Comply with Legal Obligations</b></div>
                     <div>
                         <ul>
@@ -78,7 +78,7 @@ const HowWeUseInfo = () =>{
                         </ul>
                     </div>
                 </li>
-                <li className="mtop5p">
+                <li className="mtop15p">
                     <div><b>To Manage User Feedback and Support</b></div>
                     <div>
                         <ul>

@@ -10,7 +10,7 @@ const SecurityInfo = () =>{
             data.</div>
         <div>
             <ol>
-                <li className="mtop5p">
+                <li className="mtop15p">
                     <div><b>Technical and Organizational Safeguards</b></div>
                     <div className="mtop5p">We use a combination of administrative, technical, and physical safeguards to protect 
                         your information, including:
@@ -29,7 +29,7 @@ const SecurityInfo = () =>{
                         </ul>
                     </div>
                 </li>
-                <li className="mtop5p">
+                <li className="mtop15p">
                     <div><b>Data Breach Response Plan</b></div>
                     <div className="mtop5p">In the unlikely event of a data breach:
                         <ul>
@@ -41,7 +41,7 @@ const SecurityInfo = () =>{
                         </ul>
                     </div>
                 </li>
-                <li className="mtop5p">
+                <li className="mtop15p">
                     <div><b>User Responsibility</b></div>
                     <div className="mtop5p">While we do our best to protect your data, your role is also important. Please:
                         <ul>
@@ -52,13 +52,13 @@ const SecurityInfo = () =>{
                         </ul>
                     </div>
                 </li>
-                <li className="mtop5p">
+                <li className="mtop15p">
                     <div><b>Third-Party Services and Integrations</b></div>
                     <div className="mtop5p">Although we strive to work only with partners who uphold strong security practices, we are not responsible for the 
                         security of third-party services that you access through our website. Please review the privacy and security practices of any third-party 
                         platform before engaging with it.</div>
                 </li>
-                <li className="mtop5p">
+                <li className="mtop15p">
                     <div><b>Children’s Data Security</b></div>
                     <div className="mtop5p">If we knowingly collect personal data from children under the age of 13 (or a higher age depending on your jurisdiction), 
                         we implement stricter security protocols and only process such data with verifiable parental consent.</div>

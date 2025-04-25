@@ -9,7 +9,7 @@ const DataTransfer = () =>{
             protection laws, which may not be as comprehensive as those in your jurisdiction.</div>
         <div>
             <ol>
-                <li className="mtop5p">
+                <li className="mtop15p">
                     <div><b>Why We Transfer Data Internationally</b></div>
                     <div className="mtop5p">We operate globally, and your data may be transferred to:</div>
                     <div>
@@ -30,7 +30,7 @@ const DataTransfer = () =>{
                         </ul>
                     </div>
                 </li>
-                <li className="mtop5p">
+                <li className="mtop15p">
                     <div><b>Legal Bases for Transfers</b></div>
                     <div className="mtop5p">We rely on legal mechanisms approved under applicable data protection laws to ensure your rights 
                         and protections remain intact during cross-border transfers. These may include:</div>
@@ -47,7 +47,7 @@ const DataTransfer = () =>{
                         </ul>
                     </div>
                 </li>
-                <li className="mtop5p">
+                <li className="mtop15p">
                     <div><b>Data Storage and Processing Locations</b></div>
                     <div className="mtop5p">Depending on your location and the services you use, your information may be stored and processed in:</div>
                     <div>
@@ -60,7 +60,7 @@ const DataTransfer = () =>{
                     </div>
                     <div>We ensure that all such transfers are done in a manner that protects your data and complies with applicable laws.</div>
                 </li>
-                <li className="mtop5p">
+                <li className="mtop15p">
                     <div><b>Your Rights and Remedies</b></div>
                     <div className="mtop5p">Regardless of where your data is processed:</div>
                     <div>
