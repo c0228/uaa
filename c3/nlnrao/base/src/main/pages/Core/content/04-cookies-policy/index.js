@@ -1,7 +1,42 @@
 import React from "react";
+import { ContainerFluid, Row, Col, Card } from "e-ui-react";
+import OrderList from "@MainComponents/order-list/index.js";
+import Header from '@MainTemplates/Header/index.js';
+import { HeaderMenu } from '@MainConfig/HeaderMenu.js';
+import Bottom from '@MainTemplates/Bottom/index.js';
 
 const CookiesPolicy = () =>{
- return (<div></div>);
+ return (<div className="mbot15p">
+      <Header menulinks={HeaderMenu} />
+      <ContainerFluid>
+          <Row>
+              <Col md={12}>
+                  <div>
+                      <hr/><h2 className="blog-head" style={{ paddingTop:'15px' }}><b>Cookies Policy</b></h2><hr/>
+                  </div>
+              </Col>
+          </Row>
+          <Row>
+              <Col md={8}></Col>
+              <Col md={4}>
+                  <div className="core-summary-title mtop15p"><b>COOKIES POLICY - SUMMARY</b></div>
+                  <div className="mtop15p">
+                      <Card padding={15} backgroundColor="#f5f5f5">
+                          <div>
+                              <div align="center"><h5><b>What are Cookies Policy?</b></h5></div>
+                              <div className="blog-desc mtop5p">
+                                Cookies Policy tells users what cookies the website uses (small data files for tracking 
+                                or saving preferences), and how they're used.<br/>
+                                It required under laws like EU Cookie Law. Users must be informed and consent must be taken.      
+                              </div>
+                          </div>
+                      </Card>
+                  </div>
+              </Col>
+          </Row>
+      </ContainerFluid>
+      <Bottom />
+   </div>);
 };
 
 export default CookiesPolicy; 

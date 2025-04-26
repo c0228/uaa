@@ -77,17 +77,17 @@ const Bottom = () =>{
     <Row>
       <Col md={2}></Col>
       <Col md={2}><Item label="Privacy Policy" href="privacy-policy" /></Col>
-      <Col md={2}><Item label="User Agreement" /></Col>
-      <Col md={2}><Item label="Terms & Conditions" /></Col>
-      <Col md={2}><Item label="Cookies Policy" /></Col>
+      <Col md={2}><Item label="User Agreement" href="user-agreement" /></Col>
+      <Col md={2}><Item label="Terms & Conditions" href="terms-and-conditions" /></Col>
+      <Col md={2}><Item label="Cookies Policy" href="cookies-policy" /></Col>
       <Col md={2}></Col>
     </Row>
     <Row>
       <Col md={2}></Col>
-      <Col md={2}><Item label="Disclaimer" /></Col>
-      <Col md={2}><Item label="Accessibility" /></Col>
-      <Col md={2}><Item label="Legal Notice" /></Col>
-      <Col md={2}><Item label="Terms of Use" /></Col>
+      <Col md={2}><Item label="Disclaimer" href="disclaimer" /></Col>
+      <Col md={2}><Item label="Accessibility" href="accessibility" /></Col>
+      <Col md={2}><Item label="Legal Notice" href="legal-notice" /></Col>
+      <Col md={2}><Item label="Terms of Use" href="terms-of-use" /></Col>
       <Col md={2}></Col>
     </Row>
     </div>

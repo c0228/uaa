@@ -3,7 +3,7 @@ import { ContainerFluid, Row, Col, Card } from "e-ui-react";
 import OrderList from "@MainComponents/order-list/index.js";
 import Header from '@MainTemplates/Header/index.js';
 import { HeaderMenu } from '@MainConfig/HeaderMenu.js';
-import BlogArticleHeader from '@MainComponents/blog-article-header/index.js';
+import Bottom from '@MainTemplates/Bottom/index.js';
 import Introduction from "./components/01-introduction/index.js";
 import Definitions from "./components/02-definitions/index.js";
 import InfoWeCollect from "./components/03-info-we-collect/index.js";
@@ -16,7 +16,7 @@ import DataRetention from "./components/09-data-retention/index.js";
 import SecurityInfo from "./components/10-security-info/index.js";
 import DataTransfer from "./components/11-data-transfer/index.js";
 import Conclusion from "./components/12-conclusion/index.js";
-import Bottom from '@MainTemplates/Bottom/index.js';
+
 
 const PrivacyPolicy = () =>{
  const Listing = () =>{
