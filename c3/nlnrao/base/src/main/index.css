@@ -1,3 +1,7 @@
+/* Used in Pages/Core */
+.core-summary-title { padding:8px;background-color:#333;box-shadow:2px 2px 2px 2px #aaa;
+    border:2px solid #333;color:#fff;letter-spacing:1px; }
+
 
 .lh25p { line-height:25px; }
 .lh28p { line-height:28px; }
