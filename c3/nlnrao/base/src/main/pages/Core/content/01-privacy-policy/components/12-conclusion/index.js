@@ -1,7 +1,7 @@
 import React from "react";
 
 const Conclusion = () =>{
- return (<div className="mtop15p mbot15p">
+ return (<div id="conclusion" className="mtop15p mbot15p">
     <div className="blog-desc mtop15p mbot15p">
         <div className="mtop15p mbot15p"><h4><b>Conclusion</b></h4><hr/></div>
         <div className="mtop15p mbot15p">We are committed to protecting your privacy and ensuring transparency in how we collect, use, 

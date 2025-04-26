@@ -1,7 +1,7 @@
 import React from "react";
 
 const InfoWeCollect = () =>{
- return (<div className="mtop15p mbot15p">
+ return (<div id="information-we-collect" className="mtop15p mbot15p">
     <div className="mtop15p">
                 <div className="mbot15p"><h4><b>II. Information We Collect</b></h4><hr/></div>
                 <div className="blog-desc mtop15p">

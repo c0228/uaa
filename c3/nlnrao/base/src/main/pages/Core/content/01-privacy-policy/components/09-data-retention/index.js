@@ -1,7 +1,7 @@
 import React from "react";
 
 const DataRetention = () =>{
- return (<div className="mtop15p mbot15p">
+ return (<div id="data-retention" className="mtop15p mbot15p">
     <div className="blog-desc mtop15p">
         <div className="mbot15p"><h4><b>VIII. Data Retention</b></h4><hr/></div>
         <div className="mtop15p">We retain your personal data only for as long as necessary to fulfill the purposes for which 

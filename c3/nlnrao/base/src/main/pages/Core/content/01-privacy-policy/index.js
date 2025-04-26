@@ -1,5 +1,6 @@
 import React from "react";
 import { ContainerFluid, Row, Col } from "e-ui-react";
+import OrderList from "@MainComponents/order-list/index.js";
 import Header from '@MainTemplates/Header/index.js';
 import { HeaderMenu } from '@MainConfig/HeaderMenu.js';
 import BlogArticleHeader from '@MainComponents/blog-article-header/index.js';
@@ -18,6 +19,32 @@ import Conclusion from "./components/12-conclusion/index.js";
 import Bottom from '@MainTemplates/Bottom/index.js';
 
 const PrivacyPolicy = () =>{
+ const Listing = () =>{
+    const data = [{ id:'definitions', label:'Definitions' },
+        { id:'information-we-collect', label:'Information We Collect' },
+        { id:'how-we-use-your-information', label:'How We Use Your Information' },
+        { id:'cookies-and-tracking-technologies', label:'Cookies and Tracking Technologies' },
+        { id:'analytics-and-advertising', label:'Analytics and Advertising' },
+        { id:'how-we-share-your-information', label:'How We Share Your Information' },
+        { id:'your-data-protection-rights', label:'Your Data Protection Rights' },
+        { id:'data-retention', label:'Data Retention' },
+        { id:'security-of-your-information', label:'Security of Your Information' },
+        { id:'international-data-transfers', label:'International Data Transfers' }];
+
+    const scrollToSection = (sectionId) => {
+        const element = document.getElementById(sectionId);
+        if (element) {
+          element.scrollIntoView({ behavior: "smooth", block: "start" });
+        }
+    };
+
+    return (<div style={{ marginTop:'15px'}}>
+        <OrderList order="ol" type="I" data={data?.map((d,i)=>{
+                return (<span id={d?.id} key={i} style={{ color:'#333', cursor:'pointer' }} 
+                            onClick={()=>scrollToSection(d?.id)}><u><b>{d?.label}</b></u></span>);
+            })} />
+    </div>);
+ };
  return (<div className="mbot15p">
     <Header menulinks={HeaderMenu} />
     <ContainerFluid>
@@ -46,19 +73,11 @@ const PrivacyPolicy = () =>{
             <Col md={4}>
             <div className="mtop15p" style={{ padding:'8px', backgroundColor:'#ddd', 
                 boxShadow:'2px 2px 2px 2px #ccc' }}><b>Privacy policy</b></div>
-            <ol type="I" style={{ marginTop:'15px' }}>
-                <li className="mtop5p"><b>Definitions</b></li>
-                <li className="mtop5p"><b>Information We Collect</b></li>
-                <li className="mtop5p"><b>How We Use Your Information</b></li>
-                <li className="mtop5p"><b>Cookies and Tracking Technologies</b></li>
-                <li className="mtop5p"><b>Analytics and Advertising</b></li>
-                <li className="mtop5p"><b>How We Share Your Information</b></li>
-                <li className="mtop5p"><b>Your Data Protection Rights</b></li>
-                <li className="mtop5p"><b>Data Retention</b></li>
-                <li className="mtop5p"><b>Security of Your Information</b></li>
-                <li className="mtop5p"><b>International Data Transfers</b></li>
-                <li className="mtop5p"><b>Conclusion</b></li>
-            </ol>
+            <div className="mtop15p blog-desc">Any personal information collected on this blog (such as name, email, or 
+                comments) is used only to improve your experience and will never be shared, sold, or used for unsolicited 
+                communication.<br/><br/> We may use cookies for analytics and user preferences. By using this site, you consent to our privacy 
+                practices. You can visit following sections -</div>
+            <Listing />
             </Col>
         </Row>
     </ContainerFluid>

@@ -1,7 +1,7 @@
 import React from "react";
 
 const CookiesTrackingTech = () =>{
- return (<div className="mtop15p mbot15p">
+ return (<div id="cookies-and-tracking-technologies" className="mtop15p mbot15p">
     <div className="blog-desc mtop15p">
         <div className="mbot15p"><h4><b>IV. Cookies and Tracking Technologies</b></h4><hr/></div>
         <div className="mtop15p">We use cookies and similar tracking technologies to collect, store, and analyze information about 

@@ -1,7 +1,7 @@
 import React from "react";
 
 const DataProtectionRights = () =>{
- return (<div className="mtop15p mbot15p">
+ return (<div id="your-data-protection-rights" className="mtop15p mbot15p">
     <div className="blog-desc mtop15p">
         <div className="mbot15p"><h4><b>VII. Your Data Protection Rights</b></h4><hr/></div>
         <div className="mtop5p">We respect your rights concerning your personal data and are committed to complying with applicable 

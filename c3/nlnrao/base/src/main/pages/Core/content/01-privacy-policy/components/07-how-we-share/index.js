@@ -1,7 +1,7 @@
 import React from "react";
 
 const HowWeShare = () =>{
- return (<div className="mtop15p mbot25p">
+ return (<div id="how-we-share-your-information" className="mtop15p mbot25p">
     <div className="blog-desc mtop15p">
         <div className="mbot15p"><h4><b>VI. How We Share Your Information</b></h4><hr/></div>
         <div className="mtop15p">We take your privacy seriously and do not sell or rent your personal information. However, we may share 

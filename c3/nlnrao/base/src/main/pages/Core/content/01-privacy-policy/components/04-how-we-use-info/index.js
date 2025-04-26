@@ -1,7 +1,7 @@
 import React from "react";
 
 const HowWeUseInfo = () =>{
- return (<div className="mtop15p mbot15p">
+ return (<div id="how-we-use-your-information" className="mtop15p mbot15p">
     <div className="blog-desc mtop15p">
         <div className="mbot15p"><h4><b>III. How We Use Your Information</b></h4><hr/></div>
         <div className="mtop5p">We use the information we collect from you for various legitimate business and operational purposes. 

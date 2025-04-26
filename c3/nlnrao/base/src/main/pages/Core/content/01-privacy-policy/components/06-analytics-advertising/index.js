@@ -1,7 +1,7 @@
 import React from "react";
 
 const AnalyticsAdvertising = () =>{
- return (<div className="mtop15p mbot15p">
+ return (<div id="analytics-and-advertising" className="mtop15p mbot15p">
     <div className="blog-desc mtop15p">
         <div className="mbot15p"><h4><b>V. Analytics and Advertising</b></h4><hr/></div>
         <div className="mtop5p">To better understand how users engage with our Site and to support our ability to monetize and deliver free 

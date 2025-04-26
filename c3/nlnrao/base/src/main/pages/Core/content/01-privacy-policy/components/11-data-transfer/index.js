@@ -1,7 +1,7 @@
 import React from "react";
 
 const DataTransfer = () =>{
- return (<div className="mtop15p mbot15p">
+ return (<div id="international-data-transfers" className="mtop15p mbot15p">
     <div className="blog-desc mtop15p">
         <div className="mbot15p"><h4><b>X. International Data Transfers</b></h4><hr/></div>
         <div className="mtop5p">As part of our commitment to providing a seamless experience for users worldwide, we may transfer, 

@@ -1,7 +1,7 @@
 import React from "react";
 
 const SecurityInfo = () =>{
- return (<div className="mtop15p mbot15p">
+ return (<div id="security-of-your-information" className="mtop15p mbot15p">
     <div className="blog-desc mtop15p">
         <div className="mbot15p"><h4><b>IX. Security of Your Information</b></h4><hr/></div>
         <div className="mtop15p">We take the security of your personal information seriously and are committed to protecting it 
