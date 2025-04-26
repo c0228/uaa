@@ -71,8 +71,8 @@ const PrivacyPolicy = () =>{
                 <Conclusion />
             </Col>
             <Col md={4}>
-            <div className="mtop15p" style={{ padding:'8px', backgroundColor:'#ccc', 
-                boxShadow:'2px 2px 2px 2px #ccc', color:'#000', letterSpacing:'1px' }}><b>PRIVACY POLICY - SUMMARY</b></div>
+            <div className="mtop15p" style={{ padding:'8px', backgroundColor:'#333', boxShadow:'2px 2px 2px 2px #aaa',
+                border:'2px solid #333', color:'#fff', letterSpacing:'1px' }}><b>PRIVACY POLICY - SUMMARY</b></div>
             <div className="mtop15p">
                 <Card padding={15} backgroundColor="#f5f5f5">
                     <div>
