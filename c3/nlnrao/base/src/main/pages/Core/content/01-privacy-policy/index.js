@@ -15,6 +15,7 @@ import DataRetention from "./components/09-data-retention/index.js";
 import SecurityInfo from "./components/10-security-info/index.js";
 import DataTransfer from "./components/11-data-transfer/index.js";
 import Conclusion from "./components/12-conclusion/index.js";
+import Bottom from '@MainTemplates/Bottom/index.js';
 
 const PrivacyPolicy = () =>{
  return (<div className="mbot15p">
@@ -42,10 +43,26 @@ const PrivacyPolicy = () =>{
                 <DataTransfer />
                 <Conclusion />
             </Col>
-            <Col md={4}></Col>
+            <Col md={4}>
+            <div className="mtop15p" style={{ padding:'8px', backgroundColor:'#ddd', 
+                boxShadow:'2px 2px 2px 2px #ccc' }}><b>Privacy policy</b></div>
+            <ol type="I" style={{ marginTop:'15px' }}>
+                <li className="mtop5p"><b>Definitions</b></li>
+                <li className="mtop5p"><b>Information We Collect</b></li>
+                <li className="mtop5p"><b>How We Use Your Information</b></li>
+                <li className="mtop5p"><b>Cookies and Tracking Technologies</b></li>
+                <li className="mtop5p"><b>Analytics and Advertising</b></li>
+                <li className="mtop5p"><b>How We Share Your Information</b></li>
+                <li className="mtop5p"><b>Your Data Protection Rights</b></li>
+                <li className="mtop5p"><b>Data Retention</b></li>
+                <li className="mtop5p"><b>Security of Your Information</b></li>
+                <li className="mtop5p"><b>International Data Transfers</b></li>
+                <li className="mtop5p"><b>Conclusion</b></li>
+            </ol>
+            </Col>
         </Row>
     </ContainerFluid>
-    
+    <Bottom />
  </div>);
 };
 

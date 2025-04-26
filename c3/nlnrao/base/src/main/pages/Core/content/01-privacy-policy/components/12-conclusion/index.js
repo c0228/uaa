@@ -2,9 +2,9 @@ import React from "react";
 
 const Conclusion = () =>{
  return (<div className="mtop15p mbot15p">
-    <div className="blog-desc mtop15p">
-        <div className="mtop15p mbot15p"><h4><b>Conclusion</b></h4></div>
-        <div className="mtop15p">We are committed to protecting your privacy and ensuring transparency in how we collect, use, 
+    <div className="blog-desc mtop15p mbot15p">
+        <div className="mtop15p mbot15p"><h4><b>Conclusion</b></h4><hr/></div>
+        <div className="mtop15p mbot15p">We are committed to protecting your privacy and ensuring transparency in how we collect, use, 
             and safeguard your personal information. This Privacy Policy is designed to help you understand your rights, the 
             data we collect, why we collect it, and how we handle it responsibly.<br/><br/>
             By using our website and services, you acknowledge that you have read, understood, and agreed to the terms outlined 
@@ -19,8 +19,6 @@ const Conclusion = () =>{
                 <div><b>Email:</b> <a href="#">me@nellutlalnrao.com</a></div>
                 <div><b>Website:</b> <a href="https://www.nellutlalnrao.com">https://www.nellutlalnrao.com</a></div>
             </div>
-            <div align="center" className="mtop5p">Thank you for trusting us.</div>
-            <div align="right">With Regards,<br/> <b>[Nellutla L N Rao]</b></div>
         </div>
     </div>
  </div>);

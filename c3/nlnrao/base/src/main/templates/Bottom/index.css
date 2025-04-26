@@ -1,1 +1,3 @@
-.bis-bottom-container {  background-color:#000;color:#999; }
+.nlnrblog-bottom-container {  background-color:#000;color:#999; }
+.nlnrblog-bottom-item { color:#aaa;text-decoration:none;cursor:pointer; }
+.nlnrblog-bottom-item:hover { color:#777;text-decoration: underline; }

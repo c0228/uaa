@@ -5,12 +5,13 @@ import SocialLinks from "./components/SocialLinks/index.js";
 import './index.css';
 
 const Bottom = () =>{
- const MainTitle = ({ label }) =><div align="center" style={{ color:'#ccc' }}><h4><b>{label}</b></h4></div>
  const Heading = ({ label }) =><div style={{ color:'#ccc' }}><h5><b>{label}</b></h5></div>
- const Item = ({ label }) =><div className="mtop5p">{label}</div>
+ const Item = ({ label, href }) =><div className="mtop5p">
+      <a href={process.env.PROJECT_MAIN_URL+href} className="nlnrblog-bottom-item">{label}</a>
+    </div>
  const webDev = {};
  return (<div>
-     <div className="bis-bottom-container" style={{ paddingTop:'25px', paddingBottom:'45px' }}>
+     <div className="nlnrblog-bottom-container" style={{ paddingTop:'25px', paddingBottom:'45px' }}>
   <ContainerFluid>
     <Row>
       <Col md={12}>
@@ -75,7 +76,7 @@ const Bottom = () =>{
     <div align="center" style={{ paddingTop:'15px', borderTop:'1px solid #333', marginTop:'25px' }}>
     <Row>
       <Col md={2}></Col>
-      <Col md={2}><Item label="Privacy Policy" /></Col>
+      <Col md={2}><Item label="Privacy Policy" href="privacy-policy" /></Col>
       <Col md={2}><Item label="User Agreement" /></Col>
       <Col md={2}><Item label="Terms & Conditions" /></Col>
       <Col md={2}><Item label="Cookies Policy" /></Col>
