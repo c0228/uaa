@@ -1,5 +1,5 @@
 import React from "react";
-import { ContainerFluid, Row, Col } from "e-ui-react";
+import { ContainerFluid, Row, Col, Card } from "e-ui-react";
 import OrderList from "@MainComponents/order-list/index.js";
 import Header from '@MainTemplates/Header/index.js';
 import { HeaderMenu } from '@MainConfig/HeaderMenu.js';
@@ -71,8 +71,20 @@ const PrivacyPolicy = () =>{
                 <Conclusion />
             </Col>
             <Col md={4}>
-            <div className="mtop15p" style={{ padding:'8px', backgroundColor:'#ddd', 
-                boxShadow:'2px 2px 2px 2px #ccc' }}><b>Privacy policy</b></div>
+            <div className="mtop15p" style={{ padding:'8px', backgroundColor:'#ccc', 
+                boxShadow:'2px 2px 2px 2px #ccc', color:'#000', letterSpacing:'1px' }}><b>PRIVACY POLICY - SUMMARY</b></div>
+            <div className="mtop15p">
+                <Card padding={15} backgroundColor="#f5f5f5">
+                    <div>
+                        <div align="center"><h5><b>What is Privacy Policy?</b></h5></div>
+                        <div className="blog-desc mtop5p">
+                            It explains how the website collects, uses, shares, and 
+                            protects user's personal data (like name, email, IP address). It's legally required in many 
+                            countries (like under GDPR, CCPA) to protect user privacy.
+                        </div>
+                    </div>
+                </Card>
+            </div>
             <div className="mtop15p blog-desc">Any personal information collected on this blog (such as name, email, or 
                 comments) is used only to improve your experience and will never be shared, sold, or used for unsolicited 
                 communication.<br/><br/> We may use cookies for analytics and user preferences. By using this site, you consent to our privacy 
