@@ -3,6 +3,7 @@ import { ContainerFluid, Row, Col, Card } from "e-ui-react";
 import OrderList from "@MainComponents/order-list/index.js";
 import Header from '@MainTemplates/Header/index.js';
 import { HeaderMenu } from '@MainConfig/HeaderMenu.js';
+import PageListing from "@MainPages/Core/components/PageListing/index.js";
 import Bottom from '@MainTemplates/Bottom/index.js';
 
 const UserAgreement = () =>{
@@ -26,7 +27,7 @@ const UserAgreement = () =>{
                     <div className="mtop15p">This User Agreement ("Agreement") governs your use of our website, services, and 
                     all related products.</div>
 
-                    <div className="mtop15p">
+                    <div id="acceptance-of-terms" className="mtop15p">
                         <div className="mbot15p"><h4><b>I. Acceptance of Terms</b></h4><hr/></div>
                         <div>
                             <ol>
@@ -43,7 +44,7 @@ const UserAgreement = () =>{
                             </ol>
                         </div>
                     </div>
-                    <div className="mtop15p">
+                    <div id="eligibility" className="mtop15p">
                         <div className="mbot15p"><h4><b>II. Eligibility</b></h4><hr/></div>
                         <div>
                             <ol>
@@ -57,7 +58,7 @@ const UserAgreement = () =>{
                             </ol>
                         </div>
                     </div>
-                    <div className="mtop15p">
+                    <div id="user-responsibilities" className="mtop15p">
                         <div className="mbot15p"><h4><b>III. User Responsibilities</b></h4><hr/></div>
                         <div>
                             <ol>
@@ -74,7 +75,7 @@ const UserAgreement = () =>{
                             </ol>
                         </div>
                     </div>
-                    <div className="mtop15p">
+                    <div id="account-reg-n-security" className="mtop15p">
                         <div className="mbot15p"><h4><b>IV. Account Registration and Security</b></h4><hr/></div>
                         <div>
                             <ol>
@@ -88,7 +89,7 @@ const UserAgreement = () =>{
                             </ol>
                         </div>
                     </div>
-                    <div className="mtop15p">
+                    <div id="privacy-policy" className="mtop15p">
                         <div className="mbot15p"><h4><b>V. Privacy Policy</b></h4><hr/></div>
                         <div>
                             <ol>
@@ -98,7 +99,7 @@ const UserAgreement = () =>{
                             </ol>
                         </div>
                     </div>
-                    <div className="mtop15p">
+                    <div id="intellectual-property-rights" className="mtop15p">
                         <div className="mbot15p"><h4><b>VI. Intellectual Property Rights</b></h4><hr/></div>
                         <div>
                             <ol>
@@ -111,7 +112,7 @@ const UserAgreement = () =>{
                             </ol>
                         </div>
                     </div>
-                    <div className="mtop15p">
+                    <div id="user-content" className="mtop15p">
                         <div className="mbot15p"><h4><b>VII. User Content</b></h4><hr/></div>
                         <div>
                             <ol>
@@ -123,7 +124,7 @@ const UserAgreement = () =>{
                             </ol>
                         </div>
                     </div>
-                    <div className="mtop15p">
+                    <div id="prohibited-activities" className="mtop15p">
                         <div className="mbot15p"><h4><b>VIII. Prohibited Activities</b></h4><hr/></div>
                         <div>
                             <ol>
@@ -137,7 +138,7 @@ const UserAgreement = () =>{
                             </ol>
                         </div>
                     </div>
-                    <div className="mtop15p">
+                    <div id="third-party-links" className="mtop15p">
                         <div className="mbot15p"><h4><b>IX. Third-Party Links</b></h4><hr/></div>
                         <div>
                             <ol>
@@ -147,7 +148,7 @@ const UserAgreement = () =>{
                             </ol>
                         </div>
                     </div>
-                    <div className="mtop15p">
+                    <div id="disclaimers" className="mtop15p">
                         <div className="mbot15p"><h4><b>X. Disclaimers</b></h4><hr/></div>
                         <div>
                             <ol>
@@ -158,7 +159,7 @@ const UserAgreement = () =>{
                             </ol>
                         </div>
                     </div>
-                    <div className="mtop15p">
+                    <div id="limitation-of-liability" className="mtop15p">
                         <div className="mbot15p"><h4><b>XI. Limitation of Liability</b></h4><hr/></div>
                         <div>
                             <ol>
@@ -169,7 +170,7 @@ const UserAgreement = () =>{
                             </ol>
                         </div>
                     </div>
-                    <div className="mtop15p">
+                    <div id="indemnification" className="mtop15p">
                         <div className="mbot15p"><h4><b>XII. Indemnification</b></h4><hr/></div>
                         <div>
                             <ol>
@@ -179,7 +180,7 @@ const UserAgreement = () =>{
                             </ol>
                         </div>
                     </div>
-                    <div className="mtop15p">
+                    <div id="governing-law" className="mtop15p">
                         <div className="mbot15p"><h4><b>XIII. Governing Law</b></h4><hr/></div>
                         <div>
                             <ol>
@@ -188,7 +189,7 @@ const UserAgreement = () =>{
                             </ol>
                         </div>
                     </div>
-                    <div className="mtop15p">
+                    <div id="termination" className="mtop15p">
                         <div className="mbot15p"><h4><b>XIV. Termination</b></h4><hr/></div>
                         <div>
                             <ol>
@@ -218,6 +219,26 @@ const UserAgreement = () =>{
                         </div>
                     </Card>
                 </div>
+                <div className="mtop15p">
+                    By using our website, you agree to follow our rules, respect intellectual property, protect your 
+                    account, and use the site legally. We may update terms anytime. We are not responsible for third-party 
+                    links or site errors. Your continued use means acceptance. The Following are the sections - 
+                </div>
+                <PageListing data={[{ id:'acceptance-of-terms', label:'Acceptance of Terms' },
+                    { id:'eligibility', label:'Eligibility' },
+                    { id:'user-responsibilities', label:'User Responsibilities' },
+                    { id:'account-reg-n-security', label:'Account Registration and Security' },
+                    { id:'privacy-policy', label:'Privacy Policy' },
+                    { id:'intellectual-property-rights', label:'Intellectual Property Rights' },
+                    { id:'user-content', label:'User Content' },
+                    { id:'prohibited-activities', label:'Prohibited Activities' },
+                    { id:'third-party-links', label:'Third-Party Links' },
+                    { id:'disclaimers', label:'Disclaimers' },
+                    { id:'limitation-of-liability', label:'Limitation of Liability' },
+                    { id:'indemnification', label:'Indemnification' },
+                    { id:'governing-law', label:'Governing Law' },
+                    { id:'termination', label:'Termination' },
+                ]} />
             </Col>
         </Row>
     </ContainerFluid>

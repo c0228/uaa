@@ -1,6 +1,5 @@
 import React from "react";
 import { ContainerFluid, Row, Col, Card } from "e-ui-react";
-import OrderList from "@MainComponents/order-list/index.js";
 import Header from '@MainTemplates/Header/index.js';
 import { HeaderMenu } from '@MainConfig/HeaderMenu.js';
 import Bottom from '@MainTemplates/Bottom/index.js';
@@ -16,35 +15,11 @@ import DataRetention from "./components/09-data-retention/index.js";
 import SecurityInfo from "./components/10-security-info/index.js";
 import DataTransfer from "./components/11-data-transfer/index.js";
 import Conclusion from "./components/12-conclusion/index.js";
+import PageListing from "@MainPages/Core/components/PageListing/index.js";
 
 
 const PrivacyPolicy = () =>{
- const Listing = () =>{
-    const data = [{ id:'definitions', label:'Definitions' },
-        { id:'information-we-collect', label:'Information We Collect' },
-        { id:'how-we-use-your-information', label:'How We Use Your Information' },
-        { id:'cookies-and-tracking-technologies', label:'Cookies and Tracking Technologies' },
-        { id:'analytics-and-advertising', label:'Analytics and Advertising' },
-        { id:'how-we-share-your-information', label:'How We Share Your Information' },
-        { id:'your-data-protection-rights', label:'Your Data Protection Rights' },
-        { id:'data-retention', label:'Data Retention' },
-        { id:'security-of-your-information', label:'Security of Your Information' },
-        { id:'international-data-transfers', label:'International Data Transfers' }];
 
-    const scrollToSection = (sectionId) => {
-        const element = document.getElementById(sectionId);
-        if (element) {
-          element.scrollIntoView({ behavior: "smooth", block: "start" });
-        }
-    };
-
-    return (<div style={{ marginTop:'15px'}}>
-        <OrderList order="ol" type="I" data={data?.map((d,i)=>{
-                return (<span id={d?.id} key={i} style={{ color:'#333', cursor:'pointer' }} 
-                            onClick={()=>scrollToSection(d?.id)}><u><b>{d?.label}</b></u></span>);
-            })} />
-    </div>);
- };
  return (<div className="mbot15p">
     <Header menulinks={HeaderMenu} />
     <ContainerFluid>
@@ -88,7 +63,16 @@ const PrivacyPolicy = () =>{
                 comments) is used only to improve your experience and will never be shared, sold, or used for unsolicited 
                 communication.<br/><br/> We may use cookies for analytics and user preferences. By using this site, you consent to our privacy 
                 practices. You can visit following sections -</div>
-            <Listing />
+            <PageListing data={[{ id:'definitions', label:'Definitions' },
+                    { id:'information-we-collect', label:'Information We Collect' },
+                    { id:'how-we-use-your-information', label:'How We Use Your Information' },
+                    { id:'cookies-and-tracking-technologies', label:'Cookies and Tracking Technologies' },
+                    { id:'analytics-and-advertising', label:'Analytics and Advertising' },
+                    { id:'how-we-share-your-information', label:'How We Share Your Information' },
+                    { id:'your-data-protection-rights', label:'Your Data Protection Rights' },
+                    { id:'data-retention', label:'Data Retention' },
+                    { id:'security-of-your-information', label:'Security of Your Information' },
+                    { id:'international-data-transfers', label:'International Data Transfers' }]} />
             </Col>
         </Row>
     </ContainerFluid>
