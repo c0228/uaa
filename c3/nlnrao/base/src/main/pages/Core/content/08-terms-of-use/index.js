@@ -17,7 +17,14 @@ const TermsOfUse = () =>{
                 </Col>
             </Row>
             <Row>
-                <Col md={8}></Col>
+                <Col md={8}>
+                    <div className="blog-desc mbot35p">
+                        <div className="mtop15p">
+                            <div><b><i>Last Updated:</i></b> April 26, 2025</div>
+                        </div>
+                        <div className="mtop15p"><h4>Welcome to <b>nellutlalnrao.com</b>!</h4></div>
+                    </div>
+                </Col>
                 <Col md={4}>
                     <div className="core-summary-title mtop15p"><b>TERMS OF USE - SUMMARY</b></div>
                     <div className="mtop15p">

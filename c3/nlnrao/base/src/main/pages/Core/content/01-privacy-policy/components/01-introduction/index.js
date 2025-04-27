@@ -3,7 +3,11 @@ import React from "react";
 const Introduction = () =>{
  return (<div className="mtop15p mbot15p">
     <div className="blog-desc mtop15p">
-            Welcome to <i><u>nellutlalnrao.com</u></i> (referred to as "we", "our" or "us"). We value your privacy and 
+            <div className="mtop15p">
+                <div><b><i>Last Updated:</i></b> April 26, 2025</div>
+            </div>
+            <div className="mtop15p mbot15p"><h4>Welcome to <b>nellutlalnrao.com</b>!</h4></div>
+            We value your privacy and 
             are committed to protecting the personal information you share with us when accessing or using our 
             website <i><u>nellutlalnrao.com</u></i> (the "Site").<br/><br/>
             This Privacy Policy outlines how we collect, use, store, disclose, and safeguard your information when you visit our 

@@ -23,7 +23,7 @@ const UserAgreement = () =>{
                     <div className="mtop15p">
                         <div><b><i>Last Updated:</i></b> April 26, 2025</div>
                     </div>
-                    <div className="mtop15p">Welcome to <b>nellutlalnrao.com</b>!</div>
+                    <div className="mtop15p"><h4>Welcome to <b>nellutlalnrao.com</b>!</h4></div>
                     <div className="mtop15p">This User Agreement ("Agreement") governs your use of our website, services, and 
                     all related products.</div>
 
