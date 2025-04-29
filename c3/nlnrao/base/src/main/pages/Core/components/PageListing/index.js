@@ -11,10 +11,12 @@ const PageListing = ({ data }) =>{
     };
 
     return (<div style={{ marginTop:'15px'}}>
-        <OrderList order="ol" type="I" data={data?.map((d,i)=>{
-                return (<span id={d?.id} key={i} style={{ color:'#333', cursor:'pointer' }} 
-                            onClick={()=>scrollToSection(d?.id)}><u><b>{d?.label}</b></u></span>);
-            })} />
+        <ol type="I">
+          {data?.map((d,i)=>{
+                return (<li id={d?.id} key={i} style={{ marginTop:'10px', color:'#333', cursor:'pointer' }} 
+                            onClick={()=>scrollToSection(d?.id)}><u><b>{d?.label}</b></u></li>);
+          })}
+        </ol>
     </div>);
  };
 

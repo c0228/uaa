@@ -219,11 +219,12 @@ const UserAgreement = () =>{
                         </div>
                     </Card>
                 </div>
-                <div className="mtop15p">
+                <div className="blog-desc mtop15p">
                     By using our website, you agree to follow our rules, respect intellectual property, protect your 
                     account, and use the site legally. We may update terms anytime. We are not responsible for third-party 
                     links or site errors. Your continued use means acceptance. The Following are the sections - 
                 </div>
+                <div className="blog-desc">
                 <PageListing data={[{ id:'acceptance-of-terms', label:'Acceptance of Terms' },
                     { id:'eligibility', label:'Eligibility' },
                     { id:'user-responsibilities', label:'User Responsibilities' },
@@ -239,6 +240,7 @@ const UserAgreement = () =>{
                     { id:'governing-law', label:'Governing Law' },
                     { id:'termination', label:'Termination' },
                 ]} />
+                </div>
             </Col>
         </Row>
     </ContainerFluid>

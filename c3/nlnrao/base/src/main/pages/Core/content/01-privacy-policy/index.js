@@ -63,6 +63,7 @@ const PrivacyPolicy = () =>{
                 comments) is used only to improve your experience and will never be shared, sold, or used for unsolicited 
                 communication.<br/><br/> We may use cookies for analytics and user preferences. By using this site, you consent to our privacy 
                 practices. You can visit following sections -</div>
+            <div className="blog-desc">
             <PageListing data={[{ id:'definitions', label:'Definitions' },
                     { id:'information-we-collect', label:'Information We Collect' },
                     { id:'how-we-use-your-information', label:'How We Use Your Information' },
@@ -73,6 +74,7 @@ const PrivacyPolicy = () =>{
                     { id:'data-retention', label:'Data Retention' },
                     { id:'security-of-your-information', label:'Security of Your Information' },
                     { id:'international-data-transfers', label:'International Data Transfers' }]} />
+            </div>
             </Col>
         </Row>
     </ContainerFluid>
