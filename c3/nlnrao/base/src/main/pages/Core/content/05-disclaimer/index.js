@@ -29,15 +29,15 @@ const Disclaimer = () =>{
                         If you do not agree, please discontinue use immediately.
                         </div>
                         <div className="blog-desc mbot35p">
-                    
-                            <div id="" className="mtop15p">
+                       
+                            <div id="general-information" className="mtop15p">
                                 <div className="mbot15p"><h4><b>I. General Information</b></h4><hr/></div>
                                 <div>The content on this website is provided for general informational and educational purposes only. It is not intended as
                                      professional, legal, medical, financial, or other specialist advice. We make no guarantees about the completeness, accuracy, 
                                      reliability, or suitability of this information.</div>
                             </div>
 
-                            <div id="" className="mtop15p">
+                            <div id="no-professional-advice" className="mtop15p">
                                 <div className="mbot15p"><h4><b>II. No Professional Advice</b></h4><hr/></div>
                                 <div>Nothing on this site constitutes or should be construed as professional advice of any kind. Always consult with a 
                                     qualified professional regarding your specific situation.<br/>
@@ -50,14 +50,14 @@ const Disclaimer = () =>{
                                 </div>
                             </div>
 
-                            <div id="" className="mtop15p">
+                            <div id="accuracy-of-information" className="mtop15p">
                                 <div className="mbot15p"><h4><b>III. Accuracy of Information</b></h4><hr/></div>
                                 <div>While we strive to keep content up-to-date and accurate, we make no warranties or guarantees of any kind. 
                                     Information may become outdated or inaccurate over time.<br/>
                                     You are encouraged to verify any information obtained from this Website before acting upon it.</div>
                             </div>
 
-                            <div id="" className="mtop15p">
+                            <div id="third-party-links-and-resources" className="mtop15p">
                                 <div className="mbot15p"><h4><b>IV. Third-Party Links and Resources</b></h4><hr/></div>
                                 <div>This Website may contain links to third-party websites or content. These are provided for convenience 
                                     and do not constitute endorsement or approval.<br/>
@@ -65,26 +65,26 @@ const Disclaimer = () =>{
                                     in our content.</div>
                             </div>
 
-                            <div id="" className="mtop15p">
+                            <div id="user-generated-content" className="mtop15p">
                                 <div className="mbot15p"><h4><b>V. User-Generated Content</b></h4><hr/></div>
                                 <div>We may allow users to comment, post, or interact with content. The views expressed by users do not reflect 
                                     our opinions or values. We reserve the right to remove or moderate content at our discretion.</div>
                             </div>
 
-                            <div id="" className="mtop15p">
+                            <div id="affiliate-disclaimer" className="mtop15p">
                                 <div className="mbot15p"><h4><b>VI. Affiliate Disclaimer</b></h4><hr/></div>
                                 <div>Some links on this Website may be affiliate links, meaning we may earn a small commission if you click through 
                                     and make a purchase, at no additional cost to you. This helps support the maintenance of the Website.</div>
                             </div>
 
-                            <div id="" className="mtop15p">
+                            <div id="testimonials-and-reviews" className="mtop15p">
                                 <div className="mbot15p"><h4><b>VII. Testimonials and Reviews</b></h4><hr/></div>
                                 <div>Testimonials or reviews reflect the personal experiences and opinions of users or contributors. These are not 
                                     guarantees of specific outcomes and should not be interpreted as such.
                                 </div>
                             </div>
-
-                            <div id="" className="mtop15p">
+                            
+                            <div id="limitation-of-liability" className="mtop15p">
                                 <div className="mbot15p"><h4><b>VIII. Limitation of Liability</b></h4><hr/></div>
                                 <div>In no event shall we be held liable for any loss or damage (including indirect, incidental, special, or consequential) 
                                     arising out of the use of this Website or reliance on any information provided.<br/>
@@ -99,7 +99,7 @@ const Disclaimer = () =>{
                                 <div>Use of this Website is entirely at your own risk.</div>
                             </div>
 
-                            <div id="" className="mtop15p">
+                            <div id="no-warranties" className="mtop15p">
                                 <div className="mbot15p"><h4><b>IX. No Warranties</b></h4><hr/></div>
                                 <div>The Website is provided “as is” and “as available” without warranties of any kind, either express or implied. This 
                                     includes but is not limited to:
@@ -118,7 +118,7 @@ const Disclaimer = () =>{
                                 </div>
                             </div>
 
-                            <div id="" className="mtop15p">
+                            <div id="fair-use-disclaimer" className="mtop15p">
                                 <div className="mbot15p"><h4><b>X. Fair Use Disclaimer</b></h4><hr/></div>
                                 <div>We may reference copyrighted material under the doctrine of "fair use" for purposes such as commentary, criticism, 
                                     education, or news reporting.<br/>
@@ -126,25 +126,25 @@ const Disclaimer = () =>{
                                     </div>
                             </div>
 
-                            <div id="" className="mtop15p">
+                            <div id="views-expressed-disclaimer" className="mtop15p">
                                 <div className="mbot15p"><h4><b>XI. Views Expressed Disclaimer</b></h4><hr/></div>
                                 <div>Opinions expressed on the Website are solely those of the authors or contributors and do not reflect the opinions of 
                                     any organization we are affiliated with (unless explicitly stated).</div>
                             </div>
 
-                            <div id="" className="mtop15p">
+                            <div id="product-and-service-disclaimer" className="mtop15p">
                                 <div className="mbot15p"><h4><b>XII. Product and Service Disclaimer</b></h4><hr/></div>
                                 <div>We do not endorse or guarantee any product or service mentioned on our Website unless explicitly stated. Always do your 
                                     own due diligence before making purchases based on content on our Website.</div>
                             </div>
 
-                            <div id="" className="mtop15p">
+                            <div id="accessibility-disclaimer" className="mtop15p">
                                 <div className="mbot15p"><h4><b>XIII. Accessibility Disclaimer</b></h4><hr/></div>
                                 <div>We strive to make our Website accessible to all users, including those with disabilities. However, we cannot guarantee 
                                     full compliance with all accessibility standards at all times.</div>
                             </div>
 
-                            <div id="" className="mtop15p">
+                            <div id="changes-to-this-disclaimer" className="mtop15p">
                                 <div className="mbot15p"><h4><b>XIV. Changes to This Disclaimer</b></h4><hr/></div>
                                 <div>We reserve the right to modify, update, or change this Disclaimer at any time. Updates will be posted on this page with 
                                     a new “Last Updated” date.<br/>
@@ -189,22 +189,7 @@ const Disclaimer = () =>{
                                             { id:'accessibility-disclaimer', label:'Accessibility Disclaimer' },
                                             { id:'changes-to-this-disclaimer', label:'Changes to This Disclaimer' }
                                         ]} />
-
-
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                                      </div>
+                                </div>
                 </Col>
             </Row>
         </ContainerFluid>
