@@ -31,13 +31,13 @@ const Bottom = () =>{
       </Col>
       <Col md={3}>
         <Heading label="Middleware / API Design" />
-        <Item label="HTTP Status Codes" />
-        <Item label="Restful APIs" />
-        <Item label="Simple JSON APIs" />
-        <Item label="SOAP APIs" />
-        <Item label="GraphQL" />
-        <Item label="gRPC" />
-        <Item label="MCP (Model Context Protocol)" />
+        <Item label="HTTP Status Codes" href="tech/middleware/api-design/http-status-codes" />
+        <Item label="Restful APIs" href="tech/middleware/api-design/restful-apis"  />
+        <Item label="Simple JSON APIs" href="tech/middleware/api-design/simple-json-apis" />
+        <Item label="SOAP APIs" href="tech/middleware/api-design/soap-apis" />
+        <Item label="GraphQL" href="tech/middleware/api-design/graph-ql" />
+        <Item label="gRPC"  href="tech/middleware/api-design/g-rpc" />
+        <Item label="MCP (Model Context Protocol)" href="tech/middleware/api-design/model-context-protocol-mcp"  />
       </Col>
       <Col md={3}>
         <Heading label="Backend" />

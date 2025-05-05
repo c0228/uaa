@@ -1,0 +1,56 @@
+{
+    "breadcrumbs":{
+        "mw-api-design":[{ "label":"MW / API Design", "url":"/" }]
+    },
+    "urls":{
+        "tech/middleware/api-design/http-status-codes":{
+            "date":"October 26, 2024",
+            "label":"HTTP Status Codes",
+            "component": "HTTPStatusCodes",
+            "breadcrumbIndex": "mw-api-design",
+            "keywords":[]
+        },
+        "tech/middleware/api-design/restful-apis":{
+            "date":"October 26, 2024",
+            "label":"Restful APIs",
+            "component": "RestfulAPIs",
+            "breadcrumbIndex": "mw-api-design",
+            "keywords":[]
+        },
+        "tech/middleware/api-design/simple-json-apis":{
+            "date":"October 26, 2024",
+            "label":"Simple JSON APIs",
+            "component": "SimpleJsonAPIs",
+            "breadcrumbIndex": "mw-api-design",
+            "keywords":[]
+        },
+        "tech/middleware/api-design/soap-apis":{
+            "date":"October 26, 2024",
+            "label":"SOAP APIs",
+            "component": "SOAPAPIs",
+            "breadcrumbIndex": "mw-api-design",
+            "keywords":[]
+        },
+        "tech/middleware/api-design/graph-ql":{
+            "date":"October 26, 2024",
+            "label":"GraphQL",
+            "component": "GraphQL",
+            "breadcrumbIndex": "mw-api-design",
+            "keywords":[]
+        },
+        "tech/middleware/api-design/g-rpc":{
+            "date":"October 26, 2024",
+            "label":"gRPC",
+            "component": "GRPC",
+            "breadcrumbIndex": "mw-api-design",
+            "keywords":[]
+        },
+        "tech/middleware/api-design/model-context-protocol-mcp":{
+            "date":"October 26, 2024",
+            "label":"MCP (Model Context Protocol)",
+            "component": "MCP",
+            "breadcrumbIndex": "mw-api-design",
+            "keywords":[]
+        }
+    }
+}
