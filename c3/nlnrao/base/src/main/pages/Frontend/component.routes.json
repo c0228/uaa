@@ -7,6 +7,20 @@
             "date":"October 26, 2024",
             "component": "Frontend",
             "keywords":[]
+        },
+        "tech/frontend/frontend-performance-optimization-techniques":{
+            "date":"October 26, 2024",
+            "label": "Frontend Performance Optimization Techniques",
+            "component": "FePerfOptTech",
+            "breadcrumbIndex": "frontend",
+            "keywords":[]
+        },
+        "tech/frontend/seo-optimization-techniques":{
+            "date":"October 26, 2024",
+            "label": "SEO Optimization Techniques",
+            "component": "SEOOptTech",
+            "breadcrumbIndex": "frontend",
+            "keywords":[]
         }
     }
 }

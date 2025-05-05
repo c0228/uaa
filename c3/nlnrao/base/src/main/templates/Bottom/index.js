@@ -26,8 +26,8 @@ const Bottom = () =>{
     <Row className="mtop15p">
       <Col md={3}>
         <Heading label="Frontend" />
-        <Item label="Frontend Performance Optimization Techniques" />
-        <Item label="SEO Optimization Techniques" />
+        <Item label="Frontend Performance Optimization Techniques" href="tech/frontend/frontend-performance-optimization-techniques" />
+        <Item label="SEO Optimization Techniques" href="tech/frontend/seo-optimization-techniques" />
       </Col>
       <Col md={3}>
         <Heading label="Middleware / API Design" />

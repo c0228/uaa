@@ -1,10 +1,19 @@
 // Web3
-import CoreRoutes from "./Core/component.routes.json";
-import { CoreComponentMap } from "./Core/component.map.js";
+import AgileRoutes from "./Agile/component.routes.json";
+import { AgileComponentMap } from "./Agile/component.map.js";
 import AIMLRoutes from "./AIML/component.routes.json";
 import { AIMLComponentMap } from "./AIML/component.map.js";
+import CoreRoutes from "./Core/component.routes.json";
+import { CoreComponentMap } from "./Core/component.map.js";
 import DatabasesRoutes from "./Databases/component.routes.json";
 import { DatabasesComponentMap } from "./Databases/component.map.js";
+import DocKubRoutes from "./DocKub/component.routes.json";
+import { DocKubComponentMap } from "./DocKub/component.map.js";
+import DSARoutes from "./DSA/component.routes.json";
+import { DSAComponentMap } from "./DSA/component.map.js";
+import FrontendRoutes from "./Frontend/component.routes.json";
+import { FrontendComponentMap } from "./Frontend/component.map.js";
+
 import Web3Routes from "./Web3/component.routes.json";
 import { Web3ComponentMap } from "./Web3/component.map.js";
 import JSRoutes from "./Javascript/component.routes.json";
@@ -17,20 +26,14 @@ import PythonRoutes from "./Python/component.routes.json";
 import { PythonComponentMap } from "./Python/component.map.js";
 import JavaRoutes from "./Java/component.routes.json";
 import { JavaComponentMap } from "./Java/component.map.js";
-import AgileRoutes from "./Agile/component.routes.json";
-import { AgileComponentMap } from "./Agile/component.map.js";
-import DocKubRoutes from "./DocKub/component.routes.json";
-import { DocKubComponentMap } from "./DocKub/component.map.js";
+
+
 import KafkaRoutes from "./Kafka/component.routes.json";
 import { KafkaComponentMap } from "./Kafka/component.map.js";
 import NetworkingRoutes from "./Networking/component.routes.json";
 import { NetworkingComponentMap } from "./Networking/component.map.js";
 import SystemDesignRoutes from "./SystemDesign/component.routes.json";
 import { SystemDesignComponentMap } from "./SystemDesign/component.map.js";
-import DSARoutes from "./DSA/component.routes.json";
-import { DSAComponentMap } from "./DSA/component.map.js";
-import FrontendRoutes from "./Frontend/component.routes.json";
-import { FrontendComponentMap } from "./Frontend/component.map.js";
 
 export const AllRoutes = {
     "breadcrumbs": { ...AIMLRoutes.breadcrumbs,
