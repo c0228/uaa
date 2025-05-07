@@ -28,6 +28,11 @@ const Bottom = () =>{
         <Heading label="Frontend" />
         <Item label="Frontend Performance Optimization Techniques" href="tech/frontend/frontend-performance-optimization-techniques" />
         <Item label="SEO Optimization Techniques" href="tech/frontend/seo-optimization-techniques" />
+        <Item label="Code Splitting & Tree Shaking" href="#" />
+        <Item label="Props Drilling vs Context API" href="#" />
+        <Item label="Content Security Policy (CSP)" href="#" />
+        <Item label="Image Optimization Techniques" href="#" />
+        <Item label="Micro-Frontend" href="#" />
       </Col>
       <Col md={3}>
         <Heading label="Middleware / API Design" />
@@ -40,38 +45,115 @@ const Bottom = () =>{
         <Item label="MCP (Model Context Protocol)" href="tech/middleware/api-design/model-context-protocol-mcp"  />
       </Col>
       <Col md={3}>
-        <Heading label="Backend" />
-        <Item label="Ultimate Java CheatSheet" />
+        <Heading label="Backend" href="#" />
+        <Item label="Ultimate Java CheatSheet" href="#" />
+        <Item label="Hexagonal Architecture" href="#" />
+        <Item label="SOLID Principles" href="#" />
+        <Item label="Debounce vs Throttle" href="#" />
+        <Item label="Serverless vs Containerized Backends" href="#" />
+        <Item label="Backpressure in Streams" href="#" />
+        <Item label="Message Brokers" href="#" />
+        
       </Col>
       <Col md={3}>
-        <Heading label="FullStack" />
-        <Item label="Tech Ecosystem Timelines" />
+        <Heading label="FullStack" href="#" />
+        <Item label="Tech Ecosystem Timelines" href="#" />
+        <Item label="BFF (Backend for Frontend) Architecture" href="#" />
+        <Item label="CQRS & Event Sourcing" href="#" />
+        <Item label="Webhooks & Event Streams" href="#" />
+        <Item label="Distributed Systems & Fault Tolerance" href="#" />
+        <Item label="CQRS (Command Query Responsibility Segregation) Pattern" href="#" />
       </Col>
     </Row>
-    <Row className="mtop15p">
-      <Col md={3}><Heading label="Mobile Development" /></Col>
+    <Row className="mtop35p">
+      <Col md={3}>
+        <Heading label="React Native Mobile Development" />
+        <Item label="Memory Leak Prevention"  href="#" />
+        <Item label="React Native with Redux Saga"  href="#" />
+        <Item label="Handling Offline Data & Syncing"  href="#" />
+        <Item label="GraphQL & Apollo Client"  href="#" />
+        <Item label="Preventing Man-in-the-Middle (MITM) Attacks"  href="#" />
+        <Item label="Virtualized Rendering for large lists"  href="#" />
+        <Item label="DevOps Pipeline: App Store & Play Store"  href="#" />
+      </Col>
       <Col md={3}>
         <Heading label="DevOps" />
-        <Item label="Top 200 Linux Commands" />
-        <Item label="Cloud Cost Optimization Guide (AWS, Azure, GCP)" />
-        <Item label="Kubernetes for Developers: Cheatsheet & Concepts" />
-        <Item label="Top 100 Docker Commands for DevOps & Developers" />
-        <Item label="Ultimate Git CheatSheet for Teams" />
+        <Item label="DevOps vs DevSecOps"  href="#" />
+        <Item label="Top 200 Linux Commands"  href="#" />
+        <Item label="Kubernetes for Developers" href="#" />
+        <Item label="Top 100 Docker Commands" href="#" />
+        <Item label="Ultimate Git CheatSheet for Teams" href="#" />
+        <Item label="Forward proxy vs Reverse proxy"  href="#" />
+        <Item label="Zero-Downtime Deployments"  href="#" />
       </Col>
       <Col md={3}>
         <Heading label="Databases" />
-        <Item label="Classification of Databases" />
+        <Item label="Classification of Databases" href="#" />
+        <Item label="ACID & BASE Properties" href="#" />
+        <Item label="Connection Pooling" href="#" />
+        <Item label="Database Optimization Techniques" href="#" />
+        <Item label="Normalization & Denormalization" href="#" />
+        <Item label="Optimistic vs Pessimistic Locking" href="#" />
+        <Item label="OLAP vs OLTP Databases" href="#" />
+        
       </Col>
       <Col md={3}>
         <Heading label="Web 3.0 & Blockchain" />
-        <Item label="Web3 & Blockchain Roadmap" />
+        <Item label="Web3 & Blockchain Roadmap" href="#" />
+        <Item label="Virtual Machines: EVM vs SVM" href="#" />
+        <Item label="Layer 1 & Layer 2 Solutions" href="#" />
+        <Item label="Cross-Chain Technology" href="#" />
+        <Item label="Blockchain Governance" href="#" />
+        <Item label="Web 3.0 Browsers" href="#" />
+        <Item label="Decentralized Storage (IPFS)" href="#" />
+
       </Col>
     </Row>
-    <Row className="mtop15p">
-      <Col md={3}><Heading label="Networking" /></Col>
-      <Col md={3}><Heading label="Machine Learning" /></Col>
-      <Col md={3}><Heading label="Game Development" /></Col>
-      <Col md={3}><Heading label="CyberSecurity" /></Col>
+    <Row className="mtop35p">
+      <Col md={3}>
+        <Heading label="Networking" />
+        <Item label="OSI vs. TCP/IP Models" href="#" />
+        <Item label="IP Addressing and Subnetting" href="#" />
+        <Item label="Routing and Switching Basics" href="#" />
+        <Item label="DNS and How It Works" href="#" />
+        <Item label="Virtual Private Networks (VPNs)" href="#" />
+        <Item label="LAN vs WAN" href="#" />
+        <Item label="NAT (Network Address Translation)" href="#" />
+        <Item label="Software-Defined Networking (SDN)" href="#" />
+      </Col>
+      <Col md={3}>
+        <Heading label="Machine Learning" />
+        <Item label="Decision Trees vs Random Forests" href="#" />
+        <Item label="K-Means Clustering" href="#" />
+        <Item label="k-Nearest Neighbors (k-NN)" href="#" />
+        <Item label="Artificial Neural Networks (ANNs)" href="#" />
+        <Item label="Convolutional Neural Networks (CNNs)" href="#" />
+        <Item label="Recurrent Neural Networks (RNNs)" href="#" />
+        <Item label="Generative Adversarial Networks (GANs)" href="#" />
+        <Item label="Hidden Markov Models (HMMs)" href="#" />
+      </Col>
+      <Col md={3}>
+        <Heading label="Cloud Deployments" />
+        <Item label="Public, Private & Hybrid Cloud Deployments" href="#" />
+        <Item label="AWS vs Azure vs Google Cloud" href="#" />
+        <Item label="Blue-Green Deployment" href="#" />
+        <Item label="Cloud Cost Optimization Guide (AWS, Azure, GCP)" href="#" />
+        <Item label="HashiCorp Vault for Secret Management" href="#" />
+        <Item label="Edge Computing" href="#" />
+        <Item label="Infrastructure as Code (IaC)" href="#" />
+        <Item label="Prometheus and Grafana" href="#" />
+      </Col>
+      <Col md={3}>
+        <Heading label="CyberSecurity" />
+        <Item label="CIA (Confidentiality, Integrity, Availability) Triad" href="#" />
+        <Item label="Advanced Persistent Threats (APT)" href="#" />
+        <Item label="MITRE ATT&CK Framework" href="#" />
+        <Item label="Purple Teaming" href="#" />
+        <Item label="Open Source Tools for Ethical Hacking" href="#" />
+        <Item label="SIEM vs SOAR" href="#" />
+        <Item label="Zero Trust and API Access Control" href="#" />
+        <Item label="Subresource Integrity (SRI)" href="#" />
+      </Col>
     </Row>
     <div align="center" style={{ paddingTop:'15px', borderTop:'1px solid #333', marginTop:'25px' }}>
     <Row>
