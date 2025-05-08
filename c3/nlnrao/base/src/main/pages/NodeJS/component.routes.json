@@ -23,6 +23,13 @@
             "component": "MemoryLeakPrevent",
             "breadcrumbIndex": "nodeJs",
             "keywords":[]
-        }
+        },
+        "tech/node-js/back-pressure-in-streams":{
+            "date":"October 26, 2024",
+            "label":"Backpressure in Streams",
+            "component": "BackPressureStreams",
+            "breadcrumbIndex": "nodeJs",
+            "keywords":[]
+        } 
     }
 }

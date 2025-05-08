@@ -5,6 +5,7 @@ import SOAPAPIs from "./content/04-soap-apis/index.js";
 import GraphQL from "./content/05-graph-ql/index.js";
 import GRPC from "./content/06-g-rpc/index.js";
 import MCP from "./content/07-mcp/index.js";
+import DebounceThrottle from "./content/08-debounce-throttle/index.js";
 
 export const MWAPIDesignComponentMap = {
  "HTTPStatusCodes": HTTPStatusCodes,
@@ -13,5 +14,6 @@ export const MWAPIDesignComponentMap = {
  "SOAPAPIs": SOAPAPIs,
  "GraphQL": GraphQL,
  "GRPC": GRPC,
- "MCP": MCP
+ "MCP": MCP,
+ "DebounceThrottle": DebounceThrottle
 }

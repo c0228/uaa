@@ -51,6 +51,15 @@
             "component": "MCP",
             "breadcrumbIndex": "mw-api-design",
             "keywords":[]
+        },
+        "tech/middleware/api-design/debounce-vs-throttle":{
+            "date":"October 26, 2024",
+            "label":"Debounce vs Throttle",
+            "component": "DebounceThrottle",
+            "breadcrumbIndex": "mw-api-design",
+            "keywords":[]
         }
+
+        
     }
 }

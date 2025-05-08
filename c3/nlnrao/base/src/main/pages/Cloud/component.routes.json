@@ -1,0 +1,14 @@
+{
+    "breadcrumbs":{
+        "cloud":[{"label":"Cloud", "url":"/" }]
+    },
+    "urls":{
+        "tech/cloud/serverless-vs-containerized-backends":{
+            "date":"March 22, 2025",
+            "label":"Serverless vs Containerized Backends",
+            "component": "ServerlessContainerizedBackends",
+            "breadcrumbIndex": "cloud",
+            "keywords":[]
+        }
+    }
+}

@@ -46,13 +46,13 @@ const Bottom = () =>{
       </Col>
       <Col md={3}>
         <Heading label="Backend" href="#" />
-        <Item label="Ultimate Java CheatSheet" href="#" />
-        <Item label="Hexagonal Architecture" href="#" />
-        <Item label="SOLID Principles" href="#" />
-        <Item label="Debounce vs Throttle" href="#" />
-        <Item label="Serverless vs Containerized Backends" href="#" />
-        <Item label="Backpressure in Streams" href="#" />
-        <Item label="Message Brokers" href="#" />
+        <Item label="Ultimate Java CheatSheet" href="tech/java/ultimate-java-cheatsheet" />
+        <Item label="Hexagonal Architecture" href="tech/system-design/hexagonal-architecture" />
+        <Item label="SOLID Principles" href="tech/system-design/solid-principles" />
+        <Item label="Debounce vs Throttle" href="tech/middleware/api-design/debounce-vs-throttle" />
+        <Item label="Serverless vs Containerized Backends" href="tech/cloud/serverless-vs-containerized-backends" />
+        <Item label="Backpressure in Streams" href="tech/node-js/back-pressure-in-streams" />
+        <Item label="Message Brokers" href="tech/system-design/message-brokers" />
         
       </Col>
       <Col md={3}>

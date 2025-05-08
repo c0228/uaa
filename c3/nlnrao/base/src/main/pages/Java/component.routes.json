@@ -22,6 +22,14 @@
             "breadcrumbIndex": "java-util-package",
             "keywords":[]
         },
+        "tech/java/ultimate-java-cheatsheet":{
+            "date":"October 26, 2024",
+            "label": "Ultimate Java CheatSheet",
+            "component": "UltimateJavaCheatSheet",
+            "breadcrumbIndex": "java-util-package",
+            "keywords":[]
+        },
+
         "tech/java/spring-boot-framework/how-to-set-eureka-server-and-eureka-client-in-spring-boot-framework":{
             "date":"October 26, 2024",
             "label":"How to set Eureka Server and Eureka Client in Spring Boot Framework?",

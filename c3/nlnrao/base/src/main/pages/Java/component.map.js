@@ -1,7 +1,7 @@
 // Java / Core
 import JavaVersionsFeatureUpdates from "./content/Core/01-features-update-java-versions/index.js";
 import ComparableComparator from "./content/Core/02-comparable-comparator/index.js";
-
+import UltimateJavaCheatSheet from "./content/Core/03-ultimate-java-cheatsheet/index.js";
 // Java / Spring Framework
 import EurekaClient from "./content/SpringFramework/01-eureka-client/index.js";
 import FileUploadReactSprintBoot from "./content/SpringFramework/02-file-upload-react-spring-boot/index.js";
@@ -23,6 +23,7 @@ import SecurityDecentralization from "./content/SpringFramework/16-security-in-d
 export const JavaComponentMap = {
  "JavaVersionsFeatureUpdates": JavaVersionsFeatureUpdates,
  "ComparableComparator": ComparableComparator,
+ "UltimateJavaCheatSheet": UltimateJavaCheatSheet,
 
  "EurekaClient": EurekaClient,
  "FileUploadReactSprintBoot": FileUploadReactSprintBoot,

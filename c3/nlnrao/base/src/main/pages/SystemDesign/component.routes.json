@@ -57,6 +57,27 @@
             "component": "DistributedSystemDataVersioningSchemaEvolution",
             "breadcrumbIndex": "sysDesign",
             "keywords":[]
+        },
+        "tech/system-design/hexagonal-architecture":{
+            "date":"October 26, 2024",
+            "label":"Hexagonal Architecture",
+            "component": "HexagonalArchitecture",
+            "breadcrumbIndex": "sysDesign",
+            "keywords":[]
+        },
+        "tech/system-design/solid-principles":{
+            "date":"October 26, 2024",
+            "label":"SOLID Principles",
+            "component": "SolidPrinciples",
+            "breadcrumbIndex": "sysDesign",
+            "keywords":[]
+        },
+        "tech/system-design/message-brokers":{
+            "date":"October 26, 2024",
+            "label":"Message Brokers",
+            "component": "MessageBrokers",
+            "breadcrumbIndex": "sysDesign",
+            "keywords":[]
         }
     }
 }

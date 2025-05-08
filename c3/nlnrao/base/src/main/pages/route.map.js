@@ -3,6 +3,8 @@ import AgileRoutes from "./Agile/component.routes.json";
 import { AgileComponentMap } from "./Agile/component.map.js";
 import AIMLRoutes from "./AIML/component.routes.json";
 import { AIMLComponentMap } from "./AIML/component.map.js";
+import CloudRoutes from "./Cloud/component.routes.json";
+import { CloudComponentMap } from "./Cloud/component.map.js";
 import CoreRoutes from "./Core/component.routes.json";
 import { CoreComponentMap } from "./Core/component.map.js";
 import DatabasesRoutes from "./Databases/component.routes.json";
@@ -43,6 +45,7 @@ import { SystemDesignComponentMap } from "./SystemDesign/component.map.js";
 
 export const AllRoutes = {
     "breadcrumbs": { ...AIMLRoutes.breadcrumbs,
+                    ...CloudRoutes.breadcrumbs,
                     ...DatabasesRoutes.breadcrumbs,
                     ...Web3Routes.breadcrumbs, 
                     ...JSRoutes.breadcrumbs, 
@@ -59,8 +62,10 @@ export const AllRoutes = {
                     ...FrontendRoutes.breadcrumbs,
                     ...MWAPIDesignRoutes.breadcrumbs
                 },
-    "urls": { ...CoreRoutes.urls,
+    "urls": { 
             ...AIMLRoutes.urls,
+            ...CloudRoutes.urls,
+            ...CoreRoutes.urls,
             ...DatabasesRoutes.urls,
             ...Web3Routes.urls, 
             ...JSRoutes.urls, 
@@ -80,8 +85,9 @@ export const AllRoutes = {
 };
 
 export const AllComponentMap = {
-    ...CoreComponentMap,
     ...AIMLComponentMap,
+    ...CloudComponentMap,
+    ...CoreComponentMap,
     ...DatabasesComponentMap,
     ...Web3ComponentMap, 
     ...JSComponentMap, 
