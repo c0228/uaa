@@ -56,6 +56,20 @@
             "component": "MicroFrontend",
             "breadcrumbIndex": "frontend",
             "keywords":[]
+        },
+        "tech/frontend/tech-ecosystem-timelines":{
+            "date":"October 26, 2024",
+            "label": "Tech Ecosystem Timelines",
+            "component": "TechEcoSystemTimelines",
+            "breadcrumbIndex": "frontend",
+            "keywords":[]
+        },
+        "tech/frontend/backend-for-frontend-bff-architecture":{
+            "date":"October 26, 2024",
+            "label": "BFF (Backend for Frontend) Architecture",
+            "component": "BFFArchitecture",
+            "breadcrumbIndex": "frontend",
+            "keywords":[]
         }
     }
 }

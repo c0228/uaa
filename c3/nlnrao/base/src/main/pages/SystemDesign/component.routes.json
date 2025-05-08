@@ -78,6 +78,34 @@
             "component": "MessageBrokers",
             "breadcrumbIndex": "sysDesign",
             "keywords":[]
+        },
+        "tech/system-design/cqrs-and-event-sourcing":{
+            "date":"October 26, 2024",
+            "label":"CQRS and EventSourcing",
+            "component": "CQRSEventSourcing",
+            "breadcrumbIndex": "sysDesign",
+            "keywords":[]
+        },
+        "tech/system-design/webhooks-and-event-streams":{
+            "date":"October 26, 2024",
+            "label":"Webhooks and Event Streams",
+            "component": "WebhooksEventStreams",
+            "breadcrumbIndex": "sysDesign",
+            "keywords":[]
+        },
+        "tech/system-design/distributed-systems-and-fault-tolerance":{
+            "date":"October 26, 2024",
+            "label":"Distributed Systems and Fault Tolerance",
+            "component": "DSFaultTolerance",
+            "breadcrumbIndex": "sysDesign",
+            "keywords":[]
+        },
+        "tech/system-design/cqrs-command-query-responsibility-segregation-pattern":{
+            "date":"October 26, 2024",
+            "label":"CQRS (Command Query Responsibility Segregation) Pattern",
+            "component": "CQRSPattern",
+            "breadcrumbIndex": "sysDesign",
+            "keywords":[]
         }
     }
 }

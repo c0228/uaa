@@ -9,6 +9,10 @@ import DistributedSystemDataVersioningSchemaEvolution from "./content/07-distrib
 import HexagonalArchitecture from "./content/08-hexagonal-architecture/index.js";
 import SolidPrinciples from "./content/09-solid-principles/index.js";
 import MessageBrokers from "./content/10-message-brokers/index.js";
+import CQRSEventSourcing from "./content/11-cqrs-eventsourcing/index.js";
+import WebhooksEventStreams from "./content/12-webhooks-event-streams/index.js";
+import DSFaultTolerance from "./content/13-distributed-systems-fault-tolerance/index.js";
+import CQRSPattern from "./content/14-cqrs-pattern/index.js";
 
 export const SystemDesignComponentMap = {
  "SystemDesign": SystemDesign,
@@ -21,5 +25,9 @@ export const SystemDesignComponentMap = {
  "DistributedSystemDataVersioningSchemaEvolution": DistributedSystemDataVersioningSchemaEvolution,
  "HexagonalArchitecture": HexagonalArchitecture,
  "SolidPrinciples": SolidPrinciples,
- "MessageBrokers": MessageBrokers
+ "MessageBrokers": MessageBrokers,
+ "CQRSEventSourcing": CQRSEventSourcing,
+ "WebhooksEventStreams": WebhooksEventStreams,
+ "DSFaultTolerance": DSFaultTolerance,
+ "CQRSPattern": CQRSPattern
 };

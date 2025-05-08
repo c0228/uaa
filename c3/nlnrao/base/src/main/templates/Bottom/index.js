@@ -57,12 +57,12 @@ const Bottom = () =>{
       </Col>
       <Col md={3}>
         <Heading label="FullStack" href="#" />
-        <Item label="Tech Ecosystem Timelines" href="#" />
-        <Item label="BFF (Backend for Frontend) Architecture" href="#" />
-        <Item label="CQRS & Event Sourcing" href="#" />
-        <Item label="Webhooks & Event Streams" href="#" />
-        <Item label="Distributed Systems & Fault Tolerance" href="#" />
-        <Item label="CQRS (Command Query Responsibility Segregation) Pattern" href="#" />
+        <Item label="Tech Ecosystem Timelines" href="tech/frontend/tech-ecosystem-timelines" />
+        <Item label="BFF (Backend for Frontend) Architecture" href="tech/frontend/backend-for-frontend-bff-architecture" />
+        <Item label="CQRS & Event Sourcing" href="tech/system-design/cqrs-and-event-sourcing" />
+        <Item label="Webhooks & Event Streams" href="tech/system-design/webhooks-and-event-streams" />
+        <Item label="Distributed Systems & Fault Tolerance" href="tech/system-design/distributed-systems-and-fault-tolerance" />
+        <Item label="CQRS (Command Query Responsibility Segregation) Pattern" href="tech/system-design/cqrs-command-query-responsibility-segregation-pattern" />
       </Col>
     </Row>
     <Row className="mtop35p">
