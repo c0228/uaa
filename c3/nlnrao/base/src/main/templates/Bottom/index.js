@@ -28,11 +28,11 @@ const Bottom = () =>{
         <Heading label="Frontend" />
         <Item label="Frontend Performance Optimization Techniques" href="tech/frontend/frontend-performance-optimization-techniques" />
         <Item label="SEO Optimization Techniques" href="tech/frontend/seo-optimization-techniques" />
-        <Item label="Code Splitting & Tree Shaking" href="#" />
-        <Item label="Props Drilling vs Context API" href="#" />
-        <Item label="Content Security Policy (CSP)" href="#" />
-        <Item label="Image Optimization Techniques" href="#" />
-        <Item label="Micro-Frontend" href="#" />
+        <Item label="Code Splitting & Tree Shaking" href="tech/frontend/code-splitting-and-tree-shaking" />
+        <Item label="Props Drilling vs Context API" href="tech/frontend/props-drilling-vs-context-api" />
+        <Item label="Content Security Policy (CSP)" href="tech/frontend/content-security-policy-csp" />
+        <Item label="Image Optimization Techniques" href="tech/frontend/image-optimization-techniques" />
+        <Item label="Micro-Frontend" href="tech/frontend/micro-frontend" />
       </Col>
       <Col md={3}>
         <Heading label="Middleware / API Design" />

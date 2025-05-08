@@ -21,6 +21,41 @@
             "component": "SEOOptTech",
             "breadcrumbIndex": "frontend",
             "keywords":[]
+        },
+        "tech/frontend/code-splitting-and-tree-shaking":{
+            "date":"October 26, 2024",
+            "label": "Code Splitting and Tree Shaking",
+            "component": "CodeSplitTreeShake",
+            "breadcrumbIndex": "frontend",
+            "keywords":[]
+        },
+        "tech/frontend/props-drilling-vs-context-api":{
+            "date":"October 26, 2024",
+            "label": "Props Drilling vs Context API",
+            "component": "PropsDrillContextAPI",
+            "breadcrumbIndex": "frontend",
+            "keywords":[]
+        },
+        "tech/frontend/content-security-policy-csp":{
+            "date":"October 26, 2024",
+            "label": "Content Security policy (CSP)",
+            "component": "CSP",
+            "breadcrumbIndex": "frontend",
+            "keywords":[]
+        },
+        "tech/frontend/image-optimization-techniques":{
+            "date":"October 26, 2024",
+            "label": "Image Optimization Techniques",
+            "component": "ImgOptTech",
+            "breadcrumbIndex": "frontend",
+            "keywords":[]
+        },
+        "tech/frontend/micro-frontend":{
+            "date":"October 26, 2024",
+            "label": "Micro Frontend",
+            "component": "MicroFrontend",
+            "breadcrumbIndex": "frontend",
+            "keywords":[]
         }
     }
 }
