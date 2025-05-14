@@ -57,7 +57,7 @@ const Events = () =>{
  useEffect(()=>{ 
     document.body.style.backgroundColor='#fffbd5';
     const date = new Date();
-    const finalEvents = mergeEvents('2024', (date.getMonth()+1)?.toString(), BarEventData?.["fixed"], BarEventData?.["movable"]);
+    const finalEvents = mergeEvents('2025', (date.getMonth()+1)?.toString(), BarEventData?.["fixed"], BarEventData?.["movable"]);
     console.log("finalEvents", finalEvents);
     setEventList(finalEvents);
  },[]);
