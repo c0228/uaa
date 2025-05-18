@@ -9,6 +9,8 @@ import CoreRoutes from "./Core/component.routes.json";
 import { CoreComponentMap } from "./Core/component.map.js";
 import DatabasesRoutes from "./Databases/component.routes.json";
 import { DatabasesComponentMap } from "./Databases/component.map.js";
+import DevopsRoutes from "./Devops/component.routes.json";
+import { DevOpsComponentMap } from "./Devops/component.map.js";
 import DocKubRoutes from "./DocKub/component.routes.json";
 import { DocKubComponentMap } from "./DocKub/component.map.js";
 import DSARoutes from "./DSA/component.routes.json";
@@ -36,7 +38,8 @@ import { PHPComponentMap } from "./PHP/component.map.js";
 import PythonRoutes from "./Python/component.routes.json";
 import { PythonComponentMap } from "./Python/component.map.js";
 
-
+import ReactNativeRoutes from "./ReactNative/component.routes.json";
+import { RNComponentMap } from "./ReactNative/component.map.js";
 
 import NetworkingRoutes from "./Networking/component.routes.json";
 import { NetworkingComponentMap } from "./Networking/component.map.js";
@@ -47,11 +50,13 @@ export const AllRoutes = {
     "breadcrumbs": { ...AIMLRoutes.breadcrumbs,
                     ...CloudRoutes.breadcrumbs,
                     ...DatabasesRoutes.breadcrumbs,
+                    ...DevopsRoutes.breadcrumbs,
                     ...Web3Routes.breadcrumbs, 
                     ...JSRoutes.breadcrumbs, 
                     ...NodeJSRoutes.breadcrumbs, 
                     ...PHPRoutes.breadcrumbs,
                     ...PythonRoutes.breadcrumbs,
+                    ...ReactNativeRoutes.breadcrumbs,
                     ...JavaRoutes.breadcrumbs, 
                     ...AgileRoutes.breadcrumbs,
                     ...DocKubRoutes.breadcrumbs,
@@ -67,11 +72,13 @@ export const AllRoutes = {
             ...CloudRoutes.urls,
             ...CoreRoutes.urls,
             ...DatabasesRoutes.urls,
+            ...DevopsRoutes.urls,
             ...Web3Routes.urls, 
             ...JSRoutes.urls, 
             ...NodeJSRoutes.urls, 
             ...PHPRoutes.urls,
             ...PythonRoutes.urls,
+            ...ReactNativeRoutes.urls,
             ...JavaRoutes.urls,  
             ...AgileRoutes.urls,
             ...DocKubRoutes.urls,
@@ -89,11 +96,13 @@ export const AllComponentMap = {
     ...CloudComponentMap,
     ...CoreComponentMap,
     ...DatabasesComponentMap,
+    ...DevOpsComponentMap,
     ...Web3ComponentMap, 
     ...JSComponentMap, 
     ...NodeJSComponentMap, 
     ...PHPComponentMap,
     ...PythonComponentMap,
+    ...RNComponentMap,
     ...JavaComponentMap, 
     ...AgileComponentMap,
     ...DocKubComponentMap,

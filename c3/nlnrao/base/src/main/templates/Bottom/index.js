@@ -68,23 +68,23 @@ const Bottom = () =>{
     <Row className="mtop35p">
       <Col md={3}>
         <Heading label="React Native Mobile Development" />
-        <Item label="Memory Leak Prevention"  href="#" />
-        <Item label="React Native with Redux Saga"  href="#" />
-        <Item label="Handling Offline Data & Syncing"  href="#" />
-        <Item label="GraphQL & Apollo Client"  href="#" />
-        <Item label="Preventing Man-in-the-Middle (MITM) Attacks"  href="#" />
-        <Item label="Virtualized Rendering for large lists"  href="#" />
-        <Item label="DevOps Pipeline: App Store & Play Store"  href="#" />
+        <Item label="Memory Leak Prevention"  href="tech/react-native/memory-leak-prevention" />
+        <Item label="React Native with Redux Saga"  href="tech/react-native/react-native-with-redux-saga" />
+        <Item label="Handling Offline Data & Syncing"  href="tech/react-native/handling-offline-data-and-storage" />
+        <Item label="GraphQL & Apollo Client"  href="tech/react-native/graph-ql-and-apollo-client" />
+        <Item label="Preventing Man-in-the-Middle (MITM) Attacks"  href="tech/react-native/preventing-mitm" />
+        <Item label="Virtualized Rendering for large lists"  href="tech/react-native/virtualized-rendering-for-large-lists" />
+        <Item label="DevOps Pipeline: App Store & Play Store"  href="tech/react-native/devops-pipeline-app-store-and-play-store" />
       </Col>
       <Col md={3}>
         <Heading label="DevOps" />
-        <Item label="DevOps vs DevSecOps"  href="#" />
-        <Item label="Top 200 Linux Commands"  href="#" />
-        <Item label="Kubernetes for Developers" href="#" />
-        <Item label="Top 100 Docker Commands" href="#" />
-        <Item label="Ultimate Git CheatSheet for Teams" href="#" />
-        <Item label="Forward proxy vs Reverse proxy"  href="#" />
-        <Item label="Zero-Downtime Deployments"  href="#" />
+        <Item label="DevOps vs DevSecOps"  href="tech/devops/devops-vs-devsecops" />
+        <Item label="Top 200 Linux Commands"  href="tech/devops/top-linux-commands" />
+        <Item label="Kubernetes for Developers" href="tech/devops/kubernetes-for-developers" />
+        <Item label="Top 100 Docker Commands" href="tech/devops/top-docker-commands" />
+        <Item label="Ultimate Git CheatSheet for Teams" href="tech/devops/ultimate-git-cheatsheet-for-teams" />
+        <Item label="Forward proxy vs Reverse proxy"  href="tech/devops/forward-proxy-vs-reverse-proxy" />
+        <Item label="Zero-Downtime Deployments"  href="tech/devops/zero-downtime-deployments" />
       </Col>
       <Col md={3}>
         <Heading label="Databases" />

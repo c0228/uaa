@@ -1,0 +1,56 @@
+{
+    "breadcrumbs":{
+        "devops":[{ "label":"DevOps", "url":"/" }]
+    },
+    "urls":{
+        "tech/devops/devops-vs-devsecops":{
+            "date": "October 26, 2024",
+            "label": "DevOps Vs DevSecOps",
+            "component": "DevOpsVsDevSecOps",
+            "breadcrumbIndex": "devops",
+            "keywords":[]
+        },
+        "tech/devops/top-linux-commands":{
+            "date": "October 26, 2024",
+            "label": "Top Linux Commands",
+            "component": "TopLinuxCommands",
+            "breadcrumbIndex": "devops",
+            "keywords":[]
+        },
+        "tech/devops/kubernetes-for-developers":{
+            "date": "October 26, 2024",
+            "label": "Kubernetes for Developers",
+            "component": "KubernetesForDevelopers",
+            "breadcrumbIndex": "devops",
+            "keywords":[]
+        },
+        "tech/devops/top-docker-commands":{
+            "date": "October 26, 2024",
+            "label": "Top Docker Commands",
+            "component": "TopDockerCommands",
+            "breadcrumbIndex": "devops",
+            "keywords":[]
+        },
+        "tech/devops/ultimate-git-cheatsheet-for-teams":{
+            "date": "October 26, 2024",
+            "label": "Ultimate Git Cheatsheet for Teams",
+            "component": "UltimateGitCheatsheetForTeams",
+            "breadcrumbIndex": "devops",
+            "keywords":[]
+        },
+        "tech/devops/forward-proxy-vs-reverse-proxy":{
+            "date": "October 26, 2024",
+            "label": "Forward Proxy Vs Reverse Proxy",
+            "component": "ForwardProxyVsReverseProxy",
+            "breadcrumbIndex": "devops",
+            "keywords":[]
+        },
+        "tech/devops/zero-downtime-deployments":{
+            "date": "October 26, 2024",
+            "label": "Zero Downtime Deployments",
+            "component": "ZeroDowntimeDeployments",
+            "breadcrumbIndex": "devops",
+            "keywords":[]
+        }
+    }
+}
