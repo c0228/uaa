@@ -1,5 +1,6 @@
 {
     "breadcrumbs":{
+        "web3":[{ "label":"Web 3.0", "url":"tech/web3.0/overview" }],
         "zkp":[{ "label":"Web 3.0", "url":"tech/web3.0/overview" },
                 { "label":"Zero Knowledge Proof (ZKP)", "url":"#" }],
         "smart-contracts":[{ "label":"Web 3.0", "url":"tech/web3.0/overview" },
@@ -14,7 +15,14 @@
             "date":"October 26, 2024",
             "component": "Web3",
             "keywords":[]
-        }, 
+        },
+        "tech/web3.0/blockchain/roadmap":{
+            "breadcrumbIndex": "web3",
+            "label":"Web 3.0 & Blockchain Roadmap",
+            "date":"October 26, 2024",
+            "component": "Web3BlockchainRoadMap",
+            "keywords":[]
+        },
         "tech/web3.0/zero-knowledge-proof(zkp)/understanding_zk-SNARKs_and_zk-STARKs":{
             "breadcrumbIndex": "zkp",
             "label":"Understanding zk-SNARKs and zk-STARKs: A Developer’s Perspective",
@@ -43,89 +51,14 @@
             "component": "ModBcArch",
             "keywords":[]
         },
-        "tech/web3.0/terminologies/blockchain-deployment-lifecycle":{
+
+
+        "tech/web3.0/terminologies/application-binary-interface-(abi)":{
             "breadcrumbIndex": "web3-terminologies",
-            "label":"Blockchain Deployment Lifecycle",
+            "label":"Application Binary Interface (ABI)",
             "date":"October 26, 2024",
-            "component": "BlockchainDeploymentLifecycle",
+            "component": "ABI",
             "keywords":[]
-        },
-        "tech/web3.0/terminologies/cryptocurrency-wallet":{
-            "breadcrumbIndex": "web3-terminologies",
-            "label":"Cryptocurrency Wallet",
-            "date":"October 26, 2024",
-            "component": "CryptoWallets",
-            "keywords":[]
-        },
-        "tech/web3.0/terminologies/metamask-wallet":{
-            "breadcrumbIndex": "web3-terminologies",
-            "label":"Metamask Wallet",
-            "date":"October 26, 2024",
-            "component": "MetamaskWallet",
-            "keywords":[]
-        },
-        "tech/web3.0/terminologies/understanding-web1-web2-web3":{ 
-            "breadcrumbIndex": "web3-terminologies",
-            "label":"Understand Web 1.0, Web 2.0 & Web 3.0",
-            "date":"October 26, 2024",
-            "component": "Web123",
-            "keywords":[]
-        }, 
-        "tech/web3.0/terminologies/lifecycle-of-smart-contracts":{
-            "breadcrumbIndex": "web3-terminologies",
-            "label":"Lifecycle of Smart Contracts",
-            "date":"October 26, 2024",
-            "component": "SmartContractsLifecycle",
-            "keywords":[]
-        }, 
-        "tech/web3.0/terminologies/layer1-vs-layer2-blockchains":{
-            "breadcrumbIndex": "web3-terminologies",
-            "label":"Layer 1 vs. Layer 2 Blockchains",
-            "date":"October 26, 2024",
-            "component": "Layer1N2",
-            "keywords":[]
-        },
-        "tech/web3.0/terminologies/defi-decentralized-finance":{
-            "breadcrumbIndex": "web3-terminologies",
-            "label":"DeFi (Decentralized Finance)",
-            "date":"October 26, 2024",
-            "component": "DeFi",
-            "keywords":[]
-        },
-        "tech/web3.0/terminologies/dex-aggregators":{
-            "breadcrumbIndex": "web3-terminologies",
-            "label":"DEX Aggregators",
-            "date":"October 26, 2024",
-            "component": "DEXAggregators",
-            "keywords":[]
-        },
-        "tech/web3.0/terminologies/nfts-and-digital-ownership":{
-            "breadcrumbIndex": "web3-terminologies",
-            "label":"NFTs and Digital Ownership",
-            "date":"October 26, 2024",
-            "component": "NFTDigitalOwnership",
-            "keywords":[]
-        },
-        "tech/web3.0/terminologies/tokenomics":{
-            "breadcrumbIndex": "web3-terminologies",
-            "label":"Tokenomics",
-            "date":"October 26, 2024",
-            "component": "Tokenomics",
-            "keywords":[]
-        }, 
-        "tech/web3.0/terminologies/metaverse-vr-ar-xr-and-mr":{
-            "breadcrumbIndex": "web3-terminologies",
-            "label":"Metaverse: VR, AR, XR and MR",
-            "date":"October 26, 2024",
-            "component": "MetaverseReality",
-            "keywords":[]
-        },
-        "tech/web3.0/terminologies/private-vs-public-blockchains":{
-            "breadcrumbIndex": "web3-terminologies",
-            "label":"Private vs. Public Blockchains",
-            "date":"October 26, 2024",
-            "component": "PublicPrivateBlockchain",
-            "keywords":["Public Blockchains", "Private Blockchains"]
         },
         "tech/web3.0/terminologies/automated-market-maker-(amm)":{
             "breadcrumbIndex": "web3-terminologies",
@@ -134,11 +67,25 @@
             "component": "AMM",
             "keywords":[]
         },
-        "tech/web3.0/terminologies/stable-coins":{
+        "tech/web3.0/terminologies/blockchain-deployment-lifecycle":{
             "breadcrumbIndex": "web3-terminologies",
-            "label":"Stablecoins and Algorithmic Stablecoin",
+            "label":"Blockchain Deployment Lifecycle",
             "date":"October 26, 2024",
-            "component": "StableCoins",
+            "component": "BlockchainDeploymentLifecycle",
+            "keywords":[]
+        },
+        "tech/web3.0/terminologies/blockchain-governance":{
+            "breadcrumbIndex": "web3-terminologies",
+            "label":"Blockchain Governance",
+            "date":"October 26, 2024",
+            "component": "BlockchainGovernance",
+            "keywords":[]
+        },
+        "tech/web3.0/terminologies/cross-chain-technology":{
+            "breadcrumbIndex": "web3-terminologies",
+            "label":"Cross-chain Technology",
+            "date":"October 26, 2024",
+            "component": "CrossChainTech",
             "keywords":[]
         },
         "tech/web3.0/terminologies/crypto-bridge":{
@@ -148,6 +95,13 @@
             "component": "CryptoBridge",
             "keywords":[]
         },
+        "tech/web3.0/terminologies/cryptocurrency-wallet":{
+            "breadcrumbIndex": "web3-terminologies",
+            "label":"Cryptocurrency Wallet",
+            "date":"October 26, 2024",
+            "component": "CryptoWallets",
+            "keywords":[]
+        },
         "tech/web3.0/terminologies/decentralized-autonomous-organization-(dao)":{
             "breadcrumbIndex": "web3-terminologies",
             "label":"Decentralized Autonomous Organization (DAO)",
@@ -155,18 +109,25 @@
             "component": "DAO",
             "keywords":[]
         },
-        "tech/web3.0/terminologies/application-binary-interface-(abi)":{
+        "tech/web3.0/terminologies/defi-decentralized-finance":{
             "breadcrumbIndex": "web3-terminologies",
-            "label":"Application Binary Interface (ABI)",
+            "label":"DeFi (Decentralized Finance)",
             "date":"October 26, 2024",
-            "component": "ABI",
+            "component": "DeFi",
             "keywords":[]
         },
-        "tech/web3.0/terminologies/initial-dex-offering-(ido)":{
+        "tech/web3.0/terminologies/decentralized-storage-ipfs":{
             "breadcrumbIndex": "web3-terminologies",
-            "label":"Initial DEX Offering (IDO)",
+            "label":"Decentralized Storage (IPFS)",
             "date":"October 26, 2024",
-            "component": "IDO",
+            "component": "DecStorageIPFS",
+            "keywords":[]
+        },
+        "tech/web3.0/terminologies/dex-aggregators":{
+            "breadcrumbIndex": "web3-terminologies",
+            "label":"DEX Aggregators",
+            "date":"October 26, 2024",
+            "component": "DEXAggregators",
             "keywords":[]
         },
         "tech/web3.0/terminologies/ethereum-request-for-comment-(erc)":{
@@ -176,11 +137,81 @@
             "component": "ERC",
             "keywords":[]
         },
-        "tech/web3.0/terminologies/traditional-finance-(tradfi)":{
+        "tech/web3.0/terminologies/initial-dex-offering-(ido)":{
             "breadcrumbIndex": "web3-terminologies",
-            "label":"Traditional Finance (TradFi)",
+            "label":"Initial DEX Offering (IDO)",
             "date":"October 26, 2024",
-            "component": "TradeFi",
+            "component": "IDO",
+            "keywords":[]
+        },
+        "tech/web3.0/terminologies/layer1-vs-layer2-blockchains":{
+            "breadcrumbIndex": "web3-terminologies",
+            "label":"Layer 1 vs. Layer 2 Blockchains",
+            "date":"October 26, 2024",
+            "component": "Layer1N2",
+            "keywords":[]
+        },
+        "tech/web3.0/terminologies/lifecycle-of-smart-contracts":{
+            "breadcrumbIndex": "web3-terminologies",
+            "label":"Lifecycle of Smart Contracts",
+            "date":"October 26, 2024",
+            "component": "SmartContractsLifecycle",
+            "keywords":[]
+        }, 
+        "tech/web3.0/terminologies/metaverse-as-a-service-(maas)":{
+            "breadcrumbIndex": "web3-terminologies",
+            "label":"Metaverse-as-a-Service (MaaS)",
+            "date":"October 26, 2024",
+            "component": "MaaS",
+            "keywords":[]
+        },
+        "tech/web3.0/terminologies/metamask-wallet":{
+            "breadcrumbIndex": "web3-terminologies",
+            "label":"Metamask Wallet",
+            "date":"October 26, 2024",
+            "component": "MetamaskWallet",
+            "keywords":[]
+        },
+        "tech/web3.0/terminologies/metaverse-vr-ar-xr-and-mr":{
+            "breadcrumbIndex": "web3-terminologies",
+            "label":"Metaverse: VR, AR, XR and MR",
+            "date":"October 26, 2024",
+            "component": "MetaverseReality",
+            "keywords":[]
+        },
+        "tech/web3.0/terminologies/minting-vs-mining":{
+            "breadcrumbIndex": "web3-terminologies",
+            "label":"Minting Vs Mining",
+            "date":"October 26, 2024",
+            "component": "MintingVsMining",
+            "keywords":[]
+        },
+        "tech/web3.0/terminologies/nfts-and-digital-ownership":{
+            "breadcrumbIndex": "web3-terminologies",
+            "label":"NFTs and Digital Ownership",
+            "date":"October 26, 2024",
+            "component": "NFTDigitalOwnership",
+            "keywords":[]
+        },
+        "tech/web3.0/terminologies/private-vs-public-blockchains":{
+            "breadcrumbIndex": "web3-terminologies",
+            "label":"Private vs. Public Blockchains",
+            "date":"October 26, 2024",
+            "component": "PublicPrivateBlockchain",
+            "keywords":["Public Blockchains", "Private Blockchains"]
+        },
+        "tech/web3.0/terminologies/solidity-vs-vyper-ethereum-platform":{
+            "breadcrumbIndex": "web3-terminologies",
+            "label":"Solidity Vs Vyper (Ethereum Platform)",
+            "date":"October 26, 2024",
+            "component": "SolidityVsVyper",
+            "keywords":[]
+        },
+        "tech/web3.0/terminologies/stable-coins":{
+            "breadcrumbIndex": "web3-terminologies",
+            "label":"Stablecoins and Algorithmic Stablecoin",
+            "date":"October 26, 2024",
+            "component": "StableCoins",
             "keywords":[]
         },
         "tech/web3.0/terminologies/what-is-staking":{
@@ -197,25 +228,39 @@
             "component": "TestnetFaucet",
             "keywords":[]
         },
-        "tech/web3.0/terminologies/metaverse-as-a-service-(maas)":{
+        "tech/web3.0/terminologies/tokenomics":{
             "breadcrumbIndex": "web3-terminologies",
-            "label":"Metaverse-as-a-Service (MaaS)",
+            "label":"Tokenomics",
             "date":"October 26, 2024",
-            "component": "MaaS",
+            "component": "Tokenomics",
             "keywords":[]
         },
-        "tech/web3.0/terminologies/solidity-vs-vyper-ethereum-platform":{
+        "tech/web3.0/terminologies/traditional-finance-(tradfi)":{
             "breadcrumbIndex": "web3-terminologies",
-            "label":"Solidity Vs Vyper (Ethereum Platform)",
+            "label":"Traditional Finance (TradFi)",
             "date":"October 26, 2024",
-            "component": "SolidityVsVyper",
+            "component": "TradeFi",
             "keywords":[]
         },
-        "tech/web3.0/terminologies/minting-vs-mining":{
+        "tech/web3.0/terminologies/virtual-machines-evm-vs-svm":{ 
             "breadcrumbIndex": "web3-terminologies",
-            "label":"Minting Vs Mining",
+            "label":"Virtual Machines: EVM vs SVM",
             "date":"October 26, 2024",
-            "component": "MintingVsMining",
+            "component": "VmEvmSvm",
+            "keywords":[]
+        },
+         "tech/web3.0/terminologies/understanding-web1-web2-web3":{ 
+            "breadcrumbIndex": "web3-terminologies",
+            "label":"Understand Web 1.0, Web 2.0 & Web 3.0",
+            "date":"October 26, 2024",
+            "component": "Web123",
+            "keywords":[]
+        },
+        "tech/web3.0/terminologies/web-3-browsers":{ 
+            "breadcrumbIndex": "web3-terminologies",
+            "label":"Web 3 Browsers",
+            "date":"October 26, 2024",
+            "component": "Web3Browsers",
             "keywords":[]
         },
         "tech/web3.0/solidity-programming-language/variables-and-data-types":{

@@ -99,13 +99,13 @@ const Bottom = () =>{
       </Col>
       <Col md={3}>
         <Heading label="Web 3.0 & Blockchain" />
-        <Item label="Web3 & Blockchain Roadmap" href="#" />
-        <Item label="Virtual Machines: EVM vs SVM" href="#" />
-        <Item label="Layer 1 & Layer 2 Solutions" href="#" />
-        <Item label="Cross-Chain Technology" href="#" />
-        <Item label="Blockchain Governance" href="#" />
-        <Item label="Web 3.0 Browsers" href="#" />
-        <Item label="Decentralized Storage (IPFS)" href="#" />
+        <Item label="Web3 & Blockchain Roadmap" href="tech/web3.0/blockchain/roadmap" />
+        <Item label="Virtual Machines: EVM vs SVM" href="tech/web3.0/terminologies/virtual-machines-evm-vs-svm" />
+        <Item label="Layer 1 & Layer 2 Solutions" href="tech/web3.0/terminologies/layer1-vs-layer2-blockchains" />
+        <Item label="Cross-Chain Technology" href="tech/web3.0/terminologies/cross-chain-technology" />
+        <Item label="Blockchain Governance" href="tech/web3.0/terminologies/blockchain-governance" />
+        <Item label="Web 3.0 Browsers" href="tech/web3.0/terminologies/web-3-browsers" />
+        <Item label="Decentralized Storage (IPFS)" href="tech/web3.0/terminologies/decentralized-storage-ipfs" />
 
       </Col>
     </Row>
