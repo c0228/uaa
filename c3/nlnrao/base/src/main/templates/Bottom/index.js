@@ -88,13 +88,13 @@ const Bottom = () =>{
       </Col>
       <Col md={3}>
         <Heading label="Databases" />
-        <Item label="Classification of Databases" href="#" />
-        <Item label="ACID & BASE Properties" href="#" />
-        <Item label="Connection Pooling" href="#" />
-        <Item label="Database Optimization Techniques" href="#" />
-        <Item label="Normalization & Denormalization" href="#" />
-        <Item label="Optimistic vs Pessimistic Locking" href="#" />
-        <Item label="OLAP vs OLTP Databases" href="#" />
+        <Item label="Classification of Databases" href="tech/databases/classification-of-databases" />
+        <Item label="ACID & BASE Properties" href="tech/databases/acid-and-base-properties" />
+        <Item label="Connection Pooling" href="tech/databases/connection-pooling" />
+        <Item label="Database Optimization Techniques" href="tech/databases/database-optimization-techniques" />
+        <Item label="Normalization & Denormalization" href="tech/databases/normalization-and-denormalization" />
+        <Item label="Optimistic vs Pessimistic Locking" href="tech/databases/optimistic-vs-pessimistic-locking" />
+        <Item label="OLAP vs OLTP Databases" href="tech/databases/olap-vs-oltp-databases" />
         
       </Col>
       <Col md={3}>

@@ -15,6 +15,55 @@
             "label": "Isolation and Propagation in the Context of Transactions in a Database System",
             "component": "TransactionIsloationPropagation",
             "breadcrumbIndex": "databases",
+            "keywords":[]  
+        },
+        "tech/databases/classification-of-databases":{
+            "date": "October 26, 2024",
+            "label": "Classification of Databases",
+            "component": "ClassificationOfDatabases",
+            "breadcrumbIndex": "databases",
+            "keywords":[]
+        },
+        "tech/databases/acid-and-base-properties":{
+            "date": "October 26, 2024",
+            "label": "Databases: Acid and Base Properties",
+            "component": "AcidAndBaseProperties",
+            "breadcrumbIndex": "databases",
+            "keywords":[]
+        },
+        "tech/databases/connection-pooling":{
+            "date": "October 26, 2024",
+            "label": "Databases: Connection Pooling",
+            "component": "ConnectionPooling",
+            "breadcrumbIndex": "databases",
+            "keywords":[]
+        },
+        "tech/databases/database-optimization-techniques":{
+            "date": "October 26, 2024",
+            "label": "Database Optimization Techniques",
+            "component": "DbOptimizationTechniques",
+            "breadcrumbIndex": "databases",
+            "keywords":[]
+        },
+        "tech/databases/normalization-and-denormalization":{
+            "date": "October 26, 2024",
+            "label": "Normalization and Denormalization",
+            "component": "NormalizationAndDeNormalization",
+            "breadcrumbIndex": "databases",
+            "keywords":[]
+        },
+        "tech/databases/optimistic-vs-pessimistic-locking":{
+            "date": "October 26, 2024",
+            "label": "Optimistic vs Pessimistic Locking",
+            "component": "OptimisticVsPessimisticLocking",
+            "breadcrumbIndex": "databases",
+            "keywords":[]
+        },
+        "tech/databases/olap-vs-oltp-databases":{
+            "date": "October 26, 2024",
+            "label": "OLAP vs OLTP Databases",
+            "component": "OLAPVsOLTPDatabases",
+            "breadcrumbIndex": "databases",
             "keywords":[]
         }
     }
