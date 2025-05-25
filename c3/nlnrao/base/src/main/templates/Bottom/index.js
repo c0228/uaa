@@ -123,14 +123,14 @@ const Bottom = () =>{
       </Col>
       <Col md={3}>
         <Heading label="Machine Learning" />
-        <Item label="Decision Trees vs Random Forests" href="#" />
-        <Item label="K-Means Clustering" href="#" />
-        <Item label="k-Nearest Neighbors (k-NN)" href="#" />
-        <Item label="Artificial Neural Networks (ANNs)" href="#" />
-        <Item label="Convolutional Neural Networks (CNNs)" href="#" />
-        <Item label="Recurrent Neural Networks (RNNs)" href="#" />
-        <Item label="Generative Adversarial Networks (GANs)" href="#" />
-        <Item label="Hidden Markov Models (HMMs)" href="#" />
+        <Item label="Decision Trees vs Random Forests" href="tech/aiml/decision-trees-vs-random-forests" />
+        <Item label="K-Means Clustering" href="tech/aiml/k-means-clustering" />
+        <Item label="k-Nearest Neighbors (k-NN)" href="tech/aiml/k-nearest-neighbors-knn" />
+        <Item label="Artificial Neural Networks (ANNs)" href="tech/aiml/artificial-neural-networks-anns" />
+        <Item label="Convolutional Neural Networks (CNNs)" href="tech/aiml/convolutional-neural-networks-cnns" />
+        <Item label="Recurrent Neural Networks (RNNs)" href="tech/aiml/recurrent-neural-networks-rnns" />
+        <Item label="Generative Adversarial Networks (GANs)" href="tech/aiml/generative-adversarial-networks-gans" />
+        <Item label="Hidden Markov Models (HMMs)" href="tech/aiml/hidden-markov-models-hmms" />
       </Col>
       <Col md={3}>
         <Heading label="Cloud Deployments" />

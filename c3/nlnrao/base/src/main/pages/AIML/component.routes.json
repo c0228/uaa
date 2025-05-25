@@ -12,6 +12,62 @@
             "breadcrumbIndex": "aiml",
             "keywords":[]
         },
+        "tech/aiml/decision-trees-vs-random-forests":{
+            "date":"October 26, 2024",
+            "label":"Decision Trees vs Random Forests",
+            "component": "DecisionTreesVsRandomForests",
+            "breadcrumbIndex": "aiml",
+            "keywords":[]
+        },
+        "tech/aiml/k-means-clustering":{
+            "date":"October 26, 2024",
+            "label":"K-Means Clustering",
+            "component": "KMeansClustering",
+            "breadcrumbIndex": "aiml",
+            "keywords":[]
+        },
+        "tech/aiml/k-nearest-neighbors-knn":{
+            "date":"October 26, 2024",
+            "label":"k-Nearest Neighbors (k-NN)",
+            "component": "KNearestNeighbors",
+            "breadcrumbIndex": "aiml",
+            "keywords":[]
+        },
+        "tech/aiml/artificial-neural-networks-anns":{
+            "date":"October 26, 2024",
+            "label":"Artificial Neural Networks (ANNs)",
+            "component": "ArtificialNeuralNetworks",
+            "breadcrumbIndex": "aiml",
+            "keywords":[]
+        },
+        "tech/aiml/convolutional-neural-networks-cnns":{
+            "date":"October 26, 2024",
+            "label":"Convolutional Neural Networks (CNNs)",
+            "component": "ConvolutionalNeuralNetworks",
+            "breadcrumbIndex": "aiml",
+            "keywords":[]
+        },
+        "tech/aiml/recurrent-neural-networks-rnns":{
+            "date":"October 26, 2024",
+            "label":"Recurrent Neural Networks (RNNs)",
+            "component": "ReCurrentlNeuralNetworks",
+            "breadcrumbIndex": "aiml",
+            "keywords":[]
+        },
+        "tech/aiml/generative-adversarial-networks-gans":{
+            "date":"October 26, 2024",
+            "label":"Generative Adversarial Networks (GANs)",
+            "component": "GenerativeAdversarialNetworks",
+            "breadcrumbIndex": "aiml",
+            "keywords":[]
+        },
+        "tech/aiml/hidden-markov-models-hmms":{
+            "date":"October 26, 2024",
+            "label":"Hidden Markov Models (HMMs)",
+            "component": "HidenMarkovModels",
+            "breadcrumbIndex": "aiml",
+            "keywords":[]
+        },
         "tech/aiml/tensor-flow/what-are-the-key-challenges-of-3D-object-detection-compared-to-2D-and-how-would-you-implement-a-3D-object-detection-pipeline-in-tensor-flow-including-data-representations-and-model-architectures":{
             "date":"October 26, 2024",
             "label": "What are the key challenges of 3D object detection compared to 2D & how would you implement a 3D object detection pipeline in TensorFlow, including data representations and model architectures?",
