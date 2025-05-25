@@ -112,14 +112,14 @@ const Bottom = () =>{
     <Row className="mtop35p">
       <Col md={3}>
         <Heading label="Networking" />
-        <Item label="OSI vs. TCP/IP Models" href="#" />
-        <Item label="IP Addressing and Subnetting" href="#" />
-        <Item label="Routing and Switching Basics" href="#" />
-        <Item label="DNS and How It Works" href="#" />
-        <Item label="Virtual Private Networks (VPNs)" href="#" />
-        <Item label="LAN vs WAN" href="#" />
-        <Item label="NAT (Network Address Translation)" href="#" />
-        <Item label="Software-Defined Networking (SDN)" href="#" />
+        <Item label="OSI vs. TCP/IP Models" href="tech/networking/basics/osi-vs-tcp-ip-models" />
+        <Item label="IP Addressing and Subnetting" href="tech/networking/basics/ip-addressing-and-subnetting" />
+        <Item label="Routing and Switching Basics" href="tech/networking/basics/routing-and-switching-basics" />
+        <Item label="DNS and How It Works" href="tech/networking/basics/dns-and-how-it-works" />
+        <Item label="Virtual Private Networks (VPNs)" href="tech/networking/basics/virtual-private-networks-vpns" />
+        <Item label="LAN vs WAN" href="tech/networking/basics/lan-vs-wan" />
+        <Item label="NAT (Network Address Translation)" href="tech/networking/basics/network-address-translation-nat" />
+        <Item label="Software-Defined Networking (SDN)" href="tech/networking/basics/software-defined-networking-sdn" />
       </Col>
       <Col md={3}>
         <Heading label="Machine Learning" />

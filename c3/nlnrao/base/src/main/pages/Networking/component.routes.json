@@ -11,6 +11,62 @@
             "component": "WWWDomainLifecycle",
             "breadcrumbIndex": "web-hosting",
             "keywords":[]
+        },
+        "tech/networking/basics/osi-vs-tcp-ip-models":{
+           "date":"October 26, 2024",
+            "label":"OSI vs. TCP/IP Models",
+            "component": "OSIVsTCPIPModels",
+            "breadcrumbIndex": "networking",
+            "keywords":[]
+        },
+        "tech/networking/basics/ip-addressing-and-subnetting":{
+           "date":"October 26, 2024",
+            "label":"IP Addressing and Subnetting",
+            "component": "IPAddressAndSubnet",
+            "breadcrumbIndex": "networking",
+            "keywords":[]
+        },
+        "tech/networking/basics/routing-and-switching-basics":{
+           "date":"October 26, 2024",
+            "label":"Routing and Switching Basics",
+            "component": "RoutingAndSwitchingBasics",
+            "breadcrumbIndex": "networking",
+            "keywords":[]
+        },
+        "tech/networking/basics/dns-and-how-it-works":{
+           "date":"October 26, 2024",
+            "label":"DNS and How It Works",
+            "component": "DNSAndItsWorks",
+            "breadcrumbIndex": "networking",
+            "keywords":[]
+        },
+        "tech/networking/basics/virtual-private-networks-vpns":{
+           "date":"October 26, 2024",
+            "label":"Virtual Private Networks (VPNs)",
+            "component": "VirtualPrivateNetworks",
+            "breadcrumbIndex": "networking",
+            "keywords":[]
+        },
+        "tech/networking/basics/lan-vs-wan":{
+           "date":"October 26, 2024",
+            "label":"LAN vs WAN",
+            "component": "LANvsWAN",
+            "breadcrumbIndex": "networking",
+            "keywords":[]
+        },
+        "tech/networking/basics/network-address-translation-nat":{
+           "date":"October 26, 2024",
+            "label":"NAT (Network Address Translation)",
+            "component": "NAT",
+            "breadcrumbIndex": "networking",
+            "keywords":[]
+        },
+        "tech/networking/basics/software-defined-networking-sdn":{
+           "date":"October 26, 2024",
+            "label":"Software-Defined Networking (SDN)",
+            "component": "SoftwareDefinedNetworking",
+            "breadcrumbIndex": "networking",
+            "keywords":[]
         }
     }
 }
