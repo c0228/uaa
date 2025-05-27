@@ -9,6 +9,62 @@
             "component": "ServerlessContainerizedBackends",
             "breadcrumbIndex": "cloud",
             "keywords":[]
+        },
+        "tech/cloud/public-private-hybrid-cloud-deployment":{
+            "date":"March 22, 2025",
+            "label":"Public, Private & Hybrid Cloud Deployments",
+            "component": "PublicPrivateHybridCloudDeployment",
+            "breadcrumbIndex": "cloud",
+            "keywords":[]
+        },
+        "tech/cloud/aws-vs-azure-vs-google-cloud":{
+            "date":"March 22, 2025",
+            "label":"AWS vs Azure vs Google Cloud",
+            "component": "AwsAzureGcp",
+            "breadcrumbIndex": "cloud",
+            "keywords":[]
+        },
+        "tech/cloud/blue-green-deployment":{
+            "date":"March 22, 2025",
+            "label":"Blue-Green Deployment",
+            "component": "BlueGreenDeployment",
+            "breadcrumbIndex": "cloud",
+            "keywords":[]
+        },
+        "tech/cloud/cloud-cost-optimization-guide-aws-azure-gcp":{
+            "date":"March 22, 2025",
+            "label":"Cloud Cost Optimization Guide (AWS, Azure, GCP)",
+            "component": "CloudCostOptimizationGuide",
+            "breadcrumbIndex": "cloud",
+            "keywords":[]
+        },
+        "tech/cloud/hashicorp-vault-for-secret-management":{
+            "date":"March 22, 2025",
+            "label":"HashiCorp Vault for Secret Management",
+            "component": "HashicorpVaultForSecretManagement",
+            "breadcrumbIndex": "cloud",
+            "keywords":[]
+        },
+        "tech/cloud/edge-computing":{
+            "date":"March 22, 2025",
+            "label":"Edge Computing",
+            "component": "EdgeComputing",
+            "breadcrumbIndex": "cloud",
+            "keywords":[]
+        },
+        "tech/cloud/infrastructure-as-a-code-iaac":{
+            "date":"March 22, 2025",
+            "label":"Infrastructure as a Code (IaaC)",
+            "component": "InfrastructureAsACode",
+            "breadcrumbIndex": "cloud",
+            "keywords":[]
+        },
+        "tech/cloud/prometheus-and-grafana":{
+            "date":"March 22, 2025",
+            "label":"Prometheus and Grafana",
+            "component": "PrometheusAndGrafana",
+            "breadcrumbIndex": "cloud",
+            "keywords":[]
         }
     }
 }

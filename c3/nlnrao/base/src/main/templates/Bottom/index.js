@@ -134,14 +134,14 @@ const Bottom = () =>{
       </Col>
       <Col md={3}>
         <Heading label="Cloud Deployments" />
-        <Item label="Public, Private & Hybrid Cloud Deployments" href="#" />
-        <Item label="AWS vs Azure vs Google Cloud" href="#" />
-        <Item label="Blue-Green Deployment" href="#" />
-        <Item label="Cloud Cost Optimization Guide (AWS, Azure, GCP)" href="#" />
-        <Item label="HashiCorp Vault for Secret Management" href="#" />
-        <Item label="Edge Computing" href="#" />
-        <Item label="Infrastructure as Code (IaC)" href="#" />
-        <Item label="Prometheus and Grafana" href="#" />
+        <Item label="Public, Private & Hybrid Cloud Deployments" href="tech/cloud/public-private-hybrid-cloud-deployment" />
+        <Item label="AWS vs Azure vs Google Cloud" href="tech/cloud/aws-vs-azure-vs-google-cloud" />
+        <Item label="Blue-Green Deployment" href="tech/cloud/blue-green-deployment" />
+        <Item label="Cloud Cost Optimization Guide (AWS, Azure, GCP)" href="tech/cloud/cloud-cost-optimization-guide-aws-azure-gcp" />
+        <Item label="HashiCorp Vault for Secret Management" href="tech/cloud/hashicorp-vault-for-secret-management" />
+        <Item label="Edge Computing" href="tech/cloud/edge-computing" />
+        <Item label="Infrastructure as a Code (IaaC)" href="tech/cloud/infrastructure-as-a-code-iaac" />
+        <Item label="Prometheus and Grafana" href="tech/cloud/prometheus-and-grafana" />
       </Col>
       <Col md={3}>
         <Heading label="CyberSecurity" />
