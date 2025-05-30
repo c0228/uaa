@@ -7,6 +7,8 @@ import CloudRoutes from "./Cloud/component.routes.json";
 import { CloudComponentMap } from "./Cloud/component.map.js";
 import CoreRoutes from "./Core/component.routes.json";
 import { CoreComponentMap } from "./Core/component.map.js";
+import CyberSecurityRoutes from "./CyberSecurity/component.routes.json";
+import { CyberSecurityComponentMap } from "./CyberSecurity/component.map.js";
 import DatabasesRoutes from "./Databases/component.routes.json";
 import { DatabasesComponentMap } from "./Databases/component.map.js";
 import DevopsRoutes from "./Devops/component.routes.json";
@@ -49,6 +51,7 @@ import { SystemDesignComponentMap } from "./SystemDesign/component.map.js";
 export const AllRoutes = {
     "breadcrumbs": { ...AIMLRoutes.breadcrumbs,
                     ...CloudRoutes.breadcrumbs,
+                    ...CyberSecurityRoutes.breadcrumbs,
                     ...DatabasesRoutes.breadcrumbs,
                     ...DevopsRoutes.breadcrumbs,
                     ...Web3Routes.breadcrumbs, 
@@ -71,6 +74,7 @@ export const AllRoutes = {
             ...AIMLRoutes.urls,
             ...CloudRoutes.urls,
             ...CoreRoutes.urls,
+            ...CyberSecurityRoutes.urls,
             ...DatabasesRoutes.urls,
             ...DevopsRoutes.urls,
             ...Web3Routes.urls, 
@@ -95,6 +99,7 @@ export const AllComponentMap = {
     ...AIMLComponentMap,
     ...CloudComponentMap,
     ...CoreComponentMap,
+    ...CyberSecurityComponentMap,
     ...DatabasesComponentMap,
     ...DevOpsComponentMap,
     ...Web3ComponentMap, 

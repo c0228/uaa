@@ -1,0 +1,63 @@
+{
+    "breadcrumbs":{
+        "cyber-security":[{ "label":"Cyber Security", "url":"#" }]
+    },
+    "urls":{
+        "tech/cyber-security/confidentiality-integrity-availability-cia-triad":{
+            "date":"October 26, 2024",
+            "label":"CIA (Confidentiality, Integrity, Availability) Triad",
+            "component": "CIATriad",
+            "breadcrumbIndex": "cyber-security",
+            "keywords":[]
+        },
+        "tech/cyber-security/advanced-persistent-threats-apt":{
+            "date":"October 26, 2024",
+            "label":"Advanced Persistent Threats (APT)",
+            "component": "AdvancedPersistentThreads",
+            "breadcrumbIndex": "cyber-security",
+            "keywords":[]
+        },
+        "tech/cyber-security/mitre-attack-framework":{
+            "date":"October 26, 2024",
+            "label":"MITRE ATTACK Framework",
+            "component": "MitreAttackFramework",
+            "breadcrumbIndex": "cyber-security",
+            "keywords":[]
+        },
+        "tech/cyber-security/purple-teaming":{
+            "date":"October 26, 2024",
+            "label":"Purple Teaming",
+            "component": "PurpleTeaming",
+            "breadcrumbIndex": "cyber-security",
+            "keywords":[]
+        },
+        "tech/cyber-security/open-source-tools-for-ethical-hacking":{
+            "date":"October 26, 2024",
+            "label":"Open Source Tools for Ethical Hacking",
+            "component": "OpenSourceToolsForEthicalHacking",
+            "breadcrumbIndex": "cyber-security",
+            "keywords":[]
+        },
+        "tech/cyber-security/siem-vs-soar":{
+            "date":"October 26, 2024",
+            "label":"SIEM vs SOAR",
+            "component": "SiemVsSoar",
+            "breadcrumbIndex": "cyber-security",
+            "keywords":[]
+        },
+        "tech/cyber-security/zero-trust-and-api-access-control":{
+            "date":"October 26, 2024",
+            "label":"Zero Trust and API Access Control",
+            "component": "ZeroTrustAndApiAccessControl",
+            "breadcrumbIndex": "cyber-security",
+            "keywords":[]
+        },
+        "tech/cyber-security/sub-resource-integrity-sri":{
+            "date":"October 26, 2024",
+            "label":"Subresource Integrity (SRI)",
+            "component": "SubResourceIntegrity",
+            "breadcrumbIndex": "cyber-security",
+            "keywords":[]
+        }
+    }
+}

@@ -145,14 +145,14 @@ const Bottom = () =>{
       </Col>
       <Col md={3}>
         <Heading label="CyberSecurity" />
-        <Item label="CIA (Confidentiality, Integrity, Availability) Triad" href="#" />
-        <Item label="Advanced Persistent Threats (APT)" href="#" />
-        <Item label="MITRE ATT&CK Framework" href="#" />
-        <Item label="Purple Teaming" href="#" />
-        <Item label="Open Source Tools for Ethical Hacking" href="#" />
-        <Item label="SIEM vs SOAR" href="#" />
-        <Item label="Zero Trust and API Access Control" href="#" />
-        <Item label="Subresource Integrity (SRI)" href="#" />
+        <Item label="CIA (Confidentiality, Integrity, Availability) Triad" href="tech/cyber-security/confidentiality-integrity-availability-cia-triad" />
+        <Item label="Advanced Persistent Threats (APT)" href="tech/cyber-security/advanced-persistent-threats-apt" />
+        <Item label="MITRE ATTACK Framework" href="tech/cyber-security/mitre-attack-framework" />
+        <Item label="Purple Teaming" href="tech/cyber-security/purple-teaming" />
+        <Item label="Open Source Tools for Ethical Hacking" href="tech/cyber-security/open-source-tools-for-ethical-hacking" />
+        <Item label="SIEM vs SOAR" href="tech/cyber-security/siem-vs-soar" />
+        <Item label="Zero Trust and API Access Control" href="tech/cyber-security/zero-trust-and-api-access-control" />
+        <Item label="Subresource Integrity (SRI)" href="tech/cyber-security/sub-resource-integrity-sri" />
       </Col>
     </Row>
     <div align="center" style={{ paddingTop:'15px', borderTop:'1px solid #333', marginTop:'25px' }}>
