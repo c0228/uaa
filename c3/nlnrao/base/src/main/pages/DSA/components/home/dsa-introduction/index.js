@@ -174,14 +174,13 @@ const DSAIntroduction = () =>{
       <AlgoOverviewList header="String Algorithms"
         desc="String algorithms process text data efficiently."
         data={[
-          ['Knuth-Morris-Pratt (KMP) Algorithm', 'Efficient substring search algorithm.'],
-          ['Rabin-Karp Algorithm (Rolling Hashing)', 'Uses hashing for pattern searching.'],
-          ['Z Algorithm', 'Finds pattern occurrences in linear time.'],
-          ['Manacher’s Algorithm', 'Finds the longest palindromic substring.'],
-          ['Trie Data Structure', 'Stores and searches strings efficiently.'],
-          ['Boyer-Moore Algorithm','Fast String Search in text efficiently by skipping unnecessary comparisons.'],
-          ['Longest Common Prefix (LCP) using Binary Search','Find the longest common prefix of multiple strings.'],
-          ['Aho-Corasick Algorithm (Multi-Pattern Matching using Trie + BFS)', ' Search multiple patterns in a text simultaneously.']
+          ['Knuth-Morris-Pratt (KMP) Algorithm', 'Efficient substring search algorithm.','tech/dsa/string-algorithms/knuth-morris-pratt-kmp-algorithm'],
+          ['Rabin-Karp Algorithm (Rolling Hashing)', 'Uses hashing for pattern searching.','tech/dsa/string-algorithms/rabin-karp-algorithm-rolling-hashing'],
+          ['Z Algorithm', 'Finds pattern occurrences in linear time.', 'tech/dsa/string-algorithms/z-algorithm'],
+          ['Manacher’s Algorithm', 'Finds the longest palindromic substring.','tech/dsa/string-algorithms/manachers-algorithm'],
+          ['Boyer-Moore Algorithm','Fast String Search in text efficiently by skipping unnecessary comparisons.','tech/dsa/string-algorithms/boyer-moore-algorithm'],
+          ['Longest Common Prefix (LCP) using Binary Search','Find the longest common prefix of multiple strings.','tech/dsa/string-algorithms/longest-common-prefix-lcp-using-binary-search'],
+          ['Aho-Corasick Algorithm (Multi-Pattern Matching using Trie + BFS)', ' Search multiple patterns in a text simultaneously.','tech/dsa/string-algorithms/aho-corasick-algorithm-multi-pattern-matching-using-trie-bfs']
         ]} />
 
       <AlgoOverviewList header="Heap Algorithms"

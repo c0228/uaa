@@ -812,6 +812,49 @@
             "breadcrumbIndex": "bit-manipulation"
         },
 
+        "tech/dsa/string-algorithms/aho-corasick-algorithm-multi-pattern-matching-using-trie-bfs":{
+            "label": "Aho-Corasick Algorithm (Multi-Pattern Matching using Trie + BFS)",
+            "date": "October 26, 2024",
+            "component": "AhoCorasickAlgorithm",
+            "breadcrumbIndex": "string-algorithms"
+        },
+        "tech/dsa/string-algorithms/boyer-moore-algorithm":{
+            "label": "Boyer Moore Algorithm",
+            "date": "October 26, 2024",
+            "component": "BoyerMooreAlgorithm",
+            "breadcrumbIndex": "string-algorithms"
+        },
+        "tech/dsa/string-algorithms/knuth-morris-pratt-kmp-algorithm":{
+            "label": "Knuth-Morris-Pratt (KMP) Algorithm",
+            "date": "October 26, 2024",
+            "component": "KMPAlgorithm",
+            "breadcrumbIndex": "string-algorithms"
+        },
+        "tech/dsa/string-algorithms/longest-common-prefix-lcp-using-binary-search":{
+            "label": "Longest Common Prefix (LCP) using Binary Search",
+            "date": "October 26, 2024",
+            "component": "LongestCommonPrefix",
+            "breadcrumbIndex": "string-algorithms"
+        },
+        "tech/dsa/string-algorithms/manachers-algorithm":{
+            "label": "Manacher's Algorithm",
+            "date": "October 26, 2024",
+            "component": "ManachersAlgorithm",
+            "breadcrumbIndex": "string-algorithms"
+        },
+        "tech/dsa/string-algorithms/rabin-karp-algorithm-rolling-hashing":{
+            "label": "Rabin-Karp Algorithm (Rolling Hashing)",
+            "date": "October 26, 2024",
+            "component": "RabinKarpAlgorithm",
+            "breadcrumbIndex": "string-algorithms"
+        },
+        "tech/dsa/string-algorithms/z-algorithm":{
+            "label": "Z-Algorithm",
+            "date": "October 26, 2024",
+            "component": "ZAlgorithm",
+            "breadcrumbIndex": "string-algorithms"
+        },
+
 
         "tech/dsa/cache-eviction-strategies/least-recently-used":{
             "label":"Least Recently Used (LRU)",

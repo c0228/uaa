@@ -130,6 +130,15 @@ import ReverseBitOfANumber from "./algorithms/bit-manipulations/reverse-bit-of-a
 import SetBitPosition from "./algorithms/bit-manipulations/set-bit-position/index.js";
 import XorSwapTechnique from "./algorithms/bit-manipulations/xor-swap-technique/index.js";
 
+// String Algorithms
+import AhoCorasickAlgorithm from "./algorithms/string-algorithms/aho-corasick-algorithm/index.js";
+import BoyerMooreAlgorithm from "./algorithms/string-algorithms/boyer-moore-algorithm/index.js";
+import KMPAlgorithm from "./algorithms/string-algorithms/kmp-algorithm/index.js";
+import LongestCommonPrefix from "./algorithms/string-algorithms/longest-common-prefix/index.js";
+import ManachersAlgorithm from "./algorithms/string-algorithms/manachers-algorithm/index.js";
+import RabinKarpAlgorithm from "./algorithms/string-algorithms/rabin-karp-algorithm/index.js";
+import ZAlgorithm from "./algorithms/string-algorithms/z-algorithm/index.js";
+
 import CacheObliviousAlgorithms from "@MainPages/DSA/content/01-cache-oblivious-algorithms/index.js";
 import TestAndVerifyAlgorithms from "@MainPages/DSA/content/02-test-and-verify-algorithms/index.js";
 import SelfTuningAlgorithms from "@MainPages/DSA/content/03-self-tuning-algorithms/index.js";
@@ -269,6 +278,16 @@ export const DSAComponentMap = {
  "ReverseBitOfANumber": ReverseBitOfANumber,
  "SetBitPosition": SetBitPosition,
  "XorSwapTechnique": XorSwapTechnique,
+
+ // String Algorithm
+ "AhoCorasickAlgorithm": AhoCorasickAlgorithm,
+ "BoyerMooreAlgorithm": BoyerMooreAlgorithm,
+ "KMPAlgorithm": KMPAlgorithm,
+ "LongestCommonPrefix": LongestCommonPrefix,
+ "ManachersAlgorithm": ManachersAlgorithm,
+ "RabinKarpAlgorithm": RabinKarpAlgorithm,
+ "ZAlgorithm": ZAlgorithm,
+
 
  "CacheObliviousAlgorithms": CacheObliviousAlgorithms,
  "TestAndVerifyAlgorithms": TestAndVerifyAlgorithms,
