@@ -119,6 +119,17 @@ import WaveletTree from "./algorithms/pds-algorithms/WaveletTree/index.js";
 import ExponentialHistogram from "./algorithms/pds-algorithms/ExponentialHistogram/index.js";
 import SuccinctRangeFilter from "./algorithms/pds-algorithms/SuccinctRangeFilter/index.js";
 
+// Bit Manipulations Algorithms
+import BrianKernighanAlgorithm from "./algorithms/bit-manipulations/brian-kernighan-algorithm/index.js";
+import FindNonRepeatNumArray from "./algorithms/bit-manipulations/find-non-repeat-num-array/index.js";
+import FindXor1toN from "./algorithms/bit-manipulations/find-xor-1-to-n/index.js";
+import FlipAtoB from "./algorithms/bit-manipulations/flip-A-to-B/index.js";
+import MissingNumArray1toN from "./algorithms/bit-manipulations/missing-num-array-1-to-n/index.js";
+import PowerOf2Check from "./algorithms/bit-manipulations/power-of-2-check/index.js";
+import ReverseBitOfANumber from "./algorithms/bit-manipulations/reverse-bit-of-a-number/index.js";
+import SetBitPosition from "./algorithms/bit-manipulations/set-bit-position/index.js";
+import XorSwapTechnique from "./algorithms/bit-manipulations/xor-swap-technique/index.js";
+
 import CacheObliviousAlgorithms from "@MainPages/DSA/content/01-cache-oblivious-algorithms/index.js";
 import TestAndVerifyAlgorithms from "@MainPages/DSA/content/02-test-and-verify-algorithms/index.js";
 import SelfTuningAlgorithms from "@MainPages/DSA/content/03-self-tuning-algorithms/index.js";
@@ -247,6 +258,17 @@ export const DSAComponentMap = {
  "WaveletTree": WaveletTree,
  "ExponentialHistogram": ExponentialHistogram,
  "SuccinctRangeFilter": SuccinctRangeFilter,
+
+ // Bit Manipulations
+ "BrianKernighanAlgorithm": BrianKernighanAlgorithm,
+ "FindNonRepeatNumArray": FindNonRepeatNumArray,
+ "FindXor1toN": FindXor1toN,
+ "FlipAtoB": FlipAtoB,
+ "MissingNumArray1toN": MissingNumArray1toN,
+ "PowerOf2Check": PowerOf2Check,
+ "ReverseBitOfANumber": ReverseBitOfANumber,
+ "SetBitPosition": SetBitPosition,
+ "XorSwapTechnique": XorSwapTechnique,
 
  "CacheObliviousAlgorithms": CacheObliviousAlgorithms,
  "TestAndVerifyAlgorithms": TestAndVerifyAlgorithms,

@@ -160,15 +160,15 @@ const DSAIntroduction = () =>{
           bitwise operations (<code><b>AND</b></code>, <code><b>OR</b></code>, 
           <code><b>XOR</b></code>, <code><b>NOT</b></code>, <code><b>SHIFT</b></code>).</div>}
         data={[
-          ['Check if a number is power of 2'],
-          ['Count set bits in an integer (Brian Kernighan’s Algorithm)'],
-          ['Find the only non-repeating number in an array'],
-          ['XOR swap technique','Swaps numbers without a temporary variable.'],
-          ['Reverse Bits of a Number'],
-          ['Find XOR from 1 to N'],
-          ['Find the Missing Number in an Array (1 to N)'],
-          ['Count the Number of Bits Needed to Flip to Convert A to B'],
-          ['Find the Position of the Only Set Bit']
+          ['Check if a number is power of 2','','tech/dsa/bit-manipulations/check-if-a-number-is-power-of-2'],
+          ['Count set bits in an integer (Brian Kernighan’s Algorithm)','','tech/dsa/bit-manipulations/count-set-bits-in-an-integer-brian-kernighans-algorithm'],
+          ['Find the only non-repeating number in an array','','tech/dsa/bit-manipulations/find-the-only-non-repeating-number-in-an-array'],
+          ['XOR swap technique','Swaps numbers without a temporary variable.','tech/dsa/bit-manipulations/xor-swap-technique'],
+          ['Reverse Bits of a Number','','tech/dsa/bit-manipulations/reverse-bits-of-a-number'],
+          ['Find XOR from 1 to N','','tech/dsa/bit-manipulations/find-xor-from-1-to-n'],
+          ['Find the Missing Number in an Array (1 to N)','','tech/dsa/bit-manipulations/find-the-missing-number-in-an-array-1-to-n'],
+          ['Count the Number of Bits Needed to Flip to Convert A to B','','tech/dsa/bit-manipulations/count-the-number-of-bits-needed-to-flip-to-convert-a-to-b'],
+          ['Find the Position of the Only Set Bit','','tech/dsa/bit-manipulations/find-the-position-of-the-only-set-bit']
         ]} />
 
       <AlgoOverviewList header="String Algorithms"
