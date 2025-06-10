@@ -855,6 +855,37 @@
             "breadcrumbIndex": "string-algorithms"
         },
 
+        "tech/dsa/heap-algorithms/kth-largest-or-smallest-elements-or-element-in-an-array":{
+            "label": "Kth Largest or Smallest Elements (or Element) in an Array",
+            "date": "October 26, 2024",
+            "component": "KthLargestSmallest",
+            "breadcrumbIndex": "heap-algorithms"
+        },
+        "tech/dsa/heap-algorithms/max-heap-and-min-heap-implementation":{
+            "label": "Max Heap & Min Heap Implementation",
+            "date": "October 26, 2024",
+            "component": "MaxMinHeapImpl",
+            "breadcrumbIndex": "heap-algorithms"
+        },
+        "tech/dsa/heap-algorithms/median-in-a-stream-of-integers":{
+            "label": "Median in a Stream of Integers",
+            "date": "October 26, 2024",
+            "component": "MedianStreamIntegers",
+            "breadcrumbIndex": "heap-algorithms"
+        },
+        "tech/dsa/heap-algorithms/merge-k-sorted-lists-using-heap":{
+            "label": "Merge K Sorted Lists using Heap",
+            "date": "October 26, 2024",
+            "component": "MergeKSortedLists",
+            "breadcrumbIndex": "heap-algorithms"
+        },
+        "tech/dsa/heap-algorithms/priority-queue-using-heap":{
+            "label": "Priority Queue (Using Heap)",
+            "date": "October 26, 2024",
+            "component": "PriorityQueueUsingHeap",
+            "breadcrumbIndex": "heap-algorithms"
+        },
+
 
         "tech/dsa/cache-eviction-strategies/least-recently-used":{
             "label":"Least Recently Used (LRU)",

@@ -139,6 +139,13 @@ import ManachersAlgorithm from "./algorithms/string-algorithms/manachers-algorit
 import RabinKarpAlgorithm from "./algorithms/string-algorithms/rabin-karp-algorithm/index.js";
 import ZAlgorithm from "./algorithms/string-algorithms/z-algorithm/index.js";
 
+// Heap Algorithms
+import KthLargestSmallest from './algorithms/heap-algorithms/kth-largest-smallest/index.js';
+import MaxMinHeapImpl from './algorithms/heap-algorithms/max-min-heap-impl/index.js';
+import MedianStreamIntegers from './algorithms/heap-algorithms/median-stream-integers/index.js';
+import MergeKSortedLists from './algorithms/heap-algorithms/merge-k-sorted-lists/index.js';
+import PriorityQueueUsingHeap from './algorithms/heap-algorithms/priority-queue/index.js';
+
 import CacheObliviousAlgorithms from "@MainPages/DSA/content/01-cache-oblivious-algorithms/index.js";
 import TestAndVerifyAlgorithms from "@MainPages/DSA/content/02-test-and-verify-algorithms/index.js";
 import SelfTuningAlgorithms from "@MainPages/DSA/content/03-self-tuning-algorithms/index.js";
@@ -288,7 +295,13 @@ export const DSAComponentMap = {
  "RabinKarpAlgorithm": RabinKarpAlgorithm,
  "ZAlgorithm": ZAlgorithm,
 
-
+ // Heap Algorithm
+ "KthLargestSmallest": KthLargestSmallest,
+ "MaxMinHeapImpl": MaxMinHeapImpl,
+ "MedianStreamIntegers": MedianStreamIntegers,
+ "MergeKSortedLists": MergeKSortedLists,
+ "PriorityQueueUsingHeap": PriorityQueueUsingHeap,
+ 
  "CacheObliviousAlgorithms": CacheObliviousAlgorithms,
  "TestAndVerifyAlgorithms": TestAndVerifyAlgorithms,
  "SelfTuningAlgorithms": SelfTuningAlgorithms,

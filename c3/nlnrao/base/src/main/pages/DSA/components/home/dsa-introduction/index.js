@@ -186,12 +186,12 @@ const DSAIntroduction = () =>{
       <AlgoOverviewList header="Heap Algorithms"
         desc="Heap-based problems use a priority queue approach."
         data={[
-          ['Max Heap & Min Heap Implementation'],
-          ['Heap Sort',' Sort an array using a heap data structure.'],
-          ['Priority Queue (Using Heap)','Efficiently manage tasks with different priorities.'],
-          ['Kth Largest or Smallest Elements (or Element) in an Array'],
-          ['Merge K Sorted Lists using Heap'],
-          ['Median in a Stream of Integers']
+          ['Max Heap & Min Heap Implementation','','tech/dsa/heap-algorithms/max-heap-and-min-heap-implementation'],
+          ['Heap Sort',' Sort an array using a heap data structure.','tech/dsa/sorting-algorithms/heap-sort'],
+          ['Priority Queue (Using Heap)','Efficiently manage tasks with different priorities.','tech/dsa/heap-algorithms/priority-queue-using-heap'],
+          ['Kth Largest or Smallest Elements (or Element) in an Array','','tech/dsa/heap-algorithms/kth-largest-or-smallest-elements-or-element-in-an-array'],
+          ['Merge K Sorted Lists using Heap','','tech/dsa/heap-algorithms/merge-k-sorted-lists-using-heap'],
+          ['Median in a Stream of Integers','','tech/dsa/heap-algorithms/median-in-a-stream-of-integers']
         ]} />
 
     </Col>
