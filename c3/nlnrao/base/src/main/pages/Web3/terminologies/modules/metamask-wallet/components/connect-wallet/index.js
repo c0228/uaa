@@ -1,7 +1,6 @@
 import React from "react";
 import { Highlight } from "e-ui-react";
 import OrderList from "@MainComponents/order-list/index.js";
-import { Header2 } from "@MainComponents/headers-h15/index.js";
 
 const WALLET_CONNECT_CODE = `import { useState } from "react";
 import { ethers } from "ethers";
@@ -27,7 +26,7 @@ export default function ConnectWallet() {
   return (
     <div>
       <button onClick={connectWallet}>
-        {account ? \`Connected: ${account.slice(0, 6)}...\` : "Connect Wallet"}
+        {account ? \`Connected: \${account.slice(0, 6)}...\` : "Connect Wallet"}
       </button>
     </div>
   );
@@ -35,8 +34,8 @@ export default function ConnectWallet() {
 
 const ConnectWallet = () =>{
  return (<div className="mtop15p mbot15p lh28p fs16p">
-    <div className="mtop15p"><h2 className="blog-head"><b>Connect Metamask Wallet</b></h2></div>
-    <div><Header2><b>Steps to Implement in React:</b></Header2></div>
+    <div align="center" className="mtop15p"><h2 className="blog-head"><b>Connect Metamask Wallet</b></h2></div>
+    <div><h4 className="blog-head"><b>Steps to Implement in React:</b></h4></div>
     <div className="mtop15p mbot15p">
         <OrderList data={[(<div>
             <div><b>Install Web3 or Ethers</b></div>
