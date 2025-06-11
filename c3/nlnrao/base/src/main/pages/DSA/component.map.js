@@ -146,6 +146,12 @@ import MedianStreamIntegers from './algorithms/heap-algorithms/median-stream-int
 import MergeKSortedLists from './algorithms/heap-algorithms/merge-k-sorted-lists/index.js';
 import PriorityQueueUsingHeap from './algorithms/heap-algorithms/priority-queue/index.js';
 
+// Blockchain Algorithms
+import DirectedAcyclicGraph from './algorithms/blockchain/directed-acyclic-graph/index.js';
+import MerkleTree from './algorithms/blockchain/merkle-tree/index.js';
+import PatriciaTrie from './algorithms/blockchain/patricia-trie/index.js';
+import UTreeXO from './algorithms/blockchain/utree-xo/index.js';
+
 import CacheObliviousAlgorithms from "@MainPages/DSA/content/01-cache-oblivious-algorithms/index.js";
 import TestAndVerifyAlgorithms from "@MainPages/DSA/content/02-test-and-verify-algorithms/index.js";
 import SelfTuningAlgorithms from "@MainPages/DSA/content/03-self-tuning-algorithms/index.js";
@@ -302,6 +308,12 @@ export const DSAComponentMap = {
  "MergeKSortedLists": MergeKSortedLists,
  "PriorityQueueUsingHeap": PriorityQueueUsingHeap,
  
+ // Blockchain Algorithm
+ "DirectedAcyclicGraph": DirectedAcyclicGraph,
+ "MerkleTree": MerkleTree,
+ "PatriciaTrie": PatriciaTrie,
+ "UTreeXO": UTreeXO,
+
  "CacheObliviousAlgorithms": CacheObliviousAlgorithms,
  "TestAndVerifyAlgorithms": TestAndVerifyAlgorithms,
  "SelfTuningAlgorithms": SelfTuningAlgorithms,

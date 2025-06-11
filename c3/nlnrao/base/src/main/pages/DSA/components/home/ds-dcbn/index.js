@@ -9,11 +9,11 @@ const DsDcbn = () =>{
             <AlgoOverviewList header="For Blockchain"
              desc=""
              data={[
-                   ['Merkle Tree', 'Used to efficiently verify transactions in blocks (Bitcoin, Ethereum).'],
-                   ['Patricia Trie', 'Optimized version of a Merkle Trie, used in Ethereum for storing account balances and contract states.'],
-                   ['Skip List', 'Helps with efficient block validation and lookup in some blockchain protocols.'],
-                   ['Directed Acyclic Graph (DAG)', ' Used in IOTA, Nano, and Hedera Hashgraph for high-speed transactions without miners.'],
-                   ['UtreeXO', 'A more compact version of the UTXO model for scalability.']
+                   ['Merkle Tree', 'Used to efficiently verify transactions in blocks (Bitcoin, Ethereum).','tech/dsa/blockchain/merkle-tree'],
+                   ['Patricia Trie', 'Optimized version of a Merkle Trie, used in Ethereum for storing account balances and contract states.','tech/dsa/blockchain/patricia-trie'],
+                   ['Skip List', 'Helps with efficient block validation and lookup in some blockchain protocols.','tech/dsa/probabilistics-data-structures-algorithms/skip-list'],
+                   ['Directed Acyclic Graph (DAG)', ' Used in IOTA, Nano, and Hedera Hashgraph for high-speed transactions without miners.','tech/dsa/blockchain/directed-acyclic-graph'],
+                   ['UtreeXO', 'A more compact version of the UTXO model for scalability.','tech/dsa/blockchain/utree-xo']
                  ]} />
             <AlgoOverviewList header="For NFTs"
                        desc=""

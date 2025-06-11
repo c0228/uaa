@@ -886,6 +886,30 @@
             "breadcrumbIndex": "heap-algorithms"
         },
 
+        "tech/dsa/blockchain/directed-acyclic-graph":{
+            "label": "Directed Acyclic Graph (DAG)",
+            "date": "October 26, 2024",
+            "component": "DirectedAcyclicGraph",
+            "breadcrumbIndex": "blockchain-dsa"
+        },
+        "tech/dsa/blockchain/merkle-tree":{
+            "label": "Merkle Tree",
+            "date": "October 26, 2024",
+            "component": "MerkleTree",
+            "breadcrumbIndex": "blockchain-dsa"
+        },
+        "tech/dsa/blockchain/patricia-trie":{
+            "label": "Patricia Trie",
+            "date": "October 26, 2024",
+            "component": "PatriciaTrie",
+            "breadcrumbIndex": "blockchain-dsa"
+        },
+        "tech/dsa/blockchain/utree-xo":{
+            "label": "UtreeXO",
+            "date": "October 26, 2024",
+            "component": "UTreeXO",
+            "breadcrumbIndex": "blockchain-dsa"
+        },
 
         "tech/dsa/cache-eviction-strategies/least-recently-used":{
             "label":"Least Recently Used (LRU)",
