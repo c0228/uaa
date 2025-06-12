@@ -1279,11 +1279,13 @@
         "tech/dsa/terminologies/time-and-space-complexity-analysis":{
             "label": "Time and Space Complexity Analysis",
             "date": "October 26, 2024",
+            "component": "TimeAndSpaceComplexityAnalysis",
             "breadcrumbIndex": "terminologies"
         },
-        "tech/dsa/terminologies/big-o-mega-and-Theta-notations":{
+        "tech/dsa/terminologies/big-o-mega-and-theta-notations":{
             "label": "Big-O, Omega (Ω), and Theta (Θ) Notations",
             "date": "October 26, 2024",
+            "component": "BigOmegaAndThetaNotations",
             "breadcrumbIndex": "terminologies"
         },
 

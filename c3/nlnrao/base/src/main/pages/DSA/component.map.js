@@ -217,6 +217,10 @@ import MRUCache from './cache-eviction/05-most-recently-used/index.js';
 import TTLCache from './cache-eviction/06-time-to-live/index.js';
 import TTCache from './cache-eviction/07-two-tiered-caching/index.js';
 
+// Terminologies
+import BigOmegaAndThetaNotations from './terminologies/big-o-mega-and-theta-notations/index.js';
+import TimeAndSpaceComplexityAnalysis from './terminologies/time-and-space-complexity-analysis/index.js';
+
 import CacheObliviousAlgorithms from "@MainPages/DSA/content/01-cache-oblivious-algorithms/index.js";
 import TestAndVerifyAlgorithms from "@MainPages/DSA/content/02-test-and-verify-algorithms/index.js";
 import SelfTuningAlgorithms from "@MainPages/DSA/content/03-self-tuning-algorithms/index.js";
@@ -444,6 +448,9 @@ export const DSAComponentMap = {
 "TTLCache": TTLCache,
 "TTCache": TTCache,
 
+// Terminologies
+"BigOmegaAndThetaNotations": BigOmegaAndThetaNotations,
+"TimeAndSpaceComplexityAnalysis": TimeAndSpaceComplexityAnalysis,
 
  "CacheObliviousAlgorithms": CacheObliviousAlgorithms,
  "TestAndVerifyAlgorithms": TestAndVerifyAlgorithms,
