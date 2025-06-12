@@ -10,7 +10,7 @@ import TTCache from "./cache-eviction/07-two-tiered-caching/index.js";
 
 
 const Routes = {
- 
+ "LRUCache": LRUCache,
 };
 
 export default Routes;

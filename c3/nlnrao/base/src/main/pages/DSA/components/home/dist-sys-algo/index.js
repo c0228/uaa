@@ -1,7 +1,7 @@
 import React from "react";
 import { Card } from "e-ui-react";
 import Terminologies from '@MainComponents/terminologies-list/index.js';
-import DSARoutes from "@MainPages/DSA/routes.js";
+import Routes from "@MainPages/DSA/component.routes.json";
 
 const DistSysAlgo = () =>{
  return (<Terminologies title="Distributed Systems & Consensus Algorithms" 
@@ -10,7 +10,7 @@ const DistSysAlgo = () =>{
     </div>}
     isIndex={true}
     prefix="tech/dsa/distributed-systems-consensus-algorithms/"
-    data={DSARoutes} />);
+    data={Routes?.urls} />);
 };
 
 export default DistSysAlgo;

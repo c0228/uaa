@@ -1,7 +1,7 @@
 import React from "react";
 import { Card } from "e-ui-react";
 import Terminologies from '@MainComponents/terminologies-list/index.js';
-import DSARoutes from "@MainPages/DSA/routes.js";
+import Routes from "@MainPages/DSA/component.routes.json";
 
 const LoadBalancingAlgorithms = () =>{
  return (<div>
@@ -14,12 +14,12 @@ const LoadBalancingAlgorithms = () =>{
     </div>}
     isIndex={true}
     prefix="tech/dsa/static-load-balancing-algorithms/"
-    data={DSARoutes} />
+    data={Routes?.urls} />
  <Terminologies 
     desc={<div align="center" style={{ fontSize:'14px'}}><b>Dynamic Load Balancing Algorithms<br/> (Real-time Adjustments)</b></div>}
     isIndex={true}
     prefix="tech/dsa/dynamic-load-balancing-algorithms/"
-    data={DSARoutes} />
+    data={Routes?.urls} />
 </div>);
 };
 

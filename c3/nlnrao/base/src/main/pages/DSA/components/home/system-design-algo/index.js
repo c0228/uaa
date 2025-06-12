@@ -1,7 +1,7 @@
 import React from "react";
 import { Card } from "e-ui-react";
 import Terminologies from '@MainComponents/terminologies-list/index.js';
-import DSARoutes from "@MainPages/DSA/routes.js";
+import Routes from "@MainPages/DSA/component.routes.json";
 
 const SystemDesignAlgo = () =>{
  return (<Terminologies title="System design Algorithms" 
@@ -9,7 +9,7 @@ const SystemDesignAlgo = () =>{
         for large-scale applications.</div>}
     isIndex={true}
     prefix="tech/dsa/system-design-algorithms/"
-    data={DSARoutes} />);
+    data={Routes?.urls} />);
 };
 
 export default SystemDesignAlgo;

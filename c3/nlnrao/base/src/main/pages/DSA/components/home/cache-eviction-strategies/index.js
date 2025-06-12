@@ -1,7 +1,7 @@
 import React from "react";
 import { Card } from "e-ui-react";
 import Terminologies from '@MainComponents/terminologies-list/index.js';
-import DSARoutes from "@MainPages/DSA/routes.js";
+import Routes from "@MainPages/DSA/component.routes.json";
 
 const CacheEvictionStrategies = () =>{
  return (<Terminologies title="Cache Eviction Strategies" 
@@ -19,7 +19,7 @@ const CacheEvictionStrategies = () =>{
     </div>}
     isIndex={true}
     prefix="tech/dsa/cache-eviction-strategies/"
-    data={DSARoutes} />);
+    data={Routes?.urls} />);
 };
 
 export default CacheEvictionStrategies;
