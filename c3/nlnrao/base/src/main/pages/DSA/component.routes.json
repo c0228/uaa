@@ -1133,6 +1133,43 @@
             "component": "YieldFarmingStakingAlgorithms",
             "breadcrumbIndex": "defi-algorithms"
         },
+
+        "tech/dsa/cryptographic-algorithms/hashing-algorithms-one-way-encryption":{
+            "label": "Hashing Algorithms (One-Way Encryption)",
+            "date": "October 26, 2024",
+            "component": "HashingAlgorithms",
+            "breadcrumbIndex": "cryptographic-algorithms"
+        },
+        "tech/dsa/cryptographic-algorithms/key-exchange-protocols-for-secure-communication":{
+            "label": "Key Exchange Protocols (For Secure Communication)",
+            "date": "October 26, 2024",
+            "component": "KeyExchangeProtocols",
+            "breadcrumbIndex": "cryptographic-algorithms"
+        },
+        "tech/dsa/cryptographic-algorithms/post-quantum-cryptography-future-proof-security":{
+            "label": "Post-Quantum Cryptography (Future-Proof Security)",
+            "date": "October 26, 2024",
+            "component": "PostQuantumCryptography",
+            "breadcrumbIndex": "cryptographic-algorithms"
+        },
+        "tech/dsa/cryptographic-algorithms/public-key-cryptography-asymmetric-encryption":{
+            "label": "Public Key Cryptography (Asymmetric Encryption)",
+            "date": "October 26, 2024",
+            "component": "PublicKeyCryptography",
+            "breadcrumbIndex": "cryptographic-algorithms"
+        },
+        "tech/dsa/cryptographic-algorithms/symmetric-encryption-for-data-privacy-and-secure-storage":{
+            "label": "Symmetric Encryption (For Data Privacy & Secure Storage)",
+            "date": "October 26, 2024",
+            "component": "SymmetricEncryption",
+            "breadcrumbIndex": "cryptographic-algorithms"
+        },
+        "tech/dsa/cryptographic-algorithms/zero-knowledge-proofs-ZKPs":{
+            "label": "Zero-Knowledge Proofs (ZKPs)",
+            "date": "October 26, 2024",
+            "component": "ZeroKnowledgeProofs",
+            "breadcrumbIndex": "cryptographic-algorithms"
+        },
         
         "tech/dsa/cache-eviction-strategies/least-recently-used":{
             "label":"Least Recently Used (LRU)",

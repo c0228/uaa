@@ -126,28 +126,6 @@ const ADcbn = () =>{
                             <li className="mtop15p"><b>Credit Delegation –</b> Used in Aave (Trust-based lending without collateral)</li>
                         </ul>
                     </div>),'tech/dsa/defi-algorithms/insurance-and-risk-management-algorithms']
-                    
-                    
-                    
-                    
-                    
-                    
-
-
-
-
-
-
-
-
-
-
-
-
-
-                    
-
-
                 ]} />
         </Col>
       </Row>
@@ -164,7 +142,7 @@ const ADcbn = () =>{
                             <li className="mtop15p"><b>Blake2b & Blake3 –</b> Used in Zcash, Filecoin (Faster than SHA-256)</li>
                             <li className="mtop15p"><b>RIPEMD-160 –</b> Used in Bitcoin for generating addresses from public keys</li>
                         </ul>
-                    </div>)],
+                    </div>),'tech/dsa/cryptographic-algorithms/hashing-algorithms-one-way-encryption'],
                     ['Public Key Cryptography (Asymmetric Encryption)', (<div>Used for wallets, transactions, and digital signatures:
                         <ul>
                             <li className="mtop15p"><b>RSA (Rivest-Shamir-Adleman) –</b> Used in older cryptographic systems, but less used in blockchain</li>
@@ -172,7 +150,7 @@ const ADcbn = () =>{
                             <li className="mtop15p"><b>ECDSA (Elliptic Curve Digital Signature Algorithm) –</b> Used in Bitcoin, Ethereum for private-public key pairs</li>
                             <li className="mtop15p"><b>EdDSA (Ed25519, Ed448) –</b> Used in Solana, Monero (Faster than ECDSA, higher security)</li>
                         </ul>
-                    </div>)],
+                    </div>),'tech/dsa/cryptographic-algorithms/public-key-cryptography-asymmetric-encryption'],
                     ['Symmetric Encryption (For Data Privacy & Secure Storage)', (<div>
                         Used for secure messaging and encrypted databases:
                         <ul>
@@ -181,7 +159,7 @@ const ADcbn = () =>{
                             <li className="mtop15p"><b>DES –</b></li>
                             <li className="mtop15p"><b>Blowfish –</b></li>
                         </ul>
-                    </div>)],
+                    </div>),'tech/dsa/cryptographic-algorithms/symmetric-encryption-for-data-privacy-and-secure-storage'],
                     ['Zero-Knowledge Proofs (ZKPs)', (<div>Used for privacy-preserving transactions in DeFi & NFTs.
                         <ul>
                             <li className="mtop15p"><b>zk-SNARKs (Zero-Knowledge Succinct Non-Interactive Argument of Knowledge) –</b> Used in Zcash, Tornado Cash, zkSync</li>
@@ -189,20 +167,20 @@ const ADcbn = () =>{
                             <li className="mtop15p"><b>Bulletproofs –</b> Used in Monero (Shorter proof sizes than zk-SNARKs, but no trusted setup)</li>
                             <li className="mtop15p"><b>Poseidon Hash –</b></li>
                         </ul>
-                    </div>)],
+                    </div>),'tech/dsa/cryptographic-algorithms/zero-knowledge-proofs-ZKPs'],
                     ['Key Exchange Protocols (For Secure Communication)', (<div>
                         Used for secure transaction signing and off-chain communication:
                         <ul>
                             <li className="mtop15p"><b>ECDH (Elliptic Curve Diffie-Hellman) –</b> Used in Ethereum’s Whisper Protocol for private messaging</li>
                             <li className="mtop15p"><b>X25519 –</b> Used in Signal, Telegram, and encrypted web protocols (More secure than ECDH)</li>
                         </ul>
-                    </div>)],
+                    </div>),'tech/dsa/cryptographic-algorithms/key-exchange-protocols-for-secure-communication'],
                     ['Post-Quantum Cryptography (Future-Proof Security)', (<div>Used to protect against quantum computing attacks:
                         <ul>
                             <li className="mtop15p"><b>Lattice-Based Cryptography –</b> Used in NIST post-quantum cryptography candidates like Kyber, Dilithium</li>
                             <li className="mtop15p"><b>Hash-Based Signatures (SPHINCS+) –</b> Used in Quantum-secure blockchain research</li>
                         </ul>
-                    </div>)]
+                    </div>),'tech/dsa/cryptographic-algorithms/post-quantum-cryptography-future-proof-security']
                 ]} />
         </Col>
       </Row>

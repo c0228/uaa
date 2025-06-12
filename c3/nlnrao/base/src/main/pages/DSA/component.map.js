@@ -200,6 +200,14 @@ import MEVAlgorithms from './algorithms/defi-algorithms/mev-algorithms/index.js'
 import OracleAlgorithms from './algorithms/defi-algorithms/oracle-algorithms/index.js';
 import YieldFarmingStakingAlgorithms from './algorithms/defi-algorithms/yield-farming-staking-algorithms/index.js';
 
+// Cryptographic Algorithms
+import HashingAlgorithms from './algorithms/cryptographic-algorithms/hashing-algorithms/index.js';
+import KeyExchangeProtocols from './algorithms/cryptographic-algorithms/key-exchange-protocols/index.js';
+import PostQuantumCryptography from './algorithms/cryptographic-algorithms/post-quantum-cryptography/index.js';
+import PublicKeyCryptography from './algorithms/cryptographic-algorithms/public-key-cryptography/index.js';
+import SymmetricEncryption from './algorithms/cryptographic-algorithms/symmetric-encryption/index.js';
+import ZeroKnowledgeProofs from './algorithms/cryptographic-algorithms/zero-knowledge-proofs/index.js';
+
 import CacheObliviousAlgorithms from "@MainPages/DSA/content/01-cache-oblivious-algorithms/index.js";
 import TestAndVerifyAlgorithms from "@MainPages/DSA/content/02-test-and-verify-algorithms/index.js";
 import SelfTuningAlgorithms from "@MainPages/DSA/content/03-self-tuning-algorithms/index.js";
@@ -410,6 +418,13 @@ export const DSAComponentMap = {
  "OracleAlgorithms": OracleAlgorithms,
  "YieldFarmingStakingAlgorithms": YieldFarmingStakingAlgorithms,
  
+ // Cryptographic Algorithms
+ "HashingAlgorithms": HashingAlgorithms,
+ "KeyExchangeProtocols": KeyExchangeProtocols,
+ "PostQuantumCryptography": PostQuantumCryptography,
+ "PublicKeyCryptography": PublicKeyCryptography,
+ "SymmetricEncryption": SymmetricEncryption,
+ "ZeroKnowledgeProofs": ZeroKnowledgeProofs,
  
  "CacheObliviousAlgorithms": CacheObliviousAlgorithms,
  "TestAndVerifyAlgorithms": TestAndVerifyAlgorithms,
