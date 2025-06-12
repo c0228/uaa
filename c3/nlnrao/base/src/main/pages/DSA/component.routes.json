@@ -1042,6 +1042,31 @@
         },
 
 
+        "tech/dsa/nft-specific-algorithms/minting-and-ownership-algorithms":{
+            "label": "Minting & Ownership Algorithms",
+            "date": "October 26, 2024",
+            "component": "MintingOwnershipAlgorithms",
+            "breadcrumbIndex": "nft-specific-algorithms"
+        },
+        "tech/dsa/nft-specific-algorithms/NFT-trading-and-marketplace-algorithms":{
+            "label": "NFT Trading & Marketplace Algorithms",
+            "date": "October 26, 2024",
+            "component": "NFTTradingMarketplaceAlgorithms",
+            "breadcrumbIndex": "nft-specific-algorithms"
+        },
+        "tech/dsa/nft-specific-algorithms/NFT-interoperability-and-cross-chain-bridges":{
+            "label": "NFT Interoperability & Cross-Chain Bridges",
+            "date": "October 26, 2024",
+            "component": "NFTInteroperabilityCrossChainBridges",
+            "breadcrumbIndex": "nft-specific-algorithms"
+        },
+        "tech/dsa/nft-specific-algorithms/NFT-privacy-and-security-algorithms":{
+            "label": "NFT Privacy & Security Algorithms",
+            "date": "October 26, 2024",
+            "component": "NFTPrivacySecurityAlgorithms",
+            "breadcrumbIndex": "nft-specific-algorithms"
+        },
+        
         "tech/dsa/cache-eviction-strategies/least-recently-used":{
             "label":"Least Recently Used (LRU)",
             "date":"October 26, 2024",

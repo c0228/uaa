@@ -33,7 +33,7 @@ const ADcbn = () =>{
                             <li className="mtop15p"><b>On-Chain Randomness (Chainlink VRF, RANDAO) –</b> Used for generative NFT minting.</li>
                             <li className="mtop15p"><b>Lazy Minting –</b> Optimized approach where NFTs are minted only when sold (used in OpenSea).</li>
                         </ul>
-                    </div>)],
+                    </div>),'tech/dsa/nft-specific-algorithms/minting-and-ownership-algorithms'],
                     ['NFT Trading & Marketplace Algorithms', (<div>These algorithms enable NFT buying, selling, and royalties.
                         <ul>
                             <li className="mtop15p"><b>Automated Market Makers (AMM) for NFTs –</b> Used in Sudoswap, NFTX (NFT price discovery with liquidity pools)</li>
@@ -42,21 +42,21 @@ const ADcbn = () =>{
                             <li className="mtop15p"><b>Royalty Fee Splitting (EIP-2981) –</b> Algorithm for handling NFT royalties on secondary sales.</li>
                             <li className="mtop15p"><b>Fractional Ownership Model –</b> Used in Fractional.art (Splits NFTs into tradable ERC-20 tokens)</li>
                         </ul>
-                    </div>)],
+                    </div>),'tech/dsa/nft-specific-algorithms/NFT-trading-and-marketplace-algorithms'],
                     ['NFT Interoperability & Cross-Chain Bridges', (<div>NFTs should be transferable across different blockchains.
                         <ul>
                             <li className="mtop15p"><b>Wrapped NFTs (wNFTs) –</b> Used in Axie Infinity, Aavegotchi (Bridge NFTs to other chains)</li>
                             <li className="mtop15p"><b>Cross-Chain NFT Bridges –</b> Used in LayerZero, Wormhole, Polkadot (Transfers NFTs across ecosystems)</li>
                             <li className="mtop15p"><b>Composable NFTs (ERC-998) –</b> Used in NFT games, Metaverse assets (NFTs that own other NFTs)</li>
                         </ul>
-                    </div>)],
+                    </div>),'tech/dsa/nft-specific-algorithms/NFT-interoperability-and-cross-chain-bridges'],
                     ['NFT Privacy & Security Algorithms', (<div>Protecting NFT ownership and transaction data.
                         <ul>
                             <li className="mtop15p"><b>zk-SNARKs (Zero-Knowledge Proofs) –</b> Used in Tornado Cash, Aztec Protocol (Private NFT ownership)</li>
                             <li className="mtop15p"><b>Soulbound Tokens (SBTs) –</b> Used in Ethereum’s EIP-5114 proposal (Non-transferable NFTs for identity)</li>
                             <li className="mtop15p"><b>NFT Forgery Detection (AI + Blockchain) –</b> Used in Adobe Content Authenticity Initiative (Prevents fake NFTs)</li>
                         </ul>
-                    </div>)]
+                    </div>),'tech/dsa/nft-specific-algorithms/NFT-privacy-and-security-algorithms']
                 ]} />
         </Col>
         <Col xl={6} xxl={6}>

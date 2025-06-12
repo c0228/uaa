@@ -181,6 +181,14 @@ import ProofOfSpaceTime from './algorithms/consensus-algorithms/proof-of-space-t
 import ProofOfStake from './algorithms/consensus-algorithms/proof-of-stake/index.js';
 import ProofOfWork from './algorithms/consensus-algorithms/proof-of-work/index.js';
 
+// NFT-Specific Algorithms
+import MintingOwnershipAlgorithms from './algorithms/nft-specific-algorithms/minting-ownership-algorithms/index.js';
+import NFTInteroperabilityCrossChainBridges from './algorithms/nft-specific-algorithms/nft-interoperability-cross-chain-bridges/index.js';
+import NFTPrivacySecurityAlgorithms from './algorithms/nft-specific-algorithms/nft-privacy-security-algorithms/index.js';
+import NFTTradingMarketplaceAlgorithms from './algorithms/nft-specific-algorithms/nft-trading-marketplace-algorithms/index.js';
+
+
+
 import CacheObliviousAlgorithms from "@MainPages/DSA/content/01-cache-oblivious-algorithms/index.js";
 import TestAndVerifyAlgorithms from "@MainPages/DSA/content/02-test-and-verify-algorithms/index.js";
 import SelfTuningAlgorithms from "@MainPages/DSA/content/03-self-tuning-algorithms/index.js";
@@ -371,6 +379,12 @@ export const DSAComponentMap = {
  "ProofOfSpaceTime": ProofOfSpaceTime,
  "ProofOfStake": ProofOfStake,
  "ProofOfWork": ProofOfWork,
+
+ // NFT-specific Algorithms
+ "MintingOwnershipAlgorithms": MintingOwnershipAlgorithms,
+ "NFTInteroperabilityCrossChainBridges": NFTInteroperabilityCrossChainBridges,
+ "NFTPrivacySecurityAlgorithms": NFTPrivacySecurityAlgorithms,
+ "NFTTradingMarketplaceAlgorithms": NFTTradingMarketplaceAlgorithms,
 
  "CacheObliviousAlgorithms": CacheObliviousAlgorithms,
  "TestAndVerifyAlgorithms": TestAndVerifyAlgorithms,
