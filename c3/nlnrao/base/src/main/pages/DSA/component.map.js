@@ -232,6 +232,16 @@ import RaftAlgorithm from './system-design/raft-algorithm/index.js';
 import RayCasting from './system-design/ray-casting/index.js';
 import RSync from './system-design/rsync/index.js';
 
+// Load Balancing Algorithms
+
+
+// Distributed Systems & Consensus Algorithms
+
+
+// DSA Notations
+
+
+// Content
 import CacheObliviousAlgorithms from "@MainPages/DSA/content/01-cache-oblivious-algorithms/index.js";
 import TestAndVerifyAlgorithms from "@MainPages/DSA/content/02-test-and-verify-algorithms/index.js";
 import SelfTuningAlgorithms from "@MainPages/DSA/content/03-self-tuning-algorithms/index.js";
@@ -474,6 +484,16 @@ export const DSAComponentMap = {
 "RayCasting": RayCasting,
 "RSync": RSync,
 
+// Load Balancing Algorithms
+
+
+// Distributed Systems & Consensus Algorithms
+
+
+// DSA Notations
+
+
+// Content
  "CacheObliviousAlgorithms": CacheObliviousAlgorithms,
  "TestAndVerifyAlgorithms": TestAndVerifyAlgorithms,
  "SelfTuningAlgorithms": SelfTuningAlgorithms,

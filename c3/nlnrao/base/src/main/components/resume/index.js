@@ -46,10 +46,10 @@ const Resume = () =>{
             <ResumeHeader title="My Technical Stack (Skills Overview)" />
             <TechStack />
 
-            <ResumeHeader title="My Academic Details" />
+            {/*<ResumeHeader title="My Academic Details" />
             <Academics />
             <ResumeHeader title="My Work Experience" />
-            <WorkExperience />
+            <WorkExperience />*/}
          </Col>
          <Col xxl={4} xl={5} lg={3} sm={3}>
             <ResumeHeader title="My Professional Experience" />
