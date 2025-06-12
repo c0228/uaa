@@ -911,6 +911,26 @@
             "breadcrumbIndex": "blockchain-dsa"
         },
 
+        "tech/dsa/cryptography/elliptic-curve-cryptography-ecc":{
+            "label": "Elliptic Curve Cryptography (ECC)",
+            "date": "October 26, 2024",
+            "component": "ECC",
+            "breadcrumbIndex": "cryptography-dsa"
+        },
+        "tech/dsa/cryptography/verkle-tree":{
+            "label": "Verkle Tree",
+            "date": "October 26, 2024",
+            "component": "VerkleTree",
+            "breadcrumbIndex": "cryptography-dsa"
+        },
+        "tech/dsa/cryptography/commitment":{
+            "label": "Commitment",
+            "date": "October 26, 2024",
+            "component": "Commitment",
+            "breadcrumbIndex": "cryptography-dsa"
+        },
+
+
         "tech/dsa/cache-eviction-strategies/least-recently-used":{
             "label":"Least Recently Used (LRU)",
             "date":"October 26, 2024",

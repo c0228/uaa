@@ -27,10 +27,10 @@ const DsDcbn = () =>{
             <AlgoOverviewList header="For Cryptography"
                        desc=""
                        data={[
-                             ['Elliptic Curve Cryptography (ECC)', 'Utilized in Bitcoin, Ethereum, and zk-SNARKs for digital signatures (e.g., secp256k1 curve).'],
-                             ['Bloom Filters', 'Used for fast membership testing (e.g., Bitcoin light clients).'],
-                             ['Verkle Tree', 'A more efficient alternative to Merkle Trees, planned for Ethereum scalability improvements.'],
-                             ['Commitment ', 'Schemes (Pedersen Commitment, KZG Commitment): Used in privacy-preserving transactions and rollups.']
+                             ['Elliptic Curve Cryptography (ECC)', 'Utilized in Bitcoin, Ethereum, and zk-SNARKs for digital signatures (e.g., secp256k1 curve).','tech/dsa/cryptography/elliptic-curve-cryptography-ecc'],
+                             ['Bloom Filters', 'Used for fast membership testing (e.g., Bitcoin light clients).','tech/dsa/probabilistics-data-structures-algorithms/bloom-filter'],
+                             ['Verkle Tree', 'A more efficient alternative to Merkle Trees, planned for Ethereum scalability improvements.','tech/dsa/cryptography/verkle-tree'],
+                             ['Commitment ', 'Schemes (Pedersen Commitment, KZG Commitment): Used in privacy-preserving transactions and rollups.','tech/dsa/cryptography/commitment']
                            ]} />
            <AlgoOverviewList header="For DeFi & Smart Contracts"
                        desc=""
