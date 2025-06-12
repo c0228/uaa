@@ -930,6 +930,25 @@
             "breadcrumbIndex": "cryptography-dsa"
         },
 
+        "tech/dsa/nfts/directed-graph":{
+            "label": "Directed Graph",
+            "date": "October 26, 2024",
+            "component": "DirectedGraph",
+            "breadcrumbIndex": "nft-dsa"
+        },
+        "tech/dsa/nfts/ipfs-merkle-DAG":{
+            "label": "IPFS & Merkle DAG",
+            "date": "October 26, 2024",
+            "component": "IPFSMerkleDAG",
+            "breadcrumbIndex": "nft-dsa"
+        },
+        "tech/dsa/nfts/sparse-merkle-trie":{
+            "label": "Sparse Merkle Trie",
+            "date": "October 26, 2024",
+            "component": "SparseMerkleTrie",
+            "breadcrumbIndex": "nft-dsa"
+        },
+
 
         "tech/dsa/cache-eviction-strategies/least-recently-used":{
             "label":"Least Recently Used (LRU)",

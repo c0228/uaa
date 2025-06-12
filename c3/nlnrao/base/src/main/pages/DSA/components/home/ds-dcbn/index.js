@@ -18,9 +18,9 @@ const DsDcbn = () =>{
             <AlgoOverviewList header="For NFTs"
                        desc=""
                        data={[
-                             ['IPFS & Merkle DAG', 'Used for decentralized NFT metadata storage (e.g., ERC-721, ERC-1155).'],
-                             ['Sparse Merkle Trie', 'Helps in verifying NFT ownership without full-chain data access.'],
-                             ['Directed Graph', 'Used in NFT marketplaces for linking ownership history.']
+                             ['IPFS & Merkle DAG', 'Used for decentralized NFT metadata storage (e.g., ERC-721, ERC-1155).','tech/dsa/nfts/ipfs-merkle-DAG'],
+                             ['Sparse Merkle Trie', 'Helps in verifying NFT ownership without full-chain data access.','tech/dsa/nfts/sparse-merkle-trie'],
+                             ['Directed Graph', 'Used in NFT marketplaces for linking ownership history.','tech/dsa/nfts/directed-graph']
                            ]} />
           </Col>
           <Col xl={6} xxl={6}>
@@ -35,9 +35,9 @@ const DsDcbn = () =>{
            <AlgoOverviewList header="For DeFi & Smart Contracts"
                        desc=""
                        data={[
-                             ['Heap / Priority Queue', 'Used in lending protocols like Aave and Compound for interest rate calculations.'],
-                             ['Red-Black Tree / AVL Tree', 'Used in order book-based DEXs like Serum for efficient trade matching.'],
-                             ['Sparse Merkle Tree', 'Used in rollups (e.g., Optimistic Rollups, ZK-Rollups) for state commitment.']
+                             ['Heap / Priority Queue', 'Used in lending protocols like Aave and Compound for interest rate calculations.',''],
+                             ['Red-Black Tree / AVL Tree', 'Used in order book-based DEXs like Serum for efficient trade matching.',''],
+                             ['Sparse Merkle Tree', 'Used in rollups (e.g., Optimistic Rollups, ZK-Rollups) for state commitment.','']
                            ]} />
           </Col>
        </Row>

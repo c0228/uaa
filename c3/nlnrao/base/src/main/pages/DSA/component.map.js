@@ -157,6 +157,12 @@ import Commitment from './algorithms/cryptography/commitment/index.js';
 import ECC from './algorithms/cryptography/ecc/index.js'; 
 import VerkleTree from './algorithms/cryptography/verkle-tree/index.js';
 
+// NFTs Algorithm
+import DirectedGraph from './algorithms/nfts/directed-graph/index.js';
+import IPFSMerkleDAG from './algorithms/nfts/ipfs-merkle-dag/index.js';
+import SparseMerkleTrie from './algorithms/nfts/sparse-merkle-trie/index.js';
+
+
 import CacheObliviousAlgorithms from "@MainPages/DSA/content/01-cache-oblivious-algorithms/index.js";
 import TestAndVerifyAlgorithms from "@MainPages/DSA/content/02-test-and-verify-algorithms/index.js";
 import SelfTuningAlgorithms from "@MainPages/DSA/content/03-self-tuning-algorithms/index.js";
@@ -323,6 +329,12 @@ export const DSAComponentMap = {
  "Commitment": Commitment,
  "ECC": ECC,
  "VerkleTree": VerkleTree,
+
+ // NFTs Algorithm
+ "DirectedGraph": DirectedGraph,
+ "IPFSMerkleDAG": IPFSMerkleDAG,
+ "SparseMerkleTrie": SparseMerkleTrie,
+
 
  "CacheObliviousAlgorithms": CacheObliviousAlgorithms,
  "TestAndVerifyAlgorithms": TestAndVerifyAlgorithms,
