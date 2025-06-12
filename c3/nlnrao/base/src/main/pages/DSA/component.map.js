@@ -208,6 +208,15 @@ import PublicKeyCryptography from './algorithms/cryptographic-algorithms/public-
 import SymmetricEncryption from './algorithms/cryptographic-algorithms/symmetric-encryption/index.js';
 import ZeroKnowledgeProofs from './algorithms/cryptographic-algorithms/zero-knowledge-proofs/index.js';
 
+// Cache Eviction Strategies
+import LRUCache from './cache-eviction/01-least-recently-used/index.js';
+import LFUCache from './cache-eviction/02-least-frequently-used/index.js';
+import FIFOCache from './cache-eviction/03-first-in-first-out/index.js';
+import RRCache from './cache-eviction/04-random-replacement/index.js';
+import MRUCache from './cache-eviction/05-most-recently-used/index.js';
+import TTLCache from './cache-eviction/06-time-to-live/index.js';
+import TTCache from './cache-eviction/07-two-tiered-caching/index.js';
+
 import CacheObliviousAlgorithms from "@MainPages/DSA/content/01-cache-oblivious-algorithms/index.js";
 import TestAndVerifyAlgorithms from "@MainPages/DSA/content/02-test-and-verify-algorithms/index.js";
 import SelfTuningAlgorithms from "@MainPages/DSA/content/03-self-tuning-algorithms/index.js";
@@ -426,6 +435,16 @@ export const DSAComponentMap = {
  "SymmetricEncryption": SymmetricEncryption,
  "ZeroKnowledgeProofs": ZeroKnowledgeProofs,
  
+ // Cache Eviction Strategies
+"LRUCache": LRUCache,
+"LFUCache": LFUCache,
+"FIFOCache": FIFOCache,
+"RRCache": RRCache,
+"MRUCache": MRUCache,
+"TTLCache": TTLCache,
+"TTCache": TTCache,
+
+
  "CacheObliviousAlgorithms": CacheObliviousAlgorithms,
  "TestAndVerifyAlgorithms": TestAndVerifyAlgorithms,
  "SelfTuningAlgorithms": SelfTuningAlgorithms,
