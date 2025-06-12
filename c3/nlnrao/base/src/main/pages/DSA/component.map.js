@@ -187,7 +187,18 @@ import NFTInteroperabilityCrossChainBridges from './algorithms/nft-specific-algo
 import NFTPrivacySecurityAlgorithms from './algorithms/nft-specific-algorithms/nft-privacy-security-algorithms/index.js';
 import NFTTradingMarketplaceAlgorithms from './algorithms/nft-specific-algorithms/nft-trading-marketplace-algorithms/index.js';
 
-
+// DeFi Algorithms
+import AMMAlgorithm from './algorithms/defi-algorithms/amm-algorithm/index.js';
+import BondingCurves from './algorithms/defi-algorithms/bonding-curves/index.js';
+import CrossChainAndInteroperabilityAlgorithms from './algorithms/defi-algorithms/cross-chain-and-interoperability-algorithms/index.js';
+import FlashLoanAlgorithms from './algorithms/defi-algorithms/flash-loan-algorithms/index.js';
+import GovernanceAlgorithms from './algorithms/defi-algorithms/governance-algorithms/index.js';
+import InsuranceRiskManagementAlgorithms from './algorithms/defi-algorithms/insurance-risk-management-algorithms/index.js';
+import LendingProtocolInterestRatesAlgorithms from './algorithms/defi-algorithms/lending-protocol-interest-rates-algorithms/index.js';
+import LiquidityManagementAlgorithms from './algorithms/defi-algorithms/liquidity-management-algorithms/index.js';
+import MEVAlgorithms from './algorithms/defi-algorithms/mev-algorithms/index.js';
+import OracleAlgorithms from './algorithms/defi-algorithms/oracle-algorithms/index.js';
+import YieldFarmingStakingAlgorithms from './algorithms/defi-algorithms/yield-farming-staking-algorithms/index.js';
 
 import CacheObliviousAlgorithms from "@MainPages/DSA/content/01-cache-oblivious-algorithms/index.js";
 import TestAndVerifyAlgorithms from "@MainPages/DSA/content/02-test-and-verify-algorithms/index.js";
@@ -386,6 +397,20 @@ export const DSAComponentMap = {
  "NFTPrivacySecurityAlgorithms": NFTPrivacySecurityAlgorithms,
  "NFTTradingMarketplaceAlgorithms": NFTTradingMarketplaceAlgorithms,
 
+ // DeFi Algorithms
+ "AMMAlgorithm": AMMAlgorithm,
+ "BondingCurves": BondingCurves,
+ "CrossChainAndInteroperabilityAlgorithms": CrossChainAndInteroperabilityAlgorithms,
+ "FlashLoanAlgorithms": FlashLoanAlgorithms,
+ "GovernanceAlgorithms": GovernanceAlgorithms,
+ "InsuranceRiskManagementAlgorithms": InsuranceRiskManagementAlgorithms,
+ "LendingProtocolInterestRatesAlgorithms": LendingProtocolInterestRatesAlgorithms,
+ "LiquidityManagementAlgorithms": LiquidityManagementAlgorithms,
+ "MEVAlgorithms": MEVAlgorithms,
+ "OracleAlgorithms": OracleAlgorithms,
+ "YieldFarmingStakingAlgorithms": YieldFarmingStakingAlgorithms,
+ 
+ 
  "CacheObliviousAlgorithms": CacheObliviousAlgorithms,
  "TestAndVerifyAlgorithms": TestAndVerifyAlgorithms,
  "SelfTuningAlgorithms": SelfTuningAlgorithms,

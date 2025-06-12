@@ -1066,6 +1066,73 @@
             "component": "NFTPrivacySecurityAlgorithms",
             "breadcrumbIndex": "nft-specific-algorithms"
         },
+
+        "tech/dsa/defi-algorithms/automated-market-maker-amm-algorithm":{
+            "label": "Automated Market Maker (AMM) Algorithm",
+            "date": "October 26, 2024",
+            "component": "AMMAlgorithm",
+            "breadcrumbIndex": "defi-algorithms"
+        },
+        "tech/dsa/defi-algorithms/bonding-curves":{
+            "label": "Bonding Curves",
+            "date": "October 26, 2024",
+            "component": "BondingCurves",
+            "breadcrumbIndex": "defi-algorithms"
+        },
+        "tech/dsa/defi-algorithms/cross-chain-and-interoperability-algorithms":{
+            "label": "Cross-Chain & Interoperability Algorithms",
+            "date": "October 26, 2024",
+            "component": "CrossChainAndInteroperabilityAlgorithms",
+            "breadcrumbIndex": "defi-algorithms"
+        },
+        "tech/dsa/defi-algorithms/flash-loan-algorithms-for-instant-no-collateral-borrowing":{
+            "label": "Flash Loan Algorithms (For Instant, No-Collateral Borrowing)",
+            "date": "October 26, 2024",
+            "component": "FlashLoanAlgorithms",
+            "breadcrumbIndex": "defi-algorithms"
+        },
+        "tech/dsa/defi-algorithms/governance-algorithms-for-DAO-based-decision-making":{
+            "label": "Governance Algorithms (For DAO-Based Decision Making)",
+            "date": "October 26, 2024",
+            "component": "GovernanceAlgorithms",
+            "breadcrumbIndex": "defi-algorithms"
+        },
+        "tech/dsa/defi-algorithms/insurance-and-risk-management-algorithms":{
+            "label": "Insurance & Risk Management Algorithms",
+            "date": "October 26, 2024",
+            "component": "InsuranceRiskManagementAlgorithms",
+            "breadcrumbIndex": "defi-algorithms"
+        },
+        "tech/dsa/defi-algorithms/lending-protocol-interest-rate-algorithms":{
+            "label": "Lending Protocol Interest Rate Algorithms",
+            "date": "October 26, 2024",
+            "component": "LendingProtocolInterestRatesAlgorithms",
+            "breadcrumbIndex": "defi-algorithms"
+        },
+        "tech/dsa/defi-algorithms/liquidity-management-algorithms":{
+            "label": "Liquidity Management Algorithms",
+            "date": "October 26, 2024",
+            "component": "LiquidityManagementAlgorithms",
+            "breadcrumbIndex": "defi-algorithms"
+        },
+        "tech/dsa/defi-algorithms/mev-miner-extractable-value-algorithms":{
+            "label": "MEV (Miner Extractable Value) Algorithms",
+            "date": "October 26, 2024",
+            "component": "MEVAlgorithms",
+            "breadcrumbIndex": "defi-algorithms"
+        },
+        "tech/dsa/defi-algorithms/oracle-algorithms":{
+            "label": "Oracle Algorithms",
+            "date": "October 26, 2024",
+            "component": "OracleAlgorithms",
+            "breadcrumbIndex": "defi-algorithms"
+        },
+        "tech/dsa/defi-algorithms/yield-farming-and-staking-algorithms":{
+            "label": "Yield Farming & Staking Algorithms",
+            "date": "October 26, 2024",
+            "component": "YieldFarmingStakingAlgorithms",
+            "breadcrumbIndex": "defi-algorithms"
+        },
         
         "tech/dsa/cache-eviction-strategies/least-recently-used":{
             "label":"Least Recently Used (LRU)",

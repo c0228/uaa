@@ -68,64 +68,64 @@ const ADcbn = () =>{
                             <li className="mtop15p"><b>StableSwap Invariant –</b> Used in Curve Finance (Optimized for stablecoins)</li>
                             <li className="mtop15p"><b>Hybrid Liquidity Models –</b> Used in Balancer, Bancor (Customizable pools with dynamic weights)</li>
                         </ul>
-                        </div>)],
-                    ['Bonding Curves', 'Used in token price determination (e.g., Bancor, Rari Capital).'],
+                        </div>),'tech/dsa/defi-algorithms/automated-market-maker-amm-algorithm'],
+                    ['Bonding Curves', 'Used in token price determination (e.g., Bancor, Rari Capital).','tech/dsa/defi-algorithms/bonding-curves'],
                     ['Lending Protocol Interest Rate Algorithms', (<div>Used in DeFi lending protocols to determine interest rates and risk:
                         <ul>
                             <li className="mtop15p"><b>Utilization Rate Model –</b> Used in Aave, Compound (Adjusts interest rates dynamically).</li>
                             <li className="mtop15p"><b>Overcollateralization & Liquidation Models –</b> Used in MakerDAO, Compound (Ensures solvency)</li>
                         </ul>
-                        </div>)],
+                        </div>),'tech/dsa/defi-algorithms/lending-protocol-interest-rate-algorithms'],
                     ['Yield Farming & Staking Algorithms', (<div>Reward users for staking and providing liquidity:
                         <ul>
                             <li className="mtop15p"><b>Liquidity Mining –</b> Used in SushiSwap, Yearn Finance (Rewards LP providers)</li>
                             <li className="mtop15p"><b>Auto-compounding Strategies –</b> Used in Yearn Finance, Beefy Finance (Maximizes returns)</li>
                         </ul>
-                        </div>)],
+                        </div>),'tech/dsa/defi-algorithms/yield-farming-and-staking-algorithms'],
                     ['Cross-Chain & Interoperability Algorithms', (<div>Enable DeFi protocols to work across multiple blockchains:
                         <ul>
                             <li className="mtop15p"><b>Atomic Swaps –</b> Used in ThorChain, Liquality (Trustless token swaps)</li>
                             <li className="mtop15p"><b>Layer-0 & Bridge Protocols –</b> Used in Polkadot, Cosmos IBC (Cross-chain DeFi transactions)</li>
                         </ul>
-                        </div>)],
+                        </div>),'tech/dsa/defi-algorithms/cross-chain-and-interoperability-algorithms'],
                     ['Oracle Algorithms', (<div>DeFi platforms need accurate price feeds from external sources:
                         <ul>
                             <li className="mtop15p"><b>Decentralized Oracles –</b> Used in Chainlink, Band Protocol (Aggregates data from multiple sources)</li>
                             <li className="mtop15p"><b>Push-Based vs Pull-Based Feeds –</b> Used in Tellor, API3 (Push sends updates; Pull requests when needed)</li>
                             <li className="mtop15p"><b>Medianizer Algorithm –</b> Used in MakerDAO (Eliminates price manipulation by taking the median)</li>
                         </ul>
-                    </div>)],
+                    </div>),'tech/dsa/defi-algorithms/oracle-algorithms'],
                     ['Flash Loan Algorithms (For Instant, No-Collateral Borrowing)', (<div>
                         <ul>
                             <li className="mtop15p"><b>Atomic Execution Model –</b> Used in Aave, dYdX (Loans must be repaid in the same transaction)</li>
                             <li className="mtop15p"><b>Collateral Swap Model –</b> Used in Furucombo (Allows leveraging assets instantly)</li>
                         </ul>
-                    </div>)],
+                    </div>),'tech/dsa/defi-algorithms/flash-loan-algorithms-for-instant-no-collateral-borrowing'],
                     ['Governance Algorithms (For DAO-Based Decision Making)', (<div>DeFi projects often use Decentralized Autonomous Organizations (DAOs):
                         <ul>
                             <li className="mtop15p"><b>Token-Based Voting (1 Token = 1 Vote) –</b> Used in Uniswap, Aave</li>
                             <li className="mtop15p"><b>Quadratic Voting –</b> Used in Gitcoin Grants (Prevents whales from dominating)</li>
                             <li className="mtop15p"><b>Convex Voting –</b> Used in Curve Finance (Boosts rewards for long-term holders)</li>
                         </ul>
-                    </div>)],
+                    </div>),'tech/dsa/defi-algorithms/governance-algorithms-for-DAO-based-decision-making'],
                     ['MEV (Miner Extractable Value) Algorithms', (<div>MEV refers to profits miners or validators can extract by reordering transactions:
                         <ul>
                             <li className="mtop15p"><b>Priority Gas Auctions (PGA) –</b> Used in Ethereum (Users bid to get transactions confirmed faster).</li>
                             <li className="mtop15p"><b>Flashbots Algorithm –</b> Used in Ethereum 2.0 (Prevents front-running attacks).</li>
                         </ul>
-                    </div>)],
+                    </div>),'tech/dsa/defi-algorithms/mev-miner-extractable-value-algorithms'],
                     ['Liquidity Management Algorithms', (<div>DeFi platforms need efficient liquidity provision strategies:
                         <ul>
                             <li className="mtop15p"><b>Uniswap V3 Concentrated Liquidity –</b> Allows LPs to provide liquidity in specific price ranges</li>
                             <li className="mtop15p"><b>Impermanent Loss Mitigation –</b> Used in Bancor, Tokemak (Reduces loss in liquidity pools)</li>
                         </ul>
-                    </div>)],
+                    </div>),'tech/dsa/defi-algorithms/liquidity-management-algorithms'],
                     ['Insurance & Risk Management Algorithms', (<div>DeFi insurance platforms use risk assessment models:
                         <ul>
                             <li className="mtop15p"><b>Parametric Insurance Models –</b> Used in Nexus Mutual, InsurAce (Payouts based on smart contract failures)</li>
                             <li className="mtop15p"><b>Credit Delegation –</b> Used in Aave (Trust-based lending without collateral)</li>
                         </ul>
-                    </div>)]
+                    </div>),'tech/dsa/defi-algorithms/insurance-and-risk-management-algorithms']
                     
                     
                     
