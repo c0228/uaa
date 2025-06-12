@@ -968,6 +968,80 @@
             "breadcrumbIndex": "defi-smart-contracts"
         },
 
+        "tech/dsa/consensus-algorithms/directed-acyclic-graph-DAG-based-consensus":{
+            "label": "Directed Acyclic Graph (DAG-based Consensus)",
+            "date": "October 26, 2024",
+            "component": "DAGBasedConsensus",
+            "breadcrumbIndex": "consensus-algorithms"
+        },
+        "tech/dsa/consensus-algorithms/delegated-proof-of-stake-DPoS":{
+            "label": "Delegated Proof of Stake (DPoS)",
+            "date": "October 26, 2024",
+            "component": "DelegatedProofOfStake",
+            "breadcrumbIndex": "consensus-algorithms"
+        },
+        "tech/dsa/consensus-algorithms/hybrid-PoW-PoS":{
+            "label": "Hybrid PoW/PoS",
+            "date": "October 26, 2024",
+            "component": "HybridPoWPoS",
+            "breadcrumbIndex": "consensus-algorithms"
+        },
+        "tech/dsa/consensus-algorithms/practical-byzantine-fault-tolerance-PBFT":{
+            "label": "Practical Byzantine Fault Tolerance (PBFT)",
+            "date": "October 26, 2024",
+            "component": "PracticalByzantineFaultTolerance",
+            "breadcrumbIndex": "consensus-algorithms"
+        },
+        "tech/dsa/consensus-algorithms/proof-of-authority-PoA":{
+            "label": "Proof of Authority (PoA)",
+            "date": "October 26, 2024",
+            "component": "ProofOfAuthority",
+            "breadcrumbIndex": "consensus-algorithms"
+        },
+        "tech/dsa/consensus-algorithms/proof-of-burn-PoB":{
+            "label": "Proof of Burn (PoB)",
+            "date": "October 26, 2024",
+            "component": "ProofOfBurn",
+            "breadcrumbIndex": "consensus-algorithms"
+        },
+        "tech/dsa/consensus-algorithms/proof-of-elapsed-time-PoET":{
+            "label": "Proof of Elapsed Time (PoET)",
+            "date": "October 26, 2024",
+            "component": "ProofOfElapsedTime",
+            "breadcrumbIndex": "consensus-algorithms"
+        },
+        "tech/dsa/consensus-algorithms/proof-of-history-PoH":{
+            "label": "Proof of History (PoH)",
+            "date": "October 26, 2024",
+            "component": "ProofOfHistory",
+            "breadcrumbIndex": "consensus-algorithms"
+        },
+        "tech/dsa/consensus-algorithms/proof-of-humanity-PoH":{
+            "label": "Proof of Humanity (PoH)",
+            "date": "October 26, 2024",
+            "component": "ProofOfHumanity",
+            "breadcrumbIndex": "consensus-algorithms"
+        },
+        "tech/dsa/consensus-algorithms/proof-of-space-and-proof-of-time-PoST-Pot":{
+            "label": "Proof of Space & Proof of Time (PoST/Pot)",
+            "date": "October 26, 2024",
+            "component": "ProofOfSpaceTime",
+            "breadcrumbIndex": "consensus-algorithms"
+        },
+        "tech/dsa/consensus-algorithms/proof-of-stake-PoS":{
+            "label": "Proof of Stake (PoS)",
+            "date": "October 26, 2024",
+            "component": "ProofOfStake",
+            "breadcrumbIndex": "consensus-algorithms"
+        },
+        "tech/dsa/consensus-algorithms/proof-of-work-PoW":{
+            "label": "Proof of Work (PoW)",
+            "date": "October 26, 2024",
+            "component": "ProofOfWork",
+            "breadcrumbIndex": "consensus-algorithms"
+        },
+
+
         "tech/dsa/cache-eviction-strategies/least-recently-used":{
             "label":"Least Recently Used (LRU)",
             "date":"October 26, 2024",

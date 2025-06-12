@@ -8,18 +8,18 @@ const ADcbn = () =>{
         <Col xl={6} xxl={6}>
             <AlgoOverviewList header="Consensus Algorithms"
                 data={[
-                    ['Proof of Work (PoW)', 'Used in Bitcoin (SHA-256) and Ethereum (Ethash before PoS).'],
-                    ['Proof of Stake (PoS)', 'Used in Ethereum 2.0, Cardano, and Solana.'],
-                    ['Delegated Proof of Stake (DPoS)', 'Used in EOS, TRON for faster block production.'],
-                    ['Practical Byzantine Fault Tolerance (PBFT)', 'Used in Hyperledger Fabric, Zilliqa'],
-                    ['Proof of Burn (PoB)','Requires burning (destroying) coins to gain mining rights. Used in Slimcoin'],
-                    ['Proof of History (PoH)', 'Used in Solana for timestamping transactions efficiently.'],
-                    ['Proof of Humanity (PoH)', 'Used in Worldcoin, BrightID (Verifies unique users)'],
-                    ['Proof of Authority (PoA)', 'Used in private blockchains like VeChain.'],
-                    ['Proof of Elapsed Time (PoET)', 'Used in Hyperledger Sawtooth'],
-                    ['Proof of Space & Proof of Time (PoST/Pot)', 'Used in Chia Network'],
-                    ['Directed Acyclic Graph (DAG-based Consensus)', 'Used in IOTA (Tangle), Nano, Hedera Hashgraph'],
-                    ['Hybrid PoW/PoS', 'Combines PoW security with PoS governance. Used in Decred, Horizen']
+                    ['Proof of Work (PoW)', 'Used in Bitcoin (SHA-256) and Ethereum (Ethash before PoS).','tech/dsa/consensus-algorithms/proof-of-work-PoW'],
+                    ['Proof of Stake (PoS)', 'Used in Ethereum 2.0, Cardano, and Solana.','tech/dsa/consensus-algorithms/proof-of-stake-PoS'],
+                    ['Delegated Proof of Stake (DPoS)', 'Used in EOS, TRON for faster block production.','tech/dsa/consensus-algorithms/delegated-proof-of-stake-DPoS'],
+                    ['Practical Byzantine Fault Tolerance (PBFT)', 'Used in Hyperledger Fabric, Zilliqa','tech/dsa/consensus-algorithms/practical-byzantine-fault-tolerance-PBFT'],
+                    ['Proof of Burn (PoB)','Requires burning (destroying) coins to gain mining rights. Used in Slimcoin','tech/dsa/consensus-algorithms/proof-of-burn-PoB'],
+                    ['Proof of History (PoH)', 'Used in Solana for timestamping transactions efficiently.','tech/dsa/consensus-algorithms/proof-of-history-PoH'],
+                    ['Proof of Humanity (PoH)', 'Used in Worldcoin, BrightID (Verifies unique users)','tech/dsa/consensus-algorithms/proof-of-humanity-PoH'],
+                    ['Proof of Authority (PoA)', 'Used in private blockchains like VeChain.','tech/dsa/consensus-algorithms/proof-of-authority-PoA'],
+                    ['Proof of Elapsed Time (PoET)', 'Used in Hyperledger Sawtooth','tech/dsa/consensus-algorithms/proof-of-elapsed-time-PoET'],
+                    ['Proof of Space & Proof of Time (PoST/Pot)', 'Used in Chia Network','tech/dsa/consensus-algorithms/proof-of-space-and-proof-of-time-PoST-Pot'],
+                    ['Directed Acyclic Graph (DAG-based Consensus)', 'Used in IOTA (Tangle), Nano, Hedera Hashgraph','tech/dsa/consensus-algorithms/directed-acyclic-graph-DAG-based-consensus'],
+                    ['Hybrid PoW/PoS', 'Combines PoW security with PoS governance. Used in Decred, Horizen','tech/dsa/consensus-algorithms/hybrid-PoW-PoS']
                 ]} />
             <AlgoOverviewList header=" NFT-Specific Algorithms"
                 desc="NFT platforms rely on specialized algorithms for minting, trading, security, and interoperability."

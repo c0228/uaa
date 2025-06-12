@@ -167,6 +167,20 @@ import HeapPriorityQueue from './algorithms/defi-smart-contracts/heap-priority-q
 import RedBlackAVLTree from './algorithms/defi-smart-contracts/red-black-avl-tree/index.js';
 import SparseMerkleTree from './algorithms/defi-smart-contracts/sparse-merkle-tree/index.js';
 
+// Consensus Algorithm
+import DAGBasedConsensus from './algorithms/consensus-algorithms/dag-based-consensus/index.js';
+import DelegatedProofOfStake from './algorithms/consensus-algorithms/delegated-proof-of-stake/index.js';
+import HybridPoWPoS from './algorithms/consensus-algorithms/hybrid-pow-pos/index.js';
+import PracticalByzantineFaultTolerance from './algorithms/consensus-algorithms/practical-byzantine-fault-tolerance/index.js';
+import ProofOfAuthority from './algorithms/consensus-algorithms/proof-of-authority/index.js';
+import ProofOfBurn from './algorithms/consensus-algorithms/proof-of-burn/index.js';
+import ProofOfElapsedTime from './algorithms/consensus-algorithms/proof-of-elapsed-time/index.js';
+import ProofOfHistory from './algorithms/consensus-algorithms/proof-of-history/index.js';
+import ProofOfHumanity from './algorithms/consensus-algorithms/proof-of-humanity/index.js';
+import ProofOfSpaceTime from './algorithms/consensus-algorithms/proof-of-space-time/index.js';
+import ProofOfStake from './algorithms/consensus-algorithms/proof-of-stake/index.js';
+import ProofOfWork from './algorithms/consensus-algorithms/proof-of-work/index.js';
+
 import CacheObliviousAlgorithms from "@MainPages/DSA/content/01-cache-oblivious-algorithms/index.js";
 import TestAndVerifyAlgorithms from "@MainPages/DSA/content/02-test-and-verify-algorithms/index.js";
 import SelfTuningAlgorithms from "@MainPages/DSA/content/03-self-tuning-algorithms/index.js";
@@ -343,6 +357,20 @@ export const DSAComponentMap = {
  "HeapPriorityQueue": HeapPriorityQueue,
  "RedBlackAVLTree": RedBlackAVLTree,
  "SparseMerkleTree": SparseMerkleTree,
+
+ // Consensus Algorithm
+ "DAGBasedConsensus": DAGBasedConsensus,
+ "DelegatedProofOfStake": DelegatedProofOfStake,
+ "HybridPoWPoS": HybridPoWPoS,
+ "PracticalByzantineFaultTolerance": PracticalByzantineFaultTolerance,
+ "ProofOfAuthority": ProofOfAuthority,
+ "ProofOfBurn": ProofOfBurn,
+ "ProofOfElapsedTime": ProofOfElapsedTime,
+ "ProofOfHistory": ProofOfHistory,
+ "ProofOfHumanity": ProofOfHumanity,
+ "ProofOfSpaceTime": ProofOfSpaceTime,
+ "ProofOfStake": ProofOfStake,
+ "ProofOfWork": ProofOfWork,
 
  "CacheObliviousAlgorithms": CacheObliviousAlgorithms,
  "TestAndVerifyAlgorithms": TestAndVerifyAlgorithms,
