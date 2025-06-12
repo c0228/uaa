@@ -221,6 +221,17 @@ import TTCache from './cache-eviction/07-two-tiered-caching/index.js';
 import BigOmegaAndThetaNotations from './terminologies/big-o-mega-and-theta-notations/index.js';
 import TimeAndSpaceComplexityAnalysis from './terminologies/time-and-space-complexity-analysis/index.js';
 
+// System Design Algorithms
+import ConsistentHashing from './system-design/consistent-hashing/index.js';
+import GeoHash from './system-design/geohash/index.js';
+import LeakyBucket from './system-design/leaky-bucket/index.js';
+import LossyCount from './system-design/lossy-count/index.js';
+import OperationalTransformation from './system-design/operational-transformation/index.js';
+import QuadTree from './system-design/quad-tree/index.js';
+import RaftAlgorithm from './system-design/raft-algorithm/index.js';
+import RayCasting from './system-design/ray-casting/index.js';
+import RSync from './system-design/rsync/index.js';
+
 import CacheObliviousAlgorithms from "@MainPages/DSA/content/01-cache-oblivious-algorithms/index.js";
 import TestAndVerifyAlgorithms from "@MainPages/DSA/content/02-test-and-verify-algorithms/index.js";
 import SelfTuningAlgorithms from "@MainPages/DSA/content/03-self-tuning-algorithms/index.js";
@@ -451,6 +462,17 @@ export const DSAComponentMap = {
 // Terminologies
 "BigOmegaAndThetaNotations": BigOmegaAndThetaNotations,
 "TimeAndSpaceComplexityAnalysis": TimeAndSpaceComplexityAnalysis,
+
+// System Design Algorithms
+"ConsistentHashing": ConsistentHashing,
+"GeoHash": GeoHash,
+"LeakyBucket": LeakyBucket,
+"LossyCount": LossyCount,
+"OperationalTransformation": OperationalTransformation,
+"QuadTree": QuadTree,
+"RaftAlgorithm": RaftAlgorithm,
+"RayCasting": RayCasting,
+"RSync": RSync,
 
  "CacheObliviousAlgorithms": CacheObliviousAlgorithms,
  "TestAndVerifyAlgorithms": TestAndVerifyAlgorithms,

@@ -1217,61 +1217,73 @@
         "tech/dsa/system-design-algorithms/bloom-filter":{
             "label": "Bloom Filter",
             "date": "October 26, 2024",
+            "component": "BloomFilter",
             "breadcrumbIndex": "system-design-algorithms"
         },
         "tech/dsa/system-design-algorithms/geohash":{
             "label": "Geohash",
             "date": "October 26, 2024",
+            "component": "GeoHash",
             "breadcrumbIndex": "system-design-algorithms"
         },
         "tech/dsa/system-design-algorithms/hyperloglog":{
             "label": "HyperLogLog",
             "date": "October 26, 2024",
+            "component": "HyperLogLog",
             "breadcrumbIndex": "system-design-algorithms"
         },
         "tech/dsa/system-design-algorithms/consistent-hashing":{
             "label": "Consistent Hashing",
             "date": "October 26, 2024",
+            "component": "ConsistentHashing",
             "breadcrumbIndex": "system-design-algorithms"
         },
         "tech/dsa/system-design-algorithms/merkle-tree":{
             "label": "Merkle Tree",
             "date": "October 26, 2024",
+            "component": "MerkleTree",
             "breadcrumbIndex": "system-design-algorithms"
         },
         "tech/dsa/system-design-algorithms/raft-algorithm":{
             "label": "Raft Algorithm",
             "date": "October 26, 2024",
+            "component": "RaftAlgorithm",
             "breadcrumbIndex": "system-design-algorithms"
         },
         "tech/dsa/system-design-algorithms/lossy-count":{
             "label": "Lossy Count",
             "date": "October 26, 2024",
+            "component": "LossyCount",
             "breadcrumbIndex": "system-design-algorithms"
         },
         "tech/dsa/system-design-algorithms/quadTree":{
             "label": "QuadTree",
             "date": "October 26, 2024",
+            "component": "QuadTree",
             "breadcrumbIndex": "system-design-algorithms"
         },
         "tech/dsa/system-design-algorithms/operational-transformation":{
             "label": "Operational Transformation",
             "date": "October 26, 2024",
+            "component": "OperationalTransformation",
             "breadcrumbIndex": "system-design-algorithms"
         },
         "tech/dsa/system-design-algorithms/leaky-bucket":{
             "label": "Leaky Bucket",
             "date": "October 26, 2024",
+            "component": "LeakyBucket",
             "breadcrumbIndex": "system-design-algorithms"
         },
         "tech/dsa/system-design-algorithms/rsync":{
             "label": "Rsync",
             "date": "October 26, 2024",
+            "component": "RSync",
             "breadcrumbIndex": "system-design-algorithms"
         },
         "tech/dsa/system-design-algorithms/ray-casting":{
             "label": "Ray Casting",
             "date": "October 26, 2024",
+            "component": "RayCasting",
             "breadcrumbIndex": "system-design-algorithms"
         },
 
