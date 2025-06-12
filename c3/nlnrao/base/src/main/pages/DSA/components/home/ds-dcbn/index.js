@@ -35,9 +35,9 @@ const DsDcbn = () =>{
            <AlgoOverviewList header="For DeFi & Smart Contracts"
                        desc=""
                        data={[
-                             ['Heap / Priority Queue', 'Used in lending protocols like Aave and Compound for interest rate calculations.',''],
-                             ['Red-Black Tree / AVL Tree', 'Used in order book-based DEXs like Serum for efficient trade matching.',''],
-                             ['Sparse Merkle Tree', 'Used in rollups (e.g., Optimistic Rollups, ZK-Rollups) for state commitment.','']
+                             ['Heap / Priority Queue', 'Used in lending protocols like Aave and Compound for interest rate calculations.','tech/dsa/defi-smart-contracts/heap-priority-queue'],
+                             ['Red-Black Tree / AVL Tree', 'Used in order book-based DEXs like Serum for efficient trade matching.','tech/dsa/defi-smart-contracts/red-black-tree-avl-tree'],
+                             ['Sparse Merkle Tree', 'Used in rollups (e.g., Optimistic Rollups, ZK-Rollups) for state commitment.','tech/dsa/defi-smart-contracts/sparse-merkle-tree']
                            ]} />
           </Col>
        </Row>

@@ -162,6 +162,10 @@ import DirectedGraph from './algorithms/nfts/directed-graph/index.js';
 import IPFSMerkleDAG from './algorithms/nfts/ipfs-merkle-dag/index.js';
 import SparseMerkleTrie from './algorithms/nfts/sparse-merkle-trie/index.js';
 
+// DeFi & Smart Contracts
+import HeapPriorityQueue from './algorithms/defi-smart-contracts/heap-priority-queue/index.js';
+import RedBlackAVLTree from './algorithms/defi-smart-contracts/red-black-avl-tree/index.js';
+import SparseMerkleTree from './algorithms/defi-smart-contracts/sparse-merkle-tree/index.js';
 
 import CacheObliviousAlgorithms from "@MainPages/DSA/content/01-cache-oblivious-algorithms/index.js";
 import TestAndVerifyAlgorithms from "@MainPages/DSA/content/02-test-and-verify-algorithms/index.js";
@@ -335,6 +339,10 @@ export const DSAComponentMap = {
  "IPFSMerkleDAG": IPFSMerkleDAG,
  "SparseMerkleTrie": SparseMerkleTrie,
 
+ // DeFi and Amart Contracts
+ "HeapPriorityQueue": HeapPriorityQueue,
+ "RedBlackAVLTree": RedBlackAVLTree,
+ "SparseMerkleTree": SparseMerkleTree,
 
  "CacheObliviousAlgorithms": CacheObliviousAlgorithms,
  "TestAndVerifyAlgorithms": TestAndVerifyAlgorithms,
