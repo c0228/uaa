@@ -1486,35 +1486,34 @@
             "breadcrumbIndex": "load-balancing-algorithms"
         },
     
-
         "tech/dsa/distributed-systems-consensus-algorithms/paxos-algorithm":{
             "label": "Paxos Algorithm",
             "date": "October 26, 2024",
-            "component": "",
+            "component": "PaxosAlgorithm",
             "breadcrumbIndex": "distributed-systems-consensus-algorithms"
         },
         "tech/dsa/distributed-systems-consensus-algorithms/raft-algorithm":{
             "label":"Raft Algorithm",
             "date":"October 26, 2024",
-            "component": "",
+            "component": "RaftAlgorithm",
             "breadcrumbIndex": "distributed-systems-consensus-algorithms"
         },
         "tech/dsa/distributed-systems-consensus-algorithms/byzantine-fault-tolerance":{
             "label":"Byzantine Fault Tolerance (PBFT)",
             "date":"October 26, 2024",
-            "component": "",
+            "component": "PracticalByzantineFaultTolerance",
             "breadcrumbIndex": "distributed-systems-consensus-algorithms"
         },
         "tech/dsa/distributed-systems-consensus-algorithms/gossip-protocol":{
             "label":"Gossip Protocol",
             "date":"October 26, 2024",
-            "component": "",
+            "component": "GossipProtocol",
             "breadcrumbIndex": "distributed-systems-consensus-algorithms"
         },
         "tech/dsa/distributed-systems-consensus-algorithms/vector-clocks-and-lamport-timestamps":{
             "label":"Vector Clocks & Lamport Timestamps",
             "date":"October 26, 2024",
-            "component": "",
+            "component": "VectorClocksAndLamportTimestamps",
             "breadcrumbIndex": "distributed-systems-consensus-algorithms"
         }
     }

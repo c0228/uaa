@@ -251,7 +251,9 @@ import WeightedRoundRobinTechnique from './load-balancing/static/weighted-round-
 
 
 // Distributed Systems & Consensus Algorithms
-
+import GossipProtocol from './distributed-systems-consensus/gossip-protocol/index.js';
+import PaxosAlgorithm from './distributed-systems-consensus/paxos-algorithm/index.js';
+import VectorClocksAndLamportTimestamps from './distributed-systems-consensus/vector-clocks-and-lamport-timestamps/index.js';
 
 // DSA Notations
 import IndexingAI from './dsa-notations/arrays-linkedList-notations/indexing-ai/index.js';
@@ -533,7 +535,9 @@ export const DSAComponentMap = {
  "WeightedRoundRobinTechnique": WeightedRoundRobinTechnique,
 
 // Distributed Systems & Consensus Algorithms
-
+"GossipProtocol": GossipProtocol,
+"PaxosAlgorithm": PaxosAlgorithm,
+"VectorClocksAndLamportTimestamps": VectorClocksAndLamportTimestamps,
 
 // DSA Notations
 "IndexingAI": IndexingAI,
