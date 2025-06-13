@@ -239,7 +239,24 @@ import RSync from './system-design/rsync/index.js';
 
 
 // DSA Notations
-
+import IndexingAI from './dsa-notations/arrays-linkedList-notations/indexing-ai/index.js';
+import PointerNotation from './dsa-notations/arrays-linkedList-notations/pointer-notation/index.js';
+import BigONotation from './dsa-notations/asymptotic-notations/big-o-notation/index.js';
+import LittleONotation from './dsa-notations/asymptotic-notations/little-o-notation/index.js';
+import LittleOmegaNotation from './dsa-notations/asymptotic-notations/little-omega-notation/index.js';
+import OmegaNotation from './dsa-notations/asymptotic-notations/omega-notation/index.js';
+import ThetaNotation from './dsa-notations/asymptotic-notations/theta-notation/index.js';
+import AdjacencyList from './dsa-notations/graph-notations/adjacency-list/index.js';
+import AdjacencyMatrix from './dsa-notations/graph-notations/adjacency-matrix/index.js';
+import Degree from './dsa-notations/graph-notations/degree/index.js';
+import GraphRepresentation from './dsa-notations/graph-notations/graph-representation/index.js';
+import Factorial from './dsa-notations/mathematical-notations/factorial/index.js';
+import Logarithm from './dsa-notations/mathematical-notations/logarithm/index.js';
+import Summation from './dsa-notations/mathematical-notations/summation/index.js';
+import MasterTheoremNotation from './dsa-notations/recurrence-relation-notations/master-theorem-notation/index.js';
+import BinaryTree from './dsa-notations/tree-notations/binary-tree/index.js';
+import HeightOfATree from './dsa-notations/tree-notations/height-of-a-tree/index.js';
+import PreOrderInOrderPostOrder from './dsa-notations/tree-notations/preorder-inorder-postorder/index.js';
 
 // Content
 import CacheObliviousAlgorithms from "@MainPages/DSA/content/01-cache-oblivious-algorithms/index.js";
@@ -491,7 +508,24 @@ export const DSAComponentMap = {
 
 
 // DSA Notations
-
+"IndexingAI": IndexingAI,
+"PointerNotation": PointerNotation,
+"BigONotation": BigONotation,
+"LittleONotation": LittleONotation,
+"LittleOmegaNotation": LittleOmegaNotation,
+"OmegaNotation": OmegaNotation,
+"ThetaNotation": ThetaNotation,
+"AdjacencyList": AdjacencyList,
+"AdjacencyMatrix": AdjacencyMatrix,
+"Degree": Degree,
+"GraphRepresentation": GraphRepresentation,
+"Factorial": Factorial,
+"Logarithm": Logarithm,
+"Summation": Summation,
+"MasterTheoremNotation": MasterTheoremNotation,
+"BinaryTree": BinaryTree,
+"HeightOfATree": HeightOfATree,
+"PreOrderInOrderPostOrder": PreOrderInOrderPostOrder,
 
 // Content
  "CacheObliviousAlgorithms": CacheObliviousAlgorithms,

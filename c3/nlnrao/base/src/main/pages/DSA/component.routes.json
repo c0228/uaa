@@ -98,6 +98,9 @@
         "system-design-algorithms":[{ "label":"DSA", "url":"tech/dsa/overview" },
                     { "label":"System Design Algorithms", "url":"#" }],
 
+        "dsa-notation":[{ "label":"DSA", "url":"tech/dsa/overview" },
+                    { "label":"DSA Notation", "url":"#" }],
+
         "load-balancing-algorithms":[{ "label":"DSA", "url":"tech/dsa/overview" },
                     { "label":"Load Balancing Algorithms", "url":"#" }],
 
@@ -1299,6 +1302,115 @@
             "date": "October 26, 2024",
             "component": "BigOmegaAndThetaNotations",
             "breadcrumbIndex": "terminologies"
+        },
+
+        "tech/dsa/dsa-notation/indexing-a-of-i":{
+            "label": "Indexing A[i]",
+            "date": "October 26, 2024",
+            "component": "IndexingAI",
+            "breadcrumbIndex": "dsa-notation"
+        },
+        "tech/dsa/dsa-notation/pointer-notation":{
+            "label": "Pointer Notation",
+            "date": "October 26, 2024",
+            "component": "PointerNotation",
+            "breadcrumbIndex": "dsa-notation"
+        },
+        "tech/dsa/dsa-notation/big-o-notation":{
+            "label": "Big-O Notation",
+            "date": "October 26, 2024",
+            "component": "BigONotation",
+            "breadcrumbIndex": "dsa-notation"
+        },
+        "tech/dsa/dsa-notation/little-o-notation":{
+            "label": "Little-O Notation",
+            "date": "October 26, 2024",
+            "component": "LittleONotation",
+            "breadcrumbIndex": "dsa-notation"
+        },
+        "tech/dsa/dsa-notation/little-omega-notation":{
+            "label": "Little-Omega Notation",
+            "date": "October 26, 2024",
+            "component": "LittleOmegaNotation",
+            "breadcrumbIndex": "dsa-notation"
+        },
+        "tech/dsa/dsa-notation/omega-notation":{
+            "label": "Omega Notation",
+            "date": "October 26, 2024",
+            "component": "OmegaNotation",
+            "breadcrumbIndex": "dsa-notation"
+        },
+        "tech/dsa/dsa-notation/theta-notation":{
+            "label": "Theta Notation",
+            "date": "October 26, 2024",
+            "component": "ThetaNotation",
+            "breadcrumbIndex": "dsa-notation"
+        },
+        "tech/dsa/dsa-notation/adjacency-list":{
+            "label": "Adjacency List",
+            "date": "October 26, 2024",
+            "component": "AdjacencyList",
+            "breadcrumbIndex": "dsa-notation"
+        },
+        "tech/dsa/dsa-notation/adjacency-matrix":{
+            "label": "Adjacency Matrix (A)",
+            "date": "October 26, 2024",
+            "component": "AdjacencyMatrix",
+            "breadcrumbIndex": "dsa-notation"
+        },
+        "tech/dsa/dsa-notation/degree-deg-v":{
+            "label": "Degree [Deg(v)]",
+            "date": "October 26, 2024",
+            "component": "Degree",
+            "breadcrumbIndex": "dsa-notation"
+        },
+        "tech/dsa/dsa-notation/graph-representation":{
+            "label": "Graph Representation: G = (V,E)",
+            "date": "October 26, 2024",
+            "component": "GraphRepresentation",
+            "breadcrumbIndex": "dsa-notation"
+        },
+        "tech/dsa/dsa-notation/factorial":{
+            "label": "Factorial",
+            "date": "October 26, 2024",
+            "component": "Factorial",
+            "breadcrumbIndex": "dsa-notation"
+        },
+        "tech/dsa/dsa-notation/logarithm":{
+            "label": "Logarithm",
+            "date": "October 26, 2024",
+            "component": "Logarithm",
+            "breadcrumbIndex": "dsa-notation"
+        },
+        "tech/dsa/dsa-notation/summation":{
+            "label": "Summation",
+            "date": "October 26, 2024",
+            "component": "Summation",
+            "breadcrumbIndex": "dsa-notation"
+        },
+        "tech/dsa/dsa-notation/master-theorem-notation":{
+            "label": "Master Theorem Notation",
+            "date": "October 26, 2024",
+            "component": "MasterTheoremNotation",
+            "breadcrumbIndex": "dsa-notation"
+        },
+        "tech/dsa/dsa-notation/binary-tree":{
+            "label": "Binary Tree",
+            "date": "October 26, 2024",
+            "component": "BinaryTree",
+            "breadcrumbIndex": "dsa-notation"
+        },
+        "tech/dsa/dsa-notation/height-of-a-tree":{
+            "label": "Height Of A Tree (h)",
+            "date": "October 26, 2024",
+            "component": "HeightOfATree",
+            "breadcrumbIndex": "dsa-notation"
+        },
+        "tech/dsa/dsa-notation/pre-order-in-order-post-order":{
+            "label": "PreOrder, InOrder, PostOrder",
+            "date": "October 26, 2024",
+            "component": "PreOrderInOrderPostOrder",
+            "breadcrumbIndex": "dsa-notation"
         },
 
 
