@@ -233,6 +233,21 @@ import RayCasting from './system-design/ray-casting/index.js';
 import RSync from './system-design/rsync/index.js';
 
 // Load Balancing Algorithms
+// Dynamic
+import AdaptiveLoadBalancingTechnique from './load-balancing/dynamic/adaptive-load-balancing-technique/index.js';
+import AIMLBasedLoadBalancingTechnique from './load-balancing/dynamic/ai-ml-based-load-balancing-technique/index.js';
+import ChandyLamportSnapshotAlgorithm from './load-balancing/dynamic/chandy-lamport-snapshot-algorithm/index.js';
+import ConsistentHashingTechnique from './load-balancing/dynamic/consistent-hashing-technique/index.js';
+import LeastResponseTimeTechnique from './load-balancing/dynamic/least-response-time-technique/index.js';
+import ResourceBasedLoadBalancingTechnique from './load-balancing/dynamic/resource-based-load-balancing-technique/index.js';
+import TanenbaumsTokenRingAlgorithm from './load-balancing/dynamic/tanenbaums-token-ring-algorithm/index.js';
+
+// Static
+import IPHashingTechnique from './load-balancing/static/ip-hashing-technique/index.js';
+import LeastConnectionsTechnique from './load-balancing/static/least-connections-technique/index.js';
+import RoundRobinTechnique from './load-balancing/static/round-robin-technique/index.js';
+import WeightedLeastConnectionsTechnique from './load-balancing/static/weighted-least-connections-technique/index.js';
+import WeightedRoundRobinTechnique from './load-balancing/static/weighted-round-robin-technique/index.js';
 
 
 // Distributed Systems & Consensus Algorithms
@@ -502,7 +517,20 @@ export const DSAComponentMap = {
 "RSync": RSync,
 
 // Load Balancing Algorithms
+ "AdaptiveLoadBalancingTechnique": AdaptiveLoadBalancingTechnique,
+ "AIMLBasedLoadBalancingTechnique": AIMLBasedLoadBalancingTechnique,
+ "ChandyLamportSnapshotAlgorithm": ChandyLamportSnapshotAlgorithm,
+ "ConsistentHashingTechnique": ConsistentHashingTechnique,
+ "LeastResponseTimeTechnique": LeastResponseTimeTechnique,
+ "ResourceBasedLoadBalancingTechnique": ResourceBasedLoadBalancingTechnique,
+ "TanenbaumsTokenRingAlgorithm": TanenbaumsTokenRingAlgorithm,
 
+// Static
+ "IPHashingTechnique": IPHashingTechnique,
+ "LeastConnectionsTechnique": LeastConnectionsTechnique,
+ "RoundRobinTechnique": RoundRobinTechnique,
+ "WeightedLeastConnectionsTechnique": WeightedLeastConnectionsTechnique,
+ "WeightedRoundRobinTechnique": WeightedRoundRobinTechnique,
 
 // Distributed Systems & Consensus Algorithms
 

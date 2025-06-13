@@ -1413,77 +1413,76 @@
             "breadcrumbIndex": "dsa-notation"
         },
 
-
         "tech/dsa/static-load-balancing-algorithms/round-robin-technique":{
             "label": "Round Robin Technique",
             "date": "October 26, 2024",
-            "component": "",
+            "component": "RoundRobinTechnique",
             "breadcrumbIndex": "load-balancing-algorithms"
         },
         "tech/dsa/static-load-balancing-algorithms/weighted-round-robin-technique":{
             "label": "Weighted Round Robin Technique",
             "date": "October 26, 2024",
-            "component": "",
+            "component": "WeightedRoundRobinTechnique",
             "breadcrumbIndex": "load-balancing-algorithms"
         },
         "tech/dsa/static-load-balancing-algorithms/ip-hashing-technique":{
             "label": "IP Hashing Technique",
             "date": "October 26, 2024",
-            "component": "",
+            "component": "IPHashingTechnique",
             "breadcrumbIndex": "load-balancing-algorithms"
         },
         "tech/dsa/static-load-balancing-algorithms/least-connections-technique":{
             "label": "Least Connections Technique",
             "date": "October 26, 2024",
-            "component": "",
+            "component": "LeastConnectionsTechnique",
             "breadcrumbIndex": "load-balancing-algorithms"
         },
         "tech/dsa/static-load-balancing-algorithms/weighted-least-connections-technique":{
             "label": "Weighted Least Connections Technique",
             "date": "October 26, 2024",
-            "component": "",
+            "component": "WeightedLeastConnectionsTechnique",
             "breadcrumbIndex": "load-balancing-algorithms"
         },
         "tech/dsa/dynamic-load-balancing-algorithms/least-response-time-technique":{
             "label": "Least Response Time Technique",
             "date": "October 26, 2024",
-            "component": "",
+            "component": "LeastResponseTimeTechnique",
             "breadcrumbIndex": "load-balancing-algorithms"
         },
         "tech/dsa/dynamic-load-balancing-algorithms/adaptive-load-balancing-technique":{
             "label": "Adaptive Load Balancing Technique",
             "date": "October 26, 2024",
-            "component": "",
+            "component": "AdaptiveLoadBalancingTechnique",
             "breadcrumbIndex": "load-balancing-algorithms"
         },
         "tech/dsa/dynamic-load-balancing-algorithms/resource-based-boad-balancing-technique":{
             "label": "Resource-Based Load Balancing Technique",
             "date": "October 26, 2024",
-            "component": "",
+            "component": "ResourceBasedLoadBalancingTechnique",
             "breadcrumbIndex": "load-balancing-algorithms"
         },
         "tech/dsa/dynamic-load-balancing-algorithms/consistent-hashing-technique":{
             "label": "Consistent Hashing Technique",
             "date": "October 26, 2024",
-            "component": "",
+            "component": "ConsistentHashingTechnique",
             "breadcrumbIndex": "load-balancing-algorithms"
         },
         "tech/dsa/dynamic-load-balancing-algorithms/ai-ml-based-load-balancing-technique":{
             "label": "AI/ML-Based Load Balancing Technique",
             "date": "October 26, 2024",
-            "component": "",
+            "component": "AIMLBasedLoadBalancingTechnique",
             "breadcrumbIndex": "load-balancing-algorithms"
         },
         "tech/dsa/dynamic-load-balancing-algorithms/chandy-lamport-snapshot-algorithm":{
             "label": "Chandy-Lamport Snapshot Algorithm",
             "date": "October 26, 2024",
-            "component": "",
+            "component": "ChandyLamportSnapshotAlgorithm",
             "breadcrumbIndex": "load-balancing-algorithms"
         },
         "tech/dsa/dynamic-load-balancing-algorithms/tanenbaums-token-ring-algorithm":{
             "label": "Tanenbaum’s Token Ring Algorithm",
             "date": "October 26, 2024",
-            "component": "",
+            "component": "TanenbaumsTokenRingAlgorithm",
             "breadcrumbIndex": "load-balancing-algorithms"
         },
     
