@@ -4,6 +4,7 @@ import Header from '@MainTemplates/Header/index.js';
 import { HeaderMenu } from '@MainConfig/HeaderMenu.js';
 import BlogArticleHeader from '@MainComponents/blog-article-header/index.js';
 import DSANotations from '@MainPages/DSA/components/home/dsa-notations/index.js';
+import VisualRep from './components/VisualRep/index.js';
 
 const RadixSort = ({ meta }) =>{
   return (<div>
@@ -12,6 +13,7 @@ const RadixSort = ({ meta }) =>{
     <Row>
       <Col md={8}>
         <BlogArticleHeader metaData={meta} />
+        <VisualRep />
       </Col>
       <Col md={4}>
         <DSANotations />
