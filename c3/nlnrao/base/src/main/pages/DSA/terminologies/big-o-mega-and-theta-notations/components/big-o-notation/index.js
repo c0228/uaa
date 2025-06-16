@@ -1,8 +1,7 @@
 import React from "react";
-import { Tab, UrlParams } from 'e-ui-react';
 import { Card, Highlight } from "e-ui-react";
+import ConstantTime from './components/constant-time/index.js';
 
-const url = UrlParams().baseUrl;
 
 const BigONotation = () =>{
  return (<div>
@@ -31,13 +30,10 @@ const BigONotation = () =>{
         <div className="mtop15p">
             <ol>
                 <li>
-                    <div className="blog-head"><b>O(1) - Constant Time</b></div>
-                    <div>
-                        <Tab menulinks={[{ id:"python", label:"Python", url:"#", 
-                            component:(<div style={{ border:'1px solid #ccc', padding:'15px' }}>Python</div>) },
-                                        { id:"java", label:"Java", url:"#",  component:(<div style={{ border:'1px solid #ccc', padding:'15px' }}>Java</div>) },
-                                        { id:"javascript", label:"Javascript", url:"#",  component:(<div style={{ border:'1px solid #ccc', padding:'15px' }}>Javascript</div>) }]} />
-                    </div>
+                    <ConstantTime />
+                </li>
+                <li className="mtop15p">
+                    <div className="blog-head"><b>O(n) - Linear Time</b></div>
                 </li>
             </ol>
         </div>
