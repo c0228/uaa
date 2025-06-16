@@ -1,5 +1,5 @@
 import React from "react";
-import { Card } from "e-ui-react";
+import { Icon, Card } from "e-ui-react";
 import OrderList from "@MainComponents/order-list/index.js";
 
 const AsymptoticNotations = () =>{
@@ -98,10 +98,10 @@ const AsymptoticNotations = () =>{
                     </div>
                 </div>),
                 (<div><b>Space Complexity</b> O(n)</div>),
-                (<div><b>Stable</b> Yes</div>),
-                (<div><b>Adaptive</b> No</div>),
-                (<div><b>In-Place</b> No (uses extra memory)</div>),
-                (<div><b>Divide & Conquer</b> Yes</div>),
+                (<div><b>Stable</b> <Icon type="FontAwesome" name="fa-check-circle" size={14} color="green" /> Yes</div>),
+                (<div><b>Adaptive</b> <Icon type="FontAwesome" name="fa-times-circle" size={14} color="red" /> No</div>),
+                (<div><b>In-Place</b> <Icon type="FontAwesome" name="fa-times-circle" size={14} color="red" /> No (uses extra memory)</div>),
+                (<div><b>Divide & Conquer</b> <Icon type="FontAwesome" name="fa-check-circle" size={14} color="green" /> Yes</div>),
                 (<div><b>Use Cases</b> Large data, Linked lists, Stable sorting needed</div>)]} />
             </Card>
     </div>
