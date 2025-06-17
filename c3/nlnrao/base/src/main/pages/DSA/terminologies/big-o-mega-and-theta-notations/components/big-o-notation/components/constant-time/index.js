@@ -1,11 +1,9 @@
 import React from "react";
 import { Tab, UrlParams, Highlight } from 'e-ui-react';
 
-const url = UrlParams().baseUrl;
-
 const ConstantTime = () =>{
 
-const PythonConstantTime = () =>{
+const PythonCode = () =>{
  const PYTHON_CONSTANT_ACCESS = `def get_third_element(arr):
   return arr[2]`;
 
@@ -22,7 +20,7 @@ const PythonConstantTime = () =>{
     </div>);
 };
 
-const JavaConstantTime = () =>{
+const JavaCode = () =>{
  const JAVA_CONSTANT_ACCESS = `public class ConstantTime {
    public static int getThirdElement(int[] arr) {
     return arr[2];
@@ -42,7 +40,7 @@ const JavaConstantTime = () =>{
         </div>);;
 };
 
-const JSConstantTime = () =>{
+const JSCode = () =>{
  const JS_CONSTANT_ACCESS = `function getThirdElement(arr) {
     return arr[2];
  }`;
@@ -60,13 +58,13 @@ const JSConstantTime = () =>{
 };
 
  return (<div>
-    <div className="blog-head"><b>O(1) - Constant Time</b></div>
+    <div className="blog-head blog-hgl-title"><b>O(1) - Constant Time</b></div>
     <div className="mtop5p">An algorithm is said to run in <code><b>O(1)</b></code> time if its execution time <b><i>does not depend on the size</i></b> of 
     the input. This means it performs a <b>fixed number of steps</b>, no matter how large the input is.</div>
     <div className="mtop5p">
-        <Tab menulinks={[{ id:"python", label:"Python", url:"#", component:(<PythonConstantTime />) },
-            { id:"java", label:"Java", url:"#",  component:(<JavaConstantTime />) },
-            { id:"javascript", label:"Javascript", url:"#",  component:(<JSConstantTime />) }]} />
+        <Tab menulinks={[{ id:"python", label:"Python", url:"#", component:(<PythonCode />) },
+            { id:"java", label:"Java", url:"#",  component:(<JavaCode />) },
+            { id:"javascript", label:"Javascript", url:"#",  component:(<JSCode />) }]} />
     </div>
     <div className="mtop5p">
         In all three languages:
