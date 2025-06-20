@@ -109,10 +109,60 @@ const FactorialTime = () =>{
       <div>This is a <b>classic factorial time problem</b>. Every new item increases 
       permutations <b>multiplicatively</b>.</div>
     </div>
+
     <div className="mtop5p">
       <Tab menulinks={[{ id:"python", label:"Python", url:"#", component:(<PythonCode />) },
         { id:"java", label:"Java", url:"#",  component:(<JavaCode />) },
         { id:"javascript", label:"Javascript", url:"#",  component:(<JSCode />) }]} />
+    </div>
+
+    <div className="mtop15p">
+      <div><h5 className="blog-head"><b>Time Complexity Breakdown:</b></h5></div>
+      <div className="mtop5p">
+        <SimpleTable header={["Problem","Time Complexity"]} 
+          columns={[
+            ["Generating all permutations","O(n!)"],
+            ["Traveling Salesman (brute)","O(n!)"],
+            ["Hamiltonian Path","O(n!)"],
+          ]} />
+      </div>
+    </div>
+
+    <div className="mtop15p">
+      <div><h5 className="blog-head"><b>When to Avoid O(n!) Algorithms:</b></h5></div>
+      <div className="mtop5p">
+        Avoid when <code><b>n &gt; 10</b></code> unless optimized with:
+        <ul>
+          <li>Pruning (Backtracking with conditions)</li>
+          <li>Memoization</li>
+          <li>Branch-and-Bound</li>
+          <li>Heuristics (e.g., Greedy, Approximation)</li>
+        </ul>
+      </div>
+    </div>
+
+    <div className="mtop15p">
+      <div><h5 className="blog-head"><b>Real-world Problems Using Factorial Time:</b></h5></div>
+      <div className="mtop5p">
+       <SimpleTable header={["Problem","Context"]} columns={[
+        ["Traveling Salesman Problem","Shortest round-trip visiting all cities"],
+        ["Scheduling with Constraints","All task arrangements"],
+        ["Cryptographic Brute-force","All key permutations"]
+       ]} />
+      </div>
+    </div>
+
+    <div className="mtop15p">
+      <Card padding={15} backgroundColor="#eee">
+        <div><h5><b>Note:</b></h5></div>
+        <div className="mtop5p">
+          <ul>
+            <li><b>O(n!)</b> grows faster than all other time complexities.</li>
+            <li>Often used in <b>permutation-based</b> or <b>brute-force problems</b>.</li>
+            <li>Useful for small <code><b>n</b></code> or when combined with <b>optimization tricks</b>.</li>
+          </ul>
+        </div>
+      </Card>
     </div>
 
   </div>);
