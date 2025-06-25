@@ -1,5 +1,6 @@
 import React from "react";
 import { Card } from "e-ui-react";
+import SimpleTable from "@MainComponents/simple-table/index.js";
 
 const Introduction = () =>{
  return (<div className="mtop15p lh28p fs16p">
@@ -55,9 +56,31 @@ const Introduction = () =>{
             </ul>
         </div>
         <div><h5><b>Step-by-step:</b></h5></div>
-        
+        <div className="mtop5p">
+            <SimpleTable header={["Step","Action","Cache Content","Notes"]} 
+                columns={[
+                    ["1","Access A","[A]","A is added"],
+                    ["2","Access B","[A,B]","B is added"],
+                    ["3","Access C","[A,B,C]","C is added"],
+                    ["4","Access A","[B,C,A]","A is moved to recent"],
+                    ["5","Access D","[C,A,D]","B is least recently used, so removed"]
+                ]} />
+        </div>  
     </div>
 
+    <div className="mtop15p"><h2 className="blog-head"><b>Data Structures to Implement Least Recently Used (LRU)</b></h2></div>
+    <div className="mtop15p">
+        To implement LRU efficiently, we need:
+        <ol>
+            <li><b>HashMap –</b> to store keys and their references.</li>
+            <li><b>Doubly Linked List –</b> to maintain the usage order (most recent at front, least recent at back).</li>
+        </ol>
+        This gives:
+        <ul>
+            <li><code><b>O(1)</b></code> access (with HashMap)</li>
+            <li><code><b>O(1)</b></code> update/move operations (with Doubly Linked List)</li>
+        </ul>
+    </div>
  </div>);
 };
 

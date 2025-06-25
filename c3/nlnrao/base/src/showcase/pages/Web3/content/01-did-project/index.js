@@ -11,8 +11,7 @@ const DIDProject = ({ meta }) =>{
    <ContainerFluid>
            <Row>
                <Col md={12}>
-                   <BlogArticleHeader metaData={meta} />
-                   
+                   <BlogArticleHeader metaData={meta} />     
                </Col>
            </Row>
            <Row>
