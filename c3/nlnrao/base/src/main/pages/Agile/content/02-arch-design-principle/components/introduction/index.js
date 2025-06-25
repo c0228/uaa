@@ -1,4 +1,5 @@
 import React from "react";
+import SimpleTable from "@MainComponents/simple-table/index.js";
 
 const Introduction = () =>{
  return (<div className="lh28p fs16p mtop15p">
@@ -14,24 +15,20 @@ const Introduction = () =>{
         the software development lifecycle. By integrating architecture design principles with Agile practices, teams can effectively 
         manage complexity, respond to change, and deliver high-quality software that aligns with business objectives.
         </div>
-        <div className="table-responsive mtop15p">
-            <table className="table">
-                <thead align="center" className="table-dark">
-                    <tr><th>S. No.</th><th>Architecture Design Principles</th><th>Agile Methodology Alignment</th></tr>
-                </thead>
-                <tbody align="center">
-                    <tr><td>1.</td><td>Modularity</td><td>Incremental Delivery</td></tr>
-                    <tr><td>2.</td><td>Abstraction</td><td>Emergent Design</td></tr>
-                    <tr><td>3.</td><td>Scalability</td><td>Responsive Planning</td></tr>
-                    <tr><td>4.</td><td>Flexibility</td><td>Adaptive Planning</td></tr>
-                    <tr><td>5.</td><td>Security</td><td>Incremental Risk Management</td></tr>
-                    <tr><td>6.</td><td>Performance</td><td>Continuous Improvement</td></tr>
-                    <tr><td>7.</td><td>Maintainability</td><td>Sustainable Pace</td></tr>
-                    <tr><td>8.</td><td>Simplicity</td><td>Simplicity</td></tr>
-                    <tr><td>9.</td><td>Resilience</td><td>Resilience</td></tr>
-                    <tr><td>10.</td><td>Reusuability</td><td>Reusuability</td></tr>
-                </tbody>
-            </table>
+        <div className="mtop15p">
+            <SimpleTable header={["S. No.","Architecture Design Principles","Agile Methodology Alignment"]} 
+                columns={[
+                    ["1.","Modularity","Incremental Delivery"],
+                    ["2.","Abstraction","Emergent Design"],
+                    ["3.","Scalability","Responsive Planning"],
+                    ["4.","Flexibility","Adaptive Planning"],
+                    ["5.","Security","Incremental Risk Management"],
+                    ["6.","Performance","Continuous Improvement"],
+                    ["7.","Maintainability","Sustainable Pace"],
+                    ["8.","Simplicity","Simplicity"],
+                    ["9.","Resilience","Resilience"],
+                    ["10.","Reusuability","Reusuability"]
+                ]} />
         </div>
  </div>);
 };

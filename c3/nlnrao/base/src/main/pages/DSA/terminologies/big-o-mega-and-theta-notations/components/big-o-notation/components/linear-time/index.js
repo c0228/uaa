@@ -1,5 +1,6 @@
 import React from "react";
 import { Tab, Card, Highlight } from 'e-ui-react';
+import SimpleTable from "@MainComponents/simple-table/index.js";
 
 const PYTHON_LINEAR_ACCESS= `def sum_of_elements(arr):
     total = 0
@@ -84,61 +85,22 @@ const LinearTime = () =>{
     </div>
     <div className="mtop5p">
         <div align="center"><h5 className="blog-head"><b>Visual Representation of Linear Time : O(n)</b></h5></div>
-        <div className="table-responsive">
-            <table className="table">
-                <thead>
-                    <tr style={{ backgroundColor:'#eee' }}>
-                        <td><b>Array Length</b></td>
-                        <td><b>Time (in steps)</b></td>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>3</td>
-                        <td>3 Steps</td>
-                    </tr>
-                    <tr>
-                        <td>1000</td>
-                        <td>1000 steps</td>
-                    </tr>
-                    <tr>
-                        <td>1,000,000</td>
-                        <td>1,000,000 steps</td>
-                    </tr>
-                </tbody>
-            </table>
-        </div>
+        <SimpleTable header={["Array Length","Time (in steps)"]} 
+            columns={[
+                ["3","3 Steps"],
+                ["1000","1000 steps"],
+                ["1,000,000","1,000,000 steps"]
+            ]} />
     </div>
     <div className="mtop5p">
         <div align="center"><h5 className="blog-head"><b>Real-World Scenarios of O(n)</b></h5></div>
-        <div className="table-responsive">
-            <table className="table">
-                <thead>
-                    <tr style={{ backgroundColor:'#eee' }}>
-                        <td><b>Task</b></td>
-                        <td><b>Complexity</b></td>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>Counting elements</td>
-                        <td>O(n)</td>
-                    </tr>
-                    <tr>
-                        <td>Finding max/min in an unsorted list</td>
-                        <td>O(n)</td>
-                    </tr>
-                    <tr>
-                        <td>Removing all occurrences of a value</td>
-                        <td>O(n)</td>
-                    </tr>
-                    <tr>
-                        <td>Validating all inputs in a form</td>
-                        <td>O(n)</td>
-                    </tr>
-                </tbody>
-            </table>
-        </div>
+        <SimpleTable header={["Task","Complexity"]} 
+            columns={[
+                ["Counting elements","O(n)"],
+                ["Finding max/min in an unsorted list","O(n)"],
+                ["Removing all occurrences of a value","O(n)"],
+                ["Validating all inputs in a form","O(n)"]
+            ]} />
     </div>
  </div>);
 };
