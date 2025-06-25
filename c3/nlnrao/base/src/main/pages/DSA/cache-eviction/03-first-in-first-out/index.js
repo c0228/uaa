@@ -3,6 +3,7 @@ import { Blog, Content, RightSide } from '@MainPages/DSA/components/blog-templat
 import CacheEvictionStrategies from "@MainPages/DSA/components/home/cache-eviction-strategies/index.js";
 import Introduction from "./components/introduction/index.js";
 import Implementation from "./components/implementation/index.js";
+import Conclusion from "./components/conclusion/index.js";
 
 const FIFOCache = ({ meta }) =>{
  return (<div>
@@ -10,6 +11,7 @@ const FIFOCache = ({ meta }) =>{
     <Content>
         <Introduction />
         <Implementation />
+        <Conclusion />
     </Content>
     <RightSide>
         <CacheEvictionStrategies />

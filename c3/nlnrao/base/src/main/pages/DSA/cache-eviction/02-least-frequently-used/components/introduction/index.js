@@ -289,7 +289,7 @@ const Introduction = () =>{
         </ol>
     </div>
 
-    <div className="mtop15p"><h2 className="blog-head"><b>Least Frequently Used (LFU) Cache</b></h2></div>
+    <div className="mtop15p"><h2 className="blog-head"><b>Least Frequently Used (LFU) Cache Implementation</b></h2></div>
     <div className="mtop15p">
         <Tab menulinks={[{ id:"java", label:"Java", url:"#", component:(<JavaCode />) },
                         { id:"javascript", label:"Javascript", url:"#", component:(<JSCode />) },
@@ -379,44 +379,6 @@ const Introduction = () =>{
             <li><b>CDNs:</b> Content caching</li>
             <li>Memory management in embedded systems</li>
         </ul>
-    </div>
-
-    <div className="mtop15p">
-        <Card padding={15} backgroundColor="#eee">
-            <div><h5 className="blog-head"><b>Summary -</b></h5></div>
-            <div className="table-responsive">
-                <table className="table">
-                    <thead>
-                        <tr style={{ backgroundColor:'#eee' }}>
-                            <td><b>Topic</b></td>
-                            <td><b>Takeaway</b></td>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td><b>What is LFU?</b></td>
-                            <td>Evicts least frequently accessed item</td>
-                        </tr>
-                        <tr>
-                            <td><b>How it works</b></td>
-                            <td>Tracks frequency of accesses per item</td>
-                        </tr>
-                        <tr>
-                            <td><b>Efficient Implementation</b></td>
-                            <td>HashMaps + LinkedHashSet</td>
-                        </tr>
-                        <tr>
-                            <td><b>Time Complexity</b></td>
-                            <td>O(1) for get and put</td>
-                        </tr>
-                        <tr>
-                            <td><b>Best Use Case</b></td>
-                            <td>Consistent, predictable workloads</td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
-        </Card>
     </div>
 
  </div>);
