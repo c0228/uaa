@@ -179,6 +179,13 @@
             "component": "MetaverseReality",
             "keywords":[]
         },
+        "tech/web3.0/terminologies/miner-or-maximal-extractable-value-mev":{
+            "breadcrumbIndex": "web3-terminologies",
+            "label":"Miner / Maximal Extractable Value (MEV)",
+            "date":"October 26, 2024",
+            "component": "MinerExtractableValue",
+            "keywords":[]
+        },
         "tech/web3.0/terminologies/minting-vs-mining":{
             "breadcrumbIndex": "web3-terminologies",
             "label":"Minting Vs Mining",

@@ -23,6 +23,7 @@ import SmartContractsLifecycle from "./terminologies/modules/lifecycle-of-smartc
 import MaaS from "./terminologies/modules/m-a-a-s/index.js";
 import MetamaskWallet from "./terminologies/modules/metamask-wallet/index.js";
 import MetaverseReality from "./terminologies/modules/metaverse-vr-ar-xr-mr/index.js";
+import MinerExtractableValue from "./terminologies/modules/miner-extractable-value/index.js";
 import MintingVsMining from "./terminologies/modules/minting-vs-mining/index.js";
 import NFTDigitalOwnership from "./terminologies/modules/nft-digital-ownership/index.js";
 import PublicPrivateBlockchain from "./terminologies/modules/public-private-blockchains/index.js";
@@ -65,6 +66,7 @@ export const Web3ComponentMap = {
 "MaaS": MaaS,
 "MetamaskWallet": MetamaskWallet,
 "MetaverseReality": MetaverseReality,
+"MinerExtractableValue": MinerExtractableValue,
 "MintingVsMining": MintingVsMining,
 "NFTDigitalOwnership": NFTDigitalOwnership,
 "PublicPrivateBlockchain": PublicPrivateBlockchain,
