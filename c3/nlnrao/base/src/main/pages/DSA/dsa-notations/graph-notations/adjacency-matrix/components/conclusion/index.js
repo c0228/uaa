@@ -16,7 +16,7 @@ const Conclusion = () =>{
             ["Inefficient for Sparse Graphs",(<div>Yes <DisplayIcon /></div>)]
           ]} />
     </div>
-    <div className="mtop15p">The <b>Adjacency Matrix</b> is a <b>clean and quick-access</b> way to represent graphs. While it may consume more 
+    <div className="mtop5p">The <b>Adjacency Matrix</b> is a <b>clean and quick-access</b> way to represent graphs. While it may consume more 
     space for <b>sparse graphs</b>, it's still a favorite when performance is critical, and graph size is small or dense.</div>
     <div className="mtop5p">
       <Card padding={15} backgroundColor="#eee">
