@@ -1,5 +1,5 @@
 import React from "react";
-import { Highlight } from "e-ui-react";
+import { Tab, Highlight } from "e-ui-react";
 
 const PBFT_IMPL_NODEJS = `class PBFTNode {
     constructor(id) {
@@ -94,6 +94,43 @@ public class Main {
 }`;
 
 const Practical = () =>{
+
+    const JavaPBFTCode = ()=>{
+        return (<div style={{ border:'1px solid #ccc', padding:'15px' }}>
+        <Highlight content={PBFT_IMPL_JAVA} lang="java" />
+        </div>);
+    };
+
+    const JSPBFTCode = ()=>{
+        return (<div style={{ border:'1px solid #ccc', padding:'15px' }}>
+        <Highlight content={PBFT_IMPL_NODEJS} lang="javascript" />
+        </div>);
+    };
+
+    const PythonPBFTCode = ()=>{
+        return (<div style={{ border:'1px solid #ccc', padding:'15px' }}>
+        <Highlight content={PBFT_IMPL_PYTHON} lang="python" />
+        </div>);
+    };
+
+    const JavaTendermintCode = ()=>{
+        return (<div style={{ border:'1px solid #ccc', padding:'15px' }}>
+        <Highlight content={TENDERMINT_CODE_JAVA} lang="java" />
+        </div>);
+    };
+
+    const JSTendermintCode = ()=>{
+        return (<div style={{ border:'1px solid #ccc', padding:'15px' }}>
+        <Highlight content={TENDERMINT_CODE_NODEJS} lang="javascript" />
+        </div>);
+    };
+
+    const PythonTendermintCode = ()=>{
+        return (<div style={{ border:'1px solid #ccc', padding:'15px' }}>
+        <Highlight content={TENDERMINT_CODE_PYTHON} lang="python" />
+        </div>);
+    };
+
  return (<div className="mtop15p mbot15p lh28p fs16p">
     <div align="center" className="mtop15p"><h2 className="blog-head"><b>Practical Byzantine Fault Tolerance (PBFT)</b></h2></div>
     <div className="mtop15p mbot15p">
@@ -113,12 +150,11 @@ const Practical = () =>{
             </div>
         </div>
         <div className="mtop15p"><h4><b>Practical Byzantine Fault Tolerance (PBFT) Code Example</b></h4></div>
-        <div className="padLeft5p"><b>Node.js Implementation:</b></div>
-        <Highlight content={PBFT_IMPL_NODEJS} lang="javascript" />
-        <div className="padLeft5p"><b>Python Implementation:</b></div>
-        <Highlight content={PBFT_IMPL_PYTHON} lang="python" />
-        <div className="padLeft5p"><b>Java Implementation:</b></div>
-        <Highlight content={PBFT_IMPL_JAVA} lang="java" />
+        <div className="mtop15p">
+            <Tab menulinks={[{ id:"java", label:"Java", url:"#", component:(<JavaPBFTCode />) },
+                        { id:"javascript", label:"Javascript", url:"#", component:(<JSPBFTCode />) },
+                        { id:"python", label:"Python", url:"#", component:(<PythonPBFTCode />) }]} />
+        </div>
     </div>
 
     <div className="mtop15p"><h2 className="blog-head"><b>Tendermint Consensus</b></h2></div>
@@ -136,12 +172,11 @@ const Practical = () =>{
             </ol>
         </div>
         <div className="mtop15p"><h4><b>Tendermint Code Example</b></h4></div>
-        <div><b>Node JS Implementation:</b></div>
-        <Highlight content={TENDERMINT_CODE_NODEJS} lang="javascript" />
-        <div><b>Python Implementation:</b></div>
-        <Highlight content={TENDERMINT_CODE_PYTHON} lang="python" />
-        <div><b>Node JS Implementation:</b></div>
-        <Highlight content={TENDERMINT_CODE_JAVA} lang="java" />
+        <div className="mtop15p">
+            <Tab menulinks={[{ id:"java", label:"Java", url:"#", component:(<JavaTendermintCode />) },
+                        { id:"javascript", label:"Javascript", url:"#", component:(<JSTendermintCode />) },
+                        { id:"python", label:"Python", url:"#", component:(<PythonTendermintCode />) }]} />
+        </div>
     </div>
     <div align="center" className="mtop15p"><h2 className="blog-head"><b>Comparison of PBFT and Tendermint</b></h2></div>
     <div className="table-responsive-sm">

@@ -9,7 +9,7 @@ import Conclusion from "./components/conclusion/index.js";
 
 const ByzantineFaultTolerance = ({ meta }) =>{
  return (<div className="mbot15p">
-  <Header menulinks={HeaderMenu} activeId="Home" />
+  <Header menulinks={HeaderMenu} activeId="DSA" />
    <ContainerFluid>
       <Row>
         <Col md={8}>
