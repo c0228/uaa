@@ -2,7 +2,7 @@ import React from "react";
 import { Card } from "e-ui-react";
 
 const Conclusion = () =>{
- return (<div className="mtop15p lh28p fs16p">
+ return (<div className="mtop15p mbot15p lh28p fs16p">
     <div className="mtop15p"><h2 className="blog-head"><b>Conclusion</b></h2></div>
     <div className="mtop15p">
         <div><b>Practical Byzantine Fault Tolerance (PBFT)</b> is a foundational algorithm in the world of secure, 
@@ -17,7 +17,7 @@ const Conclusion = () =>{
     </div>
     <div className="mtop15p">Though it doesn't scale well for <b>thousands of nodes</b>, PBFT is <b>still relevant</b> for 
     consortium and permissioned networks that need trust, speed, and fault tolerance.</div>
-    <div className="mtop15p">
+    <div className="mtop15p mbot15p">
         <Card padding={15} backgroundColor="#eee">
             <div><b>Note:</b></div>
             <div>If you're building blockchain applications or distributed consensus systems, understanding PBFT helps you 
