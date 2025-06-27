@@ -1,5 +1,7 @@
 import React from "react";
 import { Blog, Content, RightSide } from '@MainPages/DSA/components/blog-templates/index.js';
+import DistSysAlgo from "@MainPages/DSA/components/home/dist-sys-algo/index.js";
+import DSANotations from '@MainPages/DSA/components/home/dsa-notations/index.js';
 import CacheEvictionStrategies from "@MainPages/DSA/components/home/cache-eviction-strategies/index.js";
 
 const RaftAlgorithm = ({ meta }) =>{
@@ -9,6 +11,8 @@ const RaftAlgorithm = ({ meta }) =>{
         Content
     </Content>
     <RightSide>
+        <DistSysAlgo />
+        <DSANotations />
         <CacheEvictionStrategies />
     </RightSide>
   </Blog>
