@@ -1,6 +1,7 @@
 import React from "react";
 import { Blog, Content, RightSide } from '@MainPages/DSA/components/blog-templates/index.js';
 import SystemDesignAlgo from "@MainPages/DSA/components/home/system-design-algo/index.js";
+import DSANotations from '@MainPages/DSA/components/home/dsa-notations/index.js';
 import CacheEvictionStrategies from "@MainPages/DSA/components/home/cache-eviction-strategies/index.js";
 import Introduction from "./components/introduction/index.js";
 import Example from "./components/example/index.js";
@@ -16,6 +17,7 @@ const LeakyBucket = ({ meta }) =>{
     </Content>
     <RightSide>
         <SystemDesignAlgo />
+        <DSANotations />
         <CacheEvictionStrategies />
     </RightSide>
   </Blog>
