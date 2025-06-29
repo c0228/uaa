@@ -33,6 +33,34 @@ const Introduction = () =>{
             <li><b>Fast:</b> Constant time insertions and lookups.</li>
         </ul>
     </div>
+
+    <div className="mtop15p"><h2 className="blog-head"><b>How Bloom Filters Work (In Simple Terms)</b></h2></div>
+    <div>
+        <ol>
+            <li className="mtop5p">Create a <b>bit array</b> of size <code><b>m</b></code>, all initialized to <code><b>0</b></code>.</li>
+            <li className="mtop5p">Choose <code><b>k</b></code> <b>independent hash functions</b>.</li>
+            <li className="mtop5p">
+                <div>To <b>add</b> an item:</div>
+                <div>
+                    <ul>
+                        <li>Hash it with all <code><b>k</b></code> functions.</li>
+                        <li>Set each resulting index in the bit array to <code><b>1</b></code>.</li>
+                    </ul>
+                </div>
+            </li>
+            <li className="mtop5p">
+                <div>To <b>check</b> an item:</div>
+                <div>
+                    <ul>
+                        <li>Hash it with all <code><b>k</b></code> functions.</li>
+                        <li>If <b>any</b> of the bits at the resulting positions is <code><b>0</b></code> -&gt; item is 
+                        definitely not in the set.</li>
+                        <li>If <b>all</b> are <code><b>1</b></code> -&gt; item <b>might be</b> in the set (possible false positive).</li>
+                    </ul>
+                </div>
+            </li>
+        </ol>
+    </div>
  </div>);
 };
 
