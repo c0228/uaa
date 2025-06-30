@@ -6,6 +6,7 @@ import BlogListHeader from '@MainComponents/blog-list-header/index.js';
 import DSAIntroduction from "./components/home/dsa-introduction/index.js";
 import DsDcbn from "./components/home/ds-dcbn/index.js";
 import ADcbn from "./components/home/a-dcbn/index.js";
+import DSANotations from '@MainPages/DSA/components/home/dsa-notations/index.js';
 import CacheEvictionStrategies from "./components/home/cache-eviction-strategies/index.js";
 import DSATerminologies from "./components/home/terminologies/index.js";
 import SystemDesignAlgo from "./components/home/system-design-algo/index.js";
@@ -30,11 +31,12 @@ const DSA = () =>{
            <ADcbn />
         </Col>
         <Col xl={4} xxl={4}>
-            <CacheEvictionStrategies />
-            <DSATerminologies />
-            <SystemDesignAlgo />
-            <LoadBalancingAlgorithms />
-            <DistSysAlgo />
+              <CacheEvictionStrategies />
+              <DSANotations />
+              <DSATerminologies />
+              <SystemDesignAlgo />
+              <LoadBalancingAlgorithms />
+              <DistSysAlgo />
         </Col>
     </Row>
   </ContainerFluid>
