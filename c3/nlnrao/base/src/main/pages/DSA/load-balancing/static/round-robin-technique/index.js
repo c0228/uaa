@@ -1,5 +1,6 @@
 import React from "react";
 import { Blog, Content, RightSide } from '@MainPages/DSA/components/blog-templates/index.js';
+import LoadBalancingAlgorithms from "@MainPages/DSA/components/home/load-balance-algo/index.js";
 import DSANotations from '@MainPages/DSA/components/home/dsa-notations/index.js';
 import CacheEvictionStrategies from "@MainPages/DSA/components/home/cache-eviction-strategies/index.js";
 
@@ -10,6 +11,7 @@ const RoundRobinTechnique = ({ meta }) =>{
         Content
     </Content>
     <RightSide>
+        <LoadBalancingAlgorithms />
         <DSANotations />
         <CacheEvictionStrategies />
     </RightSide>
