@@ -91,25 +91,15 @@ const MarketPricing = () =>{
     return (<div>
         <Row>
             <Col md={12}>
-                <div style={{ paddingLeft:'15px', backgroundColor:'#eee' }}>
+                <div style={{ paddingLeft:'15px', paddingRight:'15px', backgroundColor:'#eee' }}>
                     <h5 className="blog-head">
                     <b>{title?.toUpperCase()}</b>
+                    <span className="pull-right" style={{ fontSize:'12px', color:'#777' }}>
+                        <b><u>Cap. Rank</u>: <span style={{ color:'#000', fontSize:'14px' }}>#{trendData?.market_cap_rank}</span></b>
+                    </span>
                     </h5>
                 </div>
             </Col>
-        </Row>
-        <Row>
-          <Col md={4}>
-            <div style={{ paddingLeft:'15px', fontSize:'11px', color:'#999' }}>
-                <b><u>Cap. Rank</u>: <span style={{ color:'#000', fontSize:'14px' }}>#{trendData?.market_cap_rank}</span></b></div>
-          </Col>
-          <Col md={8}>
-            <div>
-                <div align="right" style={{ fontSize:'11px', color:'#999', paddingRight:'15px' }}>
-                    <b><u>Last Updated</u></b>: {formatedLastUpdated}
-                </div>
-            </div>
-          </Col>
         </Row>
         <div style={{ paddingLeft:'15px', paddingRight:'15px', paddingTop:'5px', paddingBottom:'15px' }}>
         <Row>
