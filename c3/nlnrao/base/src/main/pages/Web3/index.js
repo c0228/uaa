@@ -8,6 +8,7 @@ import BlogListHeader from '@MainComponents/blog-list-header/index.js';
 import BlogItems from '@MainComponents/blog-items/index.js'; 
 import BlogData from '@MainStaticData/web3/overview.json';
 import Terminologies from '@MainComponents/terminologies-list/index.js';
+import MarketPricing from "./live-statistics/market-pricing/index.js";
 import Routes from "./component.routes.json";
 import ScLSolidity from "./smart-contracts/sc-l-solidity/index.js";
 import ScLVyper from "./smart-contracts/sc-l-vyper/index.js";
@@ -34,6 +35,15 @@ const Web3 = ()=>{
  <Header menulinks={HeaderMenu} activeId="Blockchain" />
  <div>
  <ContainerFluid>
+    <Row>
+      <Col xs={12} xl={12} xxl={12}>
+        <BlogListHeader label="Today's Live Cryptocurrency Dashboard – Market Trends, Real-Time Prices & Stats" />  
+      </Col>
+    </Row>
+    <Row>
+      <Col xs={8} xl={8} xxl={8}><MarketPricing /></Col>
+      <Col xs={4} xl={4} xxl={4}></Col>
+    </Row>
     <Row>
       <Col xs={12} xl={12} xxl={12}>
       
