@@ -28,8 +28,9 @@ const MarketPricing = () =>{
     FetchData();
  },[]);
 
- const ChangeDisplayer = ({ val }) =>{
-    return (<span style={{ paddingLeft:'2px' }}>( <span style={{ fontSize:'12px', color: val?.color, paddingRight:'2px' }}>{val?.text}%</span>
+ const ChangeDisplayer = ({ val, label }) =>{
+    return (<span style={{ paddingLeft:'2px' }}>
+    ( <span style={{ fontSize:'12px', color: val?.color, paddingRight:'2px' }}>{label} {val?.text}%</span>
     <Icon type="FontAwesome" color={val?.color} size={11} name={val?.color==='green'?'fa-arrow-up':'fa-arrow-down'} /> )</span>);
  };
 
@@ -37,6 +38,15 @@ const MarketPricing = () =>{
     return (<div align="center" style={{ color:'#777', fontSize:'13px', marginBottom:'10px' }}>
         (<u>Note</u>: Here, the Prices / Rates of all the Cryptocurrencies are mentioned in USD.)
     </div>);
+ };
+
+ const SectionHeader = ({ title }) =>{
+    return (<Row>
+        <Col md={12}>
+            <div align="center" style={{ borderTop:'1px solid #ccc', borderBottom:'1px solid #ccc', 
+                backgroundColor:'#eee', padding:'8px' }}><b>{title}</b></div>
+        </Col>
+    </Row>);
  };
 
  const MarketSectionHeader = ({ trendData }) =>{
@@ -59,6 +69,25 @@ const MarketPricing = () =>{
     const maxSupply = formatAbbreviatedNumber(trendData?.max_supply);
     const dilutedValue = formatAbbreviatedNumber(trendData?.fully_diluted_valuation);
 
+    const options = { weekday: 'short', month: 'short', day: '2-digit', year: 'numeric', hour: '2-digit',
+                            minute: '2-digit', second: '2-digit', hour12: true };
+    const lastUpdated = trendData?.last_updated;
+    const lastUpdatedObject = new Date(lastUpdated);
+    const formatedLastUpdated = lastUpdatedObject.toLocaleString('en-US', options).replace(',', '');
+
+    const ath = formatCurrencyNumber(trendData?.ath);
+    const athChangePercent = formatSignedNumber(trendData?.ath_change_percentage);
+    const athDate = trendData?.ath_date;
+    const athDateObject = new Date(athDate);
+    const formatedAthDate = athDateObject.toLocaleDateString();
+
+    const atl = formatCurrencyNumber(trendData?.atl);
+    const atlChangePercent = formatSignedNumber(trendData?.atl_change_percentage);
+    const atlDate = trendData?.atl_date;
+    const atlDateObject = new Date(atlDate);
+    const formatedAtlDate = atlDateObject.toLocaleDateString();
+
+
     return (<div>
         <Row>
             <Col md={12}>
@@ -69,6 +98,19 @@ const MarketPricing = () =>{
                 </div>
             </Col>
         </Row>
+        <Row>
+          <Col md={4}>
+            <div style={{ paddingLeft:'15px', fontSize:'11px', color:'#999' }}>
+                <b><u>Cap. Rank</u>: <span style={{ color:'#000', fontSize:'14px' }}>#{trendData?.market_cap_rank}</span></b></div>
+          </Col>
+          <Col md={8}>
+            <div>
+                <div align="right" style={{ fontSize:'11px', color:'#999', paddingRight:'15px' }}>
+                    <b><u>Last Updated</u></b>: {formatedLastUpdated}
+                </div>
+            </div>
+          </Col>
+        </Row>
         <div style={{ paddingLeft:'15px', paddingRight:'15px', paddingTop:'5px', paddingBottom:'15px' }}>
         <Row>
             <Col md={3}>
@@ -78,13 +120,13 @@ const MarketPricing = () =>{
             </Col>
             <Col md={9}>
                 <Row>
-                    <Col md={6}>
+                    <Col md={5}>
                         <div style={{ paddingTop:'5px' }}>
                             <div className="web3-market-trends-stat-label">Current Price</div>
                             <div style={{ fontSize:'15px' }}><b>$. {currentPrice}</b></div>
                         </div>
                     </Col>
-                    <Col md={6}>
+                    <Col md={7}>
                         <div align="right" style={{ paddingTop:'5px' }}>
                             <div className="web3-market-trends-stat-label">24h Change</div>
                             <div style={{ fontSize:'13px', color:'#555' }}>
@@ -107,12 +149,7 @@ const MarketPricing = () =>{
             </Col>
         </Row>
         </div>
-        <Row>
-            <Col md={12}>
-                <div align="center" style={{ borderTop:'1px solid #ccc', borderBottom:'1px solid #ccc', 
-                    backgroundColor:'#eee', padding:'8px' }}><b>Market Capitalization</b></div>
-            </Col>
-        </Row>
+        <SectionHeader title="Market Capitalization" />
         <div style={{ paddingLeft:'15px', paddingTop:'15px', paddingRight:'15px' }}>
             <Row>
                 <Col md={4}>
@@ -165,6 +202,27 @@ const MarketPricing = () =>{
                 </Col>
             </Row>
         </div>
+        <SectionHeader title="Market Extremes Points" />
+        <div style={{ padding:'15px' }}>
+            <Row>
+                <Col md={6}>
+                    <div>
+                        <div className="web3-market-trends-stat-label">All-Time High</div>
+                        <div style={{ fontSize:'13px', color:'#555' }}>
+                            <b>$. {ath} <ChangeDisplayer val={athChangePercent} label="L:" /></b>
+                        </div>
+                        <div style={{ fontSize:'10px', color:'#888'}}>(Reached on <u>{formatedAthDate}</u>)</div>
+                    </div>
+                </Col>
+                <Col md={6}>
+                    <div align="right">
+                        <div className="web3-market-trends-stat-label">All-Time Low</div>
+                        <div style={{ fontSize:'13px', color:'#555' }}><b>$. {atl} <ChangeDisplayer val={atlChangePercent} label="P:" /></b></div>
+                        <div style={{ fontSize:'10px', color:'#888'}}>(Reached on <u>{formatedAtlDate}</u>)</div>
+                    </div>
+                </Col>
+            </Row>
+        </div>
 
           
     </div>);
@@ -176,7 +234,7 @@ const MarketPricing = () =>{
     <Row>
     {marketTrendData?.map((trendData)=>{
         return (<Col md={6}>
-            <div style={{ border:'1px solid #ccc', marginBottom:'15px' }}>
+            <div style={{ border:'1px solid #ccc', marginBottom:'15px', boxShadow:'1.2px 1.2px 1.2px 1.2px #eee' }}>
                 <MarketSectionHeader trendData={trendData} />
             </div>
         </Col>);
