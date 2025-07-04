@@ -13,7 +13,7 @@ const MarketPricing = () =>{
         .then(response => { // handle success
             setMarketTrendData( response.data );
             console.log("GET Request Success:", response.data);
-            // setTimeout(()=>{ FetchData(); }, 10000);
+            setTimeout(()=>{ FetchData(); }, 60000);
         })
         .catch(error => {
             // handle error
