@@ -224,7 +224,7 @@ const MarketPricing = () =>{
     <Row>
     {marketTrendData?.map((trendData)=>{
         return (<Col md={6}>
-            <div style={{ border:'1px solid #ccc', marginBottom:'15px', boxShadow:'1.2px 1.2px 1.2px 1.2px #eee' }}>
+            <div style={{ border:'1px solid #ccc', marginBottom:'20px', boxShadow:'1.2px 1.2px 1.2px 1.2px #eee' }}>
                 <MarketSectionHeader trendData={trendData} />
             </div>
         </Col>);
