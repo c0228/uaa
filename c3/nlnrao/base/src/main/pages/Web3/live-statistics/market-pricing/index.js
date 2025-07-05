@@ -38,18 +38,11 @@ const applyFluctuations = (data) => {
 
     FLUCTUATING_FIELDS.forEach((field) => {
       if (typeof fluctuatedCoin[field] === "number") {
-       // if (field === "current_price") {
-          const randomDelta = Math.random() * 0.05; // range: 0.00 to 0.05
-          const signedDelta = fluctuationState[coinId].direction
+        const randomDelta = Math.random() * 0.05; // range: 0.00 to 0.05
+        const signedDelta = fluctuationState[coinId].direction
             ? randomDelta
             : -randomDelta;
-          fluctuatedCoin[field] += signedDelta;
-       // } else {
-          // ±2% random fluctuation for other fields
-       //   const fluctuation =
-       //     fluctuatedCoin[field] * (Math.random() * 0.04 - 0.02);
-       //   fluctuatedCoin[field] += fluctuation;
-        // }
+        fluctuatedCoin[field] += signedDelta;
       }
     });
 
