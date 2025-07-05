@@ -129,7 +129,6 @@ const SectionHeader = ({ title }) =>{
     const atlDateObject = new Date(atlDate);
     const formatedAtlDate = atlDateObject.toLocaleDateString();
 
-
     return (<div>
         <Row>
             <Col md={12}>
@@ -154,13 +153,13 @@ const SectionHeader = ({ title }) =>{
                 <Row>
                     <Col md={5}>
                         <div style={{ paddingTop:'5px' }}>
-                            <div className="web3-market-trends-stat-label">Current Price</div>
+                            <div><span className="web3-market-trends-stat-label">Current Price</span></div>
                             <div style={{ fontSize:'15px' }}><b>$. {currentPrice}</b></div>
                         </div>
                     </Col>
                     <Col md={7}>
                         <div align="right" style={{ paddingTop:'5px' }}>
-                            <div className="web3-market-trends-stat-label">24h Change</div>
+                            <div><span className="web3-market-trends-stat-label">24h Change</span></div>
                             <div style={{ fontSize:'13px', color:'#555' }}>
                                 <b>$. {currentPriceChange24h} <ChangeDisplayer val={currentPriceChange24hPercent} /></b>
                             </div>
@@ -170,7 +169,7 @@ const SectionHeader = ({ title }) =>{
                 <Row>
                     <Col md={12}>
                         <div style={{ paddingTop:'15px' }}>
-                            <div className="web3-market-trends-stat-label">24h High / Low Price</div>
+                            <div><span className="web3-market-trends-stat-label">24h High / Low Price</span></div>
                             <div style={{ fontSize:'15px' }}>
                                 <b><span style={{ color:'#555' }}>$. {high24h}</span> / 
                                 <span style={{ color:'#555', paddingLeft:'5px' }}>$. {low24h}</span>
@@ -186,19 +185,19 @@ const SectionHeader = ({ title }) =>{
             <Row>
                 <Col md={4}>
                     <div>
-                        <div className="web3-market-trends-stat-label">Capital (Cap.) Value</div>
+                        <div><span className="web3-market-trends-stat-label">Capital (Cap.) Value</span></div>
                         <div style={{ fontSize:'15px', color:'#555' }}><b>$. {marketCap}</b></div>
                     </div>
                 </Col>
                 <Col md={3}>
                     <div>
-                        <div className="web3-market-trends-stat-label">Total Volume</div>
+                        <div><span className="web3-market-trends-stat-label">Total Volume</span></div>
                         <div style={{ fontSize:'15px', color:'#555' }}><b>$. {totalVolume}</b></div>
                     </div>
                 </Col>
                 <Col md={5}>
                     <div align="right">
-                        <div className="web3-market-trends-stat-label">24h Change (.in Cap)</div>
+                        <div><span className="web3-market-trends-stat-label">24h Change (.in Cap)</span></div>
                         <div style={{ fontSize:'15px', color:'#555' }}>
                             <b>$. {marketCapChange24h} <ChangeDisplayer val={markCapChange24hPercent} /></b>
                         </div>
@@ -210,25 +209,25 @@ const SectionHeader = ({ title }) =>{
             <Row>
                 <Col md={3}>
                     <div>
-                        <div className="web3-market-trends-stat-label">Cir. Supply</div>
+                        <div><span className="web3-market-trends-stat-label">Cir. Supply</span></div>
                         <div style={{ fontSize:'15px', color:'#555' }}><b>$. {circulatingSupply}</b></div>
                     </div>
                 </Col>
                 <Col md={3}>
                     <div>
-                        <div className="web3-market-trends-stat-label">Total Supply</div>
+                        <div><span className="web3-market-trends-stat-label">Total Supply</span></div>
                         <div style={{ fontSize:'15px', color:'#555' }}><b>$. {totalSupply}</b></div>
                     </div>
                 </Col>
                 <Col md={3}>
                     <div>
-                        <div className="web3-market-trends-stat-label">Max. Supply</div>
+                        <div><span className="web3-market-trends-stat-label">Max. Supply</span></div>
                         <div style={{ fontSize:'15px', color:'#555' }}><b>$. {maxSupply}</b></div>
                     </div>
                 </Col>
                 <Col md={3}>
                     <div>
-                        <div className="web3-market-trends-stat-label">Diluted Value</div>
+                        <div><span className="web3-market-trends-stat-label">Diluted Value</span></div>
                         <div style={{ fontSize:'15px', color:'#555' }}><b>$. {dilutedValue}</b></div>
                     </div>
                 </Col>
@@ -239,7 +238,7 @@ const SectionHeader = ({ title }) =>{
             <Row>
                 <Col md={6}>
                     <div>
-                        <div className="web3-market-trends-stat-label">All-Time High</div>
+                        <div><span className="web3-market-trends-stat-label">All-Time High</span></div>
                         <div style={{ fontSize:'13px', color:'#555' }}>
                             <b>$. {ath} <ChangeDisplayer val={athChangePercent} label="L:" /></b>
                         </div>
@@ -248,7 +247,7 @@ const SectionHeader = ({ title }) =>{
                 </Col>
                 <Col md={6}>
                     <div align="right">
-                        <div className="web3-market-trends-stat-label">All-Time Low</div>
+                        <div><span className="web3-market-trends-stat-label">All-Time Low</span></div>
                         <div style={{ fontSize:'13px', color:'#555' }}><b>$. {atl} <ChangeDisplayer val={atlChangePercent} label="P:" /></b></div>
                         <div style={{ fontSize:'11px', color:'#888'}}>(Reached on <u>{formatedAtlDate}</u>)</div>
                     </div>
