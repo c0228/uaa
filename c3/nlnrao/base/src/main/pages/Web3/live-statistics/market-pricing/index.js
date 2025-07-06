@@ -415,6 +415,18 @@ const MarketPricing = () => {
     };
   }, []);
 
+  const LoadingSpinnerRow = () => (
+  <div align="center" style={{ padding: '15px' }}>
+    {[...Array(5)].map((_, index) => (
+      <span key={index} style={{ padding: '5px' }}>
+        <div className="spinner-grow" role="status">
+          <span className="visually-hidden">Loading...</span>
+        </div>
+      </span>
+    ))}
+  </div>
+);
+
   return (
     <div>
       <SectionDesc />
@@ -432,6 +444,7 @@ const MarketPricing = () => {
             </div>
           </Col>
         ))}
+        {fluctuatedData?.length===0 && (<LoadingSpinnerRow />)}
       </Row>
     </div>
   );
