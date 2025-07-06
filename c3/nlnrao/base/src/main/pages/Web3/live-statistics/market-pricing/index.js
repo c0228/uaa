@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
-import { Row, Col, Icon } from "e-ui-react";
+import { Row, Col, Icon, Hover } from "e-ui-react";
 import "./index.css";
 import {
   formatCurrencyNumber,
@@ -91,6 +91,106 @@ const SectionHeader = ({ title }) =>{
     </Row>);
  };
 
+ /** Definitions */
+ const DefCurrentPrice = () =>{
+  return (<div>
+    <div><b>Current Price</b></div>
+    <div style={{ paddingTop:'8px' }}>The most recent trading price of the cryptocurrency on the market. It reflects the last matched buy/sell order.</div>
+  </div>);
+ };
+
+ const Def24hChange = () =>{
+  return (<div align="left">
+    <div><b>24h Change</b></div>
+    <div style={{ paddingTop:'8px' }}>The percentage increase or decrease in the price of the cryptocurrency over the past 24 hours.</div>
+  </div>);
+ };
+
+ const Def24hHighLowPrice = () =>{
+   return (<div>
+    <div><b>24h High Price</b></div>
+    <div style={{ paddingTop:'8px' }}>The highest price reached by the cryptocurrency in the last 24 hours.</div>
+    <div style={{ paddingTop:'15px' }}><b>24h Low Price</b></div>
+    <div style={{ paddingTop:'8px' }}>The lowest price reached in the last 24 hours.</div>
+   </div>);
+ };
+
+ const DefCapitalValue = () =>{
+   return (<div>
+    <div><b>Market Capitalization [Capital (Cap.) Value]</b></div>
+    <div style={{ paddingTop:'8px' }}>Total value of all coins currently in circulation.</div>
+    <div style={{ paddingTop:'8px' }}><b>Formula: </b> Current Price x Circulating Supply</div>
+   </div>);
+ };
+
+ const DefTotalVolume = () =>{
+    return (<div>
+      <div><b>Total Volume</b></div>
+      <div style={{ paddingTop:'8px' }}>The total trading volume (in USD or native currency) of the cryptocurrency across all 
+      exchanges in the last 24 hours.</div>
+    </div>);
+ };
+
+ const Def24hCapChange = () =>{
+  return (<div align="left">
+    <div><b>24h Change (in Cap.) [Market Capitalization Change in 24h]</b></div>
+    <div style={{ paddingTop:'8px' }}>The percentage change in the market capitalization (Capital Value) over the 
+    past 24 hours.</div>
+  </div>);
+ };
+
+ const DefCirculatingSupply = () =>{
+  return (<div>
+    <div><b>Circulating Supply</b></div>
+    <div style={{ paddingTop:'8px'}}>The number of coins or tokens currently available and circulating in the market.</div>
+  </div>);
+ };
+
+ const DefTotalSupply = () =>{
+  return (<div>
+    <div><b>Total Supply</b></div>
+    <div style={{ paddingTop:'8px' }}>The total number of coins that currently exist (including locked, reserved, and 
+    circulating coins), but excluding those yet to be mined or created.</div>
+  </div>);
+ };
+
+ const DefMaxSupply = () =>{
+  return (<div>
+    <div><b>Max Supply</b></div>
+    <div style={{ paddingTop:'8px' }}>The maximum number of coins that will ever exist for that cryptocurrency (as coded 
+    into its protocol).</div>
+    <div style={{ paddingTop:'8px' }}><b>Example:</b> Bitcoin has a max supply of 21 million</div>
+  </div>);
+ };
+
+ const DefDilutedValue = () =>{
+  return (<div align="left">
+    <div><b>Diluted Value [ Fully Diluted Valuation (FDV) ]</b></div>
+    <div style={{ paddingTop:'8px'}}>The market cap assuming all possible coins (max supply) are already in circulation.</div>
+    <div style={{ paddingTop:'8px' }}><b>Formula:</b> Current Price x Max Supply</div>
+    <div style={{ paddingTop:'8px' }}>Indicates the future potential value if all tokens are released.</div>
+  </div>);
+ };
+
+ const DefAllTimeHigh = () =>{
+  return (<div>
+    <div><b>All-Time High (ATH)</b></div>
+    <div style={{ paddingTop:'8px' }}>The highest price that a cryptocurrency has ever reached in its entire trading history, across 
+    all exchanges.</div>
+    <div style={{ paddingTop:'8px' }}><b>Example:</b> If Bitcoin reached $69,000 on November 10, 2021, that is considered its ATH 
+    until it’s surpassed.</div>
+  </div>);
+ };
+
+ const DefAllTimeLow = () =>{
+  return (<div align="left">
+    <div><b>All-Time Low (ATL)</b></div>
+    <div style={{ paddingTop:'8px' }}>The lowest price that a cryptocurrency has ever recorded since it began trading.</div>
+    <div style={{ paddingTop:'8px' }}><b>Example:</b> If Ethereum once dropped to $0.42 in its early days, that would be its ATL 
+    unless a new lower price is hit.</div>
+  </div>);
+ };
+
  const MarketSection = ({ trendData }) =>{
     const title = trendData?.name+' ('+trendData?.symbol+')';
     const img = trendData?.image;
@@ -153,27 +253,33 @@ const SectionHeader = ({ title }) =>{
                 <Row>
                     <Col md={5}>
                         <div style={{ paddingTop:'5px' }}>
+                          <Hover type="tooltip" placement="top" hoverContent={<DefCurrentPrice />}>
                             <div><span className="web3-market-trends-stat-label">Current Price</span></div>
                             <div style={{ fontSize:'15px' }}><b>$. {currentPrice}</b></div>
+                          </Hover>
                         </div>
                     </Col>
                     <Col md={7}>
                         <div align="right" style={{ paddingTop:'5px' }}>
+                          <Hover type="tooltip" placement="top" hoverContent={<Def24hChange />}>
                             <div><span className="web3-market-trends-stat-label">24h Change</span></div>
                             <div style={{ fontSize:'13px', color:'#555' }}>
                                 <b>$. {currentPriceChange24h} <ChangeDisplayer val={currentPriceChange24hPercent} /></b>
                             </div>
+                          </Hover>
                         </div>
                     </Col>
                 </Row>
                 <Row>
                     <Col md={12}>
                         <div style={{ paddingTop:'15px' }}>
+                          <Hover type="tooltip" placement="top" hoverContent={<Def24hHighLowPrice />}>
                             <div><span className="web3-market-trends-stat-label">24h High / Low Price</span></div>
                             <div style={{ fontSize:'15px' }}>
                                 <b><span style={{ color:'#555' }}>$. {high24h}</span> / 
                                 <span style={{ color:'#555', paddingLeft:'5px' }}>$. {low24h}</span>
                                 </b></div>
+                          </Hover>
                         </div>
                     </Col>
                 </Row>
@@ -184,23 +290,29 @@ const SectionHeader = ({ title }) =>{
         <div style={{ paddingLeft:'15px', paddingTop:'15px', paddingRight:'15px' }}>
             <Row>
                 <Col md={4}>
+                  <Hover type="tooltip" placement="top" hoverContent={<DefCapitalValue />}>
                     <div>
                         <div><span className="web3-market-trends-stat-label">Capital (Cap.) Value</span></div>
                         <div style={{ fontSize:'15px', color:'#555' }}><b>$. {marketCap}</b></div>
                     </div>
+                  </Hover>
                 </Col>
                 <Col md={3}>
+                  <Hover type="tooltip" placement="top" hoverContent={<DefTotalVolume />}>
                     <div>
                         <div><span className="web3-market-trends-stat-label">Total Volume</span></div>
                         <div style={{ fontSize:'15px', color:'#555' }}><b>$. {totalVolume}</b></div>
                     </div>
+                  </Hover>
                 </Col>
                 <Col md={5}>
                     <div align="right">
+                      <Hover type="tooltip" placement="top" hoverContent={<Def24hCapChange />}>
                         <div><span className="web3-market-trends-stat-label">24h Change (.in Cap)</span></div>
                         <div style={{ fontSize:'15px', color:'#555' }}>
                             <b>$. {marketCapChange24h} <ChangeDisplayer val={markCapChange24hPercent} /></b>
                         </div>
+                      </Hover>
                     </div>
                 </Col>
             </Row>
@@ -208,28 +320,36 @@ const SectionHeader = ({ title }) =>{
         <div style={{ paddingLeft:'15px',  paddingTop:'15px', paddingRight:'15px', paddingBottom:'15px' }}>
             <Row>
                 <Col md={3}>
+                  <Hover type="tooltip" placement="top" hoverContent={<DefCirculatingSupply />}>
                     <div>
                         <div><span className="web3-market-trends-stat-label">Cir. Supply</span></div>
                         <div style={{ fontSize:'15px', color:'#555' }}><b>$. {circulatingSupply}</b></div>
                     </div>
+                  </Hover>
                 </Col>
                 <Col md={3}>
+                  <Hover type="tooltip" placement="top" hoverContent={<DefTotalSupply />}>
                     <div>
                         <div><span className="web3-market-trends-stat-label">Total Supply</span></div>
                         <div style={{ fontSize:'15px', color:'#555' }}><b>$. {totalSupply}</b></div>
                     </div>
+                  </Hover>
                 </Col>
                 <Col md={3}>
+                  <Hover type="tooltip" placement="top" hoverContent={<DefMaxSupply />}>
                     <div>
                         <div><span className="web3-market-trends-stat-label">Max. Supply</span></div>
                         <div style={{ fontSize:'15px', color:'#555' }}><b>$. {maxSupply}</b></div>
                     </div>
+                  </Hover>
                 </Col>
                 <Col md={3}>
+                  <Hover type="tooltip" placement="top" hoverContent={<DefDilutedValue />}>
                     <div>
                         <div><span className="web3-market-trends-stat-label">Diluted Value</span></div>
                         <div style={{ fontSize:'15px', color:'#555' }}><b>$. {dilutedValue}</b></div>
                     </div>
+                  </Hover>
                 </Col>
             </Row>
         </div>
@@ -237,6 +357,7 @@ const SectionHeader = ({ title }) =>{
         <div style={{ padding:'15px' }}>
             <Row>
                 <Col md={6}>
+                  <Hover type="tooltip" placement="top" hoverContent={<DefAllTimeHigh />}>
                     <div>
                         <div><span className="web3-market-trends-stat-label">All-Time High</span></div>
                         <div style={{ fontSize:'13px', color:'#555' }}>
@@ -244,12 +365,15 @@ const SectionHeader = ({ title }) =>{
                         </div>
                         <div style={{ fontSize:'11px', color:'#888'}}>(Reached on <u>{formatedAthDate}</u>)</div>
                     </div>
+                  </Hover>
                 </Col>
                 <Col md={6}>
                     <div align="right">
+                      <Hover type="tooltip" placement="top" hoverContent={<DefAllTimeLow />}>
                         <div><span className="web3-market-trends-stat-label">All-Time Low</span></div>
                         <div style={{ fontSize:'13px', color:'#555' }}><b>$. {atl} <ChangeDisplayer val={atlChangePercent} label="P:" /></b></div>
                         <div style={{ fontSize:'11px', color:'#888'}}>(Reached on <u>{formatedAtlDate}</u>)</div>
+                      </Hover>
                     </div>
                 </Col>
             </Row>
