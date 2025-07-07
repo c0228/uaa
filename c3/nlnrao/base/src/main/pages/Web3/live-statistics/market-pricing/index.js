@@ -6,7 +6,7 @@ import {
   formatCurrencyNumber,
   formatAbbreviatedNumber,
   formatSignedNumber,
-} from "./utils/utility.js";
+} from "./../utils/utility.js";
 
 const MARKET_TREND_API =
   "https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd&order=market_cap_desc&per_page=20&page=1&sparkline=false";
