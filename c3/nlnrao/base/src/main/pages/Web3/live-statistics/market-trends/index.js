@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useMemo } from "react";
 import axios from "axios";
 import { BarChart } from "e-ui-react";
 import { formatCurrencyNumber } from "./../utils/utility.js";
@@ -71,9 +71,11 @@ const MarketTrends = () => {
     }
   };
 
-  useEffect(() => {
-    fetchMarketData();
-  }, []);
+useEffect(() => {
+  fetchMarketData(); // Initial load
+}, []);
+
+
 
   const CustomTooltip = ({ active, payload, label }) => {
 
@@ -93,6 +95,86 @@ const MarketTrends = () => {
   return null;
  };
 
+
+ const highChart = useMemo(() => (
+  marketData.high.length > 0 && (
+    <BarChart
+      type="vertical"
+      height={150}
+      data={marketData.high}
+      dataKeys={[{ label: "price", color: "#4A90E2" }]}
+      showLegend={false}
+      customToolTip={<CustomTooltip />}
+    />
+  )
+), [marketData.high]);
+
+const medium01Chart = useMemo(()=>(
+  marketData.medium01.length > 0 && (
+        <BarChart
+          type="vertical"
+          height={180}
+          data={marketData.medium01}
+          dataKeys={[{ label: "price", color: "#50E3C2" }]}
+          showLegend={false}
+          animationDuration={800}
+        />
+  )
+),[marketData.medium01]);
+
+const medium02Chart = useMemo(()=>(
+  marketData.medium02.length > 0 && (
+        <BarChart
+          type="vertical"
+          height={180}
+          data={marketData.medium02}
+          dataKeys={[{ label: "price", color: "#F5A623" }]}
+          showLegend={false}
+        />
+  )
+),[marketData.medium02]);
+
+const medium03Chart = useMemo(()=>(
+  marketData.medium03.length > 0 && (
+        <BarChart
+          type="vertical"
+          height={220}
+          data={marketData.medium03}
+          dataKeys={[{ label: "price", color: "#9013FE" }]}
+          showLegend={false}
+          animationDuration={800}
+        />
+  )
+),[marketData.medium03]);
+
+const medium04Chart = useMemo(()=>(
+  marketData.medium04.length > 0 && (
+        <BarChart
+          type="vertical"
+          height={180}
+          data={marketData.medium04}
+          dataKeys={[{ label: "price", color: "#2CBBAC" }]}
+          showLegend={false}
+          animationDuration={800}
+        />
+  )
+),[marketData.medium04]);
+
+const upcomingChart = useMemo(()=>(
+  marketData.upcoming.length > 0 && (
+        <BarChart
+          type="vertical"
+          height={200}
+          data={marketData.upcoming}
+          dataKeys={[{ label: "price", color: "#FF6F61" }]}
+          showLegend={false}
+          animationDuration={800}
+        />
+  )
+),[marketData.upcoming]);
+
+const now = new Date();
+
   return (<div>
     <div style={{ borderTop:'1px solid #ccc', borderBottom:'1px solid #ccc', borderRight:'1px solid #ccc',
         boxShadow:'1px 1px 1px 1px #eee',
@@ -101,61 +183,14 @@ const MarketTrends = () => {
             <span className="blog-head"><b>Graphical Representation</b></span>
     </div>
     <div style={{ padding: '15px' }}>
-      {marketData.high.length > 0 && (
-        <BarChart
-          type="vertical"
-          height={150}
-          data={marketData.high}
-          dataKeys={[{ label: "price", color: "#4A90E2" }]}
-          showLegend={false}
-          customToolTip={<CustomTooltip />}
-        />
-      )}
-      {marketData.medium01.length > 0 && (
-        <BarChart
-          type="vertical"
-          height={180}
-          data={marketData.medium01}
-          dataKeys={[{ label: "price", color: "#50E3C2" }]}
-          showLegend={false}
-        />
-      )}
-      {marketData.medium02.length > 0 && (
-        <BarChart
-          type="vertical"
-          height={180}
-          data={marketData.medium02}
-          dataKeys={[{ label: "price", color: "#F5A623" }]}
-          showLegend={false}
-        />
-      )}
-      {marketData.medium03.length > 0 && (
-        <BarChart
-          type="vertical"
-          height={220}
-          data={marketData.medium03}
-          dataKeys={[{ label: "price", color: "#9013FE" }]}
-          showLegend={false}
-        />
-      )}
-      {marketData.medium04.length > 0 && (
-        <BarChart
-          type="vertical"
-          height={180}
-          data={marketData.medium04}
-          dataKeys={[{ label: "price", color: "#2CBBAC" }]}
-          showLegend={false}
-        />
-      )}
-      {marketData.upcoming.length > 0 && (
-        <BarChart
-          type="vertical"
-          height={200}
-          data={marketData.upcoming}
-          dataKeys={[{ label: "price", color: "#FF6F61" }]}
-          showLegend={false}
-        />
-      )}
+      <div style={{ color:'#777' }}>The Data was last updated 
+        at [<i>{` ${now.toDateString()} ${now.toLocaleTimeString()} `}</i>]</div>
+      {highChart}
+      {medium01Chart}
+      {medium02Chart}
+      {medium03Chart}
+      {medium04Chart}
+      {upcomingChart}
     </div>
   </div>);
 };
