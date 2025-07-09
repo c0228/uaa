@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import { ContainerFluid, Row, Col } from "e-ui-react";
+import { ContainerFluid, Row, Col, Icon } from "e-ui-react";
 import { Pill, Colors } from 'e-ui-react';
 import Header from '@MainTemplates/Header/index.js';
 import { HeaderMenu } from '@MainConfig/HeaderMenu.js';
@@ -7,6 +7,7 @@ import OrderList from "@MainComponents/order-list/index.js";
 import BlogListHeader from '@MainComponents/blog-list-header/index.js'; 
 import BlogItems from '@MainComponents/blog-items/index.js'; 
 import BlogData from '@MainStaticData/web3/overview.json';
+import Introduction from './components/introduction/index.js';
 import Terminologies from '@MainComponents/terminologies-list/index.js';
 import MarketPricing from "./live-statistics/market-pricing/index.js";
 import MarketTrends from "./live-statistics/market-trends/index.js";
@@ -37,6 +38,11 @@ const Web3 = ()=>{
  <div>
  <ContainerFluid>
     <Row>
+      <Col md={4}>
+        <Introduction />
+      </Col>
+    </Row>
+    <Row>
       <Col xs={12} xl={12} xxl={12}>
         <BlogListHeader label="Today's Live Cryptocurrency Dashboard – Market Trends, Real-Time Prices & Stats" /> 
       </Col>
@@ -47,6 +53,7 @@ const Web3 = ()=>{
       </Col>
       <Col xs={4} xl={4} xxl={4}>
         <MarketTrends/>
+        <Terminologies title="Terminologies" prefix="tech/web3.0/terminologies/" data={Routes?.urls} />
       </Col>
     </Row>
     <Row>
@@ -84,7 +91,7 @@ const Web3 = ()=>{
             
         </Col>
         <Col xs={12} xl={4} xxl={4}>
-          <Terminologies title="Terminologies" prefix="tech/web3.0/terminologies/" data={Routes?.urls} />
+          
         </Col>
     </Row>
  </ContainerFluid>

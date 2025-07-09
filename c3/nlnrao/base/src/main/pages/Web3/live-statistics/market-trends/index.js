@@ -2,6 +2,7 @@ import React, { useState, useEffect, useMemo } from "react";
 import axios from "axios";
 import { BarChart } from "e-ui-react";
 import { formatCurrencyNumber } from "./../utils/utility.js";
+import RightRoundedHeader from "@MainComponents/header-rounded-right/index.js";
 
 const MarketTrends = () => {
   const HIGH_TRADING = [{ id: "bitcoin", label: "Bitcoin", symbol:"BTC" }, 
@@ -176,22 +177,20 @@ const upcomingChart = useMemo(()=>(
 const now = new Date();
 
   return (<div>
-    <div style={{ borderTop:'1px solid #ccc', borderBottom:'1px solid #ccc', borderRight:'1px solid #ccc',
-        boxShadow:'1px 1px 1px 1px #eee',
-        borderLeft:'6px solid #555', borderTopRightRadius:'25px', borderBottomRightRadius:'25px', backgroundColor:'#eee', 
-        paddingLeft:'15px', paddingRight:'15px', paddingTop:'5px', paddingBottom:'1px', textTransform:'uppercase' }}>
-            <span className="blog-head"><b>Graphical Representation</b></span>
-    </div>
-    <div style={{ padding: '15px' }}>
-      <div style={{ color:'#777' }}>The Data was last updated 
-        at [<i>{` ${now.toDateString()} ${now.toLocaleTimeString()} `}</i>]</div>
-      {highChart}
-      {medium01Chart}
-      {medium02Chart}
-      {medium03Chart}
-      {medium04Chart}
-      {upcomingChart}
-    </div>
+    {marketData?.high?.length>0 && marketData?.medium01?.length>0 && marketData?.medium02?.length>0 &&
+    marketData?.medium03?.length>0 && marketData?.medium04?.length>0 && marketData?.upcoming?.length>0 && (<div>
+      <RightRoundedHeader label="Graphical Representation" />
+      <div style={{ padding: '15px' }}>
+        <div style={{ color:'#777' }}>The Data was last updated 
+          at [<i>{` ${now.toDateString()} ${now.toLocaleTimeString()} `}</i>]</div>
+        {highChart}
+        {medium01Chart}
+        {medium02Chart}
+        {medium03Chart}
+        {medium04Chart}
+        {upcomingChart}
+      </div>
+    </div>)}
   </div>);
 };
 
