@@ -37,7 +37,7 @@ const Web3 = ()=>{
  <Header menulinks={HeaderMenu} activeId="Blockchain" />
  <div>
  <ContainerFluid>
-    <Row>
+    <Row style={{ backgroundColor:'#f9f9f9', border:'1px dashed #aaa', margin:'3px', padding:'15px' }}>
       <Col md={4}>
         <Introduction />
       </Col>

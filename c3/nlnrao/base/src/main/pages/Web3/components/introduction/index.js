@@ -12,7 +12,7 @@ const Introduction = () =>{
     <div>
           <span style={{ borderLeft:'5px solid #555', display:'inline-block', letterSpacing:'1px',
             boxShadow:'2px 2px 2px 2px #f5f5f5',
-            backgroundColor:'#eee', padding:'8px', width:'40%', textTransform:'uppercase' }}><b>{data?.[0]?.header}</b></span>
+            backgroundColor:'#ddd', padding:'8px', width:'40%', textTransform:'uppercase' }}><b>{data?.[0]?.header}</b></span>
         </div>
         <div style={{ paddingTop:'15px' }}>
           <span style={{ fontFamily:"Metropolis", lineHeight:'26px' }}><b>{data?.[0]?.title}</b></span>
@@ -22,7 +22,7 @@ const Introduction = () =>{
         </div>
         <div align="right">
           <span style={{ cursor:'pointer' }}>
-            <span style={{ paddingRight:'2px' }}><b>Read More</b></span> 
+            <span style={{ paddingRight:'5px' }}><b>Read More</b></span> 
             <Icon type="FontAwesome" name="fa-caret-square-o-right" size={13} />
           </span>
         </div>
