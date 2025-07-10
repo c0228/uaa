@@ -58,6 +58,32 @@ const Web3 = ()=>{
     <Row>
       <Col xs={8} xl={8} xxl={8}>
         <MarketPricing />
+        {/** Temporary :::  START */}
+        <BlogListHeader label="Decentralized System - Architecture and Infrastructure" />
+        <BlogContent label="ds-ai" rows={3} />
+
+        <BlogListHeader label="Smart Contracts" />
+        <BlogContent label="smart-contracts" rows={2} />
+
+        <BlogListHeader label="Smart Contracts - Languages" />
+        <Pill mode="vertical" 
+              layout={{
+                  menu:{ xs:'2', sm:'2', md:'2', lg:'2', xl:'2', xxl:'2' },
+                  content:{  xs:'10', sm:'10', md:'10', lg:'10', xl:'10', xxl:'10' }
+              }}
+              menulinks={[
+                  { id:'solidity', url:'#solidity', label:'Solidity', content:(<ScLSolidity />) },
+                  { id:'vyper', url:'#vyper', label:'Vyper', content:(<ScLVyper />) },
+                  { id:'rust', url:'#rust', label:'Rust', content:(<ScLRust />) }]} 
+              activeId="solidity" 
+              colorConfig={{
+                  active: { color: '#000', backgroundColor: '#ccc' },
+                  default: { color: '#666', backgroundColor: '' }
+              }} />
+
+        <BlogListHeader label="Zero Knowledge Proofs (ZKPs)" />
+        <BlogContent label="zkp" rows={2} />
+        {/** Temporary :::  END */}
       </Col>
       <Col xs={4} xl={4} xxl={4}>
         <MarketTrends/>
@@ -65,6 +91,9 @@ const Web3 = ()=>{
         <Keywords data={KeywordData01} />
         <Keywords data={KeywordData02} />
         <Keywords data={KeywordData03} />
+        <Keywords data={KeywordData04} />
+        <Keywords data={KeywordData05} />
+        <Keywords data={KeywordData06} />
       </Col>
     </Row>
     <Row>
@@ -78,7 +107,7 @@ const Web3 = ()=>{
     <Row>
         <Col xs={12} xl={8} xxl={8}>
 
-          <BlogListHeader label="Smart Contracts" />
+          {/* <BlogListHeader label="Smart Contracts" />
           <BlogContent label="smart-contracts" rows={2} />
 
           <BlogListHeader label="Smart Contracts - Languages" />
@@ -99,12 +128,11 @@ const Web3 = ()=>{
 
           <BlogListHeader label="Zero Knowledge Proofs (ZKPs)" />
           <BlogContent label="zkp" rows={2} />
+          */}
             
         </Col>
         <Col xs={12} xl={4} xxl={4}>
-          <Keywords data={KeywordData04} />
-          <Keywords data={KeywordData05} />
-          <Keywords data={KeywordData06} />
+          
         </Col>
     </Row>
  </ContainerFluid>
