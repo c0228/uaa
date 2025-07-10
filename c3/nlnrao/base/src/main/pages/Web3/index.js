@@ -65,16 +65,13 @@ const Web3 = ()=>{
         <Keywords data={KeywordData01} />
         <Keywords data={KeywordData02} />
         <Keywords data={KeywordData03} />
-        <Keywords data={KeywordData04} />
-        <Keywords data={KeywordData05} />
-        <Keywords data={KeywordData06} />
       </Col>
     </Row>
     <Row>
       <Col xs={12} xl={12} xxl={12}>
       
-        <BlogListHeader label="Decentralized System - Architecture and Infrastructure" />
-        <BlogContent label="ds-ai" rows={3} />
+        {/* <BlogListHeader label="Decentralized System - Architecture and Infrastructure" />
+        <BlogContent label="ds-ai" rows={3} /> */}
 
       </Col>
     </Row>
@@ -105,7 +102,9 @@ const Web3 = ()=>{
             
         </Col>
         <Col xs={12} xl={4} xxl={4}>
-          
+          <Keywords data={KeywordData04} />
+          <Keywords data={KeywordData05} />
+          <Keywords data={KeywordData06} />
         </Col>
     </Row>
  </ContainerFluid>

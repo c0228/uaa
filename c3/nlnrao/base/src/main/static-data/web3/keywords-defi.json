@@ -1,3 +1,17 @@
 {
-    "data":[]
+    "data":["DeFi", "Decentralized Finance", "DeFi Lending", "DeFi Staking", "DeFi Yield Farming", "DeFi Platforms", "DeFi Tokens",
+        "DeFi APY", "DeFi Smart Contracts", "DeFi Liquidity Pools", "DeFi vs Traditional Finance", "DeFi Wallets", "DeFi Exchanges",
+        "DeFi Aggregators", "DeFi Protocols", "DeFi Stablecoins", "DeFi Vaults", "DeFi Governance", "DeFi DAOs", "DeFi Tokenomics",
+        "DeFi Flash Loans", "DeFi Arbitrage", "DeFi Strategy", "DeFi Farming Risks", "DeFi Hacks", "DeFi Security", "DeFi Audits",
+        "DeFi KYC", "DeFi Regulations", "DeFi Permissionless", "DeFi Composability", "DeFi Bridges", "DeFi Price Oracles",
+        "DeFi Investing", "DeFi Roadmap", "DeFi Analytics Tools", "DeFi vs CeFi", "DeFi on Ethereum", "DeFi on BNB chain",
+        "DeFi on Polygon", "DeFi Multichain", "DeFi Inflation Hedge", "DeFi Swaps", "DeFi Fees", "DeFi APY Calculator", 
+        "DeFi Analytics", "DeFi Portfolio", "DeFi Risk Management", "DeFi Index", "DeFi Taxes", "DeFi NFT Integration",
+        "DeFi vs TradFi", "DeFi Funds", "DeFi Liquidity Mining", "DeFi Stable APY", "DeFi Pools", "DeFi on-chain Data", 
+        "DeFi Credit Scoring", "DeFi Borrowing", "DeFi Derivatives", "DeFi Options", "DeFi Futures", "DeFi Synthetics",
+        "DeFi Collateral", "DeFi Asset Management", "DeFi Wallet Integration", "DeFi Bridging", "DeFi Adoption Curve",
+        "DeFi Gas Optimization", "DeFi Performance Metrics", "DeFi User Retention", "DeFi Token Airdrop", "DeFi Token Vesting",
+        "DeFi Governance Tokens", "DeFi Cross-Chain", "DeFi Flash Loan", "DeFi Simulation", "DeFi Compliance Tools",
+        "DeFi Liquidity Providers", "DeFi Protocol Layers", "DeFi Interoperability"
+    ]
 }
