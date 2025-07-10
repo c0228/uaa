@@ -15,6 +15,14 @@ import Routes from "./component.routes.json";
 import ScLSolidity from "./smart-contracts/sc-l-solidity/index.js";
 import ScLVyper from "./smart-contracts/sc-l-vyper/index.js";
 import ScLRust from "./smart-contracts/sc-l-rust/index.js";
+
+import Keywords from '@MainComponents/keywords/index.js';
+import KeywordData01 from '@MainStaticData/web3/keywords-web3.json';
+import KeywordData02 from '@MainStaticData/web3/keywords-blockchain.json';
+import KeywordData03 from '@MainStaticData/web3/keywords-defi.json';
+import KeywordData04 from '@MainStaticData/web3/keywords-nft.json';
+import KeywordData05 from '@MainStaticData/web3/keywords-gamefi.json';
+import KeywordData06 from '@MainStaticData/web3/keywords-metaverse.json';
 import './index.css';
 
 const Web3 = ()=>{
@@ -54,6 +62,12 @@ const Web3 = ()=>{
       <Col xs={4} xl={4} xxl={4}>
         <MarketTrends/>
         <Terminologies title="Terminologies" prefix="tech/web3.0/terminologies/" data={Routes?.urls} />
+        <Keywords data={KeywordData01} />
+        <Keywords data={KeywordData02} />
+        <Keywords data={KeywordData03} />
+        <Keywords data={KeywordData04} />
+        <Keywords data={KeywordData05} />
+        <Keywords data={KeywordData06} />
       </Col>
     </Row>
     <Row>

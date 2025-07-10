@@ -14,13 +14,13 @@ const Introduction = () =>{
             boxShadow:'2px 2px 2px 2px #f5f5f5',
             backgroundColor:'#ddd', padding:'8px', width:'40%', textTransform:'uppercase' }}><b>{data?.[0]?.header}</b></span>
         </div>
-        <div style={{ paddingTop:'15px' }}>
+        <div style={{ paddingTop:'15px', paddingLeft:'5px' }}>
           <span style={{ fontFamily:"Metropolis", lineHeight:'26px' }}><b>{data?.[0]?.title}</b></span>
         </div>
-        <div style={{ paddingTop:'5px', color:'#888', lineHeight:'23px' }}>
+        <div style={{ paddingTop:'5px', paddingLeft:'5px', color:'#888', lineHeight:'23px' }}>
           <span>{data?.[0]?.desc}</span>
         </div>
-        <div align="right">
+        <div align="right" style={{ padding:'5px' }}>
           <span style={{ cursor:'pointer' }}>
             <span style={{ paddingRight:'5px' }}><b>Read More</b></span> 
             <Icon type="FontAwesome" name="fa-caret-square-o-right" size={13} />
