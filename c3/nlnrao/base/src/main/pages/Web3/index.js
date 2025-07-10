@@ -45,11 +45,7 @@ const Web3 = ()=>{
  <Header menulinks={HeaderMenu} activeId="Blockchain" />
  <div>
  <ContainerFluid>
-    <Row style={{ backgroundColor:'#f9f9f9', border:'1px dashed #aaa', margin:'3px', padding:'15px' }}>
-      <Col md={4}>
-        <Introduction />
-      </Col>
-    </Row>
+    <Introduction />
     <Row>
       <Col xs={12} xl={12} xxl={12}>
         <BlogListHeader label="Today's Live Cryptocurrency Dashboard – Market Trends, Real-Time Prices & Stats" /> 
