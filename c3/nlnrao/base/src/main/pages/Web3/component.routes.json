@@ -102,6 +102,13 @@
             "component": "CryptoWallets",
             "keywords":[]
         },
+        "tech/web3.0/terminologies/cryptoeconomics":{
+            "breadcrumbIndex": "web3-terminologies",
+            "label":"Crypto-Economics",
+            "date":"October 26, 2024",
+            "component": "CryptoEconomics",
+            "keywords":[]
+        },
         "tech/web3.0/terminologies/decentralized-autonomous-organization-(dao)":{
             "breadcrumbIndex": "web3-terminologies",
             "label":"Decentralized Autonomous Organization (DAO)",

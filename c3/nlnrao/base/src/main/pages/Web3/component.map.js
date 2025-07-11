@@ -12,6 +12,7 @@ import BlockchainGovernance from "./terminologies/modules/blockchain-governance/
 import CrossChainTech from "./terminologies/modules/cross-chain-tech/index.js";
 import CryptoBridge from "./terminologies/modules/crypto-bridge/index.js";
 import CryptoWallets from "./terminologies/modules/crypto-wallets/index.js";
+import CryptoEconomics from "./terminologies/modules/cryptoeconomics/index.js";
 import DAO from "./terminologies/modules/dao/index.js";
 import DeFi from "./terminologies/modules/de-fi/index.js";
 import DecStorageIPFS from "./terminologies/modules/dec-storage-ipfs/index.js";
@@ -55,6 +56,7 @@ export const Web3ComponentMap = {
 "CrossChainTech": CrossChainTech,
 "CryptoBridge": CryptoBridge,
 "CryptoWallets": CryptoWallets,
+"CryptoEconomics": CryptoEconomics,
 "DAO": DAO,
 "DeFi": DeFi,
 "DecStorageIPFS": DecStorageIPFS,
