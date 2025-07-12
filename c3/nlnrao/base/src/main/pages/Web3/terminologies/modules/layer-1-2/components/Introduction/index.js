@@ -5,7 +5,7 @@ import SimpleTable from "@MainComponents/simple-table/index.js";
 const Introduction = () =>{
  return (<div className="mtop15p lh28p fs16p">
    <div className="mtop15p">
-      <Card padding={15}>
+      <Card padding={15} backgroundColor="#eee">
          <div><h4 className="blog-head"><b>Why Scalability Matters in Web3?</b></h4></div>
          <div className="mtop15p">As Web 3.0 continues to evolve, blockchain technology remains at its core — powering 
             everything from decentralized finance (DeFi) to NFTs and DAOs. But with growth comes the challenge of 
