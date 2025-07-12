@@ -8,7 +8,7 @@ const StableCoins = ({ meta }) =>{
  return (<div className="mbot15p">
   <BlogTerminologies activeId="Blockchain" prefix="tech/web3.0/terminologies/"  metaData={meta}>
     <Content>
-      <Introduction />\
+      <Introduction />
       <Example />
       <Conclusion />
     </Content>
