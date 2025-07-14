@@ -9,6 +9,8 @@ import ABI from "./terminologies/modules/abi/index.js";
 import AMM from "./terminologies/modules/amm/index.js";
 import BlockchainDeploymentLifecycle from "./terminologies/modules/blockchain-deploy-lifecycle/index.js";
 import BlockchainGovernance from "./terminologies/modules/blockchain-governance/index.js";
+import BlockchainOnChainOffChain from "./terminologies/modules/blockchain-onchain-offchain/index.js";
+import BlockchainSmartOracles from "./terminologies/modules/blockchain-smart-oracles/index.js";
 import CrossChainTech from "./terminologies/modules/cross-chain-tech/index.js";
 import CryptoBridge from "./terminologies/modules/crypto-bridge/index.js";
 import CryptoWallets from "./terminologies/modules/crypto-wallets/index.js";
@@ -32,13 +34,14 @@ import SolidityVsVyper from "./terminologies/modules/solidity-vs-vyper/index.js"
 import StableCoins from "./terminologies/modules/stablecoins/index.js";
 import Staking from "./terminologies/modules/staking/index.js";
 import STO from "./terminologies/modules/sto/index.js";
+import SybilAttack from "./terminologies/modules/sybil-attack/index.js";
 import TestnetFaucet from "./terminologies/modules/testnet-faucet/index.js";
 import Tokenomics from "./terminologies/modules/tokenomics/index.js";
 import TradeFi from "./terminologies/modules/trad-fi/index.js";
 import VmEvmSvm from "./terminologies/modules/vm-evm-svm/index.js";
 import Web123 from "./terminologies/modules/web-1-2-3/index.js";
 import Web3Browsers from "./terminologies/modules/web3-browsers/index.js";
-
+import YieldFarming from "./terminologies/modules/yield-farming/index.js";
 import SolidityVariables from "./languages/solidity/01-variables/index.js";
 
 export const Web3ComponentMap = {
@@ -54,6 +57,8 @@ export const Web3ComponentMap = {
 "AMM": AMM,
 "BlockchainDeploymentLifecycle": BlockchainDeploymentLifecycle,
 "BlockchainGovernance": BlockchainGovernance,
+"BlockchainOnChainOffChain": BlockchainOnChainOffChain,
+"BlockchainSmartOracles": BlockchainSmartOracles,
 "CrossChainTech": CrossChainTech,
 "CryptoBridge": CryptoBridge,
 "CryptoWallets": CryptoWallets,
@@ -77,12 +82,14 @@ export const Web3ComponentMap = {
 "StableCoins": StableCoins,
 "Staking": Staking,
 "STO": STO,
+"SybilAttack": SybilAttack,
 "TestnetFaucet": TestnetFaucet,
 "Tokenomics": Tokenomics,
 "TradeFi": TradeFi,
 "VmEvmSvm": VmEvmSvm,
 "Web123": Web123,
 "Web3Browsers": Web3Browsers,
+"YieldFarming": YieldFarming,
 
  "SolidityVariables": SolidityVariables
 };

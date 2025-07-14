@@ -81,6 +81,20 @@
             "component": "BlockchainGovernance",
             "keywords":[]
         },
+        "tech/web3.0/terminologies/blockchain-onchain-offchain":{
+            "breadcrumbIndex": "web3-terminologies",
+            "label":"Blockchain OnChain/OffChain",
+            "date":"October 26, 2024",
+            "component": "BlockchainOnChainOffChain",
+            "keywords":[]
+        },
+        "tech/web3.0/terminologies/blockchain-smart-oracles":{
+            "breadcrumbIndex": "web3-terminologies",
+            "label":"Blockchain Smart Oracles",
+            "date":"October 26, 2024",
+            "component": "BlockchainSmartOracles",
+            "keywords":[]
+        },
         "tech/web3.0/terminologies/cross-chain-technology":{
             "breadcrumbIndex": "web3-terminologies",
             "label":"Cross-chain Technology",
@@ -242,6 +256,13 @@
             "component": "STO",
             "keywords":[]
         },
+        "tech/web3.0/terminologies/sybil-attack":{
+            "breadcrumbIndex": "web3-terminologies",
+            "label":"Sybil Attack",
+            "date":"October 26, 2024",
+            "component": "SybilAttack",
+            "keywords":[]
+        },
         "tech/web3.0/terminologies/testnet-faucet":{
             "breadcrumbIndex": "web3-terminologies",
             "label":"Testnet Faucet",
@@ -282,6 +303,13 @@
             "label":"Web 3 Browsers",
             "date":"October 26, 2024",
             "component": "Web3Browsers",
+            "keywords":[]
+        },
+        "tech/web3.0/terminologies/yield-farming":{
+            "breadcrumbIndex": "web3-terminologies",
+            "label":"Yield Farming",
+            "date":"October 26, 2024",
+            "component": "YieldFarming",
             "keywords":[]
         },
         "tech/web3.0/solidity-programming-language/variables-and-data-types":{
