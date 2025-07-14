@@ -19,6 +19,17 @@ import InSyncReplicas from "./content/SpringFramework/13-in-sync-replicas/index.
 import IntegrateSecurityTesting from "./content/SpringFramework/14-integrate-security-testing/index.js";
 import KafkaMessageFormat from "./content/SpringFramework/15-kafka-message-format/index.js";
 import SecurityDecentralization from "./content/SpringFramework/16-security-in-decentralization/index.js";
+// Features
+import FunctionalInterfaces from "./features/java-08/01-functional-interfaces/index.js";
+import LambdaExpressions from "./features/java-08/02-lambda-expressions/index.js";
+import DefaultMethods from "./features/java-08/03-default-methods/index.js";
+import MethodReferences from "./features/java-08/04-method-references/index.js";
+import StreamAPIs from "./features/java-08/05-stream-api/index.js";
+import OptionalClasses from "./features/java-08/06-optional-classes/index.js";
+import CollectorsAPI from "./features/java-08/07-collectors-api/index.js";
+import NashornJavascriptEngines from "./features/java-08/08-nashorn-javascript-engines/index.js";
+import ForEachMethod from "./features/java-08/09-foreach-method/index.js";
+import DateAndTimeAPI from "./features/java-08/10-date-and-time-api/index.js";
 
 export const JavaComponentMap = {
  "JavaVersionsFeatureUpdates": JavaVersionsFeatureUpdates,
@@ -40,5 +51,16 @@ export const JavaComponentMap = {
  "InSyncReplicas": InSyncReplicas,
  "IntegrateSecurityTesting": IntegrateSecurityTesting,
  "KafkaMessageFormat": KafkaMessageFormat,
- "SecurityDecentralization": SecurityDecentralization
+ "SecurityDecentralization": SecurityDecentralization,
+ // Features
+ "FunctionalInterfaces": FunctionalInterfaces,
+ "LambdaExpressions": LambdaExpressions,
+ "DefaultMethods": DefaultMethods,
+ "MethodReferences": MethodReferences,
+ "StreamAPIs": StreamAPIs,
+ "OptionalClasses": OptionalClasses,
+ "CollectorsAPI": CollectorsAPI,
+ "NashornJavascriptEngines": NashornJavascriptEngines,
+ "ForEachMethod": ForEachMethod,
+ "DateAndTimeAPI": DateAndTimeAPI
 };

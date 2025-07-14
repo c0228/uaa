@@ -2,6 +2,8 @@
     "breadcrumbs":{
         "java-core":[{"label":"Java", "url":"/" },
                 { "label":"Core", "url":"#" }],
+        "java-08-features":[{"label":"Java", "url":"/" },
+                { "label":"Java 08 Features", "url":"#" }],
         "java-util-package":[{"label":"Java", "url":"/" },
                 { "label":"Java Util Package", "url":"#" }],
         "springFramework":[{ "label":"Java", "url":"/" },
@@ -140,6 +142,77 @@
             "label":"How do you implement security in a decentralized Spring Boot architecture, addressing authentication, authorization, access control, and service communication protection?",
             "component":"SecurityDecentralization",
             "breadcrumbIndex":"springFramework",
+            "keywords":[]
+        },
+
+        "tech/java-08-features/functional-interfaces":{
+            "date":"October 26, 2024",
+            "label":"Functional Interfaces",
+            "component":"FunctionalInterfaces",
+            "breadcrumbIndex":"java-08-features",
+            "keywords":[]
+        },
+        "tech/java-08-features/lambda-expressions":{
+            "date":"October 26, 2024",
+            "label":"Lambda Expressions",
+            "component":"LambdaExpressions",
+            "breadcrumbIndex":"java-08-features",
+            "keywords":[]
+        },
+        "tech/java-08-features/default-methods":{
+            "date":"October 26, 2024",
+            "label":"Default Methods",
+            "component":"DefaultMethods",
+            "breadcrumbIndex":"java-08-features",
+            "keywords":[]
+        },
+        "tech/java-08-features/method-references":{
+            "date":"October 26, 2024",
+            "label":"Method References",
+            "component":"MethodReferences",
+            "breadcrumbIndex":"java-08-features",
+            "keywords":[]
+        },
+        "tech/java-08-features/stream-apis":{
+            "date":"October 26, 2024",
+            "label":"Stream APIs",
+            "component":"StreamAPIs",
+            "breadcrumbIndex":"java-08-features",
+            "keywords":[]
+        },
+        "tech/java-08-features/optional-classes":{
+            "date":"October 26, 2024",
+            "label":"Optional Classes",
+            "component":"OptionalClasses",
+            "breadcrumbIndex":"java-08-features",
+            "keywords":[]
+        },
+        "tech/java-08-features/collectors-api":{
+            "date":"October 26, 2024",
+            "label":"Collectors API",
+            "component":"CollectorsAPI",
+            "breadcrumbIndex":"java-08-features",
+            "keywords":[]
+        },
+        "tech/java-08-features/nashorn-javascript-engines":{
+            "date":"October 26, 2024",
+            "label":"Nashorn Javascript Engines",
+            "component":"NashornJavascriptEngines",
+            "breadcrumbIndex":"java-08-features",
+            "keywords":[]
+        },
+        "tech/java-08-features/ForEach-method":{
+            "date":"October 26, 2024",
+            "label":"ForEach Method",
+            "component":"ForEachMethod",
+            "breadcrumbIndex":"java-08-features",
+            "keywords":[]
+        },
+        "tech/java-08-features/date-and-time-api":{
+            "date":"October 26, 2024",
+            "label":"Date And Time API",
+            "component":"DateAndTimeAPI",
+            "breadcrumbIndex":"java-08-features",
             "keywords":[]
         }
     }
