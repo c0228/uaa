@@ -1,4 +1,13 @@
 import React from "react";
+import { Tab, Highlight } from "e-ui-react";
+
+const EXAMPLE_REACT = ``;
+
+const EXAMPLE_ANGULAR_COMPONENT = ``;
+
+const EXAMPLE_ANGULAR_HTML = ``;
+
+const EXAMPLE_VUE = ``;
 
 const Example = () =>{
 
