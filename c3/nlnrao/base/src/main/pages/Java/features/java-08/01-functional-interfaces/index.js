@@ -15,7 +15,7 @@ const FunctionalInterfaces = ({ meta }) =>{
           <BlogArticleHeader metaData={meta} />
         </Col>
         <Col md={4}>
-            <Terminologies title="Java 08 Features" prefix="tech/java-08-features/" data={Routes?.urls} />
+            <Terminologies title="Java 08 Features" isIndex={true} prefix="tech/java-08-features/" data={Routes?.urls} />
         </Col>
        </Row>
     </ContainerFluid>

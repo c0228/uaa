@@ -14,6 +14,8 @@ import Keywords from '@MainComponents/keywords/index.js';
 import KeywordData from '@MainStaticData/keywords-all.json';
 import BlogItems from '@MainComponents/blog-items/index.js'; 
 import BlogData from '@MainStaticData/home-blog-list.json';
+import Terminologies from '@MainComponents/terminologies-list/index.js';
+import Routes from "@MainPages/Java/component.routes.json";
 
 const Home = ()=>{
  const { setContextData } = getAppContext();
@@ -86,6 +88,7 @@ const Home = ()=>{
         <Col xxl={3} xl={3}>
             <ProfileBasic />
             <AboutBlog />
+            <Terminologies title="Java 08 Features" isIndex={true} prefix="tech/java-08-features/" data={Routes?.urls} />
             <Keywords data={KeywordData} />
         </Col>
     </Row>
