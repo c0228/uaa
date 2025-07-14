@@ -7,12 +7,12 @@ const data = [{
     "desc": "Dedollarization and the rise of cryptocurrency signal a global shift toward decentralized financial systems, challenging the dominance of traditional fiat currencies.",
 },{
   "header":"Gaming & Metaverse",
-  "title":"",
-  "desc":""
+  "title":"Quantum-Powered Game Logic Engines: Building Open-Source Hybrid Game Systems with Quantum Algorithms",
+  "desc":"Building a cutting-edge hybrid game engine that combines classical game design with open-source quantum computing tools. Leverage quantum algorithms to ..."
 },{
   "header":"De-AI Solutions",
-  "title":"",
-  "desc":""
+  "title":"Decentralized Federated Learning on Blockchain: Privacy-Preserving AI Collaboration",
+  "desc":"This project integrates Federated Learning with Blockchain to enable multiple parties to collaboratively train AI models without sharing raw data ..."
 }];
 
 const Introduction = () =>{
