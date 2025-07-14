@@ -31,6 +31,7 @@ import PublicPrivateBlockchain from "./terminologies/modules/public-private-bloc
 import SolidityVsVyper from "./terminologies/modules/solidity-vs-vyper/index.js";
 import StableCoins from "./terminologies/modules/stablecoins/index.js";
 import Staking from "./terminologies/modules/staking/index.js";
+import STO from "./terminologies/modules/sto/index.js";
 import TestnetFaucet from "./terminologies/modules/testnet-faucet/index.js";
 import Tokenomics from "./terminologies/modules/tokenomics/index.js";
 import TradeFi from "./terminologies/modules/trad-fi/index.js";
@@ -75,6 +76,7 @@ export const Web3ComponentMap = {
 "SolidityVsVyper": SolidityVsVyper, 
 "StableCoins": StableCoins,
 "Staking": Staking,
+"STO": STO,
 "TestnetFaucet": TestnetFaucet,
 "Tokenomics": Tokenomics,
 "TradeFi": TradeFi,

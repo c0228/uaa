@@ -235,6 +235,13 @@
             "component": "Staking",
             "keywords":[]
         },
+        "tech/web3.0/terminologies/security-token-offerings-sto":{
+            "breadcrumbIndex": "web3-terminologies",
+            "label":"Security Token Offerings (STO)",
+            "date":"October 26, 2024",
+            "component": "STO",
+            "keywords":[]
+        },
         "tech/web3.0/terminologies/testnet-faucet":{
             "breadcrumbIndex": "web3-terminologies",
             "label":"Testnet Faucet",
