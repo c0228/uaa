@@ -7,7 +7,7 @@ import Terminologies from '@MainComponents/terminologies-list/index.js';
 import Routes from "@MainPages/Java/component.routes.json";
 
 const LambdaExpressions = ({ meta }) =>{
- return (<div>
+ return (<div className="mbot15p">
   <Header menulinks={HeaderMenu} activeId="Home" />
    <ContainerFluid>
       <Row>
