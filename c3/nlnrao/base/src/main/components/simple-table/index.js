@@ -2,7 +2,7 @@ import React from "react";
 
 const SimpleTable = ({ header, columns }) =>{
  return (<div className="table-responsive" style={{ overflowX: 'auto' }}>
-    <table className="table"  style={{ minWidth: '600px' }}>
+    <table className="table"  style={{ minWidth: '600px', marginBottom:'0px' }}>
         <thead>
             <tr className="blog-head" style={{ backgroundColor:'#eee' }}>
                 {header?.map((h,i)=>{

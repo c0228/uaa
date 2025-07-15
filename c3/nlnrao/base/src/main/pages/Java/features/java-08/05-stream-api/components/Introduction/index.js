@@ -34,6 +34,31 @@ deque.add("X");
 deque.add("Y");
 Stream<String> stream = deque.parallelStream();`;
 
+const MAP_SAMPLE_OBJECT = `Map<String, Integer> languageVersions = new HashMap<>();
+        languageVersions.put("Java", 8);
+        languageVersions.put("Python", 3);
+        languageVersions.put("C++", 11);
+        languageVersions.put("Go", 1);
+
+   //  1. Stream on Keys
+        System.out.println(" Keys:");
+        languageVersions.keySet().stream()
+            .forEach(System.out::println);
+
+   //  2. Stream on Values
+        System.out.println(" Values:");
+        languageVersions.values().stream()
+            .map(version -> "v" + version)
+            .forEach(System.out::println);
+
+   //   3. Stream on Entries
+        System.out.println(" Entries (Key -> Value):");
+        languageVersions.entrySet().stream()
+            .filter(entry -> entry.getValue() > 5)
+            .forEach(entry -> 
+                System.out.println(entry.getKey() + " -> " + entry.getValue()));        
+`;
+
 const Introduction = () =>{
  return (<div className="mtop15p lh28p fs16p">
    <div className="mtop15p">
@@ -136,6 +161,43 @@ const Introduction = () =>{
                                        </div>)]
                                  ]} />
                      </div>
+                     <div className="mtop15p"><h5 className="blog-head"><b>In case of <code>Map&lt;K, V&gt;</code>:</b></h5></div>
+                     <div className="mtop5p">When working with a <code><b>Map&lt;K, V&gt;</b></code>, you cannot 
+                        call <code><b>.stream()</b></code> or <code><b>.parallelStream()</b></code> directly on the <code><b>Map</b></code> itself 
+                        because <code><b>Map</b></code> <b>does not implement</b> <code><b>Collection</b></code>.
+                     </div>
+                     <div className="mtop5p">But you can stream through it in <b>exactly three standard ways</b> by using its <b>collection-like views</b>:</div>
+                     <div className="mtop15p">
+                        <SimpleTable header={["Map Method", "Returns", "Call Streams", "Stream Returns"]} 
+                              columns={[
+                                    [(<div><code><b>keySet()</b></code></div>), 
+                                       (<div><code><b>Set&lt;K&gt;</b></code></div>), 
+                                       (<div>
+                                          <div><code><b>map.keySet().stream()</b></code></div>
+                                          <div><code><b>map.keySet().parallelStream()</b></code></div>
+                                       </div>),
+                                       (<div><code><b>Stream&lt;K&gt;</b></code></div>)
+                                    ],
+                                    [(<div><code><b>values()</b></code></div>), 
+                                       (<div><code><b>Collection&lt;V&gt;</b></code></div>),
+                                       (<div>
+                                          <div><code><b>map.values().stream()</b></code></div>
+                                          <div><code><b>map.values().parallelStream()</b></code></div>
+                                       </div>), 
+                                       (<div><code><b>Stream&lt;V&gt;</b></code></div>)   
+                                    ],
+                                    [(<div><code><b>entrySet()</b></code></div>), 
+                                       (<div><code><b>Set&lt;Map.Entry&lt;K, V&gt;&gt;</b></code></div>),
+                                       (<div>
+                                          <div><code><b>map.entrySet().stream()</b></code></div>
+                                          <div><code><b>map.entrySet().parallelStream()</b></code></div>
+                                       </div>), 
+                                       (<div><code><b>Stream&lt;Map.Entry&lt;K, V&gt;&gt;</b></code></div>)
+                                    ]
+                                 ]} />
+                     </div>
+                     <div className="mtop5p"><h5 className="blog-head"><b>Example:</b></h5></div>
+                     <div className="mtop5p"><Highlight content={MAP_SAMPLE_OBJECT} lang="java" /></div>
                   </div>
                   <div className="list-group-item">
                      <div><h5 className="blog-head"><b>2. From Arrays</b></h5></div>
