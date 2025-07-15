@@ -1,0 +1,22 @@
+{
+  "title": "Java 8 Lambda Expressions | Functional Programming in Java",
+  "meta": [
+    {
+      "name": "description",
+      "content": "Learn how Java 8 Lambda Expressions simplify coding by enabling functional programming. Understand syntax, benefits, and real-world examples to write cleaner Java code."
+    },
+    {
+      "name": "keywords",
+      "content": [
+        "Java 8",
+        "Lambda Expressions in Java",
+        "Java 8 Features",
+        "Functional Programming Java",
+        "Java Lambda Syntax",
+        "Java Lambda Examples",
+        "Java Stream API",
+        "Java Anonymous Functions"
+      ]
+    }
+  ]
+}

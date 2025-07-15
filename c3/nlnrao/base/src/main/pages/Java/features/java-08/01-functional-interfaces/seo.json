@@ -1,0 +1,22 @@
+{
+  "title": "Java 08 Features: Functional Interfaces | Functional Programming Made Easy",
+  "meta": [
+    {
+      "name": "description",
+      "content": "Understand Functional Interfaces in Java 8, their role in enabling lambda expressions, and how they simplify functional programming with practical examples."
+    },
+    {
+      "name": "keywords",
+      "content": [
+        "Java 8",
+        "Functional Interfaces in Java",
+        "Java 8 Features",
+        "Java Functional Programming",
+        "Java Lambda and Functional Interface",
+        "Java Predicate Function Supplier Consumer",
+        "Java SAM Interface",
+        "Java Functional Interface Examples"
+      ]
+    }
+  ]
+}
