@@ -44,13 +44,18 @@ const Arrays = () =>{
                                             [(<div><code><b>double[]</b></code></div>), (<div><code><b>Arrays.stream(double[])</b></code></div>), (<div><code><b>DoubleStream</b></code></div>)],
                                             [(<div><code><b>long[]</b></code></div>), (<div><code><b>Arrays.stream(long[])</b></code></div>), (<div><code><b>LongStream</b></code></div>)],
                                             [(<div><code><b>char[]</b></code>, <code><b>byte[]</b></code></div>), (<div>Not Directly Supported</div>), (<div>Convert to <code><b>int[]</b></code> manually</div>)],
-                                            [(<div><div><code><b>String[]</b></code>,</div> <div><code><b>Integer[]</b></code>, etc.</div></div>), (<div><code><b>Stream.of(...)</b></code> or <code><b>Arrays.stream(...)</b></code></div>), (<div><code><b>Stream&lt;T&gt;</b></code></div>)],
                                         ]} />
                             </div>
                         </li>
                         <li className="mtop5p">
                             <div>You want a <b>stream of the individual elements</b> inside the array.</div>
                             <div className="mtop5p"><Highlight content={ARRAY_STREAM_INDIVIDUAL} lang="java" /></div>
+                            <div className="mtop5p">
+                                <SimpleTable header={["Array Type", "Recommended Method", "Stream Type"]} 
+                                        columns={[
+                                            [(<div><div><code><b>String[]</b></code>,</div> <div><code><b>Integer[]</b></code>, etc.</div></div>), (<div><code><b>Stream.of(...)</b></code> or <code><b>Arrays.stream(...)</b></code></div>), (<div><code><b>Stream&lt;T&gt;</b></code></div>)],
+                                        ]} />
+                            </div>
                         </li>
                         <li className="mtop5p">
                             <div>You want to work with a <b>subarray</b> using <code><b>Arrays.stream(arr, from, to)</b></code>.</div>
