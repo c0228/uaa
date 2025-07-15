@@ -1,0 +1,13 @@
+{
+    "title":"Java 8 Method References | Learn Java 8 Features",
+    "meta":[
+        {
+          "name": "description",
+          "content": "Understand method references introduced in Java 8 with examples and syntax."
+        },
+        {
+          "name": "keywords",
+          "content": ["Java 8", "Method References", "Java Lambda", "Functional Java", "Java 8 Features"]
+        }
+      ]
+}

@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { ContainerFluid, Row, Col } from "e-ui-react";
 import Header from '@MainTemplates/Header/index.js';
 import { HeaderMenu } from '@MainConfig/HeaderMenu.js';
@@ -8,8 +8,15 @@ import Routes from "@MainPages/Java/component.routes.json";
 import Introduction from "./components/Introduction/index.js";
 import Example from "./components/Example/index.js";
 import Conclusion from "./components/Conclusion/index.js";
+import { PageSEOAppender } from "@MainTemplates/PageSEOAppender/index.js";
+import SEOData from "./seo.json";
 
 const DefaultMethods = ({ meta }) =>{
+
+  useEffect(()=>{
+    PageSEOAppender(SEOData);
+  },[]);
+
  return (<div className="mbot15p">
   <Header menulinks={HeaderMenu} activeId="Home" />
    <ContainerFluid>

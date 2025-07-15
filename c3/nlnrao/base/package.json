@@ -7,18 +7,13 @@
     "dev:main": "webpack serve --config webpack.config.cjs --env target=main --open --mode development",
     "dev:showcase": "webpack serve --config webpack.config.cjs --env target=showcase --mode development",
     "dev:all": "concurrently \"npm run dev:main\" \"npm run dev:showcase\"",
-
     "start": "npm run prebuild && npm run dev:all",
-
     "prebuild": "node ./config/generate-sitemap.js",
-
     "clean:showcase": "rmdir /s /q dist || echo 'No such directory'",
-
     "build:main": "webpack --config webpack.config.cjs --env target=main --mode production",
     "build:showcase": "webpack --config webpack.config.cjs --env target=showcase --mode production",
     "build:all": "concurrently \"npm run build:main\" \"npm run build:showcase\"",
     "build": "npm run clean:showcase && npm run prebuild && npm run build:all",
-
     "deploy": "cd .. && deploy.bat e-r-t1"
   },
   "author": "",
@@ -67,6 +62,7 @@
     "react-calendar": "^3.7.0",
     "react-dom": "^18.2.0",
     "react-flow-renderer": "^10.3.14",
+    "react-helmet": "^6.1.0",
     "react-native": "0.69.3",
     "react-redux": "8.0.2",
     "react-router-dom": "^6.3.0",
