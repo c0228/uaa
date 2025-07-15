@@ -1,12 +1,12 @@
 import React from "react";
 
 const SimpleTable = ({ header, columns }) =>{
- return (<div className="table-responsive">
-    <table className="table">
+ return (<div className="table-responsive" style={{ overflowX: 'auto' }}>
+    <table className="table"  style={{ minWidth: '600px' }}>
         <thead>
-            <tr style={{ backgroundColor:'#eee' }}>
+            <tr className="blog-head" style={{ backgroundColor:'#eee' }}>
                 {header?.map((h,i)=>{
-                    return (<td key={i}><b>{h}</b></td>);
+                    return (<th key={i}><b>{h}</b></th>);
                 })}
             </tr>
         </thead>
