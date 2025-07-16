@@ -228,6 +228,13 @@
             "component": "PublicPrivateBlockchain",
             "keywords":["Public Blockchains", "Private Blockchains"]
         },
+        "tech/web3.0/terminologies/rwa-liquidity-infrastructure":{
+            "breadcrumbIndex": "web3-terminologies",
+            "label":"RWA Liquidity Infrastructure",
+            "date":"October 26, 2024",
+            "component": "RWALiquidityInfrastructure",
+            "keywords":[]
+        },
         "tech/web3.0/terminologies/solidity-vs-vyper-ethereum-platform":{
             "breadcrumbIndex": "web3-terminologies",
             "label":"Solidity Vs Vyper (Ethereum Platform)",

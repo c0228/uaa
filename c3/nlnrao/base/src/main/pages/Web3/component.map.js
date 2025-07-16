@@ -30,6 +30,7 @@ import MinerExtractableValue from "./terminologies/modules/miner-extractable-val
 import MintingVsMining from "./terminologies/modules/minting-vs-mining/index.js";
 import NFTDigitalOwnership from "./terminologies/modules/nft-digital-ownership/index.js";
 import PublicPrivateBlockchain from "./terminologies/modules/public-private-blockchains/index.js";
+import RWALiquidityInfrastructure from "./terminologies/modules/rwa-liquidity-infrastructure/index.js";
 import SolidityVsVyper from "./terminologies/modules/solidity-vs-vyper/index.js";
 import StableCoins from "./terminologies/modules/stablecoins/index.js";
 import Staking from "./terminologies/modules/staking/index.js";
@@ -78,6 +79,7 @@ export const Web3ComponentMap = {
 "MintingVsMining": MintingVsMining,
 "NFTDigitalOwnership": NFTDigitalOwnership,
 "PublicPrivateBlockchain": PublicPrivateBlockchain,
+"RWALiquidityInfrastructure": RWALiquidityInfrastructure,
 "SolidityVsVyper": SolidityVsVyper, 
 "StableCoins": StableCoins,
 "Staking": Staking,
