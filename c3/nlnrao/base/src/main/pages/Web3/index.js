@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import { ContainerFluid, Row, Col, Icon } from "e-ui-react";
+import { ContainerFluid, Row, Col, Card, Icon } from "e-ui-react";
 import { Pill, Colors } from 'e-ui-react';
 import Header from '@MainTemplates/Header/index.js';
 import { HeaderMenu } from '@MainConfig/HeaderMenu.js';
@@ -82,6 +82,16 @@ const Web3 = ()=>{
         {/** Temporary :::  END */}
       </Col>
       <Col xs={4} xl={4} xxl={4}>
+        <div className="mbot15p">
+          <Card padding={15} backgroundColor="#eee">
+            <div><h5 className="blog-head"><b>DO YOU KNOW?</b></h5></div>
+            <div className="mtop5p lh28p fs16p">The <span style={{ borderBottom:'1px dashed #999' }}>Stock Market</span>, operated by 
+              centralized exchanges, is open for trading only <span style={{ borderBottom:'1px dashed #999' }}>8 hours a day</span> and 
+              remains closed on weekends, whereas the <span style={{ borderBottom:'1px dashed #999' }}>Cryptocurrency Market</span>, 
+              operated by decentralized exchanges, remains open and allows 
+              transactions <span style={{ borderBottom:'1px dashed #999' }}>24/7</span>.</div>
+          </Card>
+        </div>
         <MarketTrends/>
         <Terminologies title="Terminologies" prefix="tech/web3.0/terminologies/" data={Routes?.urls} />
         <Keywords data={KeywordData01} />
