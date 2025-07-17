@@ -2,6 +2,15 @@ import React from "react";
 import { Card, Highlight } from "e-ui-react";
 import SimpleTable from "@MainComponents/simple-table/index.js";
 
+const ARRAY_PRIMITIVE_SORTING = `import java.util.Arrays;
+
+public class PrimitiveSorting {
+ public static void main(String args[]){
+    int[] arr = {5,9,1,10};
+    Arrays.sort(arr); // Primitive DataTypes Sorting
+ }
+}`;
+
 const COMPARABLE_INTERFACE_JAVA = `public interface Comparable<T> {
     public int compareTo(T o); // Single Abstract Method
 }`;
@@ -146,9 +155,13 @@ const Introduction = () =>{
             like <code><b>Employee</b></code>, <code><b>Student</b></code>, or <code><b>Product</b></code> for 
             sorting mechanisms.</div>
             <div className="mtop5p">For example, sorting simple arrays 
-                like <code><b>int[]</b></code> or <code><b>char[]</b></code> was easy—you could write 
+                like <code><b>int[]</b></code> or <code><b>char[]</b></code> was easy — you could write 
                 your own logic.</div>
-            <div>But as soon as you started working with <b>your own classes</b>, things got complicated:</div>
+            <div className="mtop5p">In Java, Arrays of primitive Types can be Sorted as</div>
+            <div className="mtop5p"><Highlight content={ARRAY_PRIMITIVE_SORTING} lang="java" /></div>
+            <div>But as soon as you started working 
+            with <b>your own classes (Reference Types)</b>, <u>java can't sort them as Arrays of Primitive Types</u>, things 
+            got complicated:</div>
             <div>
                 <ul>
                     <li className="mtop5p">How does Java know how to compare two <code><b>Employee</b></code> objects?</li>
@@ -189,11 +202,28 @@ const Introduction = () =>{
     <div className="mtop5p"><Highlight content={COMPARABLE_USAGE_JAVA} lang="java" /></div>
     <div className="mtop5p">
         <Card padding={15} backgroundColor="#eee">
-        Use <code><b>Comparable</b></code> when your class has a <b>single natural order</b>, and that logic 
+        <div>Use <code><b>Comparable</b></code> when your class has a <b>single natural order</b>, and that logic 
         is <b>embedded within the class</b> itself. For multiple sorting logics (like sorting by name or salary), 
-        use the <code><b>Comparator</b></code> interface externally.
+        use the <code><b>Comparator</b></code> interface externally.</div>
+        <div className="mtop5p"><b><u>Note</u>:</b></div>
+        <div className="mtop5p">
+        <SimpleTable header={["Primitive Data Types", "Wrapper Classes"]} 
+                columns={[
+                    [(<div><code><b>boolean</b></code></div>),(<div><code><b>Boolean</b></code></div>)],
+                    [(<div><code><b>char</b></code></div>),(<div><code><b>Character</b></code></div>)],
+                    [(<div><code><b>byte</b></code></div>),(<div><code><b>Byte</b></code></div>)],
+                    [(<div><code><b>short</b></code></div>),(<div><code><b>Short</b></code></div>)],
+                    [(<div><code><b>int</b></code></div>),(<div><code><b>Integer</b></code></div>)],
+                    [(<div><code><b>long</b></code></div>),(<div><code><b>Long</b></code></div>)],
+                    [(<div><code><b>float</b></code></div>),(<div><code><b>Float</b></code></div>)],
+                    [(<div><code><b>double</b></code></div>),(<div><code><b>Double</b></code></div>)],
+                    ["",(<div><code><b>String</b></code> <code><b>StringBuilder</b></code> <code><b>StringBuffer</b></code></div>)]
+                ]} />
+        </div>
+        <div align="center" className="mtop5p"><code><b>java.util.Comparable</b></code> is already implemented in Wrapper Classes.</div>
         </Card>
     </div>
+    
 
 
     <div className="mtop15p"><h4 className="blog-head"><b>Comparator Interface</b></h4></div>
@@ -209,7 +239,7 @@ const Introduction = () =>{
     </div>
     <div className="mtop5p"><h5 className="blog-head"><b>#Scenario: Sorting Employee objects using <code>Comparator</code></b></h5></div>
     <div>
-        <Card padding={15}>
+        <Card padding={15} backgroundColor="#eee">
             <div><b>Problem Statement</b></div>
             <div className="mtop5p">You're working on an HR application that manages a list of employees. Each <code><b>Employee</b></code> has:</div>
             <div>
@@ -228,7 +258,7 @@ const Introduction = () =>{
                 </ul>
             </div>
             <div>You <b>can’t use</b> <code><b>Comparable</b></code> here because:</div>
-            <div style={{ borderLeft:'5px solid #ccc', paddingLeft:'15px' }}>Comparable allows only one <i>default/natural</i> sort logic.</div>
+            <div style={{ borderLeft:'5px solid #777', paddingLeft:'15px' }}>Comparable allows only one <i>default/natural</i> sort logic.</div>
         </Card>
     </div>
     <div className="mtop5p"><Highlight content={COMPARATOR_EXAMPLE_JAVA} lang="java" /></div>

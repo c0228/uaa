@@ -19,7 +19,7 @@ import IntegrateSecurityTesting from "./content/SpringFramework/14-integrate-sec
 import KafkaMessageFormat from "./content/SpringFramework/15-kafka-message-format/index.js";
 import SecurityDecentralization from "./content/SpringFramework/16-security-in-decentralization/index.js";
 // Features
-import ComparableComparator from "./features/java-02/01-comparable-comparator/index.js";
+import ComparableComparator from "./features/java-02/01-comparator-comparable/index.js";
 
 import ForkJoinFramework from "./features/java-07/01-fork-join-framework/index.js";
 
