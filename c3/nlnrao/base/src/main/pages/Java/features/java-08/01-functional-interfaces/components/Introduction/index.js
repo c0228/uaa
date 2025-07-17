@@ -31,6 +31,14 @@ const Introduction = () =>{
     <div className="mtop15p">A <b>Functional Interface</b> in Java is an interface that contains <b>exactly one abstract method</b>. These 
     interfaces provide target types for <b>lambda expressions</b> and <b>method references</b>, which allow for more concise, readable 
     and maintainable code.</div>
+    <div>
+        <Card padding={15} backgroundColor="#eee">
+            <div><b>Note:</b></div>
+            <div>A <b>Functional Interface</b> is an interface that contains <b>only one abstract method</b>. It can have
+             multiple <code><b>default</b></code> or <code><b>static</b></code> methods, but only <b>one abstract method</b>, which 
+             makes it eligible to be used with <b>lambda expressions</b>, <b>method references</b>, and <b>streams</b>.</div>
+        </Card>
+    </div>
     <div className="mtop15p">The main motivation behind functional interfaces was to simplify the syntax and encourage a more functional 
         programming style in Java, especially in operations on <b>collections</b> and <b>streams</b>.</div>
     <div className="mtop15p">Java 8 also introduced the <code><b>@FunctionalInterface</b></code> annotation to explicitly declare an 

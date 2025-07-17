@@ -1,6 +1,5 @@
 // Java / Core
 import JavaVersionsFeatureUpdates from "./content/Core/01-features-update-java-versions/index.js";
-import ComparableComparator from "./content/Core/02-comparable-comparator/index.js";
 import UltimateJavaCheatSheet from "./content/Core/03-ultimate-java-cheatsheet/index.js";
 // Java / Spring Framework
 import EurekaClient from "./content/SpringFramework/01-eureka-client/index.js";
@@ -20,6 +19,10 @@ import IntegrateSecurityTesting from "./content/SpringFramework/14-integrate-sec
 import KafkaMessageFormat from "./content/SpringFramework/15-kafka-message-format/index.js";
 import SecurityDecentralization from "./content/SpringFramework/16-security-in-decentralization/index.js";
 // Features
+import ComparableComparator from "./features/java-02/01-comparable-comparator/index.js";
+
+import ForkJoinFramework from "./features/java-07/01-fork-join-framework/index.js";
+
 import FunctionalInterfaces from "./features/java-08/01-functional-interfaces/index.js";
 import LambdaExpressions from "./features/java-08/02-lambda-expressions/index.js";
 import DefaultMethods from "./features/java-08/03-default-methods/index.js";
@@ -33,7 +36,6 @@ import DateAndTimeAPI from "./features/java-08/10-date-and-time-api/index.js";
 
 export const JavaComponentMap = {
  "JavaVersionsFeatureUpdates": JavaVersionsFeatureUpdates,
- "ComparableComparator": ComparableComparator,
  "UltimateJavaCheatSheet": UltimateJavaCheatSheet,
 
  "EurekaClient": EurekaClient,
@@ -53,6 +55,10 @@ export const JavaComponentMap = {
  "KafkaMessageFormat": KafkaMessageFormat,
  "SecurityDecentralization": SecurityDecentralization,
  // Features
+ "ComparableComparator": ComparableComparator,
+
+ "ForkJoinFramework": ForkJoinFramework,
+
  "FunctionalInterfaces": FunctionalInterfaces,
  "LambdaExpressions": LambdaExpressions,
  "DefaultMethods": DefaultMethods,

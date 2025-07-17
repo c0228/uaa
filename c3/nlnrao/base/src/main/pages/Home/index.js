@@ -88,6 +88,7 @@ const Home = ()=>{
         <Col xxl={3} xl={3}>
             <ProfileBasic />
             <AboutBlog />
+            <Terminologies title="Java 07 Features" isIndex={true} prefix="tech/java-07-features/" data={Routes?.urls} />
             <Terminologies title="Java 08 Features" isIndex={true} prefix="tech/java-08-features/" data={Routes?.urls} />
             <Keywords data={KeywordData} />
         </Col>

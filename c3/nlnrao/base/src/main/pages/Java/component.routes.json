@@ -2,6 +2,10 @@
     "breadcrumbs":{
         "java-core":[{"label":"Java", "url":"/" },
                 { "label":"Core", "url":"#" }],
+        "java-02-features":[{"label":"Java", "url":"/" },
+                { "label":"Java 02 Features", "url":"#" }],
+        "java-07-features":[{"label":"Java", "url":"/" },
+                { "label":"Java 07 Features", "url":"#" }],
         "java-08-features":[{"label":"Java", "url":"/" },
                 { "label":"Java 08 Features", "url":"#" }],
         "java-util-package":[{"label":"Java", "url":"/" },
@@ -142,6 +146,22 @@
             "label":"How do you implement security in a decentralized Spring Boot architecture, addressing authentication, authorization, access control, and service communication protection?",
             "component":"SecurityDecentralization",
             "breadcrumbIndex":"springFramework",
+            "keywords":[]
+        },
+
+        "tech/java-02-features/comparable-and-comparator-interfaces":{
+            "date":"October 26, 2024",
+            "label":"Comparable and Comparator Interfaces",
+            "component":"ComparableComparator",
+            "breadcrumbIndex":"java-02-features",
+            "keywords":[]
+        },
+
+        "tech/java-07-features/fork-join-framework":{
+            "date":"October 26, 2024",
+            "label":"Fork/Join Framework",
+            "component":"ForkJoinFramework",
+            "breadcrumbIndex":"java-07-features",
             "keywords":[]
         },
 
