@@ -10,7 +10,7 @@ const Bottom = () =>{
       <a href={process.env.PROJECT_MAIN_URL+href} className="nlnrblog-bottom-item">{label}</a>
     </div>
  const webDev = {};
- return (<div>
+ return (<div className="mtop15p">
      <div className="nlnrblog-bottom-container" style={{ paddingTop:'25px', paddingBottom:'45px' }}>
   <ContainerFluid>
     <Row>

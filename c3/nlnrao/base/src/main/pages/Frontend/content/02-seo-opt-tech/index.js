@@ -5,6 +5,8 @@ import { HeaderMenu } from '@MainConfig/HeaderMenu.js';
 import BlogArticleHeader from '@MainComponents/blog-article-header/index.js';
 import Bottom from '@MainTemplates/Bottom/index.js';
 import Footer from '@MainTemplates/Footer/index.js';
+import Introduction from "./components/Introduction/index.js";
+import Conclusion from "./components/Conclusion/index.js";
 
 const SEOOptTech = ({ meta }) =>{
 
@@ -14,6 +16,8 @@ const SEOOptTech = ({ meta }) =>{
           <Row>
             <Col md={8}>
               <BlogArticleHeader metaData={meta} />
+              <Introduction />
+              <Conclusion />
             </Col>
            </Row>
         </ContainerFluid>
