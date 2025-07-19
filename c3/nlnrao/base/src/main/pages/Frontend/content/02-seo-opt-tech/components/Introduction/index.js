@@ -1,5 +1,6 @@
 import React from "react";
-import { Accordian, Highlight } from "e-ui-react";
+import { Icon, Accordian, Highlight } from "e-ui-react";
+import SimpleTable from "@MainComponents/simple-table/index.js";
 
 const URL_HIERARCHY_STRUCTURE = `example.com/
  └── /blog/
@@ -23,15 +24,24 @@ const SEO_JSONLD_STRUCTURE = `<script type="application/ld+json">
 }
 </script>`;
 
+const MULTILING_EXAMPLE_HTML = `<link rel="alternate" href="https://example.com/fr/" hreflang="fr" />
+<link rel="alternate" href="https://example.com/en/" hreflang="en" />`;
+
 const Introduction = () =>{
+
+const DisplayStatus = ({ status }) =>{
+   return (<Icon type="FontAwesome" name={status==='Y'?"fa-check-circle":"fa-times-circle"} size={14} 
+      color={status==='Y'?"green":"red"} />);
+};
+
 
 const SiteArchitecture = () =>{
    return (<div className="padLeft5p">
       <div><h5 className="blog-head"><b>a) Use Clean, Readable URLs</b></h5></div>
       <div className="mtop5p padLeft5p">
          <ul>
-            <li><b>Good:</b> <code><b>example.com/blog/seo-optimization-techniques</b></code></li>
-            <li><b>Bad:</b> <code><b>example.com/blog/article?id=1357</b></code></li>
+            <li><DisplayStatus status="Y"/> <code><b>example.com/blog/seo-optimization-techniques</b></code> <b>(Good Practice)</b> </li>
+            <li><DisplayStatus /> <code><b>example.com/blog/article?id=seo-optimization-techniques</b></code> <b>(Bad Practice)</b></li>
          </ul>
       </div>
       <div className="mtop5p"><h5 className="blog-head"><b>b) Hierarchical Structure</b></h5></div>
@@ -151,27 +161,114 @@ const MobileFirstDesign = () =>{
 };
 
 const JavascriptSEO = () =>{
-   return (<div></div>);
+   return (<div>
+      <div>Single Page Applications (SPAs) often confuse crawlers if not handled well.</div>
+      <div className="mtop5p"><h5 className="blog-head"><b>a) Server-Side Rendering (SSR)</b></h5></div>
+      <div className="mtop5p">Use SSR frameworks like:</div>
+      <div>
+         <ul>
+            <li className="mtop5p"><b>Next.js (React)</b></li>
+            <li className="mtop5p"><b>Nuxt.js (Vue)</b></li>
+            <li className="mtop5p"><b>Scully (Angular)</b></li>
+         </ul>
+      </div>
+      <div className="mtop5p"><h5 className="blog-head"><b>b) Pre-rendering</b></h5></div>
+      <div className="mtop5p">For static sites, use tools like:</div>
+      <div>
+         <ul>
+            <li className="mtop5p"><b>Prerender.io</b></li>
+            <li className="mtop5p"><b>Rendertron</b></li>
+            <li className="mtop5p"><b>Next.js Static Export</b></li>
+         </ul>
+      </div>
+      <div className="mtop5p"><h5 className="blog-head"><b>c) Ensure Crawlable DOM</b></h5></div>
+      <div className="mtop5p">Verify that your important content is visible in 
+         the <b>initial HTML</b> or within <code><b>&lt;noscript&gt;</b></code> tags.</div>
+   </div>);
 };
 
 const CoreWebVitalsOptimization = () =>{
-   return (<div></div>);
+   return (<div>
+      <div>Focus on 3 key metrics:</div>
+      <div>
+         <SimpleTable header={["Metric", "Goal"]} 
+                  columns={[
+                        [(<div><b>LCP</b> (Largest Contentful Paint)</div>),"< 2.5s"],
+                        [(<div><b>FID</b> (First Input Delay)</div>),"< 100ms"],
+                        [(<div><b>CLS</b> (Cumulative Layout Shift)</div>),"< 0.1"]
+                     ]} />
+      </div>
+      <div className="mtop5p"><h5 className="blog-head"><b>Tools:</b></h5></div>
+      <div>
+         <ul>
+            <li className="mtop5p">Lighthouse</li>
+            <li className="mtop5p">PageSpeed Insights</li>
+            <li className="mtop5p">Chrome DevTools &gt; Performance Tab</li>
+         </ul>
+      </div>
+      <div className="mtop5p"><h5 className="blog-head"><b>Fix Tips:</b></h5></div>
+      <div>
+         <ul>
+            <li className="mtop5p">Delay third-party scripts</li>
+            <li className="mtop5p">Reserve space for images and embeds</li>
+            <li className="mtop5p">Use web workers where applicable</li>
+         </ul>
+      </div>
+   </div>);
 };
 
 const InternalLinkingStrategy = () =>{
-   return (<div></div>);
+   return (<div>
+      <div className="mtop5p"><h5 className="blog-head"><b>a) Semantic Anchor Tags</b></h5></div>
+      <div className="mtop5p">Link contextually to other parts of your site using <code><b>&lt;a&gt;</b></code> with relevant text.</div>
+      <div className="mtop5p"><h5 className="blog-head"><b>b) Avoid Broken Links</b></h5></div>
+      <div className="mtop5p">Set up monitoring using tools like:</div>
+      <div>
+         <ul>
+            <li className="mtop5p">Screaming Frog</li>
+            <li className="mtop5p">Ahrefs Broken Link Checker</li>
+         </ul>
+      </div>
+   </div>);
 };
 
 const MultilingualAndInternationalSEO = () =>{
-   return (<div></div>);
+   return (<div>
+      <div className="mtop5p"><h5 className="blog-head"><b>Use <code>hreflang</code> Tags</b></h5></div>
+      <div className="mtop5p padLeft5p">Specify language and region:</div>
+      <div className="mtop5p">
+         <Highlight content={MULTILING_EXAMPLE_HTML} lang="html" />
+      </div>
+   </div>);
 };
 
 const MonitoringAndAuditing = () =>{
-   return (<div></div>);
+   return (<div>
+      <div className="mtop5p"><h5 className="blog-head"><b>a) Google Search Console</b></h5></div>
+      <div>
+         <ul>
+            <li className="mtop5p">Track crawl issues, mobile usability, Core Web Vitals</li>
+            <li className="mtop5p">Submit sitemap</li>
+         </ul>
+      </div>
+      <div className="mtop5p"><h5 className="blog-head"><b>b) Google Analytics / GA4</b></h5></div>
+      <div className="mtop5p">Measure bounce rate, engagement time, conversions.</div>
+      <div className="mtop5p"><h5 className="blog-head"><b>c) Logging 404s and Redirects</b></h5></div>
+      <div className="mtop5p">Log and fix broken pages or links using custom server or middleware handlers.</div>
+   </div>);
 };
 
 const BonusDeveloperToolsForSEO = () =>{
-   return (<div></div>);
+   return (<div>
+      <SimpleTable header={["Tool", "Purpose"]} 
+        columns={[
+            ["Lighthouse","Performance & SEO audit"],
+            ["Screaming Frog","In-depth crawl audit"],
+            ["Ahrefs/SEMrush","Backlink & keyword tracking"],
+            ["RankMath/Yoast","On-page SEO for CMS"],
+            ["Netlify/Cloudflare","CDN, edge delivery, headers"],
+          ]} />
+   </div>);
 };
 
  return (<div className="mtop15p lh28p fs16p">
