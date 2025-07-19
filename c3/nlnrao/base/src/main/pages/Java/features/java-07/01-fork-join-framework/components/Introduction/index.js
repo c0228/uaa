@@ -1,5 +1,7 @@
 import React from "react";
 import { Card, Highlight } from "e-ui-react";
+import SimpleTable from "@MainComponents/simple-table/index.js";
+import RightRoundedHeader from "@MainComponents/header-rounded-right/index.js";
 
 const FJF_EXAMPLE_FORKJOINPOOL = `ForkJoinPool pool = new ForkJoinPool();
 pool.invoke(new MyTask());`;
@@ -110,56 +112,99 @@ const Introduction = () =>{
     <div>
       <ol>
          <li className="mtop15p">
-            <div><h4 className="blog-head"><b>ForkJoinPool</b></h4></div>
-            <div><span className="blog-head"><b>Definition:</b></span></div>
-            <div>A special implementation of <code><b>ExecutorService</b></code> designed 
-            for <b>parallel execution of tasks</b>.</div>
-            <div><span className="blog-head"><b>Role:</b></span></div>
-            <div>It manages a <b>pool of worker threads</b> and executes <code><b>ForkJoinTask</b></code>.</div>
-            <div><span className="blog-head"><b>Key Features:</b></span></div>
-            <div>
-               <ul>
-                  <li className="mtop5p">Uses <b>work-stealing algorithm</b> (idle threads "steal" tasks from busy threads).</li>
-                  <li className="mtop5p">Can execute thousands of small subtasks efficiently.</li>
-               </ul>
-            </div>
-            <div><span className="blog-head"><b>Example:</b></span></div>
-            <div><Highlight content={FJF_EXAMPLE_FORKJOINPOOL} lang="java"/></div>
-         </li>
-         <li className="mtop15p">
-            <div><h4 className="blog-head"><b>ForkJoinTask&lt;V&gt;</b></h4></div>
-            <div><span className="blog-head"><b>Definition:</b></span></div>
-            <div>An abstract class representing a task that can be executed in the ForkJoinPool.</div>
-            <div><span className="blog-head"><b>Subclasses:</b></span></div>
-            <div>There are two main types:</div>
-            <div>
-               <ul>
-                  <li className="mtop5p"><code><b>RecursiveAction</b></code> &#8594; <b>Does not return a result</b>.</li>
-                  <li className="mtop5p"><code><b>RecursiveTask&lt;V&gt;</b></code> &#8594; <b>Returns a result</b>.</li>
-               </ul>
+            <div><RightRoundedHeader label="ForkJoinPool" /></div>
+            <div className="mtop15p padLeft5p">
+               <div><span className="blog-head"><b>Definition:</b></span></div>
+               <div>A special implementation of <code><b>ExecutorService</b></code> designed 
+               for <b>parallel execution of tasks</b>.</div>
+               <div><span className="blog-head"><b>Role:</b></span></div>
+               <div>It manages a <b>pool of worker threads</b> and executes <code><b>ForkJoinTask</b></code>.</div>
+               <div><span className="blog-head"><b>Key Features:</b></span></div>
+               <div>
+                  <ul>
+                     <li className="mtop5p">Uses <b>work-stealing algorithm</b> (idle threads "steal" tasks from busy threads).</li>
+                     <li className="mtop5p">Can execute thousands of small subtasks efficiently.</li>
+                  </ul>
+               </div>
+               <div className="padLeft5p"><span className="blog-head"><b>Example:</b></span></div>
+               <div><Highlight content={FJF_EXAMPLE_FORKJOINPOOL} lang="java"/></div>
             </div>
          </li>
          <li className="mtop15p">
-            <div><h4 className="blog-head"><b>RecursiveTask&lt;V&gt;</b></h4></div>
-            <div><b>Used When:</b> You want to compute and <b>return a result</b> from the task.</div>
-            <div><b>Structure::</b></div>
-            <div>
-               <ul>
-                  <li className="mtop5p">Override the <code><b>compute()</b></code> method.</li>
-                  <li className="mtop5p">Inside <code><b>compute()</b></code>, divide the task 
-                  and <b>use</b> <code><b>fork()</b></code> and <code><b>join()</b></code>.</li>
-               </ul>
+            <div><RightRoundedHeader label={(<b>ForkJoinTask&lt;V&gt;</b>)} /></div>
+            <div className="mtop15p padLeft5p">
+               <div><span className="blog-head"><b>Definition:</b></span></div>
+               <div>An abstract class representing a task that can be executed in the ForkJoinPool.</div>
+               <div><span className="blog-head"><b>Subclasses:</b></span></div>
+               <div>There are two main types:</div>
+               <div>
+                  <ul>
+                     <li className="mtop5p"><code><b>RecursiveAction</b></code> &#8594; <b>Does not return a result</b>.</li>
+                     <li className="mtop5p"><code><b>RecursiveTask&lt;V&gt;</b></code> &#8594; <b>Returns a result</b>.</li>
+                  </ul>
+               </div>
             </div>
-            <div><b>Example:</b></div>
-            <div><Highlight content={FJF_EXAMPLE_RECURSIVETASK} lang="java" /></div>
          </li>
          <li className="mtop15p">
-            <div><h4 className="blog-head"><b>RecursiveAction</b></h4></div>
-            <div><b>Used When:</b> You want to perform a task but <b>don’t need to return a result</b>.</div>
-            <div><b>Example:</b></div>
-            <div><Highlight content={FJF_EXAMPLE_RECURSIVEACTION} lang="java" /></div>
+            <div><RightRoundedHeader label={(<b>RecursiveTask&lt;V&gt;</b>)} /></div>
+            <div className="mtop15p padLeft5p">
+               <div><b>Used When:</b> You want to compute and <b>return a result</b> from the task.</div>
+               <div><b>Structure::</b></div>
+               <div>
+                  <ul>
+                     <li className="mtop5p">Override the <code><b>compute()</b></code> method.</li>
+                     <li className="mtop5p">Inside <code><b>compute()</b></code>, divide the task 
+                     and <b>use</b> <code><b>fork()</b></code> and <code><b>join()</b></code>.</li>
+                  </ul>
+               </div>
+               <div className="padLeft5p"><b>Example:</b></div>
+               <div><Highlight content={FJF_EXAMPLE_RECURSIVETASK} lang="java" /></div>
+            </div>
+         </li>
+         <li className="mtop15p">
+            <div><RightRoundedHeader label="RecursiveAction" /></div>
+            <div className="mtop15p padLeft5p">
+               <div className="padLeft5p"><b>Used When:</b> You want to perform a task but <b>don’t need to return a result</b>.</div>
+               <div className="padLeft5p"><b>Example:</b></div>
+               <div><Highlight content={FJF_EXAMPLE_RECURSIVEACTION} lang="java" /></div>
+            </div>
+         </li>
+         <li className="mtop15p">
+            <div><RightRoundedHeader label="fork() and join()" /></div>
+            <div className="padLeft5p">
+               <ul>
+                  <li className="mtop5p"><code><b>fork()</b></code>: Submits a subtask <b>asynchronously</b> for execution in the pool.</li>
+                  <li className="mtop5p"><code><b>join()</b></code>: <b>Waits for the result</b> of the subtask previously forked.</li>
+               </ul>
+               <div className="mtop5p">
+                  <Card padding={15} backgroundColor="#eee">
+                     <b>Best Practice:</b> Always call <code><b>fork()</b></code> before <code><b>compute()</b></code> and <code><b>join()</b></code> after.
+                  </Card>
+               </div>
+            </div>
+         </li>
+         <li className="mtop15p">
+            <div><RightRoundedHeader label="invoke()" /></div>
+            <div className="padLeft5p">
+               <ul>
+                  <li className="mtop5p">A <b>synchronous</b> call that starts a task and waits for the result.</li>
+                  <li className="mtop5p">Used when submitting the top-level task to the <code><b>ForkJoinPool</b></code></li>
+               </ul>
+            </div>
          </li>
       </ol>
+    </div>
+    <div className="mtop15p">
+      <SimpleTable header={["Component", "Type", "Purpose"]} 
+        columns={[
+            [(<div><code><b>ForkJoinPool</b></code></div>), "Class", "Manages threads and executes tasks"],
+            [(<div><code><b>ForkJoinTask</b></code></div>), "Abstract Class", "Base class for tasks"],
+            [(<div><code><b>RecursiveTask</b></code></div>), "Subclass", "Task that returns a result"],
+            [(<div><code><b>RecursiveAction</b></code></div>), "Subclass", "Task that performs action without result"],
+            [(<div><code><b>fork()</b></code></div>), "Method", "Asynchronously executes a subtask"],
+            [(<div><code><b>join()</b></code></div>), "Method", "Waits and retrieves result of subtask"],
+            [(<div><code><b>invoke()</b></code></div>), "Method (of pool)", "Submits and waits for task to complete"],
+          ]} />
     </div>
  </div>);
 };
