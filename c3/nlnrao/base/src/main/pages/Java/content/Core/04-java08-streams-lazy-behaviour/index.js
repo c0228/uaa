@@ -6,7 +6,6 @@ import BlogArticleHeader from '@MainComponents/blog-article-header/index.js';
 import Bottom from '@MainTemplates/Bottom/index.js';
 import Footer from '@MainTemplates/Footer/index.js';
 import Introduction from "./components/introduction/index.js";
-import Example from "./components/Example/index.js";
 import Conclusion from "./components/Conclusion/index.js";
 
 const Java8StreamsLazyBehaviour = ({ meta }) =>{
@@ -18,7 +17,6 @@ const Java8StreamsLazyBehaviour = ({ meta }) =>{
             <Col md={8}>
               <BlogArticleHeader metaData={meta} />
               <Introduction />
-              <Example />
               <Conclusion />
             </Col>
            </Row>
