@@ -1,6 +1,8 @@
 // Java / Core
 import JavaVersionsFeatureUpdates from "./content/Core/01-features-update-java-versions/index.js";
+import ArraysSortCollectionSort from "./content/Core/02-arrays-sort-vs-collections-sort/index.js";
 import UltimateJavaCheatSheet from "./content/Core/03-ultimate-java-cheatsheet/index.js";
+import Java8StreamsLazyBehaviour from "./content/Core/04-java08-streams-lazy-behaviour/index.js";
 // Java / Spring Framework
 import EurekaClient from "./content/SpringFramework/01-eureka-client/index.js";
 import FileUploadReactSprintBoot from "./content/SpringFramework/02-file-upload-react-spring-boot/index.js";
@@ -36,7 +38,9 @@ import DateAndTimeAPI from "./features/java-08/10-date-and-time-api/index.js";
 
 export const JavaComponentMap = {
  "JavaVersionsFeatureUpdates": JavaVersionsFeatureUpdates,
+ "ArraysSortCollectionSort": ArraysSortCollectionSort,
  "UltimateJavaCheatSheet": UltimateJavaCheatSheet,
+ "Java8StreamsLazyBehaviour": Java8StreamsLazyBehaviour,
 
  "EurekaClient": EurekaClient,
  "FileUploadReactSprintBoot": FileUploadReactSprintBoot,

@@ -1,5 +1,5 @@
 import React from "react";
-import { ContainerFluid, Row, Col } from "e-ui-react";
+import { ContainerFluid, Row, Col, Card } from "e-ui-react";
 import Header from '@MainTemplates/Header/index.js';
 import { HeaderMenu } from '@MainConfig/HeaderMenu.js';
 import BlogArticleHeader from '@MainComponents/blog-article-header/index.js';
@@ -24,6 +24,7 @@ const ForkJoinFramework = ({ meta }) =>{
             <Terminologies title="Java 07 Features" isIndex={true} prefix="tech/java-07-features/" data={Routes?.urls} />
             <Terminologies title="Java 02 Features" isIndex={true} prefix="tech/java-02-features/" data={Routes?.urls} />
             <Terminologies title="Java 08 Features" isIndex={true} prefix="tech/java-08-features/" data={Routes?.urls} />
+            <Terminologies title="Other Topics" prefix="tech/java-terminologies/" data={Routes?.urls} />
         </Col>
        </Row>
     </ContainerFluid>

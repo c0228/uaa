@@ -36,6 +36,21 @@
             "keywords":[]
         },
 
+        "tech/java-terminologies/difference-between-arrays-sort-vs-collections-sort":{
+            "date":"October 26, 2024",
+            "label": "Arrays.sort() vs Collections.sort()",
+            "component": "ArraysSortCollectionSort",
+            "breadcrumbIndex": "java-core",
+            "keywords":[]
+        },
+        "tech/java-terminologies/java-8-streams-lazy-behaviour":{
+            "date":"October 26, 2024",
+            "label": "Java 08 Streams Lazy Behaviour",
+            "component": "Java8StreamsLazyBehaviour",
+            "breadcrumbIndex": "java-core",
+            "keywords":[]
+        },
+
         "tech/java/spring-boot-framework/how-to-set-eureka-server-and-eureka-client-in-spring-boot-framework":{
             "date":"October 26, 2024",
             "label":"How to set Eureka Server and Eureka Client in Spring Boot Framework?",
