@@ -3,6 +3,11 @@ import { Card, Accordian } from "e-ui-react";
 import SimpleTable from "@MainComponents/simple-table/index.js";
 import Collections from './components/01-Collections/index.js';
 import Arrays from './components/02-Arrays/index.js';
+import StreamsOf from './components/03-StreamsOf/index.js';
+import Builder from "./components/04-Builder/index.js";
+import PrimitiveRanges from "./components/05-PrimitiveRanges/index.js";
+import StreamIterateGenerate from "./components/06-Stream-Iterate-Generate/index.js";
+import FilesIO from "./components/07-Files-IO/index.js";
 
 const Introduction = () =>{
 
@@ -63,30 +68,32 @@ const Introduction = () =>{
                <Accordian id="AccordianExample" 
                   data={[{ id:"Item#1", 
                            title: <div className="blog-head"><b>1. From Collections</b></div>, 
-                           component: <Collections />  },
+                           component: <Collections />  
+                        },
                         {  id:"Item#2", 
                            title: <span className="blog-head"><b>2. From Arrays</b></span>, 
-                           component: <Arrays />  },
+                           component: <Arrays />  
+                        },
                         {  id:"Item#3", 
                            title: <span className="blog-head"><b>3. Using <code>Stream.of()</code></b></span>, 
-                           component:"This is the Third item's accordion body"  
+                           component: <StreamsOf />  
                         },
                         {  id:"Item#4", 
                            title: <span className="blog-head"><b>4. From Builder</b></span>, 
-                           component:"This is the Third item's accordion body"  
+                           component: <Builder />  
                         },
                         {  id:"Item#5", 
                            title: <span className="blog-head"><b>5. From Primitive Ranges</b></span>, 
-                           component:"This is the Third item's accordion body"  
+                           component: <PrimitiveRanges />
                         },
                         {  id:"Item#6", 
                            title: <span className="blog-head"><b>6. Using <code>Stream.iterate()</code> or <code>Stream.generate()</code></b></span>, 
-                           component:"This is the Third item's accordion body"  
+                           component: <StreamIterateGenerate /> 
                         },
                         {  id:"Item#7", 
                            title: <span className="blog-head"><b>7. From Files (I/O using <code><b>Files.lines</b></code>)</b></span>, 
-                           component:"This is the Third item's accordion body"  
-                        }]} />
+                           component: <FilesIO /> 
+                        }]} />     
             </div>
          </li>
       </ol>
