@@ -95,6 +95,20 @@ const Introduction = () =>{
                            component: <FilesIO /> 
                         }]} />     
             </div>
+            <div className="mtop10p"><h5 className="blog-head"><b>Overall Summary:</b></h5></div>
+            <div className="mtop5p">
+               <SimpleTable header={["Source", "Method"]} 
+                     columns={[ 
+                           ["Collection", (<div><code><b>stream()</b></code> <code><b>parallelStream()</b></code></div>)],
+                           ["Array", (<div><code><b>Arrays.stream()</b></code> <code><b>Stream.of()</b></code></div>)],
+                           ["Fixed values", (<div><code><b>Stream.of()</b></code></div>)],
+                           ["Builder", (<div><code><b>Stream.builder()</b></code></div>)],
+                           ["Primitive range", (<div><code><b>IntStream.range()</b></code> <code><b>rangeClosed()</b></code></div>)],
+                           ["Infinite stream", (<div><code><b>Stream.iterate()</b></code> <code><b>Stream.generate()</b></code></div>)],
+                           ["File lines", (<div><code><b>Files.lines(path)</b></code></div>)],
+                        ]} />
+            </div>
+            <div className="mtop5p">So, in <b>7 different ways</b>, you can create a stream in Java using a <b>variety of sources</b>.</div>
          </li>
       </ol>
    </div>
