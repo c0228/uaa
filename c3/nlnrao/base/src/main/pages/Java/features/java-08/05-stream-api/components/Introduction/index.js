@@ -2,17 +2,17 @@ import React from "react";
 import { Card, Accordian, Highlight } from "e-ui-react";
 import RightRoundedHeader from "@MainComponents/header-rounded-right/index.js";
 import SimpleTable from "@MainComponents/simple-table/index.js";
-import Collections from './components/01-Collections/index.js';
-import Arrays from './components/02-Arrays/index.js';
-import StreamsOf from './components/03-StreamsOf/index.js';
-import Builder from "./components/04-Builder/index.js";
-import PrimitiveRanges from "./components/05-PrimitiveRanges/index.js";
-import StreamIterateGenerate from "./components/06-Stream-Iterate-Generate/index.js";
-import FilesIO from "./components/07-Files-IO/index.js";
+import Collections from './components/Stream-Creation/01-Collections/index.js';
+import Arrays from './components/Stream-Creation/02-Arrays/index.js';
+import StreamsOf from './components/Stream-Creation/03-StreamsOf/index.js';
+import Builder from "./components/Stream-Creation/04-Builder/index.js";
+import PrimitiveRanges from "./components/Stream-Creation/05-PrimitiveRanges/index.js";
+import StreamIterateGenerate from "./components/Stream-Creation/06-Stream-Iterate-Generate/index.js";
+import FilesIO from "./components/Stream-Creation/07-Files-IO/index.js";
 
 const Introduction = () =>{
  
- const IntermediateTitle = ({ index, title, version, other}) =>{
+ const StatementTitle = ({ index, title, version, other}) =>{
    return (<div className="blog-head">
       <b>{index}.</b> <code><b>{title}</b></code> <span className="pull-right">{other} (Java {version})</span>
    </div>);
@@ -145,40 +145,40 @@ const Introduction = () =>{
             <div className="mtop5p">
                <Accordian id="IntermediateOperations-Streams" 
                   data={[{ id:"IOS-Item#01", 
-                           title: <IntermediateTitle index="01" title={<span>filter(Predicate&lt;T&gt;)</span>} version={8} />, 
+                           title: <StatementTitle index="01" title={<span>filter(Predicate&lt;T&gt;)</span>} version={8} />, 
                            component: <div></div>  
                         },{ id:"IOS-Item#02", 
-                           title: <IntermediateTitle index="02" title={<span>map(Function&lt;T,R&gt;)</span>} version={8} />, 
+                           title: <StatementTitle index="02" title={<span>map(Function&lt;T,R&gt;)</span>} version={8} />, 
                            component: <div></div>  
                         },{ id:"IOS-Item#03", 
-                           title: <IntermediateTitle index="03" title={<span>flatMap(Function&lt;T, Stream&lt;R&gt;&gt;)</span>} version={8} />, 
+                           title: <StatementTitle index="03" title={<span>flatMap(Function&lt;T, Stream&lt;R&gt;&gt;)</span>} version={8} />, 
                            component: <div></div>  
                         },{ id:"IOS-Item#04", 
-                           title: <IntermediateTitle index="04" title={<span>distinct()</span>} version={8} />, 
+                           title: <StatementTitle index="04" title={<span>distinct()</span>} version={8} />, 
                            component: <div></div>  
                         },{ id:"IOS-Item#05", 
-                           title: <IntermediateTitle index="05" title={<span>sorted()</span>} version={8} />, 
+                           title: <StatementTitle index="05" title={<span>sorted()</span>} version={8} />, 
                            component: <div></div>  
                         },{ id:"IOS-Item#06", 
-                           title: <IntermediateTitle index="06" title={<span>sorted(Comparator&lt;T&gt;)</span>} version={8} />, 
+                           title: <StatementTitle index="06" title={<span>sorted(Comparator&lt;T&gt;)</span>} version={8} />, 
                            component: <div></div>  
                         },{ id:"IOS-Item#07", 
-                           title: <IntermediateTitle index="07" title={<span>peek(Consumer&lt;T&gt;)</span>} version={8} />, 
+                           title: <StatementTitle index="07" title={<span>peek(Consumer&lt;T&gt;)</span>} version={8} />, 
                            component: <div></div>  
                         },{ id:"IOS-Item#08", 
-                           title: <IntermediateTitle index="08" title={<span>limit(long)</span>} version={8} />, 
+                           title: <StatementTitle index="08" title={<span>limit(long)</span>} version={8} />, 
                            component: <div></div>  
                         },{ id:"IOS-Item#09", 
-                           title: <IntermediateTitle index="09" title={<span>skip(long)</span>} version={8} />, 
+                           title: <StatementTitle index="09" title={<span>skip(long)</span>} version={8} />, 
                            component: <div></div>  
                         },{ id:"IOS-Item#10", 
-                           title: <IntermediateTitle index="10" title={<span>takeWhile(Predicate&lt;T&gt;)</span>} version={9} />, 
+                           title: <StatementTitle index="10" title={<span>takeWhile(Predicate&lt;T&gt;)</span>} version={9} />, 
                            component: <div></div>  
                         },{ id:"IOS-Item#11", 
-                           title: <IntermediateTitle index="11" title={<span>dropWhile(Predicate&lt;T&gt;)</span>} version={9} />, 
+                           title: <StatementTitle index="11" title={<span>dropWhile(Predicate&lt;T&gt;)</span>} version={9} />, 
                            component: <div></div>  
                         },{ id:"IOS-Item#12", 
-                           title: <IntermediateTitle index="12" title={<span>mapMulti(BiConsumer&lt;T, Consumer&lt;R&gt;&gt;)</span>} version={16} />, 
+                           title: <StatementTitle index="12" title={<span>mapMulti(BiConsumer&lt;T, Consumer&lt;R&gt;&gt;)</span>} version={16} />, 
                            component: <div></div>  
                         }]} />
             </div>
@@ -186,25 +186,25 @@ const Introduction = () =>{
             <div className="mtop5p">
                <Accordian id="IntermediateOperations-PrimitiveStreams" 
                   data={[{ id:"IOPS-Item#01", 
-                           title: <IntermediateTitle index="01" title={<span>mapToObj(IntFunction&lt;R&gt;)</span>} version={8} />, 
+                           title: <StatementTitle index="01" title={<span>mapToObj(IntFunction&lt;R&gt;)</span>} version={8} />, 
                            component: <div></div>  
                         },{ id:"IOPS-Item#02", 
-                           title: <IntermediateTitle index="02" title={<span>mapToLong(IntToLongFunction)</span>} version={8} />, 
+                           title: <StatementTitle index="02" title={<span>mapToLong(IntToLongFunction)</span>} version={8} />, 
                            component: <div></div>  
                         },{ id:"IOPS-Item#03", 
-                           title: <IntermediateTitle index="03" title={<span>mapToDouble(IntToDoubleFunction)</span>} version={8} />, 
+                           title: <StatementTitle index="03" title={<span>mapToDouble(IntToDoubleFunction)</span>} version={8} />, 
                            component: <div></div>  
                         },{ id:"IOPS-Item#04", 
-                           title: <IntermediateTitle index="04" title={<span>flatMap(Function&lt;T, IntStream&gt;)</span>} version={8} />, 
+                           title: <StatementTitle index="04" title={<span>flatMap(Function&lt;T, IntStream&gt;)</span>} version={8} />, 
                            component: <div></div>  
                         },{ id:"IOPS-Item#05", 
-                           title: <IntermediateTitle index="05" title={<span>boxed()</span>} version={8} />, 
+                           title: <StatementTitle index="05" title={<span>boxed()</span>} version={8} />, 
                            component: <div></div>  
                         },{ id:"IOPS-Item#06", 
-                           title: <IntermediateTitle index="06" title={<span>asLongStream()</span>} version={8} />, 
+                           title: <StatementTitle index="06" title={<span>asLongStream()</span>} version={8} />, 
                            component: <div></div>  
                         },{ id:"IOPS-Item#07", 
-                           title: <IntermediateTitle index="07" title={<span>asDoubleStream()</span>} version={8} />, 
+                           title: <StatementTitle index="07" title={<span>asDoubleStream()</span>} version={8} />, 
                            component: <div></div>  
                         }]} />
             </div>
@@ -212,10 +212,10 @@ const Introduction = () =>{
             <div className="mtop5p">
                <Accordian id="CommonIntermediateOperations" 
                   data={[{ id:"CIO-Item#01", 
-                           title: <IntermediateTitle index="01" title={<span>parallel()</span>} version={8} />, 
+                           title: <StatementTitle index="01" title={<span>parallel()</span>} version={8} />, 
                            component: <div></div>  
                         },{ id:"CIO-Item#02", 
-                           title: <IntermediateTitle index="02" title={<span>sequential()</span>} version={8} />, 
+                           title: <StatementTitle index="02" title={<span>sequential()</span>} version={8} />, 
                            component: <div></div>  
                         }]} />
             </div>
@@ -237,11 +237,11 @@ const Introduction = () =>{
                <div className="mtop5p">
                   <Accordian id="TerminalOperations-Consumption" 
                      data={[{ id:"TOSE-Item#01", 
-                              title: <IntermediateTitle index="01" title={<span>forEach(Consumer)</span>} version={8} 
+                              title: <StatementTitle index="01" title={<span>forEach(Consumer)</span>} version={8} 
                                  other={<><StreamTypeIcon isPrimitive="Y" /> <StreamTypeIcon /></>} />, 
                               component: <div></div>  
                            },{ id:"TOSE-Item#02", 
-                              title: <IntermediateTitle index="02" title={<span>forEachOrdered(Consumer)</span>} version={8} 
+                              title: <StatementTitle index="02" title={<span>forEachOrdered(Consumer)</span>} version={8} 
                                  other={<><StreamTypeIcon isPrimitive="Y" /> <StreamTypeIcon /></>} />, 
                               component: <div></div>  
                            }]} />
@@ -251,11 +251,11 @@ const Introduction = () =>{
                <div className="mtop5p">
                   <Accordian id="TerminalOperations-Coversion" 
                      data={[{ id:"TOC-Item#01", 
-                              title: <IntermediateTitle index="01" title={<span>toArray()</span>} version={8} 
+                              title: <StatementTitle index="01" title={<span>toArray()</span>} version={8} 
                                   other={<><StreamTypeIcon isPrimitive="Y" /> <StreamTypeIcon /></>} />, 
                               component: <div></div>  
                            },{ id:"TOC-Item#02", 
-                              title: <IntermediateTitle index="02" title={<span>collect(Collector)</span>} version={8} 
+                              title: <StatementTitle index="02" title={<span>collect(Collector)</span>} version={8} 
                                   other={<><StreamTypeIcon /></>} />, 
                               component: <div></div>  
                            }]} />
@@ -265,19 +265,19 @@ const Introduction = () =>{
                <div className="mtop5p">
                   <Accordian id="TerminalOperations-Reduction" 
                      data={[{ id:"TOR-Item#01", 
-                              title: <IntermediateTitle index="01" title={<span>reduce(...)</span>} version={8} 
+                              title: <StatementTitle index="01" title={<span>reduce(...)</span>} version={8} 
                                  other={<><StreamTypeIcon isPrimitive="Y" /> <StreamTypeIcon /></>} />, 
                               component: <div></div>  
                            },{ id:"TOR-Item#02", 
-                              title: <IntermediateTitle index="02" title={<span>sum()</span>} version={8} 
+                              title: <StatementTitle index="02" title={<span>sum()</span>} version={8} 
                                  other={<><StreamTypeIcon isPrimitive="Y" /></>} />, 
                               component: <div></div>  
                            },{ id:"TOR-Item#03", 
-                              title: <IntermediateTitle index="03" title={<span>average()</span>} version={8} 
+                              title: <StatementTitle index="03" title={<span>average()</span>} version={8} 
                                  other={<><StreamTypeIcon isPrimitive="Y" /></>} />, 
                               component: <div></div>  
                            },{ id:"TOR-Item#04", 
-                              title: <IntermediateTitle index="04" title={<span>summaryStatistics()</span>} version={8} 
+                              title: <StatementTitle index="04" title={<span>summaryStatistics()</span>} version={8} 
                                  other={<><StreamTypeIcon isPrimitive="Y" /></>} />, 
                               component: <div></div>  
                            }]} />
@@ -287,35 +287,35 @@ const Introduction = () =>{
                <div className="mtop5p">
                   <Accordian id="TerminalOperations-SearchMatch" 
                      data={[{ id:"TOSM-Item#01", 
-                              title: <IntermediateTitle index="01" title={<span>min(Comparator)</span>} version={8} 
+                              title: <StatementTitle index="01" title={<span>min(Comparator)</span>} version={8} 
                                  other={<><StreamTypeIcon isPrimitive="Y" /> <StreamTypeIcon /></>} />, 
                               component: <div></div>  
                            },{ id:"TOSM-Item#02", 
-                              title: <IntermediateTitle index="02" title={<span>max(Comparator)</span>} version={8} 
+                              title: <StatementTitle index="02" title={<span>max(Comparator)</span>} version={8} 
                                  other={<><StreamTypeIcon isPrimitive="Y" /> <StreamTypeIcon /></>} />, 
                               component: <div></div>  
                            },{ id:"TOSM-Item#03", 
-                              title: <IntermediateTitle index="03" title={<span>count()</span>} version={8} 
+                              title: <StatementTitle index="03" title={<span>count()</span>} version={8} 
                                  other={<><StreamTypeIcon isPrimitive="Y" /> <StreamTypeIcon /></>} />, 
                               component: <div></div>  
                            },{ id:"TOSM-Item#04", 
-                              title: <IntermediateTitle index="04" title={<span>anyMatch(Predicate)</span>} version={8} 
+                              title: <StatementTitle index="04" title={<span>anyMatch(Predicate)</span>} version={8} 
                                  other={<><StreamTypeIcon isPrimitive="Y" /> <StreamTypeIcon /></>} />, 
                               component: <div></div>  
                            },{ id:"TOSM-Item#05", 
-                              title: <IntermediateTitle index="05" title={<span>allMatch(Predicate)</span>} version={8} 
+                              title: <StatementTitle index="05" title={<span>allMatch(Predicate)</span>} version={8} 
                                  other={<><StreamTypeIcon isPrimitive="Y" /> <StreamTypeIcon /></>} />, 
                               component: <div></div>  
                            },{ id:"TOSM-Item#06", 
-                              title: <IntermediateTitle index="06" title={<span>noneMatch(Predicate)</span>} version={8} 
+                              title: <StatementTitle index="06" title={<span>noneMatch(Predicate)</span>} version={8} 
                                  other={<><StreamTypeIcon isPrimitive="Y" /> <StreamTypeIcon /></>} />, 
                               component: <div></div>  
                            },{ id:"TOSM-Item#07", 
-                              title: <IntermediateTitle index="07" title={<span>findFirst()</span>} version={8} 
+                              title: <StatementTitle index="07" title={<span>findFirst()</span>} version={8} 
                                  other={<><StreamTypeIcon isPrimitive="Y" /> <StreamTypeIcon /></>} />, 
                               component: <div></div>  
                            },{ id:"TOSM-Item#08", 
-                              title: <IntermediateTitle index="08" title={<span>findAny()</span>} version={8} 
+                              title: <StatementTitle index="08" title={<span>findAny()</span>} version={8} 
                                  other={<><StreamTypeIcon isPrimitive="Y" /> <StreamTypeIcon /></>} />, 
                               component: <div></div>  
                            }]} />
