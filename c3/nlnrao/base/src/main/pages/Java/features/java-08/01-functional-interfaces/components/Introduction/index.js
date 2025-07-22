@@ -1,6 +1,7 @@
 import React from "react";
 import { Card, Highlight } from "e-ui-react";
 import SimpleTable from "@MainComponents/simple-table/index.js";
+import InbuiltFunctionsDiagram from "./../../assets/inbuilt.png";
 
 const ANONYMOUS_EXAMPLE_JAVA = `Runnable runnable = new Runnable() {
     @Override
@@ -66,14 +67,17 @@ const Introduction = () =>{
     <div className="mtop15p"><h2 className="blog-head"><b>Common In-Built Functional Interfaces</b></h2></div>
     <div className="mtop15p">Java 08 comes with a rich set of built-in functional interfaces under 
     the <code><b>java.util.function</b></code> package. Here are a few commonly used ones:</div>
+    <div className="mtop5p"><img src={InbuiltFunctionsDiagram} /></div>
+    <div align="center" className="mtop5p"><b><u>Inbuilt Functions Overview</u></b></div>
     <div className="mtop15p">
             <SimpleTable header={["Interface", "Abstract Method", "Purpose"]} 
                     columns={[
-                        [(<div><code><b>Function&lt;T,R&gt;</b></code></div>), (<div><code><b>R apply(T t)</b></code></div>), "Takes input and returns a result"],
-                        [(<div><code><b>Consumer&lt;T&gt;</b></code></div>), (<div><code><b>void accept(T t)</b></code></div>), "Takes input and returns nothing"],
                         [(<div><code><b>Supplier&lt;T&gt;</b></code></div>), (<div><code><b>T get()</b></code></div>), "Takes no input and returns result"],
-                        [(<div><code><b>Predicate&lt;T&gt;</b></code></div>), (<div><code><b>boolean test(T t)</b></code></div>), "Returns boolean based on input"],
+                        [(<div><code><b>Function&lt;T,R&gt;</b></code></div>), (<div><code><b>R apply(T t)</b></code></div>), "Takes input and returns a result"],
                         [(<div><code><b>UnaryOperator&lt;T&gt;</b></code></div>), (<div><code><b>T apply(T t)</b></code></div>), "Same input and output types"], 
+                        [(<div><code><b>Predicate&lt;T&gt;</b></code></div>), (<div><code><b>boolean test(T t)</b></code></div>), "Returns boolean based on input"],
+                        [(<div><code><b>Consumer&lt;T&gt;</b></code></div>), (<div><code><b>void accept(T t)</b></code></div>), "Takes input and returns nothing"],
+                        [(<div><code><b>BiConsumer&lt;T, U&gt;</b></code></div>), (<div><code><b>void accept(T t, U u)</b></code></div>), "Takes two input and returns nothing"],     
                     ]} />
     </div>
  </div>);
