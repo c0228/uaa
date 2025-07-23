@@ -20,7 +20,7 @@ public class FilterExample {
 
 const Filter = () =>{
  return (<div className="mtop5p lh28p fs16p">
-    <div><h5 className="blog-head"><b>What is <code>filter(Predicate&lt;T&gt;)</code>?</b></h5></div>
+    <div><h5 className="blog-head"><b>1. What is <code>filter(Predicate&lt;T&gt;)</code>?</b></h5></div>
     <div>
         <ul>
             <li className="mtop5p"><code><b>filter()</b></code> takes a <b>Predicate</b> (a functional interface with 
@@ -29,7 +29,11 @@ const Filter = () =>{
             <li className="mtop5p">It is <b>lazy</b>, meaning it doesn’t process until a <b>terminal operation</b> (like <code><b>forEach</b></code>, <code><b>collect</b></code>, etc.) is called.</li>
         </ul>
     </div>
-    <div className="mtop15p"><h5 className="blog-head"><b>When to Use <code>filter()</code>?</b></h5></div>
+    <div className="mtop15p"><h5 className="blog-head"><b>Syntax:</b></h5></div>
+    <div className="mtop5p">
+        <Highlight content={`Stream<T> filter(Predicate<? super T> predicate)`} lang="java" />
+    </div>
+    <div className="mtop15p"><h5 className="blog-head"><b>2. When to Use <code>filter()</code>?</b></h5></div>
     <div className="mtop15p">
         <div>Use <code><b>filter()</b></code>:</div>
         <div>
@@ -41,7 +45,7 @@ const Filter = () =>{
             </ul>
         </div>
     </div>
-    <div className="mtop15p"><h5 className="blog-head"><b>Why Use <code>filter()</code>?</b></h5></div>
+    <div className="mtop15p"><h5 className="blog-head"><b>3. Why Use <code>filter()</code>?</b></h5></div>
     <div>
         <ul>
             <li className="mtop5p">It simplifies logic that otherwise needs <code><b>for</b></code> loops or <code><b>if</b></code> conditions.</li>
@@ -49,11 +53,7 @@ const Filter = () =>{
             <li className="mtop5p">Easily chains <b>with other stream operations</b> (like <code><b>map()</b></code>, <code><b>sorted()</b></code>, etc.).</li>
         </ul>
     </div>
-    <div className="mtop15p"><h5 className="blog-head"><b>Syntax:</b></h5></div>
-    <div className="mtop5p">
-        <Highlight content={`Stream<T> filter(Predicate<? super T> predicate)`} lang="java" />
-    </div>
-    <div className="mtop15p"><h5 className="blog-head"><b>Example:</b></h5></div>
+    <div className="mtop15p"><h5 className="blog-head"><b>4. Example:</b></h5></div>
     <div className="mtop15p">
         <Highlight content={STREAMS_EXAMPLE_FILTER} lang="java" />
     </div>
