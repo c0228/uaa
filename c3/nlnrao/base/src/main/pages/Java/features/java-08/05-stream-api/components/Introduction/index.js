@@ -2,6 +2,7 @@ import React from "react";
 import { Card, Accordian, Highlight } from "e-ui-react";
 import RightRoundedHeader from "@MainComponents/header-rounded-right/index.js";
 import SimpleTable from "@MainComponents/simple-table/index.js";
+// Stream Creations
 import Collections from './components/Stream-Creation/01-Collections/index.js';
 import Arrays from './components/Stream-Creation/02-Arrays/index.js';
 import StreamsOf from './components/Stream-Creation/03-StreamsOf/index.js';
@@ -9,6 +10,45 @@ import Builder from "./components/Stream-Creation/04-Builder/index.js";
 import PrimitiveRanges from "./components/Stream-Creation/05-PrimitiveRanges/index.js";
 import StreamIterateGenerate from "./components/Stream-Creation/06-Stream-Iterate-Generate/index.js";
 import FilesIO from "./components/Stream-Creation/07-Files-IO/index.js";
+// Intermediate operations
+import Filter from "./components/Intermediate-Operations/01-filter/index.js";
+import Map from "./components/Intermediate-Operations/02-map/index.js";
+import FlatMapForStream from "./components/Intermediate-Operations/03-flatMapForStream/index.js";
+import Distinct from "./components/Intermediate-Operations/04-distinct/index.js";
+import Sorted from "./components/Intermediate-Operations/05-sorted/index.js";
+import SortedWithComparator from "./components/Intermediate-Operations/06-sortedWithComparator/index.js";
+import Peek from "./components/Intermediate-Operations/07-peek/index.js";
+import Limit from "./components/Intermediate-Operations/08-limit/index.js";
+import Skip from "./components/Intermediate-Operations/09-skip/index.js";
+import TakeWhile from "./components/Intermediate-Operations/10-takeWhile/index.js";
+import DropWhile from "./components/Intermediate-Operations/11-dropWhile/index.js";
+import MapMulti from "./components/Intermediate-Operations/12-mapMulti/index.js";
+import MapToObj from "./components/Intermediate-Operations/13-mapToObj/index.js";
+import MapToLong from "./components/Intermediate-Operations/14-mapToLong/index.js";
+import MapToDouble from "./components/Intermediate-Operations/15-mapToDouble/index.js";
+import FlatMapForPrimitiveStream from "./components/Intermediate-Operations/16-flatMapForPrimitiveStream/index.js";
+import Boxed from "./components/Intermediate-Operations/17-boxed/index.js";
+import AsLongStream from "./components/Intermediate-Operations/18-asLongStream/index.js";
+import AsDoubleStream from "./components/Intermediate-Operations/19-asDoubleStream/index.js";
+import Parallel from "./components/Intermediate-Operations/20-parallel/index.js";
+import Sequential from "./components/Intermediate-Operations/21-sequential/index.js";
+// Terminal Operations
+import ForEach from "./components/Terminal-Operations/01-forEach/index.js";
+import ForEachOrdered from "./components/Terminal-Operations/02-forEachOrdered/index.js";
+import ToArray from "./components/Terminal-Operations/03-toArray/index.js";
+import Collect from "./components/Terminal-Operations/04-collect/index.js";
+import Reduce from "./components/Terminal-Operations/05-reduce/index.js";
+import Sum from "./components/Terminal-Operations/06-sum/index.js";
+import Average from "./components/Terminal-Operations/07-average/index.js";
+import SummaryStatistics from "./components/Terminal-Operations/08-summaryStatistics/index.js";
+import Min from "./components/Terminal-Operations/09-min/index.js";
+import Max from "./components/Terminal-Operations/10-max/index.js";
+import Count from "./components/Terminal-Operations/11-count/index.js";
+import AnyMatch from "./components/Terminal-Operations/12-anyMatch/index.js";
+import AllMatch from "./components/Terminal-Operations/13-allMatch/index.js";
+import NoneMatch from "./components/Terminal-Operations/14-noneMatch/index.js";
+import FindFirst from "./components/Terminal-Operations/15-findFirst/index.js";
+import FindAny from "./components/Terminal-Operations/16-findAny/index.js";
 
 const Introduction = () =>{
  
@@ -146,40 +186,40 @@ const Introduction = () =>{
                <Accordian id="IntermediateOperations-Streams" 
                   data={[{ id:"IOS-Item#01", 
                            title: <StatementTitle index="01" title={<span>filter(Predicate&lt;T&gt;)</span>} version={8} />, 
-                           component: <div></div>  
+                           component: <Filter />  
                         },{ id:"IOS-Item#02", 
                            title: <StatementTitle index="02" title={<span>map(Function&lt;T,R&gt;)</span>} version={8} />, 
-                           component: <div></div>  
+                           component: <Map />  
                         },{ id:"IOS-Item#03", 
                            title: <StatementTitle index="03" title={<span>flatMap(Function&lt;T, Stream&lt;R&gt;&gt;)</span>} version={8} />, 
-                           component: <div></div>  
+                           component: <FlatMapForStream />  
                         },{ id:"IOS-Item#04", 
                            title: <StatementTitle index="04" title={<span>distinct()</span>} version={8} />, 
-                           component: <div></div>  
+                           component: <Distinct />  
                         },{ id:"IOS-Item#05", 
                            title: <StatementTitle index="05" title={<span>sorted()</span>} version={8} />, 
-                           component: <div></div>  
+                           component: <Sorted />  
                         },{ id:"IOS-Item#06", 
                            title: <StatementTitle index="06" title={<span>sorted(Comparator&lt;T&gt;)</span>} version={8} />, 
-                           component: <div></div>  
+                           component: <SortedWithComparator />  
                         },{ id:"IOS-Item#07", 
                            title: <StatementTitle index="07" title={<span>peek(Consumer&lt;T&gt;)</span>} version={8} />, 
-                           component: <div></div>  
+                           component: <Peek />  
                         },{ id:"IOS-Item#08", 
                            title: <StatementTitle index="08" title={<span>limit(long)</span>} version={8} />, 
-                           component: <div></div>  
+                           component: <Limit />  
                         },{ id:"IOS-Item#09", 
                            title: <StatementTitle index="09" title={<span>skip(long)</span>} version={8} />, 
-                           component: <div></div>  
+                           component: <Skip />  
                         },{ id:"IOS-Item#10", 
                            title: <StatementTitle index="10" title={<span>takeWhile(Predicate&lt;T&gt;)</span>} version={9} />, 
-                           component: <div></div>  
+                           component: <TakeWhile />  
                         },{ id:"IOS-Item#11", 
                            title: <StatementTitle index="11" title={<span>dropWhile(Predicate&lt;T&gt;)</span>} version={9} />, 
-                           component: <div></div>  
+                           component: <DropWhile />  
                         },{ id:"IOS-Item#12", 
                            title: <StatementTitle index="12" title={<span>mapMulti(BiConsumer&lt;T, Consumer&lt;R&gt;&gt;)</span>} version={16} />, 
-                           component: <div></div>  
+                           component: <MapMulti />  
                         }]} />
             </div>
             <div className="mtop15p"><h5 className="blog-head"><b>b) Primitive Streams (<code>IntStream</code>, <code>LongStream</code>, <code>DoubleStream</code>)</b></h5></div>
@@ -187,25 +227,25 @@ const Introduction = () =>{
                <Accordian id="IntermediateOperations-PrimitiveStreams" 
                   data={[{ id:"IOPS-Item#01", 
                            title: <StatementTitle index="01" title={<span>mapToObj(IntFunction&lt;R&gt;)</span>} version={8} />, 
-                           component: <div></div>  
+                           component: <MapToObj />  
                         },{ id:"IOPS-Item#02", 
                            title: <StatementTitle index="02" title={<span>mapToLong(IntToLongFunction)</span>} version={8} />, 
-                           component: <div></div>  
+                           component: <MapToLong />  
                         },{ id:"IOPS-Item#03", 
                            title: <StatementTitle index="03" title={<span>mapToDouble(IntToDoubleFunction)</span>} version={8} />, 
-                           component: <div></div>  
+                           component: <MapToDouble />  
                         },{ id:"IOPS-Item#04", 
                            title: <StatementTitle index="04" title={<span>flatMap(Function&lt;T, IntStream&gt;)</span>} version={8} />, 
-                           component: <div></div>  
+                           component: <FlatMapForPrimitiveStream />  
                         },{ id:"IOPS-Item#05", 
                            title: <StatementTitle index="05" title={<span>boxed()</span>} version={8} />, 
-                           component: <div></div>  
+                           component: <Boxed />  
                         },{ id:"IOPS-Item#06", 
                            title: <StatementTitle index="06" title={<span>asLongStream()</span>} version={8} />, 
-                           component: <div></div>  
+                           component: <AsLongStream />  
                         },{ id:"IOPS-Item#07", 
                            title: <StatementTitle index="07" title={<span>asDoubleStream()</span>} version={8} />, 
-                           component: <div></div>  
+                           component: <AsDoubleStream />  
                         }]} />
             </div>
             <div className="mtop15p"><h5 className="blog-head"><b>c) Used by Generic Streams and Primitive Streams</b></h5></div>
@@ -213,10 +253,10 @@ const Introduction = () =>{
                <Accordian id="CommonIntermediateOperations" 
                   data={[{ id:"CIO-Item#01", 
                            title: <StatementTitle index="01" title={<span>parallel()</span>} version={8} />, 
-                           component: <div></div>  
+                           component: <Parallel />  
                         },{ id:"CIO-Item#02", 
                            title: <StatementTitle index="02" title={<span>sequential()</span>} version={8} />, 
-                           component: <div></div>  
+                           component: <Sequential />  
                         }]} />
             </div>
          </li>
@@ -239,11 +279,11 @@ const Introduction = () =>{
                      data={[{ id:"TOSE-Item#01", 
                               title: <StatementTitle index="01" title={<span>forEach(Consumer)</span>} version={8} 
                                  other={<><StreamTypeIcon isPrimitive="Y" /> <StreamTypeIcon /></>} />, 
-                              component: <div></div>  
+                              component: <ForEach />  
                            },{ id:"TOSE-Item#02", 
                               title: <StatementTitle index="02" title={<span>forEachOrdered(Consumer)</span>} version={8} 
                                  other={<><StreamTypeIcon isPrimitive="Y" /> <StreamTypeIcon /></>} />, 
-                              component: <div></div>  
+                              component: <ForEachOrdered />  
                            }]} />
                </div>
 
@@ -253,11 +293,11 @@ const Introduction = () =>{
                      data={[{ id:"TOC-Item#01", 
                               title: <StatementTitle index="01" title={<span>toArray()</span>} version={8} 
                                   other={<><StreamTypeIcon isPrimitive="Y" /> <StreamTypeIcon /></>} />, 
-                              component: <div></div>  
+                              component: <ToArray />  
                            },{ id:"TOC-Item#02", 
                               title: <StatementTitle index="02" title={<span>collect(Collector)</span>} version={8} 
                                   other={<><StreamTypeIcon /></>} />, 
-                              component: <div></div>  
+                              component: <Collect />  
                            }]} />
                </div>
 
@@ -267,19 +307,19 @@ const Introduction = () =>{
                      data={[{ id:"TOR-Item#01", 
                               title: <StatementTitle index="01" title={<span>reduce(...)</span>} version={8} 
                                  other={<><StreamTypeIcon isPrimitive="Y" /> <StreamTypeIcon /></>} />, 
-                              component: <div></div>  
+                              component: <Reduce />  
                            },{ id:"TOR-Item#02", 
                               title: <StatementTitle index="02" title={<span>sum()</span>} version={8} 
                                  other={<><StreamTypeIcon isPrimitive="Y" /></>} />, 
-                              component: <div></div>  
+                              component: <Sum />  
                            },{ id:"TOR-Item#03", 
                               title: <StatementTitle index="03" title={<span>average()</span>} version={8} 
                                  other={<><StreamTypeIcon isPrimitive="Y" /></>} />, 
-                              component: <div></div>  
+                              component: <Average />  
                            },{ id:"TOR-Item#04", 
                               title: <StatementTitle index="04" title={<span>summaryStatistics()</span>} version={8} 
                                  other={<><StreamTypeIcon isPrimitive="Y" /></>} />, 
-                              component: <div></div>  
+                              component: <SummaryStatistics />  
                            }]} />
                </div>
 
@@ -289,40 +329,40 @@ const Introduction = () =>{
                      data={[{ id:"TOSM-Item#01", 
                               title: <StatementTitle index="01" title={<span>min(Comparator)</span>} version={8} 
                                  other={<><StreamTypeIcon isPrimitive="Y" /> <StreamTypeIcon /></>} />, 
-                              component: <div></div>  
+                              component: <Min />  
                            },{ id:"TOSM-Item#02", 
                               title: <StatementTitle index="02" title={<span>max(Comparator)</span>} version={8} 
                                  other={<><StreamTypeIcon isPrimitive="Y" /> <StreamTypeIcon /></>} />, 
-                              component: <div></div>  
+                              component: <Max />  
                            },{ id:"TOSM-Item#03", 
                               title: <StatementTitle index="03" title={<span>count()</span>} version={8} 
                                  other={<><StreamTypeIcon isPrimitive="Y" /> <StreamTypeIcon /></>} />, 
-                              component: <div></div>  
+                              component: <Count />  
                            },{ id:"TOSM-Item#04", 
                               title: <StatementTitle index="04" title={<span>anyMatch(Predicate)</span>} version={8} 
                                  other={<><StreamTypeIcon isPrimitive="Y" /> <StreamTypeIcon /></>} />, 
-                              component: <div></div>  
+                              component: <AnyMatch />  
                            },{ id:"TOSM-Item#05", 
                               title: <StatementTitle index="05" title={<span>allMatch(Predicate)</span>} version={8} 
                                  other={<><StreamTypeIcon isPrimitive="Y" /> <StreamTypeIcon /></>} />, 
-                              component: <div></div>  
+                              component: <AllMatch />  
                            },{ id:"TOSM-Item#06", 
                               title: <StatementTitle index="06" title={<span>noneMatch(Predicate)</span>} version={8} 
                                  other={<><StreamTypeIcon isPrimitive="Y" /> <StreamTypeIcon /></>} />, 
-                              component: <div></div>  
+                              component: <NoneMatch />  
                            },{ id:"TOSM-Item#07", 
                               title: <StatementTitle index="07" title={<span>findFirst()</span>} version={8} 
                                  other={<><StreamTypeIcon isPrimitive="Y" /> <StreamTypeIcon /></>} />, 
-                              component: <div></div>  
+                              component: <FindFirst />  
                            },{ id:"TOSM-Item#08", 
                               title: <StatementTitle index="08" title={<span>findAny()</span>} version={8} 
                                  other={<><StreamTypeIcon isPrimitive="Y" /> <StreamTypeIcon /></>} />, 
-                              component: <div></div>  
+                              component: <FindAny />  
                            }]} />
                </div>
                <div className="mtop15p">
-                  <div><StreamTypeIcon isPrimitive="Y" /> <b>- Primitive Streams</b></div>
-                  <div><StreamTypeIcon /> <b>- Generic Streams Stream&lt;T&gt;</b></div>
+                  <div><StreamTypeIcon isPrimitive="Y" /> <b>- Applicable for Primitive Streams</b></div>
+                  <div><StreamTypeIcon /> <b>- Applicable for Generic Streams Stream&lt;T&gt;</b></div>
                </div>
                <div className="mtop15p">
                   <Card padding={15} backgroundColor="#eee">
@@ -341,6 +381,19 @@ const Introduction = () =>{
             </div>
          </li>
       </ol>
+   </div>
+   <div>
+      <Card padding={15} backgroundColor="#eee">
+         <div><h5 className="blog-head"><b>Note:</b></h5></div>
+         <div>
+            <ul>
+               <li className="mtop5p">Streams are not data structures (they don’t store data)</li>
+               <li className="mtop5p">Intermediate operations are lazy (won’t execute immediately)</li>
+               <li className="mtop5p">Streams can be used <b>only once</b></li>
+               <li className="mtop5p">Prefer streams for <b>readable and functional code</b></li>
+            </ul>
+         </div>
+      </Card>
    </div>
  </div>);
 };

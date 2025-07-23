@@ -6,7 +6,6 @@ import BlogArticleHeader from '@MainComponents/blog-article-header/index.js';
 import Terminologies from '@MainComponents/terminologies-list/index.js';
 import Routes from "@MainPages/Java/component.routes.json";
 import Introduction from "./components/Introduction/index.js";
-import Example from "./components/Example/index.js";
 import Conclusion from "./components/Conclusion/index.js";
 
 const StreamAPIs = ({ meta }) =>{
@@ -17,7 +16,6 @@ const StreamAPIs = ({ meta }) =>{
         <Col md={8}>
           <BlogArticleHeader metaData={meta} />
           <Introduction />
-          <Example />
           <Conclusion />
         </Col>
         <Col md={4}>
