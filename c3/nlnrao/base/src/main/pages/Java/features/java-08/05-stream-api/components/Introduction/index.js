@@ -24,14 +24,15 @@ import TakeWhile from "./components/Intermediate-Operations/10-takeWhile/index.j
 import DropWhile from "./components/Intermediate-Operations/11-dropWhile/index.js";
 import MapMulti from "./components/Intermediate-Operations/12-mapMulti/index.js";
 import MapToObj from "./components/Intermediate-Operations/13-mapToObj/index.js";
-import MapToLong from "./components/Intermediate-Operations/14-mapToLong/index.js";
-import MapToDouble from "./components/Intermediate-Operations/15-mapToDouble/index.js";
-import FlatMapForPrimitiveStream from "./components/Intermediate-Operations/16-flatMapForPrimitiveStream/index.js";
-import Boxed from "./components/Intermediate-Operations/17-boxed/index.js";
-import AsLongStream from "./components/Intermediate-Operations/18-asLongStream/index.js";
-import AsDoubleStream from "./components/Intermediate-Operations/19-asDoubleStream/index.js";
-import Parallel from "./components/Intermediate-Operations/20-parallel/index.js";
-import Sequential from "./components/Intermediate-Operations/21-sequential/index.js";
+import MapToInt from "./components/Intermediate-Operations/14-mapToInt/index.js";
+import MapToLong from "./components/Intermediate-Operations/15-mapToLong/index.js";
+import MapToDouble from "./components/Intermediate-Operations/16-mapToDouble/index.js";
+import FlatMapForPrimitiveStream from "./components/Intermediate-Operations/17-flatMapForPrimitiveStream/index.js";
+import Boxed from "./components/Intermediate-Operations/18-boxed/index.js";
+import AsLongStream from "./components/Intermediate-Operations/19-asLongStream/index.js";
+import AsDoubleStream from "./components/Intermediate-Operations/20-asDoubleStream/index.js";
+import Parallel from "./components/Intermediate-Operations/21-parallel/index.js";
+import Sequential from "./components/Intermediate-Operations/22-sequential/index.js";
 // Terminal Operations
 import ForEach from "./components/Terminal-Operations/01-forEach/index.js";
 import ForEachOrdered from "./components/Terminal-Operations/02-forEachOrdered/index.js";
@@ -229,22 +230,25 @@ const Introduction = () =>{
                            title: <StatementTitle index="01" title={<span>mapToObj(IntFunction&lt;R&gt;)</span>} version={8} />, 
                            component: <MapToObj />  
                         },{ id:"IOPS-Item#02", 
-                           title: <StatementTitle index="02" title={<span>mapToLong(IntToLongFunction)</span>} version={8} />, 
-                           component: <MapToLong />  
+                           title: <StatementTitle index="02" title={<span>mapToInt(IntFunction&lt;R&gt;)</span>} version={8} />, 
+                           component: <MapToInt />  
                         },{ id:"IOPS-Item#03", 
-                           title: <StatementTitle index="03" title={<span>mapToDouble(IntToDoubleFunction)</span>} version={8} />, 
-                           component: <MapToDouble />  
+                           title: <StatementTitle index="03" title={<span>mapToLong(IntToLongFunction)</span>} version={8} />, 
+                           component: <MapToLong />  
                         },{ id:"IOPS-Item#04", 
-                           title: <StatementTitle index="04" title={<span>flatMap(Function&lt;T, IntStream&gt;)</span>} version={8} />, 
-                           component: <FlatMapForPrimitiveStream />  
+                           title: <StatementTitle index="04" title={<span>mapToDouble(IntToDoubleFunction)</span>} version={8} />, 
+                           component: <MapToDouble />  
                         },{ id:"IOPS-Item#05", 
-                           title: <StatementTitle index="05" title={<span>boxed()</span>} version={8} />, 
-                           component: <Boxed />  
+                           title: <StatementTitle index="05" title={<span>flatMap(Function&lt;T, IntStream&gt;)</span>} version={8} />, 
+                           component: <FlatMapForPrimitiveStream />  
                         },{ id:"IOPS-Item#06", 
-                           title: <StatementTitle index="06" title={<span>asLongStream()</span>} version={8} />, 
-                           component: <AsLongStream />  
+                           title: <StatementTitle index="06" title={<span>boxed()</span>} version={8} />, 
+                           component: <Boxed />  
                         },{ id:"IOPS-Item#07", 
-                           title: <StatementTitle index="07" title={<span>asDoubleStream()</span>} version={8} />, 
+                           title: <StatementTitle index="07" title={<span>asLongStream()</span>} version={8} />, 
+                           component: <AsLongStream />  
+                        },{ id:"IOPS-Item#08", 
+                           title: <StatementTitle index="08" title={<span>asDoubleStream()</span>} version={8} />, 
                            component: <AsDoubleStream />  
                         }]} />
             </div>
