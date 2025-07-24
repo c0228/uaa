@@ -95,7 +95,7 @@ const MapToObj = () =>{
     <div className="mtop5p"><Highlight content={BOXED_OUTPUT_MAPTOOBJ} lang="java" /></div>
     <div className="mtop5p"><b>Note:</b> You can also use <code><b>.boxed()</b></code> for this use-case.</div>
 
-    <div className="mtop15p"><h5 className="blog-head"><b>Comparison: <code>mapToObj()</code> vs <code>boxed()</code></b></h5></div>
+    <div className="mtop15p"><h5 className="blog-head"><b>4. Comparison: <code>mapToObj()</code> vs <code>boxed()</code></b></h5></div>
     <div className="mtop5p mbot15p">
         <SimpleTable header={["Feature", "mapToObj(IntFunction<R>)", "boxed()"]} 
                 columns={[
