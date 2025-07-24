@@ -48,11 +48,11 @@ public class SkipEven {
 const Skip = () =>{
  return (<div className="mtop5p lh28p fs16p">
     <div><h5 className="blog-head"><b>1. What is <code>skip(long n)</code>?</b></h5></div>
-    <div className="mtop15p">
+    <div className="mtop5p">
       <code><b>skip(long n)</b></code> is an <b>intermediate operation</b> in the Java Stream API 
       that <b>skips the first n elements</b> of the stream and processes the rest.
     </div>
-    <div className="mtop15p"><h5 className="blog-head"><b>Syntax:</b></h5></div>
+    <div className="mtop5p"><h5 className="blog-head"><b>Syntax:</b></h5></div>
     <div className="mtop5p"><Highlight content={`Stream<T> skip(long n)`} lang="java" /></div>
     <div>
       <ul>
@@ -87,7 +87,7 @@ const Skip = () =>{
     <div className="mtop5p"><b>Output:</b></div>
     <div className="mtop5p"><Highlight content={SKIP_OUTPUT_EVEN} lang="java" /></div>
 
-    <div className="mtop15p">
+    <div className="mtop15p mbot15p">
       <Card padding={15} backgroundColor="#eee">
          <div><h5 className="blog-head"><b>Notes:</b></h5></div>
          <div>
