@@ -84,8 +84,6 @@ const Collect = () =>{
     <div className="mtop5p"><Highlight content={COLLECT_OUTPUT_LIST} lang="java" /></div>
     <div className="mtop5p"><h5 className="blog-head"><b>Example #2: Collect to Set</b></h5></div>
     <div className="mtop5p"><Highlight content={COLLECT_EXAMPLE_SET} lang="java" /></div>
-    <div className="mtop5p"><b>Output:</b></div>
-    <div className="mtop5p"><Highlight content={COLLECT_OUTPUT_SET} lang="java" /></div>
     <div className="mtop5p"><h5 className="blog-head"><b>Example #3: Collect to Map</b></h5></div>
     <div className="mtop5p"><Highlight content={COLLECT_EXAMPLE_MAP} lang="java" /></div>
     <div className="mtop5p"><b>Output:</b></div>
