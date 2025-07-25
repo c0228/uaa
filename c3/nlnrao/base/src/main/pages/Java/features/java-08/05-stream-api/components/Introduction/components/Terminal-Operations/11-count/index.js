@@ -1,5 +1,5 @@
 import React from "react";
-import { Highlight } from "e-ui-react";
+import { Highlight, Card } from "e-ui-react";
 import SimpleTable from "@MainComponents/simple-table/index.js";
 
 const COUNT_EXAMPLE_ELEMENTS = `import java.util.*;
