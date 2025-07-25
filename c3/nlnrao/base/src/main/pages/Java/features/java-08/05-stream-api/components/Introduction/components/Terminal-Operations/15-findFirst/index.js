@@ -39,7 +39,7 @@ const FindFirst = () =>{
     
     <div className="mtop15p"><h5 className="blog-head"><b>Example:</b></h5></div>
     <div className="mtop5p"><Highlight content={FINDFIRST_EXAMPLE_BASIC} lang="java" /></div>
-    <div className="mtop15p"><b>Output:</b></div>
+    <div className="mtop15p padLeft5p"><b>Output:</b></div>
     <div className="mtop5p"><Highlight content={`First J name: John`} lang="java" /></div>
 
     <div className="mtop15p">
