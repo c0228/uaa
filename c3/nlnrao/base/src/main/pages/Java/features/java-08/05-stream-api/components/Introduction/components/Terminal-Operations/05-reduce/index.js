@@ -1,4 +1,5 @@
 import React from "react";
+import { Highlight } from "e-ui-react"
 import SimpleTable from "@MainComponents/simple-table/index.js";
 
 const REDUCE_EXAMPLE1_SUM = `import java.util.stream.*;
