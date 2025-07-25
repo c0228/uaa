@@ -230,7 +230,7 @@ const Introduction = () =>{
                            title: <StatementTitle index="01" title={<span>mapToObj(IntFunction&lt;R&gt;)</span>} version={8} />, 
                            component: <MapToObj />  
                         },{ id:"IOPS-Item#02", 
-                           title: <StatementTitle index="02" title={<span>mapToInt(IntFunction&lt;R&gt;)</span>} version={8} />, 
+                           title: <StatementTitle index="02" title={<span>mapToInt(ToIntFunction&lt;T&gt;)</span>} version={8} />, 
                            component: <MapToInt />  
                         },{ id:"IOPS-Item#03", 
                            title: <StatementTitle index="03" title={<span>mapToLong(IntToLongFunction)</span>} version={8} />, 
