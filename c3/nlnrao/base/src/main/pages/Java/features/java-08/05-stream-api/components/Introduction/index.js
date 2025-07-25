@@ -51,6 +51,18 @@ import NoneMatch from "./components/Terminal-Operations/14-noneMatch/index.js";
 import FindFirst from "./components/Terminal-Operations/15-findFirst/index.js";
 import FindAny from "./components/Terminal-Operations/16-findAny/index.js";
 
+const TO_EXAMPLE_ERROR = `import java.util.Stream.Stream
+
+public class Test {
+ public static void main(String args[]) {
+   Stream stream = Stream.of("A","B","C");
+   stream.forEach( System.out::println );
+
+   // java.lang.IllegalStateException
+   stream.forEach( System.out::println );
+ }
+}`;
+
 const Introduction = () =>{
  
  const StatementTitle = ({ index, title, version, other}) =>{
@@ -382,6 +394,12 @@ const Introduction = () =>{
                      </div>
                   </Card>
                </div>
+               <div className="mtop15p"><h5 className="blog-head"><b>Important:</b></h5></div>
+               <div className="mtop5p"><u>Terminal Operations</u> mark the END of a PIPELINE. After a terminal operation is executed, 
+               the stream becomes consumed, closed and cannot be reused.</div>
+               <div className="mtop5p"><Highlight content={TO_EXAMPLE_ERROR} lang="java" /></div>
+               <div className="mtop5p">In above Example, as we used closed stream again, it thrown 
+                  us <code><b>java.lang.IllegalStateException</b></code> as an Error.</div>
             </div>
          </li>
       </ol>
