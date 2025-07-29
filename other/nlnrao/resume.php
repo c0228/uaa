@@ -56,7 +56,7 @@ body::-webkit-scrollbar-thumb { background-color: #000000; }
 .resume-header-main { text-transform:uppercase;color:#fff; }
 .resume-header-sub1 { text-transform:uppercase;background-color:#aaa;color:#282c34; }
 .resume-card { border-color:#282c34; }
-.resume-cardBody { background-color:#282c34;color:#999; }
+.resume-cardBody { background-color:#1b2a42;color:#999; }
 .resume-overlay { height: 100%;width: 0;position: fixed;z-index: 3;top: 0;right: 0;background-color:#0e172b;color:#999;
   overflow-x: hidden;transition: 0.6s;scroll-behavior: smooth; }
 .resume-overlay { font-family: Arial, sans-serif !important;font-size:13px;line-height:22px; }

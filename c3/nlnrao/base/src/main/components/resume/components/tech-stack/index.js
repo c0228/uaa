@@ -89,6 +89,15 @@ const data = [{
             "Design Architecture": "Microservices Architecture, Event Design Architecture, Serverless Architecture",
             "Integrated Development Environments (IDE)": "Visual Studio Code"
     }
+    },{
+        "title":"Web3 & Blockchain Platform",
+        "kpis":{ 
+            "Blockchain Layer #1 Networks": "",
+            "Public Platforms": "Ethereum, Solana, Avalanche, Polkadot, Cardano",
+            "Private Platforms": "Hyperledger Fabric, Quorum",
+            "Consortium Platforms": "Hyperledger Besu, Corda",
+            "Blockchain Layer #2 / Equivalent Networks": ""
+        }
     }]
  }]
 },{
@@ -161,7 +170,9 @@ const TechStack = () =>{
                             {kpiKeys?.map((kpiKey,i4)=>{
                                 const kpiVal = d?.kpis?.[kpiKey];
                                 return (<div key={i4} className="pb-2">
-                                    <span className="text-grey2"><b>{kpiKey} :</b></span> {kpiVal}
+                                    <span className={(kpiVal?.length>0)?"text-grey2":"text-grey2 resume-techstack-underline"}><b>{kpiKey} </b></span> 
+                                    {(kpiVal?.length>0)?(<span><b>:</b> {kpiVal}</span> ):
+                                        (<span className="text-grey2">-</span>)}
                                 </div>);
                             })}
                             </div>

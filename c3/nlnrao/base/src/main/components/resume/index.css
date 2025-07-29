@@ -16,6 +16,7 @@
 .resume-card {  border-color: #1e293b; }
 .resume-cardBody { background-color: #1e293b;color: #999; }
 
+.resume-techstack-underline { border-bottom:1px solid #ccc;padding-bottom:1px; }
 .uppercase { text-transform: uppercase; }
 
 .resume-showcase-container { margin-top:15px;margin-bottom:15px; }
