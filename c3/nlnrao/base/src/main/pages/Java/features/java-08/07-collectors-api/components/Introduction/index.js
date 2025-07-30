@@ -30,7 +30,7 @@ const Introduction = () =>{
                   <div><h5 className="blog-head"><b>Verbose Code for Aggregations:</b></h5></div>
                   <div className="mtop5p">Collecting elements into new lists or maps, summing numbers, grouping data, or performing statistics 
                      was <b>boilerplate-heavy</b>.</div>
-                  <div className="mtop5p"><b>Example (Before Java 8):</b></div>
+                  <div className="mtop15p"><b>Example (Before Java 8):</b></div>
                   <div className="mtop5p"><Highlight content={VERBOSE_EXAMPLE_AGGREGATIONS} lang="java" /></div>
                   <div className="mtop5p">
                      <div>This approach:</div>
