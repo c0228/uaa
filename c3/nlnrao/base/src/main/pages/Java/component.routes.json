@@ -208,10 +208,10 @@
             "breadcrumbIndex":"java-08-features",
             "keywords":[]
         },
-        "tech/java-08-features/stream-apis":{
+        "tech/java-08-features/static-methods":{
             "date":"October 26, 2024",
-            "label":"Stream APIs",
-            "component":"StreamAPIs",
+            "label":"Static Methods",
+            "component":"StaticMethods",
             "breadcrumbIndex":"java-08-features",
             "keywords":[]
         },
@@ -229,6 +229,20 @@
             "breadcrumbIndex":"java-08-features",
             "keywords":[]
         },
+        "tech/java-08-features/stream-apis":{
+            "date":"October 26, 2024",
+            "label":"Stream APIs",
+            "component":"StreamAPIs",
+            "breadcrumbIndex":"java-08-features",
+            "keywords":[]
+        },
+         "tech/java-08-features/ForEach-method":{
+            "date":"October 26, 2024",
+            "label":"ForEach Method",
+            "component":"ForEachMethod",
+            "breadcrumbIndex":"java-08-features",
+            "keywords":[]
+        },
         "tech/java-08-features/nashorn-javascript-engines":{
             "date":"October 26, 2024",
             "label":"Nashorn Javascript Engines",
@@ -236,17 +250,17 @@
             "breadcrumbIndex":"java-08-features",
             "keywords":[]
         },
-        "tech/java-08-features/ForEach-method":{
-            "date":"October 26, 2024",
-            "label":"ForEach Method",
-            "component":"ForEachMethod",
-            "breadcrumbIndex":"java-08-features",
-            "keywords":[]
-        },
         "tech/java-08-features/date-and-time-api":{
             "date":"October 26, 2024",
             "label":"Date And Time API",
             "component":"DateAndTimeAPI",
+            "breadcrumbIndex":"java-08-features",
+            "keywords":[]
+        },
+        "tech/java-08-features/completable-future":{
+            "date":"October 26, 2024",
+            "label":"Completable Future",
+            "component":"CompletableFuture",
             "breadcrumbIndex":"java-08-features",
             "keywords":[]
         }
