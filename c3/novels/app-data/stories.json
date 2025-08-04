@@ -1,0 +1,18 @@
+{
+    "stories": {
+        "": {
+            "title": "",
+            "chapters": ""
+        },
+        "123": {
+            "title": "Test3",
+            "description": "Test desc3",
+            "chapters": 15
+        },
+        "235": {
+            "title": "Test4",
+            "description": "Test desc 4",
+            "chapters": 15
+        }
+    }
+}
