@@ -9,7 +9,7 @@ const ProfileCard = ()=>{
 		name:"Nellutla L N Rao",
 		title:"Full Stack Development Engineer",
 		desc:(<>
-		Over <span className="text-grey1">11+ years</span> of dynamic experience in software development, with a proven track record 
+		Over <span className="text-grey1">12+ years</span> of dynamic experience in software development, with a proven track record 
 		of successful project contributions across 
 		Telecom, Transportation, E-Commerce, Health, Banking, Automobile and Insurance industries.
 		</>),
