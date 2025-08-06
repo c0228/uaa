@@ -1,5 +1,7 @@
 {
     "breadcrumbs":{
+        "basic":[{ "label":"Javascript", "url":"/" },
+                { "label":"Basics", "url":"#" }],
         "json":[{ "label":"Javascript", "url":"/" },
                 { "label":"Working with JSONs", "url":"#" }],
         "js-functions":[{ "label":"Javascript", "url":"/" },
@@ -25,6 +27,14 @@
             "label": "There are Six ways to make a Javascript Function. Do you know what are they?",
             "component": "JSFunctionWritingWays",
             "breadcrumbIndex": "js-functions",
+            "keywords":[]
+        },
+
+        "tech/javascript/terminologies/primitive-references-data-types":{
+            "date": "October 26, 2024",
+            "label": "Primitive & Reference data types",
+            "component": "PrimitiveReferences",
+            "breadcrumbIndex": "basic",
             "keywords":[]
         }
     }

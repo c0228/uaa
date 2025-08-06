@@ -5,7 +5,9 @@ import { HeaderMenu } from '@MainConfig/HeaderMenu.js';
 import BlogListHeader from '@MainComponents/blog-list-header/index.js';
 import BlogItems from '@MainComponents/blog-items/index.js'; 
 import BlogData from '@MainStaticData/frontend/home-list.json';
+import Terminologies from '@MainComponents/terminologies-list/index.js';
 import FeHeader from "./components/fe-header/index.js";
+import JSRoutes from "@MainPages/Javascript/component.routes.json";
 
 const Frontend = () =>{
 
@@ -29,7 +31,9 @@ const Frontend = () =>{
             <BlogListHeader label="Introduction: The Evolution of Frontend Development" />
             <BlogContent label="evolve" rows={2} />
         </Col>
-        <Col md={4}></Col>
+        <Col md={4}>
+          <Terminologies title="Javascript Terminologies" prefix="tech/javascript/terminologies/" data={JSRoutes?.urls} />
+        </Col>
     </Row>
   </ContainerFluid>
   </div>
