@@ -30,12 +30,127 @@
             "keywords":[]
         },
 
+
+        
+        "tech/javascript/terminologies/arrow-functions":{
+            "date": "October 26, 2024",
+            "label": "Arrow Functions",
+            "component": "ArrowFunctions",
+            "breadcrumbIndex": "basic",
+            "keywords":[]
+        },
+        "tech/javascript/terminologies/callback-functions":{
+            "date": "October 26, 2024",
+            "label": "Callback Functions",
+            "component": "CallbackFunctions",
+            "breadcrumbIndex": "basic",
+            "keywords":[]
+        },
+        "tech/javascript/terminologies/closures":{
+            "date": "October 26, 2024",
+            "label": "Closures",
+            "component": "Closures",
+            "breadcrumbIndex": "basic",
+            "keywords":[]
+        },
+        "tech/javascript/terminologies/concept-of-NaN":{
+            "date": "October 26, 2024",
+            "label": "Concept of NaN",
+            "component": "ConceptOfNaN",
+            "breadcrumbIndex": "basic",
+            "keywords":[]
+        },
+        "tech/javascript/terminologies/function-declarations-vs-functions-expressions":{
+            "date": "October 26, 2024",
+            "label": "Function Declarations vs Function Expressions",
+            "component": "FuncDeclareFuncExpressions",
+            "breadcrumbIndex": "basic",
+            "keywords":[]
+        },
+        "tech/javascript/terminologies/higher-order-functions":{
+            "date": "October 26, 2024",
+            "label": "Higher-Order Functions",
+            "component": "HigherOrderFunctions",
+            "breadcrumbIndex": "basic",
+            "keywords":[]
+        },
+        
+        "tech/javascript/terminologies/concept-of-hoisting":{
+            "date": "October 26, 2024",
+            "label": "Concept of Hoisting",
+            "component": "JSHoisting",
+            "breadcrumbIndex": "basic",
+            "keywords":[]
+        },
+        "tech/javascript/terminologies/immediately-invoked-function-expressions-iife":{
+            "date": "October 26, 2024",
+            "label": "Immediately Invoked Function Expressions (IIFE)",
+            "component": "IIFE",
+            "breadcrumbIndex": "basic",
+            "keywords":[]
+        },
+        
+        "tech/javascript/terminologies/lexical-scope":{
+            "date": "October 26, 2024",
+            "label": "Lexical Scope",
+            "component": "LexicalScope",
+            "breadcrumbIndex": "basic",
+            "keywords":[]
+        },        
+        "tech/javascript/terminologies/null-vs-undefined":{
+            "date": "October 26, 2024",
+            "label": "null vs undefined",
+            "component": "NullUndefined",
+            "breadcrumbIndex": "basic",
+            "keywords":[]
+        },
         "tech/javascript/terminologies/primitive-references-data-types":{
             "date": "October 26, 2024",
             "label": "Primitive & Reference data types",
             "component": "PrimitiveReferences",
             "breadcrumbIndex": "basic",
             "keywords":[]
+        },
+        "tech/javascript/terminologies/template-literals":{
+            "date": "October 26, 2024",
+            "label": "Template Literals",
+            "component": "TemplateLiterals",
+            "breadcrumbIndex": "basic",
+            "keywords":[]
+        },
+        "tech/javascript/terminologies/truthy-vs-falsy":{
+            "date": "October 26, 2024",
+            "label": "truthy vs falsy",
+            "component": "TruthyFalsy",
+            "breadcrumbIndex": "basic",
+            "keywords":[]
+        },
+        "tech/javascript/terminologies/two-equals-vs-three-equals":{
+            "date": "October 26, 2024",
+            "label": "== vs ===",
+            "component": "TwoThreeEquals",
+            "breadcrumbIndex": "basic",
+            "keywords":[]
+        },
+        "tech/javascript/terminologies/type-coercion":{
+            "date": "October 26, 2024",
+            "label": "Type Coercion",
+            "component": "TypeCoercion",
+            "breadcrumbIndex": "basic",
+            "keywords":[]
+        },
+        "tech/javascript/terminologies/typeOf-vs-instanceOf":{
+            "date": "October 26, 2024",
+            "label": "typeOf vs instanceOf",
+            "component": "TypeofInstanceOf",
+            "breadcrumbIndex": "basic",
+            "keywords":[]
         }
+
+
+        
+
+        
+        
     }
 }

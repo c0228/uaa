@@ -8,6 +8,7 @@ import BlogData from '@MainStaticData/frontend/home-list.json';
 import Terminologies from '@MainComponents/terminologies-list/index.js';
 import FeHeader from "./components/fe-header/index.js";
 import JSRoutes from "@MainPages/Javascript/component.routes.json";
+import SimpleTable from "@MainComponents/simple-table/index.js";
 
 const Frontend = () =>{
 
@@ -30,6 +31,24 @@ const Frontend = () =>{
         <Col md={8}>
             <BlogListHeader label="Introduction: The Evolution of Frontend Development" />
             <BlogContent label="evolve" rows={2} />
+            <BlogListHeader label="React Framework: Programming" />
+            <BlogContent label="react-program" rows={2} />
+            <SimpleTable header={[(<div><b>Topic</b></div>),(<div>Solving / Coding Problems</div>)]} 
+              columns={[
+                  [(<div><b>useState</b></div>), (<div>Create a simple counter component using useState. Include buttons to increment and decrement the counter.</div>)],
+                  [(<div><b>useEffect</b></div>), (<div></div>)],
+                  [(<div><b>useMemo</b></div>), (<div></div>)],
+                  [(<div><b>useCallback</b></div>), (<div></div>)],
+                  [(<div><b>useContext</b></div>), (<div></div>)],
+                  [(<div><b>Redux Saga</b></div>), (<div></div>)],
+                  [(<div><b>Custom Hook</b></div>), (<div></div>)],
+                  [(<div><b>Concurrent Updates</b></div>), (<div></div>)],
+                  [(<div><b>Reusability with Props</b></div>), (<div></div>)],
+                  [(<div><b>Basic Higher-Order Component (HOC) Creation</b></div>), (<div></div>)],
+                  [(<div><b>Higher-Order Component (HOC) for Loading State</b></div>), (<div></div>)],
+                  [(<div><b>Higher-Order Component (HOC) for Authentication</b></div>), (<div></div>)],
+                  [(<div><b>Compare Higher-Order Component (HOC) vs Custom Hook</b></div>), (<div></div>)],
+                ]} />
         </Col>
         <Col md={4}>
           <Terminologies title="Javascript Terminologies" prefix="tech/javascript/terminologies/" data={JSRoutes?.urls} />
