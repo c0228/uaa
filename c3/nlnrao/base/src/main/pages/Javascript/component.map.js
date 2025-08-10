@@ -2,6 +2,7 @@ import JSONArrayCrud from "@MainPages/Javascript/content/01-json-array-crud/inde
 import SortJSONArrayAD from "@MainPages/Javascript/content/02-sort-json-array-ad/index.js";
 import JSFunctionWritingWays from "@MainPages/Javascript/content/03-ways-of-writing-js-function/index.js";
 
+import ArrayPrototypeForEachVsMap from "@MainPages/Javascript/terminologies/array-prototype-foreach-vs-map/index.js";
 import ArrowFunctions from "@MainPages/Javascript/terminologies/arrow-functions/index.js";
 import CallbackFunctions from "@MainPages/Javascript/terminologies/callback-functions/index.js";
 import CloneAnObject from "@MainPages/Javascript/terminologies/clone-an-object/index.js";
@@ -32,6 +33,7 @@ export const JSComponentMap = {
  "SortJSONArrayAD": SortJSONArrayAD,
  "JSFunctionWritingWays": JSFunctionWritingWays,
 
+ "ArrayPrototypeForEachVsMap": ArrayPrototypeForEachVsMap,
  "ArrowFunctions": ArrowFunctions,
  "CallbackFunctions": CallbackFunctions,
  "CloneAnObject": CloneAnObject,

@@ -32,6 +32,13 @@
 
 
         
+        "tech/javascript/terminologies/Array-prototype-forEach-vs-map":{
+            "date": "October 26, 2024",
+            "label": "Array.prototype.forEach() vs map()",
+            "component": "ArrayPrototypeForEachVsMap",
+            "breadcrumbIndex": "basic",
+            "keywords":[]
+        },
         "tech/javascript/terminologies/arrow-functions":{
             "date": "October 26, 2024",
             "label": "Arrow Functions",
