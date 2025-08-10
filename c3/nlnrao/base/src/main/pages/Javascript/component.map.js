@@ -38,6 +38,7 @@ import PureFunctionsVsImpureFunctions from "@MainPages/Javascript/terminologies/
 import QuerySelectorVsGetElementById from "@MainPages/Javascript/terminologies/querySelector-vs-getElementById/index.js";
 import SetTimeoutVsSetImmediate from "@MainPages/Javascript/terminologies/setTimeout-vs-setImmediate/index.js";
 import ShallowDeepCopy from "@MainPages/Javascript/terminologies/shallowcopy-vs-deepcopy/index.js";
+import Symbol from "@MainPages/Javascript/terminologies/symbol/index.js";
 import TemplateLiterals from "@MainPages/Javascript/terminologies/template-literals/index.js";
 import ThisKeyword from "@MainPages/Javascript/terminologies/this/index.js";
 import TruthyFalsy from "@MainPages/Javascript/terminologies/truthy-falsy/index.js";
@@ -88,6 +89,7 @@ export const JSComponentMap = {
  "QuerySelectorVsGetElementById": QuerySelectorVsGetElementById,
  "SetTimeoutVsSetImmediate": SetTimeoutVsSetImmediate,
  "ShallowDeepCopy": ShallowDeepCopy,
+ "Symbol": Symbol,
  "TemplateLiterals": TemplateLiterals,
  "ThisKeyword": ThisKeyword,
  "TruthyFalsy": TruthyFalsy,

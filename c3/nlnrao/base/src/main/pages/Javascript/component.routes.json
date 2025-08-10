@@ -302,6 +302,13 @@
             "breadcrumbIndex": "basic",
             "keywords":[]
         },
+        "tech/javascript/terminologies/symbol":{
+            "date": "October 26, 2024",
+            "label": "Symbol",
+            "component": "Symbol",
+            "breadcrumbIndex": "basic",
+            "keywords":[]
+        },
         
         "tech/javascript/terminologies/template-literals":{
             "date": "October 26, 2024",
