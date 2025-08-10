@@ -46,6 +46,14 @@
             "breadcrumbIndex": "basic",
             "keywords":[]
         },
+        "tech/javascript/terminologies/bind-call-apply":{
+            "date": "October 26, 2024",
+            "label": "bind() vs call() vs apply()",
+            "component": "BindCallApply",
+            "breadcrumbIndex": "basic",
+            "keywords":[]
+        },
+        
         "tech/javascript/terminologies/callback-functions":{
             "date": "October 26, 2024",
             "label": "Callback Functions",
@@ -88,6 +96,51 @@
             "breadcrumbIndex": "basic",
             "keywords":[]
         },
+        "tech/javascript/terminologies/DOM-vs-VirtualDOM-vs-ShadowDOM":{
+            "date": "October 26, 2024",
+            "label": "DOM vs VirtualDOM vs ShadowDOM",
+            "component": "DOMVirtualDOMShadowDOM",
+            "breadcrumbIndex": "basic",
+            "keywords":[]
+        },
+        "tech/javascript/terminologies/es5-vs-es6":{
+            "date": "October 26, 2024",
+            "label": "ES5 vs ES6",
+            "component": "ES5VsES6",
+            "breadcrumbIndex": "basic",
+            "keywords":[]
+        },
+        
+        "tech/javascript/terminologies/event-bubbling-vs-event-capturing":{
+            "date": "October 26, 2024",
+            "label": "EventBubbling vs EventCapturing",
+            "component": "EventBubblingVsEventCapturing",
+            "breadcrumbIndex": "basic",
+            "keywords":[]
+        },
+        
+        "tech/javascript/terminologies/event-delegation":{
+            "date": "October 26, 2024",
+            "label": "Event Delegation",
+            "component": "EventDelegation",
+            "breadcrumbIndex": "basic",
+            "keywords":[]
+        },
+        
+        "tech/javascript/terminologies/event-loop-vs-call-stack":{
+            "date": "October 26, 2024",
+            "label": "EventLoop Vs CallStack",
+            "component": "EventLoopVsCallStack",
+            "breadcrumbIndex": "basic",
+            "keywords":[]
+        },
+        "tech/javascript/terminologies/fetch-vs-axios":{
+            "date": "October 26, 2024",
+            "label": "fetch() vs axios()",
+            "component": "FetchVsAxios",
+            "breadcrumbIndex": "basic",
+            "keywords":[]
+        },
         
         "tech/javascript/terminologies/function-declarations-vs-functions-expressions":{
             "date": "October 26, 2024",
@@ -125,6 +178,22 @@
             "breadcrumbIndex": "basic",
             "keywords":[]
         },
+        "tech/javascript/terminologies/innerHTML-vs-innerText-vs-textContent":{
+            "date": "October 26, 2024",
+            "label": "innerHTML vs innerText vs textContent",
+            "component": "InnerHTMLTextContent",
+            "breadcrumbIndex": "basic",
+            "keywords":[]
+        },
+        "tech/javascript/terminologies/intersection-observer-api":{
+            "date": "October 26, 2024",
+            "label": "Intersection Observer API",
+            "component": "IntersectionObserverAPI",
+            "breadcrumbIndex": "basic",
+            "keywords":[]
+        },
+        
+        
         "tech/javascript/terminologies/lexical-scope":{
             "date": "October 26, 2024",
             "label": "Lexical Scope",
@@ -132,6 +201,15 @@
             "breadcrumbIndex": "basic",
             "keywords":[]
         }, 
+        "tech/javascript/terminologies/localStorage-vs-sessionStorage-vs-Cookies":{
+            "date": "October 26, 2024",
+            "label": "localStorage vs sessionStorage vs Cookies",
+            "component": "LocalStorageVsSessionStorageVsCookies",
+            "breadcrumbIndex": "basic",
+            "keywords":[]
+        }, 
+
+        
         "tech/javascript/terminologies/memoization":{
             "date": "October 26, 2024",
             "label": "Memoization",
@@ -162,11 +240,58 @@
             "component": "ObjectFreezeSeal",
             "breadcrumbIndex": "basic",
             "keywords":[]
-        },        
+        },
+        "tech/javascript/terminologies/prevent-default-stop-propagation":{
+            "date": "October 26, 2024",
+            "label": "preventDefault() vs stopPropagation()",
+            "component": "PreventDefaultStopPropagation",
+            "breadcrumbIndex": "basic",
+            "keywords":[]
+        },   
+        
+        
         "tech/javascript/terminologies/primitive-references-data-types":{
             "date": "October 26, 2024",
             "label": "Primitive & Reference data types",
             "component": "PrimitiveReferences",
+            "breadcrumbIndex": "basic",
+            "keywords":[]
+        },
+        "tech/javascript/terminologies/promises":{
+            "date": "October 26, 2024",
+            "label": "Promises",
+            "component": "Promises",
+            "breadcrumbIndex": "basic",
+            "keywords":[]
+        },
+        "tech/javascript/terminologies/prototypal-inheritance":{
+            "date": "October 26, 2024",
+            "label": "Prototypal Inheritance",
+            "component": "PrototypalInheritance",
+            "breadcrumbIndex": "basic",
+            "keywords":[]
+        },
+        "tech/javascript/terminologies/pure-functions-vs-impure-functions":{
+            "date": "October 26, 2024",
+            "label": "Pure Functions vs Impure Functions",
+            "component": "PureFunctionsVsImpureFunctions",
+            "breadcrumbIndex": "basic",
+            "keywords":[]
+        },        
+
+       
+        "tech/javascript/terminologies/querySelector-vs-getElementById":{
+            "date": "October 26, 2024",
+            "label": "querySelector() vs getElementById()",
+            "component": "QuerySelectorVsGetElementById",
+            "breadcrumbIndex": "basic",
+            "keywords":[]
+        },
+        
+        "tech/javascript/terminologies/set-timeout-vs-set-immediate":{
+            "date": "October 26, 2024",
+            "label": "SetTimeout vs SetImmediate",
+            "component": "SetTimeoutVsSetImmediate",
             "breadcrumbIndex": "basic",
             "keywords":[]
         },
@@ -185,6 +310,15 @@
             "breadcrumbIndex": "basic",
             "keywords":[]
         },
+        "tech/javascript/terminologies/this-keyword":{
+            "date": "October 26, 2024",
+            "label": "Javascript: this keyword",
+            "component": "ThisKeyword",
+            "breadcrumbIndex": "basic",
+            "keywords":[]
+        },
+
+        
         "tech/javascript/terminologies/truthy-vs-falsy":{
             "date": "October 26, 2024",
             "label": "truthy vs falsy",
@@ -212,9 +346,24 @@
             "component": "TypeofInstanceOf",
             "breadcrumbIndex": "basic",
             "keywords":[]
+        },
+        "tech/javascript/terminologies/web-workers":{
+            "date": "October 26, 2024",
+            "label": "Web Workers",
+            "component": "WebWorkers",
+            "breadcrumbIndex": "basic",
+            "keywords":[]
+        },
+        "tech/javascript/terminologies/window-vs-document":{
+            "date": "October 26, 2024",
+            "label": "window vs document",
+            "component": "WindowVsDocument",
+            "breadcrumbIndex": "basic",
+            "keywords":[]
         }
 
 
+        
         
 
         
