@@ -46,6 +46,13 @@
             "breadcrumbIndex": "basic",
             "keywords":[]
         },
+        "tech/javascript/terminologies/clone-an-object":{
+            "date": "October 26, 2024",
+            "label": "Clone an Object",
+            "component": "CloneAnObject",
+            "breadcrumbIndex": "basic",
+            "keywords":[]
+        },
         "tech/javascript/terminologies/closures":{
             "date": "October 26, 2024",
             "label": "Closures",
@@ -60,6 +67,21 @@
             "breadcrumbIndex": "basic",
             "keywords":[]
         },
+        "tech/javascript/terminologies/currying":{
+            "date": "October 26, 2024",
+            "label": "Currying",
+            "component": "Currying",
+            "breadcrumbIndex": "basic",
+            "keywords":[]
+        },
+        "tech/javascript/terminologies/debouncing-vs-throttling":{
+            "date": "October 26, 2024",
+            "label": "Debouncing vs Throttling",
+            "component": "DebouncingVsThrottling",
+            "breadcrumbIndex": "basic",
+            "keywords":[]
+        },
+        
         "tech/javascript/terminologies/function-declarations-vs-functions-expressions":{
             "date": "October 26, 2024",
             "label": "Function Declarations vs Function Expressions",
@@ -89,14 +111,29 @@
             "breadcrumbIndex": "basic",
             "keywords":[]
         },
-        
+        "tech/javascript/terminologies/in-vs-hasOwnProperty":{
+            "date": "October 26, 2024",
+            "label": "in vs hasOwnProperty",
+            "component": "InVshasOwnProperty",
+            "breadcrumbIndex": "basic",
+            "keywords":[]
+        },
         "tech/javascript/terminologies/lexical-scope":{
             "date": "October 26, 2024",
             "label": "Lexical Scope",
             "component": "LexicalScope",
             "breadcrumbIndex": "basic",
             "keywords":[]
-        },        
+        }, 
+        "tech/javascript/terminologies/memoization":{
+            "date": "October 26, 2024",
+            "label": "Memoization",
+            "component": "Memoization",
+            "breadcrumbIndex": "basic",
+            "keywords":[]
+        }, 
+        
+        
         "tech/javascript/terminologies/null-vs-undefined":{
             "date": "October 26, 2024",
             "label": "null vs undefined",
@@ -104,6 +141,21 @@
             "breadcrumbIndex": "basic",
             "keywords":[]
         },
+
+        "tech/javascript/terminologies/object-destructuring-vs-array-destructuring":{
+            "date": "October 26, 2024",
+            "label": "Object Destructuring vs Array Destructuring",
+            "component": "ObjectArrayDestructuring",
+            "breadcrumbIndex": "basic",
+            "keywords":[]
+        },
+        "tech/javascript/terminologies/object-freeze-vs-object-seal":{
+            "date": "October 26, 2024",
+            "label": "Object.freeze() vs Object.seal()",
+            "component": "ObjectFreezeSeal",
+            "breadcrumbIndex": "basic",
+            "keywords":[]
+        },        
         "tech/javascript/terminologies/primitive-references-data-types":{
             "date": "October 26, 2024",
             "label": "Primitive & Reference data types",
@@ -111,6 +163,14 @@
             "breadcrumbIndex": "basic",
             "keywords":[]
         },
+        "tech/javascript/terminologies/shallow-copy-vs-deep-copy":{
+            "date": "October 26, 2024",
+            "label": "Shallow Copy vs Deep Copy",
+            "component": "ShallowDeepCopy",
+            "breadcrumbIndex": "basic",
+            "keywords":[]
+        },
+        
         "tech/javascript/terminologies/template-literals":{
             "date": "October 26, 2024",
             "label": "Template Literals",
