@@ -6,7 +6,7 @@ import BlogArticleHeader from '@MainComponents/blog-article-header/index.js';
 import Terminologies from '@MainComponents/terminologies-list/index.js';
 import JSRoutes from "@MainPages/Javascript/component.routes.json";
 
-const WebWorkers = ({ meta }) =>{
+const WebWorkersVsServiceWorkers = ({ meta }) =>{
  return (<div>
   <Header menulinks={HeaderMenu} activeId="Home" />
    <ContainerFluid>
@@ -22,4 +22,4 @@ const WebWorkers = ({ meta }) =>{
  </div>);
 };
 
-export default WebWorkers;
+export default WebWorkersVsServiceWorkers;

@@ -126,6 +126,15 @@
             "breadcrumbIndex": "basic",
             "keywords":[]
         },
+        "tech/javascript/terminologies/event-propagation-vs-event-chaining":{
+            "date": "October 26, 2024",
+            "label": "Event Propagation vs Event Chaining",
+            "component": "EventPropagationVsEventChaining",
+            "breadcrumbIndex": "basic",
+            "keywords":[]
+        },
+
+        
         
         "tech/javascript/terminologies/event-loop-vs-call-stack":{
             "date": "October 26, 2024",
@@ -157,9 +166,9 @@
             "keywords":[]
         },
         
-        "tech/javascript/terminologies/concept-of-hoisting":{
+        "tech/javascript/terminologies/hoisting-vs-use-strict":{
             "date": "October 26, 2024",
-            "label": "Concept of Hoisting",
+            "label": "Hoisting vs use strict",
             "component": "JSHoisting",
             "breadcrumbIndex": "basic",
             "keywords":[]
@@ -354,9 +363,16 @@
             "breadcrumbIndex": "basic",
             "keywords":[]
         },
-        "tech/javascript/terminologies/web-workers":{
+        "tech/javascript/terminologies/weak-map-vs-weak-set":{
             "date": "October 26, 2024",
-            "label": "Web Workers",
+            "label": "WeakMap vs WeakSet",
+            "component": "WeakMapVsWeakSet",
+            "breadcrumbIndex": "basic",
+            "keywords":[]
+        },
+        "tech/javascript/terminologies/web-workers-vs-service-workers":{
+            "date": "October 26, 2024",
+            "label": "Web Workers vs Service Workers",
             "component": "WebWorkers",
             "breadcrumbIndex": "basic",
             "keywords":[]

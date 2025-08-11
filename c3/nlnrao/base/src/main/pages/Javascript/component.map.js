@@ -15,11 +15,12 @@ import DOMVirtualDOMShadowDOM from "@MainPages/Javascript/terminologies/dom-virt
 import ES5VsES6 from "@MainPages/Javascript/terminologies/es5-vs-es6/index.js";
 import EventBubblingVsEventCapturing from "@MainPages/Javascript/terminologies/event-bubbling-vs-event-capturing/index.js";
 import EventDelegation from "@MainPages/Javascript/terminologies/event-delegation/index.js";
+import EventPropagationVsEventChaining from "@MainPages/Javascript/terminologies/event-propagation-vs-event-chaining/index.js";
 import EventLoopVsCallStack from "@MainPages/Javascript/terminologies/eventloop-vs-callstack/index.js";
 import FetchVsAxios from "@MainPages/Javascript/terminologies/fetch-vs-axios/index.js";
 import FuncDeclareFuncExpressions from "@MainPages/Javascript/terminologies/func-declarations-vs-func-expressions/index.js";
 import HigherOrderFunctions from "@MainPages/Javascript/terminologies/higher-order-functions/index.js";
-import JSHoisting from "@MainPages/Javascript/terminologies/hoisting/index.js";
+import HoistingVsUseStrict from "@MainPages/Javascript/terminologies/hoisting-vs-useStrict/index.js";
 import IIFE from "@MainPages/Javascript/terminologies/iife/index.js";
 import InVshasOwnProperty from "@MainPages/Javascript/terminologies/in-vs-hasOwnProperty/index.js";
 import InnerHTMLTextContent from "@MainPages/Javascript/terminologies/innerHTML-vs-innerText-vs-textContent/index.js";
@@ -45,7 +46,8 @@ import TruthyFalsy from "@MainPages/Javascript/terminologies/truthy-falsy/index.
 import TwoThreeEquals from "@MainPages/Javascript/terminologies/two-three-equals/index.js";
 import TypeCoercion from "@MainPages/Javascript/terminologies/type-coercion/index.js";
 import TypeofInstanceOf from "@MainPages/Javascript/terminologies/typeof-vs-instanceof/index.js";
-import WebWorkers from "@MainPages/Javascript/terminologies/web-workers/index.js";
+import WeakMapVsWeakSet from "@MainPages/Javascript/terminologies/weak-map-vs-weak-set/index.js";
+import WebWorkersVsServiceWorkers from "@MainPages/Javascript/terminologies/web-workers-vs-service-workers/index.js";
 import WindowVsDocument from "@MainPages/Javascript/terminologies/window-vs-document/index.js"
 
 export const JSComponentMap = {
@@ -66,11 +68,12 @@ export const JSComponentMap = {
  "ES5VsES6": ES5VsES6,
  "EventBubblingVsEventCapturing": EventBubblingVsEventCapturing,
  "EventDelegation": EventDelegation,
+ "EventPropagationVsEventChaining": EventPropagationVsEventChaining,
  "EventLoopVsCallStack": EventLoopVsCallStack,
  "FetchVsAxios": FetchVsAxios,
  "FuncDeclareFuncExpressions": FuncDeclareFuncExpressions,
  "HigherOrderFunctions": HigherOrderFunctions,
- "JSHoisting": JSHoisting,
+ "HoistingVsUseStrict": HoistingVsUseStrict,
  "IIFE": IIFE,
  "InVshasOwnProperty": InVshasOwnProperty,
  "InnerHTMLTextContent": InnerHTMLTextContent,
@@ -96,6 +99,7 @@ export const JSComponentMap = {
  "TwoThreeEquals": TwoThreeEquals,
  "TypeCoercion": TypeCoercion,
  "TypeofInstanceOf": TypeofInstanceOf,
- "WebWorkers": WebWorkers,
+ "WeakMapVsWeakSet": WeakMapVsWeakSet,
+ "WebWorkersVsServiceWorkers": WebWorkersVsServiceWorkers,
  "WindowVsDocument": WindowVsDocument
 };
