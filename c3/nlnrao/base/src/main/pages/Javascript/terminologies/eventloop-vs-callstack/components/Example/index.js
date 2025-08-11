@@ -1,5 +1,5 @@
 import React from "react";
-import { Highlight } from "e-ui-react";
+import { Highlight, Card } from "e-ui-react";
 import SimpleTable from "@MainComponents/simple-table/index.js";
 import IMG_EVENTLOOP_CALLSTACK from "./../../assets/1.png";
 
@@ -70,6 +70,13 @@ const Example = () =>{
          </li>
          <li className="mtop5p">
             <div><h5 className="blog-head"><b>Web APIs</b></h5></div>
+            <div className="mtop5p">
+            <Card padding={15} backgroundColor="#eee">
+               In the context of <b>JavaScript in browsers</b>, a <b>Web API</b> is basically a set 
+               of <b>built-in features provided by the browser</b> (not JavaScript itself) that allow your code to 
+               interact with things outside the JavaScript engine.
+            </Card>
+            </div>
             <div>
                <ul>
                   <li className="mtop5p">When you call something like <code><b>setTimeout</b></code>, <code><b>fetch</b></code>, or event listeners, the actual work isn’t done in the stack.</li>
