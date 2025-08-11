@@ -9,6 +9,8 @@ import CallbackFunctions from "@MainPages/Javascript/terminologies/callback-func
 import CloneAnObject from "@MainPages/Javascript/terminologies/clone-an-object/index.js";
 import Closures from "@MainPages/Javascript/terminologies/closures/index.js";
 import ConceptOfNaN from "@MainPages/Javascript/terminologies/concept-of-nan/index.js";
+import ContentSecurityPolicyCSS from "@MainPages/Javascript/terminologies/content-security-policy-(css)/index.js";
+import CrossSiteScriptingXSS from "@MainPages/Javascript/terminologies/cross-site-scripting-(xss)/index.js";
 import Currying from "@MainPages/Javascript/terminologies/currying/index.js";
 import DebouncingVsThrottling from "@MainPages/Javascript/terminologies/debouncing-vs-throttling/index.js";
 import DOMVirtualDOMShadowDOM from "@MainPages/Javascript/terminologies/dom-virtualdom-shadowdom/index.js";
@@ -19,15 +21,18 @@ import EventPropagationVsEventChaining from "@MainPages/Javascript/terminologies
 import EventLoopVsCallStack from "@MainPages/Javascript/terminologies/eventloop-vs-callstack/index.js";
 import FetchVsAxios from "@MainPages/Javascript/terminologies/fetch-vs-axios/index.js";
 import FuncDeclareFuncExpressions from "@MainPages/Javascript/terminologies/func-declarations-vs-func-expressions/index.js";
+import GeneratorsVsIterators from "@MainPages/Javascript/terminologies/generators-vs-iterators/index.js";
 import HigherOrderFunctions from "@MainPages/Javascript/terminologies/higher-order-functions/index.js";
 import HoistingVsUseStrict from "@MainPages/Javascript/terminologies/hoisting-vs-useStrict/index.js";
 import IIFE from "@MainPages/Javascript/terminologies/iife/index.js";
 import InVshasOwnProperty from "@MainPages/Javascript/terminologies/in-vs-hasOwnProperty/index.js";
 import InnerHTMLTextContent from "@MainPages/Javascript/terminologies/innerHTML-vs-innerText-vs-textContent/index.js";
 import IntersectionObserverAPI from "@MainPages/Javascript/terminologies/intersection-observer-api/index.js";
+import LazyLoadingVsCodeSplitting from "@MainPages/Javascript/terminologies/lazy-loading-vs-code-splitting/index.js";
 import LexicalScope from "@MainPages/Javascript/terminologies/lexical-scope/index.js";
 import LocalStorageVsSessionStorageVsCookies from "@MainPages/Javascript/terminologies/localStorage-vs-sessionStorage-vs-cookies/index.js";
 import Memoization from "@MainPages/Javascript/terminologies/memoization/index.js";
+import MemoryLeaks from "@MainPages/Javascript/terminologies/memory-leaks/index.js";
 import NullUndefined from "@MainPages/Javascript/terminologies/null-vs-undefined/index.js";
 import ObjectArrayDestructuring from "@MainPages/Javascript/terminologies/object-destructuring-vs-array-destructuring/index.js";
 import ObjectFreezeSeal from "@MainPages/Javascript/terminologies/object-freeze-vs-object-seal/index.js";
@@ -47,6 +52,7 @@ import TwoThreeEquals from "@MainPages/Javascript/terminologies/two-three-equals
 import TypeCoercion from "@MainPages/Javascript/terminologies/type-coercion/index.js";
 import TypeofInstanceOf from "@MainPages/Javascript/terminologies/typeof-vs-instanceof/index.js";
 import WeakMapVsWeakSet from "@MainPages/Javascript/terminologies/weak-map-vs-weak-set/index.js";
+import WebSockets from "@MainPages/Javascript/terminologies/web-sockets/index.js";
 import WebWorkersVsServiceWorkers from "@MainPages/Javascript/terminologies/web-workers-vs-service-workers/index.js";
 import WindowVsDocument from "@MainPages/Javascript/terminologies/window-vs-document/index.js"
 
@@ -62,6 +68,8 @@ export const JSComponentMap = {
  "CloneAnObject": CloneAnObject,
  "Closures": Closures,
  "ConceptOfNaN": ConceptOfNaN,
+ "ContentSecurityPolicyCSS": ContentSecurityPolicyCSS,
+ "CrossSiteScriptingXSS": CrossSiteScriptingXSS,
  "Currying": Currying,
  "DebouncingVsThrottling": DebouncingVsThrottling,
  "DOMVirtualDOMShadowDOM": DOMVirtualDOMShadowDOM,
@@ -72,15 +80,18 @@ export const JSComponentMap = {
  "EventLoopVsCallStack": EventLoopVsCallStack,
  "FetchVsAxios": FetchVsAxios,
  "FuncDeclareFuncExpressions": FuncDeclareFuncExpressions,
+ "GeneratorsVsIterators": GeneratorsVsIterators,
  "HigherOrderFunctions": HigherOrderFunctions,
  "HoistingVsUseStrict": HoistingVsUseStrict,
  "IIFE": IIFE,
  "InVshasOwnProperty": InVshasOwnProperty,
  "InnerHTMLTextContent": InnerHTMLTextContent,
  "IntersectionObserverAPI": IntersectionObserverAPI,
+ "LazyLoadingVsCodeSplitting": LazyLoadingVsCodeSplitting,
  "LexicalScope": LexicalScope,
  "LocalStorageVsSessionStorageVsCookies": LocalStorageVsSessionStorageVsCookies,
  "Memoization": Memoization,
+ "MemoryLeaks": MemoryLeaks,
  "NullUndefined": NullUndefined,
  "ObjectArrayDestructuring": ObjectArrayDestructuring,
  "ObjectFreezeSeal": ObjectFreezeSeal,
@@ -100,6 +111,7 @@ export const JSComponentMap = {
  "TypeCoercion": TypeCoercion,
  "TypeofInstanceOf": TypeofInstanceOf,
  "WeakMapVsWeakSet": WeakMapVsWeakSet,
+ "WebSockets": WebSockets,
  "WebWorkersVsServiceWorkers": WebWorkersVsServiceWorkers,
  "WindowVsDocument": WindowVsDocument
 };

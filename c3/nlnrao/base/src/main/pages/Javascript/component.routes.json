@@ -82,6 +82,22 @@
             "breadcrumbIndex": "basic",
             "keywords":[]
         },
+        "tech/javascript/terminologies/content-security-policy-CSS":{
+            "date": "October 26, 2024",
+            "label": "Content-Security Policy (CSS)",
+            "component": "ContentSecurityPolicyCSS",
+            "breadcrumbIndex": "basic",
+            "keywords":[]
+        },
+        "tech/javascript/terminologies/cross-site-scripting-XSS":{
+            "date": "October 26, 2024",
+            "label": "Cross-Site Scripting (XSS)",
+            "component": "CrossSiteScriptingXSS",
+            "breadcrumbIndex": "basic",
+            "keywords":[]
+        },
+
+        
         "tech/javascript/terminologies/currying":{
             "date": "October 26, 2024",
             "label": "Currying",
@@ -158,6 +174,13 @@
             "breadcrumbIndex": "basic",
             "keywords":[]
         },
+        "tech/javascript/terminologies/generators-vs-iterators":{
+            "date": "October 26, 2024",
+            "label": "Generators vs Iterators",
+            "component": "GeneratorsVsIterators",
+            "breadcrumbIndex": "basic",
+            "keywords":[]
+        },
         "tech/javascript/terminologies/higher-order-functions":{
             "date": "October 26, 2024",
             "label": "Higher-Order Functions",
@@ -201,7 +224,13 @@
             "breadcrumbIndex": "basic",
             "keywords":[]
         },
-        
+        "tech/javascript/terminologies/lazy-loading-vs-code-splitting":{
+            "date": "October 26, 2024",
+            "label": "Lazy Loading vs Code Splitting",
+            "component": "LazyLoadingVsCodeSplitting",
+            "breadcrumbIndex": "basic",
+            "keywords":[]
+        },
         
         "tech/javascript/terminologies/lexical-scope":{
             "date": "October 26, 2024",
@@ -226,8 +255,13 @@
             "breadcrumbIndex": "basic",
             "keywords":[]
         }, 
-        
-        
+        "tech/javascript/terminologies/memory-leaks":{
+            "date": "October 26, 2024",
+            "label": "Memory Leaks",
+            "component": "MemoryLeaks",
+            "breadcrumbIndex": "basic",
+            "keywords":[]
+        }, 
         "tech/javascript/terminologies/null-vs-undefined":{
             "date": "October 26, 2024",
             "label": "null vs undefined",
@@ -367,6 +401,13 @@
             "date": "October 26, 2024",
             "label": "WeakMap vs WeakSet",
             "component": "WeakMapVsWeakSet",
+            "breadcrumbIndex": "basic",
+            "keywords":[]
+        },
+        "tech/javascript/terminologies/web-sockets":{
+            "date": "October 26, 2024",
+            "label": "Web Sockets",
+            "component": "WebSockets",
             "breadcrumbIndex": "basic",
             "keywords":[]
         },
