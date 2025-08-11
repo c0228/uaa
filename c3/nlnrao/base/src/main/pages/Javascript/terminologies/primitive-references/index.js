@@ -4,7 +4,7 @@ import Header from '@MainTemplates/Header/index.js';
 import { HeaderMenu } from '@MainConfig/HeaderMenu.js';
 import BlogArticleHeader from '@MainComponents/blog-article-header/index.js';
 import Terminologies from '@MainComponents/terminologies-list/index.js';
-import Introduction from './components/introduction/index.js';
+import Introduction from './components/Introduction/index.js';
 import JSRoutes from "@MainPages/Javascript/component.routes.json";
 
 const PrimitiveReferences = ({ meta }) =>{

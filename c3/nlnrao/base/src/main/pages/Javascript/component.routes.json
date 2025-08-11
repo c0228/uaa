@@ -192,7 +192,7 @@
         "tech/javascript/terminologies/hoisting-vs-use-strict":{
             "date": "October 26, 2024",
             "label": "Hoisting vs use strict",
-            "component": "JSHoisting",
+            "component": "HoistingVsUseStrict",
             "breadcrumbIndex": "basic",
             "keywords":[]
         },
@@ -414,7 +414,7 @@
         "tech/javascript/terminologies/web-workers-vs-service-workers":{
             "date": "October 26, 2024",
             "label": "Web Workers vs Service Workers",
-            "component": "WebWorkers",
+            "component": "WebWorkersVsServiceWorkers",
             "breadcrumbIndex": "basic",
             "keywords":[]
         },
