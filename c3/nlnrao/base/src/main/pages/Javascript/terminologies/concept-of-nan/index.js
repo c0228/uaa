@@ -7,10 +7,10 @@ import Terminologies from '@MainComponents/terminologies-list/index.js';
 import JSRoutes from "@MainPages/Javascript/component.routes.json";
 import Introduction from "./components/Introduction/index.js";
 import Example from "./components/Example/index.js";
-import Conclusion from "./components/conclusion/index.js";
+import Conclusion from "./components/Conclusion/index.js";
 
 const ConceptOfNaN = ({ meta }) =>{
- return (<div>
+ return (<div className="mbot15p">
   <Header menulinks={HeaderMenu} activeId="Home" />
    <ContainerFluid>
       <Row>

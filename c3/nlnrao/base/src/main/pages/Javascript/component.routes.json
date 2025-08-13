@@ -77,7 +77,7 @@
         },
         "tech/javascript/terminologies/concept-of-NaN":{
             "date": "October 26, 2024",
-            "label": "Concept of NaN",
+            "label": "Concept of NaN (Not-a-Number)",
             "component": "ConceptOfNaN",
             "breadcrumbIndex": "basic",
             "keywords":[]
