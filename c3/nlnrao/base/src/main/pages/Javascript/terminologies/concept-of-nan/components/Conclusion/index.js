@@ -12,7 +12,7 @@ const Conclusion = () =>{
             <li className="mtop5p">It prevents programs from breaking when numeric operations 
                fail, instead returning a special value that can be checked and handled.</li>
             <li className="mtop5p">Knowing how to detect and work with 
-               NaN (<code><b>Number.isNaN()</b></code> or <code><b>Object.is()</b></code>) is essential 
+               NaN ( <code><b>Number.isNaN()</b></code> or <code><b>Object.is()</b></code> ) is essential 
                for <b>bug-free numeric logic.</b></li>
          </ul>
       </div>
