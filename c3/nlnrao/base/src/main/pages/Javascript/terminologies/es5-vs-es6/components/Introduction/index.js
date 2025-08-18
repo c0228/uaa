@@ -19,25 +19,82 @@ var greeting = "Hello, " + name + "!";`;
 const TL_EXAMPLE_ES6 = `let name = "Alice";
 let greeting = \`Hello, \${name}!\`;`;
 
-const DP_EXAMPLE_ES5 = ``;
+const DP_EXAMPLE_ES5 = `function multiply(a, b) {
+  b = (typeof b !== "undefined") ? b : 1;
+  return a * b;
+}
+console.log(multiply(5)); // 5`;
 
-const DP_EXAMPLE_ES6 = ``;
+const DP_EXAMPLE_ES6 = `function multiply(a, b = 1) {
+  return a * b;
+}
+console.log(multiply(5)); // 5`;
 
-const CLASSES_EXAMPLE_ES5 = ``;
+const CLASSES_EXAMPLE_ES5 = `function Person(name) {
+  this.name = name;
+}
+Person.prototype.sayHello = function() {
+  console.log("Hello, " + this.name);
+};
+var p1 = new Person("John");
+p1.sayHello();`;
 
-const CLASSES_EXAMPLE_ES6 = ``;
+const CLASSES_EXAMPLE_ES6 = `class Person {
+  constructor(name) {
+    this.name = name;
+  }
+  sayHello() {
+    console.log(\`Hello, \${this.name}\`);
+  }
+}
+let p1 = new Person("John");
+p1.sayHello();`;
 
-const MODULES_EXAMPLE_ES5 = ``;
+const MODULES_EXAMPLE_ES5 = `// In math.js
+exports.add = function(a, b) {
+  return a + b;
+};
 
-const MODULES_EXAMPLE_ES6 = ``;
+// In app.js
+var math = require('./math');
+console.log(math.add(2, 3));`;
 
-const PROMISES_EXAMPLE_ES5 = ``;
+const MODULES_EXAMPLE_ES6 = `// In math.js
+export function add(a, b) {
+  return a + b;
+}
 
-const PROMISES_EXAMPLE_ES6 = ``;
+// In app.js
+import { add } from './math.js';
+console.log(add(2, 3));`;
 
-const DESTRUCTURING_EXAMPLE_ES5 = ``;
+const PROMISES_EXAMPLE_ES5 = `getData(function(a){
+  getMoreData(a, function(b){
+    getEvenMoreData(b, function(c){
+      console.log(c);
+    });
+  });
+});`;
 
-const DESTRUCTURING_EXAMPLE_ES6 = ``;
+const PROMISES_EXAMPLE_ES6 = `getData()
+  .then(a => getMoreData(a))
+  .then(b => getEvenMoreData(b))
+  .then(c => console.log(c))
+  .catch(err => console.error(err));`;
+
+const DESTRUCTURING_EXAMPLE_ES5 = `var person = { name: "John", age: 25 };
+var name = person.name;
+var age = person.age;
+
+var numbers = [1, 2, 3];
+var first = numbers[0];
+var second = numbers[1];`;
+
+const DESTRUCTURING_EXAMPLE_ES6 = `let person = { name: "John", age: 25 };
+let { name, age } = person;
+
+let numbers = [1, 2, 3];
+let [first, second] = numbers;`;
 
 const Introduction = () =>{
  const VarDeclare = () =>{
@@ -111,11 +168,11 @@ const Introduction = () =>{
 
  const Modules = () =>{
    return (<div>
-      <div><h5 className="blog-head"><b>ES5:</b></h5></div>
+      <div><h5 className="blog-head"><b>ES5 (using external libraries like RequireJS):</b></h5></div>
       <div className="mtop5p">
          <Highlight content={MODULES_EXAMPLE_ES5} lang="javascript" />
       </div>
-      <div><h5 className="blog-head"><b>ES6:</b></h5></div>
+      <div><h5 className="blog-head"><b>ES6 (native modules):</b></h5></div>
       <div className="mtop5p">
          <Highlight content={MODULES_EXAMPLE_ES6} lang="javascript" />
       </div>
@@ -124,11 +181,11 @@ const Introduction = () =>{
 
  const Promises = () =>{
    return (<div>
-      <div><h5 className="blog-head"><b>ES5:</b></h5></div>
+      <div><h5 className="blog-head"><b>ES5 (callback hell):</b></h5></div>
       <div className="mtop5p">
          <Highlight content={PROMISES_EXAMPLE_ES5} lang="javascript" />
       </div>
-      <div><h5 className="blog-head"><b>ES6:</b></h5></div>
+      <div><h5 className="blog-head"><b>ES6 (Promises):</b></h5></div>
       <div className="mtop5p">
          <Highlight content={PROMISES_EXAMPLE_ES6} lang="javascript" />
       </div>
