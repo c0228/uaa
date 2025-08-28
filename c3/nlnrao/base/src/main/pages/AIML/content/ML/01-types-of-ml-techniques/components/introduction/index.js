@@ -11,7 +11,7 @@ const Introduction = () =>{
     <div className="mtop15p">Machine Learning (ML) is a subset of artificial intelligence that enables systems to 
       learn patterns from data and make decisions without explicit programming. It is widely used in fields such as 
       finance, healthcare, automation, and more. ML is broadly categorized into three main types:</div>
-      <div>
+      <div className="mtop15p">
          <ol>
             <li><b>Supervised Learning</b></li>
             <li><b>Unsupervised Learning</b></li>

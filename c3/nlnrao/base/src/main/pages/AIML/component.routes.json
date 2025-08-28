@@ -5,6 +5,13 @@
             { "label":"TensorFlow", "url":"/" }]
     },
     "urls":{
+        "tech/aiml-terminologies/artifical-neuron":{
+            "date":"October 26, 2024",
+            "label":"Artificial Neuron",
+            "component": "ArtificalNeuron",
+            "breadcrumbIndex": "aiml",
+            "keywords":[]
+        },
         "tech/aiml/understanding-different-types-of-machine-learning-techniques":{
             "date":"October 26, 2024",
             "label":"Understanding different types of machine learning techniques",
