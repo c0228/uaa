@@ -48,6 +48,7 @@ const GradientDescent = () =>{
         </ul>
     </div>
     <div className="mtop15p"><h4 className="blog-head"><b>The Formula (Don’t worry, very simple)</b></h4></div>
+    <div className="mtop15p">For each weight <span style={{ fontSize:'26px' }}>&#x1D464;</span></div>
  </div>);
 };
 
