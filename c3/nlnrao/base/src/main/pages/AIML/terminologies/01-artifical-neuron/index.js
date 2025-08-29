@@ -6,6 +6,7 @@ import BlogArticleHeader from '@MainComponents/blog-article-header/index.js';
 import Terminologies from '@MainComponents/terminologies-list/index.js';
 import Routes from "@MainPages/AIML/component.routes.json";
 import Introduction from "./components/Introduction/index.js";
+import GradientDescent from "./components/Gradient-Descent/index.js";
 import Example from "./components/Example/index.js";
 import Conclusion from "./components/Conclusion/index.js";
 
@@ -18,6 +19,7 @@ const ArtificalNeuron = ({ meta }) =>{
         <Col md={8}>
           <BlogArticleHeader metaData={meta} />
           <Introduction />
+          <GradientDescent />
           <Example />
           <Conclusion />
         </Col>
