@@ -8,8 +8,8 @@ import reLU from './../../assets/reLU.png';
 const Introduction = () =>{
  const InputWeightsFormula = () =>{
     return (<MathJaxContext>
-        <div>
-            <p style={{ fontSize: "18px" }}>
+        <div className="mathJaxContext-formula">
+            <p>
               <MathJax inline>{`\\( w_{1}.x_{1} + w_{2}.x_{2} + w_{3}.x_{3} + .... + w_{n}.x_{n} \\)`}</MathJax>
             </p>
         </div>
@@ -17,8 +17,8 @@ const Introduction = () =>{
  };
  const BiasFormula = () =>{
     return (<MathJaxContext>
-        <div>
-            <p style={{ fontSize: "18px" }}>
+        <div className="mathJaxContext-formula">
+            <p>
               <MathJax inline>{`\\( w_{1}.x_{1} + w_{2}.x_{2} + w_{3}.x_{3} + .... + w_{n}.x_{n} + b \\)`}</MathJax>
             </p>
         </div>
@@ -26,8 +26,8 @@ const Introduction = () =>{
  };
   const ValueFormula = () =>{
     return (<MathJaxContext>
-        <div>
-            <p style={{ fontSize: "18px" }}>
+        <div className="mathJaxContext-formula">
+            <p>
               <MathJax inline>{`\\( z = w_{1}.x_{1} + w_{2}.x_{2} + w_{3}.x_{3} + .... + w_{n}.x_{n} + b \\)`}</MathJax>
             </p>
         </div>
@@ -35,8 +35,8 @@ const Introduction = () =>{
  };
  const AFunctionFormula= () =>{
     return (<MathJaxContext>
-        <div>
-            <p style={{ fontSize: "18px" }}>
+        <div className="mathJaxContext-formula">
+            <p>
               <MathJax inline>{`\\( y = f(z) \\)`}</MathJax>
             </p>
         </div>
@@ -44,8 +44,8 @@ const Introduction = () =>{
  };
  const SigmoidFormula = () =>{
     return (<MathJaxContext>
-        <div>
-            <p style={{ fontSize: "28px" }}>
+        <div className="mathJaxContext-formula">
+            <p>
               <MathJax inline>{`\\( y = f(z) = \\frac{1}{1 + e^{-z}} \\)`}</MathJax>
             </p>
         </div>
@@ -53,8 +53,8 @@ const Introduction = () =>{
  };
  const TanhFormula = () =>{
     return (<MathJaxContext>
-      <div>
-        <p style={{ fontSize: "28px" }}>
+      <div className="mathJaxContext-formula">
+        <p>
           <MathJax inline>{`\\( y = f(z) = \\\\tanh(z) = \\frac{e^z - e^{-z}}{e^z + e^{-z}} \\)`}</MathJax>
         </p>
       </div>
@@ -62,8 +62,8 @@ const Introduction = () =>{
  };
  const ReLUFormula = () =>{
     return (<MathJaxContext>
-      <div>
-        <p style={{ fontSize: "28px" }}>
+      <div className="mathJaxContext-formula">
+        <p>
           <MathJax inline>{`\\( y = f(z) = \\\\max(0,z) \\)`}</MathJax>
         </p>
       </div>
@@ -117,20 +117,14 @@ const Introduction = () =>{
                 <li className="mtop5p">
                     <div><b>Summation:</b></div>
                     <div>A weighted sum of all inputs is calculated.</div>
-                    <Card padding={15} backgroundColor="#eee">
-                        <InputWeightsFormula />
-                    </Card>
+                    <InputWeightsFormula />
                 </li>
                 <li className="mtop5p">
                     <div><b>Bias (b):</b></div>
                     <div>An extra parameter to adjust the curve.</div>
-                    <Card padding={15} backgroundColor="#eee">
-                        <BiasFormula />
-                    </Card>
+                    <BiasFormula />
                     <div className="mtop5p">
-                        <Card padding={15} backgroundColor="#eee">
-                            <ValueFormula />
-                        </Card> 
+                      <ValueFormula />
                     </div>
                 </li>
                 <li className="mtop5p">
@@ -138,9 +132,7 @@ const Introduction = () =>{
                     <div>A mathematical function decides whether the neuron should "fire" (pass the signal) or not, and 
                         it transforms the input into a useful output for the next layer.</div>
                     <div>Mathematically, an artificial neuron can be expressed as:</div>
-                    <Card padding={15} backgroundColor="#eee">
-                        <AFunctionFormula />
-                    </Card> 
+                    <AFunctionFormula /> 
                     <div className="mtop5p">where <b>f(z)</b> is the activation function (like sigmoid, ReLU, or tanh).</div>
                     <div><h5 className="blog-head"><b>1. Sigmoid</b></h5></div>
                     <Card padding={15} backgroundColor="#fff">

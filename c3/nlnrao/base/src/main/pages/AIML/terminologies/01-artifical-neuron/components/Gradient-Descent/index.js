@@ -1,8 +1,28 @@
 import React from "react";
+import { Card } from "e-ui-react";
+import { MathJax, MathJaxContext } from "better-react-mathjax";
 
 const GradientDescent = () =>{
+ const GradientDescentBasicFormula = () =>{
+    return (<MathJaxContext>
+      <div className="mathJaxContext-formula">
+        <p>
+          <MathJax inline>{`\\( \\omega = \\omega - \\eta * \\frac{\\partial  L}{\\partial  \\omega} \\)`}</MathJax>
+        </p>
+      </div>
+    </MathJaxContext>);
+ };
+ const GradientDescentSlope = () =>{
+    return (<MathJaxContext>
+      <div>
+        <p>
+          <MathJax inline>{`\\( \\frac{\\partial  L}{\\partial  \\omega} \\)`}</MathJax>  = slope (gradient)
+        </p>
+      </div>
+    </MathJaxContext>);
+ };
  return (<div className="mtop15p lh28p fs16p">
-    <div><h4 className="blog-head"><b>What is Gradient Descent?</b></h4></div>
+    <div><h4 className="blog-head"><b>2.1 What is Gradient Descent?</b></h4></div>
     <div className="padLeft5p">
         <div className="mtop15p">Gradient Descent is <b>a way for an Artificial Neuron (or Neural Network) to learn.</b>
         It’s like a <b>climber trying to get down from a mountain to the lowest valley (minimum point).</b></div>
@@ -17,17 +37,17 @@ const GradientDescent = () =>{
     </div>
     
 
-    <div className="mtop15p"><h4 className="blog-head"><b>Why do we need it?</b></h4></div>
+    <div className="mtop15p"><h4 className="blog-head"><b>2.2 Why do we need it?</b></h4></div>
     <div className="padLeft5p">
-        <div className="mtop15p">An Artificial Neuron takes inputs, multiplies them with weights, adds bias, and gives an output.
+        <div className="mtop5p">An Artificial Neuron takes inputs, multiplies them with weights, adds bias, and gives an output.
         But at first, it doesn’t know which <b>weights</b> and <b>bias</b> are good.</div>
-        <div className="mtop15p">So, it guesses random numbers → produces <b>wrong answers</b>.</div>
-        <div className="mtop15p">We need a way to adjust <b>weights</b> and <b>bias</b> so the answers become correct.</div>
-        <div className="mtop15p">That’s where Gradient Descent comes in. It teaches the neuron to slowly improve weights and bias.</div>
+        <div className="mtop5p">So, it guesses random numbers → produces <b>wrong answers</b>.</div>
+        <div className="mtop5p">We need a way to adjust <b>weights</b> and <b>bias</b> so the answers become correct.</div>
+        <div className="mtop5p">That’s where Gradient Descent comes in. It teaches the neuron to slowly improve weights and bias.</div>
     </div>
     
 
-    <div className="mtop15p"><h4 className="blog-head"><b>The Key Idea</b></h4></div>
+    <div className="mtop15p"><h4 className="blog-head"><b>2.3 The Key Idea</b></h4></div>
     <div className="padLeft5p">
         <ul>
             <li className="mtop5p">
@@ -47,8 +67,31 @@ const GradientDescent = () =>{
             </li>
         </ul>
     </div>
-    <div className="mtop15p"><h4 className="blog-head"><b>The Formula (Don’t worry, very simple)</b></h4></div>
-    <div className="mtop15p">For each weight <span style={{ fontSize:'26px' }}>&#x1D464;</span></div>
+    <div className="mtop15p"><h4 className="blog-head"><b>2.4 The Formula (Don’t worry, very simple)</b></h4></div>
+    <div className="mtop5p">For each weight &omega;,
+        <GradientDescentBasicFormula />
+        <div className="mtop5p">
+            Where:
+            <ul>
+                <li className="mtop5p">&omega; = weight,</li>
+                <li className="mtop5p">L = loss (error)</li>
+                <li className="mtop5p"><GradientDescentSlope /></li>
+                <li className="mtop5p">&eta; = <b>learning rate</b> (step size)</li>
+            </ul>
+        </div>
+    </div>
+    <div>
+        <div><b>Meaning:</b></div>
+        <Card padding={15} backgroundColor="#eee">
+            <b>New weight = Old weight – Small step downhill.</b>
+        </Card>
+    </div>
+    <div className="mtop15p"><h4 className="blog-head"><b>2.5 Why is it Important?</b></h4></div>
+    <div className="mtop5p">Without Gradient Descent, a neuron won’t <b>learn</b>.</div>
+    <div className="mtop5p">It will just keep guessing randomly.</div>
+    <div className="mtop5p">Gradient Descent is like the <b>teacher</b> that shows the neuron how to improve step by step.</div>
+    
+
  </div>);
 };
 

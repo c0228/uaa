@@ -8,7 +8,9 @@ import Routes from "@MainPages/AIML/component.routes.json";
 import Introduction from "./components/Introduction/index.js";
 import GradientDescent from "./components/Gradient-Descent/index.js";
 import Example from "./components/Example/index.js";
+import Learnings from "./components/Learnings/index.js";
 import Conclusion from "./components/Conclusion/index.js";
+import './index.css';
 
 const ArtificalNeuron = ({ meta }) =>{
 
@@ -21,10 +23,11 @@ const ArtificalNeuron = ({ meta }) =>{
           <Introduction />
           <GradientDescent />
           <Example />
+          <Learnings />
           <Conclusion />
         </Col>
         <Col md={4}>
-            <Terminologies title="Java 08 Features" isIndex={true} prefix="tech/aiml-terminologies/" data={Routes?.urls} />
+            <Terminologies title="AI/ML Terminologies" isIndex={true} prefix="tech/aiml-terminologies/" data={Routes?.urls} />
         </Col>
        </Row>
     </ContainerFluid>
