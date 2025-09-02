@@ -236,17 +236,20 @@ const Introduction = () =>{
                             data={[{ 
                                         id:"AFA#Sigmoid", 
                                         title: (<div><b>1. Sigmoid</b></div>), 
-                                        component: <SignmoidContent /> 
+                                        component: <SignmoidContent /> ,
+                                        backgroundColor: '#eee' 
                                     },
                                     { 
                                         id:"AFA#Tanh", 
                                         title: (<div><b>2. Tanh (Hyperbolic Tangent)</b></div>), 
-                                        component: <TanhContent />
+                                        component: <TanhContent />,
+                                        backgroundColor: '#eee' 
                                     },
                                     { 
                                         id:"AFA#", 
                                         title: (<div><b>3. ReLU (Rectified Linear Unit)</b></div>), 
-                                        component: <ReLUContent /> 
+                                        component: <ReLUContent />,
+                                        backgroundColor: '#eee' 
                                     }]} />
                     </div>
                 </li>
