@@ -130,10 +130,10 @@ const Example = () =>{
         <ul>
             <li className="mtop5p"><b>Input:</b> <code><b>x = 5</b></code></li>
             <li className="mtop5p"><b>Actual Output:</b> <code><b>y = 80</b></code></li>
-            <li className="mtop5p"><b>Initial guess:</b> <code><b>&omega; = 5</b></code>, <code><b>b = 0</b></code> and it's <b>Prediction = </b> 25 (way off!)</li>
+            <li className="mtop5p"><b>Initial guess:</b> <code><b>&omega; = 2</b></code>, <code><b>b = 0</b></code> and it's <b>Prediction = </b> 70 (way off!)</li>
         </ul>
     </div>
-    <div className="mtop5p">The model’s first prediction (e.g., 25) comes from <b>initial</b> weights <b>&omega;,b</b> (often random).</div>
+    <div className="mtop5p">The model’s first prediction (e.g., 70) comes from <b>initial</b> weights <b>&omega;,b</b> (often random).</div>
     <div className="mtop5p">Then we compare prediction <code><b>y<sub>1</sub> = &omega;.x + b</b></code> with the known 
         target <b>y</b> using a loss.</div>
     <div className="mtop5p">To measure how wrong the prediction is, we use Loss function:</div>

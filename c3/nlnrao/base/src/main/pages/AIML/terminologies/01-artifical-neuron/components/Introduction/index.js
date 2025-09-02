@@ -4,6 +4,7 @@ import { MathJax, MathJaxContext } from "better-react-mathjax";
 import Sigmoid from './../../assets/sigmoid.png';
 import TanH from './../../assets/tanh.png';
 import reLU from './../../assets/reLU.png';
+import FLOWDIAGRAM from './../../assets/flow-diagram.png';
 
 const Introduction = () =>{
  const InputWeightsFormula = () =>{
@@ -189,6 +190,9 @@ const Introduction = () =>{
     <div className="mtop15p">An <b>Artificial Neuron</b> is a mathematical model inspired by the biological neuron in our brain. Just like 
     real neurons receive signals, process them, and send outputs to other neurons, artificial neurons mimic this process to learn 
     from data.</div>
+    <div className="mtop15p">
+        <img src={FLOWDIAGRAM} style={{ width:'40vw' }}/>
+    </div>
     <div className="mtop15p">
         <div>A biological neuron works like this:</div>
         <div>
