@@ -1,5 +1,5 @@
 import React from "react";
-import { Card } from "e-ui-react";
+import { Card, Accordian  } from "e-ui-react";
 import { MathJax, MathJaxContext } from "better-react-mathjax";
 import Sigmoid from './../../assets/sigmoid.png';
 import TanH from './../../assets/tanh.png';
@@ -42,32 +42,129 @@ const Introduction = () =>{
         </div>
     </MathJaxContext>);
  };
- const SigmoidFormula = () =>{
-    return (<MathJaxContext>
+ const SignmoidContent = () =>{
+    const SigmoidFormula = () =>{
+        return (<MathJaxContext>
+            <div className="mathJaxContext-formula">
+                <p>
+                <MathJax inline>{`\\( y = f(z) = \\frac{1}{1 + e^{-z}} \\)`}</MathJax>
+                </p>
+            </div>
+        </MathJaxContext>);
+    };
+    return (<div>
+            <div className="padLeft5p">
+                            <div><b>Overall Summary:</b></div>
+                            <div>Outputs between <b>0 and 1</b> (good for probabilities).</div>
+                        </div>
+                        <div className="padLeft5p">
+                            <div><b>Formula:</b></div>
+                            <div className="padLeft5p"><SigmoidFormula /></div>
+                        </div>
+                        <div className="padLeft5p">
+                            <div><b>Range:</b></div>
+                            <div>0 to 1</div>
+                        </div>
+                        <div className="mtop5p padLeft5p">
+                            <div><b>Shape:</b></div>
+                            <div>S-shaped curve</div>
+                        </div>
+                        <div className="mtop5p padLeft5p">
+                            <div><b>Use:</b></div>
+                            <div>Good for probabilities (like classification problems).</div>
+                        </div>
+                        <div className="mtop5p padLeft5p">
+                            <div><b>Problem:</b></div>
+                            <div>If input is too big/small, gradient becomes very small → vanishing gradient problem.</div>
+                        </div>
+                        <div className="mtop5p padLeft5p">
+                            <div><b>Graph:</b></div>
+                            <div><img src={Sigmoid} style={{ width:'200px' }} /></div>
+                        </div>
+        </div>);
+ };
+ const TanhContent = () =>{
+    const TanhFormula = () =>{
+        return (<MathJaxContext>
         <div className="mathJaxContext-formula">
             <p>
-              <MathJax inline>{`\\( y = f(z) = \\frac{1}{1 + e^{-z}} \\)`}</MathJax>
+            <MathJax inline>{`\\( y = f(z) = \\\\tanh(z) = \\frac{e^z - e^{-z}}{e^z + e^{-z}} \\)`}</MathJax>
             </p>
         </div>
-    </MathJaxContext>);
+        </MathJaxContext>);
+    };
+    return (<div>
+        <div className="padLeft5p">
+            <div><b>Overall Summary:</b></div>
+            <div>Outputs between <b>-1 and 1</b> (better balance, used in hidden layers).</div>
+        </div>
+    <div className="padLeft5p">
+        <div><b>Formula:</b></div>
+        <div className="padLeft5p"><TanhFormula /></div>
+    </div>
+    <div className="padLeft5p">
+        <div><b>Range:</b></div>
+        <div>-1 to 1</div>
+    </div>
+    <div className="mtop5p padLeft5p">
+        <div><b>Shape:</b></div>
+        <div>S-shaped but centered at 0</div>
+    </div>
+    <div className="mtop5p padLeft5p">
+        <div><b>Use:</b></div>
+        <div>Better than sigmoid because output is balanced between negative and positive values.</div>
+    </div>
+    <div className="mtop5p padLeft5p">
+        <div><b>Problem:</b></div>
+        <div>Still suffers from vanishing gradient at extremes.</div>
+    </div>
+    <div className="mtop5p padLeft5p">
+        <div><b>Graph:</b></div>
+        <div><img src={TanH} style={{ width:'200px' }} /></div>
+    </div>
+  </div>);
  };
- const TanhFormula = () =>{
-    return (<MathJaxContext>
-      <div className="mathJaxContext-formula">
-        <p>
-          <MathJax inline>{`\\( y = f(z) = \\\\tanh(z) = \\frac{e^z - e^{-z}}{e^z + e^{-z}} \\)`}</MathJax>
-        </p>
-      </div>
-    </MathJaxContext>);
- };
- const ReLUFormula = () =>{
-    return (<MathJaxContext>
-      <div className="mathJaxContext-formula">
-        <p>
-          <MathJax inline>{`\\( y = f(z) = \\\\max(0,z) \\)`}</MathJax>
-        </p>
-      </div>
-    </MathJaxContext>);
+ const ReLUContent = () =>{
+    const ReLUFormula = () =>{
+        return (<MathJaxContext>
+        <div className="mathJaxContext-formula">
+            <p>
+            <MathJax inline>{`\\( y = f(z) = \\\\max(0,z) \\)`}</MathJax>
+            </p>
+        </div>
+        </MathJaxContext>);
+    };
+    return (<div>
+        <div className="padLeft5p">
+                            <div><b>Overall Summary:</b></div>
+                            <div>Outputs <b>0 or positive values</b> (fast and commonly used in deep networks).</div>
+                        </div>
+                        <div className="padLeft5p">
+                            <div><b>Formula:</b></div>
+                            <div className="padLeft5p"><ReLUFormula /></div>
+                        </div>
+                        <div className="padLeft5p">
+                            <div><b>Range:</b></div>
+                            <div>0 to ∞</div>
+                        </div>
+                        <div className="mtop5p padLeft5p">
+                            <div><b>Shape:</b></div>
+                            <div>Flat for negative values, linear for positive values.</div>
+                        </div>
+                        <div className="mtop5p padLeft5p">
+                            <div><b>Use:</b></div>
+                            <div>Most popular in Deep Learning because it’s simple and fast, and avoids 
+                                vanishing gradients for positive values.</div>
+                        </div>
+                        <div className="mtop5p padLeft5p">
+                            <div><b>Problem:</b></div>
+                            <div>"Dying ReLU" (when many neurons output 0 and stop learning).</div>
+                        </div>
+                        <div className="mtop5p padLeft5p">
+                            <div><b>Graph:</b></div>
+                            <div><img src={reLU} style={{ width:'200px' }} /></div>
+                        </div>
+  </div>);
  };
  return (<div className="mtop15p lh28p fs16p">
     <Card padding={15} backgroundColor="#eee">
@@ -134,103 +231,24 @@ const Introduction = () =>{
                     <div>Mathematically, an artificial neuron can be expressed as:</div>
                     <AFunctionFormula /> 
                     <div className="mtop5p">where <b>f(z)</b> is the activation function (like sigmoid, ReLU, or tanh).</div>
-                    <div><h5 className="blog-head"><b>1. Sigmoid</b></h5></div>
-                    <Card padding={15} backgroundColor="#fff">
-                        <div className="padLeft5p">
-                            <div><b>Overall Summary:</b></div>
-                            <div>Outputs between <b>0 and 1</b> (good for probabilities).</div>
-                        </div>
-                        <div className="padLeft5p">
-                            <div><b>Formula:</b></div>
-                            <div className="padLeft5p"><SigmoidFormula /></div>
-                        </div>
-                        <div className="padLeft5p">
-                            <div><b>Range:</b></div>
-                            <div>0 to 1</div>
-                        </div>
-                        <div className="mtop5p padLeft5p">
-                            <div><b>Shape:</b></div>
-                            <div>S-shaped curve</div>
-                        </div>
-                        <div className="mtop5p padLeft5p">
-                            <div><b>Use:</b></div>
-                            <div>Good for probabilities (like classification problems).</div>
-                        </div>
-                        <div className="mtop5p padLeft5p">
-                            <div><b>Problem:</b></div>
-                            <div>If input is too big/small, gradient becomes very small → vanishing gradient problem.</div>
-                        </div>
-                        <div className="mtop5p padLeft5p">
-                            <div><b>Graph:</b></div>
-                            <div><img src={Sigmoid} style={{ width:'200px' }} /></div>
-                        </div>
-                    </Card>
-
-                    <div className="mtop15p"><h4 className="blog-head"><b>2. Tanh (Hyperbolic Tangent)</b></h4></div>
-                    <Card padding={15} backgroundColor="#fff">
-                        <div className="padLeft5p">
-                            <div><b>Overall Summary:</b></div>
-                            <div>Outputs between <b>-1 and 1</b> (better balance, used in hidden layers).</div>
-                        </div>
-                        <div className="padLeft5p">
-                            <div><b>Formula:</b></div>
-                            <div className="padLeft5p"><TanhFormula /></div>
-                        </div>
-                        <div className="padLeft5p">
-                            <div><b>Range:</b></div>
-                            <div>-1 to 1</div>
-                        </div>
-                        <div className="mtop5p padLeft5p">
-                            <div><b>Shape:</b></div>
-                            <div>S-shaped but centered at 0</div>
-                        </div>
-                        <div className="mtop5p padLeft5p">
-                            <div><b>Use:</b></div>
-                            <div>Better than sigmoid because output is balanced between negative and positive values.</div>
-                        </div>
-                        <div className="mtop5p padLeft5p">
-                            <div><b>Problem:</b></div>
-                            <div>Still suffers from vanishing gradient at extremes.</div>
-                        </div>
-                        <div className="mtop5p padLeft5p">
-                            <div><b>Graph:</b></div>
-                            <div><img src={TanH} style={{ width:'200px' }} /></div>
-                        </div>
-                    </Card>
-
-                    <div className="mtop15p"><h4 className="blog-head"><b>3. ReLU (Rectified Linear Unit)</b></h4></div>
-                    <Card padding={15} backgroundColor="#fff">
-                        <div className="padLeft5p">
-                            <div><b>Overall Summary:</b></div>
-                            <div>Outputs <b>0 or positive values</b> (fast and commonly used in deep networks).</div>
-                        </div>
-                        <div className="padLeft5p">
-                            <div><b>Formula:</b></div>
-                            <div className="padLeft5p"><ReLUFormula /></div>
-                        </div>
-                        <div className="padLeft5p">
-                            <div><b>Range:</b></div>
-                            <div>0 to ∞</div>
-                        </div>
-                        <div className="mtop5p padLeft5p">
-                            <div><b>Shape:</b></div>
-                            <div>Flat for negative values, linear for positive values.</div>
-                        </div>
-                        <div className="mtop5p padLeft5p">
-                            <div><b>Use:</b></div>
-                            <div>Most popular in Deep Learning because it’s simple and fast, and avoids 
-                                vanishing gradients for positive values.</div>
-                        </div>
-                        <div className="mtop5p padLeft5p">
-                            <div><b>Problem:</b></div>
-                            <div>"Dying ReLU" (when many neurons output 0 and stop learning).</div>
-                        </div>
-                        <div className="mtop5p padLeft5p">
-                            <div><b>Graph:</b></div>
-                            <div><img src={reLU} style={{ width:'200px' }} /></div>
-                        </div>
-                    </Card>
-                    
+                    <div className="mtop15p mbot15p">
+                        <Accordian id="ActivationFunctionAccordian" 
+                            data={[{ 
+                                        id:"AFA#Sigmoid", 
+                                        title: (<div><b>1. Sigmoid</b></div>), 
+                                        component: <SignmoidContent /> 
+                                    },
+                                    { 
+                                        id:"AFA#Tanh", 
+                                        title: (<div><b>2. Tanh (Hyperbolic Tangent)</b></div>), 
+                                        component: <TanhContent />
+                                    },
+                                    { 
+                                        id:"AFA#", 
+                                        title: (<div><b>3. ReLU (Rectified Linear Unit)</b></div>), 
+                                        component: <ReLUContent /> 
+                                    }]} />
+                    </div>
                 </li>
                 <li className="mtop5p">
                     <div><b>Output (y):</b></div>
