@@ -7,11 +7,20 @@
     "urls":{
         "tech/aiml-basics/artifical-neuron":{
             "date":"October 26, 2024",
-            "label":"Artificial Neuron",
+            "label":"Artificial Neuron (Perceptron)",
             "component": "ArtificalNeuron",
             "breadcrumbIndex": "aiml",
             "keywords":[]
         },
+        "tech/aiml-basics/artifical-layer":{
+            "date":"October 26, 2024",
+            "label":"Artificial Layer",
+            "component": "ArtificalLayer",
+            "breadcrumbIndex": "aiml",
+            "keywords":[]
+        },
+
+        
         "tech/aiml/understanding-different-types-of-machine-learning-techniques":{
             "date":"October 26, 2024",
             "label":"Understanding different types of machine learning techniques",

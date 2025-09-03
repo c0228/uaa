@@ -1,4 +1,5 @@
 import ArtificalNeuron from "./terminologies/01-artifical-neuron/index.js";
+import ArtificalLayer from "./terminologies/02-artifical-layers/index.js";
 // ML
 import MLTechniques from "./content/ML/01-types-of-ml-techniques/index.js";
 import DecisionTreesVsRandomForests from "./content/ML/02-decision-trees-vs-random-forests/index.js";
@@ -16,6 +17,7 @@ import TFNewCategoryObjectDetection from "./content/TensorFlow/02-tf-new-categor
 export const AIMLComponentMap = {
  // Terminologies
  "ArtificalNeuron": ArtificalNeuron,
+ "ArtificalLayer": ArtificalLayer,
  // ML
  "MLTechniques": MLTechniques,
  "DecisionTreesVsRandomForests": DecisionTreesVsRandomForests,
