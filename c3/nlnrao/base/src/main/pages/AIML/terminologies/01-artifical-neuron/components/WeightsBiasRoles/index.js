@@ -1,6 +1,51 @@
 import React from "react";
-import { Card } from "e-ui-react";
+import { Card, Highlight } from "e-ui-react";
 import { MathJax, MathJaxContext } from "better-react-mathjax";
+
+const ARTNEURON_IMPL_BASIC = `import numpy as np
+
+# -------------------------
+# TRAINING PHASE
+# -------------------------
+
+# Training data
+X = np.array([5])        # input: hours studied
+y_true = np.array([80])  # actual marks
+
+# Initialize weight and bias
+w = np.random.randn()  # random start
+b = np.random.randn()
+learning_rate = 0.01
+
+print("Initial weight:", w, "bias:", b)
+
+# Training loop
+for epoch in range(1000):
+    # Forward pass (prediction)
+    y_pred = w * X + b
+    
+    # Calculate error (Mean Squared Error)
+    error = np.mean((y_true - y_pred) ** 2)
+    
+    # Gradients
+    dw = -2 * X * (y_true - y_pred)
+    db = -2 * (y_true - y_pred)
+    
+    # Update weight and bias
+    w = w - learning_rate * dw
+    b = b - learning_rate * db
+    
+    # Print progress every 100 steps
+    if epoch % 100 == 0:
+        print(f"Epoch {epoch}: Prediction={y_pred[0]:.2f}, Error={error:.2f}, w={w:.2f}, b={b:.2f}")
+
+# -------------------------
+# INFERENCE PHASE
+# -------------------------
+print("\n--- Inference Phase ---")
+X_test = np.array([5])  # new input: 5 hours
+y_infer = w * X_test + b
+print(f"Predicted marks for 5 hours study: {y_infer[0]:.2f}")`;
 
 const WeightsBiasRoles = () =>{
  const BasicPredictFormula = () =>{
@@ -40,8 +85,8 @@ const WeightsBiasRoles = () =>{
      </MathJaxContext>);
   };
  return (<div className="mtop15p lh28p fs16p">
-    <div><h2 className="blog-head"><b>4. Role of Weights (&omega;) and Bias (b)</b></h2></div>
-    <div className="mtop15p"><h4 className="blog-head"><b>4.1 Training Phase (Learning)</b></h4></div>
+    <div><h4 className="blog-head"><b>3.1. Role of Weights (&omega;) and Bias (b)</b></h4></div>
+    <div className="mtop15p"><h5 className="blog-head"><b>3.1.1 Training Phase (Learning)</b></h5></div>
     <div>
         <ul>
             <li className="mtop5p"><b>Inputs - Weighted Sum - Activation - Output</b></li>
@@ -71,7 +116,7 @@ const WeightsBiasRoles = () =>{
             </li>
         </ul>
     </div>
-    <div className="mtop15p"><h4 className="blog-head"><b>4.2 Inference Phase (Prediction)</b></h4></div>
+    <div className="mtop15p"><h5 className="blog-head"><b>3.1.2 Inference Phase (Prediction)</b></h5></div>
     <div>
         <ul>
             <li className="mtop5p">Now, we don’t have expected outputs.</li>
@@ -103,6 +148,13 @@ const WeightsBiasRoles = () =>{
         </div>
     </div>
     
+    <div><h4 className="blog-head"><b>3.2. Implement a Artifical Neuron using Python and Numpy Library</b></h4></div>
+    <div className="mtop5p">Let’s implement a <b>very simple artificial neuron</b> in Python using <b>NumPy</b> that shows both 
+        <b>training</b> (updating weights and bias) and <b>inference</b> (using learned weights & bias for prediction).</div>
+    <div className="mtop5p">Here’s the code:</div>
+    <div className="mtop5p">
+        <Highlight content={ARTNEURON_IMPL_BASIC} lang="python" />
+    </div>
  </div>);
 };
 
