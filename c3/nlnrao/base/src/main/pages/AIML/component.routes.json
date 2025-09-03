@@ -5,7 +5,7 @@
             { "label":"TensorFlow", "url":"/" }]
     },
     "urls":{
-        "tech/aiml-terminologies/artifical-neuron":{
+        "tech/aiml-basics/artifical-neuron":{
             "date":"October 26, 2024",
             "label":"Artificial Neuron",
             "component": "ArtificalNeuron",

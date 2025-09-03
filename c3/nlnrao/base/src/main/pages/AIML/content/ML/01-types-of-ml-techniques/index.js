@@ -25,7 +25,7 @@ const MLTechniques = ({ meta }) =>{
           <Conclusion />
         </Col>
         <Col md={4}>
-            <Terminologies title="AI/ML Terminologies" isIndex={true} prefix="tech/aiml-terminologies/" data={Routes?.urls} />
+            <Terminologies title="AI Basics" isIndex={true} prefix="tech/aiml-basics/" data={Routes?.urls} />
         </Col>
        </Row>
     </ContainerFluid>

@@ -191,7 +191,7 @@ const Introduction = () =>{
     real neurons receive signals, process them, and send outputs to other neurons, artificial neurons mimic this process to learn 
     from data.</div>
     <div className="mtop15p">
-        <img src={FLOWDIAGRAM} style={{ width:'40vw' }}/>
+        <img src={FLOWDIAGRAM} style={{ width:'50vw' }}/>
     </div>
     <div className="mtop15p">
         <div>A biological neuron works like this:</div>
