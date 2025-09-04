@@ -8,7 +8,7 @@ import Routes from "@MainPages/AIML/component.routes.json";
 import Introduction from "./components/Introduction/index.js";
 import Conclusion from "./components/Conclusion/index.js";
 
-const ArtificalLayer = ({ meta }) =>{
+const LanguageModels = ({ meta }) =>{
 
  return (<div className="mbot15p">
   <Header menulinks={HeaderMenu} activeId="Home" />
@@ -21,10 +21,12 @@ const ArtificalLayer = ({ meta }) =>{
         </Col>
         <Col md={4}>
             <Terminologies title="AI Basics" isIndex={true} prefix="tech/aiml-basics/" data={Routes?.urls} />
+            <Terminologies title="AI Terminologies" prefix="tech/aiml-terminologies/" data={Routes?.urls} />
+            <Terminologies title="Related Articles" prefix="tech/aiml/hardwares/" data={Routes?.urls} />
         </Col>
        </Row>
     </ContainerFluid>
  </div>);
 };
 
-export default ArtificalLayer;
+export default LanguageModels;

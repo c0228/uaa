@@ -1,6 +1,8 @@
 {
     "breadcrumbs":{
         "aiml":[{ "label":"Artificial Intelligence & Machine Learning", "url":"/" }],
+        "aiml-hardwares": [{ "label":"Artificial Intelligence & Machine Learning", "url":"/" },
+            { "label":"Hardwares", "url":"/" }],
         "tensor-flow":[{ "label":"Artificial Intelligence & Machine Learning", "url":"/" },
             { "label":"TensorFlow", "url":"/" }]
     },
@@ -19,7 +21,80 @@
             "breadcrumbIndex": "aiml",
             "keywords":[]
         },
+        "tech/aiml-basics/neural-networks":{
+            "date":"October 26, 2024",
+            "label":"Neural Networks",
+            "component": "NeuralNetworks",
+            "breadcrumbIndex": "aiml",
+            "keywords":[]
+        },
+        "tech/aiml-basics/transformers":{
+            "date":"October 26, 2024",
+            "label":"Transformers",
+            "component": "Transformers",
+            "breadcrumbIndex": "aiml",
+            "keywords":[]
+        },
+        "tech/aiml-basics/language-models":{
+            "date":"October 26, 2024",
+            "label":"Language Models (LM)",
+            "component": "LanguageModels",
+            "breadcrumbIndex": "aiml",
+            "keywords":[]
+        },
+        "tech/aiml-basics/large-language-models":{
+            "date":"October 26, 2024",
+            "label":"Large Language Models (LLM)",
+            "component": "LargeLanguageModels",
+            "breadcrumbIndex": "aiml",
+            "keywords":[]
+        },
+        "tech/aiml-basics/retrieval-augmented-generation":{
+            "date":"October 26, 2024",
+            "label":"Retrieval Augmented Generation (RAG)",
+            "component": "RetrievalAugmentedGeneration",
+            "breadcrumbIndex": "aiml",
+            "keywords":[]
+        },
+        "tech/aiml-basics/fine-tuning":{
+            "date":"October 26, 2024",
+            "label":"Fine-Tuning",
+            "component": "FineTuning",
+            "breadcrumbIndex": "aiml",
+            "keywords":[]
+        },
+        "tech/aiml-basics/agent-ai":{
+            "date":"October 26, 2024",
+            "label":"Agent AI",
+            "component": "AgentAI",
+            "breadcrumbIndex": "aiml",
+            "keywords":[]
+        },
 
+        "tech/aiml-basics/agentic-ai":{
+            "date":"October 26, 2024",
+            "label":"Agentic AI",
+            "component": "AgenticAI",
+            "breadcrumbIndex": "aiml",
+            "keywords":[]
+        },
+
+        "tech/aiml-terminologies/vector-embeddings":{
+            "date":"October 26, 2024",
+            "label":"Vector Embeddings",
+            "component": "VectorEmbeddings",
+            "breadcrumbIndex": "aiml",
+            "keywords":[]
+        },
+
+        
+        "tech/aiml/hardwares/cpu-vs-gpu-vs-tpu":{
+            "date":"October 26, 2024",
+            "label":"CPU vs GPU vs TPU. Why GPU / TPUs required for Transformers, Language Models and its above Hierarchy.",
+            "component": "CpuGpuTpu",
+            "breadcrumbIndex": "aiml-hardwares",
+            "keywords":[]
+        },
         
         "tech/aiml/understanding-different-types-of-machine-learning-techniques":{
             "date":"October 26, 2024",
