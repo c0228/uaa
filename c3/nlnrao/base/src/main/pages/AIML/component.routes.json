@@ -93,7 +93,16 @@
             "breadcrumbIndex": "aiml",
             "keywords":[]
         },
+        "tech/aiml-terminologies/nvidia-gpu-evolution":{
+            "date":"October 26, 2024",
+            "label":"NVIDIA GPU Evolution",
+            "component": "NvidiaGPUEvolution",
+            "breadcrumbIndex": "aiml",
+            "keywords":[]
+        },
 
+
+        
         
         "tech/aiml/hardwares/cpu-vs-gpu-vs-tpu":{
             "date":"October 26, 2024",

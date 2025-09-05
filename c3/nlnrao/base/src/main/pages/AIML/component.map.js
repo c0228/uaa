@@ -14,6 +14,7 @@ import VectorEmbeddings from "./terminologies/01-vector-embeddings/index.js";
 // content: Hardwares
 import CpuGpuTpu from "./content/Hardwares/01-cpu-gpu-tpu/index.js";
 import NvidiaTeslaT4GPU from "./content/Hardwares/02-nvidia-tesla-t4-gpu/index.js";
+import NvidiaGPUEvolution from "./content/Hardwares/03-nvidia-gpu-evolution/index.js";
 
 // content: ML
 import MLTechniques from "./content/ML/01-types-of-ml-techniques/index.js";
@@ -49,6 +50,7 @@ export const AIMLComponentMap = {
  // content: Hardwares
  "CpuGpuTpu": CpuGpuTpu,
  "NvidiaTeslaT4GPU": NvidiaTeslaT4GPU,
+ "NvidiaGPUEvolution": NvidiaGPUEvolution,
 
  // content: ML
  "MLTechniques": MLTechniques,
