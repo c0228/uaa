@@ -7,9 +7,10 @@ import Terminologies from '@MainComponents/terminologies-list/index.js';
 import RelatedArticlesList from '@MainComponents/related-articles-list/index.js';
 import Routes from "@MainPages/AIML/component.routes.json";
 import Introduction from "./components/Introduction/index.js";
+import Example from "./components/Example/index.js";
 import Conclusion from "./components/Conclusion/index.js";
 
-const VectorEmbeddings = ({ meta }) =>{
+const NvidiaTeslaT4GPU = ({ meta }) =>{
 
  return (<div className="mbot15p">
   <Header menulinks={HeaderMenu} activeId="Home" />
@@ -18,6 +19,7 @@ const VectorEmbeddings = ({ meta }) =>{
         <Col md={8}>
           <BlogArticleHeader metaData={meta} />
           <Introduction />
+          <Example />
           <Conclusion />
         </Col>
         <Col md={4}>
@@ -30,4 +32,4 @@ const VectorEmbeddings = ({ meta }) =>{
  </div>);
 };
 
-export default VectorEmbeddings;
+export default NvidiaTeslaT4GPU;

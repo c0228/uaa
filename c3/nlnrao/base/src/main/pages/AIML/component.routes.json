@@ -86,11 +86,20 @@
             "breadcrumbIndex": "aiml",
             "keywords":[]
         },
+        "tech/aiml-terminologies/nvidia-tesla-t4-gpu":{
+            "date":"October 26, 2024",
+            "label":"NVIDIA Tesla T4 GPU",
+            "component": "NvidiaTeslaT4GPU",
+            "breadcrumbIndex": "aiml",
+            "keywords":[]
+        },
 
         
         "tech/aiml/hardwares/cpu-vs-gpu-vs-tpu":{
             "date":"October 26, 2024",
+            "badge":"Hardwares",
             "label":"CPU vs GPU vs TPU. Why GPU / TPUs required for Transformers, Language Models and its above Hierarchy.",
+            "desc": "CPUs handle general tasks, but GPUs and TPUs excel at parallel processing needed for Transformers and large language models. Their architectures accelerate matrix multiplications and deep learning computations, making training and inference faster and more efficient than CPUs.",
             "component": "CpuGpuTpu",
             "breadcrumbIndex": "aiml-hardwares",
             "keywords":[]
