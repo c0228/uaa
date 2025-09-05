@@ -64,7 +64,7 @@ const Example = () =>{
     <div className="mtop5p padLeft5p">
         <Highlight content={PYTHON_RUN_MODEL} lang="python" />
     </div>
-    <div>If you’re running this on <b>Google Colab with GPU enabled,</b> it typically uses a <b>Tesla T4 GPU</b> by default.</div>
+    <div className="padLeft5p">If you’re running this on <b>Google Colab with GPU enabled,</b> it typically uses a <b>Tesla T4 GPU</b> by default.</div>
  </div>);
 };
 
