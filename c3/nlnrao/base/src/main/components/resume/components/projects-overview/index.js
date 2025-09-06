@@ -121,7 +121,7 @@ const ProjectOverview = () =>{
               <div>{project?.desc}</div>
               <div className="mtop5p">
               {project?.tags?.map((tag,i)=>{
-                return (<span key={i} className="badge fs11" style={{ color:'#ccc', border:'1px solid #ccc', padding:'6px', marginRight:'5px' }}>{tag}</span>);
+                return (<span key={i} className="badge resume-project-badge fs11">{tag}</span>);
               })}
               </div>
               <div className="mtop15p">

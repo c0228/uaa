@@ -24,6 +24,12 @@ export const data = [{
                "Frontend Unit Testing": "Jasmine Framework and Karma Test Runner",
                "Backend Stack": "Java 7, Spring Framework (v.3), Spring MVC with Hibernate (Backend API Development)",
                "Backend Unit Testing": "JUnit Testing Framework and Mockito Framework",
+               "API Contract Approach": (<div>
+                  <div><span className="badge resume-project-badge fs11">Contract-First Approach</span></div> 
+                  <div className="mtop5p"><span className="text-grey2"><b>WSDL</b></span> (for SOAP services),</div>
+                  <div className="mtop5p"><span className="badge resume-project-badge fs11">Contract-First Approach</span></div>
+                  <div className="mtop5p"><span className="text-grey2"><b>OpenAPI/Swagger</b></span> (for REST APIs)</div>
+                </div>),
                "Telecom Stack": "VoIP Gateway, Cisco Unified Intelligent Contact Management Enterprise (ICME), VXML Server, Cisco Call Studio",
                "End-to-End Testing": "Java Selenium Framework",
                "Protocols Used": "HTTP / HTTPS, SIP, H.323, WebSocket protocols and WebRTC Technologies",
@@ -150,6 +156,14 @@ export const data = [{
              "Team Size": 5,
              "My Roles": "Web & Desktop App Developer"
            },
+           "projectTechStack":{
+              "API Contract Approach": (<div>
+                  <div><span className="badge resume-project-badge fs11">Contract-Last Approach</span></div> 
+                  <div className="mtop5p"><span className="text-grey2"><b>WSDL</b></span> (for SOAP services),</div>
+                  <div className="mtop5p"><span className="badge resume-project-badge fs11">Contract-Last Approach</span></div>
+                  <div className="mtop5p"><span className="text-grey2"><b>OpenAPI/Swagger</b></span> (for REST APIs)</div>
+                </div>),
+           }
        }]
     },{
       "timeline":"September 2014 ~ February 2015",
@@ -172,6 +186,12 @@ export const data = [{
               "Frontend Unit Testing": "Jasmine Framework and Karma Test Runner",
               "Backend Stack": "Java 7, Spring Framework (v.3), Spring MVC with Hibernate (Backend API Development)",
               "Backend Unit Testing": "JUnit Testing Framework and Mockito Framework",
+              "API Contract Approach": (<div>
+                  <div><span className="badge resume-project-badge fs11">Contract-First Approach</span></div> 
+                  <div className="mtop5p"><span className="text-grey2"><b>WSDL</b></span> (for SOAP services),</div>
+                  <div className="mtop5p"><span className="badge resume-project-badge fs11">Contract-First Approach</span></div>
+                  <div className="mtop5p"><span className="text-grey2"><b>OpenAPI/Swagger</b></span> (for REST APIs)</div>
+                </div>),
               "Telecom Stack": "VoIP Gateway, Cisco Unified Intelligent Contact Management Enterprise (ICME), VXML Server, Cisco Call Studio",
               "End-to-End Testing": "Java Selenium Framework",
               "Protocols Used": "HTTP / HTTPS, SIP, H.323, WebSocket protocols and WebRTC Technologies",
