@@ -17,9 +17,9 @@ export const data = [{
              "My Roles": "Web Application Developer"
            }, 
            "projectTechStack":{
-               "Software Life Cycle": "Agile Methodology",
+               "Software Life Cycle": "Agile Methodology (Scrum Framework)",
                "Project Architecture": "Microservice Architecture",
-               "Management Tools": "Jira, Atlassian Confluence",
+               "Management Tools": "Jira, Atlassian Confluence, SVN (Code Version-Control)",
                "Frontend Stack": "HTML, CSS, Javascript, Bootstrap, JQuery, Ajax, Angular JS",
                "Frontend Unit Testing": "Jasmine Framework and Karma Test Runner",
                "Backend Stack": "Java 7, Spring Framework (v.3), Spring MVC with Hibernate (Backend API Development)",
@@ -33,8 +33,8 @@ export const data = [{
                "Telecom Stack": "VoIP Gateway, Cisco Unified Intelligent Contact Management Enterprise (ICME), VXML Server, Cisco Call Studio",
                "End-to-End Testing": "Java Selenium Framework",
                "Protocols Used": "HTTP / HTTPS, SIP, H.323, WebSocket protocols and WebRTC Technologies",
-               "Database Server": "Microsoft SQL Server",
-               "Web Server": "GlassFish Web Server",
+               "Database Servers": "Microsoft SQL Server",
+               "Web Servers": "GlassFish Web Server",
                "DevOps & CICD Tools": "Github (Source Version Control), Jenkins (Pipeline Orchestration), FindBugs and SonarCube Code Coverage Tool",
                "Integrated Development Environment (IDE)": (<div>NetBeans IDE,<br/> Cisco Call Studio</div>),
                "Browsers Supported": "Mozilla FireFox, Google Chrome and Internet Explorer 5, 6, 7"
@@ -146,10 +146,14 @@ export const data = [{
        },{
          "title":"Vocal Flow Simulator",
          "isPOC": true,
-         "desc":(<div>This an extensive POC Idea of adding VocalFlow Simulator to the Customer Contact Business Unit (CCBU) to enhance IVR 
-           testing and simulation capabilities. This simulator is engineered to emulate real-world IVR interactions through simulated calls, 
-           providing a controlled environment for rigorous testing while concurrently reducing the dependency on the traditional telephony 
-           infrastructure.</div>),
+         "desc":(<div>The <span className="text-grey2"><b>Vocal Flow Simulator</b></span> is an advanced Proof of Concept (POC) 
+            initiative designed for the <span className="text-grey2"><b>Customer Contact 
+            Business Unit (CCBU)</b></span> to augment and modernize IVR testing and simulation capabilities. The simulator replicates 
+            real-world <span className="text-grey2"><b>Interactive Voice Response (IVR)</b></span> interactions by simulating call flows 
+            and vocal inputs, allowing QA engineers and developers to test IVR applications in 
+            a <span className="text-grey2"><b>controlled virtual environment</b></span> without dependency on traditional telephony 
+            hardware.<br/> This solution aims to accelerate the IVR deployment lifecycle, enhance testing coverage, and optimize the cost of 
+            infrastructure maintenance.</div>),
          "tags":["Website","Desktop App"],
          "projectDetails":{
              "Client Name":"Cisco Systems, Inc",
@@ -157,12 +161,48 @@ export const data = [{
              "My Roles": "Web & Desktop App Developer"
            },
            "projectTechStack":{
+              "Software Life Cycle": "Agile Methodology (Scrum Framework)",
+              "Project Architecture": "Multi-tier MVC Architecture",
+              "Management Tools": "Jira, Atlassian Confluence, SVN (Code Version-Control)",
+              "FRONTEND STACK": "",
+              "Technologies": "HTML5, CSS3, JavaScript, jQuery, Bootstrap",
+              "Desktop Variant": "JavaFX-based desktop app (early prototype used Qt WebKit)",
+              "UI Libraries": "jQuery UI, D3.js (for IVR flow visualization)",
+              "Frontend Unit Testing": "Jasmine Framework, QUnit Framework, JUnit (for JavaFX UI logic)",
+              "FRONTEND TESTING": "",
+              "Unit Testing": (<div><span className="text-grey2"><b>Jasmine Framework</b></span> and <span className="text-grey2"><b>QUnit Framework</b></span> (for 
+                validating individual UI components, DOM events, and JavaScript logic)</div>),
+              "Integration Testing":(<div><span className="text-grey2"><b>JUnit</b></span> (for JavaFX) and <span className="text-grey2"><b>Selenium WebDriver</b></span> (for 
+                verifying UI integration with backend APIs)</div>),
+              "Functional Testing":"Manual and automated validation of IVR flow visualizations and dynamic state transitions",
+              "Regression Testing": (<div>Automated test suites triggered via <span className="text-grey2"><b>Jenkins</b></span> after each frontend deployment</div>),
+              "Cross-Browser Testing":(<div>Verified compatibility across Chrome, Firefox, and Internet Explorer 9+ 
+                      using <span className="text-grey2"><b>BrowserStack</b></span> and manual QA validation</div>),
+              "Performance Testing":(<div><span className="text-grey2"><b>Lighthouse</b></span> and <span className="text-grey2"><b>Browser developer tools</b></span> for measuring rendering performance and load times</div>),
+              "BACKEND STACK": "",
+              "Languages":"Java (Core, J2EE)",
+              "Frameworks": "Spring MVC, Hibernate ORM",
+              "Core Modules": "Custom-built IVR simulation engine using VXML and XML parsers", 
+              "API Design": "RESTful endpoints developed using Jersey and Spring REST",
+              "Concurrency": "Thread pooling and asynchronous job queues for multi-session simulations",
+              "Caching":"Ehcache for simulation replay optimization",
+              "Security":"Basic Auth and token validation for secure access",
+              "Logging and Monitoring":"Log4j and JMX for runtime performance tracking",
+              "Backend Unit Testing": "",
               "API Contract Approach": (<div>
                   <div><span className="badge resume-project-badge fs11">Contract-Last Approach</span></div> 
                   <div className="mtop5p"><span className="text-grey2"><b>WSDL</b></span> (for SOAP services),</div>
                   <div className="mtop5p"><span className="badge resume-project-badge fs11">Contract-Last Approach</span></div>
                   <div className="mtop5p"><span className="text-grey2"><b>OpenAPI/Swagger</b></span> (for REST APIs)</div>
                 </div>),
+              "Telecom Stack": "",
+               "End-to-End Testing": "",
+               "Protocols Used": "",
+               "Database Servers": "",
+               "Web Servers": "",
+               "DevOps & CICD Tools": "",
+               "Integrated Development Environment (IDE)": (<div>NetBeans IDE,<br/> Cisco Call Studio</div>),
+               "Browsers Supported": ""
            }
        }]
     },{
