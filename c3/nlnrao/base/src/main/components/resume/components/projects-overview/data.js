@@ -164,31 +164,41 @@ export const data = [{
               "Software Life Cycle": "Agile Methodology (Scrum Framework)",
               "Project Architecture": "Multi-tier MVC Architecture",
               "Management Tools": "Jira, Atlassian Confluence, SVN (Code Version-Control)",
-              "FRONTEND STACK": "",
-              "Technologies": "HTML5, CSS3, JavaScript, jQuery, Bootstrap",
-              "Desktop Variant": "JavaFX-based desktop app (early prototype used Qt WebKit)",
-              "UI Libraries": "jQuery UI, D3.js (for IVR flow visualization)",
-              "Frontend Unit Testing": "Jasmine Framework, QUnit Framework, JUnit (for JavaFX UI logic)",
-              "FRONTEND TESTING": "",
-              "Unit Testing": (<div><span className="text-grey2"><b>Jasmine Framework</b></span> and <span className="text-grey2"><b>QUnit Framework</b></span> (for 
-                validating individual UI components, DOM events, and JavaScript logic)</div>),
-              "Integration Testing":(<div><span className="text-grey2"><b>JUnit</b></span> (for JavaFX) and <span className="text-grey2"><b>Selenium WebDriver</b></span> (for 
-                verifying UI integration with backend APIs)</div>),
-              "Functional Testing":"Manual and automated validation of IVR flow visualizations and dynamic state transitions",
-              "Regression Testing": (<div>Automated test suites triggered via <span className="text-grey2"><b>Jenkins</b></span> after each frontend deployment</div>),
-              "Cross-Browser Testing":(<div>Verified compatibility across Chrome, Firefox, and Internet Explorer 9+ 
-                      using <span className="text-grey2"><b>BrowserStack</b></span> and manual QA validation</div>),
-              "Performance Testing":(<div><span className="text-grey2"><b>Lighthouse</b></span> and <span className="text-grey2"><b>Browser developer tools</b></span> for measuring rendering performance and load times</div>),
-              "BACKEND STACK": "",
-              "Languages":"Java (Core, J2EE)",
-              "Frameworks": "Spring MVC, Hibernate ORM",
-              "Core Modules": "Custom-built IVR simulation engine using VXML and XML parsers", 
-              "API Design": "RESTful endpoints developed using Jersey and Spring REST",
-              "Concurrency": "Thread pooling and asynchronous job queues for multi-session simulations",
-              "Caching":"Ehcache for simulation replay optimization",
-              "Security":"Basic Auth and token validation for secure access",
-              "Logging and Monitoring":"Log4j and JMX for runtime performance tracking",
-              "Backend Unit Testing": "",
+              "FRONTEND STACK": {
+                "Technologies": "HTML5, CSS3, JavaScript, jQuery, Bootstrap",
+                "Desktop Variant": "JavaFX-based desktop app (early prototype used Qt WebKit)",
+                "UI Libraries": "jQuery UI, D3.js (for IVR flow visualization)",
+                "Frontend Unit Testing": "Jasmine Framework, QUnit Framework, JUnit (for JavaFX UI logic)"
+              },
+              "FRONTEND TESTING": {
+                "Unit Testing": (<div><span className="text-grey2"><b>Jasmine Framework</b></span> and <span className="text-grey2"><b>QUnit Framework</b></span> (for 
+                  validating individual UI components, DOM events, and JavaScript logic)</div>),
+                "Integration Testing":(<div><span className="text-grey2"><b>JUnit</b></span> (for JavaFX) and <span className="text-grey2"><b>Selenium WebDriver</b></span> (for 
+                  verifying UI integration with backend APIs)</div>),
+                "Functional Testing":"Manual and automated validation of IVR flow visualizations and dynamic state transitions",
+                "Regression Testing": (<div>Automated test suites triggered via <span className="text-grey2"><b>Jenkins</b></span> after each frontend deployment</div>),
+                "Cross-Browser Testing":(<div>Verified compatibility across Chrome, Firefox, and Internet Explorer 9+ 
+                        using <span className="text-grey2"><b>BrowserStack</b></span> and manual QA validation</div>),
+                "Performance Testing":(<div><span className="text-grey2"><b>Lighthouse</b></span> and <span className="text-grey2"><b>Browser developer tools</b></span> for measuring rendering performance and load times</div>),
+              },
+              "BACKEND STACK": {
+                "Languages":"Java (Core, J2EE)",
+                "Frameworks": "Spring MVC, Hibernate ORM",
+                "Core Modules": "Custom-built IVR simulation engine using VXML and XML parsers", 
+                "API Design": "RESTful endpoints developed using Jersey and Spring REST",
+                "Concurrency": "Thread pooling and asynchronous job queues for multi-session simulations",
+                "Caching":"Ehcache for simulation replay optimization",
+                "Security":"Basic Auth and token validation for secure access",
+                "Logging and Monitoring":"Log4j and JMX for runtime performance tracking",
+              },
+              "BACKEND TESTING": {
+                "Unit Testing": (<div><span className="text-grey2"><b>JUnit</b></span>, <span className="text-grey2"><b>Mockito</b></span> (for 
+                  service and DAO layer validation)</div>),
+                "Integration Testing":"REST Assured for API-level contract testing",
+                "Load Testing": (<div><span className="text-grey2"><b>Apache JMeter</b></span> (for concurrent simulation and stress testing)</div>),
+                "Database Testing": (<div><span className="text-grey2"><b>DBUnit</b></span> (for CRUD operation validation and rollback verification)</div>),
+                "Continuous Testing": (<div><span className="text-grey2"><b>Jenkins</b></span> integrated test pipelines for regression and nightly builds</div>),
+              },
               "API Contract Approach": (<div>
                   <div><span className="badge resume-project-badge fs11">Contract-Last Approach</span></div> 
                   <div className="mtop5p"><span className="text-grey2"><b>WSDL</b></span> (for SOAP services),</div>

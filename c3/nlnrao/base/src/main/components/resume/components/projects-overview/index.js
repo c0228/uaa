@@ -15,16 +15,42 @@ const ProjectOverview = () =>{
   return (<div className="mbot15p"><span className="resume-project-subtitle "><b>{title}</b></span></div> );
  };
 
+const isPlainObject = (value) =>
+  value && typeof value === "object" && !React.isValidElement(value) && !Array.isArray(value);
+
+const isJSON = (value) => {
+  if (isPlainObject(value)) return true; // plain object, recurse
+  if (typeof value !== "string") return false; // not a string, not JSON
+  try {
+    const parsed = JSON.parse(value);
+    return isPlainObject(parsed) || Array.isArray(parsed);
+  } catch {
+    return false;
+  }
+};
+
+
  const ProfileTech = ({ title, data }) =>{
   const stackKeys = data? Object.keys(data):[];
   return (<div>
   {title?.length>0 && <Header title={title} />}
   {stackKeys?.map((stackKey,i)=>{
     const stackVal = data?.[stackKey];
-    return (<div key={i} className="row mtop5p mbot5p">
-      <div className="col-xl-5 text-grey2"><b>{stackKey}:</b></div>
-      <div className="col-xl-7">{stackVal}</div>
-    </div>);
+    // If the value is JSON, parse it and render recursively
+    if (isJSON(stackVal)) {
+      const parsedVal = typeof stackVal === "string" ? JSON.parse(stackVal) : stackVal;
+      return (<div>
+      <div style={{ borderTop:'1px dotted #ccc', borderBottom:'1px dotted #ccc', paddingTop:'5px', paddingBottom:'5px',
+          fontSize:'12px' }}><b>{stackKey} -</b></div>
+      <ProfileTech data={parsedVal} />
+      </div>);
+    } else {
+    // Otherwise, render normally
+      return (<div key={i} className="row mtop5p mbot5p">
+        <div className="col-xl-5 text-grey2"><b>{stackKey}:</b></div>
+        <div className="col-xl-7">{stackVal}</div>
+      </div>);
+    }
   })}   
   </div>);
  };
