@@ -165,8 +165,9 @@ export const data = [{
               "Project Architecture": "Multi-tier MVC Architecture",
               "Management Tools": "Jira, Atlassian Confluence, SVN (Code Version-Control)",
               "FRONTEND STACK": {
-                "Technologies": "HTML5, CSS3, JavaScript, jQuery, Bootstrap",
+                "Web Interface": "HTML5, CSS3, JavaScript, jQuery, Bootstrap",
                 "Desktop Variant": "JavaFX-based desktop app (early prototype used Qt WebKit)",
+                "UI Components": "Interactive tree-based IVR flow visualizer and live simulation status dashboard",
                 "UI Libraries": "jQuery UI, D3.js (for IVR flow visualization)",
                 "Frontend Unit Testing": "Jasmine Framework, QUnit Framework, JUnit (for JavaFX UI logic)"
               },
@@ -180,6 +181,8 @@ export const data = [{
                 "Cross-Browser Testing":(<div>Verified compatibility across Chrome, Firefox, and Internet Explorer 9+ 
                         using <span className="text-grey2"><b>BrowserStack</b></span> and manual QA validation</div>),
                 "Performance Testing":(<div><span className="text-grey2"><b>Lighthouse</b></span> and <span className="text-grey2"><b>Browser developer tools</b></span> for measuring rendering performance and load times</div>),
+                "End-to-End Testing": (<div><span className="text-grey2"><b>Selenium</b></span> (for automated UI workflow validation), <span className="text-grey2"><b>Custom IVR scripts</b></span> (to simulate end-to-end call flows, including DTMF input and 
+                  VXML response verification)</div>),
               },
               "BACKEND STACK": {
                 "Languages":"Java (Core, J2EE)",
@@ -199,20 +202,36 @@ export const data = [{
                 "Database Testing": (<div><span className="text-grey2"><b>DBUnit</b></span> (for CRUD operation validation and rollback verification)</div>),
                 "Continuous Testing": (<div><span className="text-grey2"><b>Jenkins</b></span> integrated test pipelines for regression and nightly builds</div>),
               },
-              "API Contract Approach": (<div>
+              "TELECOM STACKS":{
+                "Asterisk PBX (Open Source)": "Served as the primary call simulation engine. It handled SIP signaling, call routing, DTMF tone processing, and integration with the VXML Server to emulate real-world IVR behavior.",
+                "VXML Server (CCBU Integration)":"Hosted and executed customer-provided VXML applications. Each application was mapped to a virtual phone number that could be triggered from the simulator UI or test scripts.",
+                "FreeSWITCH (Media Gateway)":"Used for handling concurrent call sessions, RTP audio streams, and codec conversions. Supported simulation of multiple IVR sessions simultaneously during stress testing.",
+                "OpenSIPS / Kamailio (SIP Proxy)":"Acted as a signaling layer for managing SIP message routing between the simulator, PBX, and VXML server components.",
+                "Softphone Clients (Zoiper, X-Lite)": "Utilized during integration testing to manually validate call flows, play DTMF tones, and verify audio prompts during simulation cycles.",
+                "Media Server Extensions (Asterisk Media Plugins)": "Enabled playback of pre-recorded voice prompts, detection of audio input responses, and simulated voice streaming between endpoints.",
+                "Voice Codec Simulation": "Supported G.711, G.729, and Opus codec formats to test compression, latency, and voice quality under simulated network conditions.",
+                "JavaFX Call Flow Visualizer":"Integrated directly into the desktop app, providing a real-time visual map of SIP call states, IVR routing logic, and event triggers based on the telecom stack’s runtime state."
+              },
+              "OTHER STACKS":{
+                "API Contract Approach": (<div>
                   <div><span className="badge resume-project-badge fs11">Contract-Last Approach</span></div> 
                   <div className="mtop5p"><span className="text-grey2"><b>WSDL</b></span> (for SOAP services),</div>
                   <div className="mtop5p"><span className="badge resume-project-badge fs11">Contract-Last Approach</span></div>
                   <div className="mtop5p"><span className="text-grey2"><b>OpenAPI/Swagger</b></span> (for REST APIs)</div>
                 </div>),
-              "Telecom Stack": "",
-               "End-to-End Testing": "",
-               "Protocols Used": "",
-               "Database Servers": "",
-               "Web Servers": "",
-               "DevOps & CICD Tools": "",
-               "Integrated Development Environment (IDE)": (<div>NetBeans IDE,<br/> Cisco Call Studio</div>),
-               "Browsers Supported": ""
+              },               
+               "Protocols Used": (<div><span className="text-grey2"><b>HTTP/HTTPS</b></span> (for application 
+                communication), <span className="text-grey2"><b>SIP and RTSP protocol</b></span> (stubs for telephony interaction 
+                simulation), <span className="text-grey2"><b>XML/VXML</b></span> parsing for IVR call script execution</div>),
+               "Database Servers": (<div><span className="text-grey2"><b>MySQL Database</b></span> (for backend persistence), 
+                    <span className="text-grey2"><b>SQLite Database</b></span> (for local and lightweight desktop mode simulations)</div>),
+               "Web Servers": (<div><span className="text-grey2"><b>Apache Tomcat</b></span> (for backend service deployment)</div>),
+               "DevOps & CICD Tools": (<div><span className="text-grey2"><b>Jenkins</b></span> (for automated build and 
+               deployment pipelines), <span className="text-grey2"><b>Ant</b></span> (for legacy code reusablitity) 
+               and <span className="text-grey2"><b>Maven</b></span> (for build Management)</div>),
+               "Integrated Development Environment (IDE)": (<div><span className="text-grey2"><b>NetBeans IDE</b></span> (JavaFX 
+                Development), <span className="text-grey2"><b>Eclipse</b></span> (for Backend Development)</div>),
+               "Browsers Supported": (<div>Chrome, Firefox, and Internet Explorer 9+</div>)
            }
        }]
     },{
