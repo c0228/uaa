@@ -1,4 +1,6 @@
 import React, { useState } from "react";
+import { Icon } from "e-ui-react";
+import ProfileTechStack from "./components/profile-tech-stack/index.js";
 import { data } from './data.js';
 import './index.css';
 
@@ -15,10 +17,8 @@ const ProjectOverview = () =>{
   return (<div className="mbot15p"><span className="resume-project-subtitle "><b>{title}</b></span></div> );
  };
 
-const isPlainObject = (value) =>
-  value && typeof value === "object" && !React.isValidElement(value) && !Array.isArray(value);
-
 const isJSON = (value) => {
+  const isPlainObject = (value) => value && typeof value === "object" && !React.isValidElement(value) && !Array.isArray(value);
   if (isPlainObject(value)) return true; // plain object, recurse
   if (typeof value !== "string") return false; // not a string, not JSON
   try {
@@ -29,9 +29,10 @@ const isJSON = (value) => {
   }
 };
 
-
+/*
  const ProfileTech = ({ title, data }) =>{
   const stackKeys = data? Object.keys(data):[];
+  const [showStack, setShowStack] = useState(null);
   return (<div>
   {title?.length>0 && <Header title={title} />}
   {stackKeys?.map((stackKey,i)=>{
@@ -41,8 +42,12 @@ const isJSON = (value) => {
       const parsedVal = typeof stackVal === "string" ? JSON.parse(stackVal) : stackVal;
       return (<div>
       <div style={{ borderTop:'1px dotted #ccc', borderBottom:'1px dotted #ccc', paddingTop:'5px', paddingBottom:'5px',
-          fontSize:'12px' }}><b>{stackKey} -</b></div>
+          cursor:'pointer', fontSize:'12px' }}><b>{stackKey} <span className="float-end" onClick={()=>setShowStack(i)}>
+              <Icon type="FontAwesome" name={(showStack===i)?"fa-angle-double-down":"fa-angle-double-up"} size={16} />
+            </span></b></div>
+      <div className={(showStack===i)?"collapse in":"collapse"}>
       <ProfileTech data={parsedVal} />
+      </div>
       </div>);
     } else {
     // Otherwise, render normally
@@ -54,6 +59,7 @@ const isJSON = (value) => {
   })}   
   </div>);
  };
+ */
  const ProjectDetails = ({ project }) =>{
   const [showDetails, setShowDetails] = useState(false);
   const ShowMoreView = ()=>{
@@ -62,9 +68,15 @@ const isJSON = (value) => {
         onClick={()=>setShowDetails(!showDetails)}>{showDetails?<span>- View Less</span>:<span>+ View More</span>}</span>
     </div>);
   };
-  const RR = ({ data}) =>{
+  const RR = ({ data }) =>{
+    console.log(data);
     return ((<div>
-      <div>{data?.desc}</div>
+      <ol>
+        {data?.map((d,i)=>{
+          return (<li key={i}><span className="text-grey1"><b>{d}:</b></span></li>);
+        })}
+      </ol>
+      {/*<div>{data?.desc}</div>
       <ol>
       {data?.details?.map((d,i1)=>{
         return (<li key={i1}><span className="text-grey1"><b>{d?.role}:</b></span>
@@ -73,7 +85,7 @@ const isJSON = (value) => {
           </ul>
       </li>);
       })}
-      </ol>
+      </ol>*/}
     </div>));
   };
   const Challenges = ({ data }) =>{
@@ -113,7 +125,7 @@ const isJSON = (value) => {
   return (<div>
     <ShowMoreView />
     <div className={showDetails?"collapse show":"collapse"}>
-      <ProfileTech title="Project Tech Stack" data={project?.projectTechStack} /> 
+      <ProfileTechStack title="Project Tech Stack" data={project?.projectTechStack} /> 
       <Header title="My Role and Responsibilities" />
       <RR data={project?.rolesAndresponsibilities} />
       <Header title="Challenges and Problem Solving Solutions" />
@@ -151,7 +163,7 @@ const isJSON = (value) => {
               })}
               </div>
               <div className="mtop15p">
-              <ProfileTech title="Project Summary" data={project?.projectDetails} />
+              <ProfileTechStack title="Project Summary" data={project?.projectDetails} />
               </div>
               <ProjectDetails project={project} />
             </div>

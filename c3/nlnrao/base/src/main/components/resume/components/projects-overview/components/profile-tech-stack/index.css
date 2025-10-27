@@ -1,0 +1,19 @@
+.collapse-wrapper {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease, opacity 0.3s ease;
+  opacity: 0;
+}
+
+.collapse-wrapper.open {
+  max-height: 1000px; /* enough space for your nested items */
+  opacity: 1;
+  transition:
+    max-height 0.2s ease-out, /* slower open */
+    opacity 0.3s ease-out;
+}
+
+.collapse-content {
+  margin-left: 10px;
+  padding: 5px 0;
+}

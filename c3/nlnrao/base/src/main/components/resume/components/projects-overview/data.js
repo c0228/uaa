@@ -39,110 +39,6 @@ export const data = [{
                "Integrated Development Environment (IDE)": (<div>NetBeans IDE,<br/> Cisco Call Studio</div>),
                "Browsers Supported": "Mozilla FireFox, Google Chrome and Internet Explorer 5, 6, 7"
            },
-           "rolesAndresponsibilities":{
-             "desc": (<div>I served as a Web Application Developer, seamlessly integrating telecommunications and web technologies to construct a 
-             robust application. My Duties are</div>),
-             "details":[{
-               "role": "Frontend Development",
-               "responsibilities": [(<div>Designing and Implementing user interfaces by incorporating responsive design principles for a 
-                       seamless user experience.</div>),
-                       (<div>Ensured cross-browser compatibility for consistent performance across various web browsers, 
-                       enhancing the accessibility of the Website.</div>)]
-             },{
-               "role": "Backend API Development",
-               "responsibilities": [(<div>Implementing Server-side business logic that connects Telecom and Web Connectivity.</div>),
-                 (<div>Integrating Hibernate for efficient data persistence and data management.</div>),
-                 (<div>Ensuring data security and integrity through proper authentication and authorization mechanism.</div>)
-               ]
-             },{
-               "role":"Telecom Tech Integration",
-               "responsibilities":[(<div>Configured VoIP Gateways for optimized PSTN Inbound call handling, implementing dynamic 
-                       routing strategies for optimal resource usage.</div>),
-                       (<div>Utilized Cisco Unified Intelligent Contact Management Enterprise (ICME) for intelligent call routing.</div>),
-                     (<div>Integrated the VXML Server to facilitate remote IVR project deployment through a user-friendly portal.</div>)]
-             },{
-               "role":"Working with Communication Protocols",
-               "responsibilities":[(<div>Leveraged SIP for robust VoIP communication, H.323 for audio data transmission, and WebSocket for real-time 
-                 bidirectional communication, enhancing the seamless integration of telecom technologies within the IVR Phone-call 
-                 deployment and testing platform.</div>)]
-             }]
-           },
-         "challenges":[{
-           "title":"Integration Complexity",
-           "challenge": (<div>Integrating diverse technologies such as VoIP, VXML, and web technologies can be complex, leading to 
-             interoperability challenges</div>),
-           "solution": [(<div>Leveraged SIP for robust VoIP communication, H.323 for audio data transmission, and WebSocket for real-time 
-             bidirectional communication, enhancing the seamless integration of telecom technologies within the IVR Phone-call 
-             deployment and testing platform.</div>)]
-         },{
-           "title":"Telecom Technology Challenges",
-           "challenge":(<div>Addressing the intricacies of VoIP protocols (SIP, H.323) and ensuring seamless communication.</div>),
-           "solution":[(<div>Engaged in continuous learning to stay updated on telecom protocols. Collaborated with telecom 
-             experts to troubleshoot and resolve protocol-related issues promptly. Implemented robust error handling mechanisms 
-             to enhance system resilience.</div>)]
-         },{
-           "title":"Scalability Challenges",
-           "challenge":(<div>Ensuring the system can handle a growing number of concurrent users and increasing project deployments.</div>),
-           "solution":[(<div>Implemented microservices architecture to allow for scalable and independent deployment of components. 
-             Utilized load testing tools to identify bottlenecks and optimize system performance. Implemented caching mechanisms and 
-             optimized database queries for improved scalability.</div>)]
-         },{
-           "title":"Security Measures",
-           "challenge":(<div>Ensuring data security and integrity in a telecom and web environment with sensitive information.</div>),
-           "solution":[(<div>Implemented secure coding practices, including input validation and output encoding, to prevent common 
-             security vulnerabilities. Employed HTTPS for secure communication, implemented role-based access control, and regularly 
-             updated security protocols to stay compliant with industry standards.</div>)]
-         }],
-         "achievements":[{
-           "title":"Microservice Architecture Implementation",
-           "achievement":(<div>Designed and implemented a microservices architecture for the CCBU Demo Portal, enhancing scalability, 
-             maintainability, and deployment flexibility.</div>),
-           "outcome":[(<div>Streamlined development processes and improved the platform's ability to handle growing user loads.</div>)]
-         },{
-           "title":"Efficient Frontend Development with Responsive UI",
-           "achievement":(<div>Spearheaded frontend development efforts, incorporating responsive design principles for a 
-             seamless user experience across various devices.</div>),
-           "outcome":[(<div>Delivered an intuitive and user-friendly web portal, improving accessibility and overall user satisfaction.</div>)]
-         },{
-           "title":"Robust Backend API Development Using Java and Spring",
-           "achievement":(<div>Developed a resilient backend API using Java 7 and the Spring Framework, integrating Hibernate 
-             for efficient data persistence and management.</div>),
-           "outcome":[(<div>Ensured data integrity, efficient data handling, and a scalable backend infrastructure.</div>)]
-         },{
-           "title":"Telecom Technology Integration for IVR Phone-Call Projects",
-           "achievement":(<div>Successfully integrated VoIP Gateways, Cisco Unified Intelligent Contact Management Enterprise (ICME), and 
-             VXML Server, creating a comprehensive platform for deploying and testing IVR phone-call projects.</div>),
-           "outcome":[(<div>Enabled the seamless deployment and testing of IVR projects, enhancing the telecommunications capabilities 
-             of the platform.</div>)]
-         },{
-           "title":"Effective Use of Communication Protocols",
-           "achievement":(<div>Leveraged HTTP/HTTPS, SIP, H.323, and WebSocket protocols to establish robust communication channels, 
-             enhancing the seamless integration of telecom technologies within the IVR deployment and testing platform.</div>),
-           "outcome":[(<div>Improved communication reliability and real-time bidirectional capabilities for enhanced user interactions.</div>)]
-         },{
-           "title":"Secure and Authenticated Web Portal",
-           "achievement":(<div>Implemented strong authentication and authorization mechanisms to ensure data security and integrity in the web portal.</div>),
-           "outcome":[(<div>Enhanced overall security, protecting sensitive information and ensuring a secure user environment.</div>)]
-         },{
-           "title":"Agile Development Methodology",
-           "achievement":(<div>Successfully adhered to Agile development methodologies, fostering collaboration, iterative development, 
-             and adaptability to changing project requirements.</div>),
-           "outcome":[(<div>Improved project responsiveness to changing requirements, leading to faster development cycles and increased 
-             customer satisfaction.</div>)]
-         },{
-           "title":"Continuous Integration and Deployment (CI/CD)",
-           "achievement":(<div>Implemented a CI/CD pipeline using GitHub for source version control and Jenkins for pipeline orchestration.</div>),
-           "outcome":[(<div>Streamlined development workflows, enabling automated builds, tests, and deployments for increased development efficiency.</div>)]
-         },{
-           "title":"Improved Deployment Efficiency",
-           "achievement":(<div>Achieved remote deployment capabilities through the user-friendly web portal.</div>),
-           "outcome":[(<div>Empowered customers to deploy VXML applications into the VXML Server seamlessly, improving overall deployment efficiency.</div>)]
-         },{
-           "title":"Optimized VoIP Gateway Configuration",
-           "achievement":(<div>Configured VoIP Gateways for optimized PSTN inbound call handling, implementing dynamic routing strategies.</div>),
-           "outcome":[(<div>Improved call efficiency and resource usage, ensuring optimal performance of the telecommunications infrastructure.</div>)]
-         }
-       ]
        },{
          "title":"Vocal Flow Simulator",
          "isPOC": true,
@@ -161,17 +57,22 @@ export const data = [{
              "My Roles": "Web & Desktop App Developer"
            },
            "projectTechStack":{
-              "Software Life Cycle": "Agile Methodology (Scrum Framework)",
-              "Project Architecture": "Multi-tier MVC Architecture",
-              "Management Tools": "Jira, Atlassian Confluence, SVN (Code Version-Control)",
-              "FRONTEND STACK": {
+              "1. Project Execution Workflow":{
+                "Software Life Cycle": "Agile Methodology (Scrum Framework)",
+                "Project Architecture": "Multi-tier MVC Architecture",
+                "Management Tools": "Jira, Atlassian Confluence, SVN (Code Version-Control)",
+                "Integrated Development Environment (IDE)": (<div><span className="text-grey2"><b>NetBeans IDE</b></span> (JavaFX 
+                Development), <span className="text-grey2"><b>Eclipse</b></span> (for Backend Development)</div>),
+               "Browsers Supported": (<div>Chrome, Firefox, and Internet Explorer 9+</div>)
+              },
+              "2. Frontend Development": {
                 "Web Interface": "HTML5, CSS3, JavaScript, jQuery, Bootstrap",
                 "Desktop Variant": "JavaFX-based desktop app (early prototype used Qt WebKit)",
                 "UI Components": "Interactive tree-based IVR flow visualizer and live simulation status dashboard",
                 "UI Libraries": "jQuery UI, D3.js (for IVR flow visualization)",
                 "Frontend Unit Testing": "Jasmine Framework, QUnit Framework, JUnit (for JavaFX UI logic)"
               },
-              "FRONTEND TESTING": {
+              "3. Frontend Testing": {
                 "Unit Testing": (<div><span className="text-grey2"><b>Jasmine Framework</b></span> and <span className="text-grey2"><b>QUnit Framework</b></span> (for 
                   validating individual UI components, DOM events, and JavaScript logic)</div>),
                 "Integration Testing":(<div><span className="text-grey2"><b>JUnit</b></span> (for JavaFX) and <span className="text-grey2"><b>Selenium WebDriver</b></span> (for 
@@ -184,8 +85,14 @@ export const data = [{
                 "End-to-End Testing": (<div><span className="text-grey2"><b>Selenium</b></span> (for automated UI workflow validation), <span className="text-grey2"><b>Custom IVR scripts</b></span> (to simulate end-to-end call flows, including DTMF input and 
                   VXML response verification)</div>),
               },
-              "BACKEND STACK": {
+              "4. Backend Development": {
                 "Languages":"Java (Core, J2EE)",
+                "API Contract Approach": (<div>
+                  <div><span className="badge resume-project-badge fs11">Contract-Last Approach</span></div> 
+                  <div className="mtop5p"><span className="text-grey2"><b>WSDL</b></span> (for SOAP services),</div>
+                  <div className="mtop5p"><span className="badge resume-project-badge fs11">Contract-Last Approach</span></div>
+                  <div className="mtop5p"><span className="text-grey2"><b>OpenAPI/Swagger</b></span> (for REST APIs)</div>
+                </div>),     
                 "Frameworks": "Spring MVC, Hibernate ORM",
                 "Core Modules": "Custom-built IVR simulation engine using VXML and XML parsers", 
                 "API Design": "RESTful endpoints developed using Jersey and Spring REST",
@@ -194,7 +101,7 @@ export const data = [{
                 "Security":"Basic Auth and token validation for secure access",
                 "Logging and Monitoring":"Log4j and JMX for runtime performance tracking",
               },
-              "BACKEND TESTING": {
+              "5. Backend Testing": {
                 "Unit Testing": (<div><span className="text-grey2"><b>JUnit</b></span>, <span className="text-grey2"><b>Mockito</b></span> (for 
                   service and DAO layer validation)</div>),
                 "Integration Testing":"REST Assured for API-level contract testing",
@@ -202,7 +109,7 @@ export const data = [{
                 "Database Testing": (<div><span className="text-grey2"><b>DBUnit</b></span> (for CRUD operation validation and rollback verification)</div>),
                 "Continuous Testing": (<div><span className="text-grey2"><b>Jenkins</b></span> integrated test pipelines for regression and nightly builds</div>),
               },
-              "TELECOM STACKS":{
+              "6. Telecom Technologies":{
                 "Asterisk PBX (Open Source)": "Served as the primary call simulation engine. It handled SIP signaling, call routing, DTMF tone processing, and integration with the VXML Server to emulate real-world IVR behavior.",
                 "VXML Server (CCBU Integration)":"Hosted and executed customer-provided VXML applications. Each application was mapped to a virtual phone number that could be triggered from the simulator UI or test scripts.",
                 "FreeSWITCH (Media Gateway)":"Used for handling concurrent call sessions, RTP audio streams, and codec conversions. Supported simulation of multiple IVR sessions simultaneously during stress testing.",
@@ -212,14 +119,7 @@ export const data = [{
                 "Voice Codec Simulation": "Supported G.711, G.729, and Opus codec formats to test compression, latency, and voice quality under simulated network conditions.",
                 "JavaFX Call Flow Visualizer":"Integrated directly into the desktop app, providing a real-time visual map of SIP call states, IVR routing logic, and event triggers based on the telecom stack’s runtime state."
               },
-              "OTHER STACKS":{
-                "API Contract Approach": (<div>
-                  <div><span className="badge resume-project-badge fs11">Contract-Last Approach</span></div> 
-                  <div className="mtop5p"><span className="text-grey2"><b>WSDL</b></span> (for SOAP services),</div>
-                  <div className="mtop5p"><span className="badge resume-project-badge fs11">Contract-Last Approach</span></div>
-                  <div className="mtop5p"><span className="text-grey2"><b>OpenAPI/Swagger</b></span> (for REST APIs)</div>
-                </div>),
-              },               
+              "7. Other Stacks":{         
                "Protocols Used": (<div><span className="text-grey2"><b>HTTP/HTTPS</b></span> (for application 
                 communication), <span className="text-grey2"><b>SIP and RTSP protocol</b></span> (stubs for telephony interaction 
                 simulation), <span className="text-grey2"><b>XML/VXML</b></span> parsing for IVR call script execution</div>),
@@ -229,10 +129,11 @@ export const data = [{
                "DevOps & CICD Tools": (<div><span className="text-grey2"><b>Jenkins</b></span> (for automated build and 
                deployment pipelines), <span className="text-grey2"><b>Ant</b></span> (for legacy code reusablitity) 
                and <span className="text-grey2"><b>Maven</b></span> (for build Management)</div>),
-               "Integrated Development Environment (IDE)": (<div><span className="text-grey2"><b>NetBeans IDE</b></span> (JavaFX 
-                Development), <span className="text-grey2"><b>Eclipse</b></span> (for Backend Development)</div>),
-               "Browsers Supported": (<div>Chrome, Firefox, and Internet Explorer 9+</div>)
-           }
+            }, 
+           },
+           "rolesAndresponsibilities":[(<div>Hello</div>)],
+           "challenges":[(<div>Hello</div>)],
+           "achievements":[(<div>Hello</div>)]
        }]
     },{
       "timeline":"September 2014 ~ February 2015",
@@ -269,88 +170,7 @@ export const data = [{
               "DevOps & CICD Tools": "Github (Source Version Control), Jenkins (Pipeline Orchestration), FindBugs and SonarCube Code Coverage Tool",
               "Integrated Development Environment (IDE)": (<div>NetBeans IDE,<br/> Cisco Call Studio</div>),
               "Browsers Supported": "Mozilla FireFox, Google Chrome and Internet Explorer 5, 6, 7"
-          },
-          "rolesAndresponsibilities":{
-            "desc": (<div></div>),
-            "details":[{
-              "role": "Frontend Development",
-              "responsibilities": [(<div></div>),
-                      (<div></div>)]
-            },{
-              "role": "Backend API Development",
-              "responsibilities": [(<div></div>),
-                (<div></div>),
-                (<div></div>)
-              ]
-            },{
-              "role":"Telecom Tech Integration",
-              "responsibilities":[(<div></div>),
-                      (<div></div>),
-                    (<div></div>)]
-            },{
-              "role":"Working with Communication Protocols",
-              "responsibilities":[(<div></div>)]
-            }]
-          },
-        "challenges":[{
-          "title":"Integration Complexity",
-          "challenge": (<div></div>),
-          "solution": [(<div></div>)]
-        },{
-          "title":"Telecom Technology Challenges",
-          "challenge":(<div></div>),
-          "solution":[(<div></div>)]
-        },{
-          "title":"Scalability Challenges",
-          "challenge":(<div></div>),
-          "solution":[(<div></div>)]
-        },{
-          "title":"Security Measures",
-          "challenge":(<div></div>),
-          "solution":[(<div></div>)]
-        }],
-        "achievements":[{
-          "title":"Microservice Architecture Implementation",
-          "achievement":(<div></div>),
-          "outcome":[(<div></div>)]
-        },{
-          "title":"Efficient Frontend Development with Responsive UI",
-          "achievement":(<div></div>),
-          "outcome":[(<div></div>)]
-        },{
-          "title":"Robust Backend API Development Using Java and Spring",
-          "achievement":(<div></div>),
-          "outcome":[(<div></div>)]
-        },{
-          "title":"Telecom Technology Integration for IVR Phone-Call Projects",
-          "achievement":(<div></div>),
-          "outcome":[(<div></div>)]
-        },{
-          "title":"Effective Use of Communication Protocols",
-          "achievement":(<div></div>),
-          "outcome":[(<div></div>)]
-        },{
-          "title":"Secure and Authenticated Web Portal",
-          "achievement":(<div></div>),
-          "outcome":[(<div></div>)]
-        },{
-          "title":"Agile Development Methodology",
-          "achievement":(<div></div>),
-          "outcome":[(<div></div>)]
-        },{
-          "title":"Continuous Integration and Deployment (CI/CD)",
-          "achievement":(<div></div>),
-          "outcome":[(<div></div>)]
-        },{
-          "title":"Improved Deployment Efficiency",
-          "achievement":(<div></div>),
-          "outcome":[(<div></div>)]
-        },{
-          "title":"Optimized VoIP Gateway Configuration",
-          "achievement":(<div></div>),
-          "outcome":[(<div></div>)]
-        }
-      ]
+          }
       }]
    },
    {
@@ -382,25 +202,7 @@ export const data = [{
             "DevOps & CICD Tools": "",
             "Integrated Development Environment (IDE)": (<div>Eclipse IDE</div>),
             "Browsers Supported": ""
-        },
-        "rolesAndresponsibilities":{
-          "desc": (<div></div>),
-          "details":[{
-            "role": "Frontend Development",
-            "responsibilities": [(<div></div>),
-                    (<div></div>)]
-          }]
-        },
-      "challenges":[{
-        "title":"Integration Complexity",
-        "challenge": (<div></div>),
-        "solution": [(<div></div>)]
-      }],
-      "achievements":[{
-        "title":"Microservice Architecture Implementation",
-        "achievement":(<div></div>),
-        "outcome":[(<div></div>)]
-      }]
+        }
     },{
       "title":"Live GPS Tracking and Geofencing System",
       "isPOC": true,
@@ -427,25 +229,7 @@ export const data = [{
           "DevOps & CICD Tools": "",
           "Integrated Development Environment (IDE)": (<div>Eclipse IDE</div>),
           "Browsers Supported": ""
-      },
-      "rolesAndresponsibilities":{
-        "desc": (<div></div>),
-        "details":[{
-          "role": "Frontend Development",
-          "responsibilities": [(<div></div>),
-                  (<div></div>)]
-        }]
-      },
-    "challenges":[{
-      "title":"Integration Complexity",
-      "challenge": (<div></div>),
-      "solution": [(<div></div>)]
-    }],
-    "achievements":[{
-      "title":"Microservice Architecture Implementation",
-      "achievement":(<div></div>),
-      "outcome":[(<div></div>)]
-    }]
+      }
   }]
  },{
   "timeline":"January 2017 ~ March 2018",
@@ -476,25 +260,7 @@ export const data = [{
           "DevOps & CICD Tools": "",
           "Integrated Development Environment (IDE)": (<div>Eclipse IDE</div>),
           "Browsers Supported": ""
-      },
-      "rolesAndresponsibilities":{
-        "desc": (<div></div>),
-        "details":[{
-          "role": "Frontend Development",
-          "responsibilities": [(<div></div>),
-                  (<div></div>)]
-        }]
-      },
-    "challenges":[{
-      "title":"Integration Complexity",
-      "challenge": (<div></div>),
-      "solution": [(<div></div>)]
-    }],
-    "achievements":[{
-      "title":"Microservice Architecture Implementation",
-      "achievement":(<div></div>),
-      "outcome":[(<div></div>)]
-    }]
+      }
   },
   {
     "title":"Personalized Recommendation Engine",
@@ -522,25 +288,7 @@ export const data = [{
         "DevOps & CICD Tools": "",
         "Integrated Development Environment (IDE)": (<div>Eclipse IDE</div>),
         "Browsers Supported": ""
-    },
-    "rolesAndresponsibilities":{
-      "desc": (<div></div>),
-      "details":[{
-        "role": "Frontend Development",
-        "responsibilities": [(<div></div>),
-                (<div></div>)]
-      }]
-    },
-  "challenges":[{
-    "title":"Integration Complexity",
-    "challenge": (<div></div>),
-    "solution": [(<div></div>)]
-  }],
-  "achievements":[{
-    "title":"Microservice Architecture Implementation",
-    "achievement":(<div></div>),
-    "outcome":[(<div></div>)]
-  }]
+    }
 },{
   "title":"Visual Search & Augmented Reality",
   "isPOC": true,
@@ -567,25 +315,7 @@ export const data = [{
       "DevOps & CICD Tools": "",
       "Integrated Development Environment (IDE)": (<div>Eclipse IDE</div>),
       "Browsers Supported": ""
-  },
-  "rolesAndresponsibilities":{
-    "desc": (<div></div>),
-    "details":[{
-      "role": "Frontend Development",
-      "responsibilities": [(<div></div>),
-              (<div></div>)]
-    }]
-  },
-"challenges":[{
-  "title":"Integration Complexity",
-  "challenge": (<div></div>),
-  "solution": [(<div></div>)]
-}],
-"achievements":[{
-  "title":"Microservice Architecture Implementation",
-  "achievement":(<div></div>),
-  "outcome":[(<div></div>)]
-}]
+  }
 }]
 }]
 },
@@ -621,25 +351,7 @@ export const data = [{
             "DevOps & CICD Tools": "",
             "Integrated Development Environment (IDE)": (<div>Eclipse IDE</div>),
             "Browsers Supported": ""
-        },
-        "rolesAndresponsibilities":{
-          "desc": (<div></div>),
-          "details":[{
-            "role": "Frontend Development",
-            "responsibilities": [(<div></div>),
-                    (<div></div>)]
-          }]
-        },
-      "challenges":[{
-        "title":"Integration Complexity",
-        "challenge": (<div></div>),
-        "solution": [(<div></div>)]
-      }],
-      "achievements":[{
-        "title":"Microservice Architecture Implementation",
-        "achievement":(<div></div>),
-        "outcome":[(<div></div>)]
-      }]
+        }
     }]
  }]
 },
@@ -675,25 +387,7 @@ export const data = [{
             "DevOps & CICD Tools": "",
             "Integrated Development Environment (IDE)": (<div>Eclipse IDE</div>),
             "Browsers Supported": ""
-        },
-        "rolesAndresponsibilities":{
-          "desc": (<div></div>),
-          "details":[{
-            "role": "Frontend Development",
-            "responsibilities": [(<div></div>),
-                    (<div></div>)]
-          }]
-        },
-      "challenges":[{
-        "title":"Integration Complexity",
-        "challenge": (<div></div>),
-        "solution": [(<div></div>)]
-      }],
-      "achievements":[{
-        "title":"Microservice Architecture Implementation",
-        "achievement":(<div></div>),
-        "outcome":[(<div></div>)]
-      }]
+        }
     },{
       "title":"Pinnacles Files: A Comprehensive File Management Platform",
       "isPOC": true,
@@ -720,25 +414,7 @@ export const data = [{
           "DevOps & CICD Tools": "",
           "Integrated Development Environment (IDE)": (<div>Eclipse IDE</div>),
           "Browsers Supported": ""
-      },
-      "rolesAndresponsibilities":{
-        "desc": (<div></div>),
-        "details":[{
-          "role": "Frontend Development",
-          "responsibilities": [(<div></div>),
-                  (<div></div>)]
-        }]
-      },
-    "challenges":[{
-      "title":"Integration Complexity",
-      "challenge": (<div></div>),
-      "solution": [(<div></div>)]
-    }],
-    "achievements":[{
-      "title":"Microservice Architecture Implementation",
-      "achievement":(<div></div>),
-      "outcome":[(<div></div>)]
-    }]
+      }
   },{
     "title":"Blockchain based Audit Trial and Logging System",
     "isPOC": true,
@@ -765,25 +441,7 @@ export const data = [{
         "DevOps & CICD Tools": "",
         "Integrated Development Environment (IDE)": (<div>Eclipse IDE</div>),
         "Browsers Supported": ""
-    },
-    "rolesAndresponsibilities":{
-      "desc": (<div></div>),
-      "details":[{
-        "role": "Frontend Development",
-        "responsibilities": [(<div></div>),
-                (<div></div>)]
-      }]
-    },
-  "challenges":[{
-    "title":"Integration Complexity",
-    "challenge": (<div></div>),
-    "solution": [(<div></div>)]
-  }],
-  "achievements":[{
-    "title":"Microservice Architecture Implementation",
-    "achievement":(<div></div>),
-    "outcome":[(<div></div>)]
-  }]
+    }
 }]
  },{
   "timeline":"January 2020 ~ February 2021",
@@ -814,25 +472,7 @@ export const data = [{
           "DevOps & CICD Tools": "",
           "Integrated Development Environment (IDE)": (<div>Eclipse IDE</div>),
           "Browsers Supported": ""
-      },
-      "rolesAndresponsibilities":{
-        "desc": (<div></div>),
-        "details":[{
-          "role": "Frontend Development",
-          "responsibilities": [(<div></div>),
-                  (<div></div>)]
-        }]
-      },
-    "challenges":[{
-      "title":"Integration Complexity",
-      "challenge": (<div></div>),
-      "solution": [(<div></div>)]
-    }],
-    "achievements":[{
-      "title":"Microservice Architecture Implementation",
-      "achievement":(<div></div>),
-      "outcome":[(<div></div>)]
-    }]
+      }
   }]
 },{
   "timeline":"February 2021 ~ June 2021",
@@ -863,25 +503,7 @@ export const data = [{
           "DevOps & CICD Tools": "",
           "Integrated Development Environment (IDE)": (<div>Eclipse IDE</div>),
           "Browsers Supported": ""
-      },
-      "rolesAndresponsibilities":{
-        "desc": (<div></div>),
-        "details":[{
-          "role": "Frontend Development",
-          "responsibilities": [(<div></div>),
-                  (<div></div>)]
-        }]
-      },
-    "challenges":[{
-      "title":"Integration Complexity",
-      "challenge": (<div></div>),
-      "solution": [(<div></div>)]
-    }],
-    "achievements":[{
-      "title":"Microservice Architecture Implementation",
-      "achievement":(<div></div>),
-      "outcome":[(<div></div>)]
-    }]
+      }
   }]
 }]
 },{
@@ -916,25 +538,7 @@ export const data = [{
             "DevOps & CICD Tools": "",
             "Integrated Development Environment (IDE)": (<div>Eclipse IDE</div>),
             "Browsers Supported": ""
-        },
-        "rolesAndresponsibilities":{
-          "desc": (<div></div>),
-          "details":[{
-            "role": "Frontend Development",
-            "responsibilities": [(<div></div>),
-                    (<div></div>)]
-          }]
-        },
-      "challenges":[{
-        "title":"Integration Complexity",
-        "challenge": (<div></div>),
-        "solution": [(<div></div>)]
-      }],
-      "achievements":[{
-        "title":"Microservice Architecture Implementation",
-        "achievement":(<div></div>),
-        "outcome":[(<div></div>)]
-      }]
+        }
     }]
   }]
 },{
@@ -969,25 +573,7 @@ export const data = [{
             "DevOps & CICD Tools": "",
             "Integrated Development Environment (IDE)": (<div>Eclipse IDE</div>),
             "Browsers Supported": ""
-        },
-        "rolesAndresponsibilities":{
-          "desc": (<div></div>),
-          "details":[{
-            "role": "Frontend Development",
-            "responsibilities": [(<div></div>),
-                    (<div></div>)]
-          }]
-        },
-      "challenges":[{
-        "title":"Integration Complexity",
-        "challenge": (<div></div>),
-        "solution": [(<div></div>)]
-      }],
-      "achievements":[{
-        "title":"Microservice Architecture Implementation",
-        "achievement":(<div></div>),
-        "outcome":[(<div></div>)]
-      }]
+        }
     }]
   }]
 }];
