@@ -73,7 +73,7 @@ const isJSON = (value) => {
     return ((<div>
       <ol>
         {data?.map((d,i)=>{
-          return (<li key={i}>{d}</li>);
+          return (<li key={i} style={{ marginTop:'4px', marginBottom:'4px' }}>{d}</li>);
         })}
       </ol>
     </div>));
@@ -97,7 +97,7 @@ const isJSON = (value) => {
     return (<div>
       <ol>
         {data?.map((d,i)=>{
-          return (<li key={i}>{d}</li>);
+          return (<li key={i} style={{ marginTop:'4px', marginBottom:'4px' }}>{d}</li>);
         })}
         
       </ol>

@@ -28,7 +28,7 @@ const ProfileTechStack = ({ title, data, collapsible = false }) => {
   const stackKeys = Object.keys(data);
 
   return (
-    <div>
+    <div style={{ marginTop:'15px', marginBottom:'15px' }}>
       {title?.length > 0 && <Header title={title} />}
 
       {stackKeys.map((stackKey, i) => {

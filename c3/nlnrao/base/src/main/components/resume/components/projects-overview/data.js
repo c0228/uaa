@@ -17,28 +17,132 @@ export const data = [{
              "My Roles": "Web Application Developer"
            }, 
            "projectTechStack":{
-               "Software Life Cycle": "Agile Methodology (Scrum Framework)",
-               "Project Architecture": "Microservice Architecture",
-               "Management Tools": "Jira, Atlassian Confluence, SVN (Code Version-Control)",
-               "Frontend Stack": "HTML, CSS, Javascript, Bootstrap, JQuery, Ajax, Angular JS",
-               "Frontend Unit Testing": "Jasmine Framework and Karma Test Runner",
-               "Backend Stack": "Java 7, Spring Framework (v.3), Spring MVC with Hibernate (Backend API Development)",
-               "Backend Unit Testing": "JUnit Testing Framework and Mockito Framework",
-               "API Contract Approach": (<div>
+              "1. Project Execution Workflow":{
+                "Software Life Cycle": "Agile Methodology (Scrum Framework)",
+                "Project Architecture": "Microservice Architecture",
+                "Integrated Development Environment (IDE)":"Eclipse IDE (for Java and JSP development), Dreamweaver (for UI prototyping), SQL Developer (for database queries)",
+               
+              },
+              "2. Frontend Development":{
+                "Web Interface": "HTML5, CSS3, JavaScript, and JSP",
+                "UI Libraries": "jQuery, AJAX, Angular JS and Bootstrap 3",
+                "Server-Socket Programming": "Real-time WebSocket updates for IVR status and call monitoring",
+                "UI Rendering": "Dynamic JSP pages integrated with VXML deployment logs and call status visualizations",
+                "Protocols Used": "HTTP/HTTPS, Web-sockets Communication",
+                "Performance Optimization": "Minified assets, AJAX caching, lazy loading for heavy UI components",
+                "Browsers Supported":"Google Chrome, Mozilla Firefox, Internet Explorer 8+, Safari (for compatibility testing)",
+
+              },
+              "3. Frontend Testing":{
+                  "Unit Testing":"JUnit, Jasmine Framework and Karma Test Runner",
+                  "Integration Testing":"Selenium WebDriver, QTP",
+                  "Functional Testing":"Selenium, Manual test scripts",
+                  "Regression Testing":"Jenkins CI pipeline, Selenium regression suites",
+                  "Cross-Browser Testing":"BrowserStack, Chrome, Firefox, IE, Safari",
+                  "Performance Testing":"JMeter (Frontend Load), PageSpeed Insights",
+                  "End-to-End Testing":"Selenium Grid, Browser Automation Frameworks",
+              },
+              "4. Backend Development":{
+                "Languages & Frameworks": "Java (J2EE), Spring Framework (v.3), Spring MVC, Hibernate ORM, Servlets, JSP, JSTL",
+                "Data Exchange Libraries": "Apache CXF, JSON Parsers, JAXB (XML Binding)",
+                "Data & Configuration Formats": (<div><span className="text-grey2"><b>JSON</b></span> (REST API 
+                  communication), <span className="text-grey2"><b>WSDL</b></span> (communication with Cisco IVR/VXML 
+                  services), <span className="text-grey2"><b>XML</b></span> (VXML & configuration files)</div>),
+                "API Contract Approach": (<div>
                   <div><span className="badge resume-project-badge fs11">Contract-First Approach</span></div> 
                   <div className="mtop5p"><span className="text-grey2"><b>WSDL</b></span> (for SOAP services),</div>
                   <div className="mtop5p"><span className="badge resume-project-badge fs11">Contract-First Approach</span></div>
                   <div className="mtop5p"><span className="text-grey2"><b>OpenAPI/Swagger</b></span> (for REST APIs)</div>
                 </div>),
-               "Telecom Stack": "VoIP Gateway, Cisco Unified Intelligent Contact Management Enterprise (ICME), VXML Server, Cisco Call Studio",
-               "End-to-End Testing": "Java Selenium Framework",
-               "Protocols Used": "HTTP / HTTPS, SIP, H.323, WebSocket protocols and WebRTC Technologies",
-               "Database Servers": "Microsoft SQL Server",
-               "Web Servers": "GlassFish Web Server",
-               "DevOps & CICD Tools": "Github (Source Version Control), Jenkins (Pipeline Orchestration), FindBugs and SonarCube Code Coverage Tool",
-               "Integrated Development Environment (IDE)": (<div>NetBeans IDE,<br/> Cisco Call Studio</div>),
-               "Browsers Supported": "Mozilla FireFox, Google Chrome and Internet Explorer 5, 6, 7"
+                "Web Servers": "GlassFish Web Server",
+              },
+              "5. Backend Testing":{
+                  "Unit Testing":(<div>JUnit Testing Framework and Mockito Framework (for service and DAO layer validation)</div>),
+                  "Integration Testing":(<div>SOAP UI (for WSDL-based SOAP APIs), REST Assured (for RESTful API testing)</div>),
+                  "Functional Testing":(<div>Manual and automated testing of VXML deployment and IVR workflow modules</div>),
+                  "Regression Testing":(<div>Jenkins CI pipeline with nightly build validation and automated test suites</div>),
+                  "Load & Stress Testing":(<div>Apache JMeter (for concurrent user and simulation load testing)</div>),
+                  "Database Testing":(<div>DBUnit, SQL scripts (for CRUD operation validation and rollback verification)</div>),
+                  "Continuous Testing":(<div>Jenkins (integrated with SVN commits for automated test execution and reporting)</div>)
+              },
+              "6. Telecom Technologies":{
+                  "Core Components": (<div><span className="text-grey2"><b>Cisco Call Studio</b></span>, <span className="text-grey2"><b>Cisco Unified CVP</b></span> (Customer Voice 
+                    Portal), <span className="text-grey2"><b>Cisco VXML Gateway</b></span>, <span className="text-grey2"><b>Cisco Call Manager 
+                      (CUCM)</b></span>, <span className="text-grey2"><b>Cisco Unified Intelligent Contact Management Enterprise (ICME)</b></span>, 
+                      and <span className="text-grey2"><b>Cisco UCCX</b></span> (Contact Center Express)</div>),
+                  "Protocols": "SIP, RTP, H.323, MGCP, HTTP/HTTPS, TCP/IP, WebSocket protocols and WebRTC Technologies",
+                  "Gateways & Hardware": "Cisco 2800 / 3800 Voice Gateways, AS5400 Series, VG224 Analog Gateways",
+                  "Routing & Switching": (<div><span className="text-grey2"><b>Cisco Catalyst Switches</b></span> (2960, 3750), <span className="text-grey2"><b>Cisco Routers</b></span> (2800, 3800 Series)</div>),
+                  "Call Flow Tools": "Cisco CVP Call Studio, Unified ICM Script Editor, JTAPI, CTI Route Points",
+                  "Load Balancing & Proxy":"OpenSIPS / Kamailio, Asterisk Integration for SIP Routing",
+                  "Testing & Simulation": "SIPp, Wireshark, X-Lite Softphone, Packet Capture Analysis"
+              },
+              "7. Database & Middleware":{
+                "Databases":"Oracle 10g, MySQL 5.6, PostgreSQL (Reporting)",
+                "ORM & Queries":"Hibernate HQL, Stored Procedures, PL/SQL Optimization",
+                "Middleware / Messaging":"Apache ActiveMQ, JMS Messaging Queue",
+                "Caching & Sessions":"Ehcache, Memcached",
+                "File Handling & Storage":" Apache Commons IO, FTP Integration",
+              },
+              "8. Infrastructure & Tools":{
+                  "OS & Servers": "Red Hat Enterprise Linux 6, Windows Server 2008 R2",
+                  "Monitoring & Logging": "Nagios, Cacti, Log4j, Syslog Analyzer",
+                  "Version Control": "SVN (Code Version-Control), TortoiseSVN",
+                  "Security & Access": "HTTPS, SSL Certificates, Role-Based Access Control (RBAC)",
+                  "Configuration Management": (<div><span className="text-grey2"><b>Apache Maven</b></span> (build management), <span className="text-grey2"><b>Apache Ant</b></span> (for legacy modules)</div>),
+                  "Project Tracking Tools": (<div><span className="text-grey2"><b>Jira</b></span> (Agile board management, sprint tracking)</div>),
+                  "Documentation & Reporting":(<div><span className="text-grey2"><b>Atlassian Confluence</b></span> (technical 
+                  documentation), <span className="text-grey2"><b>MS Visio</b></span> (architecture diagrams), <span className="text-grey2"><b>Excel Reports</b></span> (QA reports and metrics) </div>),
+                  "Continuous Integration":(<div><span className="text-grey2"><b>Jenkins</b></span> (automated build, test, and deployment pipelines)</div>),
+                  "Code Quality & Coverage": "FindBugs, SonarQube and Jacoco Code Coverage Tool",
+                  "Backup & Rollback": "Scheduled SVN backups and Jenkins artifact archiving for version rollback"
+              }
            },
+           "rolesAndresponsibilities":[(<div>Developed and maintained the <span className="text-grey2"><b>Frontend Web Portal</b></span> using JSP, AJAX, and Bootstrap with WebSocket-based call simulation updates.</div>),
+                  (<div>Designed <span className="text-grey2"><b>REST and SOAP backend APIs</b></span> for IVR deployment, integration with Cisco Unified CCX, and call-flow execution.</div>),
+                  (<div>Configured <span className="text-grey2"><b>VXML Server and Phone Number Mapping</b></span> to link uploaded IVR scripts for remote simulation.</div>),
+                  (<div>Implemented <span className="text-grey2"><b>database schemas, stored procedures, and audit logs</b></span> in Oracle 12c / MySQL.</div>),
+                  (<div>Performed <span className="text-grey2"><b>cross-browser and functional testing</b></span> using Selenium and QTP.</div>),
+                  (<div>Created <span className="text-grey2"><b>Jenkins pipelines</b></span> for automated build, test, and deployment cycles.</div>),
+                  (<div>Collaborated with the <span className="text-grey2"><b>Telecom Integration Team</b></span> to handle signaling, gateway routing, and Cisco CUCM connectivity.</div>),
+                  (<div>Monitored production health using <span className="text-grey2"><b>Nagios, Log4j, and Syslog Analyzer.</b></span></div>),
+                  (<div>Documented technical workflows, deployment steps, and user manuals on Confluence.</div>)
+              ],
+            "challenges":[{
+              "title":"1. Slow IVR Testing and Feedback Cycle",
+              "challenge": (<div>Manual IVR test cases required long execution times and human intervention, delaying deployment validation.</div>),
+              "solution": (<div>Developed automated test scripts and web dashboards that simulated IVR call flows, reducing testing time by 40% and enabling continuous validation.</div>)
+            },{
+              "title":"2. Concurrent Call Handling and System Load",
+              "challenge": (<div>Multiple simultaneous IVR simulations caused thread blocking and increased memory usage.</div>),
+              "solution": (<div>Introduced thread pooling and Ehcache caching mechanism to handle multi-session concurrency efficiently, improving performance and stability.</div>)
+            },{
+              "title":"3. Complex SIP and VXML Integration",
+              "challenge": (<div>Integrating SIP signaling between the Demo Portal, VXML server, and Cisco telephony gateways was unstable during early builds.</div>),
+              "solution": (<div>Configured OpenSIPS as a SIP proxy for routing and synchronization between PBX, VXML Server, and simulation modules, ensuring smooth call flow management.</div>)
+            },{
+              "title":"4. Real-Time Status Synchronization",
+              "challenge": (<div>Portal users could not view IVR simulation status instantly during concurrent executions.</div>),
+              "solution": (<div>Implemented Server-Socket / WebSocket communication for live event streaming and status updates directly in the browser UI.</div>)
+            },{
+              "title":"5. Regression Testing During Frequent Deployments",
+              "challenge": (<div>Manual regression testing after each release cycle caused inconsistencies and increased QA effort.</div>),
+              "solution": (<div>Integrated Jenkins CI/CD pipelines for automated regression testing and nightly builds to ensure stable deployments.</div>)
+            },{
+              "title":"6. Cross-Browser and Cross-Platform Compatibility",
+              "challenge": (<div>UI inconsistencies appeared across browsers and operating systems due to varying DOM behaviors.</div>),
+              "solution": (<div>Used BrowserStack for automated cross-browser testing and performed QA verification on Chrome, Firefox, IE, and Safari.</div>)
+            },{
+              "title":"7. Monitoring and Fault Traceability",
+              "challenge": (<div>Troubleshooting IVR simulation failures was time-consuming due to lack of unified monitoring.</div>),
+              "solution": (<div>Deployed Nagios and Log4j for centralized monitoring, alerting, and detailed log tracing for faster root-cause analysis.</div>)
+            }],
+            "achievements":[(<div>Delivered a <span className="text-grey2"><b>fully functional remote IVR deployment portal</b></span> integrated with Cisco Call Manager and VXML servers.</div>),
+              (<div>Reduced IVR test cycle duration from days to <span className="text-grey2"><b>less than 6 hours per release</b></span> through automation.</div>),
+              (<div>Achieved <span className="text-grey2"><b>40 % improvement</b></span> in system performance and <span className="text-grey2"><b>25 % reduction</b></span> in resource consumption via caching optimization.</div>),
+              (<div>Enabled <span className="text-grey2"><b>multi-session concurrent testing</b></span> with thread-safe socket architecture.</div>),
+              (<div>Improved team collaboration and traceability by adopting <span className="text-grey2"><b>Agile + CI/CD</b></span> practices.</div>),
+              (<div>Provided <span className="text-grey2"><b>live system dashboards</b></span> to business and QA teams for real-time visibility of call simulations.</div>)]
        },{
          "title":"Vocal Flow Simulator",
          "isPOC": true,
@@ -69,8 +173,7 @@ export const data = [{
                 "Web Interface": "HTML5, CSS3, JavaScript, jQuery, Bootstrap",
                 "Desktop Variant": "JavaFX-based desktop app (early prototype used Qt WebKit)",
                 "UI Components": "Interactive tree-based IVR flow visualizer and live simulation status dashboard",
-                "UI Libraries": "jQuery UI, D3.js (for IVR flow visualization)",
-                "Frontend Unit Testing": "Jasmine Framework, QUnit Framework, JUnit (for JavaFX UI logic)"
+                "UI Libraries": "jQuery UI, D3.js (for IVR flow visualization)"
               },
               "3. Frontend Testing": {
                 "Unit Testing": (<div><span className="text-grey2"><b>Jasmine Framework</b></span> and <span className="text-grey2"><b>QUnit Framework</b></span> (for 
