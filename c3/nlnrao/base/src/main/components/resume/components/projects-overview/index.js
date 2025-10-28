@@ -113,8 +113,10 @@ const isJSON = (value) => {
       <Header title="Challenges and Problem Solving Solutions" />
       <Challenges data={project?.challenges} />
       </div>
+      <div style={{ marginBottom:'8px' }}>
       <Header title="Project Achievements and Outcomes" />
       <Achievements data={project?.achievements} />
+      </div>
     </div>
   </div>);
  };
