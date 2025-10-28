@@ -119,7 +119,7 @@ export const data = [{
                 "Voice Codec Simulation": "Supported G.711, G.729, and Opus codec formats to test compression, latency, and voice quality under simulated network conditions.",
                 "JavaFX Call Flow Visualizer":"Integrated directly into the desktop app, providing a real-time visual map of SIP call states, IVR routing logic, and event triggers based on the telecom stack’s runtime state."
               },
-              "7. Other Stacks":{         
+              "Other Stacks":{         
                "Protocols Used": (<div><span className="text-grey2"><b>HTTP/HTTPS</b></span> (for application 
                 communication), <span className="text-grey2"><b>SIP and RTSP protocol</b></span> (stubs for telephony interaction 
                 simulation), <span className="text-grey2"><b>XML/VXML</b></span> parsing for IVR call script execution</div>),
@@ -142,27 +142,32 @@ export const data = [{
               (<div>Managed <span className="text-grey2"><b>MySQL</b></span> and <span className="text-grey2"><b>SQLite databases</b></span> for simulation data storage and analytics.</div>),
               (<div>Collaborated in <span className="text-grey2"><b>Agile (Scrum)</b></span> sprints using <span className="text-grey2"><b>Jira</b></span> and <span className="text-grey2"><b>Confluence</b></span> for planning and documentation.</div>)],
            "challenges":[{
-              "title":"Testing Efficiency in IVR Workflows",
+              "title":"1. Testing Efficiency in IVR Workflows",
               "challenge": (<div>Manual IVR testing through softphones was slow and inconsistent across scenarios.</div>),
               "solution": (<div>Built automated simulation scripts and dashboards that reduced manual testing time by 40%.</div>)
             },{
-              "title":"Performance in Multi-Session Simulations",
+              "title":"2. Performance in Multi-Session Simulations",
               "challenge": (<div>Running multiple concurrent call sessions caused high CPU load and thread blocking.</div>),
               "solution": (<div>Implemented thread pooling and Ehcache caching to optimize multi-session execution and resource reuse.</div>)
             },{
-              "title":"SIP Signaling Integration Across Components",
+              "title":"3. SIP Signaling Integration Across Components",
               "challenge": (<div>SIP messages between Asterisk, FreeSWITCH, and VXML Server were occasionally misrouted.</div>),
               "solution": (<div>Configured OpenSIPS as a central SIP proxy layer for reliable signaling and message routing.</div>)
             },{
-              "title":"Cross-Platform and Cross-Browser Stability",
+              "title":"4. Cross-Platform and Cross-Browser Stability",
               "challenge": (<div>UI performance and layout varied across Chrome, Firefox, and Internet Explorer on different OS environments.</div>),
               "solution": (<div>Performed cross-browser and cross-platform testing using BrowserStack and automated QA test suites.</div>)
             },{
-              "title":"Regression Management in Continuous Delivery",
+              "title":"5. Regression Management in Continuous Delivery",
               "challenge": (<div>Frequent frontend and backend updates led to repeated manual regression efforts.</div>),
               "solution": (<div>Integrated Jenkins-based automated pipelines to trigger continuous and nightly regression testing.</div>)
             }],
-           "achievements":[(<div>Hello</div>)]
+           "achievements":[(<div>Successfully simulated <span className="text-grey2"><b>end-to-end IVR call flows</b></span> without telephony hardware dependency.</div>),
+                  (<div>Achieved <span className="text-grey2"><b>~40% reduction</b></span> in IVR test cycle time through automation and reusable scripts.</div>),
+                  (<div>Enabled <span className="text-grey2"><b>concurrent multi-session testing</b></span> supporting over 100 virtual call sessions.</div>),
+                  (<div>Improved <span className="text-grey2"><b>testing coverage and reliability</b></span> with automated regression and load tests.</div>),
+                  (<div>Delivered a <span className="text-grey2"><b>cost-effective IVR testing platform</b></span>, reducing infrastructure needs significantly.</div>),
+                  (<div>Contributed to a scalable, reusable simulation framework later adopted in other Cisco CCBU projects.</div>)]
        }]
     },{
       "timeline":"September 2014 ~ February 2015",

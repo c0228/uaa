@@ -82,7 +82,7 @@ const isJSON = (value) => {
     return (<div>
         {data?.map((d,i)=>{
           return (<div key={i} className="mbot15p">
-            <div className="text-grey1" style={{ padding:'5px', borderTop: '1px dotted #ccc', borderBottom: '1px dotted #ccc' }}>
+            <div className="text-grey1" style={{ padding:'5px', marginBottom:'8px', color:'#282c34', backgroundColor:'#aaa' }}>
               <b>{d?.title}:</b>
             </div>
             <div style={{ padding:'5px' }}>
@@ -97,14 +97,7 @@ const isJSON = (value) => {
     return (<div>
       <ol>
         {data?.map((d,i)=>{
-          return (<li key={i} className="mbot15p"><span className="text-grey1"><b>{d?.title}:</b></span>
-            <div><span className="text-grey2"><b>Achievement:</b></span> {d?.achievement}</div>
-            <div><span className="text-grey2"><b>Outcome:</b></span> 
-              <ul>
-              {d?.outcome?.map((l,i2)=><li key={i2}>{l}</li>)}
-              </ul>
-            </div>
-          </li>);
+          return (<li key={i}>{d}</li>);
         })}
         
       </ol>

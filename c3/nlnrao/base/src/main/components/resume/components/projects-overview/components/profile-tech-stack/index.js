@@ -43,10 +43,11 @@ const ProfileTechStack = ({ title, data, collapsible = false }) => {
                 <div>
                   <div
                     style={{
-                      borderTop: '1px dotted #ccc',
-                      borderBottom: '1px dotted #ccc',
+                      color:'#282c34', 
+                      backgroundColor:'#aaa',
                       paddingTop: '5px',
                       paddingBottom: '5px',
+                      marginBottom:'8px',
                       cursor: 'pointer',
                       fontSize: '12px',
                     }}
@@ -80,8 +81,8 @@ const ProfileTechStack = ({ title, data, collapsible = false }) => {
                 </div>
               ) : (
                 // ❌ If collapsible = false → Always show expanded content
-                <div style={{ borderTop: '1px dotted #ccc' }}>
-                  <div className="text-grey1" style={{ padding:'5px', borderBottom: '1px dotted #ccc' }}>
+                <div>
+                  <div className="text-grey1" style={{ padding:'5px', color:'#282c34', backgroundColor:'#aaa', marginBottom:'8px' }}>
                   <b>{stackKey}</b>
                   </div>
                   <div style={{ marginLeft: '15px' }}>
