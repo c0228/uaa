@@ -163,7 +163,7 @@ export const data = [{
            "projectTechStack":{
               "1. Project Execution Workflow":{
                 "Software Life Cycle": "Agile Methodology (Scrum Framework)",
-                "Project Architecture": "Multi-tier MVC Architecture",
+                "Project Architecture": "Service-Oriented Architecture (SOA)",
                 "Management Tools": "Jira, Atlassian Confluence, SVN (Code Version-Control)",
                 "Integrated Development Environment (IDE)": (<div><span className="text-grey2"><b>NetBeans IDE</b></span> (JavaFX 
                 Development), <span className="text-grey2"><b>Eclipse</b></span> (for Backend Development)</div>),
