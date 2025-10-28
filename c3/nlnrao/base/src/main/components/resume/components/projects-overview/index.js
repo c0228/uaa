@@ -73,36 +73,24 @@ const isJSON = (value) => {
     return ((<div>
       <ol>
         {data?.map((d,i)=>{
-          return (<li key={i}><span className="text-grey1"><b>{d}:</b></span></li>);
+          return (<li key={i}>{d}</li>);
         })}
       </ol>
-      {/*<div>{data?.desc}</div>
-      <ol>
-      {data?.details?.map((d,i1)=>{
-        return (<li key={i1}><span className="text-grey1"><b>{d?.role}:</b></span>
-          <ul>
-            {d?.responsibilities?.map((l,i2)=><li key={i2}>{l}</li>)}
-          </ul>
-      </li>);
-      })}
-      </ol>*/}
     </div>));
   };
   const Challenges = ({ data }) =>{
     return (<div>
-      <ol>
         {data?.map((d,i)=>{
-          return (<li key={i} className="mbot15p"><span className="text-grey1"><b>{d?.title}:</b></span>
-            <div><span className="text-grey2"><b>Challenge:</b></span> {d?.challenge}</div>
-            <div><span className="text-grey2"><b>Solution:</b></span>
-              <ul>
-              {d?.solution?.map((l,i2)=><li key={i2}>{l}</li>)}
-              </ul>
+          return (<div key={i} className="mbot15p">
+            <div className="text-grey1" style={{ padding:'5px', borderTop: '1px dotted #ccc', borderBottom: '1px dotted #ccc' }}>
+              <b>{d?.title}:</b>
             </div>
-          </li>);
+            <div style={{ padding:'5px' }}>
+              <div><span className="text-grey1"><b>Challenge:</b></span> {d?.challenge}</div>
+              <div><span className="text-grey1"><b>Solution:</b></span> {d?.solution}</div>
+            </div>
+          </div>);
         })}
-        
-      </ol>
     </div>);
   };
   const Achievements = ({ data }) =>{
@@ -128,8 +116,10 @@ const isJSON = (value) => {
       <ProfileTechStack title="Project Tech Stack" data={project?.projectTechStack} /> 
       <Header title="My Role and Responsibilities" />
       <RR data={project?.rolesAndresponsibilities} />
+      <div className="mtop15p">
       <Header title="Challenges and Problem Solving Solutions" />
       <Challenges data={project?.challenges} />
+      </div>
       <Header title="Project Achievements and Outcomes" />
       <Achievements data={project?.achievements} />
     </div>

@@ -81,7 +81,7 @@ export const data = [{
                 "Regression Testing": (<div>Automated test suites triggered via <span className="text-grey2"><b>Jenkins</b></span> after each frontend deployment</div>),
                 "Cross-Browser Testing":(<div>Verified compatibility across Chrome, Firefox, and Internet Explorer 9+ 
                         using <span className="text-grey2"><b>BrowserStack</b></span> and manual QA validation</div>),
-                "Performance Testing":(<div><span className="text-grey2"><b>Lighthouse</b></span> and <span className="text-grey2"><b>Browser developer tools</b></span> for measuring rendering performance and load times</div>),
+                "Performance Testing":(<div><span className="text-grey2"><b>YSlow</b></span> and <span className="text-grey2"><b>Chrome Developer Tools</b></span> for measuring rendering performance and load times</div>),
                 "End-to-End Testing": (<div><span className="text-grey2"><b>Selenium</b></span> (for automated UI workflow validation), <span className="text-grey2"><b>Custom IVR scripts</b></span> (to simulate end-to-end call flows, including DTMF input and 
                   VXML response verification)</div>),
               },
@@ -131,8 +131,37 @@ export const data = [{
                and <span className="text-grey2"><b>Maven</b></span> (for build Management)</div>),
             }, 
            },
-           "rolesAndresponsibilities":[(<div>Hello</div>)],
-           "challenges":[(<div>Hello</div>)],
+           "rolesAndresponsibilities":[(<div>Developed and maintained <span className="text-grey2"><b>web and desktop applications</b></span> (Windows, 
+              Linux, Mac) for IVR simulation.</div>),
+              (<div>Designed <span className="text-grey2"><b>interactive IVR flow visualizer</b></span> 
+                using <span className="text-grey2"><b>D3.js</b></span> and <span className="text-grey2"><b>JavaFX</b></span> for live call 
+                flow monitoring.</div>),
+              (<div>Implemented <span className="text-grey2"><b>REST and SOAP APIs</b></span> with <span className="text-grey2"><b>Spring MVC</b></span>, <span className="text-grey2"><b>Hibernate</b></span>, and <span className="text-grey2"><b>Jersey</b></span>.</div>),
+              (<div>Created <span className="text-grey2"><b>automated test suites</b></span> using <span className="text-grey2"><b>JUnit</b></span>, <span className="text-grey2"><b>Selenium</b></span>, and <span className="text-grey2"><b>Jenkins</b></span> for CI/CD validation.</div>),
+              (<div>Integrated with <span className="text-grey2"><b>Asterisk PBX</b></span>, <span className="text-grey2"><b>FreeSWITCH</b></span>, and <span className="text-grey2"><b>VXML Server</b></span> for real-time call simulation.</div>),
+              (<div>Managed <span className="text-grey2"><b>MySQL</b></span> and <span className="text-grey2"><b>SQLite databases</b></span> for simulation data storage and analytics.</div>),
+              (<div>Collaborated in <span className="text-grey2"><b>Agile (Scrum)</b></span> sprints using <span className="text-grey2"><b>Jira</b></span> and <span className="text-grey2"><b>Confluence</b></span> for planning and documentation.</div>)],
+           "challenges":[{
+              "title":"Testing Efficiency in IVR Workflows",
+              "challenge": (<div>Manual IVR testing through softphones was slow and inconsistent across scenarios.</div>),
+              "solution": (<div>Built automated simulation scripts and dashboards that reduced manual testing time by 40%.</div>)
+            },{
+              "title":"Performance in Multi-Session Simulations",
+              "challenge": (<div>Running multiple concurrent call sessions caused high CPU load and thread blocking.</div>),
+              "solution": (<div>Implemented thread pooling and Ehcache caching to optimize multi-session execution and resource reuse.</div>)
+            },{
+              "title":"SIP Signaling Integration Across Components",
+              "challenge": (<div>SIP messages between Asterisk, FreeSWITCH, and VXML Server were occasionally misrouted.</div>),
+              "solution": (<div>Configured OpenSIPS as a central SIP proxy layer for reliable signaling and message routing.</div>)
+            },{
+              "title":"Cross-Platform and Cross-Browser Stability",
+              "challenge": (<div>UI performance and layout varied across Chrome, Firefox, and Internet Explorer on different OS environments.</div>),
+              "solution": (<div>Performed cross-browser and cross-platform testing using BrowserStack and automated QA test suites.</div>)
+            },{
+              "title":"Regression Management in Continuous Delivery",
+              "challenge": (<div>Frequent frontend and backend updates led to repeated manual regression efforts.</div>),
+              "solution": (<div>Integrated Jenkins-based automated pipelines to trigger continuous and nightly regression testing.</div>)
+            }],
            "achievements":[(<div>Hello</div>)]
        }]
     },{
