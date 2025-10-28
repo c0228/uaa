@@ -84,7 +84,8 @@ const data = [{
         "title":"Python Platform",
         "kpis":{
             "Basic Programming Languages": "Python",
-            "Worked with Python Modules": "NumPy, Pandas, Matplotlib and Scikit-learn",
+            "Math-related Libraries": "NumPy (for Arthmetic/Arrays, Basic Linear Algebra, Basic Statistics & Probability), SciPy (for Advanced Linear Algebra, Calculus (Integration & Differentiation), Advanced Statistics & Probability) and Fourier / Signal Processing, SymPy (For Symbolic/Expression Mathematics on Linear Algebra, Calculus, Geometry, Statistics & Probability, Permutations & Combinations)",
+            "Data-management Libraries":"Pandas (data handling from different formats - CSV, Excel, SQL, JSON, etc)",
             "Web/API Designing Frameworks": "DJango and Flask",
             "Design Architecture": "Microservices Architecture, Event Design Architecture, Serverless Architecture",
             "Integrated Development Environments (IDE)": "Visual Studio Code"
