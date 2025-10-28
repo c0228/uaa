@@ -14,7 +14,7 @@ const ProfileBasic = () =>{
     <div className="resume-profile-card-title"><b>NELLUTLA L N RAO</b></div>
     <div className="resume-profile-card-subtitle"><b>Full Stack Developer Engineer</b></div>
     <div className="resume-profile-card-div-desc">
-    Over 11+ years of experience, specializing in 
+    Over 12+ years of experience, specializing in 
     developing applications on Web, Mobile & Desktop Platforms, with a versatile skill set & a deep understanding 
     of software development principles, I excel in delivering high-quality solutions that meet the diverse needs of 
     clients & users alike.   
