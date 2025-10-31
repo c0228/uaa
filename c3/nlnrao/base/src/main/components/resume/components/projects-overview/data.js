@@ -60,6 +60,8 @@ export const data = [{
                   <div className="mtop5p"><span className="text-grey2"><b>OpenAPI/Swagger</b></span> (for REST APIs)</div>
                 </div>),
                 "Web Servers": "GlassFish Web Server",
+                "Input Validation": "OWASP guidelines, XSS prevention, CSRF tokens",
+                "API Security": "API Rate Limiting, API keys, Request signing"
               },
               "5. Backend Testing":{
                   "Unit Testing":(<div>JUnit Testing Framework and Mockito Framework (for service and DAO layer validation)</div>),
@@ -88,6 +90,7 @@ export const data = [{
                 "Middleware / Messaging":"Apache ActiveMQ, JMS Messaging Queue",
                 "Caching & Sessions":"Ehcache, Memcached",
                 "File Handling & Storage":" Apache Commons IO, FTP Integration",
+                "Database Security": "Column-level encryption, SQL injection prevention"
               },
               "8. Infrastructure & Tools":{
                   "OS & Servers": "Red Hat Enterprise Linux 6, Windows Server 2008 R2",
@@ -102,7 +105,18 @@ export const data = [{
                   "Code Quality & Coverage": "FindBugs, SonarQube and Jacoco Code Coverage Tool",
                   "Backup & Rollback": "Scheduled SVN backups and Jenkins artifact archiving for version rollback"
               },
-              "9. Production Support":{
+              "9. Security Management":{
+                  "Authentication": "LDAP-based user authentication integrated with Cisco user directory",
+                  "Authorization": "Role-based access control (RBAC) at both API and UI levels",
+                  "Password policies": "Minimum 12 characters, rotation every 90 days, complexity enforced via regex validation",
+                  "Data Encryption": (<div><span className="text-grey2"><b>AES-256 encryption</b></span> for sensitive data in transit and at rest</div>),
+                  "Sensitive Data Handling": "PII masking, audit logs for all admin actions",
+                  "Vulnerability Management": "Periodic Nessus scans and OWASP Top 10 compliance reviews",
+                  "Security Auditing": (<div>Regular internal audits 
+                    using <span className="text-grey2"><b>Fortify</b></span> and <span className="text-grey2"><b>SonarQube</b></span> static 
+                    scans</div>)
+              },
+              "10. Production Support":{
                   "Support Model": (<div><span className="text-grey2"><b>L2/L3</b></span> Support with 24/7 on-call rotation for critical incidents</div>),
                   "Management Tools": (<div><span className="text-grey2"><b>ServiceNow</b></span> (Service Management and Incident 
                       Tracking), <span className="text-grey2"><b>Jira Service Desk</b></span> (Dev Support Tickets and Bug Tracking)</div>),
