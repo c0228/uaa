@@ -101,6 +101,21 @@ export const data = [{
                   "Continuous Integration":(<div><span className="text-grey2"><b>Jenkins</b></span> (automated build, test, and deployment pipelines)</div>),
                   "Code Quality & Coverage": "FindBugs, SonarQube and Jacoco Code Coverage Tool",
                   "Backup & Rollback": "Scheduled SVN backups and Jenkins artifact archiving for version rollback"
+              },
+              "9. Production Support":{
+                  "Support Model": (<div><span className="text-grey2"><b>L2/L3</b></span> Support with 24/7 on-call rotation for critical incidents</div>),
+                  "Management Tools": (<div><span className="text-grey2"><b>ServiceNow</b></span> (Service Management and Incident 
+                      Tracking), <span className="text-grey2"><b>Jira Service Desk</b></span> (Dev Support Tickets and Bug Tracking)</div>),
+                  "Monitoring Tools": (<div>Nagios, Cacti, and Custom IVR Health Dashboards</div>),
+                  "Log Analysis": (<div>Splunk, Log4j, and Syslog Analyzer for real-time issue diagnosis</div>),
+                  "On-call Support": "Weekly rotation with 15-minute response time SLA for P1 incidents",
+                  "Release Management": "Weekly Production Deployment with automated rollback capabilities",
+                  "Post-Release Validation": (<div>Production <span className="text-grey2"><b>Smoke Testing</b></span> and health checks</div>),
+                  "Resolution Metrics": (<div><span className="text-grey2"><b>P1:</b></span> 99% resolved within 
+                    1 hour,<br/> <span className="text-grey2"><b>P2:</b></span> 95% within 4 hours,<br/> <span className="text-grey2"><b>P3:</b></span> 90% 
+                    within 8 business hours</div>),
+                  "SLA Compliance": "99.5% uptime maintained through proactive monitoring",
+                  "MTTR": (<div>Reduced <span className="text-grey2"><b>Mean Time to Resolution (MTTR)</b></span> by 30% through improved logging and alerting</div>)
               }
            },
            "rolesAndresponsibilities":[(<div>Developed and maintained the <span className="text-grey2"><b>Frontend Web Portal</b></span> using JSP, AJAX, and Bootstrap with WebSocket-based call simulation updates.</div>),
