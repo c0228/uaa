@@ -82,16 +82,16 @@ const ProfileTechStack = ({ title, data, collapsible = false }) => {
               ) : (
                 // ❌ If collapsible = false → Always show expanded content
                 <div>
-                  <div className="text-grey1" style={{ padding:'5px', color:'#282c34', backgroundColor:'#aaa', marginBottom:'8px' }}>
+                  <div className="text-grey1" style={{ marginTop:'15px', padding:'5px', color:'#282c34', backgroundColor:'#aaa', marginBottom:'8px' }}>
                   <b>{stackKey}</b>
                   </div>
-                  <div style={{ marginLeft: '15px' }}>
+                  <div>
                     <ProfileTechStack data={stackVal} collapsible={collapsible} />
                   </div>
                 </div>
               )
             ) : (
-              <div className="row mtop5p mbot5p">
+              <div className="row mtop5p mbot5p" style={{ marginLeft:'2px' }}>
                 <div className="col-md-5 text-grey2">
                   <b>{stackKey}:</b>
                 </div>

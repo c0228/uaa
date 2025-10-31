@@ -16,9 +16,9 @@ export const data = [{
              "Team Size": 8,
              "My Roles & Timelines": {
                "Dev Role": "Web Application Developer",
-               "Dev Support": (<span className="badge resume-project-badge fs11">June 2012 - Mar 2014</span>),
+               "Dev Support": (<span className="badge resume-work-badge fs11">June 2012 - Mar 2014</span>),
                "Prod Role": "L2/L3 Support Engineer",
-               "Prod Support": (<span className="badge resume-project-badge fs11">Nov 2013 - Aug 2014</span>)
+               "Prod Support": (<span className="badge resume-work-badge fs11">Nov 2013 - Aug 2014</span>)
               }
            }, 
            "projectTechStack":{
