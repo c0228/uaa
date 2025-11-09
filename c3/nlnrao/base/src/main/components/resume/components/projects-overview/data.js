@@ -192,7 +192,12 @@ export const data = [{
          "projectDetails":{
              "Client Name":"Cisco Systems, Inc",
              "Team Size": 5,
-             "My Roles": "Web & Desktop App Developer"
+             "My Roles & Timelines": {
+               "Dev Role": "Web & Desktop Application Developer",
+               "Dev Support": (<span className="badge resume-work-badge fs11">June 2012 - Mar 2014</span>),
+               "Prod Role": "L2/L3 Support Engineer",
+               "Prod Support": (<span className="badge resume-work-badge fs11">Nov 2013 - Aug 2014</span>)
+              }
            },
            "projectTechStack":{
               "1. Project Execution Workflow":{
