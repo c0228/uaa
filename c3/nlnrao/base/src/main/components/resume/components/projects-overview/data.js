@@ -28,7 +28,7 @@ export const data = [{
                 "Integrated Development Environment (IDE)":"Eclipse IDE (for Java and JSP development), Dreamweaver (for UI prototyping), SQL Developer (for database queries)",
                
               },
-              "2. Frontend Development":{
+              "2. Frontend Web UI Development":{
                 "Web Interface": "HTML5, CSS3, JavaScript, and JSP",
                 "UI Libraries": "jQuery, AJAX, Angular JS and Bootstrap 3",
                 "Server-Socket Programming": "Real-time WebSocket updates for IVR status and call monitoring",
@@ -36,9 +36,8 @@ export const data = [{
                 "Protocols Used": "HTTP/HTTPS, Web-sockets Communication",
                 "Performance Optimization": "Minified assets, AJAX caching, lazy loading for heavy UI components",
                 "Browsers Supported":"Google Chrome, Mozilla Firefox, Internet Explorer 8+, Safari (for compatibility testing)",
-
               },
-              "3. Frontend Testing":{
+              "3. Frontend Web UI Testing":{
                   "Unit Testing":"JUnit, Jasmine Framework and Karma Test Runner",
                   "Integration Testing":"Selenium WebDriver, QTP",
                   "Functional Testing":"Selenium, Manual test scripts",
@@ -193,41 +192,53 @@ export const data = [{
              "Client Name":"Cisco Systems, Inc",
              "Team Size": 5,
              "My Roles & Timelines": {
-               "Dev Role": "Web & Desktop Application Developer",
-               "Dev Support": (<span className="badge resume-work-badge fs11">June 2012 - Mar 2014</span>),
-               "Prod Role": "L2/L3 Support Engineer",
-               "Prod Support": (<span className="badge resume-work-badge fs11">Nov 2013 - Aug 2014</span>)
+               "My Role" : "Web & Desktop Application Developer",
+               "Timeline": (<span className="badge resume-work-badge fs11">Apr 2014 - Aug 2014</span>),
               }
            },
            "projectTechStack":{
               "1. Project Execution Workflow":{
                 "Software Life Cycle": "Agile Methodology (Scrum Framework)",
                 "Project Architecture": "Service-Oriented Architecture (SOA)",
-                "Management Tools": "Jira, Atlassian Confluence, SVN (Code Version-Control)",
                 "Integrated Development Environment (IDE)": (<div><span className="text-grey2"><b>NetBeans IDE</b></span> (JavaFX 
                 Development), <span className="text-grey2"><b>Eclipse</b></span> (for Backend Development)</div>),
-               "Browsers Supported": (<div>Chrome, Firefox, and Internet Explorer 9+</div>)
               },
-              "2. Frontend Development": {
+              "2. Frontend Web UI Development": {
                 "Web Interface": "HTML5, CSS3, JavaScript, jQuery, Bootstrap",
-                "Desktop Variant": "JavaFX-based desktop app (early prototype used Qt WebKit)",
-                "UI Components": "Interactive tree-based IVR flow visualizer and live simulation status dashboard",
-                "UI Libraries": "jQuery UI, D3.js (for IVR flow visualization)"
+                "UI Components": "Interactive tree-based IVR flow visualizer, real-time simulation control panel, and live call status dashboard",
+                "UI Libraries": "jQuery UI, D3.js for dynamic IVR flow visualization and topology rendering",
+                "Server-Socket Programming": "WebSocket-based real-time updates for simulation progress and IVR node traversal",
+                "Protocols Used": "HTTP/HTTPS for application data, WebSockets for live simulation events and status streaming",
+                "Performance Optimization": "Lazy loading of complex IVR flow diagrams, AJAX caching for frequently accessed voice prompt metadata, optimized D3.js rendering for large flow graphs",
+                "Browsers Supported": "Google Chrome, Mozilla Firefox, and Internet Explorer 9+ (aligned with enterprise browser standards)"
               },
-              "3. Frontend Testing": {
-                "Unit Testing": (<div><span className="text-grey2"><b>Jasmine Framework</b></span> and <span className="text-grey2"><b>QUnit Framework</b></span> (for 
-                  validating individual UI components, DOM events, and JavaScript logic)</div>),
-                "Integration Testing":(<div><span className="text-grey2"><b>JUnit</b></span> (for JavaFX) and <span className="text-grey2"><b>Selenium WebDriver</b></span> (for 
-                  verifying UI integration with backend APIs)</div>),
-                "Functional Testing":"Manual and automated validation of IVR flow visualizations and dynamic state transitions",
-                "Regression Testing": (<div>Automated test suites triggered via <span className="text-grey2"><b>Jenkins</b></span> after each frontend deployment</div>),
-                "Cross-Browser Testing":(<div>Verified compatibility across Chrome, Firefox, and Internet Explorer 9+ 
-                        using <span className="text-grey2"><b>BrowserStack</b></span> and manual QA validation</div>),
-                "Performance Testing":(<div><span className="text-grey2"><b>YSlow</b></span> and <span className="text-grey2"><b>Chrome Developer Tools</b></span> for measuring rendering performance and load times</div>),
-                "End-to-End Testing": (<div><span className="text-grey2"><b>Selenium</b></span> (for automated UI workflow validation), <span className="text-grey2"><b>Custom IVR scripts</b></span> (to simulate end-to-end call flows, including DTMF input and 
-                  VXML response verification)</div>),
+              "3. Frontend Desktop UI Development":{
+                "Desktop GUI Frameworks": "JavaFX, Java Swing, AWT for enterprise desktop applications",
+                "UI Components and Libraries": "JavaFX FXML, ControlsFX, JFoenix, JFreeChart for data visualization, Scene Builder for UI design",
+                "Application Architecture": "Model-View-Controller (MVC) and Model-View-ViewModel (MVVM) patterns, Event-driven architecture",
+                "Performance Optimization": "SwingWorker for background threading, JavaFX Task/Service, lazy loading of UI components, memory management for heavy data sets",
+                "Deployment & Packaging": "Executable JAR files, Java Web Start, platform-specific installers using Launch4j, jpackage for native bundles",
+                "Operating Systems Supported": "Windows, Linux, macOS (cross-platform deployment)"
               },
-              "4. Backend Development": {
+              "4. Frontend Web UI Testing": {
+                  "Unit Testing": "QUnit for JavaScript module testing, validation of IVR flow visualization components and simulation controllers",
+                  "Integration Testing": "JSP and JavaScript integration verification, AJAX call testing with backend IVR simulation services",
+                  "Functional Testing": "End-to-end IVR simulation workflows, tree-based flow visualizer functionality, real-time dashboard updates",
+                  "Regression Testing": "Selenium test suites for IVR path traversal features, ensuring existing functionality after enhancements",
+                  "Cross-Browser Testing": "Manual and automated testing across Chrome, Firefox, and IE9+ for consistent IVR simulation experience",
+                  "Performance Testing": "YSlow and manual profiling for IVR diagram rendering optimization, WebSocket connection efficiency",
+                  "End-to-End Testing": "Complete user journey testing from IVR flow setup to simulation execution and results analysis"
+              },
+              "5. Frontend Desktop UI Testing": {
+                  "Desktop GUI Testing Frameworks": "JUnit 5 for test orchestration, TestFX for JavaFX UI testing,  Jemmy for Swing component testing, Mockito for mocking dependencies",
+                  "Testing Libraries": "AssertJ for fluent assertions, Mockito for mocking backend IVR services, Hamcrest for matchers",
+                  "Integration Testing": "End-to-end testing of UI workflows, database integration tests, service layer verification",
+                  "UI Testing & Automation": "Interactive IVR flow visualizer validation, simulation control panel functionality testing, dashboard widget verification, Automated GUI testing with Jemmy, Marathon for Java Swing, AssertJ for fluent assertions",
+                  "Performance Validation & Testing": "Memory leak detection during long-running simulations, UI responsiveness testing under heavy IVR flow loads, thread safety verification",
+                  "Cross-Platform Testing": "UI consistency checks across Windows, Linux, macOS, display scaling validation",
+                  "User Acceptance Testing": "Usability testing, focus group sessions, user journey validation"
+              },
+              "6. Backend Development": {
                 "Languages":"Java (Core, J2EE)",
                 "API Contract Approach": (<div>
                   <div><span className="badge resume-project-badge fs11">Contract-Last Approach</span></div> 
@@ -243,7 +254,7 @@ export const data = [{
                 "Security":"Basic Auth and token validation for secure access",
                 "Logging and Monitoring":"Log4j and JMX for runtime performance tracking",
               },
-              "5. Backend Testing": {
+              "7. Backend Testing": {
                 "Unit Testing": (<div><span className="text-grey2"><b>JUnit</b></span>, <span className="text-grey2"><b>Mockito</b></span> (for 
                   service and DAO layer validation)</div>),
                 "Integration Testing":"REST Assured for API-level contract testing",
@@ -251,7 +262,7 @@ export const data = [{
                 "Database Testing": (<div><span className="text-grey2"><b>DBUnit</b></span> (for CRUD operation validation and rollback verification)</div>),
                 "Continuous Testing": (<div><span className="text-grey2"><b>Jenkins</b></span> integrated test pipelines for regression and nightly builds</div>),
               },
-              "6. Telecom Technologies":{
+              "8. Telecom Technologies":{
                 "Asterisk PBX (Open Source)": "Served as the primary call simulation engine. It handled SIP signaling, call routing, DTMF tone processing, and integration with the VXML Server to emulate real-world IVR behavior.",
                 "VXML Server (CCBU Integration)":"Hosted and executed customer-provided VXML applications. Each application was mapped to a virtual phone number that could be triggered from the simulator UI or test scripts.",
                 "FreeSWITCH (Media Gateway)":"Used for handling concurrent call sessions, RTP audio streams, and codec conversions. Supported simulation of multiple IVR sessions simultaneously during stress testing.",
