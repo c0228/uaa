@@ -89,7 +89,8 @@ export const data = [{
                 "Middleware / Messaging":"Apache ActiveMQ, JMS Messaging Queue",
                 "Caching & Sessions":"Ehcache, Memcached",
                 "File Handling & Storage":" Apache Commons IO, FTP Integration",
-                "Database Security": "Column-level encryption, SQL injection prevention"
+                "Database Security": "Column-level encryption, SQL injection prevention",
+                "Backup & Recovery": "Automated VXML Application Backups, Database Snapshot & Recovery Procedures, Disaster Recovery Planning for IVR Services, Middleware Configuration Versioning"
               },
               "8. Infrastructure & Tools":{
                   "OS & Servers": "Red Hat Enterprise Linux 6, Windows Server 2008 R2",
@@ -192,7 +193,7 @@ export const data = [{
              "Client Name":"Cisco Systems, Inc",
              "Team Size": 5,
              "My Roles & Timelines": {
-               "My Role" : "Web & Desktop Application Developer",
+               "My Role" : "Unified Communications Full-Stack Developer (Web, Desktop and Infrastructure)",
                "Timeline": (<span className="badge resume-work-badge fs11">Apr 2014 - Aug 2014</span>),
               }
            },
@@ -239,50 +240,95 @@ export const data = [{
                   "User Acceptance Testing": "Usability testing, focus group sessions, user journey validation"
               },
               "6. Backend Development": {
-                "Languages":"Java (Core, J2EE)",
+                "Protocols Used": (<div><span className="text-grey2"><b>HTTP/HTTPS</b></span> (for application 
+                  communication), <span className="text-grey2"><b>SIP and RTSP protocol</b></span> (stubs for telephony interaction 
+                  simulation), <span className="text-grey2"><b>XML/VXML</b></span> parsing for IVR call script execution</div>),
+                "Languages & Frameworks": "Java SE 8, Java EE, Servlets, JSP",
+                "Core Modules": "IVR simulation engine, call session manager, VXML interpreter, SIP message handler, telephony gateway controller",
+                "Concurrency": "Multi-threaded call session handling, synchronized resource management for concurrent IVR simulations, thread pooling for SIP message processing",
+                "API Design": "RESTful web services for simulation control, SOAP APIs for VXML server integration, custom telephony control APIs",
+                "API Security": "HTTP Basic Authentication, session-based access control, input sanitization for telephony parameters",
                 "API Contract Approach": (<div>
                   <div><span className="badge resume-project-badge fs11">Contract-Last Approach</span></div> 
                   <div className="mtop5p"><span className="text-grey2"><b>WSDL</b></span> (for SOAP services),</div>
                   <div className="mtop5p"><span className="badge resume-project-badge fs11">Contract-Last Approach</span></div>
                   <div className="mtop5p"><span className="text-grey2"><b>OpenAPI/Swagger</b></span> (for REST APIs)</div>
-                </div>),     
-                "Frameworks": "Spring MVC, Hibernate ORM",
-                "Core Modules": "Custom-built IVR simulation engine using VXML and XML parsers", 
-                "API Design": "RESTful endpoints developed using Jersey and Spring REST",
-                "Concurrency": "Thread pooling and asynchronous job queues for multi-session simulations",
-                "Caching":"Ehcache for simulation replay optimization",
-                "Security":"Basic Auth and token validation for secure access",
-                "Logging and Monitoring":"Log4j and JMX for runtime performance tracking",
+                </div>), 
+                "Data Exchange Libraries": "JAXB for XML parsing, Gson for JSON processing, custom SIP message parsers",
+                "Data & Configuration Formats": "XML for VXML documents, JSON for simulation configurations, properties files for Asterisk/FreeSWITCH settings, CSV for test data",
+                "Web Servers": (<div><span className="text-grey2"><b>Apache Tomcat</b></span>, integrated Jetty for development environment (for backend service deployment)</div>),
+                "Input Validation": "Servlet filters for request sanitization, custom validators for SIP headers, DTMF input validation, XML schema validation for VXML files"
               },
               "7. Backend Testing": {
-                "Unit Testing": (<div><span className="text-grey2"><b>JUnit</b></span>, <span className="text-grey2"><b>Mockito</b></span> (for 
-                  service and DAO layer validation)</div>),
-                "Integration Testing":"REST Assured for API-level contract testing",
+                "Unit Testing": "JUnit 4, TestNG for core Java components, Mockito (for service and DAO layer validation and for mocking telephony dependencies",
+                "Integration Testing": "REST Assured for API-level contract testing, End-to-end IVR simulation workflows, SIP server integration tests, VXML parser validation",
+                "API Testing": "REST Assured for RESTful service validation, SOAP UI for telephony API testing, custom test clients for SIP interfaces",
+                "Performance Testing": "JMeter for load testing concurrent IVR sessions, custom benchmarks for call setup times, memory profiling under high call volumes",
+                "Concurrency Testing": "Multi-threaded simulation stress tests, race condition detection in call session management, thread safety verification",
+                "Data Validation Testing": "XML schema validation for VXML documents, configuration file integrity checks, test data generation for various IVR scenarios",
+                "Telecom Protocol Testing": "SIP message flow validation, DTMF tone processing tests, RTP stream quality verification",
+                "Security Testing": "Input sanitization tests for SIP headers, authentication bypass testing, injection attack prevention validation",
                 "Load Testing": (<div><span className="text-grey2"><b>Apache JMeter</b></span> (for concurrent simulation and stress testing)</div>),
                 "Database Testing": (<div><span className="text-grey2"><b>DBUnit</b></span> (for CRUD operation validation and rollback verification)</div>),
                 "Continuous Testing": (<div><span className="text-grey2"><b>Jenkins</b></span> integrated test pipelines for regression and nightly builds</div>),
               },
               "8. Telecom Technologies":{
-                "Asterisk PBX (Open Source)": "Served as the primary call simulation engine. It handled SIP signaling, call routing, DTMF tone processing, and integration with the VXML Server to emulate real-world IVR behavior.",
-                "VXML Server (CCBU Integration)":"Hosted and executed customer-provided VXML applications. Each application was mapped to a virtual phone number that could be triggered from the simulator UI or test scripts.",
-                "FreeSWITCH (Media Gateway)":"Used for handling concurrent call sessions, RTP audio streams, and codec conversions. Supported simulation of multiple IVR sessions simultaneously during stress testing.",
-                "OpenSIPS / Kamailio (SIP Proxy)":"Acted as a signaling layer for managing SIP message routing between the simulator, PBX, and VXML server components.",
-                "Softphone Clients (Zoiper, X-Lite)": "Utilized during integration testing to manually validate call flows, play DTMF tones, and verify audio prompts during simulation cycles.",
-                "Media Server Extensions (Asterisk Media Plugins)": "Enabled playback of pre-recorded voice prompts, detection of audio input responses, and simulated voice streaming between endpoints.",
-                "Voice Codec Simulation": "Supported G.711, G.729, and Opus codec formats to test compression, latency, and voice quality under simulated network conditions.",
-                "JavaFX Call Flow Visualizer":"Integrated directly into the desktop app, providing a real-time visual map of SIP call states, IVR routing logic, and event triggers based on the telecom stack’s runtime state."
+                "Call Simulation Engine": "Asterisk PBX for SIP signaling, call routing, DTMF tone processing, and VXML server integration",
+                "IVR Application Hosting": "VXML Server (CCBU) hosting customer VXML applications with virtual number mapping for test triggering",
+                "Media & Session Management": "FreeSWITCH as media gateway for concurrent call sessions, RTP audio streams, and codec conversions",
+                "SIP Signaling Infrastructure": "OpenSIPS/Kamailio as SIP proxy for managing message routing between simulator, PBX, and VXML components",
+                "Network Protocols": "SIP (Session Initiation Protocol), RTP/RTCP (Real-time Transport Protocol), HTTP/HTTPS, WebSocket, VXML",
+                "Gateways & Switching": "Asterisk as VoIP gateway, FreeSWITCH as media gateway, Software-based SIP routers for virtual call routing",
+                "Network Infrastructure": "Virtualized network environment with software routers, SIP-aware firewalls, and simulated WAN conditions",
+                "Testing & Validation Tools": "Zoiper, X-Lite softphones for manual call flow validation, DTMF testing, and audio prompt verification",
+                "Media Processing": "Asterisk media plugins for pre-recorded voice prompts, audio input detection, and simulated voice streaming",
+                "Voice Codecs Supported": "G.711, G.729, and Opus codec formats for testing compression, latency, and voice quality under varied conditions",
+                "Real-time Visualization": "JavaFX call flow visualizer integrated with telecom stack for live SIP state mapping and IVR routing logic"  
               },
-              "Other Stacks":{         
-               "Protocols Used": (<div><span className="text-grey2"><b>HTTP/HTTPS</b></span> (for application 
-                communication), <span className="text-grey2"><b>SIP and RTSP protocol</b></span> (stubs for telephony interaction 
-                simulation), <span className="text-grey2"><b>XML/VXML</b></span> parsing for IVR call script execution</div>),
-               "Database Servers": (<div><span className="text-grey2"><b>MySQL Database</b></span> (for backend persistence), 
+              "9. Databases & Middleware":{
+                "Database Servers": (<div><span className="text-grey2"><b>MySQL 5.6 Database</b></span> (for backend persistence  of simulation results, IVR flow configurations, and user session data), 
                     <span className="text-grey2"><b>SQLite Database</b></span> (for local and lightweight desktop mode simulations)</div>),
-               "Web Servers": (<div><span className="text-grey2"><b>Apache Tomcat</b></span> (for backend service deployment)</div>),
-               "DevOps & CICD Tools": (<div><span className="text-grey2"><b>Jenkins</b></span> (for automated build and 
-               deployment pipelines), <span className="text-grey2"><b>Ant</b></span> (for legacy code reusablitity) 
-               and <span className="text-grey2"><b>Maven</b></span> (for build Management)</div>),
-            }, 
+                "File Handling and Storage": "Microsoft IIS Server for file storage, FTP/SFTP for secure file transfer of VXML scripts, voice prompts, and configuration backups",
+                "Data Security": "Database encryption at rest, secure FTP credentials management, role-based data access controls for sensitive configuration files",
+                "Data Caching": "Ehcache for in-memory caching of frequently accessed VXML scripts and telephony configuration parameters",
+                "Message Queuing": "In-memory message queues for asynchronous processing of SIP events and real-time simulation updates",
+                "Connection Pooling": "Apache DBCP for database connection management, C3P0 for optimized JDBC resource utilization",
+                "ORM & Data Access": "JDBC for direct database operations, custom DAO patterns for simulation data persistence",
+                "Session Management": "Tomcat session replication for web application scalability, custom session handling for desktop application state persistence",
+                "Integration Middleware": "Custom Java middleware for Asterisk AMI (Asterisk Manager Interface), FreeSWITCH ESL (Event Socket Library) integration",
+                "Data Replication": "Database replication for test environment synchronization, configuration backup strategies",
+                "Performance Optimization": "Database indexing for simulation query performance, query optimization for large call detail record analysis",
+                "Backup & Recovery": "Automated database backups, IIS file system snapshots, disaster recovery procedures for simulation data"
+              },
+              "10. Infrastructure & Tools": {
+                "Logging and Monitoring":"Log4j and JMX for runtime performance tracking",
+                "Version Control": "SVN (Apache Subversion) for source code management",
+                "Build Tools": "Apache Ant (for legacy code reusablitity), Apache Maven 3 (for dependency management and build automation)",
+                "Integrated Development Environment": "Eclipse IDE with Java EE and Web Tools Platform",
+                "Continuous Integration": "Jenkins for automated builds, test execution and deployment pipelines",
+                "Issue Tracking": "JIRA for defect tracking and project management",
+                "Testing Frameworks": "JUnit 4, TestNG, JMeter for performance testing",
+                "Database": "MySQL 5.6 for simulation results and configuration storage",
+                "Telephony Servers": "Asterisk 11, FreeSWITCH 1.4, OpenSIPS 1.10",
+                "Operating Systems": "Windows 7/8 for development, CentOS 6 for server deployment",
+                "Web Servers": "Apache Tomcat 7 for application deployment",
+                "Network Tools": "Wireshark for SIP packet analysis, SIPp for protocol testing",
+                "Documentation": "Confluence for project documentation and knowledge sharing",
+                "Audit & Logging": "Comprehensive audit trails for simulation runs, secure logging of SIP transactions, access log monitoring for security events"
+              },
+              "11. Security Management": {
+                "Authentication": "Multi-layer authentication including HTTP Basic Auth for web services, session-based login for web UI, and certificate-based authentication for SIP trunk connections",
+                "Authorization": "Role-based access control (RBAC) with different privilege levels for developers, QA engineers, and administrators accessing IVR simulations",
+                "Password Policies": "Enforced password complexity, regular rotation policies, and secure credential storage using hashing algorithms for web and desktop application access",
+                "Network Security": "SIP over TLS for secure signaling, RTP encryption for voice media, firewall configuration for telephony ports (5060, 5061)",
+                "Data Protection": "Encrypted configuration files for Asterisk/FreeSWITCH credentials, secure storage of simulation test data",
+                "Data Encryption": "TLS/SSL for web application traffic, SRTP for secure voice media streams, encrypted configuration files for sensitive telephony parameters",
+                "Sensitive Data Handling": "Secure storage of SIP credentials, encrypted call detail records, masked DTMF input in logs, and isolated test data containing simulated PII",
+                "Vulnerability Management": "Regular security scans for web applications, SIP protocol fuzz testing, dependency vulnerability checks on Java libraries and telecom components",
+                "Security Auditing": "Comprehensive audit trails for simulation access, SIP call flow monitoring, and user activity logging across web and desktop interfaces",
+                "Network Security": "Firewall configuration for SIP ports (5060/5061), RTP media port ranges, and web application ports; VLAN segregation for telecom infrastructure",
+                "Application Hardening": "Input validation for SIP headers, VXML script sanitization, and secure session management across web and desktop clients"
+              },
            },
            "rolesAndresponsibilities":[(<div>Developed and maintained <span className="text-grey2"><b>web and desktop applications</b></span> (Windows, 
               Linux, Mac) for IVR simulation.</div>),
@@ -333,7 +379,7 @@ export const data = [{
           "projectDetails":{
             "Client Name":"",
             "Team Size": 6,
-            "My Roles": ""
+            "My Roles": "Full-Stack VoIP Engineer (Web, Desktop, Infrastructure)"
           },
           "projectTechStack":{
               "Software Life Cycle": "Agile Methodology",
