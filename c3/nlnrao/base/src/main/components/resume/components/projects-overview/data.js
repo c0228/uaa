@@ -128,8 +128,8 @@ export const data = [{
                   "Resolution Metrics": (<div><span className="text-grey2"><b>P1:</b></span> 99% resolved within 
                     1 hour,<br/> <span className="text-grey2"><b>P2:</b></span> 95% within 4 hours,<br/> <span className="text-grey2"><b>P3:</b></span> 90% 
                     within 8 business hours</div>),
-                  "SLA Compliance": "99.5% uptime maintained through proactive monitoring",
-                  "MTTR": (<div>Reduced <span className="text-grey2"><b>Mean Time to Resolution (MTTR)</b></span> by 30% through improved logging and alerting</div>)
+                  "System Availability": "99.5% uptime maintained through proactive monitoring",
+                  "Efficiency Improvement": (<div>Reduced <span className="text-grey2"><b>Mean Time to Resolution (MTTR)</b></span> by 30% through improved logging and alerting</div>)
               }
            },
            "rolesAndresponsibilities":[(<div>Developed and maintained the <span className="text-grey2"><b>Frontend Web Portal</b></span> using JSP, AJAX, and Bootstrap with WebSocket-based call simulation updates.</div>),
@@ -391,30 +391,197 @@ export const data = [{
             }
           },
           "projectTechStack":{
-            "Other Stacks":{
-              "Software Life Cycle": "Agile Methodology",
-              "Project Architecture": "Microservice Architecture",
-              "Management Tools": "Jira, Atlassian Confluence",
-              "Frontend Stack": "HTML, CSS, Javascript, Bootstrap, JQuery, Ajax, Angular JS",
-              "Frontend Unit Testing": "Jasmine Framework and Karma Test Runner",
-              "Backend Stack": "Java 7, Spring Framework (v.3), Spring MVC with Hibernate (Backend API Development)",
-              "Backend Unit Testing": "JUnit Testing Framework and Mockito Framework",
+            "1. Project Execution Workflow":{
+              "Software Life Cycle": "Agile Methodology (Kanban Framework)",
+              "Project Architecture": "Designed multi-tier architecture with Cisco infrastructure, Spring Framework as backend, and AngularJS as frontend",
+              "Integrated Development Environment (IDE)": (<div><span className="text-grey2"><b>Eclipse IDE</b></span> (for Java EE 
+                  Development), <span className="text-grey2"><b>WebStorm</b></span> (for AngularJS - frontend development), 
+                  <span className="text-grey2"><b>Cisco Call Studio</b></span> (for developing and testing VXML Based IVR applications)</div>)
+            },
+            "2. Frontend Web UI Development":{
+              "Web Framework": "AngularJS for single-page application development",
+              "UI Technologies": "HTML5, CSS3, JavaScript, Bootstrap for responsive design",
+              "UI Libraries": "AngularJS Material, D3.js for data visualization, jQuery for DOM manipulation",
+              "UI Components": "Real-time call monitoring dashboard, IVR flow management console, performance analytics charts",
+              "Data Visualization": "Interactive charts for call metrics, real-time status indicators, historical reporting views",
+              "Server-Socket Programming": "WebSocket connections for real-time call status updates, Socket.IO for bi-directional communication",
+              "Protocols Used": "HTTP/HTTPS for API communication, WebSocket (WS/WSS) for real-time data, RESTful APIs for data exchange",
+              "Performance Optimization": "AngularJS digest cycle optimization, lazy loading of modules, asset minification, HTTP caching headers, WebSocket connection pooling",
+              "Browsers Supported": "Chrome, Firefox, Safari, Internet Explorer 11+"
+            },
+            "3. Frontend Web UI Testing":{
+              "Unit Testing": "Jasmine and Karma for AngularJS component testing, JavaScript unit tests",
+              "Integration Testing": "Protractor for AngularJS integration, SoapUI for API testing, custom WebSocket test clients",
+              "End-to-End Testing": "Selenium WebDriver with Java bindings, Protractor for Angular-specific workflows, Jenkins for test automation",
+              "Functional Testing": "Manual testing with test scripts, QTP (QuickTest Professional) for regression testing, TestComplete for UI automation",
+              "Cross-Browser Testing": "BrowserStack for multi-browser testing, IE11 Developer Tools, Chrome DevTools for compatibility validation",
+              "Performance Testing": "JMeter for load testing, YSlow for performance audits, Google PageSpeed Insights for optimization",
+              "UI/UX Testing": "Manual accessibility testing, WAVE toolbar for accessibility, responsive design testing with viewport emulators"
+            },
+            "4. Backend Development":{
+              "Languages & Frameworks": "Java 8, Spring Framework 4.x (Spring MVC, Spring Boot, Spring Security, Spring Data)",
+              "Core Modules": "IVR call routing engine, SIP session manager, real-time analytics processor, report generation service, dashboard data provider",
               "API Contract Approach": (<div>
                   <div><span className="badge resume-project-badge fs11">Contract-First Approach</span></div> 
                   <div className="mtop5p"><span className="text-grey2"><b>WSDL</b></span> (for SOAP services),</div>
                   <div className="mtop5p"><span className="badge resume-project-badge fs11">Contract-First Approach</span></div>
                   <div className="mtop5p"><span className="text-grey2"><b>OpenAPI/Swagger</b></span> (for REST APIs)</div>
                 </div>),
-              "Telecom Stack": "VoIP Gateway, Cisco Unified Intelligent Contact Management Enterprise (ICME), VXML Server, Cisco Call Studio",
-              "End-to-End Testing": "Java Selenium Framework",
-              "Protocols Used": "HTTP / HTTPS, SIP, H.323, WebSocket protocols and WebRTC Technologies",
-              "Database Server": "Microsoft SQL Server",
-              "Web Server": "GlassFish Web Server",
-              "DevOps & CICD Tools": "Github (Source Version Control), Jenkins (Pipeline Orchestration), FindBugs and SonarCube Code Coverage Tool",
-              "Integrated Development Environment (IDE)": (<div>NetBeans IDE,<br/> Cisco Call Studio</div>),
-              "Browsers Supported": "Mozilla FireFox, Google Chrome and Internet Explorer 5, 6, 7"
+              "API Design": "RESTful web services for dashboard integration, SOAP APIs for Cisco UC system integration, WebSocket endpoints for real-time updates",
+              "API Security": "Spring Security with OAuth2, JWT token authentication, role-based authorization, API rate limiting, CORS configuration",
+              "Input Validation": "Spring Validation framework, custom validators for SIP parameters, SQL injection prevention, XSS filtering on user inputs",
+              "Concurrency": "Multi-threaded call processing, connection pooling for database operations, asynchronous event handling for SIP messages",
+              "Data Exchange Libraries": "Jackson for JSON processing, JAXB for XML parsing, Gson for data serialization",
+              "Data & Configuration Formats": "JSON for API payloads, XML for Cisco device configurations, YAML for application properties, CSV for report exports",
+              "Web Servers": "Apache Tomcat 8, embedded Jetty for development environment",
+              "Protocols Implemented": "SIP for call signaling, RTP for media streams, HTTP/HTTPS for web services, WebSocket for real-time communication",
+              "Performance Optimization": "Database connection pooling, query optimization, caching with Ehcache, thread pooling for concurrent call processing"
+            },
+            "5. Backend Testing":{
+               "Unit Testing": "JUnit 4, Mockito for service layer mocking, PowerMock for static method testing",
+              "Integration Testing": "Spring TestContext Framework, embedded database testing, REST API integration tests with RestAssured",
+              "Functional Testing": "End-to-end business logic validation, IVR call flow functionality, SIP message processing accuracy",
+              "Regression Testing": "Automated test suites with Jenkins, Selenium for API regression, backward compatibility testing",
+              "API Testing": "SoapUI for SOAP web services, Postman for REST API validation, custom test clients for WebSocket endpoints",
+              "Load & Stress Testing": "JMeter for 1000+ concurrent call simulations, Gatling for high-load scenarios, memory leak detection under stress",
+              "Performance Testing": "JMeter for load testing IVR call processing, database performance benchmarking under high concurrent sessions",
+              "Continuous Testing": "Jenkins pipeline integration, automated test execution on commit, quality gates in CI/CD pipeline",
+              "Security Testing": "OWASP ZAP for vulnerability scanning, custom security tests for SIP message validation, SQL injection prevention testing",
+              "Concurrency Testing": "Multi-threaded test scenarios for call session management, race condition detection in SIP handling",
+              "Database Testing": "DBUnit for test data management, H2 in-memory database for isolated testing, query performance optimization",
+              "Telecom Protocol Testing": "SIPp for SIP protocol stress testing, custom RTP stream validation, DTMF processing accuracy tests",
+              "End-to-End Testing": "Complete call flow testing from Web UI to Cisco infrastructure integration"
+            },
+            "6. Telecom Technologies":{
+              "Gateways": "Cisco AS5300 Series Voice Gateways, Cisco 2900 Series Integrated Services Routers with VIC cards",
+              "Routers": "Cisco 3900 Series ISR with CUBE functionality, Cisco 2900 Series for branch connectivity",
+              "Switches": "Catalyst 3560 Series for access layer, Catalyst 4500 Series for distribution layer, Nexus 3000 for data center",
+              "Call Processing": "Cisco Unified Communications Manager (CUCM) 10.5, Cisco Unity Connection for voicemail services",
+              "IVR Platform": "Cisco Unified Contact Center Express (UCCX) with Finesse desktop integration",
+              "Network Protocols": "SIP (Session Initiation Protocol), RTP/RTCP, SCCP for legacy endpoints, H.323 for video integration",
+              "Quality of Service": "DSCP marking for voice traffic, LLQ (Low Latency Queuing), traffic shaping for WAN links",
+              "Network Management": "Cisco Prime Infrastructure 3.0, SolarWinds for performance monitoring, syslog servers for logging",
+              "Configuration & Management": "Cisco Unified CM Administration, Cisco Prime Collaboration, Cisco Configuration Professional",
+              "Development & Testing": "Cisco Call Studio for IVR development, Eclipse with Cisco plugins, Wireshark for packet analysis",
+              "Monitoring & Analytics": "Cisco Unified Intelligence Center (CUIC), SolarWinds NPM, Splunk for log analysis",
+              "Diagnostic Tools": "Cisco RTMT (Real-Time Monitoring Tool), PuTTY for CLI access, SIPp for protocol testing",
+              "Other Setups": "Cisco IP Phone 7900 series for testing, analog gateways for PSTN fallback, VMware ESXi for virtualized UC applications"
+            },
+            "7. Databases & Middlewares":{
+              "Database Management": "Oracle Database 11g for call detail records, configuration data, and user management",
+              "Data Caching": "Redis for session storage and frequently accessed IVR configurations, Ehcache for application-level caching",
+              "Message Brokers": "Apache ActiveMQ for asynchronous message processing, JMS for event-driven communication",
+              "Connection Pooling": "Oracle UCP (Universal Connection Pool), HikariCP for database connection management",
+              "ORM & Data Access": "Hibernate 4.x, Spring Data JPA, JDBC for direct database operations",
+              "Session Management": "Spring Session with Redis, distributed session handling for high availability",
+              "Integration Middleware": "Apache Camel for enterprise integration patterns, Spring Integration for event routing",
+              "API Gateway": "Custom API gateway with Spring Cloud for request routing and rate limiting",
+              "File Handling & Storage": "SFTP for configuration file transfers, local file system for logs, automated backup systems",
+              "Backup & Recovery": "Oracle RMAN for database backups, automated nightly backups, disaster recovery procedures with warm standby",
+              "Data Security": "Oracle Transparent Data Encryption, database auditing, secure credential storage with HashiCorp Vault",
+              "Performance Optimization": "Database partitioning for CDR tables, query optimization, index management, connection pooling tuning"
+            },
+            "8. Infrastructure & Tools":{
+              "Version Control": "Git with Bitbucket for source code management, GitFlow branching strategy",
+              "CI/CD Pipeline": "Jenkins for automated builds and deployment, Maven for dependency management",
+              "Containerization": "Docker for application containerization, Docker Compose for local development",
+              "Orchestration": "Kubernetes for container orchestration, Helm for package management",
+              "Monitoring & Logging": "Prometheus for metrics collection, Grafana for dashboard visualization, ELK Stack for log management",
+              "Configuration Management": "Ansible for infrastructure automation, Terraform for infrastructure as code",
+              "OS & Servers": "Red Hat Enterprise Linux 7, Windows Server 2012 R2, Apache Tomcat 8, Nginx for load balancing",
+              "Security & Access": "LDAP/Active Directory integration, SSL/TLS certificate management, firewall configuration, VPN access control",
+              "Code Quality & Coverage": "SonarQube for static code analysis, JaCoCo for code coverage, Checkstyle for code standards",
+              "Backup & Rollback": "Automated nightly backups, Git tag-based rollback strategy, database snapshot recovery procedures",
+              "Collaboration Tools": "JIRA for project tracking, Confluence for documentation, Slack for team communication",
+              "Testing Tools": "Selenium for automated testing, JMeter for performance testing, SoapUI for API testing",
+              "Security Tools": "SonarQube for code quality, OWASP ZAP for security testing, HashiCorp Vault for secrets management"
+            },
+            "9. Security Management":{
+              "Authentication": "Multi-factor authentication (MFA), LDAP/Active Directory integration, Single Sign-On (SSO) with SAML 2.0",
+              "Authorization": "Role-Based Access Control (RBAC), fine-grained permissions for IVR management, privilege escalation controls",
+              "Password Policies": "Enforced complexity requirements, regular password rotation, account lockout policies after failed attempts",
+              "Data Encryption": "TLS 1.2 for data in transit, AES-256 encryption for data at rest, database column-level encryption",
+              "Sensitive Data Handling": "PCI DSS compliance for call recordings, PII masking in logs, secure data disposal procedures",
+              "Vulnerability Management": "Regular security patches, vulnerability scanning with Nessus, penetration testing exercises",
+              "Security Auditing": "SIEM integration for real-time monitoring, comprehensive audit trails, SOX compliance reporting",
+              "Network Security": "Firewall rules for SIP ports, network segmentation, DDoS protection, intrusion detection systems",
+              "API Security": "OAuth 2.0 for API authorization, rate limiting, API key management, request validation",
+              "Application Security": "Input sanitization, SQL injection prevention, XSS protection, CSRF tokens"
+            },
+            "10. Production Support":{
+              "Support Model": "L1/L2/L3 support model, ITIL-based incident management process",
+              "Management Tools": "ServiceNow for incident tracking, JIRA Service Desk for ticket management, PagerDuty for on-call escalation",
+              "Log Analysis": "Splunk for real-time log analysis, ELK Stack for log aggregation, Grafana for log visualization and alerting",
+              "On-Call Support": "24/7 on-call rotation via PagerDuty, escalation policies, mobile alerting for critical incidents",
+              "Monitoring & Alerting": "Real-time system health monitoring, proactive alerting for performance degradation, automated failure detection",
+              "Performance Optimization": "Continuous performance tuning, capacity planning and scaling, bottleneck identification and resolution",
+              "Change Management": "Structured change control process, emergency change procedures, rollback strategy implementation",
+              "Release Management": "Bamboo for release automation, Ansible for deployment, Git for version-controlled release packages",
+              "Disaster Recovery": "DR site management, RTO/RPO adherence, regular disaster recovery drills and testing",
+              "Post-Release Validation": "Synthetic transaction monitoring with Catchpoint, automated health checks, performance benchmarking with Dynatrace",
+              "Documentation & Knowledge": "Comprehensive runbooks, operational procedures, knowledge base maintenance, root cause analysis documentation",
+              "Metrics & Reporting": "SLA compliance reporting, system availability metrics, performance trend analysis, customer satisfaction tracking",
+              "Incident Resolution": (<div>
+                <span className="text-grey2"><b>Critical (P1)</b></span> &lt;= 1 hour (99%)<br/>
+                <span className="text-grey2"><b>Major (P2)</b></span> &lt;= 4 hours (95%)<br/> 
+                <span className="text-grey2"><b>Minor (P3)</b></span> &lt;= 8 business hours (90%)
+              </div>),
+              "System Availability": "Maintained 99.5% system uptime SLA through proactive monitoring and automated Cisco UC infrastructure failover",
+              "Efficiency Improvement": "Achieved 30% reduction in MTTR (Mean Time to Resolution) through implementation of Splunk real-time analytics and automated diagnostic toolkits"
             }
-          }
+          },
+          "rolesAndresponsibilities":[
+            (<div>Architected and developed a high-availability IVR platform on a full Cisco technology stack, including gateways, routers (CUBE), and switches, 
+              ensuring 99.5% uptime.</div>),
+            (<div>Designed and engineered the backend services using Java/Spring Framework, creating robust RESTful APIs for the web dashboard and SOAP APIs 
+              for Cisco UC system integration.</div>),
+            (<div>Developed a responsive, single-page AngularJS web dashboard for real-time call monitoring, IVR flow management, and performance analytics, 
+              consumed by internal operators.</div>),
+            (<div>Implemented comprehensive security measures including Spring Security, OAuth2, and input validation to protect sensitive call data and 
+              system configurations.</div>),
+            (<div>Built and maintained the CI/CD pipeline using Jenkins and Maven to automate testing and deployment, ensuring rapid and reliable releases.</div>),
+            (<div>Provided 24/7 L2/L3 production support, managing incidents within strict SLAs (P1: ≤1 hour) and reducing MTTR by 30% through enhanced 
+              monitoring and logging.</div>)],
+          "challenges":[{
+              "title":"1. Legacy System Integration",
+              "challenge": (<div>Integrating the new IVR platform with Rogers' existing legacy telephony and billing systems.</div>),
+              "solution": (<div>Developed custom SOAP APIs and middleware using Apache Camel to act as a bridge, ensuring seamless data flow 
+                without disrupting old systems.</div>)
+            },{
+              "title":"2. Ensuring Carrier-Grade Uptime",
+              "challenge": (<div>Achieving and maintaining 99.5% uptime for a critical customer-facing IVR system.</div>),
+              "solution": (<div>Implemented a high-availability Cisco infrastructure with redundant gateways/routers and automated failover mechanisms.</div>)
+            },{
+              "title":"3. Real-Time Data Latency",
+              "challenge": (<div>The web dashboard suffered from latency, showing outdated call status and metrics.</div>),
+              "solution": (<div>Implemented WebSocket connections for instant data push and used Redis for in-memory caching, enabling true real-time monitoring.</div>)
+            },{
+              "title":"4. Complex Incident Troubleshooting",
+              "challenge": (<div>Diagnosing issues across the multi-tier architecture (Web, App, Telecom) was slow, increasing MTTR.</div>),
+              "solution": (<div>Centralized logs using Splunk and created automated diagnostic scripts, reducing Mean Time to Resolution by 30%.</div>)
+            },{
+              "title":"5. Scaling for Peak Call Loads",
+              "challenge": (<div>The system performance degraded during peak traffic, risking call drops during major promotions.</div>),
+              "solution": (<div>Conducted load testing with JMeter, optimized thread pooling in the Java backend, and introduced QoS policies on network switches.</div>)
+            }],
+          "achievements":[(<div><span className="text-grey2"><b>Architected and delivered a high-availability IVR platform</b></span> on a full Cisco stack, 
+                successfully handling 500+ concurrent calls and maintaining <span className="text-grey2"><b>99.5% uptime</b></span> for enterprise-scale 
+                communications.</div>),
+              (<div><span className="text-grey2"><b>Reduced Mean Time to Resolution (MTTR) by 30%</b></span> by implementing centralized Splunk logging 
+                and automated diagnostic toolkits, significantly improving operational efficiency for the support team.</div>),
+              (<div><span className="text-grey2"><b>Engineered a real-time AngularJS monitoring dashboard</b></span> that provided live call insights and 
+                IVR analytics, enabling proactive system management and reducing issue identification time.</div>),
+              (<div><span className="text-grey2"><b>Achieved strict SLA compliance</b></span> with 
+                a <span className="text-grey2"><b>99% on-time resolution rate for P1 critical incidents,</b></span> ensuring minimal business impact 
+                from system outages.</div>),
+              (<div><span className="text-grey2"><b>Enhanced system scalability and performance</b></span> by optimizing backend Java/Spring services 
+                and database configurations, successfully managing a 50% increase in call volume during peak traffic events.</div>),
+              (<div><span className="text-grey2"><b>Strengthened platform security</b></span> by integrating OAuth2 and Spring Security, successfully 
+                preventing vulnerabilities and ensuring secure access to the management dashboard.</div>),
+              (<div><span className="text-grey2"><b>Streamlined deployment processes</b></span> by establishing a robust CI/CD pipeline with Jenkins, 
+                reducing deployment windows by 40% and improving release reliability.</div>)
+          ]
+
       }]
    },
    {
@@ -423,30 +590,213 @@ export const data = [{
     "projects":[{
         "title":"Fleet Management and Booking System",
         "isProject": true,
-        "desc":(<div></div>),
-        "tags":["Website"],
+        "desc":(<div>The Fleet Management and Booking System is a large-scale, distributed platform engineered to modernize Greyhound's core operations, 
+          featuring a cloud-based backend with microservices for booking, dispatch, and real-time vehicle tracking. This central system powered a responsive 
+          AngularJS web portal for customer reservations and admin management, while native Android and iOS applications provided mobile users with ticket booking, 
+          live bus tracking, and push notifications. The architecture integrated geolocation APIs for ETA predictions, a payment gateway for transactions, and a 
+          dedicated telematics module that consumed GPS data from buses, creating a seamless, real-time operational loop between customers, dispatchers, and the 
+          entire fleet.</div>),
+        "tags":["Website", "Android / IOS Mobile App"],
         "projectDetails":{
-          "Client Name":"",
+          "Client Name":"Greyhound Lines, Inc.",
           "Team Size": 6,
-          "My Roles": ""
+          "My Roles & Timelines": {
+               "Dev Role": "Digital Mobility Solutions Engineer",
+               "Dev Support": (<span className="badge resume-work-badge fs11">Feb 2015 - Jun 2016</span>),
+               "Prod Role": "L2/L3 Support Engineer",
+               "Prod Support": (<span className="badge resume-work-badge fs11">Jun 2016 - Dec 2016</span>)
+          }
         },
         "projectTechStack":{
-            "Software Life Cycle": "",
-            "Project Architecture": "",
-            "Management Tools": "",
-            "Frontend Stack": "",
-            "Frontend Unit Testing": "",
-            "Backend Stack": "",
-            "Backend Unit Testing": "",
-            "Telecom Stack": "",
-            "End-to-End Testing": "",
-            "Protocols Used": "",
-            "Database Server": "",
-            "Web Server": "",
-            "DevOps & CICD Tools": "",
-            "Integrated Development Environment (IDE)": (<div>Eclipse IDE</div>),
-            "Browsers Supported": ""
-        }
+          "1. Project Execution Workflow":{
+            "Software Life Cycle": "Agile Methodology (Scrum Framework)",
+            "Project Architecture": "Microservices-based Architecture",
+            "Integrated Development Environment (IDE)": (<div><span className="text-grey2"><b>WebStorm</b></span> (for AngularJS development), 
+              <span className="text-grey2"><b>Spring Tool Suite [STS]</b></span> (for Java / Spring Framework 
+              development), <span className="text-grey2"><b>Visual Studio Code, Xcode (v.7/8) and Android Studio</b></span> (for Cross-Platform Mobile Development)</div>)
+          },
+          "2. Frontend Web UI Development":{
+            "Web Framework": "AngularJS for single-page application (SPA) development with MVC architecture",
+            "UI Technologies": "HTML5, CSS3, JavaScript (ES6), Bootstrap for responsive design",
+            "UI Libraries": "Angular Material for UI components, Chart.js for analytics dashboards, Moment.js for date/time handling",
+            "UI Components": "Interactive booking wizard, real-time seat selection map, fleet tracking dashboard, admin management console",
+            "Server-Socket Programming": "WebSocket connections for live bus tracking updates, Socket.IO for real-time notification system",
+            "UI Rendering": "Client-side rendering with AngularJS directives, server-side pagination for booking history, template caching for performance",
+            "Protocols Used": "HTTP/HTTPS for API communication, WebSocket (WS/WSS) for real-time tracking, RESTful APIs for data exchange",
+            "Performance Optimization": "Lazy loading of booking modules, image compression for bus photos, AngularJS digest cycle optimization, CDN for static assets",
+            "Browser Compatibility": "Chrome, Firefox, Safari, Edge, Internet Explorer 11+",
+            "Third-party Integrations": "Google Maps JavaScript API for route visualization, Stripe.js for payment processing, Google Analytics for user behavior tracking"
+          },
+          "3. Frontend Web UI Testing":{
+            "Unit Testing": "Jasmine and Karma for AngularJS component testing, JavaScript unit tests for services and controllers",
+            "Integration Testing": "Protractor for end-to-end testing of booking workflows, API integration validation with backend services",
+            "Regression Testing": "Protractor for automated test suites, cross-browser regression validation, backward compatibility checks after feature updates",
+            "End-to-End Testing": "Protractor for complete user journey testing from route selection to payment processing and ticket confirmation",
+            "Functional Testing": "Protractor for Seat selection functionality, booking form validation, payment gateway integration, real-time tracking features",
+            "Cross-Browser Testing": "BrowserStack for multi-browser compatibility testing (Chrome, Firefox, Safari, Edge, IE11+)",
+            "Performance Testing": "Lighthouse for performance audits, WebPageTest for load time optimization, memory leak detection",
+            "UI/UX Testing": "Responsive design testing across devices, accessibility compliance (WCAG 2.0), user interaction validation",
+            "Mobile-Web Testing": "Chrome DevTools device simulation, real device testing for mobile browser compatibility",
+            "Security Testing": "XSS vulnerability testing, input sanitization validation, secure payment form testing"
+          },
+          "4. Mobile App Development":{
+            "Cross-Platform Framework": "Ionic Framework with AngularJS for hybrid mobile app development",
+            "Frontend Technologies": "HTML5, CSS3, JavaScript (ES5), Ionic CSS components and AngularJS directives",
+            "Native Bridges": "Cordova plugins for camera, geolocation, local storage APIs, device API access, custom plugins for specific hardware features",
+            "Platforms Supported": "Android 4.1+ (Jelly Bean) and iOS 7+",
+            "Core Features": "Bus schedule viewing, basic ticket booking, route information, contact details, real-time tracking, digital boarding passes, push notifications, offline booking support",
+            "Device Integration": "GPS for location services, camera for profile pictures, local storage for offline data and user preferences",
+            "Third-party Integrations": "Google Maps SDK for navigation, PayPal Mobile SDK and Stripe for payments, Firebase Cloud Messaging for push notifications",
+            "Development Tools": "Intel XDK for prototyping, Chrome DevTools for mobile debugging",
+            "Performance Optimization": "Lazy loading of routes, image compression, image sprites for icons, efficient data caching, minimal DOM manipulation, minimal AngularJS watchers, hardware acceleration CSS",
+            "App Distribution": "Google Play Store for Android, Apple App Store for iOS deployment",
+          },
+          "5. Mobile App Testing":{
+            "Unit Testing": "Jasmine for AngularJS service testing, Karma for test execution in the Ionic framework",
+            "Integration Testing": "Protractor for end-to-end workflow testing, validation of Cordova plugin integrations",
+            "Functional Testing": "Automated Protractor testing of core features: booking flow, payment processing, GPS tracking, and push notifications",
+            "Regression Testing": "Automated Protractor test suites for critical user journeys after each app update",
+            "Cross-Platform Testing": "Device testing on iOS 8+ and Android 4.4+, validation of consistent UI/UX across platforms",
+            "Performance Testing": "Memory usage profiling, app launch time measurement, battery consumption analysis",
+            "Device Compatibility": "Testing on multiple device types (phones/tablets) and screen resolutions",
+            "Network Condition Testing": "App behavior validation under various network speeds (2G, 3G, 4G, WiFi) and offline scenarios",
+            "Usability Testing": "User experience validation, navigation flow testing, accessibility compliance checks",
+            "Store Compliance Testing": "Pre-submission validation for Google Play and Apple App Store guidelines",
+            "Testing Approach": "Manual testing on physical devices (iOS 7/8, Android 4.1-4.4), Ripple emulator for preliminary testing"
+          },
+          "6. Backend Development":{
+            "Languages & Frameworks": "Java 8, Spring Framework 4.x (Spring Boot, Spring MVC, Spring Data JPA, Spring Security)",
+            "Core Modules": "Booking engine, payment processing service, route management, fleet tracking system, user management",
+            "API Design": "RESTful web services for web and mobile clients, SOAP APIs for legacy system integration",
+            "API Contract Approach": (<div>
+                  <div><span className="badge resume-project-badge fs11">Contract-First Approach</span></div> 
+                  <div className="mtop5p"><span className="text-grey2"><b>WSDL</b></span> (for SOAP services),</div>
+                  <div className="mtop5p"><span className="badge resume-project-badge fs11">Contract-First Approach</span></div>
+                  <div className="mtop5p"><span className="text-grey2"><b>OpenAPI/Swagger</b></span> (for REST APIs)</div>
+                </div>),
+            "Concurrency": "Multi-threaded booking request handling, synchronized seat allocation, connection pooling for database operations",
+            "Data Exchange Libraries": "Jackson for JSON processing, JAXB for XML parsing, Gson for legacy data formats",
+            "Data & Configuration Formats": "JSON for API payloads, YAML for application configuration, XML for third-party integrations",
+            "Web Servers": "Apache Tomcat 8, embedded Jetty for development and testing",
+            "Input Validation": "Spring Validation framework, custom validators for business rules, SQL injection prevention",
+            "API Security": "OAuth 2.0 with JWT tokens, role-based access control, API rate limiting, CORS configuration",
+            "Performance Optimization": "Database connection pooling with HikariCP, query optimization, Ehcache for frequently accessed data",
+            "Protocols Implemented": "HTTP/HTTPS for web services, WebSocket for real-time tracking updates"
+          },
+          "7. Backend Testing":{
+            "Unit Testing": "JUnit 4, Mockito for service layer mocking, PowerMock for static method testing",
+            "Integration Testing": "Spring TestContext Framework, embedded H2 database testing, REST API integration with RestAssured",
+            "Functional Testing": "End-to-end business logic validation for booking system, payment processing, and route management",
+            "Regression Testing": "Automated test suites with Jenkins, database migration testing, backward compatibility validation",
+            "API Testing": "Postman for REST API validation, SoapUI for SOAP web services, custom test clients for WebSocket endpoints",
+            "Load & Stress Testing": "JMeter for simulating high concurrent bookings, Gatling for stress testing payment gateway",
+            "Performance Testing": "Database query optimization testing, JProfiler for memory leak detection, response time benchmarking",
+            "Continuous Testing": "Jenkins pipeline integration, automated test execution on Git commits, quality gates in deployment pipeline",
+            "Security Testing": "OWASP ZAP for vulnerability scanning, SQL injection testing, authentication/authorization validation",
+            "Concurrency Testing": "Multi-threaded booking scenario testing, race condition detection in seat allocation",
+            "Database Testing": "DBUnit for test data management, Flyway for database migration testing, transaction rollback testing",
+            "End-to-End Testing": "Selenium for complete system testing from mobile app booking to backend processing and confirmation"
+          },
+          "8. Database & Middleware": {
+            "Database Management": "PostgreSQL 9.4 for transactional data, MongoDB for real-time tracking logs",
+            "Data Caching": "Redis for session storage and frequently accessed route information, Ehcache for application-level caching",
+            "Middleware / Messaging": "Apache ActiveMQ for asynchronous message processing, JMS for booking confirmation and notification queues",
+            "Message Brokers": "RabbitMQ for inter-service communication between booking and tracking modules",
+            "Connection Pooling": "HikariCP for database connection management, C3P0 for legacy connection handling",
+            "ORM & Data Access": "Hibernate 4.x JPA implementation, Spring Data JPA, native SQL for complex reporting queries",
+            "Session Management": "Spring Session with Redis for distributed session handling, JWT for stateless authentication",
+            "Integration Middleware": "Apache Camel for ETL processes, Spring Integration for real-time data routing",
+            "API Gateway": "NGINX as reverse proxy and load balancer, custom routing for microservices",
+            "File Handling & Storage": "AWS S3 for document storage, SFTP for partner data exchanges, local file system for temporary processing",
+            "Backup & Recovery": "PostgreSQL continuous archiving, AWS S3 snapshots, point-in-time recovery procedures",
+            "Data Security": "Database column-level encryption, SSL/TLS for data in transit, secure credential management with HashiCorp Vault",
+            "Performance Optimization": "Database indexing strategy, query performance tuning, connection pool optimization, read replicas for reporting"
+          },
+          "9. Infrastructure & Tools": {
+            "Version Control": "Git with GitLab for source code management, feature branch workflow",
+            "CI/CD Pipeline": "Jenkins for automated builds and deployment, Maven for dependency management, Ansible for configuration management",
+            "Containerization": "Docker for application containerization, Docker Compose for local development environments",
+            "Orchestration": "Kubernetes for container orchestration, Helm for package management",
+            "Monitoring & Logging": "Prometheus for metrics collection, Grafana for dashboard visualization, ELK Stack (Elasticsearch, Logstash, Kibana) for log management",
+            "Cloud Platforms": "AWS (EC2, S3, RDS, ELB) for production infrastructure, Docker Swarm for staging environment",
+            "Configuration Management": "Ansible for server provisioning, Terraform for infrastructure as code",
+            "OS & Servers": "Ubuntu 16.04 LTS, CentOS 7, Apache Tomcat 8, Nginx for load balancing and reverse proxy",
+            "Security & Access": "LDAP integration, SSL/TLS certificate management, AWS IAM for access control, VPN for secure connectivity",
+            "Code Quality & Coverage": "SonarQube for static code analysis, JaCoCo for code coverage, Checkstyle for code standards enforcement",
+            "Backup & Rollback": "Automated AWS EBS snapshots, database backup strategies, blue-green deployment for zero-downtime rollbacks",
+            "Collaboration Tools": "JIRA for project tracking, Confluence for documentation, Slack for team communication",
+            "Testing Tools": "Selenium for automated testing, JMeter for performance testing, Postman for API testing",
+            "Security Tools": "OWASP ZAP for security testing, Nessus for vulnerability scanning, HashiCorp Vault for secrets management"
+          },
+          "10. Security Management": {
+            "Authentication": "OAuth 2.0 with JWT tokens, Spring Security for authentication framework, multi-factor authentication for admin access",
+            "Authorization": "Role-Based Access Control (RBAC) with fine-grained permissions, method-level security with Spring Security annotations",
+            "Password Policies": "BCrypt password hashing, enforced password complexity, account lockout after failed attempts, regular password expiration",
+            "Data Encryption": "TLS 1.2 for data in transit, AES-256 encryption for sensitive data at rest, database column-level encryption for PII",
+            "Sensitive Data Handling": "PCI DSS compliance for payment data, PII masking in logs, secure data disposal procedures, tokenization for payment information",
+            "Vulnerability Management": "Regular security patches, OWASP Dependency Check for vulnerability scanning, penetration testing, security code reviews",
+            "Security Auditing": "Splunk for security event monitoring, comprehensive audit trails for all transactions, regulatory compliance reporting",
+            "Network Security": "AWS Security Groups for network segmentation, WAF for web application protection, DDoS mitigation, VPN for secure admin access",
+            "API Security": "API rate limiting, Request validation, CORS configuration, API key management for third-party integrations",
+            "Application Security": "Input sanitization, SQL injection prevention, XSS protection, CSRF tokens, secure session management"
+          },
+          "11. Production Support": {
+            "Support Model": "Follow-the-sun L1/L2/L3 support model, ITIL-based incident management framework",
+            "Management Tools": "ServiceNow for incident and problem management, JIRA Service Desk for ticket tracking, PagerDuty for on-call escalation",
+            "Log Analysis": "Splunk for real-time log analysis and correlation, ELK Stack for log aggregation and visualization, CloudWatch for AWS monitoring",
+            "On-Call Support": "24/7 on-call rotation with PagerDuty, mobile alerts for critical incidents, escalation policies for P1/P2 issues",
+            "Release Management": "Jenkins for automated deployment pipelines, Ansible for configuration management, Git for version-controlled releases",
+            "Post-Release Validation": "Automated health checks with Nagios, synthetic transaction monitoring, performance benchmarking with New Relic",
+            "Resolution Metrics": (<div>
+              <span className="text-grey2"><b>P1 Incidents</b></span> &lt;= 1 hour (99% Resolved - System outages and critical booking failures)<br/>
+              <span className="text-grey2"><b>P2 Incidents</b></span> &lt;= 4 hours (95% Resolved - Major functionality issues)<br/>
+              <span className="text-grey2"><b>P3 Incidents</b></span> &lt;= 8 hours (90% Resolved - Minor issues and enhancements)
+            </div>),
+            "System Availability": "99.5% application uptime maintained through proactive monitoring and automated failover mechanisms",
+            "Efficiency Improvement": "Reduced MTTR (Mean Time to Resolution) by 35% through implementation of automated diagnostics and improved monitoring alerts"
+          }
+        },
+        "rolesAndresponsibilities":[(<div>Designed and developed the complete <span className="text-grey2"><b>Fleet Management and Booking System,</b></span> including 
+          the <span className="text-grey2"><b>AngularJS web portal</b></span> and <span className="text-grey2"><b>Ionic-based mobile apps</b></span> for Android 
+          and iOS.</div>),
+          (<div>Built <span className="text-grey2"><b>scalable backend services and RESTful APIs</b></span> using Java and Spring Framework to handle bookings, 
+            payments, and real-time bus tracking.</div>),
+          (<div>Implemented <span className="text-grey2"><b>real-time features</b></span> including live vehicle tracking using WebSockets and Google Maps integration.</div>),
+          (<div>Integrated <span className="text-grey2"><b>third-party services</b></span> like payment gateways (Stripe/PayPal) and push notification systems for booking confirmations and alerts.</div>),
+          (<div>Ensured <span className="text-grey2"><b>application security</b></span> by implementing OAuth 2.0, input validation, and secure data handling practices.</div>),
+          (<div>Wrote and executed <span className="text-grey2"><b>comprehensive test suites</b></span> (Unit, Integration, E2E) using Jasmine, Karma, and Protractor to ensure software quality.</div>),
+          (<div>Managed the <span className="text-grey2"><b>CI/CD pipeline</b></span> with Jenkins for automated builds, testing, and deployments.</div>),
+          (<div>Provided <span className="text-grey2"><b>L3 production support,</b></span> monitored system health, and resolved incidents within defined SLAs, 
+            maintaining <span className="text-grey2"><b>99.5% uptime.</b></span></div>)],
+        "challenges":[{
+              "title":"1. Real-Time Location Tracking",
+              "challenge": (<div>Showing accurate, live bus locations on a map for thousands of vehicles with low latency.</div>),
+              "solution": (<div>Used WebSockets for instant GPS data push and optimized backend services for high-frequency updates.</div>)
+            },{
+              "title":"2. Scalable Booking System",
+              "challenge": (<div>Preventing double-booking and handling seat reservation spikes during peak travel seasons.</div>),
+              "solution": (<div>Implemented a robust concurrency control mechanism in the backend and used caching (Redis) for seat inventory.</div>)
+            },{
+              "title":"3. Cross-Platform Mobile Development",
+              "challenge": (<div>Building a single app that worked seamlessly and natively on both iOS and Android.</div>),
+              "solution": (<div>Used the Ionic Framework to develop a hybrid app, writing code once and deploying to both platforms.</div>)
+            },{
+              "title":"4. Legacy System Integration",
+              "challenge": (<div>Connecting the new web/mobile system with Greyhound's existing backend and database.</div>),
+              "solution": (<div>Built a set of secure RESTful and SOAP APIs to act as a bridge, enabling data exchange without disrupting old systems.</div>)
+            },{
+              "title":"5. Maintaining High Availability",
+              "challenge": (<div>Ensuring the booking platform was always available, especially during high traffic.</div>),
+              "solution": (<div>Designed a fault-tolerant infrastructure on AWS with load balancers and automated failover, achieving 99.5% uptime.</div>)
+            }],
+        "achievements":[(<div>Successfully architected and delivered a <span className="text-grey2"><b>scalable Fleet Management & Booking System</b></span> used for national operations.</div>),
+                      (<div>Achieved <span className="text-grey2"><b>99.5% application uptime</b></span> by implementing a robust, fault-tolerant infrastructure on AWS.</div>),
+                      (<div>Reduced <span className="text-grey2"><b>Mean Time to Resolution (MTTR) by 35%</b></span> through enhanced monitoring and automated diagnostics.</div>),
+                      (<div>Launched a <span className="text-grey2"><b>cross-platform mobile app (iOS & Android)</b></span> using the Ionic framework, expanding customer access.</div>),
+                      (<div>Successfully handled <span className="text-grey2"><b>peak booking traffic</b></span> and concurrent users without system downtime during holiday seasons.</div>),
+                      (<div>Streamlined the development lifecycle by establishing a <span className="text-grey2"><b>CI/CD pipeline</b></span> with Jenkins, cutting deployment time by 40%.</div>),
+                      (<div>Enhanced system security and achieved <span className="text-grey2"><b>PCI DSS compliance</b></span> for the payment processing module.</div>)
+        ]
     },{
       "title":"Live GPS Tracking and Geofencing System",
       "isPOC": true,
@@ -473,7 +823,14 @@ export const data = [{
           "DevOps & CICD Tools": "",
           "Integrated Development Environment (IDE)": (<div>Eclipse IDE</div>),
           "Browsers Supported": ""
-      }
+      },
+      "rolesAndresponsibilities":[],
+      "challenges":[{
+              "title":"1. ",
+              "challenge": (<div></div>),
+              "solution": (<div></div>)
+            }],
+      "achievements":[]
   }]
  },{
   "timeline":"January 2017 ~ March 2018",
@@ -504,7 +861,14 @@ export const data = [{
           "DevOps & CICD Tools": "",
           "Integrated Development Environment (IDE)": (<div>Eclipse IDE</div>),
           "Browsers Supported": ""
-      }
+      },
+      "rolesAndresponsibilities":[],
+      "challenges":[{
+              "title":"1. ",
+              "challenge": (<div></div>),
+              "solution": (<div></div>)
+            }],
+      "achievements":[]
   },
   {
     "title":"Personalized Recommendation Engine",
@@ -532,7 +896,14 @@ export const data = [{
         "DevOps & CICD Tools": "",
         "Integrated Development Environment (IDE)": (<div>Eclipse IDE</div>),
         "Browsers Supported": ""
-    }
+    },
+    "rolesAndresponsibilities":[],
+    "challenges":[{
+              "title":"1. ",
+              "challenge": (<div></div>),
+              "solution": (<div></div>)
+            }],
+    "achievements":[]
 },{
   "title":"Visual Search & Augmented Reality",
   "isPOC": true,
@@ -559,7 +930,14 @@ export const data = [{
       "DevOps & CICD Tools": "",
       "Integrated Development Environment (IDE)": (<div>Eclipse IDE</div>),
       "Browsers Supported": ""
-  }
+  },
+  "rolesAndresponsibilities":[],
+  "challenges":[{
+              "title":"1. ",
+              "challenge": (<div></div>),
+              "solution": (<div></div>)
+            }],
+  "achievements":[]
 }]
 }]
 },
@@ -595,7 +973,14 @@ export const data = [{
             "DevOps & CICD Tools": "",
             "Integrated Development Environment (IDE)": (<div>Eclipse IDE</div>),
             "Browsers Supported": ""
-        }
+        },
+        "rolesAndresponsibilities":[],
+        "challenges":[{
+              "title":"1. ",
+              "challenge": (<div></div>),
+              "solution": (<div></div>)
+            }],
+        "achievements":[]
     }]
  }]
 },
@@ -631,7 +1016,14 @@ export const data = [{
             "DevOps & CICD Tools": "",
             "Integrated Development Environment (IDE)": (<div>Eclipse IDE</div>),
             "Browsers Supported": ""
-        }
+        },
+        "rolesAndresponsibilities":[],
+        "challenges":[{
+              "title":"1. ",
+              "challenge": (<div></div>),
+              "solution": (<div></div>)
+            }],
+        "achievements":[]
     },{
       "title":"Pinnacles Files: A Comprehensive File Management Platform",
       "isPOC": true,
@@ -658,7 +1050,14 @@ export const data = [{
           "DevOps & CICD Tools": "",
           "Integrated Development Environment (IDE)": (<div>Eclipse IDE</div>),
           "Browsers Supported": ""
-      }
+      },
+      "rolesAndresponsibilities":[],
+      "challenges":[{
+              "title":"1. ",
+              "challenge": (<div></div>),
+              "solution": (<div></div>)
+            }],
+      "achievements":[]
   },{
     "title":"Blockchain based Audit Trial and Logging System",
     "isPOC": true,
@@ -685,7 +1084,14 @@ export const data = [{
         "DevOps & CICD Tools": "",
         "Integrated Development Environment (IDE)": (<div>Eclipse IDE</div>),
         "Browsers Supported": ""
-    }
+    },
+    "rolesAndresponsibilities":[],
+    "challenges":[{
+              "title":"1. ",
+              "challenge": (<div></div>),
+              "solution": (<div></div>)
+            }],
+    "achievements":[]
 }]
  },{
   "timeline":"January 2020 ~ February 2021",
@@ -716,7 +1122,14 @@ export const data = [{
           "DevOps & CICD Tools": "",
           "Integrated Development Environment (IDE)": (<div>Eclipse IDE</div>),
           "Browsers Supported": ""
-      }
+      },
+      "rolesAndresponsibilities":[],
+      "challenges":[{
+              "title":"1. ",
+              "challenge": (<div></div>),
+              "solution": (<div></div>)
+            }],
+      "achievements":[]
   }]
 },{
   "timeline":"February 2021 ~ June 2021",
@@ -747,7 +1160,14 @@ export const data = [{
           "DevOps & CICD Tools": "",
           "Integrated Development Environment (IDE)": (<div>Eclipse IDE</div>),
           "Browsers Supported": ""
-      }
+      },
+      "rolesAndresponsibilities":[],
+      "challenges":[{
+              "title":"1. ",
+              "challenge": (<div></div>),
+              "solution": (<div></div>)
+            }],
+      "achievements":[]
   }]
 }]
 },{
@@ -782,7 +1202,14 @@ export const data = [{
             "DevOps & CICD Tools": "",
             "Integrated Development Environment (IDE)": (<div>Eclipse IDE</div>),
             "Browsers Supported": ""
-        }
+        },
+        "rolesAndresponsibilities":[],
+        "challenges":[{
+              "title":"1. ",
+              "challenge": (<div></div>),
+              "solution": (<div></div>)
+            }],
+        "achievements":[]
     }]
   }]
 },{
@@ -817,7 +1244,14 @@ export const data = [{
             "DevOps & CICD Tools": "",
             "Integrated Development Environment (IDE)": (<div>Eclipse IDE</div>),
             "Browsers Supported": ""
-        }
+        },
+        "rolesAndresponsibilities":[],
+        "challenges":[{
+              "title":"1. ",
+              "challenge": (<div></div>),
+              "solution": (<div></div>)
+            }],
+        "achievements":[]
     }]
   }]
 }];
