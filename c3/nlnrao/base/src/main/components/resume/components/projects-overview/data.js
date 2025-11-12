@@ -391,6 +391,7 @@ export const data = [{
             }
           },
           "projectTechStack":{
+            "Other Stacks":{
               "Software Life Cycle": "Agile Methodology",
               "Project Architecture": "Microservice Architecture",
               "Management Tools": "Jira, Atlassian Confluence",
@@ -412,6 +413,7 @@ export const data = [{
               "DevOps & CICD Tools": "Github (Source Version Control), Jenkins (Pipeline Orchestration), FindBugs and SonarCube Code Coverage Tool",
               "Integrated Development Environment (IDE)": (<div>NetBeans IDE,<br/> Cisco Call Studio</div>),
               "Browsers Supported": "Mozilla FireFox, Google Chrome and Internet Explorer 5, 6, 7"
+            }
           }
       }]
    },
