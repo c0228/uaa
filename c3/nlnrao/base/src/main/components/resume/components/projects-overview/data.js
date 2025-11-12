@@ -10,9 +10,9 @@ export const data = [{
            "desc":(<div>Customer Contact Business Unit (CCBU) is an IVR Architecture based telecom platform that is used to deploy and test the 
            IVR Phone-call projects. This Project consists of VXML Server that configured to a Phone Number and a Web Portal where customer can remotely 
            deploy their VXML Application into the VXML Server.</div>),
-           "tags":["Website"],
+           "tags":["Website", "Telecom & Networking Infrastructure"],
            "projectDetails":{
-             "Client Name":"Cisco Systems, Inc",
+             "Client Name":"Cisco Systems, Inc.",
              "Team Size": 8,
              "My Roles & Timelines": {
                "Dev Role": "Web Application Developer",
@@ -188,9 +188,9 @@ export const data = [{
             a <span className="text-grey2"><b>controlled virtual environment</b></span> without dependency on traditional telephony 
             hardware.<br/> This solution aims to accelerate the IVR deployment lifecycle, enhance testing coverage, and optimize the cost of 
             infrastructure maintenance.</div>),
-         "tags":["Website","Desktop App"],
+         "tags":["Website","Desktop App", "Telecom & Networking Infrastructure"],
          "projectDetails":{
-             "Client Name":"Cisco Systems, Inc",
+             "Client Name":"Cisco Systems, Inc.",
              "Team Size": 5,
              "My Roles & Timelines": {
                "My Role" : "Unified Communications Full-Stack Developer (Web, Desktop and Infrastructure)",
@@ -374,12 +374,21 @@ export const data = [{
       "projects":[{
           "title":"Roger's IVR Solutions",
           "isProject": true,
-          "desc":(<div></div>),
-          "tags":["Website"],
+          "desc":(<div>Designed and implemented a multi-tier, service-oriented architecture featuring engineered a high-availability IVR platform on a fully 
+            Cisco-based infrastructure, utilizing Cisco AS5xxx gateways for PSTN/SIP termination, Cisco ISR routers with CUBE for signaling, and Catalyst switches 
+            for VLAN segmentation. This robust telecom backbone was integrated with a Java/Spring backend, which managed call control logic and exposed RESTful APIs. 
+            A real-time AngularJS web dashboard consumed these APIs for system monitoring, which provided advanced diagnostic tools, creating a unified 
+            full-stack solution for managing enterprise-scale communications.</div>),
+          "tags":["Website", "Telecom & Networking Infrastructure"],
           "projectDetails":{
-            "Client Name":"",
+            "Client Name":"Rogers Communications, Inc.",
             "Team Size": 6,
-            "My Roles": "Full-Stack VoIP Engineer (Web, Desktop, Infrastructure)"
+            "My Roles & Timelines": {
+               "Dev Role": "Full-Stack VoIP Engineer (Web and Infrastructure)",
+               "Dev Support": (<span className="badge resume-work-badge fs11">Sep 2014 - Feb 2015</span>),
+               "Prod Role": "L2/L3 Support Engineer",
+               "Prod Support": (<span className="badge resume-work-badge fs11">Sep 2014 - Feb 2015</span>)
+            }
           },
           "projectTechStack":{
               "Software Life Cycle": "Agile Methodology",
