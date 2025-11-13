@@ -800,14 +800,27 @@ export const data = [{
     },{
       "title":"Live GPS Tracking and Geofencing System",
       "isPOC": true,
-      "desc":(<div></div>),
-      "tags":["Website"],
+      "desc":(<div>This Proof of Concept (POC) was initiated to address a critical limitation in the Fleet Management and Booking System—the lack of proactive, intelligent 
+        location-based alerts. The POC engineered a real-time Geofencing and GPS tracking engine that created virtual geographical boundaries (geofences) around key 
+        locations like bus depots, scheduled stops, and maintenance zones. It continuously monitored vehicle positions using live GPS data and triggered instant automated 
+        notifications for operational deviations, such as a bus arriving at a depot, departing from a scheduled route, or entering a restricted area, thereby enabling 
+        proactive management and significantly enhancing operational visibility and response time.</div>),
+      "tags":["Website", "Android / IOS Mobile App"],
       "projectDetails":{
-        "Client Name":"",
-        "Team Size": 6,
-        "My Roles": ""
+        "Client Name":"Greyhound Lines, Inc.",
+        "Team Size": 4,
+        "My Roles & Timelines": {
+          "My Role" : "R&D Solutions Engineer - Real-Time Location Based Services",
+          "Timeline": (<span className="badge resume-work-badge fs11">Jun 2016 - Dec 2016</span>),
+        }
       },
       "projectTechStack":{
+          "":{
+
+          },
+          "":{
+
+          },
           "Software Life Cycle": "",
           "Project Architecture": "",
           "Management Tools": "",
@@ -1216,7 +1229,7 @@ export const data = [{
   "companyName":"Tescra Software Systems",
   "workDuration":"1 year 5 months",
   "timelines":[{
-    "timeline":"May 2022 ~ Sep 2023",
+    "timeline":"May 2022 ~ Till Now",
     "workTitle":"ZS AI & Analytics CRM",
     "projects":[{
         "title":"Personalize.AI Solution",
