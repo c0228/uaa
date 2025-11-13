@@ -46,8 +46,18 @@ const Home = ()=>{
  return (<>
  <Resume />
  <Header menulinks={HeaderMenu} activeId="Home" />
+ <div align="center" style={{ fontFamily:'OpenSansRegular', letterSpacing:'0.8px', fontSize:'13px', backgroundColor:'#ffc107', 
+    color:'#323232', padding:'10px' }}>
+   <b> "Programming is not just writing the Code, it's a living thing that grows, adapts, and continuously refined 
+    by an intension for better tomorrow"</b>
+ </div>
  <div>
  <ContainerFluid>
+    <Row>
+        <Col xxl={12} xl={12}>
+            
+        </Col>
+    </Row>
     <Row>
         <Col xxl={9} xl={9}>
             <div className="mtop15p">
