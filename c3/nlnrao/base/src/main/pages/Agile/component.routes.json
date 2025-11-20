@@ -23,6 +23,36 @@
             "component": "DDDRole",
             "breadcrumbIndex": "agile",
             "keywords":[]
+        },
+        "tech/related-articles/types-of-software-testings":{
+            "date":"October 26, 2024",
+            "label":"Types of Software Testings",
+            "component": "SoftwareTestings",
+            "breadcrumbIndex": "agile",
+            "keywords":[]
+        },
+        "tech/related-articles/sql-stored-procedures":{
+            "date":"October 26, 2024",
+            "label":"SQL Stored procedures",
+            "component": "SQLStoredProcedures",
+            "breadcrumbIndex": "agile",
+            "keywords":[]
+        },
+        "tech/related-articles/sql-views":{
+            "date":"October 26, 2024",
+            "label":"SQL Views",
+            "component": "SQLViews",
+            "breadcrumbIndex": "agile",
+            "keywords":[]
+        },
+        "tech/related-articles/difference-between-json-vs-toon-vs-vsc":{
+            "date":"October 26, 2024",
+            "label":"JSON vs Toon vs VSC",
+            "component": "JSONToonVSC",
+            "breadcrumbIndex": "agile",
+            "keywords":[]
         }
+
+        
     }
 }

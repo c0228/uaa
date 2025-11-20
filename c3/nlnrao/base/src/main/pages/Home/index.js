@@ -16,6 +16,7 @@ import BlogItems from '@MainComponents/blog-items/index.js';
 import BlogData from '@MainStaticData/home-blog-list.json';
 import Terminologies from '@MainComponents/terminologies-list/index.js';
 import Routes from "@MainPages/Java/component.routes.json";
+import AgileRoutes from "@MainPages/Agile/component.routes.json";
 
 const Home = ()=>{
  const { setContextData } = getAppContext();
@@ -46,8 +47,8 @@ const Home = ()=>{
  return (<>
  <Resume />
  <Header menulinks={HeaderMenu} activeId="Home" />
- <div align="center" style={{ fontFamily:'OpenSansRegular', letterSpacing:'0.8px', fontSize:'13px', backgroundColor:'#ffc107', 
-    color:'#323232', padding:'10px' }}>
+ <div align="center" style={{ fontFamily:'OpenSansRegular', letterSpacing:'0.8px', fontSize:'13px', backgroundColor:'#eee', 
+    color:'#323232', padding:'10px', borderTop:'1px solid #ccc', borderBottom:'1px solid #ccc' }}>
    <b> "Programming is not just writing the Code, it's a living thing that grows, adapts, and continuously refined 
     by an intension for better tomorrow"</b>
  </div>
@@ -100,6 +101,7 @@ const Home = ()=>{
             <AboutBlog />
             <Terminologies title="Java 07 Features" isIndex={true} prefix="tech/java-07-features/" data={Routes?.urls} />
             <Terminologies title="Java 08 Features" isIndex={true} prefix="tech/java-08-features/" data={Routes?.urls} />
+            <Terminologies title="Related Articles" isIndex={true} prefix="tech/related-articles/" data={AgileRoutes?.urls} />
             <Keywords data={KeywordData} />
         </Col>
     </Row>
