@@ -7,6 +7,8 @@ import Introduction from "./components/introduction/index.js";
 import Evolution from "./components/evolution/index.js";
 import EvolutionXML from "./components/evolution-xml/index.js";
 import EvolutionJSON from "./components/evolution-json/index.js";
+import EvolutionTOON from "./components/evolution-toon/index.js";
+import EvolutionVSC from "./components/evolution-vsc/index.js";
 import Conclusion from "./components/conclusion/index.js";
 
 const JSONToonVSC = ({ meta }) =>{
@@ -21,6 +23,8 @@ const JSONToonVSC = ({ meta }) =>{
             <Evolution />
             <EvolutionXML />
             <EvolutionJSON />
+            <EvolutionTOON />
+            <EvolutionVSC />
             <Conclusion />
         </Col>
     </Row>
