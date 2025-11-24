@@ -17,7 +17,7 @@ const EvolutionJSON = () =>{
  return (<div>
    <div className="mtop15p"><h4 className="blog-head"><b>2. JSON (JavaScript Object Notation)</b></h4></div>
    <div>
-      <Card padding={15}>
+      <Card padding={15} backgroundColor="#f8f8f8">
          <div><h5><b>What is JSON?</b></h5></div>
          <div>
             JSON rose to popularity because it’s simple, clean, and human-readable. It became the default 

@@ -37,7 +37,7 @@ public class ConfigParser {
         }
     }
 }`;
- return (<div style={{ border:'1px solid #ccc', padding:'15px' }}>
+ return (<div style={{ border:'1px solid #ccc', backgroundColor:'#fff', padding:'15px' }}>
    <Highlight content={XML_EXAMPLE_JAVA} lang="javascript" />
  </div>);
 };

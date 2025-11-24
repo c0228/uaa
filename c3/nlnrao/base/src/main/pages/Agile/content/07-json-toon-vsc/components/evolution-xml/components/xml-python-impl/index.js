@@ -12,7 +12,7 @@ print("Version:", root.find("version").text)
 
 retry = root.find("settings/retry")
 print("Retry Attempts:", retry.get("attempts"))`;
- return (<div style={{ border:'1px solid #ccc', padding:'15px' }}>
+ return (<div style={{ border:'1px solid #ccc', backgroundColor:'#fff', padding:'15px' }}>
    <Highlight content={XML_EXAMPLE_PYTHON} lang="python" />
  </div>);
 };

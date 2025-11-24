@@ -16,7 +16,7 @@ const EvolutionXML = () =>{
  return (<div>
    <div className="mtop15p"><h4 className="blog-head"><b>1. XML (Extensible Markup Language)</b></h4></div>
    <div>
-      <Card padding={15}>
+      <Card padding={15} backgroundColor="#f8f8f8">
          <div><h5><b>What is XML?</b></h5></div>
          <div>XML was one of the earliest structured formats used for data storage and communication. It’s verbose, but extremely 
             powerful because it supports:</div>

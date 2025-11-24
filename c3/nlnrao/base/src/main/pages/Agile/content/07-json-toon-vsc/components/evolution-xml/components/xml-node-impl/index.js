@@ -25,13 +25,11 @@ async function parseConfig() {
 }
 
 parseConfig();`;
- return (<div style={{ border:'1px solid #ccc', padding:'15px' }}>
-   <div className="mtop5p">
-      <Highlight content={XML_INSTALL_NODE} lang="javascript" />
-   </div>
-   <div className="mtop5p">
-      <Highlight content={XML_EXAMPLE_NODE} lang="javascript" />
-   </div>
+ return (<div style={{ border:'1px solid #ccc', backgroundColor:'#fff', padding:'15px' }}>
+    <div><b>1. Install Dependencies:</b></div>
+    <div><Highlight content={XML_INSTALL_NODE} lang="javascript" /></div>
+    <div><b>2. Code:</b></div>
+   <div><Highlight content={XML_EXAMPLE_NODE} lang="javascript" /></div>
  </div>);
 };
 

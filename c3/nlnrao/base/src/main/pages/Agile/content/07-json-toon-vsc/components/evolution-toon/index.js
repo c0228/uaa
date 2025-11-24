@@ -22,7 +22,7 @@ const EvolutionTOON = () =>{
  return (<div>
    <div className="mtop15p"><h4 className="blog-head"><b>3. TOON (Flexible Rule-Based Config Format)</b></h4></div>
    <div>
-      <Card padding={15}>
+      <Card padding={15} backgroundColor="#f8f8f8">
          <div><h5><b>What is TOON?</b></h5></div>
          <div>
             TOON is a flexible, human-friendly config style used in rule engines, automation flows, and ML decision systems.<br/>

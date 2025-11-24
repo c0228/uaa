@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import { ContainerFluid, Row, Col } from "e-ui-react";
+import { ContainerFluid, Row, Col  } from "e-ui-react";
 import Header from '@MainTemplates/Header/index.js';
 import { HeaderMenu } from '@MainConfig/HeaderMenu.js';
 import BlogArticleHeader from '@MainComponents/blog-article-header/index.js';
@@ -9,6 +9,7 @@ import EvolutionXML from "./components/evolution-xml/index.js";
 import EvolutionJSON from "./components/evolution-json/index.js";
 import EvolutionTOON from "./components/evolution-toon/index.js";
 import EvolutionVSC from "./components/evolution-vsc/index.js";
+import EvolutionConverter from "./components/converter/index.js";
 import Conclusion from "./components/conclusion/index.js";
 
 const JSONToonVSC = ({ meta }) =>{
@@ -25,6 +26,7 @@ const JSONToonVSC = ({ meta }) =>{
             <EvolutionJSON />
             <EvolutionTOON />
             <EvolutionVSC />
+            <EvolutionConverter />
             <Conclusion />
         </Col>
     </Row>
