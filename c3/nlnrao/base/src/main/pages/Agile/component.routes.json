@@ -47,7 +47,7 @@
         },
         "tech/related-articles/difference-between-json-vs-toon-vs-vsc":{
             "date":"October 26, 2024",
-            "label":"JSON vs Toon vs VSC",
+            "label":"XML vs JSON vs Toon vs VSC",
             "component": "JSONToonVSC",
             "breadcrumbIndex": "agile",
             "keywords":[]
