@@ -28,7 +28,10 @@ const ProjectList = () =>{
         }]
     },{
         "title":"Toyota's Car Dealer System",
-        "isProject": true
+        "works": [{
+            "title": "Dealer's Network Transparency",
+            "isProject": true
+        }]
     }],
     "E-Commerce / Retailers Industry":[{
         "title":"Safeway Retail Service",
