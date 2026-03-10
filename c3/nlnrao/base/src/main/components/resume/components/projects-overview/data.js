@@ -810,7 +810,7 @@ export const data = [{
         "Client Name":"Greyhound Lines, Inc.",
         "Team Size": 4,
         "My Roles & Timelines": {
-          "My Role" : "R&D Solutions Engineer - Real-Time Location Based Services",
+          "My Role" : "R&D Solutions Engineer",
           "Timeline": (<span className="badge resume-work-badge fs11">Jun 2016 - Dec 2016</span>),
         }
       },
@@ -861,12 +861,12 @@ export const data = [{
         integrated enterprise systems.</div>),
       "tags":["Website"],
       "projectDetails":{
-        "Client Name":"",
-        "Team Size": 6,
+        "Client Name":"Safeway, Inc.",
+        "Team Size": 12,
         "My Roles & Timelines": {
-               "Dev Role": "",
+               "Dev Role": "Full Stack Developer",
                "Dev Support": (<span className="badge resume-work-badge fs11">Dec 2016 - May 2017</span>),
-               "Prod Role": "",
+               "Prod Role": "Application Support Engineer (L2/L3)",
                "Prod Support": (<span className="badge resume-work-badge fs11">May 2017 - Feb 2018</span>)
         }
       },
@@ -909,10 +909,10 @@ export const data = [{
     customer engagement and conversion rates across digital retail channels.</div>),
   "tags":["Website"],
   "projectDetails":{
-    "Client Name":"",
-    "Team Size": 6,
+    "Client Name":"Safeway, Inc.",
+    "Team Size": 8,
     "My Roles & Timelines": {
-        "My Role" : "",
+        "My Role" : "Full Stack Engineer",
         "Timeline": (<span className="badge resume-work-badge fs11">May 2017 - Nov 2017</span>),
     }
   },
@@ -955,12 +955,12 @@ export const data = [{
       systems.</div>),
     "tags":["Website"],
     "projectDetails":{
-      "Client Name":"",
-      "Team Size": 6,
+      "Client Name":"Safeway, Inc.",
+      "Team Size": 12,
       "My Roles & Timelines": {
-               "Dev Role": "",
+               "Dev Role": "Full Stack Developer",
                "Dev Support": (<span className="badge resume-work-badge fs11">Nov 2017 - Feb 2018</span>),
-               "Prod Role": "",
+               "Prod Role": "Production Support Engineer",
                "Prod Support": (<span className="badge resume-work-badge fs11">Dec 2017 - Feb 2018</span>)
       }
     },
