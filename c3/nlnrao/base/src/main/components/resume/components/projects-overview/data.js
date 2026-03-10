@@ -1011,10 +1011,10 @@ export const data = [{
           intervention and improving turnaround time for insurance approvals and reimbursements.</div>),
         "tags":["Middleware / APIs"],
         "projectDetails":{
-          "Client Name":"",
-          "Team Size": 6,
+          "Client Name":"Optum, Inc.",
+          "Team Size": 12,
           "My Roles & Timelines": {
-               "My Role": "",
+               "My Role": "Backend Application Engineer",
                "Timeline": (<span className="badge resume-work-badge fs11"> Mar 2018 - June 2018</span>)
           }
         },
@@ -1066,12 +1066,12 @@ export const data = [{
           trade processing across the enterprise.</div>),
         "tags":["Website"],
         "projectDetails":{
-          "Client Name":"",
-          "Team Size": 6,
+          "Client Name":"Northern Trust Corporation",
+          "Team Size": 14,
           "My Roles & Timelines": {
-               "Dev Role": "",
+               "Dev Role": "Application Developer",
                "Dev Support": (<span className="badge resume-work-badge fs11">Nov 2018 - Dec 2019</span>),
-               "Prod Role": "",
+               "Prod Role": "Production Support Analyst",
                "Prod Support": (<span className="badge resume-work-badge fs11">Feb 2019 - Dec 2019</span>)
           }
         },
@@ -1116,7 +1116,7 @@ export const data = [{
         "Client Name":"",
         "Team Size": 6,
         "My Roles & Timelines": {
-          "My Role" : "",
+          "My Role" : "Blockchain Application Developer",
           "Timeline": (<span className="badge resume-work-badge fs11">Jan 2019 - Apr 2019</span>),
         }
       },
@@ -1158,9 +1158,9 @@ export const data = [{
     "tags":["Website"],
     "projectDetails":{
       "Client Name":"",
-      "Team Size": 6,
+      "Team Size": 5,
       "My Roles & Timelines": {
-        "My Role" : "",
+        "My Role" : "Blockchain Solutions Developer",
         "Timeline": (<span className="badge resume-work-badge fs11">Apr 2019 - Aug 2019</span>),
       }
     },
@@ -1206,12 +1206,12 @@ export const data = [{
         dealer compliance and performance effectively.</div>),
       "tags":["Website"],
       "projectDetails":{
-        "Client Name":"",
-        "Team Size": 6,
+        "Client Name":"Toyota Motor Corporation",
+        "Team Size": 9,
         "My Roles & Timelines": {
-               "Dev Role": "",
+               "Dev Role": "Application Developer",
                "Dev Support": (<span className="badge resume-work-badge fs11">Dec 2019 - Aug 2020</span>),
-               "Prod Role": "",
+               "Prod Role": "Production Support Engineer",
                "Prod Support": (<span className="badge resume-work-badge fs11">Mar 2020 - Aug 2020</span>)
         }
       },
@@ -1256,12 +1256,12 @@ export const data = [{
       reducing payment failures, and supporting scalable retail commerce operations.</div>),
       "tags":["Website"],
       "projectDetails":{
-        "Client Name":"",
-        "Team Size": 6,
+        "Client Name":"Walmart Inc.",
+        "Team Size": 13,
         "My Roles & Timelines": {
-               "Dev Role": "",
+               "Dev Role": "Backend Application Developer",
                "Dev Support": (<span className="badge resume-work-badge fs11">Aug 2020 - Jan 2021</span>),
-               "Prod Role": "",
+               "Prod Role": "Application Support Engineer",
                "Prod Support": (<span className="badge resume-work-badge fs11">Dec 2021 - Jun 2021</span>)
         }
       },
@@ -1303,9 +1303,9 @@ export const data = [{
       "tags":["Website"],
       "projectDetails":{
         "Client Name":"",
-        "Team Size": 6,
+        "Team Size": 5,
         "My Roles & Timelines": {
-               "My Role": "",
+               "My Role": "Blockchain Application Developer",
                "Timeline": (<span className="badge resume-work-badge fs11">Feb 2021 - Jun 2021</span>)
         }
       },
@@ -1356,12 +1356,12 @@ export const data = [{
         and security across the insurance ecosystem.</div>),
         "tags":["Website"],
         "projectDetails":{
-          "Client Name":"",
-          "Team Size": 6,
+          "Client Name":"The Allstate Corporation",
+          "Team Size": 14,
           "My Roles & Timelines": {
-               "Dev Role": "",
+               "Dev Role": "Application Developer",
                "Dev Support": (<span className="badge resume-work-badge fs11">Jun 2021 - Apr 2022</span>),
-               "Prod Role": "",
+               "Prod Role": "Data Platform Support Engineer",
                "Prod Support": (<span className="badge resume-work-badge fs11">Sep 2021 - Apr 2022</span>)
           }
         },
@@ -1411,12 +1411,12 @@ export const data = [{
         and enhance overall customer experience.</div>),
         "tags":["Website"],
         "projectDetails":{
-          "Client Name":"",
-          "Team Size": 6,
+          "Client Name":"ZS Associates",
+          "Team Size": 12,
           "My Roles & Timelines": {
-               "Dev Role": "",
+               "Dev Role": "Full Stack Developer",
                "Dev Support": (<span className="badge resume-work-badge fs11">May 2022 - Current</span>),
-               "Prod Role": "",
+               "Prod Role": "Application Support Engineer",
                "Prod Support": (<span className="badge resume-work-badge fs11">Nov 2022 - Current</span>)
           }
         },
