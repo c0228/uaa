@@ -983,10 +983,8 @@ export const data = [{
           "Client Name":"",
           "Team Size": 6,
           "My Roles & Timelines": {
-               "Dev Role": "",
-               "Dev Support": (<span className="badge resume-work-badge fs11"> - </span>),
-               "Prod Role": "",
-               "Prod Support": (<span className="badge resume-work-badge fs11"> - </span>)
+               "My Role": "",
+               "Timeline": (<span className="badge resume-work-badge fs11"> Mar 2018 - June 2018</span>)
           }
         },
         "projectTechStack":{
