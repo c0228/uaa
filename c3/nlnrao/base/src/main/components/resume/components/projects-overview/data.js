@@ -590,7 +590,7 @@ export const data = [{
     "projects":[{
         "title":"Fleet Management and Booking System",
         "isProject": true,
-        "desc":(<div>The Fleet Management and Booking System is a large-scale, distributed platform engineered to modernize Greyhound's core operations, 
+        "desc":(<div>The <span className="text-grey2"><b>Fleet Management and Booking System</b></span> is a large-scale, distributed platform engineered to modernize Greyhound's core operations, 
           featuring a cloud-based backend with microservices for booking, dispatch, and real-time vehicle tracking. This central system powered a responsive 
           AngularJS web portal for customer reservations and admin management, while native Android and iOS applications provided mobile users with ticket booking, 
           live bus tracking, and push notifications. The architecture integrated geolocation APIs for ETA predictions, a payment gateway for transactions, and a 
@@ -851,7 +851,14 @@ export const data = [{
   "projects":[{
       "title":"Order, Returns and Refund System",
       "isProject": true,
-      "desc":(<div></div>),
+      "desc":(<div>The <span className="text-grey2"><b>Order, Returns, and Refund System</b></span> is a retail service platform designed to manage the complete post-purchase 
+        lifecycle of customer orders. The system supports order tracking, cancellations, return initiation, refund calculation, and 
+        refund status updates across online and in-store purchase channels. It ensures accurate coordination between order management, 
+        inventory availability, payment processing, and fulfillment systems.<br/>
+        The returns and refunds modules handle eligibility validation, refund amount computation, multiple payment modes, partial and 
+        full refunds, and exception scenarios. The platform supports high-volume transactions, audit tracking, compliance requirements, 
+        and customer notifications, enabling reliable and scalable retail operations while maintaining data consistency across 
+        integrated enterprise systems.</div>),
       "tags":["Website"],
       "projectDetails":{
         "Client Name":"",
@@ -891,7 +898,15 @@ export const data = [{
   ,{
   "title":"Visual Search & Augmented Reality",
   "isPOC": true,
-  "desc":(<div></div>),
+  "desc":(<div>The <span className="text-grey2"><b>Visual Search & Augmented Reality platform</b></span> is a retail innovation 
+    solution designed to enhance the digital shopping 
+    experience by enabling customers to search for products using images and interact with items through augmented reality. The system 
+    allows users to upload or capture images to identify similar or matching products from the retail catalog, improving product 
+    discovery and search accuracy.<br/>
+    The augmented reality module enables virtual product visualization, allowing customers to view items in a real-world context 
+    before purchase. The platform integrates with product catalog, pricing, promotions, and inventory systems to deliver real-time 
+    results. It supports high-resolution image processing, scalable search requests, and personalized recommendations, improving 
+    customer engagement and conversion rates across digital retail channels.</div>),
   "tags":["Website"],
   "projectDetails":{
     "Client Name":"",
@@ -929,7 +944,15 @@ export const data = [{
   {
     "title":"Personalized Recommendation Engine",
     "isProject": true,
-    "desc":(<div></div>),
+    "desc":(<div>The <span className="text-grey2"><b>Personalized Recommendation Engine</b></span> is a retail intelligence platform designed to deliver tailored product 
+      suggestions based on customer behavior, purchase history, browsing patterns, and preferences. The system analyzes user 
+      interactions across online and in-store channels to generate relevant recommendations that improve product discovery and 
+      customer engagement.<br/>
+      The recommendation modules support real-time and batch-based recommendations, including frequently bought together, similar 
+      products, trending items, and personalized offers. The platform integrates with customer profiles, product catalog, pricing, 
+      and promotion systems to ensure accurate and contextual recommendations. It is built to handle high-volume data processing, 
+      model updates, and continuous learning while maintaining scalability, performance, and data consistency across retail 
+      systems.</div>),
     "tags":["Website"],
     "projectDetails":{
       "Client Name":"",
@@ -977,8 +1000,16 @@ export const data = [{
     "projects":[{
         "title":"Cirrus Systems",
         "isProject": true,
-        "desc":(<div></div>),
-        "tags":["Website"],
+        "desc":(<div>The <span className="text-grey2"><b>Cirrus System</b></span> is a middleware integration platform developed 
+          for <span className="text-grey2"><b>UnitedHealth Group</b></span> to enable seamless 
+          insurance claim processing between healthcare providers and insurance systems. The platform facilitates real-time 
+          communication between hospitals, providers, and insurance services to support eligibility verification, claim initiation, 
+          claim status tracking, and settlement processing.<br/>
+          The system acts as a centralized service layer that receives, validates, and routes insurance-related requests and responses 
+          in standardized service formats. It ensures accurate exchange of patient, policy, and claim information across multiple 
+          healthcare and insurance systems. Cirrus supports secure, reliable, and scalable claim workflows, reducing manual 
+          intervention and improving turnaround time for insurance approvals and reimbursements.</div>),
+        "tags":["Middleware / APIs"],
         "projectDetails":{
           "Client Name":"",
           "Team Size": 6,
@@ -1023,7 +1054,16 @@ export const data = [{
     "projects":[{
         "title":"Nexus Systems",
         "isProject": true,
-        "desc":(<div></div>),
+        "desc":(<div>The <span className="text-grey2"><b>Nexus System</b></span> is a centralized trade management portal 
+          developed for <span className="text-grey2"><b>Northern Trust Bank</b></span> to manage investment 
+          trades for multiple clients across European markets. The platform enables onboarding of new clients, activation and 
+          deactivation of existing clients, and management of various trade types through a single unified interface.<br/>
+          The system supports trade creation from both internal portal inputs and external client systems. Once trades are created, 
+          required trade profiles and reference data are distributed to downstream processing systems to support settlement, 
+          fund processing, compliance, and reporting workflows. The portal also provides bulk trade upload functionality through 
+          structured spreadsheet inputs, allowing efficient handling of large trade volumes. The solution ensures reliable data 
+          exchange between systems through scheduled file-based transfers and event-driven messaging, enabling scalable and accurate 
+          trade processing across the enterprise.</div>),
         "tags":["Website"],
         "projectDetails":{
           "Client Name":"",
@@ -1062,7 +1102,15 @@ export const data = [{
     },{
       "title":"Pinnacles Files: A Comprehensive File Management Platform",
       "isPOC": true,
-      "desc":(<div></div>),
+      "desc":(<div><span className="text-grey2"><b>Pinnacles Files</b></span> is a secure and centralized file management platform 
+      designed to support the <span className="text-grey2"><b>Nexus trade management system for Northern Trust.</b></span> The 
+      platform enables controlled storage, retrieval, and sharing of trade-related and operational files across internal systems 
+      and external stakeholders involved in trade processing.<br/>
+      The system ensures file integrity, traceability, and version control for documents exchanged between enterprise applications. 
+      It supports secure access management, audit tracking, and immutable record keeping to maintain transparency and compliance. 
+      Pinnacles Files improves operational efficiency by providing a reliable mechanism for managing critical files used in trade 
+      lifecycle processing, reconciliation, and regulatory reporting, while ensuring data consistency across integrated banking 
+      systems.</div>),
       "tags":["Website"],
       "projectDetails":{
         "Client Name":"",
@@ -1099,7 +1147,14 @@ export const data = [{
   },{
     "title":"Blockchain based Audit Trial and Logging System",
     "isPOC": true,
-    "desc":(<div></div>),
+    "desc":(<div>The <span className="text-grey2"><b>Blockchain Based Audit Trail and Logging System</b></span> is an enterprise 
+    audit and monitoring platform designed to support the <span className="text-grey2"><b>Nexus trade management system for Northern 
+    Trust.</b></span> The platform provides a centralized and tamper-resistant mechanism to record, track, and audit critical system 
+    activities and trade-related events across multiple integrated applications.<br/>
+    The system captures operational events, data changes, user actions, and inter-system transactions to create a transparent and 
+    verifiable audit trail. It enables real-time visibility, historical analysis, and compliance reporting while ensuring data 
+    integrity and non-repudiation. The platform enhances governance, risk management, and regulatory compliance by delivering 
+    reliable logging, traceability, and accountability across the end-to-end trade processing lifecycle.</div>),
     "tags":["Website"],
     "projectDetails":{
       "Client Name":"",
@@ -1140,7 +1195,15 @@ export const data = [{
   "projects":[{
       "title":"Dealer Network Transparency",
       "isProject": true,
-      "desc":(<div></div>),
+      "desc":(<div>The <span className="text-grey2"><b>Dealer Network Transparency Module</b></span> is part 
+        of <span className="text-grey2"><b>Toyota’s Vehicle Dealer Ecosystem,</b></span> designed to improve visibility, trust, and 
+        traceability across the dealer network. The module provides a unified view of vehicle movement, dealer transactions, 
+        ownership transfers, and operational activities across authorized dealers.<br/>
+        The system ensures that all dealer-related records, including vehicle allocation, sales updates, handovers, and status 
+        changes, are consistently recorded and accessible to authorized stakeholders. It supports auditability, historical tracking, 
+        and dispute resolution by maintaining an immutable record of dealer activities. The module enhances operational transparency, 
+        reduces data inconsistencies, and strengthens governance across the end-to-end dealer lifecycle, enabling Toyota to monitor 
+        dealer compliance and performance effectively.</div>),
       "tags":["Website"],
       "projectDetails":{
         "Client Name":"",
@@ -1183,7 +1246,14 @@ export const data = [{
   "projects":[{
       "title":"Payment Gateway",
       "isProject": true,
-      "desc":(<div></div>),
+      "desc":(<div>The <span className="text-grey2"><b>Payment Gateway System</b></span> is a core retail payment processing 
+      platform developed for <span className="text-grey2"><b>Walmart,</b></span> designed to securely manage customer payment transactions across online and in-store 
+      purchase channels. The system supports multiple payment methods, transaction authorization, settlement processing, and 
+      payment status tracking for high-volume retail operations.<br/>
+      The platform handles end-to-end payment workflows, including transaction validation, fraud checks, refunds, reversals, and 
+      reconciliation with financial systems. It ensures accurate and reliable processing of payments while maintaining compliance, 
+      auditability, and real-time transaction visibility. The system plays a critical role in enabling seamless checkout experiences, 
+      reducing payment failures, and supporting scalable retail commerce operations.</div>),
       "tags":["Website"],
       "projectDetails":{
         "Client Name":"",
@@ -1222,7 +1292,14 @@ export const data = [{
   },{
       "title":"Product Supply-Chain Traceability",
       "isProject": true,
-      "desc":(<div></div>),
+      "desc":(<div>The <span className="text-grey2"><b>Product Supply Chain Traceability</b></span> - proof of concept is a retail 
+        transparency and tracking platform developed for <span className="text-grey2"><b>Walmart</b></span> to provide end-to-end 
+        visibility into the movement of products across the supply chain. The system tracks products from origin through 
+        manufacturing, distribution, and retail outlets, enabling accurate monitoring of product flow and ownership changes.<br/>
+        The platform maintains a shared and verifiable record of supply chain events, including production, shipment, receipt, and 
+        handover milestones. It supports rapid traceability for quality assurance, recalls, and compliance reporting. The solution 
+        improves supply chain trust, reduces data discrepancies between participants, and enhances operational efficiency by ensuring 
+        transparency, accountability, and real-time access to product history across the retail ecosystem.</div>),
       "tags":["Website"],
       "projectDetails":{
         "Client Name":"",
@@ -1267,7 +1344,16 @@ export const data = [{
     "projects":[{
         "title":"Canonical Modeling Tool (CMT)",
         "isProject": true,
-        "desc":(<div></div>),
+        "desc":(<div>The <span className="text-grey2"><b>Canonical Modeling Tool (CMT)</b></span> is an enterprise data 
+        standardization and intelligence platform developed for <span className="text-grey2"><b>Allstate</b></span> to create a 
+        unified and consistent data model across insurance systems and business domains. The platform establishes a common 
+        representation of data to improve communication, interoperability, and data consistency between departments and external 
+        partners.<br/>
+        The system supports advanced data analysis, predictive insights, and automation to enhance decision-making, customer 
+        service, and operational efficiency. It ensures data quality, traceability, and governance by maintaining standardized 
+        definitions and audit-ready records. CMT enables scalable data sharing, regulatory compliance, and data-driven innovation, 
+        allowing the organization to adapt to evolving business requirements while maintaining high standards of data integrity 
+        and security across the insurance ecosystem.</div>),
         "tags":["Website"],
         "projectDetails":{
           "Client Name":"",
@@ -1314,7 +1400,15 @@ export const data = [{
     "projects":[{
         "title":"Personalize.AI Solution",
         "isProject": true,
-        "desc":(<div></div>),
+        "desc":(<div>The <span className="text-grey2"><b>Personalize.AI Solution</b></span> is an advanced customer relationship 
+        management platform developed for <span className="text-grey2"><b>ZS AI & Analytics</b></span> to deliver personalized 
+        customer experiences at scale. The system analyzes customer interactions, preferences, and behavioral patterns across 
+        multiple channels to generate actionable insights that improve engagement, satisfaction, and retention.<br/>
+        The platform extends traditional CRM capabilities by enabling predictive customer insights, allowing businesses to 
+        anticipate customer needs and future actions. It supports individualized recommendations, targeted engagement strategies, 
+        and personalized communication based on customer profiles and interaction history. The solution ensures data consistency, 
+        traceability, and governance while enabling organizations to make data-driven decisions, improve marketing effectiveness, 
+        and enhance overall customer experience.</div>),
         "tags":["Website"],
         "projectDetails":{
           "Client Name":"",
