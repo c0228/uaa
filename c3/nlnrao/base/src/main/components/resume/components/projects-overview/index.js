@@ -121,18 +121,20 @@ const isJSON = (value) => {
     </div>
   </div>);
  };
+ let PROJECT_INDEX = 0;
  return (<div>
  {data?.map((dat,i1)=>{
     return (<div key={i1}>
      <ul className="timeline-ui">
      {dat?.timelines?.map((t,i2)=>{
+      PROJECT_INDEX++;
       return (<li key={i2} className="timeline-event">
        <label className="timeline-event-icon"></label>
        <div className="timeline-event-copy">
         <p className="timeline-event-thumbnail">{t?.timeline}</p>
         
         <div>
-         <h4 className="resume-project-title">{i2+1}. <span className="uppercase">{t?.workTitle}</span></h4>
+         <h4 className="resume-project-title">{PROJECT_INDEX}. <span className="uppercase">{t?.workTitle}</span></h4>
          <div>
          {t?.projects?.map((project,i3)=>{
            return (<div key={i3} style={{ padding:'15px', marginBottom:'15px', borderRadius:'8px', border:'1px dashed #777' }}>

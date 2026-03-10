@@ -40,14 +40,14 @@ const ProfileCard = ()=>{
 				</div>);
 			   })}
 		   </div>
-		   <div align="center" className="resume-showcase-container">
+		   {/*<div align="center" className="resume-showcase-container">
 			<a target="_blank" href={process.env.PROJECT_SHOWCASE_URL} style={{ textDecoration:'none' }}>
 			<span className="resume-showcase-button">
 				<b>Watch My Live Demo Showcase</b>
 				<Icon type="FontAwesome" name="fa-external-link" size={12} style={{ marginLeft:'8px' }} />
 			</span>
 			</a>
-		   </div>
+		   </div>*/}
 	   </div>);
  };
 
