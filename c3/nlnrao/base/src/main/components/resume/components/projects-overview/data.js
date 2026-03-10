@@ -846,7 +846,7 @@ export const data = [{
       "achievements":[]
   }]
  },{
-  "timeline":"January 2017 ~ March 2018",
+  "timeline":"December 2016 ~ February 2018",
   "workTitle":"Safeway Retail Service",
   "projects":[{
       "title":"Order, Returns and Refund System",
@@ -1018,7 +1018,7 @@ export const data = [{
   "companyName":"Cognizant Technology Solutions (CTS)",
   "workDuration":"2 years 8 months",
   "timelines":[{
-    "timeline":"November 2018 ~ January 2020",
+    "timeline":"November 2018 ~ December 2019",
     "workTitle":"Northern Trust Bank",
     "projects":[{
         "title":"Nexus Systems",
@@ -1135,7 +1135,7 @@ export const data = [{
     "achievements":[]
 }]
  },{
-  "timeline":"January 2020 ~ February 2021",
+  "timeline":"December 2019 ~ August 2020",
   "workTitle":"Toyata's Vehicle Dealer System",
   "projects":[{
       "title":"Dealer Network Transparency",
@@ -1178,7 +1178,7 @@ export const data = [{
       "achievements":[]
   }]
 },{
-  "timeline":"February 2021 ~ June 2021",
+  "timeline":"August 2020 ~ June 2021",
   "workTitle":"Walmart Retailer Corp.",
   "projects":[{
       "title":"Payment Gateway",
@@ -1274,9 +1274,9 @@ export const data = [{
           "Team Size": 6,
           "My Roles & Timelines": {
                "Dev Role": "",
-               "Dev Support": (<span className="badge resume-work-badge fs11"> - </span>),
+               "Dev Support": (<span className="badge resume-work-badge fs11">Jun 2021 - Apr 2022</span>),
                "Prod Role": "",
-               "Prod Support": (<span className="badge resume-work-badge fs11"> - </span>)
+               "Prod Support": (<span className="badge resume-work-badge fs11">Sep 2021 - Apr 2022</span>)
           }
         },
         "projectTechStack":{
@@ -1321,9 +1321,9 @@ export const data = [{
           "Team Size": 6,
           "My Roles & Timelines": {
                "Dev Role": "",
-               "Dev Support": (<span className="badge resume-work-badge fs11"> - </span>),
+               "Dev Support": (<span className="badge resume-work-badge fs11">May 2022 - Current</span>),
                "Prod Role": "",
-               "Prod Support": (<span className="badge resume-work-badge fs11"> - </span>)
+               "Prod Support": (<span className="badge resume-work-badge fs11">Nov 2022 - Current</span>)
           }
         },
         "projectTechStack":{

@@ -16,7 +16,7 @@ const ProfileCard = ()=>{
 		kpis:[{
 			"label":"Projects",
 			"tooltip":"Official Projects worked with IT Companies",
-			"value": 9
+			"value": 10
 		},{
 			"label":"POC's",
 			"tooltip":"Proof of Concepts which were developed to supports these Official Projects",
