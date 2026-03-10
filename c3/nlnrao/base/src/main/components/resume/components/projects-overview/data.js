@@ -1030,9 +1030,9 @@ export const data = [{
           "Team Size": 6,
           "My Roles & Timelines": {
                "Dev Role": "",
-               "Dev Support": (<span className="badge resume-work-badge fs11"> - </span>),
+               "Dev Support": (<span className="badge resume-work-badge fs11">Nov 2018 - Dec 2019</span>),
                "Prod Role": "",
-               "Prod Support": (<span className="badge resume-work-badge fs11"> - </span>)
+               "Prod Support": (<span className="badge resume-work-badge fs11">Feb 2019 - Dec 2019</span>)
           }
         },
         "projectTechStack":{
@@ -1069,7 +1069,7 @@ export const data = [{
         "Team Size": 6,
         "My Roles & Timelines": {
           "My Role" : "",
-          "Timeline": (<span className="badge resume-work-badge fs11"> - </span>),
+          "Timeline": (<span className="badge resume-work-badge fs11">Jan 2019 - Apr 2019</span>),
         }
       },
       "projectTechStack":{
@@ -1106,7 +1106,7 @@ export const data = [{
       "Team Size": 6,
       "My Roles & Timelines": {
         "My Role" : "",
-        "Timeline": (<span className="badge resume-work-badge fs11"> - </span>),
+        "Timeline": (<span className="badge resume-work-badge fs11">Apr 2019 - Aug 2019</span>),
       }
     },
     "projectTechStack":{
@@ -1147,9 +1147,9 @@ export const data = [{
         "Team Size": 6,
         "My Roles & Timelines": {
                "Dev Role": "",
-               "Dev Support": (<span className="badge resume-work-badge fs11"> - </span>),
+               "Dev Support": (<span className="badge resume-work-badge fs11">Dec 2019 - Aug 2020</span>),
                "Prod Role": "",
-               "Prod Support": (<span className="badge resume-work-badge fs11"> - </span>)
+               "Prod Support": (<span className="badge resume-work-badge fs11">Mar 2020 - Aug 2020</span>)
         }
       },
       "projectTechStack":{
