@@ -387,7 +387,7 @@ export const data = [{
                "Dev Role": "Full-Stack VoIP Engineer (Web and Infrastructure)",
                "Dev Support": (<span className="badge resume-work-badge fs11">Sep 2014 - Feb 2015</span>),
                "Prod Role": "L2/L3 Support Engineer",
-               "Prod Support": (<span className="badge resume-work-badge fs11">Sep 2014 - Feb 2015</span>)
+               "Prod Support": (<span className="badge resume-work-badge fs11">Nov 2014 - Feb 2015</span>)
             }
           },
           "projectTechStack":{
@@ -856,7 +856,12 @@ export const data = [{
       "projectDetails":{
         "Client Name":"",
         "Team Size": 6,
-        "My Roles": ""
+        "My Roles & Timelines": {
+               "Dev Role": "",
+               "Dev Support": (<span className="badge resume-work-badge fs11">Dec 2016 - May 2017</span>),
+               "Prod Role": "",
+               "Prod Support": (<span className="badge resume-work-badge fs11">May 2017 - Feb 2018</span>)
+        }
       },
       "projectTechStack":{
           "Software Life Cycle": "",
@@ -883,41 +888,7 @@ export const data = [{
             }],
       "achievements":[]
   },
-  {
-    "title":"Personalized Recommendation Engine",
-    "isProject": true,
-    "desc":(<div></div>),
-    "tags":["Website"],
-    "projectDetails":{
-      "Client Name":"",
-      "Team Size": 6,
-      "My Roles": ""
-    },
-    "projectTechStack":{
-        "Software Life Cycle": "",
-        "Project Architecture": "",
-        "Management Tools": "",
-        "Frontend Stack": "",
-        "Frontend Unit Testing": "",
-        "Backend Stack": "",
-        "Backend Unit Testing": "",
-        "Telecom Stack": "",
-        "End-to-End Testing": "",
-        "Protocols Used": "",
-        "Database Server": "",
-        "Web Server": "",
-        "DevOps & CICD Tools": "",
-        "Integrated Development Environment (IDE)": (<div>Eclipse IDE</div>),
-        "Browsers Supported": ""
-    },
-    "rolesAndresponsibilities":[],
-    "challenges":[{
-              "title":"1. ",
-              "challenge": (<div></div>),
-              "solution": (<div></div>)
-            }],
-    "achievements":[]
-},{
+  ,{
   "title":"Visual Search & Augmented Reality",
   "isPOC": true,
   "desc":(<div></div>),
@@ -925,7 +896,10 @@ export const data = [{
   "projectDetails":{
     "Client Name":"",
     "Team Size": 6,
-    "My Roles": ""
+    "My Roles & Timelines": {
+        "My Role" : "",
+        "Timeline": (<span className="badge resume-work-badge fs11">May 2017 - Nov 2017</span>),
+    }
   },
   "projectTechStack":{
       "Software Life Cycle": "",
@@ -951,6 +925,46 @@ export const data = [{
               "solution": (<div></div>)
             }],
   "achievements":[]
+  },
+  {
+    "title":"Personalized Recommendation Engine",
+    "isProject": true,
+    "desc":(<div></div>),
+    "tags":["Website"],
+    "projectDetails":{
+      "Client Name":"",
+      "Team Size": 6,
+      "My Roles & Timelines": {
+               "Dev Role": "",
+               "Dev Support": (<span className="badge resume-work-badge fs11">Nov 2017 - Feb 2018</span>),
+               "Prod Role": "",
+               "Prod Support": (<span className="badge resume-work-badge fs11">Dec 2017 - Feb 2018</span>)
+      }
+    },
+    "projectTechStack":{
+        "Software Life Cycle": "",
+        "Project Architecture": "",
+        "Management Tools": "",
+        "Frontend Stack": "",
+        "Frontend Unit Testing": "",
+        "Backend Stack": "",
+        "Backend Unit Testing": "",
+        "Telecom Stack": "",
+        "End-to-End Testing": "",
+        "Protocols Used": "",
+        "Database Server": "",
+        "Web Server": "",
+        "DevOps & CICD Tools": "",
+        "Integrated Development Environment (IDE)": (<div>Eclipse IDE</div>),
+        "Browsers Supported": ""
+    },
+    "rolesAndresponsibilities":[],
+    "challenges":[{
+              "title":"1. ",
+              "challenge": (<div></div>),
+              "solution": (<div></div>)
+            }],
+    "achievements":[]
 }]
 }]
 },
@@ -968,7 +982,12 @@ export const data = [{
         "projectDetails":{
           "Client Name":"",
           "Team Size": 6,
-          "My Roles": ""
+          "My Roles & Timelines": {
+               "Dev Role": "",
+               "Dev Support": (<span className="badge resume-work-badge fs11"> - </span>),
+               "Prod Role": "",
+               "Prod Support": (<span className="badge resume-work-badge fs11"> - </span>)
+          }
         },
         "projectTechStack":{
             "Software Life Cycle": "",
@@ -1011,7 +1030,12 @@ export const data = [{
         "projectDetails":{
           "Client Name":"",
           "Team Size": 6,
-          "My Roles": ""
+          "My Roles & Timelines": {
+               "Dev Role": "",
+               "Dev Support": (<span className="badge resume-work-badge fs11"> - </span>),
+               "Prod Role": "",
+               "Prod Support": (<span className="badge resume-work-badge fs11"> - </span>)
+          }
         },
         "projectTechStack":{
             "Software Life Cycle": "",
@@ -1045,7 +1069,10 @@ export const data = [{
       "projectDetails":{
         "Client Name":"",
         "Team Size": 6,
-        "My Roles": ""
+        "My Roles & Timelines": {
+          "My Role" : "",
+          "Timeline": (<span className="badge resume-work-badge fs11"> - </span>),
+        }
       },
       "projectTechStack":{
           "Software Life Cycle": "",
@@ -1079,7 +1106,10 @@ export const data = [{
     "projectDetails":{
       "Client Name":"",
       "Team Size": 6,
-      "My Roles": ""
+      "My Roles & Timelines": {
+        "My Role" : "",
+        "Timeline": (<span className="badge resume-work-badge fs11"> - </span>),
+      }
     },
     "projectTechStack":{
         "Software Life Cycle": "",
@@ -1108,16 +1138,21 @@ export const data = [{
 }]
  },{
   "timeline":"January 2020 ~ February 2021",
-  "workTitle":"Toyata's Car Dealer System",
+  "workTitle":"Toyata's Vehicle Dealer System",
   "projects":[{
-      "title":"Car Dealer System",
+      "title":"Dealer Network Transparency",
       "isProject": true,
       "desc":(<div></div>),
       "tags":["Website"],
       "projectDetails":{
         "Client Name":"",
         "Team Size": 6,
-        "My Roles": ""
+        "My Roles & Timelines": {
+               "Dev Role": "",
+               "Dev Support": (<span className="badge resume-work-badge fs11"> - </span>),
+               "Prod Role": "",
+               "Prod Support": (<span className="badge resume-work-badge fs11"> - </span>)
+        }
       },
       "projectTechStack":{
           "Software Life Cycle": "",
@@ -1155,7 +1190,51 @@ export const data = [{
       "projectDetails":{
         "Client Name":"",
         "Team Size": 6,
-        "My Roles": ""
+        "My Roles & Timelines": {
+               "Dev Role": "",
+               "Dev Support": (<span className="badge resume-work-badge fs11"> - </span>),
+               "Prod Role": "",
+               "Prod Support": (<span className="badge resume-work-badge fs11"> - </span>)
+        }
+      },
+      "projectTechStack":{
+          "Software Life Cycle": "",
+          "Project Architecture": "",
+          "Management Tools": "",
+          "Frontend Stack": "",
+          "Frontend Unit Testing": "",
+          "Backend Stack": "",
+          "Backend Unit Testing": "",
+          "Telecom Stack": "",
+          "End-to-End Testing": "",
+          "Protocols Used": "",
+          "Database Server": "",
+          "Web Server": "",
+          "DevOps & CICD Tools": "",
+          "Integrated Development Environment (IDE)": (<div>Eclipse IDE</div>),
+          "Browsers Supported": ""
+      },
+      "rolesAndresponsibilities":[],
+      "challenges":[{
+              "title":"1. ",
+              "challenge": (<div></div>),
+              "solution": (<div></div>)
+            }],
+      "achievements":[]
+  },{
+      "title":"Product Supply-Chain Traceability",
+      "isProject": true,
+      "desc":(<div></div>),
+      "tags":["Website"],
+      "projectDetails":{
+        "Client Name":"",
+        "Team Size": 6,
+        "My Roles & Timelines": {
+               "Dev Role": "",
+               "Dev Support": (<span className="badge resume-work-badge fs11"> - </span>),
+               "Prod Role": "",
+               "Prod Support": (<span className="badge resume-work-badge fs11"> - </span>)
+        }
       },
       "projectTechStack":{
           "Software Life Cycle": "",
@@ -1197,7 +1276,12 @@ export const data = [{
         "projectDetails":{
           "Client Name":"",
           "Team Size": 6,
-          "My Roles": ""
+          "My Roles & Timelines": {
+               "Dev Role": "",
+               "Dev Support": (<span className="badge resume-work-badge fs11"> - </span>),
+               "Prod Role": "",
+               "Prod Support": (<span className="badge resume-work-badge fs11"> - </span>)
+          }
         },
         "projectTechStack":{
             "Software Life Cycle": "",
@@ -1239,7 +1323,12 @@ export const data = [{
         "projectDetails":{
           "Client Name":"",
           "Team Size": 6,
-          "My Roles": ""
+          "My Roles & Timelines": {
+               "Dev Role": "",
+               "Dev Support": (<span className="badge resume-work-badge fs11"> - </span>),
+               "Prod Role": "",
+               "Prod Support": (<span className="badge resume-work-badge fs11"> - </span>)
+          }
         },
         "projectTechStack":{
             "Software Life Cycle": "",
