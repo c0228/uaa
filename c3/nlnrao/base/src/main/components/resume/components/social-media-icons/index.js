@@ -1,32 +1,35 @@
-import React from "react";
+import React, { useState } from "react";
+import { Toast, CopyToClipboard } from "e-ui-react";
+
+const MY_EMAIL_ADDRESS = 'me@nellutlalnrao.com';
 
 const SocialMediaIcons = () =>{
-    const data = [{
-      "url":"https://twitter.com/NLNRao0228",
-      "icon":"twitter", 
-    },{
-      "url":"#",
-      "icon":"instagram"
-    },{
-      "url":"#",
-      "icon":"linkedin"
-    },{
-      "url":"#",
-      "icon":"github"
-    },{
-      "url":"#",
-      "icon":"envelope"
-    }];
-    return (<div className="mt-2 resume-flex-container">
-      {data?.map((d, i)=>{
-          return (
-          <div key={i} className="resume-flex-box">
-              <a href={d?.url} target="_blank" style={{ textDecoration:'none', color:'#999' }}>
-              <i className={"fa fa-"+d?.icon+" fs24"} aria-hidden="true"></i>
-              </a>
-          </div>);
-      })}
-    </div>);
-   };
+  const [showToast, setShowToast] = useState(false);
+  const IconHandler = (d)=>{
+    if(d?.url) {  window.open(d?.url, "_blank"); } 
+    else if(d?.onClick) { d?.onClick(); }
+  };
+  const Envelopehandler = () =>{
+    CopyToClipboard(MY_EMAIL_ADDRESS);
+    setShowToast(true);
+  };
+  const data = [{ "url":"#", "icon":"twitter" },
+    { "url":"#", "icon":"instagram" },
+    { "url":"#", "icon":"linkedin" },
+    { "url":"#", "icon":"github" },
+    { "icon":"envelope", "onClick": ()=>Envelopehandler() }];
+    
+  return (<div className="mt-2 resume-flex-container">
+    <Toast show={showToast} message="My Email Address is copied!" onClose={() => setShowToast(false)} />
+    {data?.map((d, i)=>{
+      return (
+        <div key={i} className="resume-flex-box">
+          <span style={{ color:'#999', cursor:'pointer' }} onClick={()=>IconHandler(d)}>
+            <i className={"fa fa-"+d?.icon+" fs24"} aria-hidden="true"></i>
+          </span>
+        </div>);
+    })}
+  </div>);
+};
 
-   export default SocialMediaIcons;
+export default SocialMediaIcons;

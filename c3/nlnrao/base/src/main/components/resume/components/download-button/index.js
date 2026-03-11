@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Icon, Modal, Button, TextBox, Row, Col } from "e-ui-react";
+import { Alert, Icon, Modal, Button, TextBox, Row, Col } from "e-ui-react";
 
 const RESUME_PATH = "assets/resume";
 const RESUME_FILE = "N.L.N.Rao-Resume";
@@ -7,10 +7,25 @@ const RESUME_FILE = "N.L.N.Rao-Resume";
 const DownloadButton = ()=>{
   const [ showModal, setShowModal ] = useState(false);
   const [ docExtension, setDocExtension ] = useState();
-  const [accessCode, setAccessCode ] = useState('');
+  const [ accessCode, setAccessCode ] = useState('');
+  const [ showMsg, setShowMsg ] = useState({ type:'', status: false, msg:'' });
+
+  const AlertMsgTemplate = ( type, status, msg ) =>{
+    return {
+      type: type,
+      status:  status,
+      msg: (<div><Icon type="FontAwesome" 
+          name={type==='danger'?'fa-warning':'fa-check-circle'} size={11} style={{ marginRight:'5px' }} /> {msg}</div>)
+    };
+  };
+
+  const ResetModalData = () =>{
+    setAccessCode(''); // Clear Access Code when Modal is open
+    setShowMsg({ type:'', status: false, msg:'' });
+  };
 
   const AccessSetup = (docExt) => {
-    setAccessCode(''); // Clear Access Code when Modal is open
+    ResetModalData();
     setShowModal(!showModal);
     setDocExtension(docExt);
   };
@@ -18,9 +33,11 @@ const DownloadButton = ()=>{
     const fileURL = window.location.origin + '/' + RESUME_PATH + '/'+ accessCode + '/' + RESUME_FILE + docExtension;
     console.log(fileURL);
     try {
+      setAccessCode('');
       const response = await fetch(fileURL, { method: "HEAD" });
       if (!response.ok) {
-        alert("File not found ("+fileURL+") or unavailable!");
+        setShowMsg(AlertMsgTemplate('danger', true, 'You have entered Invalid Access Code. Please Try again.'));
+        console.log('1 Failed');
         return;
       }
       const link = document.createElement("a");
@@ -29,8 +46,10 @@ const DownloadButton = ()=>{
         document.body.appendChild(link);
         link.click();
         document.body.removeChild(link);
+        setShowMsg(AlertMsgTemplate('success', true, 'My Resume is downloaded Successfully.'));
     } catch (error) {
-        alert("Unable to download file. Please try again later.");
+        setShowMsg(AlertMsgTemplate('danger', true, 'Unable to download file. Please try again later.'));
+        console.log('2 Failed');
     }
   };
     return (<div>
@@ -44,9 +63,12 @@ const DownloadButton = ()=>{
           <div align="center">Please enter your <b>Access Code</b> to continue 
             downloading my resume.</div>
           <div className="mt-2">
+            <Alert type={showMsg?.type} key={showMsg?.status} show={showMsg?.status} body={showMsg?.msg} />
+          </div>
+          <div className="mt-2">
             <Row>
               <Col md={12}>
-                <TextBox name="accessCode" label="Your Access Code" 
+                <TextBox key={accessCode} name="accessCode" label="Your Access Code" 
                   value={accessCode}
                   placeholder="Enter your Access Code" 
                   onChange={(data)=>{
