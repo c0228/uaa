@@ -13,10 +13,10 @@ const SocialMediaIcons = () =>{
     CopyToClipboard(MY_EMAIL_ADDRESS);
     setShowToast(true);
   };
-  const data = [{ "url":"#", "icon":"twitter" },
-    { "url":"#", "icon":"instagram" },
-    { "url":"#", "icon":"linkedin" },
-    { "url":"#", "icon":"github" },
+  const data = [{ "url":"https://twitter.com/NLNRao0228", "icon":"twitter" },
+    { "url":"https://www.instagram.com/nellutlalnrao/", "icon":"instagram" },
+    { "url":"https://www.linkedin.com/in/nellutla-l-n-rao-40ab561b1/", "icon":"linkedin" },
+    { "url":"https://github.com/nellutlalnrao", "icon":"github" },
     { "icon":"envelope", "onClick": ()=>Envelopehandler() }];
     
   return (<div className="mt-2 resume-flex-container">
