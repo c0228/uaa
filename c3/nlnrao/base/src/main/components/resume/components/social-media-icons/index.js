@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Toast, CopyToClipboard } from "e-ui-react";
+import { Toast, CopyToClipboard, Icon } from "e-ui-react";
 
 const MY_EMAIL_ADDRESS = 'me@nellutlalnrao.com';
 
@@ -19,8 +19,18 @@ const SocialMediaIcons = () =>{
     { "url":"https://github.com/nellutlalnrao", "icon":"github" },
     { "icon":"envelope", "onClick": ()=>Envelopehandler() }];
     
+  const ToastMessage = () =>{
+    return (<div>
+      <Toast show={showToast} onClose={() => setShowToast(false)}>
+        <div>
+          <Icon type="FontAwesome" name="fa-check-circle" size={13} style={{ marginRight:'5px' }} />
+          <span><b>My Email Address is copied!</b></span>
+        </div>
+      </Toast>
+    </div>);
+  };
   return (<div className="mt-2 resume-flex-container">
-    <Toast show={showToast} message="My Email Address is copied!" onClose={() => setShowToast(false)} />
+    <ToastMessage />
     {data?.map((d, i)=>{
       return (
         <div key={i} className="resume-flex-box">
