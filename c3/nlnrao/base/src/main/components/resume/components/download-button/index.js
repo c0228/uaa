@@ -7,13 +7,16 @@ const RESUME_FILE = "N.L.N.Rao-Resume";
 const DownloadButton = ()=>{
   const [ showModal, setShowModal ] = useState(false);
   const [ docExtension, setDocExtension ] = useState();
-  const [accessCode, setAccessCode ] = useState();
+  const [accessCode, setAccessCode ] = useState('');
+
   const AccessSetup = (docExt) => {
+    setAccessCode(''); // Clear Access Code when Modal is open
     setShowModal(!showModal);
-    setDocExtension(docExtension);
+    setDocExtension(docExt);
   };
   const DownloadFile = async() =>{
-    const fileURL = RESUME_PATH + '/'+ accessCode + '/' + RESUME_FILE + docExtension;
+    const fileURL = window.location.origin + '/' + RESUME_PATH + '/'+ accessCode + '/' + RESUME_FILE + docExtension;
+    console.log(fileURL);
     try {
       const response = await fetch(fileURL, { method: "HEAD" });
       if (!response.ok) {
@@ -46,7 +49,9 @@ const DownloadButton = ()=>{
                 <TextBox name="accessCode" label="Your Access Code" 
                   value={accessCode}
                   placeholder="Enter your Access Code" 
-                  onChange={(value)=>setAccessCode(value.toLowerCase())} />
+                  onChange={(data)=>{
+                    setAccessCode(data?.value?.toLowerCase())
+                  }} />
               </Col>
             </Row>
             <Row className="mt-2">
