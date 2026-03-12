@@ -7,21 +7,21 @@ const data = [{
     "header":"Frontend (Client-Side Development)",
     "data":[{
         "kpis":{
-        "Basic Programming Languages": "HTML, CSS, Javascript, ECMAScript, NodeJS, Typescript",
-        "UI Frameworks": "JQuery, Bootstrap, Ant Design Frameworks",
+        "Basic Programming Languages": "HTML, CSS, Javascript(ES5/ES6+), ECMAScript, NodeJS, Typescript",
+        "UI Frameworks": "JQuery, Bootstrap, Material UI, Ant Design Frameworks",
         "Web Development Frameworks": "Angular, React",
-        "Javascript Compilers": "Babel",
+        "Javascript Compilers/Transpilers": "Babel, TypeScript Compiler (tsc)",
         "Node Package Managers": "npm, yarn, pnpm",
-        "CSS Managers":"PurgeCSS (removes unused CSS)",
+        "CSS Managers":"PurgeCSS (removes unused CSS), PostCSS, SCSS",
         "Windows Package Managers": "chocolatey",
-        "Build Tools": "Webpack Bundler (used in React Project), Metro Bundler (used in React Native)",
+        "Build Tools": "Webpack Bundler (used in React Project), Angular CLI, Metro Bundler (used in React Native)",
         "Unit Testing and Code Coverage": "Jest Framework, Mocha Framework, Chai Framework, Sinon Framework and Istanbul Code coverage Tool.",
         "Integrated Development Environments (IDE)": "Visual Studio Code"
     }
     },{
         "title":"ReactJS Framework",
         "kpis":{
-            "State Management":"Context API, Flux, Redux, Recoil and Zustand",
+            "State Management":"Context API, Flux, Redux, Redux Toolkit, Recoil and Zustand",
             "Routing & Navigation":"React Router, Dynamic Routing and Nested Routes",
             "Forms & Validations":"Controlled/UnControlled Components, Formik, Yup Validation",
             "API Integration":"RESTFul API, GraphQL (using Axios, Fetch)",
