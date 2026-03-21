@@ -14,7 +14,8 @@ const data = [{
         "Node Package Managers": "npm, yarn, pnpm",
         "CSS Managers":"PurgeCSS (removes unused CSS), PostCSS, SCSS",
         "Windows Package Managers": "chocolatey",
-        "Build Tools": "Webpack Bundler (used in React Project), Angular CLI, Metro Bundler (used in React Native)",
+        "Project Build Tools": "Webpack Bundler (used in React Project), Angular CLI, Metro Bundler (used in React Native)",
+        "Monorepo Build Systems": "Nx / Turborepo",
         "Unit Testing and Code Coverage": "Jest Framework, Mocha Framework, Chai Framework, Sinon Framework and Istanbul Code coverage Tool.",
         "Integrated Development Environments (IDE)": "Visual Studio Code"
     }

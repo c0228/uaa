@@ -1,0 +1,68 @@
+.rabbit-sprite {
+  width: 150px;
+  height: 180px;
+  image-rendering: pixelated;
+  background-image: url('../../assets/rabbit-sprite.png');
+  background-repeat: no-repeat;
+
+  position: absolute;
+  left: 50%;
+  top: 50%;
+
+  transform: translate(-50%, -50%) scale(0.15);
+  transform-origin: center center;
+}
+.rabbit-sprite.flipped {
+  /* scaleX(-0.15) flips the rabbit horizontally while keeping the 0.15 size */
+  transform: translate(-50%, -50%) scaleX(-0.15) scaleY(0.15);
+}
+.rabbit-sprite.walking {
+  animation: rabbit-walk 0.8s steps(5) infinite;
+}
+
+@keyframes rabbit-walk {
+  from { background-position: 0 0; }
+  to { background-position: -750px 0; }
+}
+
+/* Carrot */
+.carrot {
+  width: 22px;
+  height: 22px;
+
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  pointer-events: none;
+}
+
+.maze {
+  display: grid;
+  grid-template-columns: repeat(10, 30px);
+  gap: 0;
+  touch-action: none;     /* 🔥 stops scrolling */
+  user-select: none;
+}
+
+.cell {
+  width: 30px;
+  height: 30px;
+  box-sizing: border-box;
+  position: relative; /* 🔥 REQUIRED */
+  overflow: hidden;   /* 🔥 prevents spill */
+  touch-action: none;
+}
+
+.player {
+  background-color: #4caf50;
+}
+
+.controls {
+  margin-top: 16px;
+}
+
+button {
+  margin: 4px;
+  padding: 8px 12px;
+}
