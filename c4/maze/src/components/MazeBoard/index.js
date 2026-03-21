@@ -21,7 +21,7 @@ export default function MazeBoard() {
   const [moving, setMoving] = useState(false);
   const [direction, setDirection] = useState('right');
 
-  const isPointerDown = useRef(false);
+  const isTouchingRef = useRef(false);
   const lastCellRef = useRef(null);
 
   // Restart maze when difficulty changes
@@ -70,53 +70,50 @@ export default function MazeBoard() {
   const el = document.elementFromPoint(x, y);
   if (!el) return null;
 
-  const cellEl = el.closest('.cell');
-  if (!cellEl) return null;
+  const r = el.getAttribute('data-row');
+  const c = el.getAttribute('data-col');
 
-  const r = cellEl.dataset.row;
-  const c = cellEl.dataset.col;
+  if (r === null || c === null) return null;
 
-  if (r == null || c == null) return null;
-
-  return { row: +r, col: +c };
+  return { row: Number(r), col: Number(c) };
 };
 
-const handlePointerDown = (e) => {
-  isPointerDown.current = true;
+  const handleMove = (r, c) => {
+  if (gameOver) return;
 
-  // 🔥 capture pointer so movement continues
-  e.currentTarget.setPointerCapture(e.pointerId);
-
-  const cell = getCellFromPoint(e.clientX, e.clientY);
-  if (cell) {
-    lastCellRef.current = cell;
-    handleMove(cell.row, cell.col);
+  if (!started) {
+    setStarted(true); // 🔥 THIS triggers the timer
   }
-};
 
-const handlePointerMove = (e) => {
-  if (!isPointerDown.current) return;
+  const next = { row: r, col: c };
+  if (!canMove(player, next)) return;
 
-  const cell = getCellFromPoint(e.clientX, e.clientY);
-
-  if (
-    cell &&
-    (!lastCellRef.current ||
-      cell.row !== lastCellRef.current.row ||
-      cell.col !== lastCellRef.current.col)
-  ) {
-    lastCellRef.current = cell;
-    handleMove(cell.row, cell.col);
+  // 👉 Detect horizontal movement
+  if (c > player.col) {
+    setDirection('right');
+  } else if (c < player.col) {
+    setDirection('left');
   }
-};
 
-const handlePointerUp = (e) => {
-  isPointerDown.current = false;
-  lastCellRef.current = null;
+  // 👣 start movement animation
+  setMoving(true);
 
-  try {
-    e.currentTarget.releasePointerCapture(e.pointerId);
-  } catch {}
+  setPlayer(next);
+  setPath((p) => [...p, next]);
+
+  // ⏱ stop walking animation after short delay
+  setTimeout(() => {
+    setMoving(false);
+  }, 200);
+
+  // 🎉 SOLVED
+  if (r === maze.exit.row && c === maze.exit.col) {
+    clearInterval(timerRef.current);
+    setGameOver(true);
+    setTimeout(() => {
+      alert(`🎉 Maze Solved with ${time}s remaining!`);
+    }, 100);
+  }
 };
 
   const isInPath = (r, c) => path.some((p) => p.row === r && p.col === c);
@@ -156,10 +153,8 @@ const handlePointerUp = (e) => {
     borderBottom: cell.walls.bottom ? '3px solid black' : 'none',
     borderLeft: cell.walls.left ? '3px solid black' : 'none',
   }}
-  onPointerDown={handlePointerDown}
-  onPointerMove={handlePointerMove}
-  onPointerUp={handlePointerUp}
-  onPointerCancel={handlePointerUp}
+  onPointerEnter={() => handleMove(r, c)} // desktop         
+  onTouchMove={() => handleMove(r, c)}  // mobile
 >
 
   {/* 🐰 RABBIT (PLAYER) */}
