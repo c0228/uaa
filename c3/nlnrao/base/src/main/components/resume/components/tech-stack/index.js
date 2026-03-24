@@ -19,16 +19,18 @@ const data = [{
         "Unit Testing and Code Coverage": "Jest Framework, Mocha Framework, Chai Framework, Sinon Framework and Istanbul Code coverage Tool.",
         "Integrated Development Environments (IDE)": "Visual Studio Code"
     }
-    },{
+    },
+    {
         "title":"ReactJS Framework",
         "kpis":{
             "State Management":"Context API, Flux, Redux, Redux Toolkit, Recoil and Zustand",
             "Routing & Navigation":"React Router, Dynamic Routing and Nested Routes",
             "Forms & Validations":"Controlled/UnControlled Components, Formik, Yup Validation",
+            "Data Fetching": "TanStack Query (React Query), SWR",
             "API Integration":"RESTFul API, GraphQL (using Axios, Fetch)",
             "UI Styling":"CSS, SASS, SCSS, Styled-Components and Material UI",
             "Build & Deployment":"Webpack, CI/CD Pipelines, Docker for React Apps",
-            "Web Performance Optimization":"Memoization, Lazy-loading, Caching, Code splitting and tree-shaking",
+            "Web Performance Optimization":"Memoization, Lazy loading, RPC failover, Caching, React Query cache, Code splitting and tree-shaking",
             "Testing":"Unit Testing with Jest, React Testing Library, Cypress for E2E Testing",
             "Ecosystem Tools":"Storybook, ESLint, Prettier, Husky for pre-commit Hooks",
             "Extended Frameworks":"Create React App (CRA), Next.Js Framework, Remix Framework",
@@ -52,7 +54,8 @@ const data = [{
         }
     }
     ]
- },{
+ },
+ {
     "header":"Backend (Server-side Development)",
     "data":[{
         "title":"Java Platform",
@@ -69,8 +72,9 @@ const data = [{
             "Unit Testing and Code Coverage": "JUnit Framework, Mockito Framework, FindBugs and Sonarcube Code coverage Tool",
             "Integrated Development Environments (IDE)": "Eclipse, Spring Tool Suite, IntelliJ",
             "Performance Tuning & Profiling":"JMeter"
-    }
-    },{
+        }
+    },
+    {
         "title":"Node JS Platform",
         "kpis":{
             "Basic Programming Languages": "Javascript, ECMAScript, Typescript and Node JS",
@@ -80,8 +84,9 @@ const data = [{
             "Build Tools": "Webpack",
             "Unit Testing and Code Coverage": "Jest Framework, Mocha Framework, Chai Framework, Sinon Framework and Istanbul Code coverage Tool.",
             "Integrated Development Environments (IDE)": "Visual Studio Code"
-    }
-    },{
+        }
+    },
+    {
         "title":"Python Platform",
         "kpis":{
             "Basic Programming Languages": "Python",
@@ -90,19 +95,138 @@ const data = [{
             "Web/API Designing Frameworks": "DJango and Flask",
             "Design Architecture": "Microservices Architecture, Event Design Architecture, Serverless Architecture",
             "Integrated Development Environments (IDE)": "Visual Studio Code"
-    }
-    },{
-        "title":"Web3 & Blockchain Platform",
-        "kpis":{ 
-            "Blockchain Layer #1 Networks": "",
-            "Public Platforms": "Ethereum, Solana, Avalanche, Polkadot, Cardano",
-            "Private Platforms": "Hyperledger Fabric, Quorum",
-            "Consortium Platforms": "Hyperledger Besu, Corda",
-            "Blockchain Layer #2 / Equivalent Networks": ""
         }
     }]
- }]
-},{
+ },
+ {
+    "header":"Web3 & Blockchain Platform",
+    "data":[{
+        "title":"Core Fundamentals",
+        "kpis":{ 
+            "Multi-Chain Wallet": "Web3-Onboard, Thirdweb SDK, WalletConnect v2",
+            "Decentralized Storage": "IPFS, Pinata, Web3.Storage, Arweave",
+            "Cross-Chain Bridges": "Wormhole, LayerZero, Chainlink CCIP",
+            "Security Auditing": "Slither, MythX, Securify",
+            "Web3 Design Patterns": (<span>Automated Market Maker (AMM), Liquidity Pool Pattern, Collateralized Debt Position (CDP), Lending Pool Pattern, Oracle Pattern, 
+                Staking Pattern, Liquid Staking Pattern, Governance DAO Pattern, Cross-chain Bridge Pattern, NFT Marketplace Pattern, Decentralied Storage Platform, 
+                Yield Farming Pattern
+            </span>),
+            "Gas Management": "Gas estimation, EIP-1559, Multicall",
+            "DeFi Integration": "Uniswap SDK, 1inch API, PancakeSwap SDK",
+            "NFT Integration": "OpenSea SDK, Metaplex, Alchemy NFT API",
+            "Build & Deployment": "Hardhat deploy, GitHub Actions, Docker",
+            "Monitoring": "Tenderly, Sentry, Blockscout",
+            "Testing": "Jest, Cypress, Synpress (Cypress for Web3)",
+        }
+    },
+    {
+        "title":"Ethereum Ecosystem",
+        "kpis":{ 
+            "Core Libraries": "Web3.js (older), Ethers.js (newer), Viem.ts (alternative to Web3.js & Ethers.js)",
+            "Consensus Mechanism": "",
+            "Smart Contract Development": "Hardhat, Truffle, Foundry, Remix IDE",
+            "Contract Standards": "OpenZeppelin, ERC-20, ERC-721, ERC-1155",
+            "Wallet Integration": "MetaMask, WalletConnect, RainbowKit, Web3Modal",
+            "Contract Hooks": "wagmi, viem, useDApp",
+            "Testing": "Hardhat Tests, Mocha, Chai, Slither, MythX",
+            "Indexing": "The Graph (Subgraphs), Moralis",
+            "RPC Providers": "Infura, Alchemy, QuickNode",
+            "Explorers": "Etherscan, Blockscout",
+            "Authentication": "SIWE (Sign-In with Ethereum), ENS",
+            "Layer-2 (L2) Solutions":"",
+            "Optimistic Rollup": "Arbitrum, Optimism (OP Mainnet), Base",
+            "ZK-Rollup": "zkSync Era, Starknet, Linea",
+            "Sidechain (with L2 options)": "Polygon"
+        }
+    },
+    {
+        "title":"Solana Ecosystem",
+        "kpis":{ 
+            "Core Libraries": "@solana/web3.js (RPC Communication)",
+            "Consensus Mechanism": "",
+            "Smart Contract Development": "Anchor Framework, Rust, Solana CLI, Seahorse (Python-based)",
+            "Contract Standards": "Metaplex (NFTs), SPL Tokens",
+            "Wallet Integration": "Phantom, Solflare, Solana Wallet Adapter",
+            "Wallet Connector": "@solana/wallet-adapter-react",
+            "Testing": "Solana Test Validator, Anchor Tests",
+            "Indexing": "Helius, QuickNode Solana, Metaplex Digital Asset Standard (DAS)",
+            "RPC Providers": "Helius, QuickNode, Triton",
+            "Explorers": "Solana Explorer, Solscan",
+            "Authentication": "Solana Name Service, Wallet Signatures",
+        }
+    },
+    {
+        "title":"Binance Ecosystem",
+        "kpis":{ 
+            "Core Libraries": "Ethers.js (RPC Communication), @binance-chain/bsc-use-wallet (Authentication)",
+            "Consensus Mechanism": "",
+            "Smart Contract Development": "Hardhat, Truffle, Remix IDE",
+            "Contract Standards": "OpenZeppelin, BEP-20, BEP-721, BEP-1155",
+            "Wallet Integration": "MetaMask, Trust Wallet, Binance Chain Wallet",
+            "RPC Providers": "Binance RPC, QuickNode BSC, Ankr",
+            "Explorers": "BscScan",
+            "Testing": "Hardhat Tests (similar to Ethereum)",
+            "Bridges": "Binance Bridge, AnySwap",
+            "Layer-2 (L2) Solutions":"",
+            "Optimistic Rollup": "opBNB",
+        }
+    },
+    {
+        "title": "Polkadot and Kusama Ecosystem",
+        "kpis":{
+            "Basic Fundamentals":"",
+            "Core Framework": (<span><b>Substrate</b> - Rust-based modular blockchain SDK with pre-built pallets for balances, assets, governance, and staking</span>),
+            "Pallets": "Balances pallet, Assets pallet, Governance pallet, Staking pallet, Contracts pallet (ink!)",
+            "Cross-Chain Protocol": (<span><b>XCM (Cross-Consensus Messaging)</b> - Enables asset transfers, remote calls, and cross-chain communication</span>),
+            "XCM Tools": "ParaSpell (XCM SDK), Moonbeam XCM SDK, Chopsticks (testing), Moonsong Labs XCM Tools",
+            "Smart Contract Languages": "Rust (ink!), Solidity (via EVM parachains)",
+            "WASM Support": "Native WASM execution via Substrate contracts pallet",
+            "API/SDK": "Polkadot.js API, Polkakit, Subxt (Rust), Python Polkadot API, .NET API",
+            "CLI Tools": "Subkey (key management), srtool (runtime verification), Polkadot Launch",
+            "GraphQL Indexing": "SubQuery, Subsquid",
+            "Telemetry & Monitoring": "Polkadot Telemetry, Panic (validator monitoring), Polkabot",
+            "Testing Framework": "Zombienet (multi-node testing), Chopsticks (fork testing)",
+            "Governance": "On-chain governance with OpenGov (Polkadot) and faster Gov (Kusama)",
+            "Wallets (Multi-chain)": "Talisman, SubWallet, Nova Wallet (support both Polkadot & Kusama)",
+
+            "Polkadot Ecosystem":"",
+            "Layer 0 (Relay Chain)": "Polkadot Relay Chain (main network)",
+            "Layer 1 (Parachains)": "Acala (DeFi), Moonbeam (EVM-compatible), Astar (dApp hub), Parallel Finance (lending), Centrifuge (RWA), HydraDX (liquidity)",
+            "Consensus Mechanism": "Nominated Proof-of-Stake (NPoS) consensus",
+            "Smart Contract Platforms": (<span><b>ink!</b> (WASM smart contracts), <b>Moonbeam</b> (EVM + Solidity), <b>Astar</b> (EVM + WASM)</span>),
+            "Development Framework": (<span><b>Substrate</b> - Modular blockchain development framework in Rust</span>),
+            "Cross-Chain Communication": (<span><b>XCM</b> (Cross-Consensus Messaging) - Standardized protocol for chain-to-chain communication</span>),
+            "Scaling Mechanism": (<span><b>Elastic Scaling</b> - Parachains can use multiple cores dynamically; 
+                achieves <b>500ms block times</b> and <b>20 MB/s data availability</b> with 12 cores</span>),
+            "Core Management": (<span><b>Agile Coretime</b> - On-demand allocation of computational cores</span>),
+            "Wallet Integration": "Polkadot.js Extension, Talisman, SubWallet, Nova Wallet",
+            "Block Explorers": "Subscan, Polkadot.js Apps, Statescan",
+            "RPC Providers": "Parity RPC, OnFinality, Dwellir, Pinknode",
+            "Testing": "Zombienet (multi-chain testing), Chopsticks (XCM testing)",
+            "Indexing & Analytics": "SubQuery (GraphQL indexing), Dune Analytics, DotLake",
+            "API Libraries": (<span><b>Polkadot.js API, Polkakit</b> (TypeScript SDK), Subxt (Rust), GSRPC (Go) </span>),
+            "Storage": "IPFS integration via parachains",
+            "Deployment": "parachain slot auctions (legacy), Agile Coretime (new model)",
+
+            "Kusama Ecosystem": "",
+            "Role": (<span><b>Canary Network</b> - Experimental, fast-moving cousin of Polkadot; real economic value, NOT a testnet</span>),
+            "Layer 0": "Kusama Relay Chain - Faster governance (7-day voting vs Polkadot's 28 days)",
+            "Layer 1 (Parachains)": "Karura (DeFi), Moonriver (EVM), Shiden (dApp hub), Bifrost (liquid staking), KILT (identity)",
+            "Smart Contracts": "ink!, EVM via Moonriver, WASM contracts",
+            "Development": "Substrate (same as Polkadot)",
+            "Scaling": (<span><b>Elastic Scaling FIRST</b> - All new features deploy on Kusama first; Elastic Scaling went live on Kusama 
+                    in August 2025, before Polkadot</span>),
+            "Core Management": "Agile Coretime (fully operational)",
+            "XCM": "Full XCM support for cross-chain messaging",
+            "Explorers": "Subscan (Kusama), Statescan, Polkadot.js Apps",
+            "Wallets": "Polkadot.js, Talisman, SubWallet, Nova Wallet",
+            "Testing Tools": "Chopsticks, Zombienet, Paseo (test network)"
+
+        }
+    }]
+}]
+},
+{
     "title":"Mobile Application Development",
     "details":[{
        "data":[{
@@ -169,13 +293,28 @@ const TechStack = () =>{
                         return (<div key={i3} className="card resume-card mb-3">
                             <div className="card-body resume-cardBody">
                             {d?.title && <div align="center" className="text-grey3 uppercase pb-3"><b>{d?.title}</b></div>}
-                            {kpiKeys?.map((kpiKey,i4)=>{
+                            {kpiKeys?.map((kpiKey, i4) => {
                                 const kpiVal = d?.kpis?.[kpiKey];
-                                return (<div key={i4} className="pb-2">
-                                    <span className={(kpiVal?.length>0)?"text-grey2":"text-grey2 resume-techstack-underline"}><b>{kpiKey} </b></span> 
-                                    {(kpiVal?.length>0)?(<span><b>:</b> {kpiVal}</span> ):
-                                        (<span className="text-grey2">-</span>)}
-                                </div>);
+                                const hasValue = kpiVal !== null && kpiVal !== undefined && kpiVal !== "" && React.Children.count(kpiVal) > 0;
+                                return (
+                                    <div key={i4} className="pb-2">
+                                    <span
+                                        className={
+                                        hasValue
+                                            ? "text-grey2"
+                                            : "text-grey2 resume-techstack-underline"
+                                        }
+                                    >
+                                        <b>{kpiKey}</b>
+                                    </span>
+
+                                    {hasValue ? (
+                                        <span><b>:</b> {kpiVal}</span>
+                                    ) : (
+                                        <span className="text-grey2">-</span>
+                                    )}
+                                    </div>
+                                );
                             })}
                             </div>
                             </div>);
