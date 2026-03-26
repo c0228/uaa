@@ -335,29 +335,6 @@ const TechStack = () =>{
                                 }
                             })}
                             </div>
-                            {/*kpiKeys?.map((kpiKey, i4) => {
-                                const kpiVal = d?.kpis?.[kpiKey];
-                                const hasValue = kpiVal !== null && kpiVal !== undefined && kpiVal !== "" && React.Children.count(kpiVal) > 0;
-                                return (
-                                    <div key={i4} className="pb-2">
-                                    <span
-                                        className={
-                                        hasValue
-                                            ? "text-grey2"
-                                            : "text-grey2 resume-techstack-underline"
-                                        }
-                                    >
-                                        <b>{kpiKey}</b>
-                                    </span>
-
-                                    {hasValue ? (
-                                        <span><b>:</b> {kpiVal}</span>
-                                    ) : (
-                                        <span className="text-grey2">-</span>
-                                    )}
-                                    </div>
-                                );
-                            })*/}
                             </div>
                             </div>);
                     })}
