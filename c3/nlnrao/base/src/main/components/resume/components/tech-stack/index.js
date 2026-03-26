@@ -122,8 +122,10 @@ const data = [{
     {
         "title":"Ethereum Ecosystem",
         "kpis":{ 
+            "Basic Fundamentals": "",
+            "Node Infrastructure & RPC Providers": "Alchemy, Infura, Chainstack, QuickNode",
             "Core Libraries": "Web3.js (older), Ethers.js (newer), Viem.ts (alternative to Web3.js & Ethers.js)",
-            "Consensus Mechanism": "",
+            "Consensus Mechanism": "Proof-of-Stake (PoS)",
             "Smart Contract Development": "Hardhat, Truffle, Foundry, Remix IDE",
             "Contract Standards": "OpenZeppelin, ERC-20, ERC-721, ERC-1155",
             "Wallet Integration": "MetaMask, WalletConnect, RainbowKit, Web3Modal",
@@ -142,8 +144,10 @@ const data = [{
     {
         "title":"Solana Ecosystem",
         "kpis":{ 
+            "Node Infrastructure & RPC Providers": "Helius, Chainstack, QuickNode, bloXroute (Trader API)",
             "Core Libraries": "@solana/web3.js (RPC Communication)",
-            "Consensus Mechanism": "",
+            "Consensus Mechanism": (<span><b>Proof of History (PoH)</b> for Layer#1 (Timekeeping) + <b>Proof of Stake (PoS)</b> for 
+                Layer#2 (Sybil Resistance) + <b>Tower BFT</b> for Layer#3 (Consensus & Finality)</span>),
             "Smart Contract Development": "Anchor Framework, Rust, Solana CLI, Seahorse (Python-based)",
             "Contract Standards": "Metaplex (NFTs), SPL Tokens",
             "Wallet Integration": "Phantom, Solflare, Solana Wallet Adapter",
@@ -157,9 +161,11 @@ const data = [{
     },
     {
         "title":"Binance Ecosystem",
-        "kpis":{ 
+        "kpis":{
+            "Basic Fundamentals": "", 
+            "Node Infrastructure & RPC Providers": "Chainstack, QuickNode, OnFinality, InfStones",
             "Core Libraries": "Ethers.js (RPC Communication), @binance-chain/bsc-use-wallet (Authentication)",
-            "Consensus Mechanism": "",
+            "Consensus Mechanism": "Proof of Staked Authority (PoSA)",
             "Smart Contract Development": "Hardhat, Truffle, Remix IDE",
             "Contract Standards": "OpenZeppelin, BEP-20, BEP-721, BEP-1155",
             "Wallet Integration": "MetaMask, Trust Wallet, Binance Chain Wallet",
@@ -175,6 +181,7 @@ const data = [{
         "title": "Polkadot and Kusama Ecosystem",
         "kpis":{
             "Basic Fundamentals":"",
+            "Node Infrastructure & RPC Providers": "OnFinality, Parity Public Nodes, Substrate Connect",
             "Core Framework": (<span><b>Substrate</b> - Rust-based modular blockchain SDK with pre-built pallets for balances, assets, governance, and staking</span>),
             "Pallets": "Balances pallet, Assets pallet, Governance pallet, Staking pallet, Contracts pallet (ink!)",
             "Cross-Chain Protocol": (<span><b>XCM (Cross-Consensus Messaging)</b> - Enables asset transfers, remote calls, and cross-chain communication</span>),
@@ -212,6 +219,7 @@ const data = [{
             "Role": (<span><b>Canary Network</b> - Experimental, fast-moving cousin of Polkadot; real economic value, NOT a testnet</span>),
             "Layer 0": "Kusama Relay Chain - Faster governance (7-day voting vs Polkadot's 28 days)",
             "Layer 1 (Parachains)": "Karura (DeFi), Moonriver (EVM), Shiden (dApp hub), Bifrost (liquid staking), KILT (identity)",
+            "Consensus Mechanism": "Nominated Proof-of-Stake (NPoS) consensus",
             "Smart Contracts": "ink!, EVM via Moonriver, WASM contracts",
             "Development": "Substrate (same as Polkadot)",
             "Scaling": (<span><b>Elastic Scaling FIRST</b> - All new features deploy on Kusama first; Elastic Scaling went live on Kusama 
