@@ -317,18 +317,18 @@ const TechStack = () =>{
                                 if(getValueType(kpiVal) === "JSON") {
                                     const valKey = Object.keys(kpiVal);
                                     return (<div key={i4} className="pb-2">
-                                        <div style={{ borderBottom:'0.3px solid #999', paddingBottom:'6px', marginBottom:'8px' }}>
+                                        <div style={{ backgroundColor:'#999', color:'#0e172b', padding:'6px', marginBottom:'8px' }}>
                                             <b>{kpiKey}</b>
                                         </div>
                                         {valKey?.map((vk,i)=>{
-                                            return (<div key={i} className="pb-2">
+                                            return (<div key={i} className="ps-2 pb-2">
                                                 <span className="text-grey2"><b>{vk}</b></span> 
                                                 <span><b>:</b> {kpiVal[vk]}</span>  
                                             </div>);
                                         })}  
                                     </div>);
                                 } else {
-                                    return (<div key={i4} className="pb-2">
+                                    return (<div key={i4} className="ps-2 pb-2">
                                         <span className="text-grey2"><b>{kpiKey}</b></span> 
                                         <span><b>:</b> {kpiVal}</span>    
                                     </div>);
