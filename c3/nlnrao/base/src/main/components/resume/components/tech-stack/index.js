@@ -122,23 +122,24 @@ const data = [{
     {
         "title":"Ethereum Ecosystem",
         "kpis":{ 
-            "Basic Fundamentals": "",
-            "Node Infrastructure & RPC Providers": "Alchemy, Infura, Chainstack, QuickNode",
-            "Core Libraries": "Web3.js (older), Ethers.js (newer), Viem.ts (alternative to Web3.js & Ethers.js)",
-            "Consensus Mechanism": "Proof-of-Stake (PoS)",
-            "Smart Contract Development": "Hardhat, Truffle, Foundry, Remix IDE",
-            "Contract Standards": "OpenZeppelin, ERC-20, ERC-721, ERC-1155",
-            "Wallet Integration": "MetaMask, WalletConnect, RainbowKit, Web3Modal",
-            "Contract Hooks": "wagmi, viem, useDApp",
-            "Testing": "Hardhat Tests, Mocha, Chai, Slither, MythX",
-            "Indexing": "The Graph (Subgraphs), Moralis",
-            "RPC Providers": "Infura, Alchemy, QuickNode",
-            "Explorers": "Etherscan, Blockscout",
-            "Authentication": "SIWE (Sign-In with Ethereum), ENS",
-            "Layer-2 (L2) Solutions":"",
-            "Optimistic Rollup": "Arbitrum, Optimism (OP Mainnet), Base",
-            "ZK-Rollup": "zkSync Era, Starknet, Linea",
-            "Sidechain (with L2 options)": "Polygon"
+            "Basic Fundamentals":{
+                "Node Infrastructure & RPC Providers": "Alchemy, Infura, Chainstack, QuickNode",
+                "Core Libraries": "Web3.js (older), Ethers.js (newer), Viem.ts (alternative to Web3.js & Ethers.js)",
+                "Consensus Mechanism": "Proof-of-Stake (PoS)",
+                "Smart Contract Development": "Hardhat, Truffle, Foundry, Remix IDE",
+                "Contract Standards": "OpenZeppelin, ERC-20, ERC-721, ERC-1155",
+                "Wallet Integration": "MetaMask, WalletConnect, RainbowKit, Web3Modal",
+                "Contract Hooks": "wagmi, viem, useDApp",
+                "Testing": "Hardhat Tests, Mocha, Chai, Slither, MythX",
+                "Indexing": "The Graph (Subgraphs), Moralis",
+                "RPC Providers": "Infura, Alchemy, QuickNode",
+                "Explorers": "Etherscan, Blockscout",
+                "Authentication": "SIWE (Sign-In with Ethereum), ENS",
+                "Layer-2 (L2) Solutions":"",
+                "Optimistic Rollup": "Arbitrum, Optimism (OP Mainnet), Base",
+                "ZK-Rollup": "zkSync Era, Starknet, Linea",
+                "Sidechain (with L2 options)": "Polygon"
+            }
         }
     },
     {
@@ -162,73 +163,75 @@ const data = [{
     {
         "title":"Binance Ecosystem",
         "kpis":{
-            "Basic Fundamentals": "", 
-            "Node Infrastructure & RPC Providers": "Chainstack, QuickNode, OnFinality, InfStones",
-            "Core Libraries": "Ethers.js (RPC Communication), @binance-chain/bsc-use-wallet (Authentication)",
-            "Consensus Mechanism": "Proof of Staked Authority (PoSA)",
-            "Smart Contract Development": "Hardhat, Truffle, Remix IDE",
-            "Contract Standards": "OpenZeppelin, BEP-20, BEP-721, BEP-1155",
-            "Wallet Integration": "MetaMask, Trust Wallet, Binance Chain Wallet",
-            "RPC Providers": "Binance RPC, QuickNode BSC, Ankr",
-            "Explorers": "BscScan",
-            "Testing": "Hardhat Tests (similar to Ethereum)",
-            "Bridges": "Binance Bridge, AnySwap",
-            "Layer-2 (L2) Solutions":"",
-            "Optimistic Rollup": "opBNB",
+            "Basic Fundamentals": { 
+                "Node Infrastructure & RPC Providers": "Chainstack, QuickNode, OnFinality, InfStones",
+                "Core Libraries": "Ethers.js (RPC Communication), @binance-chain/bsc-use-wallet (Authentication)",
+                "Consensus Mechanism": "Proof of Staked Authority (PoSA)",
+                "Smart Contract Development": "Hardhat, Truffle, Remix IDE",
+                "Contract Standards": "OpenZeppelin, BEP-20, BEP-721, BEP-1155",
+                "Wallet Integration": "MetaMask, Trust Wallet, Binance Chain Wallet",
+                "RPC Providers": "Binance RPC, QuickNode BSC, Ankr",
+                "Explorers": "BscScan",
+                "Testing": "Hardhat Tests (similar to Ethereum)",
+                "Bridges": "Binance Bridge, AnySwap",
+                "Layer-2 (L2) Solutions":"",
+                "Optimistic Rollup": "opBNB"
+            }
         }
     },
     {
         "title": "Polkadot and Kusama Ecosystem",
         "kpis":{
-            "Basic Fundamentals":"",
-            "Node Infrastructure & RPC Providers": "OnFinality, Parity Public Nodes, Substrate Connect",
-            "Core Framework": (<span><b>Substrate</b> - Rust-based modular blockchain SDK with pre-built pallets for balances, assets, governance, and staking</span>),
-            "Pallets": "Balances pallet, Assets pallet, Governance pallet, Staking pallet, Contracts pallet (ink!)",
-            "Cross-Chain Protocol": (<span><b>XCM (Cross-Consensus Messaging)</b> - Enables asset transfers, remote calls, and cross-chain communication</span>),
-            "XCM Tools": "ParaSpell (XCM SDK), Moonbeam XCM SDK, Chopsticks (testing), Moonsong Labs XCM Tools",
-            "Smart Contract Languages": "Rust (ink!), Solidity (via EVM parachains)",
-            "WASM Support": "Native WASM execution via Substrate contracts pallet",
-            "API/SDK": "Polkadot.js API, Polkakit, Subxt (Rust), Python Polkadot API, .NET API",
-            "CLI Tools": "Subkey (key management), srtool (runtime verification), Polkadot Launch",
-            "GraphQL Indexing": "SubQuery, Subsquid",
-            "Telemetry & Monitoring": "Polkadot Telemetry, Panic (validator monitoring), Polkabot",
-            "Testing Framework": "Zombienet (multi-node testing), Chopsticks (fork testing)",
-            "Governance": "On-chain governance with OpenGov (Polkadot) and faster Gov (Kusama)",
-            "Wallets (Multi-chain)": "Talisman, SubWallet, Nova Wallet (support both Polkadot & Kusama)",
-
-            "Polkadot Ecosystem":"",
-            "Layer 0 (Relay Chain)": "Polkadot Relay Chain (main network)",
-            "Layer 1 (Parachains)": "Acala (DeFi), Moonbeam (EVM-compatible), Astar (dApp hub), Parallel Finance (lending), Centrifuge (RWA), HydraDX (liquidity)",
-            "Consensus Mechanism": "Nominated Proof-of-Stake (NPoS) consensus",
-            "Smart Contract Platforms": (<span><b>ink!</b> (WASM smart contracts), <b>Moonbeam</b> (EVM + Solidity), <b>Astar</b> (EVM + WASM)</span>),
-            "Development Framework": (<span><b>Substrate</b> - Modular blockchain development framework in Rust</span>),
-            "Cross-Chain Communication": (<span><b>XCM</b> (Cross-Consensus Messaging) - Standardized protocol for chain-to-chain communication</span>),
-            "Scaling Mechanism": (<span><b>Elastic Scaling</b> - Parachains can use multiple cores dynamically; 
-                achieves <b>500ms block times</b> and <b>20 MB/s data availability</b> with 12 cores</span>),
-            "Core Management": (<span><b>Agile Coretime</b> - On-demand allocation of computational cores</span>),
-            "Wallet Integration": "Polkadot.js Extension, Talisman, SubWallet, Nova Wallet",
-            "Block Explorers": "Subscan, Polkadot.js Apps, Statescan",
-            "RPC Providers": "Parity RPC, OnFinality, Dwellir, Pinknode",
-            "Testing": "Zombienet (multi-chain testing), Chopsticks (XCM testing)",
-            "Indexing & Analytics": "SubQuery (GraphQL indexing), Dune Analytics, DotLake",
-            "API Libraries": (<span><b>Polkadot.js API, Polkakit</b> (TypeScript SDK), Subxt (Rust), GSRPC (Go) </span>),
-            "Storage": "IPFS integration via parachains",
-            "Deployment": "parachain slot auctions (legacy), Agile Coretime (new model)",
-
-            "Kusama Ecosystem": "",
-            "Role": (<span><b>Canary Network</b> - Experimental, fast-moving cousin of Polkadot; real economic value, NOT a testnet</span>),
-            "Layer 0": "Kusama Relay Chain - Faster governance (7-day voting vs Polkadot's 28 days)",
-            "Layer 1 (Parachains)": "Karura (DeFi), Moonriver (EVM), Shiden (dApp hub), Bifrost (liquid staking), KILT (identity)",
-            "Consensus Mechanism": "Nominated Proof-of-Stake (NPoS) consensus",
-            "Smart Contracts": "ink!, EVM via Moonriver, WASM contracts",
-            "Development": "Substrate (same as Polkadot)",
-            "Scaling": (<span><b>Elastic Scaling FIRST</b> - All new features deploy on Kusama first; Elastic Scaling went live on Kusama 
-                    in August 2025, before Polkadot</span>),
-            "Core Management": "Agile Coretime (fully operational)",
-            "XCM": "Full XCM support for cross-chain messaging",
-            "Explorers": "Subscan (Kusama), Statescan, Polkadot.js Apps",
-            "Wallets": "Polkadot.js, Talisman, SubWallet, Nova Wallet",
-            "Testing Tools": "Chopsticks, Zombienet, Paseo (test network)"
+            "Basic Fundamentals":{
+                "Node Infrastructure & RPC Providers": "OnFinality, Parity Public Nodes, Substrate Connect",
+                "Core Framework": (<span><b>Substrate</b> - Rust-based modular blockchain SDK with pre-built pallets for balances, assets, governance, and staking</span>),
+                "Pallets": "Balances pallet, Assets pallet, Governance pallet, Staking pallet, Contracts pallet (ink!)",
+                "Cross-Chain Protocol": (<span><b>XCM (Cross-Consensus Messaging)</b> - Enables asset transfers, remote calls, and cross-chain communication</span>),
+                "XCM Tools": "ParaSpell (XCM SDK), Moonbeam XCM SDK, Chopsticks (testing), Moonsong Labs XCM Tools",
+                "Smart Contract Languages": "Rust (ink!), Solidity (via EVM parachains)",
+                "WASM Support": "Native WASM execution via Substrate contracts pallet",
+                "API/SDK": "Polkadot.js API, Polkakit, Subxt (Rust), Python Polkadot API, .NET API",
+                "CLI Tools": "Subkey (key management), srtool (runtime verification), Polkadot Launch",
+                "GraphQL Indexing": "SubQuery, Subsquid",
+                "Telemetry & Monitoring": "Polkadot Telemetry, Panic (validator monitoring), Polkabot",
+                "Testing Framework": "Zombienet (multi-node testing), Chopsticks (fork testing)",
+                "Governance": "On-chain governance with OpenGov (Polkadot) and faster Gov (Kusama)",
+                "Wallets (Multi-chain)": "Talisman, SubWallet, Nova Wallet (support both Polkadot & Kusama)",
+            },
+            "Polkadot Ecosystem":{
+                "Layer 0 (Relay Chain)": "Polkadot Relay Chain (main network)",
+                "Layer 1 (Parachains)": "Acala (DeFi), Moonbeam (EVM-compatible), Astar (dApp hub), Parallel Finance (lending), Centrifuge (RWA), HydraDX (liquidity)",
+                "Consensus Mechanism": "Nominated Proof-of-Stake (NPoS) consensus",
+                "Smart Contract Platforms": (<span><b>ink!</b> (WASM smart contracts), <b>Moonbeam</b> (EVM + Solidity), <b>Astar</b> (EVM + WASM)</span>),
+                "Development Framework": (<span><b>Substrate</b> - Modular blockchain development framework in Rust</span>),
+                "Cross-Chain Communication": (<span><b>XCM</b> (Cross-Consensus Messaging) - Standardized protocol for chain-to-chain communication</span>),
+                "Scaling Mechanism": (<span><b>Elastic Scaling</b> - Parachains can use multiple cores dynamically; 
+                    achieves <b>500ms block times</b> and <b>20 MB/s data availability</b> with 12 cores</span>),
+                "Core Management": (<span><b>Agile Coretime</b> - On-demand allocation of computational cores</span>),
+                "Wallet Integration": "Polkadot.js Extension, Talisman, SubWallet, Nova Wallet",
+                "Block Explorers": "Subscan, Polkadot.js Apps, Statescan",
+                "RPC Providers": "Parity RPC, OnFinality, Dwellir, Pinknode",
+                "Testing": "Zombienet (multi-chain testing), Chopsticks (XCM testing)",
+                "Indexing & Analytics": "SubQuery (GraphQL indexing), Dune Analytics, DotLake",
+                "API Libraries": (<span><b>Polkadot.js API, Polkakit</b> (TypeScript SDK), Subxt (Rust), GSRPC (Go) </span>),
+                "Storage": "IPFS integration via parachains",
+                "Deployment": "parachain slot auctions (legacy), Agile Coretime (new model)",
+            },
+            "Kusama Ecosystem":{
+                "Role": (<span><b>Canary Network</b> - Experimental, fast-moving cousin of Polkadot; real economic value, NOT a testnet</span>),
+                "Layer 0": "Kusama Relay Chain - Faster governance (7-day voting vs Polkadot's 28 days)",
+                "Layer 1 (Parachains)": "Karura (DeFi), Moonriver (EVM), Shiden (dApp hub), Bifrost (liquid staking), KILT (identity)",
+                "Consensus Mechanism": "Nominated Proof-of-Stake (NPoS) consensus",
+                "Smart Contracts": "ink!, EVM via Moonriver, WASM contracts",
+                "Development": "Substrate (same as Polkadot)",
+                "Scaling": (<span><b>Elastic Scaling FIRST</b> - All new features deploy on Kusama first; Elastic Scaling went live on Kusama 
+                        in August 2025, before Polkadot</span>),
+                "Core Management": "Agile Coretime (fully operational)",
+                "XCM": "Full XCM support for cross-chain messaging",
+                "Explorers": "Subscan (Kusama), Statescan, Polkadot.js Apps",
+                "Wallets": "Polkadot.js, Talisman, SubWallet, Nova Wallet",
+                "Testing Tools": "Chopsticks, Zombienet, Paseo (test network)"
+            }
 
         }
     }]
@@ -288,6 +291,13 @@ const data = [{
     }]
 }];
 
+const getValueType = ( value ) =>{
+ if(React.isValidElement(value)){ return "JSX"; }
+ if(typeof value === "string") { return "STRING"; }
+ if(typeof value === "object" && value !== null && !Array.isArray(value)) { return "JSON"; }
+ return "UNKNOWN";
+};
+
 const TechStack = () =>{
  return (<div>
     {data?.map((dat,i1)=>{
@@ -300,8 +310,32 @@ const TechStack = () =>{
                         const kpiKeys = Object.keys(d?.kpis);
                         return (<div key={i3} className="card resume-card mb-3">
                             <div className="card-body resume-cardBody">
-                            {d?.title && <div align="center" className="text-grey3 uppercase pb-3"><b>{d?.title}</b></div>}
+                            {d?.title && <div align="center" className="text-white uppercase pb-3"><b>{d?.title}</b></div>}
+                            <div>
                             {kpiKeys?.map((kpiKey, i4) => {
+                                const kpiVal = d?.kpis?.[kpiKey];
+                                if(getValueType(kpiVal) === "JSON") {
+                                    const valKey = Object.keys(kpiVal);
+                                    return (<div key={i4} className="pb-2">
+                                        <div style={{ borderBottom:'0.3px solid #999', paddingBottom:'6px', marginBottom:'8px' }}>
+                                            <b>{kpiKey}</b>
+                                        </div>
+                                        {valKey?.map((vk,i)=>{
+                                            return (<div key={i} className="pb-2">
+                                                <span className="text-grey2"><b>{vk}</b></span> 
+                                                <span><b>:</b> {kpiVal[vk]}</span>  
+                                            </div>);
+                                        })}  
+                                    </div>);
+                                } else {
+                                    return (<div key={i4} className="pb-2">
+                                        <span className="text-grey2"><b>{kpiKey}</b></span> 
+                                        <span><b>:</b> {kpiVal}</span>    
+                                    </div>);
+                                }
+                            })}
+                            </div>
+                            {/*kpiKeys?.map((kpiKey, i4) => {
                                 const kpiVal = d?.kpis?.[kpiKey];
                                 const hasValue = kpiVal !== null && kpiVal !== undefined && kpiVal !== "" && React.Children.count(kpiVal) > 0;
                                 return (
@@ -323,7 +357,7 @@ const TechStack = () =>{
                                     )}
                                     </div>
                                 );
-                            })}
+                            })*/}
                             </div>
                             </div>);
                     })}
