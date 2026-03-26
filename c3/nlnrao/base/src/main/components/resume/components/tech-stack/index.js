@@ -268,7 +268,61 @@ const data = [{
        }]
     }]
 },{
-    "title":"Networking Communication Solutions"
+    "title":"Networking Communication Solutions",
+    "details":[{
+       "data":[{
+           "kpis":{
+                "CISCO SYSTEMS PLATFORM (for Contact Center / Telecom Infrastructure)":{
+                    "Networking Protocols": "TCP/IP, UDP, SIP, RTP, SRTP, HTTP/HTTPS, DNS, DHCP",
+                    "VoIP Protocols": "SCCP, H.323 and SIP (VOIP & Signaling Protocols)",
+                    "Cisco Voice Gateways": "ISR Voice Gateways, FXO / FXS / E1 PRI",
+                    "Cisco Routing": "Cisco ISR Routers (18xx, 28xx, 29xx, 39xx series)",
+                    "Switching": "Cisco Catalyst L2/L3 Switches (VLAN, Trunking, STP)",
+                    "WAN Technologies": "MPLS, Leased Lines, ISDN PRI",
+                    "Routing Protocols": "OSPF, EIGRP",
+                    "Security Basics": "ACLs, NAT, PAT, Firewall",
+                    "Media Handling": "RTP, DTMF, Codec Basics (G.711, G.729)",
+                    "Dial Plans": "Route Patterns, Translation Rules, Calling Search Spaces",
+                    "Call Flows": "Inbound / Outbound PSTN, IVR, Agent Call Routing",
+                    "Call Control": (<span><b>Cisco Unified Communications Manager (CUCM)</b> – Administration, AXL/SOAP API awareness</span>),
+                    "Call Messaging": (<span><b>Cisco Unity Connection (CUCUM)</b> – Voicemail integration, User provisioning</span>),
+                    "Contact Center": (<span><b>ICM / UCCE (Unified Contact Center Enterprise)</b> – Scripting, IVR flows, CTI (Computer Telephony Integration)</span>),
+                    "IVR Development": (<span><b>Cisco Unified Call Studio</b> (VXML Application Development), <b>CVP</b> (Customer Voice Portal), IVR Call Flows, 
+                                        Speech Recognition (ASR/TTS) Integration</span>),
+                    "Development Methodology": (<span><b>Eclipse-based IDE</b>, <b>Java</b> (for custom components/SDK), <b>SOAP/REST Web Services</b> integration</span>),
+                    "Agent Desktops": "Cisco Finesse, Cisco Agent Desktop (CAD)",
+                    "IP Phones": "Cisco 79xx / 88xx Series",
+                    "Softphones": "Cisco IP Communicator",
+                    "Server OS": "Windows Server 2008 / 2012, Linux (Basic)",
+                    "Virtualization": "VMware ESXi",
+                    "Database Awareness": "SQL Server / Informix (CUCM backend concepts)",
+                    "Network Monitoring": "Ping, Traceroute, SNMP basics",
+                    "Voice Debugging": "SIP Call Flow analysis (basic)",
+                    "Call Logs & Traces": "CUCM RTMT",
+                    "Packet Capture & Analysis": "Wireshark",
+                    "CLI Tools": "Cisco IOS CLI, basic debugging commands"
+                },
+                "ASTERISK (PBX) PLATFORM (for Contact Center / Telecom Infrastructure)":{
+                    "PBX Platform": "Asterisk (Open-Source)",
+                    "Operating System": "Linux (CentOS / Ubuntu)",
+                    "Core Config Files": "sip.conf, extensions.conf, iax.conf, rtp.conf",
+                    "Trunk Configuration": "SIP trunks (ITSP / PSTN gateways)",
+                    "Trunk Failover": "Primary / secondary SIP trunks",
+                    "SIP Load Distribution": "DNS SRV / SIP proxy concepts",
+                    "Dialplan Logic": "Basic call routing using extensions.conf",
+                    "IVR Flows": "Menu-based IVR, time-based routing",
+                    "Inbound / Outbound Calls": "DID mapping, outbound rules",
+                    "Codecs": "G.711, G.729",
+                    "DTMF Modes": "RFC2833, Inband, SIP INFO",
+                    "RTP Handling": "Media stream setup, jitter and latency",
+                    "NAT Traversal" : "SIP NAT handling (externip, localnet)",
+                    "Firewall Rules": "RTP port ranges, SIP ports",
+                    "Packet Analysis": "Wireshark (SIP/RTP analysis)",
+                    "Shared Databases": "Centralized user & config data (MySQL)",
+                }
+           }
+       }]
+    }]
 },{
     "title":"Cloud Platform Solutions",
     "details":[{
