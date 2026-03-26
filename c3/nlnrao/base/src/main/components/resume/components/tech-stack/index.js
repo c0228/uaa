@@ -329,6 +329,48 @@ const data = [{
        "data":[{
            "kpis":{
             "Platforms": "Amazon Web Services (AWS), Google Cloud Platform (GCP) and Firebase",
+            "Amazon Web Services (AWS)":{
+                "Identity & Access Management": "AWS IAM",
+                "Secrets Management": "AWS Secrets Manager",
+                "Authentication": "Amazon Cognito",
+                "API Management": "Amazon API Gateway",
+                "DNS & Traffic Routing": "Amazon Route 53",
+                "Infrastructure as Code": "AWS CloudFormation, Terraform",
+                "Virtual Networking": "Amazon VPC",
+                "Content Delivery Network": "Amazon CloudFront",
+                "Message Queue": "Amazon SQS",
+                "Pub/Sub Messaging": "Amazon SNS",
+                "Data Streaming": "Amazon Kinesis",
+                "Serverless Compute": "AWS Lambda",
+                "Application Hosting": "AWS Elastic Beanstalk",
+                "Monitoring & Metrics": "Amazon CloudWatch",
+                "Storages & Databases":"",
+                "ETL & Data Processing": "AWS Glue",
+                "Object Storage": "AWS S3",
+                "Block Storage": "AWS EBS",
+                "File Storage": "AWS EFS",
+                "Archive Storage": "AWS Glacier",
+                "Query on S3": "Amazon Athena",
+                "Relational Database": "AWS RDS (MySQL, PostgreSQL)",
+                "NoSQL Key-Value Database": "AWS DynamoDB",
+                "In-Memory Cache": "AWS ElastiCache (Redis)",
+                "Blockchain & Web3":"",
+                "Managed Blockchain Service": "Amazon Managed Blockchain",
+                "Blockchain Frameworks": "Hyperledger Fabric, Ethereum",
+                "Decentralized Ledger": "Amazon QLDB",
+                "Blockchain Node Infrastructure": "Amazon EC2",
+                "Smart Contract Hosting": "Amazon EC2, AWS Lambda",
+                "Blockchain Storage": "Amazon S3",
+                "Blockchain Monitoring": "Amazon CloudWatch",
+                "Blockchain Security": "AWS KMS, AWS IAM",
+                "Quantum Computing":"",
+                "Quantum Computing Platform": "AWS Braket",
+                "Quantum Hardware Access": "IonQ, Rigetti, Oxford Quantum Circuits (via AWS Braket)",
+                "Quantum Simulators": "AWS Braket Local & Managed Simulators",
+                "Hybrid Quantum-Classical Workflows": "AWS Braket + AWS Lambda + Amazon S3",
+                "Quantum ML Integration": "AWS Braket with Amazon SageMaker",
+                "Quantum Algorithm Development": "AWS Braket SDK (Python)"
+            }
        }
        }]
     }]
