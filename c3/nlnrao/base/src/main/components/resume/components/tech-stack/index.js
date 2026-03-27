@@ -262,8 +262,31 @@ const data = [{
        "data":[{
            "kpis":{
             "Database System Design": "Creating Database Clusters, Database Sharding (Parallel Processing), Database Hotspots",
-            "Relational Databases": "Microsoft SQL Server, MySQL Server and Oracle Database",
-            "Document-Oriented Databases": "MongoDB and Cloud Firestore"
+
+            "Relational Databases (RDBMS – SQL)":"",
+            "On-Premises / Open Source": "MySQL, PostgreSQL, Oracle, Microsoft SQL Server",
+            "AWS": "Amazon RDS (MySQL, PostgreSQL, MariaDB, Oracle, SQL Server), Amazon Aurora",
+            "GCP": "Cloud SQL (MySQL, PostgreSQL, SQL Server), Cloud Spanner",
+
+            "NoSQL (Key-Value Databases)": "",
+            "Open Source": "Redis",
+            "AWS": "DynamoDB",
+            "GCP": "Firestore (Key-Value + Document)",
+
+            "NoSQL (Document Databases)": "",
+            "Open Source": "MongoDB, CouchDB",
+            "AWS": "Amazon DocumentDB (MongoDB compatible)",
+            "Firebase": "Firestore",
+
+            "NoSQL (Wide Column Databases)": "",
+            "Open Source": "Apache Cassandra",
+            "AWS": "Amazon Keyspaces (for Apache Cassandra)",
+            "GCP": "Bigtable",
+
+            "In-Memory Databases & Caching": "",
+            "Open Source": "Redis",
+            "AWS": "ElastiCache (Redis)",
+            "GCP": "Memorystore (Redis)"
        }
        }]
     }]
@@ -330,30 +353,16 @@ const data = [{
            "kpis":{
             "Platforms": "Amazon Web Services (AWS), Google Cloud Platform (GCP) and Firebase",
             "Amazon Web Services (AWS)":{
-                "Identity & Access Management": "AWS IAM",
-                "Secrets Management": "AWS Secrets Manager",
-                "Authentication": "Amazon Cognito",
-                "API Management": "Amazon API Gateway",
-                "DNS & Traffic Routing": "Amazon Route 53",
-                "Infrastructure as Code": "AWS CloudFormation, Terraform",
-                "Virtual Networking": "Amazon VPC",
-                "Content Delivery Network": "Amazon CloudFront",
-                "Message Queue": "Amazon SQS",
-                "Pub/Sub Messaging": "Amazon SNS",
-                "Data Streaming": "Amazon Kinesis",
-                "Serverless Compute": "AWS Lambda",
-                "Application Hosting": "AWS Elastic Beanstalk",
-                "Monitoring & Metrics": "Amazon CloudWatch",
-                "Storages & Databases":"",
+                "Storage Management": "AWS S3 (Object Storage), Amazon Athena (Query on S3), AWS EBS (Block Storage), AWS EFS (File Storage), AWS Glacier (Archive Storage)",
                 "ETL & Data Processing": "AWS Glue",
-                "Object Storage": "AWS S3",
-                "Block Storage": "AWS EBS",
-                "File Storage": "AWS EFS",
-                "Archive Storage": "AWS Glacier",
-                "Query on S3": "Amazon Athena",
-                "Relational Database": "AWS RDS (MySQL, PostgreSQL)",
-                "NoSQL Key-Value Database": "AWS DynamoDB",
-                "In-Memory Cache": "AWS ElastiCache (Redis)",
+                "Security, Identity, & Compliance": "AWS IAM (Identity & Access Management), AWS Secrets Manager (Secrets Management), Amazon Cognito (User Authentication)",
+                "Networking & Content Delivery": "Amazon Route 53 (DNS& Traffic Routing), Amazon CloudFront (Content Delivery Network(CDN)), Amazon VPC (Virtual Networking), Amazon API Gateway (API Management)",
+                "Compute & Application Hosting": "AWS Lambda (Serverless Compute), AWS Elastic Beanstalk (Application Hosting)",
+                "Databases & Storage": "AWS RDS for MySQL, PostgreSQL (Relational Database), AWS DynamoDB (NoSQL Key-Value Database), AWS ElastiCache - Redis (In-Memory Cache)",
+                "Integration & Messaging": "Amazon SQS (Message Queue), Amazon SNS (Pub/Sub Messaging), Amazon Kinesis (Data Streaming)",
+                "Infrastructure as Code": "AWS CloudFormation, Terraform",
+                "Monitoring & Metrics": "Amazon CloudWatch",
+
                 "Blockchain & Web3":"",
                 "Managed Blockchain Service": "Amazon Managed Blockchain",
                 "Blockchain Frameworks": "Hyperledger Fabric, Ethereum",
@@ -363,6 +372,7 @@ const data = [{
                 "Blockchain Storage": "Amazon S3",
                 "Blockchain Monitoring": "Amazon CloudWatch",
                 "Blockchain Security": "AWS KMS, AWS IAM",
+
                 "Quantum Computing":"",
                 "Quantum Computing Platform": "AWS Braket",
                 "Quantum Hardware Access": "IonQ, Rigetti, Oxford Quantum Circuits (via AWS Braket)",
@@ -370,6 +380,46 @@ const data = [{
                 "Hybrid Quantum-Classical Workflows": "AWS Braket + AWS Lambda + Amazon S3",
                 "Quantum ML Integration": "AWS Braket with Amazon SageMaker",
                 "Quantum Algorithm Development": "AWS Braket SDK (Python)"
+            },
+            "Google Cloud Platform (GCP)":{
+                "Storage Management": "Google Cloud Storage (GCS) for Object Storage, BigQuery (External Tables on GCS) for Query on Object Storage, Persistent Disk (Standard / SSD / Balanced) for Block Storage, Filestore (Managed NFS) for File Storage, Cloud Storage Archive / Coldline (Archive / Cold Storage)",
+                "ETL & Data Processing": "Cloud Data Fusion (ETL / Data Integration), Cloud Dataflow (Apache Beam) for Batch & Stream Processing, BigQuery + Dataform (Data Transformation (ELT)), Cloud Composer (Apache Airflow) for Workflow Orchestration",
+                "Security, Identity, & Compliance": "Cloud IAM (Identity & Access Management), Secret Manager (Secrets Management), Identity Platform (Firebase Auth) for User Authentication & Identity, Cloud KMS / Cloud HSM (Key Management & Encryption), Security Command Center (Security Monitoring)",
+                "Networking & Content Delivery": "Cloud DNS (DNS & Traffic Routing), Cloud CDN (Content Delivery Network), Virtual Private Cloud (VPC) for Virtual Networking, API Gateway / Apigee (API Management), Cloud Load Balancing (Global L7/L4) for Load Balancing",
+                "Compute & Application Hosting": "Cloud Functions (Serverless Compute), Cloud Run (Container-based Serverless), Compute Engine (Virtual Machines), App Engine for Platform as a Service (PaaS)",
+                "Databases & Storage": "Cloud SQL (MySQL, PostgreSQL, SQL Server) for Relational Databases, Cloud Spanner (Globally Distributed SQL), Firestore (NoSQL Document Database), Bigtable (Wide-Column NoSQL), Memorystore (Redis / Memcached) for In-Memory Cache",
+                "Integration & Messaging": "Pub/Sub (Message Queue), Eventarc (Event-Driven Integration), Application Integration (Enterprise Integration), Pub/Sub + Dataflow (Streaming Ingestion)",
+                "Infrastructure as Code": "Deployment Manager (Native IaC), Terraform (Multi-Cloud IaC)",
+                "Monitoring & Metrics": "Cloud Monitoring & Cloud Logging, Cloud Trace, Error Reporting",
+
+                "Blockchain & Web3": "",
+                "Managed Blockchain Infrastructure": "Compute Engine (Blockchain Node Hosting)",
+                "Blockchain Data Analytics": "BigQuery Public Blockchain Datasets",
+                "Smart Contract Hosting": "Compute Engine (Smart Contract Nodes), Cloud Functions / Cloud Run for Event Processing",
+                "Blockchain Data Storage": "Google Cloud Storage",
+                "Blockchain Monitoring & Security": "Cloud Monitoring, Cloud KMS (Key Management), Cloud IAM (Identity & Access)",
+
+                "Quantum Computing": "",
+                "Quantum Platform": "Google Quantum AI for Quantum Platform",
+                "Quantum Hardware Access": "Google Sycamore Processor (Superconducting Qubits)",
+                "Quantum Circuit Simulator": "Cirq Simulator",
+                "Quantum Hybrid Compute": "Quantum AI + Compute Engine + Cloud Storage",
+                "Quantum ML Integration": "Cirq + TensorFlow Quantum",
+                "Quantum SDK": "Cirq (Python)"
+            },
+            "Firebase (Backend-as-a-Service)":{
+                "Application Development Platform": "Firebase Platform (Backend-as-a-Service (BaaS))",
+                "Authentication & Identity": "Firebase Authentication, Firebase Auth + Google Identity Platform (Identity Federation)",
+                "Databases & File Storage": "Cloud Firestore (NoSQL Document Database), Firebase Realtime Database (Realtime Database), Firebase Cloud Storage (File & Media Storage)",
+                "Serverless Compute & Backend Logic": "Cloud Functions for Firebase (Serverless Functions), Database / Auth / HTTP triggers (Event-Driven Architecture), HTTPS Callable & REST APIs (API Development)",
+                "Hosting & Content Delivery": "Firebase Hosting (Web Hosting), Firebase Hosting CDN (Google Edge Network), Managed SSL Certificates (Custom Domains & SSL)",
+                "Messaging & Notifications": "Firebase Cloud Messaging (FCM) for Push Notifications",
+                "Analytics & User Insights": "Google Analytics for Firebase (User Analytics), Firebase Analytics Dashboard (Funnel & Retention Analysis)",
+                "Performance & Quality Monitoring": "Firebase Performance Monitoring (App Performance Monitoring), Firebase Crashlytics (Crash Reporting)",
+                "Testing & Release Management": "Firebase Test Lab (Real Devices & Emulators) for Automated Testing, Firebase A/B Testing (A/B Testing), Firebase Remote Config (Feature Flags)",
+                "Security & Compliance": "Firestore & Realtime DB Security Rules, Firebase + GCP IAM (IAM Integration), Environment Configs via Firebase & GCP Secret Manager",
+                "DevOps & CI/CD": "Firebase CLI (CLI & Automation), GitHub Actions / GitLab CI / Cloud Build (CI/CD Integration)",
+                "Integration with Google Cloud": "Firebase Analytics → BigQuery (BigQuery Integration), Firebase + API Gateway (Advanced APIs), Firebase + Cloud Run / Cloud Functions (Scalability)"
             }
        }
        }]
@@ -395,6 +445,19 @@ const getValueType = ( value ) =>{
 };
 
 const TechStack = () =>{
+ const keyValDisplay = (k, v, i) =>{
+    if(typeof v === "string" && v?.length === 0){
+        return (<div key={i} className="pb-2" style={{ marginTop:'8px' }}>
+            <span style={{ color:'#fff', borderBottom:'1px solid #fff', paddingBottom:'1px', textTransform:'uppercase', fontSize:'12px' }}><b>{k}</b></span>
+            <span><b>-</b></span>
+        </div>);
+    } else {
+        return (<div key={i} className="ps-2 pb-2">
+            <span className="text-grey2"><b>{k}</b></span> 
+            <span><b>:</b> {v}</span>  
+        </div>);
+    }
+ };
  return (<div>
     {data?.map((dat,i1)=>{
       return (<div key={i1}>
@@ -417,17 +480,11 @@ const TechStack = () =>{
                                             <b>{kpiKey}</b>
                                         </div>
                                         {valKey?.map((vk,i)=>{
-                                            return (<div key={i} className="ps-2 pb-2">
-                                                <span className="text-grey2"><b>{vk}</b></span> 
-                                                <span><b>:</b> {kpiVal[vk]}</span>  
-                                            </div>);
+                                           return keyValDisplay(vk, kpiVal[vk], i);
                                         })}  
                                     </div>);
                                 } else {
-                                    return (<div key={i4} className="ps-2 pb-2">
-                                        <span className="text-grey2"><b>{kpiKey}</b></span> 
-                                        <span><b>:</b> {kpiVal}</span>    
-                                    </div>);
+                                    return keyValDisplay(kpiKey, kpiVal, i4);
                                 }
                             })}
                             </div>
