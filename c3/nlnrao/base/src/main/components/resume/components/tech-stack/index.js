@@ -135,10 +135,11 @@ const data = [{
                 "RPC Providers": "Infura, Alchemy, QuickNode",
                 "Explorers": "Etherscan, Blockscout",
                 "Authentication": "SIWE (Sign-In with Ethereum), ENS",
-                "Layer-2 (L2) Solutions":"",
-                "Optimistic Rollup": "Arbitrum, Optimism (OP Mainnet), Base",
-                "ZK-Rollup": "zkSync Era, Starknet, Linea",
-                "Sidechain (with L2 options)": "Polygon"
+                "Layer-2 (L2) Solutions":{
+                    "Optimistic Rollup": "Arbitrum, Optimism (OP Mainnet), Base",
+                    "ZK-Rollup": "zkSync Era, Starknet, Linea",
+                    "Sidechain (with L2 options)": "Polygon"
+                }
             }
         }
     },
@@ -174,8 +175,9 @@ const data = [{
                 "Explorers": "BscScan",
                 "Testing": "Hardhat Tests (similar to Ethereum)",
                 "Bridges": "Binance Bridge, AnySwap",
-                "Layer-2 (L2) Solutions":"",
-                "Optimistic Rollup": "opBNB"
+                "Layer-2 (L2) Solutions":{
+                    "Optimistic Rollup": "opBNB"
+                }
             }
         }
     },
@@ -252,7 +254,45 @@ const data = [{
     "details":[{
        "data":[{
            "kpis":{
-           "UI Design Frameworks": "Electron JS (On Node JS Platform), Java SWING and Java FX (On Java Platform)"
+             "Electron JS (Node.js Platform)":{
+                "Application Framework": "Electron.js",
+                "Runtime": "Node.js + Chromium",
+                "UI Layer": "HTML, CSS, JavaScript",
+                "Frontend Frameworks": "React and Angular",
+                "Core Capabilities": "Cross-platform desktop apps (Windows, macOS, Linux), Native OS APIs via Node.js, Single codebase for Web + Desktop, Auto-updates & installer packaging",
+                "System & OS Integration": "File system access (FS, Streams), Native menus, tray, notifications, Clipboard, drag-and-drop, Native dialogs (Open/Save)",
+                "IPC & Process Model": "Main Process & Renderer Process, Inter-Process Communication (IPC), Secure context isolation",
+                "Packaging & Distribution": "Electron Builder, Auto-updater, Code signing (Windows & macOS)"
+             },
+             "Java Swing & JavaFX (Java platform)":{
+                "Java Swing":{
+                    "Application Framework": "Java Swing",
+                    "Runtime": "Java Virtual Machine (JVM)",
+                    "UI Rendering": "Light-weight components",
+                    "Core Capabilities": "Platform-independent desktop apps, Mature & stable UI toolkit, Rich component library (JTable, JTree, JMenu)",
+                    "Event Handling & UI": "Event-Driven Programming, MVC-based design patterns, Custom Look & Feel (LAF)",
+                    "Packaging & Distribution": "Executable JAR, jlink (Custom JVM Runtime), Native installers using jpackage"
+                },
+                "JavaFX":{
+                    "Application Framework": "JavaFX",
+                    "Runtime": "Java Virtual Machine (JVM)",
+                    "UI Definition": "FXML + Java",
+                    "Core Capabilities": "Modern UI toolkit (CSS-styled components), Hardware-accelerated graphics, Built-in animations & media support",
+                    "Advanced Features": "Scene Graph architecture, Responsive layouts, Rich charts & data visualization",
+                    "Packaging & Distribution": "Executable JAR, jlink (Custom JVM Runtime), Native installers using jpackage, Modular apps with Java Modules"
+                }
+             },
+             "Tauri (Python Platform)":{
+                "Application Framework": "Tauri",
+                "Backend": "Python",
+                "UI Layer": "HTML, CSS, JavaScript",
+                "WebView Engine": "OS-native WebView",
+                "Core Capabilities": "Lightweight desktop applications, Secure by default (sandboxed APIs), Smaller binary size than Electron, Cross-platform support (Windows, macOS, Linux)",
+                "Backend Integration": "Python-based business logic, IPC between frontend and Python backend, Access to native OS APIs",
+                "System & OS Integration": "File system access, Native notifications, OS-level commands execution",
+                "Packaging & Distribution": "Native installers, Minimal runtime footprint, Faster startup compared to Electron"
+             }
+             
        }
        }]
     }]
@@ -261,32 +301,65 @@ const data = [{
     "details":[{
        "data":[{
            "kpis":{
-            "Database System Design": "Creating Database Clusters, Database Sharding (Parallel Processing), Database Hotspots",
+            "Basic Fundamentals": {
+                "Core Architecture": "Polyglot Persistence, CAP Theorem & Consistency Models, OLTP vs OLAP vs HTAP, Global Databases & Multi-Region Design, Event-Driven & Streaming Architectures, Cost-Aware Cloud Architecture & Database Selection",
+                "Database System Design": "Creating Database Clusters, Database Sharding (Parallel Processing), Database Hotspots, Replication & Backups",
+                "Cloud Data Migration": "AWS DMS, GCP Database Migration Service",
+                "Monitoring": "CloudWatch, Cloud Monitoring, Prometheus"
+            },
+    
+            "Relational Databases (RDBMS – SQL)":{
+                "On-Premises / Open Source": "MySQL, PostgreSQL, Oracle, Microsoft SQL Server",
+                "AWS": "Amazon RDS (MySQL, PostgreSQL, MariaDB, Oracle, SQL Server), Amazon Aurora",
+                "GCP": "Cloud SQL (MySQL, PostgreSQL, SQL Server), Cloud Spanner"
+            },
 
-            "Relational Databases (RDBMS – SQL)":"",
-            "On-Premises / Open Source": "MySQL, PostgreSQL, Oracle, Microsoft SQL Server",
-            "AWS": "Amazon RDS (MySQL, PostgreSQL, MariaDB, Oracle, SQL Server), Amazon Aurora",
-            "GCP": "Cloud SQL (MySQL, PostgreSQL, SQL Server), Cloud Spanner",
+            "NoSQL (Key-Value Databases)":{
+                "Open Source": "Redis",
+                "AWS": "DynamoDB",
+                "GCP": "Firestore (Key-Value + Document)",
+            },
 
-            "NoSQL (Key-Value Databases)": "",
-            "Open Source": "Redis",
-            "AWS": "DynamoDB",
-            "GCP": "Firestore (Key-Value + Document)",
+            "NoSQL (Document Databases)":{
+                "Open Source": "MongoDB, CouchDB",
+                "AWS": "Amazon DocumentDB (MongoDB compatible)",
+                "Firebase": "Firestore",
+            },
 
-            "NoSQL (Document Databases)": "",
-            "Open Source": "MongoDB, CouchDB",
-            "AWS": "Amazon DocumentDB (MongoDB compatible)",
-            "Firebase": "Firestore",
+            "NoSQL (Wide Column Databases)":{
+                "Open Source": "Apache Cassandra",
+                "AWS": "Amazon Keyspaces (for Apache Cassandra)",
+                "GCP": "Bigtable",
+            },
 
-            "NoSQL (Wide Column Databases)": "",
-            "Open Source": "Apache Cassandra",
-            "AWS": "Amazon Keyspaces (for Apache Cassandra)",
-            "GCP": "Bigtable",
+            "In-Memory Databases & Caching":{
+                "Open Source": "Redis",
+                "AWS": "ElastiCache (Redis)",
+                "GCP": "Memorystore (Redis)"
+            },
 
-            "In-Memory Databases & Caching": "",
-            "Open Source": "Redis",
-            "AWS": "ElastiCache (Redis)",
-            "GCP": "Memorystore (Redis)"
+            "Graph Databases": {
+                "Open Source": "Neo4j",
+                "AWS": "Amazon Neptune",
+                "GCP": "Neo4j on Compute Engine"
+            },
+
+            "Time-Series Databases": {
+                "Open Source": "TimescaleDB",
+                "AWS": "Amazon Timestream",
+                "GCP": "Bigtable (time-series optimized)"
+            },
+
+            "Search & Index Databases": {
+                "Open Source": "OpenSearch",
+                "AWS": "OpenSearch Service"
+            },
+
+            "Blockchain Databases": {
+                "Open Source": "LevelDB",
+                "AWS": "Managed Blockchain + DynamoDB / QLDB",
+                "GCP": "BigQuery Public Blockchain Datasets"
+            }
        }
        }]
     }]
@@ -363,23 +436,25 @@ const data = [{
                 "Infrastructure as Code": "AWS CloudFormation, Terraform",
                 "Monitoring & Metrics": "Amazon CloudWatch",
 
-                "Blockchain & Web3":"",
-                "Managed Blockchain Service": "Amazon Managed Blockchain",
-                "Blockchain Frameworks": "Hyperledger Fabric, Ethereum",
-                "Decentralized Ledger": "Amazon QLDB",
-                "Blockchain Node Infrastructure": "Amazon EC2",
-                "Smart Contract Hosting": "Amazon EC2, AWS Lambda",
-                "Blockchain Storage": "Amazon S3",
-                "Blockchain Monitoring": "Amazon CloudWatch",
-                "Blockchain Security": "AWS KMS, AWS IAM",
+                "Blockchain & Web3":{
+                    "Managed Blockchain Service": "Amazon Managed Blockchain",
+                    "Blockchain Frameworks": "Hyperledger Fabric, Ethereum",
+                    "Decentralized Ledger": "Amazon QLDB",
+                    "Blockchain Node Infrastructure": "Amazon EC2",
+                    "Smart Contract Hosting": "Amazon EC2, AWS Lambda",
+                    "Blockchain Storage": "Amazon S3",
+                    "Blockchain Monitoring": "Amazon CloudWatch",
+                    "Blockchain Security": "AWS KMS, AWS IAM",
+                },
 
-                "Quantum Computing":"",
-                "Quantum Computing Platform": "AWS Braket",
-                "Quantum Hardware Access": "IonQ, Rigetti, Oxford Quantum Circuits (via AWS Braket)",
-                "Quantum Simulators": "AWS Braket Local & Managed Simulators",
-                "Hybrid Quantum-Classical Workflows": "AWS Braket + AWS Lambda + Amazon S3",
-                "Quantum ML Integration": "AWS Braket with Amazon SageMaker",
-                "Quantum Algorithm Development": "AWS Braket SDK (Python)"
+                "Quantum Computing":{
+                    "Quantum Computing Platform": "AWS Braket",
+                    "Quantum Hardware Access": "IonQ, Rigetti, Oxford Quantum Circuits (via AWS Braket)",
+                    "Quantum Simulators": "AWS Braket Local & Managed Simulators",
+                    "Hybrid Quantum-Classical Workflows": "AWS Braket + AWS Lambda + Amazon S3",
+                    "Quantum ML Integration": "AWS Braket with Amazon SageMaker",
+                    "Quantum Algorithm Development": "AWS Braket SDK (Python)"
+                }
             },
             "Google Cloud Platform (GCP)":{
                 "Storage Management": "Google Cloud Storage (GCS) for Object Storage, BigQuery (External Tables on GCS) for Query on Object Storage, Persistent Disk (Standard / SSD / Balanced) for Block Storage, Filestore (Managed NFS) for File Storage, Cloud Storage Archive / Coldline (Archive / Cold Storage)",
@@ -392,20 +467,22 @@ const data = [{
                 "Infrastructure as Code": "Deployment Manager (Native IaC), Terraform (Multi-Cloud IaC)",
                 "Monitoring & Metrics": "Cloud Monitoring & Cloud Logging, Cloud Trace, Error Reporting",
 
-                "Blockchain & Web3": "",
-                "Managed Blockchain Infrastructure": "Compute Engine (Blockchain Node Hosting)",
-                "Blockchain Data Analytics": "BigQuery Public Blockchain Datasets",
-                "Smart Contract Hosting": "Compute Engine (Smart Contract Nodes), Cloud Functions / Cloud Run for Event Processing",
-                "Blockchain Data Storage": "Google Cloud Storage",
-                "Blockchain Monitoring & Security": "Cloud Monitoring, Cloud KMS (Key Management), Cloud IAM (Identity & Access)",
+                "Blockchain & Web3":{
+                    "Managed Blockchain Infrastructure": "Compute Engine (Blockchain Node Hosting)",
+                    "Blockchain Data Analytics": "BigQuery Public Blockchain Datasets",
+                    "Smart Contract Hosting": "Compute Engine (Smart Contract Nodes), Cloud Functions / Cloud Run for Event Processing",
+                    "Blockchain Data Storage": "Google Cloud Storage",
+                    "Blockchain Monitoring & Security": "Cloud Monitoring, Cloud KMS (Key Management), Cloud IAM (Identity & Access)",
+                },
 
-                "Quantum Computing": "",
-                "Quantum Platform": "Google Quantum AI for Quantum Platform",
-                "Quantum Hardware Access": "Google Sycamore Processor (Superconducting Qubits)",
-                "Quantum Circuit Simulator": "Cirq Simulator",
-                "Quantum Hybrid Compute": "Quantum AI + Compute Engine + Cloud Storage",
-                "Quantum ML Integration": "Cirq + TensorFlow Quantum",
-                "Quantum SDK": "Cirq (Python)"
+                "Quantum Computing":{
+                    "Quantum Platform": "Google Quantum AI for Quantum Platform",
+                    "Quantum Hardware Access": "Google Sycamore Processor (Superconducting Qubits)",
+                    "Quantum Circuit Simulator": "Cirq Simulator",
+                    "Quantum Hybrid Compute": "Quantum AI + Compute Engine + Cloud Storage",
+                    "Quantum ML Integration": "Cirq + TensorFlow Quantum",
+                    "Quantum SDK": "Cirq (Python)"
+                }
             },
             "Firebase (Backend-as-a-Service)":{
                 "Application Development Platform": "Firebase Platform (Backend-as-a-Service (BaaS))",
@@ -445,19 +522,6 @@ const getValueType = ( value ) =>{
 };
 
 const TechStack = () =>{
- const keyValDisplay = (k, v, i) =>{
-    if(typeof v === "string" && v?.length === 0){
-        return (<div key={i} className="pb-2" style={{ marginTop:'8px' }}>
-            <span style={{ color:'#fff', borderBottom:'1px solid #fff', paddingBottom:'1px', textTransform:'uppercase', fontSize:'12px' }}><b>{k}</b></span>
-            <span><b>-</b></span>
-        </div>);
-    } else {
-        return (<div key={i} className="ps-2 pb-2">
-            <span className="text-grey2"><b>{k}</b></span> 
-            <span><b>:</b> {v}</span>  
-        </div>);
-    }
- };
  return (<div>
     {data?.map((dat,i1)=>{
       return (<div key={i1}>
@@ -465,29 +529,54 @@ const TechStack = () =>{
             {dat?.["details"]?.map((da,i2)=>{
                 return (<div key={i2}>
                     {da?.header && (<div align="center" className="text-white uppercase mb-3"><b>{da?.header}</b></div>)}
-                    {da?.data?.map((d,i3)=>{
-                        const kpiKeys = Object.keys(d?.kpis);
+                    {da?.data?.map((d1,i3)=>{ // Main
+                        const l1Keys = Object.keys(d1?.kpis);
                         return (<div key={i3} className="card resume-card mb-3">
                             <div className="card-body resume-cardBody">
-                            {d?.title && <div align="center" className="text-white uppercase pb-3"><b>{d?.title}</b></div>}
-                            <div>
-                            {kpiKeys?.map((kpiKey, i4) => {
-                                const kpiVal = d?.kpis?.[kpiKey];
-                                if(getValueType(kpiVal) === "JSON") {
-                                    const valKey = Object.keys(kpiVal);
-                                    return (<div key={i4} className="pb-2">
-                                        <div style={{ backgroundColor:'#999', color:'#0e172b', padding:'6px', marginBottom:'8px' }}>
-                                            <b>{kpiKey}</b>
+                            {d1?.title && <div align="center" className="text-white uppercase pb-3"><b>{d1?.title}</b></div>}
+                            {l1Keys?.map((d2, i4)=>{ // Level #1
+                                const l1Object = d1?.kpis?.[d2];
+                                if(getValueType(l1Object) === "JSON") {
+                                    const l2Keys = Object.keys(l1Object);
+                                    return (<div key={i4} className="mb-2">
+                                        <div className="ps-2 pt-2 pb-2 mb-2" style={{ backgroundColor:'#aaa' }}>
+                                        <span style={{ color:'#0e172b' }}><b>{d2}</b></span> 
+                                        <span><b>:</b></span>  
                                         </div>
-                                        {valKey?.map((vk,i)=>{
-                                           return keyValDisplay(vk, kpiVal[vk], i);
-                                        })}  
+                                        {l2Keys?.map((d3, i5)=>{ // Level #2
+                                            const l2Object = l1Object?.[d3];
+                                            if(getValueType(l2Object) === "JSON") {
+                                                const l3Keys = Object.keys(l2Object);
+                                                return (<div>
+                                                <div className="ps-3 pb-2">
+                                                <span className="text-grey2" style={{ paddingBottom:'1px', borderBottom:'1px solid #ccc' }}><b>{d3}</b></span> 
+                                                <span><b>:</b></span> 
+                                                </div>
+                                                <div className="ps-3">
+                                                {l3Keys?.map((d4, i5)=>{ // Level #3
+                                                    const fValue = l2Object?.[d4];
+                                                   return (<div key={i5} className="ps-2 pb-2">
+                                                        <span className="text-grey2"><b>{d4}</b></span> 
+                                                        <span><b>:</b> {fValue}</span>
+                                                    </div>);
+                                                })}
+                                                </div>
+                                                </div>);
+                                            } else {
+                                                return (<div key={i5} className="ps-3 pb-2">
+                                                    <span className="text-grey2"><b>{d3}</b></span> 
+                                                    <span><b>:</b> {l2Object}</span>  
+                                                </div>);
+                                            }
+                                        })}
                                     </div>);
                                 } else {
-                                    return keyValDisplay(kpiKey, kpiVal, i4);
+                                    return (<div key={i4} className="ps-3 pb-2">
+                                                <span className="text-grey2"><b>{d2}</b></span> 
+                                                <span><b>:</b> {l1Object}</span>  
+                                    </div>);
                                 }
                             })}
-                            </div>
                             </div>
                             </div>);
                     })}
