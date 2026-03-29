@@ -1,6 +1,22 @@
 import React from "react";
-import { Card, Icon } from "e-ui-react";
+import { Card, Icon, Highlight } from "e-ui-react";
 import SimpleTable from "@MainComponents/simple-table/index.js";
+
+const WoCS_EXAMPLE_NODEJS = `const auth = require('./auth');
+const admin = require('./admin');
+const reports = require('./reports');
+
+auth.login();`;
+
+const WCS_EXAMPLE_NODEJS = `async function login() {
+  const auth = await import('./auth.js');
+  auth.login();
+}
+
+async function loadAdmin() {
+  const admin = await import('./admin.js');
+  admin.openDashboard();
+}`;
 
 const Introduction = () =>{
  return (<div className="mtop15p mbot15p lh28p fs16p">
@@ -85,6 +101,20 @@ const Introduction = () =>{
                 <h5 className="blog-head">
                     <b><Icon type="FontAwesome" name="fa-times" style={{ color:'red', marginRight:'5px' }} /> Without Code Splitting</b>
                 </h5>
+            </div>
+            <div><Highlight content={WoCS_EXAMPLE_NODEJS} lang="javascript" /></div>
+            <div className="mtop5p">All modules load at startup—even if <code><b>admin</b></code> and <code><b>reports</b></code> are never used.</div>
+        
+            <div className="mtop15p">
+                <h5 className="blog-head">
+                    <b><Icon type="FontAwesome" name="fa-check" style={{ color:'green', marginRight:'5px' }} /> With Code Splitting (Dynamic Import)</b>
+                </h5>
+            </div>
+            <div><Highlight content={WCS_EXAMPLE_NODEJS} lang="javascript" /></div>
+            <div>
+                <div><Icon type="FontAwesome" name="fa-check-circle" style={{ marginRight:'5px' }} /> Admin code loads only when needed</div>
+                <div><Icon type="FontAwesome" name="fa-check-circle" style={{ marginRight:'5px' }} /> Reduced startup time</div>
+                <div><Icon type="FontAwesome" name="fa-check-circle" style={{ marginRight:'5px' }} /> Better memory usage</div>
             </div>
         </div>
     </div>
