@@ -92,7 +92,7 @@ const data = [{
             "Basic Programming Languages": "Python",
             "Math-related Libraries": "NumPy (for Arthmetic/Arrays, Basic Linear Algebra, Basic Statistics & Probability), SciPy (for Advanced Linear Algebra, Calculus (Integration & Differentiation), Advanced Statistics & Probability) and Fourier / Signal Processing, SymPy (For Symbolic/Expression Mathematics on Linear Algebra, Calculus, Geometry, Statistics & Probability, Permutations & Combinations)",
             "Data-management Libraries":"Pandas (data handling from different formats - CSV, Excel, SQL, JSON, etc)",
-            "Web/API Designing Frameworks": "DJango and Flask",
+            "API Designing Frameworks": "Flask and FastAPI Framework",
             "Design Architecture": "Microservices Architecture, Event Design Architecture, Serverless Architecture",
             "Integrated Development Environments (IDE)": "Visual Studio Code"
         }
@@ -244,8 +244,31 @@ const data = [{
     "details":[{
        "data":[{
            "kpis":{
-           "UI Frameworks": "Android Studio, React Native and Expo",
-           "Backend Development": "Using Firebase (Backend-As-A-Service)"
+            "Native Android": (<span><b>Android Studio</b> (IDE), <b>Java</b> (primary language for 2012–2014 era), <b>XML</b> (UI 
+                Layouts), <b>Gradle</b> (Build System), <b>SDK Tools</b> (ADB, Emulator)</span>),
+            "Android Architecture": "MVVM (Model-View-ViewModel), Local SQLite ORM",
+            "Cross-Platform": (<span><b>React Native, Expo</b> (Managed Workflow), <b>JavaScript/ES6, JSX, React Navigation, Native Modules</b> (Bridge integration)</span>),
+            "Testing": (<span><b>Jest</b> (Unit testing), <b>React Native Testing Library, Espresso</b> (Android UI testing), <b>Detox</b> (E2E testing)</span>),
+            "Build & Deployment": (<span><b>Google Play Console</b> (App signing, Alpha/Beta tracks), <b>EAS Build</b> (Expo)</span>),
+            "UI Frameworks & Frontend (The Presentation)":{
+                "Android UI": (<span><b>Material Design</b> Guidelines, <b>ConstraintLayout, RecyclerView, Fragments, 
+                    Activities, Intents, Custom Views</b></span>),
+                "React Native UI": (<span><b>React Native Paper, NativeBase, Styled Components, Flexbox, 
+                    Responsive Design</b> (for multi-device support)</span>),
+                "Expo Ecosystem": (<span><b>Expo SDK</b> (Camera, Location, Notifications, FileSystem), <b>Expo Go</b> (Rapid 
+                    prototyping), <b>EAS</b> (Expo Application Services for builds)</span>)
+            },
+            "Backend Development (The Server & Data)":{
+                "Backend-as-a-Service": (<span><b>Firebase</b> (Authentication, Firestore, Realtime Database, Cloud Storage, 
+                            Cloud Functions, Hosting)</span>),
+                "Firebase Services": (<span><b>Firebase Authentication</b> (Email/Password, Google, 
+                    Phone Auth), <b>Firestore Security Rules, Firebase Analytics, Crashlytics, Cloud Messaging (FCM)</b> for 
+                    Push Notifications</span>),
+                "Alternative Backend": (<span><b>RESTful APIs</b> (Integration with custom 
+                    backend), <b>JSON</b> parsing, <b>Axios / Fetch API</b></span>),
+                "Database": (<span><b>Firestore</b> (NoSQL, Document-based), <b>Realtime Database, SQLite</b> (Local storage 
+                    for offline mode)</span>)
+            }
        }
        }]
     }]
@@ -363,7 +386,8 @@ const data = [{
        }
        }]
     }]
-},{
+},
+/* {
     "title":"Networking Communication Solutions",
     "details":[{
        "data":[{
@@ -419,7 +443,8 @@ const data = [{
            }
        }]
     }]
-},{
+}, */
+{
     "title":"Cloud Platform Solutions",
     "details":[{
        "data":[{
@@ -501,7 +526,8 @@ const data = [{
        }
        }]
     }]
-},{
+},
+/* {
     "title":"Other Technologies",
     "details":[{
        "data":[{
@@ -512,7 +538,8 @@ const data = [{
        }
        }]
     }]
-}];
+} */
+];
 
 const getValueType = ( value ) =>{
  if(React.isValidElement(value)){ return "JSX"; }
