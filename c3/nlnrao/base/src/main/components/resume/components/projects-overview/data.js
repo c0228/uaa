@@ -4,7 +4,8 @@ export const data = [{
     "timelines":[{
        "timeline":"June 2012 ~ August 2014",
        "workTitle":"Cisco - Voice Developers Platform",
-       "projects":[{
+       "projects":[
+        {
            "title":"CCBU Demo Portal",
            "isProject": true,
            "desc":(<div>Customer Contact Business Unit (CCBU) is an IVR Architecture based telecom platform that is used to deploy and test the 
@@ -177,7 +178,8 @@ export const data = [{
               (<div>Enabled <span className="text-grey2"><b>multi-session concurrent testing</b></span> with thread-safe socket architecture.</div>),
               (<div>Improved team collaboration and traceability by adopting <span className="text-grey2"><b>Agile + CI/CD</b></span> practices.</div>),
               (<div>Provided <span className="text-grey2"><b>live system dashboards</b></span> to business and QA teams for real-time visibility of call simulations.</div>)]
-       },{
+       },
+       {
          "title":"Vocal Flow Simulator",
          "isPOC": true,
          "desc":(<div>The <span className="text-grey2"><b>Vocal Flow Simulator</b></span> is an advanced Proof of Concept (POC) 
