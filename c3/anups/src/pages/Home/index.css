@@ -1,0 +1,8 @@
+.btn-purpleBlue,.btn-purpleBlue:hover,.btn-purpleBlue:focus,.btn-purpleBlue:active { color: #fff;background-color: #511eab;border-color: #511eab; }
+.btn-purpleBlue-o,.btn-purpleBlue-o:hover,.btn-purpleBlue-o:focus,.btn-purpleBlue-o:active { color: #511eab;background-color: #fff;border-color: #511eab; }
+.border-purpleBlue { border:1px solid #511eab; }
+
+.home-titleBar { margin-bottom:0px;letter-spacing:1.2px;font-family:TexGyreAdventorBold;background-color:#673ab7;color:#fff;border-top:1px solid #333;border-bottom:1px solid #333;padding-top:10px;padding-bottom:15px;line-height:22px; }
+.home-introSection-div { font-family:TexGyreAdventorBold;background-color:#eee;padding-top:25px;padding-bottom:55px;box-shadow:1px 1px 1px 1px #ddd; }
+.home-introSection-title { color:#333; }
+.home-introSection-subTitle { color:#555;line-height:34px; }
