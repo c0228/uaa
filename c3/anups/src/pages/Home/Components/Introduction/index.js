@@ -27,11 +27,11 @@ const Introduction = () =>{
             <Col md={4}>
                 <div className="input-group">
                     <input type="text" className="form-control" placeholder="Enter your Email Address" 
-                        style={{ border:'1px solid green' }} />
+                        style={{ border:'1px solid #ef0332' }} />
                     <div class="input-group-append">
                        <button class="btn" style={{ fontSize:'13px', paddingLeft:'18px', paddingBottom:'10px', 
                             paddingRight:'18px', color: '#fff', 
-                            backgroundColor:'green', borderColor: 'green', borderTopLeftRadius:'0px', 
+                            backgroundColor:'#ef0332', borderColor: '#ef0332', borderTopLeftRadius:'0px', 
                             borderBottomLeftRadius:'0px' }}><b>Let's Get Started</b></button> 
                     </div>
                 </div>

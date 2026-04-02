@@ -1,4 +1,6 @@
-.home-titleBar { margin-bottom:0px;letter-spacing:1.2px;font-family:TexGyreAdventorBold;background-color:#673ab7;color:#fff;border-top:1px solid #333;border-bottom:1px solid #333;padding-top:10px;padding-bottom:15px;line-height:22px; }
+.home-titleBar { margin-bottom:0px;letter-spacing:1.2px;font-family:TexGyreAdventorBold;background-color:#0B5ED7;color:#fff;
+    border-top:1px solid #333;border-bottom:1px solid #333;padding-top:10px;padding-left:15px;padding-right:15px;
+    padding-bottom:15px;line-height:26px; }
 .home-introSection-div { font-family:TexGyreAdventorBold;background-color:#eee;padding-top:25px;padding-bottom:55px;
     box-shadow:1px 1px 1px 1px #ddd; }
 .home-introSection-title { color:#000; }
