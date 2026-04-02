@@ -16,8 +16,8 @@ const Introduction = () =>{
             <Col md={2}></Col>
             <Col align="center" md={8} className="pad15p">
                 <h4 className="home-introSection-subTitle">
-	                We are a Kick-ass Web and Mobile App Development Company from India <br/>
-	                who creates Awesome Websites, Android and IOS Apps.
+	               We are an innovative and forward-thinking web and mobile app development company based in India, 
+                   specializing in creating high-quality websites and robust Android and iOS applications.
 	            </h4>
             </Col>
             <Col md={2}></Col>
