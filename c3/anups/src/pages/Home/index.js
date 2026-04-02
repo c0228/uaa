@@ -19,8 +19,9 @@ const Home = ()=>{
  return (<>
  <Header menulinks={HeaderMenu} activeId="Home" />
  <Introduction />
- <Welcome />
  <Highlight1 />
+ <Welcome />
+
  <Why />
  <Highlight2 />
  <Starters />

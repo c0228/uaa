@@ -3,7 +3,7 @@ import { Row, Col, Icon } from "e-ui-react";
 
 export const Highlight1 = () =>{ 
     {/* backgroundColor:'#0b4e83' */}
- return (<div style={{ marginTop:'25px', paddingTop:'25px', paddingBottom:'55px', backgroundColor:'#03589b', color:'#fff' }}>
+ return (<div style={{ paddingTop:'25px', paddingBottom:'55px', backgroundColor:'#03589b', color:'#fff' }}>
     <Row>
         <Col xs={12} xl={4} xxl={4}>
             <div align="center" style={{ padding:'30px' }}>

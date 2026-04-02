@@ -5,8 +5,8 @@ const Welcome = ()=>{
  return (<>
   <div style={{ paddingTop:'40px', paddingLeft:'10px', paddingRight:'30px' }}>
  <div align="center">
-   <span style={{ fontSize:'40px', fontFamily:'BebasNeue', letterSpacing:'4px', color:'#E91E63' }}>
-        <b>Welcome to RollEasyBlinds – Your Window to Elegance!</b>
+   <span style={{ fontSize:'32px', fontFamily:'TexGyreAdventorBold', letterSpacing:'1px', color:'#000' }}>
+        Welcome to ANUPS HT-CLAN : Your Window to Elegance!
    </span>
  </div>
 

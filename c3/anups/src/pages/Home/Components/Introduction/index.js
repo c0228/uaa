@@ -7,7 +7,7 @@ const Introduction = () =>{
         <h5 className="home-titleBar">Your Big Ideas, Creative People with New Technologies - Build's your Startup Company</h5>
     </div>
     <ContainerFluid className="home-introSection-div">
-        <Row>
+        <Row className="mt-3">
             <Col align="center" md={12} className="home-introSection-title">
                 <h1>World's No.1 # Design at your Service</h1>
             </Col>
@@ -22,7 +22,7 @@ const Introduction = () =>{
             </Col>
             <Col md={2}></Col>
         </Row>
-        <Row style={{ paddingLeft:'15px', paddingRight:'15px' }}>
+        <Row className="mb-3" style={{ paddingLeft:'15px', paddingRight:'15px' }}>
             <Col md={4}></Col>
             <Col md={4}>
                 <div className="input-group">
