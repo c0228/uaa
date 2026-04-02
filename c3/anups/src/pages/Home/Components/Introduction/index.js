@@ -22,16 +22,17 @@ const Introduction = () =>{
             </Col>
             <Col md={2}></Col>
         </Row>
-        <Row>
+        <Row style={{ paddingLeft:'15px', paddingRight:'15px' }}>
             <Col md={4}></Col>
-            <Col md={4} className="pad15p">
+            <Col md={4}>
                 <div className="input-group">
-	                <input type="text" className="form-control" placeholder="Enter your Email Address" 
+                    <input type="text" className="form-control" placeholder="Enter your Email Address" 
                         style={{ border:'1px solid green' }} />
-                    <div className="input-group-btn">
-                        <button class="btn" style={{ paddingLeft:'18px', paddingRight:'18px', color: '#fff', 
-                                backgroundColor:'green', borderColor: 'green', borderTopLeftRadius:'0px', 
-                                borderBottomLeftRadius:'0px' }}><b>Let's Get Started</b></button>
+                    <div class="input-group-append">
+                       <button class="btn" style={{ fontSize:'13px', paddingLeft:'18px', paddingBottom:'10px', 
+                            paddingRight:'18px', color: '#fff', 
+                            backgroundColor:'green', borderColor: 'green', borderTopLeftRadius:'0px', 
+                            borderBottomLeftRadius:'0px' }}><b>Let's Get Started</b></button> 
                     </div>
                 </div>
             </Col>
