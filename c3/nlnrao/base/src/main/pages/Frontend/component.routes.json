@@ -52,7 +52,7 @@
         },
         "tech/frontend/micro-frontend":{
             "date":"October 26, 2024",
-            "label": "Micro Frontend",
+            "label": "Micro Frontend Architecture – From Monolith to Modular Web Applications",
             "component": "MicroFrontend",
             "breadcrumbIndex": "frontend",
             "keywords":[]
