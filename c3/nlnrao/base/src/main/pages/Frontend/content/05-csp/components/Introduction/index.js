@@ -1,5 +1,5 @@
 import React from "react";
-import { Card, Icon } from "e-ui-react";
+import { Card, Icon, Highlight } from "e-ui-react";
 import SimpleTable from "@MainComponents/simple-table/index.js";
 
 const WoCSP_EXAMPLE_JS = `<script>
