@@ -1,5 +1,5 @@
 import React from "react";
-import { Card } from "e-ui-react";
+import { Card, Highlight } from "e-ui-react";
 
 const Introduction = () =>{
 
