@@ -102,7 +102,7 @@ const Home = ()=>{
             <Terminologies title="Java 07 Features" isIndex={true} prefix="tech/java-07-features/" data={Routes?.urls} />
             <Terminologies title="Java 08 Features" isIndex={true} prefix="tech/java-08-features/" data={Routes?.urls} />
             <Terminologies title="Related Articles" isIndex={true} prefix="tech/related-articles/" data={AgileRoutes?.urls} />
-            <Keywords data={KeywordData} />
+            <div style={{ marginTop:'25px' }}><Keywords data={KeywordData} /></div>
         </Col>
     </Row>
  </ContainerFluid>
