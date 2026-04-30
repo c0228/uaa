@@ -1,0 +1,14 @@
+{
+    "breadcrumbs":{
+        "aiml":[{ "label":"LLMs / SLMs", "url":"/" }]
+    },
+    "urls":{
+        "showcase/aiml/building-a-smart-ai-system-that-helps-a-small-Model-to-use-large-data-as-context":{
+            "date": "October 26, 2024",
+            "label": "Building a Smart AI System That Helps a Small AI Model Use GBs/TBs of Data as Context, even though the model itself has a limited context window.",
+            "component": "PhiMiniLsmVec",
+            "breadcrumbIndex": "aiml",
+            "keywords":[]
+        }
+    }
+}
