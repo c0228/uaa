@@ -6,6 +6,7 @@ import Keywords from '@MainComponents/keywords/index.js';
 import './index.css';
 
 const SHOWCASE_DATA = [{
+  "url": "showcase/aiml/building-a-smart-ai-system-that-helps-a-small-Model-to-use-large-data-as-context",
   "tag": "AI Architecture - LLMs / SLMs Engineering",
   "title": (<span>Building a Smart AI System That Helps a Small AI Model Use GBs/TBs of 
               Data as Context, even though the model itself has a limited context window.</span>),
@@ -43,7 +44,9 @@ const Home = ({ meta }) =>{
             <div>{showCaseData?.desc}</div>
             <div><Keywords data={showCaseData?.keywords} /></div>
             <div align="right" className="mtop5p">
-              <Button type="outline-dark" size={11}><b>View Github Project Details</b></Button>
+              <a href={showCaseData?.url}>
+                <Button type="outline-dark" size={11}><b>View Github Project Details</b></Button>
+              </a>
             </div>
           </div>
         </Card> 
