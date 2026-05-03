@@ -45,7 +45,7 @@ const Home = ({ meta }) =>{
             <div><Keywords data={showCaseData?.keywords} /></div>
             <div align="right" className="mtop5p">
               <a href={showCaseData?.url}>
-                <Button type="outline-dark" size={11}><b>View Github Project Details</b></Button>
+                <Button type="outline-dark" size={11}><b>View Project Details & Github Link</b></Button>
               </a>
             </div>
           </div>
