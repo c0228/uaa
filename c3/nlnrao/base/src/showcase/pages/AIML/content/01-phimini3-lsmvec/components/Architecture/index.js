@@ -65,7 +65,7 @@ const Architecture = () =>{
      <div className="mtop5p">A disk-backed retrieval-augmented architecture where a small language model reasons over massive datasets by dynamically 
         retrieving only the most relevant context from an embedded vector memory.</div>
      <div><Highlight content={`Small AI Brain + Large Disk-Based Memory + Smart Retrieval = Long-Context Intelligence`} lang="html" /></div>
-     <div><b>Top-level Architectural Diagram:</b></div>
+     <div><b><u>Top-level Architectural Diagram</u>:</b></div>
      <div>
         <img src={ArchitectureDiagram} />
      </div>
