@@ -22,23 +22,6 @@ const Introduction = () =>{
     </ol>
     <div>This enables <b>long-context simulation,</b> where a small-context model behaves as if it has access to massive 
     external memory.</div>
-
-    <Card padding={15} backgroundColor="#eee">
-        <div><h4 className="blog-head"><b>Why This Works?</b></h4></div>
-        <div className="mtop5p"><i>"The model does not need to remember everything — it only needs to retrieve what matters."</i></div>
-        <div className="mtop5p">The architecture shifts intelligence from:</div>
-        <ul>
-            <li className="mtop5p"><IconStatus is={false} /> Model size</li>
-            <li className="mtop5p"><IconStatus is={false} /> Huge Context Windows</li>
-        </ul>
-        <div>to</div> 
-        <ul>
-            <li className="mtop5p"><IconStatus is={true} /> Smart retrieval</li>
-            <li className="mtop5p"><IconStatus is={true} /> External memory</li>
-            <li className="mtop5p"><IconStatus is={true} /> Efficient context selection</li>
-        </ul>
-        <div className="mtop5p">This is exactly how <b>scalable, edge-friendly AI systems</b> are built.</div>
-    </Card>
     
  </div>);
 };
