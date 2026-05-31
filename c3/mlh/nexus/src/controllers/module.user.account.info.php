@@ -5,6 +5,7 @@ header("Access-Control-Allow-Origin: *");
 header("Access-Control-Allow-Methods: GET, POST");
 header("Access-Control-Allow-Headers: Content-Type");
 header('Content-Type: application/json; charset=utf-8');
+
 //
 require_once './../core/app.database.php';
 require_once './../core/app.initiator.php';
@@ -17,8 +18,8 @@ if($_GET["action"]=='USER_REGISTER' && $_SERVER['REQUEST_METHOD']=='POST'){
  $surName = ''; if( array_key_exists("surName", $htmlData) ){ $surName = $htmlData["surName"]; }
  $name = ''; if( array_key_exists("name", $htmlData) ){ $name = $htmlData["name"];   }
  $dob = ''; if( array_key_exists("dob", $htmlData) ){ $dob =  $htmlData["dob"];  }
- $gender = ''; if( array_key_exists("gender", $htmlData) ){ $ gender = $htmlData["gender"];  }
- $email = ''; if( array_key_exists("email", $htmlData) ){ $ema il = $htmlData["email"];  }
+ $gender = ''; if( array_key_exists("gender", $htmlData) ){ $gender = $htmlData["gender"];  }
+ $email = ''; if( array_key_exists("email", $htmlData) ){ $email = $htmlData["email"];  }
  $emailVal = 'N'; if( array_key_exists("emailVal", $htmlData) ) { $emailVal = $htmlData["emailVal"];  }
  $accPwd = ''; if( array_key_exists("accPwd", $htmlData) ){ $accPwd = $htmlData["accPwd"];  }
  $mcountrycode = ''; if( array_key_exists("mcountrycode", $htmlData) ){ $mcountrycode = $htmlData["mcountrycode"];  }
@@ -28,7 +29,7 @@ if($_GET["action"]=='USER_REGISTER' && $_SERVER['REQUEST_METHOD']=='POST'){
  $userTz = 'Asia/Kolkata'; if( array_key_exists("userTz", $htmlData) ){ $userTz = $htmlData["userTz"];  }
  $accactive = 'N'; if( array_key_exists("accactive", $htmlData) ){ $accactive = $htmlData["accactive"];  }
  $userRole = ''; if( array_key_exists("userRole", $htmlData) ){ $userRole = $htmlData["userRole"];  }
- $query = $userAccountModule->query_add_userAccount($surName, $n ame, $dob, $gender, $email, $emailVal, $accPwd, $mcountrycode, $mobile, $mobileVal, $dp, 
+ $query = $userAccountModule->query_add_userAccount($surName, $name, $dob, $gender, $email, $emailVal, $accPwd, $mcountrycode, $mobile, $mobileVal, $dp, 
 	$userTz, $accactive, $userRole);
  $result = array();
  $status = $database->addupdateData($query);
@@ -41,7 +42,7 @@ if($_GET["action"]=='USER_REGISTER' && $_SERVER['REQUEST_METHOD']=='POST'){
 else if($_GET["action"]=='USER_LOGIN' && $_SERVER['REQUEST_METHOD']=='POST'){
 	$htmlData = json_decode( file_get_contents('php://input'), true );	
 	$email = ''; if( array_key_exists("email", $htmlData) ){ $email = $htmlData["email"];  }
-	$accPwd = ''; if( array_key_exists("accPwd", $htmlData) ){ $a ccPwd = $htmlData["accPwd"];  }
+	$accPwd = ''; if( array_key_exists("accPwd", $htmlData) ){ $accPwd = $htmlData["accPwd"];  }
 	$result = array();
 	$status = 'No Record Found';
 	if(strlen($email)>0 && strlen($accPwd)>0){

@@ -9,7 +9,6 @@ class Database
 	private $password;
 	
     function __construct($serverName,$databaseName,$userName,$password) {
-       $this->logger= Logger::getLogger("api.database.php");
 	   $this->serverName=$serverName;
 	   $this->databaseName=$databaseName;
 	   $this->userName=$userName;
@@ -19,7 +18,9 @@ class Database
     function dbinteraction() {
 	   $conn = new mysqli($this->serverName,$this->userName,$this->password,$this->databaseName);
         if ($conn->connect_error) {   die("Connection failed: " . $conn->connect_error); } 
-        else { $this->logger->info("Database connected Successfully"); }
+        else {  
+           // echo "Database connected Successfully"; 
+        }
         return $conn;
     }
     
@@ -29,7 +30,7 @@ class Database
        $conn = $db->dbinteraction();
        if ($conn->multi_query($sql) === true) { $result="Success";}
        $conn->close();
-       $this->logger->info("Query(Status-".$result.") : ".$sql); 
+       // echo "Query(Status-".$result.") : ".$sql; 
        return $result;
     }
     
@@ -50,7 +51,7 @@ class Database
         $json="";
             if (!$result) {   
                  die("Invalid query: " . mysqli_error($conn)); 
-                 $this->logger->error("Query(Status-Invalid) : ".$sql); 
+                // echo "Query(Status-Invalid) : ".$sql; 
             }
             else {
                 $rows= array();
@@ -75,7 +76,7 @@ class Database
 	    $result = mysqli_query($conn, $x_value); 
 		if (!$result) {   
             die("Invalid query: " . mysqli_error($conn)); 
-            $this->logger->error("Query(Status-Invalid) : ".$sql); 
+            // echo "Query(Status-Invalid) : ".$sql; 
         }
         else {
           $rows= array();
@@ -96,7 +97,7 @@ class Database
 	  $conn=$dbObj->dbinteraction();
 	  $result = $conn->query($sql);
 	  if (!$result) { die("Invalid query: " . mysqli_error($conn)); 
-          $this->logger->error("Query(Status-Invalid) : ".$sql); 
+         // echo "Query(Status-Invalid) : ".$sql; 
       } else {  while($row = $result->fetch_assoc()){ $arry_col[count($arry_col)] = $row[$columnName];  } }
       $conn->close();
 	  return $arry_col;

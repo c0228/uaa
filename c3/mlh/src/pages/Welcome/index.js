@@ -21,8 +21,8 @@ const Welcome = ()=>{
   }, [progress]);
 
   return (<>
-   <div class="splash-container" style={{ height: window.height }}>
-    <div class="splash-content">
+   <div className="splash-container" style={{ height: window.height }}>
+    <div className="splash-content">
          <div className="mtop10p">
             <img src="./assets/logo/logo-black-blue.png" style={{ width: '180px', height:'auto' }}/>
          </div>

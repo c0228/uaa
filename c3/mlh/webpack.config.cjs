@@ -10,7 +10,6 @@ const baseUrl = '/';
 
 module.exports = (env, options)=>{
 const isDevelopment = options.mode === 'development';
-console.log("isDevelopment", isDevelopment);
 return {
  mode: 'development',
  performance: {
