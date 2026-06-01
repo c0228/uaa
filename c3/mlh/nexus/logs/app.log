@@ -1,0 +1,15 @@
+[2026-06-01 13:08:48] [anup.php] [DEBUG] Debug message
+[2026-06-01 13:08:48] [anup.php] [INFO] Application started
+[2026-06-01 13:08:48] [anup.php] [WARNING] Validation warning
+[2026-06-01 13:08:48] [anup.php] [ERROR] Database connection failed
+[2026-06-01 13:08:48] [anup.php] [CRITICAL] System crash
+[2026-06-01 13:10:30] [anup.php] [DEBUG] Debug message
+[2026-06-01 13:10:30] [anup.php] [INFO] Application started
+[2026-06-01 13:10:30] [anup.php] [WARNING] Validation warning
+[2026-06-01 13:10:30] [anup.php] [ERROR] Database connection failed
+[2026-06-01 13:10:30] [anup.php] [CRITICAL] System crash
+[2026-06-01 13:10:37] [anup.php] [DEBUG] Debug message
+[2026-06-01 13:10:37] [anup.php] [INFO] Application started
+[2026-06-01 13:10:37] [anup.php] [WARNING] Validation warning
+[2026-06-01 13:10:37] [anup.php] [ERROR] Database connection failed
+[2026-06-01 13:10:37] [anup.php] [CRITICAL] System crash
