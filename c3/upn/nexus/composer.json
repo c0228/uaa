@@ -1,0 +1,9 @@
+{
+    "require": {
+        "zircote/swagger-php": "^2.0",
+        "monolog/monolog": "^3.10"
+    },
+	"scripts": {
+        "docs": "swagger controller/"
+    }
+}
