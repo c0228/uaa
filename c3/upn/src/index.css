@@ -1,2 +1,6 @@
 .btn-primary, .bg-primary { background-color:#065fc5 !important; }
 .text-primary { color:#065fc5 !important; }
+
+h1 { font-size:26px; }
+h2 { font-size:22px; }
+.h1-subtitle { font-size:18px; }

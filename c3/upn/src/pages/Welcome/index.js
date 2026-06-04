@@ -24,7 +24,7 @@ const Welcome = ()=>{
    <div className="splash-container" style={{ height: window.height }}>
     <div className="splash-content">
          <div className="mtop10p">
-            <img src="./assets/logo/logo-black-blue.png" style={{ width: '180px', height:'auto' }}/>
+            <img src="./assets/images/logo.jpg" style={{ width: '180px', height:'auto' }}/>
          </div>
         {/*<div className="mtop15p">
           <span className="animate-text" style={{ paddingLeft:'15px', paddingRight:'15px' }}><b>PARTICIPATE</b></span> <span style={{ color:'#000' }}>|</span> 
@@ -35,7 +35,7 @@ const Welcome = ()=>{
         <div className="mtop5p" style={{ color:'#000' }}><i><b>"Your Link to Local Democracy"</b></i></div>*/}
 
         <div className="mtop5p" style={{ marginTop:'35px' }}>
-          <ProgressBar type="primary" progress={progress} height="3" value="" /> 
+          <ProgressBar type="danger" progress={progress} height="3" value="" /> 
           <div className="mtop15p"><b>[ Loading... {progress}% ]</b></div>
         </div>
 

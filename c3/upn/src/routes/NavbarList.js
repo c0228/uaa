@@ -3,6 +3,6 @@ import { UrlParams, Icon } from "e-ui-react";
 
 const url = UrlParams().baseUrl;
 
-export const HeaderMenu = ()=> [{ id:'Home', url: url+'App/Home', label:'Home' },
-{ id:'Menu', url:url+'app/Menu', label:'Menu' },
+export const HeaderMenu = ()=> [{ id:'Home', url: url+'home', label:'Home' },
+{ id:'CurrentAffairs', url:url+'current-affairs', label:'Current Affairs' },
 { id:'Authentication', url:url+'app/authentication', label:'SignUp / Login' }];
