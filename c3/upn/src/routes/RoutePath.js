@@ -17,7 +17,10 @@ export const AppRouting = ()=>{
             <Route path='MyDashboard' element={<Home />} />
          </Route>
          <Route exact path="/home" element={<Home/>} />
-         <Route exact path="/current-affairs" element={<CurrentAffairs />} />
+         <Route exact path="/daily-current-affairs" element={<CurrentAffairs />} />
+         <Route exact path="/daily-current-affairs/date/:date" element={<CurrentAffairs />} />
+         <Route exact path="/daily-current-affairs/list/:category" element={<CurrentAffairs />} />
+         <Route exact path="/daily-current-affairs/list/:category/:subCategory" element={<CurrentAffairs />} />
        </Routes>
       </AuthProvider>
     </BrowserRouter>);
