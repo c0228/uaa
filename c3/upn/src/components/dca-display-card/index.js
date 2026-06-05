@@ -4,9 +4,9 @@ import './index.css';
 
 const ARTICLE_CARD_COLORS = {
     "primary":{ "dark": "#0d6efd", "light":"#c3dbff" },
-    "success":{ "dark": "#198754", "light":"#b5ffdd" },
+    "warning":{ "dark": "#ffc107", "light":"#ffe9a7" },
     "danger":{ "dark": "#dc3545", "light":"#ffc4c9" },
-    "warning":{ "dark": "#ffc107", "light":"#ffe9a7" }
+    "success":{ "dark": "#198754", "light":"#b5ffdd" },
 };
 
 const DCADisplayCard = ({ index, data, category, subCategory }) =>{
