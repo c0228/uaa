@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import { useParams  } from "react-router-dom";
 import { ContainerFluid, Row, Col, Card, Button, TextBox, DateTimePicker } from "e-ui-react";
 import Header from '@Templates/Header/index.js';
@@ -6,14 +6,24 @@ import { HeaderMenu } from '@Routes/NavbarList.js';
 import HeaderDCA from "./components/header-dca/index.js";
 import SearchByDate from "./components/searchby-date/index.js";
 import SearchByCategories from "./components/searchby-categories/index.js";
+import CURRENT_AFFAIRS_BYDATE from '@StaticData/data-dca-searchbydate.json';
+import CURRENT_AFFAIRS_BYCATEGORIES from '@StaticData/data-dca-searchbycategories.json';
 import './index.css';
 
 const CurrentAffairs = () =>{
+ const [ pageData, setPageData ] = useState();
  const { date, category, subCategory } = useParams();
+ useEffect(()=>{
+  if(date) {
+     setPageData(CURRENT_AFFAIRS_BYDATE);
+  } else {
+     setPageData(CURRENT_AFFAIRS_BYCATEGORIES)
+  }
+ },[]);
  return (<div>
    <Header menulinks={HeaderMenu()} activeId="DailyCurrentAffairs" />
-   <HeaderDCA date={date} />
-   {(date)?(<SearchByDate date={date} />):(<SearchByCategories category={category} subCategory={subCategory}  />)}
+   <HeaderDCA date={date} data={pageData?.kpis} />
+   {(date)?(<SearchByDate date={date} data={pageData} />):(<SearchByCategories category={category} subCategory={subCategory}  />)}
  </div>);
 };
 

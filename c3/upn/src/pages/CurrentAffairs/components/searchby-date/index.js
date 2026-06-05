@@ -1,30 +1,27 @@
 import React, { useState, useEffect } from "react";
 import { ContainerFluid, Row, Col, Button } from "e-ui-react";
 import DCADisplayCard from "@Components/dca-display-card/index.js";
-import CURRENT_AFFAIRS_BYDATE from '@StaticData/data-dca-searchbydate.json';
 
-const SearchByDate = ({ date }) => {
+const SearchByDate = ({ date, data }) => {
 
     const [articleDisplayData, setArticleDisplayData] = useState({});
     const [selectedNiche, setSelectedNiche] = useState("");
 
     // Load first category/sub-category by default
     useEffect(() => {
-        const dateData = CURRENT_AFFAIRS_BYDATE?.[date];
-
-        if (dateData) {
+        const dateData = data?.[date];
+        if (!dateData){ return; }
+        else {
             const categories = Object.keys(dateData);
 
-            if (categories.length > 0) {
+            if (categories.length === 0){ return; }
+            else {
                 const firstCategory = categories[0];
 
-                const subCategories = Object.keys(
-                    dateData[firstCategory]
-                );
-
-                if (subCategories.length > 0) {
+                const subCategories = Object.keys(dateData[firstCategory] || {});
+                if (subCategories.length === 0) { return; }
+                else {
                     const firstSubCategory = subCategories[0];
-
                     articleDataHandler(
                         firstCategory,
                         firstSubCategory
@@ -32,12 +29,12 @@ const SearchByDate = ({ date }) => {
                 }
             }
         }
-    }, [date]);
+    }, [date, data]);
 
     const articleDataHandler = (category, subCategory) => {
 
         const articleData =
-            CURRENT_AFFAIRS_BYDATE?.[date]?.[category]?.[subCategory] || [];
+            data?.[date]?.[category]?.[subCategory] || [];
 
         setSelectedNiche(`${category}@@${subCategory}`);
 
@@ -48,22 +45,22 @@ const SearchByDate = ({ date }) => {
         });
     };
 
-    const CategoriesList = ({ data }) => {
+    const CategoriesList = ({ details }) => {
 
-        const categories = data?.[date]
-            ? Object.keys(data[date])
+        const categories = details?.[date]
+            ? Object.keys(details[date])
             : [];
 
         return (
             <div className="mt-2">
                 {categories.map((category, i1) => {
 
-                    const categoryData = data?.[date]?.[category];
+                    const categoryData = details?.[date]?.[category] || {};
                     const subCategoryNames = Object.keys(categoryData);
 
                     return (
                         <span key={i1}>
-                            {subCategoryNames.map(
+                            {subCategoryNames?.map(
                                 (subCategoryName, i2) => {
 
                                     const articleData =
@@ -97,7 +94,7 @@ const SearchByDate = ({ date }) => {
                                                     {category} /{" "}
                                                     {subCategoryName} (
                                                     {
-                                                        articleData.length
+                                                        articleData?.length
                                                     }
                                                     )
                                                 </b>
@@ -133,7 +130,7 @@ const SearchByDate = ({ date }) => {
                         </div>
 
                         <CategoriesList
-                            data={CURRENT_AFFAIRS_BYDATE}
+                            details={data}
                         />
                     </Col>
                 </Row>
@@ -144,37 +141,37 @@ const SearchByDate = ({ date }) => {
                         <Col md={8}>
                             <Row className="mtop15p">
 
-                                {articleDisplayData.data.map(
+                                {articleDisplayData?.data?.map(
                                     (article, i) => (
                                         <Col md={6} key={i}>
                                             <DCADisplayCard
                                                 index={i}
                                                 data={article}
                                                 category={
-                                                    articleDisplayData.category
+                                                    articleDisplayData?.category
                                                 }
                                                 subCategory={
-                                                    articleDisplayData.subCategory
+                                                    articleDisplayData?.subCategory
                                                 }
                                             />
                                         </Col>
                                     )
                                 )}
 
-                                {articleDisplayData.data.length === 0 && (
+                                {articleDisplayData?.data?.length === 0 && (
                                     <Col md={12}>
                                         <div className="alert alert-info">
                                             No articles available
                                             under{" "}
                                             <b>
                                                 {
-                                                    articleDisplayData.category
+                                                    articleDisplayData?.category
                                                 }
                                             </b>{" "}
                                             /{" "}
                                             <b>
                                                 {
-                                                    articleDisplayData.subCategory
+                                                    articleDisplayData?.subCategory
                                                 }
                                             </b>
                                         </div>

@@ -1,4 +1,10 @@
 {
+  "kpis":{
+    "Articles Today": "5",
+    "Monthly Articles": "150",
+    "Important Issues": "26",
+    "Exam Topics": "10"
+  },
   "2024-06-03": {
     "Polity and Governance": {
       "Governance": [

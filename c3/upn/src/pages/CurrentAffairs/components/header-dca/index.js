@@ -1,15 +1,9 @@
 import React from "react";
 import { ContainerFluid, Row, Col, Card, TextBox, DateTimePicker, Button } from "e-ui-react";
 
-const HeaderDCA = ({ date }) =>{
- const data = {
-   "Articles Today": "5",
-   "Monthly Articles": "150",
-   "Important Issues": "25",
-   "Exam Topics": "10"
- };
+const HeaderDCA = ({ date, data }) =>{
  const DailyStatistics = ({ data }) =>{
-   const k = Object.keys(data);
+   const k = Object.keys(data || {});
    return (<div style={{ display:'flex' }}>
       {k?.map((d,i)=>{
          return (<div key={i} style={{ flex:1, padding:'5px' }}>

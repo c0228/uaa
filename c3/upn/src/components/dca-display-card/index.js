@@ -19,7 +19,7 @@ const DCADisplayCard = ({ index, data, category, subCategory }) =>{
         <div className="text-muted">{data?.desc}</div>
         <div className="mtop5p">
             {data?.tags?.map((t,i)=>{
-                return (<Badge type="secondary-o" label={t} size="11" style={{ marginRight:'5px' }} />);
+                return (<Badge key={i} type="secondary-o" label={t} size="11" style={{ marginRight:'5px' }} />);
             })}
         </div>
         <div className="pull-right">
