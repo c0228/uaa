@@ -100,8 +100,8 @@ const SearchByCategories = ({ category, subCategory}) =>{
          </Col>
          <Col md={9}>
             {CURRENT_AFFAIRS_CATEGORIES[activeCategory]?.map((d,i)=>{
-                return (<span className="d-inline-block m-1">
-                    <Button key={i} type={(activeSubCategory===d)?"primary":"outline-primary"} size={11}><b>{d}</b></Button>
+                return (<span key={i} className="d-inline-block m-1">
+                    <Button type={(activeSubCategory===d)?"primary":"outline-primary"} size={11}><b>{d}</b></Button>
                 </span>);
             })}
          </Col>

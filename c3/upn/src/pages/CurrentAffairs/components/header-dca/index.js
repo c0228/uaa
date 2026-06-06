@@ -1,7 +1,19 @@
-import React from "react";
-import { ContainerFluid, Row, Col, Card, TextBox, DateTimePicker, Button } from "e-ui-react";
+import React, { useState } from "react";
+import { useNavigate } from "react-router-dom";
+import { ContainerFluid, Row, Col, Card, TextBox, DateTimePicker, Button, Form } from "e-ui-react";
 
 const HeaderDCA = ({ date, data }) =>{
+ const [searchDCAFormData, setSearchDCAFormData] = useState({ text:'', date:'' });
+ const navigate = useNavigate();
+ const searchDCAFormFieldHandler = (fieldName, fieldValue ) =>{
+   setSearchDCAFormData(prev => ({...prev, [fieldName]: fieldValue }));
+ };
+ const searchDCAFormHandler = () =>{
+   console.log("data", searchDCAFormData);
+   if(searchDCAFormData?.text?.length===0 && searchDCAFormData?.date?.length>0) {
+      navigate("/daily-current-affairs/date/"+searchDCAFormData?.date);
+   }
+ };
  const DailyStatistics = ({ data }) =>{
    const k = Object.keys(data || {});
    return (<div style={{ display:'flex' }}>
@@ -31,9 +43,12 @@ const HeaderDCA = ({ date, data }) =>{
                <Row>
                   <Col md={12}>
                      <div className="input-group mt-3">
-                        <TextBox name="searchCurrentAffairs" placeholder="Search Current Affairs" />
-                        <DateTimePicker type="datePicker" id="date" name="date" value={date} />
-                        <Button type="warning" size={11} style={{ border:'1px solid #ccc' }}><b>Search</b></Button>
+                        <TextBox name="searchCurrentAffairs" placeholder="Search Current Affairs" 
+                           onChange={(data)=>searchDCAFormFieldHandler("text", data?.value)} />
+                        <DateTimePicker type="datePicker" id="date" name="date" value={date} 
+                           onChange={(data)=>searchDCAFormFieldHandler("date", data?.value)}/>
+                        <Button type="warning" size={11} style={{ border:'1px solid #ccc' }} 
+                           onClick={()=>searchDCAFormHandler()}><b>Search</b></Button>
                      </div>
                   </Col>
                </Row>

@@ -135,7 +135,7 @@ const SearchByDate = ({ date, data }) => {
                     </Col>
                 </Row>
 
-                {articleDisplayData?.data && (
+                {articleDisplayData?.data ? (
                     <Row>
 
                         <Col md={8}>
@@ -186,7 +186,13 @@ const SearchByDate = ({ date, data }) => {
                         </Col>
 
                     </Row>
-                )}
+                ):(<Row>
+                    <Col md={12}>
+                        <div className="alert alert-info">
+                            No articles available for this Date <b>{date}</b>
+                        </div>
+                    </Col>
+                </Row>)}
 
             </ContainerFluid>
         </div>

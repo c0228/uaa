@@ -23,7 +23,7 @@ const CurrentAffairs = () =>{
  return (<div>
    <Header menulinks={HeaderMenu()} activeId="DailyCurrentAffairs" />
    <HeaderDCA date={date} data={pageData?.kpis} />
-   {(date)?(<SearchByDate date={date} data={pageData} />):(<SearchByCategories category={category} subCategory={subCategory}  />)}
+   {(date?.length>0)?(<SearchByDate date={date} data={pageData} />):(<SearchByCategories category={category} subCategory={subCategory}  />)}
  </div>);
 };
 
