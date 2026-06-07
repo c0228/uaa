@@ -55,7 +55,7 @@ const HeaderDCA = ({ date, data }) =>{
         <Row>
             <Col md={8}>
                <div className="d-flex gap-2 mt-3">
-                     {searchDCAFormData?.date}
+                     {searchDCAFormData?.date} 
                      <TextBox name="searchCurrentAffairs" placeholder="Search Current Affairs" 
                            onChange={(data)=>searchDCAFormFieldHandler("text", data?.value)} />
                      <DateTimePicker type="datePicker" id="date" name="date" value={searchDCAFormData?.date} 
