@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import { ContainerFluid, Row, Col, Card, TextBox, DateTimePicker, Button, Form, Tab, Icon } from "e-ui-react";
 
@@ -14,6 +14,13 @@ const HeaderDCA = ({ date, data }) =>{
       navigate("/daily-current-affairs/date/"+searchDCAFormData?.date);
    }
  };
+ const resetDCAFormHandler = () =>{
+   setSearchDCAFormData({ text:'', date:'' });
+ };
+ useEffect(()=>{
+   console.log("Date [HeaderDCA]", date);
+   setSearchDCAFormData({ text:'', date: date });
+ },[date]);
  const DailyStatistics = ({ data }) =>{
    const k = Object.keys(data || {});
    return (<div style={{ display:'flex' }}>
@@ -48,17 +55,18 @@ const HeaderDCA = ({ date, data }) =>{
         <Row>
             <Col md={8}>
                <div className="d-flex gap-2 mt-3">
+                     {searchDCAFormData?.date}
                      <TextBox name="searchCurrentAffairs" placeholder="Search Current Affairs" 
                            onChange={(data)=>searchDCAFormFieldHandler("text", data?.value)} />
-                     <DateTimePicker type="datePicker" id="date" name="date" value={date} 
-                           minValue={"2025-01-01"} maxValue={date}
+                     <DateTimePicker type="datePicker" id="date" name="date" value={searchDCAFormData?.date} 
+                           minValue={"2025-01-01"} maxValue={searchDCAFormData?.date}
                            onChange={(data)=>searchDCAFormFieldHandler("date", data?.value)}/>
                      <Button type="warning" size={11} style={{ border:'1px solid #ccc' }} className="text-nowrap"
                            onClick={()=>searchDCAFormHandler()}><b>
                         <Icon type="FontAwesome" name="fa-search" size={11} style={{ marginRight:'5px' }} />
                               Search Current Affairs</b></Button>
                      <Button type="danger" size={11} style={{ border:'1px solid #ccc' }}  className="text-nowrap"
-                           onClick={()=>searchDCAFormHandler()}><b>
+                           onClick={()=>resetDCAFormHandler()}><b>
                         <Icon type="FontAwesome" name="fa-repeat" size={11} style={{ marginRight:'5px' }} />
                               Reset</b></Button>
                </div>
