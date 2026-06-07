@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
-import { ContainerFluid, Row, Col, Card, TextBox, DateTimePicker, Button, Form, Tab } from "e-ui-react";
+import { ContainerFluid, Row, Col, Card, TextBox, DateTimePicker, Button, Form, Tab, Icon } from "e-ui-react";
 
 const HeaderDCA = ({ date, data }) =>{
  const [searchDCAFormData, setSearchDCAFormData] = useState({ text:'', date:'' });
@@ -46,15 +46,21 @@ const HeaderDCA = ({ date, data }) =>{
             </Col>
         </Row>
         <Row>
-            <Col md={6}>
+            <Col md={8}>
                <div className="d-flex gap-2 mt-3">
                      <TextBox name="searchCurrentAffairs" placeholder="Search Current Affairs" 
                            onChange={(data)=>searchDCAFormFieldHandler("text", data?.value)} />
                      <DateTimePicker type="datePicker" id="date" name="date" value={date} 
                            minValue={"2025-01-01"} maxValue={date}
                            onChange={(data)=>searchDCAFormFieldHandler("date", data?.value)}/>
-                     <Button type="warning" size={11} style={{ border:'1px solid #ccc' }} 
-                           onClick={()=>searchDCAFormHandler()}><b>Search</b></Button>
+                     <Button type="warning" size={11} style={{ border:'1px solid #ccc' }} className="text-nowrap"
+                           onClick={()=>searchDCAFormHandler()}><b>
+                        <Icon type="FontAwesome" name="fa-search" size={11} style={{ marginRight:'5px' }} />
+                              Search Current Affairs</b></Button>
+                     <Button type="danger" size={11} style={{ border:'1px solid #ccc' }}  className="text-nowrap"
+                           onClick={()=>searchDCAFormHandler()}><b>
+                        <Icon type="FontAwesome" name="fa-repeat" size={11} style={{ marginRight:'5px' }} />
+                              Reset</b></Button>
                </div>
             </Col>
         </Row>
