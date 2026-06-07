@@ -46,6 +46,7 @@ const HeaderDCA = ({ date, data }) =>{
                         <TextBox name="searchCurrentAffairs" placeholder="Search Current Affairs" 
                            onChange={(data)=>searchDCAFormFieldHandler("text", data?.value)} />
                         <DateTimePicker type="datePicker" id="date" name="date" value={date} 
+                           minValue={"2025-01-01"} maxValue={date}
                            onChange={(data)=>searchDCAFormFieldHandler("date", data?.value)}/>
                         <Button type="warning" size={11} style={{ border:'1px solid #ccc' }} 
                            onClick={()=>searchDCAFormHandler()}><b>Search</b></Button>

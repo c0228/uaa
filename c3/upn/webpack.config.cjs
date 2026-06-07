@@ -111,6 +111,7 @@ entry: './src/index.js',
         '@Routes': Path.resolve(__dirname, 'src/routes'),
         '@StaticData': Path.resolve(__dirname, 'src/static-data'),
         '@Templates': Path.resolve(__dirname, 'src/templates'),
+        '@Utils': Path.resolve(__dirname, 'src/utils'),
         // Needed when library is linked via `npm link` to app
         /** This is implemented when the React Hooks are not working under the library */
         react: Path.resolve("./node_modules/react"),

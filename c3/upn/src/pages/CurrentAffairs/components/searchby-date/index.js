@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
-import { ContainerFluid, Row, Col, Button } from "e-ui-react";
+import { ContainerFluid, Row, Col, Button, Icon } from "e-ui-react";
+import { formatDate } from "@Utils/DateFormatUtils.js";
 import DCADisplayCard from "@Components/dca-display-card/index.js";
 
 const SearchByDate = ({ date, data }) => {
@@ -10,7 +11,11 @@ const SearchByDate = ({ date, data }) => {
     // Load first category/sub-category by default
     useEffect(() => {
         const dateData = data?.[date];
-        if (!dateData){ return; }
+        if (!dateData){ 
+            setArticleDisplayData({});
+            setSelectedNiche("");
+            return; 
+        }
         else {
             const categories = Object.keys(dateData);
 
@@ -126,7 +131,7 @@ const SearchByDate = ({ date, data }) => {
 
                         <div className="mt-2 padLeft5p">
                             Following are the active categories
-                            for the selected date [{date}].
+                            for the selected date <b>[{formatDate(date)}]</b>.
                         </div>
 
                         <CategoriesList
@@ -147,12 +152,8 @@ const SearchByDate = ({ date, data }) => {
                                             <DCADisplayCard
                                                 index={i}
                                                 data={article}
-                                                category={
-                                                    articleDisplayData?.category
-                                                }
-                                                subCategory={
-                                                    articleDisplayData?.subCategory
-                                                }
+                                                category={articleDisplayData?.category}
+                                                subCategory={articleDisplayData?.subCategory}
                                             />
                                         </Col>
                                     )
@@ -161,19 +162,8 @@ const SearchByDate = ({ date, data }) => {
                                 {articleDisplayData?.data?.length === 0 && (
                                     <Col md={12}>
                                         <div className="alert alert-info">
-                                            No articles available
-                                            under{" "}
-                                            <b>
-                                                {
-                                                    articleDisplayData?.category
-                                                }
-                                            </b>{" "}
-                                            /{" "}
-                                            <b>
-                                                {
-                                                    articleDisplayData?.subCategory
-                                                }
-                                            </b>
+                                            <Icon type="FontAwesome" name="fa-exclamation-triangle" size={12} style={{ marginRight:'5px' }} />
+                                            No articles available under <b>{articleDisplayData?.category}</b> / <b>{articleDisplayData?.subCategory}</b>
                                         </div>
                                     </Col>
                                 )}
@@ -189,7 +179,8 @@ const SearchByDate = ({ date, data }) => {
                 ):(<Row>
                     <Col md={12}>
                         <div className="alert alert-info">
-                            No articles available for this Date <b>{date}</b>
+                            <Icon type="FontAwesome" name="fa-exclamation-triangle" size={12} style={{ marginRight:'5px' }} />
+                            No articles available for this Date <b>[{formatDate(date)}]</b>
                         </div>
                     </Col>
                 </Row>)}
