@@ -18,6 +18,8 @@ export const AppRouting = ()=>{
          </Route>
          <Route exact path="/home" element={<Home/>} />
          <Route exact path="/daily-current-affairs" element={<CurrentAffairs />} />
+         <Route exact path="/daily-current-affairs/search/:text" element={<CurrentAffairs />} />
+         <Route exact path="/daily-current-affairs/search/:text/:date" element={<CurrentAffairs />} />
          <Route exact path="/daily-current-affairs/date/:date" element={<CurrentAffairs />} />
          <Route exact path="/daily-current-affairs/list/:category" element={<CurrentAffairs />} />
          <Route exact path="/daily-current-affairs/list/:category/:subCategory" element={<CurrentAffairs />} />

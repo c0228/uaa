@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
-import { ContainerFluid, Row, Col, Card, TextBox, DateTimePicker, Button, Form } from "e-ui-react";
+import { ContainerFluid, Row, Col, Card, TextBox, DateTimePicker, Button, Form, Tab } from "e-ui-react";
 
 const HeaderDCA = ({ date, data }) =>{
  const [searchDCAFormData, setSearchDCAFormData] = useState({ text:'', date:'' });
@@ -39,34 +39,23 @@ const HeaderDCA = ({ date, data }) =>{
                   <i>Access comprehensive daily current affairs covering Polity, Governance, Economy, International Relations, 
                   Science & Technology, Environment, and Social Issues. Designed for all UPSC examinations, these updates 
                   help aspirants build strong analytical and answer-writing skills.</i>
-               </div>
-               <Row>
-                  <Col md={12}>
-                     <div className="input-group mt-3">
-                        <TextBox name="searchCurrentAffairs" placeholder="Search Current Affairs" 
-                           onChange={(data)=>searchDCAFormFieldHandler("text", data?.value)} />
-                        <DateTimePicker type="datePicker" id="date" name="date" value={date} 
-                           minValue={"2025-01-01"} maxValue={date}
-                           onChange={(data)=>searchDCAFormFieldHandler("date", data?.value)}/>
-                        <Button type="warning" size={11} style={{ border:'1px solid #ccc' }} 
-                           onClick={()=>searchDCAFormHandler()}><b>Search</b></Button>
-                     </div>
-                  </Col>
-               </Row>
-               <Row>
-                  <Col md={4}>
-                     
-                  </Col>
-                  <Col md={4}>
-                     
-                  </Col>
-                  <Col md={4}>
-                     
-                  </Col>
-               </Row>       
+               </div>      
             </Col>
             <Col md={6}>
                <DailyStatistics data={data} />
+            </Col>
+        </Row>
+        <Row>
+            <Col md={6}>
+               <div className="d-flex gap-2 mt-3">
+                     <TextBox name="searchCurrentAffairs" placeholder="Search Current Affairs" 
+                           onChange={(data)=>searchDCAFormFieldHandler("text", data?.value)} />
+                     <DateTimePicker type="datePicker" id="date" name="date" value={date} 
+                           minValue={"2025-01-01"} maxValue={date}
+                           onChange={(data)=>searchDCAFormFieldHandler("date", data?.value)}/>
+                     <Button type="warning" size={11} style={{ border:'1px solid #ccc' }} 
+                           onClick={()=>searchDCAFormHandler()}><b>Search</b></Button>
+               </div>
             </Col>
         </Row>
     </ContainerFluid>
