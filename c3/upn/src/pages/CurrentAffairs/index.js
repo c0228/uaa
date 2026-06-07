@@ -15,14 +15,21 @@ const CurrentAffairs = () =>{
  const [ pageData, setPageData ] = useState();
  const { text, date, category, subCategory } = useParams();
  useEffect(()=>{
-  if(date?.length>0) {
-      if(text?.length>0) {
-         setPageData(CURRENT_AFFAIRS_BYDATE);
-      } else {
-         setPageData(CURRENT_AFFAIRS_BYDATE);
-      }
-  } else {
-     setPageData(CURRENT_AFFAIRS_BYCATEGORIES)
+ /***
+  *   CONDITIONS:
+  *      1) Only date is giving and no text - CURRENT_AFFAIRS_BYDATE Data should be loaded.
+  *      2) Only text is giving and no date - CURRENT_AFFAIRS_BYTEXT Data should be loaded.
+  *      3) text and data is given - CURRENT_AFFAIRS_BYTEXTANDDATE Data should be loaded.
+  */
+  
+  if(date?.length>0 && text?.length ===0) { // CURRENT_AFFAIRS_BYDATE
+       setPageData(CURRENT_AFFAIRS_BYDATE);
+  } else if(date?.length === 0 && text?.length>0) { // CURRENT_AFFAIRS_BYTEXT
+
+  } else if(date?.length>0 && text?.length>0) { // CURRENT_AFFAIRS_BYTEXTANDDATE
+
+  } else { // CURRENT_AFFAIRS_BYCATEGORIES
+      setPageData(CURRENT_AFFAIRS_BYCATEGORIES)
   }
  },[]);
  return (<div>
