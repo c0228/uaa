@@ -42,8 +42,8 @@ const CurrentAffairs = () =>{
    {(date === undefined && text?.length>0) && (<SearchByText text={text} date={date} data={pageData} />)}
    {/** CURRENT_AFFAIRS_BYTEXTANDDATE */}
 
-   {/** CURRENT_AFFAIRS_BYCATEGORIES */}
-   {(category !== undefined && subCategory  !== undefined) && (<SearchByCategories category={category} subCategory={subCategory} />)}
+   {/** CURRENT_AFFAIRS_BYCATEGORIES ::: DEFAULT */}
+   <SearchByCategories category={category} subCategory={subCategory} />
  </div>);
 };
 
