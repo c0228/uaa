@@ -1,11 +1,15 @@
 {
+  "cacheVersion": 1,
   "kpis":{
     "Articles Today": "5",
     "Monthly Articles": "150",
     "Important Issues": "28",
     "Exam Topics": "10"
   },
-  "category": "Art and Culture",
+  "current":{
+    "pageSize":10,
+    "pageIndex":1,
+    "category": "Art and Culture",
   "subCategory":"Ancient India",
   "data":[{
           "url": "https://pib.gov.in",
@@ -37,4 +41,5 @@
           "desc": "Governments are increasingly relying on citizen feedback systems to improve service quality.",
           "tags": ["Governance", "Essay"]
         }]
+  }
 }

@@ -1,4 +1,9 @@
 {
+"cacheDetails":{
+  "lastUpdated": "2026-06-07 10:00:00"
+},
+"cacheData":{
+ "niches":{
     "Art and Culture": ["Ancient India","Medieval India","Modern Indian Culture","Architecture","Sculpture","Paintings","Dance Forms","Music","Theatre","Literature",
         "Festivals","Fairs","UNESCO Heritage","GI Tags","Cultural Institutions"],
     "Ethics and Society": ["Ethical Issues","Human Values","Integrity","Aptitude","Probity in Governance","Accountability","Transparency","Emotional Intelligence",
@@ -46,3 +51,5 @@
     "Awards, Persons and Obituaries": ["National Awards","International Awards","Civilian Awards","Sports Awards","Science Awards","Literary Awards",
         "Important Personalities","Appointments","Resignations","Obituaries","Sports Personalities","Scientists","Artists & Authors","Political Leaders","Global Leaders"]
  }
+}
+}

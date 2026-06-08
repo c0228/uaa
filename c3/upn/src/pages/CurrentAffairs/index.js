@@ -3,13 +3,13 @@ import { useParams  } from "react-router-dom";
 import { ContainerFluid, Row, Col, Card, Button, TextBox, DateTimePicker } from "e-ui-react";
 import Header from '@Templates/Header/index.js';
 import { HeaderMenu } from '@Routes/NavbarList.js';
-import HeaderDCA from "./components/header-dca/index.js";
+import HeaderDCA from "@Components/dca-header/index.js";
 import SearchByText from "./components/searchby-text/index.js";
 import SearchByDate from "./components/searchby-date/index.js";
 import SearchByCategories from "./components/searchby-categories/index.js";
-import CURRENT_AFFAIRS_BYTEXTANDDATE from "@StaticData/data-dca-searchbytextdate.json";
-import CURRENT_AFFAIRS_BYDATE from '@StaticData/data-dca-searchbydate.json';
-import CURRENT_AFFAIRS_BYCATEGORIES from '@StaticData/data-dca-searchbycategories.json';
+// import CURRENT_AFFAIRS_BYTEXTANDDATE from "@StaticData/data-dca-searchbytextdate.json";
+// import CURRENT_AFFAIRS_BYDATE from '@StaticData/data-dca-searchbydate.json';
+// import CURRENT_AFFAIRS_BYCATEGORIES from '@StaticData/data-dca-searchbycategories.json';
 import './index.css';
 
 const CurrentAffairs = () =>{
@@ -23,15 +23,20 @@ const CurrentAffairs = () =>{
   *      3) text and data is given - CURRENT_AFFAIRS_BYTEXTANDDATE Data should be loaded.
   */
   console.log("text: ", text, "date: ", date, "category: ", category, "subCategory: ", subCategory);
+  let url;
   if(date?.length>0 && text === undefined) { // CURRENT_AFFAIRS_BYDATE
-      setPageData(CURRENT_AFFAIRS_BYDATE);
+    //  setPageData(CURRENT_AFFAIRS_BYDATE);
   } else if(date === undefined && text?.length>0) { // CURRENT_AFFAIRS_BYTEXT
-      setPageData(CURRENT_AFFAIRS_BYTEXTANDDATE);
+     // setPageData(CURRENT_AFFAIRS_BYTEXTANDDATE);
   } else if(date?.length>0 && text?.length>0) { // CURRENT_AFFAIRS_BYTEXTANDDATE
-      setPageData(CURRENT_AFFAIRS_BYTEXTANDDATE);
+     // setPageData(CURRENT_AFFAIRS_BYTEXTANDDATE);
   } else { // CURRENT_AFFAIRS_BYCATEGORIES
-      setPageData(CURRENT_AFFAIRS_BYCATEGORIES)
+      url =  process.env.PROJECT_URL+'static-data/data-dca-searchbycategories.json';
   }
+  fetch(url).then(result=>result.json()).then(response=>{
+    console.log("response", response);
+    setPageData(response);
+  });
  },[]);
  return (<div>
    <Header menulinks={HeaderMenu()} activeId="DailyCurrentAffairs" />
@@ -43,7 +48,7 @@ const CurrentAffairs = () =>{
    {/** CURRENT_AFFAIRS_BYTEXTANDDATE */}
 
    {/** CURRENT_AFFAIRS_BYCATEGORIES ::: DEFAULT */}
-   <SearchByCategories category={category} subCategory={subCategory} />
+   <SearchByCategories category={pageData?.category} subCategory={pageData?.subCategory} data={pageData?.data} />
  </div>);
 };
 

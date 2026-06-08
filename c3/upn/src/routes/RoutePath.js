@@ -3,6 +3,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Welcome from "@Pages/Welcome/index.js";
 import Home from "@Pages/Home/index.js";
 import CurrentAffairs from "@Pages/CurrentAffairs/index.js";
+import DCASearchByCategories from "@Pages/CurrentAffairs/components/searchby-categories/index.js";
 import Menu from "@Pages/Menu/index.js";
 import { AuthProvider } from "@Provider/AuthProvider.js";
 import PERMISSIONS from "@Permissions/index.js";
@@ -17,7 +18,7 @@ export const AppRouting = ()=>{
             <Route path='MyDashboard' element={<Home />} />
          </Route>
          <Route exact path="/home" element={<Home/>} />
-         <Route exact path="/daily-current-affairs" element={<CurrentAffairs />} />
+         <Route exact path="/daily-current-affairs" element={<DCASearchByCategories />} />
          <Route exact path="/daily-current-affairs/search/:text" element={<CurrentAffairs />} />
          <Route exact path="/daily-current-affairs/search/:text/:date" element={<CurrentAffairs />} />
          <Route exact path="/daily-current-affairs/date/:date" element={<CurrentAffairs />} />
