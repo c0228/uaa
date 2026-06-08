@@ -1,0 +1,195 @@
+{
+    "kpis":{
+        "Articles Today": "5",
+        "Monthly Articles": "150",
+        "Important Issues": "26",
+        "Exam Topics": "10"
+    },
+    "searchText": "UPSC Search keyword",
+    "searchDate": "2026-06-05",
+    "data":{
+    "Polity and Governance": {
+      "Governance": [
+        {
+          "url": "https://pib.gov.in",
+          "title": "Digital Governance Initiatives Expanded Across States",
+          "desc": "Several states have adopted integrated digital service delivery platforms to improve citizen access and transparency.",
+          "tags": ["UPSC Prelims", "GS II", "Governance"]
+        },
+        {
+          "url": "https://prsindia.org",
+          "title": "Parliament Reviews Public Service Delivery Mechanisms",
+          "desc": "A parliamentary committee examined the effectiveness of service delivery reforms in key welfare schemes.",
+          "tags": ["GS II", "Polity"]
+        },
+        {
+          "url": "https://www.thehindu.com",
+          "title": "District Administration Adopts AI-based Monitoring",
+          "desc": "AI-powered dashboards are being used to track implementation of developmental programs.",
+          "tags": ["Governance", "Technology"]
+        },
+        {
+          "url": "https://indianexpress.com",
+          "title": "Social Audit Framework Strengthened",
+          "desc": "New guidelines aim to improve transparency and accountability in rural development projects.",
+          "tags": ["Governance", "GS II"]
+        },
+        {
+          "url": "https://www.livemint.com",
+          "title": "Citizen Feedback Portals Gain Popularity",
+          "desc": "Governments are increasingly relying on citizen feedback systems to improve service quality.",
+          "tags": ["Governance", "Essay"]
+        }
+      ],
+      "Citizen Charters": [
+        {
+          "url": "https://pib.gov.in",
+          "title": "Citizen Charter Reforms Proposed for Public Offices",
+          "desc": "Updated charter guidelines emphasize time-bound service delivery and grievance redressal.",
+          "tags": ["GS II", "Governance"]
+        },
+        {
+          "url": "https://prsindia.org",
+          "title": "Performance Evaluation Linked to Citizen Charters",
+          "desc": "Departments may be assessed based on adherence to charter commitments.",
+          "tags": ["Governance", "Polity"]
+        },
+        {
+          "url": "https://www.thehindu.com",
+          "title": "Awareness Campaigns for Citizen Rights Launched",
+          "desc": "Public outreach programs aim to improve awareness regarding service standards.",
+          "tags": ["Governance", "Social Justice"]
+        }
+      ]
+    },
+
+    "Economy": {
+      "Inflation": [
+        {
+          "url": "https://rbi.org.in",
+          "title": "Food Prices Continue to Influence Retail Inflation",
+          "desc": "Vegetable and cereal prices remain major contributors to headline inflation.",
+          "tags": ["Economy", "UPSC Prelims"]
+        },
+        {
+          "url": "https://www.business-standard.com",
+          "title": "RBI Maintains Inflation Monitoring Framework",
+          "desc": "The central bank continues to prioritize inflation control while supporting growth.",
+          "tags": ["GS III", "Economy"]
+        },
+        {
+          "url": "https://economictimes.indiatimes.com",
+          "title": "Core Inflation Shows Signs of Moderation",
+          "desc": "Recent data indicate easing price pressures in non-food sectors.",
+          "tags": ["Economy", "Data Interpretation"]
+        }
+      ],
+      "Taxation": [
+        {
+          "url": "https://cbic.gov.in",
+          "title": "GST Collections Reach New High",
+          "desc": "Improved compliance and economic activity contributed to strong tax revenues.",
+          "tags": ["Economy", "Taxation"]
+        },
+        {
+          "url": "https://www.livemint.com",
+          "title": "Discussion on Simplifying Direct Tax Structure",
+          "desc": "Experts recommend measures to reduce complexity and improve taxpayer compliance.",
+          "tags": ["GS III", "Economy"]
+        },
+        {
+          "url": "https://economictimes.indiatimes.com",
+          "title": "Technology Enhances Tax Administration",
+          "desc": "Data analytics tools are being used to identify tax evasion patterns.",
+          "tags": ["Taxation", "Technology"]
+        }
+      ]
+    },
+
+    "Environment and Ecology": {
+      "Sculpture": [
+        {
+          "url": "https://unesco.org",
+          "title": "Ancient Temple Sculpture Restoration Project Begins",
+          "desc": "Conservation experts have started restoration of weather-affected heritage sculptures.",
+          "tags": ["Culture", "Art & Culture"]
+        },
+        {
+          "url": "https://www.thehindu.com",
+          "title": "New Findings on Chola Bronze Sculptures",
+          "desc": "Researchers highlighted unique metallurgical techniques used by Chola artisans.",
+          "tags": ["Art & Culture", "History"]
+        },
+        {
+          "url": "https://indianexpress.com",
+          "title": "Museum Hosts Exhibition of Tribal Sculptures",
+          "desc": "The exhibition showcases traditional sculptural art from indigenous communities.",
+          "tags": ["Culture", "Prelims"]
+        }
+      ],
+      "Music": [
+        {
+          "url": "https://sangeetnatak.gov.in",
+          "title": "Classical Music Heritage Documentation Expanded",
+          "desc": "Efforts are underway to digitally archive traditional music forms.",
+          "tags": ["Art & Culture", "Culture"]
+        },
+        {
+          "url": "https://www.thehindu.com",
+          "title": "Rare Folk Music Traditions Revived",
+          "desc": "Local communities are working to preserve disappearing musical traditions.",
+          "tags": ["Culture", "Society"]
+        },
+        {
+          "url": "https://indianexpress.com",
+          "title": "Music Festivals Promote Cultural Exchange",
+          "desc": "International participation highlights India's diverse musical heritage.",
+          "tags": ["Culture", "International Relations"]
+        }
+      ]
+    },
+
+    "International Relations": {
+      "Indo-Pacific": [
+        {
+          "url": "https://mea.gov.in",
+          "title": "India Strengthens Indo-Pacific Maritime Cooperation",
+          "desc": "Regional partners discussed maritime security and sustainable economic growth.",
+          "tags": ["GS II", "International Relations"]
+        },
+        {
+          "url": "https://www.orfonline.org",
+          "title": "Blue Economy Gains Importance in Indo-Pacific",
+          "desc": "Countries are focusing on sustainable use of ocean resources.",
+          "tags": ["IR", "Environment"]
+        },
+        {
+          "url": "https://indianexpress.com",
+          "title": "Strategic Dialogue on Regional Connectivity",
+          "desc": "Leaders emphasized resilient supply chains and infrastructure development.",
+          "tags": ["IR", "Geopolitics"]
+        }
+      ],
+      "Bilateral Relations": [
+        {
+          "url": "https://mea.gov.in",
+          "title": "India and Japan Expand Technology Partnership",
+          "desc": "Both countries agreed to deepen cooperation in emerging technologies.",
+          "tags": ["GS II", "IR"]
+        },
+        {
+          "url": "https://www.thehindu.com",
+          "title": "India-UAE Trade Cooperation Sees Growth",
+          "desc": "Bilateral trade volumes have increased following recent agreements.",
+          "tags": ["International Relations", "Economy"]
+        },
+        {
+          "url": "https://indianexpress.com",
+          "title": "India-France Strategic Partnership Reviewed",
+          "desc": "Discussions focused on defense cooperation and climate initiatives.",
+          "tags": ["IR", "Defense"]
+        }
+      ]
+    }
+  }
+}

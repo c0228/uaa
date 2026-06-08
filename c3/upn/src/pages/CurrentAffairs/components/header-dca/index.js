@@ -2,25 +2,26 @@ import React, { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import { ContainerFluid, Row, Col, Card, TextBox, DateTimePicker, Button, Form, Tab, Icon } from "e-ui-react";
 
-const HeaderDCA = ({ date, data }) =>{
- const [searchDCAFormData, setSearchDCAFormData] = useState({ text:'', date:'' });
+const HeaderDCA = ({ text, date, data }) =>{
+ const [searchDCAFormData, setSearchDCAFormData] = useState({ text:text, date: date });
  const navigate = useNavigate();
  const searchDCAFormFieldHandler = (fieldName, fieldValue ) =>{
+   console.log(fieldName, ": ",fieldValue);
    setSearchDCAFormData(prev => ({...prev, [fieldName]: fieldValue }));
  };
  const searchDCAFormHandler = () =>{
    console.log("data", searchDCAFormData);
-   if(searchDCAFormData?.text?.length===0 && searchDCAFormData?.date?.length>0) {
-      navigate("/daily-current-affairs/date/"+searchDCAFormData?.date);
+   if(searchDCAFormData?.text?.length===0 && searchDCAFormData?.date?.length>0) { // CURRENT_AFFAIRS_BYDATE
+      navigate("/daily-current-affairs/date/"+searchDCAFormData?.date, { replace: true });
+   } else if(searchDCAFormData?.date?.length===0 && searchDCAFormData?.text?.length>0) { // CURRENT_AFFAIRS_BYTEXT
+      navigate("/daily-current-affairs/search/"+searchDCAFormData?.text, { replace: true });
+   } else if(searchDCAFormData?.date?.length>0 && searchDCAFormData?.text?.length>0) { // CURRENT_AFFAIRS_BYTEXTANDDATE
+      navigate("/daily-current-affairs/search/"+searchDCAFormData?.text+"/"+searchDCAFormData?.date, { replace: true });
    }
  };
  const resetDCAFormHandler = () =>{
    setSearchDCAFormData({ text:'', date:'' });
  };
- useEffect(()=>{
-   console.log("Date [HeaderDCA]", date);
-   setSearchDCAFormData({ text:'', date: date });
- },[date]);
  const DailyStatistics = ({ data }) =>{
    const k = Object.keys(data || {});
    return (<div style={{ display:'flex' }}>
@@ -55,10 +56,10 @@ const HeaderDCA = ({ date, data }) =>{
         <Row>
             <Col md={8}>
                <div className="d-flex gap-2 mt-3">
-                     <TextBox name="searchCurrentAffairs" placeholder="Search Current Affairs" 
+                     <TextBox name="searchCurrentAffairs" placeholder="Search Current Affairs" value={searchDCAFormData?.text}
                            onChange={(data)=>searchDCAFormFieldHandler("text", data?.value)} />
                      <DateTimePicker type="datePicker" id="date" name="date" value={searchDCAFormData?.date} 
-                           minValue={"2025-01-01"} maxValue={searchDCAFormData?.date}
+                           minValue={"2025-01-01"} maxValue={new Date().toISOString().split('T')[0]}
                            onChange={(data)=>searchDCAFormFieldHandler("date", data?.value)}/>
                      <Button type="warning" size={11} style={{ border:'1px solid #ccc' }} className="text-nowrap"
                            onClick={()=>searchDCAFormHandler()}><b>
