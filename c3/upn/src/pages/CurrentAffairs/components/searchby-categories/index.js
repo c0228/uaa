@@ -5,24 +5,26 @@ import Header from '@Templates/Header/index.js';
 import { HeaderMenu } from '@Routes/NavbarList.js';
 import HeaderDCA from "@Components/dca-header/index.js";
 import DCADisplayCard from "@Components/dca-display-card/index.js";
-import { ParallelApiCalls } from "@Utils/ApiLoader.js";
-// import CURRENT_AFFAIRS_CATEGORIES from '@StaticData/data-app-niches.json';
+import { callAPI } from "@Services/ApiManager.js";
+import { use } from "react";
 
-const CACHE_URL = process.env.PROJECT_URL+'static-data/data-app-cache.json';
 const API_URL = process.env.PROJECT_URL+'static-data/data-dca-searchbycategories.json';
 
 const DCASearchByCategories = () =>{
  const { category, subCategory } = useParams();
+ const [appCacheData, setAppCacheData] = useState(); // App Cache Data
+ const [apiResponseData, setApiResponseData] = useState(); // App Response Data
  const [pageData, setPageData] = useState();
- 
  const ApiLoader = async() =>{
-    fetch(API_URL).then(result=>result.json()).then(response=>{
-        console.log("response", response);
-        setPageData(response);
+    callAPI(API_URL, (cacheData, apiResponse)=>{
+            setAppCacheData(cacheData);   
+            setApiResponseData(apiResponse);   
+    },(error)=>{
+        console.log("error [callAPI]: ", error);
     });
  };
  useEffect(()=>{
-    
+    ApiLoader();
  },[]);
 
 
