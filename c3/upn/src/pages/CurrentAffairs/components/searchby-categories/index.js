@@ -117,7 +117,7 @@ const DCASearchByCategories = () =>{
  */
  return (<div>
     <Header menulinks={HeaderMenu()} activeId="DailyCurrentAffairs" />
-    <HeaderDCA data={pageData?.kpis} />
+    <HeaderDCA data={apiResponseData?.kpis} />
  </div>);
 };
 
