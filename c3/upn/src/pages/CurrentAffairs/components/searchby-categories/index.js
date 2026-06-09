@@ -5,6 +5,7 @@ import Header from '@Templates/Header/index.js';
 import { HeaderMenu } from '@Routes/NavbarList.js';
 import HeaderDCA from "@Components/dca-header/index.js";
 import DCADisplayCard from "@Components/dca-display-card/index.js";
+import Pagination from "@Components/pagination/index.js";
 import { callAPI } from "@Services/ApiManager.js";
 import { use } from "react";
 
@@ -151,6 +152,21 @@ const DCASearchByCategories = () =>{
                     <Button type={(activeNiche?.subCategory===d)?"primary":"outline-primary"} size={11}><b>{d}</b></Button>
                 </span>);
             })}
+            <Row>
+                <Col md={12}>
+                    <Pagination totalCount={20}
+                        // totalCount={apiResponseData?.current?.totalCount} 
+                        pageSize={apiResponseData?.current?.pageSize} 
+                        pageIndex={apiResponseData?.current?.pageIndex} />
+                </Col>
+            </Row>
+             <Row className="mtop15p">
+                {apiResponseData?.current?.data?.map((d,i)=>{
+                    return (<Col md={4}>
+                        <DCADisplayCard index={i} data={d} category={activeNiche?.category} subCategory={activeNiche?.subCategory} />
+                    </Col>)
+                })}
+             </Row>
           </Col>
       </Row>
     </ContainerFluid>

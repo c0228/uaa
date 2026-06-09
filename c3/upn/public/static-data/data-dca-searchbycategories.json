@@ -7,11 +7,12 @@
     "Exam Topics": "10"
   },
   "current":{
+    "totalCount": 1000,
     "pageSize":10,
     "pageIndex":1,
     "category": "Art and Culture",
-  "subCategory":"Ancient India",
-  "data":[{
+    "subCategory":"Ancient India",
+    "data":[{
           "url": "https://pib.gov.in",
           "title": "Digital Governance Initiatives Expanded Across States",
           "desc": "Several states have adopted integrated digital service delivery platforms to improve citizen access and transparency.",
