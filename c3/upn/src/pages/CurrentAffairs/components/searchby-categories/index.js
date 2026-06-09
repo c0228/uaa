@@ -14,9 +14,12 @@ const DCASearchByCategories = () =>{
  const { category, subCategory } = useParams();
  const [appCacheData, setAppCacheData] = useState(); // App Cache Data
  const [apiResponseData, setApiResponseData] = useState(); // App Response Data
- const [activeNiche, setActiveNiche] = useState({ category: category || 'Art and Culture', subCategory: subCategory || 'Ancient India' }); 
+ const [activeNiche, setActiveNiche] = useState(); 
+ const toTitleCase = (slug) => {
+  return slug?.split("-").map(word => word.charAt(0).toUpperCase() + word.slice(1)).join(" ");
+ };
  const CategoryNicheHandler = (d) =>{
-    setActiveNiche({ category:d, subCategory: appCacheData?.cacheData?.niches?.[d][0]  })
+    setActiveNiche({ category:d, subCategory: appCacheData?.cacheData?.niches?.[d]?.[0]  })
  };
  const SubCategoryNicheHandler = (d) =>{
     setActiveNiche({ category: activeNiche?.category, subCategory: d });
@@ -46,7 +49,15 @@ const DCASearchByCategories = () =>{
         console.log("error [callAPI]: ", error);
     });
  };
-
+ useEffect(()=>{
+    const titleCategory = toTitleCase(category);
+    console.log("titleCategory: ", titleCategory);
+    console.log("titleSubCategory: ", appCacheData);
+    setActiveNiche({ 
+        category: titleCategory || 'Art and Culture', 
+        subCategory: subCategory?toTitleCase(subCategory):appCacheData?.cacheData?.niches?.[titleCategory]?.[0]
+    });
+ },[appCacheData, apiResponseData]);
  useEffect(()=>{
     ApiLoader();
  },[]);
@@ -90,9 +101,7 @@ const DCASearchByCategories = () =>{
 
  };
 
- const toTitleCase = (slug) => {
-  return slug.split("-").map(word => word.charAt(0).toUpperCase() + word.slice(1)).join(" ");
- };
+ 
 
  
  return (<div className="mtop15p">
