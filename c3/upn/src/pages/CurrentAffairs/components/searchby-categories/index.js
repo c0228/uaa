@@ -14,7 +14,30 @@ const DCASearchByCategories = () =>{
  const { category, subCategory } = useParams();
  const [appCacheData, setAppCacheData] = useState(); // App Cache Data
  const [apiResponseData, setApiResponseData] = useState(); // App Response Data
- const [pageData, setPageData] = useState();
+ const [activeNiche, setActiveNiche] = useState({ category: category || 'Art and Culture', subCategory: subCategory || 'Ancient India' }); 
+ const CategoryNicheHandler = (d) =>{
+    setActiveNiche({ category:d, subCategory: appCacheData?.cacheData?.niches?.[d][0]  })
+ };
+ const SubCategoryNicheHandler = (d) =>{
+    setActiveNiche({ category: activeNiche?.category, subCategory: d });
+ };
+ useEffect(()=>{
+    console.log("activeNiche: ", activeNiche);
+ },[activeNiche]);
+ const DisplayCategoryList = ({ data }) =>{
+    const k =  data ? Object.keys(data) : [];
+    return (<div className="mtop5p">
+     <Card padding={5} backgroundColor="#e1f2ff">
+        {k?.map((d,i)=>{
+            return (<div key={i} 
+                className={(activeNiche?.category===d)?"main-dca-category-item main-dca-category-item-active":"main-dca-category-item"} 
+                onClick={()=>CategoryNicheHandler(d)}>
+                <span>{d}</span>
+            </div>);
+        })}
+     </Card>
+    </div>);
+ };
  const ApiLoader = async() =>{
     callAPI(API_URL, (cacheData, apiResponse)=>{
             setAppCacheData(cacheData);   
@@ -23,6 +46,7 @@ const DCASearchByCategories = () =>{
         console.log("error [callAPI]: ", error);
     });
  };
+
  useEffect(()=>{
     ApiLoader();
  },[]);
@@ -70,20 +94,7 @@ const DCASearchByCategories = () =>{
   return slug.split("-").map(word => word.charAt(0).toUpperCase() + word.slice(1)).join(" ");
  };
 
- const DisplayCategoryList = ({ data }) =>{
-    const k = Object.keys(data);
-    return (<div className="mtop5p">
-     <Card padding={5} backgroundColor="#e1f2ff">
-        {k?.map((d,i)=>{
-            return (<div key={i} 
-                className={(activeCategory===d)?"main-dca-category-item main-dca-category-item-active":"main-dca-category-item"} 
-                onClick={()=>selectCategoryHandler(d)}>
-                <span>{d}</span>
-            </div>);
-        })}
-     </Card>
-    </div>);
- };
+ 
  return (<div className="mtop15p">
     <ContainerFluid>
       <Row>
@@ -118,6 +129,22 @@ const DCASearchByCategories = () =>{
  return (<div>
     <Header menulinks={HeaderMenu()} activeId="DailyCurrentAffairs" />
     <HeaderDCA data={apiResponseData?.kpis} />
+    <ContainerFluid>
+      <Row className="mtop15p">
+         <Col md={3}>
+            <div><h2><b>Categories</b></h2></div>
+            <DisplayCategoryList data={appCacheData?.cacheData?.niches} /> 
+         </Col>
+          <Col md={9}>
+            {appCacheData?.cacheData?.niches?.[activeNiche?.category]?.map((d,i)=>{
+                return (<span key={i} className="d-inline-block m-1" 
+                    onClick={()=>SubCategoryNicheHandler(d)}>
+                    <Button type={(activeNiche?.subCategory===d)?"primary":"outline-primary"} size={11}><b>{d}</b></Button>
+                </span>);
+            })}
+          </Col>
+      </Row>
+    </ContainerFluid>
  </div>);
 };
 
