@@ -9,20 +9,22 @@ import { AuthProvider } from "@Provider/AuthProvider.js";
 import PERMISSIONS from "@Permissions/index.js";
 import Authorization from "./Authorization.js";
 
+import MockSearchByCategories from "@ApiMock/searchbycategories.js";
+
 export const AppRouting = ()=>{
     return (<BrowserRouter basename="/">
       <AuthProvider>
        <Routes>
+          {/** Mock APIs URLs */}
+         <Route exact path="/mock/searchbycategories" element={<MockSearchByCategories/>} />
          <Route exact path="/" element={<Welcome/>} />
          <Route path='/Customer' element={<Authorization permissions={[PERMISSIONS.CUSTOMER]} />}>
             <Route path='MyDashboard' element={<Home />} />
          </Route>
          <Route exact path="/home" element={<Home/>} />
-         <Route exact path="/daily-current-affairs" element={<DCASearchByCategories />} />
          <Route exact path="/daily-current-affairs/search/:text" element={<CurrentAffairs />} />
          <Route exact path="/daily-current-affairs/search/:text/:date" element={<CurrentAffairs />} />
          <Route exact path="/daily-current-affairs/date/:date" element={<CurrentAffairs />} />
-         <Route exact path="/daily-current-affairs/list/:category" element={<DCASearchByCategories />} />
          <Route exact path="/daily-current-affairs/list/:category/:subCategory" element={<DCASearchByCategories />} />
        </Routes>
       </AuthProvider>

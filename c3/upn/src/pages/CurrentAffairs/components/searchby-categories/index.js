@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { useParams  } from "react-router-dom";
+import { useParams, useNavigate  } from "react-router-dom";
 import { ContainerFluid, Row, Col, Menu, Card, Button } from "e-ui-react";
 import Header from '@Templates/Header/index.js';
 import { HeaderMenu } from '@AppRoutes/NavbarList.js';
@@ -9,21 +9,61 @@ import Pagination from "@Components/pagination/index.js";
 import { callAPI } from "@Services/ApiManager.js";
 import { getAPIUrl } from "@ApiRoutes/DcaUrls.js";
 
+/***
+ * =================================================
+ *  STEPS:
+ * =================================================
+ * 1) /daily-current-affairs/:category/:subCategory should first get categories and then subcategories.
+ * 2) 
+ */
+const toTitleCase = (slug) => {
+  const lowerCaseWords = ["and", "or", "in", "of", "to", "for", "on", "at", "by"];
+  return slug
+    ?.split("-")
+    .map((word, index) => {
+      const lowerWord = word.toLowerCase();
+      if (index > 0 && lowerCaseWords.includes(lowerWord)) {
+        return lowerWord;
+      }
+      return lowerWord.charAt(0).toUpperCase() + lowerWord.slice(1);
+    })
+    .join(" ");
+};
+
+const toSlug = (title) => {
+  return title
+    ?.trim()
+    .toLowerCase()
+    .replace(/\s+/g, "-");
+};
+
 const DCASearchByCategories = () =>{
- const { category, subCategory } = useParams();
+ const navigate = useNavigate();
+ const { category, subCategory } = useParams(); // Receives category and subCategories
  const [appCacheData, setAppCacheData] = useState(); // App Cache Data
  const [apiResponseData, setApiResponseData] = useState(); // App Response Data
- const [activeNiche, setActiveNiche] = useState(); 
+ const [activeNiche, setActiveNiche] = useState({ category: toTitleCase(category), subCategory: toTitleCase(subCategory) }); 
  const [currentPageIndex, setCurrentPageIndex] = useState(1);
- const toTitleCase = (slug) => {
-  return slug?.split("-").map(word => word.charAt(0).toUpperCase() + word.slice(1)).join(" ");
- };
  const CategoryNicheHandler = (d) =>{
-    setActiveNiche({ category:d, subCategory: appCacheData?.cacheData?.niches?.[d]?.[0]  })
+  //  setActiveNiche({ category:d, subCategory: appCacheData?.cacheData?.niches?.[d]?.[0]  })
+   console.log("d: ", d, "appCacheData?.cacheData?.niches?.[d]?.[0]: ", appCacheData?.cacheData?.niches?.[d]?.[0]);
+   window.location.href = process.env.PROJECT_URL+"daily-current-affairs/list/"
+        +toSlug(d)+"/"+toSlug(appCacheData?.cacheData?.niches?.[d]?.[0]);
  };
  const SubCategoryNicheHandler = (d) =>{
     setActiveNiche({ category: activeNiche?.category, subCategory: d });
  };
+ const ApiLoader = async(category, subCategory, currentPageIndex) =>{
+    callAPI(getAPIUrl(category, subCategory, currentPageIndex), (cacheData, apiResponse)=>{
+            setAppCacheData(cacheData);   
+            setApiResponseData(apiResponse);   
+    },(error)=>{
+        console.log("error [callAPI]: ", error);
+    });
+ };
+ useEffect(()=>{
+    ApiLoader(category, subCategory, currentPageIndex);
+ },[category, subCategory, currentPageIndex]);
  useEffect(()=>{
     console.log("activeNiche: ", activeNiche);
  },[activeNiche]);
@@ -41,14 +81,7 @@ const DCASearchByCategories = () =>{
      </Card>
     </div>);
  };
- const ApiLoader = async(currentPageIndex) =>{
-    callAPI(getAPIUrl(currentPageIndex), (cacheData, apiResponse)=>{
-            setAppCacheData(cacheData);   
-            setApiResponseData(apiResponse);   
-    },(error)=>{
-        console.log("error [callAPI]: ", error);
-    });
- };
+ /*
  useEffect(()=>{
     const titleCategory = toTitleCase(category);
     console.log("titleCategory: ", titleCategory);
@@ -58,10 +91,7 @@ const DCASearchByCategories = () =>{
         subCategory: subCategory?toTitleCase(subCategory):appCacheData?.cacheData?.niches?.[titleCategory]?.[0]
     });
  },[appCacheData, apiResponseData]);
- useEffect(()=>{
-    ApiLoader(currentPageIndex);
- },[currentPageIndex]);
-
+ */
 
  /*const [loading, setLoading] = useState();
  const [activeCategory, setActiveCategory] = useState();
