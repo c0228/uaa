@@ -7,9 +7,9 @@
     "Exam Topics": "10"
   },
   "current":{
-    "totalCount": 1000,
+    "totalCount": 100,
     "pageSize":10,
-    "pageIndex":1,
+    "pageIndex":2,
     "category": "Art and Culture",
     "subCategory":"Ancient India",
     "data":[{

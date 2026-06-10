@@ -16,6 +16,7 @@ const DCASearchByCategories = () =>{
  const [appCacheData, setAppCacheData] = useState(); // App Cache Data
  const [apiResponseData, setApiResponseData] = useState(); // App Response Data
  const [activeNiche, setActiveNiche] = useState(); 
+ const [currentPageIndex, setCurrentPageIndex] = useState(1);
  const toTitleCase = (slug) => {
   return slug?.split("-").map(word => word.charAt(0).toUpperCase() + word.slice(1)).join(" ");
  };
@@ -154,15 +155,24 @@ const DCASearchByCategories = () =>{
             })}
             <Row>
                 <Col md={12}>
-                    <Pagination totalCount={20}
+                    <Pagination
+                        totalCount={1000}
+                        pageSize={10}
+                        currentPage={currentPageIndex}
+                        onPageChange={setCurrentPageIndex}
+                        visiblePages={5} />
+                   {/* <Pagination totalCount={20}
+                            pageSize={10}
+                            pageIndex={2}
                         // totalCount={apiResponseData?.current?.totalCount} 
-                        pageSize={apiResponseData?.current?.pageSize} 
-                        pageIndex={apiResponseData?.current?.pageIndex} />
+                       // pageSize={apiResponseData?.current?.pageSize} 
+                       // pageIndex={apiResponseData?.current?.pageIndex} 
+                    /> */}
                 </Col>
             </Row>
              <Row className="mtop15p">
                 {apiResponseData?.current?.data?.map((d,i)=>{
-                    return (<Col md={4}>
+                    return (<Col key={i} md={4}>
                         <DCADisplayCard index={i} data={d} category={activeNiche?.category} subCategory={activeNiche?.subCategory} />
                     </Col>)
                 })}
