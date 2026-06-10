@@ -2,14 +2,12 @@ import React, { useState, useEffect } from "react";
 import { useParams  } from "react-router-dom";
 import { ContainerFluid, Row, Col, Menu, Card, Button } from "e-ui-react";
 import Header from '@Templates/Header/index.js';
-import { HeaderMenu } from '@Routes/NavbarList.js';
+import { HeaderMenu } from '@AppRoutes/NavbarList.js';
 import HeaderDCA from "@Components/dca-header/index.js";
 import DCADisplayCard from "@Components/dca-display-card/index.js";
 import Pagination from "@Components/pagination/index.js";
 import { callAPI } from "@Services/ApiManager.js";
-import { use } from "react";
-
-const API_URL = process.env.PROJECT_URL+'static-data/data-dca-searchbycategories.json';
+import { getAPIUrl } from "@ApiRoutes/DcaUrls.js";
 
 const DCASearchByCategories = () =>{
  const { category, subCategory } = useParams();
@@ -43,8 +41,8 @@ const DCASearchByCategories = () =>{
      </Card>
     </div>);
  };
- const ApiLoader = async() =>{
-    callAPI(API_URL, (cacheData, apiResponse)=>{
+ const ApiLoader = async(currentPageIndex) =>{
+    callAPI(getAPIUrl(currentPageIndex), (cacheData, apiResponse)=>{
             setAppCacheData(cacheData);   
             setApiResponseData(apiResponse);   
     },(error)=>{
@@ -61,8 +59,8 @@ const DCASearchByCategories = () =>{
     });
  },[appCacheData, apiResponseData]);
  useEffect(()=>{
-    ApiLoader();
- },[]);
+    ApiLoader(currentPageIndex);
+ },[currentPageIndex]);
 
 
  /*const [loading, setLoading] = useState();
@@ -156,24 +154,17 @@ const DCASearchByCategories = () =>{
             <Row>
                 <Col md={12}>
                     <Pagination
-                        totalCount={1000}
-                        pageSize={10}
+                        totalCount={apiResponseData?.current?.totalCount}
+                        pageSize={apiResponseData?.current?.pageSize}
                         currentPage={currentPageIndex}
                         onPageChange={setCurrentPageIndex}
                         visiblePages={5} />
-                   {/* <Pagination totalCount={20}
-                            pageSize={10}
-                            pageIndex={2}
-                        // totalCount={apiResponseData?.current?.totalCount} 
-                       // pageSize={apiResponseData?.current?.pageSize} 
-                       // pageIndex={apiResponseData?.current?.pageIndex} 
-                    /> */}
                 </Col>
             </Row>
              <Row className="mtop15p">
                 {apiResponseData?.current?.data?.map((d,i)=>{
                     return (<Col key={i} md={4}>
-                        <DCADisplayCard index={i} data={d} category={activeNiche?.category} subCategory={activeNiche?.subCategory} />
+                        <DCADisplayCard index={i} data={d} category={apiResponseData?.current?.category} subCategory={apiResponseData?.current?.subCategory} />
                     </Col>)
                 })}
              </Row>

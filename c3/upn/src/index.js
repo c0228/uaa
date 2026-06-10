@@ -1,6 +1,6 @@
 import React from "react";
 import ContextProvider from 'e-ui-react';
-import  { AppRouting } from '@Routes/RoutePath.js';
+import  { AppRouting } from '@AppRoutes/RoutePath.js';
 import './index.css';
 
 import("react-dom/client").then((ReactDOM)=>{

@@ -1,7 +1,7 @@
 import React from "react";
 import { ContainerFluid, Row, Col, Card, Button  } from "e-ui-react";
 import Header from '@Templates/Header/index.js';
-import { HeaderMenu } from '@Routes/NavbarList.js';
+import { HeaderMenu } from '@AppRoutes/NavbarList.js';
 import UPSCPrepCard from './components/upsc-prep-card/index.js';
 import CurrentAffairsSection from './components/sec-current-affairs/index.js';
 import './index.css';
