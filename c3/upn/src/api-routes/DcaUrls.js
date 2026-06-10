@@ -1,5 +1,11 @@
 
 export const getAPIUrl = (category, subCategory, pageIndex) =>{
- return process.env.PROJECT_URL+'static-data/search-by-categories/'+
-        category+'/'+subCategory+'/data-dca-page-'+pageIndex+'.json';
+ return {
+    url: process.env.STUB_URL+'search-articles-by-categories',
+    method: 'GET',
+    headers: {
+        'Content-Type': 'application/json'
+      },
+    body: JSON.stringify({ category, subCategory, pageIndex })
+ }
 };
