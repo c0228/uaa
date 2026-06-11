@@ -2,4 +2,4 @@
 .main-dca-category-item:last-child { border-bottom: none; }
 .main-dca-category-item span { cursor:pointer; }
 .main-dca-category-item-active, .main-dca-category-item span:hover { font-weight: bold; }
-.main-dca-category-item-active { color:#004274; }
+.main-dca-category-item-active { color:#000; }

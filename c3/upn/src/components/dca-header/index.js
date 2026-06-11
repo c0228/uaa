@@ -11,14 +11,19 @@ const HeaderDCA = ({ text, date, data }) =>{
    setSearchDCAFormData(prev => ({...prev, [fieldName]: fieldValue }));
  };
  const searchDCAFormHandler = () =>{
-   setShowModal(true);
-   console.log("data", searchDCAFormData);
-   if(searchDCAFormData?.text?.length===0 && searchDCAFormData?.date?.length>0) { // CURRENT_AFFAIRS_BYDATE
-      navigate("/daily-current-affairs/date/"+searchDCAFormData?.date, { replace: true });
-   } else if(searchDCAFormData?.date?.length===0 && searchDCAFormData?.text?.length>0) { // CURRENT_AFFAIRS_BYTEXT
-      navigate("/daily-current-affairs/search/"+searchDCAFormData?.text, { replace: true });
-   } else if(searchDCAFormData?.date?.length>0 && searchDCAFormData?.text?.length>0) { // CURRENT_AFFAIRS_BYTEXTANDDATE
-      navigate("/daily-current-affairs/search/"+searchDCAFormData?.text+"/"+searchDCAFormData?.date, { replace: true });
+   const searchText = searchDCAFormData?.text ?? '';
+   const searchDate = searchDCAFormData?.date ?? '';
+   console.log("searchText: ", searchText, "searchDate: ", searchDate);
+   if(searchText?.length === 0 && searchDate?.length === 0){
+      setShowModal(true);
+   } else {
+      if(searchText?.length === 0 && searchDate?.length > 0){
+         window.location.href = process.env.PROJECT_URL+'daily-current-affairs/date/'+searchDate;
+      } else if(searchText?.length > 0 && searchDate?.length === 0){
+         window.location.href = process.env.PROJECT_URL+'daily-current-affairs/search/'+searchText;
+      } else if(searchText?.length > 0 && searchDate?.length > 0){
+         window.location.href= process.env.PROJECT_URL+'daily-current-affairs/search/'+searchText+'/'+searchDate;
+      }
    }
  };
  const resetDCAFormHandler = () =>{
