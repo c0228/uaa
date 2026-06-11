@@ -1,6 +1,6 @@
-import SearchByDateData from '#StaticData/data-dca-searchbydate.json'  with { type: 'json' };
+import SearchByDateData from '#StaticData/data-dca-searchbytextdate.json'  with { type: 'json' };
 
-export const getArticlesByDate = (req, res) => {
+export const getArticlesByTextDate = (req, res) => {
 /***
    * ================================================
    * API DATA
@@ -8,16 +8,17 @@ export const getArticlesByDate = (req, res) => {
    * URL: <PROJECT_URL>/search-articles-by-date
    * Method: POST
    * Input Requests:
-   *      1) date [Mandatory]
+   *      1) text or date or both [Mandatory]
    *      2) activeNiche [Optional]
    *      3) pageIndex [Mandatory]
    */
     try {
-       const { date, activeNiche, pageIndex } = req.body || {};
+       const { text, date, activeNiche, pageIndex } = req.body || {};
        const apiData = structuredClone(SearchByDateData);
 
        // Set Articles to selected Date
-       if(date){ apiData.details.searchDate = date; }
+       if(text?.length>0){ apiData.details.searchText = text; }
+       if(date?.length>0){ apiData.details.searchDate = date; }
 
        // Set activeNiche
        if(activeNiche?.length>0){ apiData.details.activeNiche = activeNiche; }

@@ -4,7 +4,7 @@ import Welcome from "@Pages/Welcome/index.js";
 import Home from "@Pages/Home/index.js";
 import CurrentAffairs from "@Pages/CurrentAffairs/index.js";
 import DCASearchByCategories from "@Pages/CurrentAffairs/components/searchby-categories/index.js";
-import DCASearchByDate from "@Pages/CurrentAffairs/components/searchby-date/index.js";
+import DCASearchByTextDate from "@Pages/CurrentAffairs/components/searchby-textdate/index.js";
 import Menu from "@Pages/Menu/index.js";
 import { AuthProvider } from "@Provider/AuthProvider.js";
 import PERMISSIONS from "@Permissions/index.js";
@@ -19,10 +19,10 @@ export const AppRouting = ()=>{
             <Route path='MyDashboard' element={<Home />} />
          </Route>
          <Route exact path="/home" element={<Home/>} />
-         <Route exact path="/daily-current-affairs/search/:text" element={<CurrentAffairs />} />
-         <Route exact path="/daily-current-affairs/search/:text/:slugDate" element={<CurrentAffairs />} />
+         <Route exact path="/daily-current-affairs/search/:slugText" element={<DCASearchByTextDate />} />
+         <Route exact path="/daily-current-affairs/search/:slugText/:slugDate" element={<DCASearchByTextDate />} />
          
-         <Route exact path="/daily-current-affairs/date/:slugDate" element={<DCASearchByDate />} />
+         <Route exact path="/daily-current-affairs/date/:slugDate" element={<DCASearchByTextDate />} />
          <Route exact path="/daily-current-affairs/list/:slugCategory/:slugSubCategory" element={<DCASearchByCategories />} />
        </Routes>
       </AuthProvider>

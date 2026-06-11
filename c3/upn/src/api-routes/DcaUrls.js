@@ -21,7 +21,7 @@ export const searchArticlesByCategoriesAPI = (category, subCategory, pageIndex) 
  }
 };
 
-export const searchArticlesByDateAPI = (date, activeNiche, pageIndex) =>{
+export const searchArticlesByTextDateAPI = (text, date, activeNiche, pageIndex) =>{
   /***
    * ================================================
    * API DATA
@@ -29,16 +29,16 @@ export const searchArticlesByDateAPI = (date, activeNiche, pageIndex) =>{
    * URL: <PROJECT_URL>/search-articles-by-date
    * Method: POST
    * Input Requests:
-   *      1) date [Mandatory]
+   *      1) text or date [Mandatory]
    *      2) activeNiche [Optional]
    *      3) pageIndex [Mandatory]
    */
   return {
-    url: process.env.STUB_URL+'search-articles-by-date',
+    url: process.env.STUB_URL+'search-articles-by-text-date',
     method: 'POST',
     headers: {
         'Content-Type': 'application/json'
     },
-    body: { date, activeNiche, pageIndex }
+    body: { text, date, activeNiche, pageIndex }
   };
 };
