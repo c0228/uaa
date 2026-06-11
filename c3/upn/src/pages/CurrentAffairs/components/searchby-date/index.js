@@ -16,14 +16,17 @@ const DCASearchByDate = () => {
   const [apiResponseData, setApiResponseData] = useState(); // App Response Data
   const [activeNiche, setActiveNiche] = useState(''); 
   const [currentPageIndex, setCurrentPageIndex] = useState(1);
-  const ApiLoader = async(date, pageIndex) =>{
-    callAPI(searchArticlesByDateAPI(date, pageIndex), (cacheData, apiResponse)=>{
+  const ApiLoader = async(date, activeNiche, pageIndex) =>{
+    callAPI(searchArticlesByDateAPI(date, activeNiche, pageIndex), (cacheData, apiResponse)=>{
         setAppCacheData(cacheData);   
         setApiResponseData(apiResponse);  
         setActiveNiche(apiResponse.details.activeNiche); 
     },(error)=>{
         console.log("error [callAPI]: ", error);
     });
+  };
+  const NicheHandler = (niche) =>{
+    ApiLoader(slugDate, niche, currentPageIndex);
   };
   const ArticlesDisplay = () =>{
     const [category, subCategory] = activeNiche.split(" / ");
@@ -38,7 +41,7 @@ const DCASearchByDate = () => {
     </div>);
   };
   useEffect(()=>{
-    ApiLoader(slugDate, currentPageIndex);
+    ApiLoader(slugDate, activeNiche, currentPageIndex);
   },[slugDate, currentPageIndex]);
   return (<div>
     <Header menulinks={HeaderMenu()} activeId="DailyCurrentAffairs" />
@@ -58,7 +61,7 @@ const DCASearchByDate = () => {
                 {apiResponseData?.details?.nicheList?.map((n,i)=>{
                     return (<span key={i} className="d-inline-block m-1">
                     <Button type={(n?.item === activeNiche)?"primary":"outline-primary"}
-                        size={11} onClick={() => setActiveNiche(n?.item)}>
+                        size={11} onClick={() => NicheHandler(n?.item)}>
                             <b>{n?.item} ({n?.count})</b>
                     </Button>
                 </span>);
