@@ -1,6 +1,6 @@
 import { getStorage, setStorage, getAllStorage } from "@Utils/LocalStorageManager.js";
 
-const CACHE_URL = process.env.PROJECT_URL+'static-data/data-app-cache.json';
+const CACHE_URL = process.env.STUB_URL+'app/cache';
 
 export const CacheSyncprocess = (apiCacheVersion, callBack) =>{
 /***

@@ -201,6 +201,16 @@ const DCASearchByCategories = () =>{
                     </Col>)
                 })}
              </Row>
+             <Row>
+                <Col md={12}>
+                    <Pagination
+                        totalCount={apiResponseData?.current?.totalCount}
+                        pageSize={apiResponseData?.current?.pageSize}
+                        currentPage={currentPageIndex}
+                        onPageChange={setCurrentPageIndex}
+                        visiblePages={5} />
+                </Col>
+            </Row>
           </Col>
       </Row>
     </ContainerFluid>
