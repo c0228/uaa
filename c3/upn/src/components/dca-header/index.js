@@ -22,6 +22,9 @@ const HeaderDCA = ({ text, date, data }) =>{
  const resetDCAFormHandler = () =>{
    setSearchDCAFormData({ text:'', date:'' });
  };
+ useEffect(()=>{
+   console.log("searchDCAFormData: ", searchDCAFormData);
+ },[searchDCAFormData]);
  const DailyStatistics = ({ data }) =>{
    const k = Object.keys(data || {});
    return (<div style={{ display:'flex' }}>
