@@ -5,13 +5,13 @@ export const getArticlesByNiches = (req, res) => {
        const { category, subCategory, pageIndex } = req.body || {};
        const apiData = structuredClone(SearchByCategoriesData);
 
-        apiData.current.category = category;
-        apiData.current.subCategory = subCategory;
-        apiData.current.pageIndex = pageIndex;
+        apiData.details.category = category;
+        apiData.details.subCategory = subCategory;
+        apiData.details.pageIndex = pageIndex;
         
-        console.log("apiData?.current?.data?.length: ", apiData?.current?.data?.length);
-        for(let i=0;i<apiData?.current?.data?.length;i++){
-            apiData.current.data[i].title = apiData?.current?.data[i].title+' Page - '+pageIndex;
+        console.log("apiData?.details?.data?.length: ", apiData?.details?.data?.length);
+        for(let i=0;i<apiData?.details?.data?.length;i++){
+            apiData.details.data[i].title = apiData?.details?.data[i].title+' Page - '+pageIndex;
         }
 
         res.json(apiData);

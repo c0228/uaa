@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { Row, Col } from "e-ui-react";
 
 const Pagination = ({
@@ -35,55 +35,6 @@ const Pagination = ({
      * Page 100:
      * 1 ... 96 97 98 99 100
      */
-    /*
-    const getPagesList = () => {
-
-        const pages = [];
-
-        if (totalPages <= visiblePages + 2) {
-            for (let i = 1; i <= totalPages; i++) {
-                pages.push(i);
-            }
-            return pages;
-        }
-
-        const half = Math.floor(visiblePages / 2);
-
-        let start = currentPage - half;
-        let end = currentPage + half;
-
-        // Beginning pages
-        if (start <= 2) {
-            start = 2;
-            end = start + visiblePages - 1;
-        }
-
-        // Ending pages
-        if (end >= totalPages - 1) {
-            end = totalPages - 1;
-            start = end - visiblePages + 1;
-        }
-
-        pages.push(1);
-
-        if (start > 2) {
-            pages.push("...");
-        }
-
-        for (let i = start; i <= end; i++) {
-            pages.push(i);
-        }
-
-        if (end < totalPages - 1) {
-            pages.push("...");
-        }
-
-        pages.push(totalPages);
-
-        console.log("pages:", pages);
-        return pages;
-    };
-    */
     /**
      * Generate Pagination Numbers Safely
      */
@@ -135,6 +86,7 @@ const Pagination = ({
         // 5. Always push the last page
         pages.push(totalPages);
 
+        console.log("pages: ", pages);
         return pages;
     };
     
@@ -154,10 +106,9 @@ const Pagination = ({
         }
     };
 
-    if (totalPages <= 1) {
+    if (!totalCount || !pageSize || totalCount <= 0) {
         return null;
     }
-
     return (
         <Row>
             <Col md={6}>

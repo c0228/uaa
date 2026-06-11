@@ -10,13 +10,13 @@ export const searchArticlesByCategoriesAPI = (category, subCategory, pageIndex) 
  }
 };
 
-export const searchArticlesByDateAPI = (date) =>{
+export const searchArticlesByDateAPI = (date, pageIndex) =>{
   return {
     url: process.env.STUB_URL+'search-articles-by-date',
     method: 'POST',
     headers: {
         'Content-Type': 'application/json'
     },
-    body: { date }
+    body: { date, pageIndex }
   };
 };

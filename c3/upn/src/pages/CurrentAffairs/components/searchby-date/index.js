@@ -8,48 +8,29 @@ import DCADisplayCard from "@Components/dca-display-card/index.js";
 import { callAPI } from "@Services/ApiManager.js";
 import { searchArticlesByDateAPI } from "@ApiRoutes/DcaUrls.js";
 import { formatDate } from "@Utils/DateFormatUtils.js";
+import Pagination from "@Components/pagination/index.js";
 
 const DCASearchByDate = () => {
   const { slugDate } = useParams(); // Receives Date
   const [appCacheData, setAppCacheData] = useState(); // App Cache Data
   const [apiResponseData, setApiResponseData] = useState(); // App Response Data
-  const [nicheList, setNicheList] = useState([]);
   const [activeNiche, setActiveNiche] = useState(''); 
-  const ApiLoader = async(date) =>{
-    callAPI(searchArticlesByDateAPI(date), (cacheData, apiResponse)=>{
-        InitialSetup(apiResponse, slugDate);
+  const [currentPageIndex, setCurrentPageIndex] = useState(1);
+  const ApiLoader = async(date, pageIndex) =>{
+    callAPI(searchArticlesByDateAPI(date, pageIndex), (cacheData, apiResponse)=>{
         setAppCacheData(cacheData);   
-        setApiResponseData(apiResponse);   
+        setApiResponseData(apiResponse);  
+        setActiveNiche(apiResponse.details.activeNiche); 
     },(error)=>{
         console.log("error [callAPI]: ", error);
     });
   };
-  const InitialSetup = (apiResponseData, slugDate) =>{
-    const categoriesData = apiResponseData?.[slugDate];
-    const categories = (categoriesData)? Object.keys(categoriesData) : [];
-    let nicheData = []
-    categories?.map((category,i1)=>{
-        const subCategoriesData = categoriesData?.[category];
-        const subCategories = (subCategoriesData)? Object.keys(subCategoriesData) : [];
-        subCategories?.map((subCategory,i2)=>{
-            if(activeNiche?.length===0 && i1 === 0 && i2 === 0){
-                setActiveNiche(`${category} / ${subCategory}`);
-            }
-            nicheData.push({
-                item: `${category} / ${subCategory}`,
-                count: subCategoriesData?.[subCategory]?.length
-            });
-        });
-    })
-    setNicheList(nicheData);
-  };
   const ArticlesDisplay = () =>{
     const [category, subCategory] = activeNiche.split(" / ");
-    const articles = apiResponseData?.[slugDate]?.[category]?.[subCategory];
     return (<div className="mtop15p">
         <Row>
-        {articles?.map((article,index)=>{
-            return (<Col md={4}>
+        {apiResponseData?.details?.data?.map((article,index)=>{
+            return (<Col key={index} md={4}>
                <DCADisplayCard index={index} data={article} category={category} subCategory={subCategory} /> 
             </Col>);
         })}
@@ -57,8 +38,8 @@ const DCASearchByDate = () => {
     </div>);
   };
   useEffect(()=>{
-    ApiLoader(slugDate);
-  },[slugDate]);
+    ApiLoader(slugDate, currentPageIndex);
+  },[slugDate, currentPageIndex]);
   return (<div>
     <Header menulinks={HeaderMenu()} activeId="DailyCurrentAffairs" />
     <HeaderDCA date={slugDate} data={apiResponseData?.kpis} />
@@ -74,7 +55,7 @@ const DCASearchByDate = () => {
         </Row>
         <Row>
             <Col md={12}>
-                {nicheList?.map((n,i)=>{
+                {apiResponseData?.details?.nicheList?.map((n,i)=>{
                     return (<span key={i} className="d-inline-block m-1">
                     <Button type={(n?.item === activeNiche)?"primary":"outline-primary"}
                         size={11} onClick={() => setActiveNiche(n?.item)}>
@@ -85,6 +66,13 @@ const DCASearchByDate = () => {
             </Col>
         </Row>
         <ArticlesDisplay />
+        <Row>
+            <Col md={12}>
+            {apiResponseData?.details?.totalCount > 0 && (
+                <Pagination totalCount={apiResponseData?.details?.totalCount} pageSize={apiResponseData?.details?.pageSize}
+                    currentPage={currentPageIndex} onPageChange={setCurrentPageIndex} visiblePages={5} />)}
+            </Col>
+        </Row>
     </ContainerFluid>
     </div>
   </div>);

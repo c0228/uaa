@@ -7,9 +7,7 @@ export const getArticlesByDate = (req, res) => {
 
        // Set Articles to selected Date
        if(date){
-        const articles = apiData?.["2026-06-05"];
-        delete apiData["2026-06-05"];
-        apiData[date] = articles;
+        apiData.details.searchDate = date;
        }
 
        res.json(apiData);

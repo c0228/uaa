@@ -6,7 +6,7 @@
     "Important Issues": "28",
     "Exam Topics": "10"
   },
-  "current":{
+  "details":{
     "totalCount": 1000,
     "pageSize":10,
     "pageIndex":1,

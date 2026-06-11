@@ -116,27 +116,27 @@ const DCASearchByCategories = () =>{
             <Row>
                 <Col md={12}>
                     <Pagination
-                        totalCount={apiResponseData?.current?.totalCount}
-                        pageSize={apiResponseData?.current?.pageSize}
+                        totalCount={apiResponseData?.details?.totalCount}
+                        pageSize={apiResponseData?.details?.pageSize}
                         currentPage={currentPageIndex}
                         onPageChange={setCurrentPageIndex}
                         visiblePages={5} />
                 </Col>
             </Row>
              <Row className="mtop15p">
-                {apiResponseData?.current?.data?.map((d,i)=>{
+                {apiResponseData?.details?.data?.map((d,i)=>{
                     return (<Col key={i} md={4}>
                         <DCADisplayCard index={i} data={d} 
-                            category={apiResponseData?.current?.category} 
-                            subCategory={apiResponseData?.current?.subCategory} />
+                            category={apiResponseData?.details?.category} 
+                            subCategory={apiResponseData?.details?.subCategory} />
                     </Col>)
                 })}
              </Row>
              <Row>
                 <Col md={12}>
                     <Pagination
-                        totalCount={apiResponseData?.current?.totalCount}
-                        pageSize={apiResponseData?.current?.pageSize}
+                        totalCount={apiResponseData?.details?.totalCount}
+                        pageSize={apiResponseData?.details?.pageSize}
                         currentPage={currentPageIndex}
                         onPageChange={setCurrentPageIndex}
                         visiblePages={5} />
