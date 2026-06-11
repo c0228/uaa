@@ -17,6 +17,7 @@ import { getAPIUrl } from "@ApiRoutes/DcaUrls.js";
  * 2) 
  */
 const toTitleCase = (slug) => {
+  slug = decodeURIComponent(slug);
   const lowerCaseWords = ["and", "or", "in", "of", "to", "for", "on", "at", "by"];
   return slug
     ?.split("-")
@@ -31,10 +32,12 @@ const toTitleCase = (slug) => {
 };
 
 const toSlug = (title) => {
-  return title
-    ?.trim()
-    .toLowerCase()
-    .replace(/\s+/g, "-");
+  return encodeURIComponent(
+    title
+      ?.trim()
+      .toLowerCase()
+      .replace(/\s+/g, "-")
+  );
 };
 
 const DCASearchByCategories = () =>{

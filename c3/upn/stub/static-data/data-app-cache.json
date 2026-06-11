@@ -1,5 +1,5 @@
 {
-"cacheVersion": 1,
+"cacheVersion": 4,
 "cacheData":{
  "niches":{
     "Art and Culture": ["Ancient India","Medieval India","Modern Indian Culture","Architecture","Sculpture","Paintings","Dance Forms","Music","Theatre","Literature",
@@ -16,7 +16,7 @@
         "Election Laws","Important Debates"],
     "Judiciary": ["Supreme Court","High Courts","Tribunals","Judicial Reforms","Important Judgments","Judicial Appointments","Constitutional Interpretation",
         "Public Interest Litigation","Legal Developments","Access to Justice"],
-    "Social Justice": ["Women","Children","SC/ST","OBC","Minorities","Senior Citizens","Persons with Disabilities","Poverty and Inequality","Nutrition","Social Welfare"],
+    "Social Justice": ["Women","Children","SC & ST","OBC","Minorities","Senior Citizens","Persons with Disabilities","Poverty and Inequality","Nutrition","Social Welfare"],
     "Government Schemes": ["Central Sector Schemes","Centrally Sponsored Schemes","Flagship Programmes","Welfare Schemes","Rural Development","Urban Development",
         "Skill Development","Digital India","Financial Inclusion","Housing Schemes"],
     "Economy": ["GDP","Inflation","Budget","Economic Survey","Fiscal Policy","Monetary Policy","Taxation","Employment","Trade","Economic Reforms"],

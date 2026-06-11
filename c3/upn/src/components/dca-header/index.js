@@ -1,8 +1,9 @@
 import React, { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
-import { ContainerFluid, Row, Col, Card, TextBox, DateTimePicker, Button, Form, Tab, Icon } from "e-ui-react";
+import { ContainerFluid, Row, Col, Card, TextBox, DateTimePicker, Button, Form, Tab, Icon, Modal } from "e-ui-react";
 
 const HeaderDCA = ({ text, date, data }) =>{
+ const [ showModel, setShowModal ] = useState(false);
  const [searchDCAFormData, setSearchDCAFormData] = useState({ text:text, date: date });
  const navigate = useNavigate();
  const searchDCAFormFieldHandler = (fieldName, fieldValue ) =>{
@@ -10,6 +11,7 @@ const HeaderDCA = ({ text, date, data }) =>{
    setSearchDCAFormData(prev => ({...prev, [fieldName]: fieldValue }));
  };
  const searchDCAFormHandler = () =>{
+   setShowModal(true);
    console.log("data", searchDCAFormData);
    if(searchDCAFormData?.text?.length===0 && searchDCAFormData?.date?.length>0) { // CURRENT_AFFAIRS_BYDATE
       navigate("/daily-current-affairs/date/"+searchDCAFormData?.date, { replace: true });
@@ -40,7 +42,14 @@ const HeaderDCA = ({ text, date, data }) =>{
       })}
    </div>);
  };
- return (<div style={{ backgroundColor:'#f8ffb2', paddingTop:'15px', paddingBottom:'15px', 
+ return (<div>
+ <Modal title="Search Criteria Required" show={showModel} onClose={setShowModal}
+   colorConfig={{ header: { backgroundColor:'#eee' } }}>
+   <div className="pad15p"><i>Please enter at least <b><u>one search criterion</u></b> to continue. You can search 
+      using a <b><u>keyword</u></b> or <b><u>select a date</u></b>, 
+      or <b><u>apply both</u></b> keyword and date before clicking <b>"Search Current Affairs"</b>.</i></div>
+ </Modal>
+ <div style={{ backgroundColor:'#f8ffb2', paddingTop:'15px', paddingBottom:'15px', 
     borderTop:'1px solid #ccc', borderBottom:'1px solid #ccc' }}>
     <ContainerFluid>
         <Row>
@@ -76,6 +85,7 @@ const HeaderDCA = ({ text, date, data }) =>{
             </Col>
         </Row>
     </ContainerFluid>
+ </div>
  </div>);
 };
 
