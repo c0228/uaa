@@ -4,3 +4,10 @@
 h1 { font-size:26px; }
 h2 { font-size:22px; }
 .h1-subtitle { font-size:18px; }
+
+
+.main-dca-category-item { padding: 5px;border-bottom: 1px solid #ccc; }
+.main-dca-category-item:last-child { border-bottom: none; }
+.main-dca-category-item span { cursor:pointer; }
+.main-dca-category-item-active, .main-dca-category-item span:hover { font-weight: bold; }
+.main-dca-category-item-active { color:#000; }
