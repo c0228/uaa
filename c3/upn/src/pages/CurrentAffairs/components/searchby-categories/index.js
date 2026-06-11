@@ -16,6 +16,7 @@ import { getAPIUrl } from "@ApiRoutes/DcaUrls.js";
  * 1) /daily-current-affairs/:category/:subCategory should first get categories and then subcategories.
  * 2) 
  */
+/*
 const toTitleCase = (slug) => {
   slug = decodeURIComponent(slug);
   const lowerCaseWords = ["and", "or", "in", "of", "to", "for", "on", "at", "by"];
@@ -39,23 +40,25 @@ const toSlug = (title) => {
       .replace(/\s+/g, "-")
   );
 };
+*/
 
 const DCASearchByCategories = () =>{
  const navigate = useNavigate();
- const { category, subCategory } = useParams(); // Receives category and subCategories
+ const { slugCategory, slugSubCategory } = useParams(); // Receives category and subCategories
  const [appCacheData, setAppCacheData] = useState(); // App Cache Data
  const [apiResponseData, setApiResponseData] = useState(); // App Response Data
- const [activeNiche, setActiveNiche] = useState({ category: toTitleCase(category), subCategory: toTitleCase(subCategory) }); 
+ const [activeNiche, setActiveNiche] = useState({ category: slugCategory, subCategory: slugSubCategory }); 
  const [currentPageIndex, setCurrentPageIndex] = useState(1);
+ 
+ 
  const CategoryNicheHandler = (d) =>{
-  //  setActiveNiche({ category:d, subCategory: appCacheData?.cacheData?.niches?.[d]?.[0]  })
-   console.log("d: ", d, "appCacheData?.cacheData?.niches?.[d]?.[0]: ", appCacheData?.cacheData?.niches?.[d]?.[0]);
+   const subcategories = Object.keys(appCacheData?.cacheData?.niches?.[d]?.subcategories);
    window.location.href = process.env.PROJECT_URL+"daily-current-affairs/list/"
-        +toSlug(d)+"/"+toSlug(appCacheData?.cacheData?.niches?.[d]?.[0]);
+       +d+"/"+subcategories?.[0];
  };
  const SubCategoryNicheHandler = (d) =>{
     window.location.href = process.env.PROJECT_URL+"daily-current-affairs/list/"
-        +toSlug(activeNiche?.category)+"/"+toSlug(d);
+       +activeNiche?.category+"/"+d;
  };
  const ApiLoader = async(category, subCategory, currentPageIndex) =>{
     callAPI(getAPIUrl(category, subCategory, currentPageIndex), (cacheData, apiResponse)=>{
@@ -66,12 +69,13 @@ const DCASearchByCategories = () =>{
     });
  };
  useEffect(()=>{
-    ApiLoader(category, subCategory, currentPageIndex);
- },[category, subCategory, currentPageIndex]);
+    ApiLoader(slugCategory, slugSubCategory, currentPageIndex);
+ },[slugCategory, slugSubCategory, currentPageIndex]);
  useEffect(()=>{
     console.log("activeNiche: ", activeNiche);
  },[activeNiche]);
  const DisplayCategoryList = ({ data }) =>{
+    console.log("data [DisplayCategoryList]: ", data);
     const k =  data ? Object.keys(data) : [];
     return (<div className="mtop5p">
      <Card padding={5} backgroundColor="#e1f2ff">
@@ -79,11 +83,19 @@ const DCASearchByCategories = () =>{
             return (<div key={i} 
                 className={(activeNiche?.category===d)?"main-dca-category-item main-dca-category-item-active":"main-dca-category-item"} 
                 onClick={()=>CategoryNicheHandler(d)}>
-                <span>{d}</span>
+                <span>{data?.[d]?.label}</span>
             </div>);
         })}
      </Card>
     </div>);
+ };
+ const DisplaySubCategoryList = ({ data }) =>{
+    const k =  (data) ? Object.keys(data) : [];
+    return (k?.map((d,i)=>{
+        return (<span key={i} className="d-inline-block m-1" onClick={()=>SubCategoryNicheHandler(d)}>
+            <Button type={(activeNiche?.subCategory===d)?"primary":"outline-primary"} size={11}><b>{data?.[d]?.label}</b></Button>
+        </span>);
+    }));
  };
  return (<div>
     <Header menulinks={HeaderMenu()} activeId="DailyCurrentAffairs" />
@@ -95,12 +107,13 @@ const DCASearchByCategories = () =>{
             <DisplayCategoryList data={appCacheData?.cacheData?.niches} /> 
          </Col>
           <Col md={9}>
-            {appCacheData?.cacheData?.niches?.[activeNiche?.category]?.map((d,i)=>{
+            <DisplaySubCategoryList data={appCacheData?.cacheData?.niches?.[activeNiche?.category]?.subcategories} />
+            {/*appCacheData?.cacheData?.niches?.[activeNiche?.category]?.map((d,i)=>{
                 return (<span key={i} className="d-inline-block m-1" 
                     onClick={()=>SubCategoryNicheHandler(d)}>
                     <Button type={(activeNiche?.subCategory===d)?"primary":"outline-primary"} size={11}><b>{d}</b></Button>
                 </span>);
-            })}
+            })*/}
             <Row>
                 <Col md={12}>
                     <Pagination
@@ -115,8 +128,8 @@ const DCASearchByCategories = () =>{
                 {apiResponseData?.current?.data?.map((d,i)=>{
                     return (<Col key={i} md={4}>
                         <DCADisplayCard index={i} data={d} 
-                            category={toTitleCase(apiResponseData?.current?.category)} 
-                            subCategory={toTitleCase(apiResponseData?.current?.subCategory)} />
+                            category={apiResponseData?.current?.category} 
+                            subCategory={apiResponseData?.current?.subCategory} />
                     </Col>)
                 })}
              </Row>

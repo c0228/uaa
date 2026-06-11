@@ -1,53 +1,957 @@
 {
-"cacheVersion": 4,
-"cacheData":{
- "niches":{
-    "Art and Culture": ["Ancient India","Medieval India","Modern Indian Culture","Architecture","Sculpture","Paintings","Dance Forms","Music","Theatre","Literature",
-        "Festivals","Fairs","UNESCO Heritage","GI Tags","Cultural Institutions"],
-    "Ethics and Society": ["Ethical Issues","Human Values","Integrity","Aptitude","Probity in Governance","Accountability","Transparency","Emotional Intelligence",
-        "Civil Service Values","Case Studies","Social Issues","Gender Issues","Communal Harmony","Social Capital","Role Models"],
-    "Geography": ["Physical Geography","Indian Geography","World Geography","Geomorphology","Climatology","Oceanography","Rivers","Mountains","Natural Resources",
-        "Minerals","Agricultural Geography","Population Geography","Urbanization","Mapping and Places in News","Geographical Phenomena"],
-    "Polity and Governance":["Governance","Public Administration","E-Governance","Citizen Charters","Transparency and Accountability","Electoral Reforms","Federalism",
-        "Local Governance","Public Policy","Civil Services"],
-    "Constitution": ["Fundamental Rights","Directive Principles","Fundamental Duties","Constitutional Amendments","Constitutional Bodies","Non-Constitutional Bodies",
-        "Centre-State Relations","Emergency Provisions","Schedules","Constitutional Developments"],
-    "Parliament and Legislation": ["Parliament Sessions","Bills","Acts","Committees","Legislative Reforms","Private Member Bills","Ordinances","Parliamentary Procedures",
-        "Election Laws","Important Debates"],
-    "Judiciary": ["Supreme Court","High Courts","Tribunals","Judicial Reforms","Important Judgments","Judicial Appointments","Constitutional Interpretation",
-        "Public Interest Litigation","Legal Developments","Access to Justice"],
-    "Social Justice": ["Women","Children","SC & ST","OBC","Minorities","Senior Citizens","Persons with Disabilities","Poverty and Inequality","Nutrition","Social Welfare"],
-    "Government Schemes": ["Central Sector Schemes","Centrally Sponsored Schemes","Flagship Programmes","Welfare Schemes","Rural Development","Urban Development",
-        "Skill Development","Digital India","Financial Inclusion","Housing Schemes"],
-    "Economy": ["GDP","Inflation","Budget","Economic Survey","Fiscal Policy","Monetary Policy","Taxation","Employment","Trade","Economic Reforms"],
-    "Banking and Finance": ["RBI","Commercial Banks","Digital Payments","UPI","Financial Markets","Insurance","NBFCs","Financial Inclusion","Capital Markets","FinTech"],
-    "Agriculture": ["Crop Production","MSP","Agricultural Reforms","Irrigation","Food Processing","Organic Farming","Agricultural Exports","Agri-Tech","Livestock","Fisheries"],
-    "International Relations": ["Bilateral Relations","Multilateral Relations","Neighbourhood Policy","Act East Policy","Indo-Pacific","Strategic Partnerships",
-        "Diplomatic Visits","Global Summits","Treaties and Agreements","Diaspora Affairs"],
-    "International Organizations": ["United Nations","World Bank","IMF","WTO","WHO","BRICS","G20","SCO","ASEAN","Regional Organizations"],
-    "Security and Defence": ["Defence Exercises","Defence Procurement","Armed Forces","Military Technology","Defence Agreements","Border Security","Maritime Security",
-        "Cyber Security","Strategic Affairs","National Security"],
-    "Internal Security": ["Terrorism","Insurgency","Left Wing Extremism","Cyber Crime","Border Management","Organized Crime","Drug Trafficking","Money Laundering",
-        "Intelligence Agencies","Security Challenges"],
-    "Science and Technology": ["Emerging Technologies","Artificial Intelligence","Quantum Computing","Biotechnology","Nanotechnology","Robotics","Semiconductors",
-        "Research and Innovation","Digital Technology","Scientific Discoveries"],
-    "Space and Astronomy": ["ISRO Missions","Space Exploration","Satellites","Launch Vehicles","International Space Missions","Space Technology","Astronomy Discoveries",
-        "Planetary Science","Space Policy","Commercial Space Sector"],
-    "Environment and Ecology": ["Biodiversity","Protected Areas","Wildlife Conservation","Forests","Pollution","Environmental Governance","Conservation Initiatives",
-        "Species in News","Ecological Restoration","Environmental Reports"],
-    "Climate Change": ["UNFCCC","COP Meetings","Carbon Emissions","Net Zero","Renewable Energy","Climate Finance","Adaptation","Mitigation","Climate Reports",
-        "Global Climate Initiatives"],
-    "Disaster Management": ["NDMA","Natural Disasters","Cyclones","Floods","Earthquakes","Heat Waves","Disaster Preparedness","Disaster Response",
-        "Early Warning Systems","Resilience Building"],
-    "Health": ["Public Health","Disease Outbreaks","Vaccination","Healthcare Schemes","Medical Research","Nutrition","Mental Health",
-        "Health Infrastructure","Health Reports","WHO Initiatives"],
-    "Education": ["National Education Policy","School Education","Higher Education","Skill Development","Digital Education","Educational Reforms",
-        "Research Institutions","Literacy","Examinations","Education Reports"],
-    "Reports and Indices": ["Government Reports","Economic Reports","Environmental Reports","Health Reports","Education Reports","International Reports",
-        "Global Indices","India Rankings","NITI Aayog Reports","UN Reports","World Bank Reports","IMF Reports","Think Tank Reports","Survey Findings",
-        "Statistical Publications"],
-    "Awards, Persons and Obituaries": ["National Awards","International Awards","Civilian Awards","Sports Awards","Science Awards","Literary Awards",
-        "Important Personalities","Appointments","Resignations","Obituaries","Sports Personalities","Scientists","Artists & Authors","Political Leaders","Global Leaders"]
- }
-}
+  "cacheVersion": 5,
+  "cacheData": {
+    "niches": {
+      "art-and-culture": {
+        "label": "Art and Culture",
+        "subcategories": {
+          "ancient-india": {
+            "label": "Ancient India"
+          },
+          "medieval-india": {
+            "label": "Medieval India"
+          },
+          "modern-indian-culture": {
+            "label": "Modern Indian Culture"
+          },
+          "architecture": {
+            "label": "Architecture"
+          },
+          "sculpture": {
+            "label": "Sculpture"
+          },
+          "paintings": {
+            "label": "Paintings"
+          },
+          "dance-forms": {
+            "label": "Dance Forms"
+          },
+          "music": {
+            "label": "Music"
+          },
+          "theatre": {
+            "label": "Theatre"
+          },
+          "literature": {
+            "label": "Literature"
+          },
+          "festivals": {
+            "label": "Festivals"
+          },
+          "fairs": {
+            "label": "Fairs"
+          },
+          "unesco-heritage": {
+            "label": "UNESCO Heritage"
+          },
+          "gi-tags": {
+            "label": "GI Tags"
+          },
+          "cultural-institutions": {
+            "label": "Cultural Institutions"
+          }
+        }
+      },
+      "ethics-and-society": {
+        "label": "Ethics and Society",
+        "subcategories": {
+          "ethical-issues": {
+            "label": "Ethical Issues"
+          },
+          "human-values": {
+            "label": "Human Values"
+          },
+          "integrity": {
+            "label": "Integrity"
+          },
+          "aptitude": {
+            "label": "Aptitude"
+          },
+          "probity-in-governance": {
+            "label": "Probity in Governance"
+          },
+          "accountability": {
+            "label": "Accountability"
+          },
+          "transparency": {
+            "label": "Transparency"
+          },
+          "emotional-intelligence": {
+            "label": "Emotional Intelligence"
+          },
+          "civil-service-values": {
+            "label": "Civil Service Values"
+          },
+          "case-studies": {
+            "label": "Case Studies"
+          },
+          "social-issues": {
+            "label": "Social Issues"
+          },
+          "gender-issues": {
+            "label": "Gender Issues"
+          },
+          "communal-harmony": {
+            "label": "Communal Harmony"
+          },
+          "social-capital": {
+            "label": "Social Capital"
+          },
+          "role-models": {
+            "label": "Role Models"
+          }
+        }
+      },
+      "geography": {
+        "label": "Geography",
+        "subcategories": {
+          "physical-geography": {
+            "label": "Physical Geography"
+          },
+          "indian-geography": {
+            "label": "Indian Geography"
+          },
+          "world-geography": {
+            "label": "World Geography"
+          },
+          "geomorphology": {
+            "label": "Geomorphology"
+          },
+          "climatology": {
+            "label": "Climatology"
+          },
+          "oceanography": {
+            "label": "Oceanography"
+          },
+          "rivers": {
+            "label": "Rivers"
+          },
+          "mountains": {
+            "label": "Mountains"
+          },
+          "natural-resources": {
+            "label": "Natural Resources"
+          },
+          "minerals": {
+            "label": "Minerals"
+          },
+          "agricultural-geography": {
+            "label": "Agricultural Geography"
+          },
+          "population-geography": {
+            "label": "Population Geography"
+          },
+          "urbanization": {
+            "label": "Urbanization"
+          },
+          "mapping-and-places-in-news": {
+            "label": "Mapping and Places in News"
+          },
+          "geographical-phenomena": {
+            "label": "Geographical Phenomena"
+          }
+        }
+      },
+      "polity-and-governance": {
+        "label": "Polity and Governance",
+        "subcategories": {
+          "governance": {
+            "label": "Governance"
+          },
+          "public-administration": {
+            "label": "Public Administration"
+          },
+          "e-governance": {
+            "label": "E-Governance"
+          },
+          "citizen-charters": {
+            "label": "Citizen Charters"
+          },
+          "transparency-and-accountability": {
+            "label": "Transparency and Accountability"
+          },
+          "electoral-reforms": {
+            "label": "Electoral Reforms"
+          },
+          "federalism": {
+            "label": "Federalism"
+          },
+          "local-governance": {
+            "label": "Local Governance"
+          },
+          "public-policy": {
+            "label": "Public Policy"
+          },
+          "civil-services": {
+            "label": "Civil Services"
+          }
+        }
+      },
+      "constitution": {
+        "label": "Constitution",
+        "subcategories": {
+          "fundamental-rights": {
+            "label": "Fundamental Rights"
+          },
+          "directive-principles": {
+            "label": "Directive Principles"
+          },
+          "fundamental-duties": {
+            "label": "Fundamental Duties"
+          },
+          "constitutional-amendments": {
+            "label": "Constitutional Amendments"
+          },
+          "constitutional-bodies": {
+            "label": "Constitutional Bodies"
+          },
+          "non-constitutional-bodies": {
+            "label": "Non-Constitutional Bodies"
+          },
+          "centre-state-relations": {
+            "label": "Centre-State Relations"
+          },
+          "emergency-provisions": {
+            "label": "Emergency Provisions"
+          },
+          "schedules": {
+            "label": "Schedules"
+          },
+          "constitutional-developments": {
+            "label": "Constitutional Developments"
+          }
+        }
+      },
+      "parliament-and-legislation": {
+        "label": "Parliament and Legislation",
+        "subcategories": {
+          "parliament-sessions": {
+            "label": "Parliament Sessions"
+          },
+          "bills": {
+            "label": "Bills"
+          },
+          "acts": {
+            "label": "Acts"
+          },
+          "committees": {
+            "label": "Committees"
+          },
+          "legislative-reforms": {
+            "label": "Legislative Reforms"
+          },
+          "private-member-bills": {
+            "label": "Private Member Bills"
+          },
+          "ordinances": {
+            "label": "Ordinances"
+          },
+          "parliamentary-procedures": {
+            "label": "Parliamentary Procedures"
+          },
+          "election-laws": {
+            "label": "Election Laws"
+          },
+          "important-debates": {
+            "label": "Important Debates"
+          }
+        }
+      },
+      "judiciary": {
+        "label": "Judiciary",
+        "subcategories": {
+          "supreme-court": {
+            "label": "Supreme Court"
+          },
+          "high-courts": {
+            "label": "High Courts"
+          },
+          "tribunals": {
+            "label": "Tribunals"
+          },
+          "judicial-reforms": {
+            "label": "Judicial Reforms"
+          },
+          "important-judgments": {
+            "label": "Important Judgments"
+          },
+          "judicial-appointments": {
+            "label": "Judicial Appointments"
+          },
+          "constitutional-interpretation": {
+            "label": "Constitutional Interpretation"
+          },
+          "public-interest-litigation": {
+            "label": "Public Interest Litigation"
+          },
+          "legal-developments": {
+            "label": "Legal Developments"
+          },
+          "access-to-justice": {
+            "label": "Access to Justice"
+          }
+        }
+      },
+      "social-justice": {
+        "label": "Social Justice",
+        "subcategories": {
+          "women": {
+            "label": "Women"
+          },
+          "children": {
+            "label": "Children"
+          },
+          "sc-and-st": {
+            "label": "SC & ST"
+          },
+          "obc": {
+            "label": "OBC"
+          },
+          "minorities": {
+            "label": "Minorities"
+          },
+          "senior-citizens": {
+            "label": "Senior Citizens"
+          },
+          "persons-with-disabilities": {
+            "label": "Persons with Disabilities"
+          },
+          "poverty-and-inequality": {
+            "label": "Poverty and Inequality"
+          },
+          "nutrition": {
+            "label": "Nutrition"
+          },
+          "social-welfare": {
+            "label": "Social Welfare"
+          }
+        }
+      },
+      "government-schemes": {
+        "label": "Government Schemes",
+        "subcategories": {
+          "central-sector-schemes": {
+            "label": "Central Sector Schemes"
+          },
+          "centrally-sponsored-schemes": {
+            "label": "Centrally Sponsored Schemes"
+          },
+          "flagship-programmes": {
+            "label": "Flagship Programmes"
+          },
+          "welfare-schemes": {
+            "label": "Welfare Schemes"
+          },
+          "rural-development": {
+            "label": "Rural Development"
+          },
+          "urban-development": {
+            "label": "Urban Development"
+          },
+          "skill-development": {
+            "label": "Skill Development"
+          },
+          "digital-india": {
+            "label": "Digital India"
+          },
+          "financial-inclusion": {
+            "label": "Financial Inclusion"
+          },
+          "housing-schemes": {
+            "label": "Housing Schemes"
+          }
+        }
+      },
+      "economy": {
+        "label": "Economy",
+        "subcategories": {
+          "gdp": {
+            "label": "GDP"
+          },
+          "inflation": {
+            "label": "Inflation"
+          },
+          "budget": {
+            "label": "Budget"
+          },
+          "economic-survey": {
+            "label": "Economic Survey"
+          },
+          "fiscal-policy": {
+            "label": "Fiscal Policy"
+          },
+          "monetary-policy": {
+            "label": "Monetary Policy"
+          },
+          "taxation": {
+            "label": "Taxation"
+          },
+          "employment": {
+            "label": "Employment"
+          },
+          "trade": {
+            "label": "Trade"
+          },
+          "economic-reforms": {
+            "label": "Economic Reforms"
+          }
+        }
+      },
+      "banking-and-finance": {
+        "label": "Banking and Finance",
+        "subcategories": {
+          "rbi": {
+            "label": "RBI"
+          },
+          "commercial-banks": {
+            "label": "Commercial Banks"
+          },
+          "digital-payments": {
+            "label": "Digital Payments"
+          },
+          "upi": {
+            "label": "UPI"
+          },
+          "financial-markets": {
+            "label": "Financial Markets"
+          },
+          "insurance": {
+            "label": "Insurance"
+          },
+          "nbfcs": {
+            "label": "NBFCs"
+          },
+          "financial-inclusion": {
+            "label": "Financial Inclusion"
+          },
+          "capital-markets": {
+            "label": "Capital Markets"
+          },
+          "fintech": {
+            "label": "FinTech"
+          }
+        }
+      },
+      "agriculture": {
+        "label": "Agriculture",
+        "subcategories": {
+          "crop-production": {
+            "label": "Crop Production"
+          },
+          "msp": {
+            "label": "MSP"
+          },
+          "agricultural-reforms": {
+            "label": "Agricultural Reforms"
+          },
+          "irrigation": {
+            "label": "Irrigation"
+          },
+          "food-processing": {
+            "label": "Food Processing"
+          },
+          "organic-farming": {
+            "label": "Organic Farming"
+          },
+          "agricultural-exports": {
+            "label": "Agricultural Exports"
+          },
+          "agri-tech": {
+            "label": "Agri-Tech"
+          },
+          "livestock": {
+            "label": "Livestock"
+          },
+          "fisheries": {
+            "label": "Fisheries"
+          }
+        }
+      },
+      "international-relations": {
+        "label": "International Relations",
+        "subcategories": {
+          "bilateral-relations": {
+            "label": "Bilateral Relations"
+          },
+          "multilateral-relations": {
+            "label": "Multilateral Relations"
+          },
+          "neighbourhood-policy": {
+            "label": "Neighbourhood Policy"
+          },
+          "act-east-policy": {
+            "label": "Act East Policy"
+          },
+          "indo-pacific": {
+            "label": "Indo-Pacific"
+          },
+          "strategic-partnerships": {
+            "label": "Strategic Partnerships"
+          },
+          "diplomatic-visits": {
+            "label": "Diplomatic Visits"
+          },
+          "global-summits": {
+            "label": "Global Summits"
+          },
+          "treaties-and-agreements": {
+            "label": "Treaties and Agreements"
+          },
+          "diaspora-affairs": {
+            "label": "Diaspora Affairs"
+          }
+        }
+      },
+      "international-organizations": {
+        "label": "International Organizations",
+        "subcategories": {
+          "united-nations": {
+            "label": "United Nations"
+          },
+          "world-bank": {
+            "label": "World Bank"
+          },
+          "imf": {
+            "label": "IMF"
+          },
+          "wto": {
+            "label": "WTO"
+          },
+          "who": {
+            "label": "WHO"
+          },
+          "brics": {
+            "label": "BRICS"
+          },
+          "g20": {
+            "label": "G20"
+          },
+          "sco": {
+            "label": "SCO"
+          },
+          "asean": {
+            "label": "ASEAN"
+          },
+          "regional-organizations": {
+            "label": "Regional Organizations"
+          }
+        }
+      },
+      "security-and-defence": {
+        "label": "Security and Defence",
+        "subcategories": {
+          "defence-exercises": {
+            "label": "Defence Exercises"
+          },
+          "defence-procurement": {
+            "label": "Defence Procurement"
+          },
+          "armed-forces": {
+            "label": "Armed Forces"
+          },
+          "military-technology": {
+            "label": "Military Technology"
+          },
+          "defence-agreements": {
+            "label": "Defence Agreements"
+          },
+          "border-security": {
+            "label": "Border Security"
+          },
+          "maritime-security": {
+            "label": "Maritime Security"
+          },
+          "cyber-security": {
+            "label": "Cyber Security"
+          },
+          "strategic-affairs": {
+            "label": "Strategic Affairs"
+          },
+          "national-security": {
+            "label": "National Security"
+          }
+        }
+      },
+      "internal-security": {
+        "label": "Internal Security",
+        "subcategories": {
+          "terrorism": {
+            "label": "Terrorism"
+          },
+          "insurgency": {
+            "label": "Insurgency"
+          },
+          "left-wing-extremism": {
+            "label": "Left Wing Extremism"
+          },
+          "cyber-crime": {
+            "label": "Cyber Crime"
+          },
+          "border-management": {
+            "label": "Border Management"
+          },
+          "organized-crime": {
+            "label": "Organized Crime"
+          },
+          "drug-trafficking": {
+            "label": "Drug Trafficking"
+          },
+          "money-laundering": {
+            "label": "Money Laundering"
+          },
+          "intelligence-agencies": {
+            "label": "Intelligence Agencies"
+          },
+          "security-challenges": {
+            "label": "Security Challenges"
+          }
+        }
+      },
+      "science-and-technology": {
+        "label": "Science and Technology",
+        "subcategories": {
+          "emerging-technologies": {
+            "label": "Emerging Technologies"
+          },
+          "artificial-intelligence": {
+            "label": "Artificial Intelligence"
+          },
+          "quantum-computing": {
+            "label": "Quantum Computing"
+          },
+          "biotechnology": {
+            "label": "Biotechnology"
+          },
+          "nanotechnology": {
+            "label": "Nanotechnology"
+          },
+          "robotics": {
+            "label": "Robotics"
+          },
+          "semiconductors": {
+            "label": "Semiconductors"
+          },
+          "research-and-innovation": {
+            "label": "Research and Innovation"
+          },
+          "digital-technology": {
+            "label": "Digital Technology"
+          },
+          "scientific-discoveries": {
+            "label": "Scientific Discoveries"
+          }
+        }
+      },
+      "space-and-astronomy": {
+        "label": "Space and Astronomy",
+        "subcategories": {
+          "isro-missions": {
+            "label": "ISRO Missions"
+          },
+          "space-exploration": {
+            "label": "Space Exploration"
+          },
+          "satellites": {
+            "label": "Satellites"
+          },
+          "launch-vehicles": {
+            "label": "Launch Vehicles"
+          },
+          "international-space-missions": {
+            "label": "International Space Missions"
+          },
+          "space-technology": {
+            "label": "Space Technology"
+          },
+          "astronomy-discoveries": {
+            "label": "Astronomy Discoveries"
+          },
+          "planetary-science": {
+            "label": "Planetary Science"
+          },
+          "space-policy": {
+            "label": "Space Policy"
+          },
+          "commercial-space-sector": {
+            "label": "Commercial Space Sector"
+          }
+        }
+      },
+      "environment-and-ecology": {
+        "label": "Environment and Ecology",
+        "subcategories": {
+          "biodiversity": {
+            "label": "Biodiversity"
+          },
+          "protected-areas": {
+            "label": "Protected Areas"
+          },
+          "wildlife-conservation": {
+            "label": "Wildlife Conservation"
+          },
+          "forests": {
+            "label": "Forests"
+          },
+          "pollution": {
+            "label": "Pollution"
+          },
+          "environmental-governance": {
+            "label": "Environmental Governance"
+          },
+          "conservation-initiatives": {
+            "label": "Conservation Initiatives"
+          },
+          "species-in-news": {
+            "label": "Species in News"
+          },
+          "ecological-restoration": {
+            "label": "Ecological Restoration"
+          },
+          "environmental-reports": {
+            "label": "Environmental Reports"
+          }
+        }
+      },
+      "climate-change": {
+        "label": "Climate Change",
+        "subcategories": {
+          "unfccc": {
+            "label": "UNFCCC"
+          },
+          "cop-meetings": {
+            "label": "COP Meetings"
+          },
+          "carbon-emissions": {
+            "label": "Carbon Emissions"
+          },
+          "net-zero": {
+            "label": "Net Zero"
+          },
+          "renewable-energy": {
+            "label": "Renewable Energy"
+          },
+          "climate-finance": {
+            "label": "Climate Finance"
+          },
+          "adaptation": {
+            "label": "Adaptation"
+          },
+          "mitigation": {
+            "label": "Mitigation"
+          },
+          "climate-reports": {
+            "label": "Climate Reports"
+          },
+          "global-climate-initiatives": {
+            "label": "Global Climate Initiatives"
+          }
+        }
+      },
+      "disaster-management": {
+        "label": "Disaster Management",
+        "subcategories": {
+          "ndma": {
+            "label": "NDMA"
+          },
+          "natural-disasters": {
+            "label": "Natural Disasters"
+          },
+          "cyclones": {
+            "label": "Cyclones"
+          },
+          "floods": {
+            "label": "Floods"
+          },
+          "earthquakes": {
+            "label": "Earthquakes"
+          },
+          "heat-waves": {
+            "label": "Heat Waves"
+          },
+          "disaster-preparedness": {
+            "label": "Disaster Preparedness"
+          },
+          "disaster-response": {
+            "label": "Disaster Response"
+          },
+          "early-warning-systems": {
+            "label": "Early Warning Systems"
+          },
+          "resilience-building": {
+            "label": "Resilience Building"
+          }
+        }
+      },
+      "health": {
+        "label": "Health",
+        "subcategories": {
+          "public-health": {
+            "label": "Public Health"
+          },
+          "disease-outbreaks": {
+            "label": "Disease Outbreaks"
+          },
+          "vaccination": {
+            "label": "Vaccination"
+          },
+          "healthcare-schemes": {
+            "label": "Healthcare Schemes"
+          },
+          "medical-research": {
+            "label": "Medical Research"
+          },
+          "nutrition": {
+            "label": "Nutrition"
+          },
+          "mental-health": {
+            "label": "Mental Health"
+          },
+          "health-infrastructure": {
+            "label": "Health Infrastructure"
+          },
+          "health-reports": {
+            "label": "Health Reports"
+          },
+          "who-initiatives": {
+            "label": "WHO Initiatives"
+          }
+        }
+      },
+      "education": {
+        "label": "Education",
+        "subcategories": {
+          "national-education-policy": {
+            "label": "National Education Policy"
+          },
+          "school-education": {
+            "label": "School Education"
+          },
+          "higher-education": {
+            "label": "Higher Education"
+          },
+          "skill-development": {
+            "label": "Skill Development"
+          },
+          "digital-education": {
+            "label": "Digital Education"
+          },
+          "educational-reforms": {
+            "label": "Educational Reforms"
+          },
+          "research-institutions": {
+            "label": "Research Institutions"
+          },
+          "literacy": {
+            "label": "Literacy"
+          },
+          "examinations": {
+            "label": "Examinations"
+          },
+          "education-reports": {
+            "label": "Education Reports"
+          }
+        }
+      },
+      "reports-and-indices": {
+        "label": "Reports and Indices",
+        "subcategories": {
+          "government-reports": {
+            "label": "Government Reports"
+          },
+          "economic-reports": {
+            "label": "Economic Reports"
+          },
+          "environmental-reports": {
+            "label": "Environmental Reports"
+          },
+          "health-reports": {
+            "label": "Health Reports"
+          },
+          "education-reports": {
+            "label": "Education Reports"
+          },
+          "international-reports": {
+            "label": "International Reports"
+          },
+          "global-indices": {
+            "label": "Global Indices"
+          },
+          "india-rankings": {
+            "label": "India Rankings"
+          },
+          "niti-aayog-reports": {
+            "label": "NITI Aayog Reports"
+          },
+          "un-reports": {
+            "label": "UN Reports"
+          },
+          "world-bank-reports": {
+            "label": "World Bank Reports"
+          },
+          "imf-reports": {
+            "label": "IMF Reports"
+          },
+          "think-tank-reports": {
+            "label": "Think Tank Reports"
+          },
+          "survey-findings": {
+            "label": "Survey Findings"
+          },
+          "statistical-publications": {
+            "label": "Statistical Publications"
+          }
+        }
+      },
+      "awards-persons-and-obituaries": {
+        "label": "Awards, Persons and Obituaries",
+        "subcategories": {
+          "national-awards": {
+            "label": "National Awards"
+          },
+          "international-awards": {
+            "label": "International Awards"
+          },
+          "civilian-awards": {
+            "label": "Civilian Awards"
+          },
+          "sports-awards": {
+            "label": "Sports Awards"
+          },
+          "science-awards": {
+            "label": "Science Awards"
+          },
+          "literary-awards": {
+            "label": "Literary Awards"
+          },
+          "important-personalities": {
+            "label": "Important Personalities"
+          },
+          "appointments": {
+            "label": "Appointments"
+          },
+          "resignations": {
+            "label": "Resignations"
+          },
+          "obituaries": {
+            "label": "Obituaries"
+          },
+          "sports-personalities": {
+            "label": "Sports Personalities"
+          },
+          "scientists": {
+            "label": "Scientists"
+          },
+          "artists-and-authors": {
+            "label": "Artists & Authors"
+          },
+          "political-leaders": {
+            "label": "Political Leaders"
+          },
+          "global-leaders": {
+            "label": "Global Leaders"
+          }
+        }
+      }
+    }
+  }
 }

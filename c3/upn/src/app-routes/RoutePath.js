@@ -21,7 +21,7 @@ export const AppRouting = ()=>{
          <Route exact path="/daily-current-affairs/search/:text" element={<CurrentAffairs />} />
          <Route exact path="/daily-current-affairs/search/:text/:date" element={<CurrentAffairs />} />
          <Route exact path="/daily-current-affairs/date/:date" element={<CurrentAffairs />} />
-         <Route exact path="/daily-current-affairs/list/:category/:subCategory" element={<DCASearchByCategories />} />
+         <Route exact path="/daily-current-affairs/list/:slugCategory/:slugSubCategory" element={<DCASearchByCategories />} />
        </Routes>
       </AuthProvider>
     </BrowserRouter>);
