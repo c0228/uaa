@@ -1,3 +1,4 @@
+import Appcache from '#StaticData/data-app-cache.json'  with { type: 'json' };
 import SearchByCategoriesData from '#StaticData/data-dca-searchbycategories.json'  with { type: 'json' };
 
 export const getArticlesByNiches = (req, res) => {
@@ -16,8 +17,10 @@ export const getArticlesByNiches = (req, res) => {
        const { category, subCategory, pageIndex } = req.body || {};
        const apiData = structuredClone(SearchByCategoriesData);
 
-        apiData.details.category = category;
-        apiData.details.subCategory = subCategory;
+       const niches = Appcache?.cacheData?.niches;
+
+        apiData.details.category =   niches?.[category]?.label;
+        apiData.details.subCategory =  niches?.[category]?.subcategories?.[subCategory].label;
         apiData.details.pageIndex = pageIndex;
         
         console.log("apiData?.details?.data?.length: ", apiData?.details?.data?.length);

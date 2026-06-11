@@ -107,12 +107,6 @@ const DCASearchByCategories = () =>{
          </Col>
           <Col md={9}>
             <DisplaySubCategoryList data={appCacheData?.cacheData?.niches?.[activeNiche?.category]?.subcategories} />
-            {/*appCacheData?.cacheData?.niches?.[activeNiche?.category]?.map((d,i)=>{
-                return (<span key={i} className="d-inline-block m-1" 
-                    onClick={()=>SubCategoryNicheHandler(d)}>
-                    <Button type={(activeNiche?.subCategory===d)?"primary":"outline-primary"} size={11}><b>{d}</b></Button>
-                </span>);
-            })*/}
             <Row>
                 <Col md={12}>
                     <Pagination
