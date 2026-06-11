@@ -14,7 +14,7 @@ const DCADisplayCard = ({ index, data, category, subCategory }) =>{
  const flavour = colorPalettes[index % colorPalettes.length];
  return (<div className="currentAffairs-article-card">
     <Card padding={15} backgroundColor={ARTICLE_CARD_COLORS?.[flavour]?.light}>
-        <Badge type={flavour} label={category+" / "+subCategory} size="12" style={{ marginRight:'5px' }} />
+        <Badge type={flavour} label={<b>{category+" / "+subCategory}</b>} size="12" style={{ marginRight:'5px' }} />
         <div className="mt-1"><h5 className="fw-bold">{data?.title}</h5></div>
         <div className="text-muted">{data?.desc}</div>
         <div className="mtop5p">

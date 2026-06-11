@@ -51,7 +51,8 @@ const DCASearchByCategories = () =>{
         +toSlug(d)+"/"+toSlug(appCacheData?.cacheData?.niches?.[d]?.[0]);
  };
  const SubCategoryNicheHandler = (d) =>{
-    setActiveNiche({ category: activeNiche?.category, subCategory: d });
+    window.location.href = process.env.PROJECT_URL+"daily-current-affairs/list/"
+        +toSlug(activeNiche?.category)+"/"+toSlug(d);
  };
  const ApiLoader = async(category, subCategory, currentPageIndex) =>{
     callAPI(getAPIUrl(category, subCategory, currentPageIndex), (cacheData, apiResponse)=>{
@@ -194,7 +195,9 @@ const DCASearchByCategories = () =>{
              <Row className="mtop15p">
                 {apiResponseData?.current?.data?.map((d,i)=>{
                     return (<Col key={i} md={4}>
-                        <DCADisplayCard index={i} data={d} category={apiResponseData?.current?.category} subCategory={apiResponseData?.current?.subCategory} />
+                        <DCADisplayCard index={i} data={d} 
+                            category={toTitleCase(apiResponseData?.current?.category)} 
+                            subCategory={toTitleCase(apiResponseData?.current?.subCategory)} />
                     </Col>)
                 })}
              </Row>
