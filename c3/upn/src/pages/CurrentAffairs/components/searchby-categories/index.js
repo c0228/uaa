@@ -7,7 +7,7 @@ import HeaderDCA from "@Components/dca-header/index.js";
 import DCADisplayCard from "@Components/dca-display-card/index.js";
 import Pagination from "@Components/pagination/index.js";
 import { callAPI } from "@Services/ApiManager.js";
-import { getAPIUrl } from "@ApiRoutes/DcaUrls.js";
+import { searchArticlesByCategoriesAPI } from "@ApiRoutes/DcaUrls.js";
 
 /***
  * =================================================
@@ -60,7 +60,7 @@ const DCASearchByCategories = () =>{
        +activeNiche?.category+"/"+d;
  };
  const ApiLoader = async(category, subCategory, currentPageIndex) =>{
-    callAPI(getAPIUrl(category, subCategory, currentPageIndex), (cacheData, apiResponse)=>{
+    callAPI(searchArticlesByCategoriesAPI(category, subCategory, currentPageIndex), (cacheData, apiResponse)=>{
             setAppCacheData(cacheData);   
             setApiResponseData(apiResponse);   
     },(error)=>{

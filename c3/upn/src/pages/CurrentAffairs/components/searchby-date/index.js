@@ -1,105 +1,93 @@
 import React, { useState, useEffect } from "react";
+import { useParams  } from "react-router-dom";
 import { ContainerFluid, Row, Col, Button, Icon } from "e-ui-react";
-import { formatDate } from "@Utils/DateFormatUtils.js";
+import Header from '@Templates/Header/index.js';
+import { HeaderMenu } from '@AppRoutes/NavbarList.js';
+import HeaderDCA from "@Components/dca-header/index.js";
 import DCADisplayCard from "@Components/dca-display-card/index.js";
+import { callAPI } from "@Services/ApiManager.js";
+import { searchArticlesByDateAPI } from "@ApiRoutes/DcaUrls.js";
+import { formatDate } from "@Utils/DateFormatUtils.js";
 
-const SearchByDate = ({ date, data }) => {
-  const [articleDisplayData, setArticleDisplayData] = useState({});
-  const [selectedNiche, setSelectedNiche] = useState("");
-  
-  // Load first category/sub-category by default
-  useEffect(() => {
-    const dateData = data?.[date];
-    if(!dateData){ 
-        setArticleDisplayData({});
-        setSelectedNiche("");
-        return; 
-    } else {
-        const categories = Object.keys(dateData);
-        if(categories.length === 0){ return; }
-        else {
-          const firstCategory = categories[0];
-          const subCategories = Object.keys(dateData[firstCategory] || {});
-          if(subCategories.length === 0) { return; }
-          else {
-            const firstSubCategory = subCategories[0];
-            articleDataHandler(firstCategory,firstSubCategory);
-          }
-        }
-    }
-  }, [date, data]);
-
-  const articleDataHandler = (category, subCategory) => {
-    const articleData = data?.[date]?.[category]?.[subCategory] || [];
-    setSelectedNiche(`${category}@@${subCategory}`);
-    setArticleDisplayData({ category, subCategory, data: articleData });
+const DCASearchByDate = () => {
+  const { slugDate } = useParams(); // Receives Date
+  const [appCacheData, setAppCacheData] = useState(); // App Cache Data
+  const [apiResponseData, setApiResponseData] = useState(); // App Response Data
+  const [nicheList, setNicheList] = useState([]);
+  const [activeNiche, setActiveNiche] = useState(''); 
+  const ApiLoader = async(date) =>{
+    callAPI(searchArticlesByDateAPI(date), (cacheData, apiResponse)=>{
+        InitialSetup(apiResponse, slugDate);
+        setAppCacheData(cacheData);   
+        setApiResponseData(apiResponse);   
+    },(error)=>{
+        console.log("error [callAPI]: ", error);
+    });
   };
-
-  const CategoriesList = ({ details }) => {
-    const categories = details?.[date]?Object.keys(details[date]):[];
-    return (<div className="mt-2">
-        {categories.map((category, i1) => {
-            const categoryData = details?.[date]?.[category] || {};
-            const subCategoryNames = Object.keys(categoryData);
-            return (<span key={i1}>
-                {subCategoryNames?.map((subCategoryName, i2) => {
-                    const articleData = categoryData?.[subCategoryName] || [];
-                    const nicheKey = `${category}@@${subCategoryName}`;
-                    return (<span key={i2} className="d-inline-block m-1">
-                        <Button type={(selectedNiche === nicheKey)? "primary":"outline-primary"}
-                                size={11} onClick={() => articleDataHandler(category,subCategoryName)}>
-                            <b>{category} /{" "}{subCategoryName} ({articleData?.length})</b>
-                        </Button>
-                    </span>);
-                })}
-            </span>);
+  const InitialSetup = (apiResponseData, slugDate) =>{
+    const categoriesData = apiResponseData?.[slugDate];
+    const categories = (categoriesData)? Object.keys(categoriesData) : [];
+    let nicheData = []
+    categories?.map((category,i1)=>{
+        const subCategoriesData = categoriesData?.[category];
+        const subCategories = (subCategoriesData)? Object.keys(subCategoriesData) : [];
+        subCategories?.map((subCategory,i2)=>{
+            if(activeNiche?.length===0 && i1 === 0 && i2 === 0){
+                setActiveNiche(`${category} / ${subCategory}`);
+            }
+            nicheData.push({
+                item: `${category} / ${subCategory}`,
+                count: subCategoriesData?.[subCategory]?.length
+            });
+        });
+    })
+    setNicheList(nicheData);
+  };
+  const ArticlesDisplay = () =>{
+    const [category, subCategory] = activeNiche.split(" / ");
+    const articles = apiResponseData?.[slugDate]?.[category]?.[subCategory];
+    return (<div className="mtop15p">
+        <Row>
+        {articles?.map((article,index)=>{
+            return (<Col md={4}>
+               <DCADisplayCard index={index} data={article} category={category} subCategory={subCategory} /> 
+            </Col>);
         })}
+    </Row>
     </div>);
   };
-
-  return (<div className="mtop15p">
+  useEffect(()=>{
+    ApiLoader(slugDate);
+  },[slugDate]);
+  return (<div>
+    <Header menulinks={HeaderMenu()} activeId="DailyCurrentAffairs" />
+    <HeaderDCA date={slugDate} data={apiResponseData?.kpis} />
+    <div className="mtop15p">
     <ContainerFluid>
         <Row>
             <Col md={12}>
                 <div><h1><b>Categories covered Section</b></h1></div>
                 <div className="mt-2 padLeft5p">
-                Following are the active categories for the selected date <b>[{formatDate(date)}]</b>.
+                Following are the active categories for the selected date <b>[{formatDate(slugDate)}]</b>.
                 </div>
-                <CategoriesList details={data} />
             </Col>
         </Row>
-        {articleDisplayData?.data ? (
-            <Row>
-                <Col md={8}>
-                    <Row className="mtop15p">
-                        {articleDisplayData?.data?.map((article, i) => (
-                            <Col md={6} key={i}>
-                                <DCADisplayCard index={i} data={article} category={articleDisplayData?.category} 
-                                    subCategory={articleDisplayData?.subCategory} />
-                            </Col>))}
-                        {articleDisplayData?.data?.length === 0 && (
-                            <Col md={12}>
-                                <div className="alert alert-info">
-                                    <Icon type="FontAwesome" name="fa-exclamation-triangle" size={12} style={{ marginRight:'5px' }} />
-                                    No articles available under <b>{articleDisplayData?.category}</b> / <b>{articleDisplayData?.subCategory}</b>
-                                </div>
-                            </Col>)}
-                    </Row>
-                </Col>
-                <Col md={4}>
-                    {/* Right panel */}
-                </Col>
-            </Row>):(<Row>
-                    <Col md={12}>
-                        <div className="alert alert-info">
-                            <Icon type="FontAwesome" name="fa-exclamation-triangle" size={12} style={{ marginRight:'5px' }} />
-                            No articles available for this Date <b>[{formatDate(date)}]</b>
-                        </div>
-                    </Col>
-                </Row>)}
-
+        <Row>
+            <Col md={12}>
+                {nicheList?.map((n,i)=>{
+                    return (<span key={i} className="d-inline-block m-1">
+                    <Button type={(n?.item === activeNiche)?"primary":"outline-primary"}
+                        size={11} onClick={() => setActiveNiche(n?.item)}>
+                            <b>{n?.item} ({n?.count})</b>
+                    </Button>
+                </span>);
+                })}
+            </Col>
+        </Row>
+        <ArticlesDisplay />
     </ContainerFluid>
+    </div>
   </div>);
 };
 
-export default SearchByDate;
+export default DCASearchByDate;

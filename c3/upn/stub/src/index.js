@@ -1,5 +1,6 @@
 import Appcache from '#StaticData/data-app-cache.json'  with { type: 'json' };
 import { getArticlesByNiches } from '#Services/daily-current-affairs/SearchByCategories.js';
+import { getArticlesByDate } from '#Services/daily-current-affairs/SearchByDate.js';
 import express from 'express';
 import cors from 'cors';
 
@@ -13,6 +14,7 @@ app.use(express.json());
 // API URLs
 app.get('/app/cache', (req, res)=>res.json(Appcache));  // App Cache
 app.post('/search-articles-by-categories', getArticlesByNiches); // Search Articles by Categories
+app.post('/search-articles-by-date', getArticlesByDate); // Search Articles by Date
 
 // 3. Define a route that returns JSON data
 app.get('/api/data', (req, res) => {

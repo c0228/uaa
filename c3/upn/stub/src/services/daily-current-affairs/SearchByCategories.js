@@ -2,7 +2,7 @@ import SearchByCategoriesData from '#StaticData/data-dca-searchbycategories.json
 
 export const getArticlesByNiches = (req, res) => {
     try {
-       const { category, subCategory, pageIndex } = req.body;
+       const { category, subCategory, pageIndex } = req.body || {};
        const apiData = structuredClone(SearchByCategoriesData);
 
         apiData.current.category = category;

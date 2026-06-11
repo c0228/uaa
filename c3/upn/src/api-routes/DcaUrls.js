@@ -1,5 +1,5 @@
 
-export const getAPIUrl = (category, subCategory, pageIndex) =>{
+export const searchArticlesByCategoriesAPI = (category, subCategory, pageIndex) =>{
  return {
     url: process.env.STUB_URL+'search-articles-by-categories',
     method: 'POST',
@@ -8,4 +8,15 @@ export const getAPIUrl = (category, subCategory, pageIndex) =>{
     },
     body: { category, subCategory, pageIndex }
  }
+};
+
+export const searchArticlesByDateAPI = (date) =>{
+  return {
+    url: process.env.STUB_URL+'search-articles-by-date',
+    method: 'POST',
+    headers: {
+        'Content-Type': 'application/json'
+    },
+    body: { date }
+  };
 };
