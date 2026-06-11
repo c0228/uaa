@@ -50,7 +50,6 @@ const DCASearchByCategories = () =>{
  const [activeNiche, setActiveNiche] = useState({ category: slugCategory, subCategory: slugSubCategory }); 
  const [currentPageIndex, setCurrentPageIndex] = useState(1);
  
- 
  const CategoryNicheHandler = (d) =>{
    const subcategories = Object.keys(appCacheData?.cacheData?.niches?.[d]?.subcategories);
    window.location.href = process.env.PROJECT_URL+"daily-current-affairs/list/"
