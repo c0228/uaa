@@ -319,9 +319,6 @@
           "poverty-and-inequality": {
             "label": "Poverty and Inequality"
           },
-          "nutrition": {
-            "label": "Nutrition"
-          },
           "social-welfare": {
             "label": "Social Welfare"
           }
@@ -348,14 +345,11 @@
           "urban-development": {
             "label": "Urban Development"
           },
-          "skill-development": {
-            "label": "Skill Development"
+          "citizens-skill-development": {
+            "label": "Citizens Skill Development"
           },
           "digital-india": {
             "label": "Digital India"
-          },
-          "financial-inclusion": {
-            "label": "Financial Inclusion"
           },
           "housing-schemes": {
             "label": "Housing Schemes"
@@ -706,9 +700,6 @@
           },
           "ecological-restoration": {
             "label": "Ecological Restoration"
-          },
-          "environmental-reports": {
-            "label": "Environmental Reports"
           }
         }
       },
@@ -809,9 +800,6 @@
           "health-infrastructure": {
             "label": "Health Infrastructure"
           },
-          "health-reports": {
-            "label": "Health Reports"
-          },
           "who-initiatives": {
             "label": "WHO Initiatives"
           }
@@ -846,9 +834,6 @@
           },
           "examinations": {
             "label": "Examinations"
-          },
-          "education-reports": {
-            "label": "Education Reports"
           }
         }
       },
