@@ -1,7 +1,13 @@
-import React from "react";
-import { Nav } from "e-ui-react";
+import React, { useState } from "react";
+import { Nav, getAppContext } from "e-ui-react";
 
 const Header = ({ activeId, menulinks })=>{
+ const appContext = getAppContext();
+ const [activeLang, setActiveLang] = useState('en');
+ const switchLanguage = ( lang ) =>{
+  setActiveLang(lang);
+  appContext.setContextData({ lang: lang });
+ };
  return ( <nav className="navbar navbar-expand-sm">
  <div className="container-fluid">
    <a className="navbar-brand" href="#">
@@ -21,8 +27,12 @@ const Header = ({ activeId, menulinks })=>{
        </div>
        <div  className="d-flex">
           <div className="btn-group">
-            <button type="button" className="btn btn-danger" style={{ fontSize:'12px', border:'1px solid #ccc' }}>A</button>
-            <button type="button" className="btn btn-light" style={{ fontSize:'12px', border:'1px solid #ccc' }}>अ</button>
+            {[{ id:'en', label: 'View in English' },
+              { id:'hi', label: 'हिंदी में देखें' }]?.map((l,i)=>{
+                return (<button type="button" className={(l?.id===activeLang)?"btn btn-danger":"btn btn-outline-danger"}
+              style={{ fontSize:'12px', border:'1px solid #ccc' }}
+              onClick={()=>switchLanguage(l?.id)}><b>{l?.label}</b></button>);
+              })}
           </div>
        </div>
        <div  className="d-flex">

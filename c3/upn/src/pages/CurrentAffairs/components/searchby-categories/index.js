@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { useParams, useNavigate  } from "react-router-dom";
-import { ContainerFluid, Row, Col, Menu, Card, Button } from "e-ui-react";
+import { ContainerFluid, Row, Col, Menu, Card, Button, getAppContext } from "e-ui-react";
 import Header from '@Templates/Header/index.js';
 import { HeaderMenu } from '@AppRoutes/NavbarList.js';
 import HeaderDCA from "@Components/dca-header/index.js";
@@ -43,6 +43,8 @@ const toSlug = (title) => {
 */
 
 const DCASearchByCategories = () =>{
+ const appContext = getAppContext();
+ const lang = appContext.contextData.lang;
  const navigate = useNavigate();
  const { slugCategory, slugSubCategory } = useParams(); // Receives category and subCategories
  const [appCacheData, setAppCacheData] = useState(); // App Cache Data
@@ -97,7 +99,7 @@ const DCASearchByCategories = () =>{
     }));
  };
  return (<div>
-    <Header menulinks={HeaderMenu()} activeId="DailyCurrentAffairs" />
+    <Header menulinks={HeaderMenu(lang)} activeId="DailyCurrentAffairs" />
     <HeaderDCA data={apiResponseData?.kpis} />
     <ContainerFluid>
       <Row className="mtop15p">
