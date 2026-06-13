@@ -62,13 +62,31 @@ const AboutUPSC = () =>{
                             levels - Groups, Exams and Services.</div>
                         <div className="mtop15p">
                             <SimpleHeader label="1. Groups" />
-                            <div className="pad15p">
+                            <div className="mtop15p padLeft15p">
                                 A Group represents a broad category of UPSC examinations based on the career domain. Examples include:
                             </div>
                             <ul>
-                                <li className="mtop5p">
-                                    <div><b>Civil Administration</b></div>
-                                </li>
+                                {[{
+                                    "label":"Civil Administration",
+                                    "desc":"Examinations related to governance, administration, diplomacy, taxation, policing, and public policy."
+                                },{
+                                    "label":"Defence Services",
+                                    "desc":"Examinations conducted for entry into the Army, Navy, and Air Force."
+                                },{
+                                    "label":"Engineering Services",
+                                    "desc":"Recruitment for technical and engineering positions in government departments."
+                                },{
+                                    "label":"Economic & Statistical Services",
+                                    "desc":"Examinations for candidates specializing in economics, statistics, and data analysis."
+                                },{
+                                    "label":"Medical Services",
+                                    "desc":"Recruitment of medical professionals into government healthcare services."
+                                }]?.map((e,i)=>{
+                                    return (<li key={i} className="mtop5p">
+                                    <div><b>{e?.label}</b></div>
+                                    <div className="mtop5p">{e?.desc}</div>
+                                </li>);
+                                })}
                             </ul>
                         </div>
                     </Card>
