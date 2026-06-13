@@ -1,4 +1,4 @@
-import Appcache from '#StaticData/data-app-cache.json'  with { type: 'json' };
+import Appcache from '#StaticData/data-app-cache-en.json'  with { type: 'json' };
 import SearchByCategoriesData from '#StaticData/data-dca-searchbycategories.json'  with { type: 'json' };
 
 export const getArticlesByNiches = (req, res) => {
