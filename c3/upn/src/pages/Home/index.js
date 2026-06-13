@@ -1,4 +1,5 @@
-import React from "react";
+import React, { useState } from "react";
+import { useParams  } from "react-router-dom";
 import { ContainerFluid, Row, Col, Card, Button  } from "e-ui-react";
 import Header from '@Templates/Header/index.js';
 import { HeaderMenu } from '@AppRoutes/NavbarList.js';
@@ -7,8 +8,9 @@ import CurrentAffairsSection from './components/sec-current-affairs/index.js';
 import './index.css';
 
 const Home = ()=>{
+ const { lang } = useParams();
  return (<>
- <Header menulinks={HeaderMenu()} activeId="Home" />
+ <Header menulinks={HeaderMenu(lang)} activeId="Home" />
  <div align="center" style={{ borderTop:'1px solid #ccc', borderBottom:'1px solid #ccc', backgroundColor:'#e1f2ff', padding:'15px', color:'#000' }}>
     <div className="h1-subtitle">Free UPSC preparation platform with syllabus, current affairs, notes, previous year questions, 
         mock tests, and exam notifications in English and Hindi.</div>
