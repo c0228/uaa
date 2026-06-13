@@ -43,9 +43,7 @@ const toSlug = (title) => {
 */
 
 const DCASearchByCategories = () =>{
- const appContext = getAppContext();
- const lang = appContext.contextData.lang;
- const { slugCategory, slugSubCategory } = useParams(); // Receives category and subCategories
+ const { lang, slugCategory, slugSubCategory } = useParams(); // Receives category and subCategories
  const [appCacheData, setAppCacheData] = useState(); // App Cache Data
  const [apiResponseData, setApiResponseData] = useState(); // App Response Data
  const [activeNiche, setActiveNiche] = useState({ category: slugCategory, subCategory: slugSubCategory }); 

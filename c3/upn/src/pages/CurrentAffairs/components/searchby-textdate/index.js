@@ -11,7 +11,7 @@ import { formatDate } from "@Utils/DateFormatUtils.js";
 import Pagination from "@Components/pagination/index.js";
 
 const DCASearchByTextDate = () => {
-  const { slugText = '', slugDate = '' } = useParams(); // Receives Date
+  const { lang, slugText = '', slugDate = '' } = useParams(); // Receives Date
   const [appCacheData, setAppCacheData] = useState(); // App Cache Data
   const [apiResponseData, setApiResponseData] = useState(); // App Response Data
   const [activeNiche, setActiveNiche] = useState(''); 
