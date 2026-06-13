@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { useParams, useNavigate  } from "react-router-dom";
+import { useParams  } from "react-router-dom";
 import { ContainerFluid, Row, Col, Menu, Card, Button, getAppContext } from "e-ui-react";
 import Header from '@Templates/Header/index.js';
 import { HeaderMenu } from '@AppRoutes/NavbarList.js';
@@ -45,7 +45,6 @@ const toSlug = (title) => {
 const DCASearchByCategories = () =>{
  const appContext = getAppContext();
  const lang = appContext.contextData.lang;
- const navigate = useNavigate();
  const { slugCategory, slugSubCategory } = useParams(); // Receives category and subCategories
  const [appCacheData, setAppCacheData] = useState(); // App Cache Data
  const [apiResponseData, setApiResponseData] = useState(); // App Response Data
@@ -99,6 +98,7 @@ const DCASearchByCategories = () =>{
     }));
  };
  return (<div>
+    {lang}
     <Header menulinks={HeaderMenu(lang)} activeId="DailyCurrentAffairs" />
     <HeaderDCA data={apiResponseData?.kpis} />
     <ContainerFluid>

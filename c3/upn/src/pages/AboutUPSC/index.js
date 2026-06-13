@@ -1,12 +1,12 @@
 import React, { useState } from "react";
-import { ContainerFluid, Row, Col, Card, getAppContext } from "e-ui-react";
+import { useParams  } from "react-router-dom";
+import { ContainerFluid, Row, Col, Card } from "e-ui-react";
 import Header from '@Templates/Header/index.js';
 import { HeaderMenu } from '@AppRoutes/NavbarList.js';
 
 
 const AboutUPSC = () =>{
- const appContext = getAppContext();
- const lang = appContext.contextData.lang;
+ const { lang } = useParams();
  const SimpleHeader = ({ label }) =>{
     return (<div style={{ padding:'8px', backgroundColor:'#ccc', borderTopRightRadius:'25px',  borderBottomRightRadius:'25px' }}><b>{label}</b></div>);
  }

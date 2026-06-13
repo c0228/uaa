@@ -1,12 +1,13 @@
 import React, { useState } from "react";
-import { Nav, getAppContext } from "e-ui-react";
+import { useParams } from 'react-router-dom';
+import { Nav } from "e-ui-react";
+import { UpdateAppLangWithChangeUrl } from "@Services/LangManager.js";
 
 const Header = ({ activeId, menulinks })=>{
- const appContext = getAppContext();
- const [activeLang, setActiveLang] = useState('en');
+ const { lang } = useParams();
+
  const switchLanguage = ( lang ) =>{
-  setActiveLang(lang);
-  appContext.setContextData({ lang: lang });
+  window.location.href= UpdateAppLangWithChangeUrl(lang);
  };
  return ( <nav className="navbar navbar-expand-sm">
  <div className="container-fluid">
@@ -29,7 +30,7 @@ const Header = ({ activeId, menulinks })=>{
           <div className="btn-group">
             {[{ id:'en', label: 'View in English' },
               { id:'hi', label: 'हिंदी में देखें' }]?.map((l,i)=>{
-                return (<button type="button" className={(l?.id===activeLang)?"btn btn-danger":"btn btn-outline-danger"}
+                return (<button key={i} type="button" className={(l?.id===lang)?"btn btn-danger":"btn btn-outline-danger"}
               style={{ fontSize:'12px', border:'1px solid #ccc' }}
               onClick={()=>switchLanguage(l?.id)}><b>{l?.label}</b></button>);
               })}

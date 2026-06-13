@@ -1,4 +1,5 @@
 import React from "react";
+import { getAppContext } from "e-ui-react";
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Welcome from "@Pages/Welcome/index.js";
 import Home from "@Pages/Home/index.js";
@@ -11,7 +12,7 @@ import PERMISSIONS from "@Permissions/index.js";
 import Authorization from "./Authorization.js";
 
 export const AppRouting = ()=>{
-    return (<BrowserRouter basename="/">
+  return (<BrowserRouter basename="/">
       <AuthProvider>
        <Routes>
          <Route exact path="/" element={<Welcome/>} />
@@ -20,13 +21,12 @@ export const AppRouting = ()=>{
          </Route>
 
 
-         <Route exact path="/home" element={<Home/>} />
-         <Route exact path="/about-upsc-examination" element={<AboutUPSC />} />
-         <Route exact path="/daily-current-affairs/search/:slugText" element={<DCASearchByTextDate />} />
-         <Route exact path="/daily-current-affairs/search/:slugText/:slugDate" element={<DCASearchByTextDate />} />
-         
-         <Route exact path="/daily-current-affairs/date/:slugDate" element={<DCASearchByTextDate />} />
-         <Route exact path="/daily-current-affairs/list/:slugCategory/:slugSubCategory" element={<DCASearchByCategories />} />
+         <Route exact path="/:lang/home" element={<Home/>} />
+         <Route exact path="/:lang/about-upsc-examination" element={<AboutUPSC />} />
+         <Route exact path="/:lang/daily-current-affairs/search/:slugText" element={<DCASearchByTextDate />} />
+         <Route exact path="/:lang/daily-current-affairs/search/:slugText/:slugDate" element={<DCASearchByTextDate />} />
+         <Route exact path="/:lang/daily-current-affairs/date/:slugDate" element={<DCASearchByTextDate />} />
+         <Route exact path="/:lang/daily-current-affairs/list/:slugCategory/:slugSubCategory" element={<DCASearchByCategories />} />
        </Routes>
       </AuthProvider>
     </BrowserRouter>);
