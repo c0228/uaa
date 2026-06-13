@@ -96,7 +96,6 @@ const DCASearchByCategories = () =>{
     }));
  };
  return (<div>
-    {lang}
     <Header menulinks={HeaderMenu(lang)} activeId="DailyCurrentAffairs" />
     <HeaderDCA data={apiResponseData?.kpis} />
     <ContainerFluid>
