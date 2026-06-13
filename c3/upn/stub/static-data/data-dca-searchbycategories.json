@@ -1,11 +1,18 @@
 {
   "cacheVersion": 5,
-  "kpis":{
-    "Articles Today": "5",
-    "Monthly Articles": "150",
-    "Important Issues": "28",
-    "Exam Topics": "10"
-  },
+  "kpis":[{
+    "label": "Articles Today",
+    "value": "5"
+  },{
+    "label": "Monthly Articles",
+    "value": "150"
+  }, {
+    "label": "Important Issues",
+    "value": "28"
+  }, {
+    "label": "Exam Topics",
+    "value": 10
+  }],
   "details":{
     "totalCount": 1000,
     "pageSize":10,

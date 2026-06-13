@@ -34,14 +34,13 @@ const HeaderDCA = ({ text, date, data }) =>{
    console.log("searchDCAFormData: ", searchDCAFormData);
  },[searchDCAFormData]);
  const DailyStatistics = ({ data }) =>{
-   const k = Object.keys(data || {});
    return (<div style={{ display:'flex' }}>
-      {k?.map((d,i)=>{
+      {data?.map((d,i)=>{
          return (<div key={i} style={{ flex:1, padding:'5px' }}>
             <Card padding={15}>
                <div align="center">
-                  <span style={{ fontSize:'16px' }}></span><b>{d}</b>
-                  <div><h1 className="mt-1"><b>{data?.[d]}</b></h1></div>
+                  <span style={{ fontSize:'16px' }}></span><b>{d?.label}</b>
+                  <div><h1 className="mt-1"><b>{d?.value}</b></h1></div>
                </div>
             </Card>
          </div>);
