@@ -51,7 +51,7 @@ const HeaderDCA = ({ text, date, data }) =>{
  <Modal title={lang==='hi'?"खोज मानदंड अनिवार्य हैं":"Search Criteria Required"} show={showModel} onClose={setShowModal}
    colorConfig={{ header: { backgroundColor:'#eee' } }}>
    {lang==='hi'?
-   (<div className="pad15p">
+   (<div className="pad15p fs14p">
       आगे बढ़ने के लिए कृपया कम से कम एक खोज मानदंड दर्ज करें। 
       आप किसी कीवर्ड का उपयोग करके खोज सकते हैं या तारीख चुन सकते हैं, या "करंट अफेयर्स खोजें" पर क्लिक करने से पहले कीवर्ड और 
       तारीख दोनों लागू कर सकते हैं।
@@ -69,7 +69,7 @@ const HeaderDCA = ({ text, date, data }) =>{
                <h1 className="fw-bold">{lang==='hi'?"दैनिक यूपीएससी करंट अफेयर्स":"Daily UPSC Current Affairs"}</h1>
                <div className="mt-1">
                   {lang==='hi'?
-                  (<span>राजव्यवस्था, शासन, अर्थव्यवस्था, अंतर्राष्ट्रीय संबंध, विज्ञान एवं प्रौद्योगिकी, पर्यावरण और सामाजिक मुद्दों को कवर करने वाली 
+                  (<span className="fs14p">राजव्यवस्था, शासन, अर्थव्यवस्था, अंतर्राष्ट्रीय संबंध, विज्ञान एवं प्रौद्योगिकी, पर्यावरण और सामाजिक मुद्दों को कवर करने वाली 
                      व्यापक दैनिक समसामयिकी तक पहुंच प्राप्त करें। सभी यूपीएससी परीक्षाओं के लिए तैयार की गई यह सामग्री अभ्यर्थियों को मजबूत 
                      विश्लेषणात्मक और उत्तर-लेखन (आंसर-राइटिंग) कौशल विकसित करने में मदद करती है।</span>):
                   (<i>Access comprehensive daily current affairs covering Polity, Governance, Economy, International Relations, 
