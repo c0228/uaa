@@ -4,7 +4,9 @@ import { ContainerFluid, Row, Col, Card } from "e-ui-react";
 import Header from '@Templates/Header/index.js';
 import { HeaderMenu } from '@AppRoutes/NavbarList.js';
 import Introduction from './components/introduction/index.js';
-import UPSCStructure from "./components/upsc-structure/index.js";
+import WhyChoose from './components/why-choose/index.js';
+import StartJourney from './components/start-journey/index.js';
+import UPSCStructure from './components/upsc-structure/index.js';
 
 const AboutUPSC = () =>{
  const { lang } = useParams();
@@ -26,6 +28,8 @@ const AboutUPSC = () =>{
         <Row>
             <Col md={6}>
                 <Introduction />
+                <WhyChoose />
+                <StartJourney />
             </Col>
             <Col md={6}>
                 <UPSCStructure />
