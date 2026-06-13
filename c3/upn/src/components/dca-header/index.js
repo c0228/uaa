@@ -1,8 +1,9 @@
 import React, { useState, useEffect } from "react";
-import { useNavigate } from "react-router-dom";
+import { useNavigate, useParams } from "react-router-dom";
 import { ContainerFluid, Row, Col, Card, TextBox, DateTimePicker, Button, Form, Tab, Icon, Modal } from "e-ui-react";
 
 const HeaderDCA = ({ text, date, data }) =>{
+ const { lang } = useParams();
  const [ showModel, setShowModal ] = useState(false);
  const [searchDCAFormData, setSearchDCAFormData] = useState({ text:text, date: date });
  const navigate = useNavigate();
@@ -18,11 +19,11 @@ const HeaderDCA = ({ text, date, data }) =>{
       setShowModal(true);
    } else {
       if(searchText?.length === 0 && searchDate?.length > 0){
-         window.location.href = process.env.PROJECT_URL+'daily-current-affairs/date/'+searchDate;
+         window.location.href = process.env.PROJECT_URL+lang+'/daily-current-affairs/date/'+searchDate;
       } else if(searchText?.length > 0 && searchDate?.length === 0){
-         window.location.href = process.env.PROJECT_URL+'daily-current-affairs/search/'+searchText;
+         window.location.href = process.env.PROJECT_URL+lang+'/daily-current-affairs/search/'+searchText;
       } else if(searchText?.length > 0 && searchDate?.length > 0){
-         window.location.href= process.env.PROJECT_URL+'daily-current-affairs/search/'+searchText+'/'+searchDate;
+         window.location.href= process.env.PROJECT_URL+lang+'/daily-current-affairs/search/'+searchText+'/'+searchDate;
       }
    }
  };
@@ -72,6 +73,10 @@ const HeaderDCA = ({ text, date, data }) =>{
         </Row>
         <Row>
             <Col md={8}>
+               <form id="searchForm" onSubmit={(e) => {
+                                 e.preventDefault();
+                                 searchDCAFormHandler();
+               }}>
                <div className="d-flex gap-2 mt-3">
                      <TextBox name="searchCurrentAffairs" placeholder="Search Current Affairs" value={searchDCAFormData?.text}
                            onChange={(data)=>searchDCAFormFieldHandler("text", data?.value)} />
@@ -87,6 +92,7 @@ const HeaderDCA = ({ text, date, data }) =>{
                         <Icon type="FontAwesome" name="fa-repeat" size={11} style={{ marginRight:'5px' }} />
                               Reset</b></Button>
                </div>
+               </form>
             </Col>
         </Row>
     </ContainerFluid>

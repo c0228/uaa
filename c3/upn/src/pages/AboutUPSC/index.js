@@ -65,6 +65,11 @@ const AboutUPSC = () =>{
                             <div className="pad15p">
                                 A Group represents a broad category of UPSC examinations based on the career domain. Examples include:
                             </div>
+                            <ul>
+                                <li className="mtop5p">
+                                    <div><b>Civil Administration</b></div>
+                                </li>
+                            </ul>
                         </div>
                     </Card>
                 </div>
