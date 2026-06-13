@@ -3,7 +3,7 @@ import { useParams  } from "react-router-dom";
 import { ContainerFluid, Row, Col, Card } from "e-ui-react";
 import Header from '@Templates/Header/index.js';
 import { HeaderMenu } from '@AppRoutes/NavbarList.js';
-
+import Introduction from './components/introduction/index.js';
 
 const AboutUPSC = () =>{
  const { lang } = useParams();
@@ -27,32 +27,7 @@ const AboutUPSC = () =>{
         </Row>
         <Row>
             <Col md={6}>
-                <div className="mtop15p"><h3><b>Welcome to the World of UPSC</b></h3></div>
-                <div className="mtop15p">
-                    The Union Public Service Commission (UPSC) is one of India's most respected constitutional 
-                    bodies responsible for recruiting candidates to various government services and posts. Every 
-                    year, lakhs of aspirants prepare for UPSC examinations to build careers in administration, 
-                    diplomacy, defense, engineering, economics, and several other public service sectors.
-                    If you are completely new to UPSC preparation, this guide will help you understand how UPSC 
-                    examinations are organized and how different services are connected to them.
-                </div>
-
-                <div className="mtop15p"><h3><b>Introduction</b></h3></div>
-                <div className="mtop15p">
-                    <div>The Union Public Service Commission is an independent constitutional institution that 
-                    conducts competitive examinations for recruitment into various Central Government services 
-                    and departments.</div>
-                    <div className="mtop5p">UPSC examinations are designed to identify candidates with strong knowledge, analytical 
-                    ability, decision-making skills, leadership qualities, and commitment to public service.</div>
-                    <div className="mtop5p">Through different examinations, UPSC recruits officers for:</div>
-                    <ul>
-                        {["Administrative Services","Police Services","Foreign Services","Revenue Services",
-                        "Defence Services","Forest Services","Engineering Services","Economic Services",
-                        "Statistical Services","Medical Services","Research and Specialized Services"]?.map((e,i)=>{
-                            return (<li key={i} className="mtop5p">{e}</li>);
-                        })}
-                    </ul>
-                </div>
+                <Introduction />
             </Col>
             <Col md={6}>
                 <div className="mtop15p">
@@ -88,6 +63,67 @@ const AboutUPSC = () =>{
                                 </li>);
                                 })}
                             </ul>
+                        </div>
+                        <div className="mtop15p">
+                            <SimpleHeader label="2. Exams" />
+                            <div className="mtop15p padLeft15p">
+                                <div>Each group contains one or more examinations. Examples:</div>
+                                {[{
+                                    "group":"Civil Administration Group",
+                                    "exams":["Civil Services Examination (CSE)", "Indian Forest Service Examination (IFoS)"]
+                                },{
+                                    "group":"Defence Services Group",
+                                    "exams":["National Defence Academy Examination (NDA)", "Combined Defence Services Examination (CDS)"]
+                                },{
+                                    "group":"Engineering Group",
+                                    "exams":["Engineering Services Examination (ESE)"]
+                                },{
+                                    "group":"Economic & Statistical Group",
+                                    "exams":["Indian Economic Service Examination (IES)", "Indian Statistical Service Examination (ISS)"]
+                                }]?.map((d,i1)=>{
+                                    return (<div key={i1}>
+                                        <div className="mtop15p"><b>{d?.group}</b></div>
+                                        <ul>
+                                            {d?.exams?.map((e,i2)=><li key={i2} className="mtop5p">{e}</li>)}
+                                        </ul>    
+                                    </div>);
+                                })}
+                                <div className="mtop5p">Each examination has its own eligibility criteria, syllabus, 
+                                    selection process, and career opportunities.</div>
+                            </div>
+                        </div>
+                        <div className="mtop15p">
+                            <SimpleHeader label="3. Services" />
+                            <div className="mtop15p padLeft15p">
+                                <div>Successful candidates are allocated to specific services 
+                                based on examination performance, preferences, vacancies, and eligibility conditions. Examples 
+                                of services include:</div>
+                            {[{
+                                "group":"Administrative Services",
+                                "exams":["Indian Administrative Service (IAS)"]
+                            },{
+                                "group":"Police Services",
+                                "exams":["Indian Police Service (IPS)"]
+                            },{
+                                "group":"Foreign Affairs",
+                                "exams":["Indian Foreign Service (IFS)"]
+                            },{
+                                "group":"Revenue & Taxation",
+                                "exams":["Indian Revenue Service (IRS)"]
+                            },{
+                                "group":"Forest Administration",
+                                "exams":["Indian Forest Service (IFoS)"]
+                            }]?.map((d,i1)=>{
+                                    return (<div key={i1}>
+                                        <div className="mtop15p"><b>{d?.group}</b></div>
+                                        <ul>
+                                            {d?.exams?.map((e,i2)=><li key={i2} className="mtop5p">{e}</li>)}
+                                        </ul>    
+                                    </div>);
+                                })}
+
+                            <div className="mtop5p">Each service offers a unique role in nation-building and public administration.</div>
+                            </div>
                         </div>
                     </Card>
                 </div>
