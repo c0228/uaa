@@ -5,7 +5,7 @@ import { Card } from "e-ui-react";
 const UPSCStructure = () =>{
  const { lang } = useParams();
  const SimpleHeader = ({ label }) =>{
-    return (<div style={{ padding:'8px', backgroundColor:'#ccc', borderTopRightRadius:'25px',  borderBottomRightRadius:'25px' }}><b>{label}</b></div>);
+    return (<div style={{ padding:'8px', color:'#fff', backgroundColor:'#15629f', borderTopRightRadius:'25px',  borderBottomRightRadius:'25px' }}><b>{label}</b></div>);
  }
  const LabelDescView = ({ data }) =>{
     return (<ul>
@@ -30,7 +30,7 @@ const UPSCStructure = () =>{
     </ul>);
  };
  return (<div className="mtop15p">
-    <Card padding={15}>
+    <Card padding={15} backgroundColor="#d0eaff">
         <div><h3><b>{lang==='hi'?`यूपीएससी की संरचना को समझना`:`Understanding UPSC Structure`}</b></h3></div>
         <div className="mtop15p">
             {lang==='hi'?`यूपीएससी को समझने में आसान बनाने के लिए, हम जानकारी को तीन स्तरों में व्यवस्थित करते हैं - समूह, परीक्षाएँ और सेवाएँ।`:

@@ -7,6 +7,8 @@ import Introduction from './components/introduction/index.js';
 import WhyChoose from './components/why-choose/index.js';
 import StartJourney from './components/start-journey/index.js';
 import UPSCStructure from './components/upsc-structure/index.js';
+import ExamProcess from './components/exam-process/index.js';
+import BeginnersRoadMap from './components/beginners-roadmap/index.js';
 
 const AboutUPSC = () =>{
  const { lang } = useParams();
@@ -36,6 +38,8 @@ const AboutUPSC = () =>{
             </Col>
         </Row>
     </ContainerFluid>
+    <ExamProcess />
+    <BeginnersRoadMap />
  </div>);
 };
 

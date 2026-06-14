@@ -4,7 +4,7 @@ import { useParams  } from "react-router-dom";
 const StartJourney = () =>{
  const { lang } = useParams();
  const SimpleHeader = ({ label }) =>{
-    return (<div style={{ padding:'8px', backgroundColor:'#ccc', borderTopRightRadius:'25px',  borderBottomRightRadius:'25px' }}><b>{label}</b></div>);
+    return (<div style={{ padding:'8px', backgroundColor:'#ffa622', borderTopRightRadius:'25px',  borderBottomRightRadius:'25px' }}><b>{label}</b></div>);
  }
  return (<div className="mtop15p">
     <div><h3><b>{lang==='hi'?`अपनी यूपीएससी यात्रा कैसे शुरू करें?`:`How to Start Your UPSC Journey?`}</b></h3></div>
