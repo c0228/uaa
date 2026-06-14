@@ -1,6 +1,6 @@
 export const AppColors = {
- "primary":{ "dark": "#065fc5", "light": "#d0eaff" },
- "warning":{ "dark": "#ffc107", "light":"#f8ffb2" },
- "success":{ "dark":"#198754", "light":"#e7fff4" },
- "danger":{ "dark":"#dc3545", "light":"#ffd6da" },
+ "primary":{ "bg-dark": "#065fc5", "bg-light": "#d0eaff", "color-dark":"#fff", "color-light":"#000" },
+ "warning":{ "bg-dark": "#ffc107", "bg-light":"#f8ffb2", "color-dark":"#000", "color-light":"#000" },
+ "success":{ "bg-dark":"#198754", "bg-light":"#e7fff4", "color-dark":"#fff", "color-light":"#000" },
+ "danger":{ "bg-dark":"#dc3545", "bg-light":"#ffd6da", "color-dark":"#fff", "color-light":"#000" },
 };
