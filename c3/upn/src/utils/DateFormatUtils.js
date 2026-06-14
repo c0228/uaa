@@ -6,10 +6,10 @@
  * @returns {string} Formatted date string in "DD Month YYYY" format.
  *
  * @example
- * formatDate("2026-06-10");
+ * FormatDate("2026-06-10");
  * // Returns: "10 June 2026"
  */
-export const formatDate = (dateStr) => {
+export const FormatDate = (dateStr) => {
   // Extract year, month, and day from the input string
   const [year, month, day] = dateStr.split("-");
 
@@ -22,4 +22,14 @@ export const formatDate = (dateStr) => {
     month: "long",
     year: "numeric",
   });
+};
+
+export const DaysToGo = (examDate) =>{
+    const totalDays = 365; // preparation window
+    const currentDate = new Date();
+    const targetDate = new Date(examDate);
+    const diffTime = targetDate - currentDate;
+    const daysLeft = Math.ceil(diffTime / (1000 * 60 * 60 * 24));
+    const progress = Math.max(0, Math.min(100, (daysLeft / totalDays) * 100));
+    return Math.round(progress);
 };

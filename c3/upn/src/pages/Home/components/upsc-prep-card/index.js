@@ -1,5 +1,5 @@
 import React from "react";
-import { Card, Button } from "e-ui-react";
+import { Card, Button, Badge, ProgressBar, Icon } from "e-ui-react";
 
 const UPSCPrepCard = () =>{
  const data = {
@@ -30,9 +30,6 @@ const UPSCPrepCard = () =>{
             <DashboardCard data={data} />
         </div>
     </Card>
-    <div className="mtop15p">
-        <div><h2 className="fw-bold">UPSC Examination List</h2><hr/></div>
-    </div>
  </div>);
 };
 

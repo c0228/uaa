@@ -7,7 +7,7 @@ import HeaderDCA from "@Components/dca-header/index.js";
 import DCADisplayCard from "@Components/dca-display-card/index.js";
 import { callAPI } from "@Services/ApiManager.js";
 import { searchArticlesByTextDateAPI } from "@ApiRoutes/DcaUrls.js";
-import { formatDate } from "@Utils/DateFormatUtils.js";
+import { FormatDate } from "@Utils/DateFormatUtils.js";
 import Pagination from "@Components/pagination/index.js";
 
 const DCASearchByTextDate = () => {
@@ -51,7 +51,7 @@ const DCASearchByTextDate = () => {
     <ContainerFluid>
         {(slugText?.length===0 && slugDate?.length>0) && (<Row>
             <Col md={12}>
-                <div><h1><b>Categories matching "All Topics" [{formatDate(slugDate)}]</b></h1></div>
+                <div><h1><b>Categories matching "All Topics" [{FormatDate(slugDate)}]</b></h1></div>
                 <div className="mt-2 padLeft5p"><i>The Following are the active categories for the selected date.</i></div>
             </Col>
         </Row>)}
@@ -63,7 +63,7 @@ const DCASearchByTextDate = () => {
         </Row>)}
         {(slugText?.length>0 && slugDate?.length>0) && (<Row>
             <Col md={12}>
-                <div><h1><b>Categories matching "{slugText}" [{formatDate(slugDate)}]</b></h1></div>
+                <div><h1><b>Categories matching "{slugText}" [{FormatDate(slugDate)}]</b></h1></div>
                 <div className="mt-2 padLeft5p"><i>The Following are the active categories for the entered title and the selected date.</i></div>
             </Col>
         </Row>)}
