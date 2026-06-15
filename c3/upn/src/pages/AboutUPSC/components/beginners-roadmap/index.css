@@ -1,0 +1,11 @@
+@media only screen and (max-width: 767px) { /* Mobile */
+   .about-beginners-roadmap-card { height:100%;min-height:160px; }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) { /* Tablet */
+ .about-beginners-roadmap-card { height:100%;min-height:220px; }
+}
+
+@media only screen and (min-width: 1024px) {
+ 
+}
