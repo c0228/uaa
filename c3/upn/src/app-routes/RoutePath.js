@@ -7,6 +7,7 @@ import AboutUPSC from "@Pages/AboutUPSC/index.js";
 import DCASearchByCategories from "@Pages/CurrentAffairs/components/searchby-categories/index.js";
 import DCASearchByTextDate from "@Pages/CurrentAffairs/components/searchby-textdate/index.js";
 import Menu from "@Pages/Menu/index.js";
+import NichesManager from "@Pages/NichesManager/index.js";
 import { AuthProvider } from "@Provider/AuthProvider.js";
 import PERMISSIONS from "@Permissions/index.js";
 import Authorization from "./Authorization.js";
@@ -20,6 +21,7 @@ export const AppRouting = ()=>{
             <Route path='MyDashboard' element={<Home />} />
          </Route>
 
+         <Route exact path="/niches-manager" element={<NichesManager />} />
 
          <Route exact path="/:lang/home" element={<Home/>} />
          <Route exact path="/:lang/about-upsc-examination" element={<AboutUPSC />} />
