@@ -18,9 +18,7 @@ class Database
     function dbinteraction() {
 	   $conn = new mysqli($this->serverName,$this->userName,$this->password,$this->databaseName);
         if ($conn->connect_error) {   die("Connection failed: " . $conn->connect_error); } 
-        else {  
-           // echo "Database connected Successfully"; 
-        }
+        $conn->set_charset("utf8mb4");
         return $conn;
     }
     

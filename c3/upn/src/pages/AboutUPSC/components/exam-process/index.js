@@ -50,7 +50,7 @@ const ExamProcess = () =>{
             const colorP = AppColors?.[d?.colorPalette];
             return (<Col md={3}>
                 <Card padding={15}>
-                    <div align="center" style={{ height:'38vh' }}>
+                    <div align="center" style={{ minHeight:'270px' }}>
                         <div align="center" className="mtop15p">
                             <Icon type="FontAwesome" name={d?.icon} size={56}  color={colorP?.["bg-dark"]}
                             style={{ padding:'15px', backgroundColor: colorP?.["bg-light"], borderRadius:'50%' }} />
