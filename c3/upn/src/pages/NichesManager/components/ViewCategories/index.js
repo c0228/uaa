@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { ContainerFluid, Row, Col, Badge, Card, Icon, TextBox  } from "e-ui-react";
+import { ContainerFluid, Row, Col, Badge, Card, Icon, TextBox, TextArea } from "e-ui-react";
 import { AppColors } from "@Utils/AppColorManager.js";
 import { callAPI } from "@Services/ApiManager.js";
 
@@ -21,6 +21,7 @@ const ViewCategories = () =>{
     <ContainerFluid>
         <Row>
             {apiResponseData?.map((r,i)=>{
+                const id= r?.["cat_id"];
                 const enTitle = r?.["en_cat_name"];
                 const enDesc = r?.["en_cat_desc"];
                 const hiTitle = r?.["hi_cat_name"];
@@ -30,7 +31,7 @@ const ViewCategories = () =>{
                     <Card padding={15}>
                         <div style={{ minHeight:'510px' }}>
                         <div>
-                            <Badge type="primary-o" label={<b>{r?.["cat_id"]}</b>} size="12" style={{ marginRight:'5px' }} />
+                            <Badge type="primary-o" label={<b>{id}</b>} size="12" style={{ marginRight:'5px' }} />
                             <div className="pull-right" style={{ cursor:'pointer' }} onClick={()=>setDisplayMode('edit')}>
                                 <Icon type="FontAwesome" name="fa-edit" size={14} color={AppColors?.["primary"]?.["bg-dark"]} />
                             </div>
@@ -39,32 +40,41 @@ const ViewCategories = () =>{
                             <Col md={6}>
                                 <div className="mtop5p">
                                     <h5><b>
-                                        {displayMode==='view' && (<>{enTitle}</>)} 
-                                        {displayMode==='edit' && (<>
-                                        <TextBox name="surname" 
-                                            placeholder="Enter Category Name" value={enTitle} />
+                                        {displayMode==='view' && (<>
+                                            {enTitle}
+                                            <span className="pull-right">[{enDesc?.length} /1000]</span>
                                         </>)} 
-                                        <span className="pull-right">[{enDesc?.length} /1000]</span>
+                                        {displayMode==='edit' && (<>
+                                            <TextBox name="surname" 
+                                            placeholder="Enter Category Name" value={enTitle} />
+                                            <span className="pull-right" style={{ paddingTop:'5px', paddingBottom:'8px' }}>[{enDesc?.length} /1000]</span>
+                                        </>)}
                                         </b></h5>
                                 </div>
                                 <div className="mtop15p">
                                     {displayMode==='view' && (<>{enDesc}</>)} 
-                                    {displayMode==='edit' && (<>{enDesc}</>)}
+                                    {displayMode==='edit' && (<>
+                                        <TextArea name="surname" placeholder="Enter Category Description" lines={22} value={enDesc} />
+                                    </>)}
                                 </div>
                             </Col>
                             <Col md={6}>
                                 <div className="mtop5p">
                                     <h5><b>
-                                        {displayMode==='view' && (<>{hiTitle}</>)} 
+                                        {displayMode==='view' && (<>
+                                            {hiTitle}
+                                            <span className="pull-right">[{hiDesc?.length} /1000]</span>
+                                        </>)} 
                                         {displayMode==='edit' && (<>
-                                        <TextBox name="surname" 
-                                            placeholder="Enter Category Name" value={hiTitle} />
+                                            <TextBox name="surname" placeholder="Enter Category Name" value={hiTitle} />
+                                            <span className="pull-right" style={{ paddingTop:'5px', paddingBottom:'8px' }}>[{hiDesc?.length} /1000]</span>
                                         </>)}
-                                        <span className="pull-right">[{hiDesc?.length} /1000]</span>
                                         </b></h5></div>
                                 <div className="mtop15p">
                                     {displayMode==='view' && (<>{hiDesc}</>)} 
-                                    {displayMode==='edit' && (<>{hiDesc}</>)}
+                                    {displayMode==='edit' && (<>
+                                    <TextArea name="surname" placeholder="Enter Category Description" lines={22} value={hiDesc} />
+                                    </>)}
                                 </div>
                             </Col>
                         </Row>
