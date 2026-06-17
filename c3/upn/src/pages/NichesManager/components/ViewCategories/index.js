@@ -6,6 +6,12 @@ const ViewCategories = () =>{
  const [displayMode, setDisplayMode] = useState({ op: "view", id: "" });
  const [apiResponseData, setApiResponseData] = useState([]);
  const [formData, setFormData] = useState({ enTitle: "", enDesc: "", hiTitle: "", hiDesc: "" });
+ const DisplayView = () =>{
+    return (<div></div>);
+ };
+ const DisplayEdit = () =>{
+    return (<div></div>);
+ };
  useEffect(() => {
     fetch("http://localhost/projects/uaa/c3/upn/nexus/niches/category/view").then((response) => response.json())
        .then((data) => {
@@ -25,11 +31,19 @@ const ViewCategories = () =>{
           <div className="mbot15p">
             <Card padding={15}>
                 <div>
-                    <Badge type="primary-o" label={catId} size="12" style={{ marginRight:'5px' }} />
+                    <Badge type="primary-o" label={<b>{catId}</b>} size="12" style={{ marginRight:'5px' }} />
                     <span className="pull-right" style={{ cursor:'pointer' }}>
-                        <Icon type="FontAwesome" name="fa-edit" size={14} color="#0d6efd" />
+                        <Icon type="FontAwesome" name="fa-edit" size={18} color="#0d6efd" />
                     </span>
                 </div>
+                <Row>
+                    <Col md={6}><DisplayView /></Col>
+                    <Col md={6}><DisplayView /></Col>
+                </Row>
+                <Row>
+                    <Col md={6}><DisplayEdit /></Col>
+                    <Col md={6}><DisplayEdit /></Col>
+                </Row>
             </Card>
           </div>
          </Col>);
