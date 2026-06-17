@@ -1,0 +1,183 @@
+import React, { useState, useEffect } from "react";
+import { ContainerFluid, Row, Col, Badge, Card, Icon, TextBox, TextArea } from "e-ui-react";
+import { AppColors } from "@Utils/AppColorManager.js";
+
+const ViewCategories = () => {
+  const [displayMode, setDisplayMode] = useState({ op: "view", id: "" });
+  const [apiResponseData, setApiResponseData] = useState([]);
+  const [formData, setFormData] = useState({ enTitle: "", enDesc: "", hiTitle: "", hiDesc: "" });
+  useEffect(() => {
+    fetch("http://localhost/projects/uaa/c3/upn/nexus/niches/category/view").then((response) => response.json())
+      .then((data) => {
+        console.log("apiResponse:", data);
+        setApiResponseData(data);
+      })
+      .catch((error) => {
+        console.error("API Error:", error);
+      });
+  }, []);
+  const handleEdit = (row) => {
+    setDisplayMode({ op: "edit", id: row.cat_id });
+    setFormData({
+      enTitle: row.en_cat_name || "",
+      enDesc: row.en_cat_desc || "",
+      hiTitle: row.hi_cat_name || "",
+      hiDesc: row.hi_cat_desc || ""
+    });
+  };
+  const handleCancel = () => {
+    setDisplayMode({ op: "view", id: "" });
+    setFormData({
+      enTitle: "",
+      enDesc: "",
+      hiTitle: "",
+      hiDesc: ""
+    });
+  };
+  const handleSave = () => {
+    console.log("Save Data:", formData);
+    setDisplayMode({ op: "view", id: "" });
+  };
+
+  return (
+    <div>
+      <ContainerFluid>
+        <Row>
+          {apiResponseData.map((r) => {
+            const id = r?.cat_id;
+            const isEditing = displayMode.op === "edit" && displayMode.id === id;
+            return (
+              <Col md={6} key={id}>
+                <div className="mbot15p">
+                  <Card padding={15}>
+                    <div>
+                      <div>
+                        <Badge type="primary-o" label={<b>{id}</b>} size="12" style={{ marginRight: "5px" }} />
+                        {!isEditing && (
+                          <div className="pull-right" style={{ cursor: "pointer" }} onClick={() => handleEdit(r)}>
+                            <Icon type="FontAwesome" name="fa-edit" size={14} color={AppColors?.primary?.["bg-dark"]} />
+                          </div>
+                        )}
+                      </div>
+                      <Row>
+                        {/* ENGLISH */}
+                        <Col md={6}>
+                          <div className="mtop5p">
+                            {!isEditing?(<h5><b>{r.en_cat_name}
+                                  <span className="pull-right">[{r.en_cat_desc?.length || 0}/1000]</span>
+                                </b></h5>):(<>
+                                <TextBox name={`${id}_en_categoryName`} placeholder="Enter Category Name"
+                                  value={formData.enTitle}
+                                  onChange={(val) => setFormData({ ...formData, enTitle: val })} />
+                                <div className="text-right" style={{ marginTop: "5px" }}>[{formData.enDesc.length}/1000]</div>
+                              </>)}
+                          </div>
+                          <div className="mtop15p">
+                            {!isEditing?(r.en_cat_desc):(<TextArea name={`${id}_en_categoryDesc`} placeholder="Enter Category Description"
+                                lines={22} value={formData.enDesc} onChange={(val) => setFormData({...formData, enDesc: val })} />)}
+                          </div>
+                        </Col>
+
+                        {/* HINDI */}
+                        <Col md={6}>
+                          <div className="mtop5p">
+                            {!isEditing ? (
+                              <h5>
+                                <b>
+                                  {r.hi_cat_name}
+                                  <span className="pull-right">
+                                    [{r.hi_cat_desc?.length || 0} /1000]
+                                  </span>
+                                </b>
+                              </h5>
+                            ) : (
+                              <>
+                                <TextBox
+                                  name={`${id}_hi_categoryName`}
+                                  placeholder="Enter Category Name"
+                                  value={formData.hiTitle}
+                                  onChange={(e) =>
+                                    setFormData({
+                                      ...formData,
+                                      hiTitle:
+                                        e.target.value
+                                    })
+                                  }
+                                />
+
+                                <div
+                                  className="text-right"
+                                  style={{
+                                    marginTop: "5px"
+                                  }}
+                                >
+                                  [
+                                  {formData.hiDesc.length}
+                                  /1000]
+                                </div>
+                              </>
+                            )}
+                          </div>
+
+                          <div className="mtop15p">
+                            {!isEditing ? (
+                              r.hi_cat_desc
+                            ) : (
+                              <TextArea
+                                name={`${id}_hi_categoryDesc`}
+                                placeholder="Enter Category Description"
+                                lines={22}
+                                value={formData.hiDesc}
+                                onChange={(e) =>
+                                  setFormData({
+                                    ...formData,
+                                    hiDesc:
+                                      e.target.value
+                                  })
+                                }
+                              />
+                            )}
+                          </div>
+                        </Col>
+                      </Row>
+
+                      {isEditing && (
+                        <div align="right"
+                          className="text-right mtop15p"
+                          style={{
+                            borderTop:
+                              "1px solid #ddd",
+                            paddingTop: "15px"
+                          }}
+                        >
+                          <button
+                            className="btn btn-primary fs12p"
+                            onClick={handleSave}
+                          >
+                            Save
+                          </button>
+
+                          <button
+                            className="btn btn-danger fs12p"
+                            style={{
+                              marginLeft: "10px"
+                            }}
+                            onClick={handleCancel}
+                          >
+                            Cancel
+                          </button>
+                        </div>
+                      )}
+                    </div>
+                  </Card>
+                </div>
+              </Col>
+            );
+          })}
+        </Row>
+      </ContainerFluid>
+    </div>
+  );
+};
+
+export default ViewCategories;
