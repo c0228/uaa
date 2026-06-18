@@ -1,6 +1,9 @@
 import React from "react";
 import { getAppContext } from "e-ui-react";
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
+
+import Dashboard from "@Pages/Dashboard/index.js";
+
 import Welcome from "@Pages/Welcome/index.js";
 import Home from "@Pages/Home/index.js";
 import AboutUPSC from "@Pages/AboutUPSC/index.js";
@@ -21,7 +24,9 @@ export const AppRouting = ()=>{
             <Route path='MyDashboard' element={<Home />} />
          </Route>
 
-         <Route exact path="/niches-manager" element={<NichesManager />} />
+         <Route exact path="/dashboard" element={<Dashboard />} />
+         <Route exact path="/manage/niches/categories" element={<NichesManager />} />
+         <Route exact path="/manage/niches/sub-categories" element={<NichesManager />} />
 
          <Route exact path="/:lang/home" element={<Home/>} />
          <Route exact path="/:lang/about-upsc-examination" element={<AboutUPSC />} />
