@@ -15,7 +15,8 @@ class DCANicheModule {
     if(strlen($enCatDesc)>0){ $sql.=" en_cat_desc='".$enCatDesc."',"; }
     if(strlen($hiCatDesc)>0){ $sql.=" hi_cat_desc='".$hiCatDesc."',"; }
     if(strlen($isActive)>0){ $sql.=" is_active='".$isActive."',"; }
-    $sql=chop($sql,",")." WHERE cat_id=".$catId.";";
+    $sql=chop($sql,",");
+    $sql.=" WHERE cat_id='".$catId."';";
     return $sql;
  }
 }
