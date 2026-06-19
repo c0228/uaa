@@ -29,6 +29,7 @@ const AdminSideWrapperMenu = ({ children }) =>{
       {data?.map((d,i1)=>{
         return (<div key={i1} style={{ marginBottom:'10px' }}>
         <div className="admin-sidewrapper-menu-headertitle" onClick={()=>menuTitleHeaderHandler(i1)}>
+            <Icon type="FontAwesome" name={d?.icon} size={15} style={{ marginRight:'5px' }} />
             {d?.group} 
             <span className="pull-right">
                 <Icon type="FontAwesome" name="fa-angle-double-down" size={16} />
@@ -39,7 +40,10 @@ const AdminSideWrapperMenu = ({ children }) =>{
             const currentURL = window.location.href?.replace(/#$/, '');
             const itemURL = process.env.PROJECT_URL+a?.url;
             return (<div key={i2} className={currentURL===itemURL?"admin-sidewrapper-menu-items-active":"admin-sidewrapper-menu-items"} 
-                onClick={()=>menuItemClickHandler(a)}>{a?.label}</div>);  
+                onClick={()=>menuItemClickHandler(a)}>
+                <Icon type="FontAwesome" name={a?.icon} size={13} style={{ marginRight:'8px' }} />
+                    {a?.label}
+            </div>);  
         })}
         </div>
         </div>);
