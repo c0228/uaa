@@ -15,7 +15,7 @@ export const data = [{
     "group": "App Config Settings",
     "items": [{
         "icon":"fa-database",
-        "label":"View & Update Cache",
-        "url":"manage/niches/categories"
+        "label":"Cache Manager",
+        "url":"app/config/manage/cache"
     }]
 }];

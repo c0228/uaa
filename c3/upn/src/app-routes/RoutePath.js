@@ -2,10 +2,10 @@ import React, { useEffect } from "react";
 import { getAppContext } from "e-ui-react";
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
-import Categories from "@AdminPages/niche-manager/categories/index.js";
-import SubCategories from "@AdminPages/niche-manager/subcategories/index.js";
-
 import Dashboard from "@UserPages/Dashboard/index.js";
+import Categories from "@AdminPages/NicheManager/categories/index.js";
+import SubCategories from "@AdminPages/NicheManager/subcategories/index.js";
+import CacheManager from "@AdminPages/AppConfigSettings/cache-manager/index.js";
 
 import Welcome from "@UserPages/Welcome/index.js";
 import Home from "@UserPages/Home/index.js";
@@ -27,9 +27,13 @@ export const AppRouting = ()=>{
             <Route path='MyDashboard' element={<Home />} />
          </Route>
 
+         {/** Admin Pages */}
          <Route exact path="/dashboard" element={<Dashboard />} />
          <Route exact path="/manage/niches/categories" element={<Categories />} />
-         <Route exact path="/manage/niches/sub-categories" element={<SubCategories />} />
+         <Route exact path="/manage/niches/subcategories" element={<SubCategories />} />
+         <Route exact path="/app/config/manage/cache" element={<CacheManager />} />
+         
+
 
          <Route exact path="/:lang/home" element={<Home/>} />
          <Route exact path="/:lang/about-upsc-examination" element={<AboutUPSC />} />
