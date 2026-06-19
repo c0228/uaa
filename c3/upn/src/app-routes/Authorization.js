@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { Navigate, useLocation, Outlet } from "react-router-dom";
-import Unauthorized from "@Pages/UnAuthorized/index.js";
+import Unauthorized from "@UserPages/UnAuthorized/index.js";
 import { useAuth } from "@Provider/AuthProvider";
 
 const Authorization = ({ permissions }) => {

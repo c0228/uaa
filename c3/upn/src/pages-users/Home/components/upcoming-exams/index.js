@@ -51,7 +51,7 @@ const UpcomingExams = () =>{
         const exam = d?.["exam"];
         const examDate = d?.["exam_date"];
         const days = DaysToGo(examDate);
-        return (<div className="list-group-item" style={{ backgroundColor: AppColors?.[colorPalette]?.["bg-light"] }}>
+        return (<div key={i} className="list-group-item" style={{ backgroundColor: AppColors?.[colorPalette]?.["bg-light"] }}>
             <div style={{ fontSize:'12px', color: '#555' }}>
                 <Badge type={colorPalette} label={<b>Prelims</b>} size="12" style={{ marginRight:'5px' }} />
                 <b>UPSC | Annual Calendar {annualCalendar}</b>
