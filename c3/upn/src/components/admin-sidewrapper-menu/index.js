@@ -59,7 +59,7 @@ const AdminSideWrapperMenu = ({ children }) =>{
                         
             </SideWrapperHeader>
             <SideWrapperBody>
-
+            {children}
             </SideWrapperBody>
         </SideWrapperPage>
     </SideWrapperNavbar>
