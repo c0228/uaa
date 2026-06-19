@@ -45,8 +45,13 @@ const Categories = () => {
           <Row>
             <Col md={12}>
               <h3>
+                <Icon type="FontAwesome" name="fa-tasks" size={19} style={{ marginRight:'8px' }}  />
                 <b>Manage Categories</b>
-                <span className="pull-right"><Button type="outline-dark" size={11}><b>Add New Category</b></Button></span>
+                <span className="pull-right">
+                    <Button type="outline-dark" size={11}>
+                        <Icon type="FontAwesome" name="fa-plus-circle" size={11} style={{ marginRight:'8px' }}  />
+                        <b>Add New Category</b>
+                    </Button></span>
                 <hr />
               </h3>
             </Col>
