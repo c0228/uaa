@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { SideWrapperNavbar, SideWrapperPage, SideWrapperMenu, SideWrapperHeader, SideWrapperBody,
-Icon, ContainerFluid, Row, Col, Badge, Card, TextBox, TextArea, Button } from "e-ui-react";
+Icon, ContainerFluid, Row, Col, Badge, Card, TextBox, TextArea, Button, Colors } from "e-ui-react";
 import AdminSideWrapperMenu from "@Components/admin-sidewrapper-menu/index.js";
 import DisplayEdit from "./components/display-edit/index.js";
 import { AppColors } from "@Utils/AppColorManager.js";
@@ -30,6 +30,11 @@ const Categories = () =>{
     <AdminSideWrapperMenu>
       <div className="mtop15p">
         <ContainerFluid>
+         <Row>
+            <Col md={12}>
+            <h3><b>Manage Categories</b><hr/></h3>
+            </Col>
+         </Row>
           <Row>
               {apiResponseData?.map((d,i)=>{
                const catId = d?.cat_id;
