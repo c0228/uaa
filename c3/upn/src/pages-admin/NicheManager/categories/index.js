@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { ContainerFluid, Row, Col, Badge, Card, Icon, Button } from "e-ui-react";
 import AdminSideWrapperMenu from "@Components/admin-sidewrapper-menu/index.js";
+import AddNewCategory from "./components/add-new-category/index.js";
 import DisplayEdit from "./components/display-edit/index.js";
 
 const DisplayView = ({ title, desc }) => (
@@ -46,17 +47,13 @@ const Categories = () => {
             <Col md={12}>
               <h3>
                 <Icon type="FontAwesome" name="fa-tasks" size={19} style={{ marginRight:'8px' }}  />
-                <b>Manage Categories</b>
-                <span className="pull-right">
-                    <Button type="outline-dark" size={11}>
-                        <Icon type="FontAwesome" name="fa-plus-circle" size={11} style={{ marginRight:'8px' }}  />
-                        <b>Add New Category</b>
-                    </Button></span>
-                <hr />
+                <b>Manage Categories</b><hr />
               </h3>
             </Col>
           </Row>
-
+          <Row>
+            <Col md={12}><AddNewCategory /></Col>
+          </Row>
           <Row>
             {categories.map((category,index) => (
               <Col key={index} md={12} key={category.cat_id}>
