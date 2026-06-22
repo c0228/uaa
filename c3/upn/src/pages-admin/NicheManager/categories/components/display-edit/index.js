@@ -1,11 +1,5 @@
 import React, { useState } from "react";
-import {
-  Row,
-  Col,
-  TextBox,
-  TextArea,
-  Button
-} from "e-ui-react";
+import { Row, Col, TextBox, TextArea, Button, Icon } from "e-ui-react";
 
 const DisplayEdit = ({ category, onSave, onCancel }) => {
 
@@ -17,10 +11,10 @@ const DisplayEdit = ({ category, onSave, onCancel }) => {
     hiDesc: category.hi_cat_desc
   };
 
-  const [form, setForm] = useState(initialState);
+  const [formData, setFormData] = useState(initialState);
 
   const handleReset = () => {
-    setForm(initialState);
+    setFormData(initialState);
   };
 
   const handleSave = async () => {
@@ -33,11 +27,11 @@ const DisplayEdit = ({ category, onSave, onCancel }) => {
             "Content-Type": "application/json"
           },
           body: JSON.stringify({
-            catId: form.id,
-            enCatName: form.enTitle,
-            hiCatName: form.hiTitle,
-            enCatDesc: form.enDesc,
-            hiCatDesc: form.hiDesc,
+            catId: formData.id,
+            enCatName: formData.enTitle,
+            hiCatName: formData.hiTitle,
+            enCatDesc: formData.enDesc,
+            hiCatDesc: formData.hiDesc,
             isActive: "Y"
           })
         }
@@ -49,10 +43,10 @@ const DisplayEdit = ({ category, onSave, onCancel }) => {
 
       onSave({
         ...category,
-        en_cat_name: form.enTitle,
-        en_cat_desc: form.enDesc,
-        hi_cat_name: form.hiTitle,
-        hi_cat_desc: form.hiDesc
+        en_cat_name: formData.enTitle,
+        en_cat_desc: formData.enDesc,
+        hi_cat_name: formData.hiTitle,
+        hi_cat_desc: formData.hiDesc
       });
 
     } catch (err) {
@@ -65,10 +59,10 @@ const DisplayEdit = ({ category, onSave, onCancel }) => {
       <Row>
         <Col md={6}>
           <TextBox
-            value={form.enTitle}
+            value={formData.enTitle}
             placeholder="English Title"
             onChange={(d) =>
-              setForm(prev => ({
+              setFormData(prev => ({
                 ...prev,
                 enTitle: d.value
               }))
@@ -76,14 +70,14 @@ const DisplayEdit = ({ category, onSave, onCancel }) => {
           />
 
           <div align="right">
-            <b>[{form.enDesc?.length || 0}/1000]</b>
+            <b>[{formData.enDesc?.length || 0}/1000]</b>
           </div>
 
           <TextArea
             lines={12}
-            value={form.enDesc}
+            value={formData.enDesc}
             onChange={(d) =>
-              setForm(prev => ({
+              setFormData(prev => ({
                 ...prev,
                 enDesc: d.value
               }))
@@ -93,10 +87,10 @@ const DisplayEdit = ({ category, onSave, onCancel }) => {
 
         <Col md={6}>
           <TextBox
-            value={form.hiTitle}
+            value={formData.hiTitle}
             placeholder="Hindi Title"
             onChange={(d) =>
-              setForm(prev => ({
+              setFormData(prev => ({
                 ...prev,
                 hiTitle: d.value
               }))
@@ -104,14 +98,14 @@ const DisplayEdit = ({ category, onSave, onCancel }) => {
           />
 
           <div align="right">
-            <b>[{form.hiDesc?.length || 0}/1000]</b>
+            <b>[{formData.hiDesc?.length || 0}/1000]</b>
           </div>
 
           <TextArea
             lines={12}
-            value={form.hiDesc}
+            value={formData.hiDesc}
             onChange={(d) =>
-              setForm(prev => ({
+              setFormData(prev => ({
                 ...prev,
                 hiDesc: d.value
               }))
@@ -123,29 +117,16 @@ const DisplayEdit = ({ category, onSave, onCancel }) => {
       <Row>
         <Col md={12}>
           <div align="right" className="mtop5p">
-            <Button
-              type="success"
-              size={11}
-              style={{ marginRight: "5px" }}
-              onClick={handleSave}
-            >
+            <Button type="success" size={11} style={{ marginRight: "5px" }} onClick={handleSave}>
+              <Icon type="FontAwesome" name="fa-save" size={11} style={{ marginRight:'5px' }} />
               <b>Save</b>
             </Button>
-
-            <Button
-              type="warning"
-              size={11}
-              style={{ marginRight: "5px" }}
-              onClick={handleReset}
-            >
+            <Button type="warning" size={11} style={{ marginRight: "5px" }} onClick={handleReset}>
+              <Icon type="FontAwesome" name="fa-refresh" size={11} style={{ marginRight:'5px' }} />
               <b>Reset</b>
             </Button>
-
-            <Button
-              type="danger"
-              size={11}
-              onClick={onCancel}
-            >
+            <Button type="danger" size={11} onClick={onCancel}>
+              <Icon type="FontAwesome" name="fa-times" size={11} style={{ marginRight:'5px' }} />
               <b>Cancel</b>
             </Button>
           </div>

@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import { ContainerFluid, Row, Col, Card, TextBox, TextArea, Button, Modal } from "e-ui-react";
-import AddUpdateCategories from "./components/AddUpdateCategories/index.js";
 import ViewCategories from "./components/ViewCategories/index.js";
 
 const NichesManager = () =>{
@@ -17,9 +16,6 @@ const NichesManager = () =>{
  return (<div className="mtop15p">
     <Button type="primary" size={11} onClick={()=>AddCategoryHandler()}>Add Category</Button>
     <Button type="primary" size={11} onClick={()=>UpdateCategoryHandler()}>Update Category</Button>
-    <Modal width="900px" title={formMode==='add'?'Add New Category':'Update Existing Category'} show={showModel} onClose={setShowModal}>
-        <AddUpdateCategories mode={formMode} />
-    </Modal>
     <ViewCategories />
  </div>);
 };
