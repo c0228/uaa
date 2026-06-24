@@ -10,6 +10,7 @@ import CacheManager from "@AdminPages/AppConfigSettings/cache-manager/index.js";
 import Welcome from "@UserPages/Welcome/index.js";
 import Home from "@UserPages/Home/index.js";
 import AboutUPSC from "@UserPages/AboutUPSC/index.js";
+import DiscussionHub from "@UserPages/DiscussionHub/index.js";
 import DCASearchByCategories from "@UserPages/CurrentAffairs/components/searchby-categories/index.js";
 import DCASearchByTextDate from "@UserPages/CurrentAffairs/components/searchby-textdate/index.js";
 import Menu from "@UserPages/Menu/index.js";
@@ -41,6 +42,7 @@ export const AppRouting = ()=>{
          <Route exact path="/:lang/daily-current-affairs/search/:slugText/:slugDate" element={<DCASearchByTextDate />} />
          <Route exact path="/:lang/daily-current-affairs/date/:slugDate" element={<DCASearchByTextDate />} />
          <Route exact path="/:lang/daily-current-affairs/list/:slugCategory/:slugSubCategory" element={<DCASearchByCategories />} />
+         <Route exact path="/:lang/upsc-open-chat-discussion-hub" element={<DiscussionHub />} />
        </Routes>
       </AuthProvider>
     </BrowserRouter>);
