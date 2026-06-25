@@ -21,7 +21,7 @@ const ManageAuth = () =>{
     }
  };
  const GetUserProfile = () =>{ // Get from localStorage and set in userDetails
-   let userDetails = getStorage("UPN_AUTH_DETAILS") || {};
+   let userDetails = getStorage("UPN_AUTH_DETAILS") || '{}';
      userDetails = JSON.parse(userDetails);
    setuserDetails(userDetails);
  };
@@ -70,9 +70,12 @@ const ManageAuth = () =>{
             onError={(e) =>SetUserProfile({})} /> 
         <ul className={showDropdown?"dropdown-menu show":"dropdown-menu"} 
             style={{ position:'absolute', right:'1%', marginTop:'5px' }}>
-            <li><a className="dropdown-item" href="#">Link 1</a></li>
-            <li><a className="dropdown-item" href="#">Link 2</a></li>
-            <li><button className="btn btn-danger"  style={{ width:'100%', textAlign:'left', fontSize:'12px', paddingLeft:'10px' }} 
+            <li><a className="dropdown-item" href="#">
+                <Icon type="FontAwesome" name="fa-calendar" size={12} style={{ marginRight:'6px'}} />
+                <b>My Timetable</b>
+                </a></li>
+            {/*<li><a className="dropdown-item" href="#">Link 2</a></li>*/}
+            <li className="mtop5p"><button className="btn btn-danger"  style={{ width:'100%', textAlign:'left', fontSize:'12px', paddingLeft:'10px' }} 
                 onClick={()=>ResetUserProfile()}>
                 <Icon type="FontAwesome" name="fa-power-off" size={12} style={{ marginRight:'6px'}} />
                     <b>Logout</b>
