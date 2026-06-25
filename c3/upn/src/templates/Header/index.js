@@ -12,22 +12,20 @@ import './index.css';
 const Header = ({ activeId, menulinks })=>{
  const [userDetails, setuserDetails] = useState({});
  const { lang } = useParams();
- const GetUserDetails = () =>{ // Get from localStorage and set in userDetails
+ const GetUserProfile = () =>{ // Get from localStorage and set in userDetails
   let userDetails = getStorage("UPN_AUTH_DETAILS");
   if(userDetails === null) { userDetails = {}; }
   else { userDetails = JSON.parse(userDetails); }
   setuserDetails(userDetails);
  };
- const SetUserDetails = (details) =>{ // Set in localStorage and set in userDetails
+ const SetUserProfile = (details) =>{ // Set in localStorage and set in userDetails
   setStorage("UPN_AUTH_DETAILS",JSON.stringify(details));
   setTimeout(()=>{  setuserDetails(getUserDetails()); }, 1000);
  };
- const ResetUserDetails = () =>{ // reset localStorage and userDetails
-
+ const ResetUserProfile = () =>{ // reset localStorage and userDetails
+  deleteStorage("UPN_AUTH_DETAILS");
  };
- useEffect(()=>{
-  GetUserDetails();
- },[]);
+ useEffect(()=>{ GetUserProfile(); },[]);
  const login = useGoogleLogin({
   onSuccess: async(tokenResponse) =>{
     const userInfo = await fetch(
@@ -39,7 +37,7 @@ const Header = ({ activeId, menulinks })=>{
       }
     );
     const user = await userInfo.json();
-    setUserDetails({
+    SetUserProfile({
       surName: user?.family_name,
       name: user?.given_name,
       profilePic: user?.picture,
@@ -85,8 +83,7 @@ const Header = ({ activeId, menulinks })=>{
             <img src={userDetails?.profilePic} className="upn-profilePic-google-login" 
                referrerPolicy="no-referrer"
             onError={(e) => {
-                setStorage("UPN_AUTH_DETAILS",JSON.stringify({}));
-                setuserDetails({});
+                SetUserProfile({});
               }}
             /> 
           </>):(<>
