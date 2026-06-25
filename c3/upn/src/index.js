@@ -11,7 +11,7 @@ import("react-dom/client").then((ReactDOM)=>{
   ReactDOM.createRoot(document.getElementById("root"))
    .render(
     <ContextProvider variables={{ }}>
-      <GoogleOAuthProvider clientId="8953340790-lfj8gmvi5g2c3p0pmsatogu6e5c0mojj.apps.googleusercontent.com">
+      <GoogleOAuthProvider clientId="410170724313-50lu2o081gt4t5ok40re0ijk7agrdk5e.apps.googleusercontent.com">
         <AppRouting />              
       </GoogleOAuthProvider>
    </ContextProvider>);
