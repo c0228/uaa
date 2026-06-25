@@ -44,7 +44,7 @@ const DiscussionHub = () =>{
                 {["1","2","4","1","2","4","1","2","4","1","2","4","1","2","4","1","2","4","1","2","4",
                     "1","2","4","1","2","4","1","2","4","1","2","4","1","2","4","1","2","4"
                 ]?.map((d,i)=>{
-                    return (<div className="mbot5p">{d}</div>);
+                    return (<div key={i} className="mbot5p">{d}</div>);
                 })}
             </div>
             <div style={{ marginTop:'5px' }}>
