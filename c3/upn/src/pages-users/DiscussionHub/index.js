@@ -48,7 +48,7 @@ const DiscussionHub = () =>{
                 })}
             </div>
             <div style={{ marginTop:'5px' }}>
-                <div class="input-group">
+                <div className="input-group">
                     <TextBox name="textMessage" placeholder="Type your Text" />
                     <Button type="danger" size={11}>
                         <Icon type="FontAwesome" name="fa-send" size={14} />

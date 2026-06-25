@@ -1,52 +1,14 @@
 import React, { useState, useEffect } from "react";
 import { useParams } from 'react-router-dom';
-import { useGoogleLogin } from '@react-oauth/google';
-import { GoogleOAuthProvider, GoogleLogin } from '@react-oauth/google';
 import { jwtDecode } from 'jwt-decode';
 import { Nav, Button } from "e-ui-react";
 import { UpdateAppLangWithChangeUrl } from "@Services/LangManager.js";
 import { AppColors } from "@Utils/AppColorManager.js";
-import { setStorage, getStorage } from "@Utils/LocalStorageManager.js";
+import ManageAuth from "@Templates/Header/components/manage-auth/index.js";
 import './index.css';
 
 const Header = ({ activeId, menulinks })=>{
- const [userDetails, setuserDetails] = useState({});
  const { lang } = useParams();
- const GetUserProfile = () =>{ // Get from localStorage and set in userDetails
-  let userDetails = getStorage("UPN_AUTH_DETAILS");
-  if(userDetails === null) { userDetails = {}; }
-  else { userDetails = JSON.parse(userDetails); }
-  setuserDetails(userDetails);
- };
- const SetUserProfile = (details) =>{ // Set in localStorage and set in userDetails
-  setStorage("UPN_AUTH_DETAILS",JSON.stringify(details));
-  setTimeout(()=>{  setuserDetails(getUserDetails()); }, 1000);
- };
- const ResetUserProfile = () =>{ // reset localStorage and userDetails
-  deleteStorage("UPN_AUTH_DETAILS");
- };
- useEffect(()=>{ GetUserProfile(); },[]);
- const login = useGoogleLogin({
-  onSuccess: async(tokenResponse) =>{
-    const userInfo = await fetch(
-      'https://www.googleapis.com/oauth2/v3/userinfo',
-      {
-        headers: {
-          Authorization: `Bearer ${tokenResponse.access_token}`,
-        },
-      }
-    );
-    const user = await userInfo.json();
-    SetUserProfile({
-      surName: user?.family_name,
-      name: user?.given_name,
-      profilePic: user?.picture,
-      email: user?.email,
-      emailVerified: user?.email_verified
-    });
-  },
-  onError: () => console.log('Login Failed')
- });
  const switchLanguage = ( lang ) =>{
   window.location.href= UpdateAppLangWithChangeUrl(lang);
  };
@@ -79,19 +41,7 @@ const Header = ({ activeId, menulinks })=>{
        </div>
        <div  className="d-flex" style={{ marginLeft:'5px' }}>
           {/*Sign in with Google ::: START */}
-          {Object.keys(userDetails)?.length>0?(<>
-            <img src={userDetails?.profilePic} className="upn-profilePic-google-login" 
-               referrerPolicy="no-referrer"
-            onError={(e) => {
-                SetUserProfile({});
-              }}
-            /> 
-          </>):(<>
-            <button className="upn-btn-google-login" onClick={()=>login()}>
-              <img src={process.env.PROJECT_URL+'assets/images/google.png'} className="upn-img-google-login" /> 
-              <span style={{ fontSize:'12px' }}><b>{lang==='hi'?'गूगल से लॉग इन करें':'Login with Google'}</b></span>
-            </button>
-          </>)}
+          <ManageAuth />
           {/*Sign in with Google ::: END */}
        </div>
    </div>
