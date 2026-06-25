@@ -9,3 +9,9 @@ export const getDeviceType = ()=>{
     return "DESKTOP";
  }
 };
+
+export const pxToVh = (percent)=>{
+ const px = screen.height * percent; // 80% of screen height in px
+ const vh = (px / screen.height) * 100;
+ return vh+'vh';
+}
