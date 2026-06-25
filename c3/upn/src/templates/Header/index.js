@@ -12,14 +12,21 @@ import './index.css';
 const Header = ({ activeId, menulinks })=>{
  const [userDetails, setuserDetails] = useState({});
  const { lang } = useParams();
- const getUserDetails = () =>{
+ const GetUserDetails = () =>{ // Get from localStorage and set in userDetails
   let userDetails = getStorage("UPN_AUTH_DETAILS");
   if(userDetails === null) { userDetails = {}; }
   else { userDetails = JSON.parse(userDetails); }
-  return userDetails;
+  setuserDetails(userDetails);
+ };
+ const SetUserDetails = (details) =>{ // Set in localStorage and set in userDetails
+  setStorage("UPN_AUTH_DETAILS",JSON.stringify(details));
+  setTimeout(()=>{  setuserDetails(getUserDetails()); }, 1000);
+ };
+ const ResetUserDetails = () =>{ // reset localStorage and userDetails
+
  };
  useEffect(()=>{
-  setuserDetails(getUserDetails());
+  GetUserDetails();
  },[]);
  const login = useGoogleLogin({
   onSuccess: async(tokenResponse) =>{
@@ -32,15 +39,13 @@ const Header = ({ activeId, menulinks })=>{
       }
     );
     const user = await userInfo.json();
-    setStorage("UPN_AUTH_DETAILS",JSON.stringify({
+    setUserDetails({
       surName: user?.family_name,
       name: user?.given_name,
       profilePic: user?.picture,
       email: user?.email,
       emailVerified: user?.email_verified
-    }));
-    setTimeout(()=>{  setuserDetails(getUserDetails()); }, 1000);
-    console.log(user);
+    });
   },
   onError: () => console.log('Login Failed')
  });
