@@ -11,15 +11,15 @@ import './index.css';
 
 const Header = ({ activeId, menulinks })=>{
  const { lang } = useParams();
- const userDetails = GetUserProfile();
- const [isLoggedIn, setloggedIn]= useState(false); 
- useEffect(()=>{
-   setloggedIn(Object.keys(userDetails)?.length>0);
- },[]);
+ const [userDetails, setUserDetails] = useState({});
+ const isLogged = Object.keys(userDetails)?.length>0;
  const switchLanguage = ( lang ) =>{
   window.location.href= UpdateAppLangWithChangeUrl(lang);
  };
- return ( <nav className="navbar navbar-expand-sm">
+ useEffect(()=>{
+  setUserDetails(GetUserProfile());
+ },[]);
+ return (<nav className="navbar navbar-expand-sm">
  <div className="container-fluid">
    <a className="navbar-brand" href="#">
      <img src={process.env.PROJECT_URL+"assets/images/logo.jpg"} style={{ marginTop:'-15px', width: '180px', height:'auto' }}/>
@@ -46,8 +46,8 @@ const Header = ({ activeId, menulinks })=>{
               })}
           </div>
        </div>
-       {isLoggedIn && (<Notifications />)}
-       <ManageAuth />
+       {isLogged && (<Notifications />)}
+       <ManageAuth userDetails={userDetails} setUserDetails={setUserDetails} />
    </div>
  </div>
 </nav>);
