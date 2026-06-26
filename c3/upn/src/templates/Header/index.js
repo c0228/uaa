@@ -3,12 +3,19 @@ import { useParams } from 'react-router-dom';
 import { jwtDecode } from 'jwt-decode';
 import { Nav, Button } from "e-ui-react";
 import { UpdateAppLangWithChangeUrl } from "@Services/LangManager.js";
+import { GetUserProfile } from "@Services/AuthManager.js";
 import { AppColors } from "@Utils/AppColorManager.js";
 import ManageAuth from "@Templates/Header/components/manage-auth/index.js";
+import Notifications from "@Templates/Header/components/notifications/index.js";
 import './index.css';
 
 const Header = ({ activeId, menulinks })=>{
  const { lang } = useParams();
+ const userDetails = GetUserProfile();
+ const [isLoggedIn, setloggedIn]= useState(false); 
+ useEffect(()=>{
+   setloggedIn(Object.keys(userDetails)?.length>0);
+ },[]);
  const switchLanguage = ( lang ) =>{
   window.location.href= UpdateAppLangWithChangeUrl(lang);
  };
@@ -39,11 +46,8 @@ const Header = ({ activeId, menulinks })=>{
               })}
           </div>
        </div>
-       <div  className="d-flex" style={{ marginLeft:'5px' }}>
-          {/*Sign in with Google ::: START */}
-          <ManageAuth />
-          {/*Sign in with Google ::: END */}
-       </div>
+       {isLoggedIn && (<Notifications />)}
+       <ManageAuth />
    </div>
  </div>
 </nav>);

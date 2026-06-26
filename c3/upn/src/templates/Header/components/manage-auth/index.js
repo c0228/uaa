@@ -62,7 +62,7 @@ const ManageAuth = () =>{
    },
    onError: () => console.log('Login Failed')
  });
- return (<div>
+ return (<div className="d-flex" style={{ marginLeft:'5px' }}>
     {Object.keys(userDetails)?.length>0?(<>
         <div ref={dropdownRef} className="dropdown" style={{ cursor:'pointer' }}>
         <img src={userDetails?.profilePic} className="upn-profilePic-google-login dropdown-toggle" data-bs-toggle="dropdown"
