@@ -4,6 +4,7 @@ import { getAppContext, Nav, Button, Icon } from "e-ui-react";
 import { useGoogleLogin } from '@react-oauth/google';
 import { GetUserProfile, SetUserProfile, ResetUserProfile } from "@Services/AuthManager.js";
 import Dropdown from "@Components/dropdown-menu/index.js";
+import './index.css';
 
 const ManageAuth = () =>{
  const appContext = getAppContext();
@@ -39,10 +40,10 @@ const ManageAuth = () =>{
  return (<div className="d-flex" style={{ marginLeft:'5px' }}>
     {appContext?.contextData?.isLogged?(<>
           <Dropdown dropDownPosition={{ marginTop:'3px', position:'absolute', right:'0%' }}  list={[
-            (<>
+            (<div className="upn-dropdown-user-profile-item">
               <Icon type="FontAwesome" name="fa-calendar" size={12} style={{ marginRight:'6px'}} />
               <b>My Timetable</b>
-            </>),
+            </div>),
             (<>
               <button className="btn btn-danger"  style={{ width:'100%', textAlign:'left', fontSize:'12px', paddingLeft:'10px' }} 
                 onClick={()=>{ Logout(); }}>

@@ -37,14 +37,8 @@ const Dropdown = ({ children, list, dropDownPosition }) => {
         style={dropDownPosition}
       >
         {list?.map((item, index) => (
-          <li key={index}>
-            <a
-              href="#"
-              className="dropdown-item"
-              onClick={() => setShowDropdown(false)}
-            >
+          <li key={index} onClick={() => setShowDropdown(false)}>
               {item}
-            </a>
           </li>
         ))}
       </ul>
