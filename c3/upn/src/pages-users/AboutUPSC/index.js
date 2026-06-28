@@ -11,10 +11,11 @@ import ExamProcess from './components/exam-process/index.js';
 import BeginnersRoadMap from './components/beginners-roadmap/index.js';
 
 const AboutUPSC = () =>{
- const appContext = getAppContext();
- const { lang } = useParams();
- const isLogged = appContext?.contextData?.isLogged || false;
- return (<div className="fs22p">
+ const { userDetails, isLogged, lang } = useAuth();
+ if(isLogged) {
+      window.location.href = process.env.PROJECT_URL+lang+'/my-dashboard';
+ } else {
+   return (<div className="fs22p">
     <Header menulinks={HeaderMenu(lang, isLogged)} activeId="AboutUPSC" />
     <ContainerFluid>
         <Row>
@@ -43,6 +44,7 @@ const AboutUPSC = () =>{
     <ExamProcess />
     <BeginnersRoadMap />
  </div>);
+ }
 };
 
 export default AboutUPSC;
