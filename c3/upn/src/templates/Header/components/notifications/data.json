@@ -1,0 +1,47 @@
+{
+    "count":6,
+    "data":{
+        "Today":[{
+            "icon":"fa-calendar",
+            "label": "Your Study Plan for today is of 2 hours. Please look into it.",
+            "timestamp": "28-06-2026 10:30:00"
+        },{
+            "icon":"fa-calendar",
+            "label": "Your Study Plan for today is of 2 hours. Please look into it.",
+            "timestamp": "28-06-2026 10:30:00"
+        },{
+            "icon":"fa-calendar",
+            "label": "Your Study Plan for today is of 2 hours. Please look into it.",
+            "timestamp": "28-06-2026 10:30:00"
+        },{
+            "icon":"fa-calendar",
+            "label": "Your Study Plan for today is of 2 hours. Please look into it.",
+            "timestamp": "28-06-2026 10:30:00"
+        },{
+            "icon":"fa-calendar",
+            "label": "Your Study Plan for today is of 2 hours. Please look into it.",
+            "timestamp": "28-06-2026 10:30:00"
+        }],
+        "Yesterday":[{
+            "icon":"fa-calendar",
+            "label": "Your Study Plan for today is of 2 hours. Please look into it.",
+            "timestamp": "28-06-2026 10:30:00"
+        },{
+            "icon":"fa-calendar",
+            "label": "Your Study Plan for today is of 2 hours. Please look into it.",
+            "timestamp": "28-06-2026 10:30:00"
+        },{
+            "icon":"fa-calendar",
+            "label": "Your Study Plan for today is of 2 hours. Please look into it.",
+            "timestamp": "28-06-2026 10:30:00"
+        },{
+            "icon":"fa-calendar",
+            "label": "Your Study Plan for today is of 2 hours. Please look into it.",
+            "timestamp": "28-06-2026 10:30:00"
+        },{
+            "icon":"fa-calendar",
+            "label": "Your Study Plan for today is of 2 hours. Please look into it.",
+            "timestamp": "28-06-2026 10:30:00"
+        }]
+    }
+}
