@@ -29,7 +29,6 @@ export const AppRouting = ()=>{
          </Route>
 
          {/** Admin Pages */}
-         <Route exact path="/dashboard" element={<Dashboard />} />
          <Route exact path="/manage/niches/categories" element={<Categories />} />
          <Route exact path="/manage/niches/subcategories" element={<SubCategories />} />
          <Route exact path="/app/config/manage/cache" element={<CacheManager />} />
@@ -43,6 +42,8 @@ export const AppRouting = ()=>{
          <Route exact path="/:lang/daily-current-affairs/date/:slugDate" element={<DCASearchByTextDate />} />
          <Route exact path="/:lang/daily-current-affairs/list/:slugCategory/:slugSubCategory" element={<DCASearchByCategories />} />
          <Route exact path="/:lang/upsc-open-chat-discussion-hub" element={<DiscussionHub />} />
+         <Route exact path="/:lang/dashboard" element={<Dashboard />} />
+
        </Routes>
       </AuthProvider>
     </BrowserRouter>);

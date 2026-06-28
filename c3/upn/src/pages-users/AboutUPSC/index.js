@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { useParams  } from "react-router-dom";
-import { ContainerFluid, Row, Col, Card } from "e-ui-react";
+import { ContainerFluid, Row, Col, Card, getAppContext } from "e-ui-react";
 import Header from '@Templates/Header/index.js';
 import { HeaderMenu } from '@AppRoutes/NavbarList.js';
 import Introduction from './components/introduction/index.js';
@@ -11,9 +11,11 @@ import ExamProcess from './components/exam-process/index.js';
 import BeginnersRoadMap from './components/beginners-roadmap/index.js';
 
 const AboutUPSC = () =>{
+ const appContext = getAppContext();
  const { lang } = useParams();
+ const isLogged = appContext?.contextData?.isLogged || false;
  return (<div className="fs22p">
-    <Header menulinks={HeaderMenu(lang)} activeId="AboutUPSC" />
+    <Header menulinks={HeaderMenu(lang, isLogged)} activeId="AboutUPSC" />
     <ContainerFluid>
         <Row>
             <Col md={12}>

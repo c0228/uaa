@@ -30,12 +30,14 @@ const ManageAuth = () =>{
     };
     SetUserProfile(userDetails);
     initializeAuth(userDetails);
+    window.location.href=process.env.PROJECT_URL+lang+'/dashboard';
    },
    onError: () => console.log('Login Failed')
  });
  const Logout = () =>{
   ResetUserProfile();
   initializeAuth({});
+  window.location.href=process.env.PROJECT_URL+lang+'/home';
  };
  return (<div className="d-flex" style={{ marginLeft:'5px' }}>
     {appContext?.contextData?.isLogged?(<>

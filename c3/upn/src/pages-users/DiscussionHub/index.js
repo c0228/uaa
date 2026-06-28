@@ -1,12 +1,14 @@
 import React, { useEffect }  from 'react';
 import { useParams  } from "react-router-dom";
-import { ContainerFluid, Row, Col, Badge, TextBox, Button, Icon } from "e-ui-react";
+import { ContainerFluid, Row, Col, Badge, TextBox, Button, Icon, getAppContext } from "e-ui-react";
 import Header from '@Templates/Header/index.js';
 import { HeaderMenu } from '@AppRoutes/NavbarList.js';
 import { AppColors } from '@Utils/AppColorManager.js';
 import { pxToVh } from '@Utils/DeviceLayoutManager.js';
 
 const DiscussionHub = () =>{
+ const appContext = getAppContext();
+ const isLogged = appContext?.contextData?.isLogged || false;
  const { lang } = useParams();
  const tags = {
     "en":["Daily UPSC Discussion Hub","UPSC Study Lounge","UPSC Live Discussion Room","UPSC Daily Debate Hub",
@@ -20,7 +22,7 @@ const DiscussionHub = () =>{
   //  alert(screen.width+" * "+screen.height+" | "+window.innerWidth+" * "+window.innerHeight);
  },[]);
  return (<div className="fs22p">
-    <Header menulinks={HeaderMenu(lang)} activeId="DiscussionHub" />
+    <Header menulinks={HeaderMenu(lang,isLogged)} activeId="DiscussionHub" />
     <div style={{ marginLeft:'15px', marginRight:'15px', border:'1px solid #ccc', padding:'15px',
             height: screen.width>1024 && pxToVh(0.87) }}>
         <Row>

@@ -43,6 +43,8 @@ const toSlug = (title) => {
 */
 
 const DCASearchByCategories = () =>{
+ const appContext = getAppContext();
+ const isLogged = appContext?.contextData?.isLogged || false;
  const { lang, slugCategory, slugSubCategory } = useParams(); // Receives category and subCategories
  const [appCacheData, setAppCacheData] = useState(); // App Cache Data
  const [apiResponseData, setApiResponseData] = useState(); // App Response Data
@@ -96,7 +98,7 @@ const DCASearchByCategories = () =>{
     }));
  };
  return (<div>
-    <Header menulinks={HeaderMenu(lang)} activeId="DailyCurrentAffairs" />
+    <Header menulinks={HeaderMenu(lang,isLogged)} activeId="DailyCurrentAffairs" />
     <HeaderDCA data={apiResponseData?.kpis} />
     <ContainerFluid>
       <Row className="mtop15p">

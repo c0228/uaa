@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { useParams  } from "react-router-dom";
-import { ContainerFluid, Row, Col, Button, Icon } from "e-ui-react";
+import { ContainerFluid, Row, Col, Button, Icon, getAppContext } from "e-ui-react";
 import Header from '@Templates/Header/index.js';
 import { HeaderMenu } from '@AppRoutes/NavbarList.js';
 import HeaderDCA from "@Components/dca-header/index.js";
@@ -11,12 +11,14 @@ import { FormatDate } from "@Utils/DateFormatUtils.js";
 import Pagination from "@Components/pagination/index.js";
 
 const DCASearchByTextDate = () => {
-  const { lang, slugText = '', slugDate = '' } = useParams(); // Receives Date
-  const [appCacheData, setAppCacheData] = useState(); // App Cache Data
-  const [apiResponseData, setApiResponseData] = useState(); // App Response Data
-  const [activeNiche, setActiveNiche] = useState(''); 
-  const [currentPageIndex, setCurrentPageIndex] = useState(1);
-  const ApiLoader = async(text, date, activeNiche, pageIndex) =>{
+ const appContext = getAppContext();
+ const isLogged = appContext?.contextData?.isLogged || false;
+ const { lang, slugText = '', slugDate = '' } = useParams(); // Receives Date
+ const [appCacheData, setAppCacheData] = useState(); // App Cache Data
+ const [apiResponseData, setApiResponseData] = useState(); // App Response Data
+ const [activeNiche, setActiveNiche] = useState(''); 
+ const [currentPageIndex, setCurrentPageIndex] = useState(1);
+ const ApiLoader = async(text, date, activeNiche, pageIndex) =>{
     callAPI(searchArticlesByTextDateAPI(text, date, activeNiche, pageIndex), (cacheData, apiResponse)=>{
         setAppCacheData(cacheData);   
         setApiResponseData(apiResponse);  
@@ -45,7 +47,7 @@ const DCASearchByTextDate = () => {
     ApiLoader(slugText, slugDate, activeNiche, currentPageIndex);
   },[slugText, slugDate, currentPageIndex]);
   return (<div>
-    <Header menulinks={HeaderMenu()} activeId="DailyCurrentAffairs" />
+    <Header menulinks={HeaderMenu(lang,isLogged)} activeId="DailyCurrentAffairs" />
     <HeaderDCA text={slugText} date={slugDate} data={apiResponseData?.kpis} />
     <div className="mtop15p">
     <ContainerFluid>
