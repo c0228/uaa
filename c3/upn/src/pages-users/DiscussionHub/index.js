@@ -3,13 +3,12 @@ import { useParams  } from "react-router-dom";
 import { ContainerFluid, Row, Col, Badge, TextBox, Button, Icon, getAppContext } from "e-ui-react";
 import Header from '@Templates/Header/index.js';
 import { HeaderMenu } from '@AppRoutes/NavbarList.js';
+import { useAuth } from "@Hooks/useAuth.js";
 import { AppColors } from '@Utils/AppColorManager.js';
 import { pxToVh } from '@Utils/DeviceLayoutManager.js';
 
 const DiscussionHub = () =>{
- const appContext = getAppContext();
- const isLogged = appContext?.contextData?.isLogged || false;
- const { lang } = useParams();
+ const { userDetails, isLogged, lang } = useAuth();
  const tags = {
     "en":["Daily UPSC Discussion Hub","UPSC Study Lounge","UPSC Live Discussion Room","UPSC Daily Debate Hub",
         "UPSC Daily Study Hub","UPSC Aspirants Community","UPSC Current Affairs Circle","UPSC Open Study Forum",

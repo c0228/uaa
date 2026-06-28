@@ -1,19 +1,19 @@
 import React, { useState, useEffect } from "react";
 import { useParams  } from "react-router-dom";
 import { ContainerFluid, Row, Col, Button, Icon, getAppContext } from "e-ui-react";
+import { searchArticlesByTextDateAPI } from "@ApiRoutes/DcaUrls.js";
 import Header from '@Templates/Header/index.js';
 import { HeaderMenu } from '@AppRoutes/NavbarList.js';
+import { useAuth } from "@Hooks/useAuth.js";
 import HeaderDCA from "@Components/dca-header/index.js";
 import DCADisplayCard from "@Components/dca-display-card/index.js";
-import { callAPI } from "@Services/ApiManager.js";
-import { searchArticlesByTextDateAPI } from "@ApiRoutes/DcaUrls.js";
-import { FormatDate } from "@Utils/DateFormatUtils.js";
 import Pagination from "@Components/pagination/index.js";
+import { callAPI } from "@Services/ApiManager.js";
+import { FormatDate } from "@Utils/DateFormatUtils.js";
 
 const DCASearchByTextDate = () => {
- const appContext = getAppContext();
- const isLogged = appContext?.contextData?.isLogged || false;
- const { lang, slugText = '', slugDate = '' } = useParams(); // Receives Date
+ const { userDetails, isLogged, lang } = useAuth();
+ const { slugText = '', slugDate = '' } = useParams(); // Receives Date
  const [appCacheData, setAppCacheData] = useState(); // App Cache Data
  const [apiResponseData, setApiResponseData] = useState(); // App Response Data
  const [activeNiche, setActiveNiche] = useState(''); 

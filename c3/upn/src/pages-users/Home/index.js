@@ -8,7 +8,6 @@ import { useAuth } from "@Hooks/useAuth.js";
 import UPSCPrepCard from './components/upsc-prep-card/index.js';
 import UpcomingExams from './components/upcoming-exams/index.js';
 import CurrentAffairsSection from './components/sec-current-affairs/index.js';
-
 import './index.css';
 
 const Home = ()=>{

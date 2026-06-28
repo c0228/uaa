@@ -8,7 +8,7 @@ import DCADisplayCard from "@Components/dca-display-card/index.js";
 import Pagination from "@Components/pagination/index.js";
 import { callAPI } from "@Services/ApiManager.js";
 import { searchArticlesByCategoriesAPI } from "@ApiRoutes/DcaUrls.js";
-
+import { useAuth } from "@Hooks/useAuth.js";
 /***
  * =================================================
  *  STEPS:
@@ -16,36 +16,10 @@ import { searchArticlesByCategoriesAPI } from "@ApiRoutes/DcaUrls.js";
  * 1) /daily-current-affairs/:category/:subCategory should first get categories and then subcategories.
  * 2) 
  */
-/*
-const toTitleCase = (slug) => {
-  slug = decodeURIComponent(slug);
-  const lowerCaseWords = ["and", "or", "in", "of", "to", "for", "on", "at", "by"];
-  return slug
-    ?.split("-")
-    .map((word, index) => {
-      const lowerWord = word.toLowerCase();
-      if (index > 0 && lowerCaseWords.includes(lowerWord)) {
-        return lowerWord;
-      }
-      return lowerWord.charAt(0).toUpperCase() + lowerWord.slice(1);
-    })
-    .join(" ");
-};
-
-const toSlug = (title) => {
-  return encodeURIComponent(
-    title
-      ?.trim()
-      .toLowerCase()
-      .replace(/\s+/g, "-")
-  );
-};
-*/
 
 const DCASearchByCategories = () =>{
- const appContext = getAppContext();
- const isLogged = appContext?.contextData?.isLogged || false;
- const { lang, slugCategory, slugSubCategory } = useParams(); // Receives category and subCategories
+ const { userDetails, isLogged, lang } = useAuth();
+ const { slugCategory, slugSubCategory } = useParams(); // Receives category and subCategories
  const [appCacheData, setAppCacheData] = useState(); // App Cache Data
  const [apiResponseData, setApiResponseData] = useState(); // App Response Data
  const [activeNiche, setActiveNiche] = useState({ category: slugCategory, subCategory: slugSubCategory }); 

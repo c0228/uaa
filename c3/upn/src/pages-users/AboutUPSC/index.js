@@ -3,6 +3,7 @@ import { useParams  } from "react-router-dom";
 import { ContainerFluid, Row, Col, Card, getAppContext } from "e-ui-react";
 import Header from '@Templates/Header/index.js';
 import { HeaderMenu } from '@AppRoutes/NavbarList.js';
+import { useAuth } from "@Hooks/useAuth.js";
 import Introduction from './components/introduction/index.js';
 import WhyChoose from './components/why-choose/index.js';
 import StartJourney from './components/start-journey/index.js';
