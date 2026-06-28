@@ -42,7 +42,7 @@ export const AppRouting = ()=>{
          <Route exact path="/:lang/daily-current-affairs/date/:slugDate" element={<DCASearchByTextDate />} />
          <Route exact path="/:lang/daily-current-affairs/list/:slugCategory/:slugSubCategory" element={<DCASearchByCategories />} />
          <Route exact path="/:lang/upsc-open-chat-discussion-hub" element={<DiscussionHub />} />
-         <Route exact path="/:lang/dashboard" element={<Dashboard />} />
+         <Route exact path="/:lang/my-dashboard" element={<Dashboard />} />
 
        </Routes>
       </AuthProvider>

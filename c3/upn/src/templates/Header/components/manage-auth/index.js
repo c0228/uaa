@@ -30,7 +30,7 @@ const ManageAuth = () =>{
     };
     SetUserProfile(userDetails);
     initializeAuth(userDetails);
-    window.location.href=process.env.PROJECT_URL+lang+'/dashboard';
+    window.location.href=process.env.PROJECT_URL+lang+'/my-dashboard';
    },
    onError: () => console.log('Login Failed')
  });

@@ -6,7 +6,7 @@ const url = UrlParams().baseUrl;
 export const HeaderMenu = (lang, isLogged)=>{
     if(lang==='hi'){
         if(isLogged){
-            return [{ id:'Dashboard', url: url+'hi/dashboard', label:'डैशबोर्ड' },
+            return [{ id:'MyDashboard', url: url+'hi/my-dashboard', label:'मेरे डैशबोर्ड' },
                 { id:'DailyCurrentAffairs', url:url+'hi/daily-current-affairs/list/art-and-culture/ancient-india', label:'डेली करंट अफेयर्स' },
                 { id:'DiscussionHub', url: url+'hi/upsc-open-chat-discussion-hub', label:'चर्चा केंद्र' }];
         } else {
@@ -17,7 +17,7 @@ export const HeaderMenu = (lang, isLogged)=>{
         }
     } else {
         if(isLogged){
-            return [{ id:'Dashboard', url: url+'en/dashboard', label:'Dashboard' },
+            return [{ id:'MyDashboard', url: url+'en/my-dashboard', label:'My Dashboard' },
                 { id:'DailyCurrentAffairs', url:url+'en/daily-current-affairs/list/art-and-culture/ancient-india', label:'Daily Current Affairs' },
                 { id:'DiscussionHub', url: url+'en/upsc-open-chat-discussion-hub', label:'Discussion Hub' }];
         } else {
