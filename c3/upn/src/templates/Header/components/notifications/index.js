@@ -3,6 +3,7 @@ import { Icon, Badge } from "e-ui-react";
 import Dropdown from "@Components/dropdown-menu/index.js";
 import { getTimeDifference } from "@Utils/DateFormatUtils.js";
 import notificationData from "./data.json";
+import './index.css';
 
 const Notifications = () =>{ 
  const [notifyHover, setNotifyHover] = useState(false);
@@ -54,8 +55,13 @@ const Notifications = () =>{
                 </div>
             </div>),
         ]}>
-            <Icon type="FontAwesome" name={"fa-bell-o"} size={16} style={{ padding:'5px', border:'2px solid #ccc', 
-                borderRadius:'50%'}} />
+            <span className="upn-user-profile-notification-bell-icon-section">
+                <span className="upn-user-profile-notification-bell-icon">
+                <Icon type="FontAwesome" name="fa-bell-o" size={20} color="#000" />
+                </span>
+                {notificationData?.count > 0 && 
+                (<span className="upn-user-profile-notification-bell-count-display">{notificationData.count}</span>)}
+            </span>
         </Dropdown>
     </div>
  </div>);
