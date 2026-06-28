@@ -42,7 +42,13 @@ const ManageAuth = () =>{
  return (<div className="d-flex" style={{ marginLeft:'5px' }}>
     {appContext?.contextData?.isLogged?(<>
           <Dropdown dropDownPosition={{ marginTop:'3px', position:'absolute', right:'0%' }}  list={[
-            (<div className="upn-dropdown-user-profile-item">
+            (<div className="upn-dropdown-user-profile-item" 
+                onClick={()=>window.location.href=process.env.PROJECT_URL+lang+'/my-study-plan'}>
+              <Icon type="FontAwesome" name="fa-clock-o" size={14} style={{ marginRight:'6px'}} />
+              <b>My Study Plan</b>
+            </div>),
+            (<div className="upn-dropdown-user-profile-item" 
+              onClick={()=>window.location.href=process.env.PROJECT_URL+lang+'/my-time-table'}>
               <Icon type="FontAwesome" name="fa-calendar" size={12} style={{ marginRight:'6px'}} />
               <b>My Timetable</b>
             </div>),

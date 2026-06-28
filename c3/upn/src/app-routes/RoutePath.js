@@ -13,8 +13,11 @@ import AboutUPSC from "@UserPages/AboutUPSC/index.js";
 import DiscussionHub from "@UserPages/DiscussionHub/index.js";
 import DCASearchByCategories from "@UserPages/CurrentAffairs/components/searchby-categories/index.js";
 import DCASearchByTextDate from "@UserPages/CurrentAffairs/components/searchby-textdate/index.js";
+
+import MyStudyPlan from "@UserPages/MyStudyPlan/index.js";
+import MyTimeTable from "@UserPages/MyTimeTable/index.js";
+
 import Menu from "@UserPages/Menu/index.js";
-import NichesManager from "@UserPages/NichesManager/index.js";
 import { AuthProvider } from "@Provider/AuthProvider.js";
 import PERMISSIONS from "@Permissions/index.js";
 import Authorization from "./Authorization.js";
@@ -42,7 +45,11 @@ export const AppRouting = ()=>{
          <Route exact path="/:lang/daily-current-affairs/date/:slugDate" element={<DCASearchByTextDate />} />
          <Route exact path="/:lang/daily-current-affairs/list/:slugCategory/:slugSubCategory" element={<DCASearchByCategories />} />
          <Route exact path="/:lang/upsc-open-chat-discussion-hub" element={<DiscussionHub />} />
+
+
          <Route exact path="/:lang/my-dashboard" element={<Dashboard />} />
+         <Route exact path="/:lang/my-study-plan" element={<MyStudyPlan />} />
+         <Route exact path="/:lang/my-time-table" element={<MyTimeTable />} />
 
        </Routes>
       </AuthProvider>
