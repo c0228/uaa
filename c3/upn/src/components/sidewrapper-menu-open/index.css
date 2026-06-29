@@ -1,4 +1,5 @@
-.admin-sidewrapper-menu-headertitle { text-transform:uppercase;color:#ffe083;cursor:pointer;font-size:14px;font-family:MetropolisBold; }
-.admin-sidewrapper-menu-items-section { color:#fff;margin-top:4px;margin-bottom:5px;padding-left:5px;font-family:MetropolisBold; }
-.admin-sidewrapper-menu-items-active { margin-bottom:3px;cursor:pointer;background-color:#585757;padding:3px 3px 3px 5px; }
-.admin-sidewrapper-menu-items { margin-bottom:3px;cursor:pointer;padding-left:5px;  }
+.open-sidewrapper-menu-headertitle { color:#000;cursor:pointer;font-size:13px;font-weight:bold; }
+.open-sidewrapper-menu-items-section { color:#333;margin-top:4px;margin-bottom:5px;padding-left:5px;font-size:13px; }
+.open-sidewrapper-menu-items-active { margin-bottom:3px;cursor:pointer;background-color:#585757;padding:3px 3px 3px 5px; }
+.open-sidewrapper-menu-items { margin-bottom:3px;cursor:pointer;padding-left:5px;  }
+.open-sidewrapper-menu-items-title:hover { border-bottom:1px solid #333;font-weight:bold;color:#333; }

@@ -67,7 +67,7 @@ const ManageAuth = () =>{
               </>):(<>
                 <button className="upn-btn-google-login" onClick={()=>AuthSetup()}>
                   <img src={process.env.PROJECT_URL+'assets/images/google.png'} className="upn-img-google-login" /> 
-                  <span style={{ fontSize:'12px' }}><b>{lang==='hi'?'गूगल से लॉग इन करें':'Login with Google'}</b></span>
+                  <span style={{ fontSize:'12px' }}><b>{lang==='hi'?'गूगल लॉगइन':'Google Login'}</b></span>
                 </button>
               </>)}
  </div>);

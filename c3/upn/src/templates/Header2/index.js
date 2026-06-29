@@ -39,10 +39,10 @@ const Header = ({ activeId, menulinks })=>{
           </div>
           <div>
              <div className="btn-group">
-               {[{ id:'en', label: 'View in English' },
-                 { id:'hi', label: 'हिंदी में देखें' }]?.map((l,i)=>{
+               {[{ id:'en', label: (<>English</>) },
+                 { id:'hi', label: (<>हिंदी</>) }]?.map((l,i)=>{
                    return (<button key={i} type="button" className={(l?.id===lang)?"btn btn-danger":"btn btn-outline-danger"}
-                 style={{ fontSize:'12px', border:'1px solid #ccc' }}
+                 style={{ fontSize:'12px', border:'1px solid #bb2d3b' }}
                  onClick={()=>switchLanguage(l?.id)}><b>{l?.label}</b></button>);
                  })}
              </div>

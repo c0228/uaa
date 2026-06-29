@@ -8,23 +8,31 @@ export const HeaderMenu = (lang, isLogged)=>{
         if(isLogged){
             return [{ id:'MyDashboard', url: url+'hi/my-dashboard', label:'मेरे डैशबोर्ड' },
                 { id:'DailyCurrentAffairs', url:url+'hi/daily-current-affairs/list/art-and-culture/ancient-india', label:'डेली करंट अफेयर्स' },
-                { id:'DiscussionHub', url: url+'hi/upsc-open-chat-discussion-hub', label:'चर्चा केंद्र' }];
+                { id:'StudyMaterials', url:url+'hi/study-materials/list', label:'अध्ययन सामग्री' },
+                { id:'DiscussionHub', url: url+'hi/upsc-open-chat-discussion-hub', label:'चर्चा केंद्र' }
+              ];
         } else {
             return [{ id:'Home', url: url+'hi/home', label:'होम' },
-                { id:'AboutUPSC', url: url+'hi/about-upsc-examination', label:'यूपीएससी के बारे में' },
+               /* { id:'AboutUPSC', url: url+'hi/about-upsc-examination', label:'यूपीएससी के बारे में' }, */
                 { id:'DailyCurrentAffairs', url:url+'hi/daily-current-affairs/list/art-and-culture/ancient-india', label:'डेली करंट अफेयर्स' },
-                { id:'DiscussionHub', url: url+'hi/upsc-open-chat-discussion-hub', label:'चर्चा केंद्र' }];
+                { id:'StudyMaterials', url:url+'hi/study-materials/list', label:'अध्ययन सामग्री' },
+                { id:'DiscussionHub', url: url+'hi/upsc-open-chat-discussion-hub', label:'चर्चा केंद्र' }
+            ];
         }
     } else {
         if(isLogged){
             return [{ id:'MyDashboard', url: url+'en/my-dashboard', label:'My Dashboard' },
                 { id:'DailyCurrentAffairs', url:url+'en/daily-current-affairs/list/art-and-culture/ancient-india', label:'Daily Current Affairs' },
-                { id:'DiscussionHub', url: url+'en/upsc-open-chat-discussion-hub', label:'Discussion Hub' }];
+                { id:'StudyMaterials', url:url+'en/study-materials/list', label:'Study Materials' },
+                { id:'DiscussionHub', url: url+'en/upsc-open-chat-discussion-hub', label:'Discussion Hub' }
+            ];
         } else {
             return [{ id:'Home', url: url+'en/home', label:'Home' },
-                { id:'AboutUPSC', url: url+'en/about-upsc-examination', label:'About UPSC' },
+               /* { id:'AboutUPSC', url: url+'en/about-upsc-examination', label:'About UPSC' }, */
                 { id:'DailyCurrentAffairs', url:url+'en/daily-current-affairs/list/art-and-culture/ancient-india', label:'Daily Current Affairs' },
-                { id:'DiscussionHub', url: url+'en/upsc-open-chat-discussion-hub', label:'Discussion Hub' }];
+                { id:'StudyMaterials', url:url+'en/study-materials/list', label:'Study Materials' },
+                { id:'DiscussionHub', url: url+'en/upsc-open-chat-discussion-hub', label:'Discussion Hub' }
+            ];
         }
     }
 } 

@@ -59,7 +59,7 @@ const AspirantsSideWrapperMenu = ({ children, activeId }) =>{
  };
  return (<div>
     <SideWrapperNavbar barTheme="outline-primary">
-        <SideWrapperMenu config={{ backgroundColor: '#2a3042' }}>
+        <SideWrapperMenu config={{ backgroundColor: '#ebedee' }}>
             <LeftSideMenu />
         </SideWrapperMenu>
         <SideWrapperPage>

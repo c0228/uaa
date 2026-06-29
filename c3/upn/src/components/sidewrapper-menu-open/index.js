@@ -32,21 +32,27 @@ const OpenSideWrapperMenu = ({ children, activeId }) =>{
      <Col md={12}>
       {data?.map((d,i1)=>{
         return (<div key={i1} style={{ marginBottom:'10px' }}>
-        <div className="admin-sidewrapper-menu-headertitle" onClick={()=>menuTitleHeaderHandler(i1)}>
+        <div className="open-sidewrapper-menu-headertitle" onClick={()=>menuTitleHeaderHandler(i1)}>
             <Icon type="FontAwesome" name={d?.icon} size={15} style={{ marginRight:'5px' }} />
             {d?.group} 
             <span className="pull-right">
                 <Icon type="FontAwesome" name="fa-angle-double-down" size={16} />
             </span>
         </div>
-        <div className={(i1===activeItem)?"collapse show admin-sidewrapper-menu-items-section":"collapse admin-sidewrapper-menu-items-section"}>
+        <div className={(i1===activeItem)?"collapse show open-sidewrapper-menu-items-section":"collapse open-sidewrapper-menu-items-section"}>
         {d?.items?.map((a,i2)=>{
             const currentURL = window.location.href?.replace(/#$/, '');
             const itemURL = process.env.PROJECT_URL+a?.url;
-            return (<div key={i2} className={currentURL===itemURL?"admin-sidewrapper-menu-items-active":"admin-sidewrapper-menu-items"} 
+            return (<div key={i2} className={currentURL===itemURL?"open-sidewrapper-menu-items-active":"open-sidewrapper-menu-items"} 
                 onClick={()=>menuItemClickHandler(a)}>
-                <Icon type="FontAwesome" name={a?.icon} size={13} style={{ marginRight:'8px' }} />
-                    {a?.label}
+                <div style={{ display:'flex', flex:1 }}>
+                    <div style={{ width:'10%' }}>
+                        <Icon type="FontAwesome" name={a?.icon} size={13} style={{ marginRight:'8px' }} />
+                    </div>
+                    <div style={{ width:'90%' }}>
+                        <span className="open-sidewrapper-menu-items-title">{a?.label}</span>
+                    </div>
+                </div>
             </div>);  
         })}
         </div>
@@ -59,7 +65,7 @@ const OpenSideWrapperMenu = ({ children, activeId }) =>{
  };
  return (<div>
     <SideWrapperNavbar barTheme="outline-primary">
-        <SideWrapperMenu config={{ backgroundColor: '#2a3042' }}>
+        <SideWrapperMenu style={{ backgroundColor: '#ebedee', borderRight:'1px solid #ccc' }}>
             <LeftSideMenu />
         </SideWrapperMenu>
         <SideWrapperPage>
