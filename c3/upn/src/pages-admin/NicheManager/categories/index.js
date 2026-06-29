@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { ContainerFluid, Row, Col, Badge, Card, Icon, Button } from "e-ui-react";
-import AdminSideWrapperMenu from "@Components/admin-sidewrapper-menu/index.js";
+import AdminSideWrapperMenu from "@Components/sidewrapper-menu-admin/index.js";
 import AddNewCategory from "./components/add-new-category/index.js";
 import DisplayEdit from "./components/display-edit/index.js";
 

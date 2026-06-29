@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { ContainerFluid, Row, Col, Badge, Card, Icon, Button } from "e-ui-react";
-import AdminSideWrapperMenu from "@Components/admin-sidewrapper-menu/index.js";
+import AdminSideWrapperMenu from "@Components/sidewrapper-menu-admin/index.js";
 
 const SubCategories = () =>{
  useEffect(() => {

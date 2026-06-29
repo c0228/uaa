@@ -1,0 +1,4 @@
+.admin-sidewrapper-menu-headertitle { text-transform:uppercase;color:#ffe083;cursor:pointer;font-size:14px;font-family:MetropolisBold; }
+.admin-sidewrapper-menu-items-section { color:#fff;margin-top:4px;margin-bottom:5px;padding-left:5px;font-family:MetropolisBold; }
+.admin-sidewrapper-menu-items-active { margin-bottom:3px;cursor:pointer;background-color:#585757;padding:3px 3px 3px 5px; }
+.admin-sidewrapper-menu-items { margin-bottom:3px;cursor:pointer;padding-left:5px;  }
