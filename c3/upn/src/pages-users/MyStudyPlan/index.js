@@ -1,13 +1,13 @@
 import React from "react";
 import { ContainerFluid, Row, Col, Breadcrumb, Icon } from "e-ui-react";
+import AspirantsSideWrapperMenu from "@Components/sidewrapper-menu-aspirants/index.js";
 import Header from '@Templates/Header/index.js';
 import { HeaderMenu } from '@AppRoutes/NavbarList.js';
 import { useAuth } from "@Hooks/useAuth.js";
 
 const MyStudyPlan = () =>{
  const { userDetails, isLogged, lang } = useAuth();
- return (<div>
-    <Header menulinks={HeaderMenu(lang,isLogged)} activeId="MyDashboard" />
+ return (<AspirantsSideWrapperMenu activeId="MyDashboard">
     <ContainerFluid>
         <Row>
             <Col md={12}>
@@ -19,8 +19,7 @@ const MyStudyPlan = () =>{
             </Col>
         </Row>
     </ContainerFluid>
-
- </div>);
+ </AspirantsSideWrapperMenu>);
 };
 
 export default MyStudyPlan;
