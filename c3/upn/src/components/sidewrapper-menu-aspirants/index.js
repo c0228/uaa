@@ -8,7 +8,7 @@ import { AppColors } from "@Utils/AppColorManager.js";
 import { data } from './menu.js';
 import './index.css';
 
-const AspirantsSideWrapperMenu = ({ children }) =>{
+const AspirantsSideWrapperMenu = ({ children, activeId }) =>{
  const menuTitleHeaderHandler = (index) =>{
      setActiveItem((prev) => (prev === index ? null : index));
  };
@@ -64,7 +64,7 @@ const AspirantsSideWrapperMenu = ({ children }) =>{
         </SideWrapperMenu>
         <SideWrapperPage>
             <SideWrapperHeader>
-                <Header menulinks={HeaderMenu(lang, isLogged)} activeId="MyDashboard" />
+                <Header menulinks={HeaderMenu(lang, isLogged)} activeId={activeId} />
             </SideWrapperHeader>
             <SideWrapperBody>
             {children}

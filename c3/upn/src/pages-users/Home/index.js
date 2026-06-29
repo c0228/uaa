@@ -14,7 +14,7 @@ const Home = ()=>{
  if(isLogged) {
       window.location.href = process.env.PROJECT_URL+lang+'/my-dashboard';
  } else {
-  return (<OpenSideWrapperMenu>
+  return (<OpenSideWrapperMenu activeId="Home">
   <div align="center" style={{ borderTop:'1px solid #ccc', borderBottom:'1px solid #ccc', backgroundColor:'#e1f2ff', padding:'15px', color:'#000' }}>
         <div className="h1-subtitle">
             <b>Free UPSC preparation platform with syllabus, current affairs, notes, previous year questions, 

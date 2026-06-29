@@ -13,7 +13,7 @@ const Dashboard = () =>{
  if(!isLogged) {
      window.location.href = process.env.PROJECT_URL+lang+'/home';
  } else {
-    return (<AspirantsSideWrapperMenu>
+    return (<AspirantsSideWrapperMenu activeId="MyDashboard">
     <div className="fs22p">
       
     </div>
