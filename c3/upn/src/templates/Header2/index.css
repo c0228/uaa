@@ -1,0 +1,5 @@
+.upn-btn-google-login {  background-color: #065fc5;border:1px solid #065fc5;border-radius:6px;padding-left:10px;
+    padding-right:10px;padding-top:3px;padding-bottom:3px;color:#fff; }
+.upn-btn-google-login:hover { background-color: #fff;color:#065fc5;border:1px solid #065fc5; }
+.upn-img-google-login { border:2px solid #065fc5;margin-right:5px;width:22px;height:auto;border-radius:8px; }
+.upn-profilePic-google-login { border:2px solid #065fc5;margin-right:5px;width:28px;height:auto;border-radius:8px; }

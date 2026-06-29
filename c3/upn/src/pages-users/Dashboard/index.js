@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { useParams  } from "react-router-dom";
 import { Icon, ContainerFluid, Row, Col } from "e-ui-react";
+import AspirantsSideWrapperMenu from "@Components/sidewrapper-menu-aspirants/index.js";
 import Header from '@Templates/Header/index.js';
 import { HeaderMenu } from '@AppRoutes/NavbarList.js';
 import { AppColors } from "@Utils/AppColorManager.js";
@@ -12,9 +13,11 @@ const Dashboard = () =>{
  if(!isLogged) {
      window.location.href = process.env.PROJECT_URL+lang+'/home';
  } else {
-    return (<div className="fs22p">
-      <Header menulinks={HeaderMenu(lang, isLogged)} activeId="MyDashboard" />
-    </div>);
+    return (<AspirantsSideWrapperMenu>
+    <div className="fs22p">
+      
+    </div>
+    </AspirantsSideWrapperMenu>);
  }
 };
 

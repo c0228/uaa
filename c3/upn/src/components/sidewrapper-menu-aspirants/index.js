@@ -1,11 +1,14 @@
 import React, { useState, useEffect } from "react";
 import { SideWrapperNavbar, SideWrapperPage, SideWrapperMenu, SideWrapperHeader, SideWrapperBody,
 Icon, ContainerFluid, Row, Col } from "e-ui-react";
+import Header from '@Templates/Header2/index.js';
+import { HeaderMenu } from '@AppRoutes/NavbarList.js';
+import { useAuth } from "@Hooks/useAuth.js";
 import { AppColors } from "@Utils/AppColorManager.js";
 import { data } from './menu.js';
 import './index.css';
 
-const AdminSideWrapperMenu = ({ children }) =>{
+const AspirantsSideWrapperMenu = ({ children }) =>{
  const menuTitleHeaderHandler = (index) =>{
      setActiveItem((prev) => (prev === index ? null : index));
  };
@@ -20,6 +23,7 @@ const AdminSideWrapperMenu = ({ children }) =>{
         )
     );
  };
+ const { userDetails, isLogged, lang } = useAuth();
  const [activeItem, setActiveItem] = useState(getDefaultOpenGroup(data));
  const LeftSideMenu = () =>{
   return (<div className="mtop15p">
@@ -60,7 +64,7 @@ const AdminSideWrapperMenu = ({ children }) =>{
         </SideWrapperMenu>
         <SideWrapperPage>
             <SideWrapperHeader>
-                        
+                <Header menulinks={HeaderMenu(lang, isLogged)} activeId="MyDashboard" />
             </SideWrapperHeader>
             <SideWrapperBody>
             {children}
@@ -70,4 +74,4 @@ const AdminSideWrapperMenu = ({ children }) =>{
  </div>);
 };
 
-export default AdminSideWrapperMenu;
+export default AspirantsSideWrapperMenu;

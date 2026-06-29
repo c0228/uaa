@@ -1,8 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { useParams  } from "react-router-dom";
 import { ContainerFluid, Row, Col, Card, Button, getAppContext } from "e-ui-react";
-import Header from '@Templates/Header/index.js';
-import { HeaderMenu } from '@AppRoutes/NavbarList.js';
+import OpenSideWrapperMenu from "@Components/sidewrapper-menu-open/index.js";
 import { GetUserProfile } from "@Services/AuthManager.js";
 import { useAuth } from "@Hooks/useAuth.js";
 import UPSCPrepCard from './components/upsc-prep-card/index.js';
@@ -15,8 +14,7 @@ const Home = ()=>{
  if(isLogged) {
       window.location.href = process.env.PROJECT_URL+lang+'/my-dashboard';
  } else {
-  return (<>
-  <Header menulinks={HeaderMenu(lang, isLogged)} activeId="Home" />
+  return (<OpenSideWrapperMenu>
   <div align="center" style={{ borderTop:'1px solid #ccc', borderBottom:'1px solid #ccc', backgroundColor:'#e1f2ff', padding:'15px', color:'#000' }}>
         <div className="h1-subtitle">
             <b>Free UPSC preparation platform with syllabus, current affairs, notes, previous year questions, 
@@ -35,7 +33,7 @@ const Home = ()=>{
             </Col>
         </Row>
       </ContainerFluid>
-  </>);
+  </OpenSideWrapperMenu>);
  }
 };
 
