@@ -6,6 +6,7 @@ import { GetUserProfile } from "@Services/AuthManager.js";
 import { useAuth } from "@Hooks/useAuth.js";
 import UPSCPrepCard from './components/upsc-prep-card/index.js';
 import UpcomingExams from './components/upcoming-exams/index.js';
+import ExamEligibilityCalculator from "@Components/exam-eligibility-calculator/index.js";
 import CurrentAffairsSection from './components/sec-current-affairs/index.js';
 import './index.css';
 
@@ -27,10 +28,13 @@ const Home = ()=>{
                 <UPSCPrepCard />
                 <UpcomingExams />
             </Col>
-            <Col md={4}><CurrentAffairsSection /></Col>
+            <Col md={8}>
+                <ExamEligibilityCalculator />
+            </Col>
+            {/*<Col md={4}><CurrentAffairsSection /></Col>
             <Col md={4}>
                 <div className="mtop15p"><h2 className="fw-bold">Mock Test Dashboard</h2><hr/></div>
-            </Col>
+            </Col> */}
         </Row>
       </ContainerFluid>
   </OpenSideWrapperMenu>);
