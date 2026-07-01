@@ -1,4 +1,5 @@
 import React from "react";
+import { getEligibilityContext } from "@Components/exam-eligibility-calculator/index.js";
 
 const LeftMenuData = [{
     "id":"personal-information",
@@ -14,12 +15,14 @@ const LeftMenuData = [{
     "label":"Review"
 }];
 
-const FormLeftMenu = ({ activeId }) =>{
+const FormLeftMenu = () =>{
+ const { eligibilityContextData, setEligibilityContextData } = getEligibilityContext();
+ const activeId = eligibilityContextData?.leftMenuActiveId ?? "personal-information";
  return (<div>
-         <ul class="nav nav-pills flex-column">
+         <ul className="nav nav-pills flex-column">
              {LeftMenuData?.map((m,i)=>{
-                 return (<li key={i} class="nav-item">
-                 <a class={(activeId===m?.id)?"nav-link active":"nav-link"} href="#"><b>{i+1}. {m?.label}</b></a>
+                 return (<li key={i} className="nav-item">
+                 <a className={(activeId===m?.id)?"nav-link active":"nav-link"} href="#"><b>{i+1}. {m?.label}</b></a>
              </li>);
              })}
          </ul>

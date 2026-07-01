@@ -1,7 +1,12 @@
 import React from "react";
 import {ContainerFluid, Row, Col, DateTimePicker, Select, Button  } from "e-ui-react";
+import { getEligibilityContext } from "@Components/exam-eligibility-calculator/index.js";
 
 const FormPersonalInfo = () =>{
+ const { eligibilityContextData, setEligibilityContextData } = getEligibilityContext();
+ const nextHandler = () =>{
+    setEligibilityContextData({ leftMenuActiveId: "edu-qualification" });
+ };
  return (<div>
   <div><h5><b>1. Personal Information</b></h5><hr/></div>
   <ContainerFluid>
@@ -56,7 +61,7 @@ const FormPersonalInfo = () =>{
     <Row>
         <Col md={12}>
             <div align="right" className="mt-3">
-                <Button type="success" size={11}><b>Next</b></Button>
+                <Button type="success" size={11} onClick={()=>nextHandler()}><b>Next</b></Button>
             </div>
         </Col>
     </Row>
