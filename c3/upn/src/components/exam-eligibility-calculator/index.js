@@ -4,9 +4,7 @@ import FormLeftMenu from "./components/form-left-menu/index.js";
 import FormPersonalInfo from "./components/form-personal-info/index.js"; 
 
 const EligibilityContext = createContext();
-
 export const getEligibilityContext = () => useContext(EligibilityContext);
-
 const ExamEligibilityCalculator = () =>{
  const defaultEligibilityData = {
     leftMenuActiveId: "personal-information",
