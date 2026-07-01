@@ -2,6 +2,7 @@ import React, { useState, createContext, useContext } from 'react';
 import { Card, ContainerFluid, Row, Col } from "e-ui-react";
 import FormLeftMenu from "./components/form-left-menu/index.js";
 import FormPersonalInfo from "./components/form-personal-info/index.js"; 
+import FormAcademics from "./components/form-academics/index.js";
 
 const EligibilityContext = createContext();
 export const getEligibilityContext = () => useContext(EligibilityContext);
@@ -14,7 +15,7 @@ const ExamEligibilityCalculator = () =>{
   updateEligibilityContextData({ ...eligibilityContextData, ...data });
  };
  return (<EligibilityContext.Provider value={{ eligibilityContextData, setEligibilityContextData }}>
- <div className="mtop15p">
+ <div id="upsc-eligibility-calculator" className="mtop15p">
     <Card padding={15} backgroundColor="#fde2e2">
     <div><h1 className="fw-bold" style={{ fontSize:'22px' }}>UPSC Exam Eligibility Calculator</h1></div>
     <div><p>Find all UPSC exams you're eligible for in just a few steps - based on age, qualification, category, 
@@ -25,6 +26,7 @@ const ExamEligibilityCalculator = () =>{
             <Col md={4}><FormLeftMenu /></Col> {/** activeId={leftMenuActiveId} */}
             <Col md={8}>
               {eligibilityContextData?.leftMenuActiveId==="personal-information" && (<FormPersonalInfo />)}
+              {eligibilityContextData?.leftMenuActiveId==="edu-qualification" && (<FormAcademics />)}
             </Col>
         </Row>
     </ContainerFluid>
