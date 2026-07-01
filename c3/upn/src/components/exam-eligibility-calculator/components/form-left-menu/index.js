@@ -12,7 +12,7 @@ const LeftMenuData = [{
     "label":"Reservation & Relaxations"
 },{
     "id":"review",
-    "label":"Review"
+    "label":"Review Details"
 }];
 
 const FormLeftMenu = () =>{

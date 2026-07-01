@@ -1,28 +1,27 @@
 import React, { useState, useEffect } from "react";
-import { ContainerFluid, Row, Col, Select, Range, Switch } from "e-ui-react";
+import { ContainerFluid, Row, Col, Select, Range, Switch, Button } from "e-ui-react";
+import { getEligibilityContext } from "@Components/exam-eligibility-calculator/index.js";
+import { CreateId } from "@Components/exam-eligibility-calculator/utils.js";
 
 const FormReservations = () =>{
+ const { eligibilityContextData, setEligibilityContextData } = getEligibilityContext();
  const defaultReservationFormData = {
-    "PwBD": ""
+    "PwBD": "",
+    "disabilityCategory": "",
+    "disabilityPercentage": "",
+    "exServiceMan": "",
+    "defencePersonnelDisabled": "",
+    "cseAttempt": ""
  };
  const [reservationFormData, setReservationFormData] = useState(defaultReservationFormData);
- useEffect(()=>{
-    // const checkedItem = switchValue.filter(item =>  item?.checked === true);
-    console.log("reservationFormData: ", reservationFormData);
- },[reservationFormData]);
- const CreateId = (text) => {
-    return text
-        .toLowerCase()
-        .replace(/[^\w\s]/g, " ")      // Remove symbols (/, •, -, etc.)
-        .replace(/\s+/g, "_")          // Replace spaces with _
-        .replace(/_+/g, "_")           // Remove consecutive _
-        .replace(/^_+|_+$/g, "");      // Trim leading/trailing _
-};
+ const nextHandler = () =>{
+    setEligibilityContextData({ leftMenuActiveId: "review" });
+ };
 const DisplayPwBD = () =>{
  return (<>
   <Row>
         <Col md={12}>
-                <div className="mt-1">
+                <div className="mt-2">
                     <Switch type="radio" id="PwBD" name="PwBD"  layout="horizontal"
                         label="Are you a Person with Benchmark Disability (PwBD)?" 
                         value={reservationFormData.PwBD}
@@ -43,7 +42,7 @@ const DisplayPwBD = () =>{
                 <div className="mt-3">
                     <Select label="Disability Category" placeholder="Select Disability"
                     options={["Blindness / Low Vision","Deaf / Hard of Hearing","Locomotor Disability",
-                        "Autism","Intellectual Disability","Multiple Disabilities"]?.map((d,i)=>{
+                        "Autism","Intellectual Disability","Multiple Disabilities","Other"]?.map((d,i)=>{
                         return { id: CreateId(d), label: d, value: d };
                     })}
                     onChange={(event) => {
@@ -71,6 +70,92 @@ const DisplayPwBD = () =>{
     </>)}
  </>);
 };
+const DisplayExServiceMan = () =>{
+ return (<Row>
+    <Col md={12}>
+        <div className="mt-3">
+            <Switch type="radio" id="exServiceMan" name="exServiceMan"  layout="horizontal"
+                label="Are you an Ex-Serviceman?" 
+                value={reservationFormData.exServiceMan}
+                        options={[{ id:'Yes', label:"Yes", value:"Yes"},
+                                { id:'No', label:"No", value:"No" }]} 
+                        onChange={(data)=>{
+                            if(data?.length>0){
+                                setReservationFormData({...reservationFormData, exServiceMan: data });
+                            }
+                        }}        
+                        />
+        </div>
+    </Col>
+    <Col md={12}>
+        <div style={{ fontSize:'12px'}}>
+            Candidates belonging to the Ex-Serviceman category may be eligible for 
+            age relaxation in certain UPSC examinations, subject to the official notification.
+        </div>
+    </Col>
+ </Row>);
+ };
+ const DisplayDefencePersonnelDisabled = () =>{
+  return (<Row>
+    <Col md={12}>
+        <div className="mt-3">
+            <Switch type="radio" id="defencePersonnelDisabled" name="defencePersonnelDisabled"  layout="horizontal"
+                label="Are you Defence Personnel disabled during military operations?" 
+                value={reservationFormData.defencePersonnelDisabled}
+                        options={[{ id:'Yes', label:"Yes", value:"Yes"},
+                                { id:'No', label:"No", value:"No" }]} 
+                        onChange={(data)=>{
+                            if(data?.length>0){
+                                setReservationFormData({...reservationFormData, defencePersonnelDisabled: data });
+                            }
+                        }}        
+                        />
+        </div>
+    </Col>
+    <Col md={12}>
+        <div style={{ fontSize:'12px'}}>
+            This information is used only to determine applicable age relaxation where provided in 
+            the official UPSC notification.
+        </div>
+    </Col>
+  </Row>);
+ };
+ const DisplayCSEAttempt = () =>{
+  return (<>
+  <Row>
+    <Col md={12}>
+        <div className="mt-3">
+            <Switch type="radio" id="cseAttempt" name="cseAttempt"  layout="horizontal"
+                label="Have you appeared for UPSC Civil Services Examination before??" 
+                value={reservationFormData.cseAttempt}
+                        options={[{ id:'Yes', label:"Yes", value:"Yes"},
+                                { id:'No', label:"No", value:"No" }]} 
+                        onChange={(data)=>{
+                            if(data?.length>0){
+                                setReservationFormData({...reservationFormData, cseAttempt: data });
+                            }
+                        }}        
+                        />
+        </div>
+    </Col>
+  </Row>
+  {reservationFormData?.cseAttempt==='Yes' && (<>
+            <Row>
+            <Col md={6}>
+                <div className="mt-3">
+                    <Select label="Attempts Used" placeholder="Select Completed Attempts"
+                    options={["1","2","3","4","5","6","7","8","9"]?.map((d,i)=>{
+                        return { id: d, label: d, value: d };
+                    })}
+                    onChange={(event) => {
+                        let option = event.target.value;
+                    }} />
+                </div>
+            </Col>
+    </Row>
+    </>)}
+  </>);
+ };
  return (<div>
     <div><h5><b>3. Reservation & Relaxations</b></h5><hr/></div>
     <ContainerFluid>
@@ -80,7 +165,27 @@ const DisplayPwBD = () =>{
                     calculate age relaxation, attempt limits, and eligibility accurately.</p></div>
             </Col>
         </Row>
-        <DisplayPwBD />
+        <div className="list-group">
+            <div className="list-group-item" style={{ backgroundColor:'#fde2e2' }}>
+                <DisplayPwBD />
+            </div>
+            <div className="list-group-item" style={{ backgroundColor:'#fde2e2' }}>
+                <DisplayExServiceMan />
+            </div>
+            <div className="list-group-item" style={{ backgroundColor:'#fde2e2' }}>
+                <DisplayDefencePersonnelDisabled />
+            </div>
+            <div className="list-group-item" style={{ backgroundColor:'#fde2e2' }}>
+                <DisplayCSEAttempt />
+            </div>
+        </div>
+        <Row>
+            <Col md={12}>
+                <div align="right" className="mt-3">
+                    <Button type="success" size={11} onClick={()=>nextHandler()}><b>Next</b></Button>
+                </div>
+            </Col>
+        </Row>
     </ContainerFluid>
  </div>);
 };
