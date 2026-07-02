@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { ContainerFluid, Row, Col, Select, Range, Switch, Button } from "e-ui-react";
+import { ContainerFluid, Row, Col, Select, Range, Switch, Button, Form } from "e-ui-react";
 import { getEligibilityContext } from "@Components/exam-eligibility-calculator/index.js";
 import { CreateId } from "@Components/exam-eligibility-calculator/utils.js";
 
@@ -14,9 +14,24 @@ const FormReservations = () =>{
     "cseAttempt": ""
  };
  const [reservationFormData, setReservationFormData] = useState(defaultReservationFormData);
- const nextHandler = () =>{
-    setEligibilityContextData({ leftMenuActiveId: "review" });
+ const NextHandler = async(form, isValidForm, setFormMode) =>{
+    if(isValidForm){  
+        const formData = form?.["ReservationsAndRelaxations"];
+        setEligibilityContextData({
+            ...eligibilityContextData,
+            leftMenuActiveId: "review",
+            "PwBD": formData?.PwBD?.value,
+            "disabilityCategory": formData?.disabilityCategory?.value,
+            "disabilityPercentage": formData?.disabilityPercentage?.value,
+            "exServiceMan": formData?.exServiceMan?.value,
+            "defencePersonnelDisabled": formData?.defencePersonnelDisabled?.value,
+            "cseAttempt": formData?.cseAttempt?.value
+        });
+    }
  };
+  useEffect(()=>{
+     console.log("eligibilityContextData: ", eligibilityContextData);
+  },[eligibilityContextData]);
 const DisplayPwBD = () =>{
  return (<>
   <Row>
@@ -40,7 +55,7 @@ const DisplayPwBD = () =>{
             <Row>
             <Col md={6}>
                 <div className="mt-3">
-                    <Select label="Disability Category" placeholder="Select Disability"
+                    <Select name="disabilityCategory" label="Disability Category" placeholder="Select Disability"
                     options={["Blindness / Low Vision","Deaf / Hard of Hearing","Locomotor Disability",
                         "Autism","Intellectual Disability","Multiple Disabilities","Other"]?.map((d,i)=>{
                         return { id: CreateId(d), label: d, value: d };
@@ -52,7 +67,7 @@ const DisplayPwBD = () =>{
             </Col>
             <Col md={6}>
                 <div className="mt-3">
-                    <Range name="formRanger" label="Disability Percentage" />
+                    <Range name="disabilityPercentage" label="Disability Percentage" />
                 </div>
             </Col>
         </Row>
@@ -158,6 +173,10 @@ const DisplayExServiceMan = () =>{
  };
  return (<div>
     <div><h5><b>3. Reservation & Relaxations</b></h5><hr/></div>
+    <Form name="ReservationsAndRelaxations"  
+        btnSubmit={{ align: 'right', btnType:'success', label:(<b>Next</b>), size: 12 }} 
+        btnReset={{ btnType:'danger', label:(<b>Reset</b>), size: 11 }}
+        onSubmit={NextHandler}>
     <ContainerFluid>
         <Row>
             <Col md={12}>
@@ -179,14 +198,8 @@ const DisplayExServiceMan = () =>{
                 <DisplayCSEAttempt />
             </div>
         </div>
-        <Row>
-            <Col md={12}>
-                <div align="right" className="mt-3">
-                    <Button type="success" size={11} onClick={()=>nextHandler()}><b>Next</b></Button>
-                </div>
-            </Col>
-        </Row>
     </ContainerFluid>
+    </Form>
  </div>);
 };
 

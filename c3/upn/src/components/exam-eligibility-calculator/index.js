@@ -4,6 +4,7 @@ import FormLeftMenu from "./components/form-left-menu/index.js";
 import FormPersonalInfo from "./components/form-personal-info/index.js"; 
 import FormAcademics from "./components/form-academics/index.js";
 import FormReservations from "./components/form-reservations/index.js";
+import FormReview from "./components/form-review/index.js";
 
 const EligibilityContext = createContext();
 export const getEligibilityContext = () => useContext(EligibilityContext);
@@ -29,6 +30,7 @@ const ExamEligibilityCalculator = () =>{
               {eligibilityContextData?.leftMenuActiveId==="personal-information" && (<FormPersonalInfo />)}
               {eligibilityContextData?.leftMenuActiveId==="edu-qualification" && (<FormAcademics />)}
               {eligibilityContextData?.leftMenuActiveId==="reservation-and-relaxations" && (<FormReservations />)}
+              {eligibilityContextData?.leftMenuActiveId==="review" && (<FormReview />)}
             </Col>
         </Row>
     </ContainerFluid>

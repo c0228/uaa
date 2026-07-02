@@ -11,12 +11,17 @@ const FormPersonalInfo = () =>{
      "nationality": "",
      "category": ""
   };
-  const [personalInfoFormData, setPersonalInfoFormData] = useState(defaultPersonalInfoFormData);
  const NextHandler = async(form, isValidForm, setFormMode) =>{
     if(isValidForm){  
-        console.log("form: ", form);
-
-        setEligibilityContextData({ leftMenuActiveId: "edu-qualification" });
+        const formData = form?.["PersonalInfoForm"];
+        setEligibilityContextData({
+            ...eligibilityContextData,
+            leftMenuActiveId: "edu-qualification",
+            dob: formData?.dob?.value,
+            gender: formData?.gender?.value,
+            nationality: formData?.nationality?.value,
+            category: formData?.category?.value
+        });
     }
  };
  return (<div>
@@ -34,8 +39,7 @@ const FormPersonalInfo = () =>{
                         required:{
                             value: true,
                             errorMessage:"This is a Mandatory Field"
-                        } }}
-                    onChange={(data)=>setPersonalInfoFormData({...personalInfoFormData, dob: data?.value })}/>
+                        } }} />
             </div>
         </Col>
         <Col md={6}>
@@ -50,10 +54,7 @@ const FormPersonalInfo = () =>{
                         required:{
                             value: true,
                             errorMessage:"This is a Mandatory Field"
-                        } }}
-                    onChange={(event) => {
-                        setPersonalInfoFormData({...personalInfoFormData, gender: event.target.value })
-                    }} />
+                        } }} />
             </div>
         </Col>
     </Row>
@@ -70,10 +71,7 @@ const FormPersonalInfo = () =>{
                         required:{
                             value: true,
                             errorMessage:"This is a Mandatory Field"
-                        } }}
-                    onChange={(event) => {
-                        setPersonalInfoFormData({...personalInfoFormData, nationality: event.target.value })
-                    }} />
+                        } }} />
             </div>
         </Col>
         <Col md={6}>
@@ -88,15 +86,8 @@ const FormPersonalInfo = () =>{
                         required:{
                             value: true,
                             errorMessage:"This is a Mandatory Field"
-                        } }}
-                    onChange={(event) => {
-                        setPersonalInfoFormData({...personalInfoFormData, category: event.target.value })
-                    }} />
+                        } }} />
             </div>
-        </Col>
-    </Row>
-    <Row>
-        <Col md={12}>
         </Col>
     </Row>
   </ContainerFluid>
