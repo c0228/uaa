@@ -5,12 +5,6 @@ import { CreateId } from "@Components/exam-eligibility-calculator/utils.js";
 
 const FormPersonalInfo = () =>{
  const { eligibilityContextData, setEligibilityContextData } = getEligibilityContext();
-  const defaultPersonalInfoFormData = {
-     "dob": "",
-     "gender": "",
-     "nationality": "",
-     "category": ""
-  };
  const NextHandler = async(form, isValidForm, setFormMode) =>{
     if(isValidForm){  
         const formData = form?.["PersonalInfoForm"];
@@ -39,7 +33,8 @@ const FormPersonalInfo = () =>{
                         required:{
                             value: true,
                             errorMessage:"This is a Mandatory Field"
-                        } }} />
+                        } }} 
+                    onChange={(value)=>setEligibilityContextData({...eligibilityContextData, "dob": value })} />
             </div>
         </Col>
         <Col md={6}>
@@ -54,7 +49,8 @@ const FormPersonalInfo = () =>{
                         required:{
                             value: true,
                             errorMessage:"This is a Mandatory Field"
-                        } }} />
+                        } }} 
+                    onChange={(value)=>setEligibilityContextData({...eligibilityContextData, "gender": value })} />
             </div>
         </Col>
     </Row>
@@ -71,7 +67,8 @@ const FormPersonalInfo = () =>{
                         required:{
                             value: true,
                             errorMessage:"This is a Mandatory Field"
-                        } }} />
+                        } }} 
+                    onChange={(value)=>setEligibilityContextData({...eligibilityContextData, "nationality": value })} />
             </div>
         </Col>
         <Col md={6}>
@@ -86,7 +83,8 @@ const FormPersonalInfo = () =>{
                         required:{
                             value: true,
                             errorMessage:"This is a Mandatory Field"
-                        } }} />
+                        } }} 
+                    onChange={(value)=>setEligibilityContextData({...eligibilityContextData, "category": value })} />
             </div>
         </Col>
     </Row>

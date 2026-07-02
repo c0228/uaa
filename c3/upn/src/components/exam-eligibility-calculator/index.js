@@ -10,7 +10,28 @@ const EligibilityContext = createContext();
 export const getEligibilityContext = () => useContext(EligibilityContext);
 const ExamEligibilityCalculator = () =>{
  const defaultEligibilityData = {
-    leftMenuActiveId: "personal-information",
+   // leftMenuActiveId: "personal-information", 
+   leftMenuActiveId: "reservation-and-relaxations",
+   data:{
+        personalInfo:{
+            dob: "",
+            gender: "",
+            nationality: "",
+            category: ""
+        },
+        academics:{
+            highestQualification: ""
+        },
+        reservations:{
+            pwBD: "",
+            disabilityCategory: "",
+            disabilityPercentage: "",
+            exServiceMan: "",
+            defencePersonnelDisabled: "",
+            cseAttempt: "",
+            cseAttemptsUsed: ""
+        }
+   }
  };
  const [eligibilityContextData, updateEligibilityContextData] = useState(defaultEligibilityData);
  const setEligibilityContextData = (data) => {

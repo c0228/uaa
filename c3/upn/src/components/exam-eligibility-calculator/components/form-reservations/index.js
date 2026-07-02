@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import { ContainerFluid, Row, Col, Select, Range, Switch, Button, Form } from "e-ui-react";
 import { getEligibilityContext } from "@Components/exam-eligibility-calculator/index.js";
 import { CreateId } from "@Components/exam-eligibility-calculator/utils.js";
+import DisplayPwBD from "./components/display-pwbd/index.js";
 
 const FormReservations = () =>{
  const { eligibilityContextData, setEligibilityContextData } = getEligibilityContext();
@@ -11,11 +12,13 @@ const FormReservations = () =>{
     "disabilityPercentage": "",
     "exServiceMan": "",
     "defencePersonnelDisabled": "",
-    "cseAttempt": ""
+    "cseAttempt": "",
+    "cseAttemptsUsed": ""
  };
  const [reservationFormData, setReservationFormData] = useState(defaultReservationFormData);
  const NextHandler = async(form, isValidForm, setFormMode) =>{
     if(isValidForm){  
+        console.log("isValidForm: ", isValidForm, "form: ", form);
         const formData = form?.["ReservationsAndRelaxations"];
         setEligibilityContextData({
             ...eligibilityContextData,
@@ -25,66 +28,15 @@ const FormReservations = () =>{
             "disabilityPercentage": formData?.disabilityPercentage?.value,
             "exServiceMan": formData?.exServiceMan?.value,
             "defencePersonnelDisabled": formData?.defencePersonnelDisabled?.value,
-            "cseAttempt": formData?.cseAttempt?.value
+            "cseAttempt": formData?.cseAttempt?.value,
+            "cseAttemptsUsed": formData?.cseAttemptsUsed?.value
         });
     }
  };
   useEffect(()=>{
      console.log("eligibilityContextData: ", eligibilityContextData);
   },[eligibilityContextData]);
-const DisplayPwBD = () =>{
- return (<>
-  <Row>
-        <Col md={12}>
-                <div className="mt-2">
-                    <Switch type="radio" id="PwBD" name="PwBD"  layout="horizontal"
-                        label="Are you a Person with Benchmark Disability (PwBD)?" 
-                        value={reservationFormData.PwBD}
-                        options={[{ id:'Yes', label:"Yes", value:"Yes"},
-                                { id:'No', label:"No", value:"No" }]} 
-                        onChange={(data)=>{
-                            if(data?.length>0){
-                                setReservationFormData({...reservationFormData, PwBD: data });
-                            }
-                        }}        
-                        />
-                </div>
-            </Col>
-        </Row>
-        {reservationFormData?.PwBD==='Yes' && (<>
-            <Row>
-            <Col md={6}>
-                <div className="mt-3">
-                    <Select name="disabilityCategory" label="Disability Category" placeholder="Select Disability"
-                    options={["Blindness / Low Vision","Deaf / Hard of Hearing","Locomotor Disability",
-                        "Autism","Intellectual Disability","Multiple Disabilities","Other"]?.map((d,i)=>{
-                        return { id: CreateId(d), label: d, value: d };
-                    })}
-                    onChange={(event) => {
-                        let option = event.target.value;
-                    }} />
-                </div>
-            </Col>
-            <Col md={6}>
-                <div className="mt-3">
-                    <Range name="disabilityPercentage" label="Disability Percentage" />
-                </div>
-            </Col>
-        </Row>
-        <Row>
-            <Col md={12}>
-                <div style={{ fontSize:'11px' }}>
-                    <div>Enter the percentage mentioned in your valid disability certificate.
-                    PwBD benefits generally apply to benchmark disabilities of 40% or more, subject to UPSC notification 
-                    requirements.</div>
-                    <div>If &lt; 40%,  Based on the entered percentage, PwBD relaxation may not be applicable.</div>
-                    <div>If &gt;= 40%, Benchmark disability criteria satisfied for PwBD consideration.</div>
-                </div>
-            </Col>
-        </Row>
-    </>)}
- </>);
-};
+
 const DisplayExServiceMan = () =>{
  return (<Row>
     <Col md={12}>
@@ -158,7 +110,7 @@ const DisplayExServiceMan = () =>{
             <Row>
             <Col md={6}>
                 <div className="mt-3">
-                    <Select label="Attempts Used" placeholder="Select Completed Attempts"
+                    <Select name="cseAttemptsUsed" label="Attempts Used" placeholder="Select Completed Attempts"
                     options={["1","2","3","4","5","6","7","8","9"]?.map((d,i)=>{
                         return { id: d, label: d, value: d };
                     })}
@@ -188,7 +140,7 @@ const DisplayExServiceMan = () =>{
             <div className="list-group-item" style={{ backgroundColor:'#fde2e2' }}>
                 <DisplayPwBD />
             </div>
-            <div className="list-group-item" style={{ backgroundColor:'#fde2e2' }}>
+          {/*}  <div className="list-group-item" style={{ backgroundColor:'#fde2e2' }}>
                 <DisplayExServiceMan />
             </div>
             <div className="list-group-item" style={{ backgroundColor:'#fde2e2' }}>
@@ -196,7 +148,7 @@ const DisplayExServiceMan = () =>{
             </div>
             <div className="list-group-item" style={{ backgroundColor:'#fde2e2' }}>
                 <DisplayCSEAttempt />
-            </div>
+            </div> */}
         </div>
     </ContainerFluid>
     </Form>
