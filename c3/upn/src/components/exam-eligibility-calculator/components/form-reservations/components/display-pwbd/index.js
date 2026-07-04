@@ -10,7 +10,7 @@ const DisplayPwBD = () =>{
         <Row>
         <Col md={12}>
                 <div className="mt-2">
-                    <Switch type="radio" id="PwBD" name="PwBD"  layout="horizontal"
+                    <Switch type="radio" id="PwBD1" name="PwBD1"  layout="horizontal"
                         label="Are you a Person with Benchmark Disability (PwBD)?" 
                         value={eligibilityContextData?.pwBD}
                         options={[{ id:'Yes', label:"Yes", value:"Yes"},
@@ -20,24 +20,8 @@ const DisplayPwBD = () =>{
                                 value: true,
                                 errorMessage:"[This is a Mandatory Field]"
                             } }} 
-                        onChange={(value)=>setEligibilityContextData({...eligibilityContextData, "pwBD": value })} />
-                </div>
-        </Col>
-        <Col md={12}>
-                <div className="mt-2">
-                    <Switch type="checkbox" id="PwBD" name="PwBD"  layout="horizontal"
-                        label="Are you a Person with Benchmark Disability (PwBD)?" 
-                        value={['Yes', 'No', 'NewYes', 'NewNo']}
-                        options={[{ id:'Yes', label:"Yes", value:"Yes"},
-                                { id:'No', label:"No", value:"No" },
-                                { id:'NewYes', label:"NewYes", value:"NewYes"},
-                                { id:'NewNo', label:"NewNo", value:"NewNo" }]} 
-                        validation={{
-                            required:{
-                                value: true,
-                                errorMessage:"[This is a Mandatory Field]"
-                            } }} 
-                        onChange={(value)=>setEligibilityContextData({...eligibilityContextData, "pwBD": value })} />
+                      //  onChange={(data)=>setEligibilityContextData({...eligibilityContextData, "pwBD": data?.value })}
+                     />
                 </div>
         </Col>
         </Row>
