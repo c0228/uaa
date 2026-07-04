@@ -37,7 +37,12 @@ const FormAcademics = () =>{
                                 { id: 'engineeringGraduate', label: 'Engineering Graduate', value: 'Engineering Graduate' },
                                 { id: 'mbbs', label: 'MBBS', value: 'MBBS' },
                                 { id: 'postGraduate', label: 'Post Graduate', value: 'Post Graduate' },]}
-                    fontSize="12" />
+                    fontSize="12" 
+                    validation={{
+                            required:{
+                                value: true,
+                                errorMessage:"[This is a Mandatory Field]"
+                            } }} />
             </div>
         </Col>
     </Row>

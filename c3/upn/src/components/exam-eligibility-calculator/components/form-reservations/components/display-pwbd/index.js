@@ -10,7 +10,7 @@ const DisplayPwBD = () =>{
         <Row>
         <Col md={12}>
                 <div className="mt-2">
-                    <Switch type="radio" id="PwBD1" name="PwBD1"  layout="horizontal"
+                    <Switch type="radio" id="PwBD" name="PwBD"  layout="horizontal"
                         label="Are you a Person with Benchmark Disability (PwBD)?" 
                         value={eligibilityContextData?.pwBD}
                         options={[{ id:'Yes', label:"Yes", value:"Yes"},
@@ -20,7 +20,7 @@ const DisplayPwBD = () =>{
                                 value: true,
                                 errorMessage:"[This is a Mandatory Field]"
                             } }} 
-                      //  onChange={(data)=>setEligibilityContextData({...eligibilityContextData, "pwBD": data?.value })}
+                        onChange={(data)=>setEligibilityContextData({...eligibilityContextData, "pwBD": data?.value })}
                      />
                 </div>
         </Col>
@@ -33,12 +33,22 @@ const DisplayPwBD = () =>{
                     options={["Blindness / Low Vision","Deaf / Hard of Hearing","Locomotor Disability",
                         "Autism","Intellectual Disability","Multiple Disabilities","Other"]?.map((d,i)=>{
                         return { id: CreateId(d), label: d, value: d };
-                    })} />
+                    })} 
+                    validation={{
+                            required:{
+                                value: true,
+                                errorMessage:"[This is a Mandatory Field]"
+                            } }} />
                 </div>
             </Col>
             <Col md={6}>
                 <div className="mt-3">
-                    <Range name="disabilityPercentage" label="Disability Percentage" />
+                    <Range name="disabilityPercentage" label="Disability Percentage" 
+                        validation={{
+                            required:{
+                                value: true,
+                                errorMessage:"[This is a Mandatory Field]"
+                            } }} />
                 </div>
             </Col>
         </Row>

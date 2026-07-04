@@ -61,7 +61,10 @@ const FormPersonalInfo = () =>{
                     label="Your Nationality"
                     placeholder="Select your Nationality"
                         options={[{ id: 'indian', label: 'Indian', value: 'Indian' },
-                            { id: 'dark', label: 'Dark Theme', value: 'Dark' }]}
+                            { id: 'nepalese', label: 'Nepalese', value: 'Nepalese' },
+                            { id: 'bhutanese', label: 'Bhutanese', value: 'Bhutanese' },
+                            { id: 'tibetanRefugee', label: 'Tibetan Refugee', value: 'Tibetan Refugee' },
+                            { id: 'personOfIndianOrigin', label: 'Person of Indian Origin (PIO)', value: 'Person of Indian Origin (PIO)' }]}
                     fontSize="12"
                     validation={{
                         required:{
