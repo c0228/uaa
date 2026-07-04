@@ -76,3 +76,9 @@ export function getTimeDifference(dateString) { // Parse "DD-MM-YYYY HH:mm:ss"
 
   return `${years} year${years !== 1 ? "s" : ""} ${suffix}`;
 }
+
+export const GetYearsBackDate = (years) => {
+  const date = new Date();
+  date.setFullYear(date.getFullYear() - years);
+  return date.toISOString().split("T")[0];
+};
