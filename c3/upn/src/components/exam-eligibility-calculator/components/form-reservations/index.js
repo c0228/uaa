@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { ContainerFluid, Row, Col, Select, Range, Switch, Button, Form } from "e-ui-react";
 import { getEligibilityContext } from "@Components/exam-eligibility-calculator/index.js";
-import { CreateId } from "@Components/exam-eligibility-calculator/utils.js";
+import { CreateId } from "@Components/exam-eligibility-calculator/commons.js";
 import DisplayPwBD from "./components/display-pwbd/index.js";
 import DisplayExServiceMan from "./components/display-exserviceman/index.js";
 import DisplayDefencePersonnelDisabled from "./components/display-defenceperdisabled/index.js";

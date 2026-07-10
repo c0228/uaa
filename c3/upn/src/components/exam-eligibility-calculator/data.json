@@ -1,0 +1,81 @@
+{
+    "data":[{
+        "id": "personalInfo",
+        "enLabel": "Personal Information",
+        "hiLabel": "व्यक्तिगत जानकारी",
+        "list":[{
+                "id":"name",
+                "enLabel":"Your Name",
+                "hiLabel":"",
+                "defaultValue":"Nellutla Lakshmi Narasimha Rao"
+            },{
+                "id":"dob",
+                "enLabel":"Your Date of Birth",
+                "hiLabel":"आपकी जन्म की तारीख",
+                "defaultValue":"1991-10-15"
+            },{
+                "id":"gender",
+                "enLabel":"Your Gender",
+                "hiLabel":"आपकी लिंग",
+                "defaultValue":"Male"
+            },{
+                "id":"nationality",
+                "enLabel":"Your Nationality",
+                "hiLabel":"आपकी राष्ट्रीयता",
+                "defaultValue":"Indian"
+            },{
+                "id":"category",
+                "enLabel":"Your Category",
+                "hiLabel":"आपकी वर्ग",
+                "defaultValue":"General (Unreserved / UR)"
+            }]
+    },{
+        "id": "academics",
+        "enLabel": "Academics",
+        "list":[{
+                "id":"highestQualification",
+                "enLabel":"",
+                "hiLabel":"",
+                "defaultValue":"12th Pass/ Intermediate"
+            }]
+    },{
+        "id": "reservations",
+        "enLabel": "Reservations & Relaxations",
+        "list":[{
+                "id":"pwBD",
+                "enLabel":"",
+                "hiLabel":"",
+                "defaultValue":"Yes"
+            },{
+                "id":"disabilityCategory",
+                "enLabel":"",
+                "hiLabel":"",
+                "defaultValue":"Multiple Disabilities"
+            },{
+                "id":"disabilityPercentage",
+                "enLabel":"",
+                "hiLabel":"",
+                "defaultValue": 40
+            },{
+                "id":"exServiceMan",
+                "enLabel":"",
+                "hiLabel":"",
+                "defaultValue":"Yes"
+            },{
+                "id":"defencePersonnelDisabled",
+                "enLabel":"",
+                "hiLabel":"",
+                "defaultValue":"Yes"
+            },{
+                "id":"cseAttempt",
+                "enLabel":"",
+                "hiLabel":"",
+                "defaultValue":"Yes"
+            },{
+                "id":"cseAttemptsUsed",
+                "enLabel":"",
+                "hiLabel":"",
+                "defaultValue":"1"
+            }]
+    }]
+}

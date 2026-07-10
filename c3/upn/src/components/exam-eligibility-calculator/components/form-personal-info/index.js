@@ -1,34 +1,44 @@
 import React, { useState, useEffect } from "react";
+import { useParams } from "react-router-dom";
 import {ContainerFluid, Row, Col, DateTimePicker, Select, Button, Form, Icon  } from "e-ui-react";
 import { getEligibilityContext } from "@Components/exam-eligibility-calculator/index.js";
-import { CreateId } from "@Components/exam-eligibility-calculator/utils.js";
+import { getFieldLabel, updateEligiblityData, CreateId } from "@Components/exam-eligibility-calculator/commons.js";
 import { GetYearsBackDate } from "@Utils/DateFormatUtils.js";
 
+const PERSONAL_INFO = {
+    "FORM_NAME":"PersonalInfoForm",
+    "SECTION_ID": "personalInfo",
+    "FIELDS":{
+        "DOB":"dob",
+        "GENDER":"gender",
+        "NATIONALITY":"nationality",
+        "CATEGORY":"category"
+    },
+    "NEXT_ACTIVE_ID": "edu-qualification"
+};
+
 const FormPersonalInfo = () =>{
+ const { lang } = useParams();
  const { eligibilityContextData, setEligibilityContextData } = getEligibilityContext();
  useEffect(()=>{ console.log("eligibilityContextData: ", eligibilityContextData); },[eligibilityContextData]);
  const NextHandler = async(form, isValidForm, setFormMode) =>{
     if(isValidForm){  
-        const formData = form?.["PersonalInfoForm"];
+        const formData = form?.[PERSONAL_INFO?.FORM_NAME];
+        const personalInfo = updateEligiblityFormData(formData,PERSONAL_INFO?.SECTION_ID);
         setEligibilityContextData({
             ...eligibilityContextData,
-            leftMenuActiveId: "edu-qualification",
-            data:{
+            leftMenuActiveId: PERSONAL_INFO?.NEXT_ACTIVE_ID,
+            data: {
                 ...eligibilityContextData.data,
-                personalInfo: {
-                    dob: formData?.dob?.value,
-                    gender: formData?.gender?.value,
-                    nationality: formData?.nationality?.value,
-                    category: formData?.category?.value
-                }
+                personalInfo
             }
         });
     }
  };
  const InfoIcon = () =><Icon type="FontAwesome" name="fa-info-circle" size={12} style={{ marginRight:'5px' }} />
  return (<div>
-  <div><h5><b>1. Personal Information</b></h5><hr/></div>
-  <Form name="PersonalInfoForm"  
+  <div><h5><b>1. {getFieldLabel([PERSONAL_INFO?.SECTION_ID], lang)}</b></h5><hr/></div>
+  <Form name={PERSONAL_INFO?.FORM_NAME}  
     btnSubmit={{ align: 'right', btnType:'success', label:(<b>Next</b>), size: 12 }} 
     btnReset={{ btnType:'danger', label:(<b>Reset</b>), size: 11 }}
     onSubmit={NextHandler}>
@@ -36,7 +46,10 @@ const FormPersonalInfo = () =>{
     <Row>
         <Col md={6}>
             <div className="mt-3">
-                <DateTimePicker type="datePicker" label="Your Date of Birth" id="date" name="dob" 
+                <DateTimePicker type="datePicker" 
+                    label={getFieldLabel([PERSONAL_INFO?.SECTION_ID, PERSONAL_INFO?.FIELDS?.DOB], lang)} 
+                    id="date" 
+                    name="dob" 
                     value={eligibilityContextData?.data?.personalInfo?.dob}
                     maxValue={GetYearsBackDate(14)}
                     minValue={GetYearsBackDate(40)}
@@ -44,15 +57,13 @@ const FormPersonalInfo = () =>{
                         required:{
                             value: true,
                             errorMessage:"This is a Mandatory Field"
-                        } }} 
-                   // onChange={(value)=>setEligibilityContextData({...eligibilityContextData, "dob": value })} 
-                   />
+                        } }} />
             </div>
         </Col>
         <Col md={6}>
             <div className="mt-3">
                  <Select name="gender"
-                    label="Your Gender"
+                    label={getFieldLabel([PERSONAL_INFO?.SECTION_ID, PERSONAL_INFO?.FIELDS?.GENDER], lang)}
                     placeholder="Select your Gender"
                     value={eligibilityContextData?.data?.personalInfo?.gender}
                     options={[{ id: 'male', label: 'Male', value: 'Male' },

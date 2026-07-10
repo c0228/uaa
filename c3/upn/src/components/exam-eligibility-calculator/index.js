@@ -1,5 +1,6 @@
 import React, { useState, createContext, useContext } from 'react';
 import { Card, ContainerFluid, Row, Col } from "e-ui-react";
+import { generateEligibilityData } from "./commons.js";
 import FormLeftMenu from "./components/form-left-menu/index.js";
 import FormPersonalInfo from "./components/form-personal-info/index.js"; 
 import FormAcademics from "./components/form-academics/index.js";
@@ -9,30 +10,7 @@ import FormReview from "./components/form-review/index.js";
 const EligibilityContext = createContext();
 export const getEligibilityContext = () => useContext(EligibilityContext);
 const ExamEligibilityCalculator = () =>{
- const defaultEligibilityData = {
-   // leftMenuActiveId: "personal-information", 
-   leftMenuActiveId: "reservation-and-relaxations",
-   data:{
-        personalInfo:{
-            dob: "1991-10-15", // 1991-10-15
-            gender: "Male", // Male
-            nationality: "Indian", // Indian
-            category: "General (Unreserved / UR)" // General (Unreserved / UR)
-        },
-        academics:{
-            highestQualification: "12th Pass/ Intermediate" // 12th Pass/ Intermediate
-        },
-        reservations:{
-            pwBD: "Yes",
-            disabilityCategory: "Multiple Disabilities",
-            disabilityPercentage: 40,
-            exServiceMan: "Yes",
-            defencePersonnelDisabled: "Yes",
-            cseAttempt: "Yes",
-            cseAttemptsUsed: "1"
-        }
-   }
- };
+ const defaultEligibilityData = generateEligibilityData();
  const [eligibilityContextData, updateEligibilityContextData] = useState(defaultEligibilityData);
  const setEligibilityContextData = (data) => {
   updateEligibilityContextData({ ...eligibilityContextData, ...data });
