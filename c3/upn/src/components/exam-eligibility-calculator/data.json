@@ -6,27 +6,27 @@
         "list":[{
                 "id":"name",
                 "enLabel":"Your Name",
-                "hiLabel":"",
+                "hiLabel":"आपका नाम",
                 "defaultValue":"Nellutla Lakshmi Narasimha Rao"
             },{
                 "id":"dob",
                 "enLabel":"Your Date of Birth",
-                "hiLabel":"आपकी जन्म की तारीख",
+                "hiLabel":"आपका जन्म की तारीख",
                 "defaultValue":"1991-10-15"
             },{
                 "id":"gender",
                 "enLabel":"Your Gender",
-                "hiLabel":"आपकी लिंग",
+                "hiLabel":"आपका लिंग",
                 "defaultValue":"Male"
             },{
                 "id":"nationality",
                 "enLabel":"Your Nationality",
-                "hiLabel":"आपकी राष्ट्रीयता",
+                "hiLabel":"आपका राष्ट्रीयता",
                 "defaultValue":"Indian"
             },{
                 "id":"category",
                 "enLabel":"Your Category",
-                "hiLabel":"आपकी वर्ग",
+                "hiLabel":"आपका वर्ग",
                 "defaultValue":"General (Unreserved / UR)"
             }]
     },{
@@ -34,8 +34,8 @@
         "enLabel": "Academics",
         "list":[{
                 "id":"highestQualification",
-                "enLabel":"",
-                "hiLabel":"",
+                "enLabel":"Your Higher Qualification",
+                "hiLabel":"आपका उच्च योग्यता",
                 "defaultValue":"12th Pass/ Intermediate"
             }]
     },{
