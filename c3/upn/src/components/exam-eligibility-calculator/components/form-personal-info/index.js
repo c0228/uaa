@@ -13,10 +13,15 @@ const FormPersonalInfo = () =>{
         setEligibilityContextData({
             ...eligibilityContextData,
             leftMenuActiveId: "edu-qualification",
-            dob: formData?.dob?.value,
-            gender: formData?.gender?.value,
-            nationality: formData?.nationality?.value,
-            category: formData?.category?.value
+            data:{
+                ...eligibilityContextData.data,
+                personalInfo: {
+                    dob: formData?.dob?.value,
+                    gender: formData?.gender?.value,
+                    nationality: formData?.nationality?.value,
+                    category: formData?.category?.value
+                }
+            }
         });
     }
  };
@@ -32,6 +37,7 @@ const FormPersonalInfo = () =>{
         <Col md={6}>
             <div className="mt-3">
                 <DateTimePicker type="datePicker" label="Your Date of Birth" id="date" name="dob" 
+                    value={eligibilityContextData?.data?.personalInfo?.dob}
                     maxValue={GetYearsBackDate(14)}
                     minValue={GetYearsBackDate(40)}
                     validation={{
@@ -39,7 +45,8 @@ const FormPersonalInfo = () =>{
                             value: true,
                             errorMessage:"This is a Mandatory Field"
                         } }} 
-                    onChange={(value)=>setEligibilityContextData({...eligibilityContextData, "dob": value })} />
+                   // onChange={(value)=>setEligibilityContextData({...eligibilityContextData, "dob": value })} 
+                   />
             </div>
         </Col>
         <Col md={6}>
@@ -47,7 +54,8 @@ const FormPersonalInfo = () =>{
                  <Select name="gender"
                     label="Your Gender"
                     placeholder="Select your Gender"
-                        options={[{ id: 'male', label: 'Male', value: 'Male' },
+                    value={eligibilityContextData?.data?.personalInfo?.gender}
+                    options={[{ id: 'male', label: 'Male', value: 'Male' },
                             { id: 'female', label: 'Female', value: 'Female' }]}
                     fontSize="12"
                     validation={{
@@ -55,7 +63,8 @@ const FormPersonalInfo = () =>{
                             value: true,
                             errorMessage:"This is a Mandatory Field"
                         } }} 
-                    onChange={(event)=>setEligibilityContextData({...eligibilityContextData, "gender": event?.target?.value })} />
+                    // onChange={(event)=>setEligibilityContextData({...eligibilityContextData, "gender": event?.target?.value })} 
+                    />
             </div>
         </Col>
     </Row>
@@ -65,7 +74,8 @@ const FormPersonalInfo = () =>{
                 <Select name="nationality"
                     label="Your Nationality"
                     placeholder="Select your Nationality"
-                        options={[{ id: 'indian', label: 'Indian', value: 'Indian' },
+                    value={eligibilityContextData?.data?.personalInfo?.nationality}
+                    options={[{ id: 'indian', label: 'Indian', value: 'Indian' },
                             { id: 'nepalese', label: 'Nepalese', value: 'Nepalese' },
                             { id: 'bhutanese', label: 'Bhutanese', value: 'Bhutanese' },
                             { id: 'tibetanRefugee', label: 'Tibetan Refugee', value: 'Tibetan Refugee' },
@@ -76,7 +86,8 @@ const FormPersonalInfo = () =>{
                             value: true,
                             errorMessage:"This is a Mandatory Field"
                         } }} 
-                    onChange={(event)=>setEligibilityContextData({...eligibilityContextData, "nationality": event?.target?.value })} />
+                   // onChange={(event)=>setEligibilityContextData({...eligibilityContextData, "nationality": event?.target?.value })} 
+                    />
                 <div style={{ fontSize:'11px', marginTop:'8px' }}>
                     {eligibilityContextData?.nationality==='Tibetan Refugee' && (<>
                     <InfoIcon /> A <b>Tibetan refugee</b> who came to India before <b>1 January 1962</b> with the intention of permanently 
@@ -92,7 +103,8 @@ const FormPersonalInfo = () =>{
         </Col>
         <Col md={6}>
             <div className="mt-3">
-                <Select name="category" label="Your Category" placeholder="Select your Category"
+                <Select name="category" label="Your Category" placeholder="Select your Category" 
+                        value={eligibilityContextData?.data?.personalInfo?.category}
                         options={["General (Unreserved / UR)","Economically Weaker Section (EWS)",
                             "Other Backward Class (OBC - Non-Creamy Layer)",
                     "Scheduled Caste (SC)","Scheduled Tribe (ST)"]?.map((d,i)=>{
@@ -104,7 +116,8 @@ const FormPersonalInfo = () =>{
                             value: true,
                             errorMessage:"This is a Mandatory Field"
                         } }} 
-                    onChange={(event)=>setEligibilityContextData({...eligibilityContextData, "category": event?.target?.value })} />
+                   // onChange={(event)=>setEligibilityContextData({...eligibilityContextData, "category": event?.target?.value })} 
+                    />
                 <div style={{ fontSize:'11px', marginTop:'8px' }}>
                     {eligibilityContextData?.category==='General (Unreserved / UR)' && (<>
                     <InfoIcon /> <b>General (Unreserved / UR) -</b> No reservation

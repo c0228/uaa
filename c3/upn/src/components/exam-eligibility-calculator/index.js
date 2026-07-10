@@ -14,22 +14,22 @@ const ExamEligibilityCalculator = () =>{
    leftMenuActiveId: "reservation-and-relaxations",
    data:{
         personalInfo:{
-            dob: "",
-            gender: "",
-            nationality: "",
-            category: ""
+            dob: "1991-10-15", // 1991-10-15
+            gender: "Male", // Male
+            nationality: "Indian", // Indian
+            category: "General (Unreserved / UR)" // General (Unreserved / UR)
         },
         academics:{
-            highestQualification: ""
+            highestQualification: "12th Pass/ Intermediate" // 12th Pass/ Intermediate
         },
         reservations:{
-            pwBD: "",
-            disabilityCategory: "",
-            disabilityPercentage: "",
-            exServiceMan: "",
-            defencePersonnelDisabled: "",
-            cseAttempt: "",
-            cseAttemptsUsed: ""
+            pwBD: "Yes",
+            disabilityCategory: "Multiple Disabilities",
+            disabilityPercentage: 40,
+            exServiceMan: "Yes",
+            defencePersonnelDisabled: "Yes",
+            cseAttempt: "Yes",
+            cseAttemptsUsed: "1"
         }
    }
  };

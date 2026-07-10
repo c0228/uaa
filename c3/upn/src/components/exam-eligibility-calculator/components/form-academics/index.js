@@ -10,7 +10,10 @@ const FormAcademics = () =>{
         setEligibilityContextData({
             ...eligibilityContextData,
             leftMenuActiveId: "reservation-and-relaxations",
-            highestQualification: formData?.highestQualification?.value
+            data:{
+                ...eligibilityContextData.data,
+                highestQualification: formData?.highestQualification?.value
+            }
         });
     }
  };
@@ -30,13 +33,11 @@ const FormAcademics = () =>{
                  <Select name="highestQualification"
                     label="Highest Qualification"
                     placeholder="Select your Qualification"
-                        options={[{ id: 'intermediate', label: '12th Pass/ Intermediate', value: '12th Pass/ Intermediate' },
-                                { id: 'diploma', label: 'Diploma', value: 'Diploma' },
-                                { id: 'graduate', label: 'Graduate', value: 'Graduate' },
-                                { id: 'finalYearGraduate', label: 'Final Year Graduate', value: 'Final Year Graduate' },
-                                { id: 'engineeringGraduate', label: 'Engineering Graduate', value: 'Engineering Graduate' },
-                                { id: 'mbbs', label: 'MBBS', value: 'MBBS' },
-                                { id: 'postGraduate', label: 'Post Graduate', value: 'Post Graduate' },]}
+                    value={eligibilityContextData?.data?.academics?.highestQualification}
+                    options={["12th Pass/ Intermediate", "Diploma", "Graduate", "Final Year Graduate", 
+                        "Engineering Graduate", "MBBS", "Post Graduate"]?.map((d,i)=>{
+                           return ({ id: d, label:d, value: d }); 
+                        })}
                     fontSize="12" 
                     validation={{
                             required:{

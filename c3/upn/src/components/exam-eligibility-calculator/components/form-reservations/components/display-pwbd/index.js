@@ -1,49 +1,49 @@
 import React, { useState } from "react";
 import { Row, Col, Switch, Select, Range } from "e-ui-react";
 import { getEligibilityContext } from "@Components/exam-eligibility-calculator/index.js";
-import { CreateId } from "@Components/exam-eligibility-calculator/utils.js";
 
 const DisplayPwBD = () =>{
  const { eligibilityContextData, setEligibilityContextData } = getEligibilityContext();
- const [reservationFormData, setReservationFormData] = useState({ "PwBD": "" });
  return (<>
         <Row>
         <Col md={12}>
                 <div className="mt-2">
                     <Switch type="radio" id="PwBD" name="PwBD"  layout="horizontal"
                         label="Are you a Person with Benchmark Disability (PwBD)?" 
-                        value={eligibilityContextData?.pwBD}
+                        value={eligibilityContextData?.data?.reservations?.pwBD}
                         options={[{ id:'Yes', label:"Yes", value:"Yes"},
                                 { id:'No', label:"No", value:"No" }]} 
                         validation={{
                             required:{
                                 value: true,
                                 errorMessage:"[This is a Mandatory Field]"
-                            } }} 
-                        onChange={(data)=>setEligibilityContextData({...eligibilityContextData, "pwBD": data?.value })}
+                            } }}
                      />
                 </div>
         </Col>
         </Row>
-        {eligibilityContextData?.pwBD==='Yes' && (<>
+        {eligibilityContextData?.data?.reservations?.pwBD==='Yes' && (<>
             <Row>
             <Col md={6}>
                 <div className="mt-3">
-                    <Select name="disabilityCategory" label="Disability Category" placeholder="Select Disability"
+                    <Select name="disabilityCategory" label="Disability Category" placeholder="Select Disability" 
+                    value={eligibilityContextData?.data?.reservations?.disabilityCategory}
                     options={["Blindness / Low Vision","Deaf / Hard of Hearing","Locomotor Disability",
                         "Autism","Intellectual Disability","Multiple Disabilities","Other"]?.map((d,i)=>{
-                        return { id: CreateId(d), label: d, value: d };
+                        return { id: d, label: d, value: d };
                     })} 
                     validation={{
-                            required:{
-                                value: true,
-                                errorMessage:"[This is a Mandatory Field]"
-                            } }} />
+                        required:{
+                            value: true,
+                            errorMessage:"[This is a Mandatory Field]"
+                        } 
+                    }} />
                 </div>
             </Col>
             <Col md={6}>
                 <div className="mt-3">
                     <Range name="disabilityPercentage" label="Disability Percentage" 
+                        value={eligibilityContextData?.data?.reservations?.disabilityPercentage}
                         validation={{
                             required:{
                                 value: true,
