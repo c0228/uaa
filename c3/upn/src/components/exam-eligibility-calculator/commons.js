@@ -4,8 +4,6 @@ import EligibleData from "./data.json";
 
 export const InfoIcon = () =><Icon type="FontAwesome" name="fa-info-circle" size={11} style={{ marginTop:'2px', marginRight:'2px' }} />
 
-
-
 export const generateEligibilityData = () => {
  const result = {};
  EligibleData.data.forEach(section => {
