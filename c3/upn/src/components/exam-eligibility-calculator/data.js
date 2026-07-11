@@ -13,10 +13,13 @@ export const EligibilityData = {
                 "id":"name",
                 "enLabel":"Your Name",
                 "hiLabel":"आपका नाम",
-                "enPlaceholder":"",
-                "hiPlaceholder":"",
+                "enPlaceholder":"Enter your Name",
+                "hiPlaceholder":"अपना नाम दर्ज करें",
                 "defaultValue":"Nellutla Lakshmi Narasimha Rao",
-                "elementType": "textBox"
+                "elementType": "textBox",
+                "grid": {
+                    "md": 12,
+                }
             },{
                 "id":"dob",
                 "enLabel":"Your Date of Birth",
@@ -24,25 +27,33 @@ export const EligibilityData = {
                 "defaultValue":"1991-10-15",
                 "maxValue": GetYearsBackDate(14),
                 "minValue": GetYearsBackDate(40),
-                "elementType": "datePicker"
+                "elementType": "datePicker",
+                "grid": {
+                    "md": 6,
+                }
             },{
                 "id":"gender",
                 "enLabel":"Your Gender",
                 "hiLabel":"आपका लिंग",
+                "enPlaceholder":"Enter your Gender",
+                "hiPlaceholder":"अपना लिंग दर्ज करें",
                 "defaultValue":"Male",
-                "elementType": "select"
+                "elementType": "select",
+                "grid": {
+                    "md": 6,
+                }
             },{
                 "id":"nationality",
                 "enLabel":"Your Nationality",
                 "hiLabel":"आपका राष्ट्रीयता",
                 "defaultValue":"Indian",
-                "elementType": "Select"
+                "elementType": "select"
             },{
                 "id":"category",
                 "enLabel":"Your Category",
                 "hiLabel":"आपका वर्ग",
                 "defaultValue":"General (Unreserved / UR)",
-                "elementType": "Select"
+                "elementType": "select"
             }]
     },{
         "id": "academics",

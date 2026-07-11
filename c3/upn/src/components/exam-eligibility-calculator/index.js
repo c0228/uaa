@@ -1,7 +1,8 @@
 import React, { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
 import { Card, ContainerFluid, Row, Col } from "e-ui-react";
-import EligibilityData from "./data.js";
+import Element from "./elements.js";
+import { EligibilityData } from "./data.js";
 
 const ExamEligibilityCalculator = () =>{
  const [menuList, setMenuList] = useState([]);
@@ -19,10 +20,13 @@ const ExamEligibilityCalculator = () =>{
  useEffect(()=>{
     initialize();
  },[]);
+ const menuHandler = (index) =>{
+    setActiveMenuId(index);
+ };
  const FormLeftMenu = ({ menuList, activeMenuId }) =>{
     return (<ul className="nav nav-pills flex-column">
     {menuList?.map((e,i)=>{
-        return (<li key={i} className="nav-item" onClick={()=>menuHandler(id)}>
+        return (<li key={i} className="nav-item" onClick={()=>menuHandler(i)}>
             <a className={(activeMenuId===i)?"nav-link active":"nav-link"} href="#upsc-eligibility-calculator"><b>{i+1}. {e?.label}</b></a>
         </li>);
     })}
@@ -38,8 +42,12 @@ const ExamEligibilityCalculator = () =>{
                 <FormLeftMenu menuList={menuList} activeMenuId={activeMenuId} />
             </Col>
             <Col md={8}>
-                <div><h5><b>1. {menuList?.[activeMenuId]?.label}</b></h5><hr/></div>
-                
+                <div><h5><b>{activeMenuId+1}. {menuList?.[activeMenuId]?.label}</b></h5><hr/></div>
+                <div className="row">
+                {EligibilityData?.data?.[activeMenuId]?.list?.map((d,i)=>{
+                    return (<Element key={i} params={d} />);    
+                })}
+                </div>
             </Col>
         </Row>
     </ContainerFluid>
