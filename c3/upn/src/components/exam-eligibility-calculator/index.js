@@ -1,42 +1,50 @@
-import React, { useState, createContext, useContext } from 'react';
+import React, { useState, useEffect } from "react";
+import { useParams } from "react-router-dom";
 import { Card, ContainerFluid, Row, Col } from "e-ui-react";
-import { generateEligibilityData } from "./commons.js";
-import FormLeftMenu from "./components/form-left-menu/index.js";
-import FormPersonalInfo from "./components/form-personal-info/index.js"; 
-import FormAcademics from "./components/form-academics/index.js";
-import FormReservations from "./components/form-reservations/index.js";
-import FormReview from "./components/form-review/index.js";
+import EligibilityData from "./data.json";
 
-const EligibilityContext = createContext();
-export const getEligibilityContext = () => useContext(EligibilityContext);
 const ExamEligibilityCalculator = () =>{
- const defaultEligibilityData = generateEligibilityData();
- const [eligibilityContextData, updateEligibilityContextData] = useState(defaultEligibilityData);
- const setEligibilityContextData = (data) => {
-  updateEligibilityContextData({ ...eligibilityContextData, ...data });
+ const [menuList, setMenuList] = useState([]);
+ const [activeMenuId, setActiveMenuId] = useState();
+ const { lang } = useParams();
+ const activeId = 'personalInfo';
+ const initialize = () =>{
+    const leftMenu = [];
+    EligibilityData?.data?.map((e,i)=>{
+        leftMenu.push({ id: e?.id, label: e?.[lang+'Label'] });
+    });
+    setMenuList(leftMenu);
+    setActiveMenuId(0);
  };
- return (<EligibilityContext.Provider value={{ eligibilityContextData, setEligibilityContextData }}>
- <div id="upsc-eligibility-calculator" className="mtop15p">
-    <Card padding={15} backgroundColor="#fde2e2">
-    <div><h1 className="fw-bold" style={{ fontSize:'22px' }}>UPSC Exam Eligibility Calculator</h1></div>
-    <div><p>Find all UPSC exams you're eligible for in just a few steps - based on age, qualification, category, 
-        and reservation criteria.<br/> Then, start your preparation with confidence.</p></div>
-    <div className="mtop15p">
+ useEffect(()=>{
+    initialize();
+ },[]);
+ const FormLeftMenu = ({ menuList, activeMenuId }) =>{
+    return (<ul className="nav nav-pills flex-column">
+    {menuList?.map((e,i)=>{
+        return (<li key={i} className="nav-item" onClick={()=>menuHandler(id)}>
+            <a className={(activeMenuId===i)?"nav-link active":"nav-link"} href="#upsc-eligibility-calculator"><b>{i+1}. {e?.label}</b></a>
+        </li>);
+    })}
+ </ul>);
+ };
+ return (<div className="mtop15p">
+ <Card padding={15} backgroundColor="#fde2e2">
+     <div><h1 className="fw-bold" style={{ fontSize:'22px' }}>{EligibilityData?.[lang+'Title']}</h1></div>
+     <div><p>{EligibilityData?.[lang+'Desc']}</p></div>
     <ContainerFluid>
         <Row>
-            <Col md={4}><FormLeftMenu /></Col> {/** activeId={leftMenuActiveId} */}
+            <Col md={4}>
+                <FormLeftMenu menuList={menuList} activeMenuId={activeMenuId} />
+            </Col>
             <Col md={8}>
-              {eligibilityContextData?.leftMenuActiveId==="personal-information" && (<FormPersonalInfo />)}
-              {eligibilityContextData?.leftMenuActiveId==="edu-qualification" && (<FormAcademics />)}
-              {eligibilityContextData?.leftMenuActiveId==="reservation-and-relaxations" && (<FormReservations />)}
-              {eligibilityContextData?.leftMenuActiveId==="review" && (<FormReview />)}
+                <div><h5><b>1. {menuList?.[activeMenuId]?.label}</b></h5><hr/></div>
+                
             </Col>
         </Row>
     </ContainerFluid>
-    </div>
  </Card>
- </div>
- </EligibilityContext.Provider>);
+ </div>);
 };
 
 export default ExamEligibilityCalculator;

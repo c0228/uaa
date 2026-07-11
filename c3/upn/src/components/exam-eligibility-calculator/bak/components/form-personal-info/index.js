@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
 import {ContainerFluid, Row, Col, DateTimePicker, Select, Button, Form, Icon  } from "e-ui-react";
 import { getEligibilityContext } from "@Components/exam-eligibility-calculator/index.js";
-import { getFieldLabel, updateEligiblityData, CreateId } from "@Components/exam-eligibility-calculator/commons.js";
+import { getFieldLabel, updateEligiblityFormData, CreateId } from "@Components/exam-eligibility-calculator/commons.js";
 import { GetYearsBackDate } from "@Utils/DateFormatUtils.js";
 
 const PERSONAL_INFO = {

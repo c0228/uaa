@@ -1,4 +1,8 @@
 {
+    "enTitle": "UPSC Exam Eligibility Calculator",
+    "hiTitle": "यूपीएससी परीक्षा योग्यता कैलकुलेटर",
+    "enDesc": "Find all UPSC exams you're eligible for in just a few steps - based on age, qualification, category, and reservation criteria. Then, start your preparation with confidence.",
+    "hiDesc": "उम्र, योग्यता, कैटेगरी और आरक्षण के आधार पर, बस कुछ ही स्टेप्स में उन सभी यूपीएससी परीक्षाओं के बारे में जानें जिनके लिए आप योग्य हैं। इसके बाद, पूरे आत्मविश्वास के साथ अपनी तैयारी शुरू करें।",
     "data":[{
         "id": "personalInfo",
         "enLabel": "Personal Information",
@@ -7,75 +11,90 @@
                 "id":"name",
                 "enLabel":"Your Name",
                 "hiLabel":"आपका नाम",
-                "defaultValue":"Nellutla Lakshmi Narasimha Rao"
+                "defaultValue":"Nellutla Lakshmi Narasimha Rao",
+                "elementName": "TextBox"
             },{
                 "id":"dob",
                 "enLabel":"Your Date of Birth",
                 "hiLabel":"आपका जन्म की तारीख",
-                "defaultValue":"1991-10-15"
+                "defaultValue":"1991-10-15",
+                "elementName": "DatePicker"
             },{
                 "id":"gender",
                 "enLabel":"Your Gender",
                 "hiLabel":"आपका लिंग",
-                "defaultValue":"Male"
+                "defaultValue":"Male",
+                "elementName": "Select"
             },{
                 "id":"nationality",
                 "enLabel":"Your Nationality",
                 "hiLabel":"आपका राष्ट्रीयता",
-                "defaultValue":"Indian"
+                "defaultValue":"Indian",
+                "elementName": "Select"
             },{
                 "id":"category",
                 "enLabel":"Your Category",
                 "hiLabel":"आपका वर्ग",
-                "defaultValue":"General (Unreserved / UR)"
+                "defaultValue":"General (Unreserved / UR)",
+                "elementName": "Select"
             }]
     },{
         "id": "academics",
         "enLabel": "Academics",
+        "hiLabel": "शैक्षिक अध्ययन",
         "list":[{
                 "id":"highestQualification",
                 "enLabel":"Your Higher Qualification",
                 "hiLabel":"आपका उच्च योग्यता",
-                "defaultValue":"12th Pass/ Intermediate"
+                "defaultValue":"12th Pass/ Intermediate",
+                "elementName": "Select"
             }]
     },{
         "id": "reservations",
         "enLabel": "Reservations & Relaxations",
+        "hiLabel": "आरक्षण और छूट",
         "list":[{
                 "id":"pwBD",
                 "enLabel":"",
                 "hiLabel":"",
-                "defaultValue":"Yes"
+                "defaultValue":"Yes",
+                "elementName": "Switch"
             },{
                 "id":"disabilityCategory",
                 "enLabel":"",
                 "hiLabel":"",
-                "defaultValue":"Multiple Disabilities"
+                "defaultValue":"Multiple Disabilities",
+                "elementName": "Select"
             },{
                 "id":"disabilityPercentage",
                 "enLabel":"",
                 "hiLabel":"",
-                "defaultValue": 40
+                "defaultValue": 40,
+                "elementName": "Range"
             },{
                 "id":"exServiceMan",
                 "enLabel":"",
                 "hiLabel":"",
-                "defaultValue":"Yes"
+                "defaultValue":"Yes",
+                "elementName": "Switch"
             },{
                 "id":"defencePersonnelDisabled",
                 "enLabel":"",
                 "hiLabel":"",
-                "defaultValue":"Yes"
+                "defaultValue":"Yes",
+                "elementName": "Switch"
             },{
                 "id":"cseAttempt",
                 "enLabel":"",
                 "hiLabel":"",
-                "defaultValue":"Yes"
+                "defaultValue":"Yes",
+                "elementName": "Switch"
             },{
                 "id":"cseAttemptsUsed",
                 "enLabel":"",
                 "hiLabel":"",
-                "defaultValue":"1"
+                "defaultValue":"1",
+                "elementName": "Select"
             }]
     }]
 }
