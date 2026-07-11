@@ -1,4 +1,6 @@
-{
+import { GetYearsBackDate } from "@Utils/DateFormatUtils.js";
+
+export const EligibilityData = {
     "enTitle": "UPSC Exam Eligibility Calculator",
     "hiTitle": "यूपीएससी परीक्षा योग्यता कैलकुलेटर",
     "enDesc": "Find all UPSC exams you're eligible for in just a few steps - based on age, qualification, category, and reservation criteria. Then, start your preparation with confidence.",
@@ -11,32 +13,36 @@
                 "id":"name",
                 "enLabel":"Your Name",
                 "hiLabel":"आपका नाम",
+                "enPlaceholder":"",
+                "hiPlaceholder":"",
                 "defaultValue":"Nellutla Lakshmi Narasimha Rao",
-                "elementName": "TextBox"
+                "elementType": "textBox"
             },{
                 "id":"dob",
                 "enLabel":"Your Date of Birth",
                 "hiLabel":"आपका जन्म की तारीख",
                 "defaultValue":"1991-10-15",
-                "elementName": "DatePicker"
+                "maxValue": GetYearsBackDate(14),
+                "minValue": GetYearsBackDate(40),
+                "elementType": "datePicker"
             },{
                 "id":"gender",
                 "enLabel":"Your Gender",
                 "hiLabel":"आपका लिंग",
                 "defaultValue":"Male",
-                "elementName": "Select"
+                "elementType": "select"
             },{
                 "id":"nationality",
                 "enLabel":"Your Nationality",
                 "hiLabel":"आपका राष्ट्रीयता",
                 "defaultValue":"Indian",
-                "elementName": "Select"
+                "elementType": "Select"
             },{
                 "id":"category",
                 "enLabel":"Your Category",
                 "hiLabel":"आपका वर्ग",
                 "defaultValue":"General (Unreserved / UR)",
-                "elementName": "Select"
+                "elementType": "Select"
             }]
     },{
         "id": "academics",
@@ -47,7 +53,7 @@
                 "enLabel":"Your Higher Qualification",
                 "hiLabel":"आपका उच्च योग्यता",
                 "defaultValue":"12th Pass/ Intermediate",
-                "elementName": "Select"
+                "elementType": "Select"
             }]
     },{
         "id": "reservations",
@@ -58,43 +64,43 @@
                 "enLabel":"",
                 "hiLabel":"",
                 "defaultValue":"Yes",
-                "elementName": "Switch"
+                "elementType": "Switch"
             },{
                 "id":"disabilityCategory",
                 "enLabel":"",
                 "hiLabel":"",
                 "defaultValue":"Multiple Disabilities",
-                "elementName": "Select"
+                "elementType": "Select"
             },{
                 "id":"disabilityPercentage",
                 "enLabel":"",
                 "hiLabel":"",
                 "defaultValue": 40,
-                "elementName": "Range"
+                "elementType": "Range"
             },{
                 "id":"exServiceMan",
                 "enLabel":"",
                 "hiLabel":"",
                 "defaultValue":"Yes",
-                "elementName": "Switch"
+                "elementType": "Switch"
             },{
                 "id":"defencePersonnelDisabled",
                 "enLabel":"",
                 "hiLabel":"",
                 "defaultValue":"Yes",
-                "elementName": "Switch"
+                "elementType": "Switch"
             },{
                 "id":"cseAttempt",
                 "enLabel":"",
                 "hiLabel":"",
                 "defaultValue":"Yes",
-                "elementName": "Switch"
+                "elementType": "Switch"
             },{
                 "id":"cseAttemptsUsed",
                 "enLabel":"",
                 "hiLabel":"",
                 "defaultValue":"1",
-                "elementName": "Select"
+                "elementType": "Select"
             }]
     }]
-}
+};

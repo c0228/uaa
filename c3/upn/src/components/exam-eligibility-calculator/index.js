@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
 import { Card, ContainerFluid, Row, Col } from "e-ui-react";
-import EligibilityData from "./data.json";
+import EligibilityData from "./data.js";
 
 const ExamEligibilityCalculator = () =>{
  const [menuList, setMenuList] = useState([]);
