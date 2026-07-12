@@ -39,6 +39,10 @@ export const EligibilityData = {
                 "hiPlaceholder":"अपना लिंग चुनें",
                 "defaultValue":"Male",
                 "elementType": "select",
+                "enOptions":[{ "id": 'male', "label": 'Male', "value": 'Male' },
+                            { "id": 'female', "label": 'Female', "value": 'Female' }],
+                "hiOptions":[{ "id": 'male', "label": 'पुरुष', "value": 'Male' },
+                            { "id": 'female', "label": 'महिला', "value": 'Female' }],
                 "grid": {
                     "md": 6,
                 }

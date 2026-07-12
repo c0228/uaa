@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
-import { Card, ContainerFluid, Row, Col } from "e-ui-react";
+import { Card, ContainerFluid, Row, Col, Form } from "e-ui-react";
 import Element from "./elements.js";
 import { EligibilityData } from "./data.js";
 
@@ -23,6 +23,11 @@ const ExamEligibilityCalculator = () =>{
  const menuHandler = (index) =>{
     setActiveMenuId(index);
  };
+ const NextHandler = async(form, isValidForm, setFormMode) =>{
+    if(isValidForm){  
+
+    }
+ };
  const FormLeftMenu = ({ menuList, activeMenuId }) =>{
     return (<ul className="nav nav-pills flex-column">
     {menuList?.map((e,i)=>{
@@ -42,12 +47,18 @@ const ExamEligibilityCalculator = () =>{
                 <FormLeftMenu menuList={menuList} activeMenuId={activeMenuId} />
             </Col>
             <Col md={8}>
+                {console.log("menuList?.[activeMenuId]?.id: ", menuList?.[activeMenuId]?.id)}
                 <div><h5><b>{activeMenuId+1}. {menuList?.[activeMenuId]?.label}</b></h5><hr/></div>
+                {menuList?.[activeMenuId]?.id && (<Form name={menuList?.[activeMenuId]?.id}  
+                    btnSubmit={{ align: 'right', btnType:'success', label:(<b>Next</b>), size: 12 }} 
+                    btnReset={{ btnType:'danger', label:(<b>Reset</b>), size: 11 }}
+                    onSubmit={NextHandler}>
                 <div className="row">
                 {EligibilityData?.data?.[activeMenuId]?.list?.map((d,i)=>{
                     return (<Element key={i} params={d} />);    
                 })}
                 </div>
+                </Form>)}
             </Col>
         </Row>
     </ContainerFluid>
