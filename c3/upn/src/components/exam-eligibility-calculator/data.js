@@ -35,8 +35,8 @@ export const EligibilityData = {
                 "id":"gender",
                 "enLabel":"Your Gender",
                 "hiLabel":"आपका लिंग",
-                "enPlaceholder":"Enter your Gender",
-                "hiPlaceholder":"अपना लिंग दर्ज करें",
+                "enPlaceholder":"Select your Gender",
+                "hiPlaceholder":"अपना लिंग चुनें",
                 "defaultValue":"Male",
                 "elementType": "select",
                 "grid": {
@@ -46,12 +46,16 @@ export const EligibilityData = {
                 "id":"nationality",
                 "enLabel":"Your Nationality",
                 "hiLabel":"आपका राष्ट्रीयता",
+                "enPlaceholder":"Select your Nationality",
+                "hiPlaceholder":"अपनी राष्ट्रीयता चुनें",
                 "defaultValue":"Indian",
                 "elementType": "select"
             },{
                 "id":"category",
                 "enLabel":"Your Category",
                 "hiLabel":"आपका वर्ग",
+                "enPlaceholder":"Select your Category",
+                "hiPlaceholder":"अपनी श्रेणी चुनें",
                 "defaultValue":"General (Unreserved / UR)",
                 "elementType": "select"
             }]
