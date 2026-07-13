@@ -165,9 +165,7 @@ export const EligibilityData = {
                     "md": 6,
                 },
                 "visibleWhen": {
-                    "field": "pwBD",
-                    "operator": "=",
-                    "value": "Yes"
+                    "expression": "(${reservations.pwBD} === 'Yes')",
                 }
             },{
                 "id":"disabilityPercentage",
@@ -179,9 +177,7 @@ export const EligibilityData = {
                     "md": 6,
                 },
                 "visibleWhen": {
-                    "field": "pwBD",
-                    "operator": "=",
-                    "value": "Yes"
+                    "expression": "(${reservations.pwBD} === 'Yes')",
                 }
             },{
                 "id":"exServiceMan",
@@ -241,9 +237,7 @@ export const EligibilityData = {
                     "md": 6,
                 },
                 "visibleWhen": {
-                    "field": "cseAttempt",
-                    "operator": "=",
-                    "value": "Yes"
+                    "expression": "(${reservations.cseAttempt} === 'Yes')"
                 }
             }]
     }]

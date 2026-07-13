@@ -10,20 +10,37 @@ const ExamEligibilityCalculator = () =>{
  const [activeMenuId, setActiveMenuId] = useState();
  const { lang } = useParams();
  const activeId = 'personalInfo';
+
  const initialize = () =>{
     const leftMenu = [];
-    EligibilityData?.data?.map((e,i)=>{
-        leftMenu.push({ id: e?.id, label: e?.[lang+'Label'] });
+    let initialFormData = {};
+    EligibilityData?.data?.map((e,i1)=>{
+        const leftMenuId = e?.id;
+        const leftMenuLabel = e?.[lang+'Label'];
+        leftMenu.push({ id: e?.id, label: leftMenuLabel });
+        // setDefault Values Dynamically into formData
+        let listElements = {};
+        e?.list?.map((l,i2)=>{
+            listElements[l.id] = { value: l?.defaultValue, validationSuccess:[], errorMessage:'' };
+        });
+        initialFormData[leftMenuId] = listElements;
     });
+    setFormData(initialFormData);
     setMenuList(leftMenu);
     setActiveMenuId(0);
  };
- useEffect(()=>{ console.log("formData: ", formData); },[formData]);
- useEffect(()=>{
-    initialize();
- },[]);
+ useEffect(()=>{ console.log("Element Updated formData: ", formData); },[formData]);
+ useEffect(()=>{ initialize(); },[]);
  const menuHandler = (index) =>{
-    if(activeMenuId >= index){ setActiveMenuId(index); }
+  if(activeMenuId >= index){ setActiveMenuId(index); }
+ };
+ const OnFormUpdate = (form) =>{
+    console.log("Element [Eligibility Calculator]: ", form);
+    const formId = menuList?.[activeMenuId]?.id;
+    setFormData(prev => ({
+        ...prev,
+        [formId]: form[formId]
+    }));
  };
  const NextHandler = async(form, isValidForm, setFormMode) =>{
     if(isValidForm){  
@@ -36,7 +53,7 @@ const ExamEligibilityCalculator = () =>{
         for(const f of fields){
            data[f] = fData[f]?.value;
         }
-        setFormData({...formData,[formId]:data });
+        setFormData(prev => ({ ...prev, [formId]: fData }));
         if(menuList?.length-1>activeMenuId){
             setActiveMenuId(activeMenuId+1);
         }
@@ -51,41 +68,20 @@ const ExamEligibilityCalculator = () =>{
     })}
  </ul>);
  };
- const GenerateForm = ()=>{
-  const section = EligibilityData?.data?.[activeMenuId];
-  const fields = section?.list || [];
-  const bundles = section?.cardBundle || [];
-  if(bundles.length === 0) {
-    return (
-        <div className="row">
-            {fields.map(field => (
-                <Element
-                    key={field.id}
-                    params={field}
-                />
-            ))}
-        </div>
-    );
-  }
-  const bundledIds = bundles.flat();
-  const fieldMap = {};
-    fields.forEach(field => {
-        fieldMap[field.id] = field;
+
+ const evaluateVisibility = (visibleWhen) => {
+    if (!visibleWhen?.expression) { return true; }
+    const parsedExpression = visibleWhen.expression.replace(/\$\{(.*?)\}/g, (_, path) => {
+        const [section, field] = path.trim().split(".");
+        return `(formData?.["${section}"]?.["${field}"]?.value ?? formData?.["${section}"]?.["${field}"])`;
     });
-  return (<div className="row">
-    {/* Card Bundles */}
-    {bundles.map((bundle, index) => (<div className="col-md-12" key={index}>
-        <div style={{ border:'1px solid #ccc', marginTop:'5px', paddingLeft:'15px', 
-                paddingRight:'15px', borderRadius:'8px' }}>
-            <div className="row mbot15p">
-                {bundle.map(id =>fieldMap[id]?(<Element key={id} params={fieldMap[id]} />):null)}
-            </div>
-        </div>
-    </div>))}
-    {/* Fields not included in any bundle */}
-    {fields.filter(field => !bundledIds.includes(field.id))
-        .map(field => (<Element key={field.id} params={field} />))}
-  </div>);
+    console.log("Element [evaluateVisibility]: ", parsedExpression);
+    try {
+        return Function("formData", `return ${parsedExpression}`)(formData);
+    } catch (e) {
+        console.error(e);
+        return false;
+    }
  };
  return (<div className="mtop15p">
  <Card padding={15} backgroundColor="#fde2e2">
@@ -102,8 +98,18 @@ const ExamEligibilityCalculator = () =>{
                 {menuList?.[activeMenuId]?.id && (<Form name={menuList?.[activeMenuId]?.id}  
                     btnSubmit={{ align: 'right', btnType:'success', label:(<b>Next</b>), size: 12 }} 
                     btnReset={{ btnType:'danger', label:(<b>Reset</b>), size: 11 }}
+                    onChange={OnFormUpdate}
                     onSubmit={NextHandler}>
-                <GenerateForm />
+                <div className="row">
+                {EligibilityData?.data?.[activeMenuId]?.list?.map((e,i)=>{
+                    console.log("Element: ", e?.visibleWhen);
+                    if(evaluateVisibility(e?.visibleWhen)){
+                        return (<Element key={i} params={e} />)
+                    } else {
+                        return null;
+                    }
+                })}
+                </div>
                 </Form>)}
             </Col>
         </Row>

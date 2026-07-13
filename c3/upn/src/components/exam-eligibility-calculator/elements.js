@@ -13,7 +13,7 @@ const Element = ({ params }) =>{
         .map(([size, value]) => `col-${size}-${value}`)
         .join(" ");
  };
- return (<div className={getGridClass(params?.grid)+' mtop15p'}>
+ return (<div className={getGridClass(params?.grid)+' mtop15p'}> {/** visibleWhen logic should be checked here and make this enable or disable */}
  {params?.elementType==='textBox' && (<TextBox name={params?.id} label={params?.[label]} placeholder={params?.[placeholder]} value={value} />)}
  {params?.elementType==='datePicker' && (<DateTimePicker type={params?.elementType} label={params?.[label]} 
     id={params?.id} name={params?.id} value={value} maxValue={params?.maxValue} 
