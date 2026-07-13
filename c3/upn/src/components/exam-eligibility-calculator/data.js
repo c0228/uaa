@@ -226,7 +226,10 @@ export const EligibilityData = {
                              { id:'8_attempts', label: '8 प्रयास', value:'8' },
                              { id:'9_attempts', label: '9 प्रयास', value:'9' }],
                 "defaultValue":"1",
-                "elementType": "select"
+                "elementType": "select",
+                "grid": {
+                    "md": 6,
+                }
             }]
     }]
 };

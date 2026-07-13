@@ -53,10 +53,9 @@ const ExamEligibilityCalculator = () =>{
  };
  const GenerateForm = ()=>{
   const section = EligibilityData?.data?.[activeMenuId];
-const fields = section?.list || [];
-const bundles = section?.cardBundle || [];
-
-if (bundles.length === 0) {
+  const fields = section?.list || [];
+  const bundles = section?.cardBundle || [];
+  if(bundles.length === 0) {
     return (
         <div className="row">
             {fields.map(field => (
@@ -67,54 +66,26 @@ if (bundles.length === 0) {
             ))}
         </div>
     );
-}
-
-const bundledIds = bundles.flat();
-
-const fieldMap = {};
-fields.forEach(field => {
-    fieldMap[field.id] = field;
-});
-
-return (
-    <div className="row">
-
-        {/* Card Bundles */}
-        {bundles.map((bundle, index) => (
-            <div className="col-md-12" key={index}>
-                <div style={{ border:'1px solid #ccc', marginTop:'5px', paddingLeft:'15px', 
-                    paddingRight:'15px', borderRadius:'8px' }}>
-                    <div className="row mbot15p">
-                        {bundle.map(id =>
-                            fieldMap[id] ? (
-                                <Element
-                                    key={id}
-                                    params={fieldMap[id]}
-                                />
-                            ) : null
-                        )}
-                    </div>
-                </div>
-            </div>
-        ))}
-
-        {/* Fields not included in any bundle */}
-        {fields
-            .filter(field => !bundledIds.includes(field.id))
-            .map(field => (
-                <Element
-                    key={field.id}
-                    params={field}
-                />
-            ))}
-    </div>);
-  /*
+  }
+  const bundledIds = bundles.flat();
+  const fieldMap = {};
+    fields.forEach(field => {
+        fieldMap[field.id] = field;
+    });
   return (<div className="row">
-    {EligibilityData?.data?.[activeMenuId]?.list?.map((d,i)=>{
-        return (<Element key={i} params={d} />);    
-    })}
+    {/* Card Bundles */}
+    {bundles.map((bundle, index) => (<div className="col-md-12" key={index}>
+        <div style={{ border:'1px solid #ccc', marginTop:'5px', paddingLeft:'15px', 
+                paddingRight:'15px', borderRadius:'8px' }}>
+            <div className="row mbot15p">
+                {bundle.map(id =>fieldMap[id]?(<Element key={id} params={fieldMap[id]} />):null)}
+            </div>
+        </div>
+    </div>))}
+    {/* Fields not included in any bundle */}
+    {fields.filter(field => !bundledIds.includes(field.id))
+        .map(field => (<Element key={field.id} params={field} />))}
   </div>);
-  */
  };
  return (<div className="mtop15p">
  <Card padding={15} backgroundColor="#fde2e2">
