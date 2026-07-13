@@ -163,6 +163,11 @@ export const EligibilityData = {
                 "elementType": "select",
                 "grid": {
                     "md": 6,
+                },
+                "visibleWhen": {
+                    "field": "pwBD",
+                    "operator": "=",
+                    "value": "Yes"
                 }
             },{
                 "id":"disabilityPercentage",
@@ -172,6 +177,11 @@ export const EligibilityData = {
                 "elementType": "range",
                 "grid": {
                     "md": 6,
+                },
+                "visibleWhen": {
+                    "field": "pwBD",
+                    "operator": "=",
+                    "value": "Yes"
                 }
             },{
                 "id":"exServiceMan",
@@ -229,6 +239,11 @@ export const EligibilityData = {
                 "elementType": "select",
                 "grid": {
                     "md": 6,
+                },
+                "visibleWhen": {
+                    "field": "cseAttempt",
+                    "operator": "=",
+                    "value": "Yes"
                 }
             }]
     }]
