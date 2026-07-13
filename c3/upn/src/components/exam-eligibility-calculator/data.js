@@ -53,7 +53,20 @@ export const EligibilityData = {
                 "enPlaceholder":"Select your Nationality",
                 "hiPlaceholder":"अपनी राष्ट्रीयता चुनें",
                 "defaultValue":"Indian",
-                "elementType": "select"
+                "elementType": "select",
+                "enOptions":[{ id: 'indian', label: 'Indian', value: 'Indian' },
+                            { id: 'nepalese', label: 'Nepalese', value: 'Nepalese' },
+                            { id: 'bhutanese', label: 'Bhutanese', value: 'Bhutanese' },
+                            { id: 'tibetanRefugee', label: 'Tibetan Refugee', value: 'Tibetan Refugee' },
+                            { id: 'personOfIndianOrigin', label: 'Person of Indian Origin (PIO)', value: 'Person of Indian Origin (PIO)' }],
+                "hiOptions":[{ id: 'indian', label: 'भारतीय', value: 'Indian' },
+                            { id: 'nepalese', label: 'नेपाली', value: 'Nepalese' },
+                            { id: 'bhutanese', label: 'भूटानी', value: 'Bhutanese' },
+                            { id: 'tibetanRefugee', label: 'तिब्बती शरणार्थी', value: 'Tibetan Refugee' },
+                            { id: 'personOfIndianOrigin', label: 'भारतीय मूल का व्यक्ति (PIO)', value: 'Person of Indian Origin (PIO)' }],
+                "grid": {
+                    "md": 6,
+                }
             },{
                 "id":"category",
                 "enLabel":"Your Category",
@@ -61,7 +74,20 @@ export const EligibilityData = {
                 "enPlaceholder":"Select your Category",
                 "hiPlaceholder":"अपनी श्रेणी चुनें",
                 "defaultValue":"General (Unreserved / UR)",
-                "elementType": "select"
+                "elementType": "select",
+                "enOptions":[{ id:'General (Unreserved / UR)', label:'General (Unreserved / UR)', value:'General (Unreserved / UR)' },
+                            { id:'Economically Weaker Section (EWS)', label:'Economically Weaker Section (EWS)', value:'Economically Weaker Section (EWS)' },
+                            { id:'Other Backward Class (OBC - Non-Creamy Layer)', label:'Other Backward Class (OBC - Non-Creamy Layer)', value:'Other Backward Class (OBC - Non-Creamy Layer)' },
+                            { id:'Scheduled Caste (SC)', label:'Scheduled Caste (SC)', value:'Scheduled Caste (SC)' },
+                            { id:'Scheduled Tribe (ST)', label:'Scheduled Tribe (ST)', value:'Scheduled Tribe (ST)' }],
+                "hiOptions":[{ id:'General (Unreserved / UR)', label:'सामान्य (अनारक्षित / यू.आर)', value:'General (Unreserved / UR)' },
+                            { id:'Economically Weaker Section (EWS)', label:'आर्थिक रूप से कमजोर वर्ग (ई.डब्ल्यू.एस)', value:'Economically Weaker Section (EWS)' },
+                            { id:'Other Backward Class (OBC - Non-Creamy Layer)', label:'अन्य पिछड़ा वर्ग (ओ.बी.सी - नॉन-क्रीमी लेयर)', value:'Other Backward Class (OBC - Non-Creamy Layer)' },
+                            { id:'Scheduled Caste (SC)', label:'अनुसूचित जाति (एस.सी)', value:'Scheduled Caste (SC)' },
+                            { id:'Scheduled Tribe (ST)', label:'अनुसूचित जनजाति (एस.टी)', value:'Scheduled Tribe (ST)' }],
+                "grid": {
+                    "md": 6,
+                }
             }]
     },{
         "id": "academics",
@@ -72,7 +98,24 @@ export const EligibilityData = {
                 "enLabel":"Your Higher Qualification",
                 "hiLabel":"आपका उच्च योग्यता",
                 "defaultValue":"12th Pass/ Intermediate",
-                "elementType": "Select"
+                "elementType": "select",
+                "enOptions":[{ id:'12th Pass/ Intermediate', label:'12th Pass/ Intermediate', value:'12th Pass/ Intermediate' },
+                            { id:'Diploma', label:'Diploma', value:'Diploma' },
+                            { id:'Graduate', label:'Graduate', value:'Graduate' },
+                            { id:'Final Year Graduate', label:'Final Year Graduate', value:'Final Year Graduate' },
+                            { id:'Engineering Graduate', label:'Engineering Graduate', value:'Engineering Graduate' },
+                            { id:'MBBS', label:'MBBS', value:'MBBS' },
+                            { id:'Post Graduate', label:'Post Graduate', value:'Post Graduate' }],
+                "hiOptions":[{ id:'12th Pass/ Intermediate', label:'12वीं पास/इंटरमीडिएट', value:'12th Pass/ Intermediate' },
+                            { id:'Diploma', label:'डिप्लोमा', value:'Diploma' },
+                            { id:'Graduate', label:'ग्रेजुएट', value:'Graduate' },
+                            { id:'Final Year Graduate', label:'अंतिम वर्ष ग्रेजुएट', value:'Final Year Graduate' },
+                            { id:'Engineering Graduate', label:'इंजीनियरिंग ग्रेजुएट', value:'Engineering Graduate' },
+                            { id:'MBBS', label:'एम.बी.बी.एस', value:'MBBS' },
+                            { id:'Post Graduate', label:'पोस्ट ग्रेजुएट', value:'Post Graduate' }],
+                "grid": {
+                    "md": 12,
+                }
             }]
     },{
         "id": "reservations",

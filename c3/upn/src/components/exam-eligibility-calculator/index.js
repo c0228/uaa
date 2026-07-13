@@ -5,6 +5,7 @@ import Element from "./elements.js";
 import { EligibilityData } from "./data.js";
 
 const ExamEligibilityCalculator = () =>{
+ const [formData,setFormData] = useState({});
  const [menuList, setMenuList] = useState([]);
  const [activeMenuId, setActiveMenuId] = useState();
  const { lang } = useParams();
@@ -17,15 +18,28 @@ const ExamEligibilityCalculator = () =>{
     setMenuList(leftMenu);
     setActiveMenuId(0);
  };
+ useEffect(()=>{ console.log("formData: ", formData); },[formData]);
  useEffect(()=>{
     initialize();
  },[]);
  const menuHandler = (index) =>{
-    setActiveMenuId(index);
+    if(activeMenuId >= index){ setActiveMenuId(index); }
  };
  const NextHandler = async(form, isValidForm, setFormMode) =>{
     if(isValidForm){  
-
+        const formId = menuList?.[activeMenuId]?.id;
+        const fData = form?.[formId];
+        let keys = fData && Object.keys(fData);
+        const exclude = ['mode'];
+        let fields = keys.filter(item => !exclude.includes(item));
+        let data = {};
+        for(const f of fields){
+           data[f] = fData[f]?.value;
+        }
+        setFormData({...formData,[formId]:data });
+        if(menuList?.length-1>activeMenuId){
+            setActiveMenuId(activeMenuId+1);
+        }
     }
  };
  const FormLeftMenu = ({ menuList, activeMenuId }) =>{
