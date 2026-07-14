@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { useParams } from "react-router-dom";
 import { ContainerFluid, Row, Col, Form, TextBox, DateTimePicker, Select, Icon } from "e-ui-react";
 import { getEligibilityContext } from "@Components/exam-eligibility-calculator/index.js";
@@ -111,9 +111,10 @@ const PersonalInfoForm = {
 const PersonalInfo = ({ data }) =>{
  const { lang } = useParams();
  const { eligibilityContextData, setEligibilityContextData } = getEligibilityContext();
+ useEffect(()=>{ console.log("eligibilityContextData [PersonalInfo]: ",eligibilityContextData); },[eligibilityContextData]);
  const NextHandler = async(form, isValidForm, setFormMode) =>{
     if(isValidForm){  
-
+       setEligibilityContextData({...eligibilityContextData, activeMenuId: eligibilityContextData?.activeMenuId });
     }
  };
  return (<div>
@@ -163,8 +164,11 @@ const PersonalInfo = ({ data }) =>{
                             value={eligibilityContextData?.data?.personalInfo?.nationality} fontSize="12"
                             options={PersonalInfoForm?.nationality?.[lang+"Options"]}
                             validation={{ required:{ value: true, errorMessage:"This is a Mandatory Field" }}} 
-                            onChange={(event)=>setEligibilityContextData({...eligibilityContextData, 
-                                        "data":{ "personalInfo":{ "nationality": event?.target?.value } } })} />
+                            onChange={(event)=>{
+                                let eligibilityData = {...eligibilityContextData};
+                                eligibilityData.data.personalInfo.nationality =  event?.target?.value;
+                                setEligibilityContextData(eligibilityData);
+                            }} />
                         {(PersonalInfoForm?.nationality?.optionInfo?.[eligibilityContextData?.data?.personalInfo?.nationality]?.[lang]) 
                             && (<div style={{ fontSize:'11px', marginTop:'8px' }}>
                             <InfoIcon /> {PersonalInfoForm?.nationality?.optionInfo?.[eligibilityContextData?.data?.personalInfo?.nationality]?.[lang]}

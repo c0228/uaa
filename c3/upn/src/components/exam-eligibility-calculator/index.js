@@ -17,8 +17,8 @@ const ExamEligibilityCalculator = () =>{
     "activeMenuId": "personal-information",
     "data":{
         "personalInfo": {
-            "fullName": "",
-            "dob": "",
+            "fullName": "Nellutla L N Rao",
+            "dob": "2012-07-15",
             "gender": "",
             "nationality": "",
             "category": ""
