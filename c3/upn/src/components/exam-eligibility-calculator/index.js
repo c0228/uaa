@@ -14,7 +14,16 @@ const EligibilityContext = createContext();
 export const getEligibilityContext = () => useContext(EligibilityContext);
 const ExamEligibilityCalculator = () =>{
  const defaultEligibilityCalculator = {
-    activeMenuId: "personal-information"
+    "activeMenuId": "personal-information",
+    "data":{
+        "personalInfo": {
+            "fullName": "",
+            "dob": "",
+            "gender": "",
+            "nationality": "",
+            "category": ""
+        }
+    }
  };
  const [eligibilityContextData, updateEligibilityContextData] = useState(defaultEligibilityCalculator);
  const setEligibilityContextData = (data) => updateEligibilityContextData({ ...eligibilityContextData, ...data });
