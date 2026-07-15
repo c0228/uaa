@@ -24,6 +24,14 @@ const AcademicsForm = {
             { id:'Engineering Graduate', label:'इंजीनियरिंग ग्रेजुएट', value:'Engineering Graduate' },
             { id:'MBBS', label:'एम.बी.बी.एस', value:'MBBS' },
             { id:'Post Graduate', label:'पोस्ट ग्रेजुएट', value:'Post Graduate' }],
+ },
+ "nextBtn":{
+   "en":"Next Step",
+   "hi":"अगला कदम"
+ },
+ "resetBtn":{
+   "en":"Reset Form",
+   "hi":"फ़ॉर्म रीसेट करें"
  }
 };
 
@@ -41,8 +49,8 @@ const Academics = ({ data }) =>{
  return (<div>
    <div><h5><b>2. {data?.[lang+"Label"]}</b></h5><hr/></div>
    <Form name="EduQualificationForm"  
-         btnSubmit={{ align: 'right', btnType:'success', label:(<b>Next</b>), size: 12 }} 
-         btnReset={{ btnType:'danger', label:(<b>Reset</b>), size: 11 }}
+         btnSubmit={{ align: 'right', btnType:'success', label:(<b>{AcademicsForm?.nextBtn?.[lang]}</b>), size: 12 }} 
+         btnReset={{ btnType:'danger', label:(<b>{AcademicsForm?.resetBtn?.[lang]}</b>), size: 11 }}
          onSubmit={NextHandler}>
      <ContainerFluid>
        <Row>

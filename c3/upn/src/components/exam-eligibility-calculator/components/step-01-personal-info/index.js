@@ -105,6 +105,14 @@ const PersonalInfoForm = {
                 "hi": "अनुसूचित जनजातियाँ (एस.टी) - अनुसूचित जनजाति के उम्मीदवारों के लिए आरक्षण।"
             }
         }
+    },
+    "nextBtn":{
+        "en":"Next Step",
+        "hi":"अगला कदम"
+    },
+    "resetBtn":{
+        "en":"Reset Form",
+        "hi":"फ़ॉर्म रीसेट करें"
     }
 };
 
@@ -122,8 +130,8 @@ const PersonalInfo = ({ data }) =>{
  return (<div>
     <div><h5><b>1. {data?.[lang+"Label"]}</b></h5><hr/></div>
     <Form name={data?.id}  
-        btnSubmit={{ align: 'right', btnType:'success', label:(<b>Next</b>), size: 12 }} 
-        btnReset={{ btnType:'danger', label:(<b>Reset</b>), size: 11 }}
+        btnSubmit={{ align: 'right', btnType:'success', label:(<b>{PersonalInfoForm?.nextBtn?.[lang]}</b>), size: 12 }} 
+        btnReset={{ btnType:'danger', label:(<b>{PersonalInfoForm?.resetBtn?.[lang]}</b>), size: 11 }}
         onSubmit={NextHandler}>
         <ContainerFluid>
             <Row>
