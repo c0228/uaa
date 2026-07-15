@@ -182,8 +182,11 @@ const PersonalInfo = ({ data }) =>{
                             value={eligibilityContextData?.data?.personalInfo?.category}
                             options={PersonalInfoForm?.category?.[lang+"Options"]} fontSize="12"
                             validation={{ required:{ value: true, errorMessage:"This is a Mandatory Field" }}} 
-                            onChange={(event)=>setEligibilityContextData({...eligibilityContextData, 
-                                        "data":{ "personalInfo":{ "category": event?.target?.value } } })} />
+                            onChange={(event)=>{
+                                let eligibilityData = {...eligibilityContextData};
+                                eligibilityData.data.personalInfo.category =  event?.target?.value;
+                                setEligibilityContextData(eligibilityData);
+                            }} />
                         {(PersonalInfoForm?.category?.optionInfo?.[eligibilityContextData?.data?.personalInfo?.category]?.[lang]) 
                             && (<div style={{ fontSize:'11px', marginTop:'8px' }}>
                             <InfoIcon /> {PersonalInfoForm?.category?.optionInfo?.[eligibilityContextData?.data?.personalInfo?.category]?.[lang]}

@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import { useParams  } from "react-router-dom";
 import { ContainerFluid, Row, Col, Card, Button, getAppContext } from "e-ui-react";
 import OpenSideWrapperMenu from "@Components/sidewrapper-menu-open/index.js";
+import { DykTip } from "@Components/dyk-tip/index.js"; 
 import { GetUserProfile } from "@Services/AuthManager.js";
 import { useAuth } from "@Hooks/useAuth.js";
 import UPSCPrepCard from './components/upsc-prep-card/index.js';
@@ -26,6 +27,7 @@ const Home = ()=>{
         <Row>
             <Col md={4}>
                 <UPSCPrepCard />
+                <DykTip />
                 <UpcomingExams />
             </Col>
             <Col md={8}>

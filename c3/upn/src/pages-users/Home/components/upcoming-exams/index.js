@@ -76,7 +76,9 @@ const UpcomingExams = () =>{
    </div>);
  };
  return (<div className="mtop15p">
-        <div><h2 className="fw-bold">Upcoming UPSC Examination</h2><hr/></div>
+        <div><h2 className="fw-bold">
+            <Icon type="FontAwesome" name="fa-file-text-o" size={20} style={{ marginRight:'8px' }} />
+            Upcoming UPSC Examination</h2><hr/></div>
         <div className="mtop15p">
             <DetailCard />
         </div>
