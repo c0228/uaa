@@ -1,7 +1,9 @@
 import React from "react";
+import { useParams } from "react-router-dom";
 import { getEligibilityContext } from "@Components/exam-eligibility-calculator/index.js";
 
 const Menus = ({ data }) =>{
+ const { lang } = useParams();
  const { eligibilityContextData, setEligibilityContextData } = getEligibilityContext();
  const activeId = eligibilityContextData?.activeMenuId ?? "personal-information";
  const menuHandler = (menuId) =>{
@@ -16,7 +18,7 @@ const Menus = ({ data }) =>{
              {data?.map((m,i)=>{
                  return (<li key={i} className="nav-item" onClick={()=>menuHandler(m?.id)}>
                  <a className={(activeId===m?.id)?"nav-link active":"nav-link"} href="#upsc-eligibility-calculator">
-                    <b>{i+1}. {m?.label}</b></a>
+                    <b>{i+1}. {m?.[lang+"Label"]}</b></a>
              </li>);
              })}
          </ul>

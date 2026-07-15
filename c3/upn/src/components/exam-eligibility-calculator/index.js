@@ -6,15 +6,32 @@ import Academics from "./components/step-02-academics/index.js";
 import Relaxations from "./components/step-03-relaxations/index.js";
 import Review from "./components/step-04-review/index.js";
 
-const LeftMenuData = [{ "id":"personal-information", "label":"Personal Information" },
-                    { "id":"edu-qualification", "label":"Education Qualification" },
-                    { "id":"reservation-and-relaxations", "label":"Reservation & Relaxations" },
-                    { "id":"review", "label":"Review Details" }];                
+const LeftMenuData = [{ 
+                        "id":"personal-information", 
+                        "enLabel":"Personal Information",
+                        "hiLabel":"व्यक्तिगत जानकारी"
+                    },
+                    {
+                        "id":"edu-qualification", 
+                        "enLabel":"Education Qualification",
+                        "hiLabel":"शैक्षिक योग्यता"
+                    },
+                    { 
+                        "id":"reservation-and-relaxations", 
+                        "enLabel":"Reservation & Relaxations",
+                        "hiLabel":"आरक्षण और छूट"
+                    },
+                    { 
+                        "id":"review", 
+                        "enLabel":"Review Details",
+                        "hiLabel":"समीक्षा का विवरण"
+                    }];                
 const EligibilityContext = createContext();
 export const getEligibilityContext = () => useContext(EligibilityContext);
 const ExamEligibilityCalculator = () =>{
  const defaultEligibilityCalculator = {
-    "activeMenuId": "personal-information",
+    // "activeMenuId": "personal-information",
+    "activeMenuId": "edu-qualification",
     "data":{
         "personalInfo": {
             "fullName": "Nellutla L N Rao",

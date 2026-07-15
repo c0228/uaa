@@ -114,11 +114,13 @@ const PersonalInfo = ({ data }) =>{
  useEffect(()=>{ console.log("eligibilityContextData [PersonalInfo]: ",eligibilityContextData); },[eligibilityContextData]);
  const NextHandler = async(form, isValidForm, setFormMode) =>{
     if(isValidForm){  
+       
        setEligibilityContextData({...eligibilityContextData, activeMenuId: eligibilityContextData?.activeMenuId });
+
     }
  };
  return (<div>
-    <div><h5><b>1. {data?.label}</b></h5><hr/></div>
+    <div><h5><b>1. {data?.[lang+"Label"]}</b></h5><hr/></div>
     <Form name={data?.id}  
         btnSubmit={{ align: 'right', btnType:'success', label:(<b>Next</b>), size: 12 }} 
         btnReset={{ btnType:'danger', label:(<b>Reset</b>), size: 11 }}
