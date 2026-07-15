@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
-import { ContainerFluid, Row, Col, Form, Select } from "e-ui-react";
 import { useParams } from "react-router-dom";
+import { ContainerFluid, Row, Col, Form, Select } from "e-ui-react";
 import { getEligibilityContext } from "@Components/exam-eligibility-calculator/index.js";
 
 const AcademicsForm = {
@@ -40,10 +40,8 @@ const Academics = ({ data }) =>{
  const { eligibilityContextData, setEligibilityContextData } = getEligibilityContext();
  useEffect(()=>{ console.log("eligibilityContextData [PersonalInfo]: ",eligibilityContextData); },[eligibilityContextData]);
  const NextHandler = async(form, isValidForm, setFormMode) =>{
-    if(isValidForm){  
-       
+    if(isValidForm){
        setEligibilityContextData({...eligibilityContextData, activeMenuId: eligibilityContextData?.activeMenuId });
-
     }
  };
  return (<div>
