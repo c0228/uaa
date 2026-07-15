@@ -122,8 +122,7 @@ const PersonalInfo = ({ data }) =>{
  useEffect(()=>{ console.log("eligibilityContextData [PersonalInfo]: ",eligibilityContextData); },[eligibilityContextData]);
  const NextHandler = async(form, isValidForm, setFormMode) =>{
     if(isValidForm){  
-       
-       setEligibilityContextData({...eligibilityContextData, activeMenuId: eligibilityContextData?.activeMenuId });
+       setEligibilityContextData({...eligibilityContextData, activeMenuId: 'edu-qualification' });
 
     }
  };

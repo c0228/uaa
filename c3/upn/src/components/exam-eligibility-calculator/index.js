@@ -30,9 +30,12 @@ const ExamEligibilityCalculator = () =>{
         "personalInfo": {
             "fullName": "Nellutla L N Rao",
             "dob": "2012-07-15",
-            "gender": "",
-            "nationality": "",
-            "category": ""
+            "gender": "Male",
+            "nationality": "Indian",
+            "category": "General (Unreserved / UR)"
+        },
+        "academics":{
+            "highestQualification": ""
         }
     }
  };
