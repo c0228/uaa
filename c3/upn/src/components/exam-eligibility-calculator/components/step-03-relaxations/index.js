@@ -8,15 +8,6 @@ import DisplayDefencePersonnelDisabled from "./components/display-defenceperdisa
 import DisplayCSEAttempt from "./components/display-cseattempt/index.js";
 
 const RelaxationForm = {
-   "exServiceMan":{
-            "id":"exServiceMan",
-            "enLabel":"Are you an Ex-Serviceman?",
-            "hiLabel":"क्या आप पूर्व सैनिक हैं?",
-            "enOptions":[{ id:'Yes', label:"Yes", value:"Yes"},
-                            { id:'No', label:"No", value:"No" }],
-            "hiOptions":[{ id:'Yes', label:"हां", value:"Yes"},
-                            { id:'No', label:"नहीं", value:"No" }]
-         },
    "defencePersonnelDisabled":{
                 "id":"defencePersonnelDisabled",
                 "enLabel":"Are you Defence Personnel disabled during military operations?",
