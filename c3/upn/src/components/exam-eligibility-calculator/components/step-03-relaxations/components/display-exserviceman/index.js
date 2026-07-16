@@ -13,14 +13,14 @@ const DisplayExServiceManForm = {
                 { id:'No', label:"No", value:"No" }],
     "hiOptions":[{ id:'Yes', label:"हां", value:"Yes"},
                 { id:'No', label:"नहीं", value:"No" }],
-    "enInfo":(<>
+    "enInfo":(<div style={{ fontSize:'11px'}}>
             <InfoIcon /> Candidates belonging to the Ex-Serviceman category may be eligible for 
             age relaxation in certain UPSC examinations, subject to the official notification.
-        </>),
-    "hiInfo":(<>
+        </div>),
+    "hiInfo":(<div style={{ fontSize:'13px'}}>
             <InfoIcon /> पूर्व-सैनिक श्रेणी के उम्मीदवार, आधिकारिक अधिसूचना के अनुसार, कुछ यूपीएससी परीक्षाओं में 
             आयु सीमा में छूट के पात्र हो सकते हैं।
-    </>)
+    </div>)
  },
 };
 
@@ -39,7 +39,7 @@ const DisplayExServiceMan = () =>{
         </div>
     </Col>
     <Col md={12}>
-        <div style={{ fontSize:'11px'}}>{DisplayExServiceManForm?.exServiceMan?.[lang+"Info"]}</div>
+        <div>{DisplayExServiceManForm?.exServiceMan?.[lang+"Info"]}</div>
     </Col>
  </Row>);
 };

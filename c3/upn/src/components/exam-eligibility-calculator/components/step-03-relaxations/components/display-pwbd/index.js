@@ -39,19 +39,19 @@ const DisplayPwBDForm = {
             "id":"disabilityPercentage",
             "enLabel":"Disability Percentage",
             "hiLabel":"विकलांगता प्रतिशतता",
-            "enInfo":(<>
+            "enInfo":(<div style={{ fontSize:'11px' }}>
                     <div><InfoIcon/> Enter the percentage mentioned in your valid disability certificate.
                     PwBD benefits generally apply to benchmark disabilities of 40% or more, subject to UPSC notification 
                     requirements.</div>
                     <div>If &lt; 40%,  Based on the entered percentage, PwBD relaxation may not be applicable.</div>
                     <div>If &gt;= 40%, Benchmark disability criteria satisfied for PwBD consideration.</div>
-                </>),
-            "hiInfo":(<>
+                </div>),
+            "hiInfo":(<div style={{ fontSize:'13px' }}>
                     <div><InfoIcon/> अपने मान्य दिव्यांगता प्रमाण-पत्र में बताई गई प्रतिशतता दर्ज करें। पी.डब्ल्यू.बी.डी लाभ आम तौर पर 40% या उससे अधिक की 
                         बेंचमार्क दिव्यांगता पर लागू होते हैं, जो यूपीएससी की अधिसूचना की शर्तों के अधीन हैं।</div>
                     <div>अगर प्रतिशत 40% से कम है, तो दर्ज किए गए प्रतिशत के आधार पर पी.डब्ल्यू.बी.डी छूट लागू नहीं हो सकती है।</div>
                     <div>अगर विकलांगता 40% या उससे ज़्यादा है, तो पी.डब्ल्यू.बी.डी के तौर पर विचार किए जाने के लिए बेंचमार्क विकलांगता के मानदंड पूरे होते हैं।</div>
-                </>)
+                </div>)
          },
 };
 
@@ -92,7 +92,7 @@ const DisplayPwBD = ({ data }) =>{
         </Row>
         <Row>
             <Col md={12}>
-                <div style={{ fontSize:'11px' }}>{DisplayPwBDForm?.disabilityPercentage?.[lang+"Info"]}</div>
+                <div>{DisplayPwBDForm?.disabilityPercentage?.[lang+"Info"]}</div>
             </Col>
         </Row>
     </>)}
