@@ -13,11 +13,9 @@ const FormReservations = () =>{
     if(isValidForm){  
         console.log("isValidForm: ", isValidForm, "form: ", form);
         const formData = form?.["ReservationsAndRelaxations"];
-        setEligibilityContextData({
-            ...eligibilityContextData,
-            leftMenuActiveId: "review",
-            data:{
-                reservations:{
+        let eligibilityData = {...eligibilityContextData};
+            eligibilityData.leftMenuActiveId = 'review';
+            eligibilityData.data.reservations = {
                     "PwBD": formData?.PwBD?.value,
                     "disabilityCategory": formData?.disabilityCategory?.value,
                     "disabilityPercentage": formData?.disabilityPercentage?.value,
@@ -25,9 +23,8 @@ const FormReservations = () =>{
                     "defencePersonnelDisabled": formData?.defencePersonnelDisabled?.value,
                     "cseAttempt": formData?.cseAttempt?.value,
                     "cseAttemptsUsed": formData?.cseAttemptsUsed?.value
-                }
-            }
-        });
+                };
+        setEligibilityContextData(eligibilityData);
     }
  };
   useEffect(()=>{

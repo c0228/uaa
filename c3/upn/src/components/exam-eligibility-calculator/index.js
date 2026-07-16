@@ -14,9 +14,9 @@ const CalculatorData = {
          and reservation criteria.<br/> Then, start your preparation with confidence.</p>),
  "hiDesc": (<p>उम्र, योग्यता, कैटेगरी और आरक्षण के आधार पर, बस कुछ ही स्टेप्स में उन सभी यूपीएससी परीक्षाओं का पता लगाएं जिनके लिए आप योग्य हैं।
         <br/> फिर, आत्मविश्वास के साथ अपनी तैयारी शुरू करें।</p>),
- "leftMenuData":[{  "id":"personal-information", "enLabel":"Personal Information", "hiLabel":"व्यक्तिगत जानकारी" },
-            { "id":"edu-qualification", "enLabel":"Education Qualification", "hiLabel":"शैक्षिक योग्यता" },
-            { "id":"reservation-and-relaxations", "enLabel":"Reservation & Relaxations", "hiLabel":"आरक्षण और छूट" },
+ "leftMenuData":[{  "id":"personalInfo", "enLabel":"Personal Information", "hiLabel":"व्यक्तिगत जानकारी" },
+            { "id":"academics", "enLabel":"Education Qualification", "hiLabel":"शैक्षिक योग्यता" },
+            { "id":"reservations", "enLabel":"Reservation & Relaxations", "hiLabel":"आरक्षण और छूट" },
             { "id":"review", "enLabel":"Review Details", "hiLabel":"समीक्षा का विवरण" }]
 };                
 const EligibilityContext = createContext();
@@ -24,8 +24,8 @@ export const getEligibilityContext = () => useContext(EligibilityContext);
 const ExamEligibilityCalculator = () =>{
  const { lang } = useParams();
  const defaultEligibilityCalculator = {
-    // "activeMenuId": "personal-information",
-    "activeMenuId": "edu-qualification",
+    // "activeMenuId": "personalInfo",
+    "activeMenuId": "reservations",
     "data":{
         "personalInfo": {
             "fullName": "Nellutla L N Rao",
@@ -35,7 +35,16 @@ const ExamEligibilityCalculator = () =>{
             "category": "General (Unreserved / UR)"
         },
         "academics":{
-            "highestQualification": ""
+            "highestQualification": "12th Pass/ Intermediate"
+        },
+        "reservations":{
+            "pwBD": "",
+            "disabilityCategory": "",
+            "disabilityPercentage": "",
+            "exServiceMan": "",
+            "defencePersonnelDisabled": "",
+            "cseAttempt": "",
+            "cseAttemptsUsed":""
         }
     }
  };

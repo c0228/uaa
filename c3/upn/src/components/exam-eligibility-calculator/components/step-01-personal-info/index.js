@@ -3,8 +3,7 @@ import { useParams } from "react-router-dom";
 import { ContainerFluid, Row, Col, Form, TextBox, DateTimePicker, Select, Icon } from "e-ui-react";
 import { getEligibilityContext } from "@Components/exam-eligibility-calculator/index.js";
 import { GetYearsBackDate } from "@Utils/DateFormatUtils.js";
-
-const InfoIcon = () =><Icon type="FontAwesome" name="fa-info-circle" size={12} style={{ marginRight:'5px' }} />
+import { InfoIcon } from "@Components/exam-eligibility-calculator/commons.js";
 
 const PersonalInfoForm = {
     "fullName":{
@@ -122,8 +121,18 @@ const PersonalInfo = ({ data }) =>{
  useEffect(()=>{ console.log("eligibilityContextData [PersonalInfo]: ",eligibilityContextData); },[eligibilityContextData]);
  const NextHandler = async(form, isValidForm, setFormMode) =>{
     if(isValidForm){  
-       setEligibilityContextData({...eligibilityContextData, activeMenuId: 'edu-qualification' });
-
+        console.log("isValidForm: ", isValidForm, "form: ", form);
+        const formData = form?.["personalInfo"];
+        let eligibilityData = {...eligibilityContextData};
+            eligibilityData.leftMenuActiveId = 'academics';
+            eligibilityData.data.personalInfo = {
+                fullName: formData?.fullName?.value,
+                dob: formData?.dob?.value,
+                gender: formData?.gender?.value,
+                nationality: formData?.nationality?.value,
+                category: formData?.category?.value,
+            };
+       setEligibilityContextData(eligibilityData);
     }
  };
  return (<div>

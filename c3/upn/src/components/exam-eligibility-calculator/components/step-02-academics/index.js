@@ -41,7 +41,14 @@ const Academics = ({ data }) =>{
  useEffect(()=>{ console.log("eligibilityContextData [PersonalInfo]: ",eligibilityContextData); },[eligibilityContextData]);
  const NextHandler = async(form, isValidForm, setFormMode) =>{
     if(isValidForm){
-       setEligibilityContextData({...eligibilityContextData, activeMenuId: 'reservation-and-relaxations' });
+       console.log("isValidForm: ", isValidForm, "form: ", form);
+        const formData = form?.["academics"];
+        let eligibilityData = {...eligibilityContextData};
+            eligibilityData.leftMenuActiveId = 'reservations';
+            eligibilityData.data.academics = {
+                highestQualification: formData?.highestQualification?.value
+            };
+       setEligibilityContextData(eligibilityData);
     }
  };
  return (<div>
