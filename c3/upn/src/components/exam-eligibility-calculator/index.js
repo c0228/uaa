@@ -38,13 +38,13 @@ const ExamEligibilityCalculator = () =>{
             "highestQualification": "12th Pass/ Intermediate"
         },
         "reservations":{
-            "pwBD": "",
-            "disabilityCategory": "",
-            "disabilityPercentage": "",
-            "exServiceMan": "",
-            "defencePersonnelDisabled": "",
-            "cseAttempt": "",
-            "cseAttemptsUsed":""
+            "pwBD": "Yes",
+            "disabilityCategory": "Blindness / Low Vision",
+            "disabilityPercentage": 40,
+            "exServiceMan": "Yes",
+            "defencePersonnelDisabled": "Yes",
+            "cseAttempt": "Yes",
+            "cseAttemptsUsed":"3"
         }
     }
  };

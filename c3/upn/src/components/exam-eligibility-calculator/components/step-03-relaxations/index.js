@@ -8,41 +8,6 @@ import DisplayDefencePersonnelDisabled from "./components/display-defenceperdisa
 import DisplayCSEAttempt from "./components/display-cseattempt/index.js";
 
 const RelaxationForm = {
-   "pwBD":{
-            "id":"pwBD",
-            "enLabel":"Are you a Person with Benchmark Disability (PwBD)?",
-            "hiLabel":"क्या आप बेंचमार्क दिव्यांगता (पी.डब्ल्यू.बी.डी) वाले व्यक्ति हैं?",
-            "enOptions":[{ id:'Yes', label:"Yes", value:"Yes"},
-                            { id:'No', label:"No", value:"No" }],
-            "hiOptions":[{ id:'Yes', label:"हां", value:"Yes"},
-                            { id:'No', label:"नहीं", value:"No" }]
-         },
-   "disabilityCategory":{
-            "id":"disabilityCategory",
-            "enLabel":"Disability Category",
-            "hiLabel":"विकलांगता की श्रेणी",
-            "enPlaceholder":"Select Disability",
-            "hiPlaceholder":"विकलांगता चुनें",
-            "enOptions":[{ id:'Blindness / Low Vision', label:'Blindness / Low Vision', value:'Blindness / Low Vision' },
-                     { id:'Deaf / Hard of Hearing', label:'Deaf / Hard of Hearing', value:'Deaf / Hard of Hearing' },
-                     { id:'Locomotor Disability', label:'Locomotor Disability', value:'Locomotor Disability' },
-                     { id:'Autism', label:'Autism', value:'Autism' },
-                     { id:'Intellectual Disability', label:'Intellectual Disability', value:'Intellectual Disability' },
-                     { id:'Multiple Disabilities', label:'Multiple Disabilities', value:'Multiple Disabilities' },
-                     { id:'Other', label:'Other', value:'Other' }],
-            "hiOptions":[{ id:'Blindness / Low Vision', label:'अंधापन / कम दृष्टि', value:'Blindness / Low Vision' },
-                     { id:'Deaf / Hard of Hearing', label:'बधिर / कम सुनने वाले', value:'Deaf / Hard of Hearing' },
-                     { id:'Locomotor Disability', label:'चलने-फिरने में अक्षमता', value:'Locomotor Disability' },
-                     { id:'Autism', label:'आत्मकेंद्रित', value:'Autism' },
-                     { id:'Intellectual Disability', label:'बौद्धिक विकलांगता', value:'Intellectual Disability' },
-                     { id:'Multiple Disabilities', label:'एक से अधिक विकलांगताएँ', value:'Multiple Disabilities' },
-                     { id:'Other', label:'अन्य', value:'Other' }]
-         },
-   "disabilityPercentage":{
-            "id":"disabilityPercentage",
-            "enLabel":"Disability Percentage",
-            "hiLabel":"विकलांगता प्रतिशतता"
-         },
    "exServiceMan":{
             "id":"exServiceMan",
             "enLabel":"Are you an Ex-Serviceman?",
@@ -118,7 +83,7 @@ const Relaxations = ({ data }) =>{
         </Row>
         <div className="list-group">
             <div className="list-group-item" style={{ backgroundColor:'#eee' }}>
-                <DisplayPwBD />
+                <DisplayPwBD data={RelaxationForm?.pwBD} />
             </div>
             <div className="list-group-item" style={{ backgroundColor:'#eee' }}>
                 <DisplayExServiceMan />
