@@ -3,7 +3,8 @@ import { GetYearsBackDate } from "@Utils/DateFormatUtils.js";
 import { InfoIcon } from "@Components/exam-eligibility-calculator/commons.js";
 
 export const DefaultEligibilityCalculator = {
-    "activeMenuId": "personalInfo",
+    // "activeMenuId": "personalInfo",
+    "activeMenuId": "review",
     "data":{
         "personalInfo": {
             "fullName": "Nellutla L N Rao",
@@ -37,7 +38,8 @@ export const EligibilityCalculatorData = {
  "leftMenuData":[{  "id":"personalInfo", "enLabel":"Personal Information", "hiLabel":"व्यक्तिगत जानकारी" },
             { "id":"academics", "enLabel":"Education Qualification", "hiLabel":"शैक्षिक योग्यता" },
             { "id":"reservations", "enLabel":"Reservation & Relaxations", "hiLabel":"आरक्षण और छूट" },
-            { "id":"review", "enLabel":"Review Details", "hiLabel":"समीक्षा का विवरण" }],
+            { "id":"review", "enLabel":"Review Details", "hiLabel":"समीक्षा का विवरण" }
+        ],
  "steps":{
     "personalInfo":{
         "fields":{
@@ -296,6 +298,14 @@ export const EligibilityCalculatorData = {
     "resetBtn":{
         "en":"Reset Form",
         "hi":"फ़ॉर्म रीसेट करें"
+    },
+    "calculateBtn":{
+        "en":"Calculate My Eligibility",
+        "hi":"अपनी पात्रता की गणना करें"
+    },
+    "goBack":{
+        "en":"Go Back",
+        "hi":"वापस जाएं"
     }
  }
 };

@@ -20,9 +20,7 @@ const ExamEligibilityCalculator = () =>{
         <div><h1 className="fw-bold" style={{ fontSize:'22px' }}>{EligibilityCalculatorData?.[lang+"Title"]}</h1></div>
         <div>{EligibilityCalculatorData?.[lang+"Desc"]}</div>
         <Row>
-            <Col md={4}>
-                <Menus data={EligibilityCalculatorData?.leftMenuData} />
-            </Col>
+            <Col md={4}><Menus data={EligibilityCalculatorData?.leftMenuData} /></Col>
             <Col md={8}>
                 {eligibilityContextData?.activeMenuId === EligibilityCalculatorData?.leftMenuData?.[0]?.id && 
                     (<PersonalInfo data={EligibilityCalculatorData?.leftMenuData?.[0]} />)}
