@@ -16,7 +16,12 @@ const DisplayPwBD = ({ data }) =>{
                     <Switch type="radio" id={RelaxationsForm?.pwBD?.id} name={RelaxationsForm?.pwBD?.id}  layout="horizontal"
                         label={RelaxationsForm?.pwBD?.[lang+"Label"]} options={RelaxationsForm?.pwBD?.[lang+"Options"]} 
                         value={eligibilityContextData?.data?.reservations?.pwBD}
-                        validation={{ required:{ value: true, errorMessage:"[This is a Mandatory Field]" } }} />
+                        validation={{ required:{ value: true, errorMessage:"[This is a Mandatory Field]" } }} 
+                        onChange={(value)=>{
+                            let eligibilityData = {...eligibilityContextData};
+                            eligibilityData.data.reservations.pwBD = value;
+                            setEligibilityContextData(eligibilityData);
+                        }} />
                 </div>
         </Col>
         </Row>
@@ -29,14 +34,24 @@ const DisplayPwBD = ({ data }) =>{
                         placeholder={RelaxationsForm?.disabilityCategory?.[lang+"Placeholder"]}
                     value={eligibilityContextData?.data?.reservations?.disabilityCategory}
                     options={RelaxationsForm?.disabilityCategory?.[lang+"Options"]} 
-                    validation={{ required:{ value: true, errorMessage:"[This is a Mandatory Field]" } }} />
+                    validation={{ required:{ value: true, errorMessage:"[This is a Mandatory Field]" } }} 
+                    onChange={(value)=>{
+                            let eligibilityData = {...eligibilityContextData};
+                            eligibilityData.data.reservations.disabilityCategory = value;
+                            setEligibilityContextData(eligibilityData);
+                        }} />
                 </div>
             </Col>
             <Col md={6}>
                 <div className="mt-3">
                     <Range name={RelaxationsForm?.disabilityPercentage?.id} 
                         label={RelaxationsForm?.disabilityPercentage?.[lang+"Label"]}
-                        value={eligibilityContextData?.data?.reservations?.disabilityPercentage}
+                        value={eligibilityContextData?.data?.reservations?.disabilityPercentage} 
+                        onChange={(value)=>{
+                            let eligibilityData = {...eligibilityContextData};
+                            eligibilityData.data.reservations.disabilityPercentage = value;
+                            setEligibilityContextData(eligibilityData);
+                        }}
                         validation={{ required:{ value: true, errorMessage:"[This is a Mandatory Field]" } }} />
                 </div>
             </Col>

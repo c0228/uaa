@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React, { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
 import { ContainerFluid, Row, Col, Form, Icon, Button, Switch } from "e-ui-react";
 import { getEligibilityContext } from "@Components/exam-eligibility-calculator/index.js";
@@ -6,7 +6,19 @@ import { EligibilityCalculatorData } from "@Components/exam-eligibility-calculat
 
 const Review = ({ sections }) =>{
  const { lang } = useParams();
+ const [ isTCchecked, setIsTCchecked ] = useState('No');
  const { eligibilityContextData, setEligibilityContextData } = getEligibilityContext();
+ const CalculateBtnHandler = () =>{
+  if(isTCchecked==='Yes'){
+    alert('Accepted');
+  }
+  else { alert('Confirm Your Information is Correct'); }
+ };
+ const GoBackHandler = () =>{
+   let eligibilityData = {...eligibilityContextData};
+      eligibilityData.activeMenuId = 'reservations'; 
+   setEligibilityContextData(eligibilityData);
+ };
  useEffect(()=>{
   console.log("eligibilityContextData: ", eligibilityContextData);
  },[]);
@@ -37,7 +49,7 @@ const Review = ({ sections }) =>{
                               {sectionFieldList?.map((id,index)=>{
                                  const fieldLabel = sectionFields?.[id]?.[lang+"Label"];
                                  const fieldValue = eligibilityContextData?.data?.[sectionId]?.[id];
-                                 return (<tr><td><b>{fieldLabel}</b></td><td><b>:</b></td><td>{fieldValue}</td></tr>);
+                                 return (<tr key={index}><td><b>{fieldLabel}</b></td><td><b>:</b></td><td>{fieldValue}</td></tr>);
                               })}
                            </tbody>
                         </table>
@@ -51,19 +63,24 @@ const Review = ({ sections }) =>{
     <div>
       <Row>
          <Col md={12}>
-            <Switch type="radio" id="termsAndConditions" name="termsAndConditions" 
-                    options={[{ id:1, label:"I confirm that the information and details provided above are true and correct to the best of my knowledge. I agree to proceed and check my eligibility for the UPSC Examination and accept the Terms and Conditions of the Eligibility Calculator.", value:"Yes"}]} 
-                    disabled={false} />
+            <div style={{ display:'flex' }}>
+               <Switch type="radio" id="termsAndConditions" name="termsAndConditions" value={isTCchecked}
+                    options={[{ id:1, value:"Yes" }]} 
+                    onChange={(value)=>setIsTCchecked('Yes')}/>
+               <div>I confirm that the information and details provided above are true and correct to the best of my knowledge. 
+            I agree to proceed and check my eligibility for the UPSC Examination and accept the Terms and Conditions of 
+            the Eligibility Calculator.</div>
+            </div>
          </Col>
       </Row>
     </div>
     <div align="right" className="mtop5p">
       <Row>
          <Col md={12}>
-            <Button type="success" size={11} style={{ marginRight:'6px' }}>
+            <Button type="success" size={11} style={{ marginRight:'6px' }} onClick={CalculateBtnHandler}>
                <b>{EligibilityCalculatorData?.steps?.calculateBtn?.[lang]}</b>
             </Button>
-            <Button type="danger" size={11} style={{ marginRight:'5px' }}>
+            <Button type="danger" size={11} style={{ marginRight:'5px' }} onClick={GoBackHandler}>
                <b>{EligibilityCalculatorData?.steps?.goBack?.[lang]}</b>
             </Button>
          </Col>

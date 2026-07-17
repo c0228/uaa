@@ -15,7 +15,7 @@ const Relaxations = ({ data }) =>{
  const FormSteps = EligibilityCalculatorData?.steps;
  const NextHandler = async(form, isValidForm, setFormMode) =>{
     if(isValidForm){  
-        console.log("isValidForm: ", isValidForm, "form: ", form);
+        console.log("isValidForm [Relaxations]: ", isValidForm, "form: ", form);
         const formData = form?.["reservations"];
         let eligibilityData = {...eligibilityContextData};
             eligibilityData.activeMenuId = 'review';
