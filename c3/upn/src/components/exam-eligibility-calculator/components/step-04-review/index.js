@@ -23,11 +23,16 @@ const Review = ({ sections }) =>{
                   </Col>
                </Row>
                <Row>
-                  <Col md={6}>
-                  
-                  </Col>
-                  <Col md={6}>
-                  
+                  <Col md={12}>
+                     <div className="table-responsive">
+                        <table className="table">
+                           <tbody>
+                              <tr>
+                                 <td><b>Name</b></td><td><b>:</b></td><td>john@example.com</td>
+                              </tr>
+                           </tbody>
+                        </table>
+                     </div>
                   </Col>
                </Row>
             </div>);

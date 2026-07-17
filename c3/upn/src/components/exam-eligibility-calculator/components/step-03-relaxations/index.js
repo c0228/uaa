@@ -6,23 +6,13 @@ import DisplayPwBD from "./components/display-pwbd/index.js";
 import DisplayExServiceMan from "./components/display-exserviceman/index.js";
 import DisplayDefencePersonnelDisabled from "./components/display-defenceperdisabled/index.js";
 import DisplayCSEAttempt from "./components/display-cseattempt/index.js";
-
-const RelaxationsForm = {
-  "enDesc": (<div style={{ fontSize:'12px' }}>Provide additional information, if applicable. These details help calculate age relaxation, attempt limits, and eligibility accurately.</div>),
-  "hiDesc": (<div style={{ fontSize:'14px' }}>अगर लागू हो, तो अतिरिक्त जानकारी दें। ये विवरण उम्र में छूट, प्रयास की सीमा और पात्रता की सही-सही गणना करने में मदद करते हैं।</div>),
-  "nextBtn":{
-        "en":"Next Step",
-        "hi":"अगला कदम"
-    },
-    "resetBtn":{
-        "en":"Reset Form",
-        "hi":"फ़ॉर्म रीसेट करें"
-    }
-};
+import { EligibilityCalculatorData } from "@Components/exam-eligibility-calculator/data.js";
 
 const Relaxations = ({ data }) =>{
  const { lang } = useParams();
  const { eligibilityContextData, setEligibilityContextData } = getEligibilityContext();
+ const RelaxationsForm = EligibilityCalculatorData?.steps?.reservations?.fields;
+ const FormSteps = EligibilityCalculatorData?.steps;
  const NextHandler = async(form, isValidForm, setFormMode) =>{
     if(isValidForm){  
         console.log("isValidForm: ", isValidForm, "form: ", form);
@@ -44,8 +34,8 @@ const Relaxations = ({ data }) =>{
  return (<div>
     <div><h5><b>3. {data?.[lang+"Label"]}</b></h5><hr/></div>
     <Form name="ReservationsAndRelaxations"  
-        btnSubmit={{ align: 'right', btnType:'success', label:(<b>{RelaxationsForm?.nextBtn?.[lang]}</b>), size: 12 }} 
-        btnReset={{ btnType:'danger', label:(<b>{RelaxationsForm?.resetBtn?.[lang]}</b>), size: 11 }}
+        btnSubmit={{ align: 'right', btnType:'success', label:(<b>{FormSteps?.nextBtn?.[lang]}</b>), size: 12 }} 
+        btnReset={{ btnType:'danger', label:(<b>{FormSteps?.resetBtn?.[lang]}</b>), size: 11 }}
         onSubmit={NextHandler}>
     <ContainerFluid>
         <Row>
