@@ -25,7 +25,7 @@ const ExamEligibilityCalculator = () =>{
  const { lang } = useParams();
  const defaultEligibilityCalculator = {
     // "activeMenuId": "personalInfo",
-    "activeMenuId": "reservations",
+    "activeMenuId": "review",
     "data":{
         "personalInfo": {
             "fullName": "Nellutla L N Rao",
