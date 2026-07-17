@@ -67,7 +67,7 @@ const ExamEligibilityCalculator = () =>{
                 {eligibilityContextData?.activeMenuId === CalculatorData?.leftMenuData?.[2]?.id && 
                     (<Relaxations data={CalculatorData?.leftMenuData?.[2]} />)}
                 {eligibilityContextData?.activeMenuId === CalculatorData?.leftMenuData?.[3]?.id && 
-                    (<Review data={CalculatorData?.leftMenuData?.[3]} />)}
+                    (<Review sections={CalculatorData?.leftMenuData}  />)}
             </Col>
         </Row>
     </Card>
