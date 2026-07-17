@@ -25,7 +25,20 @@ const Relaxations = ({ data }) =>{
  const { eligibilityContextData, setEligibilityContextData } = getEligibilityContext();
  const NextHandler = async(form, isValidForm, setFormMode) =>{
     if(isValidForm){  
-       setEligibilityContextData({...eligibilityContextData, activeMenuId: 'review' });
+        console.log("isValidForm: ", isValidForm, "form: ", form);
+        const formData = form?.["reservations"];
+        let eligibilityData = {...eligibilityContextData};
+            eligibilityData.activeMenuId = 'review';
+            eligibilityData.data.reservations = {
+                pwBD: formData?.pwBD?.value,
+                disabilityCategory: formData?.disabilityCategory?.value,
+                disabilityPercentage: formData?.disabilityPercentage?.value,
+                exServiceMan: formData?.exServiceMan?.value,
+                defencePersonnelDisabled: formData?.defencePersonnelDisabled?.value,
+                cseAttempt: formData?.cseAttempt?.value,
+                cseAttemptsUsed: formData?.cseAttemptsUsed?.value
+            };
+       setEligibilityContextData(eligibilityData);
     }
  };
  return (<div>

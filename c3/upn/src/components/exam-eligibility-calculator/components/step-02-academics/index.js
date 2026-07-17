@@ -44,7 +44,7 @@ const Academics = ({ data }) =>{
        console.log("isValidForm: ", isValidForm, "form: ", form);
         const formData = form?.["academics"];
         let eligibilityData = {...eligibilityContextData};
-            eligibilityData.leftMenuActiveId = 'reservations';
+            eligibilityData.activeMenuId = 'reservations';
             eligibilityData.data.academics = {
                 highestQualification: formData?.highestQualification?.value
             };

@@ -124,7 +124,7 @@ const PersonalInfo = ({ data }) =>{
         console.log("isValidForm: ", isValidForm, "form: ", form);
         const formData = form?.["personalInfo"];
         let eligibilityData = {...eligibilityContextData};
-            eligibilityData.leftMenuActiveId = 'academics';
+            eligibilityData.activeMenuId = 'academics';
             eligibilityData.data.personalInfo = {
                 fullName: formData?.fullName?.value,
                 dob: formData?.dob?.value,
@@ -132,6 +132,7 @@ const PersonalInfo = ({ data }) =>{
                 nationality: formData?.nationality?.value,
                 category: formData?.category?.value,
             };
+       console.log("eligibilityData [personalInfo]: ", eligibilityData);
        setEligibilityContextData(eligibilityData);
     }
  };
