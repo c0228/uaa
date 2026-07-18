@@ -33,7 +33,7 @@ const FormReservations = () =>{
 
  return (<div>
     <div><h5><b>3. Reservation & Relaxations</b></h5><hr/></div>
-    <Form name="ReservationsAndRelaxations"  
+    <Form name="reservations"  
         btnSubmit={{ align: 'right', btnType:'success', label:(<b>Next</b>), size: 12 }} 
         btnReset={{ btnType:'danger', label:(<b>Reset</b>), size: 11 }}
         onSubmit={NextHandler}>

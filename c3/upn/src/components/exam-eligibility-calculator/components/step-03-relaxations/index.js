@@ -33,7 +33,7 @@ const Relaxations = ({ data }) =>{
  };
  return (<div>
     <div><h5><b>3. {data?.[lang+"Label"]}</b></h5><hr/></div>
-    <Form name="ReservationsAndRelaxations"  
+    <Form name={data?.id}  
         btnSubmit={{ align: 'right', btnType:'success', label:(<b>{FormSteps?.nextBtn?.[lang]}</b>), size: 12 }} 
         btnReset={{ btnType:'danger', label:(<b>{FormSteps?.resetBtn?.[lang]}</b>), size: 11 }}
         onSubmit={NextHandler}>

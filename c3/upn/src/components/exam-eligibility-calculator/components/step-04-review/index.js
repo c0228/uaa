@@ -20,7 +20,7 @@ const Review = ({ sections }) =>{
    setEligibilityContextData(eligibilityData);
  };
  useEffect(()=>{
-  console.log("eligibilityContextData: ", eligibilityContextData);
+  console.log("eligibilityContextData [reservations]: ", eligibilityContextData);
  },[]);
  return (<div>
     <div><h5><b>4. {sections?.[3]?.[lang+"Label"]}</b></h5><hr/></div>

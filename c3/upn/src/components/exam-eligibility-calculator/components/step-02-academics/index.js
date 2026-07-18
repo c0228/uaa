@@ -24,7 +24,7 @@ const Academics = ({ data }) =>{
  };
  return (<div>
    <div><h5><b>2. {data?.[lang+"Label"]}</b></h5><hr/></div>
-   <Form name="EduQualificationForm"  
+   <Form name={data?.id}  
          btnSubmit={{ align: 'right', btnType:'success', label:(<b>{FormSteps?.nextBtn?.[lang]}</b>), size: 12 }} 
          btnReset={{ btnType:'danger', label:(<b>{FormSteps?.resetBtn?.[lang]}</b>), size: 11 }}
          onSubmit={NextHandler}>
