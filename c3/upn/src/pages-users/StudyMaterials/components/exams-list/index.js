@@ -1,8 +1,10 @@
 import React, { useState } from "react";
+import { useParams } from "react-router-dom";
 import { Card, Icon } from "e-ui-react";
 import './index.css';
 
 const ExamsList = ({ data, activeHandler }) =>{
+ const { lang } = useParams();
  const menuList = data?Object.keys(data):[];
  const SelectExamHandler = (id) =>{
     activeHandler?.setActiveExam(id);
@@ -12,9 +14,10 @@ const ExamsList = ({ data, activeHandler }) =>{
   {menuList?.map((e,i)=>{
     const activeColor = '#065fc5';
     const defaultColor = '#ccc';
-    const label = data?.[e]?.enLabel;
+    const id = data?.[e]?.[lang+'Id'];
+    const label = data?.[e]?.[lang+'Label'];
     const icon = data?.[e]?.icon;
-    const desc = data?.[e]?.desc;
+    const desc = data?.[e]?.[lang+'Desc'];
     return (<div key={i} style={{ marginBottom:'5px' }} onClick={()=>SelectExamHandler(e)}>
         {/** #065fc5 */}
         <Card padding={5} backgroundColor={activeHandler?.activeExam===e?"#d9eaff":"#fffdfd"} 
@@ -27,7 +30,7 @@ const ExamsList = ({ data, activeHandler }) =>{
                 </div>
                 <div style={{ width:'80%', padding:'5px' }}>
                     <div style={{ color: (activeHandler?.activeExam===e)?"#065fc5":"#555" }}>
-                        <span className={activeHandler?.activeExam===e?"sm-exams-code-active":"sm-exams-code"}><b>{e}</b></span>
+                        <span className={activeHandler?.activeExam===e?"sm-exams-code-active":"sm-exams-code"}><b>{id}</b></span>
                         <span style={{ marginLeft:'5px' }}><b>{label}</b></span>
                     </div>
                     <div style={{ color:'#555', marginTop:'5px' }}>{desc}</div>
