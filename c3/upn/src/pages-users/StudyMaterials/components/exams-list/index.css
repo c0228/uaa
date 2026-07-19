@@ -1,3 +1,5 @@
-.exams-section-active { border:1px solid #065fc5; }
-.exams-section { border:1px solid #ccc; }
-.exams { padding:15px;border-radius:12px; }
+.sm-exams-section-active { border:1px solid #065fc5; }
+.sm-exams-section { border:1px solid #ccc; }
+.sm-exams { padding:15px;border-radius:12px; }
+.sm-exams-code-active { border:1px solid #065fc5;padding:4px;border-radius:8px;background-color:#065fc5;color:#fff; }
+.sm-exams-code { border:1px solid #000;padding:4px;border-radius:8px;background-color:#eee; }

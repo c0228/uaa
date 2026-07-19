@@ -7,6 +7,7 @@ import { HeaderMenu } from '@AppRoutes/NavbarList.js';
 import { useAuth } from "@Hooks/useAuth.js";
 import ExamsList from "./components/exams-list/index.js";
 import SMBreadcrumb from "./components/breadcrumb/index.js";
+import SubjectsList from "./components/list-subjects/index.js";
 
 const ExamsData = {
     "CAPF": {
@@ -14,7 +15,10 @@ const ExamsData = {
         "enLabel": "CAPF Assistant Commandants",
         "hiLabel": "",
         "icon": "fa-shield",
-        "desc": "Recruitment for Assistant Commandants in Central Armed Police Forces."
+        "desc": "Recruitment for Assistant Commandants in Central Armed Police Forces.",
+        "subjectList":[{
+
+        }]
     },
     "CDS": {
         "id": "CDS",
@@ -103,6 +107,7 @@ const StudyMaterials = () =>{
                 </Col>
                 <Col md={8}>
                     <SMBreadcrumb label={ExamsData?.[activeExam]?.enLabel} />
+                    <SubjectsList data={ExamsData?.[activeExam]?.subjectList} />
                 </Col>
             </Row>
         </ContainerFluid>

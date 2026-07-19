@@ -21,13 +21,16 @@ const ExamsList = ({ data, activeHandler }) =>{
             style={{ border:activeHandler?.activeExam===e?'1px solid #065fc5':'1px solid #ccc', cursor:'pointer' }}>
             <div style={{ display:'flex', flex:1 }}>
                 <div style={{ width:'20%', display: 'flex', justifyContent:'center', alignItems:'center' }}>
-                    <div align="center" className={activeHandler?.activeExam===e?"exams exams-section-active":"exams exams-section"}>
+                    <div align="center" className={activeHandler?.activeExam===e?"sm-exams sm-exams-section-active":"sm-exams exams-section"}>
                         <Icon type="FontAwesome" name={icon} size={35} color={activeHandler?.activeExam===e?"#065fc5":"#555"} />
                     </div>
                 </div>
                 <div style={{ width:'80%', padding:'5px' }}>
-                    <div style={{ color: (activeHandler?.activeExam===e)?"#065fc5":"#555" }}><b>{label}</b></div>
-                    <div style={{ color:'#555'}}>{desc}</div>
+                    <div style={{ color: (activeHandler?.activeExam===e)?"#065fc5":"#555" }}>
+                        <span className={activeHandler?.activeExam===e?"sm-exams-code-active":"sm-exams-code"}><b>{e}</b></span>
+                        <span style={{ marginLeft:'5px' }}><b>{label}</b></span>
+                    </div>
+                    <div style={{ color:'#555', marginTop:'5px' }}>{desc}</div>
                 </div>
             </div>
             
