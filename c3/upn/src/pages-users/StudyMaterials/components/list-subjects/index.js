@@ -12,7 +12,7 @@ const SubjectsList = ({ data }) =>{
         const subjects = data?.[section]?.subjects;
         const subjectList = subjects && Object.keys(subjects);
         console.log("subjects: ", subjects);
-        return (<div key={i1}>
+        return (<div key={i1} style={{ marginBottom:'8px' }}>
         <div><h4><b>{label}</b></h4><hr/></div>
             <div className="mtop15p">
             <Row>
@@ -25,6 +25,7 @@ const SubjectsList = ({ data }) =>{
                     const tags = subjects[s]?.[lang+"Tags"];
                     return (<Col md={6}>
                 {/* */}
+                <div style={{ marginBottom:'15px' }}>
                 <Card padding={15} backgroundColor="#fffdfd" style={{ border:'1px solid #000'}}>
                 <div style={{ display:'flex', flex:1 }}>
                     <div style={{ width:'20%', display: 'flex', justifyContent:'center', alignItems:'center' }}>
@@ -71,6 +72,7 @@ const SubjectsList = ({ data }) =>{
                     </Button>
                 </div>
             </Card>
+            </div>
             {/* */}
             </Col>);
                 })}

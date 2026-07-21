@@ -9,16 +9,209 @@ export const ExamsData = {
         "enDesc": "Recruitment for Assistant Commandants in Central Armed Police Forces.",
         "hiDesc": "केंद्रीय सशस्त्र पुलिस बलों में असिस्टेंट कमांडेंट की भर्ती।",
         "subjectList":{
+            "general_mental_ability":{
+                "id": "general_mental_ability",
+                "enLabel":"General Mental Ability",
+                "hiLabel":"सामान्य मानसिक क्षमता",
+                "subjects":{
+                    // Logical Reasoning
+                    "logical_reasoning":{
+                        "id": "logical_reasoning",
+                        "icon": "fa-puzzle-piece",
+                        "enLabel": "Logical Reasoning",
+                        "hiLabel": "तार्किक सोच",
+                        "chapters": 14,
+                        "topics": 184,
+                        "study_hours": 220,
+                        "enTags":["CAPF", "CDS", "CGSE", "CMS", "CSE", "ESE", "IES/ISS", "IFoS", "NDA", "RT", "SCRA"],
+                        "hiTags":["सीएपीएफ", "सीडीएस", "सीजीएसई", "सीएमएस", "सीएसई", "ईएसई", "आईईएस/आईएसएस", "आई.एफओ.एस", "एनडीए", "आरटी", "एससीआरए"],
+                        "is_progress": false
+                    },
+                    // Analytical Ability
+                    "analytical_ability":{
+                        "id": "analytical_ability",
+                        "icon": "fa-line-chart",
+                        "enLabel": "Analytical Ability",
+                        "hiLabel": "विश्लेषणात्मक क्षमता",
+                        "chapters": 14,
+                        "topics": 184,
+                        "study_hours": 220,
+                        "enTags":["CAPF", "CDS", "CGSE", "CMS", "CSE", "ESE", "IES/ISS", "IFoS", "NDA", "RT", "SCRA"],
+                        "hiTags":["सीएपीएफ", "सीडीएस", "सीजीएसई", "सीएमएस", "सीएसई", "ईएसई", "आईईएस/आईएसएस", "आई.एफओ.एस", "एनडीए", "आरटी", "एससीआरए"],
+                        "is_progress": false
+                    },
+                    // Quantitative Aptitude
+                    "quantitative_aptitude":{
+                        "id": "quantitative_aptitude",
+                        "icon": "fa-calculator",
+                        "enLabel": "Quantitative Aptitude",
+                        "hiLabel": "मात्रात्मक रूझान",
+                        "chapters": 14,
+                        "topics": 184,
+                        "study_hours": 220,
+                        "enTags":["CAPF", "CDS", "CGSE", "CMS", "CSE", "ESE", "IES/ISS", "IFoS", "NDA", "RT", "SCRA"],
+                        "hiTags":["सीएपीएफ", "सीडीएस", "सीजीएसई", "सीएमएस", "सीएसई", "ईएसई", "आईईएस/आईएसएस", "आई.एफओ.एस", "एनडीए", "आरटी", "एससीआरए"],
+                        "is_progress": false
+                    },
+                    // Numerical Ability
+                    "numerical_ability":{
+                        "id": "numerical_ability",
+                        "icon": "fa-sort-numeric-asc",
+                        "enLabel": "Numerical Ability",
+                        "hiLabel": "संख्यात्मक क्षमता",
+                        "chapters": 14,
+                        "topics": 184,
+                        "study_hours": 220,
+                        "enTags":["CAPF", "CDS", "CGSE", "CMS", "CSE", "ESE", "IES/ISS", "IFoS", "NDA", "RT", "SCRA"],
+                        "hiTags":["सीएपीएफ", "सीडीएस", "सीजीएसई", "सीएमएस", "सीएसई", "ईएसई", "आईईएस/आईएसएस", "आई.एफओ.एस", "एनडीए", "आरटी", "एससीआरए"],
+                        "is_progress": false
+                    },
+                    // Data Interpretation
+                    "data_interpretation":{
+                        "id": "data_interpretation",
+                        "icon": "fa-bar-chart",
+                        "enLabel": "Data Interpretation",
+                        "hiLabel": "डेटा व्याख्या",
+                        "chapters": 14,
+                        "topics": 184,
+                        "study_hours": 220,
+                        "enTags":["CAPF", "CDS", "CGSE", "CMS", "CSE", "ESE", "IES/ISS", "IFoS", "NDA", "RT", "SCRA"],
+                        "hiTags":["सीएपीएफ", "सीडीएस", "सीजीएसई", "सीएमएस", "सीएसई", "ईएसई", "आईईएस/आईएसएस", "आई.एफओ.एस", "एनडीए", "आरटी", "एससीआरए"],
+                        "is_progress": false
+                    },
+
+                }
+            },
             "indian_polity":{
                 "id": "indian_polity",
-                "enLabel":"Indian Polity",
-                "hiLabel":"भारतीय राजव्यवस्था",
+                "enLabel":"Indian Polity & Governance",
+                "hiLabel":"भारतीय राजव्यवस्था और शासन",
                 "subjects":{
                     "indian_constitution":{
                         "id": "indian_constitution",
-                        "icon": "fa-university",
+                        "icon": "fa-book",
                         "enLabel": "The Constitution of India",
                         "hiLabel": "भारत का संविधान",
+                        "chapters": 14,
+                        "topics": 184,
+                        "study_hours": 220,
+                        "enTags":["CAPF", "CDS", "CGSE", "CMS", "CSE", "ESE", "IES/ISS", "IFoS", "NDA", "RT", "SCRA"],
+                        "hiTags":["सीएपीएफ", "सीडीएस", "सीजीएसई", "सीएमएस", "सीएसई", "ईएसई", "आईईएस/आईएसएस", "आई.एफओ.एस", "एनडीए", "आरटी", "एससीआरए"],
+                        "is_progress": false
+                    },
+                    "political_system":{
+                        "id": "political_system",
+                        "icon": "fa-sitemap",
+                        "enLabel": "Political System",
+                        "hiLabel": "",
+                        "chapters": 14,
+                        "topics": 184,
+                        "study_hours": 220,
+                        "enTags":["CAPF", "CDS", "CGSE", "CMS", "CSE", "ESE", "IES/ISS", "IFoS", "NDA", "RT", "SCRA"],
+                        "hiTags":["सीएपीएफ", "सीडीएस", "सीजीएसई", "सीएमएस", "सीएसई", "ईएसई", "आईईएस/आईएसएस", "आई.एफओ.एस", "एनडीए", "आरटी", "एससीआरए"],
+                        "is_progress": false
+                    },
+                    "parliament":{
+                        "id": "parliament",
+                        "icon": "fa-university",
+                        "enLabel": "Parliament",
+                        "hiLabel": "",
+                        "chapters": 14,
+                        "topics": 184,
+                        "study_hours": 220,
+                        "enTags":["CAPF", "CDS", "CGSE", "CMS", "CSE", "ESE", "IES/ISS", "IFoS", "NDA", "RT", "SCRA"],
+                        "hiTags":["सीएपीएफ", "सीडीएस", "सीजीएसई", "सीएमएस", "सीएसई", "ईएसई", "आईईएस/आईएसएस", "आई.एफओ.एस", "एनडीए", "आरटी", "एससीआरए"],
+                        "is_progress": false
+                    },
+                    "judiciary":{
+                        "id": "judiciary",
+                        "icon": "fa-balance-scale",
+                        "enLabel": "Judiciary",
+                        "hiLabel": "",
+                        "chapters": 14,
+                        "topics": 184,
+                        "study_hours": 220,
+                        "enTags":["CAPF", "CDS", "CGSE", "CMS", "CSE", "ESE", "IES/ISS", "IFoS", "NDA", "RT", "SCRA"],
+                        "hiTags":["सीएपीएफ", "सीडीएस", "सीजीएसई", "सीएमएस", "सीएसई", "ईएसई", "आईईएस/आईएसएस", "आई.एफओ.एस", "एनडीए", "आरटी", "एससीआरए"],
+                        "is_progress": false
+                    },
+                    "executive":{
+                        "id": "executive",
+                        "icon": "fa-briefcase",
+                        "enLabel": "Executive",
+                        "hiLabel": "",
+                        "chapters": 14,
+                        "topics": 184,
+                        "study_hours": 220,
+                        "enTags":["CAPF", "CDS", "CGSE", "CMS", "CSE", "ESE", "IES/ISS", "IFoS", "NDA", "RT", "SCRA"],
+                        "hiTags":["सीएपीएफ", "सीडीएस", "सीजीएसई", "सीएमएस", "सीएसई", "ईएसई", "आईईएस/आईएसएस", "आई.एफओ.एस", "एनडीए", "आरटी", "एससीआरए"],
+                        "is_progress": false
+                    },
+                    "fundamental_rights":{
+                        "id": "fundamental_rights",
+                        "icon": "fa-shield",
+                        "enLabel": "Fundamental Rights",
+                        "hiLabel": "",
+                        "chapters": 14,
+                        "topics": 184,
+                        "study_hours": 220,
+                        "enTags":["CAPF", "CDS", "CGSE", "CMS", "CSE", "ESE", "IES/ISS", "IFoS", "NDA", "RT", "SCRA"],
+                        "hiTags":["सीएपीएफ", "सीडीएस", "सीजीएसई", "सीएमएस", "सीएसई", "ईएसई", "आईईएस/आईएसएस", "आई.एफओ.एस", "एनडीए", "आरटी", "एससीआरए"],
+                        "is_progress": false
+                    },
+                    "directive_principles":{
+                        "id": "directive_principles",
+                        "icon": "fa-clipboard",
+                        "enLabel": "Directive Principles",
+                        "hiLabel": "",
+                        "chapters": 14,
+                        "topics": 184,
+                        "study_hours": 220,
+                        "enTags":["CAPF", "CDS", "CGSE", "CMS", "CSE", "ESE", "IES/ISS", "IFoS", "NDA", "RT", "SCRA"],
+                        "hiTags":["सीएपीएफ", "सीडीएस", "सीजीएसई", "सीएमएस", "सीएसई", "ईएसई", "आईईएस/आईएसएस", "आई.एफओ.एस", "एनडीए", "आरटी", "एससीआरए"],
+                        "is_progress": false
+                    },
+                    "local_government":{
+                        "id": "local_government",
+                        "icon": "fa-building",
+                        "enLabel": "Local Government",
+                        "hiLabel": "",
+                        "chapters": 14,
+                        "topics": 184,
+                        "study_hours": 220,
+                        "enTags":["CAPF", "CDS", "CGSE", "CMS", "CSE", "ESE", "IES/ISS", "IFoS", "NDA", "RT", "SCRA"],
+                        "hiTags":["सीएपीएफ", "सीडीएस", "सीजीएसई", "सीएमएस", "सीएसई", "ईएसई", "आईईएस/आईएसएस", "आई.एफओ.एस", "एनडीए", "आरटी", "एससीआरए"],
+                        "is_progress": false
+                    },
+                    "public_administration":{
+                        "id": "public_administration",
+                        "icon": "fa-university",
+                        "enLabel": "Public Administration",
+                        "hiLabel": "",
+                        "chapters": 14,
+                        "topics": 184,
+                        "study_hours": 220,
+                        "enTags":["CAPF", "CDS", "CGSE", "CMS", "CSE", "ESE", "IES/ISS", "IFoS", "NDA", "RT", "SCRA"],
+                        "hiTags":["सीएपीएफ", "सीडीएस", "सीजीएसई", "सीएमएस", "सीएसई", "ईएसई", "आईईएस/आईएसएस", "आई.एफओ.एस", "एनडीए", "आरटी", "एससीआरए"],
+                        "is_progress": false
+                    },
+                    "human_rights":{
+                        "id": "human_rights",
+                        "icon": "fa-heart",
+                        "enLabel": "Human Rights",
+                        "hiLabel": "",
+                        "chapters": 14,
+                        "topics": 184,
+                        "study_hours": 220,
+                        "enTags":["CAPF", "CDS", "CGSE", "CMS", "CSE", "ESE", "IES/ISS", "IFoS", "NDA", "RT", "SCRA"],
+                        "hiTags":["सीएपीएफ", "सीडीएस", "सीजीएसई", "सीएमएस", "सीएसई", "ईएसई", "आईईएस/आईएसएस", "आई.एफओ.एस", "एनडीए", "आरटी", "एससीआरए"],
+                        "is_progress": false
+                    },
+                    "internal_security":{
+                        "id": "internal_security",
+                        "icon": "fa-lock",
+                        "enLabel": "Internal Security",
+                        "hiLabel": "",
                         "chapters": 14,
                         "topics": 184,
                         "study_hours": 220,

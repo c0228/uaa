@@ -15,6 +15,7 @@ const StudyMaterials = () =>{
  const { userDetails, isLogged, lang } = useAuth();
  const CustomSideWrapper = isLogged? AspirantsSideWrapperMenu: OpenSideWrapperMenu;
  return (<CustomSideWrapper activeId="StudyMaterials">
+    <div style={{ marginRight:'8px' }}>
     <ContainerFluid>
             <Row>
                 <Col md={4}>
@@ -29,6 +30,7 @@ const StudyMaterials = () =>{
                 </Col>
             </Row>
         </ContainerFluid>
+        </div>
  </CustomSideWrapper>);
 };
 
