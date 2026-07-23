@@ -26,7 +26,7 @@ const Header = ({ activeId, menulinks })=>{
       </button>
       <div className="collapse navbar-collapse" id="collapsibleNavbar">
         */}  
-        <a className="navbar-brand" href="#">
+        <a className="navbar-brand" href="#" style={{ fontFamily:'GeistRegular' }}>
           <b>UPSC</b>
           {/*<img src={process.env.PROJECT_URL+"assets/images/logo.jpg"} style={{ width: '180px', height:'auto' }}/>*/}
         </a>

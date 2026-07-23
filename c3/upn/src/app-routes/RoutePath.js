@@ -38,7 +38,7 @@ export const AppRouting = ()=>{
          <Route exact path="/app/config/manage/cache" element={<CacheManager />} />
          
 
-
+         {/** User Pages */}
          <Route exact path="/:lang/home" element={<Home/>} />
          <Route exact path="/:lang/about-upsc-examination" element={<AboutUPSC />} />
          <Route exact path="/:lang/daily-current-affairs/search/:slugText" element={<DCASearchByTextDate />} />
@@ -49,6 +49,7 @@ export const AppRouting = ()=>{
          <Route exact path="/:lang/upsc-open-chat-discussion-hub" element={<DiscussionHub />} />
 
 
+         {/** User Authorized/Authenticated Pages */}
          <Route exact path="/:lang/my-dashboard" element={<Dashboard />} />
          <Route exact path="/:lang/my-study-plan" element={<MyStudyPlan />} />
          <Route exact path="/:lang/my-time-table" element={<MyTimeTable />} />
