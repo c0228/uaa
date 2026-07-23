@@ -27,12 +27,13 @@ const Header = ({ activeId, menulinks })=>{
       <div className="collapse navbar-collapse" id="collapsibleNavbar">
         */}  
         <a className="navbar-brand" href="#">
-          <img src={process.env.PROJECT_URL+"assets/images/logo.jpg"} style={{ width: '180px', height:'auto' }}/>
+          <b>UPSC</b>
+          {/*<img src={process.env.PROJECT_URL+"assets/images/logo.jpg"} style={{ width: '180px', height:'auto' }}/>*/}
         </a>
         <div className="me-auto">
               <Nav menulinks={menulinks} activeId={activeId} 
                colorConfig={{
-                   active: { color: '#ec3d0e', backgroundColor:'' },
+                   active: { color: '#065fc5', backgroundColor:'' },
                    default: { color: '#000', backgroundColor:'' }
                  }}
               />
@@ -41,8 +42,8 @@ const Header = ({ activeId, menulinks })=>{
              <div className="btn-group">
                {[{ id:'en', label: (<>English</>) },
                  { id:'hi', label: (<>हिंदी</>) }]?.map((l,i)=>{
-                   return (<button key={i} type="button" className={(l?.id===lang)?"btn btn-danger":"btn btn-outline-danger"}
-                 style={{ fontSize:'12px', border:'1px solid #bb2d3b' }}
+                   return (<button key={i} type="button" className={(l?.id===lang)?"btn btn-dark":"btn btn-outline-dark"}
+                 style={{ fontSize:'12px', border:'1px solid #000' }}
                  onClick={()=>switchLanguage(l?.id)}><b>{l?.label}</b></button>);
                  })}
              </div>
