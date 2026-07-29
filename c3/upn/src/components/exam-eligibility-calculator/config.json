@@ -1,0 +1,359 @@
+{
+    "config": [
+        {
+            "exam": "Civil Services Examination (CSE)",
+            "shortName": "CSE",
+            "qualification": [
+                "Graduate",
+                "Final Year Graduate"
+            ],
+            "specificQualification": null,
+            "minAge": 21,
+            "maxAge": 32,
+            "nationality": [
+                "Indian",
+                "Nepalese",
+                "Bhutanese",
+                "Tibetan Refugee",
+                "Person of Indian Origin (PIO)"
+            ],
+            "gender": "Any",
+            "attempts": {
+                "General": 6,
+                "EWS": 6,
+                "OBC": 9,
+                "SC": "Unlimited",
+                "ST": "Unlimited",
+                "PwBD-General": 9,
+                "PwBD-EWS": 9,
+                "PwBD-OBC": 9,
+                "PwBD-SC": "Unlimited",
+                "PwBD-ST": "Unlimited"
+            }
+        },
+        {
+            "exam": "Indian Forest Service (IFoS)",
+            "shortName": "IFoS",
+            "qualification": [
+                "Graduate",
+                "Engineering Graduate",
+                "Final Year Graduate"
+            ],
+            "specificQualification": [
+                "Animal Husbandry",
+                "Veterinary Science",
+                "Botany",
+                "Chemistry",
+                "Geology",
+                "Mathematics",
+                "Physics",
+                "Statistics",
+                "Zoology",
+                "Agriculture",
+                "Forestry",
+                "Engineering"
+            ],
+            "minAge": 21,
+            "maxAge": 32,
+            "nationality": [
+                "Indian",
+                "Nepalese",
+                "Bhutanese",
+                "Tibetan Refugee",
+                "Person of Indian Origin (PIO)"
+            ],
+            "gender": "Any"
+        },
+        {
+            "exam": "Engineering Services Examination (ESE)",
+            "shortName": "ESE",
+            "qualification": [
+                "Engineering Graduate",
+                "Final Year Graduate"
+            ],
+            "specificQualification": [
+                "Engineering"
+            ],
+            "minAge": 21,
+            "maxAge": 30,
+            "nationality": [
+                "Indian",
+                "Nepalese",
+                "Bhutanese",
+                "Tibetan Refugee",
+                "Person of Indian Origin (PIO)"
+            ],
+            "gender": "Any"
+        },
+        {
+            "exam": "Combined Medical Services (CMS)",
+            "shortName": "CMS",
+            "qualification": [
+                "MBBS"
+            ],
+            "specificQualification": [
+                "MBBS"
+            ],
+            "minAge": null,
+            "maxAge": 32,
+            "nationality": [
+                "Indian",
+                "Nepalese",
+                "Bhutanese",
+                "Tibetan Refugee",
+                "Person of Indian Origin (PIO)"
+            ],
+            "gender": "Any"
+        },
+        {
+            "exam": "Combined Defence Services (CDS IMA)",
+            "shortName": "CDS-IMA",
+            "qualification": [
+                "Graduate",
+                "Engineering Graduate",
+                "Final Year Graduate"
+            ],
+            "specificQualification": null,
+            "minAge": 19,
+            "maxAge": 24,
+            "gender": "Male",
+            "maritalStatus": [
+                "Unmarried"
+            ],
+            "nationality": [
+                "Indian",
+                "Nepalese",
+                "Bhutanese"
+            ]
+        },
+        {
+            "exam": "Combined Defence Services (INA)",
+            "shortName": "CDS-INA",
+            "qualification": [
+                "Engineering Graduate",
+                "Final Year Graduate"
+            ],
+            "specificQualification": [
+                "Engineering"
+            ],
+            "minAge": 19,
+            "maxAge": 24,
+            "gender": "Male",
+            "maritalStatus": [
+                "Unmarried"
+            ],
+            "nationality": [
+                "Indian",
+                "Nepalese",
+                "Bhutanese"
+            ]
+        },
+        {
+            "exam": "Combined Defence Services (AFA)",
+            "shortName": "CDS-AFA",
+            "qualification": [
+                "Graduate",
+                "Engineering Graduate",
+                "Final Year Graduate"
+            ],
+            "specificQualification": [
+                "Physics and Mathematics at 10+2",
+                "Engineering"
+            ],
+            "minAge": 20,
+            "maxAge": 24,
+            "gender": "Male",
+            "maritalStatus": [
+                "Unmarried"
+            ],
+            "nationality": [
+                "Indian",
+                "Nepalese",
+                "Bhutanese"
+            ]
+        },
+        {
+            "exam": "Combined Defence Services (OTA)",
+            "shortName": "CDS-OTA",
+            "qualification": [
+                "Graduate",
+                "Engineering Graduate",
+                "Final Year Graduate"
+            ],
+            "specificQualification": null,
+            "minAge": 19,
+            "maxAge": 25,
+            "gender": "Any",
+            "maritalStatus": [
+                "Unmarried"
+            ],
+            "nationality": [
+                "Indian",
+                "Nepalese",
+                "Bhutanese"
+            ]
+        },
+        {
+            "exam": "National Defence Academy (NDA)",
+            "shortName": "NDA",
+            "qualification": [
+                "12th Pass",
+                "Intermediate"
+            ],
+            "specificQualification": null,
+            "minAge": 16.5,
+            "maxAge": 19.5,
+            "gender": "Any",
+            "maritalStatus": [
+                "Unmarried"
+            ],
+            "nationality": [
+                "Indian",
+                "Nepalese",
+                "Bhutanese"
+            ]
+        },
+        {
+            "exam": "NDA Air Force & Naval Wing",
+            "shortName": "NDA-AFN",
+            "qualification": [
+                "12th Pass",
+                "Intermediate"
+            ],
+            "specificQualification": [
+                "Physics",
+                "Mathematics"
+            ],
+            "minAge": 16.5,
+            "maxAge": 19.5,
+            "gender": "Any",
+            "maritalStatus": [
+                "Unmarried"
+            ],
+            "nationality": [
+                "Indian",
+                "Nepalese",
+                "Bhutanese"
+            ]
+        },
+        {
+            "exam": "Central Armed Police Forces (Assistant Commandant)",
+            "shortName": "CAPF-AC",
+            "qualification": [
+                "Graduate",
+                "Final Year Graduate"
+            ],
+            "minAge": 20,
+            "maxAge": 25,
+            "gender": "Any",
+            "nationality": [
+                "Indian"
+            ]
+        },
+        {
+            "exam": "Indian Economic Service (IES)",
+            "shortName": "IES",
+            "qualification": [
+                "Post Graduate"
+            ],
+            "specificQualification": [
+                "Economics",
+                "Applied Economics",
+                "Business Economics",
+                "Econometrics"
+            ],
+            "minAge": 21,
+            "maxAge": 30,
+            "gender": "Any",
+            "nationality": [
+                "Indian"
+            ]
+        },
+        {
+            "exam": "Indian Statistical Service (ISS)",
+            "shortName": "ISS",
+            "qualification": [
+                "Graduate",
+                "Post Graduate"
+            ],
+            "specificQualification": [
+                "Statistics",
+                "Mathematical Statistics",
+                "Applied Statistics"
+            ],
+            "minAge": 21,
+            "maxAge": 30,
+            "gender": "Any",
+            "nationality": [
+                "Indian"
+            ]
+        },
+        {
+            "exam": "Combined Geo-Scientist",
+            "shortName": "CGS",
+            "qualification": [
+                "Graduate",
+                "Post Graduate"
+            ],
+            "specificQualification": [
+                "Geology",
+                "Applied Geology",
+                "Geophysics",
+                "Chemistry",
+                "Hydrogeology"
+            ],
+            "minAge": 21,
+            "maxAge": 32,
+            "gender": "Any",
+            "nationality": [
+                "Indian"
+            ]
+        },
+        {
+            "exam": "EPFO Enforcement Officer / Accounts Officer",
+            "shortName": "EPFO EO/AO",
+            "qualification": [
+                "Graduate"
+            ],
+            "specificQualification": null,
+            "minAge": null,
+            "maxAge": 30,
+            "gender": "Any",
+            "nationality": [
+                "Indian"
+            ]
+        },
+        {
+            "exam": "EPFO Assistant Provident Fund Commissioner",
+            "shortName": "EPFO APFC",
+            "qualification": [
+                "Graduate"
+            ],
+            "specificQualification": null,
+            "minAge": null,
+            "maxAge": 35,
+            "gender": "Any",
+            "nationality": [
+                "Indian"
+            ]
+        },
+        {
+            "exam": "Special Class Railway Apprentice (SCRA)",
+            "shortName": "SCRA",
+            "status": "Discontinued"
+        },
+        {
+            "exam": "Section Officer / Stenographer (Grade B/Grade I)",
+            "shortName": "SO/Steno",
+            "qualification": [
+                "Graduate"
+            ],
+            "minAge": null,
+            "maxAge": null,
+            "gender": "Any",
+            "nationality": [
+                "Indian"
+            ]
+        }
+    ]
+}
