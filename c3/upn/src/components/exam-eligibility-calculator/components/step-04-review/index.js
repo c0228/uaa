@@ -1,18 +1,26 @@
 import React, { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
-import { ContainerFluid, Row, Col, Form, Icon, Button, Switch } from "e-ui-react";
+import { ContainerFluid, Row, Col, Form, Icon, Button, Switch, ModalAlert } from "e-ui-react";
 import { getEligibilityContext } from "@Components/exam-eligibility-calculator/index.js";
 import { EligibilityCalculatorData } from "@Components/exam-eligibility-calculator/data.js";
 
 const Review = ({ sections }) =>{
  const { lang } = useParams();
  const [ isTCchecked, setIsTCchecked ] = useState('No');
+ const [ showModel, setShowModal ] = useState({  
+      title:'Eligibility Calculator Review', 
+      show: false, 
+      type:'primary',
+      msg: (<></>) 
+ });
  const { eligibilityContextData, setEligibilityContextData } = getEligibilityContext();
  const CalculateBtnHandler = () =>{
   if(isTCchecked==='Yes'){
-    alert('Accepted');
+    setShowModal({...showModel, show: true, type:'success', msg: (<>Accepted</>)});
   }
-  else { alert('Confirm Your Information is Correct'); }
+  else { 
+   setShowModal({...showModel, show: true, type:'warning', msg: (<>Please Confirm your Information is Correct</>)});
+  }
  };
  const GoBackHandler = () =>{
    let eligibilityData = {...eligibilityContextData};
@@ -23,8 +31,11 @@ const Review = ({ sections }) =>{
   console.log("eligibilityContextData [reservations]: ", eligibilityContextData);
  },[]);
  return (<div>
-    <div><h5><b>4. {sections?.[3]?.[lang+"Label"]}</b></h5><hr/></div>
-    <div className="mtop15p">
+   <ModalAlert data={showModel} setData={setShowModal}>
+
+   </ModalAlert>
+   <div><h5><b>4. {sections?.[3]?.[lang+"Label"]}</b></h5><hr/></div>
+   <div className="mtop15p">
       <ContainerFluid>
          {sections?.filter((section)=>section?.id!=='review')?.map((section,i)=>{
             const label = section[lang+"Label"];
