@@ -17,6 +17,7 @@ const Relaxations = ({ data }) =>{
     if(isValidForm){  
         console.log("isValidForm [Relaxations]: ", isValidForm, "form: ", form);
         const formData = form?.["reservations"];
+        console.log("formData [reservations]: ", formData);
         let eligibilityData = {...eligibilityContextData};
             eligibilityData.activeMenuId = 'review';
             eligibilityData.data.reservations = {

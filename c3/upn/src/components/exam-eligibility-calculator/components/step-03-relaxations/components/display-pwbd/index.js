@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { useParams } from "react-router-dom";
 import { Row, Col, Switch, Select, Range } from "e-ui-react";
 import { getEligibilityContext } from "@Components/exam-eligibility-calculator/index.js";
-import { InfoIcon } from "@Components/exam-eligibility-calculator/commons.js";
+import { InfoIcon } from "@Components/exam-eligibility-calculator/utils/commons-jsx.js";
 import { EligibilityCalculatorData } from "@Components/exam-eligibility-calculator/data.js";
 
 const DisplayPwBD = ({ data }) =>{

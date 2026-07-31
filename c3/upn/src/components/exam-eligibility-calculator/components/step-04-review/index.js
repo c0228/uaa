@@ -49,7 +49,11 @@ const Review = ({ sections }) =>{
                               {sectionFieldList?.map((id,index)=>{
                                  const fieldLabel = sectionFields?.[id]?.[lang+"Label"];
                                  const fieldValue = eligibilityContextData?.data?.[sectionId]?.[id];
-                                 return (<tr key={index}><td><b>{fieldLabel}</b></td><td><b>:</b></td><td>{fieldValue}</td></tr>);
+                                 return (<tr id={"review-"+id} key={index}>
+                                    <td id={"review-"+id+"-label"}><b>{fieldLabel}</b></td>
+                                    <td><b>:</b></td>
+                                    <td id={"review-"+id+"-value"}>{fieldValue}</td>
+                                 </tr>);
                               })}
                            </tbody>
                         </table>

@@ -1,10 +1,11 @@
 import React from "react";
 import { GetYearsBackDate } from "@Utils/DateFormatUtils.js";
-import { InfoIcon } from "@Components/exam-eligibility-calculator/commons.js";
+import { InfoIcon } from "@Components/exam-eligibility-calculator/utils/commons-jsx.js";
+import { AcademicSpecifications } from "@Components/exam-eligibility-calculator/utils/commons-helpers.js";
 
 export const DefaultEligibilityCalculator = {
-    // "activeMenuId": "personalInfo",
-    "activeMenuId": "review",
+    "activeMenuId": "personalInfo",
+    // "activeMenuId": "review",
     "data":{
         "personalInfo": {
             "fullName": "Nellutla L N Rao",
@@ -14,7 +15,8 @@ export const DefaultEligibilityCalculator = {
             "category": "General (Unreserved / UR)"
         },
         "academics":{
-            "highestQualification": "12th Pass/ Intermediate"
+            "highestQualification": "12th Pass/ Intermediate",
+            "specification": "Physics and Mathematics"
         },
         "reservations":{
             "pwBD": "Yes",
@@ -157,15 +159,27 @@ export const EligibilityCalculatorData = {
                             { id:'Graduate', label:'Graduate', value:'Graduate' },
                             { id:'Final Year Graduate', label:'Final Year Graduate', value:'Final Year Graduate' },
                             { id:'Engineering Graduate', label:'Engineering Graduate', value:'Engineering Graduate' },
+                            { id:'Final Year Engineering Graduate', label:'Final Year Engineering Graduate', value:'Final Year Engineering Graduate' },
                             { id:'MBBS', label:'MBBS', value:'MBBS' },
+                            { id:'Final Year MBBS', label:'Final Year MBBS', value:'Final Year MBBS' },
                             { id:'Post Graduate', label:'Post Graduate', value:'Post Graduate' }],
                 "hiOptions":[{ id:'12th Pass/ Intermediate', label:'12वीं पास/इंटरमीडिएट', value:'12th Pass/ Intermediate' },
                             { id:'Diploma', label:'डिप्लोमा', value:'Diploma' },
                             { id:'Graduate', label:'ग्रेजुएट', value:'Graduate' },
                             { id:'Final Year Graduate', label:'अंतिम वर्ष ग्रेजुएट', value:'Final Year Graduate' },
                             { id:'Engineering Graduate', label:'इंजीनियरिंग ग्रेजुएट', value:'Engineering Graduate' },
+                            { id:'Final Year Engineering Graduate', label:'अंतिम वर्ष इंजीनियरिंग ग्रेजुएट', value:'Final Year Engineering Graduate' },
                             { id:'MBBS', label:'एम.बी.बी.एस', value:'MBBS' },
+                            { id:'Final Year MBBS', label:'अंतिम वर्ष एम.बी.बी.एस', value:'Final Year MBBS' },
                             { id:'Post Graduate', label:'पोस्ट ग्रेजुएट', value:'Post Graduate' }],
+            },
+            "specification": {
+                "id": "specification",
+                "enLabel": "Your Specification",
+                "hiLabel": "",
+                "enPlaceholder": "Select Your Specification",
+                "hiPlaceholder": "",
+                "options": AcademicSpecifications
             },
         }
     },

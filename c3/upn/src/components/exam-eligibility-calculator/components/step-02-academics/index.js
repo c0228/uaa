@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React, { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
 import { ContainerFluid, Row, Col, Form, Select } from "e-ui-react";
 import { getEligibilityContext } from "@Components/exam-eligibility-calculator/index.js";
@@ -9,6 +9,7 @@ const Academics = ({ data }) =>{
  const { eligibilityContextData, setEligibilityContextData } = getEligibilityContext();
  const AcademicsForm = EligibilityCalculatorData?.steps?.academics?.fields;
  const FormSteps = EligibilityCalculatorData?.steps;
+ const [specificationOptions, setSpecificationsOptions] = useState([]);
  useEffect(()=>{ console.log("eligibilityContextData [PersonalInfo]: ",eligibilityContextData); },[eligibilityContextData]);
  const NextHandler = async(form, isValidForm, setFormMode) =>{
     if(isValidForm){
@@ -17,7 +18,8 @@ const Academics = ({ data }) =>{
         let eligibilityData = {...eligibilityContextData};
             eligibilityData.activeMenuId = 'reservations';
             eligibilityData.data.academics = {
-                highestQualification: formData?.highestQualification?.value
+                highestQualification: formData?.highestQualification?.value,
+                specification: formData?.specification?.value
             };
        setEligibilityContextData(eligibilityData);
     }
@@ -37,6 +39,24 @@ const Academics = ({ data }) =>{
                        placeholder={AcademicsForm?.highestQualification?.[lang+"Placeholder"]}
                        value={eligibilityContextData?.data?.academics?.highestQualification}
                        options={AcademicsForm?.highestQualification?.[lang+"Options"]} fontSize="12" 
+                       validation={{ required:{ value: true, errorMessage:"[This is a Mandatory Field]" } }} 
+                       onChange={(event)=>{
+                            let eligibilityData = {...eligibilityContextData};
+                            eligibilityData.data.academics.highestQualification =  event?.target?.value;
+                            eligibilityData.data.academics.specification = '';
+                            setEligibilityContextData(eligibilityData);
+                        }} />
+               </div>
+           </Col>
+       </Row>
+       <Row>
+           <Col md={6}>
+               <div className="mt-3">
+                    <Select name={AcademicsForm?.specification?.id} 
+                        label={AcademicsForm?.specification?.[lang+"Label"]}
+                       placeholder={AcademicsForm?.specification?.[lang+"Placeholder"]}
+                       value={eligibilityContextData?.data?.academics?.specification}
+                       options={AcademicsForm?.specification?.options(eligibilityContextData?.data?.academics?.highestQualification, lang)} fontSize="12" 
                        validation={{ required:{ value: true, errorMessage:"[This is a Mandatory Field]" } }} />
                </div>
            </Col>
