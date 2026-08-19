@@ -12,7 +12,7 @@ export const AppRouting = ()=>{
     return (<BrowserRouter basename="/">
       <AuthProvider>
        <Routes>
-         <Route exact path="/" element={<Welcome/>} />
+         <Route exact path="/" element={<Home/>} />
          <Route path='/Customer' element={<Authorization permissions={[PERMISSIONS.CUSTOMER]} />}>
             <Route path='MyDashboard' element={<Home />} />
           </Route>

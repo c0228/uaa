@@ -1,22 +1,12 @@
 {
-    "config": [
-        {
+    "config": [{
             "exam": "Civil Services Examination (CSE)",
             "shortName": "CSE",
-            "qualification": [
-                "Graduate",
-                "Final Year Graduate"
-            ],
+            "qualification": ["Graduate","Final Year Graduate"],
             "specificQualification": null,
             "minAge": 21,
             "maxAge": 32,
-            "nationality": [
-                "Indian",
-                "Nepalese",
-                "Bhutanese",
-                "Tibetan Refugee",
-                "Person of Indian Origin (PIO)"
-            ],
+            "nationality": ["Indian","Nepalese","Bhutanese","Tibetan Refugee","Person of Indian Origin (PIO)"],
             "gender": "Any",
             "attempts": {
                 "General": 6,
