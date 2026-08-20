@@ -2,6 +2,7 @@ import React from "react";
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Welcome from "@Pages/Welcome/index.js";
 import Home from "@Pages/Home/index.js";
+import SetPostalCode from "@Pages/ProfileSetup/SetPostalCode/index.js";
 import Menu from "@Pages/Menu/index.js";
 import Authentication from "@Pages/Authentication/index.js";
 import { AuthProvider } from "@Provider/AuthProvider.js";
@@ -13,6 +14,7 @@ export const AppRouting = ()=>{
       <AuthProvider>
        <Routes>
          <Route exact path="/" element={<Home/>} />
+         <Route exact path="/profile-setup/postal-code" element={<SetPostalCode />} />
          <Route path='/Customer' element={<Authorization permissions={[PERMISSIONS.CUSTOMER]} />}>
             <Route path='MyDashboard' element={<Home />} />
           </Route>

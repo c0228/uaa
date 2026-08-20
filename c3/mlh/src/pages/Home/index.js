@@ -1,5 +1,6 @@
 import React from "react";
 import { ContainerFluid, Row, Col, Card } from "e-ui-react";
+import Auth from "@Components/auth/index.js";
 import Header from '@Templates/Header/index.js';
 import { HeaderMenu } from '@Routes/NavbarList.js';
 import './index.css';
@@ -26,13 +27,17 @@ const Home = ()=>{
             <div align="center" style={{ fontFamily: 'Metropolis', fontSize:'16px', color:'#333', paddingTop:'15px' }}>
                 <b>WELCOME TO THE VIRTUAL WORLD</b></div>
             <hr/>
+            <div align="center" style={{ fontFamily: 'Metropolis', fontSize:'16px', color:'#555', paddingTop:'15px' }}>
+                “Connect with your local community, discover what’s happening around you, and meet people who share your interests.”
+            </div>
+            <div style={{ marginTop:'15px' }}><Auth /></div>
             </Card>
         </Col>
     </Row>
     <Row>
         <Col md={4}>
             <div style={{ paddingTop:'25px' }}>
-                
+               
             </div>
         </Col>
     </Row>

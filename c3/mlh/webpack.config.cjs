@@ -104,12 +104,14 @@ entry: './src/index.js',
     alias: Object.assign( webpackConfigAlias, {
         '@Assets': Path.resolve(__dirname, 'public/assets'),
         '@Config': Path.resolve(__dirname, 'src/config'),
+        '@Components': Path.resolve(__dirname, 'src/components'),
         '@Pages': Path.resolve(__dirname, 'src/pages'),
         '@Permissions': Path.resolve(__dirname, 'src/permissions'),
         '@Provider': Path.resolve(__dirname, 'src/provider'),
         '@Routes': Path.resolve(__dirname, 'src/routes'),
         '@StaticData': Path.resolve(__dirname, 'src/static-data'),
         '@Templates': Path.resolve(__dirname, 'src/templates'),
+        '@Utils': Path.resolve(__dirname, 'src/utils'),
         // Needed when library is linked via `npm link` to app
         /** This is implemented when the React Hooks are not working under the library */
         react: Path.resolve("./node_modules/react"),
