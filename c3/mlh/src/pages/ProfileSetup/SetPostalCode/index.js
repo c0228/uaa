@@ -9,7 +9,7 @@ import markerShadow from "leaflet/dist/images/marker-shadow.png";
 import './index.css';
 
 // Hard-coded PIN code
-    const PINCODE = "500072";
+    const PINCODE = "500036";
 
     // Hard-coded boundary for testing
     // GeoJSON uses [longitude, latitude]
