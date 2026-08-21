@@ -1,12 +1,16 @@
 import React, { useState, useEffect, useRef } from "react";
-import { ContainerFluid, Row, Col, TextBox, Button } from "e-ui-react";
+import { ContainerFluid, Row, Col, TextBox, Button, Form } from "e-ui-react";
 import useAuth from "@Hooks/useAuth/index.js";
 import MapPostalCode from "@Components/map-postal-code/index.js";
 import Header2 from "@Templates/Header2/index.js";
 import './index.css';
 
 const SetPostalCode = ()=>{
+ const [pincode, setPincode] = useState();
  const { userDetails } = useAuth();
+ const handleDiscoverLocality = () =>{
+    // setPincode();
+ };
  return (<>
     <Header2 />
     <ContainerFluid>
@@ -19,6 +23,7 @@ const SetPostalCode = ()=>{
                         <div style={{ marginTop:'5px' }}>Your Local Community Starts Here.</div>
                     </div>
 
+                    <Form>
                     <div style={{ marginTop:'15px' }}>
                         <hr/><div style={{ paddingTop:'15px' }}><b>SET YOUR LOCAL AREA</b></div><hr/>
                         <div style={{ marginTop:'12px'}}>
@@ -28,13 +33,15 @@ const SetPostalCode = ()=>{
                             <TextBox name="postalCode" placeholder="Enter your Postal Code" />
                         </div>
                         <div style={{ marginTop:'8px'}}>
-                            <Button type="dark" className="form-control" size={11}><b>Discover My Locality</b></Button>
+                            <Button type="dark" className="form-control" size={11} 
+                            onClick={handleDiscoverLocality}><b>Discover My Locality</b></Button>
                         </div>
                     </div>
+                    </Form>
                 </div>
             </Col>
             <Col md={9}>
-                <MapPostalCode pincode="" />
+                <MapPostalCode pincode={pincode} />
             </Col>
         </Row>
     </ContainerFluid>
