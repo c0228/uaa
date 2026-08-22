@@ -8,8 +8,13 @@ import './index.css';
 const SetPostalCode = ()=>{
  const [pincode, setPincode] = useState();
  const { userDetails } = useAuth();
- const handleDiscoverLocality = () =>{
-    // setPincode();
+ const handlePostalCode = (value) =>{
+    console.log("pincode: ", value);
+    setPincode(value);
+ };
+ const handleNextBtn = () =>{
+    // Add Pincode to Database and localStorage
+    window.location.href = process.env.PROJECT_URL+"home";
  };
  return (<>
     <Header2 />
@@ -23,25 +28,29 @@ const SetPostalCode = ()=>{
                         <div style={{ marginTop:'5px' }}>Your Local Community Starts Here.</div>
                     </div>
 
-                    <Form>
                     <div style={{ marginTop:'15px' }}>
                         <hr/><div style={{ paddingTop:'15px' }}><b>SET YOUR LOCAL AREA</b></div><hr/>
                         <div style={{ marginTop:'12px'}}>
                             Enter your <b>6-digit PIN Code</b> to identify your local area and explore what's happening around you.
                         </div>
                         <div style={{ marginTop:'8px'}}>
-                            <TextBox name="postalCode" placeholder="Enter your Postal Code" />
+                            <TextBox name="postalCode" placeholder="Enter your Postal Code" 
+                                onChange={(data)=>handlePostalCode(data?.value)} />
                         </div>
-                        <div style={{ marginTop:'8px'}}>
+                        {pincode?.length===6 && (<div style={{ marginTop:'8px'}}>
                             <Button type="dark" className="form-control" size={11} 
-                            onClick={handleDiscoverLocality}><b>Discover My Locality</b></Button>
-                        </div>
+                            onClick={handleNextBtn}><b>Let's Discover My Community</b></Button>
+                        </div>)}
                     </div>
-                    </Form>
                 </div>
             </Col>
             <Col md={9}>
-                <MapPostalCode pincode={pincode} />
+                <MapPostalCode pincode={pincode} styles={{
+                position: "fixed",
+                width: "100%",
+                height: "100vh",
+                border: "1px solid #ccc"
+            }} />
             </Col>
         </Row>
     </ContainerFluid>

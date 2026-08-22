@@ -5,7 +5,7 @@ import Header from '@Templates/Header/index.js';
 import { HeaderMenu } from '@Routes/NavbarList.js';
 import './index.css';
 
-const Home = ()=>{
+const AuthPage = ()=>{
  return (<>
 {/*} <Header menulinks={HeaderMenu()} activeId="Home" />*/}
  <img src={process.env.PROJECT_URL+'assets/images/bg.png'} style={{ position:'fixed', width: '100%', height: '100%', zIndex:'-1' }} />
@@ -46,4 +46,4 @@ const Home = ()=>{
  </>);
 };
 
-export default Home;
+export default AuthPage;
