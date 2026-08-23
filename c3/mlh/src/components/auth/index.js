@@ -12,7 +12,7 @@ const Auth = () =>{
     localStorage.setItem("MLH_USER_DETAILS", JSON.stringify(userDetails));
 
     // Redirect to postalCode Setup Page
-     window.location.href=process.env.PROJECT_URL+'profile-setup/postal-code';
+     window.location.href=process.env.PROJECT_URL+'onboarding/set-postal-code';
   };
   const AuthSetup = useGoogleLogin({
    onSuccess: async(tokenResponse) =>{

@@ -14,7 +14,7 @@ const SetPostalCode = ()=>{
  };
  const handleNextBtn = () =>{
     // Add Pincode to Database and localStorage
-    window.location.href = process.env.PROJECT_URL+"home";
+    window.location.href = process.env.PROJECT_URL+"onboarding/choose-niches";
  };
  return (<>
     <Header2 />

@@ -9,10 +9,6 @@ body,
   padding: 0;
 }
 
-body {
-  overflow: hidden;
-}
-
 .login-page {
   position: fixed;
   inset: 0;
