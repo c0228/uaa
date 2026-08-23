@@ -162,6 +162,9 @@ const data = [
 ];
 
 const SetCategories = () =>{
+ const handleNext = () =>{
+    window.location.href=process.env.PROJECT_URL+'home';
+ };
  return (<>
  <Header2 />
  <ContainerFluid>
@@ -169,13 +172,21 @@ const SetCategories = () =>{
         <Col md={2}></Col>
         <Col md={8}>
             <div align="center">
-                <div className="mtop15p"><h2><b>What are you interested in?</b></h2></div>
+                <div className="mtop25p">
+                    <h2 style={{ fontSize: '28px', fontFamily: 'Metropolis', letterSpacing: '0.4px' }}>
+                        <b>What are you interested in?</b>
+                    </h2>
+                </div>
                 <div style={{ fontSize:'16px', color:'#333' }}>Choose the topics you'd like to see in your MyLocalHook feed. You can change your interests anytime.</div>
             </div>
             <div align="center" className="mtop15p">
                 <div style={{ display:'inline-block', border:'1px solid #065fc5', padding:'15px', borderRadius:'12px',
                     backgroundColor:'#e8f3ff' }}>
-                    <div><h4 style={{ color:'#065fc5' }}><b>Your Feed will be personalized based on your location and interests</b></h4></div>
+                    <div>
+                        <h4 style={{ color:'#065fc5', fontSize: '18px', fontFamily: 'Metropolis', letterSpacing: '0.4px' }}>
+                            <b>Your Feed will be personalized based on your location and interests</b>
+                        </h4>
+                    </div>
                     <div style={{ fontSize:'16px', color:'#333' }}>We will show you what matters most in your community. 
                         Stay informed. Stay Connected.</div>
                 </div>
@@ -189,7 +200,7 @@ const SetCategories = () =>{
                 <Row>
                     <Col md={12}><div><h4>
                         <Icon type="FontAwesome" name={c?.icon} size={18} style={{ marginRight:'8px' }} />
-                        <b>{c?.label}</b>
+                        <span style={{ fontSize: '22px', fontFamily: 'Metropolis', letterSpacing: '0.4px' }}> <b>{c?.label}</b></span>
                         <span className="pull-right">
                             <Icon type="FontAwesome" name="fa-angle-double-down" size={18} />
                         </span>
@@ -200,7 +211,7 @@ const SetCategories = () =>{
                     return (<Col key={i2} md={3}>
                         <div className="form-check form-switch">
                             <input className="form-check-input" type="checkbox" role="switch" id={s?.label} />
-                            <label className="form-check-label" for="switchCheckDefault">{s?.label}</label>
+                            <label className="form-check-label" htmlFor="switchCheckDefault">{s?.label}</label>
                         </div>
                     </Col>);
                 })} 
@@ -211,10 +222,10 @@ const SetCategories = () =>{
     <Row>
         <Col md={12}>
             <div align="center" className="mbot25p">
-                <Button type="primary" size={11} style={{ marginRight:'8px' }}>
+                <Button type="primary" size={14} style={{ marginRight:'8px' }} onClick={handleNext}>
                     <Icon type="FontAwesome" name="fa-save" size={14} style={{ marginRight:'8px' }} />
                     <b>Save and Continue</b></Button>
-                <Button type="outline-primary" size={11}>
+                <Button type="outline-primary" size={14}>
                     <Icon type="FontAwesome" name="fa-refresh" size={14} style={{ marginRight:'8px' }} />
                     <b>Reset</b>
                 </Button>
