@@ -1,5 +1,6 @@
 import React, { useEffect } from "react";
 import { Nav, Icon } from "e-ui-react";
+import { AppColors } from "@Utils/AppColors.js";
 import useAuth from "@Hooks/useAuth/index.js";
 
 const Header1 = ()=>{
@@ -17,6 +18,14 @@ const Header1 = ()=>{
       <span style={{ color:'#000' }}>hook</span>
    </div>
 
+   <div className="d-flex">
+      <div style={{ marginTop:'5px' }}>
+      <div style={{ borderBottom:'2px solid '+AppColors?.primary, paddingBottom:'2px' }}>
+         <Icon type="FontAwesome" name="fa-home" size={14} color={AppColors?.primary} style={{ marginRight:'5px' }} /> 
+         <span style={{ color: AppColors?.primary }}><b>Home</b></span>
+      </div>
+      </div>
+   </div>
    <div className="d-flex">
       <div>
          <img src={userDetails?.profilePic}  referrerPolicy="no-referrer" 

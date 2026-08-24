@@ -163,7 +163,7 @@ const data = [
 
 const SetCategories = () =>{
  const handleNext = () =>{
-    window.location.href=process.env.PROJECT_URL+'home';
+    window.location.href=process.env.PROJECT_URL+'news-feed';
  };
  return (<>
  <Header2 />
