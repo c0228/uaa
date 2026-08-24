@@ -1,0 +1,20 @@
+.page-title { display: flex;align-items: center;gap: 12px; }
+.page-title h1 { font-size: 18px;font-weight: 700;margin: 0; }
+.page-title p { margin: 3px 0 0;color: var(--muted);font-size: 13px; }
+.title-icon { width: 44px;height: 44px;border-radius: 10px;display: flex;align-items: center;
+      justify-content: center;color: var(--primary);background: #eaf2ff;font-size: 22px; }
+.top-filters { display: flex;justify-content: flex-end;gap: 12px; }
+.select-box { min-width: 220px;height: 40px;border: 1px solid #dfe4ec;background: #fff;border-radius: 8px;
+    display: flex;align-items: center;gap: 10px;padding: 0 13px;cursor: pointer; }
+.select-box i { color: #4c576c; }
+.select-box .value { flex: 1;color: #222b3d;white-space: nowrap; }
+
+@media (max-width: 1250px) {
+ .page-title { margin-bottom: 4px; }
+ .top-filters { justify-content: flex-start; margin-top: 15px; }
+}
+
+@media (max-width: 720px) {
+ .top-filters { display: grid; grid-template-columns: 1fr; }
+ .select-box { width: 100%; }
+}

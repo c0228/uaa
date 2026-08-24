@@ -1,2 +1,4 @@
-.btn-primary, .bg-primary { background-color:#065fc5 !important; }
-.text-primary { color:#065fc5 !important; }
+:root { --primary: #065fc5;--primary-soft: #edf4ff;--text: #182033;--muted: #687286;--border: #e5e9f1;--surface: #ffffff;
+    --page: #f7f9fc;--shadow: 0 3px 14px rgba(25, 44, 78, .055);--radius: 10px; }
+.btn-primary, .bg-primary { background-color: var(--primary) !important; }
+.text-primary { color: var(--primary) !important; }
