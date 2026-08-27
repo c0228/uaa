@@ -1,0 +1,17 @@
+{
+  "name": "geocer",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "Streaming XLSX",
+  "scripts": {
+  },
+  "dependencies": {
+    "exceljs": "^4.4.0"
+  },
+  "imports": {
+    "#Utils/*": "./src/utils/*",
+    "#Services/*": "./src/services/*",
+    "#Data/*": "./data/*",
+    "#Output/*": "./output/*"
+  }
+}
