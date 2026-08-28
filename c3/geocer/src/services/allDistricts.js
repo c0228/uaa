@@ -6,8 +6,11 @@ const OUTPUT_FILE = PROJECT_ROOT+"\\output\\allDistricts.txt";
 const INPUT_FILE = PROJECT_ROOT+"\\data\\allDistricts.xlsx";
 
 async function businesslogic(values, output) {
-
- const query = "";
+ const district_id =  values?.[3];
+ const district = values?.[4];
+ const state_ut_id = values?.[1];
+ const query = "INSERT INTO districts(district_id, district, state_ut_id) "
+    +"VALUES ("+district_id+",'"+district+"',"+state_ut_id+");";
  console.log(query);
  output.write(query+"\n");
 }
