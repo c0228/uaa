@@ -1,0 +1,674 @@
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (576,35,'North And Middle Andaman');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (552,35,'South Andamans');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (458,28,'Anantapur');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (459,28,'Chittoor');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (461,28,'East Godavari');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (462,28,'Guntur');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (465,28,'Krishna');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (466,28,'Kurnool');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (472,28,'Prakasam');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (470,28,'Spsr Nellore');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (474,28,'Srikakulam');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (475,28,'Visakhapatanam');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (476,28,'Vizianagaram');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (478,28,'West Godavari');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (460,28,'Y.S.R.');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (572,12,'Anjaw');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (302243,12,'Bichom');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (220,12,'Changlang');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (221,12,'Dibang Valley');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (222,12,'East Kameng');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (223,12,'East Siang');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (278062,12,'Kamle');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (302242,12,'Keyi Panyor');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (274254,12,'Kra Daadi');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (224,12,'Kurung Kumey');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (290216,12,'Leparada');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (225,12,'Lohit');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (262016,12,'Longding');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (226,12,'Lower Dibang Valley');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (279230,12,'Lower Siang');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (227,12,'Lower Subansiri');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (274256,12,'Namsai');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (289556,12,'Pakke Kessang');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (228,12,'Papum Pare');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (290215,12,'Shi Yomi');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (274255,12,'Siang');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (229,12,'Tawang');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (230,12,'Tirap');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (231,12,'Upper Siang');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (232,12,'Upper Subansiri');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (233,12,'West Kameng');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (234,12,'West Siang');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (299746,18,'Bajali');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (243,18,'Barpeta');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (277402,18,'Biswanath');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (244,18,'Bongaigaon');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (245,18,'Cachar');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (277403,18,'Charaideo');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (246,18,'Darrang');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (247,18,'Dhemaji');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (248,18,'Dhubri');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (249,18,'Dibrugarh');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (250,18,'Goalpara');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (251,18,'Golaghat');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (252,18,'Hailakandi');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (277404,18,'Hojai');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (253,18,'Jorhat');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (254,18,'Kamrup');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (562,18,'Kamrup Metro');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (256,18,'Lakhimpur');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (277405,18,'Majuli');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (257,18,'Marigaon');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (258,18,'Nagaon');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (259,18,'Nalbari');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (260,18,'Sivasagar');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (261,18,'Sonitpur');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (277406,18,'South Salmara Mankachar');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (255,18,'Sribhumi');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (262,18,'Tinsukia');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (179,10,'Araria');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (561,10,'Arwal');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (180,10,'Aurangabad');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (181,10,'Banka');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (182,10,'Begusarai');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (183,10,'Bhagalpur');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (184,10,'Bhojpur');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (185,10,'Buxar');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (186,10,'Darbhanga');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (187,10,'Gaya');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (188,10,'Gopalganj');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (189,10,'Jamui');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (190,10,'Jehanabad');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (191,10,'Kaimur (Bhabua)');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (192,10,'Katihar');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (193,10,'Khagaria');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (194,10,'Kishanganj');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (195,10,'Lakhisarai');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (196,10,'Madhepura');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (197,10,'Madhubani');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (198,10,'Munger');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (199,10,'Muzaffarpur');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (200,10,'Nalanda');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (201,10,'Nawada');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (202,10,'Pashchim Champaran');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (203,10,'Patna');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (204,10,'Purbi Champaran');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (205,10,'Purnia');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (206,10,'Rohtas');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (207,10,'Saharsa');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (208,10,'Samastipur');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (209,10,'Saran');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (210,10,'Sheikhpura');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (211,10,'Sheohar');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (212,10,'Sitamarhi');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (213,10,'Siwan');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (214,10,'Supaul');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (215,10,'Vaishali');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (272333,22,'Balod');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (272736,22,'Balodabazar');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (272740,22,'Balrampur');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (333,22,'Bastar');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (272332,22,'Bemetara');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (580,22,'Bijapur');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (334,22,'Bilaspur');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (335,22,'Dantewada');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (336,22,'Dhamtari');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (337,22,'Durg');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (272737,22,'Gariyaband');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (302432,22,'Gaurela-Pendra-Marwahi');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (338,22,'Janjgir-Champa');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (339,22,'Jashpur');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (341,22,'Kabirdham');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (340,22,'Kanker');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (302434,22,'Khairagarh-Chhuikhadan-Gandai');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (272735,22,'Kondagaon');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (342,22,'Korba');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (343,22,'Korea');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (344,22,'Mahasamund');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (302436,22,'Manendragarh-Chirmiri-Bharatpur');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (302435,22,'Mohla-Manpur-Ambagarh Chouki');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (272738,22,'Mungeli');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (581,22,'Narayanpur');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (345,22,'Raigarh');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (346,22,'Raipur');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (347,22,'Rajnandgaon');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (302437,22,'Sakti');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (302433,22,'Sarangarh-Bilaigarh');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (272734,22,'Sukma');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (272739,22,'Surajpur');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (348,22,'Surguja');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (506,30,'North Goa');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (507,30,'South Goa');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (397,24,'Ahmedabad');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (398,24,'Amreli');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (399,24,'Anand');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (274433,24,'Arvalli');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (400,24,'Banas Kantha');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (401,24,'Bharuch');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (402,24,'Bhavnagar');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (274434,24,'Botad');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (274432,24,'Chhotaudepur');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (404,24,'Dahod');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (403,24,'Dangs');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (274431,24,'Devbhumi Dwarka');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (405,24,'Gandhinagar');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (274436,24,'Gir Somnath');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (406,24,'Jamnagar');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (407,24,'Junagadh');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (408,24,'Kachchh');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (409,24,'Kheda');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (410,24,'Mahesana');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (274435,24,'Mahisagar');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (274430,24,'Morbi');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (411,24,'Narmada');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (412,24,'Navsari');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (413,24,'Panch Mahals');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (414,24,'Patan');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (415,24,'Porbandar');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (416,24,'Rajkot');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (417,24,'Sabar Kantha');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (418,24,'Surat');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (419,24,'Surendranagar');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (585,24,'Tapi');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (420,24,'Vadodara');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (421,24,'Valsad');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (305339,24,'Vav-Tharad');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (58,6,'Ambala');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (59,6,'Bhiwani');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (299182,6,'Charkhi Dadri');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (60,6,'Faridabad');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (61,6,'Fatehabad');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (62,6,'Gurugram');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (63,6,'Hisar');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (64,6,'Jhajjar');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (65,6,'Jind');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (66,6,'Kaithal');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (67,6,'Karnal');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (68,6,'Kurukshetra');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (69,6,'Mahendragarh');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (554,6,'Nuh');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (563,6,'Palwal');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (70,6,'Panchkula');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (71,6,'Panipat');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (72,6,'Rewari');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (73,6,'Rohtak');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (74,6,'Sirsa');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (75,6,'Sonipat');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (76,6,'Yamunanagar');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (15,2,'Bilaspur');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (16,2,'Chamba');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (17,2,'Hamirpur');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (18,2,'Kangra');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (19,2,'Kinnaur');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (20,2,'Kullu');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (21,2,'Lahaul And Spiti');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (22,2,'Mandi');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (23,2,'Shimla');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (24,2,'Sirmaur');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (25,2,'Solan');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (26,2,'Una');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (1,1,'Anantnag');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (2,1,'Badgam');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (567,1,'Bandipora');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (3,1,'Baramulla');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (4,1,'Doda');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (570,1,'Ganderbal');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (5,1,'Jammu');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (7,1,'Kathua');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (564,1,'Kishtwar');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (566,1,'Kulgam');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (8,1,'Kupwara');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (10,1,'Poonch');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (11,1,'Pulwama');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (12,1,'Rajauri');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (565,1,'Ramban');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (571,1,'Reasi');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (568,1,'Samba');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (569,1,'Shopian');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (13,1,'Srinagar');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (14,1,'Udhampur');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (281,20,'Bokaro');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (282,20,'Chatra');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (283,20,'Deoghar');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (284,20,'Dhanbad');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (285,20,'Dumka');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (286,20,'East Singhbum');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (287,20,'Garhwa');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (288,20,'Giridih');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (289,20,'Godda');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (290,20,'Gumla');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (291,20,'Hazaribagh');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (292,20,'Jamtara');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (556,20,'Khunti');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (293,20,'Koderma');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (294,20,'Latehar');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (295,20,'Lohardaga');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (296,20,'Pakur');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (297,20,'Palamu');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (557,20,'Ramgarh');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (298,20,'Ranchi');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (299,20,'Sahebganj');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (300,20,'Saraikela Kharsawan');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (301,20,'Simdega');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (302,20,'West Singhbhum');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (479,29,'Bagalkot');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (483,29,'Ballari');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (482,29,'Belagavi');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (481,29,'Bengaluru Rural');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (575,29,'Bengaluru South');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (480,29,'Bengaluru Urban');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (484,29,'Bidar');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (486,29,'Chamarajanagar');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (574,29,'Chikballapur');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (487,29,'Chikkamagaluru');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (488,29,'Chitradurga');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (489,29,'Dakshina Kannada');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (490,29,'Davangere');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (491,29,'Dharwad');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (492,29,'Gadag');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (494,29,'Hassan');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (495,29,'Haveri');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (493,29,'Kalaburagi');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (496,29,'Kodagu');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (497,29,'Kolar');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (498,29,'Koppal');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (499,29,'Mandya');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (500,29,'Mysuru');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (501,29,'Raichur');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (502,29,'Shivamogga');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (503,29,'Tumakuru');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (504,29,'Udupi');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (505,29,'Uttara Kannada');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (299411,29,'Vijayanagara');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (485,29,'Vijayapura');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (579,29,'Yadgir');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (509,32,'Alappuzha');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (510,32,'Ernakulam');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (511,32,'Idukki');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (512,32,'Kannur');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (513,32,'Kasaragod');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (514,32,'Kollam');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (515,32,'Kottayam');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (516,32,'Kozhikode');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (517,32,'Malappuram');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (518,32,'Palakkad');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (519,32,'Pathanamthitta');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (520,32,'Thiruvananthapuram');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (521,32,'Thrissur');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (522,32,'Wayanad');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (6,37,'Kargil');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (9,37,'Leh Ladakh');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (508,31,'Lakshadweep District');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (262066,23,'Agar Malwa');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (583,23,'Alirajpur');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (349,23,'Anuppur');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (350,23,'Ashoknagar');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (351,23,'Balaghat');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (352,23,'Barwani');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (353,23,'Betul');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (354,23,'Bhind');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (355,23,'Bhopal');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (356,23,'Burhanpur');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (357,23,'Chhatarpur');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (358,23,'Chhindwara');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (359,23,'Damoh');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (360,23,'Datia');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (361,23,'Dewas');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (362,23,'Dhar');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (363,23,'Dindori');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (364,23,'East Nimar');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (365,23,'Guna');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (366,23,'Gwalior');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (367,23,'Harda');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (369,23,'Indore');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (370,23,'Jabalpur');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (371,23,'Jhabua');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (372,23,'Katni');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (373,23,'Khargone');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (374,23,'Mandla');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (375,23,'Mandsaur');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (376,23,'Morena');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (368,23,'Narmadapuram');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (377,23,'Narsinghpur');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (378,23,'Neemuch');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (299945,23,'Niwari');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (379,23,'Panna');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (380,23,'Raisen');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (381,23,'Rajgarh');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (382,23,'Ratlam');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (383,23,'Rewa');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (384,23,'Sagar');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (385,23,'Satna');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (386,23,'Sehore');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (387,23,'Seoni');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (388,23,'Shahdol');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (389,23,'Shajapur');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (390,23,'Sheopur');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (391,23,'Shivpuri');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (392,23,'Sidhi');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (582,23,'Singrauli');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (393,23,'Tikamgarh');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (394,23,'Ujjain');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (395,23,'Umaria');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (396,23,'Vidisha');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (424,27,'Ahilyanagar');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (425,27,'Akola');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (426,27,'Amravati');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (428,27,'Beed');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (429,27,'Bhandara');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (430,27,'Buldhana');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (431,27,'Chandrapur');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (427,27,'Chhatrapati Sambhajinagar');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (444,27,'Dharashiv');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (432,27,'Dhule');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (433,27,'Gadchiroli');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (434,27,'Gondia');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (435,27,'Hingoli');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (436,27,'Jalgaon');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (437,27,'Jalna');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (438,27,'Kolhapur');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (439,27,'Latur');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (440,27,'Nagpur');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (441,27,'Nanded');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (442,27,'Nandurbar');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (443,27,'Nashik');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (261449,27,'Palghar');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (445,27,'Parbhani');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (446,27,'Pune');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (447,27,'Raigad');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (448,27,'Ratnagiri');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (449,27,'Sangli');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (450,27,'Satara');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (451,27,'Sindhudurg');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (452,27,'Solapur');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (453,27,'Thane');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (454,27,'Wardha');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (455,27,'Washim');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (456,27,'Yavatmal');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (235,14,'Bishnupur');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (236,14,'Imphal East');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (237,14,'Imphal West');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (276619,14,'Jiribam Zila Parishad');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (276620,14,'Kakching Zila Parishad');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (238,14,'Thoubal');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (303,21,'Anugul');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (304,21,'Balangir');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (305,21,'Baleshwar');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (306,21,'Bargarh');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (307,21,'Bhadrak');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (308,21,'Boudh');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (309,21,'Cuttack');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (310,21,'Deogarh');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (311,21,'Dhenkanal');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (312,21,'Gajapati');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (313,21,'Ganjam');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (314,21,'Jagatsinghapur');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (315,21,'Jajapur');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (316,21,'Jharsuguda');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (317,21,'Kalahandi');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (318,21,'Kandhamal');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (319,21,'Kendrapara');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (320,21,'Kendujhar');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (321,21,'Khordha');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (322,21,'Koraput');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (323,21,'Malkangiri');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (324,21,'Mayurbhanj');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (325,21,'Nabarangpur');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (326,21,'Nayagarh');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (327,21,'Nuapada');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (328,21,'Puri');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (329,21,'Rayagada');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (330,21,'Sambalpur');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (331,21,'Sonepur');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (332,21,'Sundargarh');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (27,3,'Amritsar');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (555,3,'Barnala');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (28,3,'Bathinda');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (29,3,'Faridkot');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (30,3,'Fatehgarh Sahib');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (260791,3,'Fazilka');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (31,3,'Firozepur');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (32,3,'Gurdaspur');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (33,3,'Hoshiarpur');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (34,3,'Jalandhar');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (35,3,'Kapurthala');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (36,3,'Ludhiana');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (302426,3,'Malerkotla');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (37,3,'Mansa');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (38,3,'Moga');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (259737,3,'Pathankot');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (41,3,'Patiala');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (42,3,'Rupnagar');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (558,3,'Sahibjada Ajit Singh Nagar');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (43,3,'Sangrur');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (40,3,'Shaheed Bhagat Singh Nagar');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (39,3,'Sri Muktsar Sahib');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (559,3,'Tarn Taran');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (77,8,'Ajmer');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (78,8,'Alwar');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (79,8,'Banswara');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (80,8,'Baran');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (81,8,'Barmer');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (82,8,'Bharatpur');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (83,8,'Bhilwara');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (84,8,'Bikaner');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (85,8,'Bundi');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (86,8,'Chittorgarh');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (87,8,'Churu');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (88,8,'Dausa');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (89,8,'Dholpur');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (90,8,'Dungarpur');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (91,8,'Ganganagar');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (92,8,'Hanumangarh');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (93,8,'Jaipur');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (94,8,'Jaisalmer');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (95,8,'Jalore');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (96,8,'Jhalawar');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (97,8,'Jhunjhunu');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (98,8,'Jodhpur');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (99,8,'Karauli');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (100,8,'Kota');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (101,8,'Nagaur');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (102,8,'Pali');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (573,8,'Pratapgarh');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (103,8,'Rajsamand');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (104,8,'Sawai Madhopur');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (105,8,'Sikar');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (106,8,'Sirohi');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (107,8,'Tonk');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (108,8,'Udaipur');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (216,11,'Gangtok District');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (219,11,'Gyalshing District');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (217,11,'Mangan District');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (218,11,'Namchi District');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (300083,11,'Pakyong District');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (300084,11,'Soreng District');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (560,33,'Ariyalur');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (296974,33,'Chengalpattu');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (523,33,'Coimbatore');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (524,33,'Cuddalore');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (525,33,'Dharmapuri');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (526,33,'Dindigul');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (527,33,'Erode');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (296959,33,'Kallakurichi');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (528,33,'Kancheepuram');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (529,33,'Kanniyakumari');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (530,33,'Karur');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (531,33,'Krishnagiri');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (532,33,'Madurai');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (533,33,'Nagapattinam');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (534,33,'Namakkal');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (535,33,'Perambalur');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (536,33,'Pudukkottai');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (537,33,'Ramanathapuram');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (296957,33,'Ranipet');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (538,33,'Salem');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (539,33,'Sivagangai');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (296956,33,'Tenkasi');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (540,33,'Thanjavur');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (542,33,'Theni');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (541,33,'The Nilgiris');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (548,33,'Thoothukkudi');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (545,33,'Tiruchirappalli');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (546,33,'Tirunelveli');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (296958,33,'Tirupathur');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (578,33,'Tiruppur');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (543,33,'Tiruvallur');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (547,33,'Tiruvannamalai');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (544,33,'Tiruvarur');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (549,33,'Vellore');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (550,33,'Villupuram');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (551,33,'Virudhunagar');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (457,36,'Adilabad');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (289874,36,'Bhadradri Kothagudem');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (477,36,'Hanumakonda');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (289872,36,'Jagitial');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (289875,36,'Jangoan');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (289876,36,'Jayashankar Bhupalapally');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (289877,36,'Jogulamba Gadwal');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (289878,36,'Kamareddy');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (463,36,'Karimnagar');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (464,36,'Khammam');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (289870,36,'Kumuram Bheem Asifabad');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (289879,36,'Mahabubabad');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (467,36,'Mahabubnagar');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (289868,36,'Mancherial');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (468,36,'Medak');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (289889,36,'Mulugu');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (289881,36,'Nagarkurnool');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (469,36,'Nalgonda');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (289890,36,'Narayanpet');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (289869,36,'Nirmal');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (471,36,'Nizamabad');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (289871,36,'Peddapalli');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (289873,36,'Rajanna Sircilla');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (473,36,'Rangareddi');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (289882,36,'Sangareddy');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (289883,36,'Siddipet');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (289884,36,'Suryapet');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (289885,36,'Vikarabad');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (289886,36,'Wanaparthy');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (289887,36,'Warangal');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (289888,36,'Yadadri Bhuvanagiri');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (423,38,'Dadra And Nagar Haveli');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (422,38,'District Panchayat Of Daman');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (259706,38,'District Panchayat Of Diu');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (239,16,'Dhalai');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (588,16,'Gomati');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (586,16,'Khowai');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (240,16,'North Tripura');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (587,16,'Sepahijala');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (241,16,'South Tripura');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (589,16,'Unakoti');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (242,16,'West Tripura');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (45,5,'Almora');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (46,5,'Bageshwar');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (47,5,'Chamoli');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (48,5,'Champawat');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (49,5,'Dehradun');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (50,5,'Haridwar');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (51,5,'Nainital');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (52,5,'Pauri Garhwal');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (53,5,'Pithoragarh');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (54,5,'Rudra Prayag');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (55,5,'Tehri Garhwal');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (56,5,'Udam Singh Nagar');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (57,5,'Uttar Kashi');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (109,9,'Agra');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (110,9,'Aligarh');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (112,9,'Ambedkar Nagar');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (584,9,'Amethi');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (145,9,'Amroha');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (113,9,'Auraiya');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (131,9,'Ayodhya');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (114,9,'Azamgarh');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (115,9,'Baghpat');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (116,9,'Bahraich');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (117,9,'Ballia');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (118,9,'Balrampur');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (119,9,'Banda');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (120,9,'Barabanki');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (121,9,'Bareilly');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (122,9,'Basti');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (123,9,'Bijnor');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (124,9,'Budaun');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (125,9,'Bulandshahr');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (126,9,'Chandauli');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (127,9,'Chitrakoot');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (128,9,'Deoria');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (129,9,'Etah');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (130,9,'Etawah');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (132,9,'Farrukhabad');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (133,9,'Fatehpur');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (134,9,'Firozabad');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (135,9,'Gautam Buddha Nagar');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (136,9,'Ghaziabad');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (137,9,'Ghazipur');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (138,9,'Gonda');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (139,9,'Gorakhpur');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (140,9,'Hamirpur');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (259728,9,'Hapur');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (141,9,'Hardoi');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (154,9,'Hathras');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (142,9,'Jalaun');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (143,9,'Jaunpur');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (144,9,'Jhansi');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (146,9,'Kannauj');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (147,9,'Kanpur Dehat');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (148,9,'Kanpur Nagar');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (577,9,'Kasganj');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (149,9,'Kaushambi');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (150,9,'Kheri');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (151,9,'Kushi Nagar');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (152,9,'Lalitpur');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (153,9,'Lucknow');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (155,9,'Maharajganj');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (156,9,'Mahoba');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (157,9,'Mainpuri');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (158,9,'Mathura');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (159,9,'Mau');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (160,9,'Meerut');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (161,9,'Mirzapur');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (162,9,'Moradabad');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (163,9,'Muzaffarnagar');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (164,9,'Pilibhit');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (165,9,'Pratapgarh');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (111,9,'Prayagraj');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (166,9,'Rae Bareli');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (167,9,'Rampur');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (168,9,'Saharanpur');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (259726,9,'Sambhal');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (169,9,'Sant Kabeer Nagar');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (170,9,'Sant Ravidas Nagar');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (171,9,'Shahjahanpur');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (259727,9,'Shamli');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (172,9,'Shravasti');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (173,9,'Siddharth Nagar');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (174,9,'Sitapur');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (175,9,'Sonbhadra');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (176,9,'Sultanpur');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (177,9,'Unnao');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (178,9,'Varanasi');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (263853,19,'Alipurduar');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (265,19,'Bankura');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (267,19,'Birbhum');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (268,19,'Coochbehar');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (270,19,'Dakshin Dinajpur');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (269,19,'Darjeeling');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (272,19,'Hooghly');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (273,19,'Howrah');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (274,19,'Jalpaiguri');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (276162,19,'Jhargram');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (276167,19,'Kalimpong');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (275,19,'Malda');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (278,19,'Murshidabad');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (279,19,'Nadia');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (263,19,'North 24 Parganas');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (276164,19,'Paschim Bardhaman');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (277,19,'Paschim Medinipur');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (266,19,'Purba Bardhaman');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (276,19,'Purba Medinipur');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (280,19,'Purulia');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (264,19,'South 24 Parganas');; affectedRows: 1
+query: INSERT INTO pri_district_panchayats(district_panchayat_id, state_ut_id, district_panchayat_name) VALUES (271,19,'Uttar Dinajpur');; affectedRows: 1

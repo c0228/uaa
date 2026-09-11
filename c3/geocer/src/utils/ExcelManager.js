@@ -1,9 +1,14 @@
 import ExcelJS from "exceljs";
+import path from "path";
 import fs from "fs";
 
 export const ReadExcel = async(inputFile, outputFile, businesslogic)=>{
-    fs.mkdirSync("output", { recursive: true });
+    // Dynamically create the directory where outputFile will be written
+    const outputDir = path.dirname(outputFile);
+    fs.mkdirSync(outputDir, { recursive: true });
+    // Delete existing output file
     if (fs.existsSync(outputFile)) { fs.unlinkSync(outputFile); }
+    // Create output stream
     const output = fs.createWriteStream(outputFile, { flags: "a", encoding: "utf8" });
     const workbookReader = new ExcelJS.stream.xlsx.WorkbookReader(inputFile);
 
@@ -14,7 +19,7 @@ export const ReadExcel = async(inputFile, outputFile, businesslogic)=>{
             // Skip first row (header)
             if (row.number === 1) { continue; }
             const values = row.values.slice(1);
-            businesslogic(values, output);
+            await businesslogic(values, output);
         }
     }
     output.end();

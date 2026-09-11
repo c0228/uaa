@@ -3,10 +3,10 @@
   "type": "module",
   "version": "1.0.0",
   "description": "Streaming XLSX",
-  "scripts": {
-  },
+  "scripts": {},
   "dependencies": {
-    "exceljs": "^4.4.0"
+    "exceljs": "^4.4.0",
+    "mysql2": "^3.24.2"
   },
   "imports": {
     "#Utils/*": "./src/utils/*",
