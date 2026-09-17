@@ -1,0 +1,43 @@
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1419,251272,'Daman (M Cl) - Ward No.1');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1428,251272,'Daman (M Cl) - Ward No.10');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1429,251272,'Daman (M Cl) - Ward No.11');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1430,251272,'Daman (M Cl) - Ward No.12');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1431,251272,'Daman (M Cl) - Ward No.13');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1432,251272,'Daman (M Cl) - Ward No.14');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1433,251272,'Daman (M Cl) - Ward No.15');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1420,251272,'Daman (M Cl) - Ward No.2');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1421,251272,'Daman (M Cl) - Ward No.3');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1422,251272,'Daman (M Cl) - Ward No.4');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1423,251272,'Daman (M Cl) - Ward No.5');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1424,251272,'Daman (M Cl) - Ward No.6');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1425,251272,'Daman (M Cl) - Ward No.7');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1426,251272,'Daman (M Cl) - Ward No.8');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1427,251272,'Daman (M Cl) - Ward No.9');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (74902,251271,'Diu (M Cl) - Ward No.1');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (74911,251271,'Diu (M Cl) - Ward No.10');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (74912,251271,'Diu (M Cl) - Ward No.11');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (74913,251271,'Diu (M Cl) - Ward No.12');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (74914,251271,'Diu (M Cl) - Ward No.13');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (74903,251271,'Diu (M Cl) - Ward No.2');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (74904,251271,'Diu (M Cl) - Ward No.3');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (74905,251271,'Diu (M Cl) - Ward No.4');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (74906,251271,'Diu (M Cl) - Ward No.5');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (74907,251271,'Diu (M Cl) - Ward No.6');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (74908,251271,'Diu (M Cl) - Ward No.7');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (74909,251271,'Diu (M Cl) - Ward No.8');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (74910,251271,'Diu (M Cl) - Ward No.9');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1434,251273,'Silvassa Ward No.1');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (2577404,251273,'Silvassa Ward No.10');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (2577405,251273,'Silvassa Ward No.11');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (2577406,251273,'Silvassa Ward No.12');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (2577407,251273,'Silvassa Ward No.13');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (2577408,251273,'Silvassa Ward No.14');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (2577409,251273,'Silvassa Ward No.15');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (2577396,251273,'Silvassa Ward No.2');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (2577397,251273,'Silvassa Ward No.3');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (2577398,251273,'Silvassa Ward No.4');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (2577399,251273,'Silvassa Ward No.5');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (2577400,251273,'Silvassa Ward No.6');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (2577401,251273,'Silvassa Ward No.7');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (2577402,251273,'Silvassa Ward No.8');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (2577403,251273,'Silvassa Ward No.9');; affectedRows: 1

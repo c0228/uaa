@@ -1,0 +1,5 @@
+query: UPDATE ulb_local_bodies SET local_body_type='Municipality' WHERE local_body_name='Karaikal' AND local_body_id='253096';; affectedRows: 1
+query: UPDATE ulb_local_bodies SET local_body_type='Municipality' WHERE local_body_name='Mahe' AND local_body_id='253095';; affectedRows: 1
+query: UPDATE ulb_local_bodies SET local_body_type='Municipality' WHERE local_body_name='Ozhukarai' AND local_body_id='253093';; affectedRows: 1
+query: UPDATE ulb_local_bodies SET local_body_type='Municipality' WHERE local_body_name='Pondicherry' AND local_body_id='253094';; affectedRows: 1
+query: UPDATE ulb_local_bodies SET local_body_type='Municipality' WHERE local_body_name='Yanam' AND local_body_id='253092';; affectedRows: 1

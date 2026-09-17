@@ -1,0 +1,117 @@
+query: UPDATE ulb_local_bodies SET local_body_type='Municipal Corporation' WHERE local_body_name='Almora' AND local_body_id='248449';; affectedRows: 1
+query: UPDATE ulb_local_bodies SET local_body_type='Municipal Corporation' WHERE local_body_name='Dehradun' AND local_body_id='248430';; affectedRows: 1
+query: UPDATE ulb_local_bodies SET local_body_type='Municipal Corporation' WHERE local_body_name='Haldwani-Cumkathgodam' AND local_body_id='248459';; affectedRows: 1
+query: UPDATE ulb_local_bodies SET local_body_type='Municipal Corporation' WHERE local_body_name='Haridwar' AND local_body_id='248485';; affectedRows: 1
+query: UPDATE ulb_local_bodies SET local_body_type='Municipal Corporation' WHERE local_body_name='Kanvnagri Kotdwar' AND local_body_id='248441';; affectedRows: 1
+query: UPDATE ulb_local_bodies SET local_body_type='Municipal Corporation' WHERE local_body_name='Kashipur' AND local_body_id='248463';; affectedRows: 1
+query: UPDATE ulb_local_bodies SET local_body_type='Municipal Corporation' WHERE local_body_name='Pithoragarh' AND local_body_id='248446';; affectedRows: 1
+query: UPDATE ulb_local_bodies SET local_body_type='Municipal Corporation' WHERE local_body_name='Rishikesh' AND local_body_id='248434';; affectedRows: 1
+query: UPDATE ulb_local_bodies SET local_body_type='Municipal Corporation' WHERE local_body_name='Roorkee' AND local_body_id='248478';; affectedRows: 1
+query: UPDATE ulb_local_bodies SET local_body_type='Municipal Corporation' WHERE local_body_name='Rudrapur' AND local_body_id='248471';; affectedRows: 1
+query: UPDATE ulb_local_bodies SET local_body_type='Municipal Corporation' WHERE local_body_name='Srinagar' AND local_body_id='248437';; affectedRows: 1
+query: UPDATE ulb_local_bodies SET local_body_type='Municipality' WHERE local_body_name='Bageshwar' AND local_body_id='248447';; affectedRows: 1
+query: UPDATE ulb_local_bodies SET local_body_type='Municipality' WHERE local_body_name='Bajpur' AND local_body_id='248467';; affectedRows: 1
+query: UPDATE ulb_local_bodies SET local_body_type='Municipality' WHERE local_body_name='Barahat-Uttarkashi' AND local_body_id='248410';; affectedRows: 1
+query: UPDATE ulb_local_bodies SET local_body_type='Municipality' WHERE local_body_name='Barkot' AND local_body_id='248409';; affectedRows: 1
+query: UPDATE ulb_local_bodies SET local_body_type='Municipality' WHERE local_body_name='Berinag' AND local_body_id='259826';; affectedRows: 1
+query: UPDATE ulb_local_bodies SET local_body_type='Municipality' WHERE local_body_name='Bhimtal' AND local_body_id='248456';; affectedRows: 1
+query: UPDATE ulb_local_bodies SET local_body_type='Municipality' WHERE local_body_name='Bhowali' AND local_body_id='248455';; affectedRows: 1
+query: UPDATE ulb_local_bodies SET local_body_type='Municipality' WHERE local_body_name='Chamba' AND local_body_id='248423';; affectedRows: 1
+query: UPDATE ulb_local_bodies SET local_body_type='Municipality' WHERE local_body_name='Chamoli Gopeshwar' AND local_body_id='248414';; affectedRows: 1
+query: UPDATE ulb_local_bodies SET local_body_type='Municipality' WHERE local_body_name='Champawat' AND local_body_id='248451';; affectedRows: 1
+query: UPDATE ulb_local_bodies SET local_body_type='Municipality' WHERE local_body_name='Chiniyalisaur' AND local_body_id='262842';; affectedRows: 1
+query: UPDATE ulb_local_bodies SET local_body_type='Municipality' WHERE local_body_name='Devprayag' AND local_body_id='248421';; affectedRows: 1
+query: UPDATE ulb_local_bodies SET local_body_type='Municipality' WHERE local_body_name='Dharchula' AND local_body_id='248444';; affectedRows: 1
+query: UPDATE ulb_local_bodies SET local_body_type='Municipality' WHERE local_body_name='Didihat' AND local_body_id='248445';; affectedRows: 1
+query: UPDATE ulb_local_bodies SET local_body_type='Municipality' WHERE local_body_name='Dogadda' AND local_body_id='248440';; affectedRows: 1
+query: UPDATE ulb_local_bodies SET local_body_type='Municipality' WHERE local_body_name='Doiwala' AND local_body_id='248433';; affectedRows: 1
+query: UPDATE ulb_local_bodies SET local_body_type='Municipality' WHERE local_body_name='Gadarpur' AND local_body_id='248469';; affectedRows: 1
+query: UPDATE ulb_local_bodies SET local_body_type='Municipality' WHERE local_body_name='Gangolihat' AND local_body_id='262883';; affectedRows: 1
+query: UPDATE ulb_local_bodies SET local_body_type='Municipality' WHERE local_body_name='Gochar' AND local_body_id='248416';; affectedRows: 1
+query: UPDATE ulb_local_bodies SET local_body_type='Municipality' WHERE local_body_name='Herbertpur' AND local_body_id='248428';; affectedRows: 1
+query: UPDATE ulb_local_bodies SET local_body_type='Municipality' WHERE local_body_name='Jaspur' AND local_body_id='248462';; affectedRows: 1
+query: UPDATE ulb_local_bodies SET local_body_type='Municipality' WHERE local_body_name='Joshimath' AND local_body_id='248413';; affectedRows: 1
+query: UPDATE ulb_local_bodies SET local_body_type='Municipality' WHERE local_body_name='Kaladhungi' AND local_body_id='248458';; affectedRows: 1
+query: UPDATE ulb_local_bodies SET local_body_type='Municipality' WHERE local_body_name='Karnaprayag' AND local_body_id='248417';; affectedRows: 1
+query: UPDATE ulb_local_bodies SET local_body_type='Municipality' WHERE local_body_name='Khatima' AND local_body_id='248477';; affectedRows: 1
+query: UPDATE ulb_local_bodies SET local_body_type='Municipality' WHERE local_body_name='Kichha' AND local_body_id='248474';; affectedRows: 1
+query: UPDATE ulb_local_bodies SET local_body_type='Municipality' WHERE local_body_name='Laksar' AND local_body_id='248486';; affectedRows: 1
+query: UPDATE ulb_local_bodies SET local_body_type='Municipality' WHERE local_body_name='Lohaghat' AND local_body_id='248450';; affectedRows: 1
+query: UPDATE ulb_local_bodies SET local_body_type='Municipality' WHERE local_body_name='Mahua Kheraganj' AND local_body_id='248465';; affectedRows: 1
+query: UPDATE ulb_local_bodies SET local_body_type='Municipality' WHERE local_body_name='Manglaur' AND local_body_id='248482';; affectedRows: 1
+query: UPDATE ulb_local_bodies SET local_body_type='Municipality' WHERE local_body_name='Munikireti-Dhalwala' AND local_body_id='248426';; affectedRows: 1
+query: UPDATE ulb_local_bodies SET local_body_type='Municipality' WHERE local_body_name='Mussoorie' AND local_body_id='248429';; affectedRows: 1
+query: UPDATE ulb_local_bodies SET local_body_type='Municipality' WHERE local_body_name='Nagla' AND local_body_id='299528';; affectedRows: 1
+query: UPDATE ulb_local_bodies SET local_body_type='Municipality' WHERE local_body_name='Nainital' AND local_body_id='248454';; affectedRows: 1
+query: UPDATE ulb_local_bodies SET local_body_type='Municipality' WHERE local_body_name='Narendranagar' AND local_body_id='248424';; affectedRows: 1
+query: UPDATE ulb_local_bodies SET local_body_type='Municipality' WHERE local_body_name='Pauri' AND local_body_id='248438';; affectedRows: 1
+query: UPDATE ulb_local_bodies SET local_body_type='Municipality' WHERE local_body_name='Purola' AND local_body_id='262841';; affectedRows: 1
+query: UPDATE ulb_local_bodies SET local_body_type='Municipality' WHERE local_body_name='Ramnagar' AND local_body_id='248457';; affectedRows: 1
+query: UPDATE ulb_local_bodies SET local_body_type='Municipality' WHERE local_body_name='Ranikhet Chiliyanaula' AND local_body_id='277190';; affectedRows: 1
+query: UPDATE ulb_local_bodies SET local_body_type='Municipality' WHERE local_body_name='Rudraprayag' AND local_body_id='248419';; affectedRows: 1
+query: UPDATE ulb_local_bodies SET local_body_type='Municipality' WHERE local_body_name='Shivalik Nagar' AND local_body_id='262858';; affectedRows: 1
+query: UPDATE ulb_local_bodies SET local_body_type='Municipality' WHERE local_body_name='Sirauli Kalan' AND local_body_id='305322';; affectedRows: 1
+query: UPDATE ulb_local_bodies SET local_body_type='Municipality' WHERE local_body_name='Sitarganj' AND local_body_id='248476';; affectedRows: 1
+query: UPDATE ulb_local_bodies SET local_body_type='Municipality' WHERE local_body_name='Tanakpur' AND local_body_id='248452';; affectedRows: 1
+query: UPDATE ulb_local_bodies SET local_body_type='Municipality' WHERE local_body_name='Tehri' AND local_body_id='248422';; affectedRows: 1
+query: UPDATE ulb_local_bodies SET local_body_type='Municipality' WHERE local_body_name='Vikasnagar' AND local_body_id='248427';; affectedRows: 1
+query: UPDATE ulb_local_bodies SET local_body_type='Nagar Panchayat' WHERE local_body_name='Augustmuni' AND local_body_id='262902';; affectedRows: 1
+query: UPDATE ulb_local_bodies SET local_body_type='Nagar Panchayat' WHERE local_body_name='Badrinathpuri' AND local_body_id='248412';; affectedRows: 1
+query: UPDATE ulb_local_bodies SET local_body_type='Nagar Panchayat' WHERE local_body_name='Banbasa' AND local_body_id='262922';; affectedRows: 1
+query: UPDATE ulb_local_bodies SET local_body_type='Nagar Panchayat' WHERE local_body_name='Bhagwanpur' AND local_body_id='262847';; affectedRows: 1
+query: UPDATE ulb_local_bodies SET local_body_type='Nagar Panchayat' WHERE local_body_name='Bhikiyasain' AND local_body_id='274457';; affectedRows: 1
+query: UPDATE ulb_local_bodies SET local_body_type='Nagar Panchayat' WHERE local_body_name='Chamiyala' AND local_body_id='277163';; affectedRows: 1
+query: UPDATE ulb_local_bodies SET local_body_type='Nagar Panchayat' WHERE local_body_name='Chaukhutiya' AND local_body_id='297128';; affectedRows: 1
+query: UPDATE ulb_local_bodies SET local_body_type='Nagar Panchayat' WHERE local_body_name='Dhandera' AND local_body_id='299524';; affectedRows: 1
+query: UPDATE ulb_local_bodies SET local_body_type='Nagar Panchayat' WHERE local_body_name='Dineshpur' AND local_body_id='248470';; affectedRows: 1
+query: UPDATE ulb_local_bodies SET local_body_type='Nagar Panchayat' WHERE local_body_name='Dwarahat' AND local_body_id='248448';; affectedRows: 1
+query: UPDATE ulb_local_bodies SET local_body_type='Nagar Panchayat' WHERE local_body_name='Gairsain' AND local_body_id='260112';; affectedRows: 1
+query: UPDATE ulb_local_bodies SET local_body_type='Nagar Panchayat' WHERE local_body_name='Gaja' AND local_body_id='277164';; affectedRows: 1
+query: UPDATE ulb_local_bodies SET local_body_type='Nagar Panchayat' WHERE local_body_name='Gangotri' AND local_body_id='248411';; affectedRows: 1
+query: UPDATE ulb_local_bodies SET local_body_type='Nagar Panchayat' WHERE local_body_name='Garhinegi' AND local_body_id='301880';; affectedRows: 1
+query: UPDATE ulb_local_bodies SET local_body_type='Nagar Panchayat' WHERE local_body_name='Garud' AND local_body_id='299525';; affectedRows: 1
+query: UPDATE ulb_local_bodies SET local_body_type='Nagar Panchayat' WHERE local_body_name='Ghansali' AND local_body_id='262832';; affectedRows: 1
+query: UPDATE ulb_local_bodies SET local_body_type='Nagar Panchayat' WHERE local_body_name='Gularbhoj' AND local_body_id='277162';; affectedRows: 1
+query: UPDATE ulb_local_bodies SET local_body_type='Nagar Panchayat' WHERE local_body_name='Guptkashi' AND local_body_id='301881';; affectedRows: 1
+query: UPDATE ulb_local_bodies SET local_body_type='Nagar Panchayat' WHERE local_body_name='Imlikhera' AND local_body_id='300431';; affectedRows: 1
+query: UPDATE ulb_local_bodies SET local_body_type='Nagar Panchayat' WHERE local_body_name='Jhabrera' AND local_body_id='248481';; affectedRows: 1
+query: UPDATE ulb_local_bodies SET local_body_type='Nagar Panchayat' WHERE local_body_name='Kapkot' AND local_body_id='259921';; affectedRows: 1
+query: UPDATE ulb_local_bodies SET local_body_type='Nagar Panchayat' WHERE local_body_name='Kedarnath' AND local_body_id='248418';; affectedRows: 1
+query: UPDATE ulb_local_bodies SET local_body_type='Nagar Panchayat' WHERE local_body_name='Kela Khera' AND local_body_id='248468';; affectedRows: 1
+query: UPDATE ulb_local_bodies SET local_body_type='Nagar Panchayat' WHERE local_body_name='Kirtinagar' AND local_body_id='248420';; affectedRows: 1
+query: UPDATE ulb_local_bodies SET local_body_type='Nagar Panchayat' WHERE local_body_name='Lalkuan' AND local_body_id='248460';; affectedRows: 1
+query: UPDATE ulb_local_bodies SET local_body_type='Nagar Panchayat' WHERE local_body_name='Lalpur' AND local_body_id='299527';; affectedRows: 1
+query: UPDATE ulb_local_bodies SET local_body_type='Nagar Panchayat' WHERE local_body_name='Lambgaon' AND local_body_id='277183';; affectedRows: 1
+query: UPDATE ulb_local_bodies SET local_body_type='Nagar Panchayat' WHERE local_body_name='Landhaura' AND local_body_id='248483';; affectedRows: 1
+query: UPDATE ulb_local_bodies SET local_body_type='Nagar Panchayat' WHERE local_body_name='Mahua Dabra Haripura' AND local_body_id='248461';; affectedRows: 1
+query: UPDATE ulb_local_bodies SET local_body_type='Nagar Panchayat' WHERE local_body_name='Munsyari' AND local_body_id='301879';; affectedRows: 1
+query: UPDATE ulb_local_bodies SET local_body_type='Nagar Panchayat' WHERE local_body_name='Nanakmatta' AND local_body_id='275661';; affectedRows: 1
+query: UPDATE ulb_local_bodies SET local_body_type='Nagar Panchayat' WHERE local_body_name='Nandanagar' AND local_body_id='301882';; affectedRows: 1
+query: UPDATE ulb_local_bodies SET local_body_type='Nagar Panchayat' WHERE local_body_name='Nandprayag' AND local_body_id='248415';; affectedRows: 1
+query: UPDATE ulb_local_bodies SET local_body_type='Nagar Panchayat' WHERE local_body_name='Naugaon' AND local_body_id='274461';; affectedRows: 1
+query: UPDATE ulb_local_bodies SET local_body_type='Nagar Panchayat' WHERE local_body_name='Padali Gurjar' AND local_body_id='299749';; affectedRows: 1
+query: UPDATE ulb_local_bodies SET local_body_type='Nagar Panchayat' WHERE local_body_name='Pati' AND local_body_id='301877';; affectedRows: 1
+query: UPDATE ulb_local_bodies SET local_body_type='Nagar Panchayat' WHERE local_body_name='Pipalkoti' AND local_body_id='276459';; affectedRows: 1
+query: UPDATE ulb_local_bodies SET local_body_type='Nagar Panchayat' WHERE local_body_name='Piran Kaliyar' AND local_body_id='275670';; affectedRows: 1
+query: UPDATE ulb_local_bodies SET local_body_type='Nagar Panchayat' WHERE local_body_name='Pokhari' AND local_body_id='259820';; affectedRows: 1
+query: UPDATE ulb_local_bodies SET local_body_type='Nagar Panchayat' WHERE local_body_name='Rampur' AND local_body_id='299529';; affectedRows: 1
+query: UPDATE ulb_local_bodies SET local_body_type='Nagar Panchayat' WHERE local_body_name='Satpuli' AND local_body_id='262882';; affectedRows: 1
+query: UPDATE ulb_local_bodies SET local_body_type='Nagar Panchayat' WHERE local_body_name='Selaqui(Central Hope Town)' AND local_body_id='275633';; affectedRows: 1
+query: UPDATE ulb_local_bodies SET local_body_type='Nagar Panchayat' WHERE local_body_name='Shaktigarh' AND local_body_id='248475';; affectedRows: 1
+query: UPDATE ulb_local_bodies SET local_body_type='Nagar Panchayat' WHERE local_body_name='Sultanpur' AND local_body_id='248466';; affectedRows: 1
+query: UPDATE ulb_local_bodies SET local_body_type='Nagar Panchayat' WHERE local_body_name='Sultanpur-Adampur' AND local_body_id='300592';; affectedRows: 1
+query: UPDATE ulb_local_bodies SET local_body_type='Nagar Panchayat' WHERE local_body_name='Swargashram Jonk' AND local_body_id='262843';; affectedRows: 1
+query: UPDATE ulb_local_bodies SET local_body_type='Nagar Panchayat' WHERE local_body_name='Tapovan' AND local_body_id='299531';; affectedRows: 1
+query: UPDATE ulb_local_bodies SET local_body_type='Nagar Panchayat' WHERE local_body_name='Thalisain' AND local_body_id='299532';; affectedRows: 1
+query: UPDATE ulb_local_bodies SET local_body_type='Nagar Panchayat' WHERE local_body_name='Tharali' AND local_body_id='275665';; affectedRows: 1
+query: UPDATE ulb_local_bodies SET local_body_type='Nagar Panchayat' WHERE local_body_name='Tilwara' AND local_body_id='276616';; affectedRows: 1
+query: UPDATE ulb_local_bodies SET local_body_type='Nagar Panchayat' WHERE local_body_name='Ukhimath' AND local_body_id='262901';; affectedRows: 1
+query: UPDATE ulb_local_bodies SET local_body_type='Cantonment Board' WHERE local_body_name='Almora' AND local_body_id='277257';; affectedRows: 0
+query: UPDATE ulb_local_bodies SET local_body_type='Cantonment Board' WHERE local_body_name='Chakrata' AND local_body_id='277259';; affectedRows: 0
+query: UPDATE ulb_local_bodies SET local_body_type='Cantonment Board' WHERE local_body_name='Clement Town' AND local_body_id='277260';; affectedRows: 0
+query: UPDATE ulb_local_bodies SET local_body_type='Cantonment Board' WHERE local_body_name='Dehradun' AND local_body_id='277262';; affectedRows: 0
+query: UPDATE ulb_local_bodies SET local_body_type='Cantonment Board' WHERE local_body_name='Landaur' AND local_body_id='277267';; affectedRows: 0
+query: UPDATE ulb_local_bodies SET local_body_type='Cantonment Board' WHERE local_body_name='Lansdowne' AND local_body_id='277268';; affectedRows: 0
+query: UPDATE ulb_local_bodies SET local_body_type='Cantonment Board' WHERE local_body_name='Nainital' AND local_body_id='277273';; affectedRows: 0
+query: UPDATE ulb_local_bodies SET local_body_type='Cantonment Board' WHERE local_body_name='Ranikhet' AND local_body_id='277275';; affectedRows: 0
+query: UPDATE ulb_local_bodies SET local_body_type='Cantonment Board' WHERE local_body_name='Roorkee' AND local_body_id='277276';; affectedRows: 0

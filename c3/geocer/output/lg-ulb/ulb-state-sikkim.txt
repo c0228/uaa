@@ -1,0 +1,7 @@
+query: UPDATE ulb_local_bodies SET local_body_type='Municipal Corporation' WHERE local_body_name='Gangtok (M Corp.)' AND local_body_id='249694';; affectedRows: 1
+query: UPDATE ulb_local_bodies SET local_body_type='Municipal council' WHERE local_body_name='Namchi Municipal Council' AND local_body_id='249692';; affectedRows: 1
+query: UPDATE ulb_local_bodies SET local_body_type='Nagar Panchayat' WHERE local_body_name='Gyalshing Nagar Panchayat' AND local_body_id='249690';; affectedRows: 1
+query: UPDATE ulb_local_bodies SET local_body_type='Nagar Panchayat' WHERE local_body_name='Mangan Nagar Panchayat' AND local_body_id='249689';; affectedRows: 1
+query: UPDATE ulb_local_bodies SET local_body_type='Nagar Panchayat' WHERE local_body_name='Nayabazar Jorethang Nagar Panchayat' AND local_body_id='249693';; affectedRows: 1
+query: UPDATE ulb_local_bodies SET local_body_type='Nagar Panchayat' WHERE local_body_name='Rangpo (Np)' AND local_body_id='290460';; affectedRows: 1
+query: UPDATE ulb_local_bodies SET local_body_type='Nagar Panchayat' WHERE local_body_name='Singtam (Np)' AND local_body_id='249695';; affectedRows: 1

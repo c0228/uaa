@@ -1,0 +1,1161 @@
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (3298476,248449,'Almora (MB) Aawas Vikas Ward No 25');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (17629,248449,'Almora (MB) -Badreshwar Ward No.5');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (3298473,248449,'Almora (MB) Baleshwar Ward No 22');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (3298470,248449,'Almora (MB) Bamankhola Ward No 19');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (3298480,248449,'Almora (MB) Bhyarkhola Ward no 29');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (17630,248449,'Almora (MB) -Champanola Ward No.6');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (3298475,248449,'Almora (MB) Chinakhan Ward No 24');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (3298487,248449,'Almora (MB) Dharanola Ward No 36');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (17631,248449,'Almora (MB) -Dhuni Mandir Ward No.7');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (17627,248449,'Almora (MB) -Dubakiya Ward No.3');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (3298490,248449,'Almora (MB) Dugalakhola Ward No 39');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (3298477,248449,'Almora (MB) Gandhi Park Ward No 26');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (17625,248449,'Almora (MB) -Hanuman Mandir Ward No.1');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (17633,248449,'Almora (MB) -Hiradungari Ward No.9');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (17635,248449,'Almora (MB) -Jhijhar Ward No.11');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (3298491,248449,'Almora (MB) Khagmara Kot Ward No 40');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (3298485,248449,'Almora (MB) Lala Bazar Ward No 34');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (3298465,248449,'Almora (MB) -Laxmeshwar Ward No.14');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (3298474,248449,'Almora (MB) Makedi Ward No 23');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (3298483,248449,'Almora (MB) Malla Rajpur Ward No 32');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1296728,248449,'Almora (MB) -Mission Compound Ward No.13');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (3298469,248449,'Almora (MB) Murlimanohar Ward No 18');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (3298484,248449,'Almora (MB) Nandadevi Ward No 33');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (3298471,248449,'Almora (MB) Narasinghbadi Ward No 20');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (17632,248449,'Almora (MB) -Narmadeshwar Ward No.8');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (3298468,248449,'Almora (MB) New Collectorate Pandekhola Ward No 17');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (3298489,248449,'Almora (MB) New Indira Colony Ward No 38');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (3298486,248449,'Almora (MB) Niyazganj Ward No 35');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (17634,248449,'Almora (MB) -N.T.D Ward No.10');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (3298467,248449,'Almora (MB) Pandekhola Ward No 16');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (3298466,248449,'Almora (MB) Paniyaudiyar Ward No 15');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (3298488,248449,'Almora (MB) Railapali ward No 37');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (3298482,248449,'Almora (MB) Rajpur Ward No 31');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (17628,248449,'Almora (MB) -Ramshila Ward No.4');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (17626,248449,'Almora (MB) -Sailakhola Ward No.2');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (3298472,248449,'Almora (MB) Siddhpur Ward No 21');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (3298478,248449,'Almora (MB) Talla Joshikhola Ward No 27');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (3298481,248449,'Almora (MB) Talla Odhkhola Ward No 30');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1296727,248449,'Almora (MB) -Tripurasundari Ward No.12');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (3298479,248449,'Almora (MB) Vivekanandpuri Ward no 28');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1296582,262902,'Agastmuni (NP) - Agastymuni Ward No 6');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (927898,262902,'Agastmuni (NP) - Baniyaadi Ward No 4');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (927896,262902,'Agastmuni (NP) - Jawahar Nagar Ward No 3');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (927895,262902,'Agastmuni (NP) - Saudi Ward No 2');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1296583,262902,'Agastmuni (NP) -Sili Sera Ward No 7');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (927894,262902,'Agastmuni (NP) - Taali Bagar Ward No 1');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1296581,262902,'Agastmuni (NP) - Vijaynagar Ward No 5');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (16042,248412,'Badrinathpuri (NP) -Badrikaashram Ward No.1');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1297006,248412,'Badrinathpuri (NP) -Narpuri Ward No.3');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1297007,248412,'Badrinathpuri (NP) -Shesnetra Ward No.4');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (16043,248412,'Badrinathpuri (NP) -Urvashi Ward No.2');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (17594,248447,'Bageshwar (MB) -Baagnath Ward No.5');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (17590,248447,'Bageshwar (MB) -Bilonasera Ward No.1');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (17592,248447,'Bageshwar (MB) -Jwala Devi Ward No.3');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (17596,248447,'Bageshwar (MB) -Kathayatwada Ward No.7');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1296731,248447,'Bageshwar (MB) -Maa Chandika Ward No.10');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1296730,248447,'Bageshwar (MB) -Mandalsera Dakhchin Ward No.9');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1296729,248447,'Bageshwar (MB) -Mandalsera Uttar Ward No.8');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (17591,248447,'Bageshwar (MB) -Narayan Dev Ward No.2');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (17593,248447,'Bageshwar (MB) -Saim Mandir Ward No.4');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (17595,248447,'Bageshwar (MB) -Thakur Dwara Ward No.6');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1296732,248447,'Bageshwar (MB) -Veni Madhav Ward No.11');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1307749,248467,'Bazpur (MB) - Bhonaislamnagar Ward No. 12');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (18536,248467,'Bazpur (MB) -Chini Mil Ward No.7');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (18532,248467,'Bazpur (MB) -Edgaah Ward No.3');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (18530,248467,'Bazpur (MB) -Gaandhinagar Ward No.1');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (18533,248467,'Bazpur (MB) -Majraprabhu Ward No.4');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (18539,248467,'Bazpur (MB) -Mazara Bux Ward No.10');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (18531,248467,'Bazpur (MB) -Mundiya Pistor Ward No.2');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (18537,248467,'Bazpur (MB) -Railway Colony Ward No.8');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (18535,248467,'Bazpur (MB) -Raj Bhawan Ward No.6');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1307750,248467,'Bazpur (MB) - Rajeev Nagar Ward No.13');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (18538,248467,'Bazpur (MB) -Sanjay Nagar Ward No.9');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (18534,248467,'Bazpur (MB) -Subhas Nagar Ward No.5');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (18540,248467,'Bazpur (MB) -Teen Mandir Ward No.11');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1297001,262922,'Banbasa (NP)- Chand Market Ward No.3');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1297005,262922,'Banbasa (NP)- Dharmshala Ward No.7');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1297000,262922,'Banbasa (NP)- Indira Colony Ward No.2');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1297002,262922,'Banbasa (NP)- Main Bazaar Ward No.4');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1297004,262922,'Banbasa (NP)- Meena Bazaar Ward No.6');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1297003,262922,'Banbasa (NP)- Nayi Bashti Ward No.5');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1296999,262922,'Banbasa (NP)- Purnagiri Ward No.1');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (16008,248410,'Uttarkashi (MB) -Collector Colony Ward No.2');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (16010,248410,'Uttarkashi (MB) -Ganga Nagar Ward No.4');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (16007,248410,'Uttarkashi (MB) -Gangori Ward No.1');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1296878,248410,'Uttarkashi (MB) -Gyansu Hedil Ward No.10');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (16013,248410,'Uttarkashi (MB) -Gyansu Paduli Ward No.7');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (16011,248410,'Uttarkashi (MB) -Jila Chikitsalya Ward No.5');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (16014,248410,'Uttarkashi (MB) -Joshiyada Ward No.8');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (16015,248410,'Uttarkashi (MB) -Ladadi Ward No.9');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1296879,248410,'Uttarkashi (MB) -Palda Gyansu Ward No.11');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (16012,248410,'Uttarkashi (MB) -Sriram Leela Maidaan Ward No.6');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (16009,248410,'Uttarkashi (MB) -Tiloth Ward No.3');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (15629,248409,'Barkot Gandhinagar (NP) - Ward No.1');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (15630,248409,'Barkot Govindnagar (NP) - Ward No.2');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (15633,248409,'Barkot Pantnagar (NP) - Ward No.5');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (15631,248409,'Barkot Patelnagar (NP) - Ward No.3');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (16002,248409,'Barkot Sashtrinagar (NP) - Ward No.6');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (15632,248409,'Barkot Subhasnagar (NP) - Ward No.4');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (16003,248409,'Barkot Sumannagar (NP) - Ward No.7');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1296898,259826,'Berinaag(NP) -Bana Ward No. 2');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1296899,259826,'Berinaag(NP) -Bhatti Gaon Ward No. 3');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1296897,259826,'Berinaag(NP) -Khitoli Ward No. 1');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1296902,259826,'Berinaag(NP) -Lakshmi Nagar Ward No. 6');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1296900,259826,'Berinaag(NP) -Naagdev Mandir Ward No. 4');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1296901,259826,'Berinaag(NP) -Sahid Chaok Ward No. 5');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1296903,259826,'Berinaag(NP) -Sarswati Vihaar Ward No. 7');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1297036,262847,'Bhagwanpur (NP)- Bhagwanpur-III Ward No.8');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1297034,262847,'Bhagwanpur (NP)- Bhagwanpur-II Ward No.6');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1297037,262847,'Bhagwanpur (NP)- Bhagwanpur-IV Ward No.9');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1297031,262847,'Bhagwanpur (NP)- Bhagwanpur-I Ward No.3');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1297029,262847,'Bhagwanpur (NP)- Khanpur Ward No.1');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1297035,262847,'Bhagwanpur (NP)- Makhanpur Ward No.7');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1297033,262847,'Bhagwanpur (NP)- Shahpur-III Ward No.5');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1297032,262847,'Bhagwanpur (NP)- Shahpur-II Ward No.4');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1297030,262847,'Bhagwanpur (NP)- Shahpur-I Ward No.2');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1296884,274457,'Bhikiyasain(NP) -Badiyali Ward No. 3');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1296882,274457,'Bhikiyasain(NP) -Gaandhinagar Ward No. 1');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1296885,274457,'Bhikiyasain(NP) -Raja Mandir Ward No. 4');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1296883,274457,'Bhikiyasain(NP) -Tehsil Ward No. 2');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (17736,248456,'Bhimtal (NP) -Daakbangla Ward No.2');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1296886,248456,'Bhimtal (NP) -Industriyal Aria Ward No.8');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (17740,248456,'Bhimtal (NP) -Junestate Ward No.6');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (17741,248456,'Bhimtal (NP) -Kunwataal Ward No.7');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (17735,248456,'Bhimtal (NP) -Mallitaal Ward No.1');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1296887,248456,'Bhimtal (NP) -Mehragaon Ward No.9');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (17738,248456,'Bhimtal (NP) -Naukuchiyataal Ward No.4');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (17739,248456,'Bhimtal (NP) -Tallitaal Ward No.5');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (17737,248456,'Bhimtal (NP) -Vilashpur Ward No.3');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (17714,248455,'Bhowali (MB) -Bhoniyadhaar Ward No.5');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (17716,248455,'Bhowali (MB) -Dugai State Ward No.7');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (17711,248455,'Bhowali (MB) -Gaandhi Colony Ward No.2');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (17713,248455,'Bhowali (MB) -Malli Bazaar Ward No.4');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (17712,248455,'Bhowali (MB) - Rehad Ward No.3');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (17710,248455,'Bhowali (MB) -Sainitoriyam Ward No.1');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (17715,248455,'Bhowali (MB) -Syamkhet Kehalqwira Ward No.6');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (16171,248423,'Chamba (NP) -Banoshidhi Vatika Mohalla Ward No.6');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (16169,248423,'Chamba (NP) -B.C. Gabber Singh Mohalla Ward No.4');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (16172,248423,'Chamba (NP) -Buransh Vaadi Mohalla Ward No.7');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1296723,248423,'Chamba (NP) -Devidhaar Baadshahi Thaul Mohalla Ward No.8');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (16168,248423,'Chamba (NP) - Mandir Mohalla Ward No.3');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (16170,248423,'Chamba (NP) -Red Coss Mohalla Ward No.5');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1296724,248423,'Chamba (NP) -Sridev Suman Vishwavidhyalay Mohalla Ward No.9');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (16166,248423,'Chamba (NP) -Suman Colony Talla Chamba Ward No.1');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (16167,248423,'Chamba (NP) -Tower Mohalla Ward No.2');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1296917,277163,'Chamiyala(NP) -Beleshwer Ward No. 7');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1296916,277163,'Chamiyala(NP) -Bhandarigaon Ward No. 6');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1296914,277163,'Chamiyala(NP) -Chama Ward No. 4');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1296913,277163,'Chamiyala(NP) -Chamiyala Bazaar Ward No. 3');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1296912,277163,'Chamiyala(NP) -Chamiyala Gaon Ward No. 2');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1296911,277163,'Chamiyala(NP) -Laata Ward No. 1');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1296915,277163,'Chamiyala(NP) -Srikot Saud Ward No. 5');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (16074,248414,'Chamoli Gopeshwar (MB) -Basant Bihaar Ward No.6');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1296726,248414,'Chamoli Gopeshwar (MB) -Chamoli Chetrapaal Ward No.11');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (16070,248414,'Chamoli Gopeshwar (MB) -Gopeshwer Gaon Ward No.2');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1296725,248414,'Chamoli Gopeshwar (MB) -Kothiyaal Gaon Ward No.10');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (16071,248414,'Chamoli Gopeshwar (MB) -Kund Colony Ward No.3');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (16073,248414,'Chamoli Gopeshwar (MB) -Lower Bazaar Ward No.5');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (16076,248414,'Chamoli Gopeshwar (MB) -Naigwaad Ward No.8');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (16077,248414,'Chamoli Gopeshwar (MB) -Paduli Papdiyana Ward No.9');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (16069,248414,'Chamoli Gopeshwar (MB) -Sagar Gangol Gaon Ward No.1');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (16075,248414,'Chamoli Gopeshwar (MB) -Subhash Nagar Shivaji Ward No.7');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (16072,248414,'Chamoli Gopeshwar (MB) -Uper Bazaar Ward No.4');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1296579,248451,'Champawat (NP) - Baleshwer Ward No.8');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1296580,248451,'Champawat (NP) - Bhairava Ward No.9');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (17650,248451,'Champawat (NP) - Chataar Ward No.1');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (17654,248451,'Champawat (NP) - Goral Chaud Ward No.5');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (17655,248451,'Champawat (NP) - Joop Ward No.6');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (17653,248451,'Champawat (NP) - Kanal Gaon Ward No.4');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (17652,248451,'Champawat (NP) - Mali Maadli Ward No.3');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (17656,248451,'Champawat (NP) - Naagnath Ward No.7');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (17651,248451,'Champawat (NP) - Tali Maadli Ward No.2');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (927776,262842,'Chinyalisaur (NP) - Ward No. 1');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (927777,262842,'Chinyalisaur (NP) - Ward No. 2');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (927778,262842,'Chinyalisaur (NP) - Ward No. 3');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (927779,262842,'Chinyalisaur (NP) - Ward No. 4');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (927780,262842,'Chinyalisaur (NP) - Ward No. 5');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (927781,262842,'Chinyalisaur (NP) - Ward No. 6');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (927782,262842,'Chinyalisaur (NP) - Ward No. 7');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1296959,248430,'Dehradun (M.Corp) -Aamwala Tarla Ward No.61');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1296990,248430,'Dehradun (M.Corp) -Aarkediya-1 Ward No.92');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1296991,248430,'Dehradun (M.Corp) -Aarkediya-2 Ward No.93');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (73062,248430,'Dehradun (M.Corp) -Adhoiwala U. Ward No.46');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (73068,248430,'Dehradun (M.Corp) -Ajabpur Sarswati Vihaar Ward No.52');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (73025,248430,'Dehradun (M.Corp) -Aryanagar Ward No.9');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (73064,248430,'Dehradun (M.Corp) -Badrish Colony Ward No.48');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (73032,248430,'Dehradun (M.Corp) -Bakralwala Ward No.16');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1296996,248430,'Dehradun (M.Corp) -Balawala Ward No.98');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (73048,248430,'Dehradun (M.Corp) -Balupur Ward No.32');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1296982,248430,'Dehradun (M.Corp) -Banjarowala Ward No.84');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (73053,248430,'Dehradun (M.Corp) -Basant Vihaar Ward No.37');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (73065,248430,'Dehradun (M.Corp) -Bhagat Singh Colony Ward No.49');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1296977,248430,'Dehradun (M.Corp) -Bharuwala Grant Ward No.79');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1296972,248430,'Dehradun (M.Corp) -Brahmpuri Ward No.74');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1296989,248430,'Dehradun (M.Corp) -Chandrabani Ward No.91');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (73063,248430,'Dehradun (M.Corp) -Chandra Road M.D.D.A Colony Ward No.47');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (73070,248430,'Dehradun (M.Corp) -Chandra Singh Garhwali Ajabpur Ward No.54');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (73033,248430,'Dehradun (M.Corp) -Chukhuwala Ward No.17');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (73076,248430,'Dehradun (M.Corp) -Dada Lakhod Ward No.60');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (73046,248430,'Dehradun (M.Corp) -Dalanwala Dakhchin Ward No.30');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (73045,248430,'Dehradun (M.Corp) -Dalanwala Purv Ward No.29');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (73044,248430,'Dehradun (M.Corp) -Dalanwala Uttar Ward No.28');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1296980,248430,'Dehradun (M.Corp) -Deepnagar Ward No.82');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1296970,248430,'Dehradun (M.Corp) -Dehrakhaas Ward No.72');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (73042,248430,'Dehradun (M.Corp) -Dhamawala Ward No.26');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (73021,248430,'Dehradun (M.Corp) -Dhurankhas Ward No.5');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (73074,248430,'Dehradun (M.Corp) -Difence Colony Shastri Nagar Ward No.58');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (73029,248430,'Dehradun (M.Corp) -Dl Road Ward No.13');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1296963,248430,'Dehradun (M.Corp) -Dobhal Chaok Ward No.65');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (73026,248430,'Dehradun (M.Corp) -Dobhalwala Ward No.10');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (73059,248430,'Dehradun (M.Corp) -Dronpuri Ward No.43');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (73022,248430,'Dehradun (M.Corp) -Dunvihaar Ward No.6');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (73061,248430,'Dehradun (M.Corp) -Gandhigram Ward No.45');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (73035,248430,'Dehradun (M.Corp) -Ghantaghar Kalika Mandir Ward No.19');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (73050,248430,'Dehradun (M.Corp) -Govindgadh Ward No.34');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (73075,248430,'Dehradun (M.Corp) -Gujrada Maansingh Ward No.59');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1296995,248430,'Dehradun (M.Corp) -Herawala Ward No.97');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1296987,248430,'Dehradun (M.Corp) -Herbhajwala Ward No.89');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (73034,248430,'Dehradun (M.Corp) -Indira Colony Ward No.18');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (73055,248430,'Dehradun (M.Corp) -Indira Nagar Ward No.39');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (73057,248430,'Dehradun (M.Corp) -Indirapuram Ward No.41');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (73041,248430,'Dehradun (M.Corp) -Indresh Nagar Ward No.25');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (73023,248430,'Dehradun (M.Corp) -Jakhan Ward No.7');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (73043,248430,'Dehradun (M.Corp) -Jhanda Mohalla Ward No.27');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (73058,248430,'Dehradun (M.Corp) -Kanwali Ward No.42');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (73031,248430,'Dehradun (M.Corp) -Karnapur Ward No.15');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (73047,248430,'Dehradun (M.Corp) -Kaulagarh Ward No.31');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1296981,248430,'Dehradun (M.Corp) -Kedarpur Ward No.83');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (73039,248430,'Dehradun (M.Corp) -Khudbuda Ward No.23');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (73028,248430,'Dehradun (M.Corp) -Kishan Nagar Ward No.12');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1296961,248430,'Dehradun (M.Corp) -Laadpur Ward No.63');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1296968,248430,'Dehradun (M.Corp) -Lakhi Baag Ward No.70');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (73017,248430,'Dehradun (M.Corp) -Maalsi Ward No.1');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1296975,248430,'Dehradun (M.Corp) -Majara Ward No.77');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (73069,248430,'Dehradun (M.Corp) -Mata Mandir Road Ward No.53');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1296973,248430,'Dehradun (M.Corp) -Mehboob Nagar Ward No.75');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1296986,248430,'Dehradun (M.Corp) -Mehuwala Ward No.88');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1296966,248430,'Dehradun (M.Corp) -Miyanwala Ward No.68');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (73037,248430,'Dehradun (M.Corp) -M.K.P Ward No.21');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1296988,248430,'Dehradun (M.Corp) -Mohbewala Ward No.90');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1296965,248430,'Dehradun (M.Corp) -Mohkhampur Ward No.67');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1296983,248430,'Dehradun (M.Corp) -Mothrowala Ward No.85');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1296997,248430,'Dehradun (M.Corp) -Nakraunda Ward No.99');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1296960,248430,'Dehradun (M.Corp) -Nanurkheda Ward No.62');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1296992,248430,'Dehradun (M.Corp) -Nathanpur-1 Ward No.94');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1296993,248430,'Dehradun (M.Corp) -Nathanpur-2 Ward No.95');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1296998,248430,'Dehradun (M.Corp) -Nathuawala Ward No.100');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1296994,248430,'Dehradun (M.Corp) -Nawada Ward No.96');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (73073,248430,'Dehradun (M.Corp) -Nehru Colony-2 Ward No.57');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (73072,248430,'Dehradun (M.Corp) -Nehru Colony Ward No.56');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1296962,248430,'Dehradun (M.Corp) -Nehru Gram Ward No.64');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1296974,248430,'Dehradun (M.Corp) -Niranjanpur Ward No.76');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (73054,248430,'Dehradun (M.Corp) -Panditvaadi Ward No.38');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1296969,248430,'Dehradun (M.Corp) -Patelnagar Purvi Ward No.71');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (73060,248430,'Dehradun (M.Corp) -Patelnagar P. Ward No.44');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1296985,248430,'Dehradun (M.Corp) -Pithuwala Ward No.87');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (73036,248430,'Dehradun (M.Corp) -Racecourse Ward No.20');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1296979,248430,'Dehradun (M.Corp) -Racecourse Ward No.81');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1296964,248430,'Dehradun (M.Corp) -Raipur Ward No.66');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (73066,248430,'Dehradun (M.Corp) -Rajiv Nagar Ward No.50');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (73020,248430,'Dehradun (M.Corp) -Rajpur Ward No.4');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (73019,248430,'Dehradun (M.Corp) -Ranjhawala Ward No.3');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1296967,248430,'Dehradun (M.Corp) -Reetha Mandi Ward No.69');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1296978,248430,'Dehradun (M.Corp) -Rest Camp Ward No.80');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (73030,248430,'Dehradun (M.Corp) -Rishpuna Ward No.14');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (73024,248430,'Dehradun (M.Corp) -Salavala Ward No.8');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (73056,248430,'Dehradun (M.Corp) -Seemadwar Ward No.40');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1296984,248430,'Dehradun (M.Corp) -Sevnla Kala Ward No.86');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (73040,248430,'Dehradun (M.Corp) -Shivaji Marg Ward No.24');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (73071,248430,'Dehradun (M.Corp) -Shiv Nagar Mdda Ward No.55');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (73051,248430,'Dehradun (M.Corp) -Sridevsuman Nagar Ward No.35');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1296976,248430,'Dehradun (M.Corp) -Terner Road Ward No.78');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (73038,248430,'Dehradun (M.Corp) -Tilak Road Ward No.22');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (73067,248430,'Dehradun (M.Corp) -Vaani Vihaar Ward No.51');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1296971,248430,'Dehradun (M.Corp) -Vidhyavihaar Ward No.73');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (73027,248430,'Dehradun (M.Corp) -Vijay Colony Ward No.11');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (73052,248430,'Dehradun (M.Corp) -Vijay Park Ward No.36');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (73018,248430,'Dehradun (M.Corp) -Vijaypur Ward No.2');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (73049,248430,'Dehradun (M.Corp) -Yamuna Colony Ward No.33');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (17517,248421,'Devaprayag (NP) (Part) -Dhaneshwer Ward No.4');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (17515,248421,'Devaprayag (NP) (Part) -Ganesh Ward No.3');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (16127,248421,'Devaprayag (NP) (Part) -Mandir Mohalla Ward No.2');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (16125,248421,'Devaprayag (NP) (Part) -Shanti Bazaar Ward No.1');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (17573,248444,'Dharchula (NP) -Daak Bangla Ward No.4');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (17572,248444,'Dharchula (NP) -Ghatdhaar Ward No.3');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (17570,248444,'Dharchula (NP) -Gwaalgaon Ward No.1');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (17576,248444,'Dharchula (NP) -Panchayatghar Ward No.7');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (17574,248444,'Dharchula (NP) -Shiv Mandir Ward No.5');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (17571,248444,'Dharchula (NP) -Tehseel Ward No.2');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (17575,248444,'Dharchula (NP) -Vivekanand Ward No.6');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (17582,248445,'Didihat (NP) - Ambedkar Ward No.3');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (17581,248445,'Didihat (NP) -G.I.C. Ward No.2');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (17580,248445,'Didihat (NP) -Post Office Ward No.1');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1296734,248445,'Didihat (NP) -Shimla Ward No.6');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1296733,248445,'Didihat (NP) -Shiv Mandir Ward No.5');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1296735,248445,'Didihat (NP) -Subhas Chandra Bhos Ward No.7');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (17583,248445,'Didihat (NP) -Tehseel Ward No.4');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (73489,248470,'Dineshpur (NP) -Aspataal Ward No.5');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (73487,248470,'Dineshpur (NP) -Chandangarh Ward No.3');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (73488,248470,'Dineshpur (NP) -Durgamandir Ward No.4');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (73485,248470,'Dineshpur (NP) -Gaandhinagar Ward No.1');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1296889,248470,'Dineshpur (NP) -Indira Nagar Ward No.9');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (73486,248470,'Dineshpur (NP) -Motipur Ward No.2');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (73491,248470,'Dineshpur (NP) -Netaji Nagar Ward No.7');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1296888,248470,'Dineshpur (NP) -Rabindra Nagar Ward No.8');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (73490,248470,'Dineshpur (NP) -Shastrinagar Ward No.6');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (17519,248440,'Dogadda (MB) Dhaniram Bazar Dugadda- Ward No.1');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (17520,248440,'Dogadda (MB) Kamla Nehru Marg- Ward No.2');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (17521,248440,'Dogadda (MB) Moti Bazar Dugadda- Ward No.3');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (17522,248440,'Dogadda (MB) Subhash Bazar Dugadda- Ward No.4');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1296748,248433,'Doiwala (NP) - Ambedkar Nagar Ward No.20');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (17455,248433,'Doiwala (NP) -Arya Nagar Ward No.2');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1296737,248433,'Doiwala (NP) -Athoorwala-II Ward No.9');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1296736,248433,'Doiwala (NP) - Athoorwala-I Ward No.8');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (17457,248433,'Doiwala (NP) - Baaruwala Ward No.4');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1296738,248433,'Doiwala (NP) - Bhaniyawala Ward No.10');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (17458,248433,'Doiwala (NP) -Bichli Jolly Ward No.5');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1296747,248433,'Doiwala (NP) -Chaandimaari Ward No.19');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (17460,248433,'Doiwala (NP) -Jollygrant Ward No.7');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (17456,248433,'Doiwala (NP) - Kanherwala Ward No.3');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1296739,248433,'Doiwala (NP) -Keshavpuri Ward No.11');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1296742,248433,'Doiwala (NP) - Khatta Ward No.14');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1296745,248433,'Doiwala (NP) -Kudkawala Ward No.17');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (17454,248433,'Doiwala (NP) - Missarwala Ward No.1');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1296743,248433,'Doiwala (NP) - Niyaamwala Ward No.15');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1296746,248433,'Doiwala (NP) - Premnagar Ward No.18');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1296740,248433,'Doiwala (NP) -Rajivnagar Ward No.12');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (17459,248433,'Doiwala (NP) - Swami Ramnagar Ward No.6');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1296744,248433,'Doiwala (NP) - Teliwala Ward No.16');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1296741,248433,'Doiwala (NP) -Trigharaat Ward No.13');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (17617,248448,'Dwarahat (NP) -Bazaar Ward No.3');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (17615,248448,'Dwarahat (NP) -Haat Ward No.1');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (17616,248448,'Dwarahat (NP) - Sheetalapushkar Ward No.2');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (17618,248448,'Dwarahat (NP) -Vidhyapur Kanaar Ward No.4');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (18569,248469,'Gadarpur (MB) -Aadarsh Nagar Ward No.5');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1296749,248469,'Gadarpur (MB) -Ajaad Nagar Ward No.10');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (18566,248469,'Gadarpur (MB) - Ambedkar Park Ward No.2');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (18570,248469,'Gadarpur (MB) -Awas-Vikas Ward No.6');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (18572,248469,'Gadarpur (MB) -Block Colony Ward No.8');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (18567,248469,'Gadarpur (MB) -Gaandhinagar Ward No.3');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (18568,248469,'Gadarpur (MB) - G.I.College Ward No.4');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (18565,248469,'Gadarpur (MB) -Gurudwara Singh Sabha Ward No.1');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1296750,248469,'Gadarpur (MB) -Pashu Chikitsalya Ward No.11');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (18573,248469,'Gadarpur (MB) -Punjabi Colony Ward No.9');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (18571,248469,'Gadarpur (MB) - Shivmandir Ward No.7');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (927747,260112,'Gairsain (NP) -Gaid Ward No. 2');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (927749,260112,'Gairsain (NP) -Gairsain Pashchimi Bhaag Ward No. 4');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (927748,260112,'Gairsain (NP) -Gairsain Purvi Bhaag Ward No. 3');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (927751,260112,'Gairsain (NP) -Ganwali Ward No. 6');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (927750,260112,'Gairsain (NP) -Koliyana Ward No. 5');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (927746,260112,'Gairsain (NP) -Saliyana Ward No. 1');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (927752,260112,'Gairsain (NP) -Senji Ward No. 7');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1296909,277164,'Gaja(NP) -Ghantakarn Ward No. 3');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1296908,277164,'Gaja(NP) -Gheron Ward No. 2');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1296907,277164,'Gaja(NP) -Mandai Paani Ward No. 1');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1296910,277164,'Gaja(NP) -Retho Ward No. 4');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (927726,262883,'Gangolihat (NP) -Bazaar Ward No. 2');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (927729,262883,'Gangolihat (NP) -Hanera Ward No. 3');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (927741,262883,'Gangolihat (NP) -Kunjanpur Ward No. 7');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (927730,262883,'Gangolihat (NP) -Laali Ward No. 4');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (927739,262883,'Gangolihat (NP) -Padhquda Ward No. 5');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (927725,262883,'Gangolihat (NP) -Punauli Ward No. 1');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (927740,262883,'Gangolihat (NP) -Rawalgaon Ward No. 6');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (16033,248411,'Gangotri (NP) -Bhagirath Nagar Ward No.2');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (16032,248411,'Gangotri (NP) -Ganga Nagar Ward No.1');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (16034,248411,'Gangotri (NP) -Pandav Nagar Ward No.3');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (16035,248411,'Gangotri (NP) -Purohit Nagar Ward No.4');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (16041,248411,'Gangotri (NP) - Ward No.10');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (16036,248411,'Gangotri (NP) - Ward No.5');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (16037,248411,'Gangotri (NP) - Ward No.6');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (16038,248411,'Gangotri (NP) - Ward No.7');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (16039,248411,'Gangotri (NP) - Ward No.8');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (16040,248411,'Gangotri (NP) - Ward No.9');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1296890,262832,'Ghansaali(NP) -Anand Vihaar Ward No. 1');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1296895,262832,'Ghansaali(NP) -Diptiyana Ward No. 6');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1296894,262832,'Ghansaali(NP) -Hanumaan Mandir Ward No. 5');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1296891,262832,'Ghansaali(NP) -Lower Bazaar Ward No. 2');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1296893,262832,'Ghansaali(NP) -Madhur Vihaar Ward No. 4');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1296892,262832,'Ghansaali(NP) -Sangam Ward No. 3');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1296896,262832,'Ghansaali(NP) -Semli Ward No. 7');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (16110,248416,'Gochar (NP) - Banderkhand, Dronagiri Ward No.7');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (16109,248416,'Gochar (NP) - Mukhya Bazaar Chok Ward No.6');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (16104,248416,'Gochar (NP) -Panaai Malli Ward No.1');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (16107,248416,'Gochar (NP) -Panaai Talli, Palsaari Ward No.4');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (16108,248416,'Gochar (NP) -Rawalnagar Malla Ward No.5');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (16105,248416,'Gochar (NP) -Rawalnagar Talla Ward No.2');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (16106,248416,'Gochar (NP) -Shail, Basantpur Ghali Ward No.3');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1296920,277162,'Gularbhoj(NP) -Chandayan Ward No. 3');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1296923,277162,'Gularbhoj(NP) -Colony No-2 Ward No. 6');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1296922,277162,'Gularbhoj(NP) -Gadaar Bashti Ward No. 5');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1296924,277162,'Gularbhoj(NP) -Golai Ward No. 7');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1296919,277162,'Gularbhoj(NP) -Govindpur Ward No. 2');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1296918,277162,'Gularbhoj(NP) -Nayi Bashti Kopa Ward No. 1');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1296921,277162,'Gularbhoj(NP) -Nayi Bashti Ward No. 4');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1296684,248459,'Haldwani-cum-Kathgodam (MB) - Adarshnagar Ward No.50');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (18440,248459,'Haldwani-cum-Kathgodam (MB) -Awas Vikas Ward No.4');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1296683,248459,'Haldwani-cum-Kathgodam (MB) - Bamori Bandobashti Ward No.49');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1296682,248459,'Haldwani-cum-Kathgodam (MB) - Bamori Malli Ward No.48');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (18459,248459,'Haldwani-cum-Kathgodam (MB) - Banbhoolpura Line No- 14 to 16 Ward No.23');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (18461,248459,'Haldwani-cum-Kathgodam (MB) -Banbhoolpura Line No- 17 to 20 Ward No.25');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (18457,248459,'Haldwani-cum-Kathgodam (MB) -Banbhoolpura Line No- 1 to 7 Ward No.21');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (18458,248459,'Haldwani-cum-Kathgodam (MB) - Banbhoolpura Line No- 8 to 13 Ward No.22');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1296662,248459,'Haldwani-cum-Kathgodam (MB) - Barely Road Dharmpura Ward No.28');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (18452,248459,'Haldwani-cum-Kathgodam (MB) -Bazaar Chetra Ward No.16');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1296675,248459,'Haldwani-cum-Kathgodam (MB) - Bhagwanpur Ward No.41');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (18443,248459,'Haldwani-cum-Kathgodam (MB) - Bhotiya Padaav Gorakhpur Ward No.7');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1296680,248459,'Haldwani-cum-Kathgodam (MB) - Bithoriya Pashchimi Ward No.46');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1296681,248459,'Haldwani-cum-Kathgodam (MB) - Bithoriya Purvi Ward No.47');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1296672,248459,'Haldwani-cum-Kathgodam (MB) - Bithoriya Ward No.38');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1296668,248459,'Haldwani-cum-Kathgodam (MB) - Bura Damuwadhunga Bando Bashti Ward No.34');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1296677,248459,'Haldwani-cum-Kathgodam (MB) - Chadayal Ward No.43');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1296665,248459,'Haldwani-cum-Kathgodam (MB) - Company Baag Ward No.31');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1296661,248459,'Haldwani-cum-Kathgodam (MB) - Gaandhi Nagar Ward No.27');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (18460,248459,'Haldwani-cum-Kathgodam (MB) -Gafoor Bashti Banbhoolpura Ward No.24');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1296693,248459,'Haldwani-cum-Kathgodam (MB) - Gauja Jaali Uttar Ward No.59');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1296694,248459,'Haldwani-cum-Kathgodam (MB) - Gauja Jaali Ward No.60');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1296691,248459,'Haldwani-cum-Kathgodam (MB) -Haldwani Talli Maanpur Uttar Ward No.57');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1296692,248459,'Haldwani-cum-Kathgodam (MB) - Haldwani Talli Ward No.58');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1296676,248459,'Haldwani-cum-Kathgodam (MB) - Harinagar Ward No.42');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (18439,248459,'Haldwani-cum-Kathgodam (MB) - Haripur Karnal Ward No.3');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (18453,248459,'Haldwani-cum-Kathgodam (MB) -Heeranagar Ward No.17');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1296664,248459,'Haldwani-cum-Kathgodam (MB) - Indira Nagar Dakhchini Ward No.30');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1296666,248459,'Haldwani-cum-Kathgodam (MB) - Indira Nagar Pashchimi Ward No.32');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1296667,248459,'Haldwani-cum-Kathgodam (MB) - Indira Nagar Purvi Ward No.33');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1296663,248459,'Haldwani-cum-Kathgodam (MB) - Indira Nagar Ward No.29');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (18444,248459,'Haldwani-cum-Kathgodam (MB) -Jagdamba Nagar Kulyalpura Ward No.8');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1296669,248459,'Haldwani-cum-Kathgodam (MB) - Jawaher Jyoti Anshik Damuwadhunga Bando Bashti Ward No.35');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1296671,248459,'Haldwani-cum-Kathgodam (MB) - Jawaher Jyoti - II Ward No.37');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1296670,248459,'Haldwani-cum-Kathgodam (MB) - Jawaher Jyoti - I Ward No.36');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (18438,248459,'Haldwani-cum-Kathgodam (MB) - Kathgodam-Damuwadhunga Ward No.2');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (18451,248459,'Haldwani-cum-Kathgodam (MB) -Kidwai Nagar Ward No.15');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1296678,248459,'Haldwani-cum-Kathgodam (MB) - Kusum Kheda Pashchimi Ward No.44');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1296679,248459,'Haldwani-cum-Kathgodam (MB) - Kusum Kheda Purvi va Kholi Colony Ward No.45');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1296673,248459,'Haldwani-cum-Kathgodam (MB) -Lohariya Saal Malla Dhaar Bithoriya Ward No.39');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1296674,248459,'Haldwani-cum-Kathgodam (MB) - Lohariya Saal Talla Himatpur Malla Ward No.40');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1296690,248459,'Haldwani-cum-Kathgodam (MB) - Maanpur Ward No.56');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (18446,248459,'Haldwani-cum-Kathgodam (MB) -Malla Gorakhpur Ward No.10');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1296687,248459,'Haldwani-cum-Kathgodam (MB) - Mukhani - III Ward No.53');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1296686,248459,'Haldwani-cum-Kathgodam (MB) - Mukhani - II Ward No.52');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1296688,248459,'Haldwani-cum-Kathgodam (MB) - Mukhani - IV Ward No.54');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1296685,248459,'Haldwani-cum-Kathgodam (MB) - Mukhani - I Ward No.51');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1296689,248459,'Haldwani-cum-Kathgodam (MB) - Mukhani - V Maanpur Uttar Ward No.55');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1296660,248459,'Haldwani-cum-Kathgodam (MB) - Nayi Bashti Banbhoolpura Ward No.26');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (18456,248459,'Haldwani-cum-Kathgodam (MB) - Pervatiya Mohalla- Himalaya Farm Ward No.20');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (18441,248459,'Haldwani-cum-Kathgodam (MB) -Pollyseet Ward No.5');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (18448,248459,'Haldwani-cum-Kathgodam (MB) -Rajendra Nagar Ward No.12');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (18449,248459,'Haldwani-cum-Kathgodam (MB) - Rajpura Padaav Ward No.13');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (18455,248459,'Haldwani-cum-Kathgodam (MB) - Rampur Road Ward No.19');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (18437,248459,'Haldwani-cum-Kathgodam (MB) - Rani Baag Kathgodam Ward No.1');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (18454,248459,'Haldwani-cum-Kathgodam (MB) - Shivpuri Bhavani Ganj Ward No.18');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (18442,248459,'Haldwani-cum-Kathgodam (MB) -Subhas Nagar Gobindpura Ward No.6');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (18447,248459,'Haldwani-cum-Kathgodam (MB) - Talla Gorakhpur Ward No.11');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (18445,248459,'Haldwani-cum-Kathgodam (MB) -Talli Bamori Ward No.9');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (18450,248459,'Haldwani-cum-Kathgodam (MB) -Tanakpur Road Ward No.14');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (11771,248485,'Hardwar (MB) -Aacharyan Ward No.25');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1296950,248485,'Hardwar (MB)-Aehvaabnagar Ward No.52');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1296932,248485,'Hardwar (MB)-Ambedkar nagar Ward No.34');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1296953,248485,'Hardwar (MB)-Arihant Vihaar Ward No.55');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (11768,248485,'Hardwar (MB) -Aryanagar Ward No.22');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (11766,248485,'Hardwar (MB) -Awas Vikas Ward No.20');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1296940,248485,'Hardwar (MB)-Balmiki Bashti Ward No.42');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (11752,248485,'Hardwar (MB) -Bhimgoda Ward No.6');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (11748,248485,'Hardwar (MB) -Bhopatwala Ward No.2');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (11756,248485,'Hardwar (MB) -Bilkeshwer Ward No.10');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (11755,248485,'Hardwar (MB) -Brahmpuri Ward No.9');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1296946,248485,'Hardwar (MB)-Chaaklaan Ward No.48');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (883723,248485,'Hardwar (MB)-Chaok Bazaar Ward No.30');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (11749,248485,'Hardwar (MB) -Durganagar Ward No.3');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (11754,248485,'Hardwar (MB) -Gaughaat Ward No.8');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1296949,248485,'Hardwar (MB)-Ghosiyaan Ward No.51');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (11764,248485,'Hardwar (MB) -Gobindpuri Ward No.18');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1296952,248485,'Hardwar (MB)-Gurukul Ward No.54');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1296954,248485,'Hardwar (MB)-Hanumantpuram Ward No.56');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1296958,248485,'Hardwar (MB)-Harilok Ward No.60');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (11753,248485,'Hardwar (MB) -Harki Paudi Ward No.7');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1296955,248485,'Hardwar (MB)-Jagjitpur Ward No.57');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1296933,248485,'Hardwar (MB)-Kadcha Ward No.35');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1296939,248485,'Hardwar (MB)-Kassavaan Ward No.41');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (11750,248485,'Hardwar (MB) -Khadkhadi Ward No.4');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (11765,248485,'Hardwar (MB) -Khannanagar Ward No.19');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1296935,248485,'Hardwar (MB)-Kotravaan Ward No.37');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (11775,248485,'Hardwar (MB) -Kumhaar Gadda Ward No.29');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (11770,248485,'Hardwar (MB) -Kushnanagar Ward No.24');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (11773,248485,'Hardwar (MB) -Laatonwali Ward No.27');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1296947,248485,'Hardwar (MB)-Lakkadharan Ward No.49');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1296937,248485,'Hardwar (MB)-Lodhamandi Ward No.39');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (11751,248485,'Hardwar (MB) -Mahadev Nagar Ward No.5');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1296948,248485,'Hardwar (MB)-Maidiyaan Ward No.50');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (11759,248485,'Hardwar (MB) -Mayapuri Ward No.13');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1296936,248485,'Hardwar (MB)-Mehtaan Ward No.38');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1296930,248485,'Hardwar (MB)-Naathnagar Ward No.32');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1296944,248485,'Hardwar (MB)-Neelkhudana Ward No.46');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (11758,248485,'Hardwar (MB) -Nirmala Chavani Ward No.12');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1296941,248485,'Hardwar (MB)-Paanvdhoi Ward No.43');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1296945,248485,'Hardwar (MB)-Pandewala Ward No.47');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1296938,248485,'Hardwar (MB)- Peethbazaar Ward No.40');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1296956,248485,'Hardwar (MB)-Raja Garden Ward No.58');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (11774,248485,'Hardwar (MB) -Rajghaat Ward No.28');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (11769,248485,'Hardwar (MB) -Ramnagar Ward No.23');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1296929,248485,'Hardwar (MB)- Ravidas Bashti Ward No.31');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (11760,248485,'Hardwar (MB) -Rishikul Ward No.14');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (11772,248485,'Hardwar (MB) -Sandeshnagar Ward No.26');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (11747,248485,'Hardwar (MB) -Saptrishi Ward No.1');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1296957,248485,'Hardwar (MB)-Seetapur Ward No.59');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (11767,248485,'Hardwar (MB) -Sharda Nagar Ward No.21');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1296931,248485,'Hardwar (MB)-Shastrinagar Ward No.33');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (11762,248485,'Hardwar (MB) -Shivlok Ward No.16');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (11757,248485,'Hardwar (MB) -Shravannath Nagar Ward No.11');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1296943,248485,'Hardwar (MB)-Tapowan Nagar Ward No.45');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1296934,248485,'Hardwar (MB)-Teliyaan Ward No.36');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (11763,248485,'Hardwar (MB) -Tibdi Ward No.17');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1296942,248485,'Hardwar (MB)-Trimurti Ward No.44');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1296951,248485,'Hardwar (MB)-Vishnu Lok Ward No.53');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (11761,248485,'Hardwar (MB) -Vivek Vihaar Ward No.15');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1296510,248428,'Herbertpur (NP) - Aadarsh Nagar (Jhadowala) Ward No.8');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (17418,248428,'Herbertpur (NP) - Aadarsh Vihaar Ward No.2');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (17420,248428,'Herbertpur (NP) - Asanbaag Ward No.4');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1296511,248428,'Herbertpur (NP) - Asanpul Purvi Bashti Ward No.9');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (17417,248428,'Herbertpur (NP) - Bansipur Ward No.1');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (17419,248428,'Herbertpur (NP) - Fatehpur Pashchim Ward No.3');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (17421,248428,'Herbertpur (NP) - Rambaag Ward No.5');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (17423,248428,'Herbertpur (NP) - T-state Ward No.7');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (17422,248428,'Herbertpur (NP) - Vivek Vihaar Ward No.6');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (18495,248462,'Jaspur (MB) - Bazaar Bhoop Singh Uttari Ward No.11');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (18494,248462,'Jaspur (MB) - Bhoop Singh Dakshini Ward No.10');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (18497,248462,'Jaspur (MB) - Chipiyan Paschami Ward No.13');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (18496,248462,'Jaspur (MB) - Chipiyan Purvi Ward No.12');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (18485,248462,'Jaspur (MB) - Dilla Singh Ward No.1');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (18489,248462,'Jaspur (MB) - Gujratiyan Dakshini Ward No.5');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (18488,248462,'Jaspur (MB) - Gujratiyan Uttari Ward No.4');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (18491,248462,'Jaspur (MB) - Julahaan Dakshini Ward No.7');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (18490,248462,'Jaspur (MB) - Julahaan Uttari Ward No.6');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (18487,248462,'Jaspur (MB) - Natha Singh Paschami Ward No.3');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (18486,248462,'Jaspur (MB) - Natha Singh Purvi Ward No.2');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1296515,248462,'Jaspur (MB) - Nayi Bashti Madhyamik Paschami Ward No.17');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1296518,248462,'Jaspur (MB) - Nayi Bashti Paschami Dakshini Ward No.20');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1296517,248462,'Jaspur (MB) - Nayi Bashti Purvi Dakshini Ward No.19');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1296513,248462,'Jaspur (MB) - Nayi Bashti Purvi Gaanguwala Ward No.15');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1296512,248462,'Jaspur (MB) - Nayi Bashti Purvi Ward No.14');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1296514,248462,'Jaspur (MB) - Nayi Bashti Purvi Ward No.16');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1296516,248462,'Jaspur (MB) - Nayi Bashti Uttari Paschami Ward No.18');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (18493,248462,'Jaspur (MB) - Patti Chauhan Paschami Ward No.9');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (18492,248462,'Jaspur (MB) - Patti Chauhan Purvi Ward No.8');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (11704,248481,'Jhabrera (NP) -Chawani Ward No.5');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (11705,248481,'Jhabrera (NP) -Gaddi Bahaar Ward No.6');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (11706,248481,'Jhabrera (NP) -Gher Ward No.7');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (11701,248481,'Jhabrera (NP) -Harijnaan Ward No.2');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1307748,248481,'Jhabrera (NP) -Julahayaan Ward No.9');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1296925,248481,'Jhabrera (NP) -Kaharaan Ward No.8');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (11702,248481,'Jhabrera (NP) -Kumharaan Ward No.3');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (11703,248481,'Jhabrera (NP) -Nayi Mandi Ward No.4');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (11700,248481,'Jhabrera (NP) -Teliyaan Ward No.1');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (16044,248413,'Joshimath (MB) - Gaandhinagar Ward No.1');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (16046,248413,'Joshimath (MB) - Lower Bazaar Ward No.3');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (16048,248413,'Joshimath (MB) - Manoharvaag Ward No.5');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (16045,248413,'Joshimath (MB) - Painka-Maarwaadi Ward No.2');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (16051,248413,'Joshimath (MB) - Persaari Ward No.8');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (16052,248413,'Joshimath (MB) - Ravigram Ward No.9');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (16047,248413,'Joshimath (MB) - Singhdhaar Ward No.4');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (16050,248413,'Joshimath (MB) - Sunil Ward No.7');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (16049,248413,'Joshimath (MB) - Uper Bazaar-Daando Ward No.6');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (18430,248458,'Kaladhungi (NP) - Aspataal Ward No.4');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (18428,248458,'Kaladhungi (NP) - Factory Ward No.2');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (18427,248458,'Kaladhungi (NP) - Junglaat Ward No.1');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (18433,248458,'Kaladhungi (NP) - Mangoliya Dhada Ward No.7');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (18431,248458,'Kaladhungi (NP) - Purvi Dhobi Bashti Ward No.5');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (18432,248458,'Kaladhungi (NP) - Tehsheel Va Thana Ward No.6');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (18429,248458,'Kaladhungi (NP) - Uttari Banzara Bashti Ward No.3');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1296531,248441,'Kotdwara (MB) - Aadhat Bazaar Krishchiyan Colony Ward No.13');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1296542,248441,'Kotdwara (MB) - Balasaud Ward No.24');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1296544,248441,'Kotdwara (MB) - Balbhadrapur Ward No.26');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1296545,248441,'Kotdwara (MB) - Durgapur Ward No.27');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (17547,248441,'Kotdwara (MB) - Gaadighaat Ward No.4');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1296547,248441,'Kotdwara (MB) - Ghamandpur Ward No.29');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1296533,248441,'Kotdwara (MB) - Govindnagar, Nayagaon Ward No.15');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (17551,248441,'Kotdwara (MB) - Govindnagar Ward No.8');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1296551,248441,'Kotdwara (MB) - Haldukhaata Malla Ward No.33');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1296558,248441,'Kotdwara (MB) - Jashodharpur Ward No.40');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (17554,248441,'Kotdwara (MB) - Jhandachok Badrinath Marg Ward No.11');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1296532,248441,'Kotdwara (MB) - Jonpur Ward No.14');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1296530,248441,'Kotdwara (MB) - Kalabad Ward No.12');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (17552,248441,'Kotdwara (MB) - Kashirampur Malla Ward No.9');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (17549,248441,'Kotdwara (MB) - Kashirampur Talla Ward No.6');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (17550,248441,'Kotdwara (MB) - Kaudiya Ward No.7');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (17545,248441,'Kotdwara (MB) - Kumbhi Chaud Ward No.2');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1296537,248441,'Kotdwara (MB) - Laalpur Ward No.19');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (17548,248441,'Kotdwara (MB) - Lakdipadaav Ward No.5');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1296554,248441,'Kotdwara (MB) - Lokmanipur Ward No.36');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1296535,248441,'Kotdwara (MB) - Maanpur Ward No.17');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1296548,248441,'Kotdwara (MB) - Nandpur Ward No.30');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1296546,248441,'Kotdwara (MB) -Nimbuchaud Ward No.28');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1296538,248441,'Kotdwara (MB) - Padampur-II Khusro Ward No.20');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1296539,248441,'Kotdwara (MB) - Padampur-I Khusro Ward No.21');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1296549,248441,'Kotdwara (MB) - Padampur Motadhaank Ward No.31');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (17553,248441,'Kotdwara (MB) - Paniyaali Talli Ward No.10');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1296555,248441,'Kotdwara (MB) - Pashchami Jhandichok Ward No.37');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1296557,248441,'Kotdwara (MB) - Purvi Jhandichok Ward No.39');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1296543,248441,'Kotdwara (MB) - Ratanpur Khusro Ward No.25');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (17544,248441,'Kotdwara (MB) - Ratanpur Saneh Ward No.1');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (17546,248441,'Kotdwara (MB) - Saneh Ward No.3');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1296536,248441,'Kotdwara (MB) - Shivpur Ward No.18');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1296550,248441,'Kotdwara (MB) - Shivrajpur Ward No.32');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1296541,248441,'Kotdwara (MB) - Sibunagar Ward No.23');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1296540,248441,'Kotdwara (MB) - Simalchaud Ward No.22');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1296534,248441,'Kotdwara (MB) - Sitabpur Ward No.16');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1296553,248441,'Kotdwara (MB) - Trilokpur Ward No.35');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1296552,248441,'Kotdwara (MB) - Udayrampur Nayavaad Ward No.34');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1296556,248441,'Kotdwara (MB) - Uttari Jhandichok Ward No.38');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (927773,259921,'Kapkot (NP) -Aithaan Ward No. 5');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (927745,259921,'Kapkot (NP) -Bharadi Ward No. 4');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (927743,259921,'Kapkot (NP) -Kapkot Bazaar Ward No. 2');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (927775,259921,'Kapkot (NP) -Kheerganga Ward No. 7');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (927742,259921,'Kapkot (NP) -Mandalkhet Ward No. 1');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (927774,259921,'Kapkot (NP) -Pollydungra Ward No. 6');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (927744,259921,'Kapkot (NP) -Shivalay Ward No. 3');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (73001,248417,'Karnaprayag (NP) -Bus Station Semi Ward No.6');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (72997,248417,'Karnaprayag (NP) -Eda Badhaani Ward No.2');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (72996,248417,'Karnaprayag (NP) -Gaandhinagar Ward No.1');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (72998,248417,'Karnaprayag (NP) -I.T.I. Ward No.3');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (73000,248417,'Karnaprayag (NP) -Subhas Nagar Simli Ward No.5');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (72999,248417,'Karnaprayag (NP) -Tehseel Colony Ward No.4');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (73002,248417,'Karnaprayag (NP) - Uper Bazaar Ward No.7');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1296699,248463,'Kashipur (MB) - Alikhan Dakhchini Ward No.25');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1296698,248463,'Kashipur (MB) - Alikhan Madhya Ward No.24');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1296697,248463,'Kashipur (MB) - Alikhan Pashchimi Ward No.23');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (73474,248463,'Kashipur (MB) - Awas Vikas Dakhchini Ward No.16');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (73475,248463,'Kashipur (MB) - Awas Vikas Madhya Ward No.17');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1296712,248463,'Kashipur (MB) - Bailjudi Nagar Ward No.38');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (73473,248463,'Kashipur (MB) - Bazpur Road Ward No.15');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1296709,248463,'Kashipur (MB) - Chamunda Vihaar Ward No.35');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (73469,248463,'Kashipur (MB) - Fasiyapura Ward No.11');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (73477,248463,'Kashipur (MB) - Ganj Ward No.19');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1296708,248463,'Kashipur (MB) - Giritaal Ward No.34');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (73465,248463,'Kashipur (MB) - Hempur Ismile Dakhchini Ward No.7');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (73464,248463,'Kashipur (MB) - Hempur Ismile Uttari Ward No.6');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (73460,248463,'Kashipur (MB) - Jaspur Khurd Pashchimi Ward No.2');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (73461,248463,'Kashipur (MB) - Jaspur Khurd Purvi Ward No.3');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1296701,248463,'Kashipur (MB) - Kaajibaag Ward No.27');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1296714,248463,'Kashipur (MB) - Kachnaal Gaaji Ward No.40');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (73463,248463,'Kashipur (MB) - Kachnaal Gausaai Ward No.5');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1296710,248463,'Kashipur (MB) - Katorataal Uttari Ward No.36');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1296706,248463,'Kashipur (MB) - Katoratal Madhya Ward No.32');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1296705,248463,'Kashipur (MB) - Katoratal Pashchimi Ward No.31');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (73467,248463,'Kashipur (MB) - Khadakpur Devipura Madhya Ward No.9');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (73468,248463,'Kashipur (MB) - Khadakpur Devipura Pashchimi Ward No.10');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (73466,248463,'Kashipur (MB) - Khadakpur Devipura Purvi Ward No.8');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (73462,248463,'Kashipur (MB) - Khadakpur Devipur Uttari Ward No.4');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1296703,248463,'Kashipur (MB) - Kila Ward No.29');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1296702,248463,'Kashipur (MB) - Lahoriyaan Ward No.28');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1296696,248463,'Kashipur (MB) - Lakhshimipur Patti Madhya Ward No.22');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (73470,248463,'Kashipur (MB) - Lakhshimipur Patti Ward No.12');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (73478,248463,'Kashipur (MB) - Maheshpura Madhya Ward No.20');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1296695,248463,'Kashipur (MB) - Maheshpura Pashchimi Ward No.21');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1296700,248463,'Kashipur (MB) - Ojhaan Ward No.26');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1296711,248463,'Kashipur (MB) - Pakkakot Purvi Ward No.37');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1296704,248463,'Kashipur (MB) - Pakkakot Ward No.30');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1296707,248463,'Kashipur (MB) - Patelnagar Ward No.33');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1296713,248463,'Kashipur (MB) - Prabhaat Colony Ward No.39');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (73459,248463,'Kashipur (MB) - Rampur Neejhda Ward No.1');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (73476,248463,'Kashipur (MB) - Shaktinagar Ward No.18');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (73472,248463,'Kashipur (MB) - Taanda Ujjain Dakhchini Ward No.14');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (73471,248463,'Kashipur (MB) - Taanda Ujjain Pashchimi Ward No.13');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (16114,248418,'Kedarnath (NP) -Annpurna Ward No.1');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1297010,248418,'Kedarnath (NP) -Kedar Ward No.4');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1297008,248418,'Kedarnath (NP) -Mandakini Ward No.2');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1297009,248418,'Kedarnath (NP) -Shankracharya Ward No.3');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (18561,248468,'Kela Khera (NP) -Ajadnagar Ward No.7');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (18560,248468,'Kela Khera (NP) -Fidanagar Ward No.6');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (18556,248468,'Kela Khera (NP) - Gaandhinagar Ward No.2');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (18559,248468,'Kela Khera (NP) - Kadari Mashzid Ward No.5');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (18557,248468,'Kela Khera (NP) - Muzhfarnagar Ward No.3');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (18555,248468,'Kela Khera (NP) - Police Thana Ward No.1');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1296600,248468,'Kela Khera (NP) - Ratnamadaiyay Ward No.8');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1296601,248468,'Kela Khera (NP) - Shashtrinagar Ward No.9');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (18558,248468,'Kela Khera (NP) - Zama Mashzid Ward No.4');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1296528,248477,'Khatima (MB) - Adarsh Colony Ward No.19');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (11656,248477,'Khatima (MB) - Amau Mayur Vihaar Ward No.9');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1296525,248477,'Khatima (MB) - Ambedkar Nagar Ward No.16');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1296520,248477,'Khatima (MB) - Awas Vikas Colony Ward No.11');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (11649,248477,'Khatima (MB) - Edgaah Ward No.2');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (11653,248477,'Khatima (MB) - Gotiya Ward No.6');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1296522,248477,'Khatima (MB) - Hanuman Mandir Ward No.13');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (11651,248477,'Khatima (MB) - Islaamnagar Ward No.4');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1296519,248477,'Khatima (MB) - Jhankaiya Ward No.10');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (11648,248477,'Khatima (MB) - Kanjabaag Patiya Ward No.1');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1296521,248477,'Khatima (MB) - Khetalsanda Ward No.12');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (11652,248477,'Khatima (MB) - Kureshi Mashzid Ward No.5');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1296529,248477,'Khatima (MB) - New Tehsheel Ward No.20');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (11655,248477,'Khatima (MB) - Panchsheel Colony Ward No.8');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (11654,248477,'Khatima (MB) - Purnagiri Colony Ward No.7');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (11650,248477,'Khatima (MB) - Rajamashzid Ward No.3');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1296523,248477,'Khatima (MB) - Sanatan Dharmshala Ward No.14');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1296526,248477,'Khatima (MB) - Shiv Colony Ward No.17');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1296524,248477,'Khatima (MB) - Thaaru Govt. Inter College Ward No.15');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1296527,248477,'Khatima (MB) - Vikash Khand Khatima Ward No.18');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (18703,248474,'Kichha (MB) -Awas Vikas Ward No.10');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (18698,248474,'Kichha (MB) -Bandiya Bhatta Ward No.5');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (18697,248474,'Kichha (MB) -Bandiya Ward No.4');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1296781,248474,'Kichha (MB) -Boring Gali Ward No.14');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (18694,248474,'Kichha (MB) - Chuketi Devariya Ward No.1');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1296782,248474,'Kichha (MB) -College Ward No.15');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1296784,248474,'Kichha (MB) -Gurudwara Ward No.17');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1296787,248474,'Kichha (MB) -Indiranagar Siroli Ward No.20');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (18706,248474,'Kichha (MB) -Kenaal Colony Ward No.13');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (18696,248474,'Kichha (MB) -Kisanpur Sisaie Ward No.3');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (18704,248474,'Kichha (MB) -Nayi Sunhari Ward No.11');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (18705,248474,'Kichha (MB) -Noori Maszid Ward No.12');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (18701,248474,'Kichha (MB) -Pant Colony Evam Uttaranchal Colony Ward No.8');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (18699,248474,'Kichha (MB) -Railway Colony Ward No.6');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (18702,248474,'Kichha (MB) -Sarswati Nagar Ward No.9');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1296786,248474,'Kichha (MB) -Siroli Dakhchini Ward No.19');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1296785,248474,'Kichha (MB) -Siroli Uttari Ward No.18');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (18695,248474,'Kichha (MB) -Sonera Ward No.2');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1296783,248474,'Kichha (MB) -Teachers Colony Ward No.16');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (18700,248474,'Kichha (MB) -Tehseel Ward No.7');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (16116,248420,'Kirtinagar (NP) -Block Evem Sinchayi Vibhaag Colony Ward No.2');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (16115,248420,'Kirtinagar (NP) -Court Evem College Colony Ward No.1');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (16117,248420,'Kirtinagar (NP) -Nayi Bashti Colony Ward No.3');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (16118,248420,'Kirtinagar (NP) -Pichli Bazaar Line Colony Ward No.4');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (11784,248486,'Laksar (NP) - Aajaadnagar Ward No.9');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (11781,248486,'Laksar (NP) - Adarsh Colony Ward No.6');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (11776,248486,'Laksar (NP) - Ambedkar Nagar Ward No.1');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1296560,248486,'Laksar (NP) - Keshavnagar Purvi Ward No.11');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1296559,248486,'Laksar (NP) - Keshavnagar Ward No.10');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (11780,248486,'Laksar (NP) - Laksari Ward No.5');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (11783,248486,'Laksar (NP) - Laksar Purvi Ward No.8');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (11782,248486,'Laksar (NP) - Main Bazaar Ward No.7');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (11779,248486,'Laksar (NP) - Shivpuri Purvi Ward No.4');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (11778,248486,'Laksar (NP) - Shivpuri Ward No.3');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (11777,248486,'Laksar (NP) - Simali Ward No.2');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (73452,248460,'Lalkuan (NP) - Ajaad Nagar Ward No.4');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (73449,248460,'Lalkuan (NP) - Ambedkar Nagar Ward No.1');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (73450,248460,'Lalkuan (NP) - Gaandhi Nagar Ward No.2');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (73451,248460,'Lalkuan (NP) - Jawahar Nagar Ward No.3');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (73454,248460,'Lalkuan (NP) - Railway Bazaar Ward No.6');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (73455,248460,'Lalkuan (NP) - Railway Colony Ward No.7');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (73453,248460,'Lalkuan (NP) - Subhas Nagar Ward No.5');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1297046,277183,'Lambgaon (NP)- Lambgaon Ward No. 2');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1297048,277183,'Lambgaon (NP)-Naugharala Ward No. 4');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1297047,277183,'Lambgaon (NP)- Naughar Ward No. 3');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1297045,277183,'Lambgaon (NP)-Ziwala Ward No. 1');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (11743,248483,'Landhaura (NP) -Moh. Ambedkar Ward No.9');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (11736,248483,'Landhaura (NP) -Moh. Bahar Kila Ward No.2');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (11741,248483,'Landhaura (NP) -Moh. Gujarvada Ward No.7');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (11740,248483,'Landhaura (NP) -Moh. Hajrat Bilaal Ward No.6');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (11737,248483,'Landhaura (NP) -Moh. Kila Ward No.3');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (11742,248483,'Landhaura (NP) -Moh. Matavala Ward No.8');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (11738,248483,'Landhaura (NP) -Moh. Pathaan Chaok Ward No.4');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (11739,248483,'Landhaura (NP) -Moh. Pathanaan Ward No.5');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (11735,248483,'Landhaura (NP) -Moh. Ravidas Bashti Ward No.1');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (73439,248450,'Lohaghat (NP) -Bajrangi Ward No.2');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (73444,248450,'Lohaghat (NP) -Kachari Ward No.7');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (73440,248450,'Lohaghat (NP) -Lohavati Ward No.3');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (73443,248450,'Lohaghat (NP) -Meena Bazaar Ward No.6');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (73441,248450,'Lohaghat (NP) -Risheshwer Ward No.4');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (73438,248450,'Lohaghat (NP) -Saarkitola Ward No.1');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (73442,248450,'Lohaghat (NP) -Thadadhunga Ward No.5');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (18480,248461,'Mahua Dabra Haripura (NP) -Ansaariyan Dakhsini Ward No.6');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (18477,248461,'Mahua Dabra Haripura (NP) - Ansaariyan Ward No.3');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (18478,248461,'Mahua Dabra Haripura (NP) - Chaudhory Kumhaar Bashti Ward No.4');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (18481,248461,'Mahua Dabra Haripura (NP) - Chauhanaan Ward No.7');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (18475,248461,'Mahua Dabra Haripura (NP) - Dalit Saini Bashti Ward No.1');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (18479,248461,'Mahua Dabra Haripura (NP) - Mangal Bazaar Ward No.5');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (18476,248461,'Mahua Dabra Haripura (NP) - Soot Factory Coloniyan Ward No.2');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (18513,248465,'Mahua Kheraganj (NP) - Adarsh Misrinagar Ward No.4');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (18511,248465,'Mahua Kheraganj (NP) - Aeharpura Ward No.2');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (18514,248465,'Mahua Kheraganj (NP) - Ganj Ward No.5');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1296562,248465,'Mahua Kheraganj (NP) - Hakeemganj Ward No.9');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (18516,248465,'Mahua Kheraganj (NP) - Jamamashzid Ward No.7');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (18512,248465,'Mahua Kheraganj (NP) - Madayadevi Ward No.3');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (18515,248465,'Mahua Kheraganj (NP) - Main Bazaar Ward No.6');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1296561,248465,'Mahua Kheraganj (NP) - Shakti Chauraha Ward No.8');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (18510,248465,'Mahua Kheraganj (NP) - Vijaynagar Ward No.1');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (11724,248482,'Manglaur (MB) -Baharkila Ward No.15');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (11716,248482,'Manglaur (MB) -Bandertol Ward No.7');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (11717,248482,'Manglaur (MB) -Brahmnaan Ward No.8');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (11710,248482,'Manglaur (MB) - Chamaran Khalsa Ward No.1');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (11718,248482,'Manglaur (MB) -Halka Ward No.9');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (11719,248482,'Manglaur (MB) -Katehada Ward No.10');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1296792,248482,'Manglaur (MB) -Kila-III Ward No.20');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1296790,248482,'Manglaur (MB) -Kila-II Ward No.18');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1296789,248482,'Manglaur (MB) -Kila-I Ward No.17');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (11720,248482,'Manglaur (MB) -Laalbaada Ward No.11');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (11713,248482,'Manglaur (MB) -Malaanpura Ward No.4');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1296788,248482,'Manglaur (MB) -Malakpura Ward No.16');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (11712,248482,'Manglaur (MB) -Manakchok Ward No.3');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (11711,248482,'Manglaur (MB) -Mazbata Ward No.2');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (11714,248482,'Manglaur (MB) -Pathaanpura-II Ward No.5');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (11715,248482,'Manglaur (MB) -Pathaanpura-I Ward No.6');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (11721,248482,'Manglaur (MB) - Peergadhi Ward No.12');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (11722,248482,'Manglaur (MB) -Saraavgyaan Ward No.13');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (11723,248482,'Manglaur (MB) -Saraayajeej Ward No.14');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1296791,248482,'Manglaur (MB) -Toli Ward No.19');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (17388,248426,'Muni Ki Reti (NP) -Chaudah Beega Ward No.7');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (17385,248426,'Muni Ki Reti (NP) -Dayanand Aasram, Swami Narayan Ward No.4');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (17382,248426,'Muni Ki Reti (NP) -Kailash Aasram, Bhajangadh Ward No.1');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (17387,248426,'Muni Ki Reti (NP) -Madhya Chaudah Beega Ward No.6');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1296793,248426,'Muni Ki Reti (NP) -Madhya Dhaalwala (Dilmani Saklani Vihaar) Ward No.8');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (17386,248426,'Muni Ki Reti (NP) -Prmanand Ward No.5');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1296794,248426,'Muni Ki Reti (NP) -Shantinagar, Rajivgram Ward No.9');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (17383,248426,'Muni Ki Reti (NP) Shatrughan Mandir, Ganga Chetra- Ward No.2');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1296795,248426,'Muni Ki Reti (NP) - Shiv, Durga Ward No.10');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1296796,248426,'Muni Ki Reti (NP) -Uperi Dhaalwala Ward No.11');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (17384,248426,'Muni Ki Reti (NP) -Vaisno Mata Mandir Ward No.3');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (17428,248429,'Mussoorie (MB) -Barloganj Ward No.2');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1296798,248429,'Mussoorie (MB) -Bhadraaj Ward No.13');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (17437,248429,'Mussoorie (MB) -Indra Colony Ward No.11');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (17430,248429,'Mussoorie (MB) -Jhaalki Ward No.4');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (17427,248429,'Mussoorie (MB) -Jhadipaani Ward No.1');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (17434,248429,'Mussoorie (MB) -Kachhari Ward No.8');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (17436,248429,'Mussoorie (MB) -Kitaabghar Ward No.10');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (17433,248429,'Mussoorie (MB) -Kuldi Bazaar Ward No.7');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (17431,248429,'Mussoorie (MB) -Landaur Ward No.5');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (17432,248429,'Mussoorie (MB) -Nagar Palika Compaund Ward No.6');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1296797,248429,'Mussoorie (MB) -Pologround Ward No.12');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (17429,248429,'Mussoorie (MB) -Raajmandi Ward No.3');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (17435,248429,'Mussoorie (MB) -Sumitra Bhavan-Husainganj Ward No.9');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (17697,248454,'Nainital (MB) -Awagadh Ward No.13');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (17692,248454,'Nainital (MB) -Ayaarpaata Ward No.8');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (17688,248454,'Nainital (MB) -Harinagar Ward No.4');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1296799,248454,'Nainital (MB) -Mallitaal Bazaar Ward No.14');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (17694,248454,'Nainital (MB) -Nainital Club Ward No.10');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (17690,248454,'Nainital (MB) -Narayannagar Ward No.6');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (17687,248454,'Nainital (MB) -Rajbhavan Ward No.3');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (17696,248454,'Nainital (MB) -Sainik School Ward No.12');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (17686,248454,'Nainital (MB) -Sher ka Danda Ward No.2');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (17689,248454,'Nainital (MB) -Snowview Ward No.5');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (17695,248454,'Nainital (MB) -Sri Krishnapur Ward No.11');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (17685,248454,'Nainital (MB) -Staff House Ward No.1');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (17691,248454,'Nainital (MB) -Sukhataal Ward No.7');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1296800,248454,'Nainital (MB) -Tallitaal Bazaar Ward No.15');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (17693,248454,'Nainital (MB) -Upper Maal Ward No.9');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1296603,275661,'Nanakmatta (NP)- Gaddhipatti Ward No.2');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1296607,275661,'Nanakmatta (NP)- Jagdamba Ward No.6');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1296606,275661,'Nanakmatta (NP)- Milak Maafi Ward No.5');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1296602,275661,'Nanakmatta (NP)- Milak Nazeer Ward No.1');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1296608,275661,'Nanakmatta (NP)- Tapeda Ward No.7');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1296604,275661,'Nanakmatta (NP)- Thaana Ward No.3');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1296605,275661,'Nanakmatta (NP)-T.R.C. Ward No.4');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (16097,248415,'Nandprayag (NP) -Chandika Mohalla Ward No.4');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (16094,248415,'Nandprayag (NP) -Muniyaali Ward No.1');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (16095,248415,'Nandprayag (NP) -Shakuntala Bagad Ward No.2');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (16096,248415,'Nandprayag (NP) -Uper Bazaar Ward No.3');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1296811,248424,'Narendranagar (MB) -Bakhriyana Ward No.6');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (16178,248424,'Narendranagar (MB) -Bazaar Line Ward No.3');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (16179,248424,'Narendranagar (MB) -Civil Line Ward No.4');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1296812,248424,'Narendranagar (MB) -Clerk Quater Ward No.7');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (16176,248424,'Narendranagar (MB) -Kinvaani Ward No.1');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1296810,248424,'Narendranagar (MB) -Suman Chiktsalya Parisar Ward No.5');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (16177,248424,'Narendranagar (MB) -Vandey Matram Ward No.2');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1296614,274461,'Naugaon (NP)- Devalsaari Ward No.6');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1296615,274461,'Naugaon (NP)- Mulaana Ward No.7');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1296610,274461,'Naugaon (NP)- Mungra Ward No.2');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1296609,274461,'Naugaon (NP)- Muradi Gaon Ward No.1');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1296613,274461,'Naugaon (NP)- Naugaon Gaon Ward No.5');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1296612,274461,'Naugaon (NP)- Naugaon-II Ward No.4');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1296611,274461,'Naugaon (NP)- Naugaon-I Ward No.3');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (17495,248438,'Pauri (MB) - Aspataal Mohalla Ward No.6');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (17490,248438,'Pauri (MB) - Benjodi/Kyukaleshwer Ward No.1');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (17492,248438,'Pauri (MB) - Chwincha gaon/Kandai gaon Ward No.3');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (17493,248438,'Pauri (MB) - Dipti Dhaara/Uper Bazaar Ward No.4');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (17494,248438,'Pauri (MB) - Lower Bazaar Ward No.5');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (17497,248438,'Pauri (MB) - Naagdhaara/Lakshminarayan Mohalla Ward No.8');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (17498,248438,'Pauri (MB) - Pauri Gaon Ward No.9');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (17500,248438,'Pauri (MB) - Rai Chetra Ward No.11');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (17491,248438,'Pauri (MB) - Tehsali/Hisriya/Pulad House Ward No.2');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (17499,248438,'Pauri (MB) - Training Center/Chopda Ward No.10');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (17496,248438,'Pauri (MB) - Vikas Marg Mohalla Ward No.7');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1296618,276459,'Peepalkoti (NP)- Augthala Ward No.2');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1296620,276459,'Peepalkoti (NP)- Batula-Mayapur Ward No.4');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1296619,276459,'Peepalkoti (NP)- Gadora Ward No.3');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1296617,276459,'Peepalkoti (NP)- Naurakh Peepalkoti Ward No.1');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1296625,275670,'Pirankaliyar (NP)- Bedpur Ward No.2');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1296627,275670,'Pirankaliyar (NP)- Kaliyar-III Ward No.4');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1296626,275670,'Pirankaliyar (NP)- Kaliyar-II Ward No.3');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1296629,275670,'Pirankaliyar (NP)- Kaliyar-IV Ward No.6');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1296624,275670,'Pirankaliyar (NP)- Kaliyar-I Ward No.1');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1296631,275670,'Pirankaliyar (NP)- Mehmoodpur-II Ward No.8');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1296630,275670,'Pirankaliyar (NP)- Mehmoodpur-I Ward No.7');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1296632,275670,'Pirankaliyar (NP)- Mukarabpur-II Ward No.9');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1296628,275670,'Pirankaliyar (NP)- Mukarabpur-I Ward No.5');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1296567,248446,'Pithoragarh Aaincholi (MB) - Ward No.20');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (73105,248446,'Pithoragarh Bajeti (MB) - Ward No.1');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (73110,248446,'Pithoragarh Bhaatkot (MB) - Ward No.6');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (73116,248446,'Pithoragarh Chandra Bhaga (MB) - Ward No.12');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (73115,248446,'Pithoragarh Cinema Line (MB) - Ward No.11');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1296565,248446,'Pithoragarh Daula (MB) - Ward No.18');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1296566,248446,'Pithoragarh Dhanauda (MB) - Ward No.19');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1296564,248446,'Pithoragarh Jagdamba Colony (MB) - Ward No.17');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (73112,248446,'Pithoragarh Khadkot (MB) - Ward No.8');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1296563,248446,'Pithoragarh Krishnapuri (MB) - Ward No.16');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (73117,248446,'Pithoragarh Kumod (MB) - Ward No.13');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (73108,248446,'Pithoragarh Lunthuda (MB) - Ward No.4');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (73114,248446,'Pithoragarh Naya Bazaar (MB) - Ward No.10');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (73107,248446,'Pithoragarh Pandey Gaon (MB) - Ward No.3');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (73119,248446,'Pithoragarh Sera Punedi (MB) - Ward No.15');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (73109,248446,'Pithoragarh Shivalaya (MB) - Ward No.5');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (73113,248446,'Pithoragarh Simalgair (MB) - Ward No.9');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (73106,248446,'Pithoragarh Takana Colony (MB) - Ward No.2');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (73118,248446,'Pithoragarh Tildhukri (MB) - Ward No.14');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (73111,248446,'Pithoragarh Vin Jakhni (MB) - Ward No.7');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (927759,259820,'Pokhri (NP) -Dever Ward No. 7');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (927758,259820,'Pokhri (NP) -Devesthaan Ward No. 6');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (927756,259820,'Pokhri (NP) -Guniyala Ward No. 4');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (927754,259820,'Pokhri (NP) -Pokhri Lower Ward No. 2');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (927753,259820,'Pokhri (NP) -Pokhri Uper Ward No. 1');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (927755,259820,'Pokhri (NP) -Vinayakdhaar Ward No. 3');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (927757,259820,'Pokhri (NP) -Vishaal Ward No. 5');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (927786,262841,'Purola (NP) - Court Road Ward No. 4');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (927788,262841,'Purola (NP) - Durga Mandir Ward No. 6');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (927787,262841,'Purola (NP) - Khablisera Ward No. 5');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (927789,262841,'Purola (NP) - Naagraja Mandir Ward No. 7');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (927783,262841,'Purola (NP) - Purola Gaon Ward No. 1');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (927784,262841,'Purola (NP) - Srigul Mandir Ward No. 2');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (927785,262841,'Purola (NP) - Vidhya Mandir Ward No. 3');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (18409,248457,'Ramnagar (MB) - Badi Maszid Ward No.8');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1296571,248457,'Ramnagar (MB) - Bazaar Ward No.19');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (18412,248457,'Ramnagar (MB) - Block Office Ward No.11');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (18403,248457,'Ramnagar (MB) - Durgapur Bharatpuri Ward No.2');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (18410,248457,'Ramnagar (MB) - Edgaah Ward No.9');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (18416,248457,'Ramnagar (MB) - Gularghaati Pashchami Ward No.15');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1296568,248457,'Ramnagar (MB) - Gularghaati Purvi Ward No.16');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1296569,248457,'Ramnagar (MB) - Jatav Bashti Ward No.17');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (18408,248457,'Ramnagar (MB) - Kotdwar Road Ward No.7');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (18405,248457,'Ramnagar (MB) - Lakhanpur-Forest Compound Ward No.4');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1296570,248457,'Ramnagar (MB) - Moti Mahal Bumbor Ward No.18');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (18411,248457,'Ramnagar (MB) - Moti Maszid Ward No.10');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (18413,248457,'Ramnagar (MB) - Prathmik Vidhyalay Ward No.12');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (18402,248457,'Ramnagar (MB) - P.W.D. Vishram Bhavan Ward No.1');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (18415,248457,'Ramnagar (MB) - Railway Padaav Ward No.14');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (18406,248457,'Ramnagar (MB) - Shantikunj Ward No.5');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (18404,248457,'Ramnagar (MB) - Shilpkar Bashti-Teda Road Ward No.3');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (18407,248457,'Ramnagar (MB) - Taj Maszid Ward No.6');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (18414,248457,'Ramnagar (MB) - Townhall Ward No.13');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1296572,248457,'Ramnagar (MB) - Water Works Compound Ward No.20');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1297180,277190,'Adarsh Colony (Npp)-Ward No.7');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1297176,277190,'Chiliyanaula Bazaar (Npp)-Ward No.3');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1297179,277190,'Haidakhan Ward (Npp)-Ward No.6');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1297174,277190,'Industrial Ward (Npp)-Ward No.1');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1297177,277190,'Naya Bazaar (Npp)-Ward No.4');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1297175,277190,'Purana Bazaar (Npp)-Ward No.2');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1297178,277190,'Vatika Ward (Npp)-Ward No.5');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1296838,248434,'Rishikesh (MB) -20 Beega Ward No.29');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (73082,248434,'Rishikesh (MB) -Aadarsh Gram Ward No.6');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1296845,248434,'Rishikesh (MB) -Amit Gram (Pashchim) Ward No.36');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1296844,248434,'Rishikesh (MB) -Amit Gram (Purv) Ward No.35');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (73087,248434,'Rishikesh (MB) -Ashutosh nagar Ward No.11');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1296834,248434,'Rishikesh (MB) -Awas Vikas Ward No.25');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1296836,248434,'Rishikesh (MB) -Bairaj Ward No.27');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1296840,248434,'Rishikesh (MB) -Bapugram Ward No.31');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (73080,248434,'Rishikesh (MB) -Bhairav Mandir Ward No.4');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (73084,248434,'Rishikesh (MB) -Bharat Mandir Ward No.8');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1296833,248434,'Rishikesh (MB) -Bharat Vihaar Ward No.24');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (73077,248434,'Rishikesh (MB) - Chandreshwer Nagar Ward No.1');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (73079,248434,'Rishikesh (MB) -Durga Mandir Ward No.3');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (73096,248434,'Rishikesh (MB) -Ganganagar Ward No.20');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (73093,248434,'Rishikesh (MB) -Ganga Vihaar Ward No.17');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1296842,248434,'Rishikesh (MB) -Geeta Nagar Ward No.33');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1296847,248434,'Rishikesh (MB) -Indira Nagar Ward No.38');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1296843,248434,'Rishikesh (MB) -Malviya Nagar Ward No.34');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (73091,248434,'Rishikesh (MB) -Maniram Marg Ward No.15');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1296846,248434,'Rishikesh (MB) -Mansha Devi Ward No.37');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (73083,248434,'Rishikesh (MB) -Mayakund Ward No.7');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1296839,248434,'Rishikesh (MB) -Meeranagar Ward No.30');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (73085,248434,'Rishikesh (MB) -Mukharji Marg Ward No.9');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1296848,248434,'Rishikesh (MB) -Nehru Gram Ward No.39');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (73088,248434,'Rishikesh (MB) - Pragati Vihaar Ward No.12');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (73081,248434,'Rishikesh (MB) -Pushkar Mandir Ward No.5');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (73086,248434,'Rishikesh (MB) -Sadanand Marg Ward No.10');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1296832,248434,'Rishikesh (MB) -Serwaharanagar Ward No.23');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (73094,248434,'Rishikesh (MB) -Shantinagar Ward No.18');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1296831,248434,'Rishikesh (MB) -Shastrinagar Ward No.22');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1296835,248434,'Rishikesh (MB) -Shivaji Nagar Ward No.26');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (73095,248434,'Rishikesh (MB) -Someshwer Mandir Ward No.19');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (73090,248434,'Rishikesh (MB) -Subhas Nagar Ward No.14');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1296841,248434,'Rishikesh (MB) -Suman Vihaar Ward No.32');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1296849,248434,'Rishikesh (MB) -THDC Ward No.40');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (73092,248434,'Rishikesh (MB) -Tilak Marg Ward No.16');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (73078,248434,'Rishikesh (MB) -Triveni Colony Ward No.2');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1296830,248434,'Rishikesh (MB) -Uper Ganganagar Ward No.21');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (73089,248434,'Rishikesh (MB) -Valmiki Nagar Ward No.13');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1296837,248434,'Rishikesh (MB) -Veerbhadra Mandir Ward No.28');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (11685,248478,'Roorkee (MB) -Amber Talaab Pashchimi (Dakhschini Bhaag) Ward No.13');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (11678,248478,'Roorkee (MB) -Amber Talaab Purvi Ward No.6');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (11683,248478,'Roorkee (MB) -Amber Talab Pashchimi (Pashchimi Bhaag) Ward No.11');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (11674,248478,'Roorkee (MB) -Amber Talab Pashchimi (Uttari Bhaag) Ward No.2');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (11680,248478,'Roorkee (MB) -C.B.R.I Rorrkee Ward No.8');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (11673,248478,'Roorkee (MB) -Chaavmandii Ward No.1');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (11684,248478,'Roorkee (MB) -Civil Line (Dakhschini Bhaag) Ward No.12');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (11686,248478,'Roorkee (MB) -Civil Line (Madhya Bhaag) Ward No.14');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (11682,248478,'Roorkee (MB) -Civil Line (Uttari Bhaag) Ward No.10');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (11679,248478,'Roorkee (MB) -IIT Rorrkee Ward No.7');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (11688,248478,'Roorkee (MB) -Mahigraan Ward No.16');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (11691,248478,'Roorkee (MB) -Puraani Tehsil Ward No.19');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (11676,248478,'Roorkee (MB) - Purva Valli Ward No.4');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (11677,248478,'Roorkee (MB) -Purvi Deendayaal Ward No.5');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (11689,248478,'Roorkee (MB) -Raajputaana Ward No.17');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (11687,248478,'Roorkee (MB) -Raam Nagar (Dakhschini Bhaag) Ward No.15');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (11690,248478,'Roorkee (MB) -Raam Nagar (Uttari Bhaag) Ward No.18');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (11692,248478,'Roorkee (MB) -Satti Ward No.20');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (11675,248478,'Roorkee (MB) -Sekhpuri Ward No.3');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (11681,248478,'Roorkee (MB) -Soat Ward No.9');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (73009,248419,'Rudraprayag (NP) -Belni Ward No.4');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (73012,248419,'Rudraprayag (NP) -Bhanadhaar-Gulabrai Ward No.7');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (73008,248419,'Rudraprayag (NP) -Koteshwer Ward No.3');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (73011,248419,'Rudraprayag (NP) -Mahadev Mohalla-Punaad Ward No.6');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (73010,248419,'Rudraprayag (NP) -Swami Sachidanand Nagar Ward No.5');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (73006,248419,'Rudraprayag (NP) -Tilni-Amsaari Ward No.1');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (73007,248419,'Rudraprayag (NP) -Uper Bazaar Ward No.2');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (73495,248471,'Rudrapur (MB) - Ward No.1');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (73504,248471,'Rudrapur (MB) - Ward No.10');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (73505,248471,'Rudrapur (MB) - Ward No.11');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (73506,248471,'Rudrapur (MB) - Ward No.12');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (73507,248471,'Rudrapur (MB) - Ward No.13');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (73508,248471,'Rudrapur (MB) - Ward No.14');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (73509,248471,'Rudrapur (MB) - Ward No.15');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (73510,248471,'Rudrapur (MB) - Ward No.16');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (73511,248471,'Rudrapur (MB) - Ward No.17');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (73512,248471,'Rudrapur (MB) - Ward No.18');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (73513,248471,'Rudrapur (MB) - Ward No.19');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (73496,248471,'Rudrapur (MB) - Ward No.2');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (73514,248471,'Rudrapur (MB) - Ward No.20');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (73497,248471,'Rudrapur (MB) - Ward No.3');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (73498,248471,'Rudrapur (MB) - Ward No.4');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (73499,248471,'Rudrapur (MB) - Ward No.5');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (73500,248471,'Rudrapur (MB) - Ward No.6');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (73501,248471,'Rudrapur (MB) - Ward No.7');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (73502,248471,'Rudrapur (MB) - Ward No.8');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (73503,248471,'Rudrapur (MB) - Ward No.9');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1296635,262882,'Satpuli (NP) - Bus Adda Ward No. 3');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1296634,262882,'Satpuli (NP) - Centpall Hospital Ward No. 2');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1296636,262882,'Satpuli (NP) - Satpuli Malli Ward No. 4');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1296633,262882,'Satpuli (NP) - Vikash Mohalla Ward No. 1');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1297021,275633,'Selaqui (NP)-Bahadurpur Ward No. 9');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1297020,275633,'Selaqui (NP)-Banjarabashti-Purbiya Line Ward No. 8');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1297019,275633,'Selaqui (NP)-Banyakhala Ward No. 7');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1297013,275633,'Selaqui (NP)-Haripur-I Ward No. 1');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1297017,275633,'Selaqui (NP)-Jamanpur-II Ward No. 5');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1297016,275633,'Selaqui (NP)-Jamanpur-I Ward No. 4');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1297015,275633,'Selaqui (NP)-Kheda Ward No. 3');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1297018,275633,'Selaqui (NP)-Pragativihaar Ward No. 6');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1297014,275633,'Selaqui (NP)-Shivnagar Haripur (Aanshik) Ward No. 2');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (18719,248475,'Shaktigarh (NP) -Ajaad Ward No.1');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (18722,248475,'Shaktigarh (NP) -Deen Dayal Ward No.4');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1296904,248475,'Shaktigarh (NP) -Durga Mandir Ward No.5');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1296905,248475,'Shaktigarh (NP) -Netaji Subhas Ward No.6');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1296906,248475,'Shaktigarh (NP) -Ravindra Naath Ward No.7');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (18720,248475,'Shaktigarh (NP) -Shastri Ward No.2');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (18721,248475,'Shaktigarh (NP) -Shivmandir Ward No.3');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1296862,262858,'Shivaliknagar(MB) -Navodya Nagar Ward No. 13');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1296875,262858,'Shivaliknagar(MB) -Navodya Nagar Ward No. 13');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1296854,262858,'Shivaliknagar(MB) -New Shivaliknagar Ward No. 5');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1296867,262858,'Shivaliknagar(MB) -New Shivaliknagar Ward No. 5');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1296868,262858,'Shivaliknagar(MB) -New Tehri Vishthapit Ward No. 6');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1296855,262858,'Shivaliknagar(MB) -New Tehri Vishthapit Ward No. 6');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1296861,262858,'Shivaliknagar(MB) -Ramdhaam Colony Evem Kirpaal Nagar Ward No. 12');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1296874,262858,'Shivaliknagar(MB) -Ramdhaam Colony Evem Kirpaal Nagar Ward No. 12');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1296864,262858,'Shivaliknagar(MB) -Shivalik Nagar Cluster L. Evem S. Ward No. 2');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1296851,262858,'Shivaliknagar(MB) -Shivalik Nagar Cluster L. Evem S. Ward No. 2');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1296863,262858,'Shivaliknagar(MB) -Shivalik Nagar Cluster P.K. Evem J. Ward No. 1');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1296850,262858,'Shivaliknagar(MB) -Shivalik Nagar Cluster P.K. Evem J. Ward No. 1');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1296866,262858,'Shivaliknagar(MB) -Shivalik Nagar Cluster S. Ward No. 4');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1296853,262858,'Shivaliknagar(MB) -Shivalik Nagar Cluster S. Ward No. 4');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1296865,262858,'Shivaliknagar(MB) -Shivaliknagar Phase 03 Evem 04 Ward No. 3');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1296852,262858,'Shivaliknagar(MB) -Shivaliknagar Phase 03 Evem 04 Ward No. 3');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1296859,262858,'Shivaliknagar(MB) -Subhas Nagar Central Ward No. 10');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1296872,262858,'Shivaliknagar(MB) -Subhas Nagar Central Ward No. 10');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1296858,262858,'Shivaliknagar(MB) -Subhas Nagar Pashchimi Purvi Ward No. 9');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1296871,262858,'Shivaliknagar(MB) -Subhas Nagar Pashchimi Purvi Ward No. 9');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1296870,262858,'Shivaliknagar(MB) -Subhas Nagar Pashchimi Ward No. 8');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1296857,262858,'Shivaliknagar(MB) -Subhas Nagar Pashchimi Ward No. 8');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1296873,262858,'Shivaliknagar(MB) -Subhas Nagar Purvi Ward No. 11');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1296860,262858,'Shivaliknagar(MB) -Subhas Nagar Purvi Ward No. 11');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1296869,262858,'Shivaliknagar(MB) -Tehri Vishthapit Dakhchini Colony Ward No. 7');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1296856,262858,'Shivaliknagar(MB) -Tehri Vishthapit Dakhchini Colony Ward No. 7');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (73528,248476,'Sitarganj (MB) -Agrasen Trust Ward No.8');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (73523,248476,'Sitarganj (MB) -Aspataal Ward No.3');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (73521,248476,'Sitarganj (MB) -Chintimajra Ward No.1');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (73524,248476,'Sitarganj (MB) -Islamnagar Ward No.4');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (73522,248476,'Sitarganj (MB) -Jama Maszid Ward No.2');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (73530,248476,'Sitarganj (MB) -Maharana Pratap Chaok Ward No.10');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (73531,248476,'Sitarganj (MB) -Nayi Bashti-Subhas Nagar Ward No.11');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1296876,248476,'Sitarganj (MB) -Pandri Kheda Ward No.12');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (73527,248476,'Sitarganj (MB) -Ramleela Ward No.7');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (73529,248476,'Sitarganj (MB) -Saraswati Ward No.9');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (73525,248476,'Sitarganj (MB) -Tehsil Ward No.5');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1296877,248476,'Sitarganj (MB) -Turna Aspataal Ward No.13');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (73526,248476,'Sitarganj (MB) -Uper Bahgul Ward No.6');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (17468,248437,'Srinagar (MB) - Agency Mohalla Ward No.4');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (17473,248437,'Srinagar (MB) - Bagiro ka Baag Maiy Aamrkunj Ward No.9');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1296575,248437,'Srinagar (MB) - Daang Ward No.12');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (17471,248437,'Srinagar (MB) - Ganesh Bazaar Maiy Bhagirathipuram Ward No.7');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1296573,248437,'Srinagar (MB) - Kamleshwer Bagwan Ward No.10');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (17470,248437,'Srinagar (MB) - Kansmardani Sain Ward No.6');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (17472,248437,'Srinagar (MB) - Niranjani Baag Ward No.8');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (17467,248437,'Srinagar (MB) - Rewadi Kandai Ward No.3');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1296574,248437,'Srinagar (MB) - Sheetalamata Maiy SSB Ward No.11');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (17466,248437,'Srinagar (MB) - Srikot Ganganaali Malla Ward No.2');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (17465,248437,'Srinagar (MB) - Srikot Ganganaali Talla Ward No.1');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1296576,248437,'Srinagar (MB) - Ufalda Ward No.13');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (17469,248437,'Srinagar (MB) - Uper Bazaar Ward No.5');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (18526,248466,'Sultanpur (NP) - Adarshnagar Ward No.7');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (18525,248466,'Sultanpur (NP) - Aryanagar Ward No.6');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (18521,248466,'Sultanpur (NP) - Gaandhinagar Ward No.2');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (18523,248466,'Sultanpur (NP) - Netanagar Ward No.4');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (18520,248466,'Sultanpur (NP) - Shivnagar Ward No.1');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (18524,248466,'Sultanpur (NP) - Syamnagar Ward No.5');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (18522,248466,'Sultanpur (NP) - Taandabanzara Ward No.3');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (927594,262843,'Swargashram (NP) -Jonk Ward No. 2');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (927593,262843,'Swargashram (NP) -Lakshmanjhula Ward No. 1');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (927601,262843,'Swargashram (NP) -Parmarth Niketan Ward No. 4');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (927600,262843,'Swargashram (NP) -Swargasharm Ward No. 3');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (17667,248452,'Tanakpur (MB) - Bada Bazaar Ward No.8');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (17668,248452,'Tanakpur (MB) - Ghasiyaari Mandi Ward No.9');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1296577,248452,'Tanakpur (MB) - Kaarki Farm Ward No.10');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (17665,248452,'Tanakpur (MB) - Karmchaari Colony Ward No.6');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (17666,248452,'Tanakpur (MB) - Lal Imli Padaav Ward No.7');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (17661,248452,'Tanakpur (MB) - Maszid Aria Ward No.2');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (17664,248452,'Tanakpur (MB) - New Town Ward No.5');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (17660,248452,'Tanakpur (MB) - Purana Tehseel Aria Ward No.1');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (17663,248452,'Tanakpur (MB) - Railway Aria Ward No.4');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1296578,248452,'Tanakpur (MB) - Vishnupuri Gyankheda Ward No.11');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (17662,248452,'Tanakpur (MB) - Warma Line Ward No.3');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (16151,248422,'Tehri (MB) -Aanchal Deri Chetra Ward No.11');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (16150,248422,'Tehri (MB) -Basant Bihaar Chetra Ward No.10');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (16143,248422,'Tehri (MB) -Bhagirathipuram Ward No.3');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (16146,248422,'Tehri (MB) -Bus Adda Chetra Ward No.6');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (16144,248422,'Tehri (MB) -Dhungidhaar Chetra Ward No.4');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (16147,248422,'Tehri (MB) -Geeta Bhavan Chetra Ward No.7');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (16149,248422,'Tehri (MB) -Jila Karyalay Evem Kurlna Market Ward No.9');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (16142,248422,'Tehri (MB) -Khandkhaal Chetra Ward No.2');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (16141,248422,'Tehri (MB) -Koti Colony Ward No.1');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (16148,248422,'Tehri (MB) -Moldhaar Chetra Ward No.8');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (16145,248422,'Tehri (MB) -Sector 5A Chetra Ward No.5');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1296641,275665,'Tharali (NP) - Bhainta Ward No. 1');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1296642,275665,'Tharali (NP) - Devrada Ward No. 2');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1296644,275665,'Tharali (NP) - Tharali Gaon Ward No. 4');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1296643,275665,'Tharali (NP) - Uper Bazaar Tharali Ward No. 3');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1306636,276616,'Geerbhuter');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1306638,276616,'Maithana Chatoli');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1306635,276616,'Rampur');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1306637,276616,'Tilwara');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1306632,276616,'Tilwara (NP) - Geed Bhuter Ward No. 2');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1306634,276616,'Tilwara (NP) - Maithana Chatoli Ward No. 4');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1306631,276616,'Tilwara (NP) - Rampur Ward No. 1');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1306633,276616,'Tilwara (NP) - Tilwara Ward No. 3');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (927618,262901,'Ukhimath (NP) -Bhateshwer Ward No 4');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (926534,262901,'Ukhimath (NP) -Gandhinagar Ward No 1');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (927615,262901,'Ukhimath (NP) -Onkareshwer Ward No 3');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (926535,262901,'Ukhimath (NP) -Udaypur Ward No 2');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (17395,248427,'Vikasnagar Ambidker (MB) - Ward No.4');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (17394,248427,'Vikasnagar Arya Samaj (MB) - Ward No.3');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (17397,248427,'Vikasnagar Babu Ghar (MB) - Ward No.6');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (17399,248427,'Vikasnagar Dharam Shala (MB) - Ward No.8');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1297011,248427,'Vikasnagar Dinkar Vihar (MB) - Ward No.10');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1297012,248427,'Vikasnagar Indera Youdehyan (MB) - Ward No.11');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (17398,248427,'Vikasnagar Kaliyan Pur (MB) - Ward No.7');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (17396,248427,'Vikasnagar Kisher Bag (MB) - Ward No.5');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (17392,248427,'Vikasnagar Rasalpur (MB) - Ward No.1');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (17400,248427,'Vikasnagar Trishla Devi (MB) - Ward No.9');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (17393,248427,'Vikasnagar Vidyapith (MB) - Ward No.2');; affectedRows: 1

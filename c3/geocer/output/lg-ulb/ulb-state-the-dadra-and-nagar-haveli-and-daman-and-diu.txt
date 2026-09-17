@@ -1,0 +1,3 @@
+query: UPDATE ulb_local_bodies SET local_body_type='Municipal Council' WHERE local_body_name='Daman' AND local_body_id='251272';; affectedRows: 1
+query: UPDATE ulb_local_bodies SET local_body_type='Municipal Council' WHERE local_body_name='Diu' AND local_body_id='251271';; affectedRows: 1
+query: UPDATE ulb_local_bodies SET local_body_type='Municipal Council' WHERE local_body_name='Silvassa' AND local_body_id='251273';; affectedRows: 1

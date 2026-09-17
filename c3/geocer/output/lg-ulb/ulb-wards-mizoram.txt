@@ -1,0 +1,242 @@
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (12379,249770,'Aizawl (Nt) - Ward No.1');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (12388,249770,'Aizawl (Nt) - Ward No.10');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (12389,249770,'Aizawl (Nt) - Ward No.11');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (12390,249770,'Aizawl (Nt) - Ward No.12');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (12391,249770,'Aizawl (Nt) - Ward No.13');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (12392,249770,'Aizawl (Nt) - Ward No.14');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (12393,249770,'Aizawl (Nt) - Ward No.15');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (12394,249770,'Aizawl (Nt) - Ward No.16');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (12395,249770,'Aizawl (Nt) - Ward No.17');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (12396,249770,'Aizawl (Nt) - Ward No.18');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (12397,249770,'Aizawl (Nt) - Ward No.19');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (12380,249770,'Aizawl (Nt) - Ward No.2');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (12398,249770,'Aizawl (Nt) - Ward No.20');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (12399,249770,'Aizawl (Nt) - Ward No.21');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (12400,249770,'Aizawl (Nt) - Ward No.22');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (12401,249770,'Aizawl (Nt) - Ward No.23');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (12402,249770,'Aizawl (Nt) - Ward No.24');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (12403,249770,'Aizawl (Nt) - Ward No.25');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (12404,249770,'Aizawl (Nt) - Ward No.26');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (12405,249770,'Aizawl (Nt) - Ward No.27');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (12406,249770,'Aizawl (Nt) - Ward No.28');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (12407,249770,'Aizawl (Nt) - Ward No.29');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (12381,249770,'Aizawl (Nt) - Ward No.3');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (12408,249770,'Aizawl (Nt) - Ward No.30');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (12409,249770,'Aizawl (Nt) - Ward No.31');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (12410,249770,'Aizawl (Nt) - Ward No.32');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (12411,249770,'Aizawl (Nt) - Ward No.33');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (12368,249770,'Aizawl (Nt) - Ward No.34');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (12369,249770,'Aizawl (Nt) - Ward No.35');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (12370,249770,'Aizawl (Nt) - Ward No.36');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (12371,249770,'Aizawl (Nt) - Ward No.37');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (12372,249770,'Aizawl (Nt) - Ward No.38');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (12373,249770,'Aizawl (Nt) - Ward No.39');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (12382,249770,'Aizawl (Nt) - Ward No.4');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (12374,249770,'Aizawl (Nt) - Ward No.40');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (12412,249770,'Aizawl (Nt) - Ward No.41');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (12413,249770,'Aizawl (Nt) - Ward No.42');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (12414,249770,'Aizawl (Nt) - Ward No.43');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (12415,249770,'Aizawl (Nt) - Ward No.44');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (12416,249770,'Aizawl (Nt) - Ward No.45');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (12417,249770,'Aizawl (Nt) - Ward No.46');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (12418,249770,'Aizawl (Nt) - Ward No.47');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (12419,249770,'Aizawl (Nt) - Ward No.48');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (12420,249770,'Aizawl (Nt) - Ward No.49');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (12383,249770,'Aizawl (Nt) - Ward No.5');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (12421,249770,'Aizawl (Nt) - Ward No.50');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (12422,249770,'Aizawl (Nt) - Ward No.51');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (12423,249770,'Aizawl (Nt) - Ward No.52');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (12424,249770,'Aizawl (Nt) - Ward No.53');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (12425,249770,'Aizawl (Nt) - Ward No.54');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (12426,249770,'Aizawl (Nt) - Ward No.55');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (12427,249770,'Aizawl (Nt) - Ward No.56');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (12428,249770,'Aizawl (Nt) - Ward No.57');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (12429,249770,'Aizawl (Nt) - Ward No.58');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (12430,249770,'Aizawl (Nt) - Ward No.59');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (12384,249770,'Aizawl (Nt) - Ward No.6');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (12431,249770,'Aizawl (Nt) - Ward No.60');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (12432,249770,'Aizawl (Nt) - Ward No.61');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (12433,249770,'Aizawl (Nt) - Ward No.62');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (12434,249770,'Aizawl (Nt) - Ward No.63');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (12435,249770,'Aizawl (Nt) - Ward No.64');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (12436,249770,'Aizawl (Nt) - Ward No.65');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (12437,249770,'Aizawl (Nt) - Ward No.66');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (12438,249770,'Aizawl (Nt) - Ward No.67');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (12439,249770,'Aizawl (Nt) - Ward No.68');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (12440,249770,'Aizawl (Nt) - Ward No.69');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (12385,249770,'Aizawl (Nt) - Ward No.7');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (12386,249770,'Aizawl (Nt) - Ward No.8');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (12387,249770,'Aizawl (Nt) - Ward No.9');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1297225,277318,'Aizawl Venglai');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1297236,277318,'Armed Veng');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1297237,277318,'Armed Veng South');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1297215,277318,'Bawngkawn');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1297216,277318,'Bawngkawn South');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1297269,277318,'Bethlehem');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1297270,277318,'Bethlehem Vengthlang');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1297264,277318,'Bungkawn');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1297265,277318,'Bungkawn Vengthar');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1297214,277318,'Chaltlang');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (2495591,277318,'Chaltlang Lily Veng');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1297229,277318,'Chamari West');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1297227,277318,'Chanmari');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1297248,277318,'Chawlhmun');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1297243,277318,'Chawnpui');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1297241,277318,'Chhinga Veng');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1297238,277318,'Chite');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1297271,277318,'College Veng');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1297278,277318,'Dam Veng');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1297239,277318,'Dawrpui');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1297258,277318,'Dawrpui Vengthar');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1297257,277318,'Dinthar');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1297210,277318,'Durtlang');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1297211,277318,'Durtlang Leitan');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1297209,277318,'Durtlang North');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1297230,277318,'Edenthar');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1297226,277318,'Electric');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1297234,277318,'Falkland');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1297246,277318,'Government Complex');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1297286,277318,'Hlimen');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1297231,277318,'Hunthar');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1297281,277318,'I.T.I');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1297260,277318,'Kanan');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1297261,277318,'Khatla');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (2495590,277318,'Khatla East');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1297262,277318,'Khatla South');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1297282,277318,'Kulikawn');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1297221,277318,'Laipuitlang');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1297267,277318,'Lawipu');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1297247,277318,'Luangmual');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1297266,277318,'Maubawk');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1297285,277318,'Melthum');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1297276,277318,'Mission Veng');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1297263,277318,'Mission Vengthlang');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (2495589,277318,'Model Veng');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1297213,277318,'Muanna Veng');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1297268,277318,'Nursery');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1297252,277318,'Phunchawng');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1297217,277318,'Ramhlun North');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1297222,277318,'Ramhlun South');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1297220,277318,'Ramhlun Sports Complex');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1297218,277318,'Ramhlun Venglai');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1297219,277318,'Ramhlun Vengthar');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1297224,277318,'Ramthar');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1297223,277318,'Ramthar North');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1297251,277318,'Rangvamual');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1297273,277318,'Republic');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1297275,277318,'Republic Vengthlang');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1297284,277318,'Saikhamakawn');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1297250,277318,'Sakawrtuichhun');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1297277,277318,'Salem Veng');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1297240,277318,'Saron');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1297208,277318,'Selesih');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1297249,277318,'Tanhril');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1297280,277318,'Thakthing');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1297235,277318,'Thuampui');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1297283,277318,'Tlangnuam');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (2495592,277318,'Tlangnuam Vengthar');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (2495588,277318,'Tuikhuahtlang');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1297255,277318,'Tuikual North');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1297256,277318,'Tuikual South');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1297242,277318,'Tuithiang');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1297254,277318,'Tuivamit');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1297274,277318,'Upper Republic');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1297259,277318,'Vaivakawn');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1297272,277318,'Venghlui');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1297279,277318,'Venghnuai');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1297228,277318,'Zarkawt');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1297232,277318,'Zembawk');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1297233,277318,'Zembawk North');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1297245,277318,'Zonuam');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1297244,277318,'Zotlang');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1297212,277318,'Zuangtui');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (12356,249765,'Bairabi (Nt) - Ward No.1');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (12461,249775,'Biate (Nt) - Ward No.1');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (12445,249773,'Champhai (Nt) - Ward No.1');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (12454,249773,'Champhai (Nt) - Ward No.10');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (12455,249773,'Champhai (Nt) - Ward No.11');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (12456,249773,'Champhai (Nt) - Ward No.12');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (12457,249773,'Champhai (Nt) - Ward No.13');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (12458,249773,'Champhai (Nt) - Ward No.14');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (12459,249773,'Champhai (Nt) - Ward No.15');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (12446,249773,'Champhai (Nt) - Ward No.2');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (12447,249773,'Champhai (Nt) - Ward No.3');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (12448,249773,'Champhai (Nt) - Ward No.4');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (12449,249773,'Champhai (Nt) - Ward No.5');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (12450,249773,'Champhai (Nt) - Ward No.6');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (12451,249773,'Champhai (Nt) - Ward No.7');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (12452,249773,'Champhai (Nt) - Ward No.8');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (12453,249773,'Champhai (Nt) - Ward No.9');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (12377,249768,'Darlawn (Nt) - Ward No.1');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (12378,249768,'Darlawn (Nt) - Ward No.54');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (12471,249781,'Hnahthial (Nt) - Ward No.1');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (12460,249774,'Khawhai (Nt) - Ward No.1');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (12441,249772,'Khawzawl (Nt) - Ward No.1');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (12442,249772,'Khawzawl (Nt) - Ward No.2');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (12443,249772,'Khawzawl (Nt) - Ward No.3');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (12444,249772,'Khawzawl (Nt) - Ward No.4');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (12357,249766,'Kolasib (Nt) - Ward No.1');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (12358,249766,'Kolasib (Nt) - Ward No.2');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (12359,249766,'Kolasib (Nt) - Ward No.3');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (12360,249766,'Kolasib (Nt) - Ward No.4');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (12361,249766,'Kolasib (Nt) - Ward No.5');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (12362,249766,'Kolasib (Nt) - Ward No.6');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (12363,249766,'Kolasib (Nt) - Ward No.7');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (12364,249766,'Kolasib (Nt) - Ward No.8');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (12365,249766,'Kolasib (Nt) - Ward No.9');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (12354,249763,'Lengpui (Nt) - Ward No.1');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (68652,249780,'Lunglei (Nt) - Ward No.1');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (68661,249780,'Lunglei (Nt) - Ward No.10');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (68662,249780,'Lunglei (Nt) - Ward No.11');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (68663,249780,'Lunglei (Nt) - Ward No.12');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (68664,249780,'Lunglei (Nt) - Ward No.13');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (68665,249780,'Lunglei (Nt) - Ward No.14');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (68666,249780,'Lunglei (Nt) - Ward No.15');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (68667,249780,'Lunglei (Nt) - Ward No.16');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (68668,249780,'Lunglei (Nt) - Ward No.17');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (68669,249780,'Lunglei (Nt) - Ward No.18');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (68670,249780,'Lunglei (Nt) - Ward No.19');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (68653,249780,'Lunglei (Nt) - Ward No.2');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (68671,249780,'Lunglei (Nt) - Ward No.20');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (68672,249780,'Lunglei (Nt) - Ward No.21');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (68673,249780,'Lunglei (Nt) - Ward No.22');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (68654,249780,'Lunglei (Nt) - Ward No.3');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (68655,249780,'Lunglei (Nt) - Ward No.4');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (68656,249780,'Lunglei (Nt) - Ward No.5');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (68657,249780,'Lunglei (Nt) - Ward No.6');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (68658,249780,'Lunglei (Nt) - Ward No.7');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (68659,249780,'Lunglei (Nt) - Ward No.8');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (68660,249780,'Lunglei (Nt) - Ward No.9');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (68642,249762,'Mamit (Nt) - Ward No.1');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (12366,249767,'N.Kawnpui (Nt) - Ward No.1');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (12367,249767,'N.Kawnpui (Nt) - Ward No.2');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (12468,249778,'N.Vanlaiphai (Nt) - Ward No.1');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (68674,249782,'Saiha (Nt) - Ward No.1');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (68675,249782,'Saiha (Nt) - Ward No.2');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (68676,249782,'Saiha (Nt) - Ward No.3');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (68677,249782,'Saiha (Nt) - Ward No.4');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (68678,249782,'Saiha (Nt) - Ward No.5');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (68679,249782,'Saiha (Nt) - Ward No.6');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (68680,249782,'Saiha (Nt) - Ward No.7');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (68681,249782,'Saiha (Nt) - Ward No.8');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (68682,249782,'Saiha (Nt) - Ward No.9');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (68643,249769,'Sairang (Nt) - Ward No.1');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (68644,249769,'Sairang (Nt) - Ward No.2');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (68645,249769,'Sairang (Nt) - Ward No.3');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (68646,249769,'Sairang (Nt) - Ward No.4');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (68647,249771,'Saitual (Nt) - Ward No.1');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (68648,249771,'Saitual (Nt) - Ward No.2');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (68649,249771,'Saitual (Nt) - Ward No.3');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (68651,249771,'Saitual (Nt) - Ward No.33');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (68650,249771,'Saitual (Nt) - Ward No.4');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (12462,249776,'Serchhip (Nt) - Ward No.1');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (12463,249776,'Serchhip (Nt) - Ward No.2');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (12464,249776,'Serchhip (Nt) - Ward No.3');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (12465,249776,'Serchhip (Nt) - Ward No.4');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (12466,249776,'Serchhip (Nt) - Ward No.5');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (12467,249777,'Thenzawl (Nt) - Ward No.1');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (12469,249779,'Tlabung (Nt) - Ward No.1');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (12470,249779,'Tlabung (Nt) - Ward No.2');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (12355,249764,'Vairengte (Nt) - Ward No.1');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (12375,249761,'Zawlnuam (Nt) - Ward No.1');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (12376,249761,'Zawlnuam (Nt) - Ward No.2');; affectedRows: 1

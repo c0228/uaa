@@ -1,0 +1,1 @@
+query: UPDATE ulb_local_bodies SET local_body_type='Municipality' WHERE local_body_name='Port Blair' AND local_body_id='253098';; affectedRows: 1

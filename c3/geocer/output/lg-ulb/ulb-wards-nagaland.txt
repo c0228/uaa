@@ -1,0 +1,407 @@
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1269669,276216,'Aboi Town (TC) - Ward No.1 ANGLONG WARD');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1269670,276216,'Aboi Town (TC) - Ward No.2 KOIWANG WARD');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1269671,276216,'Aboi Town (TC) - Ward No.3 ABOI YANG WARD');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1269672,276216,'Aboi Town (TC) - Ward No.4 KEIHA WARD');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1269673,276216,'Aboi Town (TC) - Ward No.5 PENKHONG WARD');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1269674,276216,'Aboi Town (TC) - Ward No.6 SHAMMANG WARD');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1269675,276216,'Aboi Town (TC) - Ward No.7 HAHNYAN WARD');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1269676,276216,'Aboi Town (TC) - Ward No.8 MANSHAM WARD');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1269677,276216,'Aboi Town (TC) - Ward No.9 YONGKEM WARD');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (3293822,299085,'Ward 1');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (3293823,299085,'Ward 2');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (3293824,299085,'Ward 3');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (3293825,299085,'Ward 4');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (3293826,299085,'Ward 5');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (3293827,299085,'Ward 6');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (3293828,299085,'Ward 7');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (3293829,299085,'Ward 8 ');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (3293830,299085,'Ward 9');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (2979981,299086,'Ward 1');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (2979982,299086,'Ward 2');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (2979983,299086,'Ward 3');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (2979984,299086,'Ward 4');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (2979985,299086,'Ward 5');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (2979986,299086,'Ward 6');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (2979987,299086,'Ward 7');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (2979988,299086,'Ward 8');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (2979989,299086,'Ward 9');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1269678,276219,'Bhandari Town (TC) - Ward No.1 ETHUNG WARD');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1269679,276219,'Bhandari Town (TC) - Ward No.2 MERITCHU WARD');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1269680,276219,'Bhandari Town (TC) - Ward No.3 CHANKA WARD');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1269681,276219,'Bhandari Town (TC) - Ward No.4 ZUVOTONG/MERI WARD');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1269682,276219,'Bhandari Town (TC) - Ward No.5 LIKYA WARD');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1269683,276219,'Bhandari Town (TC) - Ward No.6 HAYI WARD');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1269684,276219,'Bhandari Town (TC) - Ward No.7 ETSU/GHSS WARD');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1269685,276219,'Bhandari Town (TC) - Ward No.8 TSUMANG WARD');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1269686,276219,'Bhandari Town (TC) - Ward No.9 MEDICAL WARD');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (2297393,253207,'Changtongya Town (TC) - Ward No. 10 LONGCHARA B WARD');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (2297394,253207,'Changtongya Town (TC) - Ward No. 11 TZUMOK KONG WARD');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (2297384,253207,'Changtongya Town (TC) - Ward No. 1 ELECTRICAL WARD');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (2297385,253207,'Changtongya Town (TC) - Ward No. 2 ENTSUTSU WARD');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (2297386,253207,'Changtongya Town (TC) - Ward No. 3 WINDY WARD');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (2297387,253207,'Changtongya Town (TC) - Ward No. 4 SUNRISE - II WARD');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (2297388,253207,'Changtongya Town (TC) - Ward No. 5 SUNRISE - I WARD');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (2297389,253207,'Changtongya Town (TC) - Ward No. 6 CHURCH WARD');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (2297390,253207,'Changtongya Town (TC) - Ward No. 7 MEDICAL WARD');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (2297391,253207,'Changtongya Town (TC) - Ward No. 8 P.W.D. WARD');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (2297392,253207,'Changtongya Town (TC) - Ward No. 9 LONGCHARA A WARD');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (3294140,299088,'ADC WARD');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (3294139,299088,'CHAZOUCHA WARD');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (3294143,299088,'DIET WARD');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (3294142,299088,'HOSPITAL WARD');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (3294137,299088,'KHADUZIE-CHURCH WARD');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (3294136,299088,'KHADUZIE-VINYUZEHIE WARD');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (3294138,299088,'MODEL WARD');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (3294141,299088,'PHEZOU WARD');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (3294144,299088,'SOGOKIZOU WARD');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1269687,276220,'Chozuba Town (TC) - Ward No.1 ZASEMURU-KHUTSAZHO WARD');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1269688,276220,'Chozuba Town (TC) - Ward No.2 NYOHOKHARU WARD');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1269689,276220,'Chozuba Town (TC) - Ward No.3 PHAKUZHO WARD');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1269690,276220,'Chozuba Town (TC) - Ward No.4 CHOZU WARD');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1269691,276220,'Chozuba Town (TC) - Ward No.5 MUZABOKA WARD');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1269692,276220,'Chozuba Town (TC) - Ward No.6 THOZHE WARD');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1269693,276220,'Chozuba Town (TC) - Ward No.7 RIKHU-DZULUBA WARD');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1269694,276220,'Chozuba Town (TC) - Ward No.8 RIKHUBA-VETHOZHO WARD');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1269695,276220,'Chozuba Town (TC) - Ward No.9 THUJIBA- TIMEBA WARD');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (71573,249721,'Chumukedima (CT) - Ward No.10 CHUHUOTSA WARD');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (71574,249721,'Chumukedima (CT) - Ward No.11 CHARA WARD');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (72995,249721,'Chumukedima (CT) - Ward No.1KHADERU WARD');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (71565,249721,'Chumukedima (CT) - Ward No.2 PHETSO WARD');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (71566,249721,'Chumukedima (CT) - Ward No.3 CHATE-I WARD');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (71567,249721,'Chumukedima (CT) - Ward No.4 CHATE-II WARD');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (71568,249721,'Chumukedima (CT) - Ward No.5 PHELUO WARD');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (71569,249721,'Chumukedima (CT) - Ward No.6 DZUDE-I WARD');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (71570,249721,'Chumukedima (CT) - Ward No.7 DZUDE-II WARD');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (71571,249721,'Chumukedima (CT) - Ward No.8 SEIRU WARD');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (71572,249721,'Chumukedima (CT) - Ward No.9 RADEITSA WARD');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (15608,249720,'Dimapur (TC) - Ward No.1');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (15617,249720,'Dimapur (TC) - Ward No.10');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (15618,249720,'Dimapur (TC) - Ward No.11');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (15619,249720,'Dimapur (TC) - Ward No.12');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (15620,249720,'Dimapur (TC) - Ward No.13');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (15621,249720,'Dimapur (TC) - Ward No.14');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (15622,249720,'Dimapur (TC) - Ward No.15');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (15623,249720,'Dimapur (TC) - Ward No.16');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (15624,249720,'Dimapur (TC) - Ward No.17');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (15625,249720,'Dimapur (TC) - Ward No.18');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (15626,249720,'Dimapur (TC) - Ward No.19');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (15609,249720,'Dimapur (TC) - Ward No.2');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (15627,249720,'Dimapur (TC) - Ward No.20');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (15628,249720,'Dimapur (TC) - Ward No.21');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (4922,249720,'Dimapur (TC) - Ward No.22');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (4923,249720,'Dimapur (TC) - Ward No.23');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (15610,249720,'Dimapur (TC) - Ward No.3');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (15611,249720,'Dimapur (TC) - Ward No.4');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (15612,249720,'Dimapur (TC) - Ward No.5');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (15613,249720,'Dimapur (TC) - Ward No.6');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (15614,249720,'Dimapur (TC) - Ward No.7');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (15615,249720,'Dimapur (TC) - Ward No.8');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (15616,249720,'Dimapur (TC) - Ward No.9');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1269705,276217,'East Dimapur (TC) - Ward No.10 NAHARBARI VALLEY WARD');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1269706,276217,'East Dimapur (TC) - Ward No.11 UPPER NAHARBARI WARD');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1269696,276217,'East Dimapur (TC) - Ward No.1 ZION WARD');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1269697,276217,'East Dimapur (TC) - Ward No.2 MODEL WARD');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1269698,276217,'East Dimapur (TC) - Ward No.3 JORAPUKHURI WARD');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1269699,276217,'East Dimapur (TC) - Ward No.4 NEW WARD');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1269700,276217,'East Dimapur (TC) - Ward No.5 MOUNT VIEW WARD');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1269701,276217,'East Dimapur (TC) - Ward No.6 HIGH SCHOOL WARD');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1269702,276217,'East Dimapur (TC) - Ward No.7 MIDDLE WARD');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1269703,276217,'East Dimapur (TC) - Ward No.8 NAHARBARI UNITY WARD');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1269704,276217,'East Dimapur (TC) - Ward No.9 NAHARBARI HIGHWAY WARD');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (2297395,253205,'Jalukie Town (TC) - Ward No. 1 DOBASHI COLONY WARD');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (2297396,253205,'Jalukie Town (TC) - Ward No. 2 VETERINARY COLONY WARD');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (2297397,253205,'Jalukie Town (TC) - Ward No. 3 HIGH SCHOOL COLONY WARD');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (2297398,253205,'Jalukie Town (TC) - Ward No. 4 OLD MARKET COLONY WARD');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (2297399,253205,'Jalukie Town (TC) - Ward No. 5 KEDIME COLONY WARD');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (2297400,253205,'Jalukie Town (TC) - Ward No. 6 KELEILWA COLONY WARD');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (2297401,253205,'Jalukie Town (TC) - Ward No. 7 STADIUM COLONY WARD');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (2297402,253205,'Jalukie Town (TC) - Ward No. 8 NEW MARKET COLONY WARD');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (2297403,253205,'Jalukie Town (TC) - Ward No. 9 OLD JALUKIE COLONY WARD');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (2297413,253202,'Kiphire Town (TC) - Ward No. 10 LONGYA COLONY WARD');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (2297414,253202,'Kiphire Town (TC) - Ward No. 11 JAIL COLONY WARD');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (2297404,253202,'Kiphire Town (TC) - Ward No. 1 D.C. COLONY WARD');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (2297405,253202,'Kiphire Town (TC) - Ward No. 2 GOVT. HIGH SCHOOL COLONY WARD');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (2297406,253202,'Kiphire Town (TC) - Ward No. 3 POWER HOUSE COLONY WARD');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (2297407,253202,'Kiphire Town (TC) - Ward No. 4 MEDICAL COLONY WARD');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (2297408,253202,'Kiphire Town (TC) - Ward No. 5 MISSION COMPOUND COLONY WARD');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (2297409,253202,'Kiphire Town (TC) - Ward No. 6 BAZAR COLONY WARD');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (2297410,253202,'Kiphire Town (TC) - Ward No. 7 FOREST COLONY WARD');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (2297411,253202,'Kiphire Town (TC) - Ward No. 8 REST HOUSE COLONY WARD');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (2297412,253202,'Kiphire Town (TC) - Ward No. 9 KIPONGYA COLONY WARD');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (695135,249722,'A.G Colony Ward');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (695137,249722,'Agri/Forest/Electrical Colony Ward');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (695122,249722,'Bayavu Colony Ward');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (695133,249722,'Chandmari Lower Colony Ward');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (695132,249722,'Chandmari Upper Ward');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (695127,249722,'Daklane Ward');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (695126,249722,'D. Block Ward');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (695119,249722,'High School Ward');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (695130,249722,'Hospital Colony Ward');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (695125,249722,'Kitsubozou Ward');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (695129,249722,'Midlane Ward');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (695124,249722,'Naga Bazar Ward');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (695128,249722,'New Market Ward');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (695136,249722,'New Ministers Hill/Lerie/Nst/Dairy Farm Colony Ward');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (695123,249722,'North Block Ward');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (695138,249722,'Para Medical Colony Ward');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (695134,249722,'Porterlane Ward');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (695139,249722,'P.R. Hill Colony Ward');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (695131,249722,'P.W.D Colony Ward');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1269763,276218,'Longkhim Town (TC) - Ward No.1 AKOK -A WARD');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1269764,276218,'Longkhim Town (TC) - Ward No.2 AKOK-B WARD');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1269765,276218,'Longkhim Town (TC) - Ward No.3 RONGNA WARD');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1269766,276218,'Longkhim Town (TC) - Ward No.4 TPHUKYU WARD');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1269767,276218,'Longkhim Town (TC) - Ward No.5 LITSUNG-A WARD');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1269768,276218,'Longkhim Town (TC) - Ward No.6 LITSUNG-B WARD');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1269769,276218,'Longkhim Town (TC) - Ward No.7 LONGJO-A WARD');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1269770,276218,'Longkhim Town (TC) - Ward No.8 LONGJO-B WARD');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1269771,276218,'Longkhim Town (TC) - Ward No.9 LONGJO-C WARD');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (2320558,253201,'Longleng town (TC) - Ward No.10 MULI WARD');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (2320559,253201,'Longleng town (TC) - Ward No.11 LEINAK WARD');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (2320549,253201,'Longleng town (TC) - Ward No.1 MEDICAL WARD');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (2320550,253201,'Longleng town (TC) - Ward No.2 NYENGCHING WARD');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (2320551,253201,'Longleng town (TC) - Ward No.3 SHAULI WARD');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (2320552,253201,'Longleng town (TC) - Ward No.4 HIGH SCHOOL WARD');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (2320553,253201,'Longleng town (TC) - Ward No.5AGRI WARD');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (2320554,253201,'Longleng town (TC) - Ward No.6 PPC WARD');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (2320555,253201,'Longleng town (TC) - Ward No.7 SHAYUNG WARD');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (2320556,253201,'Longleng town (TC) - Ward No.8 BAHOK WARD');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (2320557,253201,'Longleng town (TC) - Ward No.9 SHAMKANG WARD');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1269707,276221,'Mangkolemba Town (TC) - Ward No.1 HOKIYONG WARD');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1269708,276221,'Mangkolemba Town (TC) - Ward No.2 TENEMTZUYONG WARD');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1269709,276221,'Mangkolemba Town (TC) - Ward No.3 NOKYU WARD');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1269710,276221,'Mangkolemba Town (TC) - Ward No.4 LUYONG WARD');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1269711,276221,'Mangkolemba Town (TC) - Ward No.5 TZULUMANG WARD');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1269712,276221,'Mangkolemba Town (TC) - Ward No.6 MANGKO WARD');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1269713,276221,'Mangkolemba Town (TC) - Ward No.7 SATIHIT WARD');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1269714,276221,'Mangkolemba Town (TC) - Ward No.8 KUMPANI WARD');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1269715,276221,'Mangkolemba Town (TC) - Ward No.9 TZUTAYONG WARD');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (2297415,253213,'Medziphema Town (TC) - Ward No. 1 SHUZARU WARD');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (2297416,253213,'Medziphema Town (TC) - Ward No. 2 BEILIE-U-ZIE WARD');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (2297417,253213,'Medziphema Town (TC) - Ward No. 3 SELUO WARD');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (2297418,253213,'Medziphema Town (TC) - Ward No. 4 MERIZIE WARD');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (2297419,253213,'Medziphema Town (TC) - Ward No. 5 THEHUBA WARD');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (2297420,253213,'Medziphema Town (TC) - Ward No. 6 ZADI WARD');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (2297421,253213,'Medziphema Town (TC) - Ward No. 7 KHENUKO WARD');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (2297422,253213,'Medziphema Town (TC) - Ward No. 8 LOLI WARD');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (2297423,253213,'Medziphema Town (TC) - Ward No. 9 SEPROLIEZIE WARD');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1269772,276222,'Meluri Town (TC) - Ward No.1 MULUOLE- I WARD');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1269773,276222,'Meluri Town (TC) - Ward No.2 MULUOLE- II WARD');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1269774,276222,'Meluri Town (TC) - Ward No.3 SARIETHSU WARD');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1269775,276222,'Meluri Town (TC) - Ward No.4 WUTSI WARD');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1269776,276222,'Meluri Town (TC) - Ward No.5 KHRUMDHO WARD');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1269777,276222,'Meluri Town (TC) - Ward No.6 RUWIE WARD');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1269778,276222,'Meluri Town (TC) - Ward No.7 MATHOHO WARD');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1269779,276222,'Meluri Town (TC) - Ward No.8 JURUKUKHE WARD');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1269780,276222,'Meluri Town (TC) - Ward No.9 RUNGAKUSU WARD');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (15592,249717,'Mokokchung (TC) - Ward No.10 SUNGKOMEN WARD');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (15593,249717,'Mokokchung (TC) - Ward No.11 SANGTEMLA WARD');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (15594,249717,'Mokokchung (TC) - Ward No.12 SALANGTEM WARD');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (15595,249717,'Mokokchung (TC) - Ward No.13 PENLI WARD');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (15596,249717,'Mokokchung (TC) - Ward No.14 TONGDENTSUYONG WARD');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (15597,249717,'Mokokchung (TC) - Ward No.15 YIMYU WARD');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (2567544,249717,'Mokokchung (TC) - Ward No. 16 MAREPKONG WARD');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (2567545,249717,'Mokokchung (TC) - Ward No. 17 MONGSENPHAI WARD');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (2567546,249717,'Mokokchung (TC) - Ward No. 18 LIJABALIJEN WARD');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (15586,249717,'Mokokchung (TC) - Ward No.1 ALEMPANG WARD');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (15587,249717,'Mokokchung (TC) - Ward No.2 ALONGMEN WARD');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (15588,249717,'Mokokchung (TC) - Ward No.3 ARKONG WARD');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (15589,249717,'Mokokchung (TC) - Ward No.4 ARDANG WARD');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (15583,249717,'Mokokchung (TC) - Ward No.5 AONGZA WARD');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (15584,249717,'Mokokchung (TC) - Ward No.6 DILONG WARD');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (15585,249717,'Mokokchung (TC) - Ward No.7 KUMLONG WARD');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (15590,249717,'Mokokchung (TC) - Ward No.8 KICHUTEP WARD');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (15591,249717,'Mokokchung (TC) - Ward No.9 MAJAKONG WARD');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (6277,249715,'Mon Town (TC) - Ward No.10 TOMPANG WARD');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (6278,249715,'Mon Town (TC) - Ward No. 11 THAMNAN WARD');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (15564,249715,'Mon Town (TC) - Ward No.1 WALO WARD');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (15565,249715,'Mon Town (TC) - Ward No.2 SHAMNYU WARD');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (15566,249715,'Mon Town (TC) - Ward No.3 ZUKLOM WARD');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (15567,249715,'Mon Town (TC) - Ward No.4 TANLAO WARD');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (15568,249715,'Mon Town (TC) - Ward No.5 WAGIEM WARD');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (15569,249715,'Mon Town (TC) - Ward No.6 TECHAHAN');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (6274,249715,'Mon Town (TC) - Ward No.7 JAHJON WARD');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (6275,249715,'Mon Town (TC) - Ward No.8 CHINGAI WARD');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (6276,249715,'Mon Town (TC) - Ward No. 9 SHANTHAM WARD');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (2297424,253203,'Naginimora Town (TC) - Ward No. 1 LAKJAN WARD');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (2297425,253203,'Naginimora Town (TC) - Ward No. 2 ANGNUNG WARD');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (2297426,253203,'Naginimora Town (TC) - Ward No. 3 BAMJONG WARD');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (2297427,253203,'Naginimora Town (TC) - Ward No. 4 CHINGJANG WARD');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (2297428,253203,'Naginimora Town (TC) - Ward No. 5 RAILWAY WARD');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (2297429,253203,'Naginimora Town (TC) - Ward No. 6 KANG WARD');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (2297430,253203,'Naginimora Town (TC) - Ward No. 7 WAKSHONG WARD');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (2297431,253203,'Naginimora Town (TC) - Ward No. 8 LEKAN WARD');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (2297432,253203,'Naginimora Town (TC) - Ward No. 9 KOTKEANG WARD');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (3293836,299083,'CHURCH WARD');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (3293837,299083,'DC WARD');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (3293833,299083,'EDUCATION WARD');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (3293834,299083,'KUHOXU ZHIMO WARD');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (3293835,299083,'MEDICAL WARD');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (3293839,299083,'PROJECT WARD');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (3293832,299083,'SHOZUXU WARD');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (3293838,299083,'VIHOTO WARD');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (3293831,299083,'VIYITO ZHIMOMI WARD');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1269716,276223,'Noklak Town (TC) - Ward No.1 KIAMNGAN WARD');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1269717,276223,'Noklak Town (TC) - Ward No.2 HIGH SCHOOL SECTOR-A WARD');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1269718,276223,'Noklak Town (TC) - Ward No.3 HIGH SCHOOL SECTOR-B WARD');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1269719,276223,'Noklak Town (TC) - Ward No.4 PUNYAONGAN WARD');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1269720,276223,'Noklak Town (TC) - Ward No.5 KHAOKHAN WARD');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1269721,276223,'Noklak Town (TC) - Ward No.6 DANLEPDONG WARD');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1269722,276223,'Noklak Town (TC) - Ward No.7 MEDICAL WARD');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1269723,276223,'Noklak Town (TC) - Ward No.8 PENNGAN WARD');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1269724,276223,'Noklak Town (TC) - Ward No.9 PENSHE/LEENG WARD');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (2297433,253204,'Peren Town (TC) - Ward No. 1 PEUKWAKRAM WARD');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (2297434,253204,'Peren Town (TC) - Ward No. 2 KELEZAI COLONY WARD');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (2297435,253204,'Peren Town (TC) - Ward No. 3 NSETNING COLONY WARD');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (2297436,253204,'Peren Town (TC) - Ward No. 4 NDINING COLONY WARD');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (2297437,253204,'Peren Town (TC) - Ward No. 5 DUIRING COLONY WARD');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (2297438,253204,'Peren Town (TC) - Ward No. 6 MDIPUIRAM COLONY WARD');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (2297439,253204,'Peren Town (TC) - Ward No. 7 BANA COLONY WARD');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (2297440,253204,'Peren Town (TC) - Ward No. 8 BEILIKUI COLONY WARD');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (2297441,253204,'Peren Town (TC) - Ward No. 9 NKOZAI COLONY WARD');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (2297451,253210,'Pfutsero Town (TC) - Ward No.10 TESE COLONY WARD');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (2297452,253210,'Pfutsero Town (TC) - Ward No.11 ZHIPA COLONY WARD');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (2297442,253210,'Pfutsero Town (TC) - Ward No.1 CHIKRI NASA COLONY WARD');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (2297443,253210,'Pfutsero Town (TC) - Ward No.2 FOREST COLONY WARD');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (2297444,253210,'Pfutsero Town (TC) - Ward No.3 KETOUPA COLONY WARD');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (2297445,253210,'Pfutsero Town (TC) - Ward No.4 MENIPIDE COLONY WARD');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (2297446,253210,'Pfutsero Town (TC) - Ward No.5 MISSION COMPOUND COLONY WARD');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (2297447,253210,'Pfutsero Town (TC) - Ward No.6 P.W.D. COLONY WARD');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (2297448,253210,'Pfutsero Town (TC) - Ward No.7 REKU COLONY WARD');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (2297449,253210,'Pfutsero Town (TC) - Ward No.8 RUKIZU COLONY WARD');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (2297450,253210,'Pfutsero Town (TC) - Ward No.9 SEED FARM COLONY WARD');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (11827,249723,'Phek (TC) - Ward No.10 HEBRON-I');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (5970,249723,'Phek (TC) - Ward No.11 HEBRON-II');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (11818,249723,'Phek (TC) - Ward No.1 BIBLE HILL');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (11819,249723,'Phek (TC) - Ward No.2 ZION');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (11820,249723,'Phek (TC) - Ward No.3 MISSION COMPOUND');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (11821,249723,'Phek (TC) - Ward No.4 NEW COLONY');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (11822,249723,'Phek (TC) - Ward No.5 BETHEL');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (11823,249723,'Phek (TC) - Ward No.6 BETHANY-II');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (11824,249723,'Phek (TC) - Ward No.7 BETHANY-I');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (11825,249723,'Phek (TC) - Ward No.8 JERICHO-I');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (11826,249723,'Phek (TC) - Ward No.9 JERICHO-II');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1269725,276224,'Pungro Town (TC) - Ward No.1 KHIANGTOPONG WARD');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1269726,276224,'Pungro Town (TC) - Ward No.2 OFFICERS WARD');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1269727,276224,'Pungro Town (TC) - Ward No.3 REST HOUSE WARD');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1269728,276224,'Pungro Town (TC) - Ward No.4 OLD BAZAAR WARD');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1269729,276224,'Pungro Town (TC) - Ward No.5 MISSION WARD');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1269730,276224,'Pungro Town (TC) - Ward No.6 MEDICAL WARD');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1269731,276224,'Pungro Town (TC) - Ward No.7 TSUVONG WARD');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1269732,276224,'Pungro Town (TC) - Ward No.8 FOREST WARD');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1269733,276224,'Pungro Town (TC) - Ward No.9 PWD WARD');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (3293848,299087,'ADMINISTRATION HILL WARD');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (3293842,299087,'A-KHEL WARD');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (3293841,299087,'ATUKUZHU WARD');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (3293844,299087,'B-KHEL WARD');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (3293845,299087,'CENTRE WARD');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (3293840,299087,'OLD GROUND WARD');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (3293847,299087,'SCHOOLS WARD');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (3293846,299087,'THOCHIU WARD');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (3293843,299087,'VETERINARY WARD');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1269743,276225,'Shamator Town (TC) - Ward No.10 NAP WARD');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1269744,276225,'Shamator Town (TC) - Ward No.11 MEDICAL WARD');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1269734,276225,'Shamator Town (TC) - Ward No.1 GHSS WARD');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1269735,276225,'Shamator Town (TC) - Ward No.2 PWD WARD');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1269736,276225,'Shamator Town (TC) - Ward No.3 TSUNDANG WARD');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1269737,276225,'Shamator Town (TC) - Ward No.4 VETERINARY WARD');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1269738,276225,'Shamator Town (TC) - Ward No.5 PHED WARD');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1269739,276225,'Shamator Town (TC) - Ward No.6 SHAWUH 1 WARD');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1269740,276225,'Shamator Town (TC) - Ward No.7 ADC WARD');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1269741,276225,'Shamator Town (TC) - Ward No.8 SHAWUH 2 WARD');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1269742,276225,'Shamator Town (TC) - Ward No.9 LEANGTSUWONG WARD');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (3293853,299084,'AICHONG WARD');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (3293852,299084,'ALOK YUNG WARD');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (3293854,299084,'CHINGJI WARD');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (3293850,299084,'HEONG WARD');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (3293856,299084,'MOIJE WARD');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (3293857,299084,'NYEICHONG WARD');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (3293851,299084,'PANGHLEM WARD');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (3293849,299084,'SHAHNYU WARD');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (3293855,299084,'THAUDU WARD');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1269754,276226,'Tening Town (TC) - Ward No.1 NSUANG NPAI WARD');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1269755,276226,'Tening Town (TC) - Ward No.2 KHATLUANG WARD');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1269756,276226,'Tening Town (TC) - Ward No.3 CHEBUNG NPAI WARD');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1269757,276226,'Tening Town (TC) - Ward No.4 BUIRENG CHIAK WARD');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1269758,276226,'Tening Town (TC) - Ward No.5 NDAN ZAM WARD');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1269759,276226,'Tening Town (TC) - Ward No.6 TINGRIU GATU LUANG WARD');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1269760,276226,'Tening Town (TC) - Ward No.7 BENZU GIULUANG WARD');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1269761,276226,'Tening Town (TC) - Ward No.8 KEBAK KUANG LUANG WARD');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1269762,276226,'Tening Town (TC) - Ward No.9 MEGAIMIK KHA WARD');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1269660,276227,'Tizit Town (TC) - Ward No.1 ADC WARD');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1269661,276227,'Tizit Town (TC) - Ward No.2 SOALEM WARD');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1269662,276227,'Tizit Town (TC) - Ward No.3 YANLEM WARD');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1269663,276227,'Tizit Town (TC) - Ward No.4 PONGMA WARD');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1269664,276227,'Tizit Town (TC) - Ward No.5 PENTOM WARD');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1269665,276227,'Tizit Town (TC) - Ward No.6 FOREST WARD');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1269666,276227,'Tizit Town (TC) - Ward No.7 MEDICAL WARD');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1269667,276227,'Tizit Town (TC) - Ward No.8 INDUSTRY WARD');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1269668,276227,'Tizit Town (TC) - Ward No.9 POLICE WARD');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1269745,276228,'Tobu Town (TC) - Ward No.1 ADC WARD');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1269746,276228,'Tobu Town (TC) - Ward No.2 LOWER HIGH SCHOOL WARD');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1269747,276228,'Tobu Town (TC) - Ward No.3 KAPCHANGYEANG WARD');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1269748,276228,'Tobu Town (TC) - Ward No.4 NST WARD');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1269749,276228,'Tobu Town (TC) - Ward No.5 BAZAAR-A WARD');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1269753,276228,'Tobu Town (TC) - Ward No.6 BAZAAR-B WARD');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1269750,276228,'Tobu Town (TC) - Ward No.7 UPPER HIGH SCHOOL WARD');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1269751,276228,'Tobu Town (TC) - Ward No.8 SHAMNYAK WARD');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (1269752,276228,'Tobu Town (TC) - Ward No.9 OLD MEDICAL WARD');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (2297453,253209,'Tseminyu Town (TC) - Ward No.1 TSOKHINSI WARD');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (2297454,253209,'Tseminyu Town (TC) - Ward No.2 NST WARD');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (2297455,253209,'Tseminyu Town (TC) - Ward No.3 REST HOUSE WARD');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (2297456,253209,'Tseminyu Town (TC) - Ward No.4 A.D.C HILL WARD');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (2297457,253209,'Tseminyu Town (TC) - Ward No.5 THANA WARD');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (2297458,253209,'Tseminyu Town (TC) - Ward No.6 OLD TELECOM WARD');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (2297459,253209,'Tseminyu Town (TC) - Ward No.7 TSONCHOSEN WARD');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (2297460,253209,'Tseminyu Town (TC) - Ward No.8 VETERINARY WARD');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (2297461,253209,'Tseminyu Town (TC) - Ward No.9 GOVT. HIGH SCHOOL WARD');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (15579,249716,'Tuensang (TC) - Ward No.10 OLD MEDICAL B WARD');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (15580,249716,'Tuensang (TC) - Ward No.11 OFFICERS COLONY WARD');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (15581,249716,'Tuensang (TC) - Ward No.12 POST OFFICE WARD');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (15582,249716,'Tuensang (TC) - Ward No.13 3RD N.A.P WARD');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (15570,249716,'Tuensang (TC) - Ward No. 1 ST. JOHN A WARD');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (15571,249716,'Tuensang (TC) - Ward No.2 ST.JOHN B WARD');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (15572,249716,'Tuensang (TC) - Ward No.3 POLOUNYU WARD');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (15573,249716,'Tuensang (TC) - Ward No.4 HIGH SCHOOL A WARD');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (15574,249716,'Tuensang (TC) - Ward No.5 HIGH SCHOOL B WARD');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (15575,249716,'Tuensang (TC) - Ward No.6 BAZAR A WARD');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (15576,249716,'Tuensang (TC) - Ward No.7 BAZAR B WARD');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (15577,249716,'Tuensang (TC) - Ward No.8 BAZAR C WARD');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (15578,249716,'Tuensang (TC) - Ward No.9 OLD MEDICAL A WARD');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (2297462,253206,'Tuli Town (TC) - Ward No.1 TULIKONG WARD');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (2297463,253206,'Tuli Town (TC) - Ward No.2 LOKONGMENDANG WARD');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (2297464,253206,'Tuli Town (TC) - Ward No.3 SHITIKOLAK WARD');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (2297465,253206,'Tuli Town (TC) - Ward No.4 AITLENDEN WARD');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (2297466,253206,'Tuli Town (TC) - Ward No.5 TULIYONG WARD');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (2297467,253206,'Tuli Town (TC) - Ward No.6 MENDENTI WARD');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (2297468,253206,'Tuli Town (TC) - Ward No.7 PATIZUNG WARD');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (2297469,253206,'Tuli Town (TC) - Ward No.8 LONGPONG WARD');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (2297470,253206,'Tuli Town (TC) - Ward No.9 LONGLILENDEN WARD');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (71548,249719,'Wokha (TC) - Ward No.10 BLUE HILL WARD');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (71549,249719,'Wokha (TC) - Ward No.11 HAYICHAN WARD');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (71550,249719,'Wokha (TC) - Ward No. 12 PWD ZUVOTONG WARD');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (71551,249719,'Wokha (TC) - Ward No.13 GHS/MOLUNSU WARD');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (71552,249719,'Wokha (TC) - Ward No.14 VUNGOTCHU (MEDICAL/JAIL) WARD');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (71553,249719,'Wokha (TC) - Ward No.15 SARON WARD');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (72987,249719,'Wokha (TC) - Ward No.1 THERACHUMPHEN (UPPER N.S.T)');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (72988,249719,'Wokha (TC) - Ward No.2 TITAPEN WARD');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (72989,249719,'Wokha (TC) - Ward No.3 JONSULAN (TCHUBEMO) WARD');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (72990,249719,'Wokha (TC) - Ward No.4 VANA-ERHOMO (SUREN) WARD');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (72991,249719,'Wokha (TC) - Ward No.5 LIKYA WARD');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (72992,249719,'Wokha (TC) - Ward No.6 ETSUCHUKA WARD');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (72993,249719,'Wokha (TC) - Ward No.7 TSUMANG WARD');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (72994,249719,'Wokha (TC) - Ward No.8 SATHERO(TSUMANG B) WARD');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (71547,249719,'Wokha (TC) - Ward No.9 PROJECT WARD');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (15607,249718,'Zunheboto (TC) - Ward No.10 D.C. HILL WEST WARD');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (6339,249718,'Zunheboto (TC) - Ward No.11 SOUTH POINT EAST WARD');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (6340,249718,'Zunheboto (TC) - Ward No.12 SOUTH POINT WEST WARD');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (6341,249718,'Zunheboto (TC) - Ward No.13 AMIPHOTO WARD');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (15598,249718,'Zunheboto (TC) - Ward No.1 NORTH POINT WARD');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (15599,249718,'Zunheboto (TC) - Ward No.2 KHUWOBOTO WARD');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (15600,249718,'Zunheboto (TC) - Ward No.3 LAGHILATO WARD');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (15601,249718,'Zunheboto (TC) - Ward No.4 OLD TOWN WARD');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (15602,249718,'Zunheboto (TC) - Ward No.5 ALAHUTO WARD');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (15603,249718,'Zunheboto (TC) - Ward No.6 NEW COLONY WARD');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (15604,249718,'Zunheboto (TC) - Ward No.7 PROJECT EAST WARD');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (15605,249718,'Zunheboto (TC) - Ward No.8 PROJECT WEST WARD');; affectedRows: 1
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (15606,249718,'Zunheboto (TC) - Ward No.9 D.C. HILL EAST WARD');; affectedRows: 1

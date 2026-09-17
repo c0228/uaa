@@ -1,0 +1,11 @@
+query: UPDATE ulb_local_bodies SET local_body_type='Municipal Board' WHERE local_body_name='Baghmara' AND local_body_id='249809';; affectedRows: 1
+query: UPDATE ulb_local_bodies SET local_body_type='Municipal Board' WHERE local_body_name='Jowai' AND local_body_id='249820';; affectedRows: 1
+query: UPDATE ulb_local_bodies SET local_body_type='Municipal Board' WHERE local_body_name='Resubelpara' AND local_body_id='249807';; affectedRows: 1
+query: UPDATE ulb_local_bodies SET local_body_type='Municipal Board' WHERE local_body_name='Shillong' AND local_body_id='249814';; affectedRows: 1
+query: UPDATE ulb_local_bodies SET local_body_type='Municipal Board' WHERE local_body_name='Tura Municipal Board' AND local_body_id='249806';; affectedRows: 1
+query: UPDATE ulb_local_bodies SET local_body_type='Municipal Board' WHERE local_body_name='Williamnagar' AND local_body_id='249808';; affectedRows: 1
+query: UPDATE ulb_local_bodies SET local_body_type='Town Committee' WHERE local_body_name='Khliehriat' AND local_body_id='279714';; affectedRows: 1
+query: UPDATE ulb_local_bodies SET local_body_type='Town Committee' WHERE local_body_name='Mairang' AND local_body_id='249811';; affectedRows: 1
+query: UPDATE ulb_local_bodies SET local_body_type='Town Committee' WHERE local_body_name='Mawkyrwat' AND local_body_id='282009';; affectedRows: 1
+query: UPDATE ulb_local_bodies SET local_body_type='Town Committee' WHERE local_body_name='Nongpoh' AND local_body_id='249812';; affectedRows: 1
+query: UPDATE ulb_local_bodies SET local_body_type='Town Committee' WHERE local_body_name='Nongstoin' AND local_body_id='249810';; affectedRows: 1

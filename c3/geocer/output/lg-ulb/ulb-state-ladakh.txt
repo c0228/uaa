@@ -1,0 +1,2 @@
+query: UPDATE ulb_local_bodies SET local_body_type='Municipal Committee' WHERE local_body_name='Kargil' AND local_body_id='248178';; affectedRows: 1
+query: UPDATE ulb_local_bodies SET local_body_type='Municipal Committee' WHERE local_body_name='Leh' AND local_body_id='248177';; affectedRows: 1

@@ -1,0 +1,4 @@
+query: UPDATE ulb_local_bodies SET local_body_type='Municipal Corporation' WHERE local_body_name='East Delhi Municipal Corporation' AND local_body_id='276400';; affectedRows: 1
+query: UPDATE ulb_local_bodies SET local_body_type='Municipal Corporation' WHERE local_body_name='North Delhi Municipal Corporation' AND local_body_id='276401';; affectedRows: 1
+query: UPDATE ulb_local_bodies SET local_body_type='Municipal Corporation' WHERE local_body_name='South Delhi Municipal Corporation' AND local_body_id='276402';; affectedRows: 1
+query: UPDATE ulb_local_bodies SET local_body_type='NCT Municipal Council' WHERE local_body_name='New Delhi Municipal Council' AND local_body_id='276447';; affectedRows: 1

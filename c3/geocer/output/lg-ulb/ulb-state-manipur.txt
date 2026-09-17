@@ -1,0 +1,27 @@
+query: UPDATE ulb_local_bodies SET local_body_type='Municipal Corporation' WHERE local_body_name='Imphal' AND local_body_id='276547';; affectedRows: 1
+query: UPDATE ulb_local_bodies SET local_body_type='Municipal Council' WHERE local_body_name='Andro' AND local_body_id='276527';; affectedRows: 1
+query: UPDATE ulb_local_bodies SET local_body_type='Municipal Council' WHERE local_body_name='Bishnupur' AND local_body_id='276501';; affectedRows: 1
+query: UPDATE ulb_local_bodies SET local_body_type='Municipal Council' WHERE local_body_name='Heirok' AND local_body_id='276546';; affectedRows: 1
+query: UPDATE ulb_local_bodies SET local_body_type='Municipal Council' WHERE local_body_name='Jiribam' AND local_body_id='276503';; affectedRows: 1
+query: UPDATE ulb_local_bodies SET local_body_type='Municipal Council' WHERE local_body_name='Kakching' AND local_body_id='276500';; affectedRows: 1
+query: UPDATE ulb_local_bodies SET local_body_type='Municipal Council' WHERE local_body_name='Kakching Khunou' AND local_body_id='276536';; affectedRows: 1
+query: UPDATE ulb_local_bodies SET local_body_type='Municipal Council' WHERE local_body_name='Kumbi' AND local_body_id='276505';; affectedRows: 1
+query: UPDATE ulb_local_bodies SET local_body_type='Municipal Council' WHERE local_body_name='Kwakta' AND local_body_id='276525';; affectedRows: 1
+query: UPDATE ulb_local_bodies SET local_body_type='Municipal Council' WHERE local_body_name='Lamlai' AND local_body_id='276508';; affectedRows: 1
+query: UPDATE ulb_local_bodies SET local_body_type='Municipal Council' WHERE local_body_name='Lamsang' AND local_body_id='276545';; affectedRows: 1
+query: UPDATE ulb_local_bodies SET local_body_type='Municipal Council' WHERE local_body_name='Lilong (Imphal West)' AND local_body_id='276548';; affectedRows: 1
+query: UPDATE ulb_local_bodies SET local_body_type='Municipal Council' WHERE local_body_name='Lilong (Thoubal)' AND local_body_id='276502';; affectedRows: 1
+query: UPDATE ulb_local_bodies SET local_body_type='Municipal Council' WHERE local_body_name='Mayang Imphal' AND local_body_id='276552';; affectedRows: 1
+query: UPDATE ulb_local_bodies SET local_body_type='Municipal Council' WHERE local_body_name='Moirang' AND local_body_id='276514';; affectedRows: 1
+query: UPDATE ulb_local_bodies SET local_body_type='Municipal Council' WHERE local_body_name='Nambol' AND local_body_id='276515';; affectedRows: 1
+query: UPDATE ulb_local_bodies SET local_body_type='Municipal Council' WHERE local_body_name='Ningthoukhong' AND local_body_id='276530';; affectedRows: 1
+query: UPDATE ulb_local_bodies SET local_body_type='Municipal Council' WHERE local_body_name='Oinam' AND local_body_id='276506';; affectedRows: 1
+query: UPDATE ulb_local_bodies SET local_body_type='Municipal Council' WHERE local_body_name='Samourou' AND local_body_id='276551';; affectedRows: 1
+query: UPDATE ulb_local_bodies SET local_body_type='Municipal Council' WHERE local_body_name='Sekmai' AND local_body_id='276553';; affectedRows: 1
+query: UPDATE ulb_local_bodies SET local_body_type='Municipal Council' WHERE local_body_name='Shikhong Sekmai' AND local_body_id='276509';; affectedRows: 1
+query: UPDATE ulb_local_bodies SET local_body_type='Municipal Council' WHERE local_body_name='Sugunu' AND local_body_id='276510';; affectedRows: 1
+query: UPDATE ulb_local_bodies SET local_body_type='Municipal Council' WHERE local_body_name='Thongkhong Laxmi' AND local_body_id='276550';; affectedRows: 1
+query: UPDATE ulb_local_bodies SET local_body_type='Municipal Council' WHERE local_body_name='Thoubal' AND local_body_id='276498';; affectedRows: 1
+query: UPDATE ulb_local_bodies SET local_body_type='Municipal Council' WHERE local_body_name='Wangjing Lamding' AND local_body_id='276511';; affectedRows: 1
+query: UPDATE ulb_local_bodies SET local_body_type='Municipal Council' WHERE local_body_name='Wangoi' AND local_body_id='276549';; affectedRows: 1
+query: UPDATE ulb_local_bodies SET local_body_type='Municipal Council' WHERE local_body_name='Yairipok' AND local_body_id='276513';; affectedRows: 1

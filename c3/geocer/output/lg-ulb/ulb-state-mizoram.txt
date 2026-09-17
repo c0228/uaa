@@ -1,0 +1,23 @@
+query: UPDATE ulb_local_bodies SET local_body_type='Municipal Corporation' WHERE local_body_name='Aizawl Municipal Co-Operation' AND local_body_id='277318';; affectedRows: 1
+query: UPDATE ulb_local_bodies SET local_body_type='Notified Area Council' WHERE local_body_name='Aizawl' AND local_body_id='249770';; affectedRows: 1
+query: UPDATE ulb_local_bodies SET local_body_type='Notified Area Council' WHERE local_body_name='Bairabi' AND local_body_id='249765';; affectedRows: 1
+query: UPDATE ulb_local_bodies SET local_body_type='Notified Area Council' WHERE local_body_name='Biate' AND local_body_id='249775';; affectedRows: 1
+query: UPDATE ulb_local_bodies SET local_body_type='Notified Area Council' WHERE local_body_name='Champhai' AND local_body_id='249773';; affectedRows: 1
+query: UPDATE ulb_local_bodies SET local_body_type='Notified Area Council' WHERE local_body_name='Darlawn' AND local_body_id='249768';; affectedRows: 1
+query: UPDATE ulb_local_bodies SET local_body_type='Notified Area Council' WHERE local_body_name='Hnahthial' AND local_body_id='249781';; affectedRows: 1
+query: UPDATE ulb_local_bodies SET local_body_type='Notified Area Council' WHERE local_body_name='Khawhai' AND local_body_id='249774';; affectedRows: 1
+query: UPDATE ulb_local_bodies SET local_body_type='Notified Area Council' WHERE local_body_name='Khawzawl' AND local_body_id='249772';; affectedRows: 1
+query: UPDATE ulb_local_bodies SET local_body_type='Notified Area Council' WHERE local_body_name='Kolasib' AND local_body_id='249766';; affectedRows: 1
+query: UPDATE ulb_local_bodies SET local_body_type='Notified Area Council' WHERE local_body_name='Lengpui' AND local_body_id='249763';; affectedRows: 1
+query: UPDATE ulb_local_bodies SET local_body_type='Notified Area Council' WHERE local_body_name='Lunglei' AND local_body_id='249780';; affectedRows: 1
+query: UPDATE ulb_local_bodies SET local_body_type='Notified Area Council' WHERE local_body_name='Mamit' AND local_body_id='249762';; affectedRows: 1
+query: UPDATE ulb_local_bodies SET local_body_type='Notified Area Council' WHERE local_body_name='N.Kawnpui' AND local_body_id='249767';; affectedRows: 1
+query: UPDATE ulb_local_bodies SET local_body_type='Notified Area Council' WHERE local_body_name='N.Vanlaiphai' AND local_body_id='249778';; affectedRows: 1
+query: UPDATE ulb_local_bodies SET local_body_type='Notified Area Council' WHERE local_body_name='Saiha' AND local_body_id='249782';; affectedRows: 1
+query: UPDATE ulb_local_bodies SET local_body_type='Notified Area Council' WHERE local_body_name='Sairang' AND local_body_id='249769';; affectedRows: 1
+query: UPDATE ulb_local_bodies SET local_body_type='Notified Area Council' WHERE local_body_name='Saitual' AND local_body_id='249771';; affectedRows: 1
+query: UPDATE ulb_local_bodies SET local_body_type='Notified Area Council' WHERE local_body_name='Serchhip' AND local_body_id='249776';; affectedRows: 1
+query: UPDATE ulb_local_bodies SET local_body_type='Notified Area Council' WHERE local_body_name='Thenzawl' AND local_body_id='249777';; affectedRows: 1
+query: UPDATE ulb_local_bodies SET local_body_type='Notified Area Council' WHERE local_body_name='Tlabung' AND local_body_id='249779';; affectedRows: 1
+query: UPDATE ulb_local_bodies SET local_body_type='Notified Area Council' WHERE local_body_name='Vairengte' AND local_body_id='249764';; affectedRows: 1
+query: UPDATE ulb_local_bodies SET local_body_type='Notified Area Council' WHERE local_body_name='Zawlnuam' AND local_body_id='249761';; affectedRows: 1

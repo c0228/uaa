@@ -1,0 +1,1 @@
+query: INSERT INTO ulb_local_wards(local_ward_id, local_body_id, local_ward_name) VALUES (37153,249785,'Ward No.1');; affectedRows: 1

@@ -1,0 +1,39 @@
+query: UPDATE ulb_local_bodies SET local_body_type='Municipality' WHERE local_body_name='Dimapur Municipal Council' AND local_body_id='249720';; affectedRows: 1
+query: UPDATE ulb_local_bodies SET local_body_type='Municipality' WHERE local_body_name='Kohima Municipal Council' AND local_body_id='249722';; affectedRows: 1
+query: UPDATE ulb_local_bodies SET local_body_type='Municipality' WHERE local_body_name='Mokokchung Municipal Council' AND local_body_id='249717';; affectedRows: 1
+query: UPDATE ulb_local_bodies SET local_body_type='Town Council' WHERE local_body_name='Aboi Town Council' AND local_body_id='276216';; affectedRows: 1
+query: UPDATE ulb_local_bodies SET local_body_type='Town Council' WHERE local_body_name='Aghunato Town Council' AND local_body_id='299085';; affectedRows: 1
+query: UPDATE ulb_local_bodies SET local_body_type='Town Council' WHERE local_body_name='Atoizu Town Council' AND local_body_id='299086';; affectedRows: 1
+query: UPDATE ulb_local_bodies SET local_body_type='Town Council' WHERE local_body_name='Bhandari Town Council' AND local_body_id='276219';; affectedRows: 1
+query: UPDATE ulb_local_bodies SET local_body_type='Town Council' WHERE local_body_name='Changtongya Town Council' AND local_body_id='253207';; affectedRows: 1
+query: UPDATE ulb_local_bodies SET local_body_type='Town Council' WHERE local_body_name='Chiephobozou Town Council' AND local_body_id='299088';; affectedRows: 1
+query: UPDATE ulb_local_bodies SET local_body_type='Town Council' WHERE local_body_name='Chozuba Town Council' AND local_body_id='276220';; affectedRows: 1
+query: UPDATE ulb_local_bodies SET local_body_type='Town Council' WHERE local_body_name='Chumukedima Town Council' AND local_body_id='249721';; affectedRows: 1
+query: UPDATE ulb_local_bodies SET local_body_type='Town Council' WHERE local_body_name='East Dimapur Town Council' AND local_body_id='276217';; affectedRows: 1
+query: UPDATE ulb_local_bodies SET local_body_type='Town Council' WHERE local_body_name='Jalukie Town Council' AND local_body_id='253205';; affectedRows: 1
+query: UPDATE ulb_local_bodies SET local_body_type='Town Council' WHERE local_body_name='Kiphire Town Council' AND local_body_id='253202';; affectedRows: 1
+query: UPDATE ulb_local_bodies SET local_body_type='Town Council' WHERE local_body_name='Longkhim Town Council' AND local_body_id='276218';; affectedRows: 1
+query: UPDATE ulb_local_bodies SET local_body_type='Town Council' WHERE local_body_name='Longleng Town Council' AND local_body_id='253201';; affectedRows: 1
+query: UPDATE ulb_local_bodies SET local_body_type='Town Council' WHERE local_body_name='Mangkolemba Town Council' AND local_body_id='276221';; affectedRows: 1
+query: UPDATE ulb_local_bodies SET local_body_type='Town Council' WHERE local_body_name='Medziphema Town Council' AND local_body_id='253213';; affectedRows: 1
+query: UPDATE ulb_local_bodies SET local_body_type='Town Council' WHERE local_body_name='Meluri Town Council' AND local_body_id='276222';; affectedRows: 1
+query: UPDATE ulb_local_bodies SET local_body_type='Town Council' WHERE local_body_name='Mon Town Council' AND local_body_id='249715';; affectedRows: 1
+query: UPDATE ulb_local_bodies SET local_body_type='Town Council' WHERE local_body_name='Naginimora Town Council' AND local_body_id='253203';; affectedRows: 1
+query: UPDATE ulb_local_bodies SET local_body_type='Town Council' WHERE local_body_name='Niuland Town Council' AND local_body_id='299083';; affectedRows: 1
+query: UPDATE ulb_local_bodies SET local_body_type='Town Council' WHERE local_body_name='Noklak Town Council' AND local_body_id='276223';; affectedRows: 1
+query: UPDATE ulb_local_bodies SET local_body_type='Town Council' WHERE local_body_name='Peren Town Council' AND local_body_id='253204';; affectedRows: 1
+query: UPDATE ulb_local_bodies SET local_body_type='Town Council' WHERE local_body_name='Pfutsero Town Council' AND local_body_id='253210';; affectedRows: 1
+query: UPDATE ulb_local_bodies SET local_body_type='Town Council' WHERE local_body_name='Phek Town Council' AND local_body_id='249723';; affectedRows: 1
+query: UPDATE ulb_local_bodies SET local_body_type='Town Council' WHERE local_body_name='Pungro Town Council' AND local_body_id='276224';; affectedRows: 1
+query: UPDATE ulb_local_bodies SET local_body_type='Town Council' WHERE local_body_name='Satakha Town Council' AND local_body_id='299087';; affectedRows: 1
+query: UPDATE ulb_local_bodies SET local_body_type='Town Council' WHERE local_body_name='Seyochung Town Council' AND local_body_id='299082';; affectedRows: 1
+query: UPDATE ulb_local_bodies SET local_body_type='Town Council' WHERE local_body_name='Shamator Town Council' AND local_body_id='276225';; affectedRows: 1
+query: UPDATE ulb_local_bodies SET local_body_type='Town Council' WHERE local_body_name='Tamlu Town Council' AND local_body_id='299084';; affectedRows: 1
+query: UPDATE ulb_local_bodies SET local_body_type='Town Council' WHERE local_body_name='Tening Town Council' AND local_body_id='276226';; affectedRows: 1
+query: UPDATE ulb_local_bodies SET local_body_type='Town Council' WHERE local_body_name='Tizit Town Council' AND local_body_id='276227';; affectedRows: 1
+query: UPDATE ulb_local_bodies SET local_body_type='Town Council' WHERE local_body_name='Tobu Town Council' AND local_body_id='276228';; affectedRows: 1
+query: UPDATE ulb_local_bodies SET local_body_type='Town Council' WHERE local_body_name='Tseminyu Town Council' AND local_body_id='253209';; affectedRows: 1
+query: UPDATE ulb_local_bodies SET local_body_type='Town Council' WHERE local_body_name='Tuensang Town Council' AND local_body_id='249716';; affectedRows: 1
+query: UPDATE ulb_local_bodies SET local_body_type='Town Council' WHERE local_body_name='Tuli Town Council' AND local_body_id='253206';; affectedRows: 1
+query: UPDATE ulb_local_bodies SET local_body_type='Town Council' WHERE local_body_name='Wokha Town Council' AND local_body_id='249719';; affectedRows: 1
+query: UPDATE ulb_local_bodies SET local_body_type='Town Council' WHERE local_body_name='Zunheboto Town Council' AND local_body_id='249718';; affectedRows: 1
