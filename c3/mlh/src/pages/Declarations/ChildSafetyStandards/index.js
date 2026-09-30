@@ -40,7 +40,6 @@ import Content36 from "./components/content-36/index.js";
 import './index.css';
 
 const ChildSafetyStandards = () =>{
- const url = process.env.PROJECT_URL+'declarations/child-safety-standards-policy';
  const AccordianTitle = ({ label }) =>{
    return (<div style={{ fontFamily:'Metropolis', fontSize:'16px', letterSpacing:'0.4px' }}><b>{label}</b></div>);
  };
