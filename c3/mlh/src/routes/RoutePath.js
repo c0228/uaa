@@ -12,6 +12,10 @@ import { AuthProvider } from "@Provider/AuthProvider.js";
 import PERMISSIONS from "@Permissions/index.js";
 import Authorization from "./Authorization.js";
 
+{/* Declarations */}
+import ChildSafetyStandards from "@Pages/Declarations/ChildSafetyStandards/index.js";
+import PrivacyPolicy from "@Pages/Declarations/PrivacyPolicy/index.js";
+
 export const AppRouting = ()=>{
     return (<BrowserRouter basename="/">
       <AuthProvider>
@@ -29,6 +33,10 @@ export const AppRouting = ()=>{
          <Route exact path="/App/ChangePassword/:id" element={<Authentication />} />
          <Route exact path="/App/Home" element={<AuthPage/>} />
          <Route exact path="/App/Menu" element={<Menu />} />
+
+         {/* */}
+         <Route exact path="/declarations/child-safety-standards-policy" element={<ChildSafetyStandards />} />
+         <Route exact path="/declarations/privacy-policy" element={<PrivacyPolicy />} />
        </Routes>
       </AuthProvider>
     </BrowserRouter>);

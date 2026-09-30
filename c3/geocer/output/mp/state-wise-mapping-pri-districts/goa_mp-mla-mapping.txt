@@ -1,0 +1,436 @@
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:551 | district_name: North Goa
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:551 | district_name: North Goa
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:551 | district_name: North Goa
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:551 | district_name: North Goa
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:551 | district_name: North Goa
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:551 | district_name: North Goa
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:551 | district_name: North Goa
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:551 | district_name: North Goa
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:551 | district_name: North Goa
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:551 | district_name: North Goa
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:551 | district_name: North Goa
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:551 | district_name: North Goa
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:551 | district_name: North Goa
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:551 | district_name: North Goa
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:551 | district_name: North Goa
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:551 | district_name: North Goa
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:551 | district_name: North Goa
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:551 | district_name: North Goa
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:551 | district_name: North Goa
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:551 | district_name: North Goa
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:551 | district_name: North Goa
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:551 | district_name: North Goa
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:551 | district_name: North Goa
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:551 | district_name: North Goa
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:551 | district_name: North Goa
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:551 | district_name: North Goa
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:551 | district_name: North Goa
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:551 | district_name: North Goa
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:551 | district_name: North Goa
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:551 | district_name: North Goa
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:551 | district_name: North Goa
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:551 | district_name: North Goa
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:551 | district_name: North Goa
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:551 | district_name: North Goa
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:551 | district_name: North Goa
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:551 | district_name: North Goa
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:551 | district_name: North Goa
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:551 | district_name: North Goa
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:551 | district_name: North Goa
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:551 | district_name: North Goa
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:551 | district_name: North Goa
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:551 | district_name: North Goa
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:551 | district_name: North Goa
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:551 | district_name: North Goa
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:551 | district_name: North Goa
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:551 | district_name: North Goa
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:551 | district_name: North Goa
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:551 | district_name: North Goa
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:551 | district_name: North Goa
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:551 | district_name: North Goa
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:551 | district_name: North Goa
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:551 | district_name: North Goa
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:551 | district_name: North Goa
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:551 | district_name: North Goa
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:551 | district_name: North Goa
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:551 | district_name: North Goa
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:551 | district_name: North Goa
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:551 | district_name: North Goa
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:551 | district_name: North Goa
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:551 | district_name: North Goa
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:551 | district_name: North Goa
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:551 | district_name: North Goa
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:551 | district_name: North Goa
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:551 | district_name: North Goa
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:551 | district_name: North Goa
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:551 | district_name: North Goa
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:551 | district_name: North Goa
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:551 | district_name: North Goa
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:551 | district_name: North Goa
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:551 | district_name: North Goa
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:551 | district_name: North Goa
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:551 | district_name: North Goa
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:551 | district_name: North Goa
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:551 | district_name: North Goa
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:551 | district_name: North Goa
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:551 | district_name: North Goa
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:551 | district_name: North Goa
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:551 | district_name: North Goa
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:551 | district_name: North Goa
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:551 | district_name: North Goa
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:551 | district_name: North Goa
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:551 | district_name: North Goa
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:551 | district_name: North Goa
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:551 | district_name: North Goa
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:551 | district_name: North Goa
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:551 | district_name: North Goa
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:551 | district_name: North Goa
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:551 | district_name: North Goa
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:551 | district_name: North Goa
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:551 | district_name: North Goa
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:551 | district_name: North Goa
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:551 | district_name: North Goa
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:551 | district_name: North Goa
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:551 | district_name: North Goa
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:551 | district_name: North Goa
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:551 | district_name: North Goa
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:551 | district_name: North Goa
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:551 | district_name: North Goa
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:551 | district_name: North Goa
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:551 | district_name: North Goa
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:551 | district_name: North Goa
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:551 | district_name: North Goa
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:551 | district_name: North Goa
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:551 | district_name: North Goa
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:551 | district_name: North Goa
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:551 | district_name: North Goa
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:551 | district_name: North Goa
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:551 | district_name: North Goa
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:551 | district_name: North Goa
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:551 | district_name: North Goa
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:551 | district_name: North Goa
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:551 | district_name: North Goa
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:551 | district_name: North Goa
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:551 | district_name: North Goa
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:551 | district_name: North Goa
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:551 | district_name: North Goa
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:551 | district_name: North Goa
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:551 | district_name: North Goa
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:551 | district_name: North Goa
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:551 | district_name: North Goa
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:551 | district_name: North Goa
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:551 | district_name: North Goa
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:551 | district_name: North Goa
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:551 | district_name: North Goa
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:551 | district_name: North Goa
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:551 | district_name: North Goa
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:551 | district_name: North Goa
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:551 | district_name: North Goa
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:551 | district_name: North Goa
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:551 | district_name: North Goa
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:551 | district_name: North Goa
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:551 | district_name: North Goa
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:551 | district_name: North Goa
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:551 | district_name: North Goa
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:551 | district_name: North Goa
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:551 | district_name: North Goa
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:552 | district_name: South Goa
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:552 | district_name: South Goa
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:552 | district_name: South Goa
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:552 | district_name: South Goa
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:552 | district_name: South Goa
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:552 | district_name: South Goa
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:552 | district_name: South Goa
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:552 | district_name: South Goa
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:552 | district_name: South Goa
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:552 | district_name: South Goa
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:552 | district_name: South Goa
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:551 | district_name: North Goa
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:551 | district_name: North Goa
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:551 | district_name: North Goa
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:551 | district_name: North Goa
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:551 | district_name: North Goa
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:551 | district_name: North Goa
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:551 | district_name: North Goa
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:551 | district_name: North Goa
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:551 | district_name: North Goa
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:551 | district_name: North Goa
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:551 | district_name: North Goa
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:551 | district_name: North Goa
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:551 | district_name: North Goa
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:551 | district_name: North Goa
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:551 | district_name: North Goa
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:551 | district_name: North Goa
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:551 | district_name: North Goa
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:551 | district_name: North Goa
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:551 | district_name: North Goa
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:551 | district_name: North Goa
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:551 | district_name: North Goa
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:551 | district_name: North Goa
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:551 | district_name: North Goa
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:551 | district_name: North Goa
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:551 | district_name: North Goa
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:551 | district_name: North Goa
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:551 | district_name: North Goa
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:551 | district_name: North Goa
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:551 | district_name: North Goa
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:551 | district_name: North Goa
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:551 | district_name: North Goa
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:551 | district_name: North Goa
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:551 | district_name: North Goa
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:551 | district_name: North Goa
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:551 | district_name: North Goa
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:551 | district_name: North Goa
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:551 | district_name: North Goa
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:551 | district_name: North Goa
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:551 | district_name: North Goa
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:551 | district_name: North Goa
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:551 | district_name: North Goa
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:551 | district_name: North Goa
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:551 | district_name: North Goa
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:551 | district_name: North Goa
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:551 | district_name: North Goa
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:551 | district_name: North Goa
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:551 | district_name: North Goa
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:551 | district_name: North Goa
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:551 | district_name: North Goa
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:551 | district_name: North Goa
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:551 | district_name: North Goa
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:551 | district_name: North Goa
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:551 | district_name: North Goa
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:551 | district_name: North Goa
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:551 | district_name: North Goa
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:793 | district_name: Kushavati
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:551 | district_name: North Goa
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:551 | district_name: North Goa
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:551 | district_name: North Goa
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:551 | district_name: North Goa
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:551 | district_name: North Goa
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:551 | district_name: North Goa
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:551 | district_name: North Goa
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:551 | district_name: North Goa
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:551 | district_name: North Goa
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:551 | district_name: North Goa
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:551 | district_name: North Goa
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:551 | district_name: North Goa
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:551 | district_name: North Goa
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:551 | district_name: North Goa
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:551 | district_name: North Goa
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:551 | district_name: North Goa
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:551 | district_name: North Goa
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:551 | district_name: North Goa
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:551 | district_name: North Goa
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:551 | district_name: North Goa
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:551 | district_name: North Goa
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:551 | district_name: North Goa
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:551 | district_name: North Goa
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:551 | district_name: North Goa
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:551 | district_name: North Goa
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:551 | district_name: North Goa
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:551 | district_name: North Goa
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:551 | district_name: North Goa
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:551 | district_name: North Goa
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:551 | district_name: North Goa
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:551 | district_name: North Goa
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:551 | district_name: North Goa
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:551 | district_name: North Goa
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:551 | district_name: North Goa
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:551 | district_name: North Goa
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:551 | district_name: North Goa
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:551 | district_name: North Goa
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:551 | district_name: North Goa
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:551 | district_name: North Goa
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:552 | district_name: South Goa
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:552 | district_name: South Goa
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:552 | district_name: South Goa
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:552 | district_name: South Goa
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:552 | district_name: South Goa
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:552 | district_name: South Goa
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:552 | district_name: South Goa
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:552 | district_name: South Goa
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:552 | district_name: South Goa
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:552 | district_name: South Goa
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:552 | district_name: South Goa
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:552 | district_name: South Goa
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:552 | district_name: South Goa
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:793 | district_name: Kushavati
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:793 | district_name: Kushavati
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:793 | district_name: Kushavati
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:793 | district_name: Kushavati
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:793 | district_name: Kushavati
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:793 | district_name: Kushavati
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:793 | district_name: Kushavati
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:793 | district_name: Kushavati
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:793 | district_name: Kushavati
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:793 | district_name: Kushavati
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:552 | district_name: South Goa
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:552 | district_name: South Goa
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:552 | district_name: South Goa
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:552 | district_name: South Goa
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:552 | district_name: South Goa
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:552 | district_name: South Goa
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:552 | district_name: South Goa
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:552 | district_name: South Goa
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:552 | district_name: South Goa
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:793 | district_name: Kushavati
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:793 | district_name: Kushavati
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:793 | district_name: Kushavati
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:793 | district_name: Kushavati
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:793 | district_name: Kushavati
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:552 | district_name: South Goa
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:552 | district_name: South Goa
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:552 | district_name: South Goa
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:552 | district_name: South Goa
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:552 | district_name: South Goa
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:552 | district_name: South Goa
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:552 | district_name: South Goa
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:552 | district_name: South Goa
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:793 | district_name: Kushavati
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:793 | district_name: Kushavati
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:793 | district_name: Kushavati
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:793 | district_name: Kushavati
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:793 | district_name: Kushavati
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:793 | district_name: Kushavati
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:793 | district_name: Kushavati
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:793 | district_name: Kushavati
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:793 | district_name: Kushavati
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:552 | district_name: South Goa
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:552 | district_name: South Goa
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:552 | district_name: South Goa
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:552 | district_name: South Goa
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:552 | district_name: South Goa
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:552 | district_name: South Goa
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:552 | district_name: South Goa
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:552 | district_name: South Goa
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:552 | district_name: South Goa
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:552 | district_name: South Goa
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:552 | district_name: South Goa
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:552 | district_name: South Goa
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:552 | district_name: South Goa
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:552 | district_name: South Goa
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:552 | district_name: South Goa
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:552 | district_name: South Goa
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:552 | district_name: South Goa
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:552 | district_name: South Goa
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:552 | district_name: South Goa
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:552 | district_name: South Goa
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:552 | district_name: South Goa
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:552 | district_name: South Goa
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:552 | district_name: South Goa
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:552 | district_name: South Goa
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:552 | district_name: South Goa
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:552 | district_name: South Goa
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:552 | district_name: South Goa
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:552 | district_name: South Goa
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:552 | district_name: South Goa
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:552 | district_name: South Goa
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:552 | district_name: South Goa
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:552 | district_name: South Goa
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:552 | district_name: South Goa
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:552 | district_name: South Goa
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:552 | district_name: South Goa
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:552 | district_name: South Goa
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:552 | district_name: South Goa
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:552 | district_name: South Goa
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:552 | district_name: South Goa
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:552 | district_name: South Goa
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:552 | district_name: South Goa
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:552 | district_name: South Goa
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:552 | district_name: South Goa
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:552 | district_name: South Goa
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:793 | district_name: Kushavati
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:793 | district_name: Kushavati
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:793 | district_name: Kushavati
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:793 | district_name: Kushavati
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:793 | district_name: Kushavati
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:793 | district_name: Kushavati
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:793 | district_name: Kushavati
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:793 | district_name: Kushavati
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:793 | district_name: Kushavati
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:793 | district_name: Kushavati
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:793 | district_name: Kushavati
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:793 | district_name: Kushavati
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:793 | district_name: Kushavati
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:793 | district_name: Kushavati
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:793 | district_name: Kushavati
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:793 | district_name: Kushavati
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:793 | district_name: Kushavati
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:793 | district_name: Kushavati
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:793 | district_name: Kushavati
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:793 | district_name: Kushavati
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:793 | district_name: Kushavati
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:793 | district_name: Kushavati
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:793 | district_name: Kushavati
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:793 | district_name: Kushavati
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:793 | district_name: Kushavati
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:793 | district_name: Kushavati
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:793 | district_name: Kushavati
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:793 | district_name: Kushavati
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:793 | district_name: Kushavati
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:793 | district_name: Kushavati
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:793 | district_name: Kushavati
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:793 | district_name: Kushavati
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:793 | district_name: Kushavati
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:793 | district_name: Kushavati
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:793 | district_name: Kushavati
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:793 | district_name: Kushavati
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:793 | district_name: Kushavati
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:793 | district_name: Kushavati
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:793 | district_name: Kushavati
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:793 | district_name: Kushavati
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:793 | district_name: Kushavati
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:793 | district_name: Kushavati
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:793 | district_name: Kushavati
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:793 | district_name: Kushavati
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:793 | district_name: Kushavati
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:793 | district_name: Kushavati
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:793 | district_name: Kushavati
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:793 | district_name: Kushavati
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:793 | district_name: Kushavati
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:793 | district_name: Kushavati
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:793 | district_name: Kushavati
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:793 | district_name: Kushavati
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:793 | district_name: Kushavati
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:793 | district_name: Kushavati
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:793 | district_name: Kushavati
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:793 | district_name: Kushavati
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:793 | district_name: Kushavati
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:793 | district_name: Kushavati
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:793 | district_name: Kushavati
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:793 | district_name: Kushavati
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:793 | district_name: Kushavati
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:793 | district_name: Kushavati
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:793 | district_name: Kushavati
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:793 | district_name: Kushavati
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:793 | district_name: Kushavati
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:793 | district_name: Kushavati
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:793 | district_name: Kushavati
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:793 | district_name: Kushavati
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:793 | district_name: Kushavati
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:793 | district_name: Kushavati
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:793 | district_name: Kushavati
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:793 | district_name: Kushavati
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:793 | district_name: Kushavati
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:793 | district_name: Kushavati
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:793 | district_name: Kushavati
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:793 | district_name: Kushavati
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:793 | district_name: Kushavati
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:793 | district_name: Kushavati
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:793 | district_name: Kushavati
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:793 | district_name: Kushavati
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:793 | district_name: Kushavati
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:552 | district_name: South Goa
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:552 | district_name: South Goa
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:552 | district_name: South Goa
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:552 | district_name: South Goa
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:552 | district_name: South Goa
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:552 | district_name: South Goa
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:552 | district_name: South Goa
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:552 | district_name: South Goa
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:552 | district_name: South Goa
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:552 | district_name: South Goa
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:552 | district_name: South Goa
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:552 | district_name: South Goa
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:552 | district_name: South Goa
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:552 | district_name: South Goa
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:552 | district_name: South Goa

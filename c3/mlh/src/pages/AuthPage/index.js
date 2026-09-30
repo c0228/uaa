@@ -3,6 +3,7 @@ import { ContainerFluid, Row, Col, Card } from "e-ui-react";
 import Auth from "@Components/auth/index.js";
 import Header from '@Templates/Header/index.js';
 import { HeaderMenu } from '@Routes/NavbarList.js';
+import Footer from '@Templates/Footer/index.js';
 import './index.css';
 
 const AuthPage = ()=>{
@@ -43,6 +44,7 @@ const AuthPage = ()=>{
     </Row>
  </ContainerFluid>
  </div>
+ <Footer />
  </>);
 };
 

@@ -1,0 +1,1550 @@
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:654 | district_name: Gomati
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:654 | district_name: Gomati
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:654 | district_name: Gomati
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:654 | district_name: Gomati
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:654 | district_name: Gomati
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:654 | district_name: Gomati
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:654 | district_name: Gomati
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:654 | district_name: Gomati
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:654 | district_name: Gomati
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:654 | district_name: Gomati
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:654 | district_name: Gomati
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:654 | district_name: Gomati
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:654 | district_name: Gomati
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:654 | district_name: Gomati
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:654 | district_name: Gomati
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:654 | district_name: Gomati
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:654 | district_name: Gomati
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:654 | district_name: Gomati
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:654 | district_name: Gomati
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:654 | district_name: Gomati
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:654 | district_name: Gomati
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:654 | district_name: Gomati
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:654 | district_name: Gomati
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:654 | district_name: Gomati
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:654 | district_name: Gomati
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:269 | district_name: Dhalai
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:269 | district_name: Dhalai
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:269 | district_name: Dhalai
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:269 | district_name: Dhalai
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:269 | district_name: Dhalai
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:269 | district_name: Dhalai
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:269 | district_name: Dhalai
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:269 | district_name: Dhalai
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:269 | district_name: Dhalai
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:269 | district_name: Dhalai
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:269 | district_name: Dhalai
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:269 | district_name: Dhalai
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:269 | district_name: Dhalai
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:269 | district_name: Dhalai
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:269 | district_name: Dhalai
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:269 | district_name: Dhalai
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:269 | district_name: Dhalai
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:269 | district_name: Dhalai
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:269 | district_name: Dhalai
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:269 | district_name: Dhalai
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:269 | district_name: Dhalai
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:269 | district_name: Dhalai
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:269 | district_name: Dhalai
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:269 | district_name: Dhalai
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:269 | district_name: Dhalai
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:269 | district_name: Dhalai
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:269 | district_name: Dhalai
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:269 | district_name: Dhalai
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:269 | district_name: Dhalai
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:269 | district_name: Dhalai
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:269 | district_name: Dhalai
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:269 | district_name: Dhalai
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:269 | district_name: Dhalai
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:269 | district_name: Dhalai
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:269 | district_name: Dhalai
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:654 | district_name: Gomati
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:654 | district_name: Gomati
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:654 | district_name: Gomati
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:654 | district_name: Gomati
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:654 | district_name: Gomati
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:654 | district_name: Gomati
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:654 | district_name: Gomati
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:654 | district_name: Gomati
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:654 | district_name: Gomati
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:654 | district_name: Gomati
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:654 | district_name: Gomati
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:654 | district_name: Gomati
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:654 | district_name: Gomati
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:654 | district_name: Gomati
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:654 | district_name: Gomati
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:654 | district_name: Gomati
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:654 | district_name: Gomati
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:654 | district_name: Gomati
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:654 | district_name: Gomati
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:654 | district_name: Gomati
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:654 | district_name: Gomati
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:654 | district_name: Gomati
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:654 | district_name: Gomati
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:654 | district_name: Gomati
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:654 | district_name: Gomati
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:654 | district_name: Gomati
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:654 | district_name: Gomati
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:654 | district_name: Gomati
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:654 | district_name: Gomati
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:654 | district_name: Gomati
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:654 | district_name: Gomati
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:654 | district_name: Gomati
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:654 | district_name: Gomati
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:652 | district_name: Khowai
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:652 | district_name: Khowai
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:652 | district_name: Khowai
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:652 | district_name: Khowai
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:652 | district_name: Khowai
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:652 | district_name: Khowai
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:652 | district_name: Khowai
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:652 | district_name: Khowai
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:652 | district_name: Khowai
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:652 | district_name: Khowai
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:652 | district_name: Khowai
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:652 | district_name: Khowai
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:652 | district_name: Khowai
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:652 | district_name: Khowai
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:652 | district_name: Khowai
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:652 | district_name: Khowai
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:652 | district_name: Khowai
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:652 | district_name: Khowai
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:652 | district_name: Khowai
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:652 | district_name: Khowai
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:652 | district_name: Khowai
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:652 | district_name: Khowai
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:652 | district_name: Khowai
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:652 | district_name: Khowai
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:652 | district_name: Khowai
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:652 | district_name: Khowai
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:652 | district_name: Khowai
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:652 | district_name: Khowai
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:652 | district_name: Khowai
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:652 | district_name: Khowai
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:652 | district_name: Khowai
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:652 | district_name: Khowai
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:652 | district_name: Khowai
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:652 | district_name: Khowai
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:652 | district_name: Khowai
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:652 | district_name: Khowai
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:652 | district_name: Khowai
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:652 | district_name: Khowai
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:652 | district_name: Khowai
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:652 | district_name: Khowai
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:652 | district_name: Khowai
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:652 | district_name: Khowai
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:652 | district_name: Khowai
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:652 | district_name: Khowai
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:652 | district_name: Khowai
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:652 | district_name: Khowai
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:270 | district_name: North Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:270 | district_name: North Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:270 | district_name: North Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:270 | district_name: North Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:270 | district_name: North Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:270 | district_name: North Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:270 | district_name: North Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:270 | district_name: North Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:270 | district_name: North Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:270 | district_name: North Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:270 | district_name: North Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:270 | district_name: North Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:270 | district_name: North Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:270 | district_name: North Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:270 | district_name: North Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:270 | district_name: North Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:270 | district_name: North Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:270 | district_name: North Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:270 | district_name: North Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:270 | district_name: North Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:270 | district_name: North Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:270 | district_name: North Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:270 | district_name: North Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:270 | district_name: North Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:655 | district_name: Unakoti
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:655 | district_name: Unakoti
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:655 | district_name: Unakoti
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:655 | district_name: Unakoti
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:655 | district_name: Unakoti
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:655 | district_name: Unakoti
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:655 | district_name: Unakoti
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:655 | district_name: Unakoti
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:655 | district_name: Unakoti
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:655 | district_name: Unakoti
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:655 | district_name: Unakoti
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:655 | district_name: Unakoti
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:655 | district_name: Unakoti
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:655 | district_name: Unakoti
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:655 | district_name: Unakoti
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:655 | district_name: Unakoti
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:655 | district_name: Unakoti
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:655 | district_name: Unakoti
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:655 | district_name: Unakoti
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:655 | district_name: Unakoti
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:655 | district_name: Unakoti
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:655 | district_name: Unakoti
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:655 | district_name: Unakoti
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:655 | district_name: Unakoti
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:655 | district_name: Unakoti
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:655 | district_name: Unakoti
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:655 | district_name: Unakoti
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:655 | district_name: Unakoti
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:655 | district_name: Unakoti
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:655 | district_name: Unakoti
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:655 | district_name: Unakoti
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:655 | district_name: Unakoti
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:655 | district_name: Unakoti
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:655 | district_name: Unakoti
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:655 | district_name: Unakoti
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:655 | district_name: Unakoti
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:269 | district_name: Dhalai
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:269 | district_name: Dhalai
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:269 | district_name: Dhalai
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:269 | district_name: Dhalai
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:269 | district_name: Dhalai
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:269 | district_name: Dhalai
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:269 | district_name: Dhalai
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:269 | district_name: Dhalai
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:269 | district_name: Dhalai
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:269 | district_name: Dhalai
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:269 | district_name: Dhalai
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:269 | district_name: Dhalai
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:269 | district_name: Dhalai
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:269 | district_name: Dhalai
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:269 | district_name: Dhalai
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:269 | district_name: Dhalai
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:269 | district_name: Dhalai
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:269 | district_name: Dhalai
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:269 | district_name: Dhalai
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:270 | district_name: North Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:270 | district_name: North Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:270 | district_name: North Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:655 | district_name: Unakoti
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:655 | district_name: Unakoti
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:655 | district_name: Unakoti
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:655 | district_name: Unakoti
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:655 | district_name: Unakoti
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:655 | district_name: Unakoti
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:655 | district_name: Unakoti
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:655 | district_name: Unakoti
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:655 | district_name: Unakoti
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:655 | district_name: Unakoti
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:655 | district_name: Unakoti
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:655 | district_name: Unakoti
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:655 | district_name: Unakoti
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:655 | district_name: Unakoti
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:655 | district_name: Unakoti
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:655 | district_name: Unakoti
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:655 | district_name: Unakoti
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:655 | district_name: Unakoti
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:655 | district_name: Unakoti
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:655 | district_name: Unakoti
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:655 | district_name: Unakoti
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:655 | district_name: Unakoti
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:655 | district_name: Unakoti
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:655 | district_name: Unakoti
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:655 | district_name: Unakoti
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:655 | district_name: Unakoti
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:655 | district_name: Unakoti
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:655 | district_name: Unakoti
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:655 | district_name: Unakoti
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:655 | district_name: Unakoti
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:655 | district_name: Unakoti
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:271 | district_name: South Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:271 | district_name: South Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:271 | district_name: South Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:271 | district_name: South Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:271 | district_name: South Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:271 | district_name: South Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:271 | district_name: South Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:271 | district_name: South Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:271 | district_name: South Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:271 | district_name: South Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:271 | district_name: South Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:271 | district_name: South Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:271 | district_name: South Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:271 | district_name: South Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:271 | district_name: South Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:271 | district_name: South Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:271 | district_name: South Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:271 | district_name: South Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:271 | district_name: South Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:271 | district_name: South Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:271 | district_name: South Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:271 | district_name: South Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:271 | district_name: South Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:271 | district_name: South Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:271 | district_name: South Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:271 | district_name: South Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:271 | district_name: South Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:271 | district_name: South Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:271 | district_name: South Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:271 | district_name: South Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:271 | district_name: South Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:271 | district_name: South Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:271 | district_name: South Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:271 | district_name: South Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:271 | district_name: South Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:271 | district_name: South Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:271 | district_name: South Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:271 | district_name: South Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:271 | district_name: South Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:271 | district_name: South Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:271 | district_name: South Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:271 | district_name: South Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:271 | district_name: South Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:271 | district_name: South Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:271 | district_name: South Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:271 | district_name: South Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:271 | district_name: South Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:271 | district_name: South Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:271 | district_name: South Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:271 | district_name: South Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:271 | district_name: South Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:271 | district_name: South Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:271 | district_name: South Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:271 | district_name: South Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:271 | district_name: South Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:271 | district_name: South Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:271 | district_name: South Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:271 | district_name: South Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:271 | district_name: South Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:271 | district_name: South Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:271 | district_name: South Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:271 | district_name: South Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:271 | district_name: South Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:271 | district_name: South Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:271 | district_name: South Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:271 | district_name: South Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:270 | district_name: North Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:270 | district_name: North Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:270 | district_name: North Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:270 | district_name: North Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:270 | district_name: North Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:270 | district_name: North Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:270 | district_name: North Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:270 | district_name: North Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:270 | district_name: North Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:270 | district_name: North Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:270 | district_name: North Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:270 | district_name: North Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:270 | district_name: North Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:270 | district_name: North Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:270 | district_name: North Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:270 | district_name: North Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:270 | district_name: North Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:270 | district_name: North Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:270 | district_name: North Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:270 | district_name: North Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:270 | district_name: North Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:270 | district_name: North Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:270 | district_name: North Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:270 | district_name: North Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:270 | district_name: North Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:270 | district_name: North Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:270 | district_name: North Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:270 | district_name: North Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:270 | district_name: North Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:270 | district_name: North Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:270 | district_name: North Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:270 | district_name: North Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:270 | district_name: North Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:270 | district_name: North Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:270 | district_name: North Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:270 | district_name: North Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:270 | district_name: North Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:270 | district_name: North Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:270 | district_name: North Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:270 | district_name: North Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:270 | district_name: North Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:270 | district_name: North Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:270 | district_name: North Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:270 | district_name: North Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:270 | district_name: North Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:270 | district_name: North Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:270 | district_name: North Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:270 | district_name: North Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:270 | district_name: North Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:270 | district_name: North Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:270 | district_name: North Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:270 | district_name: North Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:270 | district_name: North Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:270 | district_name: North Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:270 | district_name: North Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:270 | district_name: North Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:270 | district_name: North Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:270 | district_name: North Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:655 | district_name: Unakoti
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:655 | district_name: Unakoti
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:655 | district_name: Unakoti
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:655 | district_name: Unakoti
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:655 | district_name: Unakoti
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:655 | district_name: Unakoti
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:655 | district_name: Unakoti
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:655 | district_name: Unakoti
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:655 | district_name: Unakoti
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:655 | district_name: Unakoti
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:655 | district_name: Unakoti
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:655 | district_name: Unakoti
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:655 | district_name: Unakoti
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:655 | district_name: Unakoti
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:655 | district_name: Unakoti
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:655 | district_name: Unakoti
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:655 | district_name: Unakoti
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:655 | district_name: Unakoti
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:655 | district_name: Unakoti
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:655 | district_name: Unakoti
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:655 | district_name: Unakoti
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:655 | district_name: Unakoti
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:655 | district_name: Unakoti
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:655 | district_name: Unakoti
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:655 | district_name: Unakoti
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:655 | district_name: Unakoti
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:652 | district_name: Khowai
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:652 | district_name: Khowai
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:652 | district_name: Khowai
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:652 | district_name: Khowai
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:652 | district_name: Khowai
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:652 | district_name: Khowai
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:652 | district_name: Khowai
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:652 | district_name: Khowai
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:652 | district_name: Khowai
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:652 | district_name: Khowai
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:652 | district_name: Khowai
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:652 | district_name: Khowai
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:652 | district_name: Khowai
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:652 | district_name: Khowai
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:652 | district_name: Khowai
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:652 | district_name: Khowai
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:652 | district_name: Khowai
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:652 | district_name: Khowai
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:652 | district_name: Khowai
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:652 | district_name: Khowai
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:652 | district_name: Khowai
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:652 | district_name: Khowai
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:652 | district_name: Khowai
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:652 | district_name: Khowai
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:652 | district_name: Khowai
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:269 | district_name: Dhalai
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:269 | district_name: Dhalai
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:269 | district_name: Dhalai
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:269 | district_name: Dhalai
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:269 | district_name: Dhalai
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:269 | district_name: Dhalai
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:269 | district_name: Dhalai
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:269 | district_name: Dhalai
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:269 | district_name: Dhalai
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:269 | district_name: Dhalai
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:269 | district_name: Dhalai
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:269 | district_name: Dhalai
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:269 | district_name: Dhalai
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:269 | district_name: Dhalai
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:269 | district_name: Dhalai
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:269 | district_name: Dhalai
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:269 | district_name: Dhalai
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:269 | district_name: Dhalai
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:269 | district_name: Dhalai
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:269 | district_name: Dhalai
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:269 | district_name: Dhalai
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:269 | district_name: Dhalai
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:269 | district_name: Dhalai
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:269 | district_name: Dhalai
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:269 | district_name: Dhalai
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:269 | district_name: Dhalai
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:269 | district_name: Dhalai
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:269 | district_name: Dhalai
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:269 | district_name: Dhalai
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:269 | district_name: Dhalai
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:269 | district_name: Dhalai
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:269 | district_name: Dhalai
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:269 | district_name: Dhalai
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:269 | district_name: Dhalai
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:269 | district_name: Dhalai
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:269 | district_name: Dhalai
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:269 | district_name: Dhalai
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:269 | district_name: Dhalai
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:269 | district_name: Dhalai
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:269 | district_name: Dhalai
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:269 | district_name: Dhalai
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:269 | district_name: Dhalai
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:269 | district_name: Dhalai
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:269 | district_name: Dhalai
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:269 | district_name: Dhalai
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:269 | district_name: Dhalai
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:269 | district_name: Dhalai
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:270 | district_name: North Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:270 | district_name: North Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:270 | district_name: North Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:270 | district_name: North Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:270 | district_name: North Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:270 | district_name: North Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:270 | district_name: North Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:270 | district_name: North Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:270 | district_name: North Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:270 | district_name: North Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:270 | district_name: North Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:270 | district_name: North Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:270 | district_name: North Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:270 | district_name: North Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:270 | district_name: North Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:270 | district_name: North Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:270 | district_name: North Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:654 | district_name: Gomati
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:654 | district_name: Gomati
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:654 | district_name: Gomati
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:654 | district_name: Gomati
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:654 | district_name: Gomati
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:654 | district_name: Gomati
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:654 | district_name: Gomati
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:654 | district_name: Gomati
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:654 | district_name: Gomati
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:654 | district_name: Gomati
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:654 | district_name: Gomati
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:654 | district_name: Gomati
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:654 | district_name: Gomati
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:654 | district_name: Gomati
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:654 | district_name: Gomati
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:654 | district_name: Gomati
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:654 | district_name: Gomati
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:654 | district_name: Gomati
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:654 | district_name: Gomati
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:271 | district_name: South Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:271 | district_name: South Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:271 | district_name: South Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:271 | district_name: South Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:269 | district_name: Dhalai
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:269 | district_name: Dhalai
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:269 | district_name: Dhalai
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:269 | district_name: Dhalai
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:269 | district_name: Dhalai
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:269 | district_name: Dhalai
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:269 | district_name: Dhalai
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:269 | district_name: Dhalai
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:269 | district_name: Dhalai
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:269 | district_name: Dhalai
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:269 | district_name: Dhalai
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:269 | district_name: Dhalai
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:269 | district_name: Dhalai
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:269 | district_name: Dhalai
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:269 | district_name: Dhalai
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:269 | district_name: Dhalai
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:652 | district_name: Khowai
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:652 | district_name: Khowai
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:652 | district_name: Khowai
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:652 | district_name: Khowai
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:652 | district_name: Khowai
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:652 | district_name: Khowai
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:652 | district_name: Khowai
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:652 | district_name: Khowai
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:652 | district_name: Khowai
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:652 | district_name: Khowai
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:652 | district_name: Khowai
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:652 | district_name: Khowai
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:652 | district_name: Khowai
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:652 | district_name: Khowai
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:652 | district_name: Khowai
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:652 | district_name: Khowai
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:652 | district_name: Khowai
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:652 | district_name: Khowai
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:652 | district_name: Khowai
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:652 | district_name: Khowai
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:652 | district_name: Khowai
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:652 | district_name: Khowai
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:652 | district_name: Khowai
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:652 | district_name: Khowai
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:652 | district_name: Khowai
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:652 | district_name: Khowai
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:652 | district_name: Khowai
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:652 | district_name: Khowai
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:652 | district_name: Khowai
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:652 | district_name: Khowai
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:652 | district_name: Khowai
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:652 | district_name: Khowai
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:652 | district_name: Khowai
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:652 | district_name: Khowai
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:652 | district_name: Khowai
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:652 | district_name: Khowai
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:271 | district_name: South Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:271 | district_name: South Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:271 | district_name: South Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:271 | district_name: South Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:271 | district_name: South Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:271 | district_name: South Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:271 | district_name: South Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:271 | district_name: South Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:271 | district_name: South Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:271 | district_name: South Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:271 | district_name: South Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:271 | district_name: South Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:271 | district_name: South Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:271 | district_name: South Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:271 | district_name: South Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:271 | district_name: South Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:271 | district_name: South Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:271 | district_name: South Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:271 | district_name: South Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:271 | district_name: South Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:271 | district_name: South Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:271 | district_name: South Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:271 | district_name: South Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:271 | district_name: South Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:271 | district_name: South Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:271 | district_name: South Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:271 | district_name: South Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:271 | district_name: South Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:271 | district_name: South Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:271 | district_name: South Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:271 | district_name: South Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:271 | district_name: South Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:271 | district_name: South Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:271 | district_name: South Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:271 | district_name: South Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:271 | district_name: South Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:271 | district_name: South Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:271 | district_name: South Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:271 | district_name: South Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:271 | district_name: South Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:271 | district_name: South Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:271 | district_name: South Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:271 | district_name: South Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:271 | district_name: South Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:271 | district_name: South Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:655 | district_name: Unakoti
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:655 | district_name: Unakoti
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:655 | district_name: Unakoti
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:655 | district_name: Unakoti
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:655 | district_name: Unakoti
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:655 | district_name: Unakoti
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:655 | district_name: Unakoti
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:655 | district_name: Unakoti
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:655 | district_name: Unakoti
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:655 | district_name: Unakoti
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:655 | district_name: Unakoti
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:655 | district_name: Unakoti
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:655 | district_name: Unakoti
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:655 | district_name: Unakoti
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:655 | district_name: Unakoti
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:655 | district_name: Unakoti
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:655 | district_name: Unakoti
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:655 | district_name: Unakoti
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:655 | district_name: Unakoti
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:655 | district_name: Unakoti
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:655 | district_name: Unakoti
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:655 | district_name: Unakoti
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:655 | district_name: Unakoti
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:655 | district_name: Unakoti
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:655 | district_name: Unakoti
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:655 | district_name: Unakoti
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:655 | district_name: Unakoti
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:655 | district_name: Unakoti
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:655 | district_name: Unakoti
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:655 | district_name: Unakoti
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:655 | district_name: Unakoti
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:655 | district_name: Unakoti
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:270 | district_name: North Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:270 | district_name: North Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:270 | district_name: North Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:270 | district_name: North Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:270 | district_name: North Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:270 | district_name: North Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:270 | district_name: North Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:270 | district_name: North Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:270 | district_name: North Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:270 | district_name: North Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:270 | district_name: North Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:270 | district_name: North Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:270 | district_name: North Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:270 | district_name: North Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:270 | district_name: North Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:270 | district_name: North Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:270 | district_name: North Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:270 | district_name: North Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:270 | district_name: North Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:270 | district_name: North Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:270 | district_name: North Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:270 | district_name: North Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:270 | district_name: North Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:270 | district_name: North Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:270 | district_name: North Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:270 | district_name: North Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:270 | district_name: North Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:270 | district_name: North Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:270 | district_name: North Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:270 | district_name: North Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:270 | district_name: North Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:270 | district_name: North Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:270 | district_name: North Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:270 | district_name: North Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:270 | district_name: North Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:270 | district_name: North Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:270 | district_name: North Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:270 | district_name: North Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:270 | district_name: North Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:270 | district_name: North Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:270 | district_name: North Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:270 | district_name: North Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:270 | district_name: North Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:269 | district_name: Dhalai
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:269 | district_name: Dhalai
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:269 | district_name: Dhalai
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:269 | district_name: Dhalai
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:269 | district_name: Dhalai
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:269 | district_name: Dhalai
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:269 | district_name: Dhalai
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:269 | district_name: Dhalai
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:269 | district_name: Dhalai
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:269 | district_name: Dhalai
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:269 | district_name: Dhalai
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:269 | district_name: Dhalai
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:269 | district_name: Dhalai
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:269 | district_name: Dhalai
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:269 | district_name: Dhalai
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:269 | district_name: Dhalai
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:269 | district_name: Dhalai
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:269 | district_name: Dhalai
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:269 | district_name: Dhalai
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:269 | district_name: Dhalai
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:269 | district_name: Dhalai
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:269 | district_name: Dhalai
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:269 | district_name: Dhalai
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:269 | district_name: Dhalai
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:269 | district_name: Dhalai
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:269 | district_name: Dhalai
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:269 | district_name: Dhalai
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:269 | district_name: Dhalai
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:269 | district_name: Dhalai
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:269 | district_name: Dhalai
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:269 | district_name: Dhalai
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:269 | district_name: Dhalai
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:269 | district_name: Dhalai
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:269 | district_name: Dhalai
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:269 | district_name: Dhalai
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:269 | district_name: Dhalai
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:269 | district_name: Dhalai
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:269 | district_name: Dhalai
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:269 | district_name: Dhalai
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:269 | district_name: Dhalai
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:269 | district_name: Dhalai
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:269 | district_name: Dhalai
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:269 | district_name: Dhalai
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:269 | district_name: Dhalai
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:269 | district_name: Dhalai
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:269 | district_name: Dhalai
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:269 | district_name: Dhalai
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:269 | district_name: Dhalai
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:269 | district_name: Dhalai
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:269 | district_name: Dhalai
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:269 | district_name: Dhalai
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:269 | district_name: Dhalai
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:269 | district_name: Dhalai
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:652 | district_name: Khowai
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:652 | district_name: Khowai
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:652 | district_name: Khowai
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:652 | district_name: Khowai
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:652 | district_name: Khowai
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:652 | district_name: Khowai
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:652 | district_name: Khowai
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:652 | district_name: Khowai
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:652 | district_name: Khowai
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:652 | district_name: Khowai
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:652 | district_name: Khowai
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:652 | district_name: Khowai
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:652 | district_name: Khowai
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:652 | district_name: Khowai
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:652 | district_name: Khowai
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:652 | district_name: Khowai
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:652 | district_name: Khowai
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:652 | district_name: Khowai
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:652 | district_name: Khowai
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:652 | district_name: Khowai
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:652 | district_name: Khowai
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:652 | district_name: Khowai
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:652 | district_name: Khowai
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:652 | district_name: Khowai
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:652 | district_name: Khowai
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:271 | district_name: South Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:271 | district_name: South Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:271 | district_name: South Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:271 | district_name: South Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:271 | district_name: South Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:271 | district_name: South Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:271 | district_name: South Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:271 | district_name: South Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:271 | district_name: South Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:271 | district_name: South Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:271 | district_name: South Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:271 | district_name: South Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:271 | district_name: South Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:271 | district_name: South Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:271 | district_name: South Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:271 | district_name: South Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:271 | district_name: South Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:271 | district_name: South Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:271 | district_name: South Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:271 | district_name: South Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:271 | district_name: South Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:271 | district_name: South Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:271 | district_name: South Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:271 | district_name: South Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:271 | district_name: South Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:271 | district_name: South Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:271 | district_name: South Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:271 | district_name: South Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:271 | district_name: South Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:271 | district_name: South Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:271 | district_name: South Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:271 | district_name: South Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:271 | district_name: South Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:271 | district_name: South Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:271 | district_name: South Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:271 | district_name: South Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:271 | district_name: South Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:271 | district_name: South Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:271 | district_name: South Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:271 | district_name: South Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:271 | district_name: South Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:271 | district_name: South Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:271 | district_name: South Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:271 | district_name: South Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:271 | district_name: South Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:271 | district_name: South Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:271 | district_name: South Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:269 | district_name: Dhalai
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:269 | district_name: Dhalai
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:269 | district_name: Dhalai
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:269 | district_name: Dhalai
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:269 | district_name: Dhalai
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:269 | district_name: Dhalai
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:269 | district_name: Dhalai
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:269 | district_name: Dhalai
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:269 | district_name: Dhalai
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:269 | district_name: Dhalai
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:269 | district_name: Dhalai
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:269 | district_name: Dhalai
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:269 | district_name: Dhalai
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:269 | district_name: Dhalai
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:269 | district_name: Dhalai
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:269 | district_name: Dhalai
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:269 | district_name: Dhalai
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:269 | district_name: Dhalai
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:269 | district_name: Dhalai
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:269 | district_name: Dhalai
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:269 | district_name: Dhalai
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:652 | district_name: Khowai
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:652 | district_name: Khowai
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:652 | district_name: Khowai
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:652 | district_name: Khowai
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:652 | district_name: Khowai
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:652 | district_name: Khowai
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:652 | district_name: Khowai
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:652 | district_name: Khowai
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:652 | district_name: Khowai
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:652 | district_name: Khowai
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:652 | district_name: Khowai
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:652 | district_name: Khowai
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:652 | district_name: Khowai
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:652 | district_name: Khowai
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:652 | district_name: Khowai
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:652 | district_name: Khowai
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:652 | district_name: Khowai
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:652 | district_name: Khowai
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:652 | district_name: Khowai
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:652 | district_name: Khowai
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:652 | district_name: Khowai
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:652 | district_name: Khowai
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:652 | district_name: Khowai
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:272 | district_name: West Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:272 | district_name: West Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:272 | district_name: West Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:272 | district_name: West Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:272 | district_name: West Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:272 | district_name: West Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:272 | district_name: West Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:272 | district_name: West Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:272 | district_name: West Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:272 | district_name: West Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:272 | district_name: West Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:272 | district_name: West Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:654 | district_name: Gomati
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:654 | district_name: Gomati
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:654 | district_name: Gomati
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:654 | district_name: Gomati
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:654 | district_name: Gomati
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:654 | district_name: Gomati
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:654 | district_name: Gomati
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:654 | district_name: Gomati
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:654 | district_name: Gomati
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:654 | district_name: Gomati
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:654 | district_name: Gomati
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:654 | district_name: Gomati
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:654 | district_name: Gomati
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:654 | district_name: Gomati
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:654 | district_name: Gomati
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:654 | district_name: Gomati
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:654 | district_name: Gomati
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:654 | district_name: Gomati
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:654 | district_name: Gomati
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:654 | district_name: Gomati
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:654 | district_name: Gomati
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:654 | district_name: Gomati
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:654 | district_name: Gomati
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:654 | district_name: Gomati
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:654 | district_name: Gomati
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:654 | district_name: Gomati
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:654 | district_name: Gomati
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:654 | district_name: Gomati
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:654 | district_name: Gomati
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:654 | district_name: Gomati
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:654 | district_name: Gomati
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:654 | district_name: Gomati
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:654 | district_name: Gomati
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:654 | district_name: Gomati
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:654 | district_name: Gomati
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:654 | district_name: Gomati
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:654 | district_name: Gomati
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:654 | district_name: Gomati
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:654 | district_name: Gomati
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:654 | district_name: Gomati
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:272 | district_name: West Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:272 | district_name: West Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:272 | district_name: West Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:272 | district_name: West Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:272 | district_name: West Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:272 | district_name: West Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:272 | district_name: West Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:272 | district_name: West Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:272 | district_name: West Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:272 | district_name: West Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:272 | district_name: West Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:272 | district_name: West Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:272 | district_name: West Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:272 | district_name: West Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:272 | district_name: West Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:272 | district_name: West Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:272 | district_name: West Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:272 | district_name: West Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:272 | district_name: West Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:272 | district_name: West Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:272 | district_name: West Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:272 | district_name: West Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:272 | district_name: West Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:272 | district_name: West Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:272 | district_name: West Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:272 | district_name: West Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:272 | district_name: West Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:272 | district_name: West Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:272 | district_name: West Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:272 | district_name: West Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:272 | district_name: West Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:272 | district_name: West Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:272 | district_name: West Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:272 | district_name: West Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:272 | district_name: West Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:272 | district_name: West Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:272 | district_name: West Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:272 | district_name: West Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:272 | district_name: West Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:272 | district_name: West Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:272 | district_name: West Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:272 | district_name: West Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:272 | district_name: West Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:272 | district_name: West Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:272 | district_name: West Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:272 | district_name: West Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:271 | district_name: South Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:271 | district_name: South Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:271 | district_name: South Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:271 | district_name: South Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:271 | district_name: South Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:271 | district_name: South Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:271 | district_name: South Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:271 | district_name: South Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:271 | district_name: South Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:271 | district_name: South Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:271 | district_name: South Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:271 | district_name: South Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:271 | district_name: South Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:271 | district_name: South Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:271 | district_name: South Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:271 | district_name: South Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:271 | district_name: South Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:271 | district_name: South Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:271 | district_name: South Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:271 | district_name: South Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:271 | district_name: South Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:271 | district_name: South Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:271 | district_name: South Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:271 | district_name: South Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:653 | district_name: Sepahijala
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:653 | district_name: Sepahijala
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:653 | district_name: Sepahijala
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:653 | district_name: Sepahijala
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:653 | district_name: Sepahijala
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:653 | district_name: Sepahijala
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:653 | district_name: Sepahijala
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:653 | district_name: Sepahijala
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:653 | district_name: Sepahijala
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:653 | district_name: Sepahijala
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:653 | district_name: Sepahijala
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:653 | district_name: Sepahijala
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:653 | district_name: Sepahijala
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:653 | district_name: Sepahijala
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:653 | district_name: Sepahijala
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:653 | district_name: Sepahijala
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:653 | district_name: Sepahijala
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:653 | district_name: Sepahijala
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:653 | district_name: Sepahijala
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:653 | district_name: Sepahijala
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:653 | district_name: Sepahijala
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:653 | district_name: Sepahijala
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:653 | district_name: Sepahijala
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:653 | district_name: Sepahijala
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:653 | district_name: Sepahijala
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:653 | district_name: Sepahijala
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:653 | district_name: Sepahijala
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:653 | district_name: Sepahijala
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:653 | district_name: Sepahijala
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:653 | district_name: Sepahijala
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:653 | district_name: Sepahijala
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:653 | district_name: Sepahijala
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:653 | district_name: Sepahijala
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:653 | district_name: Sepahijala
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:653 | district_name: Sepahijala
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:653 | district_name: Sepahijala
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:653 | district_name: Sepahijala
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:653 | district_name: Sepahijala
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:653 | district_name: Sepahijala
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:653 | district_name: Sepahijala
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:653 | district_name: Sepahijala
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:653 | district_name: Sepahijala
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:653 | district_name: Sepahijala
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:653 | district_name: Sepahijala
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:653 | district_name: Sepahijala
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:653 | district_name: Sepahijala
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:653 | district_name: Sepahijala
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:653 | district_name: Sepahijala
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:653 | district_name: Sepahijala
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:653 | district_name: Sepahijala
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:653 | district_name: Sepahijala
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:653 | district_name: Sepahijala
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:653 | district_name: Sepahijala
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:653 | district_name: Sepahijala
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:653 | district_name: Sepahijala
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:653 | district_name: Sepahijala
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:653 | district_name: Sepahijala
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:653 | district_name: Sepahijala
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:653 | district_name: Sepahijala
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:653 | district_name: Sepahijala
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:653 | district_name: Sepahijala
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:653 | district_name: Sepahijala
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:653 | district_name: Sepahijala
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:653 | district_name: Sepahijala
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:653 | district_name: Sepahijala
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:653 | district_name: Sepahijala
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:653 | district_name: Sepahijala
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:653 | district_name: Sepahijala
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:653 | district_name: Sepahijala
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:653 | district_name: Sepahijala
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:653 | district_name: Sepahijala
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:653 | district_name: Sepahijala
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:653 | district_name: Sepahijala
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:653 | district_name: Sepahijala
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:653 | district_name: Sepahijala
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:653 | district_name: Sepahijala
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:653 | district_name: Sepahijala
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:653 | district_name: Sepahijala
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:653 | district_name: Sepahijala
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:653 | district_name: Sepahijala
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:653 | district_name: Sepahijala
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:653 | district_name: Sepahijala
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:653 | district_name: Sepahijala
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:653 | district_name: Sepahijala
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:653 | district_name: Sepahijala
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:653 | district_name: Sepahijala
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:653 | district_name: Sepahijala
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:653 | district_name: Sepahijala
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:653 | district_name: Sepahijala
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:653 | district_name: Sepahijala
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:653 | district_name: Sepahijala
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:653 | district_name: Sepahijala
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:653 | district_name: Sepahijala
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:653 | district_name: Sepahijala
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:653 | district_name: Sepahijala
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:653 | district_name: Sepahijala
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:653 | district_name: Sepahijala
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:653 | district_name: Sepahijala
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:653 | district_name: Sepahijala
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:653 | district_name: Sepahijala
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:653 | district_name: Sepahijala
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:653 | district_name: Sepahijala
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:653 | district_name: Sepahijala
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:653 | district_name: Sepahijala
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:653 | district_name: Sepahijala
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:653 | district_name: Sepahijala
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:653 | district_name: Sepahijala
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:653 | district_name: Sepahijala
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:653 | district_name: Sepahijala
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:653 | district_name: Sepahijala
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:653 | district_name: Sepahijala
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:653 | district_name: Sepahijala
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:653 | district_name: Sepahijala
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:653 | district_name: Sepahijala
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:653 | district_name: Sepahijala
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:653 | district_name: Sepahijala
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:653 | district_name: Sepahijala
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:653 | district_name: Sepahijala
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:653 | district_name: Sepahijala
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:653 | district_name: Sepahijala
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:653 | district_name: Sepahijala
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:653 | district_name: Sepahijala
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:653 | district_name: Sepahijala
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:653 | district_name: Sepahijala
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:653 | district_name: Sepahijala
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:653 | district_name: Sepahijala
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:653 | district_name: Sepahijala
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:653 | district_name: Sepahijala
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:653 | district_name: Sepahijala
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:653 | district_name: Sepahijala
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:653 | district_name: Sepahijala
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:653 | district_name: Sepahijala
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:653 | district_name: Sepahijala
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:653 | district_name: Sepahijala
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:653 | district_name: Sepahijala
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:653 | district_name: Sepahijala
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:653 | district_name: Sepahijala
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:653 | district_name: Sepahijala
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:653 | district_name: Sepahijala
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:653 | district_name: Sepahijala
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:653 | district_name: Sepahijala
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:653 | district_name: Sepahijala
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:653 | district_name: Sepahijala
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:653 | district_name: Sepahijala
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:653 | district_name: Sepahijala
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:653 | district_name: Sepahijala
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:272 | district_name: West Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:272 | district_name: West Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:272 | district_name: West Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:272 | district_name: West Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:654 | district_name: Gomati
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:654 | district_name: Gomati
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:654 | district_name: Gomati
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:654 | district_name: Gomati
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:654 | district_name: Gomati
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:654 | district_name: Gomati
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:654 | district_name: Gomati
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:654 | district_name: Gomati
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:654 | district_name: Gomati
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:654 | district_name: Gomati
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:654 | district_name: Gomati
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:654 | district_name: Gomati
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:654 | district_name: Gomati
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:654 | district_name: Gomati
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:654 | district_name: Gomati
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:654 | district_name: Gomati
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:654 | district_name: Gomati
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:654 | district_name: Gomati
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:654 | district_name: Gomati
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:654 | district_name: Gomati
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:654 | district_name: Gomati
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:654 | district_name: Gomati
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:654 | district_name: Gomati
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:654 | district_name: Gomati
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:654 | district_name: Gomati
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:654 | district_name: Gomati
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:654 | district_name: Gomati
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:654 | district_name: Gomati
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:654 | district_name: Gomati
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:654 | district_name: Gomati
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:654 | district_name: Gomati
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:654 | district_name: Gomati
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:654 | district_name: Gomati
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:654 | district_name: Gomati
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:654 | district_name: Gomati
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:654 | district_name: Gomati
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:654 | district_name: Gomati
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:654 | district_name: Gomati
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:654 | district_name: Gomati
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:653 | district_name: Sepahijala
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:653 | district_name: Sepahijala
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:653 | district_name: Sepahijala
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:653 | district_name: Sepahijala
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:653 | district_name: Sepahijala
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:653 | district_name: Sepahijala
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:653 | district_name: Sepahijala
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:653 | district_name: Sepahijala
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:653 | district_name: Sepahijala
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:653 | district_name: Sepahijala
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:653 | district_name: Sepahijala
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:653 | district_name: Sepahijala
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:653 | district_name: Sepahijala
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:653 | district_name: Sepahijala
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:653 | district_name: Sepahijala
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:653 | district_name: Sepahijala
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:653 | district_name: Sepahijala
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:653 | district_name: Sepahijala
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:653 | district_name: Sepahijala
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:653 | district_name: Sepahijala
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:653 | district_name: Sepahijala
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:653 | district_name: Sepahijala
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:653 | district_name: Sepahijala
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:272 | district_name: West Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:272 | district_name: West Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:272 | district_name: West Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:272 | district_name: West Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:272 | district_name: West Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:272 | district_name: West Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:272 | district_name: West Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:272 | district_name: West Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:272 | district_name: West Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:272 | district_name: West Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:272 | district_name: West Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:272 | district_name: West Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:272 | district_name: West Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:272 | district_name: West Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:272 | district_name: West Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:272 | district_name: West Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:272 | district_name: West Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:272 | district_name: West Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:272 | district_name: West Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:272 | district_name: West Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:272 | district_name: West Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:272 | district_name: West Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:272 | district_name: West Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:272 | district_name: West Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:272 | district_name: West Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:272 | district_name: West Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:272 | district_name: West Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:272 | district_name: West Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:272 | district_name: West Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:272 | district_name: West Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:272 | district_name: West Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:272 | district_name: West Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:272 | district_name: West Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:272 | district_name: West Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:272 | district_name: West Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:272 | district_name: West Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:272 | district_name: West Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:272 | district_name: West Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:272 | district_name: West Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:272 | district_name: West Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:272 | district_name: West Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:272 | district_name: West Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:272 | district_name: West Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:272 | district_name: West Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:272 | district_name: West Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:272 | district_name: West Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:272 | district_name: West Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:272 | district_name: West Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:272 | district_name: West Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:272 | district_name: West Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:272 | district_name: West Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:272 | district_name: West Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:272 | district_name: West Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:272 | district_name: West Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:272 | district_name: West Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:272 | district_name: West Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:272 | district_name: West Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:272 | district_name: West Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:272 | district_name: West Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:272 | district_name: West Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:272 | district_name: West Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:272 | district_name: West Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:272 | district_name: West Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:272 | district_name: West Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:272 | district_name: West Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:272 | district_name: West Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:272 | district_name: West Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:272 | district_name: West Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:272 | district_name: West Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:654 | district_name: Gomati
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:654 | district_name: Gomati
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:654 | district_name: Gomati
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:654 | district_name: Gomati
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:654 | district_name: Gomati
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:654 | district_name: Gomati
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:654 | district_name: Gomati
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:654 | district_name: Gomati
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:654 | district_name: Gomati
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:654 | district_name: Gomati
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:654 | district_name: Gomati
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:654 | district_name: Gomati
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:654 | district_name: Gomati
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:654 | district_name: Gomati
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:654 | district_name: Gomati
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:654 | district_name: Gomati
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:654 | district_name: Gomati
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:654 | district_name: Gomati
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:654 | district_name: Gomati
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:654 | district_name: Gomati
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:654 | district_name: Gomati
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:654 | district_name: Gomati
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:654 | district_name: Gomati
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:654 | district_name: Gomati
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:654 | district_name: Gomati
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:654 | district_name: Gomati
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:654 | district_name: Gomati
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:654 | district_name: Gomati
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:654 | district_name: Gomati
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:654 | district_name: Gomati
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:654 | district_name: Gomati
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:654 | district_name: Gomati
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:654 | district_name: Gomati
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:654 | district_name: Gomati
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:654 | district_name: Gomati
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:654 | district_name: Gomati
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:654 | district_name: Gomati
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:654 | district_name: Gomati
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:654 | district_name: Gomati
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:654 | district_name: Gomati
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:272 | district_name: West Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:272 | district_name: West Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:272 | district_name: West Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:272 | district_name: West Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:272 | district_name: West Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:272 | district_name: West Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:272 | district_name: West Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:272 | district_name: West Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:272 | district_name: West Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:272 | district_name: West Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:272 | district_name: West Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:272 | district_name: West Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:272 | district_name: West Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:272 | district_name: West Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:272 | district_name: West Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:272 | district_name: West Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:272 | district_name: West Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:272 | district_name: West Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:272 | district_name: West Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:653 | district_name: Sepahijala
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:653 | district_name: Sepahijala
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:653 | district_name: Sepahijala
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:653 | district_name: Sepahijala
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:653 | district_name: Sepahijala
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:653 | district_name: Sepahijala
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:653 | district_name: Sepahijala
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:653 | district_name: Sepahijala
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:653 | district_name: Sepahijala
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:653 | district_name: Sepahijala
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:653 | district_name: Sepahijala
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:653 | district_name: Sepahijala
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:653 | district_name: Sepahijala
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:653 | district_name: Sepahijala
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:653 | district_name: Sepahijala
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:653 | district_name: Sepahijala
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:653 | district_name: Sepahijala
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:653 | district_name: Sepahijala
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:653 | district_name: Sepahijala
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:653 | district_name: Sepahijala
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:653 | district_name: Sepahijala
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:653 | district_name: Sepahijala
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:653 | district_name: Sepahijala
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:653 | district_name: Sepahijala
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:653 | district_name: Sepahijala
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:653 | district_name: Sepahijala
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:653 | district_name: Sepahijala
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:653 | district_name: Sepahijala
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:653 | district_name: Sepahijala
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:653 | district_name: Sepahijala
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:653 | district_name: Sepahijala
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:653 | district_name: Sepahijala
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:272 | district_name: West Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:272 | district_name: West Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:654 | district_name: Gomati
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:654 | district_name: Gomati
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:654 | district_name: Gomati
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:654 | district_name: Gomati
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:654 | district_name: Gomati
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:654 | district_name: Gomati
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:654 | district_name: Gomati
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:654 | district_name: Gomati
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:654 | district_name: Gomati
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:654 | district_name: Gomati
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:654 | district_name: Gomati
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:654 | district_name: Gomati
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:271 | district_name: South Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:271 | district_name: South Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:271 | district_name: South Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:271 | district_name: South Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:271 | district_name: South Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:271 | district_name: South Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:271 | district_name: South Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:271 | district_name: South Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:271 | district_name: South Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:271 | district_name: South Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:271 | district_name: South Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:271 | district_name: South Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:271 | district_name: South Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:271 | district_name: South Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:271 | district_name: South Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:271 | district_name: South Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:271 | district_name: South Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:271 | district_name: South Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:271 | district_name: South Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:271 | district_name: South Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:271 | district_name: South Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:271 | district_name: South Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:271 | district_name: South Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:271 | district_name: South Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:271 | district_name: South Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:271 | district_name: South Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:271 | district_name: South Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:271 | district_name: South Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:271 | district_name: South Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:271 | district_name: South Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:271 | district_name: South Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:271 | district_name: South Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:271 | district_name: South Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:271 | district_name: South Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:271 | district_name: South Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:271 | district_name: South Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:271 | district_name: South Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:271 | district_name: South Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:271 | district_name: South Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:271 | district_name: South Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:271 | district_name: South Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:271 | district_name: South Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:271 | district_name: South Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:271 | district_name: South Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:271 | district_name: South Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:272 | district_name: West Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:272 | district_name: West Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:272 | district_name: West Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:272 | district_name: West Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:272 | district_name: West Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:271 | district_name: South Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:271 | district_name: South Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:271 | district_name: South Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:271 | district_name: South Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:271 | district_name: South Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:271 | district_name: South Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:271 | district_name: South Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:271 | district_name: South Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:271 | district_name: South Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:271 | district_name: South Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:271 | district_name: South Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:271 | district_name: South Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:271 | district_name: South Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:271 | district_name: South Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:271 | district_name: South Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:271 | district_name: South Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:271 | district_name: South Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:271 | district_name: South Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:271 | district_name: South Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:271 | district_name: South Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:271 | district_name: South Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:271 | district_name: South Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:271 | district_name: South Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:271 | district_name: South Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:271 | district_name: South Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:271 | district_name: South Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:271 | district_name: South Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:271 | district_name: South Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:271 | district_name: South Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:271 | district_name: South Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:272 | district_name: West Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:272 | district_name: West Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:272 | district_name: West Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:272 | district_name: West Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:272 | district_name: West Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:272 | district_name: West Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:272 | district_name: West Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:272 | district_name: West Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:272 | district_name: West Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:272 | district_name: West Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:272 | district_name: West Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:272 | district_name: West Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:272 | district_name: West Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:272 | district_name: West Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:272 | district_name: West Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:272 | district_name: West Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:272 | district_name: West Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:272 | district_name: West Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:272 | district_name: West Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:272 | district_name: West Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:272 | district_name: West Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:272 | district_name: West Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:272 | district_name: West Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:272 | district_name: West Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:272 | district_name: West Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:272 | district_name: West Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:272 | district_name: West Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:272 | district_name: West Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:272 | district_name: West Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:272 | district_name: West Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:272 | district_name: West Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:272 | district_name: West Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:272 | district_name: West Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:272 | district_name: West Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:653 | district_name: Sepahijala
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:653 | district_name: Sepahijala
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:653 | district_name: Sepahijala
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:653 | district_name: Sepahijala
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:653 | district_name: Sepahijala
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:653 | district_name: Sepahijala
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:653 | district_name: Sepahijala
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:653 | district_name: Sepahijala
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:653 | district_name: Sepahijala
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:653 | district_name: Sepahijala
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:653 | district_name: Sepahijala
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:653 | district_name: Sepahijala
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:653 | district_name: Sepahijala
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:653 | district_name: Sepahijala
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:653 | district_name: Sepahijala
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:653 | district_name: Sepahijala
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:653 | district_name: Sepahijala
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:653 | district_name: Sepahijala
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:653 | district_name: Sepahijala
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:653 | district_name: Sepahijala
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:653 | district_name: Sepahijala
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:653 | district_name: Sepahijala
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:653 | district_name: Sepahijala
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:653 | district_name: Sepahijala
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:272 | district_name: West Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:272 | district_name: West Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:272 | district_name: West Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:272 | district_name: West Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:272 | district_name: West Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:272 | district_name: West Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:272 | district_name: West Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:272 | district_name: West Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:272 | district_name: West Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:272 | district_name: West Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:272 | district_name: West Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:272 | district_name: West Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:272 | district_name: West Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:272 | district_name: West Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:272 | district_name: West Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:272 | district_name: West Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:272 | district_name: West Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:272 | district_name: West Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:272 | district_name: West Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:272 | district_name: West Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:653 | district_name: Sepahijala
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:653 | district_name: Sepahijala
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:653 | district_name: Sepahijala
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:653 | district_name: Sepahijala
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:653 | district_name: Sepahijala
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:653 | district_name: Sepahijala
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:653 | district_name: Sepahijala
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:653 | district_name: Sepahijala
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:653 | district_name: Sepahijala
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:653 | district_name: Sepahijala
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:653 | district_name: Sepahijala
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:653 | district_name: Sepahijala
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:653 | district_name: Sepahijala
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:653 | district_name: Sepahijala
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:653 | district_name: Sepahijala
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:653 | district_name: Sepahijala
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:653 | district_name: Sepahijala
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:272 | district_name: West Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:272 | district_name: West Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:272 | district_name: West Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:272 | district_name: West Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:272 | district_name: West Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:272 | district_name: West Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:272 | district_name: West Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:272 | district_name: West Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:272 | district_name: West Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:272 | district_name: West Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:272 | district_name: West Tripura
+status: TBL_DATA_EXISTS  | table: def_geo_districts | district_id:272 | district_name: West Tripura

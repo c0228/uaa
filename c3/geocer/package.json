@@ -5,10 +5,14 @@
   "description": "Streaming XLSX",
   "scripts": {},
   "dependencies": {
+    "cors": "^2.8.6",
+    "dotenv": "^18.0.1",
     "exceljs": "^4.4.0",
+    "express": "^5.2.1",
     "mysql2": "^3.24.2"
   },
   "imports": {
+    "#ApiUtils/*": "./api/utils/*",
     "#Utils/*": "./src/utils/*",
     "#Services/*": "./src/services/*",
     "#Data/*": "./data/*",

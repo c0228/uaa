@@ -1,0 +1,4 @@
+.mlh-fixed-footer { padding-top:6px;padding-bottom:4px;position: fixed;left: 0;bottom: 0;
+    width: 100%;background-color: #fff;color: #000;text-align: center; }
+.mlh-policy-links { color:#555;cursor:pointer; }
+.mlh-policy-links:hover { color:#000;text-decoration: underline; }

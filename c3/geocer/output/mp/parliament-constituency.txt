@@ -1,0 +1,543 @@
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (543,35,'Andaman & Nicobar Islands'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (411,28,'Amalapuram'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (412,28,'Anakapalle'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (413,28,'Anantapur'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (414,28,'Araku'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (415,28,'Bapatla'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (418,28,'Chittoor'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (419,28,'Eluru'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (420,28,'Guntur'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (421,28,'Hindupur'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (423,28,'Kadapa'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (424,28,'Kakinada'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (427,28,'Kurnool'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (428,28,'Machilipatnam'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (435,28,'Nandyal'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (436,28,'Narasaraopet'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (437,28,'Narsapuram'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (438,28,'Nellore'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (440,28,'Ongole'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (442,28,'Rajahmundry'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (443,28,'Rajampet'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (445,28,'Srikakulam'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (446,28,'Tirupati'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (447,28,'Vijayawada'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (448,28,'Visakhapatnam'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (449,28,'Vizianagaram'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (193,12,'Arunachal East'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (194,12,'Arunachal West'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (203,18,'Autonomous District'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (204,18,'Barpeta'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (205,18,'Dhubri'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (206,18,'Dibrugarh'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (207,18,'Gauhati'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (208,18,'Jorhat'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (210,18,'Karimganj'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (209,18,'Kaziranga'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (211,18,'Kokrajhar'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (212,18,'Lakhimpur'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (213,18,'Mangaldoi'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (214,18,'Nagaon'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (215,18,'Silchar'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (216,18,'Sonitpur'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (152,10,'Araria'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (153,10,'Arrah'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (154,10,'Aurangabad'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (155,10,'Banka'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (156,10,'Begusarai'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (157,10,'Bhagalpur'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (158,10,'Buxar'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (159,10,'Darbhanga'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (160,10,'Gaya'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (161,10,'Gopalganj'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (162,10,'Hajipur'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (163,10,'Jahanabad'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (164,10,'Jamui'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (165,10,'Jhanjharpur'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (166,10,'Karakat'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (167,10,'Katihar'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (168,10,'Khagaria'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (169,10,'Kishanganj'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (170,10,'Madhepura'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (171,10,'Madhubani'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (172,10,'Maharajganj'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (173,10,'Munger'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (174,10,'Muzaffarpur'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (175,10,'Nalanda'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (176,10,'Nawada'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (177,10,'Paschim Champaran'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (178,10,'Pataliputra'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (179,10,'Patna Sahib'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (180,10,'Purnia'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (181,10,'Purvi Champaran'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (182,10,'Samastipur'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (183,10,'Saran'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (184,10,'Sasaram'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (185,10,'Sheohar'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (186,10,'Sitamarhi'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (187,10,'Siwan'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (188,10,'Supaul'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (189,10,'Ujiarpur'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (190,10,'Vaishali'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (191,10,'Valmiki Nagar'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (24,4,'Chandigarh'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (294,22,'Bastar'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (295,22,'Bilaspur'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (296,22,'Durg'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (297,22,'Janjgir Champa'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (298,22,'Kanker'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (299,22,'Korba'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (300,22,'Mahasamund'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (301,22,'Raigarh'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (302,22,'Raipur'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (303,22,'Rajnandgaon'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (304,22,'Surguja'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (40,7,'Chandni Chowk'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (41,7,'East Delhi'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (42,7,'New Delhi'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (43,7,'North East Delhi'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (44,7,'North West Delhi'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (45,7,'South Delhi'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (46,7,'West Delhi'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (480,30,'North Goa'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (481,30,'South Goa'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (334,24,'Ahmedabad East'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (335,24,'Ahmedabad West'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (336,24,'Amreli'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (337,24,'Anand'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (338,24,'Banaskantha'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (339,24,'Bardoli'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (340,24,'Bharuch'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (341,24,'Bhavnagar'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (342,24,'Chhota Udaipur'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (343,24,'Dahod'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (344,24,'Gandhinagar'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (345,24,'Jamnagar'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (346,24,'Junagadh'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (347,24,'Kachchh'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (348,24,'Kheda'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (349,24,'Mahesana'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (350,24,'Navsari'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (351,24,'Panchmahal'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (352,24,'Patan'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (353,24,'Porbandar'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (354,24,'Rajkot'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (355,24,'Sabarkantha'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (356,24,'Surat'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (357,24,'Surendranagar'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (358,24,'Vadodara'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (359,24,'Valsad'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (30,6,'Ambala'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (31,6,'Bhiwani-Mahendragarh'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (32,6,'Faridabad'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (33,6,'Gurgaon'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (34,6,'Hisar'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (35,6,'Karnal'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (36,6,'Kurukshetra'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (37,6,'Rohtak'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (38,6,'Sirsa'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (39,6,'Sonipat'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (7,2,'Hamirpur'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (8,2,'Kangra'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (9,2,'Mandi'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (10,2,'Shimla'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (1,1,'Anantnag'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (2,1,'Baramulla'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (3,1,'Jammu'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (5,1,'Srinagar'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (6,1,'Udhampur '); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (259,20,'Chatra'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (260,20,'Dhanbad'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (261,20,'Dumka'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (262,20,'Giridih'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (263,20,'Godda'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (264,20,'Hazaribagh'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (265,20,'Jamshedpur'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (266,20,'Khunti'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (267,20,'Kodarma'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (268,20,'Lohardaga'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (269,20,'Palamau'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (270,20,'Rajmahal'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (271,20,'Ranchi'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (272,20,'Singhbhum'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (452,29,'Bagalkot'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (458,29,'Ballari'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (457,29,'Belagavi'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (453,29,'Bengaluru Central'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (454,29,'Bengaluru North'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (455,29,'Bengaluru Rural'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (456,29,'Bengaluru South'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (459,29,'Bidar'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (461,29,'Chamarajanagar'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (462,29,'Chikkballapur'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (463,29,'Chikkodi'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (464,29,'Chitradurga'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (465,29,'Dakshina Kannada'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (466,29,'Davanagere'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (467,29,'Dharwad'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (469,29,'Hassan'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (470,29,'Haveri'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (468,29,'Kalaburagi'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (471,29,'Kolar'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (472,29,'Koppal'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (473,29,'Mandya'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (474,29,'Mysuru'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (475,29,'Raichur'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (476,29,'Shivamogga'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (477,29,'Tumakuru'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (478,29,'Udupi Chikkamagaluru'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (479,29,'Uttara Kannada'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (460,29,'Vijayapura'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (483,32,'Alappuzha'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (484,32,'Alathur'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (485,32,'Attingal'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (486,32,'Chalakudy'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (487,32,'Ernakulam'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (488,32,'Idukki'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (489,32,'Kannur'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (490,32,'Kasaragod'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (491,32,'Kollam'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (492,32,'Kottayam'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (493,32,'Kozhikode'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (494,32,'Malappuram'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (495,32,'Mavelikkara'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (496,32,'Palakkad'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (497,32,'Pathanamthitta'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (498,32,'Ponnani'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (499,32,'Thiruvananthapuram'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (500,32,'Thrissur'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (501,32,'Vadakara'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (502,32,'Wayanad'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (4,37,'Ladakh'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (482,31,'Lakshadweep'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (305,23,'Balaghat'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (306,23,'Betul'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (307,23,'Bhind'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (308,23,'Bhopal'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (309,23,'Chhindwara'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (310,23,'Damoh'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (311,23,'Dewas'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (312,23,'Dhar'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (313,23,'Guna'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (314,23,'Gwalior'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (315,23,'Hoshangabad'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (316,23,'Indore'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (317,23,'Jabalpur'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (318,23,'Khajuraho'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (319,23,'Khandwa'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (320,23,'Khargone'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (321,23,'Mandla'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (322,23,'Mandsour'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (323,23,'Morena'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (324,23,'Rajgarh'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (325,23,'Ratlam'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (326,23,'Rewa'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (327,23,'Sagar'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (328,23,'Satna'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (329,23,'Shahdol'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (330,23,'Sidhi'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (331,23,'Tikamgarh'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (332,23,'Ujjain'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (333,23,'Vidisha'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (362,27,'Ahmednagar'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (363,27,'Akola'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (364,27,'Amravati'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (365,27,'Aurangabad'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (366,27,'Baramati'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (367,27,'Beed'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (368,27,'Bhandara - Gondiya'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (369,27,'Bhiwandi'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (370,27,'Buldhana'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (371,27,'Chandrapur'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (372,27,'Dhule'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (373,27,'Dindori'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (374,27,'Gadchiroli-Chimur'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (375,27,'Hatkanangle'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (376,27,'Hingoli'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (377,27,'Jalgaon'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (378,27,'Jalna'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (379,27,'Kalyan'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (380,27,'Kolhapur'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (381,27,'Latur'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (382,27,'Madha'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (383,27,'Maval'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (384,27,'Mumbai North'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (385,27,'Mumbai North-Central'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (386,27,'Mumbai North-East'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (387,27,'Mumbai North-West'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (389,27,'Mumbai-South'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (388,27,'Mumbai South-Central'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (390,27,'Nagpur'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (391,27,'Nanded'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (392,27,'Nandurbar'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (393,27,'Nashik'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (394,27,'Osmanabad'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (395,27,'Palghar'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (396,27,'Parbhani'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (397,27,'Pune'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (398,27,'Raigad'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (399,27,'Ramtek'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (400,27,'Ratnagiri - Sindhudurg'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (401,27,'Raver'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (402,27,'Sangli'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (403,27,'Satara'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (404,27,'Shirdi'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (405,27,'Shirur'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (406,27,'Solapur'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (407,27,'Thane'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (408,27,'Wardha'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (409,27,'Yavatmal-Washim'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (196,14,'Inner Manipur'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (197,14,'Outer Manipur'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (201,17,'Shillong'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (202,17,'Tura'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (198,15,'Mizoram'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (195,13,'Nagaland'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (273,21,'Aska'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (274,21,'Balasore'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (275,21,'Bargarh'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (276,21,'Berhampur'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (277,21,'Bhadrak'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (278,21,'Bhubaneswar'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (279,21,'Bolangir'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (280,21,'Cuttack'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (281,21,'Dhenkanal'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (282,21,'Jagatsinghpur'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (283,21,'Jajpur'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (284,21,'Kalahandi'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (285,21,'Kandhamal'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (286,21,'Kendrapara'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (287,21,'Keonjhar'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (288,21,'Koraput'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (289,21,'Mayurbhanj'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (290,21,'Nabarangpur'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (291,21,'Puri'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (292,21,'Sambalpur'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (293,21,'Sundargarh'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (542,34,'PUDUCHERRY'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (11,3,'Amritsar'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (12,3,'Anandpur Sahib'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (13,3,'Bathinda'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (14,3,'Faridkot'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (15,3,'Fatehgarh Sahib'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (16,3,'Firozpur'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (17,3,'Gurdaspur'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (18,3,'Hoshiarpur'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (19,3,'Jalandhar'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (20,3,'Khadoor Sahib'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (21,3,'Ludhiana'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (22,3,'Patiala'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (23,3,'Sangrur'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (47,8,'Ajmer'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (48,8,'Alwar'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (49,8,'Banswara'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (50,8,'Barmer'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (51,8,'Bharatpur'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (52,8,'Bhilwara'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (53,8,'Bikaner'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (54,8,'Chittorgarh'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (55,8,'Churu'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (56,8,'Dausa'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (57,8,'Ganganagar'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (58,8,'Jaipur'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (59,8,'Jaipur Rural'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (60,8,'Jalore'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (61,8,'Jhalawar-Baran'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (62,8,'Jhunjhunu'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (63,8,'Jodhpur'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (64,8,'Karauli-Dholpur'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (65,8,'Kota'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (66,8,'Nagaur'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (67,8,'Pali'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (68,8,'Rajsamand'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (69,8,'Sikar'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (70,8,'Tonk-Sawai Madhopur'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (71,8,'Udaipur'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (192,11,'Sikkim'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (503,33,'Arakkonam'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (504,33,'Arani'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (505,33,'Chennai Central'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (506,33,'Chennai North'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (507,33,'Chennai South'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (508,33,'Chidambaram'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (509,33,'Coimbatore'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (510,33,'Cuddalore'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (511,33,'Dharmapuri'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (512,33,'Dindigul'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (513,33,'Erode'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (514,33,'Kallakurichi'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (515,33,'Kancheepuram'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (516,33,'Kanniyakumari'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (517,33,'Karur'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (518,33,'Krishnagiri'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (519,33,'Madurai'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (520,33,'Mayiladuthurai'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (521,33,'Nagapattinam'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (522,33,'Namakkal'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (523,33,'Nilgiris'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (524,33,'Perambalur'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (525,33,'Pollachi'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (526,33,'Ramanathapuram'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (527,33,'Salem'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (528,33,'Sivaganga'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (529,33,'Sriperumbudur'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (530,33,'Tenkasi'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (531,33,'Thanjavur'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (532,33,'Theni'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (533,33,'Thoothukkudi'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (534,33,'Tiruchirappalli'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (535,33,'Tirunelveli'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (536,33,'Tiruppur'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (537,33,'Tiruvallur'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (538,33,'Tiruvannamalai'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (539,33,'Vellore'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (540,33,'Viluppuram'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (541,33,'Virudhunagar'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (410,36,'Adilabad'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (416,36,'Bhongir'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (417,36,'Chevella'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (422,36,'Hyderabad'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (425,36,'Karimnagar'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (426,36,'Khammam'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (429,36,'Mahabubabad'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (430,36,'Mahabubnagar'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (431,36,'Malkajgiri'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (432,36,'Medak'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (433,36,'Nagarkurnool'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (434,36,'Nalgonda'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (439,36,'Nizamabad'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (441,36,'Peddapalle'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (444,36,'Secunderabad'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (450,36,'Warangal'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (451,36,'Zahirabad'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (361,38,'Dadra & Nagar Haveli'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (360,38,'Daman & Diu'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (199,16,'Tripura East'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (200,16,'Tripura West'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (25,5,'Almora'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (26,5,'Garhwal'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (27,5,'Hardwar'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (28,5,'Nainital-Udhamsingh Nagar'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (29,5,'Tehri Garhwal'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (72,9,'Agra'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (73,9,'Akbarpur'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (74,9,'Aligarh'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (75,9,'Allahabad'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (76,9,'Ambedkar Nagar'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (77,9,'Amethi'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (78,9,'Amroha'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (79,9,'Aonla'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (80,9,'Azamgarh'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (81,9,'Badaun'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (82,9,'Baghpat'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (83,9,'Bahraich'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (84,9,'Ballia'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (85,9,'Banda'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (86,9,'Bansgaon'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (87,9,'Barabanki'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (88,9,'Bareilly'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (89,9,'Basti'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (90,9,'Bhadohi'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (91,9,'Bijnor'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (92,9,'Bulandshahr'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (93,9,'Chandauli'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (94,9,'Deoria'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (95,9,'Dhaurahra'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (96,9,'Domariyaganj'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (97,9,'Etah'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (98,9,'Etawah'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (99,9,'Faizabad'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (100,9,'Farrukhabad'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (101,9,'Fatehpur'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (102,9,'Fatehpur Sikri'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (103,9,'Firozabad'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (104,9,'Gautam Buddha Nagar'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (105,9,'Ghaziabad'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (106,9,'Ghazipur'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (107,9,'Ghosi'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (108,9,'Gonda'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (109,9,'Gorakhpur'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (110,9,'Hamirpur'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (111,9,'Hardoi'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (112,9,'Hathras'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (113,9,'Jalaun'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (114,9,'Jaunpur'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (115,9,'Jhansi'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (116,9,'Kairana'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (117,9,'Kaiserganj'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (118,9,'Kannauj'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (119,9,'Kanpur'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (120,9,'Kaushambi'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (121,9,'Kheri'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (122,9,'Kushi Nagar'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (123,9,'Lalganj'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (124,9,'Lucknow'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (125,9,'Machhlishahr'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (126,9,'Maharajganj'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (127,9,'Mainpuri'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (128,9,'Mathura'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (129,9,'Meerut'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (130,9,'Mirzapur'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (131,9,'Misrikh'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (132,9,'Mohanlalganj'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (133,9,'Moradabad'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (134,9,'Muzaffarnagar'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (135,9,'Nagina'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (136,9,'Phulpur'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (137,9,'Pilibhit'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (138,9,'Pratapgarh'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (139,9,'Rae Bareli'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (140,9,'Rampur'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (141,9,'Robertsganj'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (142,9,'Saharanpur'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (143,9,'Salempur'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (144,9,'Sambhal'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (145,9,'Sant Kabir Nagar'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (146,9,'Shahjahanpur'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (147,9,'Shrawasti'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (148,9,'Sitapur'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (149,9,'Sultanpur'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (150,9,'Unnao'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (151,9,'Varanasi'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (217,19,'Alipurduars'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (218,19,'Arambag'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (219,19,'Asansol'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (220,19,'Baharampur'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (221,19,'Balurghat'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (222,19,'Bangaon'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (223,19,'Bankura'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (224,19,'Barasat'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (225,19,'Bardhaman - Durgapur'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (226,19,'Bardhaman Purba'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (227,19,'Barrackpur'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (228,19,'Basirhat'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (229,19,'Birbhum'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (230,19,'Bishnupur'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (231,19,'Bolpur'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (232,19,'Coochbehar'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (233,19,'Darjeeling'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (234,19,'Diamond Harbour'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (235,19,'Dum Dum'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (236,19,'Ghatal'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (237,19,'Hooghly'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (238,19,'Howrah'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (239,19,'Jadavpur'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (240,19,'Jalpaiguri'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (241,19,'Jangipur'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (242,19,'Jaynagar'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (243,19,'Jhargram'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (244,19,'Kanthi'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (245,19,'Kolkata Dakshin'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (246,19,'Kolkata Uttar'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (247,19,'Krishnanagar'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (248,19,'Maldaha Dakshin'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (249,19,'Maldaha Uttar'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (250,19,'Mathurapur'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (251,19,'Medinipur'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (252,19,'Murshidabad'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (253,19,'Purulia'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (254,19,'Raiganj'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (255,19,'Ranaghat'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (256,19,'Sreerampur'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (257,19,'Tamluk'); affectedRows: 1
+query: INSERT INTO mp_constituency_list(mp_constituency_id, state_ut_id, mp_constituency_name) VALUES (258,19,'Uluberia'); affectedRows: 1

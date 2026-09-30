@@ -16,18 +16,7 @@ export const InsertData = async (query) => {
     return `query: ${query}; affectedRows: ${result?.affectedRows}`;
 };
 
-/*
-export const InsertData = async(query)=>{
-    let logData = '';
-    let connection = null;
-    try {
-        connection = await mysql.createConnection({ host: "localhost", user: "root", password: "", database: "geocer" });
-        const [result] = await connection.query(query);
-        logData = "query: "+query+"; affectedRows: "+result?.affectedRows;
-    } finally {
-        await connection?.end();
-    }
-    return logData;
-}; */
-
-// InsertData("INSERT INTO test(col1, col2) VALUES (103,'Hundred Three')");
+export const GetData = async (query) => {
+    const [rows] = await pool.query(query);
+    return rows;
+};
