@@ -2,31 +2,31 @@ export const LoadFonts = async () => {
   const fonts = [
     {
       name: "TexGyreAdventorBold",
-      url: process.env.PROJECT_URL+"/assets/fonts/texgyreadventor/texgyreadventor-bold.otf",
+      url: process.env.PROJECT_URL+"assets/fonts/texgyreadventor/texgyreadventor-bold.otf",
     },
     {
       name: "Antipasto",
-      url: process.env.PROJECT_URL+"/assets/fonts/antipasto/AntipastoPro-Bold.ttf",
+      url: process.env.PROJECT_URL+"assets/fonts/antipasto/AntipastoPro-Bold.ttf",
     },
     {
       name: "AntoniaRetro",
-      url: process.env.PROJECT_URL+"/assets/fonts/antonia-retro/AntoniaRetro.ttf",
+      url: process.env.PROJECT_URL+"assets/fonts/antonia-retro/AntoniaRetro.ttf",
     },
     {
       name: "BebasNeue",
-      url: process.env.PROJECT_URL+"/assets/fonts/bebas-neue/BebasNeue-Regular.ttf",
+      url: process.env.PROJECT_URL+"assets/fonts/bebas-neue/BebasNeue-Regular.ttf",
     },
     {
       name: "BloomsFree",
-      url: process.env.PROJECT_URL+"/assets/fonts/blooms/BloomsFree.ttf",
+      url: process.env.PROJECT_URL+"assets/fonts/blooms/BloomsFree.ttf",
     },
     {
       name: "Metropolis",
-      url: process.env.PROJECT_URL+"/assets/fonts/metropolis/Metropolis-Medium.otf",
+      url: process.env.PROJECT_URL+"assets/fonts/metropolis/Metropolis-Medium.otf",
     },
     {
       name: "OpenSansItalic",
-      url: process.env.PROJECT_URL+"/assets/fonts/open-sans/OpenSans-Italic.ttf",
+      url: process.env.PROJECT_URL+"assets/fonts/open-sans/OpenSans-Italic.ttf",
     }
   ];
 
