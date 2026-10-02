@@ -399,7 +399,7 @@ const PrivacyPolicy = () =>{
             ];
  const DeclarationHeader = ({ title, lastUpdated }) =>{
   return (<>
-    <h1><b>{title}</b></h1>
+    <h1 style={{ marginLeft:'5px' }}><b>{title}</b></h1>
     <div style={{ marginLeft:'5px', fontSize:'18px' }}><b>Last Updated: {lastUpdated}</b></div>
   </>);
  };
@@ -431,6 +431,23 @@ const PrivacyPolicy = () =>{
             <Col md={12}>
                 <div className="mtop15p">
                     <Accordian id="AccordianExample" data={data} />
+                </div>
+            </Col>
+            <Col md={12}>
+                <div style={{ fontSize:'15px', color:'#555' }}>
+                    <div className="mtop15p">Your privacy is an important part of building a trusted local community.</div>
+                    <div className="mtop15p">MyLocalHook is committed to providing a platform where people can connect with their 
+                        communities, discover local information, participate in surveys, share ideas, discover businesses and 
+                        services, and receive relevant information while maintaining responsible practices for handling personal 
+                        information.</div>
+                    <div className="mtop15p">We encourage you to review this Privacy Policy periodically so that you remain 
+                        informed about how MyLocalHook handles information.</div>
+                    <div className="mtop15p">By continuing to use MyLocalHook after an updated Privacy Policy becomes effective, 
+                        you acknowledge the updated practices to the extent permitted by applicable law.</div>
+                    <div align="center" className="mtop15p"><b>Thank you for being part of the MyLocalHook community.</b></div>
+                    <div className="mtop15p color-black"><b>For Privacy, Data Protection, or Grievance Queries:</b></div>
+                    <div className="mtop5p">Please use the official Privacy / Contact / Grievance channel available on 
+                        the MyLocalHook Platform.</div>
                 </div>
             </Col>
         </Row>
