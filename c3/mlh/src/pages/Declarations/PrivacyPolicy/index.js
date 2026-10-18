@@ -1,6 +1,6 @@
 import React from "react";
 import { ContainerFluid, Row, Col, Accordian } from "E-ui-react";
-import Header3 from "@Templates/Header3/index.js";
+import Header4 from "@Templates/Header4/index.js";
 import Content01 from "./components/content-01/index.js";
 import Content02 from "./components/content-02/index.js";
 import Content03 from "./components/content-03/index.js";
@@ -404,7 +404,7 @@ const PrivacyPolicy = () =>{
   </>);
  };
  return (<>
-  <Header3 />
+  <Header4 />
   <div className="mtop15p">
       <ContainerFluid>
         <Row style={{ fontFamily:'Metropolis' }}>

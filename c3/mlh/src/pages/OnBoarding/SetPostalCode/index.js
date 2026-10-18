@@ -2,7 +2,7 @@ import React, { useState, useEffect, useRef } from "react";
 import { ContainerFluid, Row, Col, TextBox, Button, Form } from "e-ui-react";
 import useAuth from "@Hooks/useAuth/index.js";
 import MapPostalCode from "@Components/map-postal-code/index.js";
-import Header2 from "@Templates/Header2/index.js";
+import Header3 from "@Templates/Header3/index.js";
 import './index.css';
 
 const SetPostalCode = ()=>{
@@ -17,7 +17,7 @@ const SetPostalCode = ()=>{
     window.location.href = process.env.PROJECT_URL+"onboarding/choose-niches";
  };
  return (<>
-    <Header2 />
+    <Header3 />
     <ContainerFluid>
         <Row>
             <Col md={3}>

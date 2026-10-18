@@ -2,8 +2,9 @@ import React from "react";
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Welcome from "@Pages/Welcome/index.js";
 import AuthPage from "@Pages/AuthPage/index.js";
-import SetPostalCode from "@Pages/ProfileSetupPage/SetPostalCode/index.js";
-import SetCategories from "@Pages/ProfileSetupPage/SetCategories/index.js";
+import SetProfile from "@Pages/OnBoarding/SetProfile/index.js";
+import SetPostalCode from "@Pages/OnBoarding/SetPostalCode/index.js";
+import SetCategories from "@Pages/OnBoarding/SetCategories/index.js";
 import NewsFeedPage from "@Pages/NewsFeedPage/index.js";
 import HomePage from "@Pages/HomePage/index.js";
 import Menu from "@Pages/Menu/index.js";
@@ -21,6 +22,7 @@ export const AppRouting = ()=>{
       <AuthProvider>
        <Routes>
          <Route exact path="/" element={<AuthPage/>} />
+         <Route exact path="/onboarding/set-profile" element={<SetProfile />} />
          <Route exact path="/onboarding/set-postal-code" element={<SetPostalCode />} />
          <Route exact path="/onboarding/choose-niches" element={<SetCategories />} />
          <Route exact path="/home" element={<HomePage />} />

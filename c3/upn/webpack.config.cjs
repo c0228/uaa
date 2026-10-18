@@ -125,7 +125,7 @@ entry: './src/index.js',
  },
  devServer: { // Needed to make react-router-dom to work
     historyApiFallback: true,
-    port: 7001, // Replace with your desired port number
+    port: 7011, // Replace with your desired port number
     headers: {
       "Cross-Origin-Opener-Policy": "same-origin-allow-popups",
     },

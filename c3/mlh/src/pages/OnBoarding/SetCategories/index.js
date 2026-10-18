@@ -1,5 +1,5 @@
 import React from "react";
-import { ContainerFluid, Row, Col, Icon, Button } from "e-ui-react";
+import { ContainerFluid, Row, Col, Icon, Button, TextBox } from "e-ui-react";
 import Header2 from "@Templates/Header2/index.js";
 
 const data = [
@@ -173,26 +173,50 @@ const SetCategories = () =>{
         <Col md={8}>
             <div align="center">
                 <div className="mtop25p">
-                    <h2 style={{ fontSize: '28px', fontFamily: 'Metropolis', letterSpacing: '0.4px' }}>
+                    <h2 style={{ fontSize: '28px', fontFamily: 'Metropolis', letterSpacing: '0.4px', marginTop:'15px' }}>
                         <b>What are you interested in?</b>
                     </h2>
                 </div>
-                <div style={{ fontSize:'16px', color:'#333' }}>Choose the topics you'd like to see in your MyLocalHook feed. You can change your interests anytime.</div>
-            </div>
-            <div align="center" className="mtop15p">
-                <div style={{ display:'inline-block', border:'1px solid #065fc5', padding:'15px', borderRadius:'12px',
-                    backgroundColor:'#e8f3ff' }}>
-                    <div>
-                        <h4 style={{ color:'#065fc5', fontSize: '18px', fontFamily: 'Metropolis', letterSpacing: '0.4px' }}>
-                            <b>Your Feed will be personalized based on your location and interests</b>
-                        </h4>
-                    </div>
-                    <div style={{ fontSize:'16px', color:'#333' }}>We will show you what matters most in your community. 
-                        Stay informed. Stay Connected.</div>
+                <div style={{ fontSize:'16px', color:'#777' }}>Choose the topics you'd like to see in your MyLocalHook feed. 
+                    You can change your interests anytime.<br/> Your Feed will be personalized based on your location and interests. 
+                    We will show you what matters most in your community. 
+                </div>
+                <div>
+                    
+                </div>
+                <div className="mtop5p">
+                    <span style={{ textTransform:'uppercase', fontSize:'13px', color:'#888', marginRight:'5px' }}><b>Stay informed |</b></span>
+                    <span style={{ fontSize:'12px', color:'#000', padding:'6px', border:'1px solid #000', borderRadius:'8px' }}>
+                            <Icon type="FontAwesome" name="fa-bolt" size={11} style={{ marginLeft:'5px', marginRight:'5px' }} />
+                            <span style={{ marginRight:'5px' }}>Personalize Your Feed</span>
+                    </span>
+                    <span style={{ textTransform:'uppercase', fontSize:'13px', color:'#888', marginLeft:'5px' }}><b>| Stay Connected</b></span>
                 </div>
             </div>
         </Col>
         <Col md={2}></Col>
+    </Row>
+    <Row>
+        <Col md={12}>
+            <div className="list-group mtop15p">
+                <div className="list-group-item" style={{ backgroundColor:'#eee' }}>
+                    <Row>
+                        <Col md={8}>
+                            <TextBox name="search" placeholder="Search Topics (e.g., Food, Tech)..." />
+                        </Col>
+                        <Col md={2}>
+                            <div align="right" style={{ paddingTop:'5px' }}>0 of 20 Selected</div>
+                        </Col>
+                        <Col md={2}>
+                            <div align="right">
+                                <Button type="dark" size={11} style={{ marginRight:'5px' }}><b>Select All</b></Button>
+                                <Button type="outline-dark" size={11}><b>Clear All</b></Button>
+                            </div>
+                        </Col>
+                    </Row>
+                </div>
+            </div>
+        </Col>
     </Row>
     <div className="mtop15p" style={{ paddingLeft:'15px', paddingRight:'15px' }}>
         {data?.map((c,i1)=>{
@@ -219,19 +243,24 @@ const SetCategories = () =>{
             </div>);
         })}
     </div>
-    <Row>
-        <Col md={12}>
-            <div align="center" className="mbot25p">
-                <Button type="primary" size={14} style={{ marginRight:'8px' }} onClick={handleNext}>
-                    <Icon type="FontAwesome" name="fa-save" size={14} style={{ marginRight:'8px' }} />
-                    <b>Save and Continue</b></Button>
-                <Button type="outline-primary" size={14}>
-                    <Icon type="FontAwesome" name="fa-refresh" size={14} style={{ marginRight:'8px' }} />
-                    <b>Reset</b>
-                </Button>
-            </div>
-        </Col>
-    </Row>
+    <div style={{ position: 'fixed', left: '0', bottom: '0', width: '100%', backgroundColor:'#fff', 
+        borderTop:'1px solid #ccc', boxShadow:'2px 2px 2px 2px #808080', padding:'8px' }}>
+        <Row>
+            <Col md={8}>
+                <div align="left" style={{ padding:'8px', color:'#555' }}>
+                    <b>Please select at least 3 topics (0 left)</b>
+                </div>
+                
+            </Col>
+            <Col md={4}>
+                <div align="right">
+                    <Button type="dark" size={14} style={{ marginRight:'8px' }} onClick={handleNext}>
+                        <Icon type="FontAwesome" name="fa-save" size={14} style={{ marginRight:'8px' }} />
+                        <b>Save and Continue</b></Button>
+                </div>
+            </Col>
+        </Row>
+    </div>
  </ContainerFluid>
  </>);
 };
