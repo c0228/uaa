@@ -186,7 +186,7 @@ const SetCategories = () =>{
                 </div>
                 <div className="mtop5p">
                     <span style={{ textTransform:'uppercase', fontSize:'13px', color:'#888', marginRight:'5px' }}><b>Stay informed |</b></span>
-                    <span style={{ fontSize:'12px', color:'#000', padding:'6px', border:'1px solid #000', borderRadius:'8px' }}>
+                    <span style={{ fontSize:'12px', color:'#000', padding:'6px', border:'1px solid #555', borderRadius:'8px' }}>
                             <Icon type="FontAwesome" name="fa-bolt" size={11} style={{ marginLeft:'5px', marginRight:'5px' }} />
                             <span style={{ marginRight:'5px' }}>Personalize Your Feed</span>
                     </span>
