@@ -83,8 +83,9 @@ const SetProfile = () =>{
         </Col>
         <Col md={6}>
             <div style={{ padding:'15px' }}>
+                <Card padding={15} backgroundColor="#f9f9f9">
                 <div align="center">
-                    <h2><b>Let's set up your profile</b></h2>
+                    <span style={{ textTransform:'uppercase', fontSize:'22px' }}><b>Setup your Profile</b></span>
                     <div>
                         <Badge type="dark-o" label={<>
                             <Icon type="FontAwesome" name="fa-link" size={12} style={{ marginRight:'5px' }} /> 
@@ -126,6 +127,7 @@ const SetProfile = () =>{
                     <Icon type="FontAwesome" name="fa-shield" size={12} style={{ marginRight:'5px' }} /> 
                     Transparent & Secure Account Setup
                 </div>
+                </Card>
             </div>
         </Col>
         <Col md={4}></Col>
