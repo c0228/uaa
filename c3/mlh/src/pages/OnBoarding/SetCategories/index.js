@@ -1,161 +1,191 @@
 import React from "react";
-import { ContainerFluid, Row, Col, Icon, Button, TextBox } from "e-ui-react";
+import { ContainerFluid, Row, Col, Icon, Button, TextBox, Card } from "e-ui-react";
 import Header2 from "@Templates/Header2/index.js";
 
 const data = [
     {
-        "icon": "fa-users",
-        "label": "Local Community",
-        "subCategories": [
+        icon: "fa-users",
+        label: "Local Community",
+        subCategories: [
             {
-                "icon": "fa-map-marker",
-                "label": "Neighborhood Updates"
+                icon: "fa-map-marker",
+                label: "Neighborhood Updates",
+                desc: "Stay informed about local news, neighborhood changes, and important community updates."
             },
             {
-                "icon": "fa-calendar",
-                "label": "Local Events"
+                icon: "fa-calendar",
+                label: "Local Events",
+                desc: "Discover upcoming events, festivals, meetups, and activities happening nearby."
             },
             {
-                "icon": "fa-users",
-                "label": "Community Groups"
+                icon: "fa-users",
+                label: "Community Groups",
+                desc: "Connect with people who share your interests, hobbies, and neighborhood connections."
             },
             {
-                "icon": "fa-exclamation-circle",
-                "label": "Public Issues"
+                icon: "fa-exclamation-circle",
+                label: "Public Issues",
+                desc: "Discuss local problems, report civic concerns, and work together to improve your community."
             },
             {
-                "icon": "fa-bullhorn",
-                "label": "Local Announcements"
+                icon: "fa-bullhorn",
+                label: "Local Announcements",
+                desc: "Share important notices, public announcements, and updates with people in your area."
             }
         ]
     },
     {
-        "icon": "fa-cutlery",
-        "label": "Food & Dining",
-        "subCategories": [
+        icon: "fa-cutlery",
+        label: "Food & Dining",
+        subCategories: [
             {
-                "icon": "fa-cutlery",
-                "label": "Restaurants"
+                icon: "fa-cutlery",
+                label: "Restaurants",
+                desc: "Explore nearby restaurants, discover new dishes, and share dining experiences."
             },
             {
-                "icon": "fa-coffee",
-                "label": "Cafes & Bakeries"
+                icon: "fa-coffee",
+                label: "Cafes & Bakeries",
+                desc: "Find cozy cafes, fresh bakeries, specialty coffee, and sweet treats around you."
             },
             {
-                "icon": "fa-shopping-basket",
-                "label": "Street Food"
+                icon: "fa-shopping-basket",
+                label: "Street Food",
+                desc: "Discover popular street food stalls, local flavors, and must-try snacks in your area."
             },
             {
-                "icon": "fa-home",
-                "label": "Home Food"
+                icon: "fa-home",
+                label: "Home Food",
+                desc: "Find homemade meals, home chefs, and authentic local food prepared with care."
             },
             {
-                "icon": "fa-tag",
-                "label": "Food Offers"
+                icon: "fa-tag",
+                label: "Food Offers",
+                desc: "Discover food discounts, special combos, limited-time deals, and restaurant promotions."
             }
         ]
     },
     {
-        "icon": "fa-shopping-bag",
-        "label": "Shopping & Services",
-        "subCategories": [
+        icon: "fa-shopping-bag",
+        label: "Shopping & Services",
+        subCategories: [
             {
-                "icon": "fa-shopping-cart",
-                "label": "Local Shops"
+                icon: "fa-shopping-cart",
+                label: "Local Shops",
+                desc: "Discover nearby stores, explore products, and find great deals from local retailers."
             },
             {
-                "icon": "fa-shopping-basket",
-                "label": "Grocery & Supermarkets"
+                icon: "fa-shopping-basket",
+                label: "Grocery & Supermarkets",
+                desc: "Find nearby grocery stores, supermarkets, daily essentials, and special offers."
             },
             {
-                "icon": "fa-scissors",
-                "label": "Salons & Spas"
+                icon: "fa-scissors",
+                label: "Salons & Spas",
+                desc: "Explore local salons, spas, beauty treatments, and personal grooming services."
             },
             {
-                "icon": "fa-wrench",
-                "label": "Repair Services"
+                icon: "fa-wrench",
+                label: "Repair Services",
+                desc: "Find trusted local professionals for mobile, electronics, appliance, and other repairs."
             },
             {
-                "icon": "fa-home",
-                "label": "Home Services"
+                icon: "fa-home",
+                label: "Home Services",
+                desc: "Connect with local experts for cleaning, plumbing, electrical work, and home maintenance."
             }
         ]
     },
     {
-        "icon": "fa-graduation-cap",
-        "label": "Education & Learning",
-        "subCategories": [
+        icon: "fa-graduation-cap",
+        label: "Education & Learning",
+        subCategories: [
             {
-                "icon": "fa-university",
-                "label": "Schools"
+                icon: "fa-university",
+                label: "Schools",
+                desc: "Explore nearby schools, educational updates, admissions, and school activities."
             },
             {
-                "icon": "fa-university",
-                "label": "Colleges"
+                icon: "fa-university",
+                label: "Colleges",
+                desc: "Discover colleges, admission opportunities, campus updates, and student activities."
             },
             {
-                "icon": "fa-book",
-                "label": "Coaching Centers"
+                icon: "fa-book",
+                label: "Coaching Centers",
+                desc: "Find coaching institutes, exam preparation classes, tutors, and learning opportunities."
             },
             {
-                "icon": "fa-lightbulb-o",
-                "label": "Skill Development"
+                icon: "fa-lightbulb-o",
+                label: "Skill Development",
+                desc: "Discover courses, practical training, workshops, and opportunities to learn new skills."
             },
             {
-                "icon": "fa-calendar",
-                "label": "Educational Events"
+                icon: "fa-calendar",
+                label: "Educational Events",
+                desc: "Stay updated on seminars, workshops, competitions, educational fairs, and academic events."
             }
         ]
     },
     {
-        "icon": "fa-briefcase",
-        "label": "Jobs & Business",
-        "subCategories": [
+        icon: "fa-briefcase",
+        label: "Jobs & Business",
+        subCategories: [
             {
-                "icon": "fa-briefcase",
-                "label": "Local Jobs"
+                icon: "fa-briefcase",
+                label: "Local Jobs",
+                desc: "Discover job openings, part-time work, full-time roles, and employment opportunities nearby."
             },
             {
-                "icon": "fa-line-chart",
-                "label": "Business Opportunities"
+                icon: "fa-line-chart",
+                label: "Business Opportunities",
+                desc: "Explore business ideas, partnerships, investment opportunities, and local market trends."
             },
             {
-                "icon": "fa-laptop",
-                "label": "Freelancing"
+                icon: "fa-laptop",
+                label: "Freelancing",
+                desc: "Find freelance projects, share your expertise, and connect with clients seeking skilled professionals."
             },
             {
-                "icon": "fa-building",
-                "label": "Small Businesses"
+                icon: "fa-building",
+                label: "Small Businesses",
+                desc: "Discover local businesses, explore their products and services, and support local entrepreneurs."
             },
             {
-                "icon": "fa-handshake-o",
-                "label": "Networking"
+                icon: "fa-handshake-o",
+                label: "Networking",
+                desc: "Build professional connections, meet entrepreneurs, and discover collaboration opportunities."
             }
         ]
     },
     {
-        "icon": "fa-star",
-        "label": "Entertainment & Lifestyle",
-        "subCategories": [
+        icon: "fa-star",
+        label: "Entertainment & Lifestyle",
+        subCategories: [
             {
-                "icon": "fa-film",
-                "label": "Movies & Theatres"
+                icon: "fa-film",
+                label: "Movies & Theatres",
+                desc: "Discover movies, nearby theatres, showtimes, and the latest entertainment releases."
             },
             {
-                "icon": "fa-futbol-o",
-                "label": "Sports"
+                icon: "fa-futbol-o",
+                label: "Sports",
+                desc: "Follow local sports, discover tournaments, join games, and connect with fellow sports enthusiasts."
             },
             {
-                "icon": "fa-music",
-                "label": "Music & Concerts"
+                icon: "fa-music",
+                label: "Music & Concerts",
+                desc: "Explore live concerts, music events, local performances, and upcoming shows near you."
             },
             {
-                "icon": "fa-heartbeat",
-                "label": "Fitness"
+                icon: "fa-heartbeat",
+                label: "Fitness",
+                desc: "Discover gyms, fitness classes, workout communities, and local health and wellness activities."
             },
             {
-                "icon": "fa-paint-brush",
-                "label": "Hobbies"
+                icon: "fa-paint-brush",
+                label: "Hobbies",
+                desc: "Connect with hobby enthusiasts, explore creative activities, and discover clubs and workshops nearby."
             }
         ]
     }
@@ -167,6 +197,7 @@ const SetCategories = () =>{
  };
  return (<>
  <Header2 />
+ <div style={{ paddingBottom:'75px' }}>
  <ContainerFluid>
     <Row>
         <Col md={2}></Col>
@@ -233,9 +264,23 @@ const SetCategories = () =>{
                 <Row className="mtop10p">
                 {c?.subCategories?.map((s,i2)=>{
                     return (<Col key={i2} md={3}>
-                        <div className="form-check form-switch">
-                            <input className="form-check-input" type="checkbox" role="switch" id={s?.label} />
-                            <label className="form-check-label" htmlFor="switchCheckDefault">{s?.label}</label>
+                        <div style={{ marginBottom:'12px' }}>
+                        <Card padding={15}>
+                            <div style={{ display:'flex' }}>
+                                <div style={{ width:'15%' }}>
+                                    <div className="form-check form-switch">
+                                        <input className="form-check-input" type="checkbox" role="switch" id={s?.label} />
+                                    </div>
+                                </div>
+                                <div style={{ width:'85%' }}>
+                                    <div><h5>
+                                        <Icon type="FontAwesome" name={s?.icon} size={18} style={{ marginRight:'5px' }} />
+                                        <b>{s?.label}</b>
+                                    </h5></div>
+                                    <div style={{ color:'#777' }}>{s?.desc}</div>
+                                </div>
+                            </div>
+                        </Card>
                         </div>
                     </Col>);
                 })} 
@@ -243,7 +288,9 @@ const SetCategories = () =>{
             </div>);
         })}
     </div>
-    <div style={{ position: 'fixed', left: '0', bottom: '0', width: '100%', backgroundColor:'#fff', 
+ </ContainerFluid>
+ </div>
+ <div style={{ position: 'fixed', left: '0', bottom: '0', width: '100%', backgroundColor:'#fff', 
         borderTop:'1px solid #ccc', boxShadow:'2px 2px 2px 2px #808080', padding:'8px' }}>
         <Row>
             <Col md={8}>
@@ -260,8 +307,7 @@ const SetCategories = () =>{
                 </div>
             </Col>
         </Row>
-    </div>
- </ContainerFluid>
+ </div>
  </>);
 };
 
