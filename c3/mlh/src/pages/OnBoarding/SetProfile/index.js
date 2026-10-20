@@ -5,7 +5,7 @@ import useAuth from "@Hooks/useAuth/index.js";
 
 const SetProfile = () =>{
  const { userDetails } = useAuth();
- const NextHandler = () =>{
+ const handleNext = () =>{
     // Set into LocalStorage
 
     // Redirect to postalCode Setup Page
@@ -30,6 +30,7 @@ const SetProfile = () =>{
  };
  return (<>
  <Header2 />
+ <div style={{ paddingBottom:'80px' }}>
   <ContainerFluid>
     <Row>
         <Col md={6}>
@@ -45,7 +46,6 @@ const SetProfile = () =>{
             </div>
             <div style={{ marginTop:'5px' }}>
                 <span style={{ textTransform:'uppercase', fontSize:'22px' }}><b>Why Complete Your Profile?</b></span>
-                <span className="pull-right" style={{ fontSize:'11px', paddingTop:'5px' }}>Click card to jump to field</span>
             </div>
             <div style={{ marginTop:'15px', fontSize:'16px' }}>
                 <i>Setting up your profile takes less than a minute. Your profile helps us customize your feed and keep MyLocalHook secure. 
@@ -112,16 +112,6 @@ const SetProfile = () =>{
                 <div style={{ marginTop:'15px' }}>
                     <Email label="Email Address" value={userDetails?.email} disabled={true} />
                 </div>
-                <div align="right" style={{ marginTop:'15px' }}>
-                    <Button type="dark" size={11} onClick={()=>NextHandler()}>
-                        <b>Next</b>
-                        <Icon type="FontAwesome" name="fa-arrow-right" size={10}  style={{ marginLeft:'5px' }} />
-                    </Button>
-                    <Button type="outline-dark" size={11}  style={{ marginLeft:'5px' }}>
-                        <b>Reset</b>
-                        <Icon type="FontAwesome" name="fa-trash" size={10}  style={{ marginLeft:'5px' }} />
-                    </Button>
-                </div>
                 <div><hr/></div>
                 <div align="center" style={{ fontSize:'12px', marginTop:'15px' }}>
                     <Icon type="FontAwesome" name="fa-shield" size={12} style={{ marginRight:'5px' }} /> 
@@ -133,6 +123,26 @@ const SetProfile = () =>{
         <Col md={4}></Col>
     </Row>
  </ContainerFluid>
+ </div>
+  <div style={{ position: 'fixed', left: '0', bottom: '0', width: '100%', backgroundColor:'#fff', 
+         borderTop:'1px solid #ccc', boxShadow:'2px 2px 2px 2px #808080', padding:'8px' }}>
+         <Row>
+             <Col md={8}>
+                 <div align="left" style={{ padding:'8px', color:'#555' }}>
+                     <b>Please Enter your Date of Birth (allowed 13 years old or above)</b>
+                 </div>
+                 
+             </Col>
+             <Col md={4}>
+                 <div align="right">
+                     <Button type="dark" size={14} style={{ marginRight:'8px' }} onClick={handleNext}>
+                         <Icon type="FontAwesome" name="fa-save" size={14} style={{ marginRight:'8px' }} />
+                         <b>Save and Continue</b></Button>
+                 </div>
+             </Col>
+         </Row>
+  </div>
+
  </>);
 };
 
