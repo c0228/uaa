@@ -20,9 +20,9 @@ const Header1 = ()=>{
 
    <div className="d-flex">
       <div style={{ marginTop:'5px' }}>
-      <div style={{ borderBottom:'2px solid '+AppColors?.primary, paddingBottom:'2px' }}>
-         <Icon type="FontAwesome" name="fa-home" size={14} color={AppColors?.primary} style={{ marginRight:'5px' }} /> 
-         <span style={{ color: AppColors?.primary }}><b>Home</b></span>
+      <div style={{ borderBottom:'2px solid #000', paddingBottom:'2px' }}>
+         <Icon type="FontAwesome" name="fa-newspaper-o" size={14} color="#000" style={{ marginRight:'5px' }} /> 
+         <span style={{ color: '#000' }}><b>News Feed</b></span>
       </div>
       </div>
    </div>
