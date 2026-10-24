@@ -5,8 +5,9 @@ import Header2 from "@Templates/Header2/index.js";
 import HeaderTitle from "./components/HeaderTitle/index.js";
 import SearchNiches from "./components/SearchNiches/index.js";
 import DisplayNiches from "./components/DisplayNiches/index.js";
+import { NichesData } from '@Pages/OnBoarding/SetCategories/data.js';
 import NichesFooter from "./components/NichesFooter/index.js";
-import { NichesData } from './data.js';
+
 
 const initialSelected = {
     categories: "NA",
@@ -17,7 +18,9 @@ const initialSelected = {
     includes:[]
 }
 const SetCategories = () =>{
- return (<NichesProvider variables={{ userSelected: initialSelected }}>
+ const nichesContext = getNichesContext();
+
+ return (<NichesProvider variables={{ userSelected: initialSelected, searchQuery: "" }}>
  <Header2 />
  <div style={{ paddingBottom:'75px' }}>
  <ContainerFluid>
@@ -27,7 +30,7 @@ const SetCategories = () =>{
         <Col md={2}></Col>
     </Row>
     <Row><Col md={12}><SearchNiches /></Col></Row>
-    <DisplayNiches data={NichesData?.data} />
+    <DisplayNiches />
  </ContainerFluid>
  </div>
  <NichesFooter />

@@ -1,11 +1,12 @@
-import React from "react";
+import React, { useState } from "react";
 import { Row, Col, Button, TextBox } from "e-ui-react";
 import { getNichesContext } from "@Pages/OnBoarding/SetCategories/context.js";
 
 const SearchNiches = () =>{
  const nichesContext = getNichesContext();
- 
-const NicheSelectAllHandler = () => {
+ const [searchText, setSearchText] = useState("");
+
+ const NicheSelectAllHandler = () => {
     const userSelected = nichesContext?.contextData?.userSelected;
 
     nichesContext?.setContextData({
@@ -17,8 +18,13 @@ const NicheSelectAllHandler = () => {
             includes: []
         }
     });
-};
-const NicheDeSelectAllHandler = () => {
+ };
+
+ const SearchHandler = (event) => {
+    nichesContext?.setContextData({ searchQuery: (event.target.value.trim()) });
+ };
+
+ const NicheDeSelectAllHandler = () => {
     const userSelected = nichesContext?.contextData?.userSelected;
 
     nichesContext?.setContextData({
@@ -36,7 +42,22 @@ const NicheDeSelectAllHandler = () => {
         <div className="list-group-item" style={{ backgroundColor:'#eee' }}>
             <Row>
                 <Col md={8}>
-                    <TextBox name="search" placeholder="Search Topics (e.g., Food, Tech)..." />
+                    <div style={{ display: "flex", gap: "8px" }}>
+                        <div  className="input-group">
+                            <input
+                                type="text"
+                                className="form-control"
+                                style={{ borderTopRightRadius:'8px', borderBottomRightRadius:'8px' }}
+                                placeholder="Search Topics (e.g., Food, Tech)..."
+                                value={nichesContext?.contextData?.searchQuery}
+                                onChange={(event) =>SearchHandler(event)}
+                                onKeyDown={(event) =>SearchHandler(event)}
+                            />
+                            <span style={{position:'absolute', right:'8px', top:'7px' }}>
+                                <i class="fa fa-search" style={{ color:'#777' }}></i>
+                            </span>
+                        </div>
+                    </div>
                 </Col>
                 <Col md={2}>
                     <div align="right" style={{ paddingTop:'5px' }}>
