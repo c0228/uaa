@@ -1,0 +1,4 @@
+.mlh-onboarding-footer { position: fixed;left:0;bottom:0;width:100%;padding:8px; }
+.mlh-onboarding-footer-basic { background-color:#fff;border-top:1px solid #ccc;box-shadow:2px 2px 2px 2px #808080; }
+.mlh-onboarding-footer-success { background-color:#daffb0;border-top:1px solid #8bc34a;box-shadow:2px 2px 2px 2px #8bc34a; }
+.mlh-onboarding-footer-error { background-color:#fbdcd3;border-top:1px solid #f44336;box-shadow:2px 2px 2px 2px #ff5722; }
