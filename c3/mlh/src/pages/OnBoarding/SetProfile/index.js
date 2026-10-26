@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { ContainerFluid, Row, Col, Email, DateTimePicker, TextBox, Button, Icon, Badge, Card } from "e-ui-react";
+import { ContainerFluid, Row, Col, Form, Email, DateTimePicker, TextBox, Button, Icon, Badge, Card } from "e-ui-react";
 import Header2 from "@Templates/Header2/index.js";
 import LeftContainer from "./components/LeftContainer/index.js";
 import RightContainer from "./components/RightContainer/index.js";
@@ -16,13 +16,16 @@ const SetProfile = () =>{
         profilePic: userDetails?.profilePic,
         username: userDetails?.email?.split("@")[0],
         name: userDetails?.surName+" "+userDetails?.name,
-        dob: "0000-00-00",
+        dob: "",
         email: userDetails?.email
     },
     footerMode: "mlh-onboarding-footer mlh-onboarding-footer-error"
 };
  return (<ProfileProvider variables={initialValues}>
  <Header2 />
+ <Form name="userForm" onSubmit={(form, isValid, resetForm) => {
+        console.log("Form Data:", form);
+      }}>
  <div style={{ paddingBottom:'80px' }}>
   <ContainerFluid>
     <Row>
@@ -32,6 +35,7 @@ const SetProfile = () =>{
  </ContainerFluid>
  </div>
  <Footer />
+ </Form>
  </ProfileProvider>);
 };
 

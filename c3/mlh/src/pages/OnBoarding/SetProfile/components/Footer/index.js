@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { ContainerFluid, Row, Col, Icon, Badge, Button } from "e-ui-react";
+import { ContainerFluid, Row, Col, Icon, Badge, Button, getForm  } from "e-ui-react";
 import { getProfileContext, ProfileProvider } from '@Pages/OnBoarding/SetProfile/context.js';
 
 const Footer = () =>{
