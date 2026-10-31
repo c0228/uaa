@@ -19,7 +19,8 @@ const SetProfile = () =>{
         dob: "",
         email: userDetails?.email
     },
-    footerMode: "mlh-onboarding-footer mlh-onboarding-footer-error"
+    footerMode: "mlh-onboarding-footer mlh-onboarding-footer-error",
+    profileFormMsg: ""
 };
  return (<ProfileProvider variables={initialValues}>
  <Header2 />

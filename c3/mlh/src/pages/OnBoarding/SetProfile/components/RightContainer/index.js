@@ -6,6 +6,16 @@ import { getPastDateString } from "@Utils/DateUtility.js";
 const RightContainer = () =>{
  const profileContext = getProfileContext();
   const { submitForm, resetForm } = getForm();
+ const handleContextResult = (data, section = "form") => {
+    profileContext?.setContextData({
+        ...profileContext?.contextData,
+        [section]: {
+            ...profileContext?.contextData?.[section],
+            ...data
+        }
+    });
+    submitForm();
+ };
  return (<>
  <div style={{ padding:'15px' }}>
                 <Card padding={15} backgroundColor="#f9f9f9">
@@ -28,36 +38,40 @@ const RightContainer = () =>{
                 <div style={{ marginTop:'15px' }}>
                     <TextBox id="username" name="username" label="Username" 
                         value={profileContext?.contextData?.form?.username} 
-                        validation={
-                            {
-                                required: {
-                                    value: true,
-                                    errorMessage: "Username is required."
+                        validation={{
+                            required: {
+                                value: true,
+                                errorMessage: "Username is required."
+                            },
+                            minLength: {
+                                value: 3,
+                                errorMessage: "Username must have at least 3 characters."
+                            },
+                            apiValidation: {
+                                url: process.env.NEXUS_URL+"/mock/username.php",
+                                method: "POST",
+                                requestBody: {
+                                    username: "{{value}}" // current TextBox value
                                 },
-                                minLength: {
-                                    value: 3,
-                                    errorMessage: "Username must have at least 3 characters."
-                                },
-                                successMessage: {
-                                    value: true,
-                                    message: "Username is available!"
-                                }
+                                returnMessages: [
+                                    {
+                                        id: "USERNAME_AVAILABLE",
+                                        type: "success",
+                                        message: "Username is available!"
+                                    },
+                                    {
+                                        id: "USERNAME_TAKEN",
+                                        type: "error",
+                                        message: "Username is already taken."
+                                    }]
                             }
-                        } 
+                        }}
                         onChange={async (result) => {
-                                if (result.errorMessage) {
-                                    return;
-                                }
-                             return {
-                                successMessage: "Username is available!"
-                             }
+                            console.log("rsult: ", result);
+                            if(result?.errorMessage?.length===0){
+                                handleContextResult({ username: result?.value });
+                            }
                         }} />
-                    {/*
-                    submitForm
-                    <div align="right" style={{ paddingTop:'3px', color:'#198754', paddingRight:'3px' }}>
-                        <Icon type="FontAwesome" name="fa-check-circle" size={12} style={{ marginRight:'3px' }} />
-                        <span style={{ fontSize:'11px' }}><b>This Username is allowed. You can use it.</b></span>
-                    </div>*/}
                 </div>
                 <div style={{ marginTop:'15px' }}>
                     <TextBox id="name" name="name" label="Name" value={profileContext?.contextData?.form?.name} disabled={true} />
@@ -67,7 +81,7 @@ const RightContainer = () =>{
                         maxValue={getPastDateString(13)} 
                         value={profileContext?.contextData?.form?.dob} 
                         validation={{ required:{ value: true, errorMessage:"This is a Mandatory Field" }}}
-                        onChange={submitForm}  />
+                        onChange={async(result)=>{}}  />
                 </div>
                 <div style={{ marginTop:'15px' }}>
                     <Email id="email" name="email" label="Email Address" value={profileContext?.contextData?.form?.email} disabled={true} />
