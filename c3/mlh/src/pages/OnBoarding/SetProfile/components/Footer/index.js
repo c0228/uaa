@@ -19,9 +19,9 @@ const Footer = () =>{
          <Row>
              <Col md={8}>
                  <div align="left" style={{ padding:'8px', color:'#000' }}>
-                     <b>Please Enter your Date of Birth (allowed 13 years old or above)</b>
+                     <b>{profileContext?.contextData?.profileFormMsg}</b>
+                     {/** Please Enter your Date of Birth (allowed 13 years old or above) */}
                  </div>
-                 
              </Col>
              <Col md={4}>
                  <div align="right">
