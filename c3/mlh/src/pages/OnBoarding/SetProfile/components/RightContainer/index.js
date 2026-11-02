@@ -4,12 +4,22 @@ import { getProfileContext, ProfileProvider } from '@Pages/OnBoarding/SetProfile
 import { getPastDateString } from "@Utils/DateUtility.js";
 
 const RightContainer = () =>{
+ const [missingFields, setMissingFields] = useState([]);
  const profileContext = getProfileContext();
   const { submitForm, resetForm } = getForm();
   useEffect(()=>{
     console.log("getForm: ");
     submitForm();
   },[]);
+  useEffect(()=>{
+    let msg = "Please Enter";
+    if(missingFields?.includes("MISSING_USERNAME")) { msg+=" Username,"; }
+    if(missingFields?.includes("MISSING_DOB")) { msg+=" Date of Birth,"; }
+    msg = msg?.slice(0, -1);
+    profileContext?.setContextData({...profileContext?.contextData, 
+     profileFormMsg: msg
+    });
+  },[missingFields]);
  const handleContextResult = (data, section = "form") => {
     profileContext?.setContextData({
         ...profileContext?.contextData,
@@ -74,6 +84,12 @@ const RightContainer = () =>{
                             console.log("rsult [Username]: ", result);
                             if(result?.errorMessage?.length===0){
                                 handleContextResult({ username: result?.value });
+                                setMissingFields(
+                                    missingFields.filter(field => field !== "MISSING_USERNAME")
+                                );
+                            } else {
+                                setMissingFields([...missingFields, "MISSING_USERNAME"]);
+                                /*  */
                             }
                         }} />
                 </div>
@@ -84,11 +100,20 @@ const RightContainer = () =>{
                     <DateTimePicker id="date" name="date" type="datePicker" label="Date of Birth"
                         maxValue={getPastDateString(13)} 
                         value={profileContext?.contextData?.form?.dob} 
-                        validation={{ required:{ value: true, errorMessage:"This is a Mandatory Field" }}}
+                        validation={{ required:{ 
+                            value: true, errorMessage:"This is a Mandatory Field" }}}
                         onChange={async(result)=>{
                             console.log("rsult [DateTimePicker]: ", result);
                             if(result?.errorMessage?.length===0){
                                 handleContextResult({ dob: result?.value });
+                                 setMissingFields(
+                                    missingFields.filter(field => field !== "MISSING_DOB")
+                                );
+                            } else {
+                                setMissingFields([...missingFields, "MISSING_DOB"]);
+                                /* profileContext?.setContextData({...profileContext?.contextData, 
+                                    profileFormMsg: "Missing Date of Birth"
+                                 }); */
                             }
                         }}  />
                 </div>

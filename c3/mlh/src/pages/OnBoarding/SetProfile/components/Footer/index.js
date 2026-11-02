@@ -15,7 +15,6 @@ const Footer = () =>{
  };
  return (<>
  <div className={profileContext?.contextData?.footerMode}>
-         {JSON.stringify(profileContext?.contextData)}
          <Row>
              <Col md={8}>
                  <div align="left" style={{ padding:'8px', color:'#000' }}>
