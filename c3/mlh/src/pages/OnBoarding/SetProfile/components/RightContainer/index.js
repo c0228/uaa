@@ -6,6 +6,10 @@ import { getPastDateString } from "@Utils/DateUtility.js";
 const RightContainer = () =>{
  const profileContext = getProfileContext();
   const { submitForm, resetForm } = getForm();
+  useEffect(()=>{
+    console.log("getForm: ");
+    submitForm();
+  },[]);
  const handleContextResult = (data, section = "form") => {
     profileContext?.setContextData({
         ...profileContext?.contextData,
@@ -67,7 +71,7 @@ const RightContainer = () =>{
                             }
                         }}
                         onChange={async (result) => {
-                            console.log("rsult: ", result);
+                            console.log("rsult [Username]: ", result);
                             if(result?.errorMessage?.length===0){
                                 handleContextResult({ username: result?.value });
                             }
@@ -81,7 +85,12 @@ const RightContainer = () =>{
                         maxValue={getPastDateString(13)} 
                         value={profileContext?.contextData?.form?.dob} 
                         validation={{ required:{ value: true, errorMessage:"This is a Mandatory Field" }}}
-                        onChange={async(result)=>{}}  />
+                        onChange={async(result)=>{
+                            console.log("rsult [DateTimePicker]: ", result);
+                            if(result?.errorMessage?.length===0){
+                                handleContextResult({ dob: result?.value });
+                            }
+                        }}  />
                 </div>
                 <div style={{ marginTop:'15px' }}>
                     <Email id="email" name="email" label="Email Address" value={profileContext?.contextData?.form?.email} disabled={true} />

@@ -35,8 +35,9 @@ const SetProfile = () =>{
     </Row>
  </ContainerFluid>
  </div>
+  </Form>
  <Footer />
- </Form>
+
  </ProfileProvider>);
 };
 
