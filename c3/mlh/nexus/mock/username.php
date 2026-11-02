@@ -7,6 +7,6 @@ header("Access-Control-Max-Age: 86400");
 header("Content-Type: application/json");
 
 echo json_encode([
-    "id" => "USERNAME_TAKEN" // USERNAME_AVAILABLE  USERNAME_TAKEN
+    "id" => "USERNAME_AVAILABLE" // USERNAME_AVAILABLE  USERNAME_TAKEN
 ]);
 ?>
