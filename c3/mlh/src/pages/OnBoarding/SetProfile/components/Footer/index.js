@@ -6,20 +6,28 @@ const Footer = () =>{
  const profileContext = getProfileContext();
  const handleNext = () =>{
     // Check Values:
-    // Set into LocalStorage
-    profileContext?.setContextData({ footerMode: "mlh-onboarding-footer mlh-onboarding-footer-success" });
-    // Redirect to postalCode Setup Page
-    setTimeout(()=>{
-      //  window.location.href=process.env.PROJECT_URL+'onboarding/set-postal-code';
-    },500); 
+    if(profileContext?.contextData?.profileFormMsg?.length===0){ 
+        // Set into LocalStorage
+        profileContext?.setContextData({ footerMode: "mlh-onboarding-footer mlh-onboarding-footer-success" });
+        // Redirect to postalCode Setup Page
+        setTimeout(()=>{
+        //  window.location.href=process.env.PROJECT_URL+'onboarding/set-postal-code';
+        },500); 
+    } else {
+        profileContext?.setContextData({ footerMode: "mlh-onboarding-footer mlh-onboarding-footer-error shake" });
+        setTimeout(()=>{
+            profileContext?.setContextData({ footerMode: "mlh-onboarding-footer mlh-onboarding-footer-error" });
+        }, 1000);
+    }
+    
+    
  };
  return (<>
  <div className={profileContext?.contextData?.footerMode}>
          <Row>
              <Col md={8}>
-                 <div align="left" style={{ padding:'8px', color:'#000' }}>
+                 <div align="left"  style={{ padding:'8px', color:'#000' }}>
                      <b>{profileContext?.contextData?.profileFormMsg}</b>
-                     {/** Please Enter your Date of Birth (allowed 13 years old or above) */}
                  </div>
              </Col>
              <Col md={4}>

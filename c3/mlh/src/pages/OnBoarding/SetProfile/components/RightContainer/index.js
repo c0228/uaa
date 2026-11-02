@@ -6,19 +6,35 @@ import { getPastDateString } from "@Utils/DateUtility.js";
 const RightContainer = () =>{
  const [missingFields, setMissingFields] = useState([]);
  const profileContext = getProfileContext();
-  const { submitForm, resetForm } = getForm();
+ const { submitForm } = getForm();
   useEffect(()=>{
-    console.log("getForm: ");
     submitForm();
   },[]);
-  useEffect(()=>{
-    let msg = "Please Enter";
-    if(missingFields?.includes("MISSING_USERNAME")) { msg+=" Username,"; }
-    if(missingFields?.includes("MISSING_DOB")) { msg+=" Date of Birth,"; }
-    msg = msg?.slice(0, -1);
-    profileContext?.setContextData({...profileContext?.contextData, 
-     profileFormMsg: msg
+  const getWarningMessage = () => {
+
+    const messages = [];
+
+    if (missingFields?.includes("MISSING_USERNAME")) {
+        messages.push("Username");
+    }
+
+    if (missingFields?.includes("MISSING_DOB")) {
+        messages.push(
+            "Date of Birth (allowed 13 years old or above)"
+        );
+    }
+
+    const msg = messages.length > 0
+        ? `Please Enter ${messages.join(", ")}.`
+        : "";
+
+    profileContext?.setContextData({
+        ...profileContext?.contextData,
+        profileFormMsg: msg
     });
+};
+  useEffect(()=>{
+    getWarningMessage();
   },[missingFields]);
  const handleContextResult = (data, section = "form") => {
     profileContext?.setContextData({
