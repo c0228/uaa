@@ -20,8 +20,8 @@ const LeftContainer = () =>{
      </div>);
   };
  return (<>
-  <div className="mtop15p">
-              <h2><b>Your Community. <span style={{ color:'#777' }}>Your Connections.</span> Your World.</b></h2>
+  <div className="mtop15p" style={{ color:'#076cbb' }}>
+              <h2><b>Your Community. <span style={{ color:'#9c27b0' }}>Your Connections.</span> Your World.</b></h2>
           </div>
           <div className="mtop15p">
               <div style={{ fontSize:'16px' }}>Welcome to <b>MyLocalHook</b> — a place to discover what's happening around you, connect with people, 
