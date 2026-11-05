@@ -117,8 +117,6 @@ const isSelected = (id) => {
 };
 
  return (<>
- <div>{JSON.stringify(nichesContext?.contextData?.userSelected)}</div>
- <div>{nichesContext?.contextData?.searchQuery}</div>
   <div className="mtop15p" style={{ paddingLeft:'15px', paddingRight:'15px' }}>
         {data?.map((c,i1)=>{
             return (<div key={i1} className="mtop15p">

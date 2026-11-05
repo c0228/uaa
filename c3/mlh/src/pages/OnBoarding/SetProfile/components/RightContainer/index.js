@@ -10,29 +10,39 @@ const RightContainer = () =>{
   useEffect(()=>{
     submitForm();
   },[]);
-  const getWarningMessage = () => {
+  
+const getWarningMessage = () => {
 
     const messages = [];
 
-    if (missingFields?.includes("MISSING_USERNAME")) {
+    if (missingFields.includes("MISSING_USERNAME")) {
         messages.push("Username");
     }
 
-    if (missingFields?.includes("MISSING_DOB")) {
-        messages.push(
-            "Date of Birth (allowed 13 years old or above)"
-        );
+    if (missingFields.includes("MISSING_DOB")) {
+        messages.push("Date of Birth (allowed 13 years old or above)");
     }
 
-    const msg = messages.length > 0
-        ? `Please Enter ${messages.join(", ")}.`
-        : "";
+    // Check whether all fields are valid
+    const isFormValid = missingFields.length === 0;
 
+    // Generate warning message
+    const msg = isFormValid
+        ? ""
+        : `Please Enter ${messages.join(", ")}.`;
+
+    // Update Profile Context
     profileContext?.setContextData({
-        ...profileContext?.contextData,
-        profileFormMsg: msg
+        form: {
+            ...profileContext?.contextData?.form,
+            missingFields
+        },
+        profileFormMsg: msg,
+        footerMode: isFormValid
+            ? "mlh-onboarding-footer mlh-onboarding-footer-success"
+            : "mlh-onboarding-footer mlh-onboarding-footer-error"
     });
-};
+  };
   useEffect(()=>{
     getWarningMessage();
   },[missingFields]);
@@ -97,15 +107,20 @@ const RightContainer = () =>{
                             }
                         }}
                         onChange={async (result) => {
-                            console.log("rsult [Username]: ", result);
-                            if(result?.errorMessage?.length===0){
+                            console.log("Username Result:", result);
+
+                            if (result?.errorMessage?.length === 0) {
                                 handleContextResult({ username: result?.value });
-                                setMissingFields(
-                                    missingFields.filter(field => field !== "MISSING_USERNAME")
+
+                                setMissingFields(prev =>
+                                    prev.filter(field => field !== "MISSING_USERNAME")
                                 );
                             } else {
-                                setMissingFields([...missingFields, "MISSING_USERNAME"]);
-                                /*  */
+                                setMissingFields(prev =>
+                                    prev.includes("MISSING_USERNAME")
+                                        ? prev
+                                        : [...prev, "MISSING_USERNAME"]
+                                );
                             }
                         }} />
                 </div>
@@ -118,18 +133,21 @@ const RightContainer = () =>{
                         value={profileContext?.contextData?.form?.dob} 
                         validation={{ required:{ 
                             value: true, errorMessage:"This is a Mandatory Field" }}}
-                        onChange={async(result)=>{
-                            console.log("rsult [DateTimePicker]: ", result);
-                            if(result?.errorMessage?.length===0){
+                        onChange={async (result) => {
+                            console.log("DateTimePicker Result:", result);
+
+                            if (result?.errorMessage?.length === 0) {
                                 handleContextResult({ dob: result?.value });
-                                 setMissingFields(
-                                    missingFields.filter(field => field !== "MISSING_DOB")
+
+                                setMissingFields(prev =>
+                                    prev.filter(field => field !== "MISSING_DOB")
                                 );
                             } else {
-                                setMissingFields([...missingFields, "MISSING_DOB"]);
-                                /* profileContext?.setContextData({...profileContext?.contextData, 
-                                    profileFormMsg: "Missing Date of Birth"
-                                 }); */
+                                setMissingFields(prev =>
+                                    prev.includes("MISSING_DOB")
+                                        ? prev
+                                        : [...prev, "MISSING_DOB"]
+                                );
                             }
                         }}  />
                 </div>
