@@ -19,12 +19,26 @@ const Header1 = ()=>{
    </div>
 
    <div className="d-flex">
-      <div style={{ marginTop:'5px' }}>
+      <ul className="navbar-nav">
+      <li className="nav-item">
+        <a className="nav-link active" href="#">
+         <Icon type="FontAwesome" name="fa-newspaper-o" size={14} style={{ marginRight:'5px' }} /> 
+         <span><b>News Feed</b></span>
+        </a>
+      </li>
+      <li className="nav-item">
+        <a className="nav-link" href="#">My Local</a>
+      </li>
+      <li className="nav-item">
+        <a className="nav-link" href="#">Brand Community</a>
+      </li>
+    </ul>
+      {/*<div style={{ marginTop:'5px' }}>
       <div style={{ borderBottom:'2px solid #000', paddingBottom:'2px' }}>
-         <Icon type="FontAwesome" name="fa-newspaper-o" size={14} color="#000" style={{ marginRight:'5px' }} /> 
-         <span style={{ color: '#000' }}><b>News Feed</b></span>
+         
+         
       </div>
-      </div>
+      </div> */}
    </div>
    <div className="d-flex">
       <div>
