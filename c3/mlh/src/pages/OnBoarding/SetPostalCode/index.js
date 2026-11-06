@@ -4,6 +4,7 @@ import useAuth from "@Hooks/useAuth/index.js";
 import MapPostalCode from "@Components/map-postal-code/index.js";
 import Header3 from "@Templates/Header3/index.js";
 import './index.css';
+import OnBoardHeader from "@Components/UIElements/OnBoardHeader";
 
 const SetPostalCode = ()=>{
  const [pincode, setPincode] = useState();
@@ -27,9 +28,8 @@ const SetPostalCode = ()=>{
                         <div style={{ fontSize:'14px' }}><b>Welcome to MyLocalHook!</b></div>
                         <div style={{ marginTop:'5px' }}>Your Local Community Starts Here.</div>
                     </div>
-
+                    <OnBoardHeader label1="Set" label2="Your Local" label3="Area" />
                     <div style={{ marginTop:'15px' }}>
-                        <hr/><div style={{ paddingTop:'15px' }}><b>SET YOUR LOCAL AREA</b></div><hr/>
                         <div style={{ marginTop:'12px'}}>
                             Enter your <b>6-digit PIN Code</b> to identify your local area and explore what's happening around you.
                         </div>

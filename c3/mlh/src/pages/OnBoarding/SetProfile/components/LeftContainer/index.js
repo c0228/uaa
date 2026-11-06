@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { ContainerFluid, Row, Col, Icon, Badge, Card } from "e-ui-react";
 import { getProfileContext, ProfileProvider } from '@Pages/OnBoarding/SetProfile/context.js';
+import OnBoardHeader from "@Components/UIElements/OnBoardHeader";
 
 const LeftContainer = () =>{
   const FormCard = ({ icon, label, desc, colors}) =>{
@@ -17,15 +18,11 @@ const LeftContainer = () =>{
                  </div>
              </div>
          </Card>
-     </div>);
+     </div>);   
   };
  return (<>
-  <div style={{  marginTop:'15px' }}>
-              <h2><b>
-                <span style={{ color:'#fff', backgroundColor:'#27187e',  padding:'5px 10px' }}>Your Community</span> 
-                <span style={{ color:'#fff',backgroundColor:'#014baa', padding:'10px 15px' }}>Your Connections</span>
-                <span style={{ color:'#fff',backgroundColor:'#27187e', padding:'5px 10px' }}>Your World</span> 
-                </b></h2>
+          <div style={{ marginTop:'25px'}}>
+            <OnBoardHeader label1="Your Community" label2="Your Connections" label3="Your World" />
           </div>
           <div className="mtop15p">
               <div style={{ fontSize:'16px', color:'#333' }}>Welcome to <span style={{ color:'#000' }}><b>MyLocalHook</b></span> — a place 
@@ -33,7 +30,7 @@ const LeftContainer = () =>{
                       and build meaningful relationships within your local community.</div>
               
               <div style={{ marginTop:'15px' }}>
-                    <span style={{ backgroundColor:'#f5f5f5', border:'1px solid #000', color:'#000', 
+                    <span style={{ backgroundColor:'#e8e9f9', border:'1px solid #27187e', color:'#27187e', 
                         padding:'8px', borderRadius:'8px', fontSize:'13px' }}>
                         <Icon type="FontAwesome" name="fa-lock" size={11} style={{ marginRight:'8px' }} />
                         Your information. Your control.
@@ -51,13 +48,13 @@ const LeftContainer = () =>{
                   <Row>
                       <Col md={6}>
                          <FormCard icon="fa-id-badge" 
-                            colors={{ bg:'#eee', label: '#000', desc: '#333' }}
+                            colors={{ bg:'#f5f5f5', label: '#000', desc: '#000' }}
                             label="1. Username" 
                             desc="Choose a unique username that helps others recognize, find, and mention you on MyLocalHook" /> 
                       </Col>
                       <Col md={6}>
                           <FormCard icon="fa-user" 
-                            colors={{ bg:'#eee', label:'#000', desc: '#333' }}
+                            colors={{ bg:'#f5f5f5', label:'#000', desc: '#000' }}
                             label="2. Fullname" 
                             desc="Your name helps people recognize you and makes your interactions feel more personal" />
                       </Col>
@@ -65,13 +62,13 @@ const LeftContainer = () =>{
                   <Row>
                       <Col md={6}>
                           <FormCard icon="fa-envelope-o" 
-                            colors={{ bg:'#eee', label:'#000', desc: '#333' }}
+                            colors={{ bg:'#f5f5f5', label:'#000', desc: '#000' }}
                             label="3. Email Address" 
                             desc="Your email helps us communicate important account updates and support account recovery" />
                       </Col>
                       <Col md={6}>
                           <FormCard icon="fa-calendar" 
-                            colors={{ bg:'#eee', label:'#000', desc: '#333' }}
+                            colors={{ bg:'#f5f5f5', label:'#000', desc: '#000' }}
                             label="4. Date of Birth" 
                             desc="Your date of birth helps us determine your age and provide an age-appropriate experience" />
                       </Col>
