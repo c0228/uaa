@@ -58,18 +58,18 @@ const getWarningMessage = () => {
  };
  return (<>
  <div style={{ padding:'15px' }}>
-                <Card padding={15} backgroundColor="#f9f9f9">
+                <div style={{ backgroundColor:'#10182a', padding:'15px', color:'#fff', borderRadius:'12px', boxShadow:'2px 2px 2px 2px #ccc' }}>
                 <div align="center">
                     <span style={{ textTransform:'uppercase', fontSize:'22px' }}><b>Setup your Profile</b></span>
-                    <div>
+                    {/*<div>
                         <Badge type="dark-o" label={<>
                             <Icon type="FontAwesome" name="fa-link" size={12} style={{ marginRight:'5px' }} /> 
                             Your profile helps personalize your MyLocalHook experience.
                             </>} 
                         size="11" style={{ marginTop:'5px' }} />
                     </div>
-                    <div style={{ fontSize:'16px', marginTop:'5px' }}>Create your identity by adding your details so people can 
-                        recognize you <br/> and connect with your local community.</div>
+                    <div style={{ fontSize:'16px', marginTop:'5px', color:'#ffdfa9' }}>Create your identity by adding your details so people can 
+                        recognize you <br/> and connect with your local community.</div>*/}
                 </div>
                 <div align="center" className="mtop15p">
                     <img src={profileContext?.contextData?.form?.profilePic}  referrerPolicy="no-referrer" 
@@ -159,7 +159,7 @@ const getWarningMessage = () => {
                     <Icon type="FontAwesome" name="fa-shield" size={12} style={{ marginRight:'5px' }} /> 
                     Transparent & Secure Account Setup
                 </div>
-                </Card>
+                </div>
             </div>
  </>);
 };

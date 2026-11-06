@@ -3,60 +3,77 @@ import { ContainerFluid, Row, Col, Icon, Badge, Card } from "e-ui-react";
 import { getProfileContext, ProfileProvider } from '@Pages/OnBoarding/SetProfile/context.js';
 
 const LeftContainer = () =>{
-  const FormCard = ({ icon, label, desc}) =>{
+  const FormCard = ({ icon, label, desc, colors}) =>{
      return (<div className="mtop15p">
-         <Card padding={15}>
+         <Card padding={15}  backgroundColor={colors?.bg} border={{ color: colors?.label }} boxShadow="2px 2px 2px 2px #ccc">
              <div style={{ display:'flex' }}>
                  <div style={{ width:'12%' }}>
-                     <Icon type="FontAwesome" name={icon} size={12} 
-                         style={{ borderRadius:'8px', padding:'5px', border:'1px solid #555', marginRight:'5px' }} /> 
+                     <Icon type="FontAwesome" name={icon} size={12} color={colors?.label}
+                         style={{ borderRadius:'8px', padding:'5px', border:'1px solid '+colors?.label, marginRight:'5px' }} /> 
                  </div>
                  <div style={{ width:'88%' }}>
-                     <h5><b>{label}</b></h5>
-                         <div style={{ fontSize:'14px' }}>{desc}.</div>
+                     <h5 style={{ color: colors?.label }}><b>{label}</b></h5>
+                         <div style={{ fontSize:'14px', color: colors?.desc }}>{desc}.</div>
                  </div>
              </div>
          </Card>
      </div>);
   };
  return (<>
-  <div className="mtop15p" style={{ color:'#076cbb' }}>
-              <h2><b>Your Community. <span style={{ color:'#9c27b0' }}>Your Connections.</span> Your World.</b></h2>
+  <div style={{  marginTop:'15px' }}>
+              <h2><b>
+                <span style={{ color:'#fff', backgroundColor:'#27187e',  padding:'5px 10px' }}>Your Community</span> 
+                <span style={{ color:'#fff',backgroundColor:'#014baa', padding:'10px 15px' }}>Your Connections</span>
+                <span style={{ color:'#fff',backgroundColor:'#27187e', padding:'5px 10px' }}>Your World</span> 
+                </b></h2>
           </div>
           <div className="mtop15p">
-              <div style={{ fontSize:'16px' }}>Welcome to <b>MyLocalHook</b> — a place to discover what's happening around you, connect with people, 
+              <div style={{ fontSize:'16px', color:'#333' }}>Welcome to <span style={{ color:'#000' }}><b>MyLocalHook</b></span> — a place 
+                to discover what's happening around you, connect with people, 
                       and build meaningful relationships within your local community.</div>
+              
               <div style={{ marginTop:'15px' }}>
-                  <Badge type="dark-o" label={<><Icon type="FontAwesome" name="fa-lock" size={12} style={{ marginRight:'5px' }} />Your information. Your control.</>} 
-                          size="11" style={{ marginTop:'5px' }} />
+                    <span style={{ backgroundColor:'#f5f5f5', border:'1px solid #000', color:'#000', 
+                        padding:'8px', borderRadius:'8px', fontSize:'13px' }}>
+                        <Icon type="FontAwesome" name="fa-lock" size={11} style={{ marginRight:'8px' }} />
+                        Your information. Your control.
+                    </span>
               </div>
-              <div style={{ marginTop:'5px' }}>
-                  <span style={{ textTransform:'uppercase', fontSize:'22px' }}><b>Why Complete Your Profile?</b></span>
+              <div style={{ marginTop:'15px' }}>
+                  <span style={{ textTransform:'uppercase', fontSize:'22px', color:'#000' }}><b>Why Complete Your Profile?</b></span>
               </div>
-              <div style={{ marginTop:'15px', fontSize:'16px' }}>
-                  <i>Setting up your profile takes less than a minute. Your profile helps us customize your feed and keep MyLocalHook secure. 
+              <div style={{ marginTop:'15px', fontSize:'16px', color:'#333' }}>
+                  Setting up your profile takes less than a minute. Your profile helps us customize your feed and keep MyLocalHook secure. 
                   We ask for a few basic details to personalize your experience, help your neighbors find you, helps you connect with nearby events,
-                  and keep our local community safe and vibrant.</i>
+                  and keep our local community safe and vibrant.
               </div>
               <div>
                   <Row>
                       <Col md={6}>
-                         <FormCard icon="fa-id-badge" label="1. Username" 
-                              desc="Choose a unique username that helps others recognize, find, and mention you on MyLocalHook" /> 
+                         <FormCard icon="fa-id-badge" 
+                            colors={{ bg:'#eee', label: '#000', desc: '#333' }}
+                            label="1. Username" 
+                            desc="Choose a unique username that helps others recognize, find, and mention you on MyLocalHook" /> 
                       </Col>
                       <Col md={6}>
-                          <FormCard icon="fa-user" label="2. Fullname" 
-                              desc="Your name helps people recognize you and makes your interactions feel more personal" />
+                          <FormCard icon="fa-user" 
+                            colors={{ bg:'#eee', label:'#000', desc: '#333' }}
+                            label="2. Fullname" 
+                            desc="Your name helps people recognize you and makes your interactions feel more personal" />
                       </Col>
                   </Row>
                   <Row>
                       <Col md={6}>
-                          <FormCard icon="fa-envelope-o" label="3. Email Address" 
-                              desc="Your email helps us communicate important account updates and support account recovery" />
+                          <FormCard icon="fa-envelope-o" 
+                            colors={{ bg:'#eee', label:'#000', desc: '#333' }}
+                            label="3. Email Address" 
+                            desc="Your email helps us communicate important account updates and support account recovery" />
                       </Col>
                       <Col md={6}>
-                          <FormCard icon="fa-calendar" label="4. Date of Birth" 
-                              desc="Your date of birth helps us determine your age and provide an age-appropriate experience" />
+                          <FormCard icon="fa-calendar" 
+                            colors={{ bg:'#eee', label:'#000', desc: '#333' }}
+                            label="4. Date of Birth" 
+                            desc="Your date of birth helps us determine your age and provide an age-appropriate experience" />
                       </Col>
                   </Row>
               </div>

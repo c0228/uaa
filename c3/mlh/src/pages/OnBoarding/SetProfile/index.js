@@ -27,11 +27,11 @@ const SetProfile = () =>{
  <Form name="userForm" onSubmit={(form, isValid, resetForm) => {
         console.log("Form Data:", form);
       }}>
- <div style={{ paddingBottom:'80px', backgroundColor:'#fff7ef' }}>
+ <div style={{ paddingBottom:'60px', backgroundColor:'#f8f3f0' }}>
   <ContainerFluid>
     <Row>
-        <Col md={7}><LeftContainer /></Col>
-        <Col md={5}><RightContainer /></Col>
+        <Col md={8}><LeftContainer /></Col>
+        <Col md={4}><RightContainer /></Col>
     </Row>
  </ContainerFluid>
  </div>
