@@ -58,24 +58,21 @@ const getWarningMessage = () => {
  };
  return (<>
  <div style={{ padding:'15px' }}>
-                <div style={{ backgroundColor:'#10182a', padding:'15px', color:'#fff', borderRadius:'12px', boxShadow:'2px 2px 2px 2px #ccc' }}>
-                <div align="center">
-                    <span style={{ textTransform:'uppercase', fontSize:'22px' }}><b>Setup your Profile</b></span>
-                    {/*<div>
-                        <Badge type="dark-o" label={<>
-                            <Icon type="FontAwesome" name="fa-link" size={12} style={{ marginRight:'5px' }} /> 
-                            Your profile helps personalize your MyLocalHook experience.
-                            </>} 
-                        size="11" style={{ marginTop:'5px' }} />
-                    </div>
-                    <div style={{ fontSize:'16px', marginTop:'5px', color:'#ffdfa9' }}>Create your identity by adding your details so people can 
-                        recognize you <br/> and connect with your local community.</div>*/}
+                <div style={{ border:'1px solid #000',
+                    backgroundColor:'#fff', color:'#000', borderRadius:'12px', overflow:'hidden' }}>
+                <div style={{ 
+                         backgroundColor:'#f6f4f0', padding:'15px' }}>
+                    <h2 style={{  fontSize:'22px', }}><b>Get Started by telling us about yourself!</b></h2>
+                    {/*<span style={{ color:'#555' }}>
+                        Tell us a little about yourself to create your profile and help your community get to know you.
+                    </span>*/}
                 </div>
-                <div align="center" className="mtop15p">
+                <div style={{ padding:'20px' }}>
+                <div align="center">
                     <img src={profileContext?.contextData?.form?.profilePic}  referrerPolicy="no-referrer" 
                         style={{ width:'95px', height:'95px', borderRadius:'50%', border:'2px solid #555' }} />
                 </div>
-                <div style={{ marginTop:'15px' }}>
+                <div style={{ marginTop:'5px' }}>
                     <TextBox id="username" name="username" label="Username" 
                         value={profileContext?.contextData?.form?.username} 
                         validation={{
@@ -124,7 +121,7 @@ const getWarningMessage = () => {
                             }
                         }} />
                 </div>
-                <div style={{ marginTop:'15px' }}>
+                <div style={{ marginTop:'5px' }}>
                     <TextBox id="name" name="name" label="Name" value={profileContext?.contextData?.form?.name} disabled={true} />
                 </div>
                 <div style={{ marginTop:'15px' }}>
@@ -151,13 +148,14 @@ const getWarningMessage = () => {
                             }
                         }}  />
                 </div>
-                <div style={{ marginTop:'15px' }}>
+                <div style={{ marginTop:'5px' }}>
                     <Email id="email" name="email" label="Email Address" value={profileContext?.contextData?.form?.email} disabled={true} />
                 </div>
                 <div><hr/></div>
                 <div align="center" style={{ fontSize:'12px', marginTop:'15px' }}>
                     <Icon type="FontAwesome" name="fa-shield" size={12} style={{ marginRight:'5px' }} /> 
                     Transparent & Secure Account Setup
+                </div>
                 </div>
                 </div>
             </div>
