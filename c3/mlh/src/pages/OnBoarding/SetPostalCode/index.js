@@ -22,15 +22,16 @@ const SetPostalCode = ()=>{
     <ContainerFluid>
         <Row>
             <Col md={3}>
-                <div style={{ marginTop:'15px', fontFamily:'Metropolis', letterSpacing:'0.8px' }}>
+                <div style={{ marginTop:'15px', fontFamily:'Metropolis', letterSpacing:'0.3px' }}>
                     <div style={{ fontSize:'14px' }}>Hi <b>{userDetails?.surName}  {userDetails?.name}</b>,</div>
                     <div style={{ marginTop:'15px' }}>
                         <div style={{ fontSize:'14px' }}><b>Welcome to MyLocalHook!</b></div>
-                        <div style={{ marginTop:'5px' }}>Your Local Community Starts Here.</div>
+                        <div style={{ marginTop:'5px', color:'#555' }}>Your Local Community Starts Here.</div>
                     </div>
-                    <OnBoardHeader label1="Set" label2="Your Local" label3="Area" />
+                    <hr/>
+                    <h3 className="mtop15p mlh-intro-heading">Set your Local Area</h3>
                     <div style={{ marginTop:'15px' }}>
-                        <div style={{ marginTop:'12px'}}>
+                        <div style={{ marginTop:'12px', color:'#555' }}>
                             Enter your <b>6-digit PIN Code</b> to identify your local area and explore what's happening around you.
                         </div>
                         <div style={{ marginTop:'8px'}}>
