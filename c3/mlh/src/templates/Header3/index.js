@@ -8,7 +8,7 @@ const Header3 = ()=>{
    console.log("userDetails [Header2]: ", userDetails?.profilePic);
  },[]);
  return ( <nav className="navbar navbar-expand-sm" style={{ zIndex:2, borderBottom:'1px solid #ccc', 
-   boxShadow:'1px 1px 1px 1px #808080' }}>
+   boxShadow:'1px 1px 1px 1px #808080', backgroundColor:'#fff' }}>
  <div className="container-fluid">
 
    <div align="center" style={{ fontFamily: 'BloomsFree', fontSize:'28px', letterSpacing:'3px' }}>

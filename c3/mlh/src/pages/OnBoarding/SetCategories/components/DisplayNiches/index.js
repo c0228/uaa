@@ -138,7 +138,7 @@ const isSelected = (id) => {
                 {c?.subCategories?.map((s,i2)=>{
                     return (<Col key={i2} md={3}>
                         <div style={{ marginBottom:'12px' }}>
-                        <Card padding={15}>
+                        <Card padding={15} backgroundColor="#fbe9b5" border={{ color:'#5a3c08' }}>
                             <div style={{ display:'flex' }}>
                                 <div style={{ width:'15%' }}>
                                     <div className="form-check form-switch">
@@ -155,7 +155,7 @@ const isSelected = (id) => {
                                                 searchText={nichesContext?.contextData?.searchQuery || ""} />
                                         </b>
                                     </h5></div>
-                                    <div style={{ color:'#777' }}>{s?.desc}</div>
+                                    <div style={{ color:'#555' }}>{s?.desc}</div>
                                 </div>
                             </div>
                         </Card>
