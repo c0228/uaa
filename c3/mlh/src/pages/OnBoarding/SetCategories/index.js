@@ -25,7 +25,7 @@ const SetCategories = () =>{
  return (<NichesProvider variables={{ userSelected: initialSelected, searchQuery: "" }}>
  <Header2 />
  <div style={{ paddingBottom:'75px' }}>
-    <div style={{ backgroundColor:'#f4e7af'}}>
+    <div style={{ backgroundColor:'#eee'}}>
         <ContainerFluid>
             <Row>
                 <Col md={2}></Col>

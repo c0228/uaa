@@ -39,7 +39,8 @@ const SearchNiches = () =>{
 };
  return (<>
     <div>
-        <div style={{ paddingLeft:'15px', paddingRight:'15px', paddingBottom:'15px', backgroundColor:'#f4e7af', borderBottom:'1px solid #ccc' }}>
+        <div style={{ paddingLeft:'15px', paddingRight:'15px', paddingBottom:'15px', backgroundColor:'#eee', 
+                borderBottom:'1px solid #ccc' }}>
             <div style={{ display:'flex'}}>
                 <div style={{ width:'82%'}}>
                     {/** */}

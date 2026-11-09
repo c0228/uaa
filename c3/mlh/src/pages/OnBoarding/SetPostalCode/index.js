@@ -9,7 +9,7 @@ import OnBoardHeader from "@Components/UIElements/OnBoardHeader";
 const SetPostalCode = ()=>{
  const [pincode, setPincode] = useState();
  useEffect(()=>{
-    document.body.style.backgroundColor = '#0f4c81';
+   // document.body.style.backgroundColor = '#0f4c81';
  },[]);
  const { userDetails } = useAuth();
  const handlePostalCode = (value) =>{
@@ -21,18 +21,23 @@ const SetPostalCode = ()=>{
     window.location.href = process.env.PROJECT_URL+"onboarding/choose-niches";
  };
  return (<>
-    <Header3 />
+    {/*<Header3 /> */}
     <div>
     <ContainerFluid>
         <Row>
             <Col md={3}>
+                <div style={{ fontFamily: 'BloomsFree', fontSize:'28px', letterSpacing:'3px' }}>
+                    <span style={{ color:'#000' }}>my</span>
+                    <span style={{ color:'#000' }}>local</span>
+                    <span style={{ color:'#000' }}>hook</span>
+                </div>
                 <div style={{ marginTop:'15px', fontFamily:'Metropolis', letterSpacing:'0.3px' }}>
-                    <h4 className="mtop15p mlh-intro-heading" style={{ color:'#ffefb3'}}>
+                    <h4 className="mtop15p mlh-intro-heading" style={{ color:'#000'}}>
                         <Icon type="FontAwesome" name="fa-map-marker" style={{ marginRight:'8px'}} />
                         Set your Local Area
                     </h4>
                     <div style={{ marginTop:'15px' }}>
-                        <div style={{ color:'#fff', fontSize:'16px' }}>
+                        <div style={{ color:'#555', fontSize:'16px' }}>
                             Enter your <b>6-digit PIN Code</b> to identify your local area and explore what's happening around you.
                         </div>
                         <div style={{ marginTop:'8px'}}>
@@ -47,8 +52,8 @@ const SetPostalCode = ()=>{
                     <MapPostalCode pincode={pincode} styles={{
                 position: "fixed",
                 width: "100%",
-                height: "100vh",
-                border: "1px solid #000"
+                height: "95vh",
+                border: "1px solid #ccc"
             }} />
                 </div>
             </Col>
@@ -70,7 +75,7 @@ const SetPostalCode = ()=>{
                 </span>
         </div>):(<div className="mlh-onboarding-footer mlh-onboarding-footer-error" 
             style={{ marginTop:'8px', color:'#000' }}>
-                <b>Please Enter your Postal Code</b>
+                <b>Please Enter your 6-digit Postal Code</b>
         </div>)}
     </div>
  </>);
