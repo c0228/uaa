@@ -8,7 +8,7 @@ const NichesFooter = () =>{
     window.location.href=process.env.PROJECT_URL+'news-feed';
  };
  return (<> 
-    {(nichesContext?.contextData?.userSelected?.selectedCount>3)?(
+    {(nichesContext?.contextData?.userSelected?.selectedCount>=3)?(
         <div className="mlh-onboarding-footer mlh-onboarding-footer-success">
         <Row>
         <Col md={8}>
