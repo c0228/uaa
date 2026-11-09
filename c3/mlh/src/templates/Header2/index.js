@@ -7,8 +7,10 @@ const Header2 = ()=>{
  useEffect(()=>{
    console.log("userDetails [Header2]: ", userDetails?.profilePic);
  },[]);
- return ( <nav className="navbar navbar-expand-sm" style={{ zIndex:2, borderBottom:'1px solid #ccc', 
-   boxShadow:'1px 1px 1px 1px #808080' }}>
+ return ( <nav className="navbar navbar-expand-sm" style={{ zIndex:2,  backgroundColor:'#fff',
+   // borderBottom:'1px solid #ccc', 
+   // boxShadow:'1px 1px 1px 1px #ccc',
+    }}>
  <div className="container-fluid">
 
    <div align="center" style={{ fontFamily: 'BloomsFree', fontSize:'28px', letterSpacing:'3px' }}>

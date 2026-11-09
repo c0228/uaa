@@ -19,17 +19,23 @@ const initialSelected = {
 }
 const SetCategories = () =>{
  const nichesContext = getNichesContext();
-
+ useEffect(()=>{
+    document.body.style.backgroundColor='#f5f5f5';
+ },[]);
  return (<NichesProvider variables={{ userSelected: initialSelected, searchQuery: "" }}>
  <Header2 />
  <div style={{ paddingBottom:'75px' }}>
- <ContainerFluid>
-    <Row>
-        <Col md={2}></Col>
-        <Col md={8}><HeaderTitle /></Col>
-        <Col md={2}></Col>
-    </Row>
+    <div style={{ backgroundColor:'#f4e7af'}}>
+        <ContainerFluid>
+            <Row>
+                <Col md={2}></Col>
+                <Col md={8}><HeaderTitle /></Col>
+                <Col md={2}></Col>
+            </Row>
+        </ContainerFluid>
+    </div>
     <Row><Col md={12}><SearchNiches /></Col></Row>
+    <ContainerFluid>
     <DisplayNiches />
  </ContainerFluid>
  </div>

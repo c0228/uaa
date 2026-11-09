@@ -38,10 +38,11 @@ const SearchNiches = () =>{
     });
 };
  return (<>
-    <div className="list-group mtop15p">
-        <div className="list-group-item" style={{ backgroundColor:'#eee' }}>
-            <Row>
-                <Col md={8}>
+    <div>
+        <div style={{ paddingLeft:'15px', paddingRight:'15px', paddingBottom:'15px', backgroundColor:'#f4e7af', borderBottom:'1px solid #ccc' }}>
+            <div style={{ display:'flex'}}>
+                <div style={{ width:'82%'}}>
+                    {/** */}
                     <div style={{ display: "flex", gap: "8px" }}>
                         <div  className="input-group">
                             <input
@@ -58,16 +59,20 @@ const SearchNiches = () =>{
                             </span>
                         </div>
                     </div>
-                </Col>
-                <Col md={2}>
+                    {/** */}
+                </div>
+                <div style={{ width:'8%'}}>
+                    {/** */}
                     <div align="right" style={{ paddingTop:'5px' }}>
                         <span style={{ marginLeft:'3px'}}>{nichesContext?.contextData?.userSelected?.selectedCount ?? 0}</span> 
                         <span style={{ marginLeft:'3px'}}>of</span>
                         <span style={{ marginLeft:'3px'}}>{nichesContext?.contextData?.userSelected?.subCategoriesCount ?? 0}</span>
                         <span style={{ marginLeft:'3px'}}>Selected</span>
                     </div>
-                </Col>
-                <Col md={2}>
+                    {/** */}
+                </div>
+                <div style={{ width:'10%'}}>
+                    {/** */}
                     <div align="right">
                         <Button type="dark" size={11} 
                             style={{ marginRight:'5px' }} 
@@ -75,6 +80,18 @@ const SearchNiches = () =>{
                         <Button type="outline-dark" size={11} 
                             onClick={()=>NicheDeSelectAllHandler()}><b>Clear All</b></Button>
                     </div>
+                    {/** */}
+                </div>
+            </div>
+            <Row>
+                <Col md={8}>
+                    
+                </Col>
+                <Col md={2}>
+                    
+                </Col>
+                <Col md={2}>
+                    
                 </Col>
             </Row>
         </div>

@@ -58,15 +58,15 @@ const getWarningMessage = () => {
  };
  return (<>
  <div style={{ padding:'15px' }}>
-                <div style={{ border:'1px solid #000',
+                <div style={{ border:'1px solid #fff',
                     backgroundColor:'#fff', color:'#000', borderRadius:'12px', overflow:'hidden' }}>
-                <div style={{ 
+                {/*<div style={{ 
                          backgroundColor:'#f6f4f0', padding:'15px' }}>
                     <h2 style={{  fontSize:'22px', }}><b>Get Started by telling us about yourself!</b></h2>
                     {/*<span style={{ color:'#555' }}>
                         Tell us a little about yourself to create your profile and help your community get to know you.
                     </span>*/}
-                </div>
+                {/*</div>*/}
                 <div style={{ padding:'20px' }}>
                 <div align="center">
                     <img src={profileContext?.contextData?.form?.profilePic}  referrerPolicy="no-referrer" 

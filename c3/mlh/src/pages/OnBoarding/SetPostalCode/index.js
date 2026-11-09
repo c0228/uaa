@@ -27,7 +27,10 @@ const SetPostalCode = ()=>{
         <Row>
             <Col md={3}>
                 <div style={{ marginTop:'15px', fontFamily:'Metropolis', letterSpacing:'0.3px' }}>
-                    <h3 className="mtop15p mlh-intro-heading" style={{ color:'#ffefb3'}}>Set your Local Area</h3>
+                    <h4 className="mtop15p mlh-intro-heading" style={{ color:'#ffefb3'}}>
+                        <Icon type="FontAwesome" name="fa-map-marker" style={{ marginRight:'8px'}} />
+                        Set your Local Area
+                    </h4>
                     <div style={{ marginTop:'15px' }}>
                         <div style={{ color:'#fff', fontSize:'16px' }}>
                             Enter your <b>6-digit PIN Code</b> to identify your local area and explore what's happening around you.

@@ -138,7 +138,7 @@ const isSelected = (id) => {
                 {c?.subCategories?.map((s,i2)=>{
                     return (<Col key={i2} md={3}>
                         <div style={{ marginBottom:'12px' }}>
-                        <Card padding={15} backgroundColor="#fbe9b5" border={{ color:'#5a3c08' }}>
+                        <Card padding={15} backgroundColor="#f7a91b" border={{ color:'#093331' }}>
                             <div style={{ display:'flex' }}>
                                 <div style={{ width:'15%' }}>
                                     <div className="form-check form-switch">
