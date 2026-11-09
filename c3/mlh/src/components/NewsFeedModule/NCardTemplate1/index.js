@@ -56,6 +56,9 @@ const NCardTemplate1 = () =>{
                         </div>
                     </Col>
                 </Row>
+                <Row>
+                    <Col md={12}></Col>
+                </Row>
             </div>
         </Col>
     </Row>
