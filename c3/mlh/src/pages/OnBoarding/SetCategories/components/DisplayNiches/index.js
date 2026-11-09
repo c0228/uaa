@@ -136,9 +136,14 @@ const isSelected = (id) => {
                 </Row>
                 <Row className="mtop10p">
                 {c?.subCategories?.map((s,i2)=>{
+                    const bgColors= ["#fceded", // Milk SHake
+                        "#e7f5f9", // Sea Foam
+                        "#fff7eb", // Warm Sand
+                        "#f4f5d1", // Sour Cream
+                    ];
                     return (<Col key={i2} md={3}>
                         <div style={{ marginBottom:'12px' }}>
-                        <Card padding={15} backgroundColor="#f7a91b" border={{ color:'#093331' }}>
+                        <Card padding={15} backgroundColor={bgColors[i2%bgColors?.length]} border={{ color:'#fff' }}>
                             <div style={{ display:'flex' }}>
                                 <div style={{ width:'15%' }}>
                                     <div className="form-check form-switch">

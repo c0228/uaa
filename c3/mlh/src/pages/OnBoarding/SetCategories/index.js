@@ -20,7 +20,7 @@ const initialSelected = {
 const SetCategories = () =>{
  const nichesContext = getNichesContext();
  useEffect(()=>{
-    document.body.style.backgroundColor='#f5f5f5';
+   // document.body.style.backgroundColor='#f5f5f5';
  },[]);
  return (<NichesProvider variables={{ userSelected: initialSelected, searchQuery: "" }}>
  <Header2 />
