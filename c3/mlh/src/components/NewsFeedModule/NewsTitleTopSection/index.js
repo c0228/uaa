@@ -2,7 +2,7 @@ import React from "react";
 import { Row, Col, TextBox, Button, Icon } from "e-ui-react";
 import './index.css';
 
-const TitleTopSection = () =>{
+const NewsTitleTopSection = () =>{
  return (<div>
     <div style={{ display:'flex', backgroundColor:'#f7f7f7', padding:'15px', borderBottom:'1px solid #ccc' }}>
         <div style={{ width:'26%'}}>
@@ -29,9 +29,10 @@ const TitleTopSection = () =>{
         </div>
         <div style={{ width:'10%'}}>
             <div style={{ paddingTop:'5px', paddingLeft:'8px' }}>
-                <Button type="dark" size={12}  style={{ paddingLeft:'8px' }}>
+                <Button type="dark" size={12}  style={{ paddingLeft:'8px' }} 
+                    onClick={()=>{ window.location.href=process.env.PROJECT_URL+'create-news'; }}>
                     <Icon type="FontAwesome" name="fa-plus-circle" size={12} style={{ marginRight:'5px' }} />
-                    <b>Create News</b>
+                    <b>Create an Article</b>
                 </Button>
             </div>
         </div>
@@ -40,4 +41,4 @@ const TitleTopSection = () =>{
  </div>);
 };
 
-export default TitleTopSection;
+export default NewsTitleTopSection;

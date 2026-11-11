@@ -5,7 +5,8 @@ import AuthPage from "@Pages/AuthPage/index.js";
 import SetProfile from "@Pages/OnBoarding/SetProfile/index.js";
 import SetPostalCode from "@Pages/OnBoarding/SetPostalCode/index.js";
 import SetCategories from "@Pages/OnBoarding/SetCategories/index.js";
-import NewsFeedPage from "@Pages/NewsFeedPage/index.js";
+import NewsList from "@Pages/NewsFeedPage/NewsList/index.js";
+import NewsCreate from "@Pages/NewsFeedPage/NewsCreate/index.js";
 import HomePage from "@Pages/HomePage/index.js";
 import Menu from "@Pages/Menu/index.js";
 import Authentication from "@Pages/Authentication/index.js";
@@ -26,7 +27,8 @@ export const AppRouting = ()=>{
          <Route exact path="/onboarding/set-postal-code" element={<SetPostalCode />} />
          <Route exact path="/onboarding/choose-niches" element={<SetCategories />} />
          <Route exact path="/home" element={<HomePage />} />
-         <Route exact path="/news-feed" element={<NewsFeedPage />} />
+         <Route exact path="/newsfeed" element={<NewsList />} />
+         <Route exact path="/create-news" element={<NewsCreate />} />
          
          <Route path='/Customer' element={<Authorization permissions={[PERMISSIONS.CUSTOMER]} />}>
             <Route path='MyDashboard' element={<AuthPage />} />

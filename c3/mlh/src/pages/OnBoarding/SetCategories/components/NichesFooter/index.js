@@ -5,7 +5,7 @@ import { getNichesContext } from "@Pages/OnBoarding/SetCategories/context.js";
 const NichesFooter = () =>{    
  const nichesContext = getNichesContext();
  const handleNext = () =>{
-    window.location.href=process.env.PROJECT_URL+'news-feed';
+    window.location.href=process.env.PROJECT_URL+'newsfeed';
  };
  return (<> 
     {(nichesContext?.contextData?.userSelected?.selectedCount>=3)?(
