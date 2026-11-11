@@ -24,11 +24,9 @@ const NCardTemplate1 = () =>{
  };
 
 
- return (<div className="mtop15p">
-  <ContainerFluid>
-    <Row>
-        <Col md={6}>
-            <div style={{ padding:'15px', border:'1px solid #ddd', backgroundColor:'#fff', 
+ return (<>
+
+            <div style={{ marginTop:'15px', padding:'15px', border:'1px solid #ddd', backgroundColor:'#fff', 
                     borderRadius:'12px', overflow:'hidden' }}>
                 <Row>
                     <Col md={6}>
@@ -105,10 +103,7 @@ const NCardTemplate1 = () =>{
                     </Row>
                 </div>
             </div>
-        </Col>
-    </Row>
-  </ContainerFluid>
- </div>);
+ </>);
 };
 
 export default NCardTemplate1;
