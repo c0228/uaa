@@ -28,7 +28,8 @@ const NCardTemplate1 = () =>{
   <ContainerFluid>
     <Row>
         <Col md={6}>
-            <div style={{ padding:'15px', border:'1px solid #ddd', backgroundColor:'#fff', borderRadius:'12px', overflow:'hidden' }}>
+            <div style={{ padding:'15px', border:'1px solid #ddd', backgroundColor:'#fff', 
+                    borderRadius:'12px', overflow:'hidden' }}>
                 <Row>
                     <Col md={6}>
                         <ArticleCategoryTag category="Community & Society" subCategory="Local Events" />
@@ -41,7 +42,6 @@ const NCardTemplate1 = () =>{
                 </Row>
                 <Row>
                     <Col md={5}>
-                        
                         <div>
                             <img src="https://images.unsplash.com/photo-1519999482648-25049ddd37b1?auto=format&fit=crop&w=500&q=80"
                              style={{ borderRadius: '15px' }} />
@@ -81,9 +81,29 @@ const NCardTemplate1 = () =>{
                         </div>
                     </Col>
                 </Row>
-                <Row>
-                    <Col md={12}></Col>
-                </Row>
+                <div style={{ paddingTop:'15px' }}>
+                    <Row>
+                        <Col md={6}>
+                            {["LocalIssues", "Elections", "Voting", "Candidates", "Polling", "Result"]?.map((d,i)=>{
+                                return (<span key={i} style={{ marginRight:'5px', marginBottom:'5px', fontSize:'12px', 
+                                    padding:'5px', border:'1px solid #ccc', color:'#777', 
+                                backgroundColor:'#eee', borderRadius:'5px' }}>#{d}</span>);
+                            })}
+                        </Col>
+                        <Col md={6}>
+                            <div align="right">
+                            <Icon type="FontAwesome" name="fa-thumbs-up" size="13" color="#777" style={{ marginRight:'5px' }} />
+                            <span style={{ fontSize:'13px', color:'#999', marginRight:'15px' }}>3.5k</span>
+                            <Icon type="FontAwesome" name="fa-thumbs-down" size="13" color="#777" style={{ marginRight:'5px' }} />
+                            <span style={{ fontSize:'13px', color:'#999', marginRight:'15px'  }}>0</span>
+                            <Icon type="FontAwesome" name="fa-comment" size="13" color="#777" style={{ marginRight:'5px' }} />
+                            <span style={{ fontSize:'13px', color:'#999', marginRight:'15px'  }}>0</span>
+                            <Icon type="FontAwesome" name="fa-share" size="13" color="#777" style={{ marginRight:'5px' }} />
+                            <span style={{ fontSize:'13px', color:'#999', marginRight:'15px'  }}>0</span>
+                            </div>
+                        </Col>
+                    </Row>
+                </div>
             </div>
         </Col>
     </Row>

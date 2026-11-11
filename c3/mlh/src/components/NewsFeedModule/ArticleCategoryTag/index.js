@@ -14,7 +14,6 @@ const ArticleCategoryTag = ({ category, subCategory }) => {
             <span style={{
                 fontSize: '11px',
                 fontWeight: '700',
-                letterSpacing: '0.5px',
                 color: '#2463B5',
                 backgroundColor: '#EAF2FF',
                 padding: '6px 10px',
@@ -35,7 +34,6 @@ const ArticleCategoryTag = ({ category, subCategory }) => {
             <span style={{
                 fontSize: '11px',
                 fontWeight: '600',
-                letterSpacing: '0.4px',
                 color: '#64748B'
             }}>
                 {subCategory}
