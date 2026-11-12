@@ -2,7 +2,7 @@ import React from "react";
 
 const TagProperties = {
  "article":{ title: "Article", colors: { bg: "#fff1f1", text: "#e91e63" }  },
- "polls": { title: "Polls", colors: { bg: "#ecfffd", text: "#009688" } },
+ "poll": { title: "Poll", colors: { bg: "#ecfffd", text: "#009688" } },
  "ideas": { title: "Ideas", colors: { bg: "#fff7ea", text: "#ad6700" } },
  "social_movements": { title: "Social Movements", colors: { bg: "#f1f9ff", text: "#2196f3" } }
 };

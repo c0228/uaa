@@ -64,7 +64,7 @@ const NCardTemplate2 = () =>{
                         <div>
                             <div className="mtop5p">
                                 <NewsPropertyTag type="article" />
-                                <NewsPropertyTag type="polls" />
+                                <NewsPropertyTag type="poll" />
                                 <NewsPropertyTag type="ideas" />
                                 <NewsPropertyTag type="social_movements" />
                             </div>

@@ -31,7 +31,7 @@ const TitleTopSection = () =>{
         </div>
         <div style={{ width:'10%'}}>
             <div style={{ paddingTop:'5px', paddingLeft:'8px' }}>
-                <Button type="dark" size={12}  style={{ paddingLeft:'8px' }} 
+                <Button type="primary" size={12}  style={{ paddingLeft:'8px' }} 
                     onClick={()=>{ 
                         newsListContext?.setContextData({ createArticleStatus: 'open' });
                      }}>

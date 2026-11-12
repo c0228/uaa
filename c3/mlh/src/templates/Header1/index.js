@@ -27,10 +27,16 @@ const Header1 = ()=>{
         </a>
       </li>
       <li className="nav-item">
-        <a className="nav-link" href="#">My Local</a>
+        <a className="nav-link" href="#">
+          <Icon type="FontAwesome" name="fa-map-marker" size={14} style={{ marginRight:'5px' }} />
+          <span><b>My Local</b></span>
+        </a>
       </li>
       <li className="nav-item">
-        <a className="nav-link" href="#">Brand Community</a>
+        <a className="nav-link" href="#">
+          <Icon type="FontAwesome" name="fa-list-ol" size={14} style={{ marginRight:'5px' }} />
+          <span><b>Brand Community</b></span>
+        </a>
       </li>
     </ul>
       {/*<div style={{ marginTop:'5px' }}>
