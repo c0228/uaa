@@ -1,13 +1,14 @@
-import React, { useEffect } from "react";
+import React, { useState,  useEffect } from "react";
 import { ContainerFluid, Row, Col, Icon, Card, Select, TextBox, Autocomplete, Button  } from "e-ui-react";
 import { AppColors } from "@Utils/AppColors.js";
 import ScrollToTop from "@Components/UIElements/ScrollToTop/index.js";
 import NewsCard from "@Components/NewsFeedModule/NewsCard/index.js";
-import NewsTitleTopSection from "@Components/NewsFeedModule/NewsTitleTopSection/index.js";
+import TitleTopSection from "./components/title-top-section/index.js";
 import NCardTemplate1 from "@Components/NewsFeedModule/NCardTemplate1/index.js";
 import NCardTemplate2 from "@Components/NewsFeedModule/NCardTemplate2/index.js";
 import Header1 from "@Templates/Header1/index.js";
-
+import CreateNewsArticle from "./components/create-news-article/index.js";
+import { NewsListContextProvider } from "./context.js";
 import './index.css';
 
 const data = [{
@@ -96,14 +97,15 @@ const NewsList = () =>{
  useEffect(()=>{
    document.body.style.backgroundColor='#f9f9f9';
  },[]);
- return (<>
+ return (<NewsListContextProvider variables={{ createArticleStatus: 'close' }}>
+   <CreateNewsArticle />
    <ScrollToTop />
    <Header1 />
-   <NewsTitleTopSection />
+   <TitleTopSection />
    <ContainerFluid>
       <Row>
          {["",""]?.map((d,i)=>{
-            return(<Col md={6}><NCardTemplate1 /></Col>);
+            return(<Col key={i} md={6}><NCardTemplate1 /></Col>);
          })}
       </Row>
    </ContainerFluid>
@@ -125,7 +127,7 @@ const NewsList = () =>{
          })}
       </Row>
    </ContainerFluid>
- </>);
+ </NewsListContextProvider>);
 };
 
 export default NewsList;

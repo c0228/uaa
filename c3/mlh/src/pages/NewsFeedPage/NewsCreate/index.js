@@ -1,7 +1,6 @@
 import React from "react";
 import { ContainerFluid, Row, Col, Button, TextBox, RichTextEditor } from "e-ui-react";
 import Header1 from "@Templates/Header1/index.js";
-import NewsTitleTopSection from "@Components/NewsFeedModule/NewsTitleTopSection/index.js";
 
 const NewsCreate = () =>{
  return (<>
