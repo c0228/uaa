@@ -83,6 +83,28 @@ const BasicDetails = () =>{
     </Row>
     <Row>
         <Col md={12}>
+            <div className="mtop15p">
+                <label className="form-label"><b>References:</b></label>
+                <div className="mtop5p">
+                    <TextBox id="reference01" name="reference01" width="100%" placeholder="Enter Reference Details and Link#1" />
+                </div>
+                <div className="mtop5p">
+                    <TextBox id="reference02" name="reference02" width="100%" placeholder="Enter Reference Details and Link#2" />
+                </div>
+                <div className="mtop5p">
+                    <TextBox id="reference03" name="reference03" width="100%" placeholder="Enter Reference Details and Link#3" />
+                </div>
+                <div className="mtop5p">
+                    <TextBox id="reference04" name="reference04" width="100%" placeholder="Enter Reference Details and Link#4" />
+                </div>
+                <div className="mtop5p">
+                    <TextBox id="reference05" name="reference05" width="100%" placeholder="Enter Reference Details and Link#5" />
+                </div>
+            </div>
+        </Col>
+    </Row>
+    <Row>
+        <Col md={12}>
             <div align="right" className="mtop15p">
                 <Button type="primary" size={11} style={{ marginRight:'5px' }}><b>Next</b></Button>
                 <Button type="outline-primary" size={11}><b>Save as a Draft</b></Button>
