@@ -5,7 +5,7 @@
 .f-metropolis { font-family: Metropolis; }
 .color-black { color:black; }
 .navbar-nav .nav-link { font-size:13px; }
-.navbar-nav .nav-link.active, .navbar-nav .show>.nav-link { border-bottom:2px solid #000; }
+.navbar-nav .nav-link.active, .navbar-nav .show>.nav-link { border-bottom:2px solid #065fc5; }
 
 
 .mlh-intro-heading { font-weight: 700;font-family: Metropolis;letter-spacing: 0.3px;line-height: 1.25; }

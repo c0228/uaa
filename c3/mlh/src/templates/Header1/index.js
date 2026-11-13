@@ -21,20 +21,20 @@ const Header1 = ()=>{
    <div className="d-flex">
       <ul className="navbar-nav">
       <li className="nav-item">
-        <a className="nav-link active" href="#">
-         <Icon type="FontAwesome" name="fa-newspaper-o" size={14} style={{ marginRight:'5px' }} /> 
+        <a className="nav-link active" href="#" style={{ color:'#065fc5' }}>
+         {/*<Icon type="FontAwesome" name="fa-newspaper-o" size={10} style={{ marginRight:'5px' }} /> */}
          <span><b>News Feed</b></span>
         </a>
       </li>
       <li className="nav-item">
-        <a className="nav-link" href="#">
-          <Icon type="FontAwesome" name="fa-map-marker" size={14} style={{ marginRight:'5px' }} />
+        <a className="nav-link" href="#" style={{ color:'#777' }}>
+          {/*<Icon type="FontAwesome" name="fa-map-marker" size={10} style={{ marginRight:'5px' }} />*/}
           <span><b>My Local</b></span>
         </a>
       </li>
       <li className="nav-item">
-        <a className="nav-link" href="#">
-          <Icon type="FontAwesome" name="fa-list-ol" size={14} style={{ marginRight:'5px' }} />
+        <a className="nav-link" href="#" style={{ color:'#777' }}>
+          {/*<Icon type="FontAwesome" name="fa-list-ol" size={10} style={{ marginRight:'5px' }} />*/}
           <span><b>Brand Community</b></span>
         </a>
       </li>

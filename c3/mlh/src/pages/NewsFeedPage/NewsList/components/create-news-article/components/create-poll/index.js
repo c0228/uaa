@@ -1,388 +1,81 @@
-
 import React, { useState } from "react";
-import {
-    Row, Col, Button, Icon, TextBox, Select, Badge, Card
-} from "e-ui-react";
-
+import { Row, Col, Button, Icon } from "e-ui-react";
 import NewsPropertyTag from "@Components/NewsFeedModule/NewsPropertytag/index.js";
 
-const CreatePoll = () => {
-
-    const [questions, setQuestions] = useState([]);
-
-    // Add New Question
-    const addNewQuestion = () => {
-        if (questions.length >= 8) return;
-
-        const newQuestion = {
-            id: Date.now(),
-            question: "",
-            answerType: "",
-            options: []
-        };
-
-        setQuestions(prev => [...prev, newQuestion]);
-    };
-
-    // Remove Question
-    const removeQuestion = (id) => {
-        setQuestions(prev => prev.filter(q => q.id !== id));
-    };
-
-    // Update Question
-    const updateQuestion = (id, field, value) => {
-        setQuestions(prev =>
-            prev.map(q =>
-                q.id === id ? { ...q, [field]: value } : q
-            )
-        );
-    };
-
-    // Normalize TextBox / Select Values
-    const getInputValue = (value) => {
-        if (typeof value === "string") return value;
-
-        if (value?.target?.value !== undefined) {
-            return value.target.value;
-        }
-
-        if (value?.value !== undefined) {
-            return value.value;
-        }
-
-        if (value?.id !== undefined) {
-            return value.id;
-        }
-
-        return "";
-    };
-
-    // Answer Type Options
-    const answerTypes = [
-        { id: 'Yes/No', label: 'Yes/No', value: 'Yes/No' },
-        { id: 'Single Choice', label: 'Single Choice', value: 'Single Choice' },
-        { id: 'Multiple Choice', label: 'Multiple Choice', value: 'Multiple Choice' },
-        { id: 'Rating (1-5 Stars)', label: 'Rating (1-5 Stars)', value: 'Rating (1-5 Stars)' },
-        { id: 'Opinion Scale (1-10)', label: 'Opinion Scale (1-10)', value: 'Opinion Scale (1-10)' }
-    ];
-
-    // Render Answer Preview
-    const renderAnswerPreview = (question) => {
-
-        switch (question.answerType) {
-
-            // Yes / No
-            case "Yes/No":
-                return (
-                    <div style={{ display: 'flex', gap: '10px' }}>
-                        <Button type="success" size={12}>Yes</Button>
-                        <Button type="danger" size={12}>No</Button>
-                    </div>
-                );
-
-            // Single Choice
-            case "Single Choice":
-                return (
-                    <div style={{ color: '#777', fontSize: '13px' }}>
-                        Add single-choice answer options.
-                    </div>
-                );
-
-            // Multiple Choice
-            case "Multiple Choice":
-                return (
-                    <div style={{ color: '#777', fontSize: '13px' }}>
-                        Add multiple-choice answer options.
-                    </div>
-                );
-
-            // Rating
-            case "Rating (1-5 Stars)":
-                return (
-                    <div style={{ fontSize: '24px', color: '#f5a623' }}>
-                        {[1, 2, 3, 4, 5].map(n => (
-                            <span key={n} style={{ marginRight: '8px' }}>
-                                ★
-                            </span>
-                        ))}
-                    </div>
-                );
-
-            // Opinion Scale
-            case "Opinion Scale (1-10)":
-                return (
-                    <>
-                        <div style={{ color: '#777', fontSize: '13px' }}>
-                            <b>Respondent Opinion Scale Preview</b>
-                            <br />
-                            (1 = Strongly Disagree, 10 = Strongly Agree)
-                        </div>
-
-                        <div className="mtop15p" style={{
-                            display: 'flex',
-                            flexWrap: 'wrap',
-                            gap: '8px'
-                        }}>
-                            {[...Array(10)].map((_, index) => (
-                                <span
-                                    key={index}
-                                    style={{
-                                        padding: '12px 15px',
-                                        cursor: 'pointer',
-                                        border: '1px solid #ccc',
-                                        color: '#000',
-                                        backgroundColor: '#fff',
-                                        borderRadius: '8px'
-                                    }}
-                                >
-                                    <b>{index + 1}</b>
-                                </span>
-                            ))}
-                        </div>
-                    </>
-                );
-
-            default:
-                return (
-                    <div style={{ color: '#999', fontSize: '13px' }}>
-                        Select an answer type to preview respondent options.
-                    </div>
-                );
-        }
-    };
-
-    return (
-        <div style={{
-            padding: '15px',
-            border: '1px solid #dee2e6',
-            backgroundColor: '#f9f9f9',
-            marginBottom: '25px'
-        }}>
-
-            <Row>
-                <Col md={12}>
-                    <NewsPropertyTag type="poll" />
-                </Col>
-            </Row>
-
-            <Row>
-                <Col md={7}>
-
-                    <div className="list-group">
-
-                        {/* Questionnaire Header */}
-                        <div className="list-group-item">
-
-                            <div style={{
-                                display: 'flex',
-                                justifyContent: 'space-between',
-                                alignItems: 'center'
-                            }}>
-
-                                <div>
-                                    <div style={{ fontSize: '16px' }}>
-                                        <b>Add Poll / Create Questionnaire</b>
-                                    </div>
-
-                                    <div style={{ color: '#777' }}>
-                                        (Optional) Engage neighbors with smart conditional questions
-                                    </div>
-                                </div>
-
-                                <Button
-                                    type="primary"
-                                    size={12}
-                                    disabled={questions.length >= 8}
-                                    onClick={addNewQuestion}
-                                >
-                                    <Icon
-                                        type="FontAwesome"
-                                        name="fa-plus-circle"
-                                        size={10}
-                                        style={{ marginRight: '5px' }}
-                                    />
-                                    <b>Add New Question</b>
-                                </Button>
-
-                            </div>
-
-                            <div style={{
-                                textAlign: 'right',
-                                fontSize: '12px',
-                                color: '#777',
-                                marginTop: '8px'
-                            }}>
-                                {questions.length} / 8 Questions
-                            </div>
-
-                        </div>
-
-                        {/* Empty State */}
-                        {questions.length === 0 && (
-                            <div align="center" className="list-group-item">
-
-                                <div className="mtop15p">
-                                    <Icon
-                                        type="FontAwesome"
-                                        name="fa-bar-chart"
-                                        size={22}
-                                        color="#0d6efd"
-                                    />
-                                </div>
-
-                                <div className="mtop5p">
-                                    <h5>
-                                        <b>Want community feedback on this article?</b>
-                                    </h5>
-                                </div>
-
-                                <div className="mbot15p" style={{ color: '#777' }}>
-                                    <b>
-                                        Attach an interactive smart questionnaire
-                                        (up to 8 questions) directly inside your NewsFeed post.
-                                    </b>
-                                </div>
-
-                            </div>
-                        )}
-
-                        {/* Dynamic Questions */}
-                        {questions.map((question, index) => (
-
-                            <div className="list-group-item" key={question.id}>
-
-                                <div style={{
-                                    display: 'flex',
-                                    marginTop: '15px'
-                                }}>
-
-                                    {/* Question Number */}
-                                    <div style={{ width: '7%' }}>
-                                        <Badge
-                                            type="success"
-                                            label={<b>Q{index + 1}</b>}
-                                            size="12"
-                                        />
-                                    </div>
-
-                                    <div style={{ width: '93%' }}>
-
-                                        {/* Question Header */}
-                                        <div style={{
-                                            display: 'flex',
-                                            justifyContent: 'space-between',
-                                            alignItems: 'center'
-                                        }}>
-
-                                            <b>Question #{index + 1}</b>
-
-                                            <span
-                                                onClick={() => removeQuestion(question.id)}
-                                                style={{
-                                                    color: '#dc3545',
-                                                    cursor: 'pointer',
-                                                    fontSize: '13px'
-                                                }}
-                                            >
-                                                <Icon
-                                                    type="FontAwesome"
-                                                    name="fa-trash"
-                                                    size={12}
-                                                /> Remove
-                                            </span>
-
-                                        </div>
-
-                                        {/* Question Input */}
-                                        <Row>
-                                            <Col md={12}>
-                                                <TextBox
-                                                    id={`question-${question.id}`}
-                                                    name={`question-${question.id}`}
-                                                    placeholder="Ask your audience a clear question..."
-                                                    value={question.question}
-                                                    onChange={(value) =>
-                                                        updateQuestion(
-                                                            question.id,
-                                                            'question',
-                                                            getInputValue(value)
-                                                        )
-                                                    }
-                                                />
-                                            </Col>
-                                        </Row>
-
-                                        {/* Answer Type */}
-                                        <Row>
-                                            <Col md={6}>
-                                                <div className="mtop15p">
-
-                                                    <Select
-                                                        label="Answer Type"
-                                                        placeholder="Select Answer Type"
-                                                        options={answerTypes}
-                                                        value={question.answerType}
-                                                        onChange={(selected) => {
-                                                            const answerType = getInputValue(selected);
-
-                                                            console.log(
-                                                                "Selected Answer Type:",
-                                                                answerType
-                                                            );
-
-                                                            updateQuestion(
-                                                                question.id,
-                                                                'answerType',
-                                                                answerType
-                                                            );
-                                                        }}
-                                                    />
-
-                                                </div>
-                                            </Col>
-                                        </Row>
-
-                                        {/* Answer Preview */}
-                                        <Row>
-                                            <Col md={12}>
-
-                                                <div className="mtop15p">
-
-                                                    <label className="form-label">
-                                                        <b>Answer Preview:</b>
-                                                    </label>
-
-                                                    <Card
-                                                        padding={15}
-                                                        backgroundColor="#f5f5f5"
-                                                    >
-                                                        {renderAnswerPreview(question)}
-                                                    </Card>
-
-                                                </div>
-
-                                            </Col>
-                                        </Row>
-
-                                    </div>
-                                </div>
-
-                            </div>
-
-                        ))}
-
-                    </div>
-
-                </Col>
-
-                <Col md={5}>
-                    {/* Future: Conditional Question Settings */}
-                </Col>
-
-            </Row>
-
+const CreatePoll = () =>{
+ {/** disabled={questions.length >= 8} onClick={addNewQuestion} */}
+ const PollTitleHeader = () =>{
+    return (<div className="list-group-item">
+        <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
+        <div>
+            <div style={{ fontSize: '16px' }}><b>Add Poll / Create Questionnaire</b></div>
+            <div style={{ color: '#777' }}>(Optional) Engage neighbors with smart conditional questions</div>
         </div>
-    );
+        <Button type="primary" size={12}>
+            <Icon type="FontAwesome" name="fa-plus-circle" size={10} style={{ marginRight: '5px' }} />
+            <b>Add New Question</b>
+        </Button>
+    </div>
+   </div>);
+ };
+
+ const PollPreviewTitleHeader = ()=>{
+  const [toggleFlowToPreview, setToggleFlowToPreview] = useState('FLOW_MODE');
+  return (<div className="list-group-item">
+    <div style={{ display:'flex'}}>
+        <div style={{ width:'80%'}}>
+            {toggleFlowToPreview==='FLOW_MODE' && (<>
+                <div style={{ fontSize:'16px' }}><b>Question Flow Preview 
+                    <span style={{ border:'1px solid #ccc', borderRadius:'6px', padding:'3px 5px', 
+                        fontSize:'11px', color:'#777', marginLeft:'5px' }}>Auto-generated</span></b>
+                </div>
+                <div style={{ color:'#777' }}>Live map of how respondents move through your questions 
+                    based on their answers.</div>
+            </>)}
+            {toggleFlowToPreview==='PREVIEW_MODE' && (<>
+                <div style={{ fontSize:'16px' }}><b>Respondent View 
+                    <span style={{ border:'1px solid #ccc', borderRadius:'6px', padding:'3px 5px', 
+                        fontSize:'11px', color:'#777', marginLeft:'5px' }}>Poll Preview</span></b>
+                </div>
+                <div style={{ color:'#777' }}>Live preview of how users respond to your questions based on their answers</div>
+            </>)}
+        </div>
+        <div align="right" style={{ width:'20%'}}>
+            {toggleFlowToPreview==='FLOW_MODE' && (<>
+            <Button type="primary" size={11} onClick={()=>setToggleFlowToPreview('PREVIEW_MODE')}><b>
+                <Icon type="FontAwesome" name="fa-eye" size={10} style={{ marginRight:'5px' }} />
+                 Preview Poll</b>
+            </Button>
+            </>)}
+            {toggleFlowToPreview==='PREVIEW_MODE' && (<>
+            <Button type="primary" size={11} onClick={()=>setToggleFlowToPreview('FLOW_MODE')}><b>
+                <Icon type="FontAwesome" name="fa-eye" size={10} style={{ marginRight:'5px' }} />
+                  Flow Preview</b>
+            </Button>
+            </>)}
+        </div>
+    </div>
+  </div>);
+ };
+
+ return (<>
+   <div style={{ padding: '15px', border: '1px solid #dee2e6', backgroundColor: '#f9f9f9', marginBottom: '25px' }}>
+    <Row><Col md={12}><NewsPropertyTag type="poll" /></Col></Row>
+     <Row>
+        <Col md={7}>
+            <div className="list-group">
+                <PollTitleHeader />
+                <div></div>
+            </div>
+        </Col>
+        <Col md={5}>
+            <div className="list-group">
+                <PollPreviewTitleHeader />
+            </div>
+        </Col>
+    </Row>
+ </div>
+ </>);
 };
 
 export default CreatePoll;
