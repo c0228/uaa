@@ -131,7 +131,7 @@ const NewsList = () =>{
    <ContainerFluid>
       <Row>
          {["",""]?.map((d,i)=>{
-            return(<Col md={6}><NCardTemplate1 /></Col>);
+            return(<Col key={i} md={6}><NCardTemplate1 /></Col>);
          })}
       </Row>
    </ContainerFluid>

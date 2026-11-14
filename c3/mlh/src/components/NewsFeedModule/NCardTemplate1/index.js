@@ -7,9 +7,9 @@ import './index.css';
 
 const NCardTemplate1 = () =>{
  const DateTemplate = () =>{
-    return (<div class="date-style-3">
-        <span class="month">APR 2026</span>
-        <span class="day">16</span>
+    return (<div className="date-style-3">
+        <span className="month">APR 2026</span>
+        <span className="day">16</span>
     </div>);
  };
  const CategoryTag = () =>{
