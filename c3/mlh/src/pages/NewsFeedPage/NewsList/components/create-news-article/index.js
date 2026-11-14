@@ -8,21 +8,23 @@ import './index.css';
 
 const CreateNewsArticle = () =>{
  const newsListContext = getNewsListContext();
+ const CloseCreateArticleHandler = () =>{
+  const createArticleVar = newsListContext?.contextData?.createArticle?.modalStatus;
+  newsListContext?.setContextData({ createArticle: {...createArticleVar, modalStatus: 'close' } });
+ };
  useEffect(()=>{
-    document.body.style.overflow = (newsListContext?.contextData?.createArticleStatus ==='open')?'hidden':'scroll';
+    document.body.style.overflow = (newsListContext?.contextData?.createArticle?.modalStatus ==='open')?'hidden':'scroll';
  },[newsListContext?.contextData?.createArticleStatus]);
  return (<>
  <div className="mlh-createNewsArticle-overlay" 
-    style={{ width: ((newsListContext?.contextData?.createArticleStatus ==='open')?'100%':'0%') }}>
+    style={{ width: ((newsListContext?.contextData?.createArticle?.modalStatus ==='open')?'100%':'0%') }}>
     <div className="mtop15p">
         <ContainerFluid>
             <Row>
                 <Col md={12}>
                 <div><h3>
                    <Button type="outline-dark" size={11} 
-                    onClick={()=>{ 
-                        newsListContext?.setContextData({ createArticleStatus: 'close' });
-                     }}><b>Go Back</b></Button> <b>Create an Article</b>
+                    onClick={()=>CloseCreateArticleHandler()}><b>Go Back</b></Button> <b>Create an Article</b>
                 </h3><hr/></div></Col>
             </Row>
             <Row>

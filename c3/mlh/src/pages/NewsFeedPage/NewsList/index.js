@@ -8,8 +8,9 @@ import NCardTemplate1 from "@Components/NewsFeedModule/NCardTemplate1/index.js";
 import NCardTemplate2 from "@Components/NewsFeedModule/NCardTemplate2/index.js";
 import Header1 from "@Templates/Header1/index.js";
 import CreateNewsArticle from "./components/create-news-article/index.js";
-import { NewsListContextProvider } from "./context.js";
+import { NewsListContextProvider, getNewsListContext } from "./context.js";
 import './index.css';
+
 
 const data = [{
     isBookMarked: false,
@@ -93,11 +94,18 @@ const data = [{
     tags: ["Schools", "Nadergul"] 
  }];
 
+const initVariables = {
+ createArticle:{
+   modalStatus: 'close'
+ }
+};
+
 const NewsList = () =>{
+ const newsListContext = getNewsListContext();
  useEffect(()=>{
    document.body.style.backgroundColor='#f9f9f9';
  },[]);
- return (<NewsListContextProvider variables={{ createArticleStatus: 'close' }}>
+ return (<NewsListContextProvider variables={initVariables}>
    <CreateNewsArticle />
    <ScrollToTop />
    <Header1 />

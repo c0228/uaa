@@ -5,6 +5,11 @@ import './index.css';
 
 const TitleTopSection = () =>{
  const newsListContext = getNewsListContext();
+ const CreateArticleHandler = () =>{
+    const createArticleVar = newsListContext?.contextData?.createArticle;
+    console.log("createArticleVar: ", createArticleVar);
+    newsListContext?.setContextData({ createArticle: {...createArticleVar, modalStatus: 'open' }});
+ };
  return (<div>
     <div style={{ display:'flex', backgroundColor:'#f7f7f7', padding:'15px', borderBottom:'1px solid #ccc' }}>
         <div style={{ width:'26%'}}>
@@ -32,9 +37,7 @@ const TitleTopSection = () =>{
         <div style={{ width:'10%'}}>
             <div style={{ paddingTop:'5px', paddingLeft:'8px' }}>
                 <Button type="primary" size={12}  style={{ paddingLeft:'8px' }} 
-                    onClick={()=>{ 
-                        newsListContext?.setContextData({ createArticleStatus: 'open' });
-                     }}>
+                    onClick={()=>CreateArticleHandler()}>
                     <Icon type="FontAwesome" name="fa-plus-circle" size={12} style={{ marginRight:'5px' }} />
                     <b>Create an Article</b>
                 </Button>
