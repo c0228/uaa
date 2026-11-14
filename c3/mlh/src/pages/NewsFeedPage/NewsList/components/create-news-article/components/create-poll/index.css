@@ -1,0 +1,11 @@
+.createArticle-createPoll-cardSection { padding:15px;border:1px solid #dee2e6;background-color:#f9f9f9;margin-bottom:25px; }
+.createArticle-pollTitle-headerSection { display:flex;justify-content:space-between;align-items:center; }
+.createArticle-pollTitle-headerSection-title { font-size: 16px; }
+.createArticle-pollTitle-headerSection-subTitle {  color: #777; }
+.createArticle-pollPreview-headerSection { display:flex; }
+.createArticle-pollPreview-headerSection-rightSide { width:80%; }
+.createArticle-pollPreview-headerSection-title { font-size:16px; }
+.createArticle-pollPreview-headerSection-badge { border:1px solid #ccc;border-radius:6px;padding:3px 5px; 
+                        font-size:11px;color:#777;margin-left:5px; }
+.createArticle-pollPreview-headerSection-leftSide { width:20%; }
+.createArticle-pollPreview-headerSection-subTitle { color:#777; }

@@ -7,6 +7,7 @@
 .navbar-nav .nav-link { font-size:13px; }
 .navbar-nav .nav-link.active, .navbar-nav .show>.nav-link { border-bottom:2px solid #065fc5; }
 
+.marginRight5p { margin-right: 5px; }
 
 .mlh-intro-heading { font-weight: 700;font-family: Metropolis;letter-spacing: 0.3px;line-height: 1.25; }
 .mlh-intro-description { font-size: 18px;letter-spacing: 0.1px;font-family: Metropolis;line-height: 1.6; }
