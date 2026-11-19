@@ -8,8 +8,24 @@ const SearchNiches = () =>{
 
  const NicheSelectAllHandler = () => {
     const userSelected = nichesContext?.contextData?.userSelected;
-
-    nichesContext?.setContextData({
+    nichesContext?.setContextData([{
+        path: "userSelected.categories",
+        value: "A",
+        mode: "replace"
+    },{
+        path: "userSelected.selectedCount",
+        value: userSelected.subCategoriesCount,
+        mode: "replace"
+    },{
+        path: "userSelected.excludes",
+        value: [],
+        mode: "replace"
+    },{
+        path: "userSelected.includes",
+        value: [],
+        mode: "replace"
+    }]);
+    /*nichesContext?.setContextData({
         userSelected: {
             ...userSelected,
             categories: "A",
@@ -17,17 +33,36 @@ const SearchNiches = () =>{
             excludes: [],
             includes: []
         }
-    });
+    });*/
  };
 
  const SearchHandler = (event) => {
-    nichesContext?.setContextData({ searchQuery: (event.target.value.trim()) });
+    nichesContext?.setContextData([{ 
+        path: "searchQuery",
+        value: (event.target.value.trim()),
+        mode: "replace" }]);
  };
 
  const NicheDeSelectAllHandler = () => {
     const userSelected = nichesContext?.contextData?.userSelected;
-
-    nichesContext?.setContextData({
+    nichesContext?.setContextData([{
+        path: "userSelected.categories",
+        value: "NA",
+        mode: "replace"
+    },{
+        path: "userSelected.selectedCount",
+        value: 0,
+        mode: "replace"
+    },{
+        path: "userSelected.excludes",
+        value: [],
+        mode: "replace"
+    },{
+        path: "userSelected.includes",
+        value: [],
+        mode: "replace"
+    }]);
+    /*nichesContext?.setContextData({
         userSelected: {
             ...userSelected,
             categories: "NA",
@@ -35,7 +70,7 @@ const SearchNiches = () =>{
             excludes: [],
             includes: []
         }
-    });
+    }); */
 };
  return (<>
     <div>

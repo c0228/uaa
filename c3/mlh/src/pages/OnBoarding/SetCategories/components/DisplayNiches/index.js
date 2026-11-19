@@ -101,9 +101,11 @@ const NicheSelectionHandler = (event) => {
               updatedSelection.excludes.length
             : updatedSelection.includes.length;
 
-    nichesContext?.setContextData({
-        userSelected: updatedSelection
-    });
+    nichesContext?.setContextData([{
+        path: "userSelected",
+        value: updatedSelection,
+        mode: "replace"    
+    }]);
 };
 
 const isSelected = (id) => {
