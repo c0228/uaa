@@ -5,10 +5,12 @@ import { getProfileContext, ProfileProvider } from '@Pages/OnBoarding/SetProfile
 const Footer = () =>{
  const profileContext = getProfileContext();
  const handleNext = () => {
-    // Save them to Local Storage and Database
-    setTimeout(() => {
+    alert(JSON.stringify(profileContext?.contextData));
+    if(profileContext?.contextData?.form?.agreed==='Y'){ // Save them to Local Storage and Database
+        setTimeout(() => {
             window.location.href = process.env.PROJECT_URL + 'onboarding/set-postal-code';
-    }, 500);
+        }, 500);
+    }
  };
  return (<>
  <div className={profileContext?.contextData?.footerMode}>
@@ -16,17 +18,22 @@ const Footer = () =>{
         <Col md={10}>
             <div className="mlh-setProfile-bottom-profileFormMsg-section">
                 <div align="center" className="mlh-setProfile-bottom-switchBtn">
-                    <Switch type="checkbox" id="Agreed" name="Agreed" value="1"
-                         options={[{ id:1, value:"1"}]} 
+                    <Switch type="checkbox" id="Agreed" name="Agreed" value="Y"
+                         options={[{ id:"Y", value:"Y"}]} 
                             validation={{
                                 required: {
                                     value: true,
-                                    errorMessage: "Please select at least one hobby"
+                                    errorMessage: "Please accept the terms and conditions."
                                 }
+                            }}
+                            onChange={(result)=>{
+                                profileContext?.setContextData([{ path:'form.agreed', value: result?.value?.[0], mode:'replace' }]);
+                                // alert("value", value);
                             }} />
                 </div>
                  <div className="mlh-setProfile-bottom-agreementMsg">
-                    <div><b>Your Username and Date of Birth are set. Let's move on to the next step!</b></div>
+                    {profileContext?.contextData?.form?.agreed!=='Y'?(<div><b>Please accept Terms and Conditions.</b></div>):
+                    (<div><b>Your Username and Date of Birth are set. Let's move on to the next step!</b></div>)}
                     <div>By creating your MyLocalHook profile, you acknowledge that you have read, understood, 
                     and agree to our <b>Terms & Conditions, Privacy Policy,</b> and <b>MyLocalHook Community Standards.</b></div>
                 </div>

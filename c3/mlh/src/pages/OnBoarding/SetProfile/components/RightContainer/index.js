@@ -9,38 +9,26 @@ const RightContainer = () =>{
  const { submitForm } = getForm();
  useEffect(()=>{ submitForm(); },[]);
  const getWarningMessage = () => {
-  const messages = [];
-  if(missingFields.includes("MISSING_USERNAME")) { messages.push("Username"); }
-  if(missingFields.includes("MISSING_DOB")) { messages.push("Date of Birth (allowed 13 years old or above)"); }
-  // Check whether all fields are valid
-  const isFormValid = missingFields.length === 0;
-  // Generate warning message
-  const msg = isFormValid?"":`Please Enter ${messages.join(", ")}.`;
-  // Update Profile Context
-  profileContext?.setContextData({
-        form: {
-            ...profileContext?.contextData?.form,
-            missingFields
-        },
-        profileFormMsg: msg,
-        footerMode: isFormValid
-            ? "mlh-onboarding-footer mlh-onboarding-footer-success"
-            : "mlh-onboarding-footer mlh-onboarding-footer-error"
-    });
+   const messages = [];
+   if(missingFields.includes("MISSING_USERNAME")) { messages.push("Username"); }
+   if(missingFields.includes("MISSING_DOB")) { messages.push("Date of Birth (allowed 13 years old or above)"); }
+   // Check whether all fields are valid
+   const isFormValid = missingFields.length === 0;
+   // Generate warning message
+   const msg = isFormValid?"":`Please Enter ${messages.join(", ")}.`;
+   // Update Profile Context
+   profileContext?.setContextData([{ path: "form.missingFields", value: missingFields, mode: "replace" },
+    { path: "profileFormMsg", value: msg, mode: "replace" },
+    { path: "footerMode", value: isFormValid?"mlh-onboarding-footer mlh-onboarding-footer-success":"mlh-onboarding-footer mlh-onboarding-footer-error", mode: "replace" }]);
   };
   useEffect(()=>{ getWarningMessage(); },[missingFields]);
- const handleContextResult = (data, section = "form") => {
-    profileContext?.setContextData({
-        ...profileContext?.contextData,
-        [section]: {
-            ...profileContext?.contextData?.[section],
-            ...data
-        }
-    });
+  const handleContextResult = (data, section = "form") => {
+    const updates = Object.entries(data).map(([key, value]) => ({ path: `${section}.${key}`, value, mode: "replace" }));
+    profileContext?.setContextData(updates);
     submitForm();
- };
- return (<>
- <div className="mlh-setProfile-rightContainer-header">
+  };
+  return (<>
+  <div className="mlh-setProfile-rightContainer-header">
     <div className="mlh-setProfile-rightContainer-profileForm">
         <div>
             <div align="center">
@@ -73,7 +61,7 @@ const RightContainer = () =>{
                 <div className="mtop5p">
                     <TextBox id="name" name="name" label="Name" value={profileContext?.contextData?.form?.name} disabled={true} />
                 </div>
-                <div className="mtop5p">
+                <div className="mtop15p">
                     <DateTimePicker id="date" name="date" type="datePicker" label="Date of Birth"
                         maxValue={getPastDateString(13)} 
                         value={profileContext?.contextData?.form?.dob} 
@@ -90,7 +78,7 @@ const RightContainer = () =>{
                             }
                         }}  />
                 </div>
-                <div className="mtop5p">
+                <div className="mtop15p">
                     <Email id="email" name="email" label="Email Address" value={profileContext?.contextData?.form?.email} disabled={true} />
                 </div>
                 <div><hr/></div>
