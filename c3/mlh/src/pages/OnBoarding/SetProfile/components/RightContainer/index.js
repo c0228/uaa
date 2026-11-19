@@ -57,23 +57,15 @@ const getWarningMessage = () => {
     submitForm();
  };
  return (<>
- <div style={{ padding:'15px' }}>
-                <div style={{ border:'1px solid #fff',
-                    backgroundColor:'#fff', color:'#000', borderRadius:'12px', overflow:'hidden' }}>
-                {/*<div style={{ 
-                         backgroundColor:'#f6f4f0', padding:'15px' }}>
-                    <h2 style={{  fontSize:'22px', }}><b>Get Started by telling us about yourself!</b></h2>
-                    {/*<span style={{ color:'#555' }}>
-                        Tell us a little about yourself to create your profile and help your community get to know you.
-                    </span>*/}
-                {/*</div>*/}
-                <div style={{ padding:'20px' }}>
-                <div align="center">
-                    <img src={profileContext?.contextData?.form?.profilePic}  referrerPolicy="no-referrer" 
-                        style={{ width:'95px', height:'95px', borderRadius:'50%', border:'2px solid #555' }} />
-                </div>
-                <div style={{ marginTop:'5px' }}>
-                    <TextBox id="username" name="username" label="Username" 
+ <div className="mlh-setProfile-rightContainer-header">
+    <div className="mlh-setProfile-rightContainer-profileForm">
+        <div>
+            <div align="center">
+                <img src={profileContext?.contextData?.form?.profilePic}  referrerPolicy="no-referrer" 
+                    className="mlh-setProfile-rightContainer-profilePic" />
+            </div>
+            <div className="mtop5p">
+                <TextBox id="username" name="username" label="Username" 
                         value={profileContext?.contextData?.form?.username} 
                         validation={{
                             required: {
@@ -121,15 +113,18 @@ const getWarningMessage = () => {
                             }
                         }} />
                 </div>
-                <div style={{ marginTop:'5px' }}>
+                <div className="mtop5p">
                     <TextBox id="name" name="name" label="Name" value={profileContext?.contextData?.form?.name} disabled={true} />
                 </div>
-                <div style={{ marginTop:'15px' }}>
+                <div className="mtop5p">
                     <DateTimePicker id="date" name="date" type="datePicker" label="Date of Birth"
                         maxValue={getPastDateString(13)} 
                         value={profileContext?.contextData?.form?.dob} 
-                        validation={{ required:{ 
-                            value: true, errorMessage:"This is a Mandatory Field" }}}
+                        validation={{ 
+                            required:{ 
+                                value: true, 
+                                errorMessage:"This is a Mandatory Field" 
+                            }}}
                         onChange={async (result) => {
                             console.log("DateTimePicker Result:", result);
 
@@ -148,12 +143,12 @@ const getWarningMessage = () => {
                             }
                         }}  />
                 </div>
-                <div style={{ marginTop:'5px' }}>
+                <div className="mtop5p">
                     <Email id="email" name="email" label="Email Address" value={profileContext?.contextData?.form?.email} disabled={true} />
                 </div>
                 <div><hr/></div>
-                <div align="center" style={{ fontSize:'12px', marginTop:'15px' }}>
-                    <Icon type="FontAwesome" name="fa-shield" size={12} style={{ marginRight:'5px' }} /> 
+                <div align="center" className="mlh-setProfile-rightContainer-bottom">
+                    <Icon type="FontAwesome" name="fa-shield" size={12} className="mRight5p" /> 
                     Transparent & Secure Account Setup
                 </div>
                 </div>

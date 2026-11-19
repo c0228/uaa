@@ -14,9 +14,9 @@ const Footer = () =>{
  <div className={profileContext?.contextData?.footerMode}>
     {profileContext?.contextData?.profileFormMsg?.length===0 ? (<Row>
         <Col md={10}>
-            <div style={{ display:'flex' }}>
+            <div style={{ display:'flex', paddingLeft:'15px' }}>
                 <div align="center" style={{ width:'5%', fontSize:'16px', color:'#000' }}>
-                    <Switch type="checkbox" id="Agreed" name="Agreed" 
+                    <Switch type="checkbox" id="Agreed" name="Agreed" value="1"
                          options={[{ id:1, value:"1"}]} 
                             validation={{
                                 required: {

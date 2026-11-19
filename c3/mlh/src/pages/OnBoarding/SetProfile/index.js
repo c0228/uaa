@@ -8,6 +8,7 @@ import { getProfileContext, ProfileProvider } from './context.js';
 import useAuth from "@Hooks/useAuth/index.js";
 import { getTodayDate } from "@Utils/DateUtility.js";
 import '@Pages/OnBoarding/index.css';
+import './index.css';
 
 const SetProfile = () =>{
  const { userDetails } = useAuth();
@@ -27,7 +28,7 @@ const SetProfile = () =>{
  <Form name="userForm" onSubmit={(form, isValid, resetForm) => {
         console.log("Form Data:", form);
       }}>
- <div style={{ paddingBottom:'40px', backgroundColor:'#fff' }}>
+ <div className="mlh-setProfile-container">
   <ContainerFluid>
     <Row>
         <Col md={8}><LeftContainer /></Col>
