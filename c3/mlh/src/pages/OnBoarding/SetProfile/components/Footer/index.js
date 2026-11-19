@@ -14,8 +14,8 @@ const Footer = () =>{
  <div className={profileContext?.contextData?.footerMode}>
     {profileContext?.contextData?.profileFormMsg?.length===0 ? (<Row>
         <Col md={10}>
-            <div style={{ display:'flex', paddingLeft:'15px' }}>
-                <div align="center" style={{ width:'5%', fontSize:'16px', color:'#000' }}>
+            <div className="mlh-setProfile-bottom-profileFormMsg-section">
+                <div align="center" className="mlh-setProfile-bottom-switchBtn">
                     <Switch type="checkbox" id="Agreed" name="Agreed" value="1"
                          options={[{ id:1, value:"1"}]} 
                             validation={{
@@ -25,7 +25,7 @@ const Footer = () =>{
                                 }
                             }} />
                 </div>
-                 <div style={{ width:'90%', fontSize:'16px' }}>
+                 <div className="mlh-setProfile-bottom-agreementMsg">
                     <div><b>Your Username and Date of Birth are set. Let's move on to the next step!</b></div>
                     <div>By creating your MyLocalHook profile, you acknowledge that you have read, understood, 
                     and agree to our <b>Terms & Conditions, Privacy Policy,</b> and <b>MyLocalHook Community Standards.</b></div>
@@ -34,24 +34,19 @@ const Footer = () =>{
         </Col>
         <Col md={2}>
             <div align="right">
-                <Button type="dark" size={14} style={{ marginRight:'8px' }} onClick={handleNext}>
-                    <Icon type="FontAwesome" name="fa-save" size={14} style={{ marginRight:'8px' }} />
+                <Button type="dark" size={14} className="mRight8p" onClick={handleNext}>
+                    <Icon type="FontAwesome" name="fa-save" size={14} className="mRight8p" />
                     <b>Save and Continue</b>
                 </Button>
             </div>
         </Col>
     </Row>):(<Row>
         <Col md={8}>
-            <div align="left"  style={{ padding:'8px', color:'#000' }}>
+            <div align="left" className="mlh-setProfile-bottom-profileFormMsg">
                 <b>{profileContext?.contextData?.profileFormMsg}</b>
             </div>
         </Col>
     </Row>)}
-         <Row>
-             
-             
-             
-         </Row>
   </div>
  </>);
 };

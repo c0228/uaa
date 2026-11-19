@@ -7,3 +7,8 @@
     overflow:hidden;padding:20px; }
 .mlh-setProfile-rightContainer-profilePic { width:95px;height:95px;border-radius:50%;border:2px solid #555; }
 .mlh-setProfile-rightContainer-bottom {  font-size:12px;margin-top:15px; }
+
+.mlh-setProfile-bottom-profileFormMsg-section { display:flex;padding-left:15px; }
+.mlh-setProfile-bottom-profileFormMsg { padding:8px;color:#000; }
+.mlh-setProfile-bottom-agreementMsg { width:90%;font-size:16px; }
+.mlh-setProfile-bottom-switchBtn { width:5%;font-size:16px;color:#000; }
