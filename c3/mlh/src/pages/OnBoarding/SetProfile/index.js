@@ -18,7 +18,8 @@ const SetProfile = () =>{
         username: userDetails?.email?.split("@")[0],
         name: userDetails?.surName+" "+userDetails?.name,
         dob: "",
-        email: userDetails?.email
+        email: userDetails?.email,
+        agreed: 'Y',
     },
     footerMode: "mlh-onboarding-footer mlh-onboarding-footer-error",
     profileFormMsg: ""

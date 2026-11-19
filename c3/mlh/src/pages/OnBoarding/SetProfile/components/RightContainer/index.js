@@ -7,32 +7,17 @@ const RightContainer = () =>{
  const [missingFields, setMissingFields] = useState([]);
  const profileContext = getProfileContext();
  const { submitForm } = getForm();
-  useEffect(()=>{
-    submitForm();
-  },[]);
-  
-const getWarningMessage = () => {
-
-    const messages = [];
-
-    if (missingFields.includes("MISSING_USERNAME")) {
-        messages.push("Username");
-    }
-
-    if (missingFields.includes("MISSING_DOB")) {
-        messages.push("Date of Birth (allowed 13 years old or above)");
-    }
-
-    // Check whether all fields are valid
-    const isFormValid = missingFields.length === 0;
-
-    // Generate warning message
-    const msg = isFormValid
-        ? ""
-        : `Please Enter ${messages.join(", ")}.`;
-
-    // Update Profile Context
-    profileContext?.setContextData({
+ useEffect(()=>{ submitForm(); },[]);
+ const getWarningMessage = () => {
+  const messages = [];
+  if(missingFields.includes("MISSING_USERNAME")) { messages.push("Username"); }
+  if(missingFields.includes("MISSING_DOB")) { messages.push("Date of Birth (allowed 13 years old or above)"); }
+  // Check whether all fields are valid
+  const isFormValid = missingFields.length === 0;
+  // Generate warning message
+  const msg = isFormValid?"":`Please Enter ${messages.join(", ")}.`;
+  // Update Profile Context
+  profileContext?.setContextData({
         form: {
             ...profileContext?.contextData?.form,
             missingFields
@@ -43,9 +28,7 @@ const getWarningMessage = () => {
             : "mlh-onboarding-footer mlh-onboarding-footer-error"
     });
   };
-  useEffect(()=>{
-    getWarningMessage();
-  },[missingFields]);
+  useEffect(()=>{ getWarningMessage(); },[missingFields]);
  const handleContextResult = (data, section = "form") => {
     profileContext?.setContextData({
         ...profileContext?.contextData,
@@ -65,51 +48,25 @@ const getWarningMessage = () => {
                     className="mlh-setProfile-rightContainer-profilePic" />
             </div>
             <div className="mtop5p">
-                <TextBox id="username" name="username" label="Username" 
-                        value={profileContext?.contextData?.form?.username} 
+                <TextBox id="username" name="username" label="Username" value={profileContext?.contextData?.form?.username} 
                         validation={{
-                            required: {
-                                value: true,
-                                errorMessage: "Username is required."
-                            },
-                            minLength: {
-                                value: 3,
-                                errorMessage: "Username must have at least 3 characters."
-                            },
+                            required: { value: true, errorMessage: "Username is required." },
+                            minLength: { value: 3, errorMessage: "Username must have at least 3 characters." },
                             apiValidation: {
                                 url: process.env.NEXUS_URL+"/mock/username.php",
                                 method: "POST",
-                                requestBody: {
-                                    username: "{{value}}" // current TextBox value
-                                },
-                                returnMessages: [
-                                    {
-                                        id: "USERNAME_AVAILABLE",
-                                        type: "success",
-                                        message: "Username is available!"
-                                    },
-                                    {
-                                        id: "USERNAME_TAKEN",
-                                        type: "error",
-                                        message: "Username is already taken."
-                                    }]
+                                requestBody: {  username: "{{value}}" },// current TextBox value
+                                returnMessages: [{ id: "USERNAME_AVAILABLE", type: "success", message: "Username is available!" },
+                                    { id: "USERNAME_TAKEN", type: "error", message: "Username is already taken." }]
                             }
                         }}
                         onChange={async (result) => {
                             console.log("Username Result:", result);
-
                             if (result?.errorMessage?.length === 0) {
                                 handleContextResult({ username: result?.value });
-
-                                setMissingFields(prev =>
-                                    prev.filter(field => field !== "MISSING_USERNAME")
-                                );
+                                setMissingFields(prev =>prev.filter(field => field !== "MISSING_USERNAME"));
                             } else {
-                                setMissingFields(prev =>
-                                    prev.includes("MISSING_USERNAME")
-                                        ? prev
-                                        : [...prev, "MISSING_USERNAME"]
-                                );
+                                setMissingFields(prev =>prev.includes("MISSING_USERNAME")?prev:[...prev, "MISSING_USERNAME"]);
                             }
                         }} />
                 </div>
@@ -121,25 +78,15 @@ const getWarningMessage = () => {
                         maxValue={getPastDateString(13)} 
                         value={profileContext?.contextData?.form?.dob} 
                         validation={{ 
-                            required:{ 
-                                value: true, 
-                                errorMessage:"This is a Mandatory Field" 
-                            }}}
+                            required:{ value: true, errorMessage:"This is a Mandatory Field" }
+                        }}
                         onChange={async (result) => {
                             console.log("DateTimePicker Result:", result);
-
                             if (result?.errorMessage?.length === 0) {
                                 handleContextResult({ dob: result?.value });
-
-                                setMissingFields(prev =>
-                                    prev.filter(field => field !== "MISSING_DOB")
-                                );
+                                setMissingFields(prev=>prev.filter(field => field !== "MISSING_DOB"));
                             } else {
-                                setMissingFields(prev =>
-                                    prev.includes("MISSING_DOB")
-                                        ? prev
-                                        : [...prev, "MISSING_DOB"]
-                                );
+                                setMissingFields(prev=>prev.includes("MISSING_DOB")?prev:[...prev, "MISSING_DOB"]);
                             }
                         }}  />
                 </div>
