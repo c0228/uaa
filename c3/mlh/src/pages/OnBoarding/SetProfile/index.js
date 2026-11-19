@@ -25,9 +25,7 @@ const SetProfile = () =>{
 };
  return (<ProfileProvider variables={initialValues}>
  <Header2 />
- <Form name="userForm" onSubmit={(form, isValid, resetForm) => {
-        console.log("Form Data:", form);
-      }}>
+ <Form name="userForm" onSubmit={(form, isValid, resetForm)=>console.log("Form Data:", form)}>
  <div className="mlh-setProfile-container">
   <ContainerFluid>
     <Row>
@@ -38,7 +36,6 @@ const SetProfile = () =>{
  </div>
   </Form>
  <Footer />
-
  </ProfileProvider>);
 };
 
