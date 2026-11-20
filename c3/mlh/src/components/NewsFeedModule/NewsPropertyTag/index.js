@@ -1,4 +1,5 @@
 import React from "react";
+import './index.css';
 
 const TagProperties = {
  "article":{ title: "Article", colors: { bg: "#fff1f1", text: "#e91e63" }  },
@@ -9,11 +10,11 @@ const TagProperties = {
 
 const NewsPropertyTag = ({ type }) =>{
     const data = TagProperties?.[type];
+    const sectionStyle = { color: data?.colors?.text, backgroundColor: data?.colors?.bg, border:'1px solid '+data?.colors?.text };
+    const circleStyle = { backgroundColor: data?.colors?.text };
     return (<>
-        <div style={{ marginBottom:'5px', marginRight:'5px', display: 'inline-flex', color: data?.colors?.text, fontSize:'11px', 
-            backgroundColor: data?.colors?.bg, padding:'3px 5px', borderRadius:'6px', border:'1px solid '+data?.colors?.text }}>
-            <div style={{ marginTop:'5px', marginLeft:'5px', marginRight:'5px', width:'5px', height:'5px', 
-                backgroundColor: data?.colors?.text, borderRadius:'50%' }}></div>
+        <div className="newsFeedModule-newsPropertyTag-section" style={sectionStyle}>
+            <div className="newsFeedModule-newsPropertyTag-circleDot" style={circleStyle}></div>
             <div style={{ textTransform:'uppercase' }}><b>{data?.title}</b></div>
         </div>
     </>);

@@ -1,0 +1,7 @@
+.newsFeedModule-authorIdentity-section { display:flex;flex-direction:row;  }
+.newsFeedModule-authorIdentity-leftContainer { width:20%; }
+.newsFeedModule-authorIdentity-profilePic { width:55px;height:55px;border-radius:50%; }
+.newsFeedModule-authorIdentity-rightContainer { width:80%; }
+.newsFeedModule-authorIdentity-rightContainer-panel { margin-top:5px; }
+.newsFeedModule-authorIdentity-rightContainer-badge { font-size:12px;border:1px solid #ccc;padding:3px 8px;border-radius:5px;
+    background-color:#eee;color:#555; }

@@ -1,44 +1,17 @@
 import React from "react";
+import './index.css';
 
 const ArticleCategoryTag = ({ category, subCategory }) => {
     return (
-        <div style={{
-            display: 'flex',
-            alignItems: 'center',
-            flexWrap: 'wrap',
-            gap: '7px',
-            marginBottom: '12px'
-        }}>
-
+        <div className="newsFeedModule-articleCategoryTag-section">
             {/* Category */}
-            <span style={{
-                fontSize: '11px',
-                fontWeight: '700',
-                color: '#2463B5',
-                backgroundColor: '#EAF2FF',
-                padding: '6px 10px',
-                borderRadius: '5px'
-            }}>
-                {category}
-            </span>
+            <span className="newsFeedModule-articleCategoryTag-categoryTitle">{category}</span>
 
             {/* Separator */}
-            <span style={{
-                color: '#A0A0A0',
-                fontSize: '12px'
-            }}>
-                /
-            </span>
+            <span className="newsFeedModule-articleCategoryTag-separator">/</span>
 
             {/* Sub Category */}
-            <span style={{
-                fontSize: '11px',
-                fontWeight: '600',
-                color: '#64748B'
-            }}>
-                {subCategory}
-            </span>
-
+            <span className="newsFeedModule-articleCategoryTag-subCategoryTitle">{subCategory}</span>
         </div>
     );
 };

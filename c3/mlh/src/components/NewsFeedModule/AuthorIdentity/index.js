@@ -1,17 +1,17 @@
 import React from "react";
+import './index.css';
 
 const AuthorIdentity = () =>{
  return (<>
-  <div style={{ display:'flex', flexDirection:'row' }}>
-    <div style={{ width:'15%'}}>
+  <div className="newsFeedModule-authorIdentity-section">
+    <div className="newsFeedModule-authorIdentity-leftContainer">
         <img src="https://images.unsplash.com/photo-1522075469751-3a6694fb2f61?auto=format&fit=crop&w=120&q=80" 
-            style={{ width:'45px', height:'45px', borderRadius:'50%' }} />
+            className="newsFeedModule-authorIdentity-profilePic" />
     </div>
-    <div style={{ width:'75%'}}>
-        <div style={{ marginTop:'2px' }}>
-            <div><b>Dr. Aris Thorne</b></div>
-            <span style={{ fontSize:'12px', border:'1px solid #ccc', padding:'3px 8px', 
-                borderRadius:'5px', backgroundColor:'#eee', color:'#555' }}>Local Business Owner</span>
+    <div className="newsFeedModule-authorIdentity-rightContainer">
+        <div className="newsFeedModule-authorIdentity-rightContainer-panel">
+            <div style={{ marginBottom:'2px' }}><b>Dr. Aris Thorne</b></div>
+            <span className="newsFeedModule-authorIdentity-rightContainer-badge">Local Business Owner</span>
         </div>
     </div>
  </div>
@@ -19,3 +19,4 @@ const AuthorIdentity = () =>{
 };
 
 export default AuthorIdentity;
+

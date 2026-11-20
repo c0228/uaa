@@ -98,6 +98,7 @@ const NCardTemplate1 = () =>{
                             <span style={{ fontSize:'13px', color:'#999', marginRight:'15px'  }}>0</span>
                             <Icon type="FontAwesome" name="fa-share" size="13" color="#777" style={{ marginRight:'5px' }} />
                             <span style={{ fontSize:'13px', color:'#999', marginRight:'15px'  }}>0</span>
+                            <span style={{ marginLeft:'15px', fontSize:'14px', color:'#999' }}><b>214 Voices</b></span>
                             </div>
                         </Col>
                     </Row>

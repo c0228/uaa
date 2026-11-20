@@ -4,7 +4,7 @@ import { AppColors } from "@Utils/AppColors.js";
 import ScrollToTop from "@Components/UIElements/ScrollToTop/index.js";
 import NewsCard from "@Components/NewsFeedModule/NewsCard/index.js";
 import TitleTopSection from "./components/title-top-section/index.js";
-import NCardTemplate1 from "@Components/NewsFeedModule/NCardTemplate1/index.js";
+import NCardTemplate1 from "@Templates/NewsFeedModule/NCardTemplate1/index.js";
 import NCardTemplate2 from "@Components/NewsFeedModule/NCardTemplate2/index.js";
 import Header1 from "@Templates/Header1/index.js";
 import CreateNewsArticle from "./components/create-news-article/index.js";
