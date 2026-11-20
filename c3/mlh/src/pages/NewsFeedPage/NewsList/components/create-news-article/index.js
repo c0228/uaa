@@ -9,8 +9,11 @@ import './index.css';
 const CreateNewsArticle = () =>{
  const newsListContext = getNewsListContext();
  const CloseCreateArticleHandler = () =>{
-  const createArticleVar = newsListContext?.contextData?.createArticle?.modalStatus;
-  newsListContext?.setContextData({ createArticle: {...createArticleVar, modalStatus: 'close' } });
+  newsListContext?.setContextData([{
+        path: "createArticle.modalStatus",
+        value: "close",
+        mode: "replace"
+  }]);
  };
  useEffect(()=>{
     document.body.style.overflow = (newsListContext?.contextData?.createArticle?.modalStatus ==='open')?'hidden':'scroll';

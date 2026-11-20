@@ -6,9 +6,11 @@ import './index.css';
 const TitleTopSection = () =>{
  const newsListContext = getNewsListContext();
  const CreateArticleHandler = () =>{
-    const createArticleVar = newsListContext?.contextData?.createArticle;
-    console.log("createArticleVar: ", createArticleVar);
-    newsListContext?.setContextData({ createArticle: {...createArticleVar, modalStatus: 'open' }});
+    newsListContext?.setContextData([{
+        path: "createArticle.modalStatus",
+        value: "open",
+        mode: "replace"
+    }]);
  };
  return (<div>
     <div style={{ display:'flex', backgroundColor:'#f7f7f7', padding:'15px', borderBottom:'1px solid #ccc' }}>
