@@ -29,10 +29,10 @@ const NewsList = () =>{
           <NCardTemplate1 />
         </Col>
         <Col md={4}>
-        
+          <NCardTemplate1 />
         </Col>
         <Col md={4}>
-        
+          <NCardTemplate1 />
         </Col>
       </Row>
       <Row>
