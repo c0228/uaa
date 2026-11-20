@@ -1,5 +1,5 @@
 .newsFeedModule-articleCategoryTag-section { display:flex;align-items:center;flex-wrap:wrap;gap:7px;margin-bottom:12px; }
-.newsFeedModule-articleCategoryTag-categoryTitle { font-size:11px;font-weight:700;color:#2463B5;background-color:#EAF2FF;
+.newsFeedModule-articleCategoryTag-categoryTitle { font-size:12px;font-weight:700;color:#2463B5;background-color:#EAF2FF;
                 padding:6px 10px;border-radius:5px; }
 .newsFeedModule-articleCategoryTag-separator { color:#A0A0A0;font-size:12px; }
-.newsFeedModule-articleCategoryTag-subCategoryTitle { font-size:11px;font-weight:600;color:#64748B; }
+.newsFeedModule-articleCategoryTag-subCategoryTitle { font-size:12px;font-weight:600;color:#64748B; }

@@ -5,7 +5,7 @@ import ScrollToTop from "@Components/UIElements/ScrollToTop/index.js";
 import NewsCard from "@Components/NewsFeedModule/NewsCard/index.js";
 import TitleTopSection from "./components/title-top-section/index.js";
 import NCardTemplate1 from "@Templates/NewsFeedModule/NCardTemplate1/index.js";
-import NCardTemplate2 from "@Components/NewsFeedModule/NCardTemplate2/index.js";
+import NCardTemplate2 from "@Templates/NewsFeedModule/NCardTemplate2/index.js";
 import Header1 from "@Templates/Header1/index.js";
 import CreateNewsArticle from "./components/create-news-article/index.js";
 import { NewsListContextProvider, getNewsListContext } from "./context.js";
@@ -24,13 +24,24 @@ const NewsList = () =>{
    <Header1 />
    <TitleTopSection />
    <ContainerFluid>
+      <Row className="mtop15p">
+        <Col md={4}>
+          <NCardTemplate1 />
+        </Col>
+        <Col md={4}>
+        
+        </Col>
+        <Col md={4}>
+        
+        </Col>
+      </Row>
       <Row>
          {["",""]?.map((d,i)=>{
-            return(<Col key={i} md={6}><NCardTemplate1 /></Col>);
+            return(<Col key={i} md={6}><NCardTemplate2 /></Col>);
          })}
       </Row>
    </ContainerFluid>
-  <div style={{ marginBottom:'65px' }}>
+ {/* <div style={{ marginBottom:'65px' }}>
     <ContainerFluid className="mtop15p">
     <Row>
       {data?.map((d,i)=>{
@@ -47,7 +58,7 @@ const NewsList = () =>{
             return(<Col key={i} md={6}><NCardTemplate1 /></Col>);
          })}
       </Row>
-   </ContainerFluid>
+   </ContainerFluid> */}
  </NewsListContextProvider>);
 };
 
