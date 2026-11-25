@@ -17,6 +17,20 @@
 	<!-- -->
 	</div>
 	<div class="col-md-7">
+		<!-- -->
+		<div class="list-group">
+			<div class="list-group-item">
+				<div class="mtop15p"><h5><b>Incoterms (International Commercial Terms)</b></h5></div>
+				<div class="mtop15p"><b>Incoterms</b> are <code><b>11 standardized trade rules</b></code> published by the <i><u>International Chamber of Commerce (ICC)</u></i> that 
+				define buyer and seller responsibilities for delivery, shipping costs, customs, and risk transfer 
+				in international sales</div>
+				<div class="mtop15p"><b>Current Version:</b> Incoterms 2020</div>
+				<div class="mtop15p">
+					<img src="assets/img/incoterms.png" />
+				</div>
+			</div>
+		</div>
+		<!-- -->
 	</div>
   </div>
 </div>
